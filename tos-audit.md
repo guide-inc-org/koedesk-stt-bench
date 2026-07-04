@@ -23,8 +23,9 @@
 | 9 | Azure AI Speech（候補） | Cognitive Services Speech | ⚠️ 条件付き | Microsoft Product Terms（Universal License Terms for Online Services）に「Competitive Benchmarking」条項。事前同意は不要だが、koedeskが「競合製品」に該当する場合、Microsoftの請求に応じて再現情報の提供＋Microsoftによる反対ベンチマーク実施への協力義務が発生 |
 | 10 | Speechmatics（候補） | STT API | ✅ 公開可（要再確認） | Terms of Serviceにベンチマーク条項見つからず。むしろ自社ブログで他社比較ベンチマーク手法を公開しており、比較文化に寛容な可能性 |
 | 11 | xAI | Grok Speech-to-Text (`/v1/stt`) | ❌ **禁止 → 除外（2026-07-04 maintainer decision）** | Enterprise Customer Agreement（API利用に適用・GSA承認版 June 2025 原文で確認）の禁止行為 **(j)項**: "use or permit the use of any tools in order to probe, scan or attempt to penetrate or **benchmark** any Services"。probe/scan/penetrateと並置でセキュリティ試験文脈と読む余地はあるが、"benchmark"が禁止リストに明記されている以上、AssemblyAI 2.4(f)と同基準で除外が整合。書面同意が得られればv1.1で追加可 |
+| 12 | Microsoft（MAI） | MAI-Transcribe-1.5（Azure Speech LLM Speech API 経由・2026-07-05 追加監査） | ⚠️ 条件付き | Microsoft first-party モデル＝#9 と同一の Product Terms「Competitive Benchmarking」条項（相互主義のみ・禁止なし・事前同意不要）が適用。MAI 固有の追加規約・AUP は不在。API は public preview（Preview 補足規約にもベンチ制限なし）。詳細 §2.11 |
 
-**判定内訳**: ✅公開可 6／⚠️条件付き 2／❌禁止 2／❓要追加確認 1（下記「未確認事項」参照）
+**判定内訳**: ✅公開可 6／⚠️条件付き 3／❌禁止 2／❓要追加確認 1（下記「未確認事項」参照）
 
 **特に危険な条項を持つプロバイダ**: **AssemblyAI**（ToS 2.4(f)で競合分析・ベンチマーク自体を明示的に禁止。公開の可否以前に、実測（API呼び出し）そのものが契約違反になり得る）と**xAI**（ECA (j)項に"benchmark"明記→除外決定）。次点で**Google Cloud**と**Microsoft Azure**（禁止ではないが、公開時に相手方への相互ベンチマーク機会付与や情報開示という「条件」が付く）。
 
@@ -126,6 +127,19 @@
 - **参考（規約ではない）**: Speechmatics自身が公式ブログで["How to accurately benchmark speech technology providers"](https://www.speechmatics.com/company/articles-and-news/how-to-accurately-benchmark-speech-technology-providers)という記事を公開しており、比較ベンチマーク文化そのものには前向きと推測される（ただしこれは規約ではなくマーケティング記事であり法的拘束力なし＝参考情報にとどめる）。
 - **判定**: ✅ 公開可（要再確認）
 - **根拠**: ToS本文に該当条項なし。ただし個別契約（Order Form等）で追加条項が入る可能性は他社同様に否定できない。
+
+### 2.11 MAI-Transcribe-1.5（Microsoft・2026-07-05 追加監査）
+- **文書**: [Microsoft Product Terms — Universal License Terms for Online Services](https://www.microsoft.com/licensing/terms/product/ForOnlineServices/all)、[Code of Conduct for Microsoft AI Services（v4.0, 2026-05-01）](https://learn.microsoft.com/en-us/legal/ai-code-of-conduct)、[Supplemental Terms of Use for Microsoft Azure Previews（June 2026）](https://azure.microsoft.com/en-us/support/legal/preview-supplemental-terms)、[MAI-Transcribe in LLM Speech API（Learn, 2026-05-28）](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/mai-transcribe)、[Foundry Models sold directly by Azure](https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure)
+- **アクセス日**: 2026-07-05
+- **モデルの素性**: Microsoft AI (MAI) Superintelligence team 開発の **Microsoft first-party** モデル（2026-06-02 GA 発表・43言語・$0.36/h〜）。Foundry 上の区分は「Models sold directly by Azure」＝ Microsoft Product Terms が適用され、「Models from partners and community」向けのプロバイダ独自規約は**適用されない**。
+- **適用条項**: §2.9 と同一の「Competitive Benchmarking」条項のみ（原文は §2.9 に引用済み）。Product Terms 変更履歴（最新公開 2026-07-01）の過去12ヶ月に同条項への変更なし＝現行有効を確認。ページ全文で "benchmark" の出現はこの条項のみで、旧来の「公表に事前書面承諾が必要」型条項は現行 Online Services 規約には存在しない。
+- **Code of Conduct for Microsoft AI Services**: Responsible AI requirements / Usage restrictions（21項目）/ Content requirements のいずれにもベンチマーク・評価・比較公表の制限なし。
+- **Generative AI Services 固有制限**: 禁止対象は①モデル内部構造の探索・重み抽出、②スクレイピングによるデータ抽出、③競合AIシステム訓練用の合成データ生成のみ。転写出力を正解と突合して WER/CER を計測・公表する行為はいずれにも非該当。"Output Content is Customer Data. Microsoft does not own Customer's Output Content." により生レスポンス全量保存・公開（R-2.5）も出力の権利面で問題なし。
+- **Preview 規約**: 実 API（`speechtotext/transcriptions:transcribe?api-version=2025-10-15` + `enhancedMode.model: "mai-transcribe-1.5"`）は **public preview**（SLAなし）。Preview 補足規約にベンチマーク・性能公表の制限なし（守秘義務は限定 Early Access Preview のみに掛かる規定で public preview には非適用）。
+- **判定**: ⚠️ 条件付き公開可（§2.9 と同条件）
+- **根拠**: xAI 条項(j)型の禁止・事前承諾要件は不在。条件は §2.9 と同じ相互主義のみ＝(a) 再現情報の提供（公開 repo の設計で構造的に充足済み）(b) Microsoft による koedesk への反対ベンチマークの許容。
+- **公平性上の注記（規約ではなく報告義務）**: preview API 経由での計測であることを結果公表時に明記する（GA 前の品質である可能性の開示）。
+- **実測前の再確認事項**: ①Product Terms はサイト表示＝現行の建付けで版数スタンプがないため、実測開始時に条項スナップショット（日付入り）を本ファイルに残す ②Competitive Benchmarking 条項の放棄効果（koedesk 自身の利用規約に anti-benchmark 条項があれば Azure 利用により放棄したことになる）→ koedesk ToS の該当条項有無を確認 ③ベンチ対象12言語が MAI の対応43言語に全て含まれるか確認（含まれない言語は「非対応」表記＝設計上の論点）。
 
 ---
 
