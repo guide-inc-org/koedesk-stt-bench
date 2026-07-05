@@ -24,7 +24,7 @@
 | 10 | Speechmatics（候補） | STT API | ✅ 公開可（要再確認） | Terms of Serviceにベンチマーク条項見つからず。むしろ自社ブログで他社比較ベンチマーク手法を公開しており、比較文化に寛容な可能性 |
 | 11 | xAI | Grok Speech-to-Text (`/v1/stt`) | ❌ **禁止 → 除外（2026-07-04 maintainer decision）** | Enterprise Customer Agreement（API利用に適用・GSA承認版 June 2025 原文で確認）の禁止行為 **(j)項**: "use or permit the use of any tools in order to probe, scan or attempt to penetrate or **benchmark** any Services"。probe/scan/penetrateと並置でセキュリティ試験文脈と読む余地はあるが、"benchmark"が禁止リストに明記されている以上、AssemblyAI 2.4(f)と同基準で除外が整合。書面同意が得られればv1.1で追加可 |
 | 12 | Microsoft（MAI） | MAI-Transcribe-1.5（Azure Speech LLM Speech API 経由・2026-07-05 追加監査） | ⚠️ 条件付き | Microsoft first-party モデル＝#9 と同一の Product Terms「Competitive Benchmarking」条項（相互主義のみ・禁止なし・事前同意不要）が適用。MAI 固有の追加規約・AUP は不在。API は public preview（Preview 補足規約にもベンチ制限なし）。詳細 §2.11 |
-| 13 | Mistral AI | Voxtral Mini Transcribe V2（`voxtral-mini-latest`・2026-07-05 追加監査） | ✅ 公開可（要目視再確認） | Commercial Terms of Service（2026-05-28）・Usage Policy（2026-06-11）・Additional Product Terms（2026-05-28）のいずれにもベンチマーク・競合分析・結果公表を制限する条項なし。詳細 §2.12 |
+| 13 | Mistral AI | Voxtral Mini Transcribe V2（`voxtral-mini-latest`・2026-07-05 追加監査・**Amendment 5でエンジン#9として追加済み・実測は日付固定ID `voxtral-mini-2602`**） | ✅ 公開可（要目視再確認） | Commercial Terms of Service（2026-05-28）・Usage Policy（2026-06-11）・Additional Product Terms（2026-05-28）のいずれにもベンチマーク・競合分析・結果公表を制限する条項なし。詳細 §2.12 |
 
 **判定内訳**: ✅公開可 7／⚠️条件付き 3／❌禁止 2／❓要追加確認 1（下記「未確認事項」参照）
 
@@ -149,7 +149,7 @@
 - **ベンチマーク条項**: Commercial ToS・Usage Policy・Additional Product Terms の3文書とも benchmark/competitive/評価結果公表を制限する条項**なし**（機械スキャンによる走査。Deepgram同様、実測前に人間の目視再確認を推奨）
 - **Use Restrictions（Commercial ToS §2.2）**: 禁止は (d) "attempt to reverse engineer, decompile, or otherwise attempt to discover the source code or underlying components (e.g., algorithms, weights, or systems)"、(e) "use the Output or any modified version of the Output to reverse engineer the Mistral AI Products" のみ。転写出力を正解と突合してWER/CERを計測・公表する行為はモデル内部構造の探索に非該当
 - **Audio固有条項（Additional Product Terms §10）**: 違法目的・無同意の声クローン・詐欺/偽情報等の禁止のみ。ベンチマーク関連なし
-- **判定**: ✅ 公開可（要目視再確認）
+- **判定**: ✅ 公開可（要目視再確認）。**2026-07-05 メンテナ決定によりエンジン#9として追加（Amendment 5）**
 - **⚠️設計上の論点（規約ではない）**:
   1. **対応言語は13言語（en/zh/hi/es/ar/fr/pt/ru/de/ja/ko/it/nl）で、ベンチ12言語のうち vi/id/th が非対応**。参加は9言語のみ＝AmiVoice（jaのみ）と同型の「対応言語のみ参加・非対応セルは明示」の扱いが必要
   2. Mistral自身の公称値がFLEURS計測＝Track A公開セット。公開テストセットへの過学習可能性は全hostedエンジン共通の論点（Track B新規録音が対抗軸）だが、名指し比較の相手なので結果公表時に文脈として明記する価値あり
