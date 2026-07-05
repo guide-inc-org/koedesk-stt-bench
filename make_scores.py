@@ -124,7 +124,7 @@ def score_cell(lang: str, recs: list[dict]) -> dict:
         if r.get("duration_sec"):
             rtfs.append(r.get("latency_sec", 0.0) / r["duration_sec"])
         params = r.get("params") or {}
-        for key in ("model", "model_id", "modelId"):
+        for key in ("model", "model_id", "modelId", "grammarFileNames"):
             if params.get(key):
                 model_ids.add(str(params[key]))
         ts = r.get("timestamp_utc") or ""
