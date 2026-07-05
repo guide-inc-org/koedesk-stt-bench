@@ -16,6 +16,7 @@
 
 Usage:
   python3 normalize_audio.py            # data/audio → data/audio_orig 退避後、正規化版を data/audio に生成
+  python3 normalize_audio.py --lang zh  # 指定言語のみ (audio/zh → audio_orig/zh 退避後、正規化版を audio/zh に生成)
   python3 normalize_audio.py --check    # 正規化済みかの検査のみ
 """
 import argparse
@@ -44,6 +45,7 @@ def normalize_file(src: str, dst: str) -> dict:
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--check", action="store_true")
+    ap.add_argument("--lang", help="この言語ディレクトリのみ処理 (audio_orig に他言語が既存でも可)")
     args = ap.parse_args()
 
     if args.check:
@@ -63,6 +65,30 @@ def main():
                     bad += 1
         print("check:", "OK (all normalized)" if bad == 0 else f"{bad} files not normalized")
         sys.exit(1 if bad else 0)
+
+    if args.lang:
+        # 言語単位モード: audio/{lang} → audio_orig/{lang} 退避後、正規化版を audio/{lang} に生成
+        src_live = os.path.join(AUDIO_DIR, args.lang)
+        dst_orig = os.path.join(ORIG_DIR, args.lang)
+        if os.path.exists(dst_orig):
+            print(f"{dst_orig} が既に存在 = この言語は正規化済みの可能性。--check で確認を", file=sys.stderr)
+            sys.exit(1)
+        if not os.path.isdir(src_live):
+            print(f"{src_live} がない (先に download_fleurs.py --lang {args.lang} を実行)", file=sys.stderr)
+            sys.exit(1)
+        os.makedirs(ORIG_DIR, exist_ok=True)
+        shutil.move(src_live, dst_orig)
+        os.makedirs(src_live)
+        n = 0
+        for f in sorted(os.listdir(dst_orig)):
+            if not f.endswith(".wav"):
+                continue
+            meta = normalize_file(os.path.join(dst_orig, f), os.path.join(src_live, f))
+            n += 1
+            if meta["scale"] > 10:
+                print(f"  {args.lang}/{f}: 大幅増幅 x{meta['scale']:.1f} (元peak={meta['peak_before']:.4f})")
+        print(f"normalized {n} files → {src_live} (originals in {dst_orig})")
+        return
 
     if os.path.exists(ORIG_DIR):
         print(f"{ORIG_DIR} が既に存在 = 正規化済みの可能性。--check で確認を", file=sys.stderr)
