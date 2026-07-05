@@ -108,7 +108,7 @@ Any normalization change after the preregistration commit requires a versioned a
 - **Hard failures**: an API error persisting after 3 retries (exponential backoff, then one final retry in a later window) causes that utterance to be dropped **for all engines in that language** (keeps the design paired), and is listed in an errata file. If >2% of a language's utterances are dropped this way, the language's results are flagged as degraded.
 - **Secondary metrics**:
   - *Technical-term recall* (B-3 only): per-term recall against a published term list per script; a term counts as recalled if its normalized form appears in the normalized hypothesis.
-  - *Latency*: wall-clock seconds per audio second (RTF), request-to-response, measured from one machine/network (Mac mini, Tokyo-region ISP), reported as median (p50) and p90. Informational, not a ranking axis.
+  - *Latency*: wall-clock seconds per audio second (RTF), request-to-response, measured from one machine (Mac mini, physically in Vietnam; all traffic egresses via a company VPN exit node on AWS ap-northeast-1, Tokyo — description corrected by Amendment 6), reported as median (p50) and p90. Informational, not a ranking axis.
   - *Price*: vendor list price per audio-hour at run date.
 - **Semantic-preservation score (auxiliary, B-2 only)**: an LLM-judge rates whether hypothesis preserves the meaning of the reference (fabrications/omissions), prompt + judge model pinned and published, 3 independent votes, median taken. Reported in the article as an auxiliary view, never in the leaderboard ranking.
 

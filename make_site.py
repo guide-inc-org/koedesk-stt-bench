@@ -72,7 +72,10 @@ NOTES = [
      "(unified billing); their latency figures include the gateway hop. Accuracy is "
      "unaffected."),
     ("latency", "RTF = request wall-clock seconds ÷ audio seconds, measured from one "
-     "machine (Mac mini, Tokyo-region ISP). Informational, not a ranking axis (§6)."),
+     "machine (Mac mini in Vietnam; all traffic egresses via a VPN exit node on AWS "
+     "ap-northeast-1, Tokyo — Amendment 6). The identical path applies to every engine, "
+     "so relative comparison is unaffected; absolute values include the fixed VPN-hop "
+     "overhead. Informational, not a ranking axis (§6)."),
     ("price", "Prices are vendor list prices per audio-hour at run date. “—” means "
      "the vendor has no per-hour list price (token-priced Gemini variants; AmiVoice "
      "measured on its free tier)."),
@@ -304,7 +307,8 @@ only; Voxtral: no vi/id/th). #T1 counts languages where the engine is in the top
 Re-running any cell needs only your own API keys.</p>
 
 <footer>
-Run window: 2026-07-05 (UTC), single machine (Mac mini, Tokyo-region ISP).
+Run window: 2026-07-05 (UTC), single machine (Mac mini in Vietnam, egress via VPN exit
+node on AWS Tokyo — Amendment 6).
 Next scheduled refresh: quarterly (2026-10).
 Code: MIT · documents &amp; this page: CC-BY 4.0 · © 2026
 <a href="https://koedesk.app">koedesk</a> (Guide Inc.)

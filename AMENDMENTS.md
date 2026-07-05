@@ -69,3 +69,13 @@ Before any headline measurement, the full Track A reference corpus (FLEURS, firs
 2. `context_bias` (vocabulary biasing) is never used, per R-2.3. `diarize` off, timestamps off, defaults otherwise, per R-2.4. Language is always passed explicitly, per R-2.2 (plain ISO-639-1 codes; the API offers no regional variants, so es/pt map to `es`/`pt` and this is recorded in the adapter's mapping table).
 3. No scoring or normalization rule changes accompany this amendment; the dual-table obligation is not triggered (no cell measured under any prior rule).
 4. Pricing recorded at amendment time: $0.003/min (vendor announcement); to be cross-checked against the billing dashboard after the first run.
+
+---
+
+## Amendment 6 — correction of the §6 latency measurement-environment description (2026-07-05)
+
+**Defect.** §6 described the latency measurement environment as "one machine/network (Mac mini, Tokyo-region ISP)". This is factually wrong in two ways, discovered after the Track A publication when the operator flagged it: the measurement machine (Mac mini) is physically located in **Vietnam**, and its egress is not a Tokyo ISP but a **company VPN exit node on AWS ap-northeast-1 (Tokyo)** (measured RTT from the machine to the exit node ≈ 86 ms at correction time). Every request from every engine cell traversed this identical path.
+
+**Impact on published numbers: none are changed.** Latency (RTF p50/p90) is an informational metric, not a ranking axis (§6). Because the VPN hop is common to all engines, relative RTF comparison is unaffected; absolute RTF values include a fixed per-request overhead from the Vietnam→Tokyo hop and TLS setup over it. `results/scores.json` is untouched by this amendment. Accuracy metrics never depended on the network description.
+
+**Change.** The §6 environment sentence is corrected in place with a reference to this amendment, and the leaderboard page's footer and latency note are corrected to match. This is a defects-only documentation fix under §7; no scoring, normalization, or data change accompanies it.
