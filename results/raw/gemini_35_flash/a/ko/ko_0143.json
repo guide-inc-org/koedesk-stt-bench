@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0143",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.14,
+  "ref_text_raw": "플리트비체 호수 국립공원은 대게 너도밤나무, 가문비나무, 전나무, 그리고 알프스와 지중해성 식물로 울창하게 삼림이 우거져 있다.",
+  "ref_text_normalized": "플리트비체 호수 국립공원은 대게 너도밤나무 가문비나무 전나무 그리고 알프스와 지중해성 식물로 울창하게 삼림이 우거져 있다",
+  "timestamp_utc": "2026-07-05T06:22:12Z",
+  "text": "플리트비체 호수 국립공원은 대개 너도밤나무 가문비나무 전나무 그리고 알프스와 지중해성 식물로 울창하게 삼림이 우거져 있다.",
+  "latency_sec": 5.644,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "플리트비체 호수 국립공원은 대개 너도밤나무 가문비나무 전나무 그리고 알프스와 지중해성 식물로 울창하게 삼림이 우거져 있다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232532,
+    "id": "EPhJau-ACfeZ0-kPrbzayQU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 275,
+      "total_tokens": 957
+    }
+  }
+}

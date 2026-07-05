@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0128",
+  "lang": "zh",
+  "engine": "gemini_25_pro",
+  "duration_sec": 16.12,
+  "ref_text_raw": "狮群由一到三只有亲属关系的成年雄性，以及可多达三十只的雌性和幼崽组成。",
+  "ref_text_normalized": "狮 群 由 一 到 三 只 有 亲 属 关 系 的 成 年 雄 性 以 及 可 多 达 三 十 只 的 雌 性 和 幼 崽 组 成",
+  "timestamp_utc": "2026-07-05T09:02:20Z",
+  "text": "獅群由一到三隻有親屬關係的成年雄性, 以及可多達三十隻的雌性和幼崽組成。",
+  "latency_sec": 5.0498,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "獅群由一到三隻有親屬關係的成年雄性, 以及可多達三十隻的雌性和幼崽組成。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242140,
+    "id": "mB1KasiSHsGn2roP073K4AE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 537,
+      "total_tokens": 596
+    }
+  }
+}

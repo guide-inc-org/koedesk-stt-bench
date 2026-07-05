@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0168",
+  "lang": "ko",
+  "engine": "gemini_25_flash",
+  "duration_sec": 16.38,
+  "ref_text_raw": "\"레이튼(Layton)은 총리와의 면담에서 보수당의 환경 법안을 \"\"철저히, 완전하게 재작성\"\" 할 것을 요청하며, 보수당의 환경 법안에 대한 변경을 촉구했다.\"",
+  "ref_text_normalized": "\"레이튼layton은 총리와의 면담에서 보수당의 환경 법안을 \"철저히 완전하게 재작성\" 할 것을 요청하며 보수당의 환경 법안에 대한 변경을 촉구했다.",
+  "timestamp_utc": "2026-07-05T06:06:17Z",
+  "text": "레이튼 레이튼은 총리와의 면담에서 보수당의 환경법안을 철저히 완전하게 재작성할 것을 요청하며 보수당의 환경법안에 대한 변경을 촉구했다.",
+  "latency_sec": 3.5066,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "레이튼 레이튼은 총리와의 면담에서 보수당의 환경법안을 철저히 완전하게 재작성할 것을 요청하며 보수당의 환경법안에 대한 변경을 촉구했다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231577,
+    "id": "VvRJasOXLcqfvr0Plb-amQM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 46,
+      "prompt_tokens": 546,
+      "total_tokens": 592
+    }
+  }
+}

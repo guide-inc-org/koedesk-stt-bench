@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0024",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 6.9,
+  "ref_text_raw": "具体说来，据说可以通过正确解读微表情来判断一个人是否在撒谎。",
+  "ref_text_normalized": "具 体 说 来 据 说 可 以 通 过 正 确 解 读 微 表 情 来 判 断 一 个 人 是 否 在 撒 谎",
+  "timestamp_utc": "2026-07-05T06:20:51Z",
+  "text": "具体说来,这就可以通过正确解读微表情来判断一个人是否在撒谎。",
+  "latency_sec": 3.3872,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "7s",
+      "requestId": "7b61782b-0000-2f31-a50b-f40304373cc8",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "具体说来,这就可以通过正确解读微表情来判断一个人是否在撒谎。"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

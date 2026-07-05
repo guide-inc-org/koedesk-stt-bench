@@ -1,0 +1,45 @@
+{
+  "utt_id": "pt_0063",
+  "lang": "pt",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.24,
+  "ref_text_raw": "A superfície da Lua é composta de pedras e poeira. A camada externa da Lua é chamada de crosta.",
+  "ref_text_normalized": "a superfície da lua é composta de pedras e poeira a camada externa da lua é chamada de crosta",
+  "timestamp_utc": "2026-07-05T06:48:05Z",
+  "text": "A superfície da lua é composta de pedras e poeira. A camada externa da lua é chamada de crosta.",
+  "latency_sec": 3.4878,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "A superfície da lua é composta de pedras e poeira. A camada externa da lua é chamada de crosta.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtoECtcEARFNMg/XvRy3UBegKJ8KzuJ1Xwsd8E2SFaTJ68EaCdX/YM2olpNxV3Ga4xquz4E1T1OjbMgQhwPJpAzwXJDJdsW0JaDcw6rrWKwlKecdMgi6GFAsVWplOMqG/IIMhxMoLBU/Ohi2GDsXnYOW2EvRHWX02vpqVjYFFIXKE2oqxVz2YZo7qK/WzRL/VTqyNVD6XeGcDrGXQQF48aPmhk2c9HFr7JNxSombpw17UmseH8OTtxldxLY00KTfg/YmhlUCcUNcHfVaJFea2M28296s91YBYe29ZQBjLZ40DAET9MBVj8MJt05Q9zyqXFRt3LZ0rzhMocwkRyR5o4SEFm6akHSmKEha+DDKe6/uT+et9mLXRfTXN7qNeJTeUPE5KJP5Gu8qXlTdqo5uymU+qaXyaAoxROHbFlXUitqVHY4tMbVo2LjO86syb6nQH5sjldAejmJXX6Abdu0N73br6gGtp2SYOviFQUUA+Rxwpmyj55xqvOCXUv5aeTVoXmX39DB1qDww5X4fvEj9wEeEzSgS6vVRiDWiW45nmUxGFkkrx47I5OZW3mdYeKhgBmrikzSr1Z+QVHYGQbm6FF/Tr0+BBk5Z87+bO6BV853Bc/5UiBeHCD/njd0+3opPs1MvFvyHTBJLy3/3HUCjHbvyfntTtCT4U8cIVSQY3ZPJhrChR/X//MtdWrpDpsCakvz5hDr5ysG1XlgxrWhbGyHywxjE5YBUct4z3Li3tBzWkdzBjoGfTRYp4tKAEPsl0y3li1UNiQx9guN3lTAudViqqbZLziUyretimB8="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234085,
+    "id": "I_5JatnNIpi9vr0P4KaPwQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 252,
+      "total_tokens": 419
+    }
+  }
+}

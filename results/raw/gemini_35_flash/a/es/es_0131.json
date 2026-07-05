@@ -1,0 +1,45 @@
+{
+  "utt_id": "es_0131",
+  "lang": "es",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.32,
+  "ref_text_raw": "Las plantas generan el oxígeno que las personas respiran y absorben el dióxido de carbono que ellas exhalan (que despiden).",
+  "ref_text_normalized": "las plantas generan el oxígeno que las personas respiran y absorben el dióxido de carbono que ellas exhalan que despiden",
+  "timestamp_utc": "2026-07-05T04:39:33Z",
+  "text": "Las plantas generan el oxígeno que las personas respiran y absorben el dióxido de carbono que ellas exhalan, que despiden.",
+  "latency_sec": 3.5285,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Las plantas generan el oxígeno que las personas respiran y absorben el dióxido de carbono que ellas exhalan, que despiden.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "ErcGCrQGARFNMg8FdwwNcYYNhpoa/5ckEU14F9FjeobIHpjNUAJg9EWb3ed9SxBD0uCKoayBr7HLlEF3ljuuBBQUTlzq1gTqRlqy829nQQ0N44wtAO/E94aPiPH1imymzIK0lDDiaPin5aGhs0lKgi40q0WEQ7F5GRo66QHgKbPNCV9zRgR0K2nqy9wmeTUISoHGsP9UcjwW0cFpAmDDJ4m0dMgHP6zXDE5Ww/7fXa8D5+flIpIIBIQaRRhPkFLgSjkgq57//YOFmvS6MaIESxuMMDw+bL7OM6N4L/K0JPBDBJywR+n+BtQQvLvdd1+Zqqh87L2NVWMmv5j2Yuk/hWeW8w548Uwh+Kg7uB3I6NWaUEEWV7BpaJiXSa1zQj1yVmRC34s3ox9CqmeardUSTFQ5fQxdQvRtODc86QxCgXhMLvQAoK14VD1gW9oh9w1MM113wTyQZ75vUZoyDGFOpH00MK5QghXA26OwXbdDVt4QyupydUCwnICBqFR42fYruHorzxmyAcCJfrPjCTV2VjCwb8nNB5z7JodStijyXtjalKZkuOLx0E5DUg35ZDwJuIl/zfRHYWHqQKuXMY112bcYg64NeCbQ8EmIhUOQBaZzlqG5jyyd5+//TYm5v5ubroQgsaKoYX2USsOSvwoCD33gJbFmijPmQJqjFXWWJHx6Xi55DGbsZ5HC0VvdBWUw9xmxuYc73t8oLCyrFOnPTDmEZcu5ooTbqvcRohkEtA331oBjyUqk6HCVpX0lEUoa5pqJD1uKogazh59JaPmkk5RZUyVNCMu773rS4HtaU58WLyKegy5tBAGg4ZkmUzp0akY8VUjDPEAI0Q1jnnoD2n0bPPbbMYbF7ipP3KjQXl5RD+bCehjxoC4EiHpjYe2319V4iZFh/6KKkyx2MISHkWZVSHxUjJl80L+6FIc0PEUuzb8aKNhJ8zcPt57QkjFvEzChbiHC4fFW77Kt16whrAUvgMbjcv6iygGoFOGH8CSOfkgRJp6dq9OX5+eenwiuWPPCYalaGLd2ji1jfjiGTNuYJGKVrK/07lFegH9aw7THs9qfMf+RMgXlwmz9m2m9lIIggm4OTjwjDw=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226373,
+    "id": "AuBJauHmNbyo1e8Prpqp8QY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 279,
+      "total_tokens": 515
+    }
+  }
+}

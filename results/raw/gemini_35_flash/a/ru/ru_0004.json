@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0004",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 19.44,
+  "ref_text_raw": "Причиной дебатов стали разногласия относительно затрат на оказание материальной поддержки и восстановление зданий после урагана Катрина, который некоторые фискальные консерваторы в шутку назвали \"новоорлеанской сделкой Буша\".",
+  "ref_text_normalized": "причиной дебатов стали разногласия относительно затрат на оказание материальной поддержки и восстановление зданий после урагана катрина который некоторые фискальные консерваторы в шутку назвали новоорлеанской сделкой буша",
+  "timestamp_utc": "2026-07-05T07:16:40Z",
+  "text": "Причиной дебатов стали разногласия относительно затрат на оказание материальной поддержки и восстановления зданий после урагана Катрина, которые некоторые фискальные консерваторы в шутку назвали новоорлеанской сделкой Буша.",
+  "latency_sec": 4.3883,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Причиной дебатов стали разногласия относительно затрат на оказание материальной поддержки и восстановления зданий после урагана Катрина, которые некоторые фискальные консерваторы в шутку назвали новоорлеанской сделкой Буша.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235800,
+    "id": "1gRKar21A6y1vr0P8c_P-Qc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 55,
+      "prompt_tokens": 508,
+      "total_tokens": 871
+    }
+  }
+}

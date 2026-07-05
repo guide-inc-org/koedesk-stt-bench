@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0016",
+  "lang": "ko",
+  "engine": "gemini_25_pro",
+  "duration_sec": 13.32,
+  "ref_text_raw": "널리 알려진 사파리라는 표현은 특히 사바나의 멋진 아프리카의 야생동물들을 보기위한 육로 여행을 칭한다.",
+  "ref_text_normalized": "널리 알려진 사파리라는 표현은 특히 사바나의 멋진 아프리카의 야생동물들을 보기위한 육로 여행을 칭한다",
+  "timestamp_utc": "2026-07-05T05:59:14Z",
+  "text": "널리 알려진 사파리라는 표현은 특히 사바나의 멋진 아프리카의 야생 동물들을 보기 위한 육로 여행을 칭한다.",
+  "latency_sec": 6.224,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "널리 알려진 사파리라는 표현은 특히 사바나의 멋진 아프리카의 야생 동물들을 보기 위한 육로 여행을 칭한다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231154,
+    "id": "rfJJauLCOvPG2roPs9KcqAM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 448,
+      "total_tokens": 678
+    }
+  }
+}

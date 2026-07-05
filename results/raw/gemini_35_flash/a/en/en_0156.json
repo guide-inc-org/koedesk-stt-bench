@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0156",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.9,
+  "ref_text_raw": "To get the best views of Hong Kong, leave the island and head for the Kowloon waterfront opposite.",
+  "ref_text_normalized": "to get the best views of hong kong leave the island and head for the kowloon waterfront opposite",
+  "timestamp_utc": "2026-07-05T03:36:28Z",
+  "text": "To get the best views of Hong Kong, leave the island and head for the Kowloon waterfront opposite.",
+  "latency_sec": 2.9872,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "To get the best views of Hong Kong, leave the island and head for the Kowloon waterfront opposite.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EsgDCsUDARFNMg81V6GzfN3NZ6p9XohlUF/7h56hJK1OIrtK0Lmoiydc+4KGZYENn+xtfh1B6qVoZLBGII6C9zXDv2REdemy+PHIn6fQrv9WPgiGPlMhRM+pxgFjqREuuUaeJdr0RwNHThTvcwEdlM2NnWoq9C07gIclOgfSQ2nnFy9pAUh6z+xPmXitBeVczNNrY9sWYQXmDJa2gAon07G+eSXzHwbmzA9mIWsl5V9p/FXIFyWtIsZBiLKoohg3WwMDaOLFb4fgIHDSB+sez9DpQpcU2i5qW8Ye9WfmyQK6x/uWwj2vf/EHxA+O6ENu8FmuiMO4/ydeWmQktsHElZfbwpRmfITSmHk5vktXoSCv0VNMP3oqvHon9jLxL9nkKG3/4n7oeecOHyFmYB2CqagObiY3MIBa1aQYmrckJdNKlATzOhDomt3y+8hlumWpr0bzHMn+hbX6FG2hrWLxRaWWIONjigol5/+cPmq7M0ArkzGDM+ysT0XVHmwJZv9nnvk2suJMe48bln/PkqNA2ZNEj5eHR/DhTUtG+Gkvg/ZOm1Sch01Q9QqCZm5ZOa6E6LdEAPatuh+wMBxC+QSpsrWFLGrMWe4iK5W8"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222589,
+    "id": "O9FJaqqjBabX2roP9O2X-Qg",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 194,
+      "total_tokens": 314
+    }
+  }
+}

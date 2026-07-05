@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0108",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.06,
+  "ref_text_raw": "Asimismo, luego de la Revolución, los puestos estuvieron abiertos a todos los candidatos masculinos, lo que permitió el éxito de los más ambiciosos y prestigiosos.",
+  "ref_text_normalized": "asimismo luego de la revolución los puestos estuvieron abiertos a todos los candidatos masculinos lo que permitió el éxito de los más ambiciosos y prestigiosos",
+  "timestamp_utc": "2026-07-05T04:40:14Z",
+  "text": "Asimismo, luego de la revolución, los puestos estuvieron abiertos a todos los candidatos masculinos, lo que permitió el éxito de los más ambiciosos y prestigiosos.",
+  "latency_sec": 2.8933,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Asimismo, luego de la revolución, los puestos estuvieron abiertos a todos los candidatos masculinos, lo que permitió el éxito de los más ambiciosos y prestigiosos.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP9Fu9eN9eNjypIZe8rUHslT6Qwvt66Q3O8nJP+FeUwTbBBuG+cFE90gzUgS9+"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226414,
+    "id": "LeBJap-IG5jF0-kPvZ-G6AE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 323,
+      "total_tokens": 356
+    }
+  }
+}

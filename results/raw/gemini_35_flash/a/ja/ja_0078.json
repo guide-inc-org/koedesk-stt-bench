@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0078",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.2,
+  "ref_text_raw": "南アフリカにあるすべての国立公園と同様に、この公園には毎日保護費と入園料がかかります。",
+  "ref_text_normalized": "南アフリカにあるすべての国立公園と同様に この公園には毎日保護費と入園料がかかります",
+  "timestamp_utc": "2026-07-05T10:17:16Z",
+  "text": "南アフリカにあるすべての国立公園と同様に、この公園には毎日保護費と入園料がかかります。",
+  "latency_sec": 4.8546,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "南アフリカにあるすべての国立公園と同様に、この公園には毎日保護費と入園料がかかります。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EsEKCr4KARFNMg9y/+Sy8SgBZflVP18x33tIk4DE28Gj0gwadlumcxGg0ylblwrA/mFUOmNG1CGzpjdsi239bJ6uxFMBQ480lD7J6LpATRwyvaUrg9gxcUFuax8DB/Wa9dOEAB3Cmp1XwcnLv9UeZSMtRB63vkW8czp7zeHKn14PL4e1g2CNOLkK2SSpPUyaTzdVXQzctcfC7vLFPUQWUy+x/dQKhZQg6ox99dsbeanLOapHbQGV3dfnC7PAXrStxY791G/LKFQ/z30jAykYwJ/KVQogIkWdGQj6YF6Fowz99L2DxOgi+/JAcNVmOiCtK20Lz1wlHyDS/2ByIYBZwWQOEp6G1XH7u8efMqw5eWbT9wc1a2EbClIqhQHCjg5G5Xk7ggmATFtv0o97xJTwaO2GRflly710faRCAw4/g6ZGwOZJLFGoFDf5ZC8U6u1NvOUgcWGRzKRGUDIxamyDy9KvIpQGYMuTl9Bd9c7lwCmg1KqcAfV6ulX0Lh8ldAoMFd1ZlOsqJsCQTm7A9D0XIudM7ctpmeq73DUvFCuiJoyDNyb7vx+2m8iARrtKLvjkB88tFiNIy/TlcRO7hbiXPHn/KDBw3q+gm9wnsytuo/xbT0DFSMpdCVuOwGuRz6OzpKpGZebvwLV6RFkYFt4sw2ilhnSL8X9IHlSBSYXDk6uXIQGusJdERcH5OMACajKYCkOPWZL+k5c8N1SVU07qbSDkRVuPHQQUyDUnFMTdIdCc+IkrWNSkgQ0+Vu6ZedcpL8aWTYsI8RCjLeouvpu+zOjSQU1uohDbErznFIsn7D8dqGIDb6bvhxKgw1siCV9AygCAdpXmEt00B6MKnkR+0aueu76/VpKFb04Dau9PBDmfxyEbdEKM0JR2C6Ohx9oWKWyabqaMw4EDUvQOWJ9AU/eaDs6a4fJ2iaKsExsTqa7YJvjfD6TS/+cA4s+CkSyUL+uULB9L9GcU650+2Z5T8Iau9lRJJT4Zw8iXZGgLX2alc14cK7JGvOlnuvCCTYDyrGSFemZXTqa5sBzi2s2TwlY6+ah7OXegHAWoy/GHH7XTfRkpfu7m/B1N5+TxZ4A4Wj6BSilNyniOgJF01NSc27mrGjd3U+AXz1uot9A18iOIBeaqEAS5ZtP+zu9VfjQ3iC8F+sycew8F0tWgwFvQ82rNgD+uj9+ZwrfQ85nGtaqp6mxWhL0aq7lnkz+GTAhucBe0plfsfyoF8efxzcdzr194Lnh1ii0C0YNhPCyRBc9F5Wa0sQJOfIGoWFDlgyqAgFiA7klUemymyr59zVRfqaD10TLFfpAVqsp1KQk3UaPbbycP0bHd4CbGqqwNbihARQQZp5AMOrXCSfa2peOKyLJprawL+h02Uz49JexJzoknjR2mUzbk8c/L0MbLLPoWX8iQ/8aPD0JMr5ucKYgzkFr87uqOSqLzbOjxk8vWmGIfwb/uHAlYLSQ/k9f+J9i0KZRsOii+bv7L8089fTXxY8AXzNM7hF9ADdj6E4mt6cRn7hVSVYfXs2GmyiPJzi9+c9KtZJyA0IsfkF9r7dlAHyqfhGWLlTTk8ClpVzbMMDEA0lOd+5D4SZZ3L7BjIgsrAa1gwxsm9pzVz48IMuw+TzEK0WDxAQyDmJQKq8pY0IejPdL7wPHfKiC/zrEYCujaJrIxYvlC/GX3WaVHc0bQiWIGa80w//jgo+F6DYeDB7XBy5clSKtRCevf3u6qE0mEV+BoqgKTQLZ5hmX4oZjiSBOgjdj8X8YdBEQfwJZZRGYbwITr1txLMRAh0KpFmQsqS9CUxQ=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246636,
+    "id": "KS9KaufPGbyyvr0Pp7y7iQU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 276,
+      "total_tokens": 658
+    }
+  }
+}

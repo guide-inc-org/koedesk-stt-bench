@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0079",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.26,
+  "ref_text_raw": "The governor's office said nineteen of the injured were police officers.",
+  "ref_text_normalized": "the governor's office said nineteen of the injured were police officers",
+  "timestamp_utc": "2026-07-05T10:32:41Z",
+  "text": "The governor's office said 19 of the injured were police officers.",
+  "latency_sec": 3.193,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The governor's office said 19 of the injured were police officers.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EusDCugDARFNMg9mQ2Pe9A7PU9MLY9J45PA4BO2wbRfbO3hSNjAJEzhaCJRG8pDnLrMgjhH2cp++CgkKjpRr8pH1BuxWpl3cstr0wJ+Ug51myNd7US31PysFf7mBjT2iMMyLCRKI08Rf5R1HtJxX8MFjeP3ax1mbn+cJV7GBlJfosmVrpbHbhM91/Da2VF8YWWyW0qM+ClnC8hDtaZQGGF4+NvnpF1m3+VyIVwHUR3PmpwAaMhO+MW31kqiKEK3nKmQ3/LmLucPh7A5tStXzTuA6Q3ogGa+I2efiuDl+q+rTbRq49zDCUjGgRGv3u3ACKH3nR5yKs1E193LT2oMYB7easybE7HXLstk/bj5rB9kVZ+hGKQ/C47yLeZUIShspFMzcCr+7SM2aSvdrqBCCN/omL23sSqR5j2uiLxr8aIqZUq0IyW5Jeji63YUQyD3E9fTKctnSFXfzWsgHafqm9XLmVawFWXIUKKEO3F/DWkIdJkjtGboDXOfO7k7/fg83wa+LhAV/SEpQH58fuc0ig4vv2XUiZk7j+y8gp9IJD69svbFTxGbfKPdBsYlAjMaaKgvf0WqRALIvXx/RHMojpLsvlPXQZSN00QizDr5sbDFcwyf/9hQbetnW6ZNdUuadgXjobsxLMqws1r8W/38="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247561,
+    "id": "xzJKatqsEIPMrfcPiKHRgAE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 203,
+      "total_tokens": 345
+    }
+  }
+}

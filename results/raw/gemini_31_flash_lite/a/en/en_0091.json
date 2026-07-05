@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0091",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.68,
+  "ref_text_raw": "The age where the events took place is commonly referred as the High Middle Ages the period of European history in the 11th, 12th, and 13th centuries (AD 1000–1300).",
+  "ref_text_normalized": "the age where the events took place is commonly referred as the high middle ages the period of european history in the 11th 12th and 13th centuries ad 1000–1300",
+  "timestamp_utc": "2026-07-05T10:33:20Z",
+  "text": "The age where the events took place is commonly referred as the High Middle Ages, the period of European history in the 11th, 12th, and 13th centuries, AD 1000 or 1000 to 1300.",
+  "latency_sec": 2.9437,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The age where the events took place is commonly referred as the High Middle Ages, the period of European history in the 11th, 12th, and 13th centuries, AD 1000 or 1000 to 1300.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPy1LQo1qk0scUcgMD5Zne1EhK11FJ3tmMCPj7ngEZS+okmk7HH4Lsje9a2Eyr"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247600,
+    "id": "7jJKavaeNrXIrfcPsof-gAc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 59,
+      "prompt_tokens": 363,
+      "total_tokens": 422
+    }
+  }
+}

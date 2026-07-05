@@ -1,0 +1,45 @@
+{
+  "utt_id": "es_0019",
+  "lang": "es",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 14.88,
+  "ref_text_raw": "El 15 de agosto de 1940, se desplegó la denominada «Operación Dragón», a través de la cual los Aliados invadieron el sur de Francia.",
+  "ref_text_normalized": "el 15 de agosto de 1940 se desplegó la denominada «operación dragón» a través de la cual los aliados invadieron el sur de francia",
+  "timestamp_utc": "2026-07-05T04:30:19Z",
+  "text": "El 15 de agosto de 1940 se desp... se desplegó la denominada operación Dragón, a través de la cual los aliados invadieron el sur de Francia.",
+  "latency_sec": 6.0291,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "El 15 de agosto de 1940 se desp... se desplegó la denominada operación Dragón, a través de la cual los aliados invadieron el sur de Francia.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225819,
+    "id": "1t1JatLMMpW4vr0PkIGBmQU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 393,
+      "total_tokens": 1087
+    }
+  }
+}

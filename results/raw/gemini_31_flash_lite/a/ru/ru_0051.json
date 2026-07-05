@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0051",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.52,
+  "ref_text_raw": "Спутник был доставлен в космос ракетой. Ученые используют телескопы в космосе, потому что атмосфера Земли в некоторой степени искажает наш свет и обзор.",
+  "ref_text_normalized": "спутник был доставлен в космос ракетой ученые используют телескопы в космосе потому что атмосфера земли в некоторой степени искажает наш свет и обзор",
+  "timestamp_utc": "2026-07-05T07:30:08Z",
+  "text": "Спутник был доставлен в космос ракетой. Учёные используют телескопы в космосе, потому что атмосфера Земли в некоторой степени искажает наш свет и обзор.",
+  "latency_sec": 2.9613,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Спутник был доставлен в космос ракетой. Учёные используют телескопы в космосе, потому что атмосфера Земли в некоторой степени искажает наш свет и обзор.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPouWisDwgCew6HMsOy+W9B51yH4d8B7OXLM6wWdWaTWWzJ6sWq89f5LyJAD/L"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236608,
+    "id": "_gdKaojFJ4TG0-kPurji2AU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 309,
+      "total_tokens": 350
+    }
+  }
+}

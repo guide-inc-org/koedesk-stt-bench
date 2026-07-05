@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0180",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 15.66,
+  "ref_text_raw": "老虎是全能运动员，它会攀爬（虽然攀爬能力不是很强）、游泳、跳远，拉力能达到人类大力士的五倍。",
+  "ref_text_normalized": "老 虎 是 全 能 运 动 员 它 会 攀 爬 虽 然 攀 爬 能 力 不 是 很 强 游 泳 跳 远 拉 力 能 达 到 人 类 大 力 士 的 五 倍",
+  "timestamp_utc": "2026-07-05T09:02:58Z",
+  "text": "老虎是全能运动员，它会攀爬，虽然攀爬能力不是很强，游泳，跳远。拉力能拿到人类大力士的五倍。",
+  "latency_sec": 5.1233,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "老虎是全能运动员，它会攀爬，虽然攀爬能力不是很强，游泳，跳远。拉力能拿到人类大力士的五倍。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242178,
+    "id": "vx1Kaoq5Bbyo1e8Prpqp8QY",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 523,
+      "total_tokens": 557
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0151",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.5,
+  "ref_text_raw": "这被称为化学物质的 pH 值。你可以使用红甘蓝汁制作指示剂。",
+  "ref_text_normalized": "这 被 称 为 化 学 物 质 的 ph 值 你 可 以 使 用 红 甘 蓝 汁 制 作 指 示 剂",
+  "timestamp_utc": "2026-07-05T09:19:43Z",
+  "text": "这 被 称 为 化 学 物 质 的 pH 值 ， 你 可 以 使 用 红 甘 蓝 汁 制 作 指 示 剂 。",
+  "latency_sec": 2.7713,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "这 被 称 为 化 学 物 质 的 pH 值 ， 你 可 以 使 用 红 甘 蓝 汁 制 作 指 示 剂 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPdgSPrrulu9zqdBA4mIo5sLoXmi7lez8qt8lxwj7mR/7tW43L/EyCuzt/M7Eo"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243183,
+    "id": "rSFKareQOcGC0-kP_snrsQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 409,
+      "total_tokens": 442
+    }
+  }
+}

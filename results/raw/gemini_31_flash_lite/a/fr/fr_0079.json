@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0079",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.14,
+  "ref_text_raw": "De même, en ayant un visa Schengen, vous n'avez pas besoin de demander séparément un visa pour chacun des pays membres de l'espace, ce qui permet d'économiser du temps, de l'argent et des formalités administratives.",
+  "ref_text_normalized": "de même en ayant un visa schengen vous n'avez pas besoin de demander séparément un visa pour chacun des pays membres de l'espace ce qui permet d'économiser du temps de l'argent et des formalités administratives",
+  "timestamp_utc": "2026-07-05T05:14:22Z",
+  "text": "De même en ayant un visa Schengen, vous n'avez pas besoin de demander séparément un visa pour chacun des pays membres de l'espace, ce qui permet d'économiser du temps, de l'argent et des formalités administratives.",
+  "latency_sec": 2.8017,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "De même en ayant un visa Schengen, vous n'avez pas besoin de demander séparément un visa pour chacun des pays membres de l'espace, ce qui permet d'économiser du temps, de l'argent et des formalités administratives.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPxq93/9bgmHthJcmembuPxPYVNpABRSisqBPUOxT+LpjuZ+9MLWo4sJNBCZrm"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228462,
+    "id": "LOhJauCUOOGHvr0PvZC5oQg",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 51,
+      "prompt_tokens": 275,
+      "total_tokens": 326
+    }
+  }
+}

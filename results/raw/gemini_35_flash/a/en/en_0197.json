@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0197",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 5.76,
+  "ref_text_raw": "Giancarlo Fisichella lost control of his car and ended the race very soon after the start.",
+  "ref_text_normalized": "giancarlo fisichella lost control of his car and ended the race very soon after the start",
+  "timestamp_utc": "2026-07-05T03:39:46Z",
+  "text": "Giancarlo Fisichella lost control of his car and ended the race very soon after the start.",
+  "latency_sec": 3.5967,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Giancarlo Fisichella lost control of his car and ended the race very soon after the start.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EvcECvQEARFNMg/pNRvs3XtfJVOY+0g9nC1H5bBiBXPbDJ3zkCnU8mzX2hny3w8rofe4rewSRf4kXwEFvD5DAbB17/SNKONd8CyqvnXxiHcr/A1yR+b+PON9yOrA8ts4okB2Pmt5gFAtwQjogIhmjXd5QeeHXTixq0TOF15UQswfb4+V8VRdDJiQ9zOTQTLqEBvJ95z3OgojeQJxgn+ZrqGZ/ySRh3ymHdqd7Or+ENh1BF55d2tzob9BQBAqnkN4VgUo2cdmqjT/b7cw5T4kYH0glu4tLoB4tOc+8Fs8aGmHAG87iGBwF2G8A/pY51fdcZdz3HgJCmrbYR9zjXBVZeDlw2GqMkOy11K0yKQJTsO7MMO1uhqDHeBZdDNrusPFTh04FsQLurO1hTYshe+Az0MTvWGsKge88rvfkpWxlmVYWpO1fmrTI+nnIE5Ne+k+EVj6Psv1S+IFrjTJRpXRSC2EGcFktFL4vcS0a/AslJ2w0gQnwWDQ7FWtgk8BwAf91QonFFZb5bxBbUo9wzdgzGbxv3UR1WcN3QbZk6ugkcUiahgmahT29HtFdyRopI2HX0c7GiGDlkk0/8TcdO4iwGbuDywVeSijvvZYU/8VhRegSxVbS6XEpX6IGBDCShfsnYHiqVr2WfZ2w3YTx4//gmrIWzIlkcySXS4ozRPJAI1d/AmU28d3bcxAMk5bXldhZfTOEGqeUaJBOGi/u8/AGzoKl91OQJSAYBnsooyARbZHNeO7mNGpUH8ozd4VqJpqKrl8NU7Yxt774e8FOa/5QP/7Knnr5+wSOFidAM7h1e+K9zyoAVs6x92vTg2IVs7+bR2s9ifDpAqJpA=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222786,
+    "id": "ANJJat2dE73dvr0Pv4K6sQE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 165,
+      "total_tokens": 331
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0086",
+  "lang": "th",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.32,
+  "ref_text_raw": "ในเดือนเดียวกัน สายการบินอีกแห่งวิ่งเลยรันเวย์ในมัชฮัด และชนเข้ากับกำแพงจนทำให้มีผู้เสียชีวิต 17 คน",
+  "ref_text_normalized": "ในเดือนเดียวกัน สายการบินอีกแห่งวิ่งเลยรันเวย์ในมัชฮัด และชนเข้ากับกำแพงจนทำให้มีผู้เสียชีวิต 17 คน",
+  "timestamp_utc": "2026-07-05T07:48:53Z",
+  "text": "ในเดือนเดียวกัน สายการบินอีกแห่งวิ่งเลยรันเวย์ในมัชฮัดและชนเข้ากับกำแพงจนทำให้มีผู้เสียชีวิต 17 คน",
+  "latency_sec": 4.262,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ในเดือนเดียวกัน สายการบินอีกแห่งวิ่งเลยรันเวย์ในมัชฮัดและชนเข้ากับกำแพงจนทำให้มีผู้เสียชีวิต 17 คน",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237733,
+    "id": "YgxKaoTPBpHNrfcPvY_ZsAY",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 352,
+      "total_tokens": 427
+    }
+  }
+}

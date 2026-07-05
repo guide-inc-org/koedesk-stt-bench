@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0135",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 5.88,
+  "ref_text_raw": "\"This is not going to be goodbye. This is the closing of one chapter and the opening of a new one.\"",
+  "ref_text_normalized": "this is not going to be goodbye this is the closing of one chapter and the opening of a new one",
+  "timestamp_utc": "2026-07-05T03:34:46Z",
+  "text": "This is not going to be goodbye. This is the closing of one chapter and the opening of a new one.",
+  "latency_sec": 3.2994,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "This is not going to be goodbye. This is the closing of one chapter and the opening of a new one.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpgECpUEARFNMg+vL+ULEKr3hUAAJJh6cuzS/XGTMWAo/JxuLzBDv882y0esdH1r2npuJ9kOdyzI2Ch8Rl+b/CDkPBDU/l09zxK1Gpovwqp99w4ArDjX/AXPDDqaMRinuiADEF0H6zjxVznHtWYuVp0eE/HV0lObSjiR0KKO8yLe/hmIqh1IvDBvfPHIgzkJC4OyeZke6aeFo2mrNLgWcU0qQJqTFE1O4jV+0uxjCklvadyI9TX0u8l5KAQffqbwtmhR+LDcKG3WLOOlm0B0ino+hItXuxARbe1g35Ras6O30SPL9JOfbHm7OZIA3oquKWYzLYzhZeDh7KR0JUO2+1n2akEFHvER8/8inrCkBdFk65H0exlIOvBXqCvAqgrA1CphRITLGsMaE1Fvp6qKAnVgZVPU6gS795OTvRNe+mF46OvDBT+Cld8bA9FtWHc6y8emr9sjOPT1zp22ZJ9Y4x2PTELTZqWt5LPSRxIh5mQPZlKPwEaL+lVvC81/lAaAs9Fa/GefEjTmPP0x7MevuuH2vrSUw39bwOpKCpYOb/WYTnLSc9obVrKKYLfgoVEQEt2CqfOT4PgtJZ0vJCTvTONO6zjq8f94Ug+CNpY0gUtfcu0JSDcJo8lZAD+OPcuL98jf7JbQrGzG9IaaqE4FOYwxeNWXxWJimDysfj/Pd8bKj4N/WqQvdf77Uhr8VV1HTfRmiMSxGzmZjLU="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222486,
+    "id": "1NBJauWeCLXIrfcPsof-gAc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 168,
+      "total_tokens": 319
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0198",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.4,
+  "ref_text_raw": "キャンセルポリシーはさまざまですが、3月下旬の時点で、ほとんどのコロナウイルス関連のキャンセルポリシーは、オリンピックが予定されていた2020年7月まで延長されません。",
+  "ref_text_normalized": "キャンセルポリシーはさまざまですが 3月下旬の時点で ほとんどのコロナウイルス関連のキャンセルポリシーは オリンピックが予定されていた2020年7月まで延長されません",
+  "timestamp_utc": "2026-07-05T03:23:30Z",
+  "text": "キャンセルポリシーはさまざまですが、3月下旬の時点で、ほとんどのコロナウイルス関連のキャンセルポリシーはオリンピックが予定されていた2020年7月まで延長されません。",
+  "latency_sec": 3.9166,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "キャンセルポリシーはさまざまですが、3月下旬の時点で、ほとんどのコロナウイルス関連のキャンセルポリシーはオリンピックが予定されていた2020年7月まで延長されません。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPfM3X05/wx/fkFDeI68R9wm1ZA2p0tcbWSd/QdqmrHG/l0XqGZOcvfeJbopSx"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221810,
+    "id": "MM5JapeyHNy-vr0P4tf2gQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 381,
+      "total_tokens": 420
+    }
+  }
+}

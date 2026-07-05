@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0069",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 16.38,
+  "ref_text_raw": "サンクトペテルブルクのクルーズには街での滞在時間が含まれています。クルーズの乗客はビザが免除されます（条件を確認してください）。",
+  "ref_text_normalized": "サンクトペテルブルクのクルーズには街での滞在時間が含まれています クルーズの乗客はビザが免除されます条件を確認してください",
+  "timestamp_utc": "2026-07-05T10:07:12Z",
+  "text": "サンクトペテルブルクのクルーズには街での滞在期間が含まれています。クルーズの乗客はビザが免除されます。条件を確認してください。",
+  "latency_sec": 4.9829,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "サンクトペテルブルクのクルーズには街での滞在期間が含まれています。クルーズの乗客はビザが免除されます。条件を確認してください。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246032,
+    "id": "zCxKaoSGNbyo1e8Prpqp8QY",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 546,
+      "total_tokens": 608
+    }
+  }
+}

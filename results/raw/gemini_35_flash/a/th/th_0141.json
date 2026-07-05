@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0141",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.86,
+  "ref_text_raw": "อาการช็อกเมื่อกลับประเทศบ้านเกิดจะเกิดขึ้นเร็วกว่าอาการช็อกทางวัฒนธรรม (มีระยะแรกสั้นกว่า) คงอยู่นานกว่า และอาจรุนแรงกว่า",
+  "ref_text_normalized": "อาการช็อกเมื่อกลับประเทศบ้านเกิดจะเกิดขึ้นเร็วกว่าอาการช็อกทางวัฒนธรรม มีระยะแรกสั้นกว่า คงอยู่นานกว่า และอาจรุนแรงกว่า",
+  "timestamp_utc": "2026-07-05T08:05:21Z",
+  "text": "อาการช็อกเมื่อกลับประเทศบ้านเกิดจะเกิดขึ้นเร็วกว่าอาการช็อกทางวัฒนธรรม มีระยะแรกสั้นกว่า คงอยู่นานกว่า และอาจรุนแรงกว่า",
+  "latency_sec": 4.833,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "อาการช็อกเมื่อกลับประเทศบ้านเกิดจะเกิดขึ้นเร็วกว่าอาการช็อกทางวัฒนธรรม มีระยะแรกสั้นกว่า คงอยู่นานกว่า และอาจรุนแรงกว่า",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238721,
+    "id": "PRBKao63IanDvr0PmKevgQ8",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 218,
+      "total_tokens": 761
+    }
+  }
+}

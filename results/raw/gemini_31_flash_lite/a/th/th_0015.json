@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0015",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.38,
+  "ref_text_raw": "ก่อนหน้าที่กองกำลังจะเข้ามา เฮติไม่เคยประสบปัญหาที่เกี่ยวข้องกับโรคนี้เลยตั้งแต่คริสตศตวรรษที่ 1800",
+  "ref_text_normalized": "ก่อนหน้าที่กองกำลังจะเข้ามา เฮติไม่เคยประสบปัญหาที่เกี่ยวข้องกับโรคนี้เลยตั้งแต่คริสตศตวรรษที่ 1800",
+  "timestamp_utc": "2026-07-05T08:01:36Z",
+  "text": "กอง หน้า ที่ กอง กำลัง จะ เข้า มา เฮติ ไม่ เคย ประสบ ปัญหา ที่ เกี่ยว ข้อง กับ โรค นี้ เลย ตั้ง แต่ คริสต์ ศตวรรษ ที่ 1800",
+  "latency_sec": 3.1253,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "กอง หน้า ที่ กอง กำลัง จะ เข้า มา เฮติ ไม่ เคย ประสบ ปัญหา ที่ เกี่ยว ข้อง กับ โรค นี้ เลย ตั้ง แต่ คริสต์ ศตวรรษ ที่ 1800",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPLnk9L0WFK11Pj0fRkAgyhjNvQvJNFsuY87JnyrjEf/IF6yHuyZtcZLoTz4Ag"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238496,
+    "id": "Xg9KauL0G9G3vr0PstvC2AM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 206,
+      "total_tokens": 249
+    }
+  }
+}

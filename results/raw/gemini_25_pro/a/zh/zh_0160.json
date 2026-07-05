@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0160",
+  "lang": "zh",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.32,
+  "ref_text_raw": "渥太华是加拿大的首都，富有魅力且采用使用双语制，亮点是一系列展示着加拿大过去和现在的艺术画廊和博物馆。",
+  "ref_text_normalized": "渥 太 华 是 加 拿 大 的 首 都 富 有 魅 力 且 采 用 使 用 双 语 制 亮 点 是 一 系 列 展 示 着 加 拿 大 过 去 和 现 在 的 艺 术 画 廊 和 博 物 馆",
+  "timestamp_utc": "2026-07-05T09:06:24Z",
+  "text": "渥太华是加拿大的首都，富有魅力且采用双语制。亮点是一系列展示着加拿大过去和现代的艺术画廊和博物馆。",
+  "latency_sec": 5.5865,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "渥太华是加拿大的首都，富有魅力且采用双语制。亮点是一系列展示着加拿大过去和现代的艺术画廊和博物馆。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242384,
+    "id": "ix5KaqDOO4Ov2roPupKSoQU",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 352,
+      "total_tokens": 670
+    }
+  }
+}

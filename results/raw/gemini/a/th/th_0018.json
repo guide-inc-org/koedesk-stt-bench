@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0018",
+  "lang": "th",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.64,
+  "ref_text_raw": "โดยเฉพาะอย่างยิ่ง มีการอ้างว่าคนเราสามารถตรวจจับได้ว่าบุคคลหนึ่ง ๆ โกหกหรือไม่ด้วยการตีความการแสดงออกเล็กน้อยชั่วพริบตาให้ถูกต้อง",
+  "ref_text_normalized": "โดยเฉพาะอย่างยิ่ง มีการอ้างว่าคนเราสามารถตรวจจับได้ว่าบุคคลหนึ่ง ๆ โกหกหรือไม่ด้วยการตีความการแสดงออกเล็กน้อยชั่วพริบตาให้ถูกต้อง",
+  "timestamp_utc": "2026-07-05T07:35:34Z",
+  "text": "โดย เฉพาะ อย่าง ยิ่ง มี การ อ้าง ว่า คน เรา สามารถ ตรวจ จับ ได้ ว่า บุคคล หนึ่ง โกหก หรือ ไม่ ด้วย วิธี การ ตี ความ การ แสดง ออก เล็ก น้อย ชั่วพริบ ตา ให้ ถูก ต้อง",
+  "latency_sec": 4.2627,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "โดย เฉพาะ อย่าง ยิ่ง มี การ อ้าง ว่า คน เรา สามารถ ตรวจ จับ ได้ ว่า บุคคล หนึ่ง โกหก หรือ ไม่ ด้วย วิธี การ ตี ความ การ แสดง ออก เล็ก น้อย ชั่วพริบ ตา ให้ ถูก ต้อง",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236934,
+    "id": "QwlKas_jMYaA0-kPotqL6Q4",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 49,
+      "prompt_tokens": 298,
+      "total_tokens": 428
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0041",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.66,
+  "ref_text_raw": "독립 전쟁 기간 동안 13개 주는 우선 연합 규약에 따라 의회가 유일한 구성 요소인 권력이 강하지 않은 중앙 정부를 구성했다.",
+  "ref_text_normalized": "독립 전쟁 기간 동안 13개 주는 우선 연합 규약에 따라 의회가 유일한 구성 요소인 권력이 강하지 않은 중앙 정부를 구성했다",
+  "timestamp_utc": "2026-07-05T06:21:17Z",
+  "text": "독립전쟁 기간 동안 13개 주는 우선 연합규약에 따라 의회가 유일한 구성 요소인, 권력이 강하지 않은 중앙정부를 구성했다.",
+  "latency_sec": 2.9799,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "독립전쟁 기간 동안 13개 주는 우선 연합규약에 따라 의회가 유일한 구성 요소인, 권력이 강하지 않은 중앙정부를 구성했다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPRiBwndqs9Gt+C74pSGLwwPm4/f3/uo5pYf6Pf1Z7QN4U2Fmgf5wn7IW+Tt7B"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232477,
+    "id": "2_dJaqvMJc-a1e8P7YSs0QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 338,
+      "total_tokens": 376
+    }
+  }
+}

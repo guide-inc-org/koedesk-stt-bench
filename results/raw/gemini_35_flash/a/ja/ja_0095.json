@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0095",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.22,
+  "ref_text_raw": "交通流研究とは、2点間にいる個々の運転手と車両の動きとそれらの相互作用の研究です。",
+  "ref_text_normalized": "交通流研究とは 2点間にいる個々の運転手と車両の動きとそれらの相互作用の研究です",
+  "timestamp_utc": "2026-07-05T10:18:52Z",
+  "text": "交通流研究とは、道路上にいる個々の運転手と車両の動きと、それらの相互作用の研究です。",
+  "latency_sec": 6.6551,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "交通流研究とは、道路上にいる個々の運転手と車両の動きと、それらの相互作用の研究です。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246732,
+    "id": "hy9KavrMBpT02roPp7fs4A4",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 302,
+      "total_tokens": 1264
+    }
+  }
+}

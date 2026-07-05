@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0094",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.96,
+  "ref_text_raw": "平时你总能在这里听到游客和小摊贩的声音。声光交织，就像在讲述一个动人的故事。",
+  "ref_text_normalized": "平 时 你 总 能 在 这 里 听 到 游 客 和 小 摊 贩 的 声 音 声 光 交 织 就 像 在 讲 述 一 个 动 人 的 故 事",
+  "timestamp_utc": "2026-07-05T09:14:07Z",
+  "text": "平时你总能在这里听到游客和小摊贩的声音，声光交织，就像在讲述一个动人的故事。",
+  "latency_sec": 4.0141,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "平时你总能在这里听到游客和小摊贩的声音，声光交织，就像在讲述一个动人的故事。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpAGCo0GARFNMg/4DgAnnroITMuSmRr9U6hsMhIuw6FUbmetf66/auSLKF4iQdaLfGKpQFuMi8ABnnt2nvapFuVHGc+IpvrAeGRj36r4YwvYpnUf20fp8IOkHRX/vZs5+VMvUV7EcDqGXZP/qMugCEbRNmS5MjMhVSOJiF2djs+qRBk0gQzoR97KWlqo6c1pXMWNMyuP08TqtExz29VUJQ4zi399jrif27tjLueI/dQiaY/44lBlrJzZD2WuLiWL9wz9Mz1lCF78QvBFkkVGMiYyxgUXkb4lEwi5qmzZ3wm/eIN1OyZfnZi99Glq2xlHg/KSDHTlyf+vqHc1eR9mJPONaBHhe8Hj7z7VB02o7y2p/Y8GWyDSCz1lhJWWuLRuQPfalnFQmiDMSnRCo+lRhbBeidIXGCm4pi8yei03sgrgB+B1m49kFCwN7WO/wX4tB5gGKdEqm9uhoK4c9slp11oxwMaAdOAGoSiwPu7BMzYn29rBb5JYVAA1mHtsQ5yaJd9uZJ5HhIQNbUWgdmbMw/1PF1QhXxxuzkr1Ry7iScxE4LAN7wR0J0WFdwqZFUADEJbeZWp14NQ6xvwj1Oyz5sSgM2DL6aZZMX7yOosCVbS5ARzF9OkbL2hQKRG9aKKWNCMoCFGfv1b9VXT2Pwf24+FFY+Jm4FmGVdh422Fjvfky8PU26CEdE+cJ9JuUPP5ohCzwShPydnEX8ZKuVbDxcbZfhOUw2l77hdyF9+IbZ8CCXRamQsq9Gfc1h55wi2pxyzYHSYffNeo6f3RQB4sHD0IMIplJzi8Ty6H7tKSAL0tcVhRlNixMd/ewwb5uYlarVLQgIl1p4g74P+jRVJASWY7GA94/tfdtJggZe0G536WS+XG7LpZs3uX1jaBJmHUmQYpKfSp0ah7JIPvI4sJKpM/KjerKYLJCCjybJRWRv9qVZ97aOkw7PVS1g+lG6bZGEYk1QnJ9iFMwJcvR7S6KQ8Nwa1HRnSyyx7xlKSmMS2/uQPqqyNUq6HHGpsDy/3wrQdTyzbi9rLOBHrGfnQELU1vZaQ=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242847,
+    "id": "XSBKapaeAa6l9tMP-_vv-QM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 271,
+      "total_tokens": 507
+    }
+  }
+}

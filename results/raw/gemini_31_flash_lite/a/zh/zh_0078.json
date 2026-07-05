@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0078",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.98,
+  "ref_text_raw": "起初，他被送往位于大雅茅斯的詹姆斯·佩吉特医院进行救治。",
+  "ref_text_normalized": "起 初 他 被 送 往 位 于 大 雅 茅 斯 的 詹 姆 斯 佩 吉 特 医 院 进 行 救 治",
+  "timestamp_utc": "2026-07-05T09:15:19Z",
+  "text": "起初，他被送往位于大雅茅斯的詹姆斯·佩吉特医院进行救治。",
+  "latency_sec": 2.9218,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "起初，他被送往位于大雅茅斯的詹姆斯·佩吉特医院进行救治。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPx9InQYd6Ekpl6Qth8DPAR1C9g+57WMHi5RgfgnTsn/pD2HRH0RIyQcTIoJvj"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242919,
+    "id": "piBKaq3PC7bR0-kPp6yr6QI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 396,
+      "total_tokens": 419
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0055",
+  "lang": "ko",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.2,
+  "ref_text_raw": "보통 관광객들과 행상인들의 소리를 항상 듣게 된다. 빛과 소리의 이야기는 마치 이야기책 같다.",
+  "ref_text_normalized": "보통 관광객들과 행상인들의 소리를 항상 듣게 된다 빛과 소리의 이야기는 마치 이야기책 같다",
+  "timestamp_utc": "2026-07-05T06:03:22Z",
+  "text": "보통 관광객들과 행상인들의 소리를 항상 듣게 된다. 빛과 소리의 이야기는 마치 이야기 책 같다.",
+  "latency_sec": 7.2899,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "보통 관광객들과 행상인들의 소리를 항상 듣게 된다. 빛과 소리의 이야기는 마치 이야기 책 같다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231402,
+    "id": "pPNJapr2K8fE0-kP8qfE0QY",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 348,
+      "total_tokens": 900
+    }
+  }
+}

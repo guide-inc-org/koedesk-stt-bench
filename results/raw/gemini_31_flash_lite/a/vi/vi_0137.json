@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0137",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.16,
+  "ref_text_raw": "Đến năm 1976, ba mươi phần trăm của Machu Picchu đã được phục hồi và công việc phục hồi vẫn tiếp diễn cho đến ngày nay.",
+  "ref_text_normalized": "đến năm 1976 ba mươi phần trăm của machu picchu đã được phục hồi và công việc phục hồi vẫn tiếp diễn cho đến ngày nay",
+  "timestamp_utc": "2026-07-05T08:45:53Z",
+  "text": "Đến năm 1976, 30% của Machu Picchu đã được phục hồi và công việc phục hồi vẫn tiếp diễn cho đến ngày nay.",
+  "latency_sec": 2.8393,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Đến năm 1976, 30% của Machu Picchu đã được phục hồi và công việc phục hồi vẫn tiếp diễn cho đến ngày nay.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPwW+aILdZWLLl7Luym8GtSr2aNvq/B9T2Sys+oRQLwFg5bDtX2kEfqFw3w76C"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241153,
+    "id": "wBlKaqvlF4OL0-kPiYjyuQQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 300,
+      "total_tokens": 333
+    }
+  }
+}

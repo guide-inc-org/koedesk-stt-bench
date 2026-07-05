@@ -1,0 +1,39 @@
+{
+  "utt_id": "id_0137",
+  "lang": "id",
+  "engine": "gemini_25_flash",
+  "duration_sec": 6.9,
+  "ref_text_raw": "Di iklim hangat Timur Tengah, rumah tidak begitu penting.",
+  "ref_text_normalized": "di iklim hangat timur tengah rumah tidak begitu penting",
+  "timestamp_utc": "2026-07-05T05:29:52Z",
+  "text": "Di iklim hangat Timur Tengah, rumah tidak begitu penting.",
+  "latency_sec": 2.9985,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Di iklim hangat Timur Tengah, rumah tidak begitu penting.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783229392,
+    "id": "zutJar6SEqyv1e8P3_jVaA",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 12,
+      "prompt_tokens": 242,
+      "total_tokens": 278
+    }
+  }
+}

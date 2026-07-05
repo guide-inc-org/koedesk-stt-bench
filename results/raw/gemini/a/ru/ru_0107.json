@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0107",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.48,
+  "ref_text_raw": "Территория Гонконга была названа в честь острова Гонконг, места, которое многие туристы считают главным объектом  своего внимания.",
+  "ref_text_normalized": "территория гонконга была названа в честь острова гонконг места которое многие туристы считают главным объектом своего внимания",
+  "timestamp_utc": "2026-07-05T07:08:40Z",
+  "text": "Территория Гонконга была названа в честь острова Гонконг, места, которое многие туристы считают главным объектом своего внимания.",
+  "latency_sec": 4.0267,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Территория Гонконга была названа в честь острова Гонконг, места, которое многие туристы считают главным объектом своего внимания.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235320,
+    "id": "9gJKapPgAu6A0-kPgc2WkAY",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 325,
+      "total_tokens": 379
+    }
+  }
+}

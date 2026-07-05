@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0114",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.22,
+  "ref_text_raw": "In a carriage, they traveled back to Paris surrounded by a mob of people screaming and shouting threats against the King and Queen.",
+  "ref_text_normalized": "in a carriage they traveled back to paris surrounded by a mob of people screaming and shouting threats against the king and queen",
+  "timestamp_utc": "2026-07-05T03:25:02Z",
+  "text": "in a carriage, they traveled back to Paris surrounded by a mob of people screaming and shouting threats against the king and queen.",
+  "latency_sec": 4.1936,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "in a carriage, they traveled back to Paris surrounded by a mob of people screaming and shouting threats against the king and queen.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221902,
+    "id": "i85JavjoGo3y2roP6emiwQM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 349,
+      "total_tokens": 420
+    }
+  }
+}

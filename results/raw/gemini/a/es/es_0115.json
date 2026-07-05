@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0115",
+  "lang": "es",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.4,
+  "ref_text_raw": "No obstante, debido a la lentitud de los canales de comunicación, los estilos occidentales podrían llevar un retraso de unos 25 a 30 años.",
+  "ref_text_normalized": "no obstante debido a la lentitud de los canales de comunicación los estilos occidentales podrían llevar un retraso de unos 25 a 30 años",
+  "timestamp_utc": "2026-07-05T04:22:00Z",
+  "text": "No obstante, debido a la lentitud de los canales de comunicación, los estilos occidentales podrían llevar un retraso de unos 25 a 30 años.",
+  "latency_sec": 4.0459,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "No obstante, debido a la lentitud de los canales de comunicación, los estilos occidentales podrían llevar un retraso de unos 25 a 30 años.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225320,
+    "id": "5dtJarvFKMfJ0-kPwvvLoAE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 386,
+      "total_tokens": 444
+    }
+  }
+}

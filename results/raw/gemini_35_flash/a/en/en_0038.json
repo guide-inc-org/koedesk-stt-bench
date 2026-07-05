@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0038",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 4.5,
+  "ref_text_raw": "This is an important way to distinguish between some verbs and objects.",
+  "ref_text_normalized": "this is an important way to distinguish between some verbs and objects",
+  "timestamp_utc": "2026-07-05T10:29:27Z",
+  "text": "This is an important way to distinguish between some verbs and objects.",
+  "latency_sec": 4.0252,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "This is an important way to distinguish between some verbs and objects.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Eu8ECuwEARFNMg9BiY4kEAXkTzJ9jV86w/jYcS1aw8m7S8d9+9tIu9g/xGA8J4kHDmIZFVOee7TwNaYca7OEAhWGK6PW9WI4YqG8Pv09Xdg3Zd+6830g8OVX0eP9qiHBrCXwD6pl1cRe7A03gmKx/P+CbEeRh9o8TjWKxaUrf8fsMwy7Svp4fasdN21BGmYWcF0jSa8y6LMhOFwlxFCcX0Ayk0MU/EsDk+WfCe7vndlJyB8hzwrPlLPqH2blGP+n99a+3XohEaTcsJSRMDFjr8ZKDR5PY1mBNbg2yxrctD7QWKUZrYg7ASpG1NlxUorBoSSE2Xg8euZDVfNze6MyFegF1G3gJrG1ka7zK6PoEgqTKRet+V1TZ/qrL9GkTQ2BM4/4Zrc4l8HfxfJYfGZ7rSlZeok3bsUiuI/lvX5jRbhzhfsv1kdaa026M6J6x4KFG7w+wPjUZV8TDydsPJ6OidfGYtbKbE36oEYcLIOJ7r3bpFI/fwCP4fXcvgP+Sai6gjc7doaicZmq3KIKYJ2oGeTXn33BUQ7DfK90TSM22CghM+Cfhz4n+kpBJL5PHef/qbOPeeI90WslIZAOvgYKPxaEod9BBgRiqMpnXLThAjvV1Vrye3yqsD77c6WDIzaGIz14EEh1KvUzBEuYAweDZJVTcHxlgyyXUAReVBG9Q/TIaJXmmGFeNwBJvEG3EKjsHQa8dTLT+AlaSi0b4NPYlA7ecBE5Cfp7ibrQy5/jIM8L+yECTZwCfJKqMw1sclhuJWoST9K0HKBzEol7hVUgwf7lYwpjKzfPuNTeSn/yiO/zVvSZdW/ByeRrVJbl33XBz5k="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247367,
+    "id": "BDJKatv8Mq7H0-kPp7WTuQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 13,
+      "prompt_tokens": 134,
+      "total_tokens": 274
+    }
+  }
+}

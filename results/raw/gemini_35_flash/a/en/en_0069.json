@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0069",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 15.36,
+  "ref_text_raw": "The Plitvice Lakes national park is heavily forested, mainly with beech, spruce, and fir trees, and features a mixture of Alpine and Mediterranean vegetation.",
+  "ref_text_normalized": "the plitvice lakes national park is heavily forested mainly with beech spruce and fir trees and features a mixture of alpine and mediterranean vegetation",
+  "timestamp_utc": "2026-07-05T10:31:56Z",
+  "text": "The Plitvice Lakes National Park is heavily forested, mainly with beech, spruce, and fir trees, and features a mixture of Alpine and Mediterranean vegetation.",
+  "latency_sec": 4.1178,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The Plitvice Lakes National Park is heavily forested, mainly with beech, spruce, and fir trees, and features a mixture of Alpine and Mediterranean vegetation.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Ep4GCpsGARFNMg/1pPciXHzwT9Oi1ud7stRH9yxtFPctpn3j+8ukjQ8Xi4/bi7vsV5vMr+s6VrnKS8KSW2d7213nrGyjER7s9NeFXbJv6XgHC/265qyxhWoITR/QERXFcUmhV/l7CDpws+Uvt8QbvPYPa19gwGxwY8Ws3z9vdJOFmaetE04sPiQjooss4IOv3ha2Pi9Kwm0g+71PLv2ydsSQx9aL8IYz7G3Y+O1halDmDhHFf4QkwLiLmjrjXbYn+86/TuAR2MmwryEGi4qPbylvIbqxa2MO/rMSR6rQVc51XidPkyn7k0nSMPxTbOprj4CZcpA7r/ZoeQwn3w8JnDdlh4Ypk9f4nHTK8EJKNvANPkN1uBBz5/z5QCy1+HceEDAO0ZoxzbgZa8/52PYBsoaRId+MFXbioytfc0lrLyYm/AbK1t5c88w5a73JlsAq8N+dv7nUDiWkmCyLIprGKXJ/93fyO9jqrNSC9WJYdWNGC0AZX0/aYTO866Mcg8zbKKbYcbzdin3ZHjrFvlBST69wCF6aFVunuOViX73/FzCPk6G96w7aXLNMvxiJ5h5pXevrfSCWaSoIttgBMRU/qFSkFqWPSc7dCrv9RUWU1N4oSKBoKgrgTgCM3y7aWmqjCJF+QX0hEcf/b1TZWVXwCnhQSG3960Ng+teWDD0YYlnn/eQYn8yt1PbtsCtQORMSAUb2ATjLrCjT5qNK1E+RdNPz5oyqv4pZJ+DzeT5hoE9e6ZnjUI1pjIzrGch/HLRnmtTbFh9nS8gC+j+AdLDkNcBPkUYibxBbt66pH+DIq4tZjSBx99XmeMSA9QTtlq7prSDAl+33lKiv7k5FK8ZN4cAybPrAprGVRP8EP/JJslhDjJ6r29fIhQYBEBwV9i8IUujGaHqUnWz2y/27qpp+WHbQOrObtMOZttCM7MWDHm/eIjj1WbxSCRmpnnaJdfn8m1uL7DUMc1yO8N0U8qywaIH44usJNvP3a91ABeRJvMNrfh1G1ikt59aRSkBU/Xf1hPP6FtP4e6pFBB94saOYwvucn3EznkfT+jbtivoxtBrU"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247516,
+    "id": "mjJKaquFBO6A0-kPgc2WkAY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 405,
+      "total_tokens": 610
+    }
+  }
+}

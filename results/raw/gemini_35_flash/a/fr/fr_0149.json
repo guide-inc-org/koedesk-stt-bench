@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0149",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.46,
+  "ref_text_raw": "Les croisillons ont été introduits assez tôt pour maintenir les pistes en place. Cependant, on s'est peu à peu rendu compte que les pistes seraient plus efficaces si elles étaient munies d'une bande de fer sur le dessus.",
+  "ref_text_normalized": "les croisillons ont été introduits assez tôt pour maintenir les pistes en place cependant on s'est peu à peu rendu compte que les pistes seraient plus efficaces si elles étaient munies d'une bande de fer sur le dessus",
+  "timestamp_utc": "2026-07-05T05:14:35Z",
+  "text": "Les voies ont été introduites assez tôt pour maintenir les pistes en place. Cependant, on s'est peu à peu rendu compte que les pistes seraient plus efficaces si elles étaient munies d'une bande de fer sur le dessus.",
+  "latency_sec": 5.6905,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Les voies ont été introduites assez tôt pour maintenir les pistes en place. Cependant, on s'est peu à peu rendu compte que les pistes seraient plus efficaces si elles étaient munies d'une bande de fer sur le dessus.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228475,
+    "id": "N-hJavyYO73KrfcPzfG_-QM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 308,
+      "total_tokens": 831
+    }
+  }
+}

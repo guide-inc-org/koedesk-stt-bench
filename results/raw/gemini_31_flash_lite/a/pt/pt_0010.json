@@ -1,0 +1,44 @@
+{
+  "utt_id": "pt_0010",
+  "lang": "pt",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.4,
+  "ref_text_raw": "Os dois compostos reagem um com o outro para formar cristais que podem bloquear a função renal, afirmaram os pesquisadores da universidade.",
+  "ref_text_normalized": "os dois compostos reagem um com o outro para formar cristais que podem bloquear a função renal afirmaram os pesquisadores da universidade",
+  "timestamp_utc": "2026-07-05T06:54:29Z",
+  "text": "Os dois compostos reagem um com o outro para formar cristais que podem bloquear a função renal, afirmaram os pesquisadores da universidade.",
+  "latency_sec": 2.6721,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Os dois compostos reagem um com o outro para formar cristais que podem bloquear a função renal, afirmaram os pesquisadores da universidade.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPd7XPm0m6eSlbWjor42EA/1ai/6UqExQG4kTYfNNeI81A6FCR8Bh1SlHmQluw"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234469,
+    "id": "pP9JatuHCLCr0-kPhJ6suQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 306,
+      "total_tokens": 336
+    }
+  }
+}

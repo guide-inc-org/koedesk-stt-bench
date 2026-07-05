@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0038",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.24,
+  "ref_text_raw": "Eine Zivilisation ist eine eigenständige Kultur, die von einer signifikant großen Gruppe von Menschen geteilt wird, die zusammen leben und arbeiten, einer Gesellschaft.",
+  "ref_text_normalized": "eine zivilisation ist eine eigenständige kultur die von einer signifikant großen gruppe von menschen geteilt wird die zusammen leben und arbeiten einer gesellschaft",
+  "timestamp_utc": "2026-07-05T03:42:51Z",
+  "text": "Eine Zivilisation ist eine eigenständige Kultur, die von einer signifikant großen Gruppe von Menschen geteilt wird, die zusammenleben und arbeiten einer Gesellschaft.",
+  "latency_sec": 3.4081,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Eine Zivilisation ist eine eigenständige Kultur, die von einer signifikant großen Gruppe von Menschen geteilt wird, die zusammenleben und arbeiten einer Gesellschaft.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222972,
+    "id": "udJJaqrONNCd1e8Pt4DcqQQ",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 317,
+      "total_tokens": 378
+    }
+  }
+}

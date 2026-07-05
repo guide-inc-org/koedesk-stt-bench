@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0127",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 6.3,
+  "ref_text_raw": "福克兰群岛的官方货币是福克兰英镑，与英镑等值。",
+  "ref_text_normalized": "福 克 兰 群 岛 的 官 方 货 币 是 福 克 兰 英 镑 与 英 镑 等 值",
+  "timestamp_utc": "2026-07-05T06:29:32Z",
+  "text": "福克兰群岛的官方货币是福克兰英镑，与英镑等值。",
+  "latency_sec": 3.1884,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "7s",
+      "requestId": "7739584d-0000-2aa3-90d1-d4f547eefc24",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "福克兰群岛的官方货币是福克兰英镑，与英镑等值。"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0051",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 18.54,
+  "ref_text_raw": "Ini tidak sendirian, eksperimentasi, dan sebuah eksperimen adalah tes yang digunakan untuk menghilangkan satu atau lebih dari kemungkinan hipotesis, mengajukan pertanyaan, dan membuat pengamatan juga memandu penelitian ilmiah.",
+  "ref_text_normalized": "ini tidak sendirian eksperimentasi dan sebuah eksperimen adalah tes yang digunakan untuk menghilangkan satu atau lebih dari kemungkinan hipotesis mengajukan pertanyaan dan membuat pengamatan juga memandu penelitian ilmiah",
+  "timestamp_utc": "2026-07-05T05:48:03Z",
+  "text": "ini tidak sendirian. Eksperimentasi dan sebuah eksperimen adalah tes yang digunakan untuk menghilangkan satu atau lebih dari kemungkinan hipotesis. Mengajukan pertanyaan dan membuat pengamatan juga memandu penelitian ilmiah.",
+  "latency_sec": 2.7685,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ini tidak sendirian. Eksperimentasi dan sebuah eksperimen adalah tes yang digunakan untuk menghilangkan satu atau lebih dari kemungkinan hipotesis. Mengajukan pertanyaan dan membuat pengamatan juga memandu penelitian ilmiah.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPi8cE1V6zC2CXujdAyXJwEmROPgKKtvzl3Wg/lClX68JVoVAQ/EMKT1orXZOz"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230483,
+    "id": "EvBJatqaE7zW2roP5ab44Ak",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 42,
+      "prompt_tokens": 485,
+      "total_tokens": 527
+    }
+  }
+}

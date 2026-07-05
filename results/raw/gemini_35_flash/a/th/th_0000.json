@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0000",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.82,
+  "ref_text_raw": "Danielle Lantagne ผู้เชี่ยวชาญด้านโรคภัยประจำสหประชาชาติแถลงว่า เป็นไปได้ที่การระบาดของโรคในครั้งนี้เกิดจากเจ้าหน้าที่รักษาความสงบ",
+  "ref_text_normalized": "danielle lantagne ผู้เชี่ยวชาญด้านโรคภัยประจำสหประชาชาติแถลงว่า เป็นไปได้ที่การระบาดของโรคในครั้งนี้เกิดจากเจ้าหน้าที่รักษาความสงบ",
+  "timestamp_utc": "2026-07-05T07:50:49Z",
+  "text": "แดเนียล แลงค์ตัน ผู้เชี่ยวชาญด้านโรคภัยประจำสหประชาชาติแถลงว่าเป็นไปได้ที่การระบาดของโรคในครั้งนี้เกิดจากเจ้าหน้าที่รักษาความสงบ",
+  "latency_sec": 4.3372,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "แดเนียล แลงค์ตัน ผู้เชี่ยวชาญด้านโรคภัยประจำสหประชาชาติแถลงว่าเป็นไปได้ที่การระบาดของโรคในครั้งนี้เกิดจากเจ้าหน้าที่รักษาความสงบ",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237849,
+    "id": "1gxKavXeKMKw0-kPjYbn-AU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 42,
+      "prompt_tokens": 242,
+      "total_tokens": 596
+    }
+  }
+}

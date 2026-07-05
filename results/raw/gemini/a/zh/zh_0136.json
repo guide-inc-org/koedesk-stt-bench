@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0136",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 6.74,
+  "ref_text_raw": "跳羚队以五连败收官。",
+  "ref_text_normalized": "跳 羚 队 以 五 连 败 收 官",
+  "timestamp_utc": "2026-07-05T08:58:54Z",
+  "text": "跳羚隊以五連敗收官。",
+  "latency_sec": 3.9251,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "跳羚隊以五連敗收官。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241935,
+    "id": "yxxKasKfPKne1e8P6I_tqAg",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 10,
+      "prompt_tokens": 237,
+      "total_tokens": 375
+    }
+  }
+}

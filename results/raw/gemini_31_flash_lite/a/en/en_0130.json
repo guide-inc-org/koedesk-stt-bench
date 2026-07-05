@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0130",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.32,
+  "ref_text_raw": "In 1990, it was added to the list of world heritage sites in danger, due to the threat of desert sands.",
+  "ref_text_normalized": "in 1990 it was added to the list of world heritage sites in danger due to the threat of desert sands",
+  "timestamp_utc": "2026-07-05T03:34:58Z",
+  "text": "In 1990, it was added to the list of World Heritage sites in danger due to the threat of desert sands.",
+  "latency_sec": 2.7603,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "In 1990, it was added to the list of World Heritage sites in danger due to the threat of desert sands.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPJpO1uMGG5qll9QvfjskUpWBoe5vf1wJqLrQ/M51yluV9OtPAG77zzQ9i/RNZ"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222498,
+    "id": "4dBJaqnZAY-D1e8P9I7h6AE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 204,
+      "total_tokens": 231
+    }
+  }
+}

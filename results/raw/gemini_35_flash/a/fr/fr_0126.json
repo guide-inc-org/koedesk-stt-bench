@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0126",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.98,
+  "ref_text_raw": "Il est fortement conseillé aux voyageurs de se renseigner sur les risques de mauvais temps pouvant affecter leur région de destination, sachant que cela peut avoir une incidence sur les itinéraires qu'ils envisagent.",
+  "ref_text_normalized": "il est fortement conseillé aux voyageurs de se renseigner sur les risques de mauvais temps pouvant affecter leur région de destination sachant que cela peut avoir une incidence sur les itinéraires qu'ils envisagent",
+  "timestamp_utc": "2026-07-05T05:12:39Z",
+  "text": "Il est fortement conseillé aux voyageurs de se renseigner sur les risques de mauvais temps pouvant affecter leur région de destination, sachant que cela peut avoir une incidence sur les itinéraires qu'ils envisagent.",
+  "latency_sec": 4.2378,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Il est fortement conseillé aux voyageurs de se renseigner sur les risques de mauvais temps pouvant affecter leur région de destination, sachant que cela peut avoir une incidence sur les itinéraires qu'ils envisagent.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EvMKCvAKARFNMg9sMvic31LKHLTYfllGS+EBENHRw/5sfyao9wjfkjIBpffUddQCZety1FMit2u2DV7aJ/3wjJk66/GjdE2c+SFSS+jrLPHj1Q1p/QK8mCW12jZtmIZvjzH5w/s/MbBEWJyoFBSxqDp1eYOJEPWRhBMllGxu8yjLUVb3Mu0e8E0VbgLggf1zRWWZZV7fZRBN0Pm8U03RemSVrpjmdboRmOXBDkUaA/q67t4uA9HdV18FzvbWU4+bT81VGQ+jPUrO4fCl31yhnHUWlHBERixJAVAuvbW0CpG3GduzzPwFMMb5SITF+HI2nuzPDc2jFZZl/nN0+AdDfpacqzlEH+MSMFumAV/mUFAqKX44aVOKshbUnuqFU18TOb7KHRmWny7eo4LIqOBFbvAkJ4tE7WBRPkUSLUT1NxQ9vHXZzKeQE8STI7BEp5l6xn/1VM9glbjz76QjlgpSYLJ7ss7MxLT8u4IF+twAw8GE7JxqStyJ/m2qWJTf/z3VINXRteGVotbhEatKp5bjdTQXHmD7ZdzXk5st6NvlnlpoW9Kf0dJVO8wLNu3DECGfrDD6kc6f4KvJLgMIU79WIotkaZLrOiu0mrdZkGnAuI8+RAXhKTi/yT6QmEuHYC5DBFYVQnn4yzip7MyYjWFl6wnLDVRhg85J5b0/P05sx8W9x0vFoSLAo7ncoY+Xcvc/PymhAXAP1wOTqqzB5c87FVQvZkjZ8TAUD5DQ+eVxS68B2y42R4NnzrKNlIZ4EA/qf+lDBLPnlCwPsW/EqFXAj14uC8M6M7JNDZhIohrLoUBGUOusdXU/BNIiA02D7hgZk3GC6YPcJPoazKjidHuWhk8vcUmdAFFE9fs0WD7hJmJ9NigbA0GwXVDwctgnGGLhAyZvHsIS0+eGDSHoiRsSVMnwiiMFetXgtckCHaEhmH/2n3/hhCNHdVdPBu14LYXB5GcL2iRBq90HzSDZxgH7q4T+7u7wNjOSHbi3ml7PBQ9lqOQ+CP5F2huIbZdFp3HrGYG+TaV4XHGzC24sgbW2jqX6kFlwtk4lilpvyp6ATlRedU9sVWxwYejcYG9V1XyUC/EfnL7q1VrAPY09MJ/gLFZJMsg2iBidqYn3eEPIlJgTpyXqhfaGjC0sk3Ip8nBnbeDGwi2kCOnCPg1GTN4OUWtZVJcWxPzGZzrc6kuhoVt1367oicUWDkFJQKMGdNnumZrwwfo8HLlwrZL5/n/WHRod3QQAKVR/7yxCyeTKQcC/ingHy6Va6kgDtSMPwlf70KiFMpsQqPpzvpRntKId8FwoCi+K4tcO3jb2KB+1kHvB5KwwAHEotPM4eEOsu74uuriWUyGC0N09b/+bOjOvmQNQYLpM5KDL0Ry8D2hqskS1HTK+lV25L4m6+sHOe/jXi0oaX3UmnnucdnsDk8Bc0gF6Yj+5SDE4A88aJd6ppmJfwIFz2Kg09z3+unm+f4PqFw4Lc9BbfQcNpT4RzSRAUC31X9dzkd1bGZ7DXLDcBgRLC+ONTttC4HJTpnrmd3BXDbJ5HofsXjAnpTgv0Veo4iUE5mHxjWsKtUrN7DO8udImj8yaLoWmdxmifyURFcvLSu7ofGKCWVEk+DH+z8YXMOjciC55GFsP/l0r5x1YlaWjFXwWINdfuofDfyGk77phZile2IfGRsFahEJV4flnr+kwj/XQiH/pqDa5w1R/S8rZEE/7phbgYGMX+AkADIu7EXAr6rxVwZJdEEo4YIgbsn2TaMoIxj6G8wUNSdZ6XfdfKsqKyVV5KFQkIn5yidm9wXPr0qm0JFmjIgvyxE8T1Ax3ZYiHoykyI+os2Bq1BvwB5DfqrK6BYs196Rg2C18hPyNqQAIc"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228358,
+    "id": "xOdJaq-9Auba1e8PnvbkmAI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 296,
+      "total_tokens": 652
+    }
+  }
+}

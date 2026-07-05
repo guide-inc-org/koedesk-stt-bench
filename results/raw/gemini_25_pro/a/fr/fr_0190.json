@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0190",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.68,
+  "ref_text_raw": "Parmi les sports populaires figurent le football, le basket-ball, le volley-ball, le water-polo, l'escrime, le rugby, le cyclisme, le hockey sur glace, le roller hockey et la Formule 1.",
+  "ref_text_normalized": "parmi les sports populaires figurent le football le basket-ball le volley-ball le water-polo l'escrime le rugby le cyclisme le hockey sur glace le roller hockey et la formule 1",
+  "timestamp_utc": "2026-07-05T05:08:10Z",
+  "text": "Parmi les sports populaires figurent le football, le basketball, le volleyball, le waterpolo, l'escrime, le rugby, le cyclisme, le hockey sur glace, le roller hockey et la Formule 1.",
+  "latency_sec": 6.7582,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Parmi les sports populaires figurent le football, le basketball, le volleyball, le waterpolo, l'escrime, le rugby, le cyclisme, le hockey sur glace, le roller hockey et la Formule 1.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228090,
+    "id": "tOZJaqHhLKew0-kPzeiWSA",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 363,
+      "total_tokens": 681
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0141",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.18,
+  "ref_text_raw": "Der Kohlsaft ändert seine Farbe, je nachdem wie sauer oder basisch (alkalisch) die Chemikalie ist.",
+  "ref_text_normalized": "der kohlsaft ändert seine farbe je nachdem wie sauer oder basisch alkalisch die chemikalie ist",
+  "timestamp_utc": "2026-07-05T04:08:23Z",
+  "text": "Der Kurkuma-Saft ändert seine Farbe, je nachdem, wie sauer oder basisch die Chemikalie ist.",
+  "latency_sec": 3.2165,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Der Kurkuma-Saft ändert seine Farbe, je nachdem, wie sauer oder basisch die Chemikalie ist.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPR4ywuGkXxQQ+zn17N+qwMkGayYzxnIa8MCNDk91k8rLH2PSeLDkRrrzCNKwf"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224503,
+    "id": "tdhJaruyFI-30-kPqfOw8Q0",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 176,
+      "total_tokens": 203
+    }
+  }
+}

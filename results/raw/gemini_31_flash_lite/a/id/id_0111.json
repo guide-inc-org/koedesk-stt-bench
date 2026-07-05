@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0111",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.44,
+  "ref_text_raw": "Pertunjukan suara dan cahaya piramida merupakan salah satu atraksi paling menarik bagi anak-anak di kawasan ini.",
+  "ref_text_normalized": "pertunjukan suara dan cahaya piramida merupakan salah satu atraksi paling menarik bagi anak-anak di kawasan ini",
+  "timestamp_utc": "2026-07-05T05:51:52Z",
+  "text": "Pertunjukan Suara dan Cahaya Piramida merupakan salah satu atraksi paling menarik bagi anak-anak di kawasan ini.",
+  "latency_sec": 2.7284,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Pertunjukan Suara dan Cahaya Piramida merupakan salah satu atraksi paling menarik bagi anak-anak di kawasan ini.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPH9lKMe/PquI8B7bkGobJF+FVArjIwAyNBfou5XuNEPzQfhPhUMANVFfqDNVR"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230712,
+    "id": "9vBJas3fMf_IrfcPzNe_mAc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 282,
+      "total_tokens": 307
+    }
+  }
+}

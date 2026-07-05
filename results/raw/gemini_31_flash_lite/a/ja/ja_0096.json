@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0096",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.98,
+  "ref_text_raw": "クンダリーニヨガは、ヨガのポーズ、呼吸、マントラ、ムードラなどを組み合わせてクンダリーニ（自己の魂）の覚醒を目指すものです。",
+  "ref_text_normalized": "クンダリーニヨガは ヨガのポーズ 呼吸 マントラ ムードラなどを組み合わせてクンダリーニ自己の魂の覚醒を目指すものです",
+  "timestamp_utc": "2026-07-05T10:18:35Z",
+  "text": "クンダリーニヨガは、ヨガのポーズ、呼吸、マントラ、ムドラなどを組み合わせて、クンダリーニ、自己の魂の覚醒を目指すものです。",
+  "latency_sec": 3.047,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "クンダリーニヨガは、ヨガのポーズ、呼吸、マントラ、ムドラなどを組み合わせて、クンダリーニ、自己の魂の覚醒を目指すものです。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPLyOlYflOPtfps3J29e5BTBHwIF31ZVLSdDYqrUgACDj57R44Ouaofyw4Iso5"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246715,
+    "id": "eS9Kao6dLuex2roPq7DX0QU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 371,
+      "total_tokens": 412
+    }
+  }
+}

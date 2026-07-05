@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0040",
+  "lang": "es",
+  "engine": "gemini_25_pro",
+  "duration_sec": 9.9,
+  "ref_text_raw": "Como resultado, se han extinguido dos especies de peces y otras dos corren peligro de extinción, entre ellas la gila cypha.",
+  "ref_text_normalized": "como resultado se han extinguido dos especies de peces y otras dos corren peligro de extinción entre ellas la gila cypha",
+  "timestamp_utc": "2026-07-05T04:16:25Z",
+  "text": "Como resultado, se han extinguido dos especies de peces y otras dos corren peligro de extinción, entre ellas la Gila sifa.",
+  "latency_sec": 6.334,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Como resultado, se han extinguido dos especies de peces y otras dos corren peligro de extinción, entre ellas la Gila sifa.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224985,
+    "id": "lNpJavrJF7vLrfcPnvyU2AE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 338,
+      "total_tokens": 633
+    }
+  }
+}

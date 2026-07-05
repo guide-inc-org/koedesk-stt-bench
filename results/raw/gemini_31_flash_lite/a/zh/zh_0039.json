@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0039",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.44,
+  "ref_text_raw": "狂风、冰雹、过量降水、山火，还有雷雨、龙卷风、水龙卷、气旋，都是极端天气的表现和影响。",
+  "ref_text_normalized": "狂 风 冰 雹 过 量 降 水 山 火 还 有 雷 雨 龙 卷 风 水 龙 卷 气 旋 都 是 极 端 天 气 的 表 现 和 影 响",
+  "timestamp_utc": "2026-07-05T09:13:02Z",
+  "text": "狂风、冰雹、过量降水、山火还有雷雨、龙卷风、水龙卷、气旋，都是极端天气的表现和影响。",
+  "latency_sec": 2.8636,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "狂风、冰雹、过量降水、山火还有雷雨、龙卷风、水龙卷、气旋，都是极端天气的表现和影响。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP4UExBTzkpQqRIIHsS/eKvNDp6DGQ7P9GFbQyiGBZGzQgzL7ShiNbCRgT/rqt"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242782,
+    "id": "HCBKaojMNurS1e8Pod3IoAU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 282,
+      "total_tokens": 318
+    }
+  }
+}

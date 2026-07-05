@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0116",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.54,
+  "ref_text_raw": "Trong thời gian làm việc tại bệnh viện, Liggins bắt đầu điều tra về tình trạng sinh non trong thời gian rảnh.",
+  "ref_text_normalized": "trong thời gian làm việc tại bệnh viện liggins bắt đầu điều tra về tình trạng sinh non trong thời gian rảnh",
+  "timestamp_utc": "2026-07-05T08:44:35Z",
+  "text": "Trong thời gian làm việc tại bệnh viện, Ligin bắt đầu điều tra về tình trạng sinh non trong thời gian rảnh.",
+  "latency_sec": 3.0588,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Trong thời gian làm việc tại bệnh viện, Ligin bắt đầu điều tra về tình trạng sinh non trong thời gian rảnh.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPsjHwFm1p36+sQXNG2Nt4k8nVVlGAG+55JuMFeJZPxvWqomq8lqZ5k6McUMH+"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241075,
+    "id": "chlKapHiAZDIrfcPxsKh8Q8",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 260,
+      "total_tokens": 286
+    }
+  }
+}

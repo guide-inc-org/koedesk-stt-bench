@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0190",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 17.88,
+  "ref_text_raw": "De todas formas, el porcentaje de XDR-TB en el grupo total de enfermos de tuberculosis aún parece ser reducido: 6000 de un total de 333 000 individuos infectados en un momento particular en Sudáfrica.",
+  "ref_text_normalized": "de todas formas el porcentaje de xdr-tb en el grupo total de enfermos de tuberculosis aún parece ser reducido 6000 de un total de 333 000 individuos infectados en un momento particular en sudáfrica",
+  "timestamp_utc": "2026-07-05T04:45:09Z",
+  "text": "De todas formas, el porcentaje de XDR-TB en el grupo total de enfermos de tuberculosis aún parece ser reducido, 6000 de un total de 333000 individuos infectados en un momento particular en Sudáfrica.",
+  "latency_sec": 2.9826,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "De todas formas, el porcentaje de XDR-TB en el grupo total de enfermos de tuberculosis aún parece ser reducido, 6000 de un total de 333000 individuos infectados en un momento particular en Sudáfrica.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPWJsPcfR7og7vMd/pAIkmvuTgcLcHtQOvaftlH4VpRMP5vKJFlxpgR7nVuz0d"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226709,
+    "id": "U-FJaqKfL6nDvr0PmKevgQ8",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 52,
+      "prompt_tokens": 468,
+      "total_tokens": 520
+    }
+  }
+}

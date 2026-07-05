@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0056",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 16.68,
+  "ref_text_raw": "Der Satellit wurde von einer Rakete ins Weltall befördert. Wissenschaftler verwenden Teleskope im Weltall, weil die Erdatmosphäre unser Licht und unseren Blick etwas verzerrt.",
+  "ref_text_normalized": "der satellit wurde von einer rakete ins weltall befördert wissenschaftler verwenden teleskope im weltall weil die erdatmosphäre unser licht und unseren blick etwas verzerrt",
+  "timestamp_utc": "2026-07-05T04:03:11Z",
+  "text": "Der Satellit wurde von einer Rakete ins Weltall befördert. Wissenschaftler verwenden Teleskope im Weltall, weil die Erdatmosphäre unser Licht und unseren Blick etwas verzerrt.",
+  "latency_sec": 4.3558,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Der Satellit wurde von einer Rakete ins Weltall befördert. Wissenschaftler verwenden Teleskope im Weltall, weil die Erdatmosphäre unser Licht und unseren Blick etwas verzerrt.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP4UonRMgOXr74O7Hx0NGlJuOEqprg+Y85smwQoRWpv5e6U7/wvgW+iMVp9VLA"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224191,
+    "id": "fNdJatrHFp2D0-kP0faGoAE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 42,
+      "prompt_tokens": 438,
+      "total_tokens": 480
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0015",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 22.56,
+  "ref_text_raw": "\"Walaupun sering kali ini hanya stereotip yang tidak akurat, cara terbaik untuk tetap bergaul di Paris adalah dengan berperilaku terbaik, bertindak seperti seseorang yang \"bien Ã©levÃ©\" (dibesarkan dengan baik). Hal tersebut membuat perjalanan berkeliling Anda jauh lebih mudah. \"",
+  "ref_text_normalized": "\"walaupun sering kali ini hanya stereotip yang tidak akurat cara terbaik untuk tetap bergaul di paris adalah dengan berperilaku terbaik bertindak seperti seseorang yang bien ã©levã© dibesarkan dengan baik. hal tersebut membuat perjalanan berkeliling anda jauh lebih mudah. ",
+  "timestamp_utc": "2026-07-05T05:45:44Z",
+  "text": "Walaupun seringkali ini hanya stereotip yang tidak akurat, cara terbaik untuk tetap bergaul di Paris adalah dengan berperilaku terbaik bertindak seperti seseorang yang bien eleve dibesarkan dengan baik. Hal tersebut membuat perjalanan berkeliling Anda jauh lebih mudah.",
+  "latency_sec": 3.701,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Walaupun seringkali ini hanya stereotip yang tidak akurat, cara terbaik untuk tetap bergaul di Paris adalah dengan berperilaku terbaik bertindak seperti seseorang yang bien eleve dibesarkan dengan baik. Hal tersebut membuat perjalanan berkeliling Anda jauh lebih mudah.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP2DYkdCvSIeT2Uk1swa2VQPSMNqVbXq0i3HTBk61wWXCnZTRMJC4PG8cZRYK4"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230344,
+    "id": "he9JavPZMpj_1e8PrLe2mQQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 53,
+      "prompt_tokens": 585,
+      "total_tokens": 638
+    }
+  }
+}

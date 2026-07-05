@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0068",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.28,
+  "ref_text_raw": "И наконец, многие маленькие кошки (включая гуляющих домашних кошек), едят и охотятся на намного более многочисленных мелких животных, наподобие насекомых, грызунов, ящериц и птиц.",
+  "ref_text_normalized": "и наконец многие маленькие кошки включая гуляющих домашних кошек едят и охотятся на намного более многочисленных мелких животных наподобие насекомых грызунов ящериц и птиц",
+  "timestamp_utc": "2026-07-05T07:31:12Z",
+  "text": "И наконец, многие маленькие кошки, включая гуляющих домашних кошек, едят и охотятся на намного более многочисленных мелких животных, наподобие насекомых, грызунов, ящериц и птиц.",
+  "latency_sec": 2.8211,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "И наконец, многие маленькие кошки, включая гуляющих домашних кошек, едят и охотятся на намного более многочисленных мелких животных, наподобие насекомых, грызунов, ящериц и птиц.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP5lrbOPW0RYgn8qDc64ucLOvK53yC5Ci53HcBpmx3Fu3sHtPMVqk9pvpdx3O8"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236672,
+    "id": "PwhKapLBHbbR0-kPp6yr6QI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 51,
+      "prompt_tokens": 378,
+      "total_tokens": 429
+    }
+  }
+}

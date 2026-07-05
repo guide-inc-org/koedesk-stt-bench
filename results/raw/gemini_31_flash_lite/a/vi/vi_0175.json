@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0175",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.9,
+  "ref_text_raw": "Về cơ bản, hợp kim là hỗn hợp của hai kim loại trở lên. Đừng quên rằng có nhiều nguyên tố trên bảng tuần hoàn.",
+  "ref_text_normalized": "về cơ bản hợp kim là hỗn hợp của hai kim loại trở lên đừng quên rằng có nhiều nguyên tố trên bảng tuần hoàn",
+  "timestamp_utc": "2026-07-05T08:48:15Z",
+  "text": "Về cơ bản hợp kim là hỗn hợp của hai kim loại trở lên. Đừng quên rằng có nhiều nguyên tố trên bảng tuần hoàn.",
+  "latency_sec": 3.5466,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Về cơ bản hợp kim là hỗn hợp của hai kim loại trở lên. Đừng quên rằng có nhiều nguyên tố trên bảng tuần hoàn.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPc11P8Q3w4kTK06Xrt9nHYESd4WlkIlGgtDueiVw1qB9Be6C8b8rtKkycEPPY"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241295,
+    "id": "TRpKaqipGun62roPgJLP-QI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 269,
+      "total_tokens": 298
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0179",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.4,
+  "ref_text_raw": "在昆达里尼瑜伽中，昆达里尼能量（启迪能量）通过瑜伽姿势、呼吸练习、念语和视觉形象被唤醒。",
+  "ref_text_normalized": "在 昆 达 里 尼 瑜 伽 中 昆 达 里 尼 能 量 启 迪 能 量 通 过 瑜 伽 姿 势 呼 吸 练 习 念 语 和 视 觉 形 象 被 唤 醒",
+  "timestamp_utc": "2026-07-05T09:21:27Z",
+  "text": "在昆达里尼瑜伽中,昆达里尼能量,即地能量,通过瑜伽姿势、呼吸练习、念语和视觉想像被唤醒。",
+  "latency_sec": 2.8016,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "在昆达里尼瑜伽中,昆达里尼能量,即地能量,通过瑜伽姿势、呼吸练习、念语和视觉想像被唤醒。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPIvj4prfkm/sVuvQGbSUQOdBtQjkq2ULmVAlrZDxtqF4yepzxhyzhKOhZ22WC"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243287,
+    "id": "FSJKarb6H9y-vr0P4tf2gQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 306,
+      "total_tokens": 343
+    }
+  }
+}

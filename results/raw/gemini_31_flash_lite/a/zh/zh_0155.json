@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0155",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.1,
+  "ref_text_raw": "狮子是群居属性最明显的猫科动物，生活在称为狮群的大型群体中。",
+  "ref_text_normalized": "狮 子 是 群 居 属 性 最 明 显 的 猫 科 动 物 生 活 在 称 为 狮 群 的 大 型 群 体 中",
+  "timestamp_utc": "2026-07-05T09:19:58Z",
+  "text": "狮子是群居属性最为明显的猫科动物，生活在称为狮群的大型群体中。",
+  "latency_sec": 2.6893,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "狮子是群居属性最为明显的猫科动物，生活在称为狮群的大型群体中。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPpMNS+z7BZe8SqgChOiEZ4wvYlafICyYu7ZmECDgey1Od285vOa9Rvd49P4uM"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243198,
+    "id": "vCFKavXOGqbG0-kPpaDayQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 224,
+      "total_tokens": 246
+    }
+  }
+}

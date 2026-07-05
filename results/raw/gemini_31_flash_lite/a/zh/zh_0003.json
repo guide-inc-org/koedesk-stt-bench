@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0003",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.42,
+  "ref_text_raw": "\"适当使用博客，\"可以使学生变得更善于分析和进行思辨；通过积极回应网络材料，学生们可以在他人文章的上下文语境中找到自己的立场，并能够针对特定问题提出自己的观点（Oravec, 2002）。\"",
+  "ref_text_normalized": "适 当 使 用 博 客 可 以 使 学 生 变 得 更 善 于 分 析 和 进 行 思 辨 通 过 积 极 回 应 网 络 材 料 学 生 们 可 以 在 他 人 文 章 的 上 下 文 语 境 中 找 到 自 己 的 立 场 并 能 够 针 对 特 定 问 题 提 出 自 己 的 观 点 oravec 2002",
+  "timestamp_utc": "2026-07-05T09:10:54Z",
+  "text": "适当使用博客可以使学生变得更善于分析和进行思辨，通过积极回以网络材料，学生们可以在他人的文章的上下文中找到自己的立场，并能够针对特定问题提出自己的观点。Work2002。",
+  "latency_sec": 3.0279,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "适当使用博客可以使学生变得更善于分析和进行思辨，通过积极回以网络材料，学生们可以在他人的文章的上下文中找到自己的立场，并能够针对特定问题提出自己的观点。Work2002。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPzXfeFvteFYKZfiPMg4XoHsZ4PNXQK4d7p4uSrXDA8Qp+SMDSMo86N+VpE4Gz"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242654,
+    "id": "nR9KatKmDcfG0-kPuZO6wQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 51,
+      "prompt_tokens": 407,
+      "total_tokens": 458
+    }
+  }
+}

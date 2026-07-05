@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0068",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 11.94,
+  "ref_text_raw": "フォークランドの公式通貨はフォークランド諸島ポンド（FKP）で1ポンドが1英ポンド（GBP）と等価に固定されています。",
+  "ref_text_normalized": "フォークランドの公式通貨はフォークランド諸島ポンドfkpで1ポンドが1英ポンドgbpと等価に固定されています",
+  "timestamp_utc": "2026-07-05T10:09:43Z",
+  "text": "フォークランドの公式通貨はフォークランド諸島ポンドFKPで1ポンドが1イギルスポンドGBPと10日に固定されています。",
+  "latency_sec": 4.7718,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "フォークランドの公式通貨はフォークランド諸島ポンドFKPで1ポンドが1イギルスポンドGBPと10日に固定されています。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246183,
+    "id": "Yy1KapOEOay1vr0P8c_P-Qc",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 404,
+      "total_tokens": 481
+    }
+  }
+}

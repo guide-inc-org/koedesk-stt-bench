@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0149",
+  "lang": "th",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.56,
+  "ref_text_raw": "โรคนี้มีสุกรเป็นพาหะซึ่งถ่ายทอดสู่มนุษย์หลังจากนั้นผ่านทางยุง",
+  "ref_text_normalized": "โรคนี้มีสุกรเป็นพาหะซึ่งถ่ายทอดสู่มนุษย์หลังจากนั้นผ่านทางยุง",
+  "timestamp_utc": "2026-07-05T07:46:30Z",
+  "text": "โรคนี้มีสุกรเป็นพาหะ ซึ่งถ่ายทอดสู่มนุษย์ หลังจากนั้นผ่านทางยุง",
+  "latency_sec": 3.5093,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "โรคนี้มีสุกรเป็นพาหะ ซึ่งถ่ายทอดสู่มนุษย์ หลังจากนั้นผ่านทางยุง",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237590,
+    "id": "0wtKapjgNryyvr0Pp7y7iQU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 263,
+      "total_tokens": 373
+    }
+  }
+}

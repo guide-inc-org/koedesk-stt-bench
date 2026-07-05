@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0167",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.6,
+  "ref_text_raw": "처음에 그는 그레이트 야머스(Great Yarmouth)에 있는 제임스 페이젯 병원(James Paget)에 입원했습니다.",
+  "ref_text_normalized": "처음에 그는 그레이트 야머스great yarmouth에 있는 제임스 페이젯 병원james paget에 입원했습니다",
+  "timestamp_utc": "2026-07-05T06:29:05Z",
+  "text": "처음에 그는 그레이트 야머스에 있는 제임스 페이젯 병원에 입원했습니다.",
+  "latency_sec": 2.679,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "처음에 그는 그레이트 야머스에 있는 제임스 페이젯 병원에 입원했습니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPCB6DXWEhAcXT+7iBST80aFeQEMIn3fQYtSlKR6sZUs7EC1bbkVVAhRZ/RPcL"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232945,
+    "id": "sPlJapj-B-6d1e8P5u7EuQQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 261,
+      "total_tokens": 284
+    }
+  }
+}

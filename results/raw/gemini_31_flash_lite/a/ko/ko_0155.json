@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0155",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.96,
+  "ref_text_raw": "누가 기록한 것인지는 아무도 모르지만, 이 큰 양피지 문서(75.6 cm x 62.2 cm)는 초기에 말려 보관되었습니다.",
+  "ref_text_normalized": "누가 기록한 것인지는 아무도 모르지만 이 큰 양피지 문서75.6 cm x 62.2 cm는 초기에 말려 보관되었습니다",
+  "timestamp_utc": "2026-07-05T06:28:21Z",
+  "text": "누가 기록한 것인지는 아무도 모르지만 이 큰 양피지 문서는 초기에 말려 보관되었습니다.",
+  "latency_sec": 2.6486,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "누가 기록한 것인지는 아무도 모르지만 이 큰 양피지 문서는 초기에 말려 보관되었습니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPsrek7UDORhIRKe+brAxCnjN4nhZmAmTQUPSsFjYEYFjMoyGWvHVEz0z0RjF3"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232901,
+    "id": "g_lJasWHK7_L0-kPu6eA2AI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 195,
+      "total_tokens": 221
+    }
+  }
+}

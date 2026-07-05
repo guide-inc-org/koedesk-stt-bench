@@ -1,0 +1,45 @@
+{
+  "utt_id": "es_0157",
+  "lang": "es",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.56,
+  "ref_text_raw": "Siguiendo la misma línea, se exige que los hombres usen pantalones que cubran las rodillas.",
+  "ref_text_normalized": "siguiendo la misma línea se exige que los hombres usen pantalones que cubran las rodillas",
+  "timestamp_utc": "2026-07-05T04:41:44Z",
+  "text": "Siguiendo la misma línea se exige que los hombres usen pantalones que cubran las rodillas.",
+  "latency_sec": 3.1462,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Siguiendo la misma línea se exige que los hombres usen pantalones que cubran las rodillas.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "ErQECrEEARFNMg8nSC5YKocEUMun+5sWO9qKACLaJJXImoyVQHRgyUeT6vQFMz+ddOfu7zd1mC1lI8IYEfx5A0JYyYagvuGcjG/VFg5SuFXuX2VOlOZj5svCKQ32UP+EsLf0FPk/D/aPkbV/TIefljFSftPEC+GZr6Mb5UVM7ryHSJ/Pgw3dknP3z+AObqoE3N7DW2wU8oC4VdwKFa/0bo4nvcdV4CjOgqpbZeLv9yMaBZ7otIoS44IwGylALB+t9KInGu6KoiJWIL9EVxVjabHxPZmxrQVDXSpQ96ysVIVaZW2BT/r2gQSIcgXanrD2tWBkcdsmmEEzX44L6cK+Z05l9BWsovqfawHZjH35z0Pw0gEUZFXFUxx5/N9JH1aDL6pxinjFUsc0d26MlJ4OK8vEH4JyQyW1wLXMsiVbHcx9kBCbMIHk4bRde8/e0Q2lyjWAljG6VnYUOC9kcupgWyT8ke5kIgKy2YG2UVCezvahJsoWNDxEf0xtgTbPGfL9aBG2G5CBbbV9iFCV5ltpOTSqOamN/EvmWGTG0/6JP/ODITbuQn6Hxc3QhzBe90LHiXLLq57TaUGUt0lYDnvp5eDVjUWAw9myYXEn4bQvDwMG3ppv73goz3KZe7n1glCSsvLuAQRn6r5GvT7HxwaDAyvsmW/egAV8XLw1v8rZhHtmtU7kgPMSg35KfNP1uEiK+2Gkh5QiVdnutQw5BoBaVz09N9kj0szCZ8K1O++jXPusH5JHqnYj"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226504,
+    "id": "huBJas7-HqXJ2roPu_yk0QE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 210,
+      "total_tokens": 362
+    }
+  }
+}

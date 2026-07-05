@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0020",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.28,
+  "ref_text_raw": "Des éléments comme le calcium et le potassium sont considérés comme des métaux. Bien sûr, il y a aussi des métaux comme l’argent et l’or.",
+  "ref_text_normalized": "des éléments comme le calcium et le potassium sont considérés comme des métaux bien sûr il y a aussi des métaux comme l'argent et l'or",
+  "timestamp_utc": "2026-07-05T05:02:52Z",
+  "text": "Des éléments comme le calcium et le potassium sont considérés comme des métaux. Bien sûr, il y a aussi des métaux comme l'argent et l'or.",
+  "latency_sec": 3.9102,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Des éléments comme le calcium et le potassium sont considérés comme des métaux. Bien sûr, il y a aussi des métaux comme l'argent et l'or.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EvYGCvMGARFNMg9FCElOiItE/mUPqSAThl6GeRwFniM3R41tRF3Ap418WtwX/mM6xYGOkyRzXY2rgWOHH2mOXh8d9SDh+VZLxrp+hlLQOYIZJewFq5eWFhUBWbKVYV9Cs67bHpdWICx/sg+YdyMQMC5AAAJMSW357FwJAg6xvNB8p5La9chki5SNbPudQBf2T/rZUkwippsFNIIy9GDoljvVEpVQH5PMZbmgdZbS+v2NkFkVbCilpW9AD4Ud/UPJL99/An2JWhxNroB2oHJN23RpwFp08HP4TmokOyCvuQaes3tLj8MWKs0yHkNye490NVVUELXvdg57H30FTx6j6YN84g+adcVDrKhcJkFFhcYM1NJ7dyx5s7Oq7Q2d6vXXaWq8OcYiUzF7f4MOgMdhgBhncu3yPBortwA8YIcrqV0leFv39AKORYlbLDKsJH0E9VJR2hMS1NL5yjPjh0GOO8yN2KBdP6v9ynyBZTFXAC2gkZddtLdgje4ZyQkSSKYoXiV9VaMMzcaMoNLLrl2MCeTNm6RNWRDwwOaMOB1W3KyDd0isysJ9QrynTLdm1NE/UqmCRvBhl3b7RQd3UxZg6nqrylovWrw6XnHoUllVXpGIyPu+l2z4auBap2fnhgXiakhlplFQ1LSc2np1hRFLkJnWOJDlMASWS2RMWpkZJ/gaEZ18ApOewc3HZek+ztzqylRx8EY3N8PfAB3NDIG6qQQt+YYHHt8MtYZUHTk63+zu26cY9ltTGPfzm013G0nrBEmiU1+YtFF/dcCLBYQT103/E0+L6BXNo82UC2CXci1A+IL3DiaYB700ceqranCh34oPfa7Sh2xwsTw5rfZw2QimdBoKhwBR5FUvP4PdT1IPNwo6TZj3o3vSqJ9P3dbQcN1720shLUax6QUr0sbEoTu0k57aIlJI37WF76PMjUbFg56KbrK51r1+BTqTxdwvcJOM8qbEjrTPsUYIf36NKOXfAvK2JHkiew0or8PgwEx91Z4zsEDlhmCybH0iSseaLoSV/6sMv+uYV9Jgdy+pNhjdwqO3pGFwBGCiAqHSEDmNs6RRc8eNvsHB3ffoClQqjX/M7C/wEORNseQcYFFSshsnlmH1de8vOB8BUYWStFaR00jM/QHjrrL5HCSLgXTwM/fvKejTEucAM8a7PIHEEw9N5MhARKNxzg=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227772,
+    "id": "eeVJarLjILui9tMP8NiBsAM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 228,
+      "total_tokens": 472
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0160",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 17.04,
+  "ref_text_raw": "Les blogues peuvent également aider les étudiants à améliorer leurs compétences en rédaction. Même si les étudiants tentent souvent l'expérience du blogue avec une grammaire et une orthographe négligées, le fait d'avoir un public fait généralement évoluer la situation.",
+  "ref_text_normalized": "les blogues peuvent également aider les étudiants à améliorer leurs compétences en rédaction même si les étudiants tentent souvent l'expérience du blogue avec une grammaire et une orthographe négligées le fait d'avoir un public fait généralement évoluer la situation",
+  "timestamp_utc": "2026-07-05T05:15:38Z",
+  "text": "Les blogs peuvent également aider les étudiants à améliorer leur compétence en rédaction. Même si l'étudiant tente souvent l'expérience du blog avec une grammaire et une orthographe négligée, le fait d'avoir un public fait généralement évoluer la situation.",
+  "latency_sec": 4.8546,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Les blogs peuvent également aider les étudiants à améliorer leur compétence en rédaction. Même si l'étudiant tente souvent l'expérience du blog avec une grammaire et une orthographe négligée, le fait d'avoir un public fait généralement évoluer la situation.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EoUOCoIOARFNMg+qojz4CboZgDlH5MpIWsHyZoHGtcRjrBxu38mNz97U3UfF0JAoj725WM/SgPsS+KBz/PUtfEmcNjp7oWwKE9kiBFiDAjtNMkm4SNwnqZShh4DHxAxCyLFCgDbZfhwPYOxS4mwteWaapts8annh+Ovn6+nWqP1y13fwvMGAZdRwJ2gop5bhDcY1bfWZvcI4Xnd68/gjBHFGKepoB00UKbUvFhNWltSmcoaUbiunZYgZUk0VqOCnMGfyjBfRqoXtccg5ERdP+Jf/Ed6zWAHkEXQ9Sx8xNm6dULWX8+tNylhasgSwg8fEwXAcmbNt91MHIeGFzyVOqexKXA75pJr5wu30y/LN1NrrI6ef+15L+Vlu7y5gRvjsGM/imTiJcmOA/33ZA9/zvwQKuixli09mmnfntGuzoT/VuS8M/DAHTgMaA2/cEAjel4Z3U/ySPIXB8O3vSCyC82aBPMloLjSeYnI8KCIRkXiZSUGZzMyPZLXueZ+uGAci530y0xPCCNtbPoIjVf0SuDwDLu7raH+9vl8HtOCSbyz43kuPB1H7jUW/zdeG9WOwk7Eo4S2UhLF5IOCPw03O65abEy6ceNjaTSdKZTvCaWA0/V26py3k/MlGHvmSy3tYg8WYpldHU8hXHE8fye6dszGhqcujIRWrVwBX0Z5f5pEg6d/Q9ztXBqcwaL8+dwf/w3oi2D+ljHbxc/DXQDOHh/7qLQLOBsMy+VvqZMjIgf+qAIJ1yZfFIPn2KjP9JwqfN9P8IowiW58dY31VGDITRRR9XEuO7/cpCQTHZjC049xUbqFVvTWJddweIbLMXHZzHGngWYayGwACTM1hORZ2PT80ZtRVaKhTvnaOiJmeivKrhYBRjp2pjpM1VliZQIGBHbHIVSaX9BbByPbEKKLAyLh2MDg8RbQ/R7Z8eLy/DszICcp7BIzrRjW5Ik5fYggvgBQNn0WCNteHNyoZWy2P2lafJxW7Dvtw64ks0uN4MzEs9ELnb8U8l6guf65nXZYphjIKAAGLMARU3JJuv4qvq1JfE/Un8YqO+5GtkCAM4EBXJlxnqzZB8wefPqOA2JwXFsLWNKPdtYBTKCwZ2KtxrsehpxC81i8tuAsv8nAf1hkiFdisBWzD7NGr5k8dh+894FL+9Cf8umayWxSDVK3YeT5xGxo+hbqJFl9ACWfB2kfZKdkkc7usEYIlUECqPGJWOHnBr+968Ft70rRtj8KkECmQu2ht0UWLNPHXhcn8uZ30RtFEKXyaeuXPojKFgiXTwEfYNGyq2qYK+3AUcQ2s3d5ikP7XSUGFespY1vUoKKkOB0A97btJxlxmeQVimnDf+em25GeS6zEuinm1OV3KpmGdpxCxskVBaPj/nv22QiAyFnT3ct962gKDXoKFDM2YnjR/lU9bw8gTehpuwOsw128yKvc8lASu653Fj3gE3b8iXdTLdZ9/5QoPgSTg/u7kE2CIttsLviTr6A5EpmFXtMLLIVQsvjubaXptvOXZV9G2pn0DbpRw3Nu+bYuuUujdLw07/nSkSAPOqcuekHIySonclgPEh7VtpfDC7chFWLppNzjFX5rG1erVFwW4jhMUiqUbiYS2QafpdTe9tTBtfldAnmixlTQN31dDQLi+tGR2hnyqskQOVl4X+n3BGKJtYO0+vltV89VjRMQiTOXKASFn+vl3xSzkGkbpp9FQWn9QTX2QqZ47eCgq4yl5kcdaB+FBBBqkPbqi7VeiPpkPmET4IVIfrOmAjVCKZj9tqfjn+8bOeoc0xYzq4neMvyU4FCMVL9msbmSgZkFsXT8A8ntiY7Jr7j6et2dkEZMhACgOi6YDSYZzL+DM4CHaDTcBNWYPDA5S7wZ3Qm8P6GGPJkakBWsOyMYM2EhuNW101r/6yRsHhbQuyKytHwX3rqwepMUSHzde6Nz6RfSJPJyrwvxS9lFVqyHNe+oY+cLO17k/9Nk0eXw59RnOwRz3jbpTlMzrMFHmEl8u4Unzt66l5GvNTH+rWpgDamKDzkTgXt0uFsloKTTjP5O9M3+aXratmmoTuj++Lq7rlmBjWvCe8aoFTGBvFaY+NLuIBZeQ+hwwm6/8eNi08yVO406jMQpw5zyXi4eKLrwtkH4YlSWdxFw2yGt2wJ8HTisd4CWRDGmXyxBOP/gxchFPcJB1Dk98ZqVb3ge93xhSDyaraon6cIyeBHxNUJIo8g+Uhpl9gajJlAeDuogqotUCOus6PrVV77ujQCeIVafaXMke4Ygi/K42EylBrBkfuf9z8PFyggmVn7InA3x9ja5vCXiE7uKiI9Ebr9Q9lFG7hdIMYfsKGegYlKRQgW6iUbaQt11esaFxgrTt8n4Oa/itCbeSAxCaFDZbM6AyysCQxbPXvvE7vYOdOgazgxVP"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228538,
+    "id": "d-hJasLzIICUvr0P6IWioQU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 53,
+      "prompt_tokens": 447,
+      "total_tokens": 893
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0058",
+  "lang": "ru",
+  "engine": "gemini_25_pro",
+  "duration_sec": 11.4,
+  "ref_text_raw": "После строительства плотины в 1963 году сезонные паводки, распространявшие по реке отложения, прекратились.",
+  "ref_text_normalized": "после строительства плотины в 1963 году сезонные паводки распространявшие по реке отложения прекратились",
+  "timestamp_utc": "2026-07-05T07:12:20Z",
+  "text": "После строительства плотины в 1963 году сезонные паводки, распространявшие по реке отложения, прекратились.",
+  "latency_sec": 4.8569,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "После строительства плотины в 1963 году сезонные паводки, распространявшие по реке отложения, прекратились.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235540,
+    "id": "0ANKatfLLYaD1e8PyqKZ0Ac",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 386,
+      "total_tokens": 561
+    }
+  }
+}

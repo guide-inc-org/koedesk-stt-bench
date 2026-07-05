@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0120",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 6.72,
+  "ref_text_raw": "The cabbage juice changes color depending on how acidic or basic (alkaline) the chemical is.",
+  "ref_text_normalized": "the cabbage juice changes color depending on how acidic or basic alkaline the chemical is",
+  "timestamp_utc": "2026-07-05T03:26:23Z",
+  "text": "The cabbage juice changes colors depending on how acidic or basic alkaline the chemical is.",
+  "latency_sec": 3.044,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The cabbage juice changes colors depending on how acidic or basic alkaline the chemical is.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221983,
+    "id": "3c5JatinNrv31e8Pvf2M0QE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 237,
+      "total_tokens": 280
+    }
+  }
+}

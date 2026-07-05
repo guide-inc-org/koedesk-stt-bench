@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0121",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.88,
+  "ref_text_raw": "一夜之间印刷了 150 到 200 份，就是现在众所周知的“邓拉普宽边”(Dunlap broadsides) 版。",
+  "ref_text_normalized": "一夜之间印刷了 150 到 200 份就是现在众所周知的 邓拉普宽边”dunlap broadsides 版",
+  "timestamp_utc": "2026-07-05T09:16:56Z",
+  "text": "一夜之间印刷了150到200份，就是现在众所周知的邓拉普宽边版",
+  "latency_sec": 4.3197,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "一夜之间印刷了150到200份，就是现在众所周知的邓拉普宽边版",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpgGCpUGARFNMg/Yl/WuHzxZ9HBVdCBDkcEXpLwNwyNF4nPyzUQR4NMkkOczUBHPOgl1zvLpU7MJITgVo3JwDIpxP4/XK6hLoid+pwXHS8uVypdxmuAut1s2v/5kb4oicTPGbwsivJ0JOss9s9dZQsUsdwSMVMcUHYiaS5W1uk4i9vDhGOn72rog+Tf6r/GqFreJePwAmhawyA+Mq9DzTZ/QGN+k325++C/K6AURkO+9niS2F28MXwIe/KGiin1piBLbfA7kZcKEslu23BI/X3MNtpUCuCGnnKbIS6Z3+iwPySufaknjvn6qyCInPAq7uJBeaZ8YPRozqdKvngBlfLnwCu4sU/pnh37bxTYyY0I3f/HmYNg/C94bzPUAqe6Ae0JOLbktq+Kb6OYKXg9OKKzRx436LwssxvRQHPX8E6YOaC7NozN4Qy4pdFjzQAWeUp891l63yA0dVGW8P5P8DzQRLsw98INb+oL5Ol6QU8K/jPQQLVGqvSGdirb0pElCuoNSwITPZCSEe8INOaiWsaUT/zORxrBJNJrmR8/gdpoPrf/S+K3Gf6IZHAWqBXgTLAZ6n1WJbJ6xIEeIaiMmVgVAiRIbJk5GydNmaswi88WrjXNEASxIjD6hEMx9VslV0DXfZCC3pXxwSCibw6fme7FtzhQDlkBewFu0WmyNMdxAMmfgU5kCB4pwOOgFtjGdcl5vorlVLxmdNGdxyYtboHY/7K6k/eiN/XTDNS/RvW02KBZCJMJ0mgYV1WYVkIcpYqy+raZ/RgiIpTU02ppnb8WddUxqoTV5+1aKYFLswREkRpo6iI1ZTWJnKR3OQn6LV+D3QNxx0sk2zbCtNkZEVAiWKwXX30iJV2rqW6BJpAWcC0jr9FHUDSCPFoqXYOT8HBSdqX+6tynuFLBAFn9TtGzwz574zV4e3etWGDV/oHQ+1+FuZPkEfYz1XgS41D0QTnD/86XsyTPW+ufSvNfTWx+zE+CoywmDnxF1T8CaXAxLkZ3uDA7cf7z7VMFbLkjKwZ24OgG5Dh7bwzYCefTLqHDcxlLcwl0sRjLT"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243016,
+    "id": "BSFKavbuOIOL0-kPiYjyuQQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 244,
+      "total_tokens": 508
+    }
+  }
+}

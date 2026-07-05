@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0069",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 15.36,
+  "ref_text_raw": "The Plitvice Lakes national park is heavily forested, mainly with beech, spruce, and fir trees, and features a mixture of Alpine and Mediterranean vegetation.",
+  "ref_text_normalized": "the plitvice lakes national park is heavily forested mainly with beech spruce and fir trees and features a mixture of alpine and mediterranean vegetation",
+  "timestamp_utc": "2026-07-05T10:25:09Z",
+  "text": "The Plitvice Lakes National Park is heavily forested, mainly with beech, spruce, and fir trees, and features a mixture of Alpine and Mediterranean vegetation.",
+  "latency_sec": 3.9798,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The Plitvice Lakes National Park is heavily forested, mainly with beech, spruce, and fir trees, and features a mixture of Alpine and Mediterranean vegetation.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247109,
+    "id": "AzFKapX-CpbPrfcP5aSH-Ac",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 513,
+      "total_tokens": 636
+    }
+  }
+}

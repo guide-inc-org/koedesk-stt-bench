@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0029",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 13.62,
+  "ref_text_raw": "비록 중앙 무대에서 연주하는 곡은 끝날 수 있지만, 축제 곳곳에서는 밤늦게까지 음악을 연주할 수도 있다는 것을 잊지 마세요.",
+  "ref_text_normalized": "비록 중앙 무대에서 연주하는 곡은 끝날 수 있지만 축제 곳곳에서는 밤늦게까지 음악을 연주할 수도 있다는 것을 잊지 마세요",
+  "timestamp_utc": "2026-07-05T06:11:46Z",
+  "text": "비록 중앙 무대에서 연주하는 곡은 끝날 수 있지만 축제 곳곳에서는 밤늦게까지 음악을 연주할 수도 있다는 것을 잊지 마세요.",
+  "latency_sec": 4.8154,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "비록 중앙 무대에서 연주하는 곡은 끝날 수 있지만 축제 곳곳에서는 밤늦게까지 음악을 연주할 수도 있다는 것을 잊지 마세요.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EoULCoILARFNMg8zsfgGfKGWRtnWZKWnRplLU21j4xfomv2cijuGKCr/wozd7fyWixi7i1Vyjc7LJrs3azvUXZxoG6eZdwvDSxXnYJBDqlgJYSxPxobJhq5GQj/S+Q8xmWaCKvz07+dTHQ2ay67SwVCjBTHGg0twYZvJwkfqG6cLIrTnjPtBmdDByaTCk59c2Y9G4mBa284IxhpgVrOrUFnES2BKJBJ4wGI2sqo4HqYrI/18xvEDPTvGCF4JUa0P/EGafR6l19W4npfyOHDBDPRPMiNHxum7mGpm8nzV5ErZH/Mg4pJf+DYySlAIqLOzj5ne8JYORudKpn6A8bhpg1axUv8jhRm6XtNJg1H7QKFRROmHfDxp+ccv3sHCaT6wVxsnynbP2t6HRNhN8zQL0oYIWUEVP/YEYbv6oAYoibzgMGlSxbFxTCzsj+DWJNZIzmRziYIs5toG93FgEF/dCZYOXAbUKvOCc/6sGc8NbSe1Wf2Y0DEBJbX9MaiX0K6L+rjCe8nzz+4lQYuYUFcFvrnGc0sv7wVHU1jCR0AdtmOrcmbzGdEQf52dFvadxvYmuGQ2MbiyTkD2PX1nihsJQ/7PDqGrqYII7mRl1utRj+idC6y768mcjARMIZ1Ll+Ef234UScQIMqF+UVUE2KUTnKxlTH11shvGClNwT2IrkSbKnZF+rLaSl9ajUCiv4tgU76hqNI2NLOXv9bwQcM623I4cx/V24PKu+URDD2M4pvYCMgN4kWUWvNdO9NHVnHT5BYQ3oqW4zorUjag3JUVw2n7obwtLjV/tRFokb+3nsLr9SB1N1RDSDdJFewi4/JYoTePlqecjxL7GYqHCO1eSadOuZKdAG0IKGRvZ829EF36Wz+CiBY3gZ+YKl/hQl6bTGAMj8bJNEaFSLiNckQDgQ87fNlTK5f3Namm07P/l52CKGpOQCkj3PTCk8sQ7rUw/8zY6DAs/pNW6/nJIOSifnLdd+qpRGDK9vdjhHFIXw43tGlPXU4fLuqIMzUf64FqYaSbqI3jnwfKS2SRwm0r/F1FDq3O927knXaAcGEgu64P5i/e8kXut8sn/xT3gUPI9lNgdK5/krov1NpMMoNsmd/5dy99EgXILtZciC9qneFXQvxCmANVh4yHenbaXZyteqfozevalG4GtQ9AW3C2p3cPQ5wPUrjXsvUV1Ny1FcCXvh8dR4BZXvxjWIGvaSxQlrc3oSwi8QrumyURltQuTA4hBv0z2ByonICWF1XlfMrfk28EYJsBoev5WT1Dlx7drTOPwmvqIPAb1127uSm0q9WLVg8msCd6xDdy0kET42dOCWQU+s+OVcZ2X0cwlqRtTB9dqrlE07hXfPXQrOYoFfRq21t9VLl4TQGleruEwEg6sBg6xGnWK7l3lmo7myRtN+P9kQAWWAkeMi9Oa59ZIYzEcxD7r/9hdOkorTkBnyNxkYIoKkf9Gdqv3j3aPAjQdF0k977RibVpuzTJJRrjBzpBLRHAt4tyT2mTcwTtbaHO/P/MmWJKmg2u7+d0siuB2V1rdqghKO8hQpcWJ+Ea080jRJCNM3BySQcEOZphbThH66T1SIw4ltubvmuQ+BmNK8Zo2wOIZ/TU38HNnSvH0MOp9X98bWXBE+864GpQLOSuNU6ZdWo+x++E+83pAlS/+k4+1pCJxb6mqP9RfFmPgNt4f6kmlG5niUDc40nOQdypQ6dzUyVzPBtjZ1oD6mgrYBcZZ0s3s1Jcqh5orRmztDxM8+EsPNBUc0OUwjQoVE2eEG0Tz9fx3VmXdU+Q+v+jNnL1lhW3VZGkgU9eEsuONceZpfgR957A44nICT5BJ6vezimn/xmFeW/09QiDC4w2YV0E7XLHY5ZK2UwSECQRZMQ++lnKNMCUU"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231906,
+    "id": "n_VJasTnEr3MrfcPx6WgiQQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 362,
+      "total_tokens": 766
+    }
+  }
+}

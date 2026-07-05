@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0082",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.7,
+  "ref_text_raw": "また、校外学習を仮想的に共有することは、旅行を振り返るとともに、今後の授業で経験を共有するうえですばらしい方法です。",
+  "ref_text_normalized": "また 校外学習を仮想的に共有することは 旅行を振り返るとともに 今後の授業で経験を共有するうえですばらしい方法です",
+  "timestamp_utc": "2026-07-05T10:17:38Z",
+  "text": "また校外学習を仮想的に共有することは、旅行を振り返るとともに、今後の授業で経験を共有するうえで素晴らしい方法です。",
+  "latency_sec": 4.5744,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "また校外学習を仮想的に共有することは、旅行を振り返るとともに、今後の授業で経験を共有するうえで素晴らしい方法です。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EoELCv4KARFNMg+JQtO7rmUi259leK2Ds1MqweFVj2kHEGhkpj0PW5St1XWxG21rS10BXqSoZQjeI2L1I1Iam7RUpjroCuMSlW5RXvaNCNSUzGVtQ/u63ffG9lY9vcu+GUSwWp5NjmBF0yn50/1XOz8RLX8dATkmtbSrB0907Btf5rpMGkUbkQDcinIIF2eDk6u/NkB243SaNIMH8NeGL+qYaimmnq4pYCEneKPxrt7+L8ugxurwaDXKjFpkUQVef5pMi8wAqgq/Dq5jKs3+4vBlAyhcKhKwOuqPPqfLPL+4ow8Zt2BYVVesA9LJ3yBCreqmlEOwK1nbGUJc8mmygaz8Kug4mtyu4VnmyEuj11Nbzb76DOe58zy2+CzWlr8/dllBnmh+giu6gqLIyb64lAcTrsQkf1WV3QPRr+cOAz9XKPyEQ7HoJevJay2Bir3ro2YoKufieJ4yxmWXiE4fXhD7BBjSlreV5loJxfFXt3of9mXw4abA09tsK7sRwQ99L9iTWAJTnunkP4Fai1QNRp9XsIkWE0llB4U/WMlN8vSiT5lshXvOahu9M6s/WicfrN0KMus3CWfnX2Sj5D1szyCBkG7w/lDilIOyeBJL8vP4RWQVnb3l5gdLOWlEvpocGqZ49Y1Cb6lEZvP9CXgvIBzJIdqlvxKLF21bkeY26MnzuErrqy+drryugFMAv6WoMLOAsgaMa6z4AATlotPZQ0waTzz70Dv75K5ojFUN2yYeTkKSh9Ju4q/i7iabWs/EMeybpoo/0OkTRrEmuwMNEupzP4azgOte6EEDR9A7hATtXtBB2usFWLVeSiU7ex/J+p+osjgsuqxtOJvn3MPbDqOXgSViVD5VUlNzUxFpjufeEBgoKCHgol/FUjmWZjnL++Q0mDi5iEgJNpF05GeETMA2aZm4AL+hb0VtkyqRj+PhkSdVzFcSoZaq7dGxpjFQ+Y+NPy07XwFc1HHbVww6sT0pQcUsksJuLo66WRPTiTOEPE2C1IMhdZMMyG+rM+kY76sjhpcNooEmn8lxOzAMB/4Li+7rrLo9XTCML9xPUiaKB94dN5PNL9CFsm4mtZ9wge1JLrNr94l4OB9glKIkInLsAXfysqqNLbf7DdHIUBfqi2GnOmH8PnC1xE5ozKHbJLo/wb75sbedlnrqgw9xhou4c2XnGcKLAc6/brQT4+mE3/ckpNGZsfhZI33TDoh89bYhwQjJiExHn8j4AFj7mp3Os/IzwKyndaHZNeQNeKQhbV9Ss8xwhZ7ah9nm8Fp+R887E3RZCGTiSto4qopGn92+lxx6wxv2gSLL2T9FcvDP2zz12X2dDmx/vz1eYSfp9Dd6ihWyMsjlROmSkfBJrH4mFM4dillKKY4DbFtrMUdfsEosWzqbjtxJTsLOWR0X02WYIpJu5pQTvgsbRj2gL6SiZ+TmEFehbhKS6/pIxdT3swcpjHpBppwCJf7raVqir6zvYoMKGUD3HoQVx8bKGHOttJa5Wu7SHPYPX/q8PDmuJ/ocIcdr328Cfg96Y4V+hhs5a00z7MOTuH2/55Dk5f+YPzmBB7zvk5XupUKZQGhU2vvqXtiWNkzHrgckiMvn2CIHP2gKVVzOCj5FdmSbqrA6zsSTiCMM/S0K0qy7oGwr4YmnQLuV4QS5vIZUtmFtJCKJnKKEt3wnBTUJHh7a3k+WjBVpXneCVp0uAREPp1CwN4vPiQkzy/f8GcXMDFTwau5CmdjIOkgx2oSoo7X1XIg0R+PEbmCnPJqPPWKTJayBU1LBVj0KLQ3IIdyYzdboCkhOE5xNKmztdr2fqu4OdGwxxfH7uwf/isNH22QZYLWbAXtiBh/QYJYUoJ8E4qLdpMjTS5U668I1T0qEpWNOFXR4Cdg="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246658,
+    "id": "Py9Kaolo9Mut9w-LvZrABQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 314,
+      "total_tokens": 747
+    }
+  }
+}

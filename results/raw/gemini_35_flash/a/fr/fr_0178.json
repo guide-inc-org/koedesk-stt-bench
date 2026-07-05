@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0178",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 5.94,
+  "ref_text_raw": "Le bus 403 de Scotturb se rend régulièrement à Sintra, avec un arrêt à Cabo da Roca.",
+  "ref_text_normalized": "le bus 403 de scotturb se rend régulièrement à sintra avec un arrêt à cabo da roca",
+  "timestamp_utc": "2026-07-05T05:17:17Z",
+  "text": "Le bus 403 de Scotturb se rend régulièrement à Sintra avec un arrêt à Cabo da Roca.",
+  "latency_sec": 7.5859,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Le bus 403 de Scotturb se rend régulièrement à Sintra avec un arrêt à Cabo da Roca.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228637,
+    "id": "1uhJarbHGJHNrfcPvY_ZsAY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 170,
+      "total_tokens": 1036
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0096",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.78,
+  "ref_text_raw": "Финляндия — отличное место для лодочного туризма. В \"стране тысячи озёр\" также есть тысячи островов на озёрах и в прибрежных архипелагах.",
+  "ref_text_normalized": "финляндия отличное место для лодочного туризма в стране тысячи озёр также есть тысячи островов на озёрах и в прибрежных архипелагах",
+  "timestamp_utc": "2026-07-05T07:32:56Z",
+  "text": "Финляндия - отличное место для лодочного туризма. В стране тысячи озёр, также есть тысячи островов на озёрах и в прибрежных архипелагах.",
+  "latency_sec": 2.841,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Финляндия - отличное место для лодочного туризма. В стране тысячи озёр, также есть тысячи островов на озёрах и в прибрежных архипелагах.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPODeddgkGdtNGxqALnlLMCQ63sZNjzfP0oxULA+L+OzQY6yioxaWQ229OAWLp"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236776,
+    "id": "pghKasCOPNmK0-kP0MrjsQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 341,
+      "total_tokens": 381
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0139",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 11.28,
+  "ref_text_raw": "虽然有一种实验性疫苗看似能够降低埃博拉病毒的死亡率，但迄今为止，还没明确证明任何药物适合治疗现有的感染。",
+  "ref_text_normalized": "虽 然 有 一 种 实 验 性 疫 苗 看 似 能 够 降 低 埃 博 拉 病 毒 的 死 亡 率 但 迄 今 为 止 还 没 明 确 证 明 任 何 药 物 适 合 治 疗 现 有 的 感 染",
+  "timestamp_utc": "2026-07-05T06:30:34Z",
+  "text": "虽然有一种实验性疫苗看似能够降低埃博拉病毒的死亡率，但迄今为止，还没明确证明任何药物适合治疗现有的感染。",
+  "latency_sec": 4.0159,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "12s",
+      "requestId": "74486a72-0000-2750-8a3f-30fd3814de80",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "虽然有一种实验性疫苗看似能够降低埃博拉病毒的死亡率，但迄今为止，还没明确证明任何药物适合治疗现有的感染。"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

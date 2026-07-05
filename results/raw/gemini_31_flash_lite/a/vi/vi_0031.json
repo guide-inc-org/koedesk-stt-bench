@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0031",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 18.12,
+  "ref_text_raw": "Thời gian di chuyển của tàu Saint Petersburg bao gồm cả thời gian trong thành phố. Hành khách trên tàu được miễn thị thực (kiểm tra các điều khoản).",
+  "ref_text_normalized": "thời gian di chuyển của tàu saint petersburg bao gồm cả thời gian trong thành phố. hành khách trên tàu được miễn thị thực kiểm tra các điều khoản",
+  "timestamp_utc": "2026-07-05T08:39:33Z",
+  "text": "Thời gian di chuyển của tàu trên Peterwood bao gồm cả thời gian trong thành phố, hành khách trên tàu được miễn thị thực kiểm tra các điều khoản.",
+  "latency_sec": 2.8604,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Thời gian di chuyển của tàu trên Peterwood bao gồm cả thời gian trong thành phố, hành khách trên tàu được miễn thị thực kiểm tra các điều khoản.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPHcFyop4JW8VXPWN0m0WW18H4RkjkLyhCNQemn567BrbdaVrdmt4u5TDBFXaU"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240773,
+    "id": "RBhKaoZlz5rV7w_thKzRAQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 474,
+      "total_tokens": 506
+    }
+  }
+}

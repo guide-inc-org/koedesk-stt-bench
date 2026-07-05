@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0094",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 14.22,
+  "ref_text_raw": "一方、多くの国では氷雪の多い状況が普通ですが、交通は1年中ほぼ途切れることなく続いています。",
+  "ref_text_normalized": "一方 多くの国では氷雪の多い状況が普通ですが 交通は1年中ほぼ途切れることなく続いています",
+  "timestamp_utc": "2026-07-05T10:09:10Z",
+  "text": "一方多くの国では氷雪の多い状況が普通ですが、交通は一年中ほぼ途切れることなく続いています。",
+  "latency_sec": 4.5796,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "一方多くの国では氷雪の多い状況が普通ですが、交通は一年中ほぼ途切れることなく続いています。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246150,
+    "id": "Qy1KavPkEI3y2roP6emiwQM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 477,
+      "total_tokens": 712
+    }
+  }
+}

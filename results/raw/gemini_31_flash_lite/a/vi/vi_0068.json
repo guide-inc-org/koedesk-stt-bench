@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0068",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.16,
+  "ref_text_raw": "Trong cuộc Chiến tranh Cách mạng, lúc đầu mười ba tiểu bang thành lập một chính quyền trung ương lỏng lẻo - chỉ có Quốc Hội là thành phần duy nhất - chiếu theo các Điều Lệ Liên Bang.",
+  "ref_text_normalized": "trong cuộc chiến tranh cách mạng lúc đầu mười ba tiểu bang thành lập một chính quyền trung ương lỏng lẻo chỉ có quốc hội là thành phần duy nhất chiếu theo các điều lệ liên bang",
+  "timestamp_utc": "2026-07-05T08:41:45Z",
+  "text": "Trong cuộc chiến tranh cách mạng, lúc đầu 13 tiểu bang thành lập một chính quyền trung ương lỏng lẻo. Chỉ có Quốc hội là thành phần duy nhất chiếu theo các điều lệ Liên bang.",
+  "latency_sec": 2.7698,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Trong cuộc chiến tranh cách mạng, lúc đầu 13 tiểu bang thành lập một chính quyền trung ương lỏng lẻo. Chỉ có Quốc hội là thành phần duy nhất chiếu theo các điều lệ Liên bang.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPgiAyvStvTVDRTj32ufpw8IbGd51izT5A6p9+0g9U0Q6h/qY6bjtpWx5mEprp"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240905,
+    "id": "yBhKaqiuDLGivr0P0MTRmQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 375,
+      "total_tokens": 418
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0060",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.86,
+  "ref_text_raw": "Premièrement, la plupart des cavaliers portent des bottes d'équitation avec un talon et une semelle lisse et assez étroite.",
+  "ref_text_normalized": "premièrement la plupart des cavaliers portent des bottes d'équitation avec un talon et une semelle lisse et assez étroite",
+  "timestamp_utc": "2026-07-05T05:13:12Z",
+  "text": "Premièrement, la plupart des cavaliers portent des bottes d'équitation avec un talon et une semelle lisse et assez étroite.",
+  "latency_sec": 3.8452,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Premièrement, la plupart des cavaliers portent des bottes d'équitation avec un talon et une semelle lisse et assez étroite.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPWAujimnTqcd3ilMiw+56iKFqeIDyLbCrOVjWowThjFNTSsGDBB0HWGFXY3ro"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228392,
+    "id": "5edJarXaPJCe1e8PjsLZ0AQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 293,
+      "total_tokens": 321
+    }
+  }
+}

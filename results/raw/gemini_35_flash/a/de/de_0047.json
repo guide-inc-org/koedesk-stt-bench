@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0047",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.78,
+  "ref_text_raw": "Der Scotturb-Bus 403 fährt regelmäßig über Cabo da Roca nach Sintra.",
+  "ref_text_normalized": "der scotturb-bus 403 fährt regelmäßig über cabo da roca nach sintra",
+  "timestamp_utc": "2026-07-05T03:59:47Z",
+  "text": "Der Scotturb-Bus 403 fährt regelmäßig über Cabo da Roca nach Sintra.",
+  "latency_sec": 6.5708,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Der Scotturb-Bus 403 fährt regelmäßig über Cabo da Roca nach Sintra.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223987,
+    "id": "r9ZJatmVKZ2hvr0P78yT2Q8",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 266,
+      "total_tokens": 778
+    }
+  }
+}

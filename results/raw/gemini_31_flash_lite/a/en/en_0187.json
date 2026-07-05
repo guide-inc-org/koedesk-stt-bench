@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0187",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.56,
+  "ref_text_raw": "As a result, the performers smoke cannabis joints on stage, and the theatre itself is encouraging the audience to join in.",
+  "ref_text_normalized": "as a result the performers smoke cannabis joints on stage and the theatre itself is encouraging the audience to join in",
+  "timestamp_utc": "2026-07-05T03:38:28Z",
+  "text": "As a result, the performers smoke cannabis joints on stage, and the theater itself is encouraging the audience to join in.",
+  "latency_sec": 2.7416,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "As a result, the performers smoke cannabis joints on stage, and the theater itself is encouraging the audience to join in.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPw5mjaN3ugeiq+rrPiE1Otw6CscqGll/0Xc/L6QSuFE3dVz9beBXrQmnU2C+v"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222708,
+    "id": "s9FJasGmEsqfvr0Plb-amQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 285,
+      "total_tokens": 309
+    }
+  }
+}

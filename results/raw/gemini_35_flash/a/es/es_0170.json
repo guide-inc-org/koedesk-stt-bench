@@ -1,0 +1,45 @@
+{
+  "utt_id": "es_0170",
+  "lang": "es",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.48,
+  "ref_text_raw": "Ottawa es la cautivadora capital bilingüe de Canadá y cuenta con una variedad de museos y galerías de arte que exhiben la historia y la actualidad del país.",
+  "ref_text_normalized": "ottawa es la cautivadora capital bilingüe de canadá y cuenta con una variedad de museos y galerías de arte que exhiben la historia y la actualidad del país",
+  "timestamp_utc": "2026-07-05T04:42:50Z",
+  "text": "Ottawa es la cautivadora capital bilingüe de Canadá y cuenta con una variedad de museos y galerías de arte que exhiben la historia y la actualidad del país.",
+  "latency_sec": 3.4826,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Ottawa es la cautivadora capital bilingüe de Canadá y cuenta con una variedad de museos y galerías de arte que exhiben la historia y la actualidad del país.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpgFCpUFARFNMg/8IqhvMoaP1H0eC0njYX5LtdounJv1wwgyNYQqQ/iN/IyCKEG7YHJ6nhuLUUa5At6SI13dbdwcLti8nfknwQGefaSCgkCHmWZWNAuHmLibb7exNK9NQfN/xqeFCnOrjh4DTjaMUrOc7S/Axb/0nhBq9Br+pM9H/7JS05jT3p9qkLxFC71TPRTUII8AH9v81NEFXABeBE2o58ttG7VwYcTr3xU3X3D+AC7fxvSt17IhpFqLhsRG0C6scKXQDV2DUComef54Y5MYOaRq77LI2wD0Toj7v+cYIB30d0RBLfqVcInURUglXD4qkzdwVQ/LCcrTv+L900BTprCkCdzUas+7XTLpdq7gXGFmFJ+XGFBc5CZjCyfKq666s2o9qrF/AJev5xk+CKYrBj2CNEpE7/svC7Ny1uTXQsRTp6VszOV66ELotH5dMb7D65d72uBuUj3c6TVMf0Z4cr3wzXkGjeg9pbO2/NgA2b9BV3BegXER287Y56l/qO397LHy1C+Mr+jcOb1A0lTRBVU7cDthHSoAkmV2/v0GIYrGjoeGzGkfiAFuPVEXgAqctXgIgNP0rZ4QjHJAQ2L48neWjg/rRSWbN8+k7WXksMoBFO2s6XY0KIGUy9A/2u9WdlmgQn17FARwi3ZjPuqV3SNv+iPEdcAraLK2PJqbi+iRvoZKBTc+Hn8rmWIzRzy3pJVm4r9YMySC6U/qW/2764DYuXa29sAITUcW1JwKltHSTbC1ZFn7OGdIPjX+fLzYMW8tOLLuo9t6flwk+9Dvk5ytah3ES4Di/gQo0ar9lJhQ/KKkWNdYzaYBolV+X3lz2RKOPhIFvXJBsJVMgkAeWIeAWxUSvkGS4+ss+E/ilGoOPCjWBjFH4g=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226570,
+    "id": "x-BJasGTLoaD1e8PyqKZ0Ac",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 333,
+      "total_tokens": 514
+    }
+  }
+}

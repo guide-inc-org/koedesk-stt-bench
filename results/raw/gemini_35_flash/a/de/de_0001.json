@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0001",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.16,
+  "ref_text_raw": "Er griff auch alles an, was ins Wasser kam; selbst ein großer Dinosaurier wie der T. Rex war ihm nicht gewachsen.",
+  "ref_text_normalized": "er griff auch alles an was ins wasser kam selbst ein großer dinosaurier wie der t rex war ihm nicht gewachsen",
+  "timestamp_utc": "2026-07-05T03:55:49Z",
+  "text": "Er griff auch alles an, was ins Wasser kam. Selbst ein großer Dinosaurier wie der T-Rex war ihm nicht gewachsen.",
+  "latency_sec": 4.8943,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Er griff auch alles an, was ins Wasser kam. Selbst ein großer Dinosaurier wie der T-Rex war ihm nicht gewachsen.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtwKCtkKARFNMg8DhfQycbLMVu+fTAXQ0OjBE2IU5SIzZm/Mwcf7Vo7opYOro/UqG+16Zabde7nYOuQhVqUJPTrVfTv34/dETUph1WcyuF0UYS+XNP8qRIOOXqypLCmrI1n9yWEEFMUGQ9r4rnPK6diRySZBONG8UJpue7LEBGwjSj//nUDEb7wzxp0BpWL62FejWCUtsOb0Dq+SPSatI/J8CdYJhtFkdJqGkFKCLQpLyLyGK6Ekz6NRDgDOwtXhLhW63YYcHNkPAKzNYN0/U9nXJ5lMjOb0XGrU8IBzJFbnWrK6T8x9AbcEEoZxbK3T4ghzdBP5dI9iWTdXVBF2/GyGA9tNc1OqAjHpg4gMuDI4IUSOdd71kOZrMRoGxv7G6Sl/uHlGhlO0b+K5Mq7c/PabyuEDfujB8/ZuU5Gv5ZjUBAXQNHr65IAPXTeISMgsK7L4XxQg/hFLGthj05KJ5aSraGMCWL5gdJjnJn3thQSyacUaG5Hhr4ABHzyJNc0Nu6chjS0TDAxDH2HeVpABAM3eZ0cBG5YjKFYEkhrVA0rm89oh3r3GsHu/WJpzVfDoIGqKn4vNi0uQlSL8SSBrTVgiAQUHzcw073XV8z+4NNJCOVvEoNWF6uBACOqxfuvIZs9TbufNO7Aji3lAVbUnyTfwV/u2xe1xGpCEexMFG57F7C27vCbSzbXQP1KbwQLVCRMYBmjlV0R8cCONvVO6LluixhZAeMjeiR1Ju81Si7hvMOdoKEdG9Zd/rxNcV74ratDCAI4C2e8buWHQsyCo71a5GRVCIeg8UVqrblpnX2N/AvBN5VccvJ51e4e0a4bPLsbLg2gC1u3hRdtCudkbIcdh93U3FcJLHNPASTl1MIFs53PKdPQyXLb+9h0P/jcAlTDXvehcY/SabN+sYjI7SA7saLogcbABziJ31pA42BAkAZALwVAlRDx0YjCGh/0cu/rnZ7CmvkqGDEs/ReHn1Dq3LwkDnJGxZMqp9kHQxbs8Px6XT3aSR3AKZCTuZ53Bt+JJL5sQvGcm7DxkxTQjEHxDxQy/amq+kgPOi30EIZtGW9ZTKwjSk7X/TDzoCng0kdc3VuylRcFccyQHs/Qkad2MKIknznF1g6/78BFSXyDPUPV6sWo3BWxK5PM2o/k7y++gSJ59JBZJVrPu8S0ugrTtY/eq3/1oQHJq3F/XT1LXF/JgBgbL9zhBINLXeYU/2ffE+bKIdlBPx/nF/YJNk9eXRGPtFw0d8i1hdSTYFQpuHj9WRmFZDIdG3YspcCEPFxxcCbTmMlYAXxa4+1i6eaoepftsG6tiQ/G9GaBR5nhfEactdm9kMXLIgf9xFwsQSMMDJF7YweTGUJyM5jL+0Tr/M84dE5fxzXdEvQQfgSllZVlOMNsbx2qT5JAR2VWS8Y04M92WJHBWXpTEgefLGOtNRS4IFMIzm40Ihv3KCeHYXDyvfITnBIYpubNRaDWKVXuKUYut8pkCH8RxcXpy/S383G4MgIIBEBIr/afS46LWJVu/G2nG6bGXITwgryhts+jR3wcXvv9z56aRhYxMXcD2dQ01gslbJqbwfEKj6G9kseNmNN57Gd9HQM+z1vleL9BP61i3jnjXrxs1UshgCcK84FhjtNzu0/nssC6lFr7GLrG+KrVXvVGdDdkTJcmUvUyCaiOQnkZTbSEGgvNJJXZYqvC2lbg4tWXqPv2BJJL7FXmNG2CzOyruuZsDQg8DTgPEShd7rW2FivfQ3Ou7UJI4T0Yz7gkHG7x1l3KJaw6Dnpv609NkFoK5zYH4HMPLvaGAgfcVWN+Ht6u9vyh5s2lgYpkK60TOFlSGsnGD1g=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223749,
+    "id": "wdVJaozxO_ia1e8P4ZHFoQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 300,
+      "total_tokens": 777
+    }
+  }
+}

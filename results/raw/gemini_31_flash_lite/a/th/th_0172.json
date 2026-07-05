@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0172",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.52,
+  "ref_text_raw": "พวกเขาเดินทางกลับปารีสในรถม้าซึ่งรายล้อมด้วยฝูงชนที่ตะคอกและข่มขู่พระมหากษัตริย์และพระราชินี",
+  "ref_text_normalized": "พวกเขาเดินทางกลับปารีสในรถม้าซึ่งรายล้อมด้วยฝูงชนที่ตะคอกและข่มขู่พระมหากษัตริย์และพระราชินี",
+  "timestamp_utc": "2026-07-05T08:11:29Z",
+  "text": "พวก เขา เดิน ทาง กลับ ปารีส ใน รถ ม้า ซึ่ง ล้อม รอบ ด้วย ฝูง ชน ที่ ตะคอก และ ข่มขู่ พระ มหากษัตริย์ และ พระ ราชินี",
+  "latency_sec": 2.6815,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "พวก เขา เดิน ทาง กลับ ปารีส ใน รถ ม้า ซึ่ง ล้อม รอบ ด้วย ฝูง ชน ที่ ตะคอก และ ข่มขู่ พระ มหากษัตริย์ และ พระ ราชินี",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPtQ/1Ec1qDy8mqMKwvzOwlEpxWZqv8/3AgI64nUJ/7kqlo0JYv6GcKPLcwUHj"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239089,
+    "id": "sBFKapX_ELbR0-kPp6yr6QI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 309,
+      "total_tokens": 354
+    }
+  }
+}

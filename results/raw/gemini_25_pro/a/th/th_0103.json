@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0103",
+  "lang": "th",
+  "engine": "gemini_25_pro",
+  "duration_sec": 7.68,
+  "ref_text_raw": "น้ำ 20 เปอร์เซ็นต์ไหลออกจากแม่น้ำต่าง ๆ ของโลกลงสู่มหาสมุทรนั้นมาจากแอมะซอน",
+  "ref_text_normalized": "น้ำ 20 เปอร์เซ็นต์ไหลออกจากแม่น้ำต่าง ๆ ของโลกลงสู่มหาสมุทรนั้นมาจากแอมะซอน",
+  "timestamp_utc": "2026-07-05T07:50:35Z",
+  "text": "น้ำ 20% ไหลออกจากแม่น้ำต่าง ๆ ของโลกลงสู่มหาสมุทรนั้นมาจากอเมซอน",
+  "latency_sec": 4.4605,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "น้ำ 20% ไหลออกจากแม่น้ำต่าง ๆ ของโลกลงสู่มหาสมุทรนั้นมาจากอเมซอน",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237835,
+    "id": "yAxKaqjnBNLM1e8PlJ7zgQc",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 267,
+      "total_tokens": 480
+    }
+  }
+}

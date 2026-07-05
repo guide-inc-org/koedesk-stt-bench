@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0036",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 16.86,
+  "ref_text_raw": "2002 年，戈马被尼拉贡戈火山的熔岩所摧毁。火山熔岩掩埋了该镇的大部分街道，尤其是镇中心。",
+  "ref_text_normalized": "2002 年 戈 马 被 尼 拉 贡 戈 火 山 的 熔 岩 所 摧 毁 火 山 熔 岩 掩 埋 了 该 镇 的 大 部 分 街 道 尤 其 是 镇 中 心",
+  "timestamp_utc": "2026-07-05T09:12:52Z",
+  "text": "2002年，哥马贝尼拉公哥火山的熔岩所摧毁。火山熔岩掩埋了该镇的大部分街道，尤其是镇中心。",
+  "latency_sec": 2.6316,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "2002年，哥马贝尼拉公哥火山的熔岩所摧毁。火山熔岩掩埋了该镇的大部分街道，尤其是镇中心。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP4mhyi31z3fnRC7gsUO3+xHULSVIWCWvwjla9jXDfg6d9zRLCfZR2CZzgTlgM"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242772,
+    "id": "EyBKapjlB7D32roPjrXkkQc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 443,
+      "total_tokens": 480
+    }
+  }
+}

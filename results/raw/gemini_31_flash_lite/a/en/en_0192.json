@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0192",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 18.9,
+  "ref_text_raw": "Five minutes into the display a wind starts rolling in, about a minute later, the wind is reaching 70km/h... then the rain comes, but so hard and so large that it slaps your skin like a needle, then hail fell from the sky, people panicking and screaming and running over each other.",
+  "ref_text_normalized": "five minutes into the display a wind starts rolling in about a minute later the wind is reaching 70km/h... then the rain comes but so hard and so large that it slaps your skin like a needle then hail fell from the sky people panicking and screaming and running over each other",
+  "timestamp_utc": "2026-07-05T03:38:47Z",
+  "text": "Five minutes into the display, a wind starts rolling in. About a minute later, the wind is reaching 70 km per hour. Then the rain comes, but so hard and so large that it slaps your skin like a needle, then hail fell from the sky, people panicking and screaming and running over each other.",
+  "latency_sec": 2.7804,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Five minutes into the display, a wind starts rolling in. About a minute later, the wind is reaching 70 km per hour. Then the rain comes, but so hard and so large that it slaps your skin like a needle, then hail fell from the sky, people panicking and screaming and running over each other.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPSgyGdSXdbcTdqZpC5cZQpBp2fAWA2fn4Ouw95WTi99b6Ici4TyhOA6Ru5FcF"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222727,
+    "id": "xtFJaqjYD_ijvr0Pmty12QU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 67,
+      "prompt_tokens": 494,
+      "total_tokens": 561
+    }
+  }
+}

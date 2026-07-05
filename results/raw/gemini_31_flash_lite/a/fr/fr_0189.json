@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0189",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 4.44,
+  "ref_text_raw": "Le groupe Aerosmith a annulé les derniers concerts de sa tournée.",
+  "ref_text_normalized": "le groupe aerosmith a annulé les derniers concerts de sa tournée",
+  "timestamp_utc": "2026-07-05T05:21:17Z",
+  "text": "Le groupe Aerosmith a annulé les derniers concerts de sa tournée.",
+  "latency_sec": 2.8444,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Le groupe Aerosmith a annulé les derniers concerts de sa tournée.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPfhX7QRKdOmFQu50hqPvNjXA64eK3vpU19G/uV5CWv9myePcXDHTOR4CtObZt"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228877,
+    "id": "y-lJat2MKK6l9tMP-_vv-QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 14,
+      "prompt_tokens": 133,
+      "total_tokens": 147
+    }
+  }
+}

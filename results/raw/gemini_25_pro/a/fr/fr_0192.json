@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0192",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 9.3,
+  "ref_text_raw": "En à peine deux semaines, les Américains et les Forces de la France Libre avaient libéré le sud de la France et se dirigeaient vers l'Allemagne.",
+  "ref_text_normalized": "en à peine deux semaines les américains et les forces de la france libre avaient libéré le sud de la france et se dirigeaient vers l'allemagne",
+  "timestamp_utc": "2026-07-05T05:08:22Z",
+  "text": "En à peine deux semaines, les Américains et les forces de la France Libre avaient libéré le sud de la France et se dirigeaient vers l'Allemagne.",
+  "latency_sec": 4.3912,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "En à peine deux semaines, les Américains et les forces de la France Libre avaient libéré le sud de la France et se dirigeaient vers l'Allemagne.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228102,
+    "id": "w-ZJasemCeL81e8P5-3SkQM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 319,
+      "total_tokens": 390
+    }
+  }
+}

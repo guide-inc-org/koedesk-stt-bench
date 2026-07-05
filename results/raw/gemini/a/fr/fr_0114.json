@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0114",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 6.78,
+  "ref_text_raw": "C'est une bonne occasion d'admirer les aurores boréales, car le ciel sera sombre pratiquement toute la journée.",
+  "ref_text_normalized": "c'est une bonne occasion d'admirer les aurores boréales car le ciel sera sombre pratiquement toute la journée",
+  "timestamp_utc": "2026-07-05T04:54:06Z",
+  "text": "C'est une bonne occasion d'admirer les aurores boréales car le ciel sera sombre pratiquement toute la journée.",
+  "latency_sec": 3.7062,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "C'est une bonne occasion d'admirer les aurores boréales car le ciel sera sombre pratiquement toute la journée.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227246,
+    "id": "bONJas7rA8vb2roP0s2koQM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 238,
+      "total_tokens": 355
+    }
+  }
+}

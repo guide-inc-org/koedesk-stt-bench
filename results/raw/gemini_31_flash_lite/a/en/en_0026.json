@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0026",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.4,
+  "ref_text_raw": "For example, each year students from Bennet School in North Carolina design a website about their trip to the State Capital, each year the website gets remodeled, but old versions are kept online to serve as a scrapbook.",
+  "ref_text_normalized": "for example each year students from bennet school in north carolina design a website about their trip to the state capital each year the website gets remodeled but old versions are kept online to serve as a scrapbook",
+  "timestamp_utc": "2026-07-05T10:29:30Z",
+  "text": "For example, each year students from Bennett School in North Carolina design a website about their trip to the state capitol. Each year the website gets remodeled but old versions are kept online to serve as a scrapbook.",
+  "latency_sec": 3.2488,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "For example, each year students from Bennett School in North Carolina design a website about their trip to the state capitol. Each year the website gets remodeled but old versions are kept online to serve as a scrapbook.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP3+OgdkRs7ODrItaU7/9zhRCKGuLPl9JB4Fv+d8KIudR4eQfkSdgR5jaRiJ1J"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247370,
+    "id": "CDJKaoasN4Ov2roPupKSoQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 306,
+      "total_tokens": 347
+    }
+  }
+}

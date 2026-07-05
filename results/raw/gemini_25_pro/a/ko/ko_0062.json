@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0062",
+  "lang": "ko",
+  "engine": "gemini_25_pro",
+  "duration_sec": 11.04,
+  "ref_text_raw": "대학 연구진은 두 화합물이 서로 반응하여 결정을 형성하고 이는 신장의 기능을 차단할 수 있다고 밝혔다.",
+  "ref_text_normalized": "대학 연구진은 두 화합물이 서로 반응하여 결정을 형성하고 이는 신장의 기능을 차단할 수 있다고 밝혔다",
+  "timestamp_utc": "2026-07-05T06:04:09Z",
+  "text": "대학 연구진은 두 화합물이 서로 반응하여 결정을 형성하고 이는 신장의 기능을 차단할 수 있다고 밝혔다.",
+  "latency_sec": 6.0403,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "대학 연구진은 두 화합물이 서로 반응하여 결정을 형성하고 이는 신장의 기능을 차단할 수 있다고 밝혔다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231449,
+    "id": "1PNJap61E__O1e8P-_GSuQg",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 375,
+      "total_tokens": 735
+    }
+  }
+}

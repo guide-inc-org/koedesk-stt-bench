@@ -1,0 +1,45 @@
+{
+  "utt_id": "es_0000",
+  "lang": "es",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.84,
+  "ref_text_raw": "Se recomienda enfáticamente a los viajeros que se informen sobre cualquier riesgo de clima extremo en el área que visitan, dado que ello puede afectar sus planes de viaje.",
+  "ref_text_normalized": "se recomienda enfáticamente a los viajeros que se informen sobre cualquier riesgo de clima extremo en el área que visitan dado que ello puede afectar sus planes de viaje",
+  "timestamp_utc": "2026-07-05T04:28:47Z",
+  "text": "Se recomienda enfáticamente a los viajeros que se informen sobre cualquier riesgo del clima extremo en el área que visitan, dado que ello puede afectar sus planes de viaje.",
+  "latency_sec": 4.6199,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Se recomienda enfáticamente a los viajeros que se informen sobre cualquier riesgo del clima extremo en el área que visitan, dado que ello puede afectar sus planes de viaje.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Eq4KCqsKARFNMg8iIR+gil2706bwJ/1RLBIVUs/l43boBC1ixO7bApFu4tdnq3uqhYSU1ZuUNGwfX5d0VftgVs+FpoTMSBF78zRxZ8XTSEbyegYsmlCO7vk4c2F8BjbvpPxkY1Dez05X176yDU9SeGQfW2FDIEcewmb/777YzRA7JnmE4sQG0NMjFWT65LfNrIeOLwlA90Pq3DERmGkhXSf9+CcD4bxNvKdP1/fW5LsOD9AjFyr96pIkz4jBH5fSc3jgUdeI7vH2ilwRh2gyIIiY6O2+fx2e0JTaAEFXCBTMvOU7lbIgyYBFU1vO1PuiYM07m6AP/vJLqHhgx7IdBiTFKNnFO/xrdMGfMluvJBn7USjnHBwDjnyfVs6hfjPVbvRoj7mhXzfvDHKfnOAzgnFKRL3WKxSV/oF3+7WgM8rg9XtjQNtfYid/0Jx3zDlrwV8/s2hXvkM/Tp6Bsau5qDo/dpKS68YxRDmnsk7C7qrTgt5BeSTAKlXe7tAzRosq3TI1U1SHjFwhztOgRpu5lIsOp48l0P65+COEQolYFnFtZXILCj8GK+Y2V4rd2iG/EGpK9u5Fu701vdDGFtKdM97qPMuGeaPJx01wnoWecshNk5cwrvWUmYTZ6x0VkRfKEds5WK2/hxSCf25qWk2XMzYFjXj2oAQcAGm6mwSkH1KpB+Jc9pcDIo4oAjzBAX29mIOjfv/c2VSReR5M2arp5BQxq3l6PdqhVfX+++pUQQJievnG0oJbzh1d0Pms5gGTmz+bMzvVdzepsw2fWlnd2mgLoHvxmXDiBbO3OAGNy2kiy0iWwaiEhCdJTSbVDPmfdiMSKWRiHvotYA2We/oANsxJZrJ4cKgEuBJk4K6Lan3N1s/6uFMWKsMYDAd6ym961o8XRNo/xphKgDnGKFECazb1IIx3yt5HLHomwNubHc/KudN+K/Gbe9dmMaUhm51iv6iHwPFVZG+PITgMcblmoL5ahwfEsXYrHAfLUeMakDzB8+iY5fjSW6xWRU5mWQF0p3O/3k0myWWAPqFIM34R6PgDjPsgwswzT8LZp7OQzj1ztoEPrJmDui5YfHUEWguKeO9PCoCO9kU/O6Sj/1bYYOsK3FQTbsIt1Y7aCmdF3sm1zWQIbuFHj6sqxwTdAP6PwiE4hLrp31mAn5W6fOvP1cYXpt/2QKxTsx0TTUy/nY9pLtwcMWSWLbnr58fzPNZsM+bD8jWqxieD3yzn8uPqOy6kWbIRfZRFEqGZr0B998XdpPIpz4g6L9vC28KRy+JcGOc100wCsHHi5WucWYGGj1NGPFy+U6hnXdepAHtd2s8RHyOHz48WdcYa4LLfBi5K/kJo908EVgoQsCGSQSWXQYhKCRxRFUqnZGj0r9DHthsGR9Z9j5AZ+vp5MPfUwVfwfGixUptHv+GaJpY/cDVUQS+UoLYb1fYSNOhAk2pyjD9vL48TL4IoAGQsDP2c06JoNnaA3ppRSMJbtLx3DVhb7otWIiNc+OfyWFGtmlFARrtHC6gfQWbgw55qfr4mpGiocRDE+UVmfeahXhHCykf1Eq1dDpVeMGmAqHLZW8+NzWO6ydgBLLn0Ql5xUyjl0ZpMyaS8kt6D9pZOzyjfJVYzFQNDaqrQQLLn+XyfLkxeNhfRX6SHMI9dMeMAipWFpyoWQIfAe2IGArWCXjtoBZdkMk8ctW3CPgevAblbdL31BMSm1dfAEKvzzS7S35Pu+XkjD4dgP0o33Ddldpl1iPTeqzFo1KdELLAaA4OP1Zm4FSkc"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225727,
+    "id": "fN1JasDEAsTs1e8Pu-GUwQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 342,
+      "total_tokens": 697
+    }
+  }
+}

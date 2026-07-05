@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0018",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.3,
+  "ref_text_raw": "Giáo sư Pamela Ferguson của trường Đại học Dundee ghi nhận rằng \"có lẽ các nhà báo thực sự đang đi trên một con đường nguy hiểm khi công khai những hình ảnh, v.v. của các nghi phạm.\"",
+  "ref_text_normalized": "giáo sư pamela ferguson của trường đại học dundee ghi nhận rằng có lẽ các nhà báo thực sự đang đi trên một con đường nguy hiểm khi công khai những hình ảnh v.v. của các nghi phạm",
+  "timestamp_utc": "2026-07-05T08:38:46Z",
+  "text": "Giáo sư Pamela Ferguson của trường Đại học Dundee ghi nhận rằng có lẽ các nhà báo thật sự đang đi trên một con đường nguy hiểm khi công khai những hình ảnh của các nghi phạm.",
+  "latency_sec": 3.3908,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Giáo sư Pamela Ferguson của trường Đại học Dundee ghi nhận rằng có lẽ các nhà báo thật sự đang đi trên một con đường nguy hiểm khi công khai những hình ảnh của các nghi phạm.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP8W9UclK02rrRvozyAw4ktvbMi4K3SU/0gWlA8RaufCSDBMdKF82aBSU+DebG"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240726,
+    "id": "FBhKavmeEtWd1e8PgOulsQY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 404,
+      "total_tokens": 443
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0102",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.88,
+  "ref_text_raw": "\"Это не станет прощанием. Это закрытие одной главы и открытие новой.\"",
+  "ref_text_normalized": "это не станет прощанием это закрытие одной главы и открытие новой",
+  "timestamp_utc": "2026-07-05T07:25:35Z",
+  "text": "Это не станет прощанием. Это закрытие одной главы и открытие новой.",
+  "latency_sec": 3.2412,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Это не станет прощанием. Это закрытие одной главы и открытие новой.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EoEHCv4GARFNMg/V5V2oB8JNvUQgwLRrczAMvsGatyZwataVj3zktEJsnx3YT5eERJ+vnc7/cQZAc/baovat5jAwlbWNhLGrsezv18Yy0z9AHHZhTcR3nh1ujfcfF3vH0l0Kh34wkkF0HGNP/c/ybpuQohcgChOlVdidJCY9xd1cfs2LpmQMUVOl9gOvDCFHVUXNY2C+9YRe3UWuPEDnLI2suMMd+Pu+sDzNw5hG0ZhIpHuPFoglMSItREWzTBECmr73zVjUKGaDFA7lMEFoYJ8WNRCbMUblOwSzmf+AyfrfAV5KUqt92WaXs2KiIiHFlgARzDfHF8+yR91EuTiiHs0xX9I3uvNapXhTlj1RA7Mw4S7IZ4BvPR58aqz6oQjb0v5ZLp1l8l+cZyA5QKmRu7UREutmJ72wOnk1PIWokX2DEBA7IZcwB6pade7D2vnCGTpgVsvw8bXog1qHDwZGfP6wbczSxCJ4f1nXUFc4EOiR5/ppxMxTAvM1rIfdW/3GZFSRfNFBs6E5RwFjXFDbAE1mr4oMVCmykV5Q03ORHYNXpFxeCuslGkVblfuEAinXmQn6801u8swkzqxqKK7tYI+ZMQaRAsQ6d5xEWP43rV4mPPw0c6FE1J5znHyw1mqCE2+O+3z1utakVdiMuimyY+f2Bd5O6il3OYhK/LLyEg7d3IbdY0nFzcnm4yOhtcjRAHgI69g4TvOcH2caeczt5rAN4A8ml80B7nHC2cEclLIodfbH4333DmKffGgRdW3siehnXkwVZxeEzSch8/ydwpjIJY3qeLXXp6PY6buNCj51HLTqGJ973Az5xWmhqIJr6oJUO8Rnhb4fepqTZmDDdDpL0GjyAhbP5vFKaLYnuyDWfP8Z269LZkpgGvafedNa9ZMrLng0NIJgg5bijCb9/Mj4nLLv3n/T6L82aOtHo9l7CepeXy9TYBqfxTAGJBxV2BxpMLKW25tImMh4CMUUdDXB5Z17fM3rmXZcFr7D3bDrcJgI7ap1mezAWsv0iPkJxC7l3dtTMNqUIJCwKeqtpSTxend5y410iv3fYqrvT41hAsGkggJMrTpogKvBnS+F4s1uO+wU0vAI+ximwsySScpMcrdjOLBga53wrox/ahP85FgodN4Lom/c3LFf5I52sg/otuZaAxDClGMjpl8HQr5lPzDY6Wv/hBFbTLSzCRywqC/0"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236335,
+    "id": "7QZKavz0JofEvr0P5fGP6AE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 244,
+      "total_tokens": 438
+    }
+  }
+}

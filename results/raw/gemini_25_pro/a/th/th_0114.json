@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0114",
+  "lang": "th",
+  "engine": "gemini_25_pro",
+  "duration_sec": 17.22,
+  "ref_text_raw": "ศาสตราจารย์พาเมลา เฟอร์กูสัน ประจำมหาวิทยาลัยดันดี กล่าวว่า \"ดูเหมือนว่าผู้สื่อข่าวจะเดินอยู่ในเส้นทางอันตรายหากปล่อยภาพทั้งหลายแหล่ของผู้ต้องสงสัยสู่สาธารณะ\"",
+  "ref_text_normalized": "ศาสตราจารย์พาเมลา เฟอร์กูสัน ประจำมหาวิทยาลัยดันดี กล่าวว่า ดูเหมือนว่าผู้สื่อข่าวจะเดินอยู่ในเส้นทางอันตรายหากปล่อยภาพทั้งหลายแหล่ของผู้ต้องสงสัยสู่สาธารณะ",
+  "timestamp_utc": "2026-07-05T07:51:48Z",
+  "text": "ศาสตราจารย์พาเมลา เฟอร์กูสัน ประจำมหาวิทยาลัยดันดีกล่าวว่า ดูเหมือนว่าผู้สื่อข่าวจะเดินอยู่ในเส้นทางอันตราย หากปล่อยภาพหลุดทั้งหลายแหล่เหล่านั้นของผู้ต้องสงสัยสู่สาธารณะ",
+  "latency_sec": 6.2596,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ศาสตราจารย์พาเมลา เฟอร์กูสัน ประจำมหาวิทยาลัยดันดีกล่าวว่า ดูเหมือนว่าผู้สื่อข่าวจะเดินอยู่ในเส้นทางอันตราย หากปล่อยภาพหลุดทั้งหลายแหล่เหล่านั้นของผู้ต้องสงสัยสู่สาธารณะ",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237909,
+    "id": "Dw1KatjyO8Ts1e8Px-GUwQI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 55,
+      "prompt_tokens": 573,
+      "total_tokens": 970
+    }
+  }
+}

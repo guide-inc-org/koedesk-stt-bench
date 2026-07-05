@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0031",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.94,
+  "ref_text_raw": "自 1966 年以来，孙德尔本斯一直是野生动物保护区。据估计，目前该区生活着 400 只皇家孟加拉虎和大约 3 万只梅花鹿。",
+  "ref_text_normalized": "自 1966 年 以 来 孙 德 尔 本 斯 一 直 是 野 生 动 物 保 护 区 据 估 计 目 前 该 区 生 活 着 400 只 皇 家 孟 加 拉 虎 和 大 约 3 万 只 梅 花 鹿",
+  "timestamp_utc": "2026-07-05T09:08:12Z",
+  "text": "自1966年以来，孙德尔本斯一直是野生动物保护区，据估计，目前该区生活着400只皇家孟加拉虎和大约3万只梅花鹿。",
+  "latency_sec": 5.2606,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "自1966年以来，孙德尔本斯一直是野生动物保护区，据估计，目前该区生活着400只皇家孟加拉虎和大约3万只梅花鹿。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EsYLCsMLARFNMg9mr+0bmyaQxAmZED/nsdNfLGCsNhjlZ77G/nF19V5FV8aX+RUgXt/5bjjD5sq8dL8p6c0bTDO6sXaxON1X1D7TuioOM6z9RQH80OKA+vAbpJ6N+a+6jtnrGJeE50hrtsC6c0+QpFAr3btc/nCtIMiL75zn0AZNaA0qcco5st0UJPtEB69LUKzE6AvIYH+kVyZLU+yjGhYjPtvu8S28SrmAuaOrFV+JsXkWQSNzlFa5WVXKokAz8Vm/5R1MAbOMfM25pJuqAO1lGscacEVNYd0wnnHLsPO/AzB4UXvh3SlQt0qYTjCr++M5Bqz5sHYq6VJB0wtalD3h+phF1oeBM7WO2cynyysdWhe8ilRplQ6JdKFtX6F7YSJbC2jAJkJM+7RLxN1nDF7oGXRtFcz0PMoHDLhjQ17oKK+k0Nerczee78a1FU4r9QXvdW8/Rej3oiGyfkqtfBWWdYTyFZRk08QUSWX+xnB8ToPEH8/fF5deEUUpFHfV6b2qHcHUMk8EYESP+pWPPU1rqyEapJWvmdJZXhh64xeIhbat5mvAnq1F5YPyrBlsQd4t8pskX+/kfNAEIM+5w3Rqokd5eMShjnlhrnooYPCaZgDcBK/Nk456BMmilEXaglIXHyYm9WuksbidGNicxBa6jyhegd+AAw3q11PvvkwnpLrd6RRF7BXycefA2lsz9EUN7uTWOMhKVs9sCTAzIjsyCPNhRvOVmchgZu6uOfMhVjPSw3/W1+69eMgHfTF39qDrJhN4lrCwd8vR2mwCspbWfnOh0pZ+jOaB7k4wQDla14pEQUBzaNtwySkqGcM6VrCw0N2hXv1s+aA3pJfrsQulPV/MXt52YRnKNPLIR9nuyEbTpgTmAjsznTwarGnvbSyKvdj2kVgGrQGhvV2CBaXLPvulHcdfqs2jG0jS8HWGcE3xatWWrafRTgvQF/eHUwz8L5AjVKUApH8W2UEDwKJXeBYgO80MJX0YrAQG2aEDcG3cWXx0uV1+3sRRKthAjhkE+0/cGcijLHL9Rxl97fSInb4xaokGA4fIP1lh/VVPOtyVRogS6naCP/NXj6jf6vojJe4wqv6yUIHcLfc9fQw6m1XCQW8sgGEJL63vvIC8cPBFuMeFFBJusAt3OQ1BujIOB1NoDbzByz/HdZiWE1pLZPuvtnfLHm/VegmPRVRB3qb0nFwlK7cBk9vESYX0gJVFHrs3CXJic7tefv+J6Pn30niiAjwl4/2DxehgW+czjDtHeaEXYKfpEK3uIHjWuCO5g33WIpvnoIAEVnMZnysE5MjMGb/mvlvi4lEGE4mc9HcGzHP2YgxCKS9pfWHXmZL+Jn8PC5D4mJOZHOdB7AzPrZQbKoHpoqV+L8IAXncIqDDXOyrMU3rK7rutWFWbtVN13c/ogZk46n/BFtDxuNCUbGR/T4PEKSx3kd/SL/g8kcXLoPZu0OsSoI8BJQSvdWMzGgiWwYKpRw2QX8N78ldx9sIpJT9tU9hpJZpY1NMFA9jLHvDh9DM5LOn34dyJqOtk91mObdbq/oGL0Nc6TtYa3+GtJ5gITMkODMixsRG+/64/kKOe9xki7J2GlJpJBpAdrg+9ZmxV9UBEv0hVUmJ25Qy9VQN+yVY3kHEVfx/l8EqjoJ012gDcrzwtkK6j3UWPWwboLTHAyWgQJ4CASKbFQ9gUVYi+26MtAN+j4ON4h+cNU3d5jsUp8WPQ7eAoYH9NuqEhrGVI4yS4dOQQJBmPbquGO6u+lkoJINUQ1TvKI0E9LDYcuOvQ0wD9C/kr27fROzSfcSFBvAowv6vXR+b8tbLP9k4zExokKCOSWfdve9najz2uB0Yt/owf96u0+v1ot5I4K4KhB24J+SKSFkusWBhS1o2bQgjumrrgRqyjczxQkPDpqs82oFDiAf3CNOhMTQVRpixz3d765e1MlZXrMfBjGhs8HjVOEpZA5y9DrPFxW/e2Om8="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242492,
+    "id": "-B5KarToLqG2vr0PqrfGqAE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 320,
+      "total_tokens": 844
+    }
+  }
+}

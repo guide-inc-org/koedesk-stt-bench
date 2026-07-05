@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0169",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.82,
+  "ref_text_raw": "Also between each dynasty was an unstable age of divided provinces. The best-known of these periods was the Three Kingdoms epoch taking place for 60 years between the Han and the Jin Dynasty.",
+  "ref_text_normalized": "also between each dynasty was an unstable age of divided provinces the best-known of these periods was the three kingdoms epoch taking place for 60 years between the han and the jin dynasty",
+  "timestamp_utc": "2026-07-05T03:37:23Z",
+  "text": "Also, between each dynasty was an unstable age of divided provinces. The best known of these periods was the Three Kingdoms epoch, taking place for 60 years between the Han and the Jin Dynasty.",
+  "latency_sec": 2.5594,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Also, between each dynasty was an unstable age of divided provinces. The best known of these periods was the Three Kingdoms epoch, taking place for 60 years between the Han and the Jin Dynasty.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPzhWodl2Lt9zec6Qn5bTAZ2yeodBtGWdGTInru3FKQLyvnFQI41ZViTbkOzIt"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222644,
+    "id": "ctFJatSkKdKivr0PmOv26QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 317,
+      "total_tokens": 357
+    }
+  }
+}

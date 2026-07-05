@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0072",
+  "lang": "th",
+  "engine": "gemini_25_flash",
+  "duration_sec": 6.42,
+  "ref_text_raw": "อารยธรรมคือวัฒนธรรมเอกเทศที่แบ่งปันโดยกลุ่มคนจำนวนมากซึ่งอาศัยอยู่และทำงานร่วมกันในสังคม",
+  "ref_text_normalized": "อารยธรรมคือวัฒนธรรมเอกเทศที่แบ่งปันโดยกลุ่มคนจำนวนมากซึ่งอาศัยอยู่และทำงานร่วมกันในสังคม",
+  "timestamp_utc": "2026-07-05T07:40:19Z",
+  "text": "อารยธรรม คือ วัฒนธรรม เอกเทศ ที่ แบ่ง ปัน โดย กลุ่ม คน จํานวน มาก ซึ่ง อาศัย อยู่ ใน การ ทํา งาน ร่วม กัน ใน สังคม",
+  "latency_sec": 4.9142,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "อารยธรรม คือ วัฒนธรรม เอกเทศ ที่ แบ่ง ปัน โดย กลุ่ม คน จํานวน มาก ซึ่ง อาศัย อยู่ ใน การ ทํา งาน ร่วม กัน ใน สังคม",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237219,
+    "id": "YApKauG6A7ui9tMPvLHh-QE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 227,
+      "total_tokens": 618
+    }
+  }
+}

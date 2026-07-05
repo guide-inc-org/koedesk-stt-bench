@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0057",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.18,
+  "ref_text_raw": "骨董品について普遍的な定義はありません。税務署によっては、100年以上前のものを骨董品と定義しています。",
+  "ref_text_normalized": "骨董品について普遍的な定義はありません 税務署によっては 100年以上前のものを骨董品と定義しています",
+  "timestamp_utc": "2026-07-05T10:16:12Z",
+  "text": "骨董 品 について 普遍 的 な 定義 は あり ませ ん 。 税務 所 に よっ て は 100 年 以上 前 の もの を 骨董 品 と 定義 し て い ます 。",
+  "latency_sec": 3.759,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "骨董 品 について 普遍 的 な 定義 は あり ませ ん 。 税務 所 に よっ て は 100 年 以上 前 の もの を 骨董 品 と 定義 し て い ます 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPZNqbEzdpeEhlclraLHzxwJ/X44FWkWW2N80oSx+oHQna+WD5k1Oz0W7ODk00"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246572,
+    "id": "6i5Kaum7Bb_L0-kPu6eA2AI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 326,
+      "total_tokens": 371
+    }
+  }
+}

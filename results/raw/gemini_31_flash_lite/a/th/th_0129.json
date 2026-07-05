@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0129",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 16.08,
+  "ref_text_raw": "แม้โกมาจะมีความปลอดภัยพอสมควร แต่หากจะไปเที่ยวนอกเขตเมืองโกมา ก็ควรศึกษาข้อมูลก่อนเพื่อให้เข้าใจสถานการณ์การต่อสู้ที่ยืดเยื้อในจังหวัดนอร์ทคิวู",
+  "ref_text_normalized": "แม้โกมาจะมีความปลอดภัยพอสมควร แต่หากจะไปเที่ยวนอกเขตเมืองโกมา ก็ควรศึกษาข้อมูลก่อนเพื่อให้เข้าใจสถานการณ์การต่อสู้ที่ยืดเยื้อในจังหวัดนอร์ทคิวู",
+  "timestamp_utc": "2026-07-05T08:08:53Z",
+  "text": "เมืองโกมามีความปลอดภัยพอสมควร แต่หากจะไปเที่ยวนอกเขตเมืองโกมาก็ควรศึกษาข้อมูลก่อน เพื่อให้เข้าใจสถานการณ์การต่อสู้ที่ยืดเยื้อในจังหวัดนอร์ทคีวู",
+  "latency_sec": 4.5437,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "เมืองโกมามีความปลอดภัยพอสมควร แต่หากจะไปเที่ยวนอกเขตเมืองโกมาก็ควรศึกษาข้อมูลก่อน เพื่อให้เข้าใจสถานการณ์การต่อสู้ที่ยืดเยื้อในจังหวัดนอร์ทคีวู",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPebwMLb1aoqVgV7/HPicdyn9EDzMXW6zVmZWteaB7/1L5+OvTJhwqvAxCBTfi"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238933,
+    "id": "ExFKau7iCenn2roPlKW22Ao",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 48,
+      "prompt_tokens": 423,
+      "total_tokens": 471
+    }
+  }
+}

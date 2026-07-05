@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0055",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.08,
+  "ref_text_raw": "En las coberturas televisivas puede verse humo blanco emanando de la planta.",
+  "ref_text_normalized": "en las coberturas televisivas puede verse humo blanco emanando de la planta",
+  "timestamp_utc": "2026-07-05T04:37:01Z",
+  "text": "En las coberturas televisivas, puede verse humo blanco emanando de la planta.",
+  "latency_sec": 2.5092,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "En las coberturas televisivas, puede verse humo blanco emanando de la planta.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPbP71HpntdcigwCSXWqND6WA1U0yUJQU/uoMyIRRyPLSbti5rpQPnRzg/fGOL"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226221,
+    "id": "a99JatLIOrycrfcP6t_NqQY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 17,
+      "prompt_tokens": 198,
+      "total_tokens": 215
+    }
+  }
+}

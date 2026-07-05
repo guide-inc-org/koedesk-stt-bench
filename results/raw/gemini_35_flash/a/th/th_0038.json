@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0038",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 19.5,
+  "ref_text_raw": "เป็นไปได้ว่าหมู่เกาะรอบนอกอาจไม่รับบัตรเครดิต แม้ว่าจะยอมรับสกุลเงินของอังกฤษและสหรัฐอเมริกาก็ตาม ตรวจสอบกับเจ้าของล่วงหน้าเพื่อกำหนดวิธีการชำระเงินที่ใช้ได้",
+  "ref_text_normalized": "เป็นไปได้ว่าหมู่เกาะรอบนอกอาจไม่รับบัตรเครดิต แม้ว่าจะยอมรับสกุลเงินของอังกฤษและสหรัฐอเมริกาก็ตาม ตรวจสอบกับเจ้าของล่วงหน้าเพื่อกำหนดวิธีการชำระเงินที่ใช้ได้",
+  "timestamp_utc": "2026-07-05T07:54:40Z",
+  "text": "เป็นไปได้ว่าหมู่เกาะรอบนอกอาจไม่รับบัตรเครดิต แม้ว่าจะยอมรับสกุลเงินของอังกฤษ และสหรัฐอเมริกาก็ตาม ตรวจสอบกับเจ้าหน้าที่ล่วงหน้าเพื่อกำหนดวิธีการชำระเงินที่ใช้ได้",
+  "latency_sec": 4.5352,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "เป็นไปได้ว่าหมู่เกาะรอบนอกอาจไม่รับบัตรเครดิต แม้ว่าจะยอมรับสกุลเงินของอังกฤษ และสหรัฐอเมริกาก็ตาม ตรวจสอบกับเจ้าหน้าที่ล่วงหน้าเพื่อกำหนดวิธีการชำระเงินที่ใช้ได้",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238080,
+    "id": "vQ1KauP9Caew0-kPzeiWSA",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 56,
+      "prompt_tokens": 509,
+      "total_tokens": 875
+    }
+  }
+}

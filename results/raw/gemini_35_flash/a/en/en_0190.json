@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0190",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.6,
+  "ref_text_raw": "The pH level is indicated by the amount of Hydrogen (the H in pH) ions in the tested chemical.",
+  "ref_text_normalized": "the ph level is indicated by the amount of hydrogen the h in ph ions in the tested chemical",
+  "timestamp_utc": "2026-07-05T03:39:14Z",
+  "text": "The pH level is indicated by the amount of hydrogen, the H in pH, ions in the tested chemical.",
+  "latency_sec": 2.8134,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The pH level is indicated by the amount of hydrogen, the H in pH, ions in the tested chemical.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpIECo8EARFNMg9PrCLxrKRglixJsbXxuESstTvh7k5xlnLSyt3BAVUGU1FwlnAlpKPy8VZD0y0uq8a+DWqZUv/L8hGpSObIHzctYkY1H3GpJ4KcgqvpGT487YGwmxRQQSXhYQSyFHE+jiVQ5eInCuXAns+ByPV0HLQro8eX/uG0Sa18pRek9GIKL5dBnhq+fdpQ9O3zv6oo7Bir0awRm5WFq/0sCcrAXJ02qEFMrnXG2v8ahQSKxOVPk4Y64YK/fqZ+kyxXv9H3/UlPcApGhWttDvvcmboz9jOTHpl9pEPCevRMPcDZYW5klpdBAVRIOPz1aWMvpQWy/kDUbKEkavdMS3LO08AoLv4Hw9KxLCmfB4MqHeXioAfYROWJTtiiXT1L5X5d1St8Tv75753cUVPVB+esAxOvpVSzGC/WHJg473+ZhErmqRJNFMmx23lqOeYkjnGi+78nHAhG1c9a7qoGzo9xfWbayi6khwpAEJKjm3G/x7ANXa53mlx+++bGmi1vNi/fgmJ/mAA1dH/2sNf2HCArASYP9nkkewSBj1BQUGlBWe2NQ5PW0+hDEUmg+ERDJ5znN7vRp15PY8CYdl4xHoH8Tj4tnLIdPqQuiNIWhW1G7Oz93BwwzHygFJGlepeX8+8/DHhAnjWacxoTC/tnmIL/bjkbWROd62wIUZ1devumC1Geiztd2CV4YKGq2X4cDw4="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222754,
+    "id": "4NFJaoLPN8qfvr0Plb-amQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 186,
+      "total_tokens": 320
+    }
+  }
+}

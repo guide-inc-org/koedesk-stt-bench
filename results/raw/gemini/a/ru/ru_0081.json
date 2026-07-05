@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0081",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.28,
+  "ref_text_raw": "Каждый является членом общества и использует транспортные системы. Практически каждый жалуется на эти систем.",
+  "ref_text_normalized": "каждый является членом общества и использует транспортные системы практически каждый жалуется на эти систем",
+  "timestamp_utc": "2026-07-05T07:06:32Z",
+  "text": "Каждый является членом общества, использует транспортные системы. Практически каждый жалуется на эти системы.",
+  "latency_sec": 3.5823,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Каждый является членом общества, использует транспортные системы. Практически каждый жалуется на эти системы.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235192,
+    "id": "dQJKatnNO4Ov2roPupKSoQU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 286,
+      "total_tokens": 358
+    }
+  }
+}

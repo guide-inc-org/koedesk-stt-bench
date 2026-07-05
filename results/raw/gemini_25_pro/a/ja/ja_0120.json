@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0120",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 19.08,
+  "ref_text_raw": "芸能ニュースサイトTMZによると、写真家はセプルベダ大通りの反対車線に車を停め、道路を渡って進む前に警察の検問を写真に収めようとしたため、交通規制をしていたカリフォルニア州ハイウェイパトロールの警察官が横断して戻るように2回も命じたそうです。",
+  "ref_text_normalized": "芸能ニュースサイトtmzによると 写真家はセプルベダ大通りの反対車線に車を停め 道路を渡って進む前に警察の検問を写真に収めようとしたため 交通規制をしていたカリフォルニア州ハイウェイパトロールの警察官が横断して戻るように2回も命じたそうです",
+  "timestamp_utc": "2026-07-05T03:08:37Z",
+  "text": "芸能ニュースサイトTMZによると、写真家はセプルベダ大通りの反対車線に車を止め、道路を渡って進む前に警察の検問を写真に収めようとしたため、交通規制を敷いていたカリフォルニア州ハイウェイパトロールの警察官が横断して戻るように2回も命じたそうです。",
+  "latency_sec": 7.6113,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "芸能ニュースサイトTMZによると、写真家はセプルベダ大通りの反対車線に車を止め、道路を渡って進む前に警察の検問を写真に収めようとしたため、交通規制を敷いていたカリフォルニア州ハイウェイパトロールの警察官が横断して戻るように2回も命じたそうです。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783220917,
+    "id": "r8pJavvXLcmzvr0PpOCr2QI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 76,
+      "prompt_tokens": 632,
+      "total_tokens": 1193
+    }
+  }
+}

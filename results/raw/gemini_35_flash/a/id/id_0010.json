@@ -1,0 +1,45 @@
+{
+  "utt_id": "id_0010",
+  "lang": "id",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 15.96,
+  "ref_text_raw": "Dia juga terlibat dalam pengukiran uang kertas untuk banyak negara, contoh karyanya yang terbaru termasuk potret Perdana Menteri di bagian depan uang kertas $5 dan $100 Kanada yang baru.",
+  "ref_text_normalized": "dia juga terlibat dalam pengukiran uang kertas untuk banyak negara contoh karyanya yang terbaru termasuk potret perdana menteri di bagian depan uang kertas $5 dan $100 kanada yang baru",
+  "timestamp_utc": "2026-07-05T05:35:41Z",
+  "text": "Dia juga terlibat dalam pengukiran uang kertas untuk banyak negara. Contoh karyanya yang terbaru termasuk potret perdana menteri di bagian depan uang kertas 5 dolar dan 100 dolar Kanada yang baru.",
+  "latency_sec": 4.4489,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Dia juga terlibat dalam pengukiran uang kertas untuk banyak negara. Contoh karyanya yang terbaru termasuk potret perdana menteri di bagian depan uang kertas 5 dolar dan 100 dolar Kanada yang baru.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EvIECu8EARFNMg+GwaduSxUpBrdgAmP5C72O6uohbbqqfxYYuZJc23Om6EruL6vAvQQ0s+9Z3tetNrNMwwlkAck3ut2TmQI5qxJPmJ1whQ0s5vpqiqAroIaByQg98NPd0huvYz3Is3PdKD6aQNQ5EFz1Nq3TGQYz95SJ1sgnKe0x4OsyFyE2MOoA9BVxpTDupVOtUrnYZnHipRWXRsjHtrxQ+uXhpxq9bUTMOMer09Uv7p6/4ECvE2CsTXO5saVacw/ecYjcd2lWtkk0RK3xGSHWeT4HGvsiJjJi+QvcAs2VN3F0IzC+vFNMheqcPYoRHjdUGTuQb7l/QwRbfRRGQGxrRzbhFa6iHZr6XvIk6FpB+ngzBP8l84VuNkELhutI2E8nzd6pwlbCSyAEyAbAiNpY/SMQs7TieZur/S9FyfcIrTFIOn3OTkO+cJVubWy8eKJCIfdN7yJWE0bENRAnanC1r27kUCogNBREObBbEfuZoOe1MYcuAmygzhfm5yyhWFg98qdJKF04FG7xzBtYBPKXCqwtty0g/6tUvaKzfcUa3TG23o/QpuS36rKCE5KDdtW1R+VcBI+IHFau4fYLjCnLsMR+Oe31VhX4HNR6YkpzbmsiRKtfO20bsHZ8temavWgyxrMWxUnNRo64/+uAO6t5+UJNZtqGmZWXMZrkEzYdhrpixCBY8oWQF+rF3aU/Tqv5JbNj+elNNzG2xcDfKuCB9ZF2m5exX9cFxqOUgof9Vo9Lx6g7cdGd/OogklwvQNwunZC8eZZ0FDmIr9PezbDTajEAnkVbuqnheULnDiILPwrruhynchcahtG8Dx9mwEZ1Ah4="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783229741,
+    "id": "K-1JaqXoFOznosUP7JmIyQY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 420,
+      "total_tokens": 587
+    }
+  }
+}

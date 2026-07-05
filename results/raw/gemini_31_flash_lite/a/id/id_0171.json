@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0171",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.56,
+  "ref_text_raw": "Orang hanya bisa bertanya-tanya akan menjadi apa kibor ketika muncul sesuatu yang lebih baru.",
+  "ref_text_normalized": "orang hanya bisa bertanya-tanya akan menjadi apa kibor ketika muncul sesuatu yang lebih baru",
+  "timestamp_utc": "2026-07-05T05:55:36Z",
+  "text": "Orang hanya bisa bertanya-tanya akan menjadi apa keyboard ketika muncul sesuatu yang lebih baru.",
+  "latency_sec": 2.9589,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Orang hanya bisa bertanya-tanya akan menjadi apa keyboard ketika muncul sesuatu yang lebih baru.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPHCln01e9gsQ7cZ5v70rPlwhgGSZ3SwJAkurV5lYyexhBcEcNE53hyJiHBo9z"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230936,
+    "id": "1vFJapywILui9tMPvLHh-QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 285,
+      "total_tokens": 304
+    }
+  }
+}

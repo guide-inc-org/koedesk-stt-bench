@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0000",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.38,
+  "ref_text_raw": "“这并不是告别。这是一个篇章的结束，也是新篇章的开始。”",
+  "ref_text_normalized": "这 并 不 是 告 别 这 是 一 个 篇 章 的 结 束 也 是 新 篇 章 的 开 始",
+  "timestamp_utc": "2026-07-05T09:10:43Z",
+  "text": "这并不是告别，这是一个篇章的结束，也是新篇章的开始。",
+  "latency_sec": 2.9123,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "这并不是告别，这是一个篇章的结束，也是新篇章的开始。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPrcoGZsx5VY0dcjDjMYUTVa9bQ8V55nhQ/D4uHEMpgJHGjLva7j1YHXTB9Dkb"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242644,
+    "id": "kh9KaofWIun62roPgJLP-QI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 281,
+      "total_tokens": 299
+    }
+  }
+}

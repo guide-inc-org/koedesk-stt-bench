@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0142",
+  "lang": "zh",
+  "engine": "gemini_25_pro",
+  "duration_sec": 4.02,
+  "ref_text_raw": "然而在这方面，申根区有点像一个国家。",
+  "ref_text_normalized": "然 而 在 这 方 面 申 根 区 有 点 像 一 个 国 家",
+  "timestamp_utc": "2026-07-05T09:04:10Z",
+  "text": "然而在這方面,申根區有點像一個國家。",
+  "latency_sec": 6.6043,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "然而在這方面,申根區有點像一個國家。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242250,
+    "id": "BB5KasadHPGC0-kP1smn0AY",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 12,
+      "prompt_tokens": 150,
+      "total_tokens": 385
+    }
+  }
+}

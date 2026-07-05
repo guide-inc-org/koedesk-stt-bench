@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0007",
+  "lang": "zh",
+  "engine": "gemini_25_pro",
+  "duration_sec": 15.46,
+  "ref_text_raw": "它的长下颚上布满了 70 多颗剃刀般锋利的牙齿，上颚上还有一排。这意味着任何与它相遇的东西都无路可逃。",
+  "ref_text_normalized": "它 的 长 下 颚 上 布 满 了 70 多 颗 剃 刀 般 锋 利 的 牙 齿 上 颚 上 还 有 一 排 这 意 味 着 任 何 与 它 相 遇 的 东 西 都 无 路 可 逃",
+  "timestamp_utc": "2026-07-05T08:50:30Z",
+  "text": "它的長下顎上布滿了70多顆剃刀般鋒利的牙齒, 上顎上還有一排, 這意味著任何與它相遇的東西都無路可逃。",
+  "latency_sec": 7.2361,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "它的長下顎上布滿了70多顆剃刀般鋒利的牙齒, 上顎上還有一排, 這意味著任何與它相遇的東西都無路可逃。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241430,
+    "id": "0BpKasHuK4yl1e8P2deLgAI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 42,
+      "prompt_tokens": 516,
+      "total_tokens": 1110
+    }
+  }
+}

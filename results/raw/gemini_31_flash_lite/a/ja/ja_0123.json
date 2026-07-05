@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0123",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.06,
+  "ref_text_raw": "月面は岩石と塵でできています。月の外層は地殻と呼ばれています。",
+  "ref_text_normalized": "月面は岩石と塵でできています 月の外層は地殻と呼ばれています",
+  "timestamp_utc": "2026-07-05T03:18:34Z",
+  "text": "月面 は 岩石 と チリ で でき て い ます 。 月 の 外装 は 地殻 と 呼ば れ て い ます 。",
+  "latency_sec": 2.5358,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "月面 は 岩石 と チリ で でき て い ます 。 月 の 外装 は 地殻 と 呼ば れ て い ます 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPAx5PJ49+wmLRAz0OmPet+WmZE3RMDy0cI2spxBvHk1Hwzc38Ny0+VBm3fYqS"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221514,
+    "id": "Cc1JatevC73dvr0Pv4K6sQE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 248,
+      "total_tokens": 277
+    }
+  }
+}

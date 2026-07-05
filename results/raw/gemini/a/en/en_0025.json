@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0025",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.38,
+  "ref_text_raw": "Alloys are basically a mixture of two or more metals. Don't forget that there are many elements on the periodic table.",
+  "ref_text_normalized": "alloys are basically a mixture of two or more metals don't forget that there are many elements on the periodic table",
+  "timestamp_utc": "2026-07-05T10:20:59Z",
+  "text": "Alloys are basically a mixture of two or more metals. Don't forget there are many elements on the periodic table.",
+  "latency_sec": 3.5166,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Alloys are basically a mixture of two or more metals. Don't forget there are many elements on the periodic table.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246859,
+    "id": "CTBKaoe_Er_L0-kPu6eA2AI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 290,
+      "total_tokens": 340
+    }
+  }
+}

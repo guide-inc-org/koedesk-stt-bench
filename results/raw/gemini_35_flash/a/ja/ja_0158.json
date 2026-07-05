@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0158",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 14.46,
+  "ref_text_raw": "強風、ひょう、過度の降水量、および山火事は、雷雨、竜巻、水噴き、およびサイクロンなどの厳しい気象形態やその影響によるものです。",
+  "ref_text_normalized": "強風 ひょう 過度の降水量 および山火事は 雷雨 竜巻 水噴き およびサイクロンなどの厳しい気象形態やその影響によるものです",
+  "timestamp_utc": "2026-07-05T03:20:54Z",
+  "text": "強風、雹、過度の降水量、および、山火事、雷雨、竜巻、水吹き、および、サイクロンなどの厳しい気象形態やその影響によるものです。",
+  "latency_sec": 8.2425,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "強風、雹、過度の降水量、および、山火事、雷雨、竜巻、水吹き、および、サイクロンなどの厳しい気象形態やその影響によるものです。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221654,
+    "id": "j81JarKxIuGHvr0PvZC5oQg",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 383,
+      "total_tokens": 1608
+    }
+  }
+}

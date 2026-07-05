@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0146",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.96,
+  "ref_text_raw": "ความชื้นบนมือของคุณจะทำปฏิกิริยากับชั้นที่อยู่ด้านนอกซึ่งจะให้ความรู้สึกแปลก ๆ และก่อตัวในลักษณะของเปลือก",
+  "ref_text_normalized": "ความชื้นบนมือของคุณจะทำปฏิกิริยากับชั้นที่อยู่ด้านนอกซึ่งจะให้ความรู้สึกแปลก ๆ และก่อตัวในลักษณะของเปลือก",
+  "timestamp_utc": "2026-07-05T08:09:55Z",
+  "text": "ความชื้นบนมือของคุณจะทำปฏิกิริยากับชั้นที่อยู่ด้านนอก ซึ่งให้ความรู้สึกแปลกๆ และก่อตัวในลักษณะของเปลือก",
+  "latency_sec": 2.7049,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ความชื้นบนมือของคุณจะทำปฏิกิริยากับชั้นที่อยู่ด้านนอก ซึ่งให้ความรู้สึกแปลกๆ และก่อตัวในลักษณะของเปลือก",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPc/tpBTM7VRzDwfqiSDI6+jV097o7GdpF1Eyf0zQM58g32uyZGdwD6aHrRwHh"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238995,
+    "id": "URFKauGFOu2crfcPkMChIA",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 271,
+      "total_tokens": 306
+    }
+  }
+}

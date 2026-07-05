@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0194",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 6.9,
+  "ref_text_raw": "该服务经常用于航运，包括游艇以及有远程数据和语音需求的探险。",
+  "ref_text_normalized": "该 服 务 经 常 用 于 航 运 包 括 游 艇 以 及 有 远 程 数 据 和 语 音 需 求 的 探 险",
+  "timestamp_utc": "2026-07-05T09:04:23Z",
+  "text": "该服务经常用于航运，包括游艇以及有远程数据和语音需求的探险。",
+  "latency_sec": 4.6262,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "该服务经常用于航运，包括游艇以及有远程数据和语音需求的探险。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242263,
+    "id": "FB5KatrZD7yB0-kP2bOhwAc",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 242,
+      "total_tokens": 337
+    }
+  }
+}

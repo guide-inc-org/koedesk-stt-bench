@@ -1,0 +1,44 @@
+{
+  "utt_id": "pt_0054",
+  "lang": "pt",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.5,
+  "ref_text_raw": "Todas os pensamentos científicos de Aristóteles foram aceitos, inclusive a psicologia.",
+  "ref_text_normalized": "todas os pensamentos científicos de aristóteles foram aceitos inclusive a psicologia",
+  "timestamp_utc": "2026-07-05T06:57:09Z",
+  "text": "Todos os pensamentos científicos de Aristóteles foram aceitos, inclusive a psicologia.",
+  "latency_sec": 3.4121,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Todos os pensamentos científicos de Aristóteles foram aceitos, inclusive a psicologia.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPJ9uNFSX6QmwfAEdyX2X6PT483Yeq2ivBltIOISQ+uvl3uwKj28wUa5pPqNyC"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234629,
+    "id": "QwBKatqIEdbk1e8P_MzduQE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 17,
+      "prompt_tokens": 209,
+      "total_tokens": 226
+    }
+  }
+}

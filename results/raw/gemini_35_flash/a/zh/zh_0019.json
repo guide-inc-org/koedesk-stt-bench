@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0019",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.18,
+  "ref_text_raw": "因此，很可能这个符号只是作为一个标签添加的。",
+  "ref_text_normalized": "因 此 很 可 能 这 个 符 号 只 是 作 为 一 个 标 签 添 加 的",
+  "timestamp_utc": "2026-07-05T09:07:00Z",
+  "text": "因此很可能这个符号只是作为一个标签添加的。",
+  "latency_sec": 4.2444,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "因此很可能这个符号只是作为一个标签添加的。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EuwFCukFARFNMg+uI79ponftdg9a9k9j27XS/8k4lg+qkb8dgG+sCG0YyqmRgjLgpBVQBPGQJv+gNjUD99Wzsidnauq5f4ynEcjv3oIMWGn3ka9VJYof1aL7FkAeq1dt6g2sIauN8uaEoOMvxRxO53SbqCilvvUJOuGOXmuYXrrCf9KPgmSGOXXOV87tZZhepbINdr/puU4Zsc6Owsls+vQaPvYzbeBU1NH01H7mPaqyVvMyvYlssZMB32hFHhyFU5UuVkfagFNYRD1QbKQp6H0L8ZhqPykWoSRNgSGYYlmMao5LeMiZHMkzQ4B/j2sHFkj260klu4aya9MIHVi9UoEJU0pQHui0u6x5ct5NSpF9IL/gfi1UJyC7HnS1DDYKFkJrUMNfQR+ripUiWNjvBAkraduBWaSwYs8rwDUqJ1zOtzSrY0/vsfW8Qj3DzUwRWHXAakAmLIYheum8O+m+Tf+rsnBRwkcJYCfAGXvVF7zgKQf5OAIeQxbDNJsIY1TVjGycgKCkgmO1EgbMrOeCV74LSyEuV/9gsWOTRc44cKeEKRbg3SoOFCM5+AKJ00m2Mp7u5ePu88ptfdF2FUmzgoi7Fh6lMenah9TtPeZfOu0kG1Fg+yGvG03ifqeVbVeT7NJgCbqfM3a9ai3YHL/66R39pJtrZE5EwQbcOg/3oqk+y1QrtP8bdzKmPJMA1s73M1V8sFeJ7h+WAcRZy1tkpt36PULUhNvAfj4BY7S/UeSsUNBB5/SFBvcUzAxklay1VY4TX1IveljQ2XNRbs69xO1v6LSAXv6q+IAlBiEhuBtHOTQptuFBYWqAzOIXpb83jYPePH2HW90/Y+r9OQmlU0B3GWAWjO6piFGsjKsEryld8hgrHXHYPCFruTraC0f5xL50/VoeI25hEDROx030c77Li/JO6MEO97FSCZmaFee4TV40YAUsl2I0iAlbAuXG/O60KYmlxujeJh53zKVp8PVIBTEBXmaE4vHEkRxRVw=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242420,
+    "id": "sR5KatfdH4mV1e8Pn9-owAM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 11,
+      "prompt_tokens": 251,
+      "total_tokens": 466
+    }
+  }
+}

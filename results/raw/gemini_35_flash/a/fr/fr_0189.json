@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0189",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 4.44,
+  "ref_text_raw": "Le groupe Aerosmith a annulé les derniers concerts de sa tournée.",
+  "ref_text_normalized": "le groupe aerosmith a annulé les derniers concerts de sa tournée",
+  "timestamp_utc": "2026-07-05T05:18:14Z",
+  "text": "Le groupe Aerosmith a annulé les derniers concerts de sa tournée.",
+  "latency_sec": 3.5919,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Le groupe Aerosmith a annulé les derniers concerts de sa tournée.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtoECtcEARFNMg++fufMiP5nkdUUdA7BOTvIqQt9fRtQP/N+9ruhJKMIZ8B7HUFXjMLbBg4WVB4Qd7/poSVgb9bGTm0ovGhrCwmRh8ovonaxprIhVQvLH9p/kZ+y+dyOoHKn1X2s01AAcsMfCTDUiu9+Qi4u1UkrkdeaMWwHnKqiGAAxc2MEunYg2RKBb+DR5Ax8/xSD5lcPghMkhZq6KWSyqqUYJ/Ps0OAcX3Ke/UF4YjMaRBmLszD3pjrvmnoQyWfHKMfjTGTYGlpestHunOD1JKphC7hkFqe1WRTl5kOukNqJU/iyk2+b4BhCQmMJSkFhoJWG9f92fEchrpFW6/QTYccf5SQ6TM7CwtXQx1ZKyK5yaVOLt4xaurS4L6ygYgWs7lDeNQRSNRAR+Odau0MxZTcHP5hYIQWCZxFSfOr2Acayz2ULkpk2T+3CjzByStcwr0Wot+6GO+8FJeKzeSnvfMIXlqMfi2GUODWOviGqK+IAhltgs7DqYq9moPMhwAA+KBkuIveFtorGUw2bxgEl3kvbiCN9txwdiMXCvQqFc1kTMjbBXti3TWik2CNPSnyG4M5nLsR4+dcfO/VunMYVzfbnuriAvDBgtdLDnoqSSfgq707DHAa0slrw9iGMW6xwV+O0GsZQli/lH3hPuDKUO5VO3EhsMwQ49UU+7z2mgYn7SJSQyUgF63fLK9E5zHIDOc4zI+R7h+zrtB3sSK9mjckVhRcf2eOmKXCIQIHd9x80qP0TsUswIKU4JRtOLb3wpb6txcYiFhUMLQ39stvWwUxITJeRDztP69I="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228694,
+    "id": "FOlJatKGDP_O1e8P-_GSuQg",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 14,
+      "prompt_tokens": 133,
+      "total_tokens": 301
+    }
+  }
+}

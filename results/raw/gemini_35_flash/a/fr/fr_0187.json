@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0187",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.72,
+  "ref_text_raw": "Les plantes produisent leur nourriture à l'aide du soleil par photosynthèse. Elles fournissent également de l’ombre.",
+  "ref_text_normalized": "les plantes produisent leur nourriture à l'aide du soleil par photosynthèse elles fournissent également de l'ombre",
+  "timestamp_utc": "2026-07-05T05:18:05Z",
+  "text": "Les plantes produisent leur nourriture à l'aide du soleil par photosynthèse. Elles fournissent également de l'ombre.",
+  "latency_sec": 3.7829,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Les plantes produisent leur nourriture à l'aide du soleil par photosynthèse. Elles fournissent également de l'ombre.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EuQGCuEGARFNMg/UUoA34Qk8LdfmnUKhjpfqsYgXPEdSpymBhflgvAzzwqxkMjoc+qsInGiIZ7wOH5y94Wq+8cLbPdU+HYi6JCWegzRd8Z5Hkyk7TNcorI/H8vO5/Rp7D6Fl0PtC3k2iqMQ8YVII2zLfRrHOiwd6Rns8JXO4kyw8AebhV5A0gYteHXCwPlWDMI65xZv2HkewSlgdn++84hzzIji8UMl+WjYfSbTq/XVzwFQ2gCnZaQ0glCWi0GnNtWEh/ApnigQtd+DgldLV2vBQxpCBy2ufIQvjdDDsN2IDeyyoXmKrSc7w8EOluX4shjImjJf8Dxfk5/i3g0LxGA/U75Tzp3iLwB/JDBOAoVaErZpyI7mCpGLIc6QCsjYJyNyelmWubwWyn8V3vu+tmYB05tv/XI5zBJtH9BkApiAPuDdQWHpa5TNnyQ/84+I2WUdO3Z2OqbkBY4bhi0LPT3Xzu8OH2KIzlD9jan5kWd7K3FPQzsD/hY/9QLRTQKfLqBiMUe4B/UuKCdbS2TnUiI1SD4WEAr8JValEfeA6491G2L5tV2SN5UaSxnWFFw1DiL1UgToYELucFtC3JEoZ/Rxl5LiSldlOadkN+7CMrxCz1RmbozzIctIl+gJ/5wXdAmn3tvYrTfLA3gbqnvu/DEpJeNyWryrbAcv7p02C+LtPmPK6YihVQr6qnb50ciQpP0/y1mfJEvAEhRTYDOiYUsZMZdQUDKaIytOiHzUpixSODRwuDoNeDiyt0S5pKDy5VkuegOAVwMJX1QZYHiYO88DRFbEqHgj/NEs1KZkNEK7GouMSjHLd+ectn+gOyO1/G5mtQ3oVocTcYTUuD6sJSsTdR3YpEJG6nDZIV4XA6E3Q3y0g1cFhAzz9Zl3oaqsFaQOV94d7Bh9Fc2g8mqFGmW2IV6N1IqfHorq7LiNRaIoP6mAj9UFhJekXUoT1p9jGFIz/1yO/fa+d1KQHATGfB/D3n5l6D0Uaqm9ifFILFZ09E6nIDxq9SXJHGaXnpSnyHy4SMTfDz84PkTpkorzsMzgpv5BigvNQoDjGwjf6J+AsAzKEBjyhnPWiZCIp3TQJXEp8gT9hDvhz6Z+NhSTOPvXdMNX0p7Rzha403Pd5wruxLCogWlU73dLn4WD1v62XwfxHLA9GSA=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228685,
+    "id": "C-lJasqzAvia1e8P4ZHFoQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 265,
+      "total_tokens": 505
+    }
+  }
+}

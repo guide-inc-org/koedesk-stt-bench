@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0086",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.32,
+  "ref_text_raw": "ในเดือนเดียวกัน สายการบินอีกแห่งวิ่งเลยรันเวย์ในมัชฮัด และชนเข้ากับกำแพงจนทำให้มีผู้เสียชีวิต 17 คน",
+  "ref_text_normalized": "ในเดือนเดียวกัน สายการบินอีกแห่งวิ่งเลยรันเวย์ในมัชฮัด และชนเข้ากับกำแพงจนทำให้มีผู้เสียชีวิต 17 คน",
+  "timestamp_utc": "2026-07-05T08:06:02Z",
+  "text": "ในเดือนเดียวกัน สายการบินอีกแห่งวิ่งเลยรันเวย์ใน Mashhad และชนเข้ากับกำแพงจนทำให้มีผู้เสียชีวิต 17 คน",
+  "latency_sec": 2.8942,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ในเดือนเดียวกัน สายการบินอีกแห่งวิ่งเลยรันเวย์ใน Mashhad และชนเข้ากับกำแพงจนทำให้มีผู้เสียชีวิต 17 คน",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPyIfpzJPDfdqT7YYxontQkAjZX98EHZ0IApHcBQbGQXvth5Nl70hKF0qGf7Qf"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238762,
+    "id": "aRBKaqMt4LO-vQ_nup3oBw",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 279,
+      "total_tokens": 314
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0040",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.52,
+  "ref_text_raw": "Antara pukul 22.00 dan 23.00 Waktu Standar Pegunungan, para narapidana memulai kebakaran di halaman.",
+  "ref_text_normalized": "antara pukul 22.00 dan 23.00 waktu standar pegunungan para narapidana memulai kebakaran di halaman",
+  "timestamp_utc": "2026-07-05T05:47:21Z",
+  "text": "Antara pukul 22.00 dan 23.00 waktu standar pegunungan, para narapidana memulai kebakaran di halaman.",
+  "latency_sec": 3.786,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Antara pukul 22.00 dan 23.00 waktu standar pegunungan, para narapidana memulai kebakaran di halaman.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP7BZfS8oGqveVFtRm79qAN3SriKwLYqSxlEb1WeD6rDKGhucZZoPbyIMDuxWA"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230441,
+    "id": "5u9JaueqNfTIrfcPhcL-0AI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 234,
+      "total_tokens": 266
+    }
+  }
+}

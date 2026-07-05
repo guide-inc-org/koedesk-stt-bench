@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0182",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.94,
+  "ref_text_raw": "Plants make their food from the sun by photosynthesis. They also provide shade.",
+  "ref_text_normalized": "plants make their food from the sun by photosynthesis they also provide shade",
+  "timestamp_utc": "2026-07-05T03:38:32Z",
+  "text": "Plants make their food from the sun by photosynthesis. They also provide shade.",
+  "latency_sec": 3.3888,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Plants make their food from the sun by photosynthesis. They also provide shade.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EvwCCvkCARFNMg95io2uyHiZKJS/xHz7pft/9li25YGXBNEbYLwVb+FPrmLLbVpKIYnqphOqTm6PgLPXbIdZBr4gUgo88qdZ6A9gkAU69Bj1aN/XS7GBM2zfAGaGdGJtVDOrJpstfKRWESbUanMO62kqlZI2NHYuGRnY24uBvZ3iHJpiXQHpzs283dvHmpDSSHQCXU8J4RSlOoLEfMbj+9FMFbfYCe/wQDBNLs07tpKJC3iWCXWeWoQ1Ku1ZYHG9dK/yK6TaJPundCRMXTMjCz4nKZSUjZS4eFqZQ5+Rp/myeXSifsszIErcYoUfPNcLvf3c5ICwiCVf7FMeoor/UDxF1mpNC3c8HbMTGk0RrDwP8WK5kf+wFY19QVN07dNkGvrmlhdHmnbWyyhHUcfj+SWyWJWInG6AQK13SbY93hU/WTib3Uw5WWX/fVDLu7MDCPeDrXOHzZbEBagrKFqyiRlgL0SQCGcJXLKiH9gqo3S7+Q0E1LmgXIzWo+RMwAw="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222712,
+    "id": "ttFJarOlJrif0-kPzJPfgAc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 15,
+      "prompt_tokens": 220,
+      "total_tokens": 301
+    }
+  }
+}

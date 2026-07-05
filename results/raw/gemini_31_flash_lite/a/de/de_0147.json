@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0147",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.66,
+  "ref_text_raw": "Zwei Jahre nach Kriegsende waren die ehemaligen Alliierten nun Feinde und der Kalte Krieg begann.",
+  "ref_text_normalized": "zwei jahre nach kriegsende waren die ehemaligen alliierten nun feinde und der kalte krieg begann",
+  "timestamp_utc": "2026-07-05T04:08:50Z",
+  "text": "Zwei Jahre nach Kriegsende waren die ehemaligen Alliierten nun Feinde und der Kalte Krieg begann.",
+  "latency_sec": 2.8769,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Zwei Jahre nach Kriegsende waren die ehemaligen Alliierten nun Feinde und der Kalte Krieg begann.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPeFiyvup4YrxyjnRKpGhCFY5Uj5GlCaJovOpIwsZtPuaLhAaZAQttkLkPy643"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224530,
+    "id": "0NhJap2fONq20-kPqrmQ0QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 263,
+      "total_tokens": 285
+    }
+  }
+}

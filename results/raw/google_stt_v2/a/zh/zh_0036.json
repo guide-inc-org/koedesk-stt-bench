@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0036",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 16.86,
+  "ref_text_raw": "2002 年，戈马被尼拉贡戈火山的熔岩所摧毁。火山熔岩掩埋了该镇的大部分街道，尤其是镇中心。",
+  "ref_text_normalized": "2002 年 戈 马 被 尼 拉 贡 戈 火 山 的 熔 岩 所 摧 毁 火 山 熔 岩 掩 埋 了 该 镇 的 大 部 分 街 道 尤 其 是 镇 中 心",
+  "timestamp_utc": "2026-07-05T06:21:49Z",
+  "text": "2002年,戈马贝被尼拉贡戈火山的熔岩所摧毁。火山熔岩掩埋了该镇的大部分街道,尤其是镇中心。",
+  "latency_sec": 5.2641,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "17s",
+      "requestId": "73f62fda-0000-209a-bcd2-f4f5e80321c4",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "2002年,戈马贝被尼拉贡戈火山的熔岩所摧毁。火山熔岩掩埋了该镇的大部分街道,尤其是镇中心。"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0014",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.86,
+  "ref_text_raw": "Bệnh viện này đã làm theo quy trình kiểm soát lây nhiễm bao gồm cách ly bệnh nhân với các bệnh nhân khác để ngăn ngừa lây nhiễm có thể có cho những người khác.",
+  "ref_text_normalized": "bệnh viện này đã làm theo quy trình kiểm soát lây nhiễm bao gồm cách ly bệnh nhân với các bệnh nhân khác để ngăn ngừa lây nhiễm có thể có cho những người khác",
+  "timestamp_utc": "2026-07-05T08:38:32Z",
+  "text": "Bệnh viện này đã làm theo quy trình kiểm soát lây nhiễm bao gồm cách ly bệnh nhân với các bệnh nhân khác để ngăn ngừa lây nhiễm có thể có cho những người khác.",
+  "latency_sec": 2.6999,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Bệnh viện này đã làm theo quy trình kiểm soát lây nhiễm bao gồm cách ly bệnh nhân với các bệnh nhân khác để ngăn ngừa lây nhiễm có thể có cho những người khác.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPd204G84I15LPkLN8YX6VXNFAPK+WOM8PPuHtBQb8JANCGKWu966Q1g7I6Cy9"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240712,
+    "id": "BhhKaojiI43IrfcPmu3D-AU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 368,
+      "total_tokens": 407
+    }
+  }
+}

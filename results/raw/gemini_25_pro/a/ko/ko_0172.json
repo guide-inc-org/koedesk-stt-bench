@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0172",
+  "lang": "ko",
+  "engine": "gemini_25_pro",
+  "duration_sec": 14.04,
+  "ref_text_raw": "해당 서비스는 유락용 선박을 포함한 해상운송 및 원켝 데이터 및 음성 서비스가 필요한 곳에서 자주 사용됩니다.",
+  "ref_text_normalized": "해당 서비스는 유락용 선박을 포함한 해상운송 및 원켝 데이터 및 음성 서비스가 필요한 곳에서 자주 사용됩니다",
+  "timestamp_utc": "2026-07-05T06:15:40Z",
+  "text": "해당 서비스는 유람용 선박을 포함한 해상 운송 및 원격 데이터 및 음성 서비스가 필요한 곳에서 자주 사용됩니다.",
+  "latency_sec": 6.4751,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "해당 서비스는 유람용 선박을 포함한 해상 운송 및 원격 데이터 및 음성 서비스가 필요한 곳에서 자주 사용됩니다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232140,
+    "id": "iPZJat7FFY-D1e8P9I7h6AE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 471,
+      "total_tokens": 772
+    }
+  }
+}

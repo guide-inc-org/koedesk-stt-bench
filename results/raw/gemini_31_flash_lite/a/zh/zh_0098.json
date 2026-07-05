@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0098",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.02,
+  "ref_text_raw": "州长办公室表示，伤者中有十九人是警察。",
+  "ref_text_normalized": "州 长 办 公 室 表 示 伤 者 中 有 十 九 人 是 警 察",
+  "timestamp_utc": "2026-07-05T09:16:32Z",
+  "text": "周 掌 办 公 室 表 示 , 伤 者 中 有 19 人 是 警 察 。",
+  "latency_sec": 2.6339,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "周 掌 办 公 室 表 示 , 伤 者 中 有 19 人 是 警 察 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP61hWw7MU6uu/R5c4r9v6LAmBN+/J7e9xS1RSOZNjDNQyf+6TaXeyS7+4W/Qb"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242993,
+    "id": "7yBKas6RHPz-2roPj568yQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 197,
+      "total_tokens": 223
+    }
+  }
+}

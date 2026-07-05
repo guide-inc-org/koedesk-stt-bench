@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0069",
+  "lang": "ru",
+  "engine": "gemini_31_pro_preview",
+  "duration_sec": 14.76,
+  "ref_text_raw": "Четыре лыжницы в женской сидячей группе не смогли завершить свои заезды, и 45 из 117 лыжниц в гигантском слаломе не сумели занять места в гонке.",
+  "ref_text_normalized": "четыре лыжницы в женской сидячей группе не смогли завершить свои заезды и 45 из 117 лыжниц в гигантском слаломе не сумели занять места в гонке",
+  "timestamp_utc": "2026-07-05T07:07:39Z",
+  "text": "Четыре лыжницы в женской сидячей группе не смогли завершить свои заезды. И 45 из 117 лыжниц в гигантском слаломе не сумели занять места в гонке.",
+  "latency_sec": 9.7209,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-pro-preview",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Четыре лыжницы в женской сидячей группе не смогли завершить свои заезды. И 45 из 117 лыжниц в гигантском слаломе не сумели занять места в гонке.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235259,
+    "id": "swJKaqqgI5WJ1e8PhMDXiQU",
+    "model": "gemini-3.1-pro-preview",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 52,
+      "prompt_tokens": 390,
+      "total_tokens": 1311
+    }
+  }
+}

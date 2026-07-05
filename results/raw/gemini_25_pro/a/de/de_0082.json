@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0082",
+  "lang": "de",
+  "engine": "gemini_25_pro",
+  "duration_sec": 36.42,
+  "ref_text_raw": "\"Perry erklärte, er werde „nach Texas zurückkehren, um das Ergebnis der Vorwahl von heute Abend auszuwerten und zu entscheiden, ob es in diesem Rennen einen weiterführenden Weg für mich gibt\"\", aber sagte später, er werde im Rennen bleiben und bei den Vorwahlen in South Carolina am 21. Januar antreten.\"",
+  "ref_text_normalized": "perry erklärte er werde nach texas zurückkehren um das ergebnis der vorwahl von heute abend auszuwerten und zu entscheiden ob es in diesem rennen einen weiterführenden weg für mich gibt aber sagte später er werde im rennen bleiben und bei den vorwahlen in south carolina am 21. januar antreten",
+  "timestamp_utc": "2026-07-05T03:48:01Z",
+  "text": "Perry erklärte, er werde nach Texas zurückkehren, um das Ergebnis der Vorwahl von heute Abend auszuwerten und zu entscheiden, ob es in diesem Rennen einen weiterführenden Weg für mich gibt. Aber sagte später, er werde im Rennen bleiben und bei den Vorwahlen in South Carolina am 21. Januar antreten.",
+  "latency_sec": 8.1804,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Perry erklärte, er werde nach Texas zurückkehren, um das Ergebnis der Vorwahl von heute Abend auszuwerten und zu entscheiden, ob es in diesem Rennen einen weiterführenden Weg für mich gibt. Aber sagte später, er werde im Rennen bleiben und bei den Vorwahlen in South Carolina am 21. Januar antreten.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223281,
+    "id": "69NJav2hL-3j1e8P2Y3r2QE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 68,
+      "prompt_tokens": 1187,
+      "total_tokens": 1820
+    }
+  }
+}

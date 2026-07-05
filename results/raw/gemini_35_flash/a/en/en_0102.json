@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0102",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.36,
+  "ref_text_raw": "The correlation between brain pathology and behaviour supports scientists in their research.",
+  "ref_text_normalized": "the correlation between brain pathology and behaviour supports scientists in their research",
+  "timestamp_utc": "2026-07-05T03:32:18Z",
+  "text": "The correlation between brain pathology and behavior supports scientists in their research.",
+  "latency_sec": 3.5671,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The correlation between brain pathology and behavior supports scientists in their research.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtcDCtQDARFNMg+JSQxlJZOfG3NpkHhsjtor1O5lVQKvu2d34mF4M+uLuYKaEi3NgNGbdRbq3HNkurjzZgubB03hBmcBaAHZDFsMyo04K1YpmUp3EN4xuFUN6KYcfhHeFUxz2GzAcMvC/7ze5Hwcyi8wYxzNG8mMDY6ebHcO3LrBzwl4PYBT2UBXw2rq6GrZKeffJ27f0VXQoOHZRGwk2WavjsSOaNk/vtj4/4323e5pfBDgPkqV/9tlmrdBXGebsDZiKOwmt/wf1NeiND8Scgs/o2bfWh6mF96lWzOMbe6ijkP0g5sh8sHGfQSQM2sE0KgqaYfe50l6DTfwTZE7J0HteJAradpdl/9v0oFPTW8LLQsDJy4TDpUrV5eyxzKKIxj1gKscjyaIGg9YbBLRYBd1v1AYlgpMMhygqTAY7heHcG6a3FUZJdH1LmIvv3HVKiZ8TryGddAt35QeullokAr2t6yYPoVDHikLY6SzlpfhcDA5nY+ZOW9I+BPVoEkRxCOyIerfdiwacr8cMfszBnPr6qz4tL+GAwRLkJNZ49midcFOTCd327h/HhhFFArjWPgTRmnMNQMSAy05zaB5Lu764REpukC8OJbj/clcHPlxjdad+zuGFrht"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222338,
+    "id": "P9BJao_yL7ui9tMPvLHh-QE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 13,
+      "prompt_tokens": 180,
+      "total_tokens": 278
+    }
+  }
+}

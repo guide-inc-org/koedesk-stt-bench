@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0135",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 9.84,
+  "ref_text_raw": "这些理论研究为什么某些人想要做他们所做的事情，以及他们所处的环境中哪些事情会让他们做或不做某些事情。",
+  "ref_text_normalized": "这 些 理 论 研 究 为 什 么 某 些 人 想 要 做 他 们 所 做 的 事 情 以 及 他 们 所 处 的 环 境 中 哪 些 事 情 会 让 他 们 做 或 不 做 某 些 事 情",
+  "timestamp_utc": "2026-07-05T06:30:16Z",
+  "text": "这些理论研究为什么某些人想要做他们所做的事情以及他们所处的环境中哪些事情会让他们做或不做某些事情。",
+  "latency_sec": 3.985,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "10s",
+      "requestId": "7b61dda5-0000-2f31-a50b-f40304373cc8",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "这些理论研究为什么某些人想要做他们所做的事情以及他们所处的环境中哪些事情会让他们做或不做某些事情。"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

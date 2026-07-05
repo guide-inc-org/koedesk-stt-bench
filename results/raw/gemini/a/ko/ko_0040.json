@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0040",
+  "lang": "ko",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.78,
+  "ref_text_raw": "원단이 너무 뜨거워지지 않도록 주의하세요(원단이 수축하거나 그을릴 수 있습니다).",
+  "ref_text_normalized": "원단이 너무 뜨거워지지 않도록 주의하세요원단이 수축하거나 그을릴 수 있습니다",
+  "timestamp_utc": "2026-07-05T05:55:31Z",
+  "text": "원단이 너무 뜨거워지지 않도록 주의하세요. 원단이 수축하거나 그을릴 수 있습니다.",
+  "latency_sec": 3.3668,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "원단이 너무 뜨거워지지 않도록 주의하세요. 원단이 수축하거나 그을릴 수 있습니다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230931,
+    "id": "0fFJavLMCrycrfcP6t_NqQY",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 334,
+      "total_tokens": 450
+    }
+  }
+}

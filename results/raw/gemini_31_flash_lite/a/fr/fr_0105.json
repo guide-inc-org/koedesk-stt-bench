@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0105",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.68,
+  "ref_text_raw": "La Finlande est une destination de choix pour la navigation de plaisance. Le « Pays des mille lacs » compte aussi des milliers d’îles, dans les lacs et dans les archipels côtiers.",
+  "ref_text_normalized": "la finlande est une destination de choix pour la navigation de plaisance. le « pays des mille lacs » compte aussi des milliers d’îles dans les lacs et dans les archipels côtiers",
+  "timestamp_utc": "2026-07-05T05:16:02Z",
+  "text": "La Finlande est une destination de choix pour la navigation de plaisance. Le pays des mille lacs compte aussi des milliers d'îles dans les lacs et dans les archipels côtiers.",
+  "latency_sec": 2.8638,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "La Finlande est une destination de choix pour la navigation de plaisance. Le pays des mille lacs compte aussi des milliers d'îles dans les lacs et dans les archipels côtiers.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPTcoXtL+gCYEOB0Fw7k7T3bFufy3mxyvwaPHx6Pwm7IN/cdPXAPx3JdQ8tZbQ"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228562,
+    "id": "kehJauXfGZjCvr0PiamC4A8",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 288,
+      "total_tokens": 328
+    }
+  }
+}

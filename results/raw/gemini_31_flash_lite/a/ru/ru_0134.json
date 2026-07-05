@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0134",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.12,
+  "ref_text_raw": "У них лапы с чешуёй и когтями, они откладывают яйца и ходят на двух задних лапах как Ти-Рекс.",
+  "ref_text_normalized": "у них лапы с чешуёй и когтями они откладывают яйца и ходят на двух задних лапах как ти-рекс",
+  "timestamp_utc": "2026-07-05T07:35:14Z",
+  "text": "У них лапы с чешуёй и когтями, они откладывают яйца и ходят на двух задних лапах, как Ти-Рекс.",
+  "latency_sec": 2.9898,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "У них лапы с чешуёй и когтями, они откладывают яйца и ходят на двух задних лапах, как Ти-Рекс.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP6IpDJLNViKGIHMaY09wrGVuSZCXKuedO93JP+q3e9Y/NdcTLA1PaVbn5gSUV"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236914,
+    "id": "MAlKasvvONKivr0PmOv26QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 324,
+      "total_tokens": 362
+    }
+  }
+}

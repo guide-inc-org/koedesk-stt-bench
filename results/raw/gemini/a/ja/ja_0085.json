@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0085",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.2,
+  "ref_text_raw": "この現象によってほぼ24時間空が暗くなるので、オーロラを見るには良い機会となります。",
+  "ref_text_normalized": "この現象によってほぼ24時間空が暗くなるので オーロラを見るには良い機会となります",
+  "timestamp_utc": "2026-07-05T10:08:28Z",
+  "text": "この現象によってほぼ24時間空が暗くなるのでオーロラを見るにはいい機会となります。",
+  "latency_sec": 4.1788,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "この現象によってほぼ24時間空が暗くなるのでオーロラを見るにはいい機会となります。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246108,
+    "id": "GS1Kav3_NZi9vr0P4KaPwQI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 348,
+      "total_tokens": 575
+    }
+  }
+}

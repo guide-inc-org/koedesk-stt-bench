@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0151",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.4,
+  "ref_text_raw": "Avec le déclin de la connaissance du grec, l'Occident s'est retrouvé coupé de ses racines philosophiques et scientifiques grecques.",
+  "ref_text_normalized": "avec le déclin de la connaissance du grec l'occident s'est retrouvé coupé de ses racines philosophiques et scientifiques grecques",
+  "timestamp_utc": "2026-07-05T05:18:53Z",
+  "text": "Avec le déclin de la connaissance du grec, l'Occident s'est retrouvé coupé de ses racines philosophiques et scientifiques grecques.",
+  "latency_sec": 2.7868,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Avec le déclin de la connaissance du grec, l'Occident s'est retrouvé coupé de ses racines philosophiques et scientifiques grecques.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPadKQW5TCcngYE15CEwZoGBdckfFr1YYBpvY0YbcHGZvqxwBtCUuZmhRDmIyh"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228733,
+    "id": "O-lJasjcF-Sf1e8PgNPzwAE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 306,
+      "total_tokens": 337
+    }
+  }
+}

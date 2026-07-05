@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0175",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.84,
+  "ref_text_raw": "Deux ans après la fin de la guerre, les anciens alliés sont devenus des ennemis et la guerre froide a commencé.",
+  "ref_text_normalized": "deux ans après la fin de la guerre les anciens alliés sont devenus des ennemis et la guerre froide a commencé",
+  "timestamp_utc": "2026-07-05T05:16:59Z",
+  "text": "Deux ans après la fin de la guerre, les anciens alliés sont devenus des ennemis, et la guerre froide a commencé.",
+  "latency_sec": 3.5011,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Deux ans après la fin de la guerre, les anciens alliés sont devenus des ennemis, et la guerre froide a commencé.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqoGCqcGARFNMg82tybk3ZZnVirx+DMPjN4WCJH26uukq2OnA21PuKEceQIjoVobfoDtHnHJHF8PTIkCoJ4LryArae9HtYPCInm+NF8ABJIkQlW2O5bz5TFVf6wm0xKhXjqQs9H8WRK59SvpGYdWoW+o1gZKFyV8AZJD2dHxvSeXAqN3DiZ6VncOn17pGCtme/Q+rAnWJcqHpUlgl6yz7WrzO2LN69xavJIC81HXbgSei27dC2uE9SYLoOGj1csFjvh7D9DuhoSW+ooI+vPJd/tBfuiCPFZZiKSFWMYbRnbMNwajEcZjrsj5p779CSJ1DkWtUp1rwq+z3sJKPYf3V5gEf8+VZNqY9oAzsraOvxJsGSO6164db/Fft2ictgrUsovO1w/jD79M53oxGL6KXrxHLmPTBP3VQr0a4+Lu73dTLwxeJrnJf98lgC6UMAt2YQ28EwFqpI3vRwP3GUr9MmjpVxou7SRRsg1eb5MVUNIS87d3QCOLgGlAivBEBdkb9hzsp9QN9P8ZEla6L50GQP3iPL5kbDt/85XfBvXcOsJVq+85Z3i+g7WISnyW5x4ljc0KZxpmwNUSNYemAqajLqIPgU0PKzJEUYPNXiHSweCLet2CLnXtXzL17DZqdk6Wf5Ln4k28mj4zjgm4n3h+bD7nuRg6opQMAWSE2sCjThETNWkfEGyCnFuoUtJptry7pqjoZxGqpQRQkAkfdtzik8RnsLgLTv9WtWwIWtZ9V2IkxHFs7hWBcCrrMDvMhuIvK2Elz+s96p7qAtq946Lu5Yh+k9tpme4K9i/UnuPgowaUM8+woJngW/BwmPe+JLw2HrYeTSPfs8qVClb9kKmhSydevVob92nET6rBrVal/K1eu/wyeoasHHo2URqO5ZoGwP0hmlNztSgjhJDLokVYeXwThNlRnRBuvlmkrCBqze3YWeDsJ3NjbX9J4/8Lag+IiHfdZ8P1UcNEPcajEUEgvXRlCjPEz7QJs/uI84ML+oNoneOVRksxlm7o08ERCYPdHG3ALEfGKz1w7hraimc7jwH+VbCPd4ILpe+F442n5djOQVfnVYe+V2O4dED+"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228619,
+    "id": "yehJapacCLj22roP58zioAI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 267,
+      "total_tokens": 495
+    }
+  }
+}

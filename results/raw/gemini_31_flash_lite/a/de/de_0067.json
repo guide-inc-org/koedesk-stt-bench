@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0067",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.4,
+  "ref_text_raw": "Die Rudel bestehen aus ein bis drei verwandten erwachsenen Männchen sowie bis zu dreißig Weibchen und Jungen.",
+  "ref_text_normalized": "die rudel bestehen aus ein bis drei verwandten erwachsenen männchen sowie bis zu dreißig weibchen und jungen",
+  "timestamp_utc": "2026-07-05T04:03:51Z",
+  "text": "Die Rudel bestehen aus ein bis drei verwandten erwachsenen Männchen, sowie bis zu 30 Weibchen und Jungen.",
+  "latency_sec": 2.8779,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Die Rudel bestehen aus ein bis drei verwandten erwachsenen Männchen, sowie bis zu 30 Weibchen und Jungen.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPcMf4+O/OS1lrwYCaK3xEB7cCI6qSmw3rLXXx5/rIv4wXiXJT3o64mycVxKJ2"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224231,
+    "id": "pddJatmqNLvN2roPnu2ysAU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 306,
+      "total_tokens": 335
+    }
+  }
+}

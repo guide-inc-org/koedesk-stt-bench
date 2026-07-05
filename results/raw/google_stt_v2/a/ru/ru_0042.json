@@ -1,0 +1,36 @@
+{
+  "utt_id": "ru_0042",
+  "lang": "ru",
+  "engine": "google_stt_v2",
+  "duration_sec": 13.56,
+  "ref_text_raw": "25 листовок Данлэпа, известные на настоящее время, являются старейшими выжившими копиями документа. Оригинальная рукописная копия не дошла до нас.",
+  "ref_text_normalized": "25 листовок данлэпа известные на настоящее время являются старейшими выжившими копиями документа оригинальная рукописная копия не дошла до нас",
+  "timestamp_utc": "2026-07-05T05:30:25Z",
+  "text": "25 листовых Данлапа, известные на настоящее время, являются старейшими выжившими копиями документа. Оригинальная рукописная копия не дошла до нас.",
+  "latency_sec": 4.9408,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "ru-RU",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "14s",
+      "requestId": "719bbb29-0000-2882-b4e1-14c14eebeb0c",
+      "prompt": "Transcribe the following speech segment in Russian. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Russian."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "25 листовых Данлапа, известные на настоящее время, являются старейшими выжившими копиями документа. Оригинальная рукописная копия не дошла до нас."
+          }
+        ],
+        "languageCode": "ru-RU"
+      }
+    ]
+  }
+}

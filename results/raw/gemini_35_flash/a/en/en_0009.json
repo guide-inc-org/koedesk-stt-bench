@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0009",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.9,
+  "ref_text_raw": "As light pollution in their heyday was not the kind of problem it is today, they are usually located in cities or at campuses, easier to reach than those built in modern times.",
+  "ref_text_normalized": "as light pollution in their heyday was not the kind of problem it is today they are usually located in cities or at campuses easier to reach than those built in modern times",
+  "timestamp_utc": "2026-07-05T10:27:10Z",
+  "text": "As light pollution in their heyday was not the kind of problem it is today, they are usually located in cities or at campuses, easier to reach than those built in modern times.",
+  "latency_sec": 3.2115,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "As light pollution in their heyday was not the kind of problem it is today, they are usually located in cities or at campuses, easier to reach than those built in modern times.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EskECsYEARFNMg9MEPkdJqD6rN8uwx6A8xpLaNtxmaaRbJ6ns+JoeagtBPj5xXiT4W6zSeDS36F2JOHEQAx8c0hNT+9eMsGpJRzzs7gpqDA/3zHRGq0UmAat2iXhlxRKrey1PbllumSAF7XUs5NJnN3WcjNZ9OqtnCeoBxKJ0Yym1a3qrPWW0Yfw/j3fRkyLpvrQ3hqH7pFxsASA8XNZ5BwoY9vtyQ9pR5Vnez7zInIMBk5KSJVMd2lF3Sxn+hDPJ/wvkc4Nk4B5KqKzL/bEsKShvSbCZ8sD/zh/GAKyJ3HfcFRDBZEsSjQlwETtaLlh1OaxdyY+TQgMgxS6MqXm1rGpf3hmp/GoU+qpTOW3MOJaCCZan9s/Tq/SUcNOMJj9tazhSTtPtt7zVVHm3WgCG/mlHJOv1QJ4/HROvB9uFSoyzblDZCRNo9GP3Z1+jC11F1JFlHCx3gWGHHHD2rLgRUJPBP50n+PRKlVuI2lMWJnz8owOXxh/9NEDZMRwdQ8KNeZVTamTmiTzjroOMCdycrkfD4S1ntbRvUMk7XQ7+Ib7lpLm1ZPTcx9swT/9xUpTjMGwTpVKSwSTiVDU6+rskMZWcSJNbh+/PJfPXPsDl6tXqhNNmSq1CTSiq94a70lDXzbgGNqSn44ZYFv/k2Vzjy9cdyI6qR8e3xwREA2xHALi49vtHOsQD6WVW3JdyoSPDNhDSCzFMWb7dy55nYT9TDF73gzduQhKX6QBfayKQYDONK9FvJbnzSDVSWJRpob352MEiogRzvBK5yfT"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247231,
+    "id": "fDFKau31Oty-vr0P4tf2gQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 269,
+      "total_tokens": 414
+    }
+  }
+}

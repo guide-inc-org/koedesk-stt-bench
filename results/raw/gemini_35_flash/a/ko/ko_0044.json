@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0044",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 14.76,
+  "ref_text_raw": "FAA의 주장에 따르면 NextGen은 항공기가 더 짧은 노선을 비행해서 매년 수백만 갤런의 연료를 절약하고 탄소 배출을 줄일 수 있는 시스템입니다.",
+  "ref_text_normalized": "faa의 주장에 따르면 nextgen은 항공기가 더 짧은 노선을 비행해서 매년 수백만 갤런의 연료를 절약하고 탄소 배출을 줄일 수 있는 시스템입니다",
+  "timestamp_utc": "2026-07-05T06:13:08Z",
+  "text": "FAA의 주장에 따르면 넥스트젠의 항공기가 더 짧은 노선을 비행해서 매년 수백만 갤런의 연료를 절약하고 탄소 배출을 줄일 수 있는 시스템입니다.",
+  "latency_sec": 4.8834,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "FAA의 주장에 따르면 넥스트젠의 항공기가 더 짧은 노선을 비행해서 매년 수백만 갤런의 연료를 절약하고 탄소 배출을 줄일 수 있는 시스템입니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231988,
+    "id": "8PVJapWvLqG2vr0PqrfGqAE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 46,
+      "prompt_tokens": 390,
+      "total_tokens": 891
+    }
+  }
+}

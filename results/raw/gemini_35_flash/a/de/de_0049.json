@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0049",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 21.12,
+  "ref_text_raw": "\"Ihr thermisches Verhalten ist nicht so gleichmäßig wie das großer Höhlen auf der Erde, die oft eine ziemlich konstante Temperatur haben, aber es stimmt damit überein, dass es sich um tiefe Löcher im Boden handelt\"\", sagte Glen Cushing vom Astrogeologie-Team des United States Geological Survey (USGS) und der Northern Arizona University in Flagstaff, Arizona.\"",
+  "ref_text_normalized": "\"ihr thermisches verhalten ist nicht so gleichmäßig wie das großer höhlen auf der erde die oft eine ziemlich konstante temperatur haben aber es stimmt damit überein dass es sich um tiefe löcher im boden handelt\" sagte glen cushing vom astrogeologie-team des united states geological survey usgs und der northern arizona university in flagstaff arizona.",
+  "timestamp_utc": "2026-07-05T03:59:57Z",
+  "text": "Ihr thermisches Verhalten ist nicht so gleichmäßig wie das großer Höhlen auf der Erde, die oft eine ziemlich konstante Temperatur haben, aber es stimmt damit überein, dass es sich um tiefe Löcher im Boden handelt, sagt Glen Cushing vom Astrogeologieteam des United States Geological Survey, USGS, und der Northern Arizona University in Flagstaff, Arizona.",
+  "latency_sec": 5.2158,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Ihr thermisches Verhalten ist nicht so gleichmäßig wie das großer Höhlen auf der Erde, die oft eine ziemlich konstante Temperatur haben, aber es stimmt damit überein, dass es sich um tiefe Löcher im Boden handelt, sagt Glen Cushing vom Astrogeologieteam des United States Geological Survey, USGS, und der Northern Arizona University in Flagstaff, Arizona.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223997,
+    "id": "udZJap7qLv_IrfcPzNe_mAc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 75,
+      "prompt_tokens": 549,
+      "total_tokens": 995
+    }
+  }
+}

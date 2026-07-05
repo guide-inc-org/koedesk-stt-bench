@@ -1,0 +1,39 @@
+{
+  "utt_id": "pt_0066",
+  "lang": "pt",
+  "engine": "gemini_25_pro",
+  "duration_sec": 13.26,
+  "ref_text_raw": "Apia é a capital de Samoa. A cidade fica na ilha de Upolu e tem uma população de pouco menos de 40.000 habitantes.",
+  "ref_text_normalized": "apia é a capital de samoa a cidade fica na ilha de upolu e tem uma população de pouco menos de 40.000 habitantes",
+  "timestamp_utc": "2026-07-05T06:39:15Z",
+  "text": "Apia é a capital da Samoa. A cidade fica na ilha de Upolu e tem uma população de pouco mais de 40.000 habitantes.",
+  "latency_sec": 6.281,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Apia é a capital da Samoa. A cidade fica na ilha de Upolu e tem uma população de pouco mais de 40.000 habitantes.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783233555,
+    "id": "DvxJar4Okqa-vQ-hwor5Bg",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 446,
+      "total_tokens": 942
+    }
+  }
+}

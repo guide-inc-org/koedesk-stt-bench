@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0116",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.08,
+  "ref_text_raw": "Для \"Спрингбокс\" это прервало пятиматчевую серию поражений.",
+  "ref_text_normalized": "для спрингбокс это прервало пятиматчевую серию поражений",
+  "timestamp_utc": "2026-07-05T07:09:22Z",
+  "text": "Для Спрингбокс это прервало пятиматчевую серию поражений.",
+  "latency_sec": 5.0633,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Для Спрингбокс это прервало пятиматчевую серию поражений.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235363,
+    "id": "HwNKatqfFcmzvr0PmpW5mQI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 248,
+      "total_tokens": 469
+    }
+  }
+}

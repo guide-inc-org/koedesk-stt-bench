@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0110",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.0,
+  "ref_text_raw": "เมืองนี้ยังเป็นฐานที่ตั้งสำหรับการปีนภูเขาไฟ Nyiragongo พร้อมด้วยการเดินตามหากอริลลาภูเขาที่ถูกที่สุดในแอฟริกา",
+  "ref_text_normalized": "เมืองนี้ยังเป็นฐานที่ตั้งสำหรับการปีนภูเขาไฟ nyiragongo พร้อมด้วยการเดินตามหากอริลลาภูเขาที่ถูกที่สุดในแอฟริกา",
+  "timestamp_utc": "2026-07-05T08:07:36Z",
+  "text": "เมืองนี้ยังเป็นฐานที่สำคัญสำหรับการปีนภูเขาไฟ นิรากอนโก พร้อมด้วยการเดินทางตามหากอริลลาภูเขาที่ถูกที่สุดในแอฟริกา",
+  "latency_sec": 2.7314,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "เมืองนี้ยังเป็นฐานที่สำคัญสำหรับการปีนภูเขาไฟ นิรากอนโก พร้อมด้วยการเดินทางตามหากอริลลาภูเขาที่ถูกที่สุดในแอฟริกา",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPYpNWzMu/1uw6r5PRGCZ8dd7JZXuH4GnIseaV1fFeVr8mPs4xQM3SBYkZPUIa"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238856,
+    "id": "xhBKaua6E_GC0-kP1smn0AY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 246,
+      "total_tokens": 283
+    }
+  }
+}

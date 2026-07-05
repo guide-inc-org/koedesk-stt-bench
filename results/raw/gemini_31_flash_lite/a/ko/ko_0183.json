@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0183",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.66,
+  "ref_text_raw": "비록 대부분 이론에 의존하긴 해도 프로그램은 궁수자리 은하 관측을 시뮬레이션하도록 짜여 있습니다.",
+  "ref_text_normalized": "비록 대부분 이론에 의존하긴 해도 프로그램은 궁수자리 은하 관측을 시뮬레이션하도록 짜여 있습니다",
+  "timestamp_utc": "2026-07-05T06:30:05Z",
+  "text": "비록 대부분 이론에 의존하긴 해도 프로그램은 궁수자리 은하 관측을 시뮬레이션하도록 짜여 있습니다.",
+  "latency_sec": 3.7114,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "비록 대부분 이론에 의존하긴 해도 프로그램은 궁수자리 은하 관측을 시뮬레이션하도록 짜여 있습니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPYr3OeWS3HZmcdAyBLrWSoXaR3VscRkzB7mV2DSSkz15Hf1O3ZEbzfimXcU63"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783233005,
+    "id": "6vlJavTCMpCe1e8PjsLZ0AQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 338,
+      "total_tokens": 367
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0157",
+  "lang": "es",
+  "engine": "gemini_25_pro",
+  "duration_sec": 7.56,
+  "ref_text_raw": "Siguiendo la misma línea, se exige que los hombres usen pantalones que cubran las rodillas.",
+  "ref_text_normalized": "siguiendo la misma línea se exige que los hombres usen pantalones que cubran las rodillas",
+  "timestamp_utc": "2026-07-05T04:29:07Z",
+  "text": "Siguiendo la misma línea, se exige que los hombres usen pantalones que cubran las rodillas.",
+  "latency_sec": 3.9424,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Siguiendo la misma línea, se exige que los hombres usen pantalones que cubran las rodillas.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225747,
+    "id": "kd1Jap26Bb3dvr0Pv4K6sQE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 263,
+      "total_tokens": 285
+    }
+  }
+}

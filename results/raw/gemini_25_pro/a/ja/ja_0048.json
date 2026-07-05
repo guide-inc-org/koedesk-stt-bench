@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0048",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.86,
+  "ref_text_raw": "それでも、当局からのアドバイスを受け、すべての標識を守り、安全上の警告に細心の注意を払いましょう。",
+  "ref_text_normalized": "それでも 当局からのアドバイスを受け すべての標識を守り 安全上の警告に細心の注意を払いましょう",
+  "timestamp_utc": "2026-07-05T10:07:37Z",
+  "text": "それでも当局からのアドバイスを受け、すべての標識を守り、安全上の警告に細心の注意を払いましょう。",
+  "latency_sec": 7.0137,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "それでも当局からのアドバイスを受け、すべての標識を守り、安全上の警告に細心の注意を払いましょう。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246058,
+    "id": "5CxKatO6GIPMrfcPiKHRgAE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 369,
+      "total_tokens": 893
+    }
+  }
+}

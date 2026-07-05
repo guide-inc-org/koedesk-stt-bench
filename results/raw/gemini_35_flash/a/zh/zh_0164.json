@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0164",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.74,
+  "ref_text_raw": "例如，世界上最常见的静态图像摄影格式是 35mm 格式，这是胶片电影时代末期占主导地位的电影尺寸。",
+  "ref_text_normalized": "例 如 世 界 上 最 常 见 的 静 态 图 像 摄 影 格 式 是 35mm 格 式 这 是 胶 片 电 影 时 代 末 期 占 主 导 地 位 的 电 影 尺 寸",
+  "timestamp_utc": "2026-07-05T09:21:22Z",
+  "text": "例如，世界上最常见的静态图像摄影格式是35毫米格式。这是胶片电影时代末期占主导地位的电影尺寸。",
+  "latency_sec": 4.9266,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "例如，世界上最常见的静态图像摄影格式是35毫米格式。这是胶片电影时代末期占主导地位的电影尺寸。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243282,
+    "id": "DiJKaoqXJ5Si9tMP8vOl4AE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 290,
+      "total_tokens": 784
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "pt_0046",
+  "lang": "pt",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.52,
+  "ref_text_raw": "Para ter as melhores vistas de Hong Kong, saia da ilha e vá até a orla de Kowloon, do lado oposto.",
+  "ref_text_normalized": "para ter as melhores vistas de hong kong saia da ilha e vá até a orla de kowloon do lado oposto",
+  "timestamp_utc": "2026-07-05T06:56:39Z",
+  "text": "Para ter as melhores vistas de Hong Kong, saia da ilha e vá até a orla de Kowloon do lado oposto.",
+  "latency_sec": 2.4219,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Para ter as melhores vistas de Hong Kong, saia da ilha e vá até a orla de Kowloon do lado oposto.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPMfSQSJp/AbfJuD5Vcfq3JoBKij6wz5ksJsSqIUUPuj2ubk2Es9X7H9uVoe1x"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234599,
+    "id": "JgBKapefJdy4vr0Pgo3U0Q8",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 309,
+      "total_tokens": 336
+    }
+  }
+}

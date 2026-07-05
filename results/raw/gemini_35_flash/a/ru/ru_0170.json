@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0170",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.56,
+  "ref_text_raw": "Сам автомобиль убрали с места происшествия в тот же день примерно в 12:00 по Гринвичу.",
+  "ref_text_normalized": "сам автомобиль убрали с места происшествия в тот же день примерно в 12:00 по гринвичу",
+  "timestamp_utc": "2026-07-05T07:31:34Z",
+  "text": "Сам автомобиль убрали с места происшествия в тот же день примерно в 12 часов по Гринвичу.",
+  "latency_sec": 3.6801,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Сам автомобиль убрали с места происшествия в тот же день примерно в 12 часов по Гринвичу.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqUGCqIGARFNMg8ShN+WSgHKqle5TVEUfBhsXuYcQGLkH5UNqTffthv52EOhNo3KVxwrlg3ony5vri53RFRiRHVlUDavUW17VAON+aYa5k4SXDEf4ISQ80LDeNzxcNKJ+i3tgH1hJccArNvphPZnMVhXWWViPl0yFE71KvdGmnktYNudGmYSKVRmrdl4k9UITldVaKjdMb0svD5kZNJKMM43fCNo4YEpd7fO6l/cJXDw39ks50kfg4TwNxwcLuYpXCGZgkaB1D9/p3hH4pPlcPGIcREJlZXs+/h+vBdpgaf5syjIdpNTd58XIVh6c20jJw0aP0yoRBK+O4pqS95uSyhvcEjRWxQdKVjX7minM6IkyKcdTwdNtrKjrPYUzJvp3ZUt7IJcjm4oFmvMZhz6cANgjPEUu9rVO/skzLwx203N9I90WIk+p3s7KzDkEvqKUnu05rxXnYgk5NPwcjJkgMgTAZ1VK5XZvBayI7Crz6G2Bca8769zP8roCcKjDFVbd4F18sML4UVuNNGAl0Ifxod2vrRc836zfVCDhW8Cy/kt3t+09Q1/fGAB0i2ClTbQFDvMJhIaG9Zi7kNaMtKvZ/VbUcKsbGURGxYo5uX9x9jKK0YbSg6j1l72TRCetLSPNANvp13jqYn9xlJ3fzxV/EwBc5Cy/t1OxeAagv/lZWJl9B3NYVv7oAG9WgRjuMF5S/z+1bEK44LV+TiGNkR/wKRXn2c9Ro4ERe3QQW5aQ7do+vFfVnR21nWvM2HJ7w0dDxcuD7wwRFaq03rD2Cd1iUWElk/5fKaYyeAtgJxHfUvXnKEbMaicS3rqto+wIrwLkVU5e7/fCSCRw8MvjcKPCtSQCvf7JJuAb7mvK8gwaD6m5eiCGiUmXTms2iHEZFh0aOlV0B5Qk0kr2OZp1GWx/9qQVQv7UgAtnIYItjkBYo7dwE9E+lhIWOT5cqwLZ3MT8fP57Fldk5e6jVNCSMGhCAXGe5+r4e+ZvOgyu9zOWBAchhRkPLzgYJA6gHT2bjm4Y1HeJUe73Y+BiuMLFK5i6EBYRuO0DPO7vcpQgaBtQ6yFh7fu3+ovVA=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236694,
+    "id": "VAhKar2fDpnV1e8Pw6zfgAQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 210,
+      "total_tokens": 422
+    }
+  }
+}

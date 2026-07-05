@@ -1,0 +1,45 @@
+{
+  "utt_id": "es_0059",
+  "lang": "es",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 14.76,
+  "ref_text_raw": "El satélite fue enviado al espacio a través de un cohete. Los científicos utilizan telescopios en el espacio, dado que la luz de la atmósfera de la Terra distorsiona parte de la luz y vista que tenemos.",
+  "ref_text_normalized": "el satélite fue enviado al espacio a través de un cohete los científicos utilizan telescopios en el espacio dado que la luz de la atmósfera de la terra distorsiona parte de la luz y vista que tenemos",
+  "timestamp_utc": "2026-07-05T04:33:41Z",
+  "text": "El satélite fue enviado al espacio a través de un cohete. Los científicos utilizan telescopios en el espacio dado que la luz de la atmósfera de la Tierra distorsiona parte de la luz y vista que tenemos.",
+  "latency_sec": 4.5503,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "El satélite fue enviado al espacio a través de un cohete. Los científicos utilizan telescopios en el espacio dado que la luz de la atmósfera de la Tierra distorsiona parte de la luz y vista que tenemos.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Ep0KCpoKARFNMg9w0lNI1CwR+cpWVedreQuu7q6zB3OTFXG5ba2ViS++dgvCvOSDjQITrUbd+mZxjZwpnK6z9xaFei5tQb8Xsor3t4tbU62J8P0M0XDl1mald84om/rwymG6Fzuq5D2A0dh2GNY33Z50Og5MW7/gGFa0nvJTC6QmXQMortbOCnsJiYJPR9xBpPJ31hV8XCUqDSoE6Yv0ILqpR6+0f5tE8+m4f1rXPu0DLut5E6//8ywa+C5rpQUjfI0HcJbrCCNojiC9cP8Hmt1U+2AzFQm2/m7iiaRIFCjlB9z4HqhNdsoMGPmptVIy2ICsF8dLtMykvSaL6Dndu8sRmLxk6HSfXmmUl50Wg5L925OhfsTJUgzhhudx6APsUKvQ8G4UzBcvDmqfeiqiT+cVF183reBv55w7M/OvvAY9o2Gc75lEBnvTR1+rDJwfdFR0qTIgbOKuOVmqBQrz459P0TByhklOE12O6AvmcKh7wg7/DIAgtl4GGGe+yhP2gM8WkAidyn+eeFiTv+aPsFygWGLiQh/GA2qVRtBhh4hqf2/7IsIFF5PF78AkzpWWAsFtR7rovT0JbjJwf47o2euNIJvHDBJAiPQzfbyixmztoYd7OdKNacryY2Ts88hZmoV3PBYZ7C437x5siMnz/cjM7KC8S5POTXRTq5Y9lGDTvuDX00K+8jwU73djizbP9Z6NOuKeohQNYAyaX2SY7cJOHX61VITri6V77APJFCCl0By3bgmOlIVNWhDTKw0k+iKFjHwvjHXsg1X6atAeKYHvgx52U2n6rFUE6khhrSonK/LvrzBaZMt+TANoojGTHb1EiMtevQkLzFlHNI/DhEh1bjgEamR5LMvzeMK1sEbGflZVpi5lX7PCdo8Nklx9z0ace/BEYQW+rn6ElNnvhTzmiDrYaPBUGzsn6Cgu7eJwsGfudMdjCRgIbx2/CyqGNAN+w7+l8BVFCDK+iMJidKkmYtH7rHcg0YzhfCNlF5QAVCuyutOZwZXArBAurAhjgSRWsaXIhRcRQyjd2Zy4TIISC3zhT49Nrw6VpyqCORFgSiPSf+36vwEBeqDN563OSIlSiN34feDCXH7cUnnkMZSRhzeeonWi8cLBs/XYbAaWqnfyiwucEk5abv34l0YyEnXAZqOa69a1ljAEYSEIHmh0ACgVTlY4AVDVxwoC77BmV5PNULmtCT/XKYSflNN4Fs9VDTZgG7+haxFd/+FU7IyOdnQXp1tCuzQ4MXKH5eawcJqwiVEQWrOYpKPzJcTz+rEZrJeLTuDwob+jj80E3Xr4o1Jsg/78UtCk+fiqK3+QpmJYjv89E3xCkBCqG/w+Wz3sOfjIv4pxNcKg6ggID+xiwzuQMP9C/XLeZ6aRguGM91Lr6cR3KHfJ2PDSbd1cSuRXYGwXyXG+5FBMrIPR2Hy0NRADQwjgMXlMOttM0UnjUNMlqERzqTusKvMyjjNDUlma1HKvmkTF1tTFIQ+3/127sc0eTyH4ShYEG+4FGHz1+/BVLj+H/1Q92mnKLYQBvoYVrjdogvwYa8XHjV8gFQSoQNwXwf0BTWN9NSA0ZmtTg8GVx09MKQV0nCBCQMUKhMW8YYezcKPGWlaaPaoKO6ZgUCiVEBy98gQXvlRcvAi/aLeVMjr+ZxWjRzhfWGkK42ZYW9HsqKo4oOS6kgFrOskap57WBcXUO6mJXWKt2PjYQTtEuiSU4Khbc9Torc/lQRM1DcJozqgsCqUNmKFFpQ=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226021,
+    "id": "ot5JatzxJ8Ts1e8Pu-GUwQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 390,
+      "total_tokens": 740
+    }
+  }
+}

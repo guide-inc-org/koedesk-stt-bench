@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0116",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 12.96,
+  "ref_text_raw": "Les Sundarbans ont été déclarés site du patrimoine mondial de l'UNESCO. La partie de la forêt située sur le territoire indien est appelée parc national des Sundarbans.",
+  "ref_text_normalized": "les sundarbans ont été déclarés site du patrimoine mondial de l'unesco la partie de la forêt située sur le territoire indien est appelée parc national des sundarbans",
+  "timestamp_utc": "2026-07-05T04:59:27Z",
+  "text": "Les Sundarbans ont été déclarés site du patrimoine mondial de l'UNESCO. La partie de la forêt située sur le territoire indien est appelée Parc national des Sundarbans.",
+  "latency_sec": 4.9794,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Les Sundarbans ont été déclarés site du patrimoine mondial de l'UNESCO. La partie de la forêt située sur le territoire indien est appelée Parc national des Sundarbans.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227567,
+    "id": "q-RJavziDvu8vr0P1bam0AY",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 436,
+      "total_tokens": 664
+    }
+  }
+}

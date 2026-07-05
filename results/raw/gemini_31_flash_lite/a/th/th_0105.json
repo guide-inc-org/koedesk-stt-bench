@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0105",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 5.64,
+  "ref_text_raw": "ระวังอย่าให้ผ้าร้อนเกินไป (ซึ่งอาจทำให้เกิดการหดตัวหรือไหม้เกรียมในกรณีที่รุนแรง)",
+  "ref_text_normalized": "ระวังอย่าให้ผ้าร้อนเกินไป ซึ่งอาจทำให้เกิดการหดตัวหรือไหม้เกรียมในกรณีที่รุนแรง",
+  "timestamp_utc": "2026-07-05T08:07:18Z",
+  "text": "ระวังอย่าให้ผ้าล่อนเกินไป ซึ่งอาจทำให้เกิดการหดตัวหรือไหม้เกรียมในกรณีที่รุนแรง",
+  "latency_sec": 5.8055,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ระวังอย่าให้ผ้าล่อนเกินไป ซึ่งอาจทำให้เกิดการหดตัวหรือไหม้เกรียมในกรณีที่รุนแรง",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPP/Hm76+d/+ASRbrmjJbAZ1JW8EExojZaPYc7D5JTkEMxNUPHlTaQCuVxjBbY"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238838,
+    "id": "shBKapeACvyk0-kP9PODwAc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 162,
+      "total_tokens": 190
+    }
+  }
+}

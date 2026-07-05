@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0030",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 15.18,
+  "ref_text_raw": "女子シッティンググループでは4人のスキーヤーが滑走を終えられず、ジャイアントスラロームでは全117人中45人がランクインできなかった。",
+  "ref_text_normalized": "女子シッティンググループでは4人のスキーヤーが滑走を終えられず ジャイアントスラロームでは全117人中45人がランクインできなかった",
+  "timestamp_utc": "2026-07-05T10:04:01Z",
+  "text": "女子 シッティング グループ で は 4 人 の スキーヤー が 活走 を 終え られる ず ジャイアント スラローム で は 全 117 人 中 45 人 が ランク イン でき なかっ た 。",
+  "latency_sec": 3.4199,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "女子 シッティング グループ で は 4 人 の スキーヤー が 活走 を 終え られる ず ジャイアント スラローム で は 全 117 人 中 45 人 が ランク イン でき なかっ た 。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783245841,
+    "id": "DixKarm5OsmD0-kPmZ7guAM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 53,
+      "prompt_tokens": 507,
+      "total_tokens": 580
+    }
+  }
+}

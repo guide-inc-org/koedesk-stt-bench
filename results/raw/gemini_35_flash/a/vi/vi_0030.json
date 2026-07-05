@@ -1,0 +1,45 @@
+{
+  "utt_id": "vi_0030",
+  "lang": "vi",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.76,
+  "ref_text_raw": "Du khách được khuyến cáo nên đề phòng mọi rủi ro thời tiết khắc nghiệt ảnh hưởng đến khu vực của họ vì thời tiết khắc nghiệt có thể ảnh hưởng đến bất kỳ kế hoạch du lịch nào.",
+  "ref_text_normalized": "du khách được khuyến cáo nên đề phòng mọi rủi ro thời tiết khắc nghiệt ảnh hưởng đến khu vực của họ vì thời tiết khắc nghiệt có thể ảnh hưởng đến bất kỳ kế hoạch du lịch nào",
+  "timestamp_utc": "2026-07-05T08:30:58Z",
+  "text": "Du khách được khuyến cáo nên đề phòng mọi rủi ro thời tiết khắc nghiệt ảnh hưởng đến khu vực của họ vì thời tiết khắc nghiệt có thể ảnh hưởng đến bất kỳ kế hoạch du lịch nào.",
+  "latency_sec": 3.8966,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Du khách được khuyến cáo nên đề phòng mọi rủi ro thời tiết khắc nghiệt ảnh hưởng đến khu vực của họ vì thời tiết khắc nghiệt có thể ảnh hưởng đến bất kỳ kế hoạch du lịch nào.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtEKCs4KARFNMg9kbqdmnpbPVoWe46/qLSxQbldvV8jFNISyanUQbcyHXwKLuKSv/IuxjzLxw8Y+Y+KNqMSYXSxSaFjoWY4+otWhxhBTBrjJm3uEpe8ZtOp0qdTnwiknKAxBGETeX3BiY6kloVdEWhzCOWZ70pOuMs5StKa5ZzuI2jPjjc1KTL/WO9gpXh2h00TiIl7wPA+G2RMHrwWH+IN4CBlFnaOZ/yG0lvcfH8p0QYZWkG8vMH1YRyPyoK1N1fSETW4i7qn3AcIMDsh2bh4mcfmrCFe2iZ6GmDPjzNcGsd56LluhC5RJ7KiLPysWo7aQ+UFWwjr9z4Vk69NN0pqKUJAxr/QWwLNTTyLZOoNVrRaPxqnFDinumQk2wo8TajfNio/bGBiIXx6sbEpMQdM6NQ6bQq/sjmWLuru1VAgLuLiF3XLESyM9pmwUHKzMKe4mxTuBG5lOxSjBDsTf4hi0x8K+MkMRSopYoXpL7/F6EEO0CvcY7oLSp1G3xvEFQS5Hl27S+WUawsJ43Lkh4UgOee72J/ohIh6yOzRyoGuQ/9P/84FA6HbFAfl0FJp7rc4UZIHjYTgwoa4d5YYhSVqp5dxwCseHXLd0OIMHzdl+M4HXFruio8kbhnhHdNjc6t38zw0JTtiM4Qe//BtXFtjetlMwjteC291urIiSvcL9um30EFabpmPvnFlKaqotV+m/3URCkqLVieNX6C7SPARGv84QsbLlmjmuR5NVJ4t3WBaGo0Sr812HuxAfZ249Ax5CaZvpt0gUpelE9bUXSAfAceDPMeIf0gXnqnjwPxeDZy7OBkQU/TmgTBXok5TWug3oH509FDl9igNNdl6gzgf2EPwurhShuD/zoh1+zqPSazOLr+1KrkVISHsdwFFfIbcWRDjBd7UCobTx6gKGKfNxc6BDmqRu/UK/5hPNY+h7OLf7RAXIBYm5yKG5arc9TmsGjsXihv/SfIOXPELSX8fxK8rL090ABgmkDgQjAZzJ2BA4v/pgSgy2SN026KVMAIbmP+r2AiHmUGNlbCwzA7TKQ3eVRBS6fq9UBsRYf8SaAIPDZrqjVhf19kgey7WirgZzZe74H61u09AVTqRzaOWmryENJo+6ZF72B18815Kp00RRUuax/T9s2hN4aSAsR6GJhT1b1BVzm8r9IKmKd9iFLprwH/L4z7kqH4Sb2zHVfRRmmbvyS4xn5EKa3Gf9GV7Y9+vwpfWw2nsgskxe8C8qJEdAq14c8SM9dCpDfse1YKeMwRy68zKAwBFQ1p8tovtsicKjnhSYSLCJNT+EZDoHpWPYMxWbRUzQV81XtuPzRbfWp/n+Dcq0DQlFVMXA5wdeRtWZ+W7a2P5Py1Jia/Zz3O6P9FYnDDueBrVFHCjxQHKjGeQQ7cdKlJkNykEMulSGN0/5G08NH3C2Tf/0XH4UbOwbQSdg8id6KZGe8wamS41PtBE5xEXnArxACkrevjXrPtKReWxGjAoq5cy3vO4mW/GcTIJbKSx6mnWNVjbNxIpQQZs3Hbu3s4natWHhdFXyCcXo8ZqJHFh3STGj5uMcrcyd7mxTdQFhphIaEjlXWSpwB8pqHJJqMVJ8P89RWWHNGYyLysnQoQOBTiHZmVnAA3fyGZGflUrlo21tYGZl/VrvrNmPCu1SWVOSJcW4Fs6N5pOw5N4vpIwdZSXwzYEdG474Ha9PfyNUHi2S17dCDIOpyAr/cZV2bGJtcr6g6CgCAyyBihGw0v71pdZvMm2ldX+X34qzhRCZZ2vVjaP//pBup37VnnqCYymaTZDWK701mcDh4YV22Piv0a6Kjw04PJk="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240258,
+    "id": "PxZKavTeIMDH2roPzfDW-AM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 315,
+      "total_tokens": 696
+    }
+  }
+}

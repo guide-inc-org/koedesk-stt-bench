@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0187",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 11.22,
+  "ref_text_raw": "その病院に勤務しながら、リギンズは余暇を利用して早産についての研究を始めました。",
+  "ref_text_normalized": "その病院に勤務しながら リギンズは余暇を利用して早産についての研究を始めました",
+  "timestamp_utc": "2026-07-05T03:15:49Z",
+  "text": "{\"text\":\"その病院に勤務しながら、ディギンズは余暇を利用して、早産についての研究を始めました。\"}\nその病院に勤務しながら、ディギンズは余暇を利用して、早産についての研究を始めました。",
+  "latency_sec": 5.7345,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"text\":\"その病院に勤務しながら、ディギンズは余暇を利用して、早産についての研究を始めました。\"}\nその病院に勤務しながら、ディギンズは余暇を利用して、早産についての研究を始めました。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221349,
+    "id": "YcxJarLnB8fG0-kPuZO6wQU",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 51,
+      "prompt_tokens": 381,
+      "total_tokens": 685
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0001",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 8.28,
+  "ref_text_raw": "钙、钾等元素属于金属，银和金等元素当然也是金属。",
+  "ref_text_normalized": "钙 钾 等 元 素 属 于 金 属 银 和 金 等 元 素 当 然 也 是 金 属",
+  "timestamp_utc": "2026-07-05T06:18:57Z",
+  "text": "钙、镓等元素属于金属,银和金等元素当然也是金属。",
+  "latency_sec": 3.3903,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "9s",
+      "requestId": "6f1c844f-0000-2fb3-9bbe-883d24f59fbc",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "钙、镓等元素属于金属,银和金等元素当然也是金属。"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

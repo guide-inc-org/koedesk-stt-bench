@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0141",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.36,
+  "ref_text_raw": "L'Europe est un continent relativement petit, mais comportant de nombreux pays indépendants. Dans des circonstances classiques, voyager à travers plusieurs pays implique donc de devoir procéder à plusieurs demandes de visa et de subir plusieurs vérifications de passeport.",
+  "ref_text_normalized": "l'europe est un continent relativement petit mais comportant de nombreux pays indépendants dans des circonstances classiques voyager à travers plusieurs pays implique donc de devoir procéder à plusieurs demandes de visa et de subir plusieurs vérifications de passeport",
+  "timestamp_utc": "2026-07-05T05:18:13Z",
+  "text": "L'Europe est un continent relativement petit, mais comportant de nombreux pays indépendants. Dans des circonstances classiques, voyager à travers plusieurs pays implique dans le donc de devoir procéder à plusieurs demandes de visa et de subir plusieurs vérifications de passeport.",
+  "latency_sec": 2.7236,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "L'Europe est un continent relativement petit, mais comportant de nombreux pays indépendants. Dans des circonstances classiques, voyager à travers plusieurs pays implique dans le donc de devoir procéder à plusieurs demandes de visa et de subir plusieurs vérifications de passeport.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP6LoZqX1GVtMXnJ8ipCaHAXSH2X9p6AzV8XEXGJlWeyoFs4FYLsXlC2UOannj"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228693,
+    "id": "FOlJapKTB8fJ0-kPwvvLoAE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 50,
+      "prompt_tokens": 405,
+      "total_tokens": 455
+    }
+  }
+}

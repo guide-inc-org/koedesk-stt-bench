@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0041",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.44,
+  "ref_text_raw": "เสือโคร่งเป็นนักกีฬาที่เจนจัด มีความสามารถในการปีนป่าย (ทว่าไม่เก่งนัก) ว่ายน้ำ กระโดดไกล และฉุดดึงด้วยแรงห้าเท่าของมนุษย์ที่แข็งแกร่ง",
+  "ref_text_normalized": "เสือโคร่งเป็นนักกีฬาที่เจนจัด มีความสามารถในการปีนป่าย ทว่าไม่เก่งนัก ว่ายน้ำ กระโดดไกล และฉุดดึงด้วยแรงห้าเท่าของมนุษย์ที่แข็งแกร่ง",
+  "timestamp_utc": "2026-07-05T07:55:01Z",
+  "text": "เสือโคร่งเป็นสัตว์นักกีฬาที่เจนจัด มีความสามารถในการปีนป่ายทว่าไม่เก่งนัก ว่ายน้ำ กระโดดไกล และฉุดดึงด้วยแรง 5 เท่าของมนุษย์ที่แข็งแกร่ง",
+  "latency_sec": 4.3702,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "เสือโคร่งเป็นสัตว์นักกีฬาที่เจนจัด มีความสามารถในการปีนป่ายทว่าไม่เก่งนัก ว่ายน้ำ กระโดดไกล และฉุดดึงด้วยแรง 5 เท่าของมนุษย์ที่แข็งแกร่ง",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238101,
+    "id": "0g1KavroBfTLrfcPi72awAU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 53,
+      "prompt_tokens": 207,
+      "total_tokens": 663
+    }
+  }
+}

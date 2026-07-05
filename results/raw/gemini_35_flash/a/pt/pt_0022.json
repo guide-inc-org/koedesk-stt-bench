@@ -1,0 +1,45 @@
+{
+  "utt_id": "pt_0022",
+  "lang": "pt",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.96,
+  "ref_text_raw": "Isso soa sensato, porque o planeta Terra não parece que está se mexendo, parece?",
+  "ref_text_normalized": "isso soa sensato porque o planeta terra não parece que está se mexendo parece",
+  "timestamp_utc": "2026-07-05T06:44:40Z",
+  "text": "Isso soa sensato porque o planeta terra não parece que está se mexendo, parece?",
+  "latency_sec": 3.663,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Isso soa sensato porque o planeta terra não parece que está se mexendo, parece?",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EvEECu4EARFNMg/GVYiGEJuxbXFCMiEsGf8kk6Jbl6+7cGPVu31FK9/vyEyjb1uUgNJYVI4wjSJMpTGKon4Vey+nSwcuFGD6lT52CZLWc1u5QlSj+eYsks86Fi/cemK+BY+WLSNKVIsdp5dnD7xNx+xknfWJRyTQOT6p9+yArIbKUGirAbXIzWQhWsFJ02PsNYArT3jaA1KfaTpP2G+M9OkpyowJMNo6LEjRk48Cs31TbJT2mYChuFqQTCjGbnYOnbOopJXhusOEiTtBWUdoKxhdCto07QjhQl0Fart63aIsJwXhp9Y4zNh/nxlcP5ABMmjwA2rL49D5PGqFkYqeHF2Jby2a9ISpT02vY0kygsgaXx5L/gQ8Khl8V0b4iuRbinrdsTmter/uIBRFAV+MgTGoWf+8pgtVPC+1GvNQTsQBkTWkW1DWf5tvK+sjln75CX4Eh30vpn7cJ2Zegx6+U2GKDULceEijE/YvXN9/cdTOSnTaEUn5N5HcOqgcvi6pUlqqyg/NB2ztFCJ5lNIzRUQ9V2yA32cFx2y6szZj4loCYDmsmAi4tVmzjVfAb2z0A5XfVth6z7bmoTvqnVUwQ/lFFq/RO9tI8D0fQkRbxqzADf7JfnOz4j3Rdu0anCIdEEiC94NTYm4mjeYqetPC48yc1ZlIr0MdGWcZ7qS2hoaRT/X05yerm/+CrciCH7Xg21pPTfaigl9S/m2IpWwt4ZtaWunSz44NakA7PIIWx9NMnAy9fVfILjvGhmkIiqoyA8Qnj4vElVx99Xv7ER+Mf8cAFY5dUMicVy33AKqd+N1/4WeDS1pADaw+2r7Vm1EHjXwNBQ=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783233880,
+    "id": "Vv1JaqKLKNDF1e8P2K7MiQU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 345,
+      "total_tokens": 509
+    }
+  }
+}

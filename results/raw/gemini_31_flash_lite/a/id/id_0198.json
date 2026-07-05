@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0198",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.3,
+  "ref_text_raw": "Ingat bahwa walaupun musik di panggung utama sudah berakhir, ada bagian festival yang akan terus memutar musik sampai larut malam.",
+  "ref_text_normalized": "ingat bahwa walaupun musik di panggung utama sudah berakhir ada bagian festival yang akan terus memutar musik sampai larut malam",
+  "timestamp_utc": "2026-07-05T05:57:17Z",
+  "text": "Ingat bahwa walaupun musik di panggung utama sudah berakhir, ada bagian festival yang akan terus memutar musik sampai larut malam.",
+  "latency_sec": 4.9851,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Ingat bahwa walaupun musik di panggung utama sudah berakhir, ada bagian festival yang akan terus memutar musik sampai larut malam.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP+L8InpOyMXEK7Rj5hu+5EODww6E7Lir4hTHNcWYI05b7FpGCV7JCMYVjdXr6"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231037,
+    "id": "OfJJas_sJLbR0-kPp6yr6QI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 254,
+      "total_tokens": 280
+    }
+  }
+}

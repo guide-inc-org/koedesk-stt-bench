@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0025",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.36,
+  "ref_text_raw": "La tempête subtropicale Jerry, 10ème tempête de la saison des ouragans à porter un nom, est apparue ce jour dans l'océan Atlantique.",
+  "ref_text_normalized": "la tempête subtropicale jerry 10e tempête de la saison des ouragans à porter un nom est apparue ce jour dans l'océan atlantique",
+  "timestamp_utc": "2026-07-05T05:03:16Z",
+  "text": "La tempête subtropicale Jerry, dixième tempête de la saison des ouragans à porter un nom, est apparue ce jour dans l'océan Atlantique.",
+  "latency_sec": 3.9401,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "La tempête subtropicale Jerry, dixième tempête de la saison des ouragans à porter un nom, est apparue ce jour dans l'océan Atlantique.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EuAFCt0FARFNMg+mWiVvdVzi8lCAer4T+DnFGXQ0qyHgd8yTH3uCo+tSMjOtig6fuNMntpRVXAi8KfRQhQ9u07t6cvjYunKPhq8o6Jf+XZF0EOP01JX5aYiMNVqXYBvzmXJFpetkg+n5JxdqYUQcSQO+Cf2foec3ai3dEbJIoufdyzlk1Z4oW2/okj7wiM3Kjb8jtXU9kojEK6DdzlIMzZhMXgsaokUgJhVqfprz/RKbogCmK6vHl+x78cTkFV9J0iD42uTtPjjFLaiTE7NLQM8SfXPfZqYT64ZIyHI9Lottw+a1JX0bQZkSvfX7QFn8ofWkTEp1eSV9+5eMMsqJdk2u3HJeVFobsglgE5mnKxsZll0tppeAw0z7TAp9KxYCyIfNSYbwhKoVHTnmmKBlU21WmwsnKMxvIG/+qn5zDSJjOKkmTzc0RA/hoNjb8doGHIXSRzJLlewBQAR5EgGkcIPZJFUKfhmUGb2DI3iSJNmI/6aIVZ5RsraBhByumHPTfkgJammO68KEJZhohEjCxeccf5VMrs0hfkTw1rntgCoGRmBbGRbl8rTjr5MPaxfwlGkfW8dQi6btO7L0Fo3EzebB1/eW6wBVYJ3Blok1JM1rxwVNrukOVJwC5gRrhlly874dGwDcf6lM2m1vf3TWUylOhi1+92YsnIstTIvrEkooFoRMH095YKWLMvyuUX45AAhHroWEQIrRjUrUut09F52iB4v24gAjTwZAPvqZ9vmPln4uktvoksNOxLjwoEk8n8z1jppECafO03v6hjagcqpdzXYtsEMd5pRg6HmGGg68K0x/v0irA3r+1Nd7S3YLoUd4PStWVJdpuwCvqh0kKA5FfxuEKuPYee7qhHX5WBfbhVUp9XvoDwRPqz/6xHK6AXrTkXNJ04v9rRDmLUE/P4iuKNJohYcODR9IIaBqjzuvDOAmKgf2pn4w5DI0TcD3OZNwsPb4eTdS75yO192Fr++aqA=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227796,
+    "id": "keVJaruuLqTMrfcPve3HuAM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 330,
+      "total_tokens": 552
+    }
+  }
+}

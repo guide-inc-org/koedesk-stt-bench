@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0191",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.94,
+  "ref_text_raw": "La agencia de manejo de emergencias de las Marianas del Norte indicó que no hubo registro de daños en el territorio nacional.",
+  "ref_text_normalized": "la agencia de manejo de emergencias de las marianas del norte indicó que no hubo registro de daños en el territorio nacional",
+  "timestamp_utc": "2026-07-05T04:45:12Z",
+  "text": "La Agencia de Manejo de Emergencias de las Marianas del Norte indicó que no hubo registro de daños en el territorio nacional.",
+  "latency_sec": 2.5211,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "La Agencia de Manejo de Emergencias de las Marianas del Norte indicó que no hubo registro de daños en el territorio nacional.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPTaMqpAx86xGoMdUo8zkw7CULuMMctYqKXB5hzLYzPGv/xXkbRVHf1Tvk085R"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226712,
+    "id": "V-FJatOaB9bk1e8P_MzduQE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 245,
+      "total_tokens": 271
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "id_0118",
+  "lang": "id",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.76,
+  "ref_text_raw": "Seperti semua Taman Nasional Afrika Selatan, taman ini memberlakukan biaya masuk dan konservasi harian.",
+  "ref_text_normalized": "seperti semua taman nasional afrika selatan taman ini memberlakukan biaya masuk dan konservasi harian",
+  "timestamp_utc": "2026-07-05T05:28:23Z",
+  "text": "Seperti semua taman nasional Afrika Selatan, taman ini memberlakukan biaya masuk dan konservasi harian.",
+  "latency_sec": 3.17,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Seperti semua taman nasional Afrika Selatan, taman ini memberlakukan biaya masuk dan konservasi harian.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783229303,
+    "id": "detJat2GFo3y2roP6emiwQM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 302,
+      "total_tokens": 322
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0115",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 15.72,
+  "ref_text_raw": "ダンディー大学のパメラ・ファーガソン教授は、「容疑者の写真などを公開する報道記者は危い橋を渡っている」と指摘しています。",
+  "ref_text_normalized": "ダンディー大学のパメラ ファーガソン教授は 容疑者の写真などを公開する報道記者は危い橋を渡っている と指摘しています",
+  "timestamp_utc": "2026-07-05T03:16:41Z",
+  "text": "ダンディー大学のパメラ・ファーガソン教授は、容疑者の写真などを公開する報道記者は、危ない橋を渡っていると指摘しています。",
+  "latency_sec": 4.8269,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ダンディー大学のパメラ・ファーガソン教授は、容疑者の写真などを公開する報道記者は、危ない橋を渡っていると指摘しています。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221401,
+    "id": "lcxJauHWIp2C0-kPjp3EsQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 414,
+      "total_tokens": 926
+    }
+  }
+}

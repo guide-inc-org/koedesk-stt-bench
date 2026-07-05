@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0137",
+  "lang": "zh",
+  "engine": "gemini_25_pro",
+  "duration_sec": 13.26,
+  "ref_text_raw": "Pa amb Oli 是一种在夏天尤为流行的简单晚餐：面包搭配橄榄油、番茄，手头上任何佐料都可加入，比如奶酪、金枪鱼等。",
+  "ref_text_normalized": "pa amb oli 是 一 种 在 夏 天 尤 为 流 行 的 简 单 晚 餐 面 包 搭 配 橄 榄 油 番 茄 手 头 上 任 何 佐 料 都 可 加 入 比 如 奶 酪 金 枪 鱼 等",
+  "timestamp_utc": "2026-07-05T09:03:26Z",
+  "text": "Pa amb oli是一种在夏天尤为流行的简单晚餐,面包搭配橄榄油、番茄,手上任何佐料都可加入,比如奶酪、金枪鱼等。",
+  "latency_sec": 18.1808,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Pa amb oli是一种在夏天尤为流行的简单晚餐,面包搭配橄榄油、番茄,手上任何佐料都可加入,比如奶酪、金枪鱼等。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242206,
+    "id": "zR1KapeELvTF1e8P96Xb2QI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 446,
+      "total_tokens": 2415
+    }
+  }
+}

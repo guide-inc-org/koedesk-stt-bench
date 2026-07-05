@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0123",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 4.32,
+  "ref_text_raw": "De grandes zones plus au nord sont assez peu peuplées et certaines sont presque inhabitées à l'état sauvage.",
+  "ref_text_normalized": "de grandes zones plus au nord sont assez peu peuplées et certaines sont presque inhabitées à l'état sauvage",
+  "timestamp_utc": "2026-07-05T05:12:24Z",
+  "text": "De grandes zones plus au nord sont assez peu peuplées, certaines sont presque inhabitées à l'état sauvage.",
+  "latency_sec": 5.7033,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "De grandes zones plus au nord sont assez peu peuplées, certaines sont presque inhabitées à l'état sauvage.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228344,
+    "id": "s-dJavK7H9Tf1e8PvLbrwQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 129,
+      "total_tokens": 755
+    }
+  }
+}

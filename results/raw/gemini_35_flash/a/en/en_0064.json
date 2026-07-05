@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0064",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 5.04,
+  "ref_text_raw": "Television reports show white smoke coming from the plant.",
+  "ref_text_normalized": "television reports show white smoke coming from the plant",
+  "timestamp_utc": "2026-07-05T10:31:32Z",
+  "text": "Television reports show white smoke coming from the plant.",
+  "latency_sec": 3.8269,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Television reports show white smoke coming from the plant.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EuIECt8EARFNMg+QeWIMZFhd4L1GPf35xEoS3ULiJeZL0/QU8f3NSGvIrnOUK1OriUhc9uR9nOLWLIiwhZD3aoAtDWecOYWnwVGZYgjkJLNCHB5q42IF5Z1X5qyJpFA5UNdZOp3leOF24yY9Hi/2CcexUBKfIcO+orKm+9+exbvWwxgq6UaFYkR/q0JNP6bbTbX3XsSb/Y6XbA9Si9gN+7MNgy6ep4ZB9iB/42XSjNmPjEKmBECIIfQMo7/oeniGd94iAYz1AfWj75t84LCa36AlzzskKWd2offhwzQsd/sOrO5lhUO/HvhIrGE9P557ozIJpNnaHqeKldMBCbdAChaAiilX5FIu/u878WWQVGxShNlZGQNis21/GFqjLm98+L0Vlffmx8KC03xo6Ws6cMywH5t8BVWxa52B9wkG6wkBdGoMf1ZZWeyt+kz62pEKVw/FUmhCZ+SSrM+KanNfiU0qNeQvIb8Xr72SC/lvrhLcGDGGN1yxM6Aq/XAG4Rvd7eQQysxNFwFcQynslYVBsPfdl0XdsLB4zaTV5VzkoJqzByRGf28kysXQ1M5/MYzUCPi4zlYT+Oh0uAgwyxqSQWRUuSH91Q6d/k34vX7RWlSRu4Vchq2KnxYK9Q30/Fw0axFzccLp3MbZfyv45JtAXVVDgBQU2rrt0r/q+aFVwBkLCZSUR3ezm3ITjZ3HT45Zo6WHd69Tr6QP/WUXF5Uuf8mtU0MsnpFtV48dudFXNhOmrvvf1LAHhaO92LvetGAeanXBNtFZvWk6TpcBVCtu8XvZdHzCDeRUpx68el58Ut9iSRuRQg=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247492,
+    "id": "gTJKaonMN9q20-kPqrmQ0QM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 10,
+      "prompt_tokens": 147,
+      "total_tokens": 274
+    }
+  }
+}

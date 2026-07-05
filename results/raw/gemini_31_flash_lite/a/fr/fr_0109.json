@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0109",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.8,
+  "ref_text_raw": "Mélangez les deux poudres sèches ensemble, puis, avec les mains propres et humides, pressez-les en une boule.",
+  "ref_text_normalized": "mélangez les deux poudres sèches ensemble puis avec les mains propres et humides pressez-les en une boule",
+  "timestamp_utc": "2026-07-05T05:16:16Z",
+  "text": "Mélangez les deux poudres sèches ensemble, puis, avec les mains propres et humides, pressez-les en boule.",
+  "latency_sec": 2.5845,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Mélangez les deux poudres sèches ensemble, puis, avec les mains propres et humides, pressez-les en boule.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPusHRMroVQKVEQLhHbnQXjt2tNL9YSup2O5HacK2EhmPyHIkEDtF9YzU6yXVW"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228576,
+    "id": "n-hJas3SErycrfcP6t_NqQY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 216,
+      "total_tokens": 245
+    }
+  }
+}

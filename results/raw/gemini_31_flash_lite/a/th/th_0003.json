@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0003",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.02,
+  "ref_text_raw": "เฉพาะการกลายพันธุ์ในเซลล์ถ่ายทอดสารพันธุกรรมเท่านั้น ที่จะสามารถถ่ายทอดไปยังบุตรหลานได้ ในขณะที่การกลายพันธุ์ที่อื่นอาจทำให้เซลล์ตายหรือกลายเป็นเซลล์มะเร็ง",
+  "ref_text_normalized": "เฉพาะการกลายพันธุ์ในเซลล์ถ่ายทอดสารพันธุกรรมเท่านั้น ที่จะสามารถถ่ายทอดไปยังบุตรหลานได้ ในขณะที่การกลายพันธุ์ที่อื่นอาจทำให้เซลล์ตายหรือกลายเป็นเซลล์มะเร็ง",
+  "timestamp_utc": "2026-07-05T08:00:52Z",
+  "text": "เฉพาะการกลายพันธุ์ในเซลล์สืบพันธุ์เท่านั้นที่จะสามารถถ่ายทอดไปยังบุตรหลานได้ ในขณะที่การกลายพันธุ์ที่อื่นอาจทำให้เกิดเซลล์ตายหรือกลายเป็นเซลล์มะเร็ง",
+  "latency_sec": 2.9203,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "เฉพาะการกลายพันธุ์ในเซลล์สืบพันธุ์เท่านั้นที่จะสามารถถ่ายทอดไปยังบุตรหลานได้ ในขณะที่การกลายพันธุ์ที่อื่นอาจทำให้เกิดเซลล์ตายหรือกลายเป็นเซลล์มะเร็ง",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPl+55SGQe43GC1Z1h+Iia1jSWkglkXF1DcnU3eTJk2tGeGNs3c0CsDPFPZqFU"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238452,
+    "id": "Mw9KavnvD5j41e8PhNP08AM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 272,
+      "total_tokens": 319
+    }
+  }
+}

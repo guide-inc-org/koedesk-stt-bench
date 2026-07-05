@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0102",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.04,
+  "ref_text_raw": "이제 사람들은 컴퓨터 화면에 메시지를 쓰고 연필깎기를 가까이할 필요가 전혀 없습니다.",
+  "ref_text_normalized": "이제 사람들은 컴퓨터 화면에 메시지를 쓰고 연필깎기를 가까이할 필요가 전혀 없습니다",
+  "timestamp_utc": "2026-07-05T06:18:37Z",
+  "text": "이제 사람들은 컴퓨터 화면에 메시지를 쓰고 연필깎이를 가까이할 필요가 전혀 없습니다.",
+  "latency_sec": 4.1678,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "이제 사람들은 컴퓨터 화면에 메시지를 쓰고 연필깎이를 가까이할 필요가 전혀 없습니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Er0HCroHARFNMg+TRxJVFsJ4x8kElnULong+xlC6DJ04/1HTNl9O3Gk7otTZe6kVlDsQExR0f5/5XTn9pEcwh32URExhzIEd8ERUsP7hiZlrWXkWVXkNHcWN8nNx6TGLcf6GYPHpBFWctPeErfN4xSOjOIEsGzX74pcDFnikqR08XWqd1Bybi1md951qWBY/MaLD4xHSG2JJ2sYKg0Z7NDWLAEOcFyP9hTiGBIpJqvG3g0y7+8NcZVDrk8wgkkd5amssjvwQxf9QBcHC9xNPyK2FVLcpXYkFf0dUZHKElh5nKeFLcbaqBja9G9MLDDDv+AvXsDJUTafvsJUMVuL2jc4QQftpe8Mru4K0DR5S+3BFBsvjEXlECdsYUuycDo7AGaMo0WeIhPcrRvMQ+/PvD/jlBdQO3+ld4FPPjB7q3OKgHxITFhhE/THwr01mmMhLMV7gxwiXCAK3Y4gM2G8SIJNhBlZsOkklqCVAF/sYDScm6A+QTQ2TagAuvjiNx0W92mzm7tsgy7m80QWKAyPanlANH447IQiU6jYQUml5RDPtj+FQk5JDbNHMugwdxMw5wq+lQ3IFtRR+LMXbFh1duY9mBMbGg86OQa16qWHlEvMnYZ3Qua27gAeCM9AsKEpu4a8Ytmh6bYsaM+8jAO/JbyvOSIpae/cTSUGduDUKMlmVzjJmxAD0sCyjdHK9JR0Cck9NgWTRG/XbULmTRQVbgt7aEhaHiS6vLgvzsj2r32ajg2DAXbSHQfnlY4fR/g7LhHOrLqHb4s5N1m+HLDxgmGaGiFSZ6L5WTb3ULo7FdlFX1p5mPIc989W9sGO3WDIUbLuP+cWA3QmvB2uC7Ah0jYCsSN3NACzEuj7Lit3xOE69AaB60e+HqzehrcNe5ujHnAPrt8hnC/gb94MDZm4RttWaZXmQk58COcSXsNK9Dsvmm+G1Vp3b23cAL26ERyveTxGMx4yfD7uP0xWgQFTS4QrbG/8ufP3MFfFsAtK1iX2eKXSxlxvh8ZLqzgGu5RbJ8IXmD5OP/W+gDR5Izky54rxpLRKamLnZYfxHHfjzMW6bsZ4Ctsina1UKpfB5uoKCxaccPtkiENU/B1bDjQNqyE1uO/Nks1e2BSTKDBKRmxVI5ikM2w2fYULElG6ZrW1GTl3ca8gUX1qAcExhjfRNR7VrPPU4JdZqjzBs/a/1CVg7N0lnpDSxOZG/sclz+GY6o8wwiiQl3alDGd6PDaVkPVmJLNk4piKpUDlOvS181rETf1fpHVVm1LzoFjQV2XGW"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232317,
+    "id": "OvdJapq0F6bG0-kPpaDayQU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 297,
+      "total_tokens": 535
+    }
+  }
+}

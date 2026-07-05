@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0157",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 10.26,
+  "ref_text_raw": "较小的岛屿大多是独立国家，或所属于法国，它们以豪华海滩度假胜地而闻名。",
+  "ref_text_normalized": "较 小 的 岛 屿 大 多 是 独 立 国 家 或 所 属 于 法 国 它 们 以 豪 华 海 滩 度 假 胜 地 而 闻 名",
+  "timestamp_utc": "2026-07-05T06:32:13Z",
+  "text": "较小的岛屿大多是独立国家且所属于法国,他们以豪华海滩度假胜地而闻名。",
+  "latency_sec": 4.4566,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "11s",
+      "requestId": "6f34febc-0000-2100-a3a1-582429b4ed38",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "较小的岛屿大多是独立国家且所属于法国,他们以豪华海滩度假胜地而闻名。"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

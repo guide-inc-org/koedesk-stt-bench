@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0073",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 12.9,
+  "ref_text_raw": "シンガポールを訪れた彼は、ウォン・カン・セン副首相から出迎えを受け、リー・シェン・ルーン首相と会談で貿易やテロ問題について話し合いました。",
+  "ref_text_normalized": "シンガポールを訪れた彼は ウォン カン セン副首相から出迎えを受け リー シェン ルーン首相と会談で貿易やテロ問題について話し合いました",
+  "timestamp_utc": "2026-07-05T10:10:18Z",
+  "text": "シンガポールを訪れた彼は、ウォン・カンセン副首相から出迎えを受け、リー・シェンロン首相と会談で貿易やテロ問題について話し合いました。",
+  "latency_sec": 6.6781,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "シンガポールを訪れた彼は、ウォン・カンセン副首相から出迎えを受け、リー・シェンロン首相と会談で貿易やテロ問題について話し合いました。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246218,
+    "id": "hC1KasWcNZnV1e8Pw6zfgAQ",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 434,
+      "total_tokens": 788
+    }
+  }
+}

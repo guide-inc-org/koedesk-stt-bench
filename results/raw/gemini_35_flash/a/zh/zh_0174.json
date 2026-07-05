@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0174",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.36,
+  "ref_text_raw": "它的舌头有可能是分叉的，对此我们尚不确定。它的食物包括海龟、大型鱼类、其他沧龙，甚至会吃人。",
+  "ref_text_normalized": "它 的 舌 头 有 可 能 是 分 叉 的 对 此 我 们 尚 不 确 定 它 的 食 物 包 括 海 龟 大 型 鱼 类 其 他 沧 龙 甚 至 会 吃 人",
+  "timestamp_utc": "2026-07-05T09:22:21Z",
+  "text": "它的舌头有可能是分叉的，对此我们尚不确定，它的食物包括海龟、大型鱼类、其它沧龙，甚至会吃人。",
+  "latency_sec": 6.6651,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "它的舌头有可能是分叉的，对此我们尚不确定，它的食物包括海龟、大型鱼类、其它沧龙，甚至会吃人。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243341,
+    "id": "SCJKarvhGa2l0-kP_9TT2QM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 255,
+      "total_tokens": 1128
+    }
+  }
+}

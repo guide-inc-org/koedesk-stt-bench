@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0171",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.48,
+  "ref_text_raw": "The term bug is used by entomologists in a formal sense for this group of insects.",
+  "ref_text_normalized": "the term bug is used by entomologists in a formal sense for this group of insects",
+  "timestamp_utc": "2026-07-05T03:37:42Z",
+  "text": "The term bug is used by entomologists in a formal sense for this group of insects.",
+  "latency_sec": 3.1374,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The term bug is used by entomologists in a formal sense for this group of insects.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtgDCtUDARFNMg/ps1w5qvapPT7I8cr1gsTXawvYgOl9sLnMOauLQg4k7KlYbK/wndwMMLynLNiZc1lURGDmqzM8cRiDdV0O6wGc8Vf90WfW2pq/CZrPOMt5ZDx6bkHtUkoicbY+DHhqJ01tpFJdTTBt5ZhZnPP7fEtfYpi5CWd6y0kOCeXtqKk5krSXcHw8el8LiLr/uOlbozd1gmHNtePtx1x+hPuaKJP9k7LnPBCDRpERCByr4RM2joQaVUQj628BjGzUY5GHDK/Yc82eJ6px2ARj2ey9DeywEr9riiOGQLwm01b/CRndgzzmYaCQv3fmi4GNYoMPimjf0y8JPz4qrMkODRN0bdiV6r3ULhmmhGKiq0JYJO5FKagDVGmZNix47MeVbcJdwgw5vWtnndHbxHZP+hyx3MszT5PVg4jObUj1A/ZZLqNRscFqQK+CxeBC1KA8gcasjwZz0RhbfsO+hrTkNjU+dxwijlrAoR4jnNuncybRNASeiNErEc+LcTMiyQVOEgXVo0zgKJf1IApE5xrqZjYpR/Y/PtAXLMNDYP51hMAknFbu2LRIQmF4tMMZFsthrDEZJqrHBkrATGD4MmSTtSAGgQLa560IpUYlTS6j2voJyz8V1Q=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222662,
+    "id": "hNFJasTqOtbk1e8P_MzduQE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 183,
+      "total_tokens": 305
+    }
+  }
+}

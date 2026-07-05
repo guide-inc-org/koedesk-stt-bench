@@ -1,0 +1,36 @@
+{
+  "utt_id": "en_0192",
+  "lang": "en",
+  "engine": "google_stt_v2",
+  "duration_sec": 18.9,
+  "ref_text_raw": "Five minutes into the display a wind starts rolling in, about a minute later, the wind is reaching 70km/h... then the rain comes, but so hard and so large that it slaps your skin like a needle, then hail fell from the sky, people panicking and screaming and running over each other.",
+  "ref_text_normalized": "five minutes into the display a wind starts rolling in about a minute later the wind is reaching 70km/h... then the rain comes but so hard and so large that it slaps your skin like a needle then hail fell from the sky people panicking and screaming and running over each other",
+  "timestamp_utc": "2026-07-05T03:39:12Z",
+  "text": "Five minutes into the display, a wind starts rolling in. About a minute later, the wind is reaching 70 km/h. Then the rain comes, but so hard and so large that it slaps your skin like a needle. Then hail fell from the sky, people panicking and screaming and running over each other.",
+  "latency_sec": 6.3455,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "en-US",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "19s",
+      "requestId": "6c9889b3-0000-2b55-9986-fc4116929071",
+      "prompt": "Transcribe the following speech segment in English. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, English."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Five minutes into the display, a wind starts rolling in. About a minute later, the wind is reaching 70 km/h. Then the rain comes, but so hard and so large that it slaps your skin like a needle. Then hail fell from the sky, people panicking and screaming and running over each other."
+          }
+        ],
+        "languageCode": "en-US"
+      }
+    ]
+  }
+}

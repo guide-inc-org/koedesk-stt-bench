@@ -1,0 +1,45 @@
+{
+  "utt_id": "es_0101",
+  "lang": "es",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.62,
+  "ref_text_raw": "Los mismos estándares de excelencia que manejan los equipos convencionales aplican para los virtuales, aunque existen pequeñas diferencias.",
+  "ref_text_normalized": "los mismos estándares de excelencia que manejan los equipos convencionales aplican para los virtuales aunque existen pequeñas diferencias",
+  "timestamp_utc": "2026-07-05T04:37:08Z",
+  "text": "Los mismos estándares de excelencia que manejan los equipos convencionales aplican para los virtuales, aunque existen pequeñas diferencias.",
+  "latency_sec": 3.3656,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Los mismos estándares de excelencia que manejan los equipos convencionales aplican para los virtuales, aunque existen pequeñas diferencias.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EoAECv0DARFNMg+NKqO2P5dsCQdKgPrqHRIvMrbADugM2ul6UwwCtmbE+EI4+k/J6uqoVbs+gqlLr2WH0X8cNuweu0kDF88B1PTLyp06cX5O6W60xQxyQGSLYkB0SL1kGnnb8AZEa9xEjnDcWTbO+UInRaabVVdIAFlTGIovzbtny5XzMsopAET15Ff4NZkg+RQ0+QEgkPvDo4Ab6x80sMIQH0a9HfnbETaOYNwEN+HSVE7EIMg5N/Q+UYro+P19Mdu2jj1SMovOdIPNzakEf34LR0SLHJ6sDvHEQWe+qM3iMdDlCIKrKsfmOtKsz2KzqBvqXGLCxkO5rEcpq++nZCixKg3/rvoBgfI4Eo5zqGbhyh3wXujBJ5eMM9dGrjDXQU70w6o7K4Io+63SFt38y0abPcf4ePhn3zCcv5kArSFtSbmBTzG41u6o11Eqd9YzniCMLNxhvwRXUJE+RJCJ4jalAYWjnPc2UhGVHDpO2fS5fu6qpJX5Hk9oV0rLpdWA6w6j/Mvl4MiiMZq3kQkVstWGzgl5UqXcyDbrNDc1NuALOPb0RCDgNrEzosfnu1jd7AVA+IaRVJUIeKBE2Od6k25l2NkJNQcVKerq17AcNeToJRp8r854PxMlTF88mh10W3cyXIH/6IyKyE6agZHAwi8sw+k1cMpaLLityBmWleR392g="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226228,
+    "id": "ct9Jaq6GH9TM1e8Pof6vuQc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 287,
+      "total_tokens": 396
+    }
+  }
+}

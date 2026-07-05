@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0097",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.0,
+  "ref_text_raw": "ตัวประกันหกรายซึ่งรวมทั้งเด็กและผู้สูงอายุได้รับการปล่อยตัวก่อน รวมทั้งช่างภาพชาวฟิลิปปินส์ด้วย",
+  "ref_text_normalized": "ตัวประกันหกรายซึ่งรวมทั้งเด็กและผู้สูงอายุได้รับการปล่อยตัวก่อน รวมทั้งช่างภาพชาวฟิลิปปินส์ด้วย",
+  "timestamp_utc": "2026-07-05T08:06:43Z",
+  "text": "ตัวประกัน 6 ราย ซึ่งรวมทั้งเด็กและผู้สูงอายุได้รับ การปล่อยตัวก่อน รวมทั้งช่างภาพชาวฟิลิปปินส์ด้วย",
+  "latency_sec": 3.0468,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ตัวประกัน 6 ราย ซึ่งรวมทั้งเด็กและผู้สูงอายุได้รับ การปล่อยตัวก่อน รวมทั้งช่างภาพชาวฟิลิปปินส์ด้วย",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP49yNT9/hsRBTEi/b6aawJCi1pw7Ulz/HK5J4KaEgnYnHEQPjqJwUs1D1sbZH"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238803,
+    "id": "kRBKasjdOayv1e8P3_jVaA",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 246,
+      "total_tokens": 278
+    }
+  }
+}

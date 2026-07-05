@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0118",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 4.56,
+  "ref_text_raw": "This is called a chemical's pH. You can make an indicator using red cabbage juice.",
+  "ref_text_normalized": "this is called a chemical's ph you can make an indicator using red cabbage juice",
+  "timestamp_utc": "2026-07-05T03:25:23Z",
+  "text": "This is called a chemical's pH. You can make an indicator using red cabbage juice.",
+  "latency_sec": 4.0671,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "This is called a chemical's pH. You can make an indicator using red cabbage juice.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221923,
+    "id": "oM5Javz2LsmD0-kPmZ7guAM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 167,
+      "total_tokens": 233
+    }
+  }
+}

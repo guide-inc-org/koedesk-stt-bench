@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0087",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 16.32,
+  "ref_text_raw": "Xe buýt xuất phát từ trạm xe buýt liên huyện (dọc con sông) chạy cả ngày, dù chủ yếu, đặc biệt là các xe đến phía Đông và Jakar/Bumthang sẽ xuất phát từ lúc 06:30 đến 07:30.",
+  "ref_text_normalized": "xe buýt xuất phát từ trạm xe buýt liên huyện dọc con sông chạy cả ngày dù chủ yếu đặc biệt là các xe đến phía đông và jakar/bumthang sẽ xuất phát từ lúc 06:30 đến 07:30",
+  "timestamp_utc": "2026-07-05T08:42:53Z",
+  "text": "Xe buýt xuất phát từ trạm xe buýt liên huyện dọc con sông chạy cả ngày dù chủ yếu, đặc biệt là các xe đến phía Đông và Jakarta, Bums thang sẽ xuất phát từ lúc 6:30 đến 7:30.",
+  "latency_sec": 3.5839,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Xe buýt xuất phát từ trạm xe buýt liên huyện dọc con sông chạy cả ngày dù chủ yếu, đặc biệt là các xe đến phía Đông và Jakarta, Bums thang sẽ xuất phát từ lúc 6:30 đến 7:30.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP1sMmezTYLPppc1ms9W+eWEe8lo0CuYy/ZEvCahBG/S4WPXYfeVcqw38q4M90"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240973,
+    "id": "CxlKarr5DY-V9tMPqJa8yAI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 54,
+      "prompt_tokens": 429,
+      "total_tokens": 483
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0017",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.32,
+  "ref_text_raw": "홍콩 섬은 홍콩 영토에 홍콩이라는 이름을 부여한 곳이자 많은 관광객들이 주안점으로 여기는 곳이다.",
+  "ref_text_normalized": "홍콩 섬은 홍콩 영토에 홍콩이라는 이름을 부여한 곳이자 많은 관광객들이 주안점으로 여기는 곳이다",
+  "timestamp_utc": "2026-07-05T06:10:30Z",
+  "text": "홍콩섬은 홍콩 영토에 홍콩이라는 이름을 부여한 곳이자 많은 관광객들이 주안점으로 여기는 곳이다.",
+  "latency_sec": 4.377,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "홍콩섬은 홍콩 영토에 홍콩이라는 이름을 부여한 곳이자 많은 관광객들이 주안점으로 여기는 곳이다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqYKCqMKARFNMg9XhCjs4pfw7GjZeP3i2QWgHlnlHAyXXdM3tUnjeAlFPQUbX1yj9m8+T8Dj6KhM0nFbKJXFvXZZ7mIFFls1QaK4fkxnZXGsXLjNR/+Wm/7yKx/+Ndgr/Y4qM2+C48M5UfbDetgKumJKneRnaQnYHu27uLMihobGvbQ2z7URsrQUGuQs8+LCtPRfF4SEdI1i79IE6gUXPn5af0W8RxpzXqpUDW8cSHnFiIl5wamqFexS21R/APwjtzVZOqzKRyxR9dCm5DC2OU27v4dRbybd2oSeH+LWvMZ3lQL56ni2J7AxIJZKMo74SJN5F0lNOFr9kEQMWhhHoi7EHhBRQGpi2xOkpjrcz4SQOuC5gERAz6mPsmCCYcwLWlOWsUQBzSU4JrnevGK1osLKzwkx13AGrkk4oFHIrv1w/1WY4eVbFHdN7W6W9PLJ9ZMsxMmgn6fhn/0RFFb0dmeKtO2ouU6O35Kf8G42NBgUX9aSBg9/vTtPSAxDNp+A6zaZo8gtY5RE4gbTGO1rMDFnv59hrOaMXHeWerFmfsEYjWpGIN4BHmH3rN6fgjAm8g6A5CFcC8hDE5QJS0fANP1ZnE8UTW9ePp9kQNwN1FR9Y2cVgMLJiZNtJDkJpUehqNBGMTFrJjd6j0zs16bdrIvly1+r7MoA2mEMdUNmrH8xOrx6X35VXs6V9T79XoJSf3cLn1s1jfWPFanHWtzO2g14UImNJG/WpS+UN3eWHDM/EJjXHJBRpm9F+jk5IUUJFzZ3vRGULBrLYSbBtWkSeJyv4rVBqZj8eTMk1yBjTVpoj7czxHkpeqaW84oaiWCXjP2CvSutxw04k1qb6YFCzqm/tmbpIzPNaSSa903yRtljjcStmS2S4A3SMUEYgYSz1gkQvUsHnq6gACcPQd0RzsZkz6OGH9PpQfgdAT++SlU+gRlLXtAoDZrFWEPoBw4fuzq62YEsmvn5oi9E+gbFzekpBscfh+hRsF6g35lTSLFyL5NJ62W7nqzid5BCZoZBkx2DBitxpPzQ4dUayABkJrsw54jb/yVTKbYuEDZk3dIdPN67KdFiIcVsopovM2/RehfLE8ka3O3gmy4+FqKPeudySjMv4ftHJOksA20W6sOFe2ZM1RSbcpLTvlItyCnBk9T2XRItZ6kTziGiorHI11LMOmVJ9S6Hdwpv89pBfURM2nDWrS6eP+SQN4Kn0W21BWd61ZPM9YR2Hs+1Koc8xMqe+7ryHXmjKKAEoRrzpVN7Ke45ejp953ZgS02s1ra/pMRa8USUK9hiztDsai8CK8M8i3SY/ckV4kQMO4b5SJ/fC+unVI32XJH1BrFCYi+ZZ66F28Yoeh1sinTDJ0fu/sP9+LIupr40C5HU+ajmt+llTYyRId2e47EvGMOwf+aDiQse0YDkppByW2/bI8rDW3xPcgLySGl8+8HCGnD3BcW5qCdNLYtQISXZGzrv8ZxYEY1/ma87rW7uUqRwD9Y2Wssqv86soD0IeaUtnS/JbLtm7cZTc5fDgLb7dFIIFSxo086vuRbXqVt8pzeKJRdlzsXpxfgfVgDXPzBL1wwZ82rEV/Qd5Xtd5mW1W2A1pH1NXyXSjL7IzgeMG2Pg6Jx5jbPve7MfyV+P/DCUMVhT/RH5wMbWi1ZKkLfJqVKoTuy7DidVHLgAkIkxsu2bC7qPvfnSj6VwlK0DnA9tvCV3PPywrA1Dy8tsCfO91xvU5QAr/DCkOouHcfgBR07jb6rpjI0dgQDdo5FGOQ=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231830,
+    "id": "U_VJaqyDJ73MrfcPx6WgiQQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 279,
+      "total_tokens": 668
+    }
+  }
+}

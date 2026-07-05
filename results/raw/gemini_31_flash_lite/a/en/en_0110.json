@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0110",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.02,
+  "ref_text_raw": "Congress began funding the obscenity initiative in fiscal 2005 and specified that the FBI must devote 10 agents to adult pornography.",
+  "ref_text_normalized": "congress began funding the obscenity initiative in fiscal 2005 and specified that the fbi must devote 10 agents to adult pornography",
+  "timestamp_utc": "2026-07-05T03:33:50Z",
+  "text": "Congress began funding the Obscenity Initiative in fiscal 2005 and specified that the FBI must devote 10 agents to adult pornography.",
+  "latency_sec": 2.7497,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Congress began funding the Obscenity Initiative in fiscal 2005 and specified that the FBI must devote 10 agents to adult pornography.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPKvd5Hsrpxx0UeVOj0G+mLBhhf4UxHrU0QdXyK99VYF8xrU2Q0s9n5KJKmcPd"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222430,
+    "id": "ndBJavCFEYOL0-kPiYjyuQQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 272,
+      "total_tokens": 302
+    }
+  }
+}

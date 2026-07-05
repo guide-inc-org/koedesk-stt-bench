@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0126",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.84,
+  "ref_text_raw": "Es ist also möglich, dass der Vermerk einfach als Kennzeichnung hinzugefügt wurde.",
+  "ref_text_normalized": "es ist also möglich dass der vermerk einfach als kennzeichnung hinzugefügt wurde",
+  "timestamp_utc": "2026-07-05T04:07:23Z",
+  "text": "Es ist also möglich, dass der Vermerk einfach als Kennzeichnung hinzugefügt wurde.",
+  "latency_sec": 2.8157,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Es ist also möglich, dass der Vermerk einfach als Kennzeichnung hinzugefügt wurde.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPEkQkxAAQQfDh7qY2y5keJ8tsCg8WxQj6pbHkOpi9OaTQt6QzatoG4ttuXmWa"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224443,
+    "id": "ethJaoqIIOzl0-kPppi2uQE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 342,
+      "total_tokens": 360
+    }
+  }
+}

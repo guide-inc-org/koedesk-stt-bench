@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0021",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.38,
+  "ref_text_raw": "Ini adalah tempat yang direbut oleh penjajah Inggris sebagai milik mereka dan apabila Anda sedang mencari bukti wilayah kolonial di masa lalu, di sini adalah tempat yang tepat untuk memulai.",
+  "ref_text_normalized": "ini adalah tempat yang direbut oleh penjajah inggris sebagai milik mereka dan apabila anda sedang mencari bukti wilayah kolonial di masa lalu di sini adalah tempat yang tepat untuk memulai",
+  "timestamp_utc": "2026-07-05T05:46:10Z",
+  "text": "Ini adalah tempat yang direbut oleh penjajah Inggris sebagai milik mereka dan apabila Anda sedang mencari bukti wilayah kolonial di masa lalu, di sini adalah tempat yang tepat untuk memulai.",
+  "latency_sec": 2.8472,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Ini adalah tempat yang direbut oleh penjajah Inggris sebagai milik mereka dan apabila Anda sedang mencari bukti wilayah kolonial di masa lalu, di sini adalah tempat yang tepat untuk memulai.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPXnr/0L8u7jJRp0s7j+MBr4uj29qJBLqcB3ahInMkK+EoT0h4u311dM61x7pL"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230370,
+    "id": "oO9JapvPIdqA1e8PtKvlgQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 356,
+      "total_tokens": 391
+    }
+  }
+}

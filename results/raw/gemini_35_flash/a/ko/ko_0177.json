@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0177",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.22,
+  "ref_text_raw": "사치의 진원지라는 명성은 서기 400년경에 시작하여 서기 1100년경까지 이어졌습니다.",
+  "ref_text_normalized": "사치의 진원지라는 명성은 서기 400년경에 시작하여 서기 1100년경까지 이어졌습니다",
+  "timestamp_utc": "2026-07-05T06:25:16Z",
+  "text": "사치의 진원지라는 명성은 서기 400년경에 시작하여 서기 1100년경까지 이어졌습니다.",
+  "latency_sec": 3.2581,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "사치의 진원지라는 명성은 서기 400년경에 시작하여 서기 1100년경까지 이어졌습니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EskDCsYDARFNMg+D+0kZB8q4sgmZAyEjdA7yU/5hNI/IB9oqkU98QaQqWZbZTjjjJ+uFd6YQX0N4D0/s4rPA9L9pgpGqZtxoQri2XOwRY6gSWHx9FFrRNse/8qTb4xKK8y21dIN7zZGTDRe/fWB3+g+Awc4ZOy3Wb5bVRg2N0J9NSwkIHiK147Xmb/FpOpsUiMZoqaDjBiWqvdRzTfqxno9qZSSpv1iTG5XWVRi6g3RoAeh/r/MoU9SWrYep3yFNwcCCSnmUXK5JN7SZUiGwAU4MM1QtMm1zhcjsu+9C+XPAp8g6+OPLG8TN5bNlOXeUF2lPM5Wg4F+I1lOKj31d2TGEzsAJ9H+9S0EBIag9m3FEaB+PZV4CWzLU4y/VH2ALK0NdQak/wmJnj3PK9QvrWOWof8HtwqhYTge4txuwAyxAsORypMTXm6kxsK/j7IV10V/6SnXMCqiXaqCAIean6183Fgh/9qERF9Pm++n/UTEuMyZKOtgqRIEgSjEU/95XtcFq2/y6DPI+WCTEDtZQJxbkdMjIL2xeqUl7fMpgE4djUJ7LdHSfmLNvpjrC9qFs1O+kIe2GeXouOFFEfvCDr1Jh7l9k2XH+qBmxfQ=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232716,
+    "id": "yvhJavvfJe6d1e8P5u7EuQQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 302,
+      "total_tokens": 442
+    }
+  }
+}

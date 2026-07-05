@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0001",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.28,
+  "ref_text_raw": "钙、钾等元素属于金属，银和金等元素当然也是金属。",
+  "ref_text_normalized": "钙 钾 等 元 素 属 于 金 属 银 和 金 等 元 素 当 然 也 是 金 属",
+  "timestamp_utc": "2026-07-05T08:47:36Z",
+  "text": "盖夹等元素属于金属，银和金等元素当然也是金属。",
+  "latency_sec": 4.336,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "盖夹等元素属于金属，银和金等元素当然也是金属。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241256,
+    "id": "JRpKapSjJ_z-2roPj568yQI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 286,
+      "total_tokens": 368
+    }
+  }
+}

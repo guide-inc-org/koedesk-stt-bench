@@ -1,0 +1,45 @@
+{
+  "utt_id": "id_0117",
+  "lang": "id",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 15.0,
+  "ref_text_raw": "Mereka biasanya memiliki penawaran makanan, minuman, dan hiburan yang khusus, untuk menjaga suasana hati para tamu, dan mempertahankannya di lokasi.",
+  "ref_text_normalized": "mereka biasanya memiliki penawaran makanan minuman dan hiburan yang khusus untuk menjaga suasana hati para tamu dan mempertahankannya di lokasi",
+  "timestamp_utc": "2026-07-05T05:45:04Z",
+  "text": "Mereka biasanya memiliki penawaran makanan, minuman, dan hiburan yang khusus untuk menjaga suasana hati para tamu dan mempertahankannya di lokasi.",
+  "latency_sec": 4.1279,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Mereka biasanya memiliki penawaran makanan, minuman, dan hiburan yang khusus untuk menjaga suasana hati para tamu dan mempertahankannya di lokasi.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Eu8FCuwFARFNMg8EmSSSVwKFielHIGePyuhW59qNYl/1kKT+qNV0vaLEHFE9/jooB2WXNSPsT4tFdly9ttcI9ZH6Uu9/jHS6d5irJr0uExEYfxnMQXd25YFfjn2YjfD2qUUFJbk+sXSdTTFC4XSkOW97v1vWFkpyYR4LvEEJBiLmTFWYV6g4Rry1dSCLcH5wX7GM3R17o7CZnGY/IeRKruSX4LZ3lZRJBrLvYeBSS84cpXnaKnhzmsNqXTpyhGNu4LeVUS1yNJHKSK2DNtKKiMCsjlVFBJQTsWbY5x6t/5Fv6EHNpHHl6Pnh5/EBvhbic8yqc/HHULJ6zZjnRaPeieo7gH2PiUIg+DgUo1e9RtMiEAeHM2wdtbKDzGH2xp5GtxhShH6K3BsPQidgx02f1wiXmRCp4FaQgjPRa0O4lYvtUjIHZBlmwPIspSIc4fCrI/mtd7Hn7t4xhPpBgKANHJer3WbrNO/PsX1m7XgJVQdJe/v8rFRfpdGmh2xgo512dem20I8bElAqvgX1vU2nlsJ5cFKvWLM8Wtqx6zgir0thPBghNk+T3oB0tcZXlkU5isiAKNuCtT+CUCoVqbnS5NuXOksKcyVBUuyhO0lTpMf7nH6MC2SdUOe58xufSlbLlZigiLcIQzQQdl/puEoLlx/xq9EteLcRSyAx/fFAkxCUxCKeJgfCFAfTEu1kJx+rIflPAreOY+eBQOARsHdex16KfWXfCBdMdCu2QUEK0ws8S5zFau1w0Y7Av5un9vKlHtArxVDhkZNvn6zTlvAjhyBo0mMqjwkKKP6WaV1qjKP/eMRrehDcovRIHDqLEvJ0xrCWZk2xLtcTB01z2PgMZSR0R8f5hzZDT1rQSfx5rLxzYgAxkKevn4ZxU+CIzU49x4URLe11Ln7LN34RaQMxcK1yub2FBTseh3VF3nV6yV2rCjZFrkshuJZA8MvyCBWasrVma07uAjYnvj+1d8C09ZlthyywwfoATYcI1faJL9sinA=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230304,
+    "id": "Xe9JavS_JLvLrfcPnvyU2AE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 396,
+      "total_tokens": 590
+    }
+  }
+}

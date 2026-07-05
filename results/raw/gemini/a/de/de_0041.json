@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0041",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.64,
+  "ref_text_raw": "Die Sundarbans sind der größte Mangrovengürtel der Welt und erstrecken sich über 80 km vom bangladeschischen und indischen Hinterland bis an die Küste.",
+  "ref_text_normalized": "die sundarbans sind der größte mangrovengürtel der welt und erstrecken sich über 80 km vom bangladeschischen und indischen hinterland bis an die küste",
+  "timestamp_utc": "2026-07-05T03:43:06Z",
+  "text": "Die Sundarbans sind der größte Mangrovengürtel der Welt und erstrecken sich über 80 km vom bangladeshischen und indischen Hinterland bis an die Küste.",
+  "latency_sec": 3.5107,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Die Sundarbans sind der größte Mangrovengürtel der Welt und erstrecken sich über 80 km vom bangladeshischen und indischen Hinterland bis an die Küste.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222986,
+    "id": "yNJJauanCcTs1e8Px-GUwQI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 394,
+      "total_tokens": 462
+    }
+  }
+}

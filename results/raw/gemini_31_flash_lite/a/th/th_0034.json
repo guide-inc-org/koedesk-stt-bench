@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0034",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 27.0,
+  "ref_text_raw": "ลมเริ่มพัดเข้ามาหลังการแสดงผลผ่านไปห้านาที ประมาณหนึ่งนาทีต่อมากำลังลมอยู่ที่ 70 กม./ชม. แล้วฝนก็มา แต่ว่าทั้งแรงและห่าใหญ่มากจนเสียดแทงผิวของได้เหมือนเข็ม แล้วลูกเห็บก็ตกลงมาจากท้องฟ้า ผู้คนแตกตื่น กรีดร้อง และวิ่งชนกันไปมา",
+  "ref_text_normalized": "ลมเริ่มพัดเข้ามาหลังการแสดงผลผ่านไปห้านาที ประมาณหนึ่งนาทีต่อมากำลังลมอยู่ที่ 70 กม./ชม. แล้วฝนก็มา แต่ว่าทั้งแรงและห่าใหญ่มากจนเสียดแทงผิวของได้เหมือนเข็ม แล้วลูกเห็บก็ตกลงมาจากท้องฟ้า ผู้คนแตกตื่น กรีดร้อง และวิ่งชนกันไปมา",
+  "timestamp_utc": "2026-07-05T08:02:44Z",
+  "text": "ลม เริ่ม พัด เข้า มา หลัง การ แสดง ผล ผ่าน ไป 5 นาที ประมาณ 1 นาที ต่อ มา กําลัง ลม อยู่ ที่ 70 กม. ต่อ ชั่วโมง แล้ว ฝน ก็ มา แต่ ว่า ทั้ง แรง และ ห่า ใหญ่ มาก จน เสียด แทง ผิว ของ ได้ เหมือน เข็ม แล้ว ลูก เห็บ ก็ ตก ลง มา จาก ท้อง ฟ้า ผู้ คน แตก ตื่น กรีด ร้อง และ วิ่ง ชน กัน ไป มา",
+  "latency_sec": 3.0143,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ลม เริ่ม พัด เข้า มา หลัง การ แสดง ผล ผ่าน ไป 5 นาที ประมาณ 1 นาที ต่อ มา กําลัง ลม อยู่ ที่ 70 กม. ต่อ ชั่วโมง แล้ว ฝน ก็ มา แต่ ว่า ทั้ง แรง และ ห่า ใหญ่ มาก จน เสียด แทง ผิว ของ ได้ เหมือน เข็ม แล้ว ลูก เห็บ ก็ ตก ลง มา จาก ท้อง ฟ้า ผู้ คน แตก ตื่น กรีด ร้อง และ วิ่ง ชน กัน ไป มา",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPXyvwcrzC10Jcpf4BbSJv1o0ac4Dqp20iEtG1hTkHPjHnH6PR8bJpOA3m4Esn"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238564,
+    "id": "ow9KauGcDLyyvr0Pp7y7iQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 91,
+      "prompt_tokens": 696,
+      "total_tokens": 787
+    }
+  }
+}

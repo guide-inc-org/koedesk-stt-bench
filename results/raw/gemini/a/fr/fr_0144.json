@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0144",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.9,
+  "ref_text_raw": "Muhammad s’intéressait profondément à des questions qui dépassaient le cadre de cette vie mondaine. Il avait l’habitude de fréquenter une grotte qui est devenue célèbre sous le nom de « Hira' » sur la montagne de « Noor » (lumière) pour la contemplation.",
+  "ref_text_normalized": "muhammad s’intéressait profondément à des questions qui dépassaient le cadre de cette vie mondaine. il avait l’habitude de fréquenter une grotte qui est devenue célèbre sous le nom de « hira' » sur la montagne de « noor » lumière pour la contemplation",
+  "timestamp_utc": "2026-07-05T04:56:29Z",
+  "text": "Mohammad s'intéressait profondément à des questions qui dépassaient le cadre de cette vie mondaine. Il avait l'habitude de fréquenter une grotte qui est devenue célèbre sous le nom de Hira, sur la montagne de Nour. Lumière pour la contemplation.",
+  "latency_sec": 3.916,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Mohammad s'intéressait profondément à des questions qui dépassaient le cadre de cette vie mondaine. Il avait l'habitude de fréquenter une grotte qui est devenue célèbre sous le nom de Hira, sur la montagne de Nour. Lumière pour la contemplation.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227389,
+    "id": "--NJatKFC67H0-kPp7WTuQM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 56,
+      "prompt_tokens": 434,
+      "total_tokens": 580
+    }
+  }
+}

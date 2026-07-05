@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0007",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.96,
+  "ref_text_raw": "Twentieth century research has shown that there are two pools of genetic variation: hidden and expressed.",
+  "ref_text_normalized": "twentieth century research has shown that there are two pools of genetic variation hidden and expressed",
+  "timestamp_utc": "2026-07-05T10:28:23Z",
+  "text": "20th century research has shown that there are two pools of genetic variation hidden and expressed.",
+  "latency_sec": 2.6559,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "20th century research has shown that there are two pools of genetic variation hidden and expressed.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPidRipn+3/do2vtKLky3Ic2TjZF1oGIVYf7ubKsv4jbY/Ny2iNuttT7ckBBaV"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247303,
+    "id": "xjFKat_OCoTG0-kPurji2AU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 195,
+      "total_tokens": 214
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0021",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.24,
+  "ref_text_raw": "ทีมเสมือนมีมาตรฐานความเป็นเลิศเช่นเดียวกับทีมแบบดั้งเดิมทั่วไป แต่มีความแตกต่างที่แยบยล",
+  "ref_text_normalized": "ทีมเสมือนมีมาตรฐานความเป็นเลิศเช่นเดียวกับทีมแบบดั้งเดิมทั่วไป แต่มีความแตกต่างที่แยบยล",
+  "timestamp_utc": "2026-07-05T08:01:57Z",
+  "text": "ทีมเสมือนมีมาตรฐานความเป็นเลิศเช่นเดียวกันกับทีมแบบดั้งเดิมทั่วไป แต่มีความแตกต่างที่แยบยล",
+  "latency_sec": 3.2797,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ทีมเสมือนมีมาตรฐานความเป็นเลิศเช่นเดียวกันกับทีมแบบดั้งเดิมทั่วไป แต่มีความแตกต่างที่แยบยล",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPrvP0reeZXIxac7nlsjpa0g8Si/bChoJBsxFxtDyokc2kKIP7NVzzFMOsm1mr"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238517,
+    "id": "cw9KaqnQIaa3vr0PlMyl0QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 177,
+      "total_tokens": 203
+    }
+  }
+}

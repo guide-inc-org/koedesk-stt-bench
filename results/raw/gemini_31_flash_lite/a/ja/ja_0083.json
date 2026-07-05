@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0083",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 22.68,
+  "ref_text_raw": "米国のプリンストン大学とスウェーデンのウプサラ大学の研究者らは、この新種がわずか2世代で進化したことを報告しましたが、この過程は、固有種のガラパゴスフィンチと移入種のオオサボテンフィンチが交配した繁殖であるため、もっと長い時間がかかると考えられていました。",
+  "ref_text_normalized": "米国のプリンストン大学とスウェーデンのウプサラ大学の研究者らは この新種がわずか2世代で進化したことを報告しましたが この過程は 固有種のガラパゴスフィンチと移入種のオオサボテンフィンチが交配した繁殖であるため もっと長い時間がかかると考えられていました",
+  "timestamp_utc": "2026-07-05T10:17:46Z",
+  "text": "米国 の プリンストン 大学 と スウェーデン の ウプサラ 大学 の 研究 者 ら は 、 この 新種 が わずか 2 世代 で 進化 し た こと を 報告 し まし た が 、 この 過程 は 固有 種 の ガラパゴス フィンチ と 移入 種 の 大 サボテン フィンチ が 交配 し た 繁殖 で ある ため 、 もっと 長い 時間 が かかる と 考え られ て い まし た 。",
+  "latency_sec": 3.1019,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "米国 の プリンストン 大学 と スウェーデン の ウプサラ 大学 の 研究 者 ら は 、 この 新種 が わずか 2 世代 で 進化 し た こと を 報告 し まし た が 、 この 過程 は 固有 種 の ガラパゴス フィンチ と 移入 種 の 大 サボテン フィンチ が 交配 し た 繁殖 で ある ため 、 もっと 長い 時間 が かかる と 考え られ て い まし た 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPqdxK1eGHH4sI299k8IDMae/14FPHFsECS9InTjgsS6cX3dFnaGmuiWAH+Ywl"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246666,
+    "id": "SS9KaoSgBYGp2roP-M7c4AY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 103,
+      "prompt_tokens": 588,
+      "total_tokens": 691
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0123",
+  "lang": "ru",
+  "engine": "gemini_25_pro",
+  "duration_sec": 14.16,
+  "ref_text_raw": "Львиные прайды ведут себя очень похоже со стаями волков или собак — животных, которые по повадкам удивительно похожи на львов (но не других крупных кошек) и тоже очень опасны для своих жертв.",
+  "ref_text_normalized": "львиные прайды ведут себя очень похоже со стаями волков или собак — животных которые по повадкам удивительно похожи на львов но не других крупных кошек и тоже очень опасны для своих жертв",
+  "timestamp_utc": "2026-07-05T07:18:59Z",
+  "text": "Львиные прайды ведут себя очень похоже со стаями волков или собак, животных, которые по повадкам удивительно похожи на львов, но не других крупных кошек, и тоже очень опасны для своих жертв.",
+  "latency_sec": 6.3015,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Львиные прайды ведут себя очень похоже со стаями волков или собак, животных, которые по повадкам удивительно похожи на львов, но не других крупных кошек, и тоже очень опасны для своих жертв.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235939,
+    "id": "XgVKasPyNPjG2roPjLn34AI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 53,
+      "prompt_tokens": 475,
+      "total_tokens": 875
+    }
+  }
+}

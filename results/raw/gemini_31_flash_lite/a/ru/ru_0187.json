@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0187",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.22,
+  "ref_text_raw": "Собственные стили начали развиваться в Западной Европе к концу Средневековья. Одним из самых больших достижений того времени, благодаря крестовым походам, стало использование пуговиц для застегивания одежды.",
+  "ref_text_normalized": "собственные стили начали развиваться в западной европе к концу средневековья одним из самых больших достижений того времени благодаря крестовым походам стало использование пуговиц для застегивания одежды",
+  "timestamp_utc": "2026-07-05T07:38:33Z",
+  "text": "Собственные стили начали развиваться в Западной Европе к концу Средневековья. Одним из самых больших достижений того времени, благодаря крестовым походам, стало использование пуговиц для застёгивания одежды.",
+  "latency_sec": 2.7336,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Собственные стили начали развиваться в Западной Европе к концу Средневековья. Одним из самых больших достижений того времени, благодаря крестовым походам, стало использование пуговиц для застёгивания одежды.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPKpmG1ryDML9eEQb8XJICmIYhxaJ4LRzIRZebS7LKNHCZH+TTzpKsFLXF3R8C"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237114,
+    "id": "-AlKas6rILyo1e8Prpqp8QY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 50,
+      "prompt_tokens": 377,
+      "total_tokens": 427
+    }
+  }
+}

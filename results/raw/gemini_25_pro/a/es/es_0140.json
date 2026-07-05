@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0140",
+  "lang": "es",
+  "engine": "gemini_25_pro",
+  "duration_sec": 11.34,
+  "ref_text_raw": "Las plantas generan el oxígeno que las personas respiran y absorben el dióxido de carbono que ellas exhalan (que despiden).",
+  "ref_text_normalized": "las plantas generan el oxígeno que las personas respiran y absorben el dióxido de carbono que ellas exhalan que despiden",
+  "timestamp_utc": "2026-07-05T04:27:34Z",
+  "text": "Las plantas generan el oxígeno que las personas respiran y absorben el dióxido de carbono que ellas exhalan, que despiden.",
+  "latency_sec": 3.9475,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Las plantas generan el oxígeno que las personas respiran y absorben el dióxido de carbono que ellas exhalan, que despiden.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225654,
+    "id": "M91JarjKGZ2_vr0Piquy2Q0",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 384,
+      "total_tokens": 477
+    }
+  }
+}

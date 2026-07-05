@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0026",
+  "lang": "zh",
+  "engine": "gemini_25_pro",
+  "duration_sec": 6.96,
+  "ref_text_raw": "在中东温暖的气候中，房子并不是多重要。",
+  "ref_text_normalized": "在 中 东 温 暖 的 气 候 中 房 子 并 不 是 多 重 要",
+  "timestamp_utc": "2026-07-05T08:52:19Z",
+  "text": "在中東溫暖的氣候中,房子並不是多重要。",
+  "latency_sec": 3.495,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "在中東溫暖的氣候中,房子並不是多重要。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241539,
+    "id": "QRtKat7KEMSb1e8Pw-2buAM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 15,
+      "prompt_tokens": 244,
+      "total_tokens": 259
+    }
+  }
+}

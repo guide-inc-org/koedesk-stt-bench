@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0143",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.04,
+  "ref_text_raw": "Die Kritik der Liberalen am Wiederaufbauprozess hat sich darauf konzentriert, dass Aufträge für den Wiederaufbau an vermeintliche Insider in Washingtoner vergeben wurden.",
+  "ref_text_normalized": "die kritik der liberalen am wiederaufbauprozess hat sich darauf konzentriert dass aufträge für den wiederaufbau an vermeintliche insider in washingtoner vergeben wurden",
+  "timestamp_utc": "2026-07-05T04:08:30Z",
+  "text": "Die Kritik der Liberalen am Wiederaufbauprozess hat sich darauf konzentriert, dass Aufträge für den Wiederaufbau an vermeintliche Insider in Washington vergeben wurden.",
+  "latency_sec": 2.7655,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Die Kritik der Liberalen am Wiederaufbauprozess hat sich darauf konzentriert, dass Aufträge für den Wiederaufbau an vermeintliche Insider in Washington vergeben wurden.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPk5AbbThFKaeng7WyY2JbRWCgD8EIWwdJOj2Z3/xJh0Gz2uBTg7Uml0L7bwp6"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224510,
+    "id": "vNhJar6rNbvN2roPnu2ysAU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 222,
+      "total_tokens": 258
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0052",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.3,
+  "ref_text_raw": "ตึกที่ตั้งอยู่เรียงรายซึ่งสร้าง Hong Kong skyline ขึ้นมา ถูกนำไปเปรียบกับแผนภูมิแท่งเรืองแสงที่ทำขึ้นมาให้เห็นได้ง่าย ๆ ด้วยผืนน้ำที่ปรากฏอยู่ในบริเวณท่าเรือวิคตอเรีย",
+  "ref_text_normalized": "ตึกที่ตั้งอยู่เรียงรายซึ่งสร้าง hong kong skyline ขึ้นมา ถูกนำไปเปรียบกับแผนภูมิแท่งเรืองแสงที่ทำขึ้นมาให้เห็นได้ง่าย ๆ ด้วยผืนน้ำที่ปรากฏอยู่ในบริเวณท่าเรือวิคตอเรีย",
+  "timestamp_utc": "2026-07-05T08:03:52Z",
+  "text": "ตึก ที่ ตั้ง อยู่ เรียง ราย ซึ่ง สร้าง ขนาด ฮ่องกง สกายไลน์ ขึ้น มา ถูก นำ ไป เปรียบ เทียบ กับ แผน ภูมิ แท่ง เรือง แสง ที่ ทำ ขึ้น มา ให้ เห็น ได้ ง่าย ๆ โดย พื้น น้ำ ที่ ปรากฏ อยู่ ใน บริเวณ ท่า เรือ วิกตอเรีย",
+  "latency_sec": 2.6476,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ตึก ที่ ตั้ง อยู่ เรียง ราย ซึ่ง สร้าง ขนาด ฮ่องกง สกายไลน์ ขึ้น มา ถูก นำ ไป เปรียบ เทียบ กับ แผน ภูมิ แท่ง เรือง แสง ที่ ทำ ขึ้น มา ให้ เห็น ได้ ง่าย ๆ โดย พื้น น้ำ ที่ ปรากฏ อยู่ ใน บริเวณ ท่า เรือ วิกตอเรีย",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP2AESpllt+uVTO7d+Zr3m3RDtrTSKtNgQtDtu0KdnWI6X9Jkn64Er1rVPU2ip"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238632,
+    "id": "5g9Kaq3uOLyo1e8Prpqp8QY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 68,
+      "prompt_tokens": 254,
+      "total_tokens": 322
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0165",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.06,
+  "ref_text_raw": "冬に北バルト海を横断する場合は、船室の位置を確認してください。氷の中を突き進む際に最も影響を受ける船室では恐ろしいほどの騒音が鳴り響きます。",
+  "ref_text_normalized": "冬に北バルト海を横断する場合は 船室の位置を確認してください 氷の中を突き進む際に最も影響を受ける船室では恐ろしいほどの騒音が鳴り響きます",
+  "timestamp_utc": "2026-07-05T03:21:18Z",
+  "text": "冬 に 北バル と か を 横断 する 場合 は 先日 の 位置 を 確認 し て ください 。 氷 の 中 を 突き進む 際 に 最も 影響 を 受ける 先日 で は 恐ろしい ほど の 騒音 が 鳴り響き ます 。",
+  "latency_sec": 2.8516,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "冬 に 北バル と か を 横断 する 場合 は 先日 の 位置 を 確認 し て ください 。 氷 の 中 を 突き進む 際 に 最も 影響 を 受ける 先日 で は 恐ろしい ほど の 騒音 が 鳴り響き ます 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPn1Lptl50t1hq+BftogUdgM5dEcT8tALhyRptpW7JZmJIXxE1Ssr7XXjM/+Pv"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221678,
+    "id": "rc1JapuOF4fEvr0P5fGP6AE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 63,
+      "prompt_tokens": 398,
+      "total_tokens": 461
+    }
+  }
+}

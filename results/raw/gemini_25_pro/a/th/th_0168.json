@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0168",
+  "lang": "th",
+  "engine": "gemini_25_pro",
+  "duration_sec": 15.3,
+  "ref_text_raw": "ในช่วงสายของวันอาทิตย์ ประธานาธิบดีโดนัลด์ ทรัมป์ของสหรัฐอเมริกาประกาศในแถลงการณ์ที่ส่งผ่านเลขาธิการสื่อมวลชนว่าสหรัฐฯ จะถอนกองทัพออกจากซีเรีย",
+  "ref_text_normalized": "ในช่วงสายของวันอาทิตย์ ประธานาธิบดีโดนัลด์ ทรัมป์ของสหรัฐอเมริกาประกาศในแถลงการณ์ที่ส่งผ่านเลขาธิการสื่อมวลชนว่าสหรัฐฯ จะถอนกองทัพออกจากซีเรีย",
+  "timestamp_utc": "2026-07-05T07:57:20Z",
+  "text": "ในช่วงสายของวันอาทิตย์ ประธานาธิบดี โดนัลด์ ทรัมป์ ของสหรัฐอเมริกาประกาศในแถลงการณ์ที่ส่งผ่านเลขาธิการสื่อมวลชนว่า สหรัฐจะถอนกองทัพออกจากซีเรีย",
+  "latency_sec": 5.6399,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ในช่วงสายของวันอาทิตย์ ประธานาธิบดี โดนัลด์ ทรัมป์ ของสหรัฐอเมริกาประกาศในแถลงการณ์ที่ส่งผ่านเลขาธิการสื่อมวลชนว่า สหรัฐจะถอนกองทัพออกจากซีเรีย",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238240,
+    "id": "XA5Karq6LKqj9tMPiaisiAI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 56,
+      "prompt_tokens": 511,
+      "total_tokens": 812
+    }
+  }
+}

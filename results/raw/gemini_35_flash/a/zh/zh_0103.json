@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0103",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 14.16,
+  "ref_text_raw": "我们同意美国奥委会的声明，与其吊销执照，不如在我们组织内部继续推进有意义的变革，可能更有利于维护运动员和俱乐部的利益及其运动。",
+  "ref_text_normalized": "我 们 同 意 美 国 奥 委 会 的 声 明 与 其 吊 销 执 照 不 如 在 我 们 组 织 内 部 继 续 推 进 有 意 义 的 变 革 可 能 更 有 利 于 维 护 运 动 员 和 俱 乐 部 的 利 益 及 其 运 动",
+  "timestamp_utc": "2026-07-05T09:14:57Z",
+  "text": "我们同意美国奥委会的声明，与其吊销执照，不如在我们组织内部继续推进有意义的变革。这样可能更有利于维护运动员和俱乐部的利益及其运动。",
+  "latency_sec": 4.4717,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "我们同意美国奥委会的声明，与其吊销执照，不如在我们组织内部继续推进有意义的变革。这样可能更有利于维护运动员和俱乐部的利益及其运动。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242897,
+    "id": "jiBKavq1IPz-2roPj568yQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 375,
+      "total_tokens": 738
+    }
+  }
+}

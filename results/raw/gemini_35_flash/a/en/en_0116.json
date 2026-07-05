@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0116",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.6,
+  "ref_text_raw": "If you have watched the movie National Treasure, you may think a treasure map was written on the back of the Declaration of Independence.",
+  "ref_text_normalized": "if you have watched the movie national treasure you may think a treasure map was written on the back of the declaration of independence",
+  "timestamp_utc": "2026-07-05T03:33:19Z",
+  "text": "If you have watched the movie National Treasure, you may think a treasure map was written on the back of the Declaration of Independence.",
+  "latency_sec": 3.0687,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "If you have watched the movie National Treasure, you may think a treasure map was written on the back of the Declaration of Independence.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpEFCo4FARFNMg9tlWDNd4HRDGPx4vfZDkO0I6T76/qRFTwP0+15qbQcvXktiqf3/h3gtIgN5Ud3jLFc1KqQeOm8V1M8z3F9NfneJnaCUmbP4yxghvCPogb9d/ZYB6ujVcjrEJ9vUCbNAU6VWJ3qQPYRazuUi28mPiBlqP5IZjBA/jtKZGHBj4L40U4chDZqjpZvB/Z9zPM/yYfAJSJ6nFZOXwQpT0FrJ2aSkbzP1oK9WfJ5LTJ4XYY1JQn7IBhI3iuPErPOsoXNpVnnV9diM63K9gxINr8p6oGf9Cfsfx3oKu8od7ZwRlw0T8P/LlXwUuFK5AJmyJTrC6+eciaVz1ecOvYWO9DEo0s0yrR8vgxu87FhF/IQZKKzWRFW16DHkpA1/I6M9+L8f+7siT2NxKPsb8iVK3CoRXLbCGsiuKY4t7I7WblwIOpqV4ia/UdzqthPPAMHCGyGdaD6z+SIit3YNZYlbxWweCDF0Bh5fGEKDpzQHGJBZg+IHj3VWET2hLTx8r2UwQOGJ7dU6O+W37LHf4ZhK7iJZsoTieYB3CmAbPq7DVkgRD8sPuKeY3Hn2MXwJqCS7hVTIlPcWtQCTUNRaCr3+4Iw2T1iWXfPEXi83Iv9GSbqlvUnYH7RSXgcP7pbJZjAYr93dOTNRowGKrq+EohHIwxFKn6cr219bJIxUjKZAUPcYUIUX+fcrUbR0X4L/syjfE69vnGAAYZJK+tkfcGcdcKZYU54sHuwm87NmS35wnrdhdgUuQ7paUaprQ/PCDTCjvxJc8dCA9RErjoF6NlrSIu9F4U7X3GJcLUdFhpCIJLrzcAhyiKc4GGyRzwaViAXrN3EwxNhXLdTXaxT82JG3flYhu1Siy4pBPVZrFZa"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222400,
+    "id": "fdBJatGsPK7H0-kPp7WTuQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 186,
+      "total_tokens": 347
+    }
+  }
+}

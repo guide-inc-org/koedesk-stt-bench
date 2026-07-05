@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0069",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 16.5,
+  "ref_text_raw": "Dokumen itu, menurut bocoran itu, akan merujuk pada sengketa perbatasan, yang diinginkan Palestina berdasarkan perbatasan sebelum Perang Timur Tengah tahun 1967.",
+  "ref_text_normalized": "dokumen itu menurut bocoran itu akan merujuk pada sengketa perbatasan yang diinginkan palestina berdasarkan perbatasan sebelum perang timur tengah tahun 1967",
+  "timestamp_utc": "2026-07-05T05:49:08Z",
+  "text": "Dokumen itu menurut bocoran itu akan merujuk pada sengketa perbatasan yang diinginkan Palestina berdasarkan perbatasan sebelum perang Timur Tengah tahun 1967.",
+  "latency_sec": 2.7091,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Dokumen itu menurut bocoran itu akan merujuk pada sengketa perbatasan yang diinginkan Palestina berdasarkan perbatasan sebelum perang Timur Tengah tahun 1967.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPDa0maokxAOFvsc7Cux4nFIaTAvKc6zLfY4wHka8aL2iwUhYaitr+n/NMh9ox"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230548,
+    "id": "U_BJaoTvGOL81e8P5-3SkQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 434,
+      "total_tokens": 469
+    }
+  }
+}

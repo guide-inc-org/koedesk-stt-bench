@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0180",
+  "lang": "de",
+  "engine": "gemini_25_pro",
+  "duration_sec": 18.12,
+  "ref_text_raw": "Europa ist ein relativ kleiner Kontinent, hat aber zahlreiche unabhängige Länder. Normalerweise müsste man mehrfach Visa beantragen und mehrere Passkontrollen durchlaufen, wenn man durch mehrere Länder reisen möchte.",
+  "ref_text_normalized": "europa ist ein relativ kleiner kontinent hat aber zahlreiche unabhängige länder normalerweise müsste man mehrfach visa beantragen und mehrere passkontrollen durchlaufen wenn man durch mehrere länder reisen möchte",
+  "timestamp_utc": "2026-07-05T03:57:51Z",
+  "text": "Europa ist ein relativ kleiner Kontinent, hat aber zahlreiche unabhängige Länder. Normalerweise müsste man mehrfach Visa beantragen und mehrere Passkontrollen durchlaufen, wenn man durch mehrere Länder reisen möchte.",
+  "latency_sec": 3.9996,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Europa ist ein relativ kleiner Kontinent, hat aber zahlreiche unabhängige Länder. Normalerweise müsste man mehrfach Visa beantragen und mehrere Passkontrollen durchlaufen, wenn man durch mehrere Länder reisen möchte.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223871,
+    "id": "PNZJasvDL4mV1e8Pn9-owAM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 42,
+      "prompt_tokens": 601,
+      "total_tokens": 685
+    }
+  }
+}

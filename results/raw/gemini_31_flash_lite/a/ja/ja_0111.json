@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0111",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.08,
+  "ref_text_raw": "警察のチャンドラ・シェカール・ソランキ総監によれば、被告人は顔を隠して法廷に出頭したそうです。",
+  "ref_text_normalized": "警察のチャンドラ シェカール ソランキ総監によれば 被告人は顔を隠して法廷に出頭したそうです",
+  "timestamp_utc": "2026-07-05T03:17:49Z",
+  "text": "警察 の チャンドラ シェカール ソランキ 総監 に よれ ば 被告 人 は 顔 を 隠し て 法廷 に 出頭 し た そう です 。",
+  "latency_sec": 2.8674,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "警察 の チャンドラ シェカール ソランキ 総監 に よれ ば 被告 人 は 顔 を 隠し て 法廷 に 出頭 し た そう です 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP15pu7y1VtxJkzoFF1xqlIFsTQ2rkzQ5TKhiRpFya7oPrL1BgW+j1g/n00qgb"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221469,
+    "id": "28xJaqS1KKa3vr0PlMyl0QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 273,
+      "total_tokens": 309
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0168",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 13.08,
+  "ref_text_raw": "これらはたまに混雑する家族向けのビーチで、海岸にはさまざまな店舗が並んでいます。安全に泳ぐことができます。",
+  "ref_text_normalized": "これらはたまに混雑する家族向けのビーチで 海岸にはさまざまな店舗が並んでいます 安全に泳ぐことができます",
+  "timestamp_utc": "2026-07-05T03:21:50Z",
+  "text": "これらはたまに混雑する家族向けのビーチで、海岸には様々な店舗が並んでいます。安全に泳ぐことができます。",
+  "latency_sec": 4.4848,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "これらはたまに混雑する家族向けのビーチで、海岸には様々な店舗が並んでいます。安全に泳ぐことができます。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EowLCokLARFNMg/A7Et3V2EnMx62CtnQDikMqZ2CYIl9vwXQuVKPi6+KoSDWsadCwdAWxwyO+CL2ehJAVOhtCDHyjtrxDofllq5Tkv/EVo97QgLGXL1h109sX+C83h1oyqGT/Lve+0dpm1a39LxFpHZ31UJXt0jAlSJ9mIKXttfvciDFRGoTB71AMkcQmeuD/mLi7h42tKIOeP1VaY+48KcqZ9CwVDHYWS+n5c9sKQqKQrT1u1kizxB1ZLvlO8/JlGLJA04Yl/E/ZVFE3TZtHyedYHq+oHGpFrQzzwLRMsbeVujETMYMIVoyxa3wbV3/RYf6GC8JLArGpbCYukJMHGxGJ05jc/P9lRUWeFdfN696zdwQwBbU5jlx3CuYtCSxjQbJxkz2Gzme3cPC2dll4wkYvLJOyp+xGz2zrKLZR1wNta+Vr1YrHqYRBDJe46wBKaxOuAyWqNSFlNUCQsj/HyMUYTo0N9+cNGp/6ujdx83+JNtr+yz9VwJVgjdIuIRFCkcQpGflwGA6UqLGecxtVjY64ceui5I5zVO+rEM+YvksPN+LDLgqCPylaGXyk8f85JCl0Wwy2e7EDL3+e6e6hiemFyASmYdPUeKrzxgEAj8ptGis/IYGUPTCRgkzE+WcYaa4DGTlsT1mbec2ZS9Kp3cr3OZCPjV3YV5A1Qk89YKBXVLVuKwetfzUBWrFQItSFHeXORIfDUFsmyq2k3+cjRmeaus19eSQh7aGSY1l1OuRRmh5Qg4F7LSbCetwvEFnb1lMP1cgYXy81faUFKShMk89mpo2QNg0KI+suYSA/FWdOi6PYlGdLuhlVtqbStFeSGIMnH0yHVj4ntjqeaLpG1RoMox4Gr/dv61gHgX2/dPEYhYkdOS35YqzHdSyuLo0at/89JuGIPRAcv7dXjI5rn31It3C5kzU+W/8uudij3vVZO/6fVl5j2PAbOfNVafl9DJjj7I20XA0m+9qHaqS7UCzcUFiOzm4AsaX/OaipEWjCrsPO30ArgaNDF6CfU3h30+fC2gx1kezTxhPP9zqqLipmEGhyp+imrq1g4qjniLncnlf2mjAMpib1/yKjvx/7IMc5ypwzJ3pu6e8fjuZdJbg2teIbnjmT94dk/vJDtgyD9ldRZiuysitUwvyZx4GUgI+PE4UqpVbBQpxS+HJGudStq20W4Kgk2VGgNVVJzw49NHmJr6kfI0J0WM3xfNDAUDcEG6vNKo+5RBq7BEYIuDFQDjXiAb4TVqh5SNSu5TyFobyPzrdZS/+Z+UC4MnIiIWafH+iZpPT2xdiqcji/LTKEFAWGjGBz/445Y3zrt+f5AXzZ1B9rMAvA19MDmPg1qtMjAK6R7cpScyK3IXWyjL6tY714xEqr+yR9pks1i3woZ1gDziwgAdiN+SRRBmg0oV2keqMqydQ+MAKAuVdoDeq808sMXn9uRJslztohYDioDOEbAo0ncXpDyV1gh4o9gs94tV7lV5+bSaJolpDNJevZpvK97czt4PkE16P/jEwOUbpT2vt1A3HIywIzRndxNrKtZh8TomruXby0XuAl+NZ0lE9eVVbiBko51ctgD91IZ2JgrjyOFeUhJ13vi0XGbmZIRkddQ+g/0SDsGRdj5ykgtoqa128dev3cYSCdNzmIBJ8DRistkSqnGdlX09H9whZXd/WoC4bxCxmhibfG4ULmtgTZNpFlGfOwIJUVxbL1B6KmlW7dXCMYAE9N9J/WS/rk6shAuXQ5K04dBY4QgPXipXJavj121DnWJhHcoGWru4+oVOT3eznU0cEH4EHKq7PA4yS8M4jJXxzv4Rr25XY5Y2v3vsDtj28VcoyNOrq3NK5uy1acyG7+vMNfwlXhmpCDkIuw03ZH+450Vi+te6YlHLWvOIR4YShvylVZA=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221710,
+    "id": "y81Jaq23Lqqj9tMPiaisiAI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 348,
+      "total_tokens": 717
+    }
+  }
+}

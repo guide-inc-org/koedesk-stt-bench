@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0051",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 15.06,
+  "ref_text_raw": "クルーズによっては案内書にドイツのベルリンが載っています。上の地図からおわかりのように、ベルリンは海から離れており、市街観光はクルーズ料金とは別になります。",
+  "ref_text_normalized": "クルーズによっては案内書にドイツのベルリンが載っています 上の地図からおわかりのように ベルリンは海から離れており 市街観光はクルーズ料金とは別になります",
+  "timestamp_utc": "2026-07-05T10:08:04Z",
+  "text": "クルーズによって案内所に、ドイツのベルリンが載っています。 上の地図からお分かりのように、ベルリンは海から離れており、市街観光はクルーズ料金とは別になります。",
+  "latency_sec": 13.8926,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "クルーズによって案内所に、ドイツのベルリンが載っています。 上の地図からお分かりのように、ベルリンは海から離れており、市街観光はクルーズ料金とは別になります。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246084,
+    "id": "9yxKaoD5Oryyvr0Pp7y7iQU",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 42,
+      "prompt_tokens": 503,
+      "total_tokens": 2042
+    }
+  }
+}

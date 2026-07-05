@@ -1,0 +1,39 @@
+{
+  "utt_id": "id_0126",
+  "lang": "id",
+  "engine": "gemini_25_pro",
+  "duration_sec": 7.08,
+  "ref_text_raw": "Kantor gubernur mengatakan sembilan belas orang yang terluka merupakan aparat kepolisian.",
+  "ref_text_normalized": "kantor gubernur mengatakan sembilan belas orang yang terluka merupakan aparat kepolisian",
+  "timestamp_utc": "2026-07-05T05:36:52Z",
+  "text": "Kantor gubernur mengatakan 19 orang yang terluka merupakan aparat kepolisian.",
+  "latency_sec": 5.5987,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Kantor gubernur mengatakan 19 orang yang terluka merupakan aparat kepolisian.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783229812,
+    "id": "cO1Jao3UFsal1e8PnPeFgAI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 17,
+      "prompt_tokens": 248,
+      "total_tokens": 469
+    }
+  }
+}

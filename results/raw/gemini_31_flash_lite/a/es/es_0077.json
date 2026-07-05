@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0077",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 17.04,
+  "ref_text_raw": "Los huracanes, el pedrisco, las lluvias excesivas y los incendios forestales son tipos y consecuencias del clima extremo, así como las tormentas eléctricas, los tornados, las mangas de agua o los ciclones.",
+  "ref_text_normalized": "los huracanes el pedrisco las lluvias excesivas y los incendios forestales son tipos y consecuencias del clima extremo así como las tormentas eléctricas los tornados las mangas de agua o los ciclones",
+  "timestamp_utc": "2026-07-05T04:38:21Z",
+  "text": "Los huracanes, el pedrisco, las lluvias excesivas y los incendios forestales son tipos y consecuencias del clima extremo, así como las tormentas eléctricas, los tornados, las mangas de agua o los ciclones.",
+  "latency_sec": 2.8925,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Los huracanes, el pedrisco, las lluvias excesivas y los incendios forestales son tipos y consecuencias del clima extremo, así como las tormentas eléctricas, los tornados, las mangas de agua o los ciclones.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPBTn5/i9h79lAJTjSYx2wDzDpbrjip6Spc7hrF4WivhD7Q/FplrxzKO3RmXZy"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226301,
+    "id": "u99JaoKCIcmzvr0PpOCr2QI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 48,
+      "prompt_tokens": 447,
+      "total_tokens": 495
+    }
+  }
+}

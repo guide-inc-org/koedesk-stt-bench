@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0108",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 16.74,
+  "ref_text_raw": "中世の終焉に向かって、西ヨーロッパは独自の様式を開発し始めました。十字軍の結果として生じた当時としては最大の進歩の1つは、衣類を閉じるためにボタンを使用し始めたことです。",
+  "ref_text_normalized": "中世の終焉に向かって 西ヨーロッパは独自の様式を開発し始めました 十字軍の結果として生じた当時としては最大の進歩の1つは 衣類を閉じるためにボタンを使用し始めたことです",
+  "timestamp_utc": "2026-07-05T03:15:57Z",
+  "text": "中世の終焉に向かって西ヨーロッパは独自の様式を開発し始めました。十字軍の結果として生じた、当時としては最大の進歩の1つは、衣類を閉じるためにボタンを使用し始めたことです。",
+  "latency_sec": 4.2513,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "中世の終焉に向かって西ヨーロッパは独自の様式を開発し始めました。十字軍の結果として生じた、当時としては最大の進歩の1つは、衣類を閉じるためにボタンを使用し始めたことです。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Eu4KCusKARFNMg/3/xAG8XDtXex71YIa6bm8mhastgbejgbTj93g84RC0go+rYpd+siVpZq1X+hraK2X4lPy+ER/QGT9bOKnydEj/cL+EjB8/MaKn8tIwywy02mubOD9AJtNAjg1OCnV6aoIExSRBPurzJeQmydnqGM213VxSMDbL51Za1pXm8oyZpSHJSJjvRygrAFsXrFZeMWoUAAg4h/W3dqtVuqnkLMv2IoOUow8ag6927/niiT/W1AL6WIwwtL5/Hnj8sUSoN5wIdv+LuWTUh5+sgWYGXeQQQEDciP8B8p75zKvRwgYiogHMTSa/lp1HTXOGa4WlkggmS+7TSJTJlsN/OAbuS76QBvk5IgVOxWkMJo6fLxZR7q6ILwBjyImRhg1naimYzulzAjachl48Tj+8F4ArqVJ6G1lRJNjVqr6hwq10l6L52jc1JKdpsKRP6OsdTqMyd1OPLifdCfV+Xl5gCK6TInMacHsw90ppl2MXwyJf/X8IgcRSNEOr//MhlW9q0PpH3zquGFp6v+cG74KoS1PoIQbixRIla6ziFNo6/72HakIGWbcOI+xd0o0i/QRSJ8H05RFwbofW0xmRwa6USBZC+TI72H6Dghuxw8gb9mRD+XJI1HfFpKviUOV714yh4idiBDqwJOyFvk5Pv879eYMTdLjhcKYWZv24YjX7u4l1jg1u5v/f2/f9UIoCAoSIWDfbTrG0N1xi3z5sFcD4WnIaYLutJuNrqxAN8A3tk0D2JbKHoP71gkWWSpPW43/8e9EfB8cR8S/kgydThdF50yHhvE46Ejvr3zcpP9BJezwJlISW9Uauy7J+MVvSNsG89NbSRUrlhSJThYraeGqg9lLRqyb/7KT23/5YIvkIaK3Bg6MDfY5jlLKljwGsT/5kM3LnkkS8TDIUlIBBdVJSv6sHWCCAxdNMAc05dG2VJZvj13nT1Ua4XOoRWPP3Gcgrzeph/W+0e/+G52B1+0y3ag53hEBGayms93ZXjOF1KaxPDcy0et9j0Ng7gGsjS1Nsj/a1P2FH4+55jdfCyL2pJJzZiouMQEYCq0/AdyQIgXYHSYmcbGPYSeMobvOUwf+ekZHAulE5uEbTT8x6q5Z4OGlMJ16KTBnf6csIxmAU4HKwf9e9Mg1jvkNbuKxZby6PueTzYI5A90S7Qwz1utxXT9XvWgTBglZjpN6QQg/Aia3xsSiSSasU9gfHDaxF9VeUKjP/utxtJXK19uMQxkig5RDZ5kheh99lIqw5X+EXNcr5FZu6+Gt6FXajH971G9jEy/XHJ8Qe3An9j27g8gE069dnpSfxePq0lxcKv3BJ42Rdfnca/WBA6pKyhDei+1+vPU3BHqNoJdribukT+S2pRdn27ARg+JSDhKJI6y6VllVqS2aUPeIlYk9lwfuCdyQPTycvYhBadsB5NrRKXMLE1TAdfLogDFItLlwiZkTCTOCpTEHQypH7XLuqjKPZb8sb0PvpjbWlfyP81MJKw30omC0CBMRBwxTyw2exfXEFUdII9jRstyRkkjfnEHlLs8bYAHKXwSZf7UExNwPYGXErvpxdLMWxE5Jiac1cyV7bRJOD1XhNDe9GZZccq9WJpttu0U0LC6evHX+AyGl3jhseMjmIAmfj01PwES09/6tlXnxR7MvTWp0EwN0nbvfI214Hun9b6dxn1wfO23YHU1Fr0MiCcKWhfXE5bqpZI2JhzSspF55AiBV1hiQ59+BI/9HQVEmHgreUT5M0T6XHfQewpsMMii0cmSSUPUCPlLZKYg+PBuzH0QZs4mKbYWcNTJPunowj2R3p5x2KjlhgUpCnManem8KwrR9YaoUtfiJcfnhEL//v6aifySwyQ=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221357,
+    "id": "asxJarPVMJO00-kP9qbDqAY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 48,
+      "prompt_tokens": 440,
+      "total_tokens": 831
+    }
+  }
+}

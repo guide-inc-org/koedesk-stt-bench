@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0072",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 16.98,
+  "ref_text_raw": "USA Gymnastics und das USOC haben das gleiche Ziel - den Turnsport und andere Sportarten für die Athleten so sicher wie möglich zu machen, damit sie ihren Träumen in einer sicheren, positiven und selbstbestimmten Umgebung folgen können.",
+  "ref_text_normalized": "usa gymnastics und das usoc haben das gleiche ziel den turnsport und andere sportarten für die athleten so sicher wie möglich zu machen damit sie ihren träumen in einer sicheren positiven und selbstbestimmten umgebung folgen können",
+  "timestamp_utc": "2026-07-05T04:04:08Z",
+  "text": "USA Gymnastics und das USOC haben das gleiche Ziel, den Turnsport und andere Sportarten für die Athleten so sicher wie möglich zu machen, damit sie ihren Träumen in einer sicheren, positiven und selbstbestimmten Umgebung folgen können.",
+  "latency_sec": 2.8297,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "USA Gymnastics und das USOC haben das gleiche Ziel, den Turnsport und andere Sportarten für die Athleten so sicher wie möglich zu machen, damit sie ihren Träumen in einer sicheren, positiven und selbstbestimmten Umgebung folgen können.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPMpUbvleFxQ1INPEqJ+41ggZhjgYfE2NA9bzxDaUeZG5hNpjRfrSmL+EMBaRX"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224248,
+    "id": "t9dJaqO9FvnC0-kP-o-AoAM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 52,
+      "prompt_tokens": 446,
+      "total_tokens": 498
+    }
+  }
+}

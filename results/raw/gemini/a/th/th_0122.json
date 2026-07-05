@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0122",
+  "lang": "th",
+  "engine": "gemini_25_flash",
+  "duration_sec": 3.84,
+  "ref_text_raw": "นี่จะไม่ใช่การอำลา นี่เป็นการปิดบทตอนหนึ่งและเปิดบทตอนใหม่",
+  "ref_text_normalized": "นี่จะไม่ใช่การอำลา นี่เป็นการปิดบทตอนหนึ่งและเปิดบทตอนใหม่",
+  "timestamp_utc": "2026-07-05T07:44:23Z",
+  "text": "นี่ จะ ไม่ ใช่ การ อภิปราย นี่ จะ เป็น การ ปิด บท ตอน หนึ่ง และ เปิด บท ตอน ใหม่",
+  "latency_sec": 4.6831,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "นี่ จะ ไม่ ใช่ การ อภิปราย นี่ จะ เป็น การ ปิด บท ตอน หนึ่ง และ เปิด บท ตอน ใหม่",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237463,
+    "id": "VAtKapDKHYKhvr0P0-6Y8AY",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 144,
+      "total_tokens": 344
+    }
+  }
+}

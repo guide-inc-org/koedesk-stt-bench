@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0035",
+  "lang": "ru",
+  "engine": "gemini_25_pro",
+  "duration_sec": 13.32,
+  "ref_text_raw": "Сердцем тибетской медитации считается Йога Божеств. Посредством визуализации разнообразных божеств чистятся энергетические каналы, запускаются чакры и достигается просветлённость сознания.",
+  "ref_text_normalized": "сердцем тибетской медитации считается йога божеств посредством визуализации разнообразных божеств чистятся энергетические каналы запускаются чакры и достигается просветлённость сознания",
+  "timestamp_utc": "2026-07-05T07:10:01Z",
+  "text": "Сердцем тибетской медитации считается йога божеств. Посредством визуализации разнообразных божеств чистятся энергетические каналы, запускаются чакры и достигается просветлённое сознание.",
+  "latency_sec": 5.3643,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Сердцем тибетской медитации считается йога божеств. Посредством визуализации разнообразных божеств чистятся энергетические каналы, запускаются чакры и достигается просветлённое сознание.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235401,
+    "id": "RQNKavK6Ivu8vr0P1bam0AY",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 448,
+      "total_tokens": 727
+    }
+  }
+}

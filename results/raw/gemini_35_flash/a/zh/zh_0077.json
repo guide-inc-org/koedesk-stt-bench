@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0077",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 15.98,
+  "ref_text_raw": "詹卡洛·费斯切拉因失去了对赛车的把控，在比赛开始后不久就退出了。",
+  "ref_text_normalized": "詹 卡 洛 费 斯 切 拉 因 失 去 了 对 赛 车 的 把 控 在 比 赛 开 始 后 不 久 就 退 出 了",
+  "timestamp_utc": "2026-07-05T09:12:35Z",
+  "text": "詹卡洛·费斯切拉，因失去了对赛车的把控，在比赛开始后不久就退出了。",
+  "latency_sec": 3.7045,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "詹卡洛·费斯切拉，因失去了对赛车的把控，在比赛开始后不久就退出了。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtoECtcEARFNMg9GuOQ9c8zgem4KVI3+8pINLeTlSM8etCfrURqyf0e2xL1uwvnjoZdFCC8x9fLkkoIAzzfo2Jzgskck30Zs5M0dqaX/u4eGP9JCJ5PqCb2MuIQC/gk9qLcI/QTCgBCA+pSVbBttKwG7u+9kLKL5wuzCEk/pc+qDovQQrYEjDuM8/6E3x8Tr1z6SB7eKQzPjLrro0E9Hx6fokzTVhP4pN3Kfpi3ohzOy1RDa6l3fCsHUPxJpacXTqmdk7MjyBtUaOENh6ViIzLfTxgkZXl4DnTgbqupdbEcuCOturiulVNI0M9yfUI6ke7g+X6e12e23nvtz9IuLmyZq0wdbG9SZFD8HJu9X4eHjNGAFEQbBOWEg10t5A1a3i2mn3reww2TqSKglymUwZWHqyUcRb8Kw3GoaWnI9/QCrVUXs5HRR10TtdfxSlbPW+GKfSfcE2mybdvxoE6jsL18vfc3+NaTF1tX7cONKWVE/AWAVmnDWxjxCKd799yC5kGcl02Npgkm+yimf8FdrQ2s5ZlSqwZ0Ry2jQ/NtWeMhpBCeh826Q3G+wLcEOVMV04GpL5ujXGyo2TlgplFa4PQdbRC+naZHtWTmhA30WxNrumbcceuK3sbxQjp9TtYgYFxJtHOjlS8XJjBVUgSdTb/V21iq1qOXUHOyx4teeDGRqsU/LRGsAmZc1OBQDVSKTP8/o/Sf55aDmAwcXYCOnft6Ee2otwHp0WYoTXurjgk8nRNGcIU6HVpW1HXHlb9qcqIgjQtEKwIi6uIswBbwKmHshxyunwgasMu+iQqQ="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242755,
+    "id": "ACBKauPCNL6a1e8PgPz1sQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 421,
+      "total_tokens": 591
+    }
+  }
+}

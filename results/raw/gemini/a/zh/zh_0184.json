@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0184",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.5,
+  "ref_text_raw": "除去表示您的“Sie”之外的所有名词都应以大写字母开头，即使在句子中间也应如此。",
+  "ref_text_normalized": "除 去 表 示 您 的 sie 之 外 的 所 有 名 词 都 应 以 大 写 字 母 开 头 即 使 在 句 子 中 间 也 应 如 此",
+  "timestamp_utc": "2026-07-05T09:03:23Z",
+  "text": "出去表示您的C之外的所有名詞都應以大寫字母開頭,即便在句子中間也應如此。",
+  "latency_sec": 5.3375,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "出去表示您的C之外的所有名詞都應以大寫字母開頭,即便在句子中間也應如此。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242203,
+    "id": "2B1KasrqBMal1e8PnPeFgAI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 357,
+      "total_tokens": 421
+    }
+  }
+}

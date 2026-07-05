@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0090",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.86,
+  "ref_text_raw": "Area yang luas di sebelah utara sangat jarang ditempati dan beberapa bahkan adalah hutan belantara yang hampir tak dapat ditempati.",
+  "ref_text_normalized": "area yang luas di sebelah utara sangat jarang ditempati dan beberapa bahkan adalah hutan belantara yang hampir tak dapat ditempati",
+  "timestamp_utc": "2026-07-05T05:50:31Z",
+  "text": "Area yang luas di sebelah utara sangat jarang ditempati dan beberapa bahkan adalah hutan belantara yang hampir tak dapat ditempati.",
+  "latency_sec": 3.5626,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Area yang luas di sebelah utara sangat jarang ditempati dan beberapa bahkan adalah hutan belantara yang hampir tak dapat ditempati.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPXXhjaKjfmimUSBc0BPU55rCDsi3owymta67enr2kcoI23Fx/jPI2NXV5+yAP"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230631,
+    "id": "pfBJarfKJfGC0-kP1smn0AY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 368,
+      "total_tokens": 393
+    }
+  }
+}

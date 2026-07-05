@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0097",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 25.24,
+  "ref_text_raw": "这场辩论是因为对卡特里娜飓风后的救济和重建支出有争议而开始的；一些财政保守派幽默地将其称为“布什的新（奥尔良）政”。",
+  "ref_text_normalized": "这 场 辩 论 是 因 为 对 卡 特 里 娜 飓 风 后 的 救 济 和 重 建 支 出 有 争 议 而 开 始 的 一 些 财 政 保 守 派 幽 默 地 将 其 称 为 布 什 的 新 奥 尔 良 政",
+  "timestamp_utc": "2026-07-05T09:14:27Z",
+  "text": "这场辩论是因为对卡特里娜飓风后的救济和重建支出有争议而开始的，一些财政保守派幽默地将其称为布什的新奥尔良新政。",
+  "latency_sec": 5.289,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "这场辩论是因为对卡特里娜飓风后的救济和重建支出有争议而开始的，一些财政保守派幽默地将其称为布什的新奥尔良新政。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242867,
+    "id": "byBKasTcPLbR0-kPp6yr6QI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 652,
+      "total_tokens": 1161
+    }
+  }
+}

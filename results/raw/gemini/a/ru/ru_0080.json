@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0080",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.88,
+  "ref_text_raw": "Он также атаковал все, что входило в воду; даже гигантский динозавр, такой как тиранозавр, не сравнился бы с ним.",
+  "ref_text_normalized": "он также атаковал все что входило в воду даже гигантский динозавр такой как тиранозавр не сравнился бы с ним",
+  "timestamp_utc": "2026-07-05T07:06:27Z",
+  "text": "Он также атаковал всё, что входило в воду. Даже гигантский динозавр, такой как тираннозавр, не сравнился бы с ним.",
+  "latency_sec": 4.2249,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Он также атаковал всё, что входило в воду. Даже гигантский динозавр, такой как тираннозавр, не сравнился бы с ним.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235188,
+    "id": "cAJKat_yPIfNrfcP8aSW8AI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 402,
+      "total_tokens": 475
+    }
+  }
+}

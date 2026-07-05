@@ -1,0 +1,39 @@
+{
+  "utt_id": "id_0138",
+  "lang": "id",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.08,
+  "ref_text_raw": "Di sejumlah rute, perusahaan yang lebih besar memiliki pesawat sendiri, tetapi terjadi masalah di rute lain dan perusahaan yang lebih kecil.",
+  "ref_text_normalized": "di sejumlah rute perusahaan yang lebih besar memiliki pesawat sendiri tetapi terjadi masalah di rute lain dan perusahaan yang lebih kecil",
+  "timestamp_utc": "2026-07-05T05:38:05Z",
+  "text": "di sejumlah rute perusahaan yang lebih besar memiliki pesawat sendiri, tapi terjadi masalah di rute lain dan perusahaan yang lebih kecil.",
+  "latency_sec": 4.4385,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "di sejumlah rute perusahaan yang lebih besar memiliki pesawat sendiri, tapi terjadi masalah di rute lain dan perusahaan yang lebih kecil.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783229885,
+    "id": "uu1Jaq7EL5WJ1e8PxbzN-QE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 344,
+      "total_tokens": 525
+    }
+  }
+}

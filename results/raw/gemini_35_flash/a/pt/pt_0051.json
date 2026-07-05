@@ -1,0 +1,45 @@
+{
+  "utt_id": "pt_0051",
+  "lang": "pt",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.98,
+  "ref_text_raw": "Se você não tem o costume de dirigir em estradas do interior, tenha juízo: declives íngremes, pistas estreitas e curvas acentuadas são comuns.",
+  "ref_text_normalized": "se você não tem o costume de dirigir em estradas do interior tenha juízo declives íngremes pistas estreitas e curvas acentuadas são comuns",
+  "timestamp_utc": "2026-07-05T06:47:08Z",
+  "text": "Se você não tem o costume de dirigir em estradas no interior, tenha juízo. Declives íngremes, pista estreita e curvas acentuadas são comuns.",
+  "latency_sec": 4.3817,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Se você não tem o costume de dirigir em estradas no interior, tenha juízo. Declives íngremes, pista estreita e curvas acentuadas são comuns.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Er0FCroFARFNMg/QYKjf8adibjYbt+JD/T+bGzg/fn5EhpKcvPxWnryxsVbqeK78zFn5p0GGUD91LMgNrcZN6eFdcwe7OFsAEfsUlcAMzmWg6bDZs653+06U86Cgw/azQuBZrA90ZecFceTdbhb7b7LQNHJUxN2gawTMU0gOhypgYDjyUWNWkhA287cXE8IvTmJ4fZhUlLFGFwBojO5rBVnvc3GpYlJxZlmS0FWKH9GzSIaawS4RsnKLeCYWbxIcIcxpy2sJL6DQn8Amw6mwwD951QS1jZitM1VoSc+RiCL3sfbVVDxZOnqPCErPUu8W8CNnBYbEyMEQ56DmGTZt4/j0noDjFhUf+BbeKqzjhcUAJ6Iu1rOLMO6UbTBwLkfiaccKkb66J1wCtEOEie2sw7RQ4r56ef75RxdAflrd7lS0L9v2FT51JneXLqPRZ+p92mhBX/GL6ZGM8lDIqdNbyw1TApbCZhBAjDKYSYNzdt7eOYww0toI3JsmaTaVp1kj+/Ml4l9Zij/qsWhE1sSXxMFWXMi8V3tAC69pgnwMO5jsk4YF04IpySpIzzyIhZd5UVSDzQ8ooiUB8hkuJwa/jHVHbK2Yady6ACD+d3DY/6XYmxD/bXfpEJEZuAnsRHh5lSgZjfR0JeBCjd2ymfxh7NJN6MAgRpE0ktuhnahF5QxoVP9fGAEc/0bBQpDr/Eb6CRZP2IXncH+6gl6RnpxJVbtlNqfffEI+W4AwuysrAJ4Xo3r/UEjturFB0Gu3FnUwVDPUye0jJQ3kk+2ZucH51JZNn67nabOm+VEueNE2WfAL9Dj7gpK21znElc52O/eNc21ySBEM4/0iHs4IUDKJAFofNjmeCdZ/OHYX1p5tEE3QGj91XvXePS/UlXAagT67wgZ0s2SASVzxK3DNgpEoOkecKwAyyR710AGjf7Ns7Dk="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234028,
+    "id": "6v1JatnAB7Cr0-kPhJ6suQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 296,
+      "total_tokens": 494
+    }
+  }
+}

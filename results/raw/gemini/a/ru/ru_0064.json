@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0064",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.5,
+  "ref_text_raw": "Комиссия стала ответом Мартелли на массовые протесты против государственного режима, начавшиеся в октябре.",
+  "ref_text_normalized": "комиссия стала ответом мартелли на массовые протесты против государственного режима начавшиеся в октябре",
+  "timestamp_utc": "2026-07-05T07:05:11Z",
+  "text": "Комиссия стала ответом Марте Лена массовые протесты против государственного режима, начавшиеся в октябре.",
+  "latency_sec": 3.3753,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Комиссия стала ответом Марте Лена массовые протесты против государственного режима, начавшиеся в октябре.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235111,
+    "id": "JQJKaoLvBvK8vr0P9K6siQU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 261,
+      "total_tokens": 313
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0155",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.36,
+  "ref_text_raw": "Учёные надеются понять, как образуются планеты, особенно то, как образовалась Земля, поскольку кометы сталкивались  с Землёй очень давно.",
+  "ref_text_normalized": "учёные надеются понять как образуются планеты особенно то как образовалась земля поскольку кометы сталкивались с землёй очень давно",
+  "timestamp_utc": "2026-07-05T07:12:36Z",
+  "text": "Учёные надеются понять, как образуются планеты, особенно то, как образовалась Земля, поскольку кометы сталкивались с Землёй очень давно.",
+  "latency_sec": 3.4859,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Учёные надеются понять, как образуются планеты, особенно то, как образовалась Земля, поскольку кометы сталкивались с Землёй очень давно.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235556,
+    "id": "4gNKavKqIMP_2roPvqa06AU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 321,
+      "total_tokens": 380
+    }
+  }
+}

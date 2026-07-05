@@ -1,0 +1,39 @@
+{
+  "utt_id": "pt_0058",
+  "lang": "pt",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.76,
+  "ref_text_raw": "No entanto, isso não é verdade. Embora haja algo escrito no verso do documento, não é um mapa do tesouro.",
+  "ref_text_normalized": "no entanto isso não é verdade embora haja algo escrito no verso do documento não é um mapa do tesouro",
+  "timestamp_utc": "2026-07-05T06:31:28Z",
+  "text": "No entanto, isso não é verdade. Embora haja algo escrito no verso do documento, não é um mapa do tesouro.",
+  "latency_sec": 3.2958,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "No entanto, isso não é verdade. Embora haja algo escrito no verso do documento, não é um mapa do tesouro.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783233088,
+    "id": "PvpJaujsBenF0-kPwPbOqAc",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 302,
+      "total_tokens": 353
+    }
+  }
+}

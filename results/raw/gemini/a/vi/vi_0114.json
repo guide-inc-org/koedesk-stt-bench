@@ -1,0 +1,39 @@
+{
+  "utt_id": "vi_0114",
+  "lang": "vi",
+  "engine": "gemini_25_flash",
+  "duration_sec": 13.08,
+  "ref_text_raw": "Duvall, đã kết hôn và có hai người con trưởng thành, không để lại ấn tượng gì nhiều với Miller, người có liên quan tới câu chuyện.",
+  "ref_text_normalized": "duvall đã kết hôn và có hai người con trưởng thành không để lại ấn tượng gì nhiều với miller người có liên quan tới câu chuyện",
+  "timestamp_utc": "2026-07-05T08:20:50Z",
+  "text": "Du Von đã kết hôn và có hai người con trưởng thành, không để lại ấn tượng gì nhiều với Mai Lơ, người có liên quan tới câu chuyện.",
+  "latency_sec": 4.0689,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Du Von đã kết hôn và có hai người con trưởng thành, không để lại ấn tượng gì nhiều với Mai Lơ, người có liên quan tới câu chuyện.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239650,
+    "id": "3xNKapy4FtDF1e8P2K7MiQU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 440,
+      "total_tokens": 573
+    }
+  }
+}

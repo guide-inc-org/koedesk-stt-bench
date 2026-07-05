@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0022",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.16,
+  "ref_text_raw": "Danielle Lantagne, experte de l'ONU sur la maladie, a déclaré que l'épidémie avait probablement été causée par les Casques bleus.",
+  "ref_text_normalized": "danielle lantagne experte de l'onu sur la maladie a déclaré que l'épidémie avait probablement été causée par les casques bleus",
+  "timestamp_utc": "2026-07-05T05:10:47Z",
+  "text": "Daniel Lantagne, experte de l'ONU sur la maladie, a déclaré que l'épidémie avait probablement été causée par les Casques bleus.",
+  "latency_sec": 2.7162,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Daniel Lantagne, experte de l'ONU sur la maladie, a déclaré que l'épidémie avait probablement été causée par les Casques bleus.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPHh4AY+rt3LP9DxQhlTXbFyLQRF6GnW7kK8+FvGkVOH+3Affu5DPg1GzqxETy"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228247,
+    "id": "VedJavb8Kf_R1e8PsqiM8QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 300,
+      "total_tokens": 333
+    }
+  }
+}

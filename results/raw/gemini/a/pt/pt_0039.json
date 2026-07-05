@@ -1,0 +1,39 @@
+{
+  "utt_id": "pt_0039",
+  "lang": "pt",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.0,
+  "ref_text_raw": "Lembre-se que, mesmo após o encerramento da música nos palcos principais, algumas seções do festival podem continuar tocando até tarde.",
+  "ref_text_normalized": "lembre-se que mesmo após o encerramento da música nos palcos principais algumas seções do festival podem continuar tocando até tarde",
+  "timestamp_utc": "2026-07-05T06:30:01Z",
+  "text": "Lembre-se que, mesmo após o encerramento da música nos palcos principais, algumas sessões do festival podem continuar tocando até tarde.",
+  "latency_sec": 3.498,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Lembre-se que, mesmo após o encerramento da música nos palcos principais, algumas sessões do festival podem continuar tocando até tarde.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783233001,
+    "id": "5_lJar-AK73dvr0Pv4K6sQE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 405,
+      "total_tokens": 495
+    }
+  }
+}

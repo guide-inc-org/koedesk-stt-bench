@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0177",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.16,
+  "ref_text_raw": "Взаимосвязь между патологией мозга и поведением используется учёными в их исследованиях.",
+  "ref_text_normalized": "взаимосвязь между патологией мозга и поведением используется учёными в их исследованиях",
+  "timestamp_utc": "2026-07-05T07:37:57Z",
+  "text": "Взаимосвязь между патологией мозга и поведением используется учёными в их исследованиях.",
+  "latency_sec": 2.6976,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Взаимосвязь между патологией мозга и поведением используется учёными в их исследованиях.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPerA49KtDaAysRnyr1+qTb2664m8WaVN0qkHNf4z5QH152opX9k9SykcGQpUZ"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237077,
+    "id": "1AlKatyfEdbk1e8P_MzduQE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 225,
+      "total_tokens": 247
+    }
+  }
+}

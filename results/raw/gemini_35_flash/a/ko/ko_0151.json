@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0151",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 19.62,
+  "ref_text_raw": "그러나 전체 결핵 환자 중 XDR-TB가 있는 비율은 그리 높지 않은 듯합니다. 어느 특정 순간에 남아프리카에서 결핵에 걸린 환자가 330,000명이라고 할 때, 6,000명 정도가 XDR-TB가 있는 수준입니다.",
+  "ref_text_normalized": "그러나 전체 결핵 환자 중 xdr-tb가 있는 비율은 그리 높지 않은 듯합니다 어느 특정 순간에 남아프리카에서 결핵에 걸린 환자가 330,000명이라고 할 때 6,000명 정도가 xdr-tb가 있는 수준입니다",
+  "timestamp_utc": "2026-07-05T06:22:58Z",
+  "text": "그러나 전체 결핵 환자 중 XDR TB가 있는 비율은 그리 높지 않은 듯 합니다. 어느 특정 순간에 남아프리카에서 결핵에 걸린 환자가 33만 명이라고 할 때 6천 명 정도가 XDR TB가 있는 수준입니다.",
+  "latency_sec": 6.9049,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "그러나 전체 결핵 환자 중 XDR TB가 있는 비율은 그리 높지 않은 듯 합니다. 어느 특정 순간에 남아프리카에서 결핵에 걸린 환자가 33만 명이라고 할 때 6천 명 정도가 XDR TB가 있는 수준입니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232578,
+    "id": "PfhJav3wEs-a1e8P7YSs0QE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 58,
+      "prompt_tokens": 512,
+      "total_tokens": 1455
+    }
+  }
+}

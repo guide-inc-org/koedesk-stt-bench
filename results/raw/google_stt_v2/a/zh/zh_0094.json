@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0094",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 9.96,
+  "ref_text_raw": "平时你总能在这里听到游客和小摊贩的声音。声光交织，就像在讲述一个动人的故事。",
+  "ref_text_normalized": "平 时 你 总 能 在 这 里 听 到 游 客 和 小 摊 贩 的 声 音 声 光 交 织 就 像 在 讲 述 一 个 动 人 的 故 事",
+  "timestamp_utc": "2026-07-05T06:26:37Z",
+  "text": "平时你总能在这里听到游客和小摊贩的声音,声光交织,就像在讲述一个动人的故事。",
+  "latency_sec": 4.1588,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "10s",
+      "requestId": "6b67a9da-0000-2ebf-b95d-b8db38f44dc2",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "平时你总能在这里听到游客和小摊贩的声音,声光交织,就像在讲述一个动人的故事。"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

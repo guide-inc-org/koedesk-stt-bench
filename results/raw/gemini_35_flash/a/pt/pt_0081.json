@@ -1,0 +1,45 @@
+{
+  "utt_id": "pt_0081",
+  "lang": "pt",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 16.08,
+  "ref_text_raw": "\"Ele [Wales] basicamente mentiu desde o princípio. Primeiro, agindo como se fosse por uma razão legal. Segundo, fingindo que ele estava anos ouvindo, até sua exclusão de artigos\"",
+  "ref_text_normalized": "\"ele [wales] basicamente mentiu desde o princípio. primeiro agindo como se fosse por uma razão legal. segundo fingindo que ele estava anos ouvindo até sua exclusão de artigos",
+  "timestamp_utc": "2026-07-05T06:49:55Z",
+  "text": "Ele, o Wallace, basicamente mentiu desde o princípio. Primeiro, agindo como se fosse por uma razão legal. Segundo, fingindo que ele estava de acordo até sua exclusão de artigos.",
+  "latency_sec": 10.707,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Ele, o Wallace, basicamente mentiu desde o princípio. Primeiro, agindo como se fosse por uma razão legal. Segundo, fingindo que ele estava de acordo até sua exclusão de artigos.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234195,
+    "id": "j_5JauikAYKhvr0P0-6Y8AY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 423,
+      "total_tokens": 994
+    }
+  }
+}

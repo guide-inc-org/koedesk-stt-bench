@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0117",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 16.62,
+  "ref_text_raw": "ขากรรไกรที่ยาวของมันเต็มไปด้วยฟันแหลมคมดุจใบมีดมากกว่า 70 ซี่ พร้อมด้วยฟันชุดพิเศษที่อยู่บนเพดานปาก ซึ่งหมายความว่าจะไม่มีสิ่งใดที่ผ่านเข้ามาแล้วจะรอดพ้นไปได้",
+  "ref_text_normalized": "ขากรรไกรที่ยาวของมันเต็มไปด้วยฟันแหลมคมดุจใบมีดมากกว่า 70 ซี่ พร้อมด้วยฟันชุดพิเศษที่อยู่บนเพดานปาก ซึ่งหมายความว่าจะไม่มีสิ่งใดที่ผ่านเข้ามาแล้วจะรอดพ้นไปได้",
+  "timestamp_utc": "2026-07-05T08:08:04Z",
+  "text": "ขากรรไกรที่ยาวของมันเต็มไปด้วยฟันแหลมคมดุจใบมีดมากกว่า 70 ซี่ พร้อมด้วยฟันชุดพิเศษที่อยู่บนเพดานปาก ซึ่งหมายความว่าจะไม่มีสิ่งใดที่ผ่านเข้ามาแล้วรอดพ้นออกไปได้",
+  "latency_sec": 3.1572,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ขากรรไกรที่ยาวของมันเต็มไปด้วยฟันแหลมคมดุจใบมีดมากกว่า 70 ซี่ พร้อมด้วยฟันชุดพิเศษที่อยู่บนเพดานปาก ซึ่งหมายความว่าจะไม่มีสิ่งใดที่ผ่านเข้ามาแล้วรอดพ้นออกไปได้",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP1nI+QesUhpOIa051mO2M0ton86XqvYIWDZmsLQvbDUib3vUKbbSCb8uu8gA3"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238884,
+    "id": "4hBKau61LYfNrfcP8aSW8AI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 60,
+      "prompt_tokens": 437,
+      "total_tokens": 497
+    }
+  }
+}

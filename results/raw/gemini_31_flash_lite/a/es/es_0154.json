@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0154",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.08,
+  "ref_text_raw": "El territorio de Hong Kong toma el nombre de la isla homónima, que es el destino gran parte de los turistas considera la atracción principal.",
+  "ref_text_normalized": "el territorio de hong kong toma el nombre de la isla homónima que es el destino gran parte de los turistas considera la atracción principal",
+  "timestamp_utc": "2026-07-05T04:42:57Z",
+  "text": "El territorio de Hong Kong toma el nombre de la isla homónima que es el destino que gran parte de los turistas considera la atracción principal.",
+  "latency_sec": 2.656,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "El territorio de Hong Kong toma el nombre de la isla homónima que es el destino que gran parte de los turistas considera la atracción principal.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPkTalmeAgXDlWqBzG6+oCaXujEBf88WEX8VoGSEf1aITN74XM5/C0SSZ/NbDm"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226577,
+    "id": "0OBJaqyGD9Cd1e8Pt4DcqQQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 273,
+      "total_tokens": 302
+    }
+  }
+}

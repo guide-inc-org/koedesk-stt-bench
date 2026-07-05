@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0101",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.8,
+  "ref_text_raw": "孩子们因为各种原因被寄养，原因有被忽视、被虐待，甚至是被勒索。",
+  "ref_text_normalized": "孩 子 们 因 为 各 种 原 因 被 寄 养 原 因 有 被 忽 视 被 虐 待 甚 至 是 被 勒 索",
+  "timestamp_utc": "2026-07-05T08:56:00Z",
+  "text": "孩子们因为各种原因被寄养，原因有被忽视被虐待，甚至被勒索。",
+  "latency_sec": 4.247,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "孩子们因为各种原因被寄养，原因有被忽视被虐待，甚至被勒索。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241760,
+    "id": "HRxKaszFO66l9tMP-_vv-QM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 399,
+      "total_tokens": 472
+    }
+  }
+}

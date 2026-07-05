@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0014",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.04,
+  "ref_text_raw": "Seine langen Kiefer waren mit mehr als 70 messerscharfen Zähnen ausgestattet, zuzüglich eines weiteren Satzes am Gaumen, was bedeutete, dass es kein Entkommen für irgendein Tier gab, das seinen Weg kreuzte.",
+  "ref_text_normalized": "seine langen kiefer waren mit mehr als 70 messerscharfen zähnen ausgestattet zuzüglich eines weiteren satzes am gaumen was bedeutete dass es kein entkommen für irgendein tier gab das seinen weg kreuzte",
+  "timestamp_utc": "2026-07-05T04:00:35Z",
+  "text": "Seine langen Kiefer waren mit mehr als 70 messerscharfen Zähnen ausgestattet, zuzüglich eines weiteren Satzes am Gaumen, was bedeutete, dass es kein Entkommen für irgendein Tier gab, das seinen Weg kreuzte.",
+  "latency_sec": 3.0603,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Seine langen Kiefer waren mit mehr als 70 messerscharfen Zähnen ausgestattet, zuzüglich eines weiteren Satzes am Gaumen, was bedeutete, dass es kein Entkommen für irgendein Tier gab, das seinen Weg kreuzte.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPXy/jNhZi53wr/Bx0o6+muvGai+6s1klfIrjrZMy2YZqO/MXlGmMh1M2wkdow"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224035,
+    "id": "4tZJaqTCEcz71e8PxKycwAI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 52,
+      "prompt_tokens": 297,
+      "total_tokens": 349
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0052",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.08,
+  "ref_text_raw": "Normale Durchsagen erfolgen in der Metro ausschließlich auf Katalanisch, aber unvorhergesehene Störungen werden von einem automatisierten System in einer Vielzahl von Sprachen gemeldet, darunter Spanisch, Englisch, Französisch, Arabisch und Japanisch.",
+  "ref_text_normalized": "normale durchsagen erfolgen in der metro ausschließlich auf katalanisch aber unvorhergesehene störungen werden von einem automatisierten system in einer vielzahl von sprachen gemeldet darunter spanisch englisch französisch arabisch und japanisch",
+  "timestamp_utc": "2026-07-05T04:02:55Z",
+  "text": "Normale Durchsagen erfolgen in der Metro ausschließlich auf Katalanisch, aber unvorhergesehene Störungen werden von einer automatisierten System in einer Vielzahl von Sprachen gemeldet, darunter Spanisch, Englisch, Französisch, Arabisch und Japanisch.",
+  "latency_sec": 2.9747,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Normale Durchsagen erfolgen in der Metro ausschließlich auf Katalanisch, aber unvorhergesehene Störungen werden von einer automatisierten System in einer Vielzahl von Sprachen gemeldet, darunter Spanisch, Englisch, Französisch, Arabisch und Japanisch.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPWb6AOk9ohTuaxaL6Xlq7jxGx4ja+GihPKZBODX6OrKWVpui7LIc3Q9SANa5z"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224175,
+    "id": "btdJasLsFLui9tMPvLHh-QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 55,
+      "prompt_tokens": 348,
+      "total_tokens": 403
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0117",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.72,
+  "ref_text_raw": "Плато Гиза, или же Некрополь Гизы, в египетской Долине Мёртвых, включает несколько пирамид (из которых Великая пирамида Гизы — самая большая), несколько небольших гробниц, несколько храмов и Большой сфинкс.",
+  "ref_text_normalized": "плато гиза или же некрополь гизы в египетской долине мёртвых включает несколько пирамид из которых великая пирамида гизы — самая большая несколько небольших гробниц несколько храмов и большой сфинкс",
+  "timestamp_utc": "2026-07-05T07:26:53Z",
+  "text": "Плато Гиза или же некрополь Гизы в египетской долине мертвых включает несколько пирамид, из которых великая пирамида Гизы самая большая, несколько небольших гробниц, несколько храмов и большой Сфинкс.",
+  "latency_sec": 5.4161,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Плато Гиза или же некрополь Гизы в египетской долине мертвых включает несколько пирамид, из которых великая пирамида Гизы самая большая, несколько небольших гробниц, несколько храмов и большой Сфинкс.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236413,
+    "id": "OQdKauvhKJj_1e8PrLe2mQQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 54,
+      "prompt_tokens": 339,
+      "total_tokens": 895
+    }
+  }
+}

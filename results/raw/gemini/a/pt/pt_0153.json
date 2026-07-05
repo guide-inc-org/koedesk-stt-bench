@@ -1,0 +1,39 @@
+{
+  "utt_id": "pt_0153",
+  "lang": "pt",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.84,
+  "ref_text_raw": "Um curry é um prato à base de ervas e especiarias, juntas com carne ou vegetais.",
+  "ref_text_normalized": "um curry é um prato à base de ervas e especiarias juntas com carne ou vegetais",
+  "timestamp_utc": "2026-07-05T06:39:00Z",
+  "text": "Um curry é um prato à base de ervas e especiarias junta com carne e ou vegetais.",
+  "latency_sec": 3.879,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Um curry é um prato à base de ervas e especiarias junta com carne e ou vegetais.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783233540,
+    "id": "AfxJauS0OeON1e8PjO3d6AM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 336,
+      "total_tokens": 383
+    }
+  }
+}

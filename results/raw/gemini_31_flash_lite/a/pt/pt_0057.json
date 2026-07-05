@@ -1,0 +1,44 @@
+{
+  "utt_id": "pt_0057",
+  "lang": "pt",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.86,
+  "ref_text_raw": "No ano de 1990, foi colocado na lista de patrimônios da humanidade em ameaça, devido ao perigo das areias do deserto.",
+  "ref_text_normalized": "no ano de 1990 foi colocado na lista de patrimônios da humanidade em ameaça devido ao perigo das areias do deserto",
+  "timestamp_utc": "2026-07-05T06:57:20Z",
+  "text": "No ano de 1990, foi colocado na lista de patrimônios da humanidade em ameaça, devido ao perigo das areias do deserto.",
+  "latency_sec": 2.8245,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "No ano de 1990, foi colocado na lista de patrimônios da humanidade em ameaça, devido ao perigo das areias do deserto.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPpAOnaxPJQSIQYgWl/5B6pPeS8rc/QuMfuqV8vKA6B7fTqzdyWiuajqgStVQP"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234640,
+    "id": "TwBKaouKBqOm2roPua6M0QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 293,
+      "total_tokens": 328
+    }
+  }
+}

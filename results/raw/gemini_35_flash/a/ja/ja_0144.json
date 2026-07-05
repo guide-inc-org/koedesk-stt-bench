@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0144",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.0,
+  "ref_text_raw": "地球上の川から海に注ぐ水の20%は、アマゾン川から流れ出ています。",
+  "ref_text_normalized": "地球上の川から海に注ぐ水の20%は アマゾン川から流れ出ています",
+  "timestamp_utc": "2026-07-05T03:19:26Z",
+  "text": "地球上の川から海に注ぐ水の20%は、アマゾン川から流れ出ています。",
+  "latency_sec": 3.6933,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "地球上の川から海に注ぐ水の20%は、アマゾン川から流れ出ています。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtQFCtEFARFNMg9/UDOukg12+7ny0C0KvHQXS6XcNu62YlJyLMlwdmBnFMTL4YLfFxQW0qb+FDAoq2lSibKDdzGNVS+JEqhNBDh2QLSHYc4RZpCVU5YErVTx6Ncjw1MkhOJLEawlpfZN/gOz9KF/oyS8BHCinXGc812BYCm6YlyZ5NSqEFC1mvqOdOa/o6nYiK5xbxuKJLuZGg95xXqMpPawbWMXzKZuPRaMfhCtdJ/IG/KrCVvtQxu4cMDiJR0U3q98TFyxcnPiKi//iHpMZUQCUeIFWO8Ax+GxfRq0FP5V8Kj7S4Avx9zQVBCwIGlTlSzaXzu/v7J/wfHU9I7ElhtD7e5JUFuXQkbAHveNjA8bdBLn+Dr4VEBkWsTkI6Zza9LZbuYk4SltfwoqB1M7nvTGRrJbX3Hbsi1no62JqGCKTXRnH5POYlppg8xHqYUEUaYzD2sSKFhEOn++M3PyWolwJT/lw6VuS/rIXrRjRm1gkOSWEHJ8MGsMN0j92i1+BqNfIeAsTv7isCYGOa8Znbr/4Vx55sGVNBUq7JUE7/auy5ntb/1p17eBkczX+xFBLzoyonvUVLw2fhhJvzp/+7n2Pug0I+D+rsSDxYy9Vy/sSZn+ipNCBcvabGYjaGf1ey49FWXB075cn2tlDz7t3p5z8CD5dKnjJDhrrztRk0lFeHSDR+KO6KmVhbKDl1KYwo9p10SjfKPb9jvtqP58Fnn4sPwtlk5+WEJAbuIyt6s7U8+MhMwx4Ougr8eLuai732VZQg5oa8JFoVDlFMHuoMFj301XgTagRe/ns97JjGqz/nu7Xy/5jYDRyiP1zvXs22yLbWSOC6szf7BhTacWiGwvdLUrUxG7sU7GiGIAIUPF2yZ9aTQPXE0dznCmJs69KSIlZVwgHDpcjzJbDZkd391glP1grRaNx7x23Ul52AoIOb0cpeZuWWTPoIrD0/MV2unya3BOdw=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221566,
+    "id": "PM1JavOREeex2roPrLDX2QU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 246,
+      "total_tokens": 476
+    }
+  }
+}

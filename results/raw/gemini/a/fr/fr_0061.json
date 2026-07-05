@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0061",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.2,
+  "ref_text_raw": "D’après le U.S. Corps of Engineers, une pluviométrie de 6 pouces pourrait ouvrir une brèche dans les digues précédemment endommagées.",
+  "ref_text_normalized": "d'après le u.s. corps of engineers une pluviométrie de 6 pouces pourrait ouvrir une brèche dans les digues précédemment endommagées",
+  "timestamp_utc": "2026-07-05T04:49:53Z",
+  "text": "D'après le U.S. Corps of Engineers, une pluviométrie de 6 pouces pourrait ouvrir une brèche dans les digs précédemment endommagés.",
+  "latency_sec": 4.7843,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "D'après le U.S. Corps of Engineers, une pluviométrie de 6 pouces pourrait ouvrir une brèche dans les digs précédemment endommagés.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226993,
+    "id": "buJJasTLEsmrvr0Ps4zPyAI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 252,
+      "total_tokens": 312
+    }
+  }
+}

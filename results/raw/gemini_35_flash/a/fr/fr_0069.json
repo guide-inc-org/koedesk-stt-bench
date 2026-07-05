@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0069",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 13.8,
+  "ref_text_raw": "Les Sundarbans sont la plus grande ceinture de mangroves côtières du monde, s’étendant sur 80 km (50 miles) depuis la côte jusqu’à l’arrière-pays bangladais et indien.",
+  "ref_text_normalized": "les sundarbans sont la plus grande ceinture de mangroves côtières du monde s’étendant sur 80 km 50 miles depuis la côte jusqu’à l’arrière-pays bangladais et indien",
+  "timestamp_utc": "2026-07-05T05:07:27Z",
+  "text": "Les Sundarbans sont la plus grande ceinture de mangrove côtière du monde, s'étendant sur 80 kilomètres, 50 miles, depuis la côte jusqu'à l'arrière-pays bangladais et indien.",
+  "latency_sec": 4.6212,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Les Sundarbans sont la plus grande ceinture de mangrove côtière du monde, s'étendant sur 80 kilomètres, 50 miles, depuis la côte jusqu'à l'arrière-pays bangladais et indien.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228047,
+    "id": "jOZJarqEJ-ba1e8PnvbkmAI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 49,
+      "prompt_tokens": 366,
+      "total_tokens": 842
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0178",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 21.66,
+  "ref_text_raw": "Si bien la estrategia, que involucró la interrupción de suministros militares y civiles vitales, fue exitosa, dicha medida violó el derecho internacional generalizadamente reconocido y contemplado en varios acuerdos internacionales de los dos últimos siglos.",
+  "ref_text_normalized": "si bien la estrategia que involucró la interrupción de suministros militares y civiles vitales fue exitosa dicha medida violó el derecho internacional generalizadamente reconocido y contemplado en varios acuerdos internacionales de los dos últimos siglos",
+  "timestamp_utc": "2026-07-05T04:44:27Z",
+  "text": "Si bien la estrategia que involucró la interrupción de suministros militares y civiles vitales fue exitosa, dicha medida violó el derecho internacional generalizadamente reconocido y contemplado en varios acuerdos internacionales de los dos últimos siglos.",
+  "latency_sec": 2.703,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Si bien la estrategia que involucró la interrupción de suministros militares y civiles vitales fue exitosa, dicha medida violó el derecho internacional generalizadamente reconocido y contemplado en varios acuerdos internacionales de los dos últimos siglos.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPuFXQAIuiw18ejMSnnUeZl5uFFuV4Voz6CrEWR97164rhO7DlfFwFrjrO86pv"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226667,
+    "id": "KuFJapvVDsfG0-kPuZO6wQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 46,
+      "prompt_tokens": 563,
+      "total_tokens": 609
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0001",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.16,
+  "ref_text_raw": "Er griff auch alles an, was ins Wasser kam; selbst ein großer Dinosaurier wie der T. Rex war ihm nicht gewachsen.",
+  "ref_text_normalized": "er griff auch alles an was ins wasser kam selbst ein großer dinosaurier wie der t rex war ihm nicht gewachsen",
+  "timestamp_utc": "2026-07-05T03:40:05Z",
+  "text": "Er griff auch alles an, was ins Wasser kam. Selbst ein großer Dinosaurier wie der T-Rex war ihm nicht gewachsen.",
+  "latency_sec": 3.4614,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Er griff auch alles an, was ins Wasser kam. Selbst ein großer Dinosaurier wie der T-Rex war ihm nicht gewachsen.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222805,
+    "id": "E9JJaqTSG6Hc1e8P1OStiQU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 379,
+      "total_tokens": 468
+    }
+  }
+}

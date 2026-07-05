@@ -1,0 +1,36 @@
+{
+  "utt_id": "ko_0027",
+  "lang": "ko",
+  "engine": "google_stt_v2",
+  "duration_sec": 14.82,
+  "ref_text_raw": "생식 계열 세포의 돌연변이만이 자녀에게 유전될 수 있고, 다른 곳에서의 돌연변이는 세포 사망 또는 암을 유발할 수 있습니다.",
+  "ref_text_normalized": "생식 계열 세포의 돌연변이만이 자녀에게 유전될 수 있고 다른 곳에서의 돌연변이는 세포 사망 또는 암을 유발할 수 있습니다",
+  "timestamp_utc": "2026-07-05T04:53:04Z",
+  "text": "생식계열 세포의 돌연변이만이 자녀에게 유전될 수 있고, 다른 곳에서의 돌연변이는 세포사망 또는 암을 유발할 수 있습니다.",
+  "latency_sec": 5.2116,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "ko-KR",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "15s",
+      "requestId": "6cf1d807-0000-2576-aed5-7474463f96b5",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "생식계열 세포의 돌연변이만이 자녀에게 유전될 수 있고, 다른 곳에서의 돌연변이는 세포사망 또는 암을 유발할 수 있습니다."
+          }
+        ],
+        "languageCode": "ko-KR"
+      }
+    ]
+  }
+}

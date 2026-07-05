@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0008",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.48,
+  "ref_text_raw": "参列者の数が多すぎて、全員がサンピエトロ広場での葬儀に参加することは不可能でした。",
+  "ref_text_normalized": "参列者の数が多すぎて 全員がサンピエトロ広場での葬儀に参加することは不可能でした",
+  "timestamp_utc": "2026-07-05T10:13:14Z",
+  "text": "参列 者 の 数 が 多 すぎ て 全員 が サン ピエトロ 広場 で の 葬儀 に 参加 する こと は 不 可能 でし た 。",
+  "latency_sec": 2.8058,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "参列 者 の 数 が 多 すぎ て 全員 が サン ピエトロ 広場 で の 葬儀 に 参加 する こと は 不 可能 でし た 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPoDzQVdQKxRB8hj/WzXwud7dqxdxEzK+JJ3YxLfIGQDleN+QEoHOGW9t0vFCk"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246394,
+    "id": "OC5KavDLM62Qvr0PxLzU0Qc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 258,
+      "total_tokens": 293
+    }
+  }
+}

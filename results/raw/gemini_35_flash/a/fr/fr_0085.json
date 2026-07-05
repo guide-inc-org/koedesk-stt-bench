@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0085",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 5.94,
+  "ref_text_raw": "Entre 22 h 00 et 23 h 00 MDT, les détenus ont allumé un feu dans la cour.",
+  "ref_text_normalized": "entre 22 h 00 et 23 h 00 mdt les détenus ont allumé un feu dans la cour",
+  "timestamp_utc": "2026-07-05T05:08:57Z",
+  "text": "Entre 22 h et 23 h MDT, les détenus ont allumé un feu dans la cour.",
+  "latency_sec": 6.3843,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Entre 22 h et 23 h MDT, les détenus ont allumé un feu dans la cour.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228137,
+    "id": "5OZJavLqAeKSvr0Pv53i8AM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 170,
+      "total_tokens": 854
+    }
+  }
+}

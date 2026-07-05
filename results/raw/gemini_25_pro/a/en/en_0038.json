@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0038",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 4.5,
+  "ref_text_raw": "This is an important way to distinguish between some verbs and objects.",
+  "ref_text_normalized": "this is an important way to distinguish between some verbs and objects",
+  "timestamp_utc": "2026-07-05T10:22:12Z",
+  "text": "This is an important way to distinguish between some verbs and objects.",
+  "latency_sec": 4.8869,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "This is an important way to distinguish between some verbs and objects.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246932,
+    "id": "UDBKavDKGMKl9tMPpf6PiQE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 13,
+      "prompt_tokens": 165,
+      "total_tokens": 354
+    }
+  }
+}

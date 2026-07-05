@@ -1,0 +1,45 @@
+{
+  "utt_id": "vi_0006",
+  "lang": "vi",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 22.56,
+  "ref_text_raw": "Thông báo thông thường trong khu Metro chỉ được phát bằng tiếng Catalunya tuy nhiên với những sự cố bất ngờ thì thông báo sẽ được thực hiên qua hệ thống tự động bằng nhiều thứ tiếng gồm tiếng Tây Ban Nha, tiếng Anh, tiếng Pháp, tiếng Ả rập và tiếng Nhật.",
+  "ref_text_normalized": "thông báo thông thường trong khu metro chỉ được phát bằng tiếng catalunya tuy nhiên với những sự cố bất ngờ thì thông báo sẽ được thực hiên qua hệ thống tự động bằng nhiều thứ tiếng gồm tiếng tây ban nha tiếng anh tiếng pháp tiếng ả rập và tiếng nhật",
+  "timestamp_utc": "2026-07-05T08:28:32Z",
+  "text": "Thông báo thông thường trong khu Metro chỉ được phát bằng tiếng Catalonia. Tuy nhiên, với những sự cố bất ngờ thì thông báo sẽ được thực hiện qua hệ thống tự động từ nhiều thứ tiếng gồm tiếng Tây Ban Nha, tiếng Anh, tiếng Pháp, tiếng Ả Rập và tiếng Nhật.",
+  "latency_sec": 4.6085,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Thông báo thông thường trong khu Metro chỉ được phát bằng tiếng Catalonia. Tuy nhiên, với những sự cố bất ngờ thì thông báo sẽ được thực hiện qua hệ thống tự động từ nhiều thứ tiếng gồm tiếng Tây Ban Nha, tiếng Anh, tiếng Pháp, tiếng Ả Rập và tiếng Nhật.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240112,
+    "id": "rRVKapK4ELGivr0P0MTRmQU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 60,
+      "prompt_tokens": 585,
+      "total_tokens": 993
+    }
+  }
+}

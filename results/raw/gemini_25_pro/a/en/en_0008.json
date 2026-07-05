@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0008",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 11.04,
+  "ref_text_raw": "The aspect ratio of this format (dividing by twelve to obtain the simplest whole-number ratio) is therefore said to be 3:2.",
+  "ref_text_normalized": "the aspect ratio of this format dividing by twelve to obtain the simplest whole-number ratio is therefore said to be 3:2",
+  "timestamp_utc": "2026-07-05T10:19:38Z",
+  "text": "The aspect ratio of this format, dividing by 12 to obtain the simplest whole number ratio, is therefore said to be 3 to 2.",
+  "latency_sec": 5.4338,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The aspect ratio of this format, dividing by 12 to obtain the simplest whole number ratio, is therefore said to be 3 to 2.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246778,
+    "id": "ti9KasilHfu8vr0P1bam0AY",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 375,
+      "total_tokens": 613
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0042",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.62,
+  "ref_text_raw": "Goats seem to have been first domesticated roughly 10,000 years ago in the Zagros Mountains of Iran.",
+  "ref_text_normalized": "goats seem to have been first domesticated roughly 10,000 years ago in the zagros mountains of iran",
+  "timestamp_utc": "2026-07-05T10:29:44Z",
+  "text": "Goats seem to have been first domesticated roughly 10,000 years ago in the Zagros Mountains of Iran.",
+  "latency_sec": 3.3411,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Goats seem to have been first domesticated roughly 10,000 years ago in the Zagros Mountains of Iran.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpcECpQEARFNMg96dxaBw4QbcZLriU5QC3oFiYo3viInxZoh8N1aYCKnOiPQ8XO7n+Tux/aL51ciwgzOVB9gJEZlVLF+OtRTLvnIX4PuqqIuwOSqGbTinysl5SaFOoBWr4xgLajozrqp25kBpyJVLKVQP/AQgkSNew7qciKytsdnYCXRZN0tFa8wBdxBWTbFpwhhOPfKbda0eBEdKon/fpBqzPk23ENdcYoLlfXH3gDv5wdMPb1xT0MJEgL3a5ScwFIIx1tguxOpEoOkORI/UNTuiybqff9c7MJl4bKXFSFc88SyEWcF5jx2sFbbJXgBDEl90E23a95YMzu9Ltw9yK9bpdg03GaTgZPkUWN+3u7P+ncWg3od4oGdLYrej1OD1rd1NOLUb0/0/HC8F18CDk0pw0txkEeBSTTRNP2g2W+Jfigrqra54si22bdblIF9jujvOPYtyIhOyAoEBcrWabjEOpRuLPQpohLU89cRWANkEfGwrBw8hnNeeaTWds260jWXAPzP9yxP4lp5pCM06JuoZgL0MZMmOfd1ZRsa91FOlL6Y5Jx4PCrMBJIdGOYEQNZk96fC+k22ctW+ySEmYtAgCQIlEr2NZwiy96rbGZsxgDcozYm/3m+KDVDoLGCQcRYWeHBoYlLZ4ESA4tTQcOVGtAviAJAOPz0wl4v9CwuvyFNrQKlSmh+16gd7Q2ofmEtsKVFgpH4n2Q=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247384,
+    "id": "FjJKat-ICJTc2roP-cDPmAY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 287,
+      "total_tokens": 438
+    }
+  }
+}

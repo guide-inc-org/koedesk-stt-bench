@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0165",
+  "lang": "th",
+  "engine": "gemini_25_flash",
+  "duration_sec": 21.48,
+  "ref_text_raw": "รถโดยสารออกจากสถานีรถระหว่างมณฑล (ข้ามแม่น้ำ) ตลอดทั้งวัน โดยส่วนใหญ่แล้วรถที่มุ่งหน้าไปทางตะวันออกและ Jakar/Bumthang จะออกจากสถานีระหว่างเวลา 06.30 and 07.30 น.",
+  "ref_text_normalized": "รถโดยสารออกจากสถานีรถระหว่างมณฑล ข้ามแม่น้ำ ตลอดทั้งวัน โดยส่วนใหญ่แล้วรถที่มุ่งหน้าไปทางตะวันออกและ jakar/bumthang จะออกจากสถานีระหว่างเวลา 06.30 and 07.30 น",
+  "timestamp_utc": "2026-07-05T07:47:53Z",
+  "text": "รถ โดย สาร ออก จาก สถานี รถ ระหว่าง มณฑล ข้าม แม่ น้ำ ตลอด ทั้ง วัน โดย ส่วน ใหญ่ แล้ว รถ ที่ มุ่ง หน้า ไป ทาง ตะวัน ออก และ จา กา บูมแทง จะ ออก จาก สถานี ระหว่าง เวลา 6.30 น. และ 7.30 น.",
+  "latency_sec": 5.0331,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "รถ โดย สาร ออก จาก สถานี รถ ระหว่าง มณฑล ข้าม แม่ น้ำ ตลอด ทั้ง วัน โดย ส่วน ใหญ่ แล้ว รถ ที่ มุ่ง หน้า ไป ทาง ตะวัน ออก และ จา กา บูมแทง จะ ออก จาก สถานี ระหว่าง เวลา 6.30 น. และ 7.30 น.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237673,
+    "id": "JgxKapr8OsKl9tMPpf6PiQE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 70,
+      "prompt_tokens": 709,
+      "total_tokens": 896
+    }
+  }
+}

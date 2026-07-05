@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0016",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.64,
+  "ref_text_raw": "Am 15. August 1940 fielen die Alliierten in Südfrankreich ein; die Invasion wurde „Operation Dragoon“ genannt.",
+  "ref_text_normalized": "am 15. august 1940 fielen die alliierten in südfrankreich ein die invasion wurde operation dragoon genannt",
+  "timestamp_utc": "2026-07-05T03:41:08Z",
+  "text": "Am 15. August 1944 fielen die Alliierten in Südfrankreich ein. Die Invasion wurde Operation Dragoon genannt.",
+  "latency_sec": 3.0859,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Am 15. August 1944 fielen die Alliierten in Südfrankreich ein. Die Invasion wurde Operation Dragoon genannt.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222868,
+    "id": "UtJJavmtNpj_1e8PrLe2mQQ",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 298,
+      "total_tokens": 354
+    }
+  }
+}

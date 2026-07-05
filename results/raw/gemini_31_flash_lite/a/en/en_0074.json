@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0074",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.42,
+  "ref_text_raw": "Everything in the Universe is made of matter. All matter is made of tiny particles called atoms.",
+  "ref_text_normalized": "everything in the universe is made of matter all matter is made of tiny particles called atoms",
+  "timestamp_utc": "2026-07-05T10:32:19Z",
+  "text": "Everything in the universe is made of matter. All matter is made of tiny particles called atoms.",
+  "latency_sec": 2.443,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Everything in the universe is made of matter. All matter is made of tiny particles called atoms.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPhN58l878lKvnmZiV1Q1DGsu8oT/Isnh6WEVQTAjZnz0df5bX7Ysz1SMdtUAE"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247539,
+    "id": "sjJKaoCzF_KE0-kPh9im2AE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 182,
+      "total_tokens": 201
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "vi_0016",
+  "lang": "vi",
+  "engine": "gemini_25_pro",
+  "duration_sec": 6.6,
+  "ref_text_raw": "Ông gọi những tin đồn này là \"cuộc tán gẫu về chính trị và sự điên rồ\".",
+  "ref_text_normalized": "ông gọi những tin đồn này là cuộc tán gẫu về chính trị và sự điên rồ",
+  "timestamp_utc": "2026-07-05T08:15:10Z",
+  "text": "ông gọi những tin đồn này là cuộc tán gẫu về chính trị và sự điên rồ.",
+  "latency_sec": 5.949,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ông gọi những tin đồn này là cuộc tán gẫu về chính trị và sự điên rồ.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239310,
+    "id": "iRJKapOJNOn62roPgJLP-QI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 233,
+      "total_tokens": 561
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0137",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 13.26,
+  "ref_text_raw": "Pa amb Oli 是一种在夏天尤为流行的简单晚餐：面包搭配橄榄油、番茄，手头上任何佐料都可加入，比如奶酪、金枪鱼等。",
+  "ref_text_normalized": "pa amb oli 是 一 种 在 夏 天 尤 为 流 行 的 简 单 晚 餐 面 包 搭 配 橄 榄 油 番 茄 手 头 上 任 何 佐 料 都 可 加 入 比 如 奶 酪 金 枪 鱼 等",
+  "timestamp_utc": "2026-07-05T09:18:48Z",
+  "text": "Pa mom oil 是一种在夏天尤为流行的简单晚餐，面包搭配橄榄油、番茄，手上任何佐料都可加入，比如奶酪、金枪鱼等。",
+  "latency_sec": 6.5817,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Pa mom oil 是一种在夏天尤为流行的简单晚餐，面包搭配橄榄油、番茄，手上任何佐料都可加入，比如奶酪、金枪鱼等。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243128,
+    "id": "cyFKasi3DcKw0-kPjYbn-AU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 353,
+      "total_tokens": 1187
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0185",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.42,
+  "ref_text_raw": "Selon l'agence nucléaire japonaise, du césium et de l'iode radioactifs ont été identifiés à la centrale.",
+  "ref_text_normalized": "selon l'agence nucléaire japonaise du césium et de l'iode radioactifs ont été identifiés à la centrale",
+  "timestamp_utc": "2026-07-05T05:17:56Z",
+  "text": "Selon l'agence nucléaire japonaise, du césium et de l'iode radioactifs ont été identifiés à la centrale.",
+  "latency_sec": 3.4721,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Selon l'agence nucléaire japonaise, du césium et de l'iode radioactifs ont été identifiés à la centrale.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EoEHCv4GARFNMg9eupukqJ7WZgBIV3a+AO+GUl+h+7iOi8XMX1xCA2eWHdDpiM9WSkFzcDChF7xj2zXk9/SAj0GbnI6Ht/yOBtwgyXLOt66kajRAL9pzhIdk4FNy0xODNtqAMn6YueYWX8nyN3F2uthZhuFb68yhCYzuJd9eKyT7Nfc943tY1k0U550ycUA28eek8rXqj6bG6uYbiC7lI41Dt95lspDSAjDGyhfOHLTokprjnVR/SdUpdccFMRblvy4eVc+MdvKs+LY2bHwQBE1E9xqzazwYOIOa9hmReckUEhkxgvsqELqq4BFPBs5UtsbFn/PUnWz48VU/Ls/J251hJkAxAxttxG5s/v6uJl0oR9YIAo5KXk8SjU27iUfjXRWib4H22yKp1w9b5p2ZszstDYXKViJZO+gKT7rft/GICp8G2UwciHmUB6l/hfD2rgEGC4UehbBM69tmxve33RFAwXZ6NahXVv/yHHQN20sKTXMx5ADA7/v/5e1zKtETlnDZIef6Txkdi30TcPi5vXOmnySytSsZK2GGPyA7mTIo+a35bnBjZ09LWKqMs0QkddlcKsrNhipFnzRmfWGDx9BlwoC7oNoBsIFz6CDAUD69NsUx+gbbOPIzVJ5QrzdDPj9NQ2KiT/jBa928IeKp8mBjbpv4s5hNHI0MUtC9lKmhXnx788g88pWVRuF415IarR6g1UkWUeEwO7s1OMBsjbX58GM6qWsYzxn2+5Q14mzK9IyuhxoQKlNF7dNS6BeOHGqB68DBefR3Q+dpR6YqNua7Xrcc1F+MP+AI4aymdoNnUotHqofibkNV207haimI8ZseuBJlNwVbtHkaV7jrgRg68mLpvWzSTtGgM7poq7aFjncRdi9VSoc9nh3gkTZARAhclmrKzsEWWAta3PmTeuNj1yMvZsdqHKThXLi1i3BU7fmYpqEuj0hV9nNFarkd1MORdNYH8j4/SNzLSOtqgf0yfb9C9pTlxg1jOl+f0dHIgfBL5yVxtDTgl9tvkHHiQcKUYYBmi5NSw1XhfNygwwNcUszH25jnUqlkIgIrXu7rfAKhNWZkB0VHt7qfHsKhaECDU8thNFmKXV3UgHVTngx6AlzNwnCbjUXnNdtK3hfkBFQP3DAj57yLkWSg0bKG0bQx7WiKMHlLPep+V/hbP9DNDU4APNWdFwg0ERXS11b3IZW1"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228675,
+    "id": "AelJav2tHZCe1e8PjsLZ0AQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 182,
+      "total_tokens": 429
+    }
+  }
+}

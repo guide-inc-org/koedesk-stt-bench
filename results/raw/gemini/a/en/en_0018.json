@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0018",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 5.36,
+  "ref_text_raw": "But there are a lot of things about birds that still look like a dinosaur.",
+  "ref_text_normalized": "but there are a lot of things about birds that still look like a dinosaur",
+  "timestamp_utc": "2026-07-05T10:20:29Z",
+  "text": "But there are a lot of things about boys that smell like a dinosaur.",
+  "latency_sec": 3.674,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "But there are a lot of things about boys that smell like a dinosaur.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246829,
+    "id": "6y9KavbwDc_H2roPya_FyQE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 15,
+      "prompt_tokens": 193,
+      "total_tokens": 231
+    }
+  }
+}

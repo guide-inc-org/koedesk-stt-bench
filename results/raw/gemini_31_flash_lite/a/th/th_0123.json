@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0123",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.94,
+  "ref_text_raw": "ผู้ต้องขังได้จุดไฟในสนามระหว่าง 22.00-23.00 น. เวลามาตรฐานเขตภูเขา",
+  "ref_text_normalized": "ผู้ต้องขังได้จุดไฟในสนามระหว่าง 22.00-23.00 น. เวลามาตรฐานเขตภูเขา",
+  "timestamp_utc": "2026-07-05T08:08:29Z",
+  "text": "ผู้ต้องขังได้จุดไฟในสนามระหว่าง 22:00 น. ถึง 23:00 น. เวลามาตรฐานเขตภูเขา",
+  "latency_sec": 2.6841,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ผู้ต้องขังได้จุดไฟในสนามระหว่าง 22:00 น. ถึง 23:00 น. เวลามาตรฐานเขตภูเขา",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP03P8oe5pijcoYFlZHZUsITAlW/9z4gItCNZj+Kx734vq3jGELVNqP0uf/fQR"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238909,
+    "id": "_BBKasGeB8Kw0-kPjYbn-AU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 245,
+      "total_tokens": 276
+    }
+  }
+}

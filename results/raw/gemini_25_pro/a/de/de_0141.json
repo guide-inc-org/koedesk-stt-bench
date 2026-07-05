@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0141",
+  "lang": "de",
+  "engine": "gemini_25_pro",
+  "duration_sec": 6.18,
+  "ref_text_raw": "Der Kohlsaft ändert seine Farbe, je nachdem wie sauer oder basisch (alkalisch) die Chemikalie ist.",
+  "ref_text_normalized": "der kohlsaft ändert seine farbe je nachdem wie sauer oder basisch alkalisch die chemikalie ist",
+  "timestamp_utc": "2026-07-05T03:54:05Z",
+  "text": "Der Kohlsaft ändert seine Farbe, je nachdem, wie sauer oder basisch, alkalisch die Chemikalie ist.",
+  "latency_sec": 6.1392,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Der Kohlsaft ändert seine Farbe, je nachdem, wie sauer oder basisch, alkalisch die Chemikalie ist.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223645,
+    "id": "WNVJapeANv6e0-kP-tbAuA4",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 219,
+      "total_tokens": 532
+    }
+  }
+}

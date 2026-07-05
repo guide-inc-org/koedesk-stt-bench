@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0127",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.72,
+  "ref_text_raw": "เกาะฮ่องกงทำให้ดินแดนฮ่องกงมีชื่อเสียง และยังเป็นสถานที่ที่นักท่องเที่ยวจำนวนมากมองว่าควรเน้นเป็นหลัก",
+  "ref_text_normalized": "เกาะฮ่องกงทำให้ดินแดนฮ่องกงมีชื่อเสียง และยังเป็นสถานที่ที่นักท่องเที่ยวจำนวนมากมองว่าควรเน้นเป็นหลัก",
+  "timestamp_utc": "2026-07-05T08:03:57Z",
+  "text": "เกาะฮ่องกงทำให้ดินแดนฮ่องกงมีชื่อเสียงและยังเป็นสถานที่ที่นักท่องเที่ยวจำนวนมากมองว่าควรเน้นเป็นหลัก",
+  "latency_sec": 3.8077,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "เกาะฮ่องกงทำให้ดินแดนฮ่องกงมีชื่อเสียงและยังเป็นสถานที่ที่นักท่องเที่ยวจำนวนมากมองว่าควรเน้นเป็นหลัก",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238637,
+    "id": "6g9Kas67Ncmzvr0PmpW5mQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 189,
+      "total_tokens": 522
+    }
+  }
+}

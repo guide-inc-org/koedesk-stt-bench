@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0195",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 18.12,
+  "ref_text_raw": "El período histórico europeo en el que se sitúan estos acontecimientos se conoce habitualmente como Alta Edad Media, entre los siglos XI, XII y XIII (es decir, entre los años 1000 y 1300 d. C.).",
+  "ref_text_normalized": "el período histórico europeo en el que se sitúan estos acontecimientos se conoce habitualmente como alta edad media entre los siglos xi xii y xiii es decir entre los años 1000 y 1300 d. c.",
+  "timestamp_utc": "2026-07-05T04:45:27Z",
+  "text": "El período histórico europeo en el que se sitúa estos acontecimientos se conoce habitualmente como alta Edad Media, entre los siglos XI, XII y XIII, es decir, entre los años 1000 y 1300 DC.",
+  "latency_sec": 3.0003,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "El período histórico europeo en el que se sitúa estos acontecimientos se conoce habitualmente como alta Edad Media, entre los siglos XI, XII y XIII, es decir, entre los años 1000 y 1300 DC.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPuXYK5Ju6jratUSq8HfsdNUyRg674d0fWNW7zlfVkm1M6pcOle15wuCe9bIxJ"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226727,
+    "id": "ZeFJauDvNPK8vr0P9K6siQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 49,
+      "prompt_tokens": 474,
+      "total_tokens": 523
+    }
+  }
+}

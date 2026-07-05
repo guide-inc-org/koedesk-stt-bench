@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0060",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 5.46,
+  "ref_text_raw": "В последствие он был перемещён в госпиталь Адденбрук в Кембридже.",
+  "ref_text_normalized": "в последствие он был перемещён в госпиталь адденбрук в кембридже",
+  "timestamp_utc": "2026-07-05T07:30:40Z",
+  "text": "Впоследствии он был перемещен в госпиталь Адденбрук в Кембридже.",
+  "latency_sec": 3.2512,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Впоследствии он был перемещен в госпиталь Адденбрук в Кембридже.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPbWM0zO+fdy0joy53c+DJ1Z2JWsX9UWjsB3SZNi2PgyQxfA4tDuWwLFNTSKf6"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236640,
+    "id": "HghKaonpDuel0-kPltOWuAs",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 158,
+      "total_tokens": 178
+    }
+  }
+}

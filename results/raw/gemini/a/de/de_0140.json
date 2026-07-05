@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0140",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 17.04,
+  "ref_text_raw": "Grundlegende chemische Elemente wie Gold, Silber und Kupfer sind den Menschen bereits seit der Antike bekannt, da diese alle in ihrer ursprünglichen Form in der Natur gefunden und mit primitiven Werkzeugen abgebaut werden können.",
+  "ref_text_normalized": "grundlegende chemische elemente wie gold silber und kupfer sind den menschen bereits seit der antike bekannt da diese alle in ihrer ursprünglichen form in der natur gefunden und mit primitiven werkzeugen abgebaut werden können",
+  "timestamp_utc": "2026-07-05T03:51:09Z",
+  "text": "Grundlegende chemische Elemente wie Gold, Silber und Kupfer sind dem Menschen bereits seit der Antike bekannt, da diese alle in ihrer ursprünglichen Form in der Natur gefunden und mit primitiven Werkzeugen abgebaut werden können.",
+  "latency_sec": 7.009,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Grundlegende chemische Elemente wie Gold, Silber und Kupfer sind dem Menschen bereits seit der Antike bekannt, da diese alle in ihrer ursprünglichen Form in der Natur gefunden und mit primitiven Werkzeugen abgebaut werden können.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223469,
+    "id": "qtRJavyjG5ja1e8P6IqesQI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 567,
+      "total_tokens": 643
+    }
+  }
+}

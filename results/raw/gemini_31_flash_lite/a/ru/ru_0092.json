@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0092",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.52,
+  "ref_text_raw": "Эпоха Троецарствия была одним из самых кровавых периодов в истории древнего Китая. Тысячи людей погибли, сражаясь за место на троне в большом дворце в Сиане.",
+  "ref_text_normalized": "эпоха троецарствия была одним из самых кровавых периодов в истории древнего китая тысячи людей погибли сражаясь за место на троне в большом дворце в сиане",
+  "timestamp_utc": "2026-07-05T07:32:39Z",
+  "text": "Эпоха Троецарствия была одним из самых кровавых периодов в истории Древнего Китая. Тысячи людей погибли, сражаясь за место на троне в Большом дворце в Сиане.",
+  "latency_sec": 2.7367,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Эпоха Троецарствия была одним из самых кровавых периодов в истории Древнего Китая. Тысячи людей погибли, сражаясь за место на троне в Большом дворце в Сиане.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPOPw3a7cHANLo3ZMdSNOKLgAtTOCnnYtOUQOOFhxAnOqRmUaxzNXeNpJhlXn+"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236759,
+    "id": "lQhKaumAI7yB0-kP2bOhwAc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 50,
+      "prompt_tokens": 309,
+      "total_tokens": 359
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0161",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.12,
+  "ref_text_raw": "그곳은 안전한 수영이 가능한 거의 모든 모래 해변이며, 대부분의 해변은 푸후투카와 나무(pohutukawa trees)가 만드는 그늘진 장소들이 많다.",
+  "ref_text_normalized": "그곳은 안전한 수영이 가능한 거의 모든 모래 해변이며 대부분의 해변은 푸후투카와 나무pohutukawa trees가 만드는 그늘진 장소들이 많다",
+  "timestamp_utc": "2026-07-05T06:28:43Z",
+  "text": "그곳은 안전한 수영이 가능한 거의 모든 모래 해변이며 대부분의 해변은 푸르트카와 나무가 만드는 그늘진 장소들이 많다.",
+  "latency_sec": 2.8189,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "그곳은 안전한 수영이 가능한 거의 모든 모래 해변이며 대부분의 해변은 푸르트카와 나무가 만드는 그늘진 장소들이 많다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPS7pYdgsU4KiVqUpwkG3PmK4VZzFhQnjM9KMDQ64Y/0e3KbEZ6x5Kq+De/XRc"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232923,
+    "id": "mflJaqKyOOnF0-kPwPbOqAc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 324,
+      "total_tokens": 362
+    }
+  }
+}

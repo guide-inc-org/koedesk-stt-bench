@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0058",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.98,
+  "ref_text_raw": "Das Seitenverhältnis dieses Formats (geteilt durch zwölf, um das einfachste ganzzahlige Verhältnis zu erhalten) wird daher als 3:2 bezeichnet.",
+  "ref_text_normalized": "das seitenverhältnis dieses formats geteilt durch zwölf um das einfachste ganzzahlige verhältnis zu erhalten wird daher als 3:2 bezeichnet",
+  "timestamp_utc": "2026-07-05T03:44:23Z",
+  "text": "Das Seitenverhältnis dieses Formats geteilt durch 12, um das einfachste ganzzahlige Verhältnis zu erhalten, wird daher als 3 zu 2 bezeichnet.",
+  "latency_sec": 4.0115,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Das Seitenverhältnis dieses Formats geteilt durch 12, um das einfachste ganzzahlige Verhältnis zu erhalten, wird daher als 3 zu 2 bezeichnet.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223063,
+    "id": "FNNJasqrNsTs1e8Pu-GUwQI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 277,
+      "total_tokens": 379
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0054",
+  "lang": "ko",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.0,
+  "ref_text_raw": "심리학을 비롯해 과학에서는 모든 물질에 대한 아리스토텔레스의 견해를 받아들였다.",
+  "ref_text_normalized": "심리학을 비롯해 과학에서는 모든 물질에 대한 아리스토텔레스의 견해를 받아들였다",
+  "timestamp_utc": "2026-07-05T05:56:34Z",
+  "text": "심리학을 비롯해 과학에서는 모든 물질에 대한 아리스토텔레스의 견해를 받아들였다.",
+  "latency_sec": 3.5451,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "심리학을 비롯해 과학에서는 모든 물질에 대한 아리스토텔레스의 견해를 받아들였다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230994,
+    "id": "EPJJapWuCtmK0-kP0MrjsQM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 405,
+      "total_tokens": 486
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0051",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.0,
+  "ref_text_raw": "Für die Archipele und Seen brauchen Sie nicht unbedingt eine Yacht.",
+  "ref_text_normalized": "für die archipele und seen brauchen sie nicht unbedingt eine yacht",
+  "timestamp_utc": "2026-07-05T03:43:52Z",
+  "text": "Für die Archipeli und Seen brauchen sie nicht unbedingt eine Yacht.",
+  "latency_sec": 3.2711,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Für die Archipeli und Seen brauchen sie nicht unbedingt eine Yacht.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223032,
+    "id": "9tJJarzeBNG3vr0PstvC2AM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 14,
+      "prompt_tokens": 309,
+      "total_tokens": 323
+    }
+  }
+}

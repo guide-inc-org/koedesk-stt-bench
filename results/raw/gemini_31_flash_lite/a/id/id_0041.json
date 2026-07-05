@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0041",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.28,
+  "ref_text_raw": "Semua nomina, di samping kata Sie untuk Anda, selalu dimulai dengan huruf kapital, bahkan di tengah kalimat.",
+  "ref_text_normalized": "semua nomina di samping kata sie untuk anda selalu dimulai dengan huruf kapital bahkan di tengah kalimat",
+  "timestamp_utc": "2026-07-05T05:47:24Z",
+  "text": "Semua nomina di samping kata \"si\" untuk Anda, selalu dimulai dengan huruf kapital bahkan di tengah kalimat.",
+  "latency_sec": 2.6144,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Semua nomina di samping kata \"si\" untuk Anda, selalu dimulai dengan huruf kapital bahkan di tengah kalimat.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPwOdHDbQztjamhrcC2D10sknFPIMTZmtIIZ/92XbGsyoXoqeqrALYeGYro+Qr"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230444,
+    "id": "6-9Jaq_rHMTs1e8Pu-GUwQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 228,
+      "total_tokens": 250
+    }
+  }
+}

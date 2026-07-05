@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0083",
+  "lang": "de",
+  "engine": "gemini_25_pro",
+  "duration_sec": 18.12,
+  "ref_text_raw": "Frau Kirchner kündigte ihre Absicht, als Präsidentin zu kandidieren, im Argentinischen Theater an. Dort begann sie 2005 auch ihre Kampagne für den Senat als Mitglied der Delegation der Provinz Buenos Aires.",
+  "ref_text_normalized": "frau kirchner kündigte ihre absicht als präsidentin zu kandidieren im argentinischen theater an dort begann sie 2005 auch ihre kampagne für den senat als mitglied der delegation der provinz buenos aires",
+  "timestamp_utc": "2026-07-05T03:48:07Z",
+  "text": "Frau Kirchner kündigte ihre Absicht, als Präsidentin zu kandidieren, im Argentinischen Theater an. Dort begann sie 2005 auch ihre Kampagne für den Senat als Mitglied der Delegation der Provinz Buenos Aires.",
+  "latency_sec": 5.2596,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Frau Kirchner kündigte ihre Absicht, als Präsidentin zu kandidieren, im Argentinischen Theater an. Dort begann sie 2005 auch ihre Kampagne für den Senat als Mitglied der Delegation der Provinz Buenos Aires.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223287,
+    "id": "89NJare7OOn62roPgJLP-QI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 49,
+      "prompt_tokens": 601,
+      "total_tokens": 877
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "vi_0057",
+  "lang": "vi",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 17.76,
+  "ref_text_raw": "Chúng ta không biết chắc chắn nhưng có thể nó có lưỡi chẻ. Thức ăn của nó bao gồm rùa, cá lớn, những con mosasaur khác và nó thậm chí có thể là thú ăn thịt.",
+  "ref_text_normalized": "chúng ta không biết chắc chắn nhưng có thể nó có lưỡi chẻ thức ăn của nó bao gồm rùa cá lớn những con mosasaur khác và nó thậm chí có thể là thú ăn thịt",
+  "timestamp_utc": "2026-07-05T08:33:31Z",
+  "text": "Chúng ta không biết chắc chắn nhưng chúng ta có thể có lưỡi chẻ. Thức ăn của nó bao gồm rùa, cá lớn, những con Mosasaur khác, và nó thậm chí có thể là thú ăn thịt.",
+  "latency_sec": 6.6795,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Chúng ta không biết chắc chắn nhưng chúng ta có thể có lưỡi chẻ. Thức ăn của nó bao gồm rùa, cá lớn, những con Mosasaur khác, và nó thậm chí có thể là thú ăn thịt.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240411,
+    "id": "1hZKauaiGO6A0-kPgc2WkAY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 48,
+      "prompt_tokens": 466,
+      "total_tokens": 1341
+    }
+  }
+}

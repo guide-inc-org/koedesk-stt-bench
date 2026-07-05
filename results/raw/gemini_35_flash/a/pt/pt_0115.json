@@ -1,0 +1,45 @@
+{
+  "utt_id": "pt_0115",
+  "lang": "pt",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.18,
+  "ref_text_raw": "Mas, depois de não atingir o alvo do capitão, a Índia só conseguiu fazer 36 corridas e perdeu 7 alvos, finalizando as entradas.",
+  "ref_text_normalized": "mas depois de não atingir o alvo do capitão a índia só conseguiu fazer 36 corridas e perdeu 7 alvos finalizando as entradas",
+  "timestamp_utc": "2026-07-05T06:52:48Z",
+  "text": "Mas, depois de não atingir o alvo do capitão, a Índia só conseguiu fazer 36 corridas e perdeu sete alvos, finalizando as entradas.",
+  "latency_sec": 5.2198,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Mas, depois de não atingir o alvo do capitão, a Índia só conseguiu fazer 36 corridas e perdeu sete alvos, finalizando as entradas.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Er4LCrsLARFNMg/WxI6RZA22KAlPOmBqCPxLQZLLYE/cu97QCQ5Cvwd/XHv/9B1cIn5lT8adq3371saTHxhr0N3xsLyr5MpdP/vt+Ua9w/TOdyCPc9W8xSjmgM60AtqJKnx4Qa54OTE5tu+dYP/oS61/H8s3tdSfxaBGleuOyv4W/cpHi9R54GhlVYQSX7ffhM6dR5oPRFmtVXh/loM+KIj8TwQ3brzHRW6JuVdjngP087i7Psrv8QgyOlsjfbT7Gv555WeqeDwA/ke/HfKuu3QmTuNx+Sr+MEHsXTkj0uSMy8TrcRM1DA3vJjITfS65D1fPxM2jjtG7w0CIJsXdKvXiB9608uWJvkCoC2A1cfxzXFlWjfOQk7ORiJn7+ORhUbnoggUN0ZR5H7+kqWaWhoWGEX4jouvA1VBBn1PTN+WF2VYSpnYs0sxt7+7DGjW6F/uU3RFvsT7qdmUKgw6tR9P+ABzw5efdRqY6DS2avdTNpZ0XQsdAaCFiHa3jdMXkhS6O1a1jdii3KE4WOnmdv6yOJVQ4zJbi6t3BAxZoF1/qKbbpC/2gD0VXegDnLsuF4NffKgp57fC+V6ouZbihvJ2AAldN1pGFSnf1LD7YImUqLmJGWK63VzhsKuxG/MRMuMUVZ9iSiXQ86yb8xoRQ1IS2CZ9xU2kcpYGvHYh9MJHtw4e+D9mawXMm7PvNLwc0QMKUDjFRNNlH+cBLGa4Xdr+poIlPhd8cAF4L+bvEZnZPGatsU/z8Dnvsjk4+tmiYdH6CMY8LgUmTU3mGmy7FHpRx6mwgAqXkVyUcYD82xjcLHqBA0lFt/OWF6cz0k4tcQplsDE2cnqPIw5tFcJaHSRs00ct3ZCFP6lPO30cF4A3jNImZAzljEhwKTkFsXuXiVg+2d7QTaCg2qd8reaacvbDYcWnkJTnJoc8mJdPb+9gi6AOIvp1llKjudu21Mzoq8Mzt/8jmv1lXJ2a3VRDNTA1BH+mGE0sLDsoRpcBzrsfm/eXu4+xA7lLRJNaXe20ABt9aaPdnj3G2Uz3zljGc2LC89zotvYhjP8/27PFm4kSQ1/P5rTSECexUupn8y8sx64YqqhTsqczYAhitj1LbHguCirRQJQ0ZqJSQz3W5GGb91MID9xOTKDTdo2uB72QnxHuTg3W7alZg+NyKkUzhj4/FE4cRAlO03Ra33CzGXBUZDlqZ+L4KsBsgzrvOupPMAc6RQUpttr+0ICo0/v56THkQt5J0gRd7gU4fcmY8STdRHEr4ZjnxKRWzsrm6BFWDC4YtREXowO16uHe+YQ7E8zJwhfV+dVtoo7+fFOuknqoP1Ya8pA+Q7sWK3iPr5eNejZcNGfbE8PbpS8IAIX98QgelT44n8j+nejpV78m7AbqeK3+phqX8XJMe4PWJUygfxDbeCfXC49vYW8Rs2qYNgQrwiK8u21oVc7nz+qj9wARD1Ecm8HbAeeVmEYD1VjAEj+WJmZ2rOUzmvz4pbwxmGFIrUuQcRNeroVTVn6qU5fatDSrOEpPySdzxpXAVeMcz/Ax9j/zmHWlhTcaOwXFKRviwDTTZxs2mh04m8FbDNY9MX2ii2TEdYvf9Jy1DpUJR8B75Dkwzb7KeYynLS9+oJN5zzVv2dl+LRotGUvOprgZ9na/KSeH6Uw6GBVKp/mRiymUP4e+JAbidYPqguHaao+gJCCUFMv1ledE7E+DUoLSjoYFouOrc6xBGrHAPM9RO19hVmXoDkqGlhPoL3GahPW86GF0SjLrnYBTCzlEwZVL8Ec5q8RWb1B33csv9T01fQ9Ha4BPMWXbhFU01WQU/vfNUgiwASnGn8hq4HZYD95GIIYOAITq7xixdLmYx/KVNSn7aBtPa8aNGwffFYcfEiUrscawXmRRulfIyKFOvGpVwz+d7wZldZyhAwGcFZTuFzXDLgbuK6FvoOJ3qUNYUvOASdXMxdnoqk7TeUi+Kogx0"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234368,
+    "id": "PP9JapLFJaOm2roPua6M0QE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 326,
+      "total_tokens": 786
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0056",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.22,
+  "ref_text_raw": "ไอออนของไฮโดรเจนเป็นโปรตอนที่ถูกดึงอิเล็กตรอนออก (เนื่องจากอะตอมของไฮโดรเจนนั้นประกอบไปด้วยโปรตอนและอิเล็กตรอนอย่างละหนึ่งตัว)",
+  "ref_text_normalized": "ไอออนของไฮโดรเจนเป็นโปรตอนที่ถูกดึงอิเล็กตรอนออก เนื่องจากอะตอมของไฮโดรเจนนั้นประกอบไปด้วยโปรตอนและอิเล็กตรอนอย่างละหนึ่งตัว",
+  "timestamp_utc": "2026-07-05T08:04:06Z",
+  "text": "ไอออนของไฮโดรเจนเป็นโปรตอนที่ถูกดึงอิเล็กตรอนออก เนื่องจากอะตอมของไฮโดรเจนนั้นประกอบไปด้วยโปรตอนและอิเล็กตรอนอย่างละ 1 ตัว",
+  "latency_sec": 2.8119,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ไอออนของไฮโดรเจนเป็นโปรตอนที่ถูกดึงอิเล็กตรอนออก เนื่องจากอะตอมของไฮโดรเจนนั้นประกอบไปด้วยโปรตอนและอิเล็กตรอนอย่างละ 1 ตัว",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPKMjgowiPhEDyKiup1wbbQ+Z+36d2pFMc0HA+mYiZUsD0Z19bSAom8FdFNS5i"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238646,
+    "id": "9Q9KapHAC_jG2roPjLn34AI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 302,
+      "total_tokens": 346
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "vi_0048",
+  "lang": "vi",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 15.66,
+  "ref_text_raw": "Bến cảng này là nơi xảy ra một trận đình chiến hải quân khét tiếng vào năm 1889 khi bảy tàu từ Đức, Hoa Kỳ và Anh từ chối rời bến cảng.",
+  "ref_text_normalized": "bến cảng này là nơi xảy ra một trận đình chiến hải quân khét tiếng vào năm 1889 khi bảy tàu từ đức hoa kỳ và anh từ chối rời bến cảng",
+  "timestamp_utc": "2026-07-05T08:32:38Z",
+  "text": "Bến cảng này là nơi xảy ra một trận đối đầu hải quân khét tiếng vào năm 1889 khi bảy tàu từ Đức, Hoa Kỳ và Anh từ chối rời bến cảng.",
+  "latency_sec": 8.2596,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Bến cảng này là nơi xảy ra một trận đối đầu hải quân khét tiếng vào năm 1889 khi bảy tàu từ Đức, Hoa Kỳ và Anh từ chối rời bến cảng.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240358,
+    "id": "nxZKapvJNdG3vr0PstvC2AM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 413,
+      "total_tokens": 1625
+    }
+  }
+}

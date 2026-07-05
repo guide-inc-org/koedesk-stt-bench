@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0150",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.06,
+  "ref_text_raw": "Apia là thủ đô của Samoa. Thành phố này nằm trên hòn đảo Upolu và có dân số gần 40.000 người.",
+  "ref_text_normalized": "apia là thủ đô của samoa thành phố này nằm trên hòn đảo upolu và có dân số gần 40.000 người",
+  "timestamp_utc": "2026-07-05T08:46:42Z",
+  "text": "Apia là thủ đô của Samoa, thành phố này nằm trên hòn đảo Upolu và có dân số gần 40.000 người.",
+  "latency_sec": 2.7503,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Apia là thủ đô của Samoa, thành phố này nằm trên hòn đảo Upolu và có dân số gần 40.000 người.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPhy+Kk92ArimcNKaQdHRzyvYR0jpl4m9SWzkuDfmW4UhkSJge2R9TKpFfe1om"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241202,
+    "id": "8BlKatGqMfTF1e8P96Xb2QI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 248,
+      "total_tokens": 281
+    }
+  }
+}

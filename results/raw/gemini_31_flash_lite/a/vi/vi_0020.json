@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0020",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 19.5,
+  "ref_text_raw": "Vương quốc Ma-rốc đã xây dựng lại thành phố này giống như Daru l-Badya và nó được đặt tên là Casablanca bởi các thương nhân Tây Ban Nha, là những người đã lập các cơ sở giao thương ở đó.",
+  "ref_text_normalized": "vương quốc ma-rốc đã xây dựng lại thành phố này giống như daru l-badya và nó được đặt tên là casablanca bởi các thương nhân tây ban nha là những người đã lập các cơ sở giao thương ở đó",
+  "timestamp_utc": "2026-07-05T08:38:53Z",
+  "text": "Vương quốc Maroc đã xây dựng lại thành phố này giống như Daru Ba đây và nó được đặt tên là Casablanca bởi các thương nhân Tây Ban Nha là những người đã lập các cơ sở giao thương ở đó.",
+  "latency_sec": 3.0899,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Vương quốc Maroc đã xây dựng lại thành phố này giống như Daru Ba đây và nó được đặt tên là Casablanca bởi các thương nhân Tây Ban Nha là những người đã lập các cơ sở giao thương ở đó.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPk2+JgokQRElXghULwCNgj5FT4K3t53fjUHdVMFwnOkbeHsJKpjN0P4qkihWo"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240733,
+    "id": "HBhKaqTBEqzmosUPj8LSwAE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 509,
+      "total_tokens": 553
+    }
+  }
+}

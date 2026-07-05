@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0028",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.08,
+  "ref_text_raw": "Das stimmt allerdings nicht. Obwohl auf der Rückseite des Schriftstücks etwas geschrieben steht, handelt es sich nicht um eine Schatzkarte.",
+  "ref_text_normalized": "das stimmt allerdings nicht obwohl auf der rückseite des schriftstücks etwas geschrieben steht handelt es sich nicht um eine schatzkarte",
+  "timestamp_utc": "2026-07-05T03:42:03Z",
+  "text": "Das stimmt allerdings nicht, obwohl auf der Rückseite des Schriftstücks etwas geschrieben steht, handelt es sich nicht um eine Schatzkarte.",
+  "latency_sec": 3.5664,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Das stimmt allerdings nicht, obwohl auf der Rückseite des Schriftstücks etwas geschrieben steht, handelt es sich nicht um eine Schatzkarte.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222924,
+    "id": "idJJarTMIJ2D0-kP0faGoAE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 248,
+      "total_tokens": 402
+    }
+  }
+}

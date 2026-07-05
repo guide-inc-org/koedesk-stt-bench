@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0009",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.82,
+  "ref_text_raw": "Par exemple, des étudiants de l'école Bennet en Caroline du Nord conçoivent chaque année un site web consacré à leur visite de la capitale de l'État. Chaque année, le site est remis à jour, mais les anciennes versions sont conservées en ligne pour servir d'album.",
+  "ref_text_normalized": "par exemple des étudiants de l'école bennet en caroline du nord conçoivent chaque année un site web consacré à leur visite de la capitale de l'état chaque année le site est remis à jour mais les anciennes versions sont conservées en ligne pour servir d'album",
+  "timestamp_utc": "2026-07-05T05:09:53Z",
+  "text": "Par exemple, des étudiants de l'école Béné en Caroline du Nord, conçoivent chaque année un site web consacré à leur visite de la capitale de l'État. Chaque année, le site est remis à jour, 1800 scènes de versions sont conservées en ligne pour servir d'album.",
+  "latency_sec": 2.9797,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Par exemple, des étudiants de l'école Béné en Caroline du Nord, conçoivent chaque année un site web consacré à leur visite de la capitale de l'État. Chaque année, le site est remis à jour, 1800 scènes de versions sont conservées en ligne pour servir d'album.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP4ywCzlqyM/ApnzKbEi2T+2IVMSzNAMJTfvY/RLgGOUTaNHM7DdcU08tiwLIL"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228193,
+    "id": "H-dJavmCJeKSvr0Pv53i8AM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 65,
+      "prompt_tokens": 392,
+      "total_tokens": 457
+    }
+  }
+}

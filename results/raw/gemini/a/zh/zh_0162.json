@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0162",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.54,
+  "ref_text_raw": "他们乘坐马车回到了巴黎，一群人包围了他们，大喊大叫地威胁国王和王后。",
+  "ref_text_normalized": "他 们 乘 坐 马 车 回 到 了 巴 黎 一 群 人 包 围 了 他 们 大 喊 大 叫 地 威 胁 国 王 和 王 后",
+  "timestamp_utc": "2026-07-05T09:01:14Z",
+  "text": "他们乘坐马车回到了巴黎，一群人包围了他们，大喊大叫的威胁国王和王后。",
+  "latency_sec": 3.685,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "他们乘坐马车回到了巴黎，一群人包围了他们，大喊大叫的威胁国王和王后。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242074,
+    "id": "WB1KaoitJNy4vr0Pgo3U0Q8",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 327,
+      "total_tokens": 353
+    }
+  }
+}

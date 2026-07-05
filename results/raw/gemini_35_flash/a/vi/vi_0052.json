@@ -1,0 +1,45 @@
+{
+  "utt_id": "vi_0052",
+  "lang": "vi",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.2,
+  "ref_text_raw": "Hiển nhiên, nếu bạn biết một ngôn ngữ La Mã, bạn sẽ dễ dàng học Tiếng Bồ Đào Nha.",
+  "ref_text_normalized": "hiển nhiên nếu bạn biết một ngôn ngữ la mã bạn sẽ dễ dàng học tiếng bồ đào nha",
+  "timestamp_utc": "2026-07-05T08:33:01Z",
+  "text": "Hiển nhiên, nếu bạn biết một ngôn ngữ La Mã, bạn sẽ dễ dàng học tiếng Bồ Đào Nha.",
+  "latency_sec": 3.3133,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Hiển nhiên, nếu bạn biết một ngôn ngữ La Mã, bạn sẽ dễ dàng học tiếng Bồ Đào Nha.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqEGCp4GARFNMg9MDfKUMqaKMCuoYB4NBPdvmYBJD9GBrrxn/MYHf6nMbw+xyKdD5QVgkZQ05/eheHxuN+2VxOo0UkrnWvjabmDeDZVkmZaFc4rh64XzIWiNTKdVbsXg6UOfBpgaS497ptniZsm7FvGjXBEVXdFrCZlzdOYgBfMqJBYPbLaQaNmxvJ9HbVEmWi/wIbboR9oZhqapJKuKk8SD4unhDFiP72f3+0MjecFcfFhJXdihkEHHOxfnY8N29eNRXGS09SGs67IS1YG4uQZSi/JAuv68YHPKRXDr4jV+Y4knEALoFnbX+HE7XpxLWLLcoUFA1EGyazuoi6VwR/TgtA68+UScAph6bxQxnPDRo1jOkzldYc8cLBqgYqLKXk3bXfo5rvH1hh70ZA2142XOKbd3UeyU6MbsnZSW/7/VzN8ksOpsP59btdNXBqayYefglE0M2TOZsgTvGw51wHV58iejwhDuvmscBe3mLKIiYbh/BWCyo/nK5cG6SVwDwxrTsCulnHaygA9jxnZ/FS8kzchQXsf1dry31mNR0wGixtBqDgvah/ckAyQzWY30E8GyFSEROobZamHSH8NRatSetyLnRFz3KhgIlxO9ui4NLZi8GFOKwEI7aJvgmL+c2AXvmS4DlTQ7ZLli9Np6ntvtuFducjvIY0lac1fJFcEjAtfz9VzyQHtSfS7du7c67yCB0akAObHdqgmzcenBSEX6bAYHsM9H2XNQg7qd6NPbsQzjZl6zFRGlkIFHOOtcH+fiO1DFE4xOX11yfllf/10pDOUhlivkt6uvxLBEzkBrD7dzr96VEXkRAXmRKmXJDYYKkJfFa14zdsBPW2Qm8mTNSi8vqkPQWkZdS+jYieyZEKLW6adtvbn9MoeMCIld7l2QuchULG2v60av7yAvKoAIAsySCD8jZHYxHglRwQ6IdEsKT1kNxZmTwaB0gBN8JXs8y9cU9HhRPd5dBcHgLoAKQZw1Jzhm2CvcN3i3GA1fSRpFX7K/nK0s3nf+W5olcC9DCzNun8gPXRqI6F4A5zOkjokSy/uPBopOVWDYPvZZlPan"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240381,
+    "id": "uhZKaomZOdTM1e8Pof6vuQc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 201,
+      "total_tokens": 435
+    }
+  }
+}

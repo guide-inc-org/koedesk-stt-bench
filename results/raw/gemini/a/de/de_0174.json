@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0174",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.52,
+  "ref_text_raw": "Pflanzen generieren Sauerstoff, den Menschen einatmen, und sie nehmen das Kohlendioxid auf, das Menschen ausstoßen (das heißt, ausatmen).",
+  "ref_text_normalized": "pflanzen generieren sauerstoff den menschen einatmen und sie nehmen das kohlendioxid auf das menschen ausstoßen das heißt ausatmen",
+  "timestamp_utc": "2026-07-05T03:53:47Z",
+  "text": "Pflanzen generieren Sauerstoff, den Menschen einatmen und sie nehmen das Kohlendioxid auf, das Menschen ausstoßen, das heißt ausatmen.",
+  "latency_sec": 3.4658,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Pflanzen generieren Sauerstoff, den Menschen einatmen und sie nehmen das Kohlendioxid auf, das Menschen ausstoßen, das heißt ausatmen.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223627,
+    "id": "SdVJapypF-vYvr0P_YW_6QM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 390,
+      "total_tokens": 458
+    }
+  }
+}

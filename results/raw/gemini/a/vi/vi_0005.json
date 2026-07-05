@@ -1,0 +1,39 @@
+{
+  "utt_id": "vi_0005",
+  "lang": "vi",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.02,
+  "ref_text_raw": "Mọi danh từ, kế bên từ Sie dành cho bạn, luôn bắt đầu bằng một chữ viết hoa, ngay cả khi ở giữa câu.",
+  "ref_text_normalized": "mọi danh từ kế bên từ sie dành cho bạn luôn bắt đầu bằng một chữ viết hoa ngay cả khi ở giữa câu",
+  "timestamp_utc": "2026-07-05T08:11:49Z",
+  "text": "Mỗi danh từ kế bên từ 'she' dành cho bạn luôn bắt đầu bằng một chữ viết hoa ngay cả khi ở giữa câu.",
+  "latency_sec": 4.4668,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Mỗi danh từ kế bên từ 'she' dành cho bạn luôn bắt đầu bằng một chữ viết hoa ngay cả khi ở giữa câu.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239109,
+    "id": "wxFKasNI_KTT6Q_084PABw",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 342,
+      "total_tokens": 535
+    }
+  }
+}

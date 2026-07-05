@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0060",
+  "lang": "zh",
+  "engine": "gemini_25_pro",
+  "duration_sec": 18.0,
+  "ref_text_raw": "德尔·波特罗（Del Potro）在第二盘刚开局时就占上风，但在比分达到 6-6 后就得进行抢七大战。",
+  "ref_text_normalized": "德 尔 波 特 罗 del potro 在 第 二 盘 刚 开 局 时 就 占 上 风 但 在 比 分 达 到 6-6 后 就 得 进 行 抢 七 大 战",
+  "timestamp_utc": "2026-07-05T08:55:29Z",
+  "text": "德爾波特羅在第二盤剛開局時就佔上風, 但在比分達到6比6後,就得進行搶七大戰。",
+  "latency_sec": 3.7538,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "德爾波特羅在第二盤剛開局時就佔上風, 但在比分達到6比6後,就得進行搶七大戰。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241729,
+    "id": "_htKarncK9y-vr0P4tf2gQI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 598,
+      "total_tokens": 633
+    }
+  }
+}

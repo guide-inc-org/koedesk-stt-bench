@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0036",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.3,
+  "ref_text_raw": "洞窟はメッカの北にあたる山頂にあり、外界から完全に隔離されています。",
+  "ref_text_normalized": "洞窟はメッカの北にあたる山頂にあり 外界から完全に隔離されています",
+  "timestamp_utc": "2026-07-05T10:04:34Z",
+  "text": "洞窟はメッカの北に当たる山頂にあり、 外界から完全に隔離されています。",
+  "latency_sec": 4.4242,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "洞窟はメッカの北に当たる山頂にあり、 外界から完全に隔離されています。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783245874,
+    "id": "LyxKavPvG5T02roPp7fs4A4",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 319,
+      "total_tokens": 399
+    }
+  }
+}

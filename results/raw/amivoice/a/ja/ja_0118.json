@@ -1,0 +1,107 @@
+{
+  "utt_id": "ja_0118",
+  "lang": "ja",
+  "engine": "amivoice_general",
+  "duration_sec": 6.36,
+  "ref_text_raw": "群島や湖では、必ずしもヨットは必要ありません。",
+  "ref_text_normalized": "群島や湖では 必ずしもヨットは必要ありません",
+  "timestamp_utc": "2026-07-05T03:07:34Z",
+  "text": "群島や湖では必ずしもヨットは必要ありません。",
+  "latency_sec": 1.2758,
+  "params": {
+    "endpoint": "https://acp-api.amivoice.com/v1/recognize",
+    "grammarFileNames": "-a-general",
+    "logging": true,
+    "audio_conversion": "float32 wav -> pcm_16 wav (same samples)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "results": [
+      {
+        "tokens": [
+          {
+            "written": "群島",
+            "confidence": 0.76,
+            "starttime": 590,
+            "endtime": 1326,
+            "spoken": "ぐんとう"
+          },
+          {
+            "written": "や",
+            "confidence": 0.89,
+            "starttime": 1326,
+            "endtime": 1486,
+            "spoken": "や"
+          },
+          {
+            "written": "湖",
+            "confidence": 1.0,
+            "starttime": 1486,
+            "endtime": 2030,
+            "spoken": "みずうみ"
+          },
+          {
+            "written": "では",
+            "confidence": 1.0,
+            "starttime": 2030,
+            "endtime": 2286,
+            "spoken": "では"
+          },
+          {
+            "written": "必ずしも",
+            "confidence": 1.0,
+            "starttime": 2286,
+            "endtime": 3278,
+            "spoken": "かならずしも"
+          },
+          {
+            "written": "ヨット",
+            "confidence": 0.84,
+            "starttime": 3278,
+            "endtime": 3726,
+            "spoken": "よっと"
+          },
+          {
+            "written": "は",
+            "confidence": 1.0,
+            "starttime": 3726,
+            "endtime": 3822,
+            "spoken": "は"
+          },
+          {
+            "written": "必要",
+            "confidence": 1.0,
+            "starttime": 3822,
+            "endtime": 4526,
+            "spoken": "ひつよう"
+          },
+          {
+            "written": "ありません",
+            "confidence": 1.0,
+            "starttime": 4526,
+            "endtime": 5390,
+            "spoken": "ありません"
+          },
+          {
+            "written": "。",
+            "confidence": 0.89,
+            "starttime": 5390,
+            "endtime": 5646,
+            "spoken": "_"
+          }
+        ],
+        "confidence": 0.998,
+        "starttime": 350,
+        "endtime": 5646,
+        "tags": [],
+        "rulename": "",
+        "text": "群島や湖では必ずしもヨットは必要ありません。"
+      }
+    ],
+    "utteranceid": "20260705/12/019f303edbbb0a301a9e94c5_20260705_120733",
+    "text": "群島や湖では必ずしもヨットは必要ありません。",
+    "code": "",
+    "message": ""
+  }
+}

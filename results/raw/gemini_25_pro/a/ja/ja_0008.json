@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0008",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 9.48,
+  "ref_text_raw": "参列者の数が多すぎて、全員がサンピエトロ広場での葬儀に参加することは不可能でした。",
+  "ref_text_normalized": "参列者の数が多すぎて 全員がサンピエトロ広場での葬儀に参加することは不可能でした",
+  "timestamp_utc": "2026-07-05T10:02:27Z",
+  "text": "参列者の数が多すぎて、全員がサン・ピエトロ広場での葬儀に参加することは不可能でした。",
+  "latency_sec": 5.6495,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "参列者の数が多すぎて、全員がサン・ピエトロ広場での葬儀に参加することは不可能でした。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783245747,
+    "id": "ritKatLbM-Kf2roP6tmdgAM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 325,
+      "total_tokens": 601
+    }
+  }
+}

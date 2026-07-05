@@ -1,0 +1,45 @@
+{
+  "utt_id": "es_0122",
+  "lang": "es",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 19.44,
+  "ref_text_raw": "Entre los deportes que más se practican están el fútbol, el baloncesto, el voleibol, el waterpolo, la esgrima, el rugby, el ciclismo, el jóquey sobre hielo, el jóquey sobre patines y las carreras d Fórmula 1.",
+  "ref_text_normalized": "entre los deportes que más se practican están el fútbol el baloncesto el voleibol el waterpolo la esgrima el rugby el ciclismo el jóquey sobre hielo el jóquey sobre patines y las carreras d fórmula 1",
+  "timestamp_utc": "2026-07-05T04:38:53Z",
+  "text": "Entre los deportes que más se practican está el fútbol, el baloncesto, el voleibol, el waterpolo, la esgrima, el rugby, el ciclismo, el hockey sobre hielo, el hockey sobre patines y las carreras de Fórmula 1.",
+  "latency_sec": 5.1534,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Entre los deportes que más se practican está el fútbol, el baloncesto, el voleibol, el waterpolo, la esgrima, el rugby, el ciclismo, el hockey sobre hielo, el hockey sobre patines y las carreras de Fórmula 1.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqkMCqYMARFNMg/XDcLFy+ZZHwg8lRn4BQovazXZZ/GR+F4C3uIlHzYNMmskT5au5WXvpqq0CpJCA58TRTgRgoYrnN9EZOQf1NrXVZUI9k9+QVYAHLgl70/crxnYn/rO2v7hs53Bcx8NTPfjKtxS78AwqPXH19qLb4E5Z/cugTb6eKYfSkl9Rvg/5znkpzjNx6hH/cXHkew6M0oLTyad62SfTqinC3s4OXYMw4ypSiFdARDl4p2jgN5bHcZ5jwbpYx95jH//zdXZlKz2blUxz7+9wLMtFFzM9avm20SuYggXquzevokhO4NcUVjqkO5N1kWGsfeqaKTErCoqHswNu0cR6TBoki51rXd8qY5UMCejV0VOOFHYkRXJgzo+eIqe5pFpk4n353YF4JwZNe0sQhvOxxhhGDPchQropgTyKtSrAvaYvRWlip6aYmwrtfmRAgTVYmeosrTkdZxNHwy7euS8yuxvVNKA6wM/6X3w3c5O6KzqIjaLkfnluAdFsfPyR6ulIDRjKbr9pV/F9LDJfX5z5E/Vk6txLhTLmQ9cRTQFC0iYEdZ0MfHARPFEMj0s/nVqklDGuhmUPmvMD8sq06jAabtUXhlZB6jhE51CavRAilQ+q4/6RANGZ+SKNcLrNOzGSzMFGiVoJj47/0UWdnK3D4gm5SujMsp6EnB5564Gc4naYOa74/ocDBidsYlKzbozYAR4QuiY5jNfPKT1mJIKgA5uD2t6VUfZVOrO75kt8EJh5qmD3ty4XmEIw88S8YLQtIR/jbiSMaXeV9IyPR+T2roMsCIMqTK9oAPJuTy5tKRZFaOHijFHGZDkYrEBZB1wlKB3ZVV2vE1IUiCqaDNTCxPZ5cuIvT3VDe1aCOHSXhgH/ZxdjwZjs7lr+3CcjgogKT0WBCeftteA1LX/SqGtXd4r102NCWYr29bjKJ13+XDXNgJhabCq16AuCQcSFLKVuFXxF+8l1+XsnSadcsUqqNiG5moby3CWv6UZgS43k/Wxx9/3BWYaAtPTie9jI0ZDF+EvzaGA2L9DD/piSgKW5msqqr8wQHcj9FJJOmRwYWMmF5ebNJWI9gsuZG8jsUv/yYyF8kQbvX/4RcC8utcWMDD8cHY7EJMNlBD9FpxPTSiPtpYR+1IQUXJfBoXGgNlTjPg7xGsijksf3eSIjr+5Imoes3KNAK7zNjNic9q+UU7oI+83xN4S4G+/CGXtGt0dYOexl5h7FOWyYuPWGfGVvsFfeNIEk2z7y/3eV9bc0zg4BMnIf5W8jXqbrz1ryPOwHX1qCjik+zCuy/74V0e9fzKXYOLvrtuuwrmQQhBB7QYqBLi53i1RUWd0GE2eSh7s943sTa6oMkCAejbY+i+0/ycHPu5LzIG4EDaDXI0Odb7Ue7zg2rZe0PcguhnW0t4DvaQciQyTqL8ZuFZPHfn1XE2QL8sH5JHR3VwMV26+RaJHN/nq/4N6iv1SEn3jfEqU/wn44f+1IwqRp/dKFxYx9kir78OhIxK1V3PtUDdECb6gzUWEq+RMJaF5nvItdG57aRz3MoHpv2Mvs2YS+IqLVfqA6Ke6h8RUxGLb0CNwoIsnjVu3Savcs3VLEkflJkqvnzx0X/ILJsNrkSxwVcxacWKjM5Fj6npyJaQA001sduL5w9AtgEFLRAGd86muIauGcJcYffERv3rVZPionV53DjqRHya8coskfbhFoRP3ximDSP6NhMgOGd4A29Ijt6L0DRxGoNSfcDKd9pBYHdNwrZqyIKuOckGUE87n+Elyxu9zMMBA0kSIwPgkwQRZU+l/bjpwaQEO1aH1THJrG94o/QnOgcS1/5Feq85ucveZ7NdPavC8Txx1A1RDC89fDc9wpXPraTGRrIEpemSS6GiJf9aPzJqqBC/rSkYhDb/uiWjBzHWzKXhZZkTbyOHPeDzkYR8tsp400gANcGe4rsaAMsnYzvjmLfSl8+u499eDbjyA4t4mIaynEOuHzTF1USUcuOCW4hVT8zzIJsW0mXhtNFdfd5fhr2lISecHsRU+CT95dFwFeMMEdS+51WtmTK+/l1voVXaz5aoD+myNpDrXneM7CN7+XFyRULqPvPkcskYat4YnDbY1vM8="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226333,
+    "id": "2d9JaoX0K5nV1e8Pw6zfgAQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 53,
+      "prompt_tokens": 508,
+      "total_tokens": 979
+    }
+  }
+}

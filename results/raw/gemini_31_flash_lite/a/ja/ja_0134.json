@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0134",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.62,
+  "ref_text_raw": "植物は自然環境にあるときに最も見栄えがするのですから、「1本だけ」ならと標本に持ち帰りたい誘惑に負けないでください。",
+  "ref_text_normalized": "植物は自然環境にあるときに最も見栄えがするのですから 1本だけ ならと標本に持ち帰りたい誘惑に負けないでください",
+  "timestamp_utc": "2026-07-05T03:19:16Z",
+  "text": "植物 は 自然 環境 に ある 時 に 最も 見栄え が する の です から 1 本 だけ なら と 標本 に 持ち帰り たい 誘惑 に 負け ない で ください 。",
+  "latency_sec": 2.7964,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "植物 は 自然 環境 に ある 時 に 最も 見栄え が する の です から 1 本 だけ なら と 標本 に 持ち帰り たい 誘惑 に 負け ない で ください 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPW+kWKyxX4ZwI8GhBoA6zuI4GGL2Q9J3UHEx4xEVY5/KMG+fW8NewE5V8w7aY"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221556,
+    "id": "Ms1JaqalLIul1e8Pq7ahqQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 362,
+      "total_tokens": 405
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0095",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 13.8,
+  "ref_text_raw": "บางครั้งชายหาดเหล่านี้ก็เป็นชายหาดสำหรับครอบครัวที่มีคนแน่นขนัด และมีร้านค้าตั้งเรียงรายไปตามชายฝั่ง การว่ายน้ำนั้นปลอดภัย",
+  "ref_text_normalized": "บางครั้งชายหาดเหล่านี้ก็เป็นชายหาดสำหรับครอบครัวที่มีคนแน่นขนัด และมีร้านค้าตั้งเรียงรายไปตามชายฝั่ง การว่ายน้ำนั้นปลอดภัย",
+  "timestamp_utc": "2026-07-05T08:00:44Z",
+  "text": "บาง บางครั้งชายหาดเหล่านี้ก็เป็นชายหาดสำหรับครอบครัว ที่มีคนแน่นขนัด และมีร้านค้าตั้งเรียงรายไปตามชายฝั่ง การว่ายน้ำนั้นปลอดภัย",
+  "latency_sec": 4.7517,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "บาง บางครั้งชายหาดเหล่านี้ก็เป็นชายหาดสำหรับครอบครัว ที่มีคนแน่นขนัด และมีร้านค้าตั้งเรียงรายไปตามชายฝั่ง การว่ายน้ำนั้นปลอดภัย",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238444,
+    "id": "KQ9Kaoa5IYrW1e8Py5HYyAE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 366,
+      "total_tokens": 804
+    }
+  }
+}

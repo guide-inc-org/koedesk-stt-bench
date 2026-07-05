@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0131",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.76,
+  "ref_text_raw": "The U.S. Corps of Engineers estimated that 6 inches of rainfall could breach the previously damaged levees.",
+  "ref_text_normalized": "the u.s. corps of engineers estimated that 6 inches of rainfall could breach the previously damaged levees",
+  "timestamp_utc": "2026-07-05T03:35:02Z",
+  "text": "The U.S. Corps of Engineers estimated that 6 in of rainfall could breach the previously damaged levees.",
+  "latency_sec": 2.9643,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The U.S. Corps of Engineers estimated that 6 in of rainfall could breach the previously damaged levees.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP1sZTp/aqrHrNr+LXl8zauJTPCPKvrblzklL3ugUMNHpdG1Oj9pgRlj+3C59x"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222502,
+    "id": "5NBJarnTHsmrvr0Ps4zPyAI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 240,
+      "total_tokens": 263
+    }
+  }
+}

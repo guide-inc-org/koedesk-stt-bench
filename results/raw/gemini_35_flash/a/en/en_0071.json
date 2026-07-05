@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0071",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 4.32,
+  "ref_text_raw": "The scenes are displayed on the pyramids and the different pyramids are lit up.",
+  "ref_text_normalized": "the scenes are displayed on the pyramids and the different pyramids are lit up",
+  "timestamp_utc": "2026-07-05T10:32:05Z",
+  "text": "The scenes are displayed on the pyramids and the different pyramids are lit up.",
+  "latency_sec": 3.4267,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The scenes are displayed on the pyramids and the different pyramids are lit up.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtwDCtkDARFNMg8yY8ADrQzOIpS+u+HUPwTYiiVUAMVd59kvD9YjusGiwh6sE3DhTBeC4uDt9VuSRzG4iRyfUqQA2rdCWHgelctJ/YtULd4Lx0Co0Xi8uGgk8taqozJB8DUFmjLal5DhMjMI+F8YKJKGdYfNiWzNd87jHicZ0/M7Vx1FGmeQXaVjxb5uuhdin66FWxg+A9mRleYYg9QAN76aCmrq3Ykv4wvx6euDXNT6o71TCb51DAvhzbkn6ST2upx5OIJjYoYZmYa64GGgfkNz/49Nb2Vyc8XToHXDIbp6ai0IIMB/tZ37goDH9liaYDPDcyIHpS4hUk2lwVMWVnSj5Iy6FK0VpfmpPfyq8DBKScQ+F6GlxhDGjLmxgDC6DObpnIWELBP9d4i2uT34aXV2tCVKsEVC7oJZ30/4WGWhsfybqxO+rvOn/f2NiqXelkhtdGIMjfdB0U4eyagKPhow6pGzc8eu1VSherU5MDklyT7Wx74Q1qAL4JqKgs8wr8cBdK5saYmp1Mp9LQ9YJWPAo54aq2Nu//QSdKKmcQvc3uZNFGMcKthWAyQPpAKVPKuNF6rcXvhs7iPCi4yZ3dNW8um0Z1YCXTOIAzcROt1nh8dq6uhvuQXNenXQ8lo="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247525,
+    "id": "ozJKatbmBevYvr0P_YW_6QM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 15,
+      "prompt_tokens": 129,
+      "total_tokens": 245
+    }
+  }
+}

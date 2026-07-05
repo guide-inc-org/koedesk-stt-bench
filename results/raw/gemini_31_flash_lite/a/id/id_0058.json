@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0058",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.08,
+  "ref_text_raw": "Madagaskar sejauh ini adalah yang benua terbesar dan tersendiri dalam hal satwa liar.",
+  "ref_text_normalized": "madagaskar sejauh ini adalah yang benua terbesar dan tersendiri dalam hal satwa liar",
+  "timestamp_utc": "2026-07-05T05:48:29Z",
+  "text": "Madagaskar sejauh ini adalah yang benua terbesar dan tersendiri dalam hal hasat balier.",
+  "latency_sec": 2.5846,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Madagaskar sejauh ini adalah yang benua terbesar dan tersendiri dalam hal hasat balier.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP9psVd3PKvQGr0uzhbstzMfIUHOYNQ65bWDcmBPzlwgT0Gomwe/8sog9OiG49"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230509,
+    "id": "LPBJao_OIZO00-kP9qbDqAY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 198,
+      "total_tokens": 220
+    }
+  }
+}

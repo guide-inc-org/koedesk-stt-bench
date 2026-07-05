@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0019",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.14,
+  "ref_text_raw": "Women: It is recommended that any women travellers say that they are married, regardless of actual marital status.",
+  "ref_text_normalized": "women it is recommended that any women travellers say that they are married regardless of actual marital status",
+  "timestamp_utc": "2026-07-05T10:29:05Z",
+  "text": "women. It's recommended that any women travelers say that they are married regardless of actual marital status.",
+  "latency_sec": 2.9666,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "women. It's recommended that any women travelers say that they are married regardless of actual marital status.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPe6mJv7ZadeWBXVvunnIOWKUHFqUjrXNjqFCauc6o+t6NIS3j5MR1ee3oDNVN"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247345,
+    "id": "8DFKatyQEpbPrfcP9aSH-Ac",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 275,
+      "total_tokens": 296
+    }
+  }
+}

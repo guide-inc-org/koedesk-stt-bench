@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0192",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.62,
+  "ref_text_raw": "В некоторых местах достаточно прокипятить воду в течение минуты, в других потребуется несколько минут.",
+  "ref_text_normalized": "в некоторых местах достаточно прокипятить воду в течение минуты в других потребуется несколько минут",
+  "timestamp_utc": "2026-07-05T07:15:39Z",
+  "text": "В некоторых местах достаточно прокипятить воду в течение минуты, в других потребуется несколько минут.",
+  "latency_sec": 3.7164,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "В некоторых местах достаточно прокипятить воду в течение минуты, в других потребуется несколько минут.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235739,
+    "id": "mQRKarnjJenF0-kPwPbOqAc",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 361,
+      "total_tokens": 429
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0180",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 15.66,
+  "ref_text_raw": "老虎是全能运动员，它会攀爬（虽然攀爬能力不是很强）、游泳、跳远，拉力能达到人类大力士的五倍。",
+  "ref_text_normalized": "老 虎 是 全 能 运 动 员 它 会 攀 爬 虽 然 攀 爬 能 力 不 是 很 强 游 泳 跳 远 拉 力 能 达 到 人 类 大 力 士 的 五 倍",
+  "timestamp_utc": "2026-07-05T06:34:16Z",
+  "text": "老虎是全能运动员,他会攀爬,虽然攀爬能力不是很强,游泳,跳跃,拉力能拿到人类大力士的5倍。",
+  "latency_sec": 5.7702,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "16s",
+      "requestId": "7f56d3c0-0000-2d25-9343-d4f547ff4078",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "老虎是全能运动员,他会攀爬,虽然攀爬能力不是很强,游泳,跳跃,拉力能拿到人类大力士的5倍。"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

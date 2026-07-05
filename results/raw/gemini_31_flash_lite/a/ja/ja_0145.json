@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0145",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.26,
+  "ref_text_raw": "彼はこの噂を「政治的なおしゃべりと愚かさ」と呼びました。",
+  "ref_text_normalized": "彼はこの噂を 政治的なおしゃべりと愚かさ と呼びました",
+  "timestamp_utc": "2026-07-05T03:19:56Z",
+  "text": "彼はこの噂を政治的なお喋りと愚かさと呼びました。",
+  "latency_sec": 2.4372,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "彼はこの噂を政治的なお喋りと愚かさと呼びました。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP4m8i+rIf9EkoiJoFOWOXFdGhhniGBdikH/tbvLOKhSTdhE1iLAeRVvapmdk3"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221596,
+    "id": "W81JavuFFu2crfcPkMChIA",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 15,
+      "prompt_tokens": 278,
+      "total_tokens": 293
+    }
+  }
+}

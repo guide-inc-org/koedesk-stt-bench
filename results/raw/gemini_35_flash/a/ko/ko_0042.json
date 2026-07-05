@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0042",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 15.66,
+  "ref_text_raw": "단순하면서도 특히 여름철에 인기 있는 저녁식사는 치즈나 참치 등과 같은 손쉽게 구할 수 있는 양념과 토마토, 올리브오일을 곁들인 빵인 파 엠브 올리입니다.",
+  "ref_text_normalized": "단순하면서도 특히 여름철에 인기 있는 저녁식사는 치즈나 참치 등과 같은 손쉽게 구할 수 있는 양념과 토마토 올리브오일을 곁들인 빵인 파 엠브 올리입니다",
+  "timestamp_utc": "2026-07-05T06:12:57Z",
+  "text": "단순하면서도 특히 여름철에 인기 있는 저녁 식사는 치즈나 참치 등과 같은 손쉽게 구할 수 있는 양념과 토마토 올리브 오일을 곁들인 빵인 파 앰 브 올리입니다.",
+  "latency_sec": 8.131,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "단순하면서도 특히 여름철에 인기 있는 저녁 식사는 치즈나 참치 등과 같은 손쉽게 구할 수 있는 양념과 토마토 올리브 오일을 곁들인 빵인 파 앰 브 올리입니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231977,
+    "id": "4vVJaq7XNtKivr0PmOv26QM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 53,
+      "prompt_tokens": 413,
+      "total_tokens": 1724
+    }
+  }
+}

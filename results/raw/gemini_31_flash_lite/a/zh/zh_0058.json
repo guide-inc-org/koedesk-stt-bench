@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0058",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.16,
+  "ref_text_raw": "你也可以咨询除贵国以外其他政府的建议，但他们的建议是为他们的公民而制定的。",
+  "ref_text_normalized": "你 也 可 以 咨 询 除 贵 国 以 外 其 他 政 府 的 建 议 但 他 们 的 建 议 是 为 他 们 的 公 民 而 制 定 的",
+  "timestamp_utc": "2026-07-05T09:14:07Z",
+  "text": "你也可以咨询除贵国以外其他政府的建议，但他们的建议是为他们的公民而制定的。",
+  "latency_sec": 2.6737,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "你也可以咨询除贵国以外其他政府的建议，但他们的建议是为他们的公民而制定的。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPmGC0jJwrUbISlAj34e8X1xAMLpmXg3lKRS8QudU0gBLjhzrnurqwGmpLjiAW"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242847,
+    "id": "XiBKavGKE-nF0-kPwPbOqAc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 225,
+      "total_tokens": 248
+    }
+  }
+}

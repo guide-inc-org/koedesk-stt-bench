@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0054",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.18,
+  "ref_text_raw": "Mme Kirchner a annoncé son intention de se présenter à la présidence au Théâtre argentin, le même endroit où elle a commencé sa campagne 2005 pour le Sénat en tant que membre de la délégation de la province de Buenos Aires.",
+  "ref_text_normalized": "mme kirchner a annoncé son intention de se présenter à la présidence au théâtre argentin le même endroit où elle a commencé sa campagne 2005 pour le sénat en tant que membre de la délégation de la province de buenos aires",
+  "timestamp_utc": "2026-07-05T05:12:48Z",
+  "text": "Madame Kirchner a annoncé son intention de se présenter à la présidence au théâtre argentin, le même endroit où elle a commencé sa campagne de 2005 pour le Sénat en tant que membre de la délégation de la province de Buenos Aires.",
+  "latency_sec": 4.0716,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Madame Kirchner a annoncé son intention de se présenter à la présidence au théâtre argentin, le même endroit où elle a commencé sa campagne de 2005 pour le Sénat en tant que membre de la délégation de la province de Buenos Aires.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPS/6ZKicrfJ9ggKQyMlGhGZj3m2NtFcSpit79ay193Jy74Brl46A3keip3skW"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228367,
+    "id": "zedJasegFPeZ0-kP0vvOuQE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 51,
+      "prompt_tokens": 326,
+      "total_tokens": 377
+    }
+  }
+}

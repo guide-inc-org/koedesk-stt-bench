@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0155",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.02,
+  "ref_text_raw": "Ông được Phó Thủ Tướng Singapore Wong Kan Seng tiếp đón và thảo luận về các vấn đề thương mại và khủng bố với Thủ tướng Singapore Lý Hiển Long.",
+  "ref_text_normalized": "ông được phó thủ tướng singapore wong kan seng tiếp đón và thảo luận về các vấn đề thương mại và khủng bố với thủ tướng singapore lý hiển long",
+  "timestamp_utc": "2026-07-05T08:47:00Z",
+  "text": "Em đã phát biểu Thủ tướng Singapore, quan cân Sen tiếp đón và thảo luận về các vấn đề thương mại và khủng bố với Thủ tướng Singapore, Lý Hiển Long.",
+  "latency_sec": 3.1141,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Em đã phát biểu Thủ tướng Singapore, quan cân Sen tiếp đón và thảo luận về các vấn đề thương mại và khủng bố với Thủ tướng Singapore, Lý Hiển Long.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP255ewNR0KIrpGNEg48dNklcW2l1x9zaOYeeEVHhRTjZ9rKF+FWZXRBH3uTak"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241220,
+    "id": "AhpKatrzLoul1e8Pq7ahqQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 272,
+      "total_tokens": 307
+    }
+  }
+}

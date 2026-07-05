@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0010",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.26,
+  "ref_text_raw": "当所有可用的资源在一个组织的职能部门之间得到有效利用时，创造力和独创性就会发生。",
+  "ref_text_normalized": "当 所 有 可 用 的 资 源 在 一 个 组 织 的 职 能 部 门 之 间 得 到 有 效 利 用 时 创 造 力 和 独 创 性 就 会 发 生",
+  "timestamp_utc": "2026-07-05T08:48:21Z",
+  "text": "当所有可用的资源在一个组织的职能部门之间得到有效利用时，创造力和独创性就会发生。",
+  "latency_sec": 3.4276,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "当所有可用的资源在一个组织的职能部门之间得到有效利用时，创造力和独创性就会发生。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241301,
+    "id": "UxpKapHPEpj41e8PhNP08AM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 254,
+      "total_tokens": 304
+    }
+  }
+}

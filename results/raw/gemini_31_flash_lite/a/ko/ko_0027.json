@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0027",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.82,
+  "ref_text_raw": "생식 계열 세포의 돌연변이만이 자녀에게 유전될 수 있고, 다른 곳에서의 돌연변이는 세포 사망 또는 암을 유발할 수 있습니다.",
+  "ref_text_normalized": "생식 계열 세포의 돌연변이만이 자녀에게 유전될 수 있고 다른 곳에서의 돌연변이는 세포 사망 또는 암을 유발할 수 있습니다",
+  "timestamp_utc": "2026-07-05T06:20:25Z",
+  "text": "생식기열 세포의 돌연변이만이 자녀에게 유전될 수 있고, 다른 곳에서의 돌연변이는 세포 사망 또는 암을 유발할 수 있습니다.",
+  "latency_sec": 3.9078,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "생식기열 세포의 돌연변이만이 자녀에게 유전될 수 있고, 다른 곳에서의 돌연변이는 세포 사망 또는 암을 유발할 수 있습니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPM+buQpDztgWVnb991QqwOhtqVocnM9QcKnoiA3bd3n5fLRh3nhwG8c6CRoMb"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232425,
+    "id": "p_dJaqGRDMzLrfcPwe_16Qs",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 392,
+      "total_tokens": 430
+    }
+  }
+}

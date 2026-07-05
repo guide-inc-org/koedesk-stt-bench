@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0181",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.56,
+  "ref_text_raw": "植物は人間が吸う酸素を作り、人間が（息として）吐き出す二酸化炭素を取り込んでいます。",
+  "ref_text_normalized": "植物は人間が吸う酸素を作り 人間が息として吐き出す二酸化炭素を取り込んでいます",
+  "timestamp_utc": "2026-07-05T03:13:33Z",
+  "text": "植物は人間が吸う酸素を作り人間が (生きとして) 吐き出す二酸化炭素を取り込んでいます。",
+  "latency_sec": 3.4203,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "植物は人間が吸う酸素を作り人間が (生きとして) 吐き出す二酸化炭素を取り込んでいます。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221214,
+    "id": "28tJaq6hO9qA1e8PtKvlgQI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 359,
+      "total_tokens": 385
+    }
+  }
+}

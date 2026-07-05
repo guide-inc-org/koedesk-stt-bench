@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0060",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.68,
+  "ref_text_raw": "Hydrogen ions are protons that had their electrons stripped off them (since Hydrogen atoms consist of one proton and one electron).",
+  "ref_text_normalized": "hydrogen ions are protons that had their electrons stripped off them since hydrogen atoms consist of one proton and one electron",
+  "timestamp_utc": "2026-07-05T10:23:32Z",
+  "text": "Hydrogen ions are protons that have their electrons stripped off them since hydrogen atoms consist of one proton and one electron.",
+  "latency_sec": 3.9312,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Hydrogen ions are protons that have their electrons stripped off them since hydrogen atoms consist of one proton and one electron.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247012,
+    "id": "oTBKaqirOOnF0-kPwPbOqAc",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 267,
+      "total_tokens": 316
+    }
+  }
+}

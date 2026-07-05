@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0141",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.56,
+  "ref_text_raw": "Scotturb Bus 403 travels regularly to Sintra, stopping at Cabo da Roca.",
+  "ref_text_normalized": "scotturb bus 403 travels regularly to sintra stopping at cabo da roca",
+  "timestamp_utc": "2026-07-05T03:35:16Z",
+  "text": "Scotturb bus 403 travels regularly to Sintra, stopping at Cabo da Roca.",
+  "latency_sec": 3.6957,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Scotturb bus 403 travels regularly to Sintra, stopping at Cabo da Roca.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "ErEGCq4GARFNMg9gySqKp4lLbSSFRjc6yMhdVaeIUHc67KBNBYEwESMqxeUaoff+HPbNOBzLa+DWuh/tPktcpRZ6direOaS5gaYtJrgyaHiWI2uHkdjfPCXIOW2RQ9gXd7pcxSYCo7G9WNB+kkyz2fq9hN2hOAhyZPwB8DwiFVwH20V7u3MQUjZQhUxHnCwCq1noLrd3e1eDdsOleMMjIornKC0euZRkuP6BVbvSGQd8z/4uTyGGh8GZoS4xUkCODCjzFtQi0tmzTBwLQ8c70wpxjFj9KztkaoEz0/fp/V58718M4ZcR3I+02/TRaA5T+SK6h7N6AZ2YDbOmhYiiM3sTk3t9XxtU3XFY5EzKhA3OHRGZt0Aj8Xwp7PFWaCJPZaqBQZ53xiWOlZXhBFNexUnejwETBqIKLnji7KnKSaOpYgbumH+/FPtD/sA4lZ/SmV+qoF09YOnkoBa7X9DZzICkL1dOCL3JjaJLxQehtLPXRaM9RTS9SXijeDiY7q/wlMPubrvbN3HoghLJyGrLAX80IAVQVJvCKzx8AfgccRUvI45xMJadaGvYOiecsaA0zvOKyUcHsO612lLsPm/I5gwyE7vd+72NTBFs7uHYVDoXKY/OEn1B53i0QCAtYKfNnDOOx7kH4OYXONTB5RhRqQJeR8g2lFrvPiX6xcgaJJPdjuE2IClbIBxVEvNyHd7rz140VCaIHty8BInBLyfjYLWORXH7r0fnPD2O2AlxV7R/5zTQlflpb9SuYqSwnbZfKJGhipXEYJgtQCdwXsjj+qFbWugNo/Tmpm8Rv1WzzPgVhEKBgNdQAME03xAGMFFGwH6vvM0vWg4NP5ywzbuhRZxygDt0mJH4N3KAJt3JiIdXz0XoYnzvUCbxDX7IUl97rDCl7DjziAG9jYpxy7XZWdGwyZAvHfZpUEhTA9dAnDqnYmJpckegufZVgR53Jhb93u3C5aCwM5uRezyfnuKTG6dbZ/c7pX1wlFLQCVYPjsieuyVmnf1bJLu4dFTlFKS15fRO02k4PTpfmr8y3bJ6L/NZskOqNq2SSpr7gRmfQLC2Aau5llwug2yV57OmIOJ1+5EZSg=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222516,
+    "id": "8tBJauKUEOnF0-kPwPbOqAc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 310,
+      "total_tokens": 545
+    }
+  }
+}

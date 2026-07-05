@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0179",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.22,
+  "ref_text_raw": "He added that \"they should not, however, be asked to take on obligations that go beyond their development stage, responsibility and capabilities.\"",
+  "ref_text_normalized": "he added that they should not however be asked to take on obligations that go beyond their development stage responsibility and capabilities",
+  "timestamp_utc": "2026-07-05T03:38:19Z",
+  "text": "He added they should not, however, be asked to take on obligations that go beyond their development stage, responsibility, and capabilities.",
+  "latency_sec": 3.4376,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "He added they should not, however, be asked to take on obligations that go beyond their development stage, responsibility, and capabilities.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EoAECv0DARFNMg+eOCt6jZM3LHYmlBrofXx1nmK7xrWV672ibKcqDA/OP0UHZrzVIOHIbb+KkQTW2WUn9ZHyc6NGtFTly4ZBhpNpmY1rADb2bhB9CUnt+kKV5eTAvv8VsKjm4/J7ftGn/6E28jPoDuohl9clvU768bit8IfDePU2niEHQfe58dzJL02Eme5fZf36ewWp+CGUBwlokaqNMXQ6w6MimWLAWbAzywj6ieEIQ5IHTp0igUjKs9lh0UXJkMhxFuko9BjGw2EQ0pAODZoqeXk0kVCHDIgvo4noviDk/xsImVvTzGbIwDhROlKKNz2LIo48TZELx0VC6gWMAR0Eju0Oj/hzhMMavV1BSgMsR2IDFqpXcvRSFXTG3ZPNN4KBGNhrO0dLcXo1EfnDjK+XYOG7KNPCrjl7JK8WqmsOvEcEh2K7i62Fi27poOFcrjX6lFfbTe8ym5pDj1ykJGaicfn3mnAgI04d47XceszDCuDa18GuEbwrl3lff6ccmKR7a/8NgVcDS3k/AXME6P4bKZv3JfnM7iO5Eq8CcaDU/KewNuHVOdQ58zFYCXZa/8B9LLxqhiGuUtjYcVl+AbtjOJBTxknVMQxem31PvxKQ60rdjlIWhGYDO8JcspZbTDeGSutNgp0a1QDMeLisqrR+6hry9oHVhD5ys5GKpkuk77U="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222699,
+    "id": "qdFJauCUPJja1e8P6IqesQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 327,
+      "total_tokens": 444
+    }
+  }
+}

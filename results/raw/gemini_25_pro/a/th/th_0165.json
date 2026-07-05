@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0165",
+  "lang": "th",
+  "engine": "gemini_25_pro",
+  "duration_sec": 21.48,
+  "ref_text_raw": "รถโดยสารออกจากสถานีรถระหว่างมณฑล (ข้ามแม่น้ำ) ตลอดทั้งวัน โดยส่วนใหญ่แล้วรถที่มุ่งหน้าไปทางตะวันออกและ Jakar/Bumthang จะออกจากสถานีระหว่างเวลา 06.30 and 07.30 น.",
+  "ref_text_normalized": "รถโดยสารออกจากสถานีรถระหว่างมณฑล ข้ามแม่น้ำ ตลอดทั้งวัน โดยส่วนใหญ่แล้วรถที่มุ่งหน้าไปทางตะวันออกและ jakar/bumthang จะออกจากสถานีระหว่างเวลา 06.30 and 07.30 น",
+  "timestamp_utc": "2026-07-05T07:57:04Z",
+  "text": "รถโดยสารออกจากสถานีรถระหว่างมณฑลข้ามแม่น้ำตลอดทั้งวัน โดยส่วนใหญ่แล้วรถที่มุ่งหน้าไปทางตะวันออกและจาการ์ บุมทัง จะออกจากสถานีระหว่างเวลา 6:30 น. และ 7:30 น.",
+  "latency_sec": 9.1194,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "รถโดยสารออกจากสถานีรถระหว่างมณฑลข้ามแม่น้ำตลอดทั้งวัน โดยส่วนใหญ่แล้วรถที่มุ่งหน้าไปทางตะวันออกและจาการ์ บุมทัง จะออกจากสถานีระหว่างเวลา 6:30 น. และ 7:30 น.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238224,
+    "id": "SA5KaqTOMMmD0-kPmZ7guAM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 62,
+      "prompt_tokens": 709,
+      "total_tokens": 1480
+    }
+  }
+}

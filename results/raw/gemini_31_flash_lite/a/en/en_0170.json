@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0170",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 19.02,
+  "ref_text_raw": "Greenland was settled sparsely. In the Norse sagas they say that Erik the Red was exiled from Iceland for murder, and when travelling further west, found Greenland and named it Greenland.",
+  "ref_text_normalized": "greenland was settled sparsely in the norse sagas they say that erik the red was exiled from iceland for murder and when travelling further west found greenland and named it greenland",
+  "timestamp_utc": "2026-07-05T03:37:27Z",
+  "text": "Greenland was settled sparsely. In the Norse sagas, they say that Erik the Red was exiled from Iceland for murder, and when traveling further west, found Greenland and named it Greenland.",
+  "latency_sec": 2.737,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Greenland was settled sparsely. In the Norse sagas, they say that Erik the Red was exiled from Iceland for murder, and when traveling further west, found Greenland and named it Greenland.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPHt4OOsFGrYBRQV829muJlwjBhUU+0tlQLJii61lLT6OmRgGbCrEH5QkscSqO"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222647,
+    "id": "dtFJao6oB-nF0-kPwPbOqAc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 497,
+      "total_tokens": 535
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0165",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 3.84,
+  "ref_text_raw": "Television reports show white smoke coming from the plant.",
+  "ref_text_normalized": "television reports show white smoke coming from the plant",
+  "timestamp_utc": "2026-07-05T03:29:51Z",
+  "text": "Television reports show white smoke coming from the plant.",
+  "latency_sec": 4.2519,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Television reports show white smoke coming from the plant.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222191,
+    "id": "rM9Javb2HJnV1e8Pw6zfgAQ",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 10,
+      "prompt_tokens": 144,
+      "total_tokens": 192
+    }
+  }
+}

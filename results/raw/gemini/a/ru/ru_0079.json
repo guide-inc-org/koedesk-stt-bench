@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0079",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.4,
+  "ref_text_raw": "Целые 20 процентов воды, поступаемой из рек нашей планеты в океаны, текут из Амазонки.",
+  "ref_text_normalized": "целые 20 процентов воды поступаемой из рек нашей планеты в океаны текут из амазонки",
+  "timestamp_utc": "2026-07-05T07:06:23Z",
+  "text": "Целые 20% воды, поступаемой из рек нашей планеты в океаны, текут из Амазонки.",
+  "latency_sec": 4.4303,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Целые 20% воды, поступаемой из рек нашей планеты в океаны, текут из Амазонки.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235183,
+    "id": "bAJKasSiAYfNrfcP8aSW8AI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 290,
+      "total_tokens": 515
+    }
+  }
+}

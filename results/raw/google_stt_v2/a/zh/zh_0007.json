@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0007",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 15.46,
+  "ref_text_raw": "它的长下颚上布满了 70 多颗剃刀般锋利的牙齿，上颚上还有一排。这意味着任何与它相遇的东西都无路可逃。",
+  "ref_text_normalized": "它 的 长 下 颚 上 布 满 了 70 多 颗 剃 刀 般 锋 利 的 牙 齿 上 颚 上 还 有 一 排 这 意 味 着 任 何 与 它 相 遇 的 东 西 都 无 路 可 逃",
+  "timestamp_utc": "2026-07-05T06:19:33Z",
+  "text": "他的下颚上铺满了70多颗剃刀般锋利的牙齿,上颚上还有一排,这意味着任何与它相遇的东西都无路可逃。",
+  "latency_sec": 5.7256,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "16s",
+      "requestId": "6f429962-0000-2016-ba36-14c14eec7164",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "他的下颚上铺满了70多颗剃刀般锋利的牙齿,上颚上还有一排,这意味着任何与它相遇的东西都无路可逃。"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0179",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.22,
+  "ref_text_raw": "He added that \"they should not, however, be asked to take on obligations that go beyond their development stage, responsibility and capabilities.\"",
+  "ref_text_normalized": "he added that they should not however be asked to take on obligations that go beyond their development stage responsibility and capabilities",
+  "timestamp_utc": "2026-07-05T03:30:36Z",
+  "text": "He added they should not however be asked to take on obligations that go beyond their development stage, responsibility, and capabilities.",
+  "latency_sec": 3.3747,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "He added they should not however be asked to take on obligations that go beyond their development stage, responsibility, and capabilities.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222236,
+    "id": "2s9JarqADLup2roP26eg2QY",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 413,
+      "total_tokens": 460
+    }
+  }
+}

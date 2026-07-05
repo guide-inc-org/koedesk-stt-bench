@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0033",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.64,
+  "ref_text_raw": "Un curry est un plat à base d'herbes et d'épices, accompagné de viande ou de légumes.",
+  "ref_text_normalized": "un curry est un plat à base d'herbes et d'épices accompagné de viande ou de légumes",
+  "timestamp_utc": "2026-07-05T05:04:03Z",
+  "text": "Un curry est un plat à base d'herbes et d'épices accompagné de viande ou de légumes.",
+  "latency_sec": 3.4575,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Un curry est un plat à base d'herbes et d'épices accompagné de viande ou de légumes.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtMFCtAFARFNMg87njncikJm3jvtQNuS+8A5WKYzgGHveACvpQfKiOTIG38grn/F38f9wol/5kebl8yZTgrFvyiZ0iMxNLV103vskKdlph5k1Q7gGCTZumpfqNvIxzkj4wfoG1VIrLyxQ2vflilvDUQBzqAld6qjm9t0c3KbyxyYF+PFFSp3g6YrIs8vwC8wwviAqlykh44MBgmy+X//wu+9Az4F1dbAOzArVySSPfjqV3hP4dINuyQUK1ydjCUYdz1uawYPslHkofaIZmlIcQKxmaSrzzUu5o3Vl0exgWz8z1RFkJfZtKj6ClbZPMuOE+FLrykiF/SMVyrNZHtX+7YusK1u4jiQsxLsHcH7/M6MgE1dZQKaxRgpPnnl5jfwoW8rPdLXJ9z/QirO5hZ6jOZ4eQ7mWLTev76G9gDGwYyZKEePeoVA7MRvV3GTvI4TT816GX5mkT16J0al/+1htwgGd+Uj4GA9QojlWfl/wpXyvQzfZKx0BqUdoiyL6nJs7pTf6BYwHmqT1JmXzxtMJ2HSgWPx7aIyzMjb6+Kc++srhInA+SJsPJH/K+qXQZI0PNWU93OJifcWd0AjoPf4gYvtjKYM/WX1CLNI2tby60hIbcN3qQOReGZAdgictd9X7YJp5NE/Z0srBEBVXoqa/9rI4XiofXgYkbPzuV9o0bzWjYDJwpPv/PimS7XhZWJAxvu5lOoZKCg7EcTmUorp/MBSJP6ZhN/z3FIEpGnrQksueEbd/J9UH+PSuvfyTEMaqRUFRa1zCYYQZzakOVbCpX+Bmh+v01grkgnwS5y61kXFfI4j1O1UTZH6zyHAgNmaIkDM3gdTJ6Cm2eMJr9d4umCLW7pdbBlBgH+CTldVATKzPDDnqDFJIwI/gYsjSqvKqblC7F1ZyF2Hl7t83B4uGqobPXayquJRL9Lo4idd5uUEENLMRpTsEVuLYeKuAyzrXweByb6W"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227843,
+    "id": "wOVJatPqN-zl0-kPppi2uQE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 237,
+      "total_tokens": 463
+    }
+  }
+}

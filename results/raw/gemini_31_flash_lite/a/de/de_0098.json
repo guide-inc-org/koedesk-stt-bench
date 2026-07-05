@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0098",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.76,
+  "ref_text_raw": "Die Zeit der drei Königreiche war eine der blutigsten Epochen in der Geschichte des alten China. Tausende von Menschen starben im Kampf um den höchsten Thron im großen Palast von Xi'an.",
+  "ref_text_normalized": "die zeit der drei königreiche war eine der blutigsten epochen in der geschichte des alten china tausende von menschen starben im kampf um den höchsten thron im großen palast von xi'an",
+  "timestamp_utc": "2026-07-05T04:05:43Z",
+  "text": "Die Zeit der Drei Königreiche war eine der blutigsten Epochen in der Geschichte des alten China. Tausende von Menschen starben im Kampf um den höchsten Thron im großen Palast von Xían.",
+  "latency_sec": 2.5922,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Die Zeit der Drei Königreiche war eine der blutigsten Epochen in der Geschichte des alten China. Tausende von Menschen starben im Kampf um den höchsten Thron im großen Palast von Xían.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPtY3FlJ1kXsaGI5XVvUHHtUN7VCyg7plduFYsykjZxE8HNIo5fSmF+JxDt44L"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224343,
+    "id": "FdhJao6UJZCe1e8PjsLZ0AQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 390,
+      "total_tokens": 433
+    }
+  }
+}

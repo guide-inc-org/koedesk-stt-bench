@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0018",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.4,
+  "ref_text_raw": "Las críticas de los liberales en relación a los trabajos de restauración tienen su foco en el hecho de que se han adjudicado contratos de reconstrucción a personas que, al parecer, son funcionarios de Washington.",
+  "ref_text_normalized": "las críticas de los liberales en relación a los trabajos de restauración tienen su foco en el hecho de que se han adjudicado contratos de reconstrucción a personas que al parecer son funcionarios de washington",
+  "timestamp_utc": "2026-07-05T04:34:45Z",
+  "text": "Las críticas de los liberales en relación a los trabajos de restauración tienen su foco en el hecho de que se han adjudicado contratos de reconstrucción a personas que, al parecer, son funcionarios de Washington.",
+  "latency_sec": 3.2326,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Las críticas de los liberales en relación a los trabajos de restauración tienen su foco en el hecho de que se han adjudicado contratos de reconstrucción a personas que, al parecer, son funcionarios de Washington.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPgQKJa5ztRnDGjmSLi10E87IhDnofJzmDuKcCfpw65ghFmfamxAD1SK2d1x3T"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226085,
+    "id": "495Jaqz8LJWJ1e8PxbzN-QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 381,
+      "total_tokens": 422
+    }
+  }
+}

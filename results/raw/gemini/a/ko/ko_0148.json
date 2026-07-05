@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0148",
+  "lang": "ko",
+  "engine": "gemini_25_flash",
+  "duration_sec": 15.6,
+  "ref_text_raw": "당신이라는 의미의 Sie라는 단어와 함께 쓰이는 모든 명사는 문장의 중간에서도 항상 대문자로 시작된다.",
+  "ref_text_normalized": "당신이라는 의미의 sie라는 단어와 함께 쓰이는 모든 명사는 문장의 중간에서도 항상 대문자로 시작된다",
+  "timestamp_utc": "2026-07-05T06:04:40Z",
+  "text": "당신이라는 의미의 S라는 단어와 함께 쓰이는 모든 명사는 문장의 중간에서도 항상 대문자로 시작된다.",
+  "latency_sec": 3.7423,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "당신이라는 의미의 S라는 단어와 함께 쓰이는 모든 명사는 문장의 중간에서도 항상 대문자로 시작된다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231480,
+    "id": "9vNJao6rA5r22roP4enR6AU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 521,
+      "total_tokens": 548
+    }
+  }
+}

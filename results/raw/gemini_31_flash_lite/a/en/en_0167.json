@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0167",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 5.64,
+  "ref_text_raw": "Scotturb Bus 403 travels regularly to Sintra, stopping at Cabo da Roca.",
+  "ref_text_normalized": "scotturb bus 403 travels regularly to sintra stopping at cabo da roca",
+  "timestamp_utc": "2026-07-05T03:37:17Z",
+  "text": "Scopar passes for three travels regularly to Sintra, stopping at Cabo da Roca.",
+  "latency_sec": 2.7851,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Scopar passes for three travels regularly to Sintra, stopping at Cabo da Roca.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPx8zA41nBvXO5iLo0iI90HnCPmuA5FGvSrAODpnKX15qwKtHjN/NWC5iNOOWF"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222637,
+    "id": "a9FJaqT1MOL81e8P5-3SkQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 17,
+      "prompt_tokens": 162,
+      "total_tokens": 179
+    }
+  }
+}

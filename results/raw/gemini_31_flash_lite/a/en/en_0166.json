@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0166",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.24,
+  "ref_text_raw": "Elements like calcium and potassium are considered metals. Of course, there are also metals like silver and gold.",
+  "ref_text_normalized": "elements like calcium and potassium are considered metals of course there are also metals like silver and gold",
+  "timestamp_utc": "2026-07-05T03:37:14Z",
+  "text": "Elements like calcium and potassium are considered metals. Of course, there are also metals like silver and gold.",
+  "latency_sec": 2.6547,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Elements like calcium and potassium are considered metals. Of course, there are also metals like silver and gold.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPA/t6LtfzvvpN5dYP+zOndeL6uGx56MNirAvMheyRCscxzpK0vkcb2yZ++3im"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222634,
+    "id": "aNFJaunUIMmD0-kPmZ7guAM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 177,
+      "total_tokens": 198
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0192",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.2,
+  "ref_text_raw": "Rolando Mendoza đã bắn vào các du khách bằng khẩu súng trường M16 của hắn.",
+  "ref_text_normalized": "rolando mendoza đã bắn vào các du khách bằng khẩu súng trường m16 của hắn",
+  "timestamp_utc": "2026-07-05T08:49:16Z",
+  "text": "Rolando Mendoza đã bắn vào các du khách bằng khẩu súng trường M-16 của hắn.",
+  "latency_sec": 3.4839,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Rolando Mendoza đã bắn vào các du khách bằng khẩu súng trường M-16 của hắn.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPTpLMkB4P7V0hYeCdNHK1juEhZtkzMO57Rjb+IKN6R0APssF8Sx5WIA5/fMTB"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241356,
+    "id": "ihpKat2KJ8_g1e8PpM-tqAQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 276,
+      "total_tokens": 297
+    }
+  }
+}

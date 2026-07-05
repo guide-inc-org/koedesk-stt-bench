@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0042",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.34,
+  "ref_text_raw": "De même que les hommes doivent porter un pantalon couvrant les genoux.",
+  "ref_text_normalized": "de même que les hommes doivent porter un pantalon couvrant les genoux",
+  "timestamp_utc": "2026-07-05T05:04:50Z",
+  "text": "De même que les hommes doivent porter un pantalon couvrant les genoux.",
+  "latency_sec": 3.8309,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "De même que les hommes doivent porter un pantalon couvrant les genoux.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Et4CCtsCARFNMg8ettjVWmQ8dZmCg6FFxnQeRRnLmIGS+Qts7JoIBcaxulA32XbaxycsCZiB1K8eWDJ4LVnHUtAigNZ5dEkuDmodR5CJbeK/ONqKhR8rF3ev7FYDDCuc5XcqQ7NC0HC+03Wq+nBjy3Hz7wyVWLD7hd7gxwcut4UUjK0Ec7wN4jy1QuMZ1a//qLMdW/V7BTL1aOw44kF2DBPaDdbKYITnxQLQ6pl0g6KB+G15eASQUv25VjsR7a5j6dGA7/vtZ/bnPgnONFvIYC//yq4TKsXL2FRu/eXD/qD5sQSUgEDVWElqBHn7QnG9hGlf9qvMXU/YT+wM9ccaE+aoTveqnbhZ/B5p9Ju/XNR3KiOASCdyf39nvnwSzOA337E34BhbxpaDWD83blHieXe/O9u7n5jGLujhIV4VUaVyHwlfBEp/xgcTigJeh9wLc7Gx9v0hzuf5DiRFFNoOesI="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227890,
+    "id": "8OVJap6AFOzFvr0P-YXt8AM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 230,
+      "total_tokens": 312
+    }
+  }
+}

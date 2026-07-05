@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0117",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.04,
+  "ref_text_raw": "With Kundalini Yoga the Kundalini energy (enlightenment energy) is awakened through yoga postures, breathing exercises, mantras and visualizations.",
+  "ref_text_normalized": "with kundalini yoga the kundalini energy enlightenment energy is awakened through yoga postures breathing exercises mantras and visualizations",
+  "timestamp_utc": "2026-07-05T03:34:14Z",
+  "text": "With Kundalini yoga, the Kundalini energy, enlightenment energy, is awakened through yoga postures, breathing exercises, mantras, and visualizations.",
+  "latency_sec": 2.8451,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "With Kundalini yoga, the Kundalini energy, enlightenment energy, is awakened through yoga postures, breathing exercises, mantras, and visualizations.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPqRkKbFjsArkfab/BdyijHe7pYN+b13+pu262wjpLfjZz5E50trW+//K76UCZ"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222454,
+    "id": "tdBJapLACYaA0-kPotqL6Q4",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 297,
+      "total_tokens": 324
+    }
+  }
+}

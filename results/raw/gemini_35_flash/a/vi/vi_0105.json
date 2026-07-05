@@ -1,0 +1,45 @@
+{
+  "utt_id": "vi_0105",
+  "lang": "vi",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.84,
+  "ref_text_raw": "Ottawa là thủ đô song ngữ quyến rũ của Canada, sở hữu hàng loạt phòng trưng bày nghệ thuật và bảo tàng trưng bày các hiện vật lịch sử và hiện đại của Canada.",
+  "ref_text_normalized": "ottawa là thủ đô song ngữ quyến rũ của canada sở hữu hàng loạt phòng trưng bày nghệ thuật và bảo tàng trưng bày các hiện vật lịch sử và hiện đại của canada",
+  "timestamp_utc": "2026-07-05T08:38:17Z",
+  "text": "Ottawa là thủ đô song ngữ quyến rũ của Canada, sở hữu hàng loạt phòng trưng bày nghệ thuật và bảo tàng trưng bày các hiện vật lịch sử và hiện đại của Canada.",
+  "latency_sec": 4.2873,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Ottawa là thủ đô song ngữ quyến rũ của Canada, sở hữu hàng loạt phòng trưng bày nghệ thuật và bảo tàng trưng bày các hiện vật lịch sử và hiện đại của Canada.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtQJCtEJARFNMg88CrPQxdoLMTdnhnan34JRW2yI8sAue66svLdOk/sym6FJtkrFb6EpsSbuG8ZoBixMKJ2hqI/L5rRochYloHuba1l+NFqVt72Y0tBdQOxgN6sz8tx4QlZMIjN3T8xaj3o9W5+u6oMqdyO3Fl8ds53agTJyvietUg6B30XDk5ibm0u6yk2Ur2pkKXk3I4PY5arbj19w7W8UvUM/xp2tS35gpVNW+cHUKBM9xqt+TNhb3KfT42YgfxffzN+Y3J9SIJ0MmDzVytd36kIAQgZqVgj+1iljnvMLZIZaPS1TncRRRO3V2eoLZZPKF3WN+Kx1jOeY/ORmWdwZ5Le02hl27TIVhEoKRfk8OMzi0G+59rnpvBi3WFGaISM80Qi+5l14sGXOhEaaIjqAC9/YEiRb0pmNN+eQGI2+KtecjgeMqOyn/Co6LRgx6ASf5vxZYiPNj3bIcBJZJXt4VGuysUGpw/cTL3jIU9cDr4DEXo2p9Pev0h2hZbyJxeJZ0/+K+Qwn8cFJ2jikEhp+OU9sod2m9rU/2SybpFdPRw2LZrYoKBtlnMXZ87RmQJ0GDrruRlPGWOKgzGbCdinsRv52xcNwPTVzPSQj96KEbrvjv5SJL6M33OkLr92Q54LW1/ddqaYJ2g0ZS3bT/sFdjIot7dUYSs+qS4406tU6i+vF/LEFvS6f0E0i92XHE4RMq1sVO/aw98dfrAHzmxCXYRjfzISDLF7CQgHBai1SbNHkPgWlsUmjMrlBiKzFmEm4y0NCJ6fOu//rNMHsPRUE7B5J8GDZVPSinnVThoMc3t1z1/32O2GfjpBAQWQtj/DqacIu5546myfWw/z37uALW3DH0O0KMpQnUl6BhsduB+Jjj8HZ0jNFqYJLXgh0P0ela+kISrNzl0hjDDFTZgagR7SgumPsNWRxFApMcoqk12Ycm32Qpm93NQkZCufAWEGZFyBY++nBr9d2ORxGO1La5hXtUUgtOaN/GwrhRZcuQiyjohV8OCrn/6L2LtBKCDepNJb966Ot+RRPEAl8M+veT3WGPtkbitVsoZXg0+s5GYaf+r33U48cHQiRQCgiBNjaS83e7oq6RVBBrUxsqc0CKvV8VBXd5iRS/Xcfp37VmZ4g60TYy+GB5WHTdw2cpVridMR1eUCh9jjPMKkzZBNAkg141xF3reIHPhOcfEl5uwUpqtC0+ZtQBK6mhhSsVfnmGwRXXvQnWLLcuMpMHz4EvFnkrECGvyhrOLI2rtFuaFPqoHzY2EL7YsuJyNEivY5z9PJXPIW1xgfmxZSkemjrVUllG/Yu0oiiMPbfsKQygei2+6LHaUhMrngBWSZWP5PGeGScMTwI1QOW+t55UNE1JVciTrzohyRymTNsBa3B7MwSfkoRoZol/2/vqrX076A5JpTac6peaT/PK+QfgcbqPJxRzHbPd+oFPcBri5ffSk7ww2iX4C/h6dCoHvVc8aE9KEgXcJk7Jp+lG7bhCBHaP4NbZtqs94SNI8MA/rR/4m3mTy0/7hK4VcrdhsQyPrA8xSqSl5FlC6EJylMf7n3dXVJyrfRcoBOVPo0hL/oTBpQQsmVlVR5yEo9FaIcBFQAzrgPTjhlCnVnt23Y3CMeG7Fu5qM8uU7eukFhMUWodGP6qvqNj"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240697,
+    "id": "9hdKaujrIu6A0-kPgc2WkAY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 342,
+      "total_tokens": 637
+    }
+  }
+}

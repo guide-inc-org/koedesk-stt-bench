@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0089",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 19.14,
+  "ref_text_raw": "„Dies wird kein Abschied sein. Dies ist das Ende eines Kapitels und der Beginn eines neuen Kapitels.“",
+  "ref_text_normalized": "dies wird kein abschied sein dies ist das ende eines kapitels und der beginn eines neuen kapitels",
+  "timestamp_utc": "2026-07-05T03:46:50Z",
+  "text": "Dies wird kein Abschied sein. Dies ist das Ende eines Kapitels und der Beginn eines neuen Kapitels.",
+  "latency_sec": 3.8861,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Dies wird kein Abschied sein. Dies ist das Ende eines Kapitels und der Beginn eines neuen Kapitels.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223210,
+    "id": "p9NJavH2Krui9tMPvLHh-QE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 634,
+      "total_tokens": 706
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "id_0100",
+  "lang": "id",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 41.28,
+  "ref_text_raw": "Jika Anda ingin berada dekat dengan pertunjukannya, maka Anda harus datang lebih awal agar mendapatkan tempat berkemah yang dekat dengan musiknya.",
+  "ref_text_normalized": "jika anda ingin berada dekat dengan pertunjukannya maka anda harus datang lebih awal agar mendapatkan tempat berkemah yang dekat dengan musiknya",
+  "timestamp_utc": "2026-07-05T05:43:35Z",
+  "text": "Jika Anda ingin berada dekat dengan pertunjukannya, maka Anda harus datang lebih awal agar mendapatkan tempat berkemah yang dekat dengan musiknya.",
+  "latency_sec": 3.6525,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Jika Anda ingin berada dekat dengan pertunjukannya, maka Anda harus datang lebih awal agar mendapatkan tempat berkemah yang dekat dengan musiknya.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpgDCpUDARFNMg/GBI2Ws/OnBJhYm2d7kjc2s4sn9xPvW+KgfwqJSdQP59E4To+R5svCCsrET8D77gO56gwdmEcRqDG+bBo/S7JT24+CF17hpR/rR949oLfZbsryOCYmwPL27o6wU+adsGlaKO4GDCwLbKTPm0hS7CcVe19b/7OBqMCA3gVkGrmaDbhQJFwpBmeTOI3q4LjhBo7O4n6RNS27q5dKJT0F8ebJNBLjBwkCSnK5jX15Rn+BucyiLLt57gEK5unSpOng1hqJlWjveniWAwmdQrXWuDWusQtWoRC9NuNoscccQ/gB1hBgUm43CSfkV3DOsbWn9b5og4jqo4kflUbMEFO+x1KHo8M/xZrGGotMNZC2Nv9aqCQmCZXfMejgPhob7VUESooj82qJpthvD7r3+ZvBTx+K+ZLdyRhvKgSn5OolaEIaFfTLl+c1Pd1Iy5SmmAv3E9+uuQWEmcfZxqT0MIVmkT7TXDoG/sa5f19BoFirE9k9E8MUohozueihY3YWbocEzn5wAWdrwSktGLXELlsLbNFa"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230215,
+    "id": "Be9Jap65KabG0-kPpaDayQU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 1053,
+      "total_tokens": 1146
+    }
+  }
+}

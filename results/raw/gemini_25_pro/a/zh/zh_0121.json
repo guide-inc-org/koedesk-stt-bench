@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0121",
+  "lang": "zh",
+  "engine": "gemini_25_pro",
+  "duration_sec": 8.88,
+  "ref_text_raw": "一夜之间印刷了 150 到 200 份，就是现在众所周知的“邓拉普宽边”(Dunlap broadsides) 版。",
+  "ref_text_normalized": "一夜之间印刷了 150 到 200 份就是现在众所周知的 邓拉普宽边”dunlap broadsides 版",
+  "timestamp_utc": "2026-07-05T09:01:34Z",
+  "text": "一夜之间印刷了150到200份, 就是现在众所周知的邓拉普宽边版。",
+  "latency_sec": 4.5607,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "一夜之间印刷了150到200份, 就是现在众所周知的邓拉普宽边版。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242094,
+    "id": "ax1KarKeC-rS1e8Pod3IoAU",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 306,
+      "total_tokens": 510
+    }
+  }
+}

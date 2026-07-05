@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0171",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.04,
+  "ref_text_raw": "On dit donc que le rapport d'aspect de ce format (en divisant par douze pour obtenir le plus simple des rapports de nombres entiers) est de 3:2.",
+  "ref_text_normalized": "on dit donc que le rapport d'aspect de ce format en divisant par douze pour obtenir le plus simple des rapports de nombres entiers est de 3:2",
+  "timestamp_utc": "2026-07-05T05:20:08Z",
+  "text": "On dit donc que le rapport d'aspect de ce format en divisant par 12 pour obtenir le plus simple des rapports de nombre entier est de 3/2.",
+  "latency_sec": 3.2531,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "On dit donc que le rapport d'aspect de ce format en divisant par 12 pour obtenir le plus simple des rapports de nombre entier est de 3/2.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPG0Ns4pk1+NJt+1tHu8hmecMHUB/EquO6BwmQ86lnTJ3UzB0ncM1qldLrRVUF"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228808,
+    "id": "hulJatu8NLui9tMPvLHh-QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 222,
+      "total_tokens": 258
+    }
+  }
+}

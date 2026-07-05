@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0008",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.04,
+  "ref_text_raw": "Insbesondere wird behauptet, dass man erkennen kann, ob jemand lügt, indem man minimale Veränderungen des Gesichtsausdrucks richtig deutet.x",
+  "ref_text_normalized": "insbesondere wird behauptet dass man erkennen kann ob jemand lügt indem man minimale veränderungen des gesichtsausdrucks richtig deutet.x",
+  "timestamp_utc": "2026-07-05T04:00:13Z",
+  "text": "Insbesondere wird behauptet, dass man erkennen kann, ob jemand lügt, indem man minimale Veränderungen des Gesichtsausdruck richtig deutet.",
+  "latency_sec": 2.7201,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Insbesondere wird behauptet, dass man erkennen kann, ob jemand lügt, indem man minimale Veränderungen des Gesichtsausdruck richtig deutet.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPNIeKWtyB6r5KBygAFi7EqhIf/jMRjaqX9+DwzNVHVFDPoIXjG5O3G2HugM47"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224013,
+    "id": "zNZJatmBC8P_2roPvqa06AU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 297,
+      "total_tokens": 326
+    }
+  }
+}

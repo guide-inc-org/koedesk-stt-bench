@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0198",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 14.4,
+  "ref_text_raw": "キャンセルポリシーはさまざまですが、3月下旬の時点で、ほとんどのコロナウイルス関連のキャンセルポリシーは、オリンピックが予定されていた2020年7月まで延長されません。",
+  "ref_text_normalized": "キャンセルポリシーはさまざまですが 3月下旬の時点で ほとんどのコロナウイルス関連のキャンセルポリシーは オリンピックが予定されていた2020年7月まで延長されません",
+  "timestamp_utc": "2026-07-05T03:24:54Z",
+  "text": "キャンセルポリシーは様々ですが、3月下旬の時点でほとんどのコロナウイルス関連のキャンセルポリシーは、オリンピックが予定されていた2020年7月まで延長されません。",
+  "latency_sec": 5.2318,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "キャンセルポリシーは様々ですが、3月下旬の時点でほとんどのコロナウイルス関連のキャンセルポリシーは、オリンピックが予定されていた2020年7月まで延長されません。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221894,
+    "id": "gs5JariROqKw0-kP6bjO4AU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 381,
+      "total_tokens": 909
+    }
+  }
+}

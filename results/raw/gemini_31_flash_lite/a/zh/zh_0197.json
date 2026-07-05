@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0197",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.64,
+  "ref_text_raw": "再往北的广袤地区人烟稀少，有些地方是杳无人烟的荒野。",
+  "ref_text_normalized": "再 往 北 的 广 袤 地 区 人 烟 稀 少 有 些 地 方 是 杳 无 人 烟 的 荒 野",
+  "timestamp_utc": "2026-07-05T09:22:32Z",
+  "text": "在往北的果茂地区人烟稀少，有些地方是亚湖人烟的荒野。",
+  "latency_sec": 3.5065,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "在往北的果茂地区人烟稀少，有些地方是亚湖人烟的荒野。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPDXQ5nHBJsQxTd/USjWYjRPdVU9VyAUBmBZjKNmP0HW0mFwZUoiTPSm8+NtT/"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243353,
+    "id": "ViJKao6XIuL81e8P5-3SkQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 237,
+      "total_tokens": 260
+    }
+  }
+}

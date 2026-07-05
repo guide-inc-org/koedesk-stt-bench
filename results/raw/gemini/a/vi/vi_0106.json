@@ -1,0 +1,39 @@
+{
+  "utt_id": "vi_0106",
+  "lang": "vi",
+  "engine": "gemini_25_flash",
+  "duration_sec": 6.84,
+  "ref_text_raw": "Trong quần đảo và hồ bạn không nhất thiết phải cần đến thuyền buồm.",
+  "ref_text_normalized": "trong quần đảo và hồ bạn không nhất thiết phải cần đến thuyền buồm",
+  "timestamp_utc": "2026-07-05T09:49:59Z",
+  "text": "Trong quần đảo và hồ, bạn không nhất thiết phải cần đến thuyền buồn.",
+  "latency_sec": 3.5604,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Trong quần đảo và hồ, bạn không nhất thiết phải cần đến thuyền buồn.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783244999,
+    "id": "xShKatbQIZWJ1e8PhMDXiQU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 240,
+      "total_tokens": 256
+    }
+  }
+}

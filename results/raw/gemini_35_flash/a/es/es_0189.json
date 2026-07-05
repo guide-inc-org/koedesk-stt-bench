@@ -1,0 +1,45 @@
+{
+  "utt_id": "es_0189",
+  "lang": "es",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.12,
+  "ref_text_raw": "Como en todas las reservas naturales de Sudáfrica, existen tarifas diarias para la conservación y de acceso al parque.",
+  "ref_text_normalized": "como en todas las reservas naturales de sudáfrica existen tarifas diarias para la conservación y de acceso al parque",
+  "timestamp_utc": "2026-07-05T04:44:29Z",
+  "text": "Como en todas las reservas naturales de Sudáfrica, existen tarifas diarias para la conservación y de acceso al parque.",
+  "latency_sec": 3.5779,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Como en todas las reservas naturales de Sudáfrica, existen tarifas diarias para la conservación y de acceso al parque.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Es8FCswFARFNMg9N7xvcWhRRWYQApCG6Vx1wlUQV2KykO70ySpXmxulbR0u1WiAz5vanhU5kQwCj/UaRSVPiBgqQgJKZ9GCpTP30TE1sWTNEiXeciz+M3dLkJHDN6X/GC7JSRy2dadH79m0OYfblgKqAUXIlUTG9TPiNPZUol+36OrZwpjwDBDdMiJBudQgKKU4UKt12eNie6n5PDIOI7Jv+mB8zqBCHE+VZZAem9Rhb0+gH6IZ3xPyG74ecGTE+C93D5q1qIRXfEuGg1Q3jG8VD+Wis0sBZIZnupF4HjRihKyeBgVOhSL3AZAoNE8q9gyVfYZYAF1k5QiattpBfTHnOXXiHrGVrgNkGgCFzQHinPd3MS1lOVJDFZFbh+I3smdR3v5WMMipwmTMGhdy79fBpuKUqUJodyZ8+LS13iWvtAjDgyMsJUBxrEjRj1y1eXjs3+p/h1ZpjKeexTT8h4PmwuFDvhiqg4rjX+zQWUI5nlK93GuHeBGkrrGvLZCZ3Qek+k2sS7inHu3/0NGhb1F35MViwtDcdUAgIvSo24uXWtidSncevmbwyL3oHVtUcSpxAt7D6OEreig+pBdyFnhkPERidY0LKB8/D8QL6SD5pRm72ZjNV/TLMfYNpPXaGFLTOsNX0yVwxMHBgIrXaYh0CyCli+IAPkkB/nnE9ETmy4RdB6vHfYbNSozK6heRq18+JY6O0eoV6JUUyUeslg1DEWlI2mzxzHMB09CVI2v9ObXDiOJqmFGKWvSEAiao/Yi3iUZDZAQjzyoV8UKsIAbcHnwJ3JSNeJ73Im1V5U8EGqbMTZIQOUTe/aEd3/06hkAi+Zvvya46lfT7NX6eb7onMIDDxyijbLM9zN1CETVRsJN38JLcHwsxT99tSEn/Mun5i3WawDzTVCsjGmzqTA5J4Yim1yKfELqvV9WvyLJRwUhjHF+xyK7JNZImsLVpkzBo="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226669,
+    "id": "K-FJarSiJMmzvr0PmpW5mQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 249,
+      "total_tokens": 429
+    }
+  }
+}

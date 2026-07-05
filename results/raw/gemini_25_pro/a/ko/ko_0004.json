@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0004",
+  "lang": "ko",
+  "engine": "gemini_25_pro",
+  "duration_sec": 12.12,
+  "ref_text_raw": "홍콩의 스카이라인을 이루는 빌딩 행렬은 빅토리아 항구의 수면에 선명히 비치는 모습 때문에 반짝이는 막대그래프에 비유된다.",
+  "ref_text_normalized": "홍콩의 스카이라인을 이루는 빌딩 행렬은 빅토리아 항구의 수면에 선명히 비치는 모습 때문에 반짝이는 막대그래프에 비유된다",
+  "timestamp_utc": "2026-07-05T05:57:53Z",
+  "text": "홍콩의 스카이라인을 이루는 빌딩 행렬은 빅토리아 항구의 수면에 선명히 비치는 모습 때문에 반짝이는 막대그래프에 비유된다.",
+  "latency_sec": 5.1436,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "홍콩의 스카이라인을 이루는 빌딩 행렬은 빅토리아 항구의 수면에 선명히 비치는 모습 때문에 반짝이는 막대그래프에 비유된다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231073,
+    "id": "XvJJasC3Ab3MrfcPx6WgiQQ",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 409,
+      "total_tokens": 619
+    }
+  }
+}

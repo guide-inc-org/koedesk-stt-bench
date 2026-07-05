@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0046",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.92,
+  "ref_text_raw": "Die Durchfahrtshöhe unter der Brücke beträgt 15 Meter. Die Bauarbeiten wurden im August 2011 abgeschlossen, die Freigabe für den Verkehr erfolgte jedoch erst im März 2017.",
+  "ref_text_normalized": "die durchfahrtshöhe unter der brücke beträgt 15 meter die bauarbeiten wurden im august 2011 abgeschlossen die freigabe für den verkehr erfolgte jedoch erst im märz 2017",
+  "timestamp_utc": "2026-07-05T03:59:40Z",
+  "text": "Die Durchfahrtshöhe unter der Brücke beträgt 15 Meter. Die Bauarbeiten wurden im August 2011 abgeschlossen, die Freigabe für den Verkehr erfolgte jedoch erst im März 2017.",
+  "latency_sec": 5.6049,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Die Durchfahrtshöhe unter der Brücke beträgt 15 Meter. Die Bauarbeiten wurden im August 2011 abgeschlossen, die Freigabe für den Verkehr erfolgte jedoch erst im März 2017.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Eu8PCuwPARFNMg/SDSvxg+dcGKkEibBWpIxeR4xASPAAv1bR4MtpJKoSV31Fy9xLWLVD+xwaUPtuCA0cNWaIhlU6GWs8ORxElwhABcJTePz3waS2iAsu3i/CfLdAsmzsnb6aX4UyFENU/wLZ4NReKQ8A+MHLU+FxdvrXI7/S9u4aColl6/i5QsStaCSUrA06xOSJ4gzCE6zmTB+Hh9LxHR7b/PX3Rnury3IB5zkow7lxMcuuHTgAQhigLgMsOMTqOHNp9tFlNvvKU1W6BZ/E+B8aM5oU3XwUkimE6ZpO8TgedCpgc9FDZNJ5rWmXwByrG9uIRjPLrUgaUykSXR76j9BboRRzWEi4dF5saHzDQP4NFhRp/G38mFtW8E6B6p5R0OEdkn9PNBI1Hq9yrxHiXfCzBmwyUzXnYENIr803/wGFPNy5vHY9sWqov0kzhOKggEEpBKj5bIzrsMY+A5LPDMlHDNGovnYoPf85zvgaCXt09C3oOkMlOboz2VAmaZPWrh/XQ0id06xAK8m6Jy5kj/OtVvdZXyFGQomfWcWZ/4xmpgtb6ZcST6hIB27ui2YC3MB2HqqflrkSWG9fqidbpEzFttdrT1GK2CXHNGnT+hf+Yw6fhMRQ/sfG2GERI0GWSZogBVDj+DY8FuUPXnb6h+Wdabaji8EtAyPHm9mx4Szu+lCkzbf2j291OEj9bvU9GN23G9ZqpR4Dn+uZ653KOp3c9q/Cte2ivtJUFMm1/HgX9WXJqijCT96myvWYq9ke86aBWd5qX/4IVwEL4raLU2sh4UtNChEipZ3d7zdEXcP4YnsglpgKqguDnRl1k0zdG2xSzEjk51ByslYZjizdU0zoGxK+ygF7uES5cyq7K+WpVfhQylaouo9ovSNt5Bq2/dTemUvfuY3F7UoZSZBjAI6CERobXIrmoFE8tl2jFqQeYTutgLWAIoBFd3kMRKILRk/I/OEWxFccOFq5UbxhK2Xkqm4xtibLrb/XEd6Pin97xqBeD7Rj9HR6dkXdpGGsMfVQPQSqjndcw9M5ItVhCSyx1Y76uprzFIYCLr3/POMwJTI6sTZgg63yPURU93DR1JvLiVr9yc5QToOGZHrwlX/hBFSfcj8SHGFb6AirVOodxrAchXofdFyezjQc+lxesjud2uObnIhJB+9pcNfJvttIHXqhcRWX/njmGEtbqs6bJelkNel6hZ/0OArqB1em0pqISMAddGEKQCVdfvPDPCF2k0LDNt5gV7ULSH68BjsbT0emB24A0hb1oxQ0lfBov18801VmXTeJsrtZekQ8bHig8mTWLqWeq4IwLMG8RcSQQIouA2I8cLbfqkPRrWOxx4FxfqJEg98bFan5vYo9DI6holLsGZai3EIyRSGlxxpWY/kkq1k9NWZoUnZF/DDkaBUixxYi1Xi3kPmCX7o1y5ZZkdRwDjhbfreJpoClb8qj8ZQFL43bg4sMv5biXuqtonbDBdFQJDZT2S3mSdBOWlFbashm74olBQGr6+wNI3OfA6il9NRgpmLvTmSKjYW5PTSqQ2KWZQvixv0c4iGAm9u/QbDRL7AR+dgG0l2r6MvwQATJnrF2pbQeSQ56lNaUTQWIk6RqZmkYHq69jYgefYdwAxz5IoPSpQ9Bn/9WiBbm8MdyywKcfHAW7V7hIsTI0rE25ldhaDNnK37cfd2A3Om+ddhnaE3aj/Bdex8Ze5c+CDX9FVZf9gdId7orXF1EMRygxo0EqUd58PTFDFaunggtgcSXW/FZavG6vqgskDOzNE3+i/15O0+hNwRtSpZJvScmxcthw/QhOWaC6n/7S2IxrR3iuvTRJso0L9J23Lvm5BIOMDcnFl2tsh3xCkZkyRkp2q+Exnf3vjQbWeyalNjZVSL9Zs+SWKp3TXyN3hVOYzPvjqKEIdcPbxwDV0QpGri5N2+7oDfxWItZap3ry60JrAHqw2EbpfZ6qMoA5ZVaVkBRJEB4YdYtwWV93+Md+by8ShKaW0guSgHSb7iiKBUUm+1xLdcQ/jQHAzAHxEtIphph3KuMQsvkey1nDXNxHqms02HILPwA6sKFbAqN1mS5olhV2NxXchZW8qTRdJbZj/+23xwuI/iBX9HX0cFF/A3Uvuu/sn1G67xd0FnPeghcXpRnr8hyMlF0Y0ornewQ4u3yVBNXiqiiqnfux9s8z+kIAT8FIpJf5qtaH8gC49K1nkIbpIt6Fv6eHQMTxWSRlyp06yWoEg+xfqvxY06j325nZ75PwAh0wyKUrk6lCjZojuzcsYlBg/qQ+FCZ2Bzr0izU6h41rT5t1bh8vS1t+Us9bz7sVyqpxOC3Y0rfpyEoSSXq1kD/outjbsAAyydtEzuLUzmsznhJQF85AYvmta0KBuV90nXpgd1LSGQmZQsYd6a/CE/w2xExEpLh5quRwEXuYM2hLJQIEsyLXqtmzzZBLcIY6PQjjniCnGgqUUdInp7IrU9atDgzFa7y+TXw06WLRTKWBrB32RHeuGD0XtKKDNgB+fGbZxE6gFWe2QmMlapVnxAzYuNKb30oj8K6PoxkVVeooYU/9JctgxQ/0oWEKbxGauXdpg+F0VsxMtSKes1Wr9vGiSyuB6fCfGpt/tj1t+JzYLNAFF0k9v1y7pOeEOQC9jbUM2ckJAaS67r3877oROPWFvpEWmzCguogFplHWF3+3Z++E4towE/lxMUqXSau2rlIHZnP6O+yRNUZ"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223980,
+    "id": "p9ZJaq6kMMmzvr0PmpW5mQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 294,
+      "total_tokens": 1011
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0086",
+  "lang": "ko",
+  "engine": "gemini_25_pro",
+  "duration_sec": 13.56,
+  "ref_text_raw": "이들 해변은 대개 혼잡하지 않은 가족 해변으로, 해안가에는 다양한 상점이 늘어서 있습니다. 수영해도 안전한 곳입니다.",
+  "ref_text_normalized": "이들 해변은 대개 혼잡하지 않은 가족 해변으로 해안가에는 다양한 상점이 늘어서 있습니다 수영해도 안전한 곳입니다",
+  "timestamp_utc": "2026-07-05T06:06:32Z",
+  "text": "이들 해변은 대개 혼잡하지 않은 가족 해변으로, 해안가에는 다양한 상점이 늘어서 있습니다. 수영에도 안전한 곳입니다.",
+  "latency_sec": 3.8614,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "이들 해변은 대개 혼잡하지 않은 가족 해변으로, 해안가에는 다양한 상점이 늘어서 있습니다. 수영에도 안전한 곳입니다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231592,
+    "id": "ZfRJatSSIJWJ1e8PhMDXiQU",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 455,
+      "total_tokens": 524
+    }
+  }
+}

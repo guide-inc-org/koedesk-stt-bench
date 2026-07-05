@@ -1,0 +1,45 @@
+{
+  "utt_id": "es_0047",
+  "lang": "es",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 24.96,
+  "ref_text_raw": "Por ejemplo, todos los años, los alumnos de la escuela Bennet en Carolina del Norte diseñan una página web acerca de su viaje a la capital del Estado y cada año la página se actualiza, pero se conservan en línea las versiones previas que en la forma de álbum de recuerdos.",
+  "ref_text_normalized": "por ejemplo todos los años los alumnos de la escuela bennet en carolina del norte diseñan una página web acerca de su viaje a la capital del estado y cada año la página se actualiza pero se conservan en línea las versiones previas que en la forma de álbum de recuerdos",
+  "timestamp_utc": "2026-07-05T04:32:41Z",
+  "text": "Por ejemplo, todos los años los alumnos de la escuela Bennett en Carolina del Norte diseñan una página web acerca de su viaje a la capital del estado. Y cada año la página se actualiza, pero se conservan en línea las versiones previas en la forma de álbum de recuerdos.",
+  "latency_sec": 4.8211,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Por ejemplo, todos los años los alumnos de la escuela Bennett en Carolina del Norte diseñan una página web acerca de su viaje a la capital del estado. Y cada año la página se actualiza, pero se conservan en línea las versiones previas en la forma de álbum de recuerdos.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225961,
+    "id": "Zt5JarH4KNTf1e8PvLbrwQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 58,
+      "prompt_tokens": 645,
+      "total_tokens": 1123
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0123",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.26,
+  "ref_text_raw": "Several large television screens were installed in various places in Rome to let the people watch the ceremony.",
+  "ref_text_normalized": "several large television screens were installed in various places in rome to let the people watch the ceremony",
+  "timestamp_utc": "2026-07-05T03:33:53Z",
+  "text": "Several large television screens were installed in various places in Rome to let the people watch the ceremony.",
+  "latency_sec": 3.3798,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Several large television screens were installed in various places in Rome to let the people watch the ceremony.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtAFCs0FARFNMg9MPhF7AFd38pu48scmUQxl5ctthTQa+GuDy0362kUccJbmldZJOI7F7+GRPYmyhjm254Wz8Uw6sV4NiPulpDtjlGtJOnBScg96ydJQU8zug/jcKilrc7LSEwG3HE0yxt+VQNbGar5zuaCd63+ehf5oJoIc2Az6Auh7BA8+hfTavto1JI0d+m4LSlSv3+tODvQbTe/ZMb6v2nRNfjLzChKqxqmyt6z5CK1+s2UoJRzbtlKA6UUmlZk+peCOOFJ76D39uIucqSKWEbp9QSbn6fTvKIoT/iPkUtnZ9NDDg8bKscfvkkpCFSUArJKnOF0kTMA2rIC+LouBSJ49ESbuVizSHEpefPIDXZmy0qTcrF/VAlh0hc6XNpp1beC78DBlpKHMLcoXgSGASwGa37pFLk/C4xwHCawneqHXOKNm2JphaqkGMAiDi5Ayeg9/CNFW3EnfYM02Gg7B0tKrd9YxZQ2aTU1s48Oz2fG9EVR4AuMfbCIpDIP8JxGZKErCV5druHAqiIV2XsFJkgzjc4jaU84mHV223SkXoHy0cu0lQyOGbzPg4/15gWmz+jnmPFUdS7kPrIsR2jb5WtRcevBrHUZOf08qPxs+XOKnZwlgWTpWn6dSU/pZNKdorQiJ4yR7U7QJVbyRTFjS1OdUWwDH9uoJ9WswdhftjTD1O2HIBY/Ym867PcfoO1ofzVgSDyW5qefIPEHhmZaqPEzNjFLK5hluC+LU1Q572pDCSRlIMLRk28Qi1FpKT89iBSewuD++TW2SOQ0q79PxBJa3ad7SWmaT8tnwZSngPI3RYt3E+l+U+LgHT+l8s8wy9MM9baoY1iLVYWPia5JM7lK8lq6C1VAXQBHblMsmcNbW491W6wuTyjdO6y/5oQvRqzsUe8BJVN41TC2NogMx7ZCgIE/+exY9FdaPOS5Gu/ocfqwiALrMDPu5Ou6d15DL"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222434,
+    "id": "n9BJauu6NOnF0-kPwPbOqAc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 278,
+      "total_tokens": 444
+    }
+  }
+}

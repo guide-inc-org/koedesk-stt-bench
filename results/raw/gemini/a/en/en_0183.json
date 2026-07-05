@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0183",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 5.46,
+  "ref_text_raw": "Soon after the outbreak of hostilities, Britain initiated a naval blockade of Germany.",
+  "ref_text_normalized": "soon after the outbreak of hostilities britain initiated a naval blockade of germany",
+  "timestamp_utc": "2026-07-05T03:30:54Z",
+  "text": "Soon after the outbreak of hostilities, Britain initiated a naval blockade of Germany.",
+  "latency_sec": 3.0279,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Soon after the outbreak of hostilities, Britain initiated a naval blockade of Germany.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222254,
+    "id": "7M9JavLHLqyv1e8P3_jVaA",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 15,
+      "prompt_tokens": 196,
+      "total_tokens": 236
+    }
+  }
+}

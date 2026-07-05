@@ -1,0 +1,45 @@
+{
+  "utt_id": "pt_0164",
+  "lang": "pt",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.42,
+  "ref_text_raw": "Nos deu o trem, o carro e diversas outras formas de transporte.",
+  "ref_text_normalized": "nos deu o trem o carro e diversas outras formas de transporte",
+  "timestamp_utc": "2026-07-05T06:57:02Z",
+  "text": "Nos deu o trem, o carro e diversas outras formas de transporte.",
+  "latency_sec": 3.6196,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Nos deu o trem, o carro e diversas outras formas de transporte.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EukFCuYFARFNMg8JZs9bj57Cf6NGvz9VT2OXSszbTZPKn5615XWAn1oc80zNZeIpdx4G6JbyE7m3Bj5tOvX+8IXm5veu2WmYkWEDUrgY4imxnLcTa9cYJ9GU4AuFQ5d/k9i5MEWU8pFn173ifdxOBpsz4ixs6N+EKotqm98pZeM6tcYhzRYk2H2GI+DHlJmsGMwegDRxL3KrgxMmBOKItNK7I043xQ/HjOIO/uszoF/iKmPPlwuQlFwFknNJvutlxICU4+y5H6dEQuS0ShSv5jZxEXFTDuC7WtVoCrT6TDsrtMypL+DvW9mWASaaNHy/2ziG0EwtthguQFgGsnRvNJLj1ERUFbPh7RPdJumHzkaqoIdxcTsMAQv+5MGmphw17avJfpLsYSoAtmCyNTANrVWdr7ydIWme6HZlb0iAidA6CXXpeZiPGZbE7qVVaWkyI8AFYC9AeDPiiVehcWoSUmpk9E+foHy5D5CmSjMMtglJAqixXIGRfOfhOl23SX8a1sc4ftlBnyGhV2JZwOk/qDU9ZU0NXHsmXXeZAfJuTyWksIeRIPpmj4QcbJ6vwQb2t9PeJDDExkS8uSFw4Ih8gFDjN5QGSsMKgd3v1UhB8d2sWgLKh2O0+WWrXC5VLjVd5WJxFZb7KbvH9LDPXnJinNIEl+L2P9s4gN/J22D4KMr+4XNU8dEoH4dN6/47p4Wr4Uz+xdZGFYfuQyQrnmW5QZ8JsG66+zA+oN5pvoCcbdgxN2QxV6PIUVgCym7Mo3SCdcwE0I32xd/+ZTvkv6USxgRnOWq5lEAWWUxHq9MN7UFlxWjoGdo9bvFCZRylYrzK+2fhyZOU3O19qaUjvLU+KbTc+nZek98gONlLo1Qi0f7LzvTDRRL/KgtgCh+2Z93dN9/Bu0fd8uifuWr4rvwuUeqasZvCjK7OiHSMNAEErRPbw3PhpWg26LYMeTrpkwNLKfQdZISJasEZUeWqrIsGqUSSX4lI+Ex2fjs6ug=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234622,
+    "id": "PABKar3vD5Si9tMP8vOl4AE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 13,
+      "prompt_tokens": 182,
+      "total_tokens": 383
+    }
+  }
+}

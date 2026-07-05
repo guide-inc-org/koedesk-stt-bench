@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0195",
+  "lang": "zh",
+  "engine": "gemini_25_pro",
+  "duration_sec": 18.12,
+  "ref_text_raw": "美国联邦航空局 (FAA) 称，新一代航空运输系统 (NextGen) 可以使飞机缩短飞行航线，每年节省数百万加仑的燃料，并减少碳排放。",
+  "ref_text_normalized": "美 国 联 邦 航 空 局 faa 称 新 一 代 航 空 运 输 系 统 nextgen 可 以 使 飞 机 缩 短 飞 行 航 线 每 年 节 省 数 百 万 加 仑 的 燃 料 并 减 少 碳 排 放",
+  "timestamp_utc": "2026-07-05T09:10:16Z",
+  "text": "美國聯邦航空局 FAA 稱, 新一代航空運輸系統 NextGen 可以使飛機縮短飛行航線, 每年節省數百萬加侖的燃料, 並減少排 碳排放。",
+  "latency_sec": 19.6951,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "美國聯邦航空局 FAA 稱, 新一代航空運輸系統 NextGen 可以使飛機縮短飛行航線, 每年節省數百萬加侖的燃料, 並減少排 碳排放。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242616,
+    "id": "Zh9KauvND9Kivr0PmOv26QM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 601,
+      "total_tokens": 2718
+    }
+  }
+}

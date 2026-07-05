@@ -1,0 +1,44 @@
+{
+  "utt_id": "pt_0183",
+  "lang": "pt",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.72,
+  "ref_text_raw": "Sendo o principal destino de escalada do Chile, o Vale do Cochamó é conhecido como o Yosemite da América do Sul, com uma variedade de grandes paredões e penhascos de granito.",
+  "ref_text_normalized": "sendo o principal destino de escalada do chile o vale do cochamó é conhecido como o yosemite da américa do sul com uma variedade de grandes paredões e penhascos de granito",
+  "timestamp_utc": "2026-07-05T07:05:08Z",
+  "text": "Sendo o principal destino de escalada do Chile, o Vale do Cochamó, é conhecido como o Yosemite da América do Sul, com uma variedade de grandes paredões e penhascos de granito.",
+  "latency_sec": 3.187,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Sendo o principal destino de escalada do Chile, o Vale do Cochamó, é conhecido como o Yosemite da América do Sul, com uma variedade de grandes paredões e penhascos de granito.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPg9DjeSWhJ28UIH6xf6JYtvmJ3yvk0e4z1LNs/utl8YCVm2NSAigFlk8M3b/I"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235108,
+    "id": "IwJKaqeiHrui9tMPvLHh-QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 414,
+      "total_tokens": 457
+    }
+  }
+}

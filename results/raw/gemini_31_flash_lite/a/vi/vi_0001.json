@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0001",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.26,
+  "ref_text_raw": "Đối với Springboks, trận này đã giúp đội tuyển kết thúc chuỗi thua 5 trận liền.",
+  "ref_text_normalized": "đối với springboks trận này đã giúp đội tuyển kết thúc chuỗi thua 5 trận liền",
+  "timestamp_utc": "2026-07-05T08:37:45Z",
+  "text": "Đánh bại Springbook trận này đã giúp đội tuyển kết thúc chuỗi thua 5 trận liền.",
+  "latency_sec": 2.4416,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Đánh bại Springbook trận này đã giúp đội tuyển kết thúc chuỗi thua 5 trận liền.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP7HRhG66BUey/h0pKRBkG60IJ7eRUiAK9vddvNwpYErNi0eBYx0HeP58NWH6y"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240665,
+    "id": "2BdKavaJAY-V9tMPqJa8yAI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 203,
+      "total_tokens": 224
+    }
+  }
+}

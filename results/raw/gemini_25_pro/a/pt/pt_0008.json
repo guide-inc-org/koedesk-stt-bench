@@ -1,0 +1,39 @@
+{
+  "utt_id": "pt_0008",
+  "lang": "pt",
+  "engine": "gemini_25_pro",
+  "duration_sec": 17.4,
+  "ref_text_raw": "Ele também estava envolvido na gravação de cédulas para muitos países, e exemplos recentes de seu trabalho incluíram os retratos do primeiro-ministro nas novas notas de 5 e 100 dólares canadenses.",
+  "ref_text_normalized": "ele também estava envolvido na gravação de cédulas para muitos países e exemplos recentes de seu trabalho incluíram os retratos do primeiro-ministro nas novas notas de 5 e 100 dólares canadenses",
+  "timestamp_utc": "2026-07-05T06:32:04Z",
+  "text": "Ele também estava envolvido na gravação de cédulas para muitos países. Exemplos recentes do seu trabalho incluíram os retratos do primeiro-ministro nas novas notas de 5 e 100 dólares canadenses.",
+  "latency_sec": 4.1786,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Ele também estava envolvido na gravação de cédulas para muitos países. Exemplos recentes do seu trabalho incluíram os retratos do primeiro-ministro nas novas notas de 5 e 100 dólares canadenses.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783233124,
+    "id": "YfpJasLvNvz-2roPj568yQI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 46,
+      "prompt_tokens": 578,
+      "total_tokens": 662
+    }
+  }
+}

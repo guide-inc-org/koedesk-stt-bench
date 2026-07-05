@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0014",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 4.02,
+  "ref_text_raw": "สภาพอากาศในตะวันออกกลางนั้นอบอุ่น บ้านจึงไม่มีความสำคัญเท่าไร",
+  "ref_text_normalized": "สภาพอากาศในตะวันออกกลางนั้นอบอุ่น บ้านจึงไม่มีความสำคัญเท่าไร",
+  "timestamp_utc": "2026-07-05T08:01:32Z",
+  "text": "สภาพอากาศในตะวันออกกลางนั้นอบอุ่น บ้านจึงไม่มีความสำคัญเท่าไหร่",
+  "latency_sec": 2.802,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "สภาพอากาศในตะวันออกกลางนั้นอบอุ่น บ้านจึงไม่มีความสำคัญเท่าไหร่",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP3Zvj1gJsKNR9iivmgGYJImdIMO0CaqdN1euqlG6uDiaWiVEb4cqlN5jBfv/7"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238492,
+    "id": "Wg9KaoCFH62l0-kP_9TT2QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 122,
+      "total_tokens": 141
+    }
+  }
+}

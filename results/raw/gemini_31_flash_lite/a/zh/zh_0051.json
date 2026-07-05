@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0051",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.9,
+  "ref_text_raw": "因此，铅笔一问世，就成了许多人的心头好。",
+  "ref_text_normalized": "因 此 铅 笔 一 问 世 就 成 了 许 多 人 的 心 头 好",
+  "timestamp_utc": "2026-07-05T09:13:43Z",
+  "text": "因此，“千里一问”事就成了许多人的心头好。",
+  "latency_sec": 2.7006,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "因此，“千里一问”事就成了许多人的心头好。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPHNbcQSSRK4Xk1pN8G8Fdup15Zd6BDuIgZufOi3YL3GtdXk8OOFYMyuZhkPAu"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242823,
+    "id": "RiBKatCrAryyvr0Pp7y7iQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 15,
+      "prompt_tokens": 269,
+      "total_tokens": 284
+    }
+  }
+}

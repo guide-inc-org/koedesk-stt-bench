@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0062",
+  "lang": "de",
+  "engine": "gemini_25_pro",
+  "duration_sec": 11.16,
+  "ref_text_raw": "Grönland war spärlich besiedelt. In den altnordischen Sagen heißt es, dass Erik der Rote wegen Mordes aus Island verbannt wurde. Als er weiter nach Westen reiste, fand er Grönland und gab ihm den Namen Grönland.",
+  "ref_text_normalized": "grönland war spärlich besiedelt in den altnordischen sagen heißt es dass erik der rote wegen mordes aus island verbannt wurde als er weiter nach westen reiste fand er grönland und gab ihm den namen grönland",
+  "timestamp_utc": "2026-07-05T03:45:57Z",
+  "text": "Grönland war spärlich besiedelt. In den altnordischen Sagen heißt es, dass Erik der Rote wegen Mordes aus Island verbannt wurde. Als er weiter nach Norden reiste, fand er Grönland und gab ihm den Namen Grönland.",
+  "latency_sec": 6.2426,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Grönland war spärlich besiedelt. In den altnordischen Sagen heißt es, dass Erik der Rote wegen Mordes aus Island verbannt wurde. Als er weiter nach Norden reiste, fand er Grönland und gab ihm den Namen Grönland.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223157,
+    "id": "b9NJauKOO6fKrfcP5Pio2QM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 58,
+      "prompt_tokens": 379,
+      "total_tokens": 820
+    }
+  }
+}

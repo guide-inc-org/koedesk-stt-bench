@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0133",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 16.38,
+  "ref_text_raw": "レイトン氏は首相との会談で保守党の環境法案に対する変更を求め、保守党の環境法案の「徹底的かつ完全な書き直し」を求めました。",
+  "ref_text_normalized": "レイトン氏は首相との会談で保守党の環境法案に対する変更を求め 保守党の環境法案の 徹底的かつ完全な書き直し を求めました",
+  "timestamp_utc": "2026-07-05T03:19:12Z",
+  "text": "レイトン 氏 は 首相 と の 会談 で 保守 党 の 環境 法 案 に 対する 変更 を 求め 保守 党 の 環境 法 案 の 徹底 的 かつ 完全 な 書き直し を 求め まし た 。",
+  "latency_sec": 2.7733,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "レイトン 氏 は 首相 と の 会談 で 保守 党 の 環境 法 案 に 対する 変更 を 求め 保守 党 の 環境 法 案 の 徹底 的 かつ 完全 な 書き直し を 求め まし た 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP0r4X3E6JDUNbfZG7rgFQB436tchPvkajEb27w+LIqS0j3xfPb+/5h8YbT6fq"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221552,
+    "id": "L81JapjWEMGn2roP073K4AE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 53,
+      "prompt_tokens": 431,
+      "total_tokens": 484
+    }
+  }
+}

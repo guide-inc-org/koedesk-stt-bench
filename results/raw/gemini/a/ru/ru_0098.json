@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0098",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.74,
+  "ref_text_raw": "Таким образом, вполне вероятно, что запись была добавлена просто как пометка.",
+  "ref_text_normalized": "таким образом вполне вероятно что запись была добавлена просто как пометка",
+  "timestamp_utc": "2026-07-05T07:07:56Z",
+  "text": "Таким образом, вполне вероятно, что запись была добавлена просто как пометка.",
+  "latency_sec": 3.3077,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Таким образом, вполне вероятно, что запись была добавлена просто как пометка.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235276,
+    "id": "ygJKap78EYfEvr0P5fGP6AE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 17,
+      "prompt_tokens": 269,
+      "total_tokens": 308
+    }
+  }
+}

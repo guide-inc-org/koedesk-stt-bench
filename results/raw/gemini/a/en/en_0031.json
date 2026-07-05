@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0031",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.58,
+  "ref_text_raw": "In the north the region is bounded by the Sahel, and in the south and west by the Atlantic Ocean.",
+  "ref_text_normalized": "in the north the region is bounded by the sahel and in the south and west by the atlantic ocean",
+  "timestamp_utc": "2026-07-05T10:21:25Z",
+  "text": "In the north, the region is bounded by the Sahel, and in the south and west by the Atlantic Ocean.",
+  "latency_sec": 3.5916,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "In the north, the region is bounded by the Sahel, and in the south and west by the Atlantic Ocean.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246885,
+    "id": "IzBKau7-FMfE0-kP8qfE0QY",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 328,
+      "total_tokens": 378
+    }
+  }
+}

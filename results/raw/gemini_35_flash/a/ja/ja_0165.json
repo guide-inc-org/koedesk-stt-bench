@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0165",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 15.06,
+  "ref_text_raw": "冬に北バルト海を横断する場合は、船室の位置を確認してください。氷の中を突き進む際に最も影響を受ける船室では恐ろしいほどの騒音が鳴り響きます。",
+  "ref_text_normalized": "冬に北バルト海を横断する場合は 船室の位置を確認してください 氷の中を突き進む際に最も影響を受ける船室では恐ろしいほどの騒音が鳴り響きます",
+  "timestamp_utc": "2026-07-05T03:21:35Z",
+  "text": "冬に北極を横断する場合は、船室の位置を確認してください。氷の中を突き進む際に最も影響を受ける船室では、恐ろしいほどの騒音が鳴り響きます。",
+  "latency_sec": 5.3201,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "冬に北極を横断する場合は、船室の位置を確認してください。氷の中を突き進む際に最も影響を受ける船室では、恐ろしいほどの騒音が鳴り響きます。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221695,
+    "id": "u81JapuFLZj41e8PhNP08AM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 398,
+      "total_tokens": 1013
+    }
+  }
+}

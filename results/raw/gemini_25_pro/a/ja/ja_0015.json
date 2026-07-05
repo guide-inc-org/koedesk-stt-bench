@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0015",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 18.3,
+  "ref_text_raw": "私たちは植物で家を造り、植物から衣類を作ります。日々食べる食材の多くが植物です。植物がなければ動物は生きていけません。",
+  "ref_text_normalized": "私たちは植物で家を造り 植物から衣類を作ります 日々食べる食材の多くが植物です 植物がなければ動物は生きていけません",
+  "timestamp_utc": "2026-07-05T10:03:05Z",
+  "text": "私たちは植物で家を作り、植物から衣類を作ります。日々食べる食材の多くは植物です。植物がなければ動物は生きていけません。",
+  "latency_sec": 3.9655,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "私たちは植物で家を作り、植物から衣類を作ります。日々食べる食材の多くは植物です。植物がなければ動物は生きていけません。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783245785,
+    "id": "1ytKavGgBZWJ1e8PhMDXiQU",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 607,
+      "total_tokens": 640
+    }
+  }
+}

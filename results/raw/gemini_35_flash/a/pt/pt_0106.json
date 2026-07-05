@@ -1,0 +1,45 @@
+{
+  "utt_id": "pt_0106",
+  "lang": "pt",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.76,
+  "ref_text_raw": "Rolando Mendoza disparou seu rifle M16 contra os turistas.",
+  "ref_text_normalized": "rolando mendoza disparou seu rifle m16 contra os turistas",
+  "timestamp_utc": "2026-07-05T06:52:01Z",
+  "text": "Rolando Mendoza disparou seu rifle M16 contra os turistas",
+  "latency_sec": 3.3695,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Rolando Mendoza disparou seu rifle M16 contra os turistas",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EvwDCvkDARFNMg/ip5VTn/vpokUIeRN2pwF67aozqs0Kp4Ysph4kaGWlqUmnmqEBplYXnzbiafJb5YUcflQWI2LnYjWg+hZPHAcaYy920NRackbySQIGyfNQU8UyrTy0itBHDShZjzdTV4by9kyj71D3IpvDbmiuXjH0aoKM70ot4yjj5X+rrHO6iQ63up6DiKMNGXEf6YKKfrQTe2+kFpiYOf/ZuA1G2DHO9N0sfBuQ4ToMEbNuNJKcksQjfe1o5kDkBX3YgOFjg1yCsi5RPVxBOEw2dk54iZfn5cmcEqnYln5fUZjFpUkqDU5nhz9FumsXSu9+c9z/wRnMmZtmOvdfNZZNTy14jYAWjXwJ+1Mp0E1mQFMkxsT/B419chKHGlgFvT+A8yDSB/vLwQnu1Dz4pN6sJ1r8eL8Nkab++9LvEshaznESagaOtWoeJZ+eri/+g3whqkFJdajHfsJz6nukmJZOST/rxzEczttpAso8BCSPWX8zJC09UXPth56htJMWfv6tPI5/GKVvp8AX6JHHTs++fiIPH9hUY+9pcfezl2LxH1j2lInXReGZop/dP9RibN4ZPvTVeeh5hpPzNyFFe8zgVCJqd3ljrXUmjhAU7QdRFR2OBlUysYcbE1OQpNP5lZpePau9lc6NhDb/tWSGPdAiV5okPK7Mb1N5Dw=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234321,
+    "id": "D_9JaoazJZ2C0-kPjp3EsQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 13,
+      "prompt_tokens": 240,
+      "total_tokens": 380
+    }
+  }
+}

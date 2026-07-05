@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0120",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.4,
+  "ref_text_raw": "크러스트는 마리아 아래에서 더 얇고 고원 아래에서 더 두껍습니다.",
+  "ref_text_normalized": "크러스트는 마리아 아래에서 더 얇고 고원 아래에서 더 두껍습니다",
+  "timestamp_utc": "2026-07-05T06:26:08Z",
+  "text": "크러스트는 마리아 아래에서 더 얇고 고원 아래에서 더 두껍습니다.",
+  "latency_sec": 2.6907,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "크러스트는 마리아 아래에서 더 얇고 고원 아래에서 더 두껍습니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPcCI9xjjQmwZ0CBjh6kgxMo01nJPNY2MS5ocYTuRrBd1RkkylS6phg594Us+M"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232768,
+    "id": "__hJavPPB5ja1e8P6IqesQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 306,
+      "total_tokens": 327
+    }
+  }
+}

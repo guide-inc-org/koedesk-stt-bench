@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0032",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 14.28,
+  "ref_text_raw": "« Il [Wales] nous a carrément menti dès le départ. Tout d'abord en prétextant des raison légales, puis en faisant semblant de nous écouter jusqu'à ce qu'il ait supprimé son œuvre. »",
+  "ref_text_normalized": "« il [wales] nous a carrément menti dès le départ. tout d'abord en prétextant des raison légales puis en faisant semblant de nous écouter jusqu'à ce qu'il ait supprimé son œuvre. »",
+  "timestamp_utc": "2026-07-05T04:49:08Z",
+  "text": "Il, ou elles, nous a carrément menti dès le départ. Tout d'abord en prétextant des raisons légales, puis en faisant semblant de nous écouter jusqu'à ce qu'il ait supprimé son œuvre.",
+  "latency_sec": 5.9088,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Il, ou elles, nous a carrément menti dès le départ. Tout d'abord en prétextant des raisons légales, puis en faisant semblant de nous écouter jusqu'à ce qu'il ait supprimé son œuvre.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226948,
+    "id": "P-JJatHlHY3IrfcPmu3D-AU",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 49,
+      "prompt_tokens": 478,
+      "total_tokens": 777
+    }
+  }
+}

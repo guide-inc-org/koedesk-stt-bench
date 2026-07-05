@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0045",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 23.22,
+  "ref_text_raw": "In dieser Periode der europäischen Geschichte stand die reich und mächtig gewordene katholische Kirche auf dem Prüfstand.",
+  "ref_text_normalized": "in dieser periode der europäischen geschichte stand die reich und mächtig gewordene katholische kirche auf dem prüfstand",
+  "timestamp_utc": "2026-07-05T04:02:30Z",
+  "text": "In dieser Periode der europäischen Geschichte stand die reich und mächtig gewordene katholische Kirche auf dem Prüfstand.",
+  "latency_sec": 3.3032,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "In dieser Periode der europäischen Geschichte stand die reich und mächtig gewordene katholische Kirche auf dem Prüfstand.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPXBcQFOLrJRMkFKK/2LirlFsDuP0dGuhDx7L1/uwiWO0a2bGCyK0auVWY+yjL"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224150,
+    "id": "VddJaq7aD9Civr0P-6eduQE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 602,
+      "total_tokens": 628
+    }
+  }
+}

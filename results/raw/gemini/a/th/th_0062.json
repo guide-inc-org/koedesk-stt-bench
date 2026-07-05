@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0062",
+  "lang": "th",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.58,
+  "ref_text_raw": "อัตราส่วนของรูปแบบนี้ (หารด้วย 12 เพื่อให้กลายเป็นอัตราส่วนจำนวนเต็มที่ง่ายที่สุด) จึงเรียกได้ว่าเป็น 3: 2",
+  "ref_text_normalized": "อัตราส่วนของรูปแบบนี้ หารด้วย 12 เพื่อให้กลายเป็นอัตราส่วนจำนวนเต็มที่ง่ายที่สุด จึงเรียกได้ว่าเป็น 3: 2",
+  "timestamp_utc": "2026-07-05T07:39:31Z",
+  "text": "อัตราส่วนของรูปแบบนี้หารด้วย 12 เพื่อให้กลายเป็นอัตราส่วนจำนวนเต็มที่ง่ายที่สุด จึงเรียกได้ว่าเป็น 3:2",
+  "latency_sec": 4.5635,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "อัตราส่วนของรูปแบบนี้หารด้วย 12 เพื่อให้กลายเป็นอัตราส่วนจำนวนเต็มที่ง่ายที่สุด จึงเรียกได้ว่าเป็น 3:2",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237171,
+    "id": "MApKaoWBA9y-vr0P4tf2gQI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 392,
+      "total_tokens": 622
+    }
+  }
+}

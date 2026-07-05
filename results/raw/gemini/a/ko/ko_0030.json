@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0030",
+  "lang": "ko",
+  "engine": "gemini_25_flash",
+  "duration_sec": 20.64,
+  "ref_text_raw": "호주의 미첼 골리는 남자 스탠딩 슈퍼-G에서 11위를 차지했습니다. 체코 출신의 경쟁자, 올드리치 젤리넥은 남자 좌식 슈퍼-G에서 16위로 경기를 마쳤습니다.",
+  "ref_text_normalized": "호주의 미첼 골리는 남자 스탠딩 슈퍼-g에서 11위를 차지했습니다 체코 출신의 경쟁자 올드리치 젤리넥은 남자 좌식 슈퍼-g에서 16위로 경기를 마쳤습니다",
+  "timestamp_utc": "2026-07-05T05:54:48Z",
+  "text": "호주의 미첼 골리는 남자 스탠딩 슈퍼 G에서 11위를 차지했습니다. 체코 출신의 경쟁자 올드리치 젤리넥은 남자 좌식 슈퍼 G에서 16위로 경기를 마쳤습니다.",
+  "latency_sec": 3.9383,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "호주의 미첼 골리는 남자 스탠딩 슈퍼 G에서 11위를 차지했습니다. 체코 출신의 경쟁자 올드리치 젤리넥은 남자 좌식 슈퍼 G에서 16위로 경기를 마쳤습니다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230888,
+    "id": "pvFJatqpB6nDvr0PmKevgQ8",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 51,
+      "prompt_tokens": 682,
+      "total_tokens": 733
+    }
+  }
+}

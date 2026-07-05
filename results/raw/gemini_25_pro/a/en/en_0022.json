@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0022",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 11.44,
+  "ref_text_raw": "As a result, two fish species have become extinct, and two others have become endangered, including the humpback chub.",
+  "ref_text_normalized": "as a result two fish species have become extinct and two others have become endangered including the humpback chub",
+  "timestamp_utc": "2026-07-05T10:20:52Z",
+  "text": "As a result, two fish species have become extinct and two others have become endangered, including the humpback chub.",
+  "latency_sec": 5.488,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "As a result, two fish species have become extinct and two others have become endangered, including the humpback chub.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246852,
+    "id": "ADBKaqO5Gcal1e8PnPeFgAI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 388,
+      "total_tokens": 635
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0077",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.2,
+  "ref_text_raw": "Selon certaines sources, il aurait une vingtaine d'années. Dans une déclaration, Bieber a déclaré : « Bien que je n'aie pas été présent ni directement impliqué dans ce tragique accident, mes pensées et prières vont à la famille de la victime. »",
+  "ref_text_normalized": "selon certaines sources il aurait une vingtaine d'années. dans une déclaration bieber a déclaré : « bien que je n'aie pas été présent ni directement impliqué dans ce tragique accident mes pensées et prières vont à la famille de la victime. »",
+  "timestamp_utc": "2026-07-05T05:14:15Z",
+  "text": "Selon certaines sources, il aurait une vingtaine d'années. Dans la déclaration, Bieber a déclaré \"bien que je n'ai pas été présent ni directement impliqué dans ce tragique accident, mes pensées et prières vont à la famille de la victime.\"",
+  "latency_sec": 2.6754,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Selon certaines sources, il aurait une vingtaine d'années. Dans la déclaration, Bieber a déclaré \"bien que je n'ai pas été présent ni directement impliqué dans ce tragique accident, mes pensées et prières vont à la famille de la victime.\"",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPp056XFzLPi/1bQPELsDGDGV10YBvTHJRxeKh64+Vx5xFvKLaEQIu1szZETcj"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228455,
+    "id": "JuhJaqqiHLmVvr0PopTJiQc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 54,
+      "prompt_tokens": 351,
+      "total_tokens": 405
+    }
+  }
+}

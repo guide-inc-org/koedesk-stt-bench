@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0098",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 14.46,
+  "ref_text_raw": "田舎道の運転に慣れていない方は、急勾配、狭い車線、急カーブに注意し、気を抜かないでください。",
+  "ref_text_normalized": "田舎道の運転に慣れていない方は 急勾配 狭い車線 急カーブに注意し 気を抜かないでください",
+  "timestamp_utc": "2026-07-05T10:09:28Z",
+  "text": "田舎道の運転に慣れていない方は、急勾配、狭い車線、急カーブに注意し、気を抜かないでください。",
+  "latency_sec": 3.9649,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "田舎道の運転に慣れていない方は、急勾配、狭い車線、急カーブに注意し、気を抜かないでください。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246169,
+    "id": "Vi1KaqTKHJjF0-kPvZ-G6AE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 484,
+      "total_tokens": 613
+    }
+  }
+}

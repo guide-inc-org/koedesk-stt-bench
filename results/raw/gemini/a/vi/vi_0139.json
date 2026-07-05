@@ -1,0 +1,39 @@
+{
+  "utt_id": "vi_0139",
+  "lang": "vi",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.14,
+  "ref_text_raw": "Sau khi đập được xây vào năm 1963, lũ theo mùa bình thường sẽ đưa phù sa đi hết chiều dài sông đã bị chặn lại.",
+  "ref_text_normalized": "sau khi đập được xây vào năm 1963 lũ theo mùa bình thường sẽ đưa phù sa đi hết chiều dài sông đã bị chặn lại",
+  "timestamp_utc": "2026-07-05T08:22:55Z",
+  "text": "Sau khi đập được xây vào năm 1963, lũ theo mùa bình thường sẽ đưa phù sa đi hết chiều dài sông đã bị chặn lại.",
+  "latency_sec": 4.7335,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Sau khi đập được xây vào năm 1963, lũ theo mùa bình thường sẽ đưa phù sa đi hết chiều dài sông đã bị chặn lại.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239775,
+    "id": "WxRKaurDPLbR0-kPp6yr6QI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 346,
+      "total_tokens": 622
+    }
+  }
+}

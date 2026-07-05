@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0165",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 3.84,
+  "ref_text_raw": "Television reports show white smoke coming from the plant.",
+  "ref_text_normalized": "television reports show white smoke coming from the plant",
+  "timestamp_utc": "2026-07-05T03:37:10Z",
+  "text": "Television reports show white smoke coming from the plant.",
+  "latency_sec": 3.5427,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Television reports show white smoke coming from the plant.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Et0CCtoCARFNMg92WKnfokWXs+V2SR5l9vUQx90oz4wLWX6vafFZhzUON6I6pyg1Rxq6Ha8lQRULFhfJSPZu0fwgshlqV9+7SlBTcpEN6Ln0BBTWR9BoMOi/g5BWR0giKca2Mo4u8uZLNxKxRUU/6ilcOsqcJ/NuBZ0KKxikxF38ca6G+PFpS9RiPSUe68z8X0gPkkPfbMfQCjAqPLXYD0U2qkIQopK49gzuNCWQJxyIuqZsuA8euC4vdb/UCy2m9wCfSZaZ5/LtciwoxdJz8R1y/gDOC8l2UuUiZUQR8Xc4+4D1TtqeHADLPDeU/BXKfdHtWa+imSyZGS2UYs9i7BgsvxIlwhgHruJjSbKRjsX5Zddv+XQidzFx/XvuNAaMW1gx+HFDv/TwC48e7/ztxFJ3b7yDHmi1nLrrxiU5hcZ6S192xqeKBbqN3qmqkXcU1+Xoq/hSXoqz/rl4LHP0lg=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222630,
+    "id": "ZNFJarvBE8vb2roP0s2koQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 10,
+      "prompt_tokens": 117,
+      "total_tokens": 192
+    }
+  }
+}

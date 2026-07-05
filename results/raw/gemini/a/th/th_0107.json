@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0107",
+  "lang": "th",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.52,
+  "ref_text_raw": "ฝั่งด้านใกล้อาจมีมาเรียมากกว่านี้เพราะเปลือกผิวบางกว่า ทำให้ลาวาพุ่งขึ้นมาถึงพื้นผิวได้ง่ายกว่า",
+  "ref_text_normalized": "ฝั่งด้านใกล้อาจมีมาเรียมากกว่านี้เพราะเปลือกผิวบางกว่า ทำให้ลาวาพุ่งขึ้นมาถึงพื้นผิวได้ง่ายกว่า",
+  "timestamp_utc": "2026-07-05T07:43:07Z",
+  "text": "ฝั่งด้านใกล้ อาจมี มาเรียม มากกว่านี้ เพราะ เปลือก ผิว บางกว่า ทำให้ ลาวา พุ่งขึ้นมาถึง ผิว พื้น ผิว ได้ง่ายกว่า",
+  "latency_sec": 4.3772,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ฝั่งด้านใกล้ อาจมี มาเรียม มากกว่านี้ เพราะ เปลือก ผิว บางกว่า ทำให้ ลาวา พุ่งขึ้นมาถึง ผิว พื้น ผิว ได้ง่ายกว่า",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237387,
+    "id": "CAtKaqT8DvTIrfcPhcL-0AI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 390,
+      "total_tokens": 454
+    }
+  }
+}

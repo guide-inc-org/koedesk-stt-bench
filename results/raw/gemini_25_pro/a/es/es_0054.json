@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0054",
+  "lang": "es",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.8,
+  "ref_text_raw": "El filósofo Aristóteles desarrolló la teoría de que todo está formado por una combinación de uno o varios de cuatro elementos: tierra, agua, aire y fuego.",
+  "ref_text_normalized": "el filósofo aristóteles desarrolló la teoría de que todo está formado por una combinación de uno o varios de cuatro elementos tierra agua aire y fuego",
+  "timestamp_utc": "2026-07-05T04:17:57Z",
+  "text": "El filósofo Aristóteles desarrolló la teoría de que todo está formado por una combinación de uno o varios de cuatro elementos: tierra, agua, aire y fuego.",
+  "latency_sec": 4.4452,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "El filósofo Aristóteles desarrolló la teoría de que todo está formado por una combinación de uno o varios de cuatro elementos: tierra, agua, aire y fuego.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225077,
+    "id": "8dpJatW2L_K8vr0P9K6siQU",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 367,
+      "total_tokens": 447
+    }
+  }
+}

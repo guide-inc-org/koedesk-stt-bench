@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0141",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 15.36,
+  "ref_text_raw": "L'Europe est un continent relativement petit, mais comportant de nombreux pays indépendants. Dans des circonstances classiques, voyager à travers plusieurs pays implique donc de devoir procéder à plusieurs demandes de visa et de subir plusieurs vérifications de passeport.",
+  "ref_text_normalized": "l'europe est un continent relativement petit mais comportant de nombreux pays indépendants dans des circonstances classiques voyager à travers plusieurs pays implique donc de devoir procéder à plusieurs demandes de visa et de subir plusieurs vérifications de passeport",
+  "timestamp_utc": "2026-07-05T05:13:54Z",
+  "text": "L'Europe est un continent relativement petit mais comportant de nombreux pays indépendants. En des circonstances classiques, voyager à travers plusieurs pays implique donc de devoir procéder à plusieurs demandes de visa et de subir plusieurs vérifications de passeport.",
+  "latency_sec": 4.6437,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "L'Europe est un continent relativement petit mais comportant de nombreux pays indépendants. En des circonstances classiques, voyager à travers plusieurs pays implique donc de devoir procéder à plusieurs demandes de visa et de subir plusieurs vérifications de passeport.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228434,
+    "id": "D-hJarWGCdWd1e8PgOulsQY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 46,
+      "prompt_tokens": 405,
+      "total_tokens": 768
+    }
+  }
+}

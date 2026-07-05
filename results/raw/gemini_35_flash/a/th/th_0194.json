@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0194",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.0,
+  "ref_text_raw": "โรงพยาบาลได้ปฏิบัติตามมาตรการควบคุมการติดเชื้อรวมถึงมีการแยกผู้ป่วยออกจากกลุ่มคนอื่น ๆ เพื่อป้องกันโอกาสที่ผู้อื่นจะติดเชื้อ",
+  "ref_text_normalized": "โรงพยาบาลได้ปฏิบัติตามมาตรการควบคุมการติดเชื้อรวมถึงมีการแยกผู้ป่วยออกจากกลุ่มคนอื่น ๆ เพื่อป้องกันโอกาสที่ผู้อื่นจะติดเชื้อ",
+  "timestamp_utc": "2026-07-05T08:10:46Z",
+  "text": "โรงพยาบาลได้ปฏิบัติตามมาตรการควบคุมการติดเชื้อ รวมถึงมีการแยกผู้ป่วยออกจากกลุ่มคนอื่นๆ เพื่อป้องกันโอกาสที่ผู้อื่นจะติดเชื้อ",
+  "latency_sec": 3.9546,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "โรงพยาบาลได้ปฏิบัติตามมาตรการควบคุมการติดเชื้อ รวมถึงมีการแยกผู้ป่วยออกจากกลุ่มคนอื่นๆ เพื่อป้องกันโอกาสที่ผู้อื่นจะติดเชื้อ",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239046,
+    "id": "hBFKaraaFpbPrfcP9aSH-Ac",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 321,
+      "total_tokens": 572
+    }
+  }
+}

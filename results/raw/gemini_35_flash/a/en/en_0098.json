@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0098",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.16,
+  "ref_text_raw": "Six hostages, including the children and elderly, were released early, as were the Filipino photographers.",
+  "ref_text_normalized": "six hostages including the children and elderly were released early as were the filipino photographers",
+  "timestamp_utc": "2026-07-05T10:34:13Z",
+  "text": "Six hostages including the children, elderly, were released early, as were the Filipino photographers.",
+  "latency_sec": 6.0261,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Six hostages including the children, elderly, were released early, as were the Filipino photographers.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247653,
+    "id": "IDNKasqnOYGM0-kP4LLDwQk",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 250,
+      "total_tokens": 828
+    }
+  }
+}

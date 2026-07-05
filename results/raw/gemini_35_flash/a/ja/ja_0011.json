@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0011",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 14.04,
+  "ref_text_raw": "都市はモロッコのスルタンによってダルル・バディアとして再建され、貿易拠点を設立したスペイン人貿易商によってカサブランカと名付けられました。",
+  "ref_text_normalized": "都市はモロッコのスルタンによってダルル バディアとして再建され 貿易拠点を設立したスペイン人貿易商によってカサブランカと名付けられました",
+  "timestamp_utc": "2026-07-05T10:10:45Z",
+  "text": "都市はモロッコのスルタンによってダールルバディアとして再建され、貿易拠点を設立したスペイン人貿易商によってカサブランカと名付けられました。",
+  "latency_sec": 5.5958,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "都市はモロッコのスルタンによってダールルバディアとして再建され、貿易拠点を設立したスペイン人貿易商によってカサブランカと名付けられました。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246245,
+    "id": "oS1Kat6_GuCzvr0P57qd6Ac",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 372,
+      "total_tokens": 931
+    }
+  }
+}

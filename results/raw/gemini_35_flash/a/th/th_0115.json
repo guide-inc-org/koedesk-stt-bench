@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0115",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 4.86,
+  "ref_text_raw": "โรแลนโด เมนโดซา รัวปืนไรเฟิล M 16 ใส่นักท่องเที่ยว",
+  "ref_text_normalized": "โรแลนโด เมนโดซา รัวปืนไรเฟิล m 16 ใส่นักท่องเที่ยว",
+  "timestamp_utc": "2026-07-05T08:02:49Z",
+  "text": "โรนัลโด้ เมนโดซ่า รัวปืนไรเฟิล เอ็ม16 ใส่นักท่องเที่ยว",
+  "latency_sec": 4.4628,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "โรนัลโด้ เมนโดซ่า รัวปืนไรเฟิล เอ็ม16 ใส่นักท่องเที่ยว",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238569,
+    "id": "pQ9KapySL4rW1e8Py5HYyAE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 143,
+      "total_tokens": 554
+    }
+  }
+}

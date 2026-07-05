@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0058",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.4,
+  "ref_text_raw": "После строительства плотины в 1963 году сезонные паводки, распространявшие по реке отложения, прекратились.",
+  "ref_text_normalized": "после строительства плотины в 1963 году сезонные паводки распространявшие по реке отложения прекратились",
+  "timestamp_utc": "2026-07-05T07:21:34Z",
+  "text": "После строительства плотины в 1963 году сезонные паводки, распространявшиеся по реке Тлаженья, прекратились.",
+  "latency_sec": 7.8931,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "После строительства плотины в 1963 году сезонные паводки, распространявшиеся по реке Тлаженья, прекратились.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236094,
+    "id": "9wVKapfcPOON1e8PjO3d6AM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 306,
+      "total_tokens": 1342
+    }
+  }
+}

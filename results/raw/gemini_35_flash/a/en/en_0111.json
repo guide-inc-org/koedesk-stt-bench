@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0111",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 4.86,
+  "ref_text_raw": "It has brought us the train, the car, and many other transportation devices.",
+  "ref_text_normalized": "it has brought us the train the car and many other transportation devices",
+  "timestamp_utc": "2026-07-05T03:32:58Z",
+  "text": "It has brought us the train, the car, and many other transportation devices.",
+  "latency_sec": 3.8415,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "It has brought us the train, the car, and many other transportation devices.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpIFCo8FARFNMg9NDkofs5NVIiw/p/YpzGZGGt9EW+pF2JW8Dcha1W5JXXHkzTwpTahskm9cFzdR2HV+OR7wbNuEKUExd8gsLNm5cHz8wXXUy14u/GwsqlE0+mPmgG9L+ayKjYaKa+9ppXwI4HcrMyelmKKnynq3Of1gSnZR8Rt1oqHvIXqaZ9xxOrtNvXUdRbpEM3pWmKFJtTCM41aAkQCJ6txMH0NmWlTR5H3B1K28p9M6Ciyhmjw9EcUHyHZoUA909zQ0tAmkfWTW58xcn/GK/YwmDiID/8EnC02FDgcAkIeAIH55/8bcpfefz3fVm5GT3FbGtoxn93wnTtjRS7sSWA2bh4zyjHr8VcxgvTzKkDqpvG3bEOrFwcaOo+09jgcvnA8UjD7KgmRO1MGg4y6YDshLZO4/F/EUIYc8l3pa5K9NS00ZsBb+izyEtSBpWEexDkOmqLVfesIJuiwU3gnEYRx8bgZeYArfl1GIeYy+FHGJAx7CTRhd6dUjHLoS3W/TPhZkvp0TTq3HxOGDt07L0ue6F0uifgXB3WKYmrmiz7UgqHpI5n3si/djscpwc2JK0uW3ce5uzwhsjNFtPQycwrZ1WxpaXuZ4wfgnzlhQ/ibbSn7w7XVsy4HGjDXTBysMlrolie/jBiX0tOrzEAkjNd5/ZzUb5iCIkPsdjYb4r++Cxdv+s5ZlQz6iNPej/oPPFae8TnAgdKrWCuKf5b+bhEksJnlU+IbLhvYKXC864suFyqEPIOpJk3d8g2C5qUHhtIjzUFClM0bAPDM6eY8a9iSj4or6242s3iTTBCmpTc1g8pTpClWBhjqjNKMhWljTqy5cKmVEh5/knxppK/oBI6CuDRlpQxzKuZzTrkI1H0iulg=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222378,
+    "id": "Z9BJas-6Ftq20-kPqrmQ0QM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 143,
+      "total_tokens": 293
+    }
+  }
+}

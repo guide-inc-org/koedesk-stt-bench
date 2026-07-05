@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0099",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 5.7,
+  "ref_text_raw": "Beyond Wednesday's event, Carpanedo competed in two individual races at the Championships.",
+  "ref_text_normalized": "beyond wednesday's event carpanedo competed in two individual races at the championships",
+  "timestamp_utc": "2026-07-05T10:34:17Z",
+  "text": "Beyond Wednesday's event, Carpenito competed in two individual races at the championships.",
+  "latency_sec": 3.6994,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Beyond Wednesday's event, Carpenito competed in two individual races at the championships.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EvwECvkEARFNMg9/o2YJ0laMMlnuXRtvw/ZYvNS2AxGp30Qr6d2vquHzz2pqLkg8LYXcPgJrz4ourVrZ5Rn4zFO+lVsN6vkUD31uyYAaLAr7VUGT2jaMutBwYaKfOTZTlmSEUsWm721tI4efU2FYLC4u/WaulM7KhFHO2LRfpfvCDzfeRanlDAF6cK8rhMfE+OtiqlW0aMBR0lQW7tt/xB53vTOrlF3d0i+NCewtHbpKC8IIYSKuyHOWAmjDpY9H3ac86euNmHwF0/u081cZZkmMy+e1ofDHuN8vUD8BqsWXXWSjh9IvMKnbPAS5/bjKCVQ5GaVS+eR6c2ulM/lzvtfL/QaYYJhQshSgfZRUMtr2jktJIvR9jf1Oyd/bjPhcXavRqvDWSLsv0nCYT+l/XHrx77Crrolvifmtdl1ojol/b3u5ItpRsrSYtF2U2L4Q+AyvQEp4ZZpagM90oGvSsNPh+ALiYPHimLzdro3tAiWGUoiFkcMpJFUj8t4qBSbASK2oN99+va0QLhqK4/PGiNVg+8oK4Tsx0QUP+D/C33OCgM5c6kNEwrUttIevWbzlijMA8n8uoyZVYlFqnd4RnEzhKmP8ht1cccAppTu6Uh3amkKzOnGasFnJQ8AOU1YoTzvQyWpOp9ruB7xwk2ZcIL+jAFcVmYlCmGqqCBI0mrtVQmCzndP6x5HxAvcJeqysCPsDoS5x9s7sQwVpxtkGaNaLyDZ+C/X+jQ4HcHjZgFfSfyfYN4RqHn0R4QVG2m50oHCAw8ekmvQGPOsrDM+/hC++8Fges/p+dSPP7jAuedlzycXFWsN3kiXT30YbWPWuHqyh8k5lGEMdHCKAweDM"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247657,
+    "id": "JzNKaqurA6G2vr0PqrfGqAE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 164,
+      "total_tokens": 321
+    }
+  }
+}

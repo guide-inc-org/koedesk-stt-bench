@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0028",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.64,
+  "ref_text_raw": "結果として、舞台上で出演者が大麻を吸い、劇場側も観客に参加を呼びかけています。",
+  "ref_text_normalized": "結果として 舞台上で出演者が大麻を吸い 劇場側も観客に参加を呼びかけています",
+  "timestamp_utc": "2026-07-05T10:03:52Z",
+  "text": "結果として、舞台上で出演者がタイマーを吸い、劇場側も観客に参加を呼びかけています。",
+  "latency_sec": 3.5384,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "結果として、舞台上で出演者がタイマーを吸い、劇場側も観客に参加を呼びかけています。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783245832,
+    "id": "BixKaqPxB7ui9tMPvLHh-QE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 394,
+      "total_tokens": 446
+    }
+  }
+}

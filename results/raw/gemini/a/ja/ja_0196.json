@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0196",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.86,
+  "ref_text_raw": "1963年にダムが建設されてからは、川全体に土砂を拡散する季節性洪水が止まりました。",
+  "ref_text_normalized": "1963年にダムが建設されてからは 川全体に土砂を拡散する季節性洪水が止まりました",
+  "timestamp_utc": "2026-07-05T03:14:46Z",
+  "text": "1963年にダムが建設されてからは、川全体に土砂を拡散する季節性洪水が止まりました。",
+  "latency_sec": 5.611,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "1963年にダムが建設されてからは、川全体に土砂を拡散する季節性洪水が止まりました。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221286,
+    "id": "IcxJatj8N4yl1e8P2deLgAI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 369,
+      "total_tokens": 419
+    }
+  }
+}

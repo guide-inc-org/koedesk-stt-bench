@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0127",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.9,
+  "ref_text_raw": "マウ運動によって組織された独立闘争の間に、町で開かれた平和的な集会で最高責任者トゥプア・タマセーゼ・レアロフィ3世が殺害されました。",
+  "ref_text_normalized": "マウ運動によって組織された独立闘争の間に 町で開かれた平和的な集会で最高責任者トゥプア タマセーゼ レアロフィ3世が殺害されました",
+  "timestamp_utc": "2026-07-05T03:18:48Z",
+  "text": "毛運動によって組織された独立闘争の間に街で開かれた平和的な集会で、最高責任者ドゥプア・タマセーゼ・レアロフィ3世が殺害されました。",
+  "latency_sec": 3.0757,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "毛運動によって組織された独立闘争の間に街で開かれた平和的な集会で、最高責任者ドゥプア・タマセーゼ・レアロフィ3世が殺害されました。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPLLnuXnrJpT3/4S7ZIFrJDyaJ4WrwE6iW2H7l7N4luKYJnVAKG6DAQsDPdE1s"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221528,
+    "id": "F81JaqrlB52hvr0P78yT2Q8",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 419,
+      "total_tokens": 463
+    }
+  }
+}

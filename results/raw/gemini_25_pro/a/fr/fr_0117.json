@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0117",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 13.8,
+  "ref_text_raw": "Layton avait demandé des changements au sujet du projet de loi environnemental des conservateurs lors de la réunion avec le premier ministre, demandant une « reformulation complète et approfondie » du projet de loi environnemental du parti conservateur.",
+  "ref_text_normalized": "layton avait demandé des changements au sujet du projet de loi environnemental des conservateurs lors de la réunion avec le premier ministre demandant une « reformulation complète et approfondie » du projet de loi environnemental du parti conservateur",
+  "timestamp_utc": "2026-07-05T04:59:32Z",
+  "text": "Nathan avait demandé des changements au sujet du projet de loi environnemental des conservateurs lors de la réunion avec le Premier ministre, demandant une reformulation complète et approfondie du projet de loi environnementale du Parti conservateur.",
+  "latency_sec": 4.8087,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Nathan avait demandé des changements au sujet du projet de loi environnemental des conservateurs lors de la réunion avec le Premier ministre, demandant une reformulation complète et approfondie du projet de loi environnementale du Parti conservateur.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227572,
+    "id": "seRJavPUAoKhvr0P0-6Y8AY",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 463,
+      "total_tokens": 545
+    }
+  }
+}

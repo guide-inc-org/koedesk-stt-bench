@@ -1,0 +1,45 @@
+{
+  "utt_id": "vi_0123",
+  "lang": "vi",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 13.26,
+  "ref_text_raw": "Nói chung, có hai lối ứng xử có thể xuất hiện khi nhà quản lý bắt đầu lãnh đạo các đồng nghiệp cũ. Lối thứ nhất là cố gắng duy trì quan hệ thân thiết.",
+  "ref_text_normalized": "nói chung có hai lối ứng xử có thể xuất hiện khi nhà quản lý bắt đầu lãnh đạo các đồng nghiệp cũ lối thứ nhất là cố gắng duy trì quan hệ thân thiết",
+  "timestamp_utc": "2026-07-05T08:40:02Z",
+  "text": "Nói chung có hai lối ứng xử có thể xuất hiện khi nhà quản lý bắt đầu lãnh đạo các đồng nghiệp cũ. Lối thứ nhất là cố gắng duy trì quan hệ thân thiết.",
+  "latency_sec": 3.7485,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Nói chung có hai lối ứng xử có thể xuất hiện khi nhà quản lý bắt đầu lãnh đạo các đồng nghiệp cũ. Lối thứ nhất là cố gắng duy trì quan hệ thân thiết.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqIFCp8FARFNMg+0wfCzBebalYZfVJAkfpavc3iEZ39PSPigkydWnMQMnAF1giFX8fvt2w8G5LaW8SaOJpVJt2mcp5Nj1+B7DkeAT7DyKbnJ6weFjHUtOpHo1bKeibYWAfbn6F3YYimsOAjqJvd75n1SWutuvx14LBD2IniUFiY99apIjifFoXkv01XPH5mzsMZ1ZzlquABsfsoHhQpDcaxEmP80r4v63kOTyNjGNCr4VgZphr02Vyq4Lsy6cCy1OYUEYeCBd2wiaSe92/ajIPTrlf1nBv78Hy+30llTBHcPtsWe6KKWo0K86KfEutDjhPfak12naD/Pmo3l84llS2aqTWpBugCtNMa6OYBtdxSIUd3RcNELL0z5bYci+2qc0TKk4fzhX+fnrKf0H28d3r1RNudbwtSsFs9ZNYbJ1gTyhWB6G+Euoe6JWbny0suBwOSIjvpdi8UuzClavlntDrFNhh6mf3c73L52EQ8J3dADhKoaRMwhI9F/ZzWII6mPLtSHRN4S5NWnvjGFsEz/uU93fQ7Qp/AC+07QvsJpmilkmQaXJiRB5JzglbFEWRZHSQPbOXEfeyNlcNjOicfs4sGlpGdztSsSpBhM29cK3MOPymitx2M8ERCTgyrrgx0sNRG7zNg4zeQtX+Kv42ALCc+KKrgK6MgJyibNVjkKSqe57SzNIzy4zYWCuREvqmSD6aAiEKvT7ZOHO1wO7vN78mcZlAkOiED/hvjpRm0A7/GRJNtMYdfoFumvJh/jiuA5YwhUSsMiEpFXYmmok/C25zydlNnqd9kHIiqYepdpGNqqKeXFj52P37HLoIhgL9gwZk1oOypFDMxnUzkDs4Zx3KD8+YgB5CotHcGYGCZWQojLVyNdOQhhdUP+8s0/bTmtltdM1Iw="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240803,
+    "id": "YBhKau3RMJi9vr0P4KaPwQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 353,
+      "total_tokens": 518
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0068",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 13.92,
+  "ref_text_raw": "Im dritten Jahrhundert v. Chr. von den Ägyptern erbaut, ist die Cheops-Pyramide eine von vielen großen Pyramidenstrukturen, die zur Verehrung verstorbener Pharaonen erbaut wurden.",
+  "ref_text_normalized": "im dritten jahrhundert v. chr. von den ägyptern erbaut ist die cheops-pyramide eine von vielen großen pyramidenstrukturen die zur verehrung verstorbener pharaonen erbaut wurden",
+  "timestamp_utc": "2026-07-05T03:45:12Z",
+  "text": "Im dritten Jahrhundert vor Christus von den Ägyptern erbaut ist die Cheopspyramide eine von vielen großen Pyramidenstrukturen, die zur Verehrung verstorbener Pharaonen erbaut wurden.",
+  "latency_sec": 4.4862,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Im dritten Jahrhundert vor Christus von den Ägyptern erbaut ist die Cheopspyramide eine von vielen großen Pyramidenstrukturen, die zur Verehrung verstorbener Pharaonen erbaut wurden.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223112,
+    "id": "RdNJaqqNKsKw0-kPjYbn-AU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 467,
+      "total_tokens": 648
+    }
+  }
+}

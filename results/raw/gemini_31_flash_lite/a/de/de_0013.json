@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0013",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 16.02,
+  "ref_text_raw": "In seinem Artikel Die Rede des Präsidenten zeigte Oliver Sacks auf, wie Leute, die wegen eines Hirnschadens keine Sprache mehr verstehen können, trotzdem die Ehrlichkeit von Menschen richtig einschätzen können.",
+  "ref_text_normalized": "in seinem artikel die rede des präsidenten zeigte oliver sacks auf wie leute die wegen eines hirnschadens keine sprache mehr verstehen können trotzdem die ehrlichkeit von menschen richtig einschätzen können",
+  "timestamp_utc": "2026-07-05T04:00:32Z",
+  "text": "In seinem Artikel „Die Rede des Präsidenten“ zeigte Oliver Sacks auf, wie Leute, die wegen eines Hirnschadens keine Sprache mehr verstehen können, trotzdem die Ehrlichkeit von Menschen richtig einschätzen können.",
+  "latency_sec": 2.9598,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "In seinem Artikel „Die Rede des Präsidenten“ zeigte Oliver Sacks auf, wie Leute, die wegen eines Hirnschadens keine Sprache mehr verstehen können, trotzdem die Ehrlichkeit von Menschen richtig einschätzen können.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPdHVuk+FQFCLuwGIDAD/tjlWIlOX1aImCXEsz21+cByB/1fS5Cp/rEtvhkHUP"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224032,
+    "id": "3tZJat_5GcfG0-kPuZO6wQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 422,
+      "total_tokens": 465
+    }
+  }
+}

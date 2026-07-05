@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0180",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 18.12,
+  "ref_text_raw": "Europa ist ein relativ kleiner Kontinent, hat aber zahlreiche unabhängige Länder. Normalerweise müsste man mehrfach Visa beantragen und mehrere Passkontrollen durchlaufen, wenn man durch mehrere Länder reisen möchte.",
+  "ref_text_normalized": "europa ist ein relativ kleiner kontinent hat aber zahlreiche unabhängige länder normalerweise müsste man mehrfach visa beantragen und mehrere passkontrollen durchlaufen wenn man durch mehrere länder reisen möchte",
+  "timestamp_utc": "2026-07-05T04:10:52Z",
+  "text": "Europa ist ein relativ kleiner Kontinent, hat aber zahlreiche unabhängige Länder. Normalerweise müsste man mehrfach Visa beantragen und mehrere Passkontrollen durchlaufen, wenn man durch mehrere Länder reisen möchte.",
+  "latency_sec": 2.9978,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Europa ist ein relativ kleiner Kontinent, hat aber zahlreiche unabhängige Länder. Normalerweise müsste man mehrfach Visa beantragen und mehrere Passkontrollen durchlaufen, wenn man durch mehrere Länder reisen möchte.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPMcLdk1j9XJaVgU8hd2e7bT4kycpsr3mTkPoxi4jrzmXHePyZT9stNxIFE3Hp"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224652,
+    "id": "S9lJap23BofNrfcP8aSW8AI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 42,
+      "prompt_tokens": 474,
+      "total_tokens": 516
+    }
+  }
+}

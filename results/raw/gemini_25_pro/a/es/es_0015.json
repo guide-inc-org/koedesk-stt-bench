@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0015",
+  "lang": "es",
+  "engine": "gemini_25_pro",
+  "duration_sec": 7.92,
+  "ref_text_raw": "La superficie de la luna se compone de rocas y polvo y su capa exterior se denomina corteza.",
+  "ref_text_normalized": "la superficie de la luna se compone de rocas y polvo y su capa exterior se denomina corteza",
+  "timestamp_utc": "2026-07-05T04:13:42Z",
+  "text": "La superficie de la luna se compone de rocas y polvo y su capa exterior se denomina corteza.",
+  "latency_sec": 4.4206,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "La superficie de la luna se compone de rocas y polvo y su capa exterior se denomina corteza.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224822,
+    "id": "89lJarb_CKOm2roPua6M0QE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 275,
+      "total_tokens": 345
+    }
+  }
+}

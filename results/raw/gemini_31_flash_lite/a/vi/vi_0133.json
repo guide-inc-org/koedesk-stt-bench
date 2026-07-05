@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0133",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.08,
+  "ref_text_raw": "Ban đầu ông ta nhập viện tại bệnh viện James Paget ở Great Yarmouth.",
+  "ref_text_normalized": "ban đầu ông ta nhập viện tại bệnh viện james paget ở great yarmouth",
+  "timestamp_utc": "2026-07-05T08:45:39Z",
+  "text": "Ban đầu ông ta nhập viện tại Bệnh viện James Barrett ở Great Yarmouth.",
+  "latency_sec": 2.668,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Ban đầu ông ta nhập viện tại Bệnh viện James Barrett ở Great Yarmouth.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP8wME3VInJP/YyRzWxmj34wnh/4/8677d5BWutQdT+2M6ygEu+kMBgBmHRmEt"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241139,
+    "id": "shlKau21BZKmvr0PocKK-QY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 17,
+      "prompt_tokens": 198,
+      "total_tokens": 215
+    }
+  }
+}

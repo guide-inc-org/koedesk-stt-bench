@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0054",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.2,
+  "ref_text_raw": "Lion prides act much like packs of wolves or dogs, animals surprisingly similar to lions (but not other big cats) in behavior, and also very deadly to their prey.",
+  "ref_text_normalized": "lion prides act much like packs of wolves or dogs animals surprisingly similar to lions but not other big cats in behavior and also very deadly to their prey",
+  "timestamp_utc": "2026-07-05T10:30:42Z",
+  "text": "Lion prides act much like packs of wolves or dogs, animals surprisingly similar to lions but not other big cats in behavior, and also very deadly to their prey.",
+  "latency_sec": 3.5333,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Lion prides act much like packs of wolves or dogs, animals surprisingly similar to lions but not other big cats in behavior, and also very deadly to their prey.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EvQDCvEDARFNMg+t94KDAb0rhJV4fPpwp0tSIudrK4/K7leMA7eANK4Hroghs26raHhuB3ZCIlQvNP/MNCf8kmqahTTfCBWcJwwua3ItC4Bw6DZSO3UR9cSWKJHWmIxBFU5pDAbr0wkc7ZsbKGEmASVrfnkvodWPYpNAL66HJdZq5OAHGdQBWflTDovmeiEC4UwhMQxy9UCFbLTT32K8yreUXM3ec7DK5oj7lwaLgo6jssukmLL4pvfOGziIzBWJYnGH76zB0AFCH5JDBknz1Hhi5VsLNEb2uiPDNM0s0q45Zx6sVhGJsxO9v/fG084BA8AGag34MH6+aZwK6/KddcGZOnWbHoE0arFKr9LAQTJQEEgK9id4CNj4M1T+PxZ5esVPRovIPBN7oE9kq/0FESBXfnPqcIrkbvwGtT3yGyNT8mlSo0GhUqs914R1GPOfTAwMJOzoCmJJUoFvwk4ah9JjgAwtMRbNEBOTDrK9E24qJCAWeyp77jbGI6wPv5kGYApa2huuG6ui4hByuG8eoUqx8NdORwzlCHBS9y00LWX5SJ2nMQ5DHb8N7KsJl8qoR2y7j/H6uqA1xp2X8T6Md/i8WjH1t+d2SoWIJ+wRRJziUMzv/TByS3aQ+/n7N1mQ15Bso0c9EM7KF+jX4bIP1SxEjRyGMTo="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247442,
+    "id": "UDJKapDVILvN2roPnu2ysAU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 276,
+      "total_tokens": 400
+    }
+  }
+}

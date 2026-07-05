@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0032",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.16,
+  "ref_text_raw": "За ночь было изготовлено 150–200 копий, теперь известных как \"листовки Данлэпа\".",
+  "ref_text_normalized": "за ночь было изготовлено 150-200 копий теперь известных как листовки данлэпа",
+  "timestamp_utc": "2026-07-05T07:02:43Z",
+  "text": "За ночь было изготовлено 150-200 копий, теперь известных как листовки Данлопа.",
+  "latency_sec": 4.0282,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "За ночь было изготовлено 150-200 копий, теперь известных как листовки Данлопа.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234963,
+    "id": "kAFKapv7OpDIrfcPxsKh8Q8",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 283,
+      "total_tokens": 462
+    }
+  }
+}

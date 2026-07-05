@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0069",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 15.1,
+  "ref_text_raw": "据透露，这份文件将提及边界争端，巴勒斯坦希望以1967年中东战争前的边界为基础。",
+  "ref_text_normalized": "据 透 露 这 份 文 件 将 提 及 边 界 争 端 巴 勒 斯 坦 希 望 以 1967 年 中 东 战 争 前 的 边 界 为 基 础",
+  "timestamp_utc": "2026-07-05T08:53:26Z",
+  "text": "据透露，这份文件将提及边界争端。巴勒斯坦希望以1967年中东战争前的边界为基础。",
+  "latency_sec": 3.8837,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "据透露，这份文件将提及边界争端。巴勒斯坦希望以1967年中东战争前的边界为基础。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241606,
+    "id": "hBtKaoieFOn62roPgJLP-QI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 505,
+      "total_tokens": 699
+    }
+  }
+}

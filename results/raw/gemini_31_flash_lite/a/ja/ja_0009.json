@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0009",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.66,
+  "ref_text_raw": "香港の最高の景色を見るには、島から出て九龍のウォーターフロントに向かいましょう。",
+  "ref_text_normalized": "香港の最高の景色を見るには 島から出て九龍のウォーターフロントに向かいましょう",
+  "timestamp_utc": "2026-07-05T10:13:18Z",
+  "text": "香港 の 最高 の 景色 を 見る に は 島 から 出 て クールーン の ウォーター フロント に 向かい ましょう 。",
+  "latency_sec": 2.9512,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "香港 の 最高 の 景色 を 見る に は 島 から 出 て クールーン の ウォーター フロント に 向かい ましょう 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPjBgv0xZmIb3Ucfi5c6xtvL3yKWUd0kWubQxMWEu3wyBWH77YBssIYcCEfgA5"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246398,
+    "id": "PC5KavaIILD32roPjrXkkQc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 263,
+      "total_tokens": 290
+    }
+  }
+}

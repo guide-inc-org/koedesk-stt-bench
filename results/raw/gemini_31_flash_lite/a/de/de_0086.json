@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0086",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 4.98,
+  "ref_text_raw": "Man darf gespannt sein, was aus der Tastatur werden wird, wenn etwas Neueres daherkommt.",
+  "ref_text_normalized": "man darf gespannt sein was aus der tastatur werden wird wenn etwas neueres daherkommt",
+  "timestamp_utc": "2026-07-05T04:04:59Z",
+  "text": "Man darf gespannt sein, was aus der Tastatur werden wird, wenn etwas Neueres daherkommt.",
+  "latency_sec": 2.9573,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Man darf gespannt sein, was aus der Tastatur werden wird, wenn etwas Neueres daherkommt.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPptp1fWiYne4XjmZm/kqhf0DzOPLf5qo5j0/WjUvhP8cFKQf250qxJyS3QvN+"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224299,
+    "id": "6tdJapCfBbif0-kPzJPfgAc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 146,
+      "total_tokens": 167
+    }
+  }
+}

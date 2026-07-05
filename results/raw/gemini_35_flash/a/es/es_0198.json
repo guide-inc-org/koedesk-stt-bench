@@ -1,0 +1,45 @@
+{
+  "utt_id": "es_0198",
+  "lang": "es",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.6,
+  "ref_text_raw": "En efecto, es muy difícil de encontrar, incluso si uno estuviera seguro de su existencia. En el interior de la cueva, el aislamiento es total.",
+  "ref_text_normalized": "en efecto es muy difícil de encontrar incluso si uno estuviera seguro de su existencia en el interior de la cueva el aislamiento es total",
+  "timestamp_utc": "2026-07-05T04:45:18Z",
+  "text": "En efecto, es muy difícil de encontrar, incluso si uno estuviera seguro de su existencia, en el interior de la cueva el aislamiento es total.",
+  "latency_sec": 3.5333,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "En efecto, es muy difícil de encontrar, incluso si uno estuviera seguro de su existencia, en el interior de la cueva el aislamiento es total.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtYGCtMGARFNMg94ag4ejJs0DpXxkRQiluW6L14hwv+89XakrcZ407b7yc6UfjqWVoAGjh8S6Wccsy6vtBKi9lhONbNzdaO6nz10ivX2tJCHbZcTsnsScel8Rgw/7vmoLYBmx+PWtTA08BA65n4zscDrm4OJrqVSpH+WqKYuMFVyE/YA5TshCAbRl6UcpMDOXOyqPwCkrJlU67GuFRtqSTQKNYaCbYlNrXJNUngG3jNaFqkWftqlL+hCBeq/Bbjc/SCxfv+XBMya707ZtjAb5/c5UM6DnwTnEQBwxyr1OpqgU/6sxs6zmieNQJ6fwMyb9q6/qa2z32bDUFSCI+WhGhYi5cu+ZaXHmUNsYt3awIAVjQ9xIrP/r3QmFqjZ9qaP1HybLV15SKtbB4iMTgbmhj1fpW7o75lzC5jZsq4CX9FYG0cdlHcMDMm4A6Q3F1VZgTrGCFmmKd9OuCawN02FjWdLs2IhvXnexErnLU5qdwJGUWRrY6tzKimANub34/6ezH1tpH0vZrgFT8s228Ll9JMMWzyKKyT/MEWDjoLzU45gV/eWFsVxNUxkZ9p88DBzgf6f2DMiWhE+7GSCejFEr6SEfbb9Z0i9JmFCzOvcZZ/EZDul3IZi9KFCmonvzLCo1aFQJpjsDZ9ieRi9uzeOmjSqKUMfR9ABTymahdn9xw7UcP6+5J1XXfOIALl8zqIWReerrba1O2qrEfWb99AzemGJwhve8YmTfUyBXJ0JcHtPzWBdKkbD8GY+XhJrZjuuDGK9twpAp9vpr5hCQq9bXY61Y93Q1tR1YRBAQZfnfNqjFvFvsLfjW53fNvjs+3rI84pRQV3+A648dkv3vw+4JwTadIxm03PrWLr7k4L7kX+CGqhaCZ1EEHMJoMVdpwjlDIBjHwjoUO6+H1U44vYNTu4YRFvl4g0ilZ7WmevCCBcpaLDZ2jU+RGr2DQFEuOXsR/FV1ylTLF90p8dmxBT3FK25urCjS0j/TRJd7p4lwe9Udw9r3Tg5e/ho2AsZoebViTjfrwdPwtHvK9D6gMIO0fArkqdewuxMaLiVH3ygjLtveDi8EiPMT5cRdj1PLxAlnk7gMGKUsAbGw2EuxpTzAPPfcLQ8dz0INv9IOzKiw2W5xGKnr6bdm1E="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226718,
+    "id": "W-FJaoWmOdKivr0PmOv26QM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 336,
+      "total_tokens": 569
+    }
+  }
+}

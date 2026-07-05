@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0181",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.16,
+  "ref_text_raw": "猪携带该疾病，然后通过蚊子传染给人类。",
+  "ref_text_normalized": "猪 携 带 该 疾 病 然 后 通 过 蚊 子 传 染 给 人 类",
+  "timestamp_utc": "2026-07-05T09:23:13Z",
+  "text": "猪携带该疾病，然后通过蚊子传染给人类",
+  "latency_sec": 3.8148,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "猪携带该疾病，然后通过蚊子传染给人类",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EskGCsYGARFNMg+mtVXiI/OBipcozwlCoYVgDzA+9Wex3kyKIlV65jvWQwZ3/4HCnz8hjwKq3n9hvD7yztHvhoJyfwKBFtxlAw0dR/tsBasHdhP1QwQM6hBmsPYdhMF+lfg7qtPlCtqvNxq9YWymRZbY09OwA+VPx07FfxffQgTp+0SRHi74iPpyeggN3u+oa7HHXmqrF2cz3JJkK1oShBBDPCJWls49YzTTynPn8zesILa06ud0qEaDXsj5bryKq/YskbjQhXsK5PXZS49S6w/L7UwnbChNIRDj4eNom6O7xsz9apfQb7paB70ZKAnOqmf8rJ5ehrHEY64R+pmnsudoJnFeRxlID9+l9HEzR2SIl6PXLwu1RFWJhQ1PwcgxRRSUdTXn89y0Y5wMyL0L03hcOk1JLhSvj1CEj+WkL3j7l4S/mClRpvOiWc8dCqbyLf9lrTB/+vPsNu4eV3X0wbvVCnefl1FXAs+Nm6Ql6CezTjH1XKeyh9JUyKf+LoNW9AUolynTM/KYPDsx8USWGg88n7wAytytbJhQuv2e8BJU1fEo6L9pUbE7bMhAIgBlLPmojOg5NAbjaxD5T7/ZN+KYeIaSZuFqJ9oOuk9CJANfgjVzSGZR+BEvU4difOw/aiNheC3EuldMnOOnoxqOTL08E6XgD0Mxz8NdPmCbpVjQvvHggEDMGK77mScKW7FUZkO3l7QFVL1USteJbMyl3wdkp4yFmf8QnNVnCrzSqC9yoNFDqzLWHL4rNZWa69Y/oOXvc+A0PQp1lfgfgOW3yFtsR60zFyEJ9oJCD2HdlsKwi/UvL6obNxNjU3V5Ex+I5gnHNaTRRKvJb8FwIyAFoddf1B2E3oD7ruMoAP0/NBEa+VRh2ywk2abkCCj2ac4JCybqI9fZU4t9sAj8qGJAQ+l92/I9SBw6iBNOQJPqufntx3aEvaB9jQv8wCeIt35F+VDrXRGR/a/3qDNbEflhQH3sMtqVX8E49YCwKMrhSHllTwaFqUiGr9toT+TEHdxU71Qr0ABtgDo2vLaclaihRy8sCXvzqBzBT/pSH2at5n2YdUUleZgaMGWGV9ZFZQw9gsh848a2z43vRybz2H0h6yTPnz6SnBkU8SY9hA=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243394,
+    "id": "fyJKatT_J_DW2roPh47FwQc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 12,
+      "prompt_tokens": 325,
+      "total_tokens": 554
+    }
+  }
+}

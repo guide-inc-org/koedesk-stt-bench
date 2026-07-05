@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0046",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.56,
+  "ref_text_raw": "杜瓦尔已婚，有两个已经成年的孩子，他并没有给故事的讲述者米勒留下太大印象。",
+  "ref_text_normalized": "杜 瓦 尔 已 婚 有 两 个 已 经 成 年 的 孩 子 他 并 没 有 给 故 事 的 讲 述 者 米 勒 留 下 太 大 印 象",
+  "timestamp_utc": "2026-07-05T09:09:34Z",
+  "text": "度阿已婚，有两个已经成年的孩子，她并没有给故事的讲述者米勒留下太大印象。",
+  "latency_sec": 4.723,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "度阿已婚，有两个已经成年的孩子，她并没有给故事的讲述者米勒留下太大印象。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpEKCo4KARFNMg+A47kQqkMXs8iEhax+yMUgUA7qWIX4NGw+v2nsRraBRIYAz+juLy4aP+spyxOP1pUitSnuqRx9w9/1TgRzBPhk68ob4h+0pZc/17lQh1IBH+Jaa0zKAon1l+FzCMJiL3Xz9t6Zf3ANgfub4qt0qbKlZHM9NHdTU0ynF+RbMxunIFefp6NVD/aZK8SDuJkEuxkDhy/LxkPw0bEwIUzRaUp8fUPZImTKH+lF0E3NcJIh+RZE4yeu2acPALGqb/LbZBx1mMUAmmPX5NWtZKSWSy+V2RjroTov3qQKQYhVGN9LIoFBItVRAHnJq/27CyKVBFLR8Zcl3VzSJRnX+dtR5NkxiT1fERN2AKCh+8oR0YROPCSESfHkxPrXEBJUCX/pjn3042/2oIh9Mb9Jo0jep+pyTbwqXNFbuEe4//DytzVTuDDQ/GwplzC1RBN4du3hfHZqWy2yHAqSyyPiJOUk9ELe0TsRZBxhjWi2uzy6iiAnf3u9ibxqYWg68P5gleVXMpKZvxWDw/HzT9HHRCHmgCsqnnB0xxBEJbR6XMzePu0+vovValh5remtEUEh5Kdgrs1Z5qR9zc3ZTvO2Akv7lEnWsA3TW7DaZua1QScFPP+dcVopKbgfLzYeT6VS+9xsC39l27wYAuwPgekXFYE9iQPQNv9v3qWd9BCvBPREgXoSQd7uNIzJZjUfK3Ncs2NshAJ0SYWuKA80yS80qfY2e6uhA061vXErRruusflrIJm0AiXQ0wtcVRBSHYx9DSXAMTYSENq4mwKmM2lZ8kHiatkdi2s87o0FBpvvknWuke6okDhOKg6ahHzOoLdJbJ6bgFc10A5EfAUBYU00mHjbfcJ2m4llPMWTDR/oCqbya6rhBfH0DweBruvls6GlECpRCubUzyRkPVndIHyiDjBekgiOeqm2V8xhMfh1FAFkS8t4LDbTbxFmLnVLbPs4+cTMDdZFTzEg84260VvMfNNiLrmNExXG0YDXzR3JThjN7uYAM721jATAA3izugEup880yv60Gh9GsPqaTpogMWzm1rbbBGcwGESUp9CY7SOyEIdh2l/NVYPBmBv00p7f4TUNCZ6zureoVpL0JFdamCmBr9qbbtCLRT4lIKI+CDBemc3zn89KGy6ek/qHqK7pvqPlWmbOpS1weV2WU8U5aZMZzMjNEGeiVxRCDmrdw5MqmAUfRzmyM5nNb6CjUJJHqHO7OzARkUenkKH5Fi+xhrP1EqVzoLrNr+pMh/4msD0rxlWgjDHgMxPEXpK6tJ7/FXKcuqPRfkujR7DBos6NP7QD5DmiEzeHmW0uwgMb7hAL6ZFksoz8ExMHCcMH8Fx0upYxRMFYUhS8XS2ckM5q1eikwlplv8OpX3HDq39rGVUJzIDeSesHUdYAlDPmS3lvF+Rb1hZ3wJxl3DxzgtKRj0xmfS8Oo4Kx/5DXyV71aXFRgmwdoFFiK2kLcKr/n7K+FR7qOz78zRbkTQrMOIoThj7wnZum56DNykUS6IsgKJjgM3/ulj8qGwpLswctDE9KqssKpjuapg5LsObaqA4WklozCogCS7usIvCDTlSlKmcUCcAT+U2/Mo0KLHRBCyNibLlni116971JuYVHRJFG/JyyWZsH92B1aTZRqN/q7LM7PxuTxB1Wy/rnd7FQ2u6TCsTrPq0YWWnO5kGN3SMVXNsZp20wZnpSKjG+Fcgtg8HjwEEhHakuGmaSwgoe0Q=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242574,
+    "id": "Sh9KaqzmIeex2roPq7DX0QU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 285,
+      "total_tokens": 655
+    }
+  }
+}

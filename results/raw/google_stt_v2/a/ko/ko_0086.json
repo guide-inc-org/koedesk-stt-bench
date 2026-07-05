@@ -1,0 +1,36 @@
+{
+  "utt_id": "ko_0086",
+  "lang": "ko",
+  "engine": "google_stt_v2",
+  "duration_sec": 13.56,
+  "ref_text_raw": "이들 해변은 대개 혼잡하지 않은 가족 해변으로, 해안가에는 다양한 상점이 늘어서 있습니다. 수영해도 안전한 곳입니다.",
+  "ref_text_normalized": "이들 해변은 대개 혼잡하지 않은 가족 해변으로 해안가에는 다양한 상점이 늘어서 있습니다 수영해도 안전한 곳입니다",
+  "timestamp_utc": "2026-07-05T04:58:22Z",
+  "text": "이들 해변은 대개 혼잡하지 않은 가족 해변으로 해안가에는 다양한 상점이 늘어서 있습니다. 수영에도 안전한 곳입니다.",
+  "latency_sec": 4.8874,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "ko-KR",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "14s",
+      "requestId": "7b14c5cb-0000-231e-bd12-3c286d38315e",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "이들 해변은 대개 혼잡하지 않은 가족 해변으로 해안가에는 다양한 상점이 늘어서 있습니다. 수영에도 안전한 곳입니다."
+          }
+        ],
+        "languageCode": "ko-KR"
+      }
+    ]
+  }
+}

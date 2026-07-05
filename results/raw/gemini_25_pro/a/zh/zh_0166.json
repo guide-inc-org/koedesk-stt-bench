@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0166",
+  "lang": "zh",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.86,
+  "ref_text_raw": "罗马各地安装了数个大型电视屏幕，供人们观看仪式。",
+  "ref_text_normalized": "罗 马 各 地 安 装 了 数 个 大 型 电 视 屏 幕 供 人 们 观 看 仪 式",
+  "timestamp_utc": "2026-07-05T09:06:55Z",
+  "text": "羅馬各地安裝了數個大型電視屏幕, 供人們觀看儀式。",
+  "latency_sec": 3.6203,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "羅馬各地安裝了數個大型電視屏幕, 供人們觀看儀式。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242415,
+    "id": "rR5KasuQFMfE0-kP8qfE0QY",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 369,
+      "total_tokens": 388
+    }
+  }
+}

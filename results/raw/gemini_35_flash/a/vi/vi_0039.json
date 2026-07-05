@@ -1,0 +1,45 @@
+{
+  "utt_id": "vi_0039",
+  "lang": "vi",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.02,
+  "ref_text_raw": "Cái này gọi là độ pH của hóa chất. Bạn có thể tạo ra chất chỉ thị bằng nước ép bắp cải đỏ.",
+  "ref_text_normalized": "cái này gọi là độ ph của hóa chất bạn có thể tạo ra chất chỉ thị bằng nước ép bắp cải đỏ",
+  "timestamp_utc": "2026-07-05T08:31:47Z",
+  "text": "Cái này gọi là độ pH của hóa chất. Bạn có thể tạo ra chất chỉ thị bằng nước ép bắp cải đỏ.",
+  "latency_sec": 6.0489,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 1,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Cái này gọi là độ pH của hóa chất. Bạn có thể tạo ra chất chỉ thị bằng nước ép bắp cải đỏ.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EsIDCr8DARFNMg+ghlRlRNrJvorBYq5QLupv/8MBFGXN+HD1iAGgQNcle6ozWTO1soWRnXJ2RR3Vkus4Nw/M9Jy5LqtYawEhEl5OFiM9aZocziFcVr+KYucVJxVaT1SiHcNH96SqvsJN3PQ8/onoNvNnETi+irbLjKOEUwXIxtYnDmsWLPQeEW1MvocvhhGtUxpcmpgxfYuFx3jnHkGgYQqqf9PeIVn3fh7QXIG17mv1sJvjru7a1KntdCsGkmiOJjmgOWKXoTIDTgPKHsM3oBV08JDzpajlI9qiTKBrptCvHk58bdpn0kd6HUIymn930sWqTFb1HJpSiH1es2LYyJC3Se1rtB0UVV7w8XBv2ofIosamvs+qmk1/ITzVOUq8eFkr4hTvkZCD+2ZJxj975I19wT6bosThtaQeCKNVx339WL1dBXkHY9oLck0HP5AWkXRfXVYTKKGSJ0wLq+3f1hVv7JJ7778+lkmYI469qT+1Jj4RwSlbakVdZ7qJcPeP2dXXz8rB/yA+sWEH3+p8mHnRj2ly4jAGk+pJenFNxLJbz2GqQ3MQt13DQk2Ev3edXnmsnMsZJm2Ls1nKQHSeH1CyTX8n"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240307,
+    "id": "cRZKaufqKu6j2roPp6OfsQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 272,
+      "total_tokens": 381
+    }
+  }
+}

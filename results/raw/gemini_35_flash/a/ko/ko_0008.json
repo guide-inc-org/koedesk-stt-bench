@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0008",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 18.9,
+  "ref_text_raw": "지하철의 정규 안내 방송은 카탈로니아어로만 제공되나, 계획에 없던 운행 중단 시에는 자동 시스템을 통해 스페인어, 영어, 프랑스어, 아라비아어, 일본어를 포함한 다양한 언어로 방송됩니다.",
+  "ref_text_normalized": "지하철의 정규 안내 방송은 카탈로니아어로만 제공되나 계획에 없던 운행 중단 시에는 자동 시스템을 통해 스페인어 영어 프랑스어 아라비아어 일본어를 포함한 다양한 언어로 방송됩니다",
+  "timestamp_utc": "2026-07-05T06:09:39Z",
+  "text": "지하철의 정규 안내 방송은 카탈로니아어로만 제공되나 계획에 없던 운행 중단 시에는 자동 시스템을 통해 스페인어, 영어, 프랑스어, 아라비아어, 일본어를 포함한 다양한 언어로 방송됩니다.",
+  "latency_sec": 5.6854,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "지하철의 정규 안내 방송은 카탈로니아어로만 제공되나 계획에 없던 운행 중단 시에는 자동 시스템을 통해 스페인어, 영어, 프랑스어, 아라비아어, 일본어를 포함한 다양한 언어로 방송됩니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231779,
+    "id": "H_VJap_QE8D21e8P0dn2qQE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 59,
+      "prompt_tokens": 494,
+      "total_tokens": 1086
+    }
+  }
+}

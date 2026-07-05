@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0105",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.84,
+  "ref_text_raw": "Ottawa là thủ đô song ngữ quyến rũ của Canada, sở hữu hàng loạt phòng trưng bày nghệ thuật và bảo tàng trưng bày các hiện vật lịch sử và hiện đại của Canada.",
+  "ref_text_normalized": "ottawa là thủ đô song ngữ quyến rũ của canada sở hữu hàng loạt phòng trưng bày nghệ thuật và bảo tàng trưng bày các hiện vật lịch sử và hiện đại của canada",
+  "timestamp_utc": "2026-07-05T08:43:57Z",
+  "text": "Ottawa là thủ đô song ngữ quyến rũ của Canada, sở hữu hàng loạt phòng trưng bày nghệ thuật và bảo tàng trưng bày các hiện vật lịch sử và hiện đại của Canada.",
+  "latency_sec": 3.0229,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Ottawa là thủ đô song ngữ quyến rũ của Canada, sở hữu hàng loạt phòng trưng bày nghệ thuật và bảo tàng trưng bày các hiện vật lịch sử và hiện đại của Canada.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPM2iMtPOM7Gw4puxO7M0EUcEHeUO5yxj6V/FP7G0n7jTXoOP+VRhRaPuSX5M/"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241037,
+    "id": "TBlKarKUA8vb2roP0s2koQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 342,
+      "total_tokens": 381
+    }
+  }
+}

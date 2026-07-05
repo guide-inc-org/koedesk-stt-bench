@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0092",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.68,
+  "ref_text_raw": "南アフリカにあるすべての国立公園と同様に、この公園には毎日保護費と入園料がかかります。",
+  "ref_text_normalized": "南アフリカにあるすべての国立公園と同様に この公園には毎日保護費と入園料がかかります",
+  "timestamp_utc": "2026-07-05T10:12:05Z",
+  "text": "南アフリカにある全ての国立公園と同様に、この公園には毎日保護費と入園料がかかります。",
+  "latency_sec": 3.6984,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "南アフリカにある全ての国立公園と同様に、この公園には毎日保護費と入園料がかかります。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246325,
+    "id": "8i1KavvTKOL81e8P5-3SkQM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 363,
+      "total_tokens": 386
+    }
+  }
+}

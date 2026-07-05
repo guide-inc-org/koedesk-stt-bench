@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0194",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.32,
+  "ref_text_raw": "На удалённых островах кредитные карты, возможно, не будут приниматься, хотя британскую и американскую валюту могут принять; заранее проясните с владельцами какой способ оплаты является приемлемым.",
+  "ref_text_normalized": "на удалённых островах кредитные карты возможно не будут приниматься хотя британскую и американскую валюту могут принять заранее проясните с владельцами какой способ оплаты является приемлемым",
+  "timestamp_utc": "2026-07-05T07:38:59Z",
+  "text": "На удаленных островах кредитные карты, возможно, не будут приниматься, хотя британскую и американскую валюту могут принять. Заранее проясните с владельцами, какой способ оплаты является приемлемым.",
+  "latency_sec": 2.6065,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "На удаленных островах кредитные карты, возможно, не будут приниматься, хотя британскую и американскую валюту могут принять. Заранее проясните с владельцами, какой способ оплаты является приемлемым.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPvNjkafuuIDQQzowqTM0KErB8w3dnZCyckraVmnyPybgDP5t26a8BKS/3s52u"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237139,
+    "id": "EQpKauqwNbD32roPjrXkkQc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 354,
+      "total_tokens": 399
+    }
+  }
+}

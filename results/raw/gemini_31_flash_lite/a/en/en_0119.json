@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0119",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.48,
+  "ref_text_raw": "Mass car ownership also leads to a higher incidence of accidents on the roads, which leads to the invention of new techniques in healthcare for repairing damaged bodies.",
+  "ref_text_normalized": "mass car ownership also leads to a higher incidence of accidents on the roads which leads to the invention of new techniques in healthcare for repairing damaged bodies",
+  "timestamp_utc": "2026-07-05T03:34:21Z",
+  "text": "NASCAR ownership also leads to a higher incidence of accidents on the road, which leads to the invention of new techniques in healthcare for repairing damaged bodies.",
+  "latency_sec": 2.6263,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "NASCAR ownership also leads to a higher incidence of accidents on the road, which leads to the invention of new techniques in healthcare for repairing damaged bodies.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPSorHnkUBpUiDBHeMj1752lo1Sf66x1szmHQvOLJHA3K5ostE439+mCJrbjHy"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222461,
+    "id": "u9BJapqrKYfNrfcP8aSW8AI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 258,
+      "total_tokens": 289
+    }
+  }
+}

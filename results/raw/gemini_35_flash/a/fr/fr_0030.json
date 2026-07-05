@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0030",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.52,
+  "ref_text_raw": "Le parc national des lacs de Plitvice est densément boisé, principalement de hêtres, d'épicéas et de sapins, et présente un mélange de végétation alpine et méditerranéenne.",
+  "ref_text_normalized": "le parc national des lacs de plitvice est densément boisé principalement de hêtres d'épicéas et de sapins et présente un mélange de végétation alpine et méditerranéenne",
+  "timestamp_utc": "2026-07-05T05:03:45Z",
+  "text": "Le parc national des lacs de Plitvice est intensément boisé, principalement de hêtres, des épicéas et de sapins, et présente un mélange de végétation alpine et méditerranéenne.",
+  "latency_sec": 5.1712,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Le parc national des lacs de Plitvice est intensément boisé, principalement de hêtres, des épicéas et de sapins, et présente un mélange de végétation alpine et méditerranéenne.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227825,
+    "id": "reVJatWVMLyo1e8Prpqp8QY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 309,
+      "total_tokens": 836
+    }
+  }
+}

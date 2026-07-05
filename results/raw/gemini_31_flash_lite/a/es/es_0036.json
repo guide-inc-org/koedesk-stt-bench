@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0036",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.12,
+  "ref_text_raw": "Si únicamente desembarca durante excursiones a bordo, no es necesario contar con una visa por separado (desde 2009).",
+  "ref_text_normalized": "si únicamente desembarca durante excursiones a bordo no es necesario contar con una visa por separado desde 2009",
+  "timestamp_utc": "2026-07-05T04:35:52Z",
+  "text": "Si únicamente desembarca durante excursiones a bordo, no es necesario contar con una visa por separado, desde 2009.",
+  "latency_sec": 3.3848,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Si únicamente desembarca durante excursiones a bordo, no es necesario contar con una visa por separado, desde 2009.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPJgwg4HWLvHIQeAZB1Wr1k8Z7NthZKuR+PL9Hllgw5rHVqh0vmMKOmpEgLzFo"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226152,
+    "id": "Jt9JaubEEcGn2roP073K4AE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 249,
+      "total_tokens": 277
+    }
+  }
+}

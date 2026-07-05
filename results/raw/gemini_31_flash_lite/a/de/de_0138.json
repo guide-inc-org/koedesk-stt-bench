@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0138",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.96,
+  "ref_text_raw": "Der Mosasaurus war das größte Raubtier seiner Zeit, somit fürchtete er sich vor nichts außer anderen Mosasauriern.",
+  "ref_text_normalized": "der mosasaurus war das größte raubtier seiner zeit somit fürchtete er sich vor nichts außer anderen mosasauriern",
+  "timestamp_utc": "2026-07-05T04:08:12Z",
+  "text": "Der Mosasaurus war der größte Raubtier seiner Zeit, somit fürchtete er sich vor nichts, außer anderen Mosasauriern.",
+  "latency_sec": 2.479,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Der Mosasaurus war der größte Raubtier seiner Zeit, somit fürchtete er sich vor nichts, außer anderen Mosasauriern.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPMfnPIlT9bJjiAlhV33aAy5SurJhtTW/EQ8p3MemVrIMBg0yua4Rq8Oj3K5zt"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224492,
+    "id": "qthJatb0Nun62roPgJLP-QI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 271,
+      "total_tokens": 300
+    }
+  }
+}

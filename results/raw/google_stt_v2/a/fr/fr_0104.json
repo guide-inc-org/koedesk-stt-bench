@@ -1,0 +1,36 @@
+{
+  "utt_id": "fr_0104",
+  "lang": "fr",
+  "engine": "google_stt_v2",
+  "duration_sec": 6.6,
+  "ref_text_raw": "Les gens n'anticipent peut-être pas que la patience et la compréhension sont aussi nécessaires pour les voyageurs et voyageuses retournant à la maison.",
+  "ref_text_normalized": "les gens n'anticipent peut-être pas que la patience et la compréhension sont aussi nécessaires pour les voyageurs et voyageuses retournant à la maison",
+  "timestamp_utc": "2026-07-05T04:25:20Z",
+  "text": "Les gens n'anticipent peut-être pas que la patience et la compréhension sont aussi nécessaires pour les voyageurs et voyageuses retournant à la maison.",
+  "latency_sec": 3.3535,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "fr-FR",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "7s",
+      "requestId": "6a4df6fa-0000-2d79-8a22-9898fbcb1875",
+      "prompt": "Transcribe the following speech segment in French. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, French."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Les gens n'anticipent peut-être pas que la patience et la compréhension sont aussi nécessaires pour les voyageurs et voyageuses retournant à la maison."
+          }
+        ],
+        "languageCode": "fr-FR"
+      }
+    ]
+  }
+}

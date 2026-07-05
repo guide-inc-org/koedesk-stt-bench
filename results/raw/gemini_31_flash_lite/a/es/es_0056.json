@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0056",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 17.4,
+  "ref_text_raw": "El Instituto por la Justicia y la Democracia en Haití ha mencionado la existencia de ensayos independientes que apuntan a que fue el batallón nepalí para el mantenimiento de la paz de la ONU quien, involuntariamente, introdujo la enfermedad a Haití.",
+  "ref_text_normalized": "el instituto por la justicia y la democracia en haití ha mencionado la existencia de ensayos independientes que apuntan a que fue el batallón nepalí para el mantenimiento de la paz de la onu quien involuntariamente introdujo la enfermedad a haití",
+  "timestamp_utc": "2026-07-05T04:37:05Z",
+  "text": "El Instituto por la Justicia y la Democracia en Haití ha mencionado la existencia de ensayos independientes que apuntan a que fue el Batallón nepalí para el mantenimiento de la paz de la ONU, quien involuntariamente introdujo la enfermedad a Haití.",
+  "latency_sec": 3.0614,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "El Instituto por la Justicia y la Democracia en Haití ha mencionado la existencia de ensayos independientes que apuntan a que fue el Batallón nepalí para el mantenimiento de la paz de la ONU, quien involuntariamente introdujo la enfermedad a Haití.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPC0vGNWs40chHqqMA8v6PwROcp3E+QpYoce9Op1qwxsNtOZ3/saYw7/I4zNU8"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226225,
+    "id": "b99JaoOnHK_f1e8Pio2NuQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 53,
+      "prompt_tokens": 456,
+      "total_tokens": 509
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0136",
+  "lang": "ko",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.08,
+  "ref_text_raw": "또한 북쪽으로는 세계적으로 유명한 성모 발현 장소인 파티마 대성당(성지)이 있으니 방문해 보세요.",
+  "ref_text_normalized": "또한 북쪽으로는 세계적으로 유명한 성모 발현 장소인 파티마 대성당성지이 있으니 방문해 보세요",
+  "timestamp_utc": "2026-07-05T06:03:32Z",
+  "text": "또한 북쪽으로는 세계적으로 유명한 성모 발현 장소인 파티마 대성당이 있으니 방문해 보세요.",
+  "latency_sec": 3.6658,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "또한 북쪽으로는 세계적으로 유명한 성모 발현 장소인 파티마 대성당이 있으니 방문해 보세요.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231412,
+    "id": "sfNJatCDLsal1e8PnPeFgAI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 344,
+      "total_tokens": 464
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0018",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.56,
+  "ref_text_raw": "摩尔多瓦的首都是基希讷乌。当地语言是罗马尼亚语，但俄语也被广泛使用。",
+  "ref_text_normalized": "摩 尔 多 瓦 的 首 都 是 基 希 讷 乌 当 地 语 言 是 罗 马 尼 亚 语 但 俄 语 也 被 广 泛 使 用",
+  "timestamp_utc": "2026-07-05T09:11:52Z",
+  "text": "摩尔多瓦的首都，是基希讷乌。当地的语言是罗马尼亚语，但俄语也被广泛使用。",
+  "latency_sec": 2.4064,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "摩尔多瓦的首都，是基希讷乌。当地的语言是罗马尼亚语，但俄语也被广泛使用。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPP0okvYK64QVgHjsy8GoHVjo78GcAwOEWTCF3nm6F/cxQqEK9HCwsL7Aj21D0"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242712,
+    "id": "1h9KavH_N8D21e8P0dn2qQE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 210,
+      "total_tokens": 237
+    }
+  }
+}

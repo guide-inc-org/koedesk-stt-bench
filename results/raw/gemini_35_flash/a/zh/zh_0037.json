@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0037",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.78,
+  "ref_text_raw": "他一直无法用药物来缓解疼痛，因为比赛禁止参赛者服用这些药物。",
+  "ref_text_normalized": "他 一 直 无 法 用 药 物 来 缓 解 疼 痛 因 为 比 赛 禁 止 参 赛 者 服 用 这 些 药 物",
+  "timestamp_utc": "2026-07-05T09:08:42Z",
+  "text": "她一直无法用药物来缓解疼痛，因为比赛禁止参赛者服用这些药物。",
+  "latency_sec": 4.1604,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "她一直无法用药物来缓解疼痛，因为比赛禁止参赛者服用这些药物。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Ep8HCpwHARFNMg8eHJRFUiDNu6W7FfwI+CgIhZ31VaEYbI1nguPWbloAKAcGI9pn17c07Mco+QdmwIoK0olZviwmTZEo5fhv9aqgcWUkLavb5fITgLdiy5U9ONlgMQAEnifm8f/E+ibQfckhXS7csPOINPooYx7vO1d0jgcVT9cKLzCzfVq8MOCEdkYiK4BWagsVRCmHVXGaV+sXSxasWMrrrhhOwddrPkPZBx9voPwk6mj3ltI3aLENW0MYwDeYem3SXw+vUPkFhxmDzRSkRnknoXHJyEw8gNjJvOG3CvZyOo8gU9OgBfbSVw5zSvNyi1sUD+bfo75dYxJZIknmB/aPTxm5Jvj0IyxbwRlQBSH81075t9rfQNzmXHqSyAYBoc0Uc1V6P3fyY9+4rB1O+Nrqib3GwXVR3YXXNHZjlVyAqW3rbq4pF0TxDTkcDv9juJx5bvd8bABFSwqz/nefNG5gDGF21IzWFhPduTR8bZAW70VF6nT2hWHlGjG32+4Ik7jhUXMGs7Rkj3J43BDS6+Th4rMCDYEJsL5y+OHFbxTfGCfEg3Wsi9OiRW3KdkW4U7dk25lqTkCiZUyhN5jwCCttL42FVjXrzOExBrejUS59RaP5wE0JoP0z8XuR2QoUINzHOePKLF0v7xptueKVENJIsEbjNANKMoRC8FerAgyPWwypmya9RTiJE2QXoYf53c1PtaUiXY/wOKNq/PbCBgt/rfCMffGmKLqhJVYY0eXS0n+aQk81KcPU9B2405d+dTc7Xnb/pjfXJpPjFPsmtBsnrfuk7+rBXF4YzCvrk3LIucJamfcLJU80MMSRymj6nPUcAQzkPema6fRFOkKlOs6XfFezr/3uBnav1/3RZIl58AegUiGeGaOl1f+nr9goW38zOcY5vnJH1KuPHLzsUS3ufrd49rU6du4YwtmTaVky/L7WSlGnyRHXoVWkeO2k0MuoLS+sjxQTWk26d70C6hne8Qc2hu4TKBbNtnnvPzeHg5SytAB2Fc861bXlgbeX9rEWSwOarRqiJtbK1AqhuklXyTq+OTNWsEE11xNvSkjn82hbp8+PAgq9uUcpbNK8T5inCPGPffYK4Wp2E4D2htjsi+xYlUbdhm6av7qono9cZi/Kh4t7+sBtzTmMO55XJE6hhZit/ZqdWOxjKsYrhaQROAU5oy4A1fRQsbMZI842ELjeZakga25hfMJyJsdvn2wLEyiRGT52Zy6WFigVUGDn"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242522,
+    "id": "Fx9KaoW7M-nn2roPlKW22Ao",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 266,
+      "total_tokens": 543
+    }
+  }
+}

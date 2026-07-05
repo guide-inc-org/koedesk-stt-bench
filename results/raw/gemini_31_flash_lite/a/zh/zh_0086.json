@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0086",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.44,
+  "ref_text_raw": "离岸流是海浪从海滩快速回流到海中的回流，通常发生在暗礁或类似的地方。",
+  "ref_text_normalized": "离 岸 流 是 海 浪 从 海 滩 快 速 回 流 到 海 中 的 回 流 通 常 发 生 在 暗 礁 或 类 似 的 地 方",
+  "timestamp_utc": "2026-07-05T09:15:48Z",
+  "text": "离岸流是海浪从海滩快速回流到海中的回流，通常发生在暗礁或类似的地方。",
+  "latency_sec": 3.2641,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "离岸流是海浪从海滩快速回流到海中的回流，通常发生在暗礁或类似的地方。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP7u0qthYdI6a4nyTayGlt4+4VgjWMX10x8UmU3FjRs6+FTy6b9SUhApK+IhKW"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242949,
+    "id": "wyBKarDGKNLu1e8P1-bXkAI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 282,
+      "total_tokens": 308
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0049",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.42,
+  "ref_text_raw": "The hot chocolate is up to Belgian standards. Fruit juices are pricey but excellent.",
+  "ref_text_normalized": "the hot chocolate is up to belgian standards fruit juices are pricey but excellent",
+  "timestamp_utc": "2026-07-05T10:30:19Z",
+  "text": "The hot chocolate is up to Belgian standards. Fruit juices are pricey but excellent.",
+  "latency_sec": 3.2641,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The hot chocolate is up to Belgian standards. Fruit juices are pricey but excellent.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EuMDCuADARFNMg+y3yocTGsUAAe8IQ6beTVwk4bVn4F2bahVMxUCpXxmi6v94VEwOg7+YqqxK/LL6310vfwv7dT1xA5MoPzDS0FCsOA2Qyci779tszzT/7sNlyjp9jEdgDC8uE06MlBhr54xc7FYNsjToOEcgGz032lK9XwQbcaI+jj/04rDCMkJH7EqBBPk6ywm6hAuNyv210GEUwcXpj+YSr1n3qfFWwGx/XKaNWpMAtgi/26d9Rb6k26ModKv/NL15Pa1RmJyxVCDl7Zp9xaMKZvV3cBEZiyKpYENrBf2hfjpBnhvjOrs7oln+ojnsc4Bn7rJDlDeARI+uEzYDdXPw6ZI2WKhx+qWxotjri1evu+oL/wNeavtafI1JGQGND2VNqGGnZRy4RHZ8x2NTfOUnvn3jJcCpxnnMFzerXG1WaOlklxgMmoaXbNZYqBSWjYhjvgYjoOCIE6CwPGdyF17yvUuvcJfszMyzo4NnxdbL+i9qqso46MCMe7BneoSpM79hpMLx1zL4K9tktTcs4FSRtVYLPJuEKQgsiFnUWq8znDJOMH4CX1tkV+FZPSKVzv14KcuD9J6WlXTp517GuIMTacZjVmvqAqSh5ddn0Ld9arO0ahD6sGO+IPjega8WZ/SeIKk"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247419,
+    "id": "OTJKapPhILui9tMPvLHh-QE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 182,
+      "total_tokens": 293
+    }
+  }
+}

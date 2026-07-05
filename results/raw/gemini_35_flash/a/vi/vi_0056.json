@@ -1,0 +1,45 @@
+{
+  "utt_id": "vi_0056",
+  "lang": "vi",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 15.54,
+  "ref_text_raw": "Sáng hôm qua, một quả bom cài trong xe hơi đã phát nổ tại trụ sở cảnh sát ở Gaziantep, Thổ Nhĩ Kỳ làm hai cảnh sát viên thiệt mạng và hơn hai mươi người khác bị thương.",
+  "ref_text_normalized": "sáng hôm qua một quả bom cài trong xe hơi đã phát nổ tại trụ sở cảnh sát ở gaziantep thổ nhĩ kỳ làm hai cảnh sát viên thiệt mạng và hơn hai mươi người khác bị thương",
+  "timestamp_utc": "2026-07-05T08:33:23Z",
+  "text": "Sáng hôm qua một quả bom cài trong xe hơi đã phát nổ tại trụ sở cảnh sát ở Gazi Antep Thổ Nhĩ Kỳ làm hai cảnh sát viên thiệt mạng và hơn 20 người khác bị thương.",
+  "latency_sec": 5.1437,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Sáng hôm qua một quả bom cài trong xe hơi đã phát nổ tại trụ sở cảnh sát ở Gazi Antep Thổ Nhĩ Kỳ làm hai cảnh sát viên thiệt mạng và hơn 20 người khác bị thương.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EoIQCv8PARFNMg/yeFUw1gbT54+2alCc6zwariKrC65qnkqbUhC2d7+oLRGlxJb3UsXsBtvnUBouYv215s5DxVawkwnq3UtdVpqz2pWZ+XYbtNgvOFTr6OX+Wen/N6dPsMgy3d19TKNLKLpRiGbcR9HhkVIlJ+KXzKk+0Ji2IF5JBIlMJiyvEnHPPY1ubC/qUV6iwxkJRAKYS8xNq9qFF5RjZMznyhY4RuaKg281yNyYor0KUEEEvhH/dJB9IvUehAwtaK953DUvUm6vlOpsBJSnDnm3sgZfg1RwhFWBb/DQRtCji6NSBxW8d56N8fb65J2n+fGL24ARhbl0UO1V4h5WMdZXsKP5/3ZomNJS1Ndz+KhyqkspgzwZqJOGe+aN/Yewjn6Yxl/tGlarF3aagh5mYqiReqL6lQwvtEhYm4FicFeYMqvBcMaRCT30MIpSt1ZgKwybeSmu7oTO3UwJxOFXObuv1eWNvWKfHot3NgUdOFTSrO5LbC3BpcBZpikH3aP6ygnUZZGsLr4FDwxPrzVgKuDPaSdZWzrW4Nmz/Pgx2xC1mhwSEBhiTHqO+A2jnwNDVXQtOFy6D2Oo6zmafljoexeo7k36fhtZjRK5vbnmTYB2rA5IsqstbqwG8q9658/ViP1rzkPrr2zj28V36GoA6eml0hsVeHu/GMv5UnpUVsIi57h5HqXSHTiWvwbusTMh1fyS0Z36w+be6EcbLS0fBeM2jbx5T6YcEW4g9ORrA4J7bfF1R68mvzJFnWdhRBmKb7aKQQAhUApJthMpQW2XE9aFfSi4ZaDn5jcChr99N5fUnpNHgw9TREm9ZYj42ji/rAQJ4yFwC+atoqQ9HqjiNHD4/6AF+yzw5eiAFdrcOPSNg+ZIA0Q5GLBJyKi0u1OyZivXKgmxGi7PsnIRJHZMW8ATaVDrvlRsQFrHMljylxu0HWuHo9gUx9brPMVqHBS5NlkWcPJmq/nMgAj3EDzpc8rjUF160ocyXc6hcq4dI0ljlpmwXkdZFh/u/X3z6seSoMMzNd/69Ff9iLxVWIkLuPX6a9kqBVHT6sKm10xDYINI3ecW9K/m7nqAJ86C9odtwwI1gGSfjiF4tHHgOJc/Y/KDtjQQlVZ8M8+lxorIz22rVDpXt18O5XiF44ow7vLkYB82kbkhu93q2VLo/3LTJwPraaFBufJuSI91YRf+k9HfIM5+adOch/rpmydRj68i1VOdKRO538QItfo/M5zc6Fbm6jkdr3Zn+y+hq3lo44OKj6MosdJW1BXHMkS+Ni/ec0bzLGGbajR2lLW7hZ28ZV+xetyK+SHuo3mKIRB3bZhH4kuknHTCOC3o2Gsl6+HDfP1v7QdJWNUKgKChLTL42fnDdwcj1RMUDTteyiIuMLfZ5j7tOaxmHz6kYTZh6Ga8l/e1xp9oIISMAUvkgF6WIyQeRvle2LoewDV599gMk3KOm7I0xdXaeddiu8VNEqXwKOxVmjJ2XNM8/2gLpCQcx+5UwXvcEBYRoOlwwOwmRWK1Xw0zsDcKSNE/tcqwDIPHMPCyjYUdOPUmgN4UzcLrmSEttpwPuXXlOmgU6SQmIW8bPKUYGOT3Ni/Lwjogl1MZN8Zj7LJFMwLh0j5jHbgXe/N2MEPUFTfTuECxoyQUm4qGyg+kydTYDIKIrTn3EDuIGpHWeU+IIXmmfKQZ1YAiXL9uZB/CXO5sa6Nm3HEoFPKaI7u9prZmjaUcMxBV+dhX5XynfLdO8oXajm3rgD2BirAtMl99JTC1/wFTUR+RrVVkmGnm+Y+SHwoKXAEP/0nwokPALJRRYxhp/w6q0EVxgm3vovkNgd6w5w6VuX3JEpde2KwfJ109ShiIxFoa1ReP5FVBy0yGmob0evxT1mazCvKyHRLTS+Jycx20lBt3sHmGvIKvPIO8onFmcyM+WvuauRKmF5Caku1FPrz12icTn+9Do49NGhSLT5PEFqitPdsq13CB+lN41/QdPz3i4/AkkEnZqkMLhf97XVZyasiiLYQ6WH/14kTxsSN7GM2VbIgYQTRKXQNX6UlkrTDZ8YHnpPpzEPVvco3B6LtAbMqbWMvu3eikwO1xlvd6gtV4ZS4E7vj/xCcXckVRUyAeB5h0inTOa4TvFPf/49qDHcQA7qdZeOj+4ZnjTPisPYHznNA8axeJE8PW/HMFkVcC2W9oR5eUm5lKojI0BotVR6UYzaxL0DUxx32GZ2gsTPevbBD1ieEfsyAMh3wLdBLz/dSECGWsvHyb7wF+4afA2/guMq+rHkk6qU32myG9//11HpWDvAGlye2+VLcprGoDMXvKzDy53HeYY1gzI4Le4W+ndlXBUXwK8YEGTsvq8c2yOyKjCgsHjsPao1IhaIdrheJzqxKlyTI+MeTE7lubVcnErappKM7JnyAJAwsaYT1KM79qHtSB+nMjt1wSmv7n7uhE/wfrtf26ybguDzwmxJkxQcbX/F+5ghX8BSSUmro/FLNa/YOdESZ+LBZv+sFnwgsNw49zfb8bJnjcb/won4qM9O0z3Vi3xCjkEKGvs44tvXs1wXEvcJDzcwegu2vC5hdXPfV85lQMJV/ZhktxYMFxoYeZte0HdXnKAp8AXWse2wknBPOGeEPhPaGOXdb2fgMqwKACO9tZ/lPftN+CRfyTggBVAnQoiqrS3WDZna870yj8IHjM8pFc8T4HaU6qdLpK0gugvQA9C5wRPevSB2GpMVDg76VA0+20cmKgVpYHFHW8nw=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240404,
+    "id": "0BZKavP5AofEvr0P5fGP6AE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 410,
+      "total_tokens": 978
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0133",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.94,
+  "ref_text_raw": "人们自古以来就知道金、银、铜等基本化学元素，因为这些元素都能以自然形态在自然界中发现，而且比较容易使用原始工具进行开采。",
+  "ref_text_normalized": "人 们 自 古 以 来 就 知 道 金 银 铜 等 基 本 化 学 元 素 因 为 这 些 元 素 都 能 以 自 然 形 态 在 自 然 界 中 发 现 而 且 比 较 容 易 使 用 原 始 工 具 进 行 开 采",
+  "timestamp_utc": "2026-07-05T09:18:17Z",
+  "text": "人们自古以来就知道金、银、铜等基本化学元素，因为这些元素都能以自然形态在自然界中发现，并且比较容易使用原始工具进行开采。",
+  "latency_sec": 4.8166,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "人们自古以来就知道金、银、铜等基本化学元素，因为这些元素都能以自然形态在自然界中发现，并且比较容易使用原始工具进行开采。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243097,
+    "id": "ViFKauPTBrj22roP58zioAI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 320,
+      "total_tokens": 796
+    }
+  }
+}

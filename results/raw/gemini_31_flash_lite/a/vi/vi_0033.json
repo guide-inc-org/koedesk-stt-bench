@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0033",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.46,
+  "ref_text_raw": "Đầu tiên, hầu hết người cưỡi ngựa mang ủng có gót cao và đế trơn, khá hẹp.",
+  "ref_text_normalized": "đầu tiên hầu hết người cưỡi ngựa mang ủng có gót cao và đế trơn khá hẹp",
+  "timestamp_utc": "2026-07-05T08:39:40Z",
+  "text": "Đầu tiên, hầu hết người cưỡi ngựa mang ủng có gót cao và đế trơn, khá hẹp.",
+  "latency_sec": 2.6475,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Đầu tiên, hầu hết người cưỡi ngựa mang ủng có gót cao và đế trơn, khá hẹp.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPwBTkw8sWXuUZ9wujIsF3DDPt+Mto4OHdyfYA8Y5QgwNgpiNUf5wIDN527XC1"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240780,
+    "id": "SxhKarLzBY3y2roP6emiwQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 233,
+      "total_tokens": 258
+    }
+  }
+}

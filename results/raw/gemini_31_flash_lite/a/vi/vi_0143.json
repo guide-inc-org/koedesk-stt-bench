@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0143",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.28,
+  "ref_text_raw": "Căn bệnh được truyền trên lợn, sau đó di trú sang người thông qua muỗi.",
+  "ref_text_normalized": "căn bệnh được truyền trên lợn sau đó di trú sang người thông qua muỗi",
+  "timestamp_utc": "2026-07-05T08:46:15Z",
+  "text": "Căn bệnh được truyền trên lợn, sau đó di trú sang người thông qua mũi.",
+  "latency_sec": 3.3727,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Căn bệnh được truyền trên lợn, sau đó di trú sang người thông qua mũi.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPFkkc76A1+T2/l1Jhexrt8mSfdYfSE/jJ3+mPJYwO+SEBec1SRYjoA7eGZiLE"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241176,
+    "id": "1RlKasLmNLvLrfcPnvyU2AE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 228,
+      "total_tokens": 248
+    }
+  }
+}

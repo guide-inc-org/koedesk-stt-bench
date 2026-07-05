@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0144",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.9,
+  "ref_text_raw": "Gereja-gereja tradisional sering mengadakan Malam Paskah pada Sabtu malam selama akhir pekan Paskah. Jemaat gereja semacam ini sering spontan merayakan kebangkitan Kristus saat tengah malam.",
+  "ref_text_normalized": "gereja-gereja tradisional sering mengadakan malam paskah pada sabtu malam selama akhir pekan paskah jemaat gereja semacam ini sering spontan merayakan kebangkitan kristus saat tengah malam",
+  "timestamp_utc": "2026-07-05T05:53:53Z",
+  "text": "Gereja-gereja tradisional sering mengadakan malam Paskah pada Sabtu malam selama akhir pekan Paskah. Jemaat gereja semacam ini sering spontan merayakan kebangkitan Kristus saat tengah malam.",
+  "latency_sec": 2.8256,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Gereja-gereja tradisional sering mengadakan malam Paskah pada Sabtu malam selama akhir pekan Paskah. Jemaat gereja semacam ini sering spontan merayakan kebangkitan Kristus saat tengah malam.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPJmN5fjSnInOF5lnFU+E+W9eLy3S/DypJANuToJN5HPdLbscdbhmT5EFEktPO"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230833,
+    "id": "b_FJatvgN_TLrfcPi72awAU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 46,
+      "prompt_tokens": 344,
+      "total_tokens": 390
+    }
+  }
+}

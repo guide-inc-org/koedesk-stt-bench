@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0027",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.66,
+  "ref_text_raw": "His work is of such recognized quality and detail that he is one of the very few \"household names\" among philatelists. Some specialize in collecting his work alone.",
+  "ref_text_normalized": "his work is of such recognized quality and detail that he is one of the very few household names among philatelists some specialize in collecting his work alone",
+  "timestamp_utc": "2026-07-05T10:29:33Z",
+  "text": "His work is of such recognized quality and detail that he is one of the very few household names among philatelists. Some specialize in collecting his work alone.",
+  "latency_sec": 2.5758,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "His work is of such recognized quality and detail that he is one of the very few household names among philatelists. Some specialize in collecting his work alone.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP7YKvtXvP1B5l0kmYzHfxHdPl18G/kamKO6sarPdEsgcj5YFPgQP0KH8rMheh"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247374,
+    "id": "DDJKaoewL9DF1e8P2K7MiQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 388,
+      "total_tokens": 420
+    }
+  }
+}

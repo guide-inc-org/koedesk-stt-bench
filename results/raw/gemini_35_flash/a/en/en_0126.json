@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0126",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.04,
+  "ref_text_raw": "The moisture on your hands will react with the outer layers, which will feel funny and form a sort of shell.",
+  "ref_text_normalized": "the moisture on your hands will react with the outer layers which will feel funny and form a sort of shell",
+  "timestamp_utc": "2026-07-05T03:34:06Z",
+  "text": "The moisture on your hands will react with the outer layers, which will feel funny, and form a sort of shell.",
+  "latency_sec": 3.4907,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The moisture on your hands will react with the outer layers, which will feel funny, and form a sort of shell.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Er0FCroFARFNMg8KOmXGxpWMOddu1nS3o7nWF8O9XT61Bov6WwNM7H1XDr3/1f/3+HfAAa+IO1kvSpFzMNCHuTOmwlc5tKwDSA/uG3Mp1C5X8bg7z2SkNlly3SLmFG4ZW7TtLAm8Uw2DJ+1ntSnPrvynZ27JzpeMCutdJAU3vN3HGVBVSKIFUdklh5RAoOscU/RmaGluxrsGJQD+YgeG0X48vP8BIg8fwMqtAlPBnCChU5n6r/jxWSwb5Yy1VvUokRi+YDaS4PG+T9R7EZ9hrST7URnpBb2M3m6T/C0PZlb0po4vUIawZ+0nHLVRG97lvC6b3oKNqMOEmqFy6vZmjelr31FI5giqR5wggsmZshubWQ2Nanu7YNwsakz5I+TKT9AK3hP6uaNOBlLmswX9Cpm+D7+Fb6dTnMOt1l7hp0pQVvdLseNinAhhWoHePcImWT7Nhnlg5stEx4FI+Iv+9Gf6OTU57haxZ/0zqUFpyQS5aJcb6nj4YPoYPsY0nZ/D6gVfX/LzscIhWaD9OWj2Np8ZD2VHc+BnNhMlVyFXy0sXLYfmuHAA9ebmJmHqxdk8pWy8eakEPpGW9tulEWf1EHZ7WVswb1b7b8+OsLje/J/TssmJmdlen/CbP/GCbkLgOaZFVwOkbYmpvMeXdVvHlX2R3xQIt0UmHicqm1mATiSE0nXeDQaWOFACsG/+6S0KP8hPxqHqAKPN7+YJeRTu0qX3/bG+rVPqTRc6huCCc/D/Q6yY9X0rpHhEHFM+C2/YwG+oJx9l+q6POXmZzhZdRj64/eNZfJsEp3gHPfN4hkJbZ1C7vzrj9yJGu+AzhdTDZrCRzeFiWpVnqe8aPWOt46+Lo0PtZLOuVsAAGnqcILLb1qZn55hJqMEG8OKk0+prsdT+Vl0p953jUj/0ItxoX+uM80S26D5KqPSuGk6qBMo="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222447,
+    "id": "rNBJarDBMazmosUPj8LSwAE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 222,
+      "total_tokens": 403
+    }
+  }
+}

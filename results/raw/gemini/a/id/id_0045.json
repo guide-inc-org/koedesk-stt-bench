@@ -1,0 +1,39 @@
+{
+  "utt_id": "id_0045",
+  "lang": "id",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.04,
+  "ref_text_raw": "Wisatawan sangat disarankan untuk berhati-hati dengan risiko cuaca buruk yang memengaruhi daerah mereka, sebab hal tersebut dapat memengaruhi rencana perjalanan apa pun.",
+  "ref_text_normalized": "wisatawan sangat disarankan untuk berhati-hati dengan risiko cuaca buruk yang memengaruhi daerah mereka sebab hal tersebut dapat memengaruhi rencana perjalanan apa pun",
+  "timestamp_utc": "2026-07-05T05:22:35Z",
+  "text": "Wisatawan sangat disarankan untuk berhati-hati dengan resiko cuaca buruk yang mempengaruhi daerah mereka, sebab hal tersebut dapat mempengaruhi rencana perjalanan apapun.",
+  "latency_sec": 3.6529,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Wisatawan sangat disarankan untuk berhati-hati dengan resiko cuaca buruk yang mempengaruhi daerah mereka, sebab hal tersebut dapat mempengaruhi rencana perjalanan apapun.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228955,
+    "id": "GepJasbWCNq20-kPqrmQ0QM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 375,
+      "total_tokens": 431
+    }
+  }
+}

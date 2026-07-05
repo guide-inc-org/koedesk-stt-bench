@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0181",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.24,
+  "ref_text_raw": "C'est ce qu'on appelle le pH d'un produit chimique. Vous pouvez fabriquer un indicateur en utilisant du jus de chou rouge.",
+  "ref_text_normalized": "c'est ce qu'on appelle le ph d'un produit chimique vous pouvez fabriquer un indicateur en utilisant du jus de chou rouge",
+  "timestamp_utc": "2026-07-05T05:20:46Z",
+  "text": "C'est ce qu'on appelle le pH d'un produit chimique. Vous pouvez fabriquer un indicateur en utilisant du jus de chou rouge.",
+  "latency_sec": 3.0456,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "C'est ce qu'on appelle le pH d'un produit chimique. Vous pouvez fabriquer un indicateur en utilisant du jus de chou rouge.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPpFhBwsNV45r1j1+WIu1qfRlwk71boNsAH2LiOqanvrZGY2HtUC9A0WxRtN9r"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228846,
+    "id": "rOlJav2SJMal1e8PnPeFgAI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 252,
+      "total_tokens": 284
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0130",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 17.04,
+  "ref_text_raw": "ที่นี่ถูกปกครองโดยชาวฝรั่งเศสจาก \"เขตวีชี\" ซึ่งเป็นชาวฝรั่งเศสที่สร้างสันติภาพกับชาวเยอรมันในปี 1940 และทำงานร่วมกับผู้รุกรานแทนที่จะต่อสู้กับพวกเขา",
+  "ref_text_normalized": "ที่นี่ถูกปกครองโดยชาวฝรั่งเศสจาก เขตวีชี ซึ่งเป็นชาวฝรั่งเศสที่สร้างสันติภาพกับชาวเยอรมันในปี 1940 และทำงานร่วมกับผู้รุกรานแทนที่จะต่อสู้กับพวกเขา",
+  "timestamp_utc": "2026-07-05T08:08:57Z",
+  "text": "ที่นี่ถูกปกครองโดยชาวฝรั่งเศสจากเขตวีซี ซึ่งเป็นชาวฝรั่งเศสที่สร้างสันติภาพกับชาวเยอรมันในปี 1940 และทำงานร่วมกับผู้รุกรานแทนที่จะต่อสู้กับพวกเขา",
+  "latency_sec": 3.1727,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ที่นี่ถูกปกครองโดยชาวฝรั่งเศสจากเขตวีซี ซึ่งเป็นชาวฝรั่งเศสที่สร้างสันติภาพกับชาวเยอรมันในปี 1940 และทำงานร่วมกับผู้รุกรานแทนที่จะต่อสู้กับพวกเขา",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPvDzVyYt+6rXwJL3D2it/LWxxdCGJ90NdVBsC4APy47U5PwOpCMlBELYoh8ZR"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238937,
+    "id": "FxFKauefIcSb1e8Pw-2buAM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 54,
+      "prompt_tokens": 447,
+      "total_tokens": 501
+    }
+  }
+}

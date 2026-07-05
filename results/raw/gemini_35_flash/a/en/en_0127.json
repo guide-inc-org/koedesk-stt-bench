@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0127",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.44,
+  "ref_text_raw": "Large areas further north are quite sparsely populated and some is nearly uninhabited wilderness.",
+  "ref_text_normalized": "large areas further north are quite sparsely populated and some is nearly uninhabited wilderness",
+  "timestamp_utc": "2026-07-05T03:34:10Z",
+  "text": "Large areas further north are quite sparsely populated and some is nearly uninhabited wilderness.",
+  "latency_sec": 3.0986,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Large areas further north are quite sparsely populated and some is nearly uninhabited wilderness.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EuQFCuEFARFNMg/0M32Row/p1w3ioiOURJtxSpBMf5p1pSpe1tlUsRpBe8v9OEzWN1YajNUKAlDBkeXC0T3ZpmoZkqMcwwW47m2/BUKWma1P8S4sBqyayBW4IV4ODAvbiFJZVWj/kXkdn2abAgHS/SIBVHc/ETrDbeUPS0E9cbX4/b5IDRbxZ6N1AWw7qmnHLql5Fs6mG8ou3uFYusgI0tmkBzdysrM5/L132wUm3jPalTSvct7kWA1UIHI8aVLbdoHnm/pcnnGTcETeVxnRRxZebrWSWs3ilxZd3JSGgE6zFjvA4Dr9S8jZrg1jnTWuAp5zxo9oocH2KMHFlAF0VUlPa+942oYqEdF0JNDqQIz5v0LbUhf34MQROinfjeVcG8I4rIDuojRGC47Z928dHhuLtVTuNZo+X2QJuG08q5+WzfEhfmjbZzte4Xb1/e86DoPgRZj+tmb2BQC3+2XEe4lHubdA4o3QI+nTSdhPG5InmJ1i8oBItK2Jxk1ckOa9n2DlLxMp9dkRGv9B+6/6591NbN006oOGPS6WSDupABOjlHsYchWYcj9yDb1BSo6Dvt9vZShcg4skej6KKRQgtlyCUqC2mcqgIPWjLI6/IR/Mc456ag+yZVP/D2E52jznAM1aSYBDWC/hlAJfHCBHG2drDiZE1Uh4lJaseLXi3ZW9bsIQJ7g9bXKImsa5eKeoDDKcpR7MCPWSUZWql4+p6J7L118FzcRb6GEkAWwC0AK+/p5CGpOaDpM9HgnaLwAAQFKS3rKO14VbkM5Cc93zyvyFpdN3M6+lCsZvVBkLOELOmf8/hQBG4yt9C8SGKE+xl3Qy9LZ7OQiCD0vthFsFlaKauHJv+hYNZ2RB0R6ep+ebixwJwNv8r+ds+PLw7HhV7LmVTNMKdhLv/Ib9gKVwQn1e+dAg+SIwdTll4BBHB1KKB2tIqv0AlbvrobOc75ZqQOpjYEnMiIsuRi7KKnM8CPV8ID3uVto="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222450,
+    "id": "sNBJap7lMpnd2roP0-bGsQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 207,
+      "total_tokens": 384
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "pt_0115",
+  "lang": "pt",
+  "engine": "gemini_25_pro",
+  "duration_sec": 12.18,
+  "ref_text_raw": "Mas, depois de não atingir o alvo do capitão, a Índia só conseguiu fazer 36 corridas e perdeu 7 alvos, finalizando as entradas.",
+  "ref_text_normalized": "mas depois de não atingir o alvo do capitão a índia só conseguiu fazer 36 corridas e perdeu 7 alvos finalizando as entradas",
+  "timestamp_utc": "2026-07-05T06:44:43Z",
+  "text": "Mas, depois de não atingir o alvo do capitão, a Índia só conseguiu fazer 36 corridas e perdeu sete alvos, finalizando as entradas.",
+  "latency_sec": 5.64,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Mas, depois de não atingir o alvo do capitão, a Índia só conseguiu fazer 36 corridas e perdeu sete alvos, finalizando as entradas.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783233883,
+    "id": "V_1Jar7IBOzl0-kPppi2uQE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 411,
+      "total_tokens": 671
+    }
+  }
+}

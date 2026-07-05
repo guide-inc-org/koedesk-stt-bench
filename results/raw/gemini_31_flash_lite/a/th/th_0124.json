@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0124",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.2,
+  "ref_text_raw": "ผู้หญิง: ขอแนะนำให้นักท่องเที่ยวผู้หญิงทุกคนบอกว่าตนแต่งงานแล้ว ไม่ว่าสถานภาพสมรสที่แท้จริงจะเป็นอย่างไรก็ตาม",
+  "ref_text_normalized": "ผู้หญิง ขอแนะนำให้นักท่องเที่ยวผู้หญิงทุกคนบอกว่าตนแต่งงานแล้ว ไม่ว่าสถานภาพสมรสที่แท้จริงจะเป็นอย่างไรก็ตาม",
+  "timestamp_utc": "2026-07-05T08:08:33Z",
+  "text": "ผู้หญิง ขอแนะนำให้นักท่องเที่ยวผู้หญิงทุกคนบอกว่าตนแต่งงานแล้ว ไม่ว่าสถานภาพสมรสที่แท้จริงจะเป็นอย่างไรก็ตาม",
+  "latency_sec": 2.8879,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ผู้หญิง ขอแนะนำให้นักท่องเที่ยวผู้หญิงทุกคนบอกว่าตนแต่งงานแล้ว ไม่ว่าสถานภาพสมรสที่แท้จริงจะเป็นอย่างไรก็ตาม",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP9ePSpC2cc2bhVBAUJAdT4CP141vXc9grI38atuq65uXPILeaxRa+WQAcqIwR"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238913,
+    "id": "_xBKasuZFcmrvr0Ps4zPyAI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 201,
+      "total_tokens": 230
+    }
+  }
+}

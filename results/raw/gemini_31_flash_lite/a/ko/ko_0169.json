@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0169",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.0,
+  "ref_text_raw": "예를 들어, 세계에서 가장 일반적인 정지 화상 사진 포맷은 35 mm인데, 이는 아날로그 필름 시대 끝 무렵에 주로 쓰인 필름 사이즈였습니다.",
+  "ref_text_normalized": "예를 들어 세계에서 가장 일반적인 정지 화상 사진 포맷은 35 mm인데 이는 아날로그 필름 시대 끝 무렵에 주로 쓰인 필름 사이즈였습니다",
+  "timestamp_utc": "2026-07-05T06:29:12Z",
+  "text": "예를 들어 세계에서 가장 일반적인 정지 화상 사진 포맷은 35mm인데, 이는 아날로그 필름 시대 끝 무렵에 주로 쓰인 필름 사이즈였습니다.",
+  "latency_sec": 3.0264,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "예를 들어 세계에서 가장 일반적인 정지 화상 사진 포맷은 35mm인데, 이는 아날로그 필름 시대 끝 무렵에 주로 쓰인 필름 사이즈였습니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPci+YrkljkvOP6Hb0yg9IfK6Gbb1S6hqdGSmpYkbWYbgxsk83WugyCS/2IIL1"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232952,
+    "id": "t_lJaqTqFrD32roPjrXkkQc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 396,
+      "total_tokens": 437
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0161",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 9.24,
+  "ref_text_raw": "しかし、そうではありませんでした。裏面に何か書かれていますが宝の地図ではありませんでした。",
+  "ref_text_normalized": "しかし そうではありませんでした 裏面に何か書かれていますが宝の地図ではありませんでした",
+  "timestamp_utc": "2026-07-05T03:13:04Z",
+  "text": "しかし、そうではありませんでした。裏面に何か書かれていますが、宝の地図ではありませんでした。",
+  "latency_sec": 4.9739,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "しかし、そうではありませんでした。裏面に何か書かれていますが、宝の地図ではありませんでした。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221184,
+    "id": "vMtJapW_MJCe1e8PjsLZ0AQ",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 317,
+      "total_tokens": 532
+    }
+  }
+}

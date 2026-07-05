@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0076",
+  "lang": "es",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.84,
+  "ref_text_raw": "La expectativa de los científicos es comprender cómo se originan los planetas, en particular el nuestro, dado que los cometas se estrellaron en la Tierra mucho tiempo atrás.",
+  "ref_text_normalized": "la expectativa de los científicos es comprender cómo se originan los planetas en particular el nuestro dado que los cometas se estrellaron en la tierra mucho tiempo atrás",
+  "timestamp_utc": "2026-07-05T04:18:47Z",
+  "text": "La expectativa de los científicos es comprender cómo se originan los planetas, en particular el nuestro, dado que los cometas se estrellaron en la Tierra mucho tiempo atrás.",
+  "latency_sec": 5.538,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "La expectativa de los científicos es comprender cómo se originan los planetas, en particular el nuestro, dado que los cometas se estrellaron en la Tierra mucho tiempo atrás.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225127,
+    "id": "I9tJauCnLcmzvr0PpOCr2QI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 432,
+      "total_tokens": 491
+    }
+  }
+}

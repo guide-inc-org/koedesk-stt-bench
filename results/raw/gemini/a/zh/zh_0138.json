@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0138",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.8,
+  "ref_text_raw": "马达加斯加是目前为止最大的岛屿，对野生动物来说还是一片独立的大陆。",
+  "ref_text_normalized": "马 达 加 斯 加 是 目 前 为 止 最 大 的 岛 屿 对 野 生 动 物 来 说 还 是 一 片 独 立 的 大 陆",
+  "timestamp_utc": "2026-07-05T08:59:03Z",
+  "text": "马达加斯加是目前为止最大的岛屿。对已知动物来说，还是一片独立的大陆。",
+  "latency_sec": 3.4059,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "马达加斯加是目前为止最大的岛屿。对已知动物来说，还是一片独立的大陆。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241943,
+    "id": "1RxKaszWJNDF1e8P2K7MiQU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 271,
+      "total_tokens": 353
+    }
+  }
+}

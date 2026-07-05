@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0149",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.32,
+  "ref_text_raw": "Однако из-за медленных каналов связи стили на западе могут отставать на 25-30 лет.",
+  "ref_text_normalized": "однако из-за медленных каналов связи стили на западе могут отставать на 25-30 лет",
+  "timestamp_utc": "2026-07-05T07:36:08Z",
+  "text": "Однако из-за медленных каналов связи стили на Западе могут отставать на 25–30 лет.",
+  "latency_sec": 2.7904,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Однако из-за медленных каналов связи стили на Западе могут отставать на 25–30 лет.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPqJejC3Ka/TJCF99TI/ahF+urgbpIha1vXHj7cndlMpeVARsv7w0RRZoanvhL"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236968,
+    "id": "ZwlKarW3BrDM0-kP1Zry4AU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 204,
+      "total_tokens": 230
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0083",
+  "lang": "th",
+  "engine": "gemini_25_flash",
+  "duration_sec": 14.28,
+  "ref_text_raw": "เสือโคร่งเป็นนักกีฬาที่เจนจัด มีความสามารถในการปีนป่าย (ทว่าไม่เก่งนัก) ว่ายน้ำ กระโดดไกล และฉุดดึงด้วยแรงห้าเท่าของมนุษย์ที่แข็งแกร่ง",
+  "ref_text_normalized": "เสือโคร่งเป็นนักกีฬาที่เจนจัด มีความสามารถในการปีนป่าย ทว่าไม่เก่งนัก ว่ายน้ำ กระโดดไกล และฉุดดึงด้วยแรงห้าเท่าของมนุษย์ที่แข็งแกร่ง",
+  "timestamp_utc": "2026-07-05T07:41:12Z",
+  "text": "เสือโคร่งเป็นนักกีฬาที่เจนจัด มีความสามารถในการปีนป่าย ทว่าไม่เก่งนัก ว่ายน้ำ กระโดดไกล และฉุดดึงด้วยแรง 5 เท่าของมนุษย์ที่แข็งแกร่ง",
+  "latency_sec": 4.3818,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "เสือโคร่งเป็นนักกีฬาที่เจนจัด มีความสามารถในการปีนป่าย ทว่าไม่เก่งนัก ว่ายน้ำ กระโดดไกล และฉุดดึงด้วยแรง 5 เท่าของมนุษย์ที่แข็งแกร่ง",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237272,
+    "id": "lQpKauuEGf_O1e8P-_GSuQg",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 52,
+      "prompt_tokens": 478,
+      "total_tokens": 653
+    }
+  }
+}

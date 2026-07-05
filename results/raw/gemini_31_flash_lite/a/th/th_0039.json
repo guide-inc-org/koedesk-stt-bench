@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0039",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.36,
+  "ref_text_raw": "ลมแรง ลูกเห็บ ปริมาณน้ำฟ้ามากเกินไป และไฟป่า เป็นรูปแบบและผลกระทบต่าง ๆ ของสภาพอากาศรุนแรง เช่นเดียวกับพายุฝนฟ้าคะนอง ทอร์นาโด พายุงวงช้าง และไซโคลน",
+  "ref_text_normalized": "ลมแรง ลูกเห็บ ปริมาณน้ำฟ้ามากเกินไป และไฟป่า เป็นรูปแบบและผลกระทบต่าง ๆ ของสภาพอากาศรุนแรง เช่นเดียวกับพายุฝนฟ้าคะนอง ทอร์นาโด พายุงวงช้าง และไซโคลน",
+  "timestamp_utc": "2026-07-05T08:03:02Z",
+  "text": "ลมแรง ลูกเห็บ ปริมาณน้ำฝนที่มากเกินไป และไฟป่า เป็นรูปแบบการ และผลกระทบต่างๆ ของสภาพอากาศรุนแรง เช่นเดียวกับพายุฟ้าฝนคะนอง ทอร์นาโด พายุหมุนเขตร้อนและไซโคลน",
+  "latency_sec": 2.834,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ลมแรง ลูกเห็บ ปริมาณน้ำฝนที่มากเกินไป และไฟป่า เป็นรูปแบบการ และผลกระทบต่างๆ ของสภาพอากาศรุนแรง เช่นเดียวกับพายุฟ้าฝนคะนอง ทอร์นาโด พายุหมุนเขตร้อนและไซโคลน",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPP5QOMflfk/+Dtt2kv1VBRMuEHOPgeM2r6o8kp86UEeTMsVQFxtQ7Lzdld1U5"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238582,
+    "id": "tQ9Kat7MCKTMrfcPve3HuAM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 60,
+      "prompt_tokens": 255,
+      "total_tokens": 315
+    }
+  }
+}

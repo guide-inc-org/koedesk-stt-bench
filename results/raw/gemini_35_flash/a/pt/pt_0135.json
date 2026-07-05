@@ -1,0 +1,45 @@
+{
+  "utt_id": "pt_0135",
+  "lang": "pt",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 19.14,
+  "ref_text_raw": "Não é, de fato, somente experimentação; um experimento é um teste usado para eliminar uma das possíveis hipóteses ou mais, fazer perguntas. Fazer observações também guia uma pesquisa científica.",
+  "ref_text_normalized": "não é de fato somente experimentação um experimento é um teste usado para eliminar uma das possíveis hipóteses ou mais fazer perguntas fazer observações também guia uma pesquisa científica",
+  "timestamp_utc": "2026-07-05T06:54:30Z",
+  "text": "Não é, de fato, somente experimentação. Um experimento é um teste usado para eliminar uma das possíveis hipóteses ou mais. Fazer perguntas, fazer observações também guia uma pesquisa científica.",
+  "latency_sec": 4.3595,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Não é, de fato, somente experimentação. Um experimento é um teste usado para eliminar uma das possíveis hipóteses ou mais. Fazer perguntas, fazer observações também guia uma pesquisa científica.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtkKCtYKARFNMg8GHhojochP54gJVCOrDh+9/+PARU1XZl5La2Syl1GA1C5ajp5IZDZHvuYlv2b3xunImLCwvAOOsXBIxoyQukYTIGoXWVUZu9QrCZj1ZTA4v+1+0h7w6URhNbB5TXW4EcemQIamz9a7dwiN57/wCGMsRFLBQA2yozn55gZnskLvRhwcFj6nTkxDReZjDvBd32zj25blHJCUpJej+WzTyAqEjoX/jU+O92E0yL5KEmUIcEnK4XQGv0eWAZmW+poaEsKetkYYOQDeG3e6Qvx090Rku7t8Q82AXTC+q0yFEMR/98M2NbP3TDFAN4Kc67EA0y8ycCCuMrYAGIdz4ErSSPh6Ay+sTj4VzwoAtgigPOURoQ5zxoAVMEtue+zXAshtMyuFYiWg+2Xr3xrqnaM2ENKafUnNqKtVwoRCm3gIMouI0HfoAw0bMXsos81odNsAgxh0pzl7Cl9T8QA8PYx2O5dR4zZkw1m0hxhS2HEpLiQ1gjyjaK6QJvwjbbXjhw/EZ4kBmYOOqRWx7cv8ZOnGXmGzm2zaIT1yZdX8+9sumHDuFiyL/F2u2/mvBfaFmXN/KO2aJfPWlSfwqtUXqTOpfHa5AIPFwicB9bfWQs6URIK2dP5AB+1Vcmx6JYO+4KjRs0XYnneerCK3glIK9UccU7HyoAhKCvtogn7CeLvV4rnrxcxbRS06epxtkG5jYYbr2JL/1oq+IKpgwmG3kXDyxp0sl14XPbYSaV/O5IgnRzVvaCM7iIYnluqBoLTvCkVmIXQm/LEVnKwVHNHu5G9H+gNZENi0fliOxebVQLvWs/l6LzORopT+WVAA+k4kRz6b01hRDd+8qq66ajQGxD4pQ+bOcFVWkCxtcS9tyx5u8YrHZ5kDEwMSm7fNrSNfBPv0WCZDxiQXKtGV5CogtsGkXLLvMGh9g5KBp57Qc7JRNYNps7X6OLGlW1si/5o8A4J4VFH4Qz+BoiY9n1yEED8o8n/aRT6oMzpghQWCnzgppsrrDcU7iYEfluOeFaI8u7KmLDaVIonrZOV5fGF4r0ybc4YYrm+/8DHZmNW6fDRy6biHGjs5w8FS2f6m8LY6Y+f1xinKdhryrG1EXJDx/5sNfceeLLRHscu8gblAkXL1i+yKZRPKHkYjUA3yjwxcEFggZfg2T0RzOVVEZsl+pBQlBt4dsG/Pd4IaCmrJaLoC1Mnl+GNAac2rsWBdXk/i0BBwOGB+b8LK2meaqoVivxMv6qd8ljK4ibWUWYJcsVAuRwBZmpCzJ9P6cU6vZtPWYULGM6cIqX6erE/iXMtxijR0wxhpBS4iATr6mew7j2SRog1NdgyFk3ap1BHFXf1t5Hc2qs8YI3Czkc6u2JX+ykRZfr5GA6iAJlvQAv00TFzX4S/wo9SAIfd9EsB0JTzJpDk/Rwy7vUnjxwlVKFXfG9Z7yisCRg1pcSL6+AHGvYsXhL1K2i1yU9IZaJI0OCSom1xoCul7n1gNGaauyJbgJkZR4EVf8jCug1fH15gf9n/Rof/OYsg6Z+pjETiD8HbbVsHyzZ9olNQSzjkrzVF1gA7EabeZZiRBOf+SxHC1L93zgkRs5LlCyAcEMeAaHN9WB3uCTPj3V1CcJ8DYKfkektDU6UAJPgx8p08Se5UkTWVhjs1VLmMeKOTtK19AfBKzEjXc8GJlQUncXyM5YE7QQBxXm6nHVzS0BDmk6TM9IWmwVeg3ZCbEwS0aCNWV1HuD34OMBwTB1LIw98OEWhefXp1+F57HhHozWV/ULcpcAzim6ar34bwJOXmAWvuWuhXgfJew8ea1NKF4nUDAe6tmjuXVnfx6Dg=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234470,
+    "id": "o_9Jat6bD5K02roP8vW-qQE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 500,
+      "total_tokens": 843
+    }
+  }
+}

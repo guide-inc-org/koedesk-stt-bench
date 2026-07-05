@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0198",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.98,
+  "ref_text_raw": "Children are placed in Foster Care for a wide variety of reasons that range from neglect, to abuse, and even to extortion.",
+  "ref_text_normalized": "children are placed in foster care for a wide variety of reasons that range from neglect to abuse and even to extortion",
+  "timestamp_utc": "2026-07-05T03:39:50Z",
+  "text": "Children are placed in foster care for a wide variety of reasons that range from neglect to abuse and even to extortion.",
+  "latency_sec": 3.2664,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Children are placed in foster care for a wide variety of reasons that range from neglect to abuse and even to extortion.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Eu0ECuoEARFNMg+fC0UgLYMFOybD56mxh8O/DFAfAvwF/FOK0iHjIl6nDs6KOt0sNDGu20FHrLatEmXQSzbvEJL1uQsQoxW0dW11IUAwUHCMPbMrGpnJIQ1CXfbNIXn6sVbqKvtOYUWEv8bijm0Qi5DAwnbNcJprKB2raNdW/2YDdKcPnveMZk4Qnw3dF76pHA5RKzvHgPt2eGFuUyKyvjBzabU5jO0RO0dz3foo70QEsABcCyC11jsoaupmvbzS1KkaIVjN8xv2LCOFrbI0+/PcK8Od8kne5IXexchucTM0aXRfNQBUbu+WHNX7CT/sDPvn5sRAaKzHXUsXzgfkhrlLXjtouHvtWrZPzyyyYtkIYXqibEVmoZKpkxVJlluVsHrlzdmjnjB9xoi3IFR2MxXbtYlQoU1ugrVxsjz747kZ2blhQUhFZ6NF0R8SSi9sKJJRjb8rwCjl4XjjQAcJte+HQOFyVTW4eHtRtIYWrSzbaJvCmSk2HDxzz0h7xIlLge5UgYHZazTxWd636Rwv27C7g0fSRHjxYCp+L1KGAFQHlf3DkLDuwVg1V+Y1vRzikvYKNIvMLO6/RruOYfSE7g2+dh3Isqc8LZbtb9DpmQbAYqupxQuY7DV2bTNhoeaNj/G7wsY6cV53/zzNdtlQ0odjtyQKT3yF8gKUlAwAphXO4I9a7GhmjjHFQCqPVtsHg2iY+3oVqj+D0lWgDdh+jyL7yie9a5KHTZeQZctpwRy+PT6OZet6G1GZjXN0K9SfaTPVHSXxWiMPj3TNoz9u2MtJeHDnkC5qf5kPNIvMTxgzbzVUmZ6wQkcVRVArPJB+"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222790,
+    "id": "BNJJatPaJ8_g1e8PpM-tqAQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 221,
+      "total_tokens": 373
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0157",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 13.62,
+  "ref_text_raw": "Cependant, le pourcentage de TB-UR dans l’ensemble du groupe de personnes atteintes de tuberculose semble encore faible ; 6 000 personnes sur un total de 330 000 ont été infectées à un moment donné en Afrique du Sud.",
+  "ref_text_normalized": "cependant le pourcentage de tb-ur dans l’ensemble du groupe de personnes atteintes de tuberculose semble encore faible ; 6 000 personnes sur un total de 330 000 ont été infectées à un moment donné en afrique du sud",
+  "timestamp_utc": "2026-07-05T05:15:22Z",
+  "text": "Cependant, le pourcentage de TB-UR dans l'ensemble du groupe des personnes atteintes de tuberculose semble encore faible. 6 000 personnes sur un total de 330 000 ont été infectées à un moment donné en Afrique du Sud.",
+  "latency_sec": 4.9947,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Cependant, le pourcentage de TB-UR dans l'ensemble du groupe des personnes atteintes de tuberculose semble encore faible. 6 000 personnes sur un total de 330 000 ont été infectées à un moment donné en Afrique du Sud.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228522,
+    "id": "ZuhJaqL1Gbif0-kPzJPfgAc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 58,
+      "prompt_tokens": 362,
+      "total_tokens": 950
+    }
+  }
+}

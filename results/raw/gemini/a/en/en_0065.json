@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0065",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.64,
+  "ref_text_raw": "The ruling party, South West Africa People's Organisation (SWAPO), also retained a majority in the parliamentary elections.",
+  "ref_text_normalized": "the ruling party south west africa people's organisation swapo also retained a majority in the parliamentary elections",
+  "timestamp_utc": "2026-07-05T10:23:55Z",
+  "text": "The ruling party Southwest Africa People's Organization also retained a majority in the parliamentary elections.",
+  "latency_sec": 3.6791,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The ruling party Southwest Africa People's Organization also retained a majority in the parliamentary elections.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247035,
+    "id": "uTBKaqnoC4-V9tMPqJa8yAI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 362,
+      "total_tokens": 405
+    }
+  }
+}

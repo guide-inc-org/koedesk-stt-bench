@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0127",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 6.3,
+  "ref_text_raw": "福克兰群岛的官方货币是福克兰英镑，与英镑等值。",
+  "ref_text_normalized": "福 克 兰 群 岛 的 官 方 货 币 是 福 克 兰 英 镑 与 英 镑 等 值",
+  "timestamp_utc": "2026-07-05T08:58:11Z",
+  "text": "弗兰克群岛的官方货币是弗兰克英镑，与英镑等值。",
+  "latency_sec": 4.138,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "弗兰克群岛的官方货币是弗兰克英镑，与英镑等值。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241891,
+    "id": "oBxKao33Kqyv1e8P3_jVaA",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 223,
+      "total_tokens": 379
+    }
+  }
+}

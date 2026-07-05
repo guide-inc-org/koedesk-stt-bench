@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0092",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.26,
+  "ref_text_raw": "在意大利很多其他城市以及世界上其他地方，尤其是波兰，都设置了类似的设施，以供大量群众观看。",
+  "ref_text_normalized": "在 意 大 利 很 多 其 他 城 市 以 及 世 界 上 其 他 地 方 尤 其 是 波 兰 都 设 置 了 类 似 的 设 施 以 供 大 量 群 众 观 看",
+  "timestamp_utc": "2026-07-05T09:16:11Z",
+  "text": "在意大利很多其他城市，以及世界上其他地方，尤其是波兰，都设置了类似的设施，以供大量群众观看。",
+  "latency_sec": 2.879,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "在意大利很多其他城市，以及世界上其他地方，尤其是波兰，都设置了类似的设施，以供大量群众观看。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPAv03BO9Gt7o6cWjwUzu7b1ozUS0F2b8YTI4BGVaYOG99xIiaua7wVNRMcoXv"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242971,
+    "id": "2SBKauTDNqyv1e8P3_jVaA",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 353,
+      "total_tokens": 380
+    }
+  }
+}

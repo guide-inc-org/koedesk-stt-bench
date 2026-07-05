@@ -1,0 +1,36 @@
+{
+  "utt_id": "es_0094",
+  "lang": "es",
+  "engine": "google_stt_v2",
+  "duration_sec": 10.56,
+  "ref_text_raw": "En la mañana de ayer, en Gaziantep, Turquía, un coche bomba mató a dos oficiales de policía e hirió a más de otras veinte personas.",
+  "ref_text_normalized": "en la mañana de ayer en gaziantep turquía un coche bomba mató a dos oficiales de policía e hirió a más de otras veinte personas",
+  "timestamp_utc": "2026-07-05T04:07:16Z",
+  "text": "En la mañana de ayer, en Gaziantep, Turquía, un coche bomba mató a dos oficiales de policía e hirió a más de otras 20 personas.",
+  "latency_sec": 4.2498,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "es-US",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "11s",
+      "requestId": "7b6c0286-0000-2d32-bec9-14223bcb1746",
+      "prompt": "Transcribe the following speech segment in Spanish. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Spanish."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "En la mañana de ayer, en Gaziantep, Turquía, un coche bomba mató a dos oficiales de policía e hirió a más de otras 20 personas."
+          }
+        ],
+        "languageCode": "es-US"
+      }
+    ]
+  }
+}

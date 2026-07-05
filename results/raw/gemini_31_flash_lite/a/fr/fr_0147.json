@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0147",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.96,
+  "ref_text_raw": "Les scènes sont affichées sur les pyramides et les différentes pyramides sont éclairées.",
+  "ref_text_normalized": "les scènes sont affichées sur les pyramides et les différentes pyramides sont éclairées",
+  "timestamp_utc": "2026-07-05T05:18:36Z",
+  "text": "Les scènes sont affichées sur des pyramides et les différentes pyramides sont éclairées.",
+  "latency_sec": 3.9041,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Les scènes sont affichées sur des pyramides et les différentes pyramides sont éclairées.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPHSqRnI790ecNtLUu2sko3KUcjkitFBvAig/7qVsanf8iB4ymxW+LAOZd3s0G"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228716,
+    "id": "KulJaoe2DabX2roP9O2X-Qg",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 271,
+      "total_tokens": 291
+    }
+  }
+}

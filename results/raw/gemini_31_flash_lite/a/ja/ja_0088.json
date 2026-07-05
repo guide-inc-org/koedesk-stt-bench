@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0088",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.44,
+  "ref_text_raw": "1920年代に、市民や国家のほとんどに広まっていた思想は平和主義と孤立主義でした。",
+  "ref_text_normalized": "1920年代に 市民や国家のほとんどに広まっていた思想は平和主義と孤立主義でした",
+  "timestamp_utc": "2026-07-05T10:18:05Z",
+  "text": "1920 年代 に 市民 や 国家 の ほとんど に 広まっ て い た 思想 は 平和 主義 と 合理 主義 でし た 。",
+  "latency_sec": 3.7171,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "1920 年代 に 市民 や 国家 の ほとんど に 広まっ て い た 思想 は 平和 主義 と 合理 主義 でし た 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPKpmcCSN+GVfvdskpZjqwbKuJc0DGrWe9ZI2DOyBuOFn2tyuOOKhLPHiBD6T2"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246686,
+    "id": "Wy9Kape_Irui9tMPvLHh-QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 282,
+      "total_tokens": 318
+    }
+  }
+}

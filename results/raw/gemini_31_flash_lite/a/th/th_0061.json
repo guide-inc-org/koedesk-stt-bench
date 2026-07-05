@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0061",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.06,
+  "ref_text_raw": "องค์กรประชาชนแอฟริกาใต้ (SWAPO) ซึ่งเป็นพรรครัฐบาลยังคงครองเสียงข้างมากในการเลือกตั้งรัฐสภา",
+  "ref_text_normalized": "องค์กรประชาชนแอฟริกาใต้ swapo ซึ่งเป็นพรรครัฐบาลยังคงครองเสียงข้างมากในการเลือกตั้งรัฐสภา",
+  "timestamp_utc": "2026-07-05T08:04:24Z",
+  "text": "องค์กรประชาชนแอฟริกาใต้ SWAPO ซึ่งเป็นพรรครัฐบาล ยังคงครองเสียงข้างมากในการเลือกตั้งรัฐสภา",
+  "latency_sec": 2.5835,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "องค์กรประชาชนแอฟริกาใต้ SWAPO ซึ่งเป็นพรรครัฐบาล ยังคงครองเสียงข้างมากในการเลือกตั้งรัฐสภา",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPeNFPjJz1y7JlKCCu3k+Uq6Mg06EwPP5LyvU/hqHsgmN73fwahYCUB8lbvVxU"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238665,
+    "id": "BxBKar2zIJj_1e8PrLe2mQQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 248,
+      "total_tokens": 277
+    }
+  }
+}

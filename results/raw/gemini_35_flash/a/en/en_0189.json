@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0189",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.36,
+  "ref_text_raw": "He has been unable to take the drugs needed to overcome his pain as they are banned from the Games.",
+  "ref_text_normalized": "he has been unable to take the drugs needed to overcome his pain as they are banned from the games",
+  "timestamp_utc": "2026-07-05T03:39:11Z",
+  "text": "He has been unable to take the drugs needed to overcome his pain as they are banned from the games.",
+  "latency_sec": 3.6943,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "He has been unable to take the drugs needed to overcome his pain as they are banned from the games.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpMDCpADARFNMg9xPRmhr2XBGT7cGoRtDPTPhrY2O4+0sGd9sRTqhH9W8weSjyOz9W3WrPiXZ6yWoGMn7hfmJua9oHjcw1mvrD2xpbwk9YdA6v99tWSK2o3TEJFoF1NQUwkuJw1n2Olq2j4+tTQMa58Kxsiu9zimu1RGS8zfODVNdu1kc1rlivJOjeTnnV/zUhB2N0xp1KTQlZ0av/a6og/33ffBwciiEcCZPlI3/y8rmxBfsz6XJGGEay64PliIf5ibVhPaAP6sXdzR0sk0hc7UlTZRnCPQF4F7epzrKsSg2GQHaXiTFT9q9iZqLH33a48PxGhPzpYck/nzDaset4Hy3X/jF0xJIunRESGW1fcXX38mG32BShhJ+yF8MDOP5adFhYWe0Jv5gYUu03MZ24EZ9lo2ycz7oK4dsKeTM028OL0u1aFP1TFDdM2Mi660c6mXnEm36I4d/BBG37sOTnJMuPFESbcthrlbGr7am3pDpUYvlbGGOrjvYX6Q9CkFOIUlu0vIad9SeKRBx5iSfSz7iGM9RA=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222751,
+    "id": "3NFJat23LOnF0-kPwPbOqAc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 180,
+      "total_tokens": 277
+    }
+  }
+}

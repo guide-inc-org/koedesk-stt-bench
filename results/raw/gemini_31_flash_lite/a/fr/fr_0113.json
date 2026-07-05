@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0113",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.1,
+  "ref_text_raw": "Le centre de la méditation tibétaine est le yoga de la déité. C'est grâce à la visualisation de différentes déités que les canaux d'énergie sont nettoyés, les chakras activés, et la conscience d'éveil créée.",
+  "ref_text_normalized": "le centre de la méditation tibétaine est le yoga de la déité c'est grâce à la visualisation de différentes déités que les canaux d'énergie sont nettoyés les chakras activés et la conscience d'éveil créée",
+  "timestamp_utc": "2026-07-05T05:16:31Z",
+  "text": "Le centre de la méditation tibétaine et le yoga de la divinité. C'est grâce à la visualisation de différentes divinités que les canaux d'énergie sont nettoyés, les chakras activés et la conscience d'éveil crée.",
+  "latency_sec": 2.7032,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Le centre de la méditation tibétaine et le yoga de la divinité. C'est grâce à la visualisation de différentes divinités que les canaux d'énergie sont nettoyés, les chakras activés et la conscience d'éveil crée.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPTxbNT4kB1awQmTsmmNeFqeO7i9A94CWuPy5/YcfyCj+hKyYthhVhFPDb3AnE"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228591,
+    "id": "ruhJas_DDoul1e8Pq7ahqQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 53,
+      "prompt_tokens": 299,
+      "total_tokens": 352
+    }
+  }
+}

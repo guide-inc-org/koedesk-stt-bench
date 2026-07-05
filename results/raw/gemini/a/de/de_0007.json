@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0007",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 19.68,
+  "ref_text_raw": "Nachdem der Damm 1963 erbaut worden war, kamen die jahreszeitlichen Überflutungen, die Sedimente im Fluss verteilen, zum Stillstand.",
+  "ref_text_normalized": "nachdem der damm 1963 erbaut worden war kamen die jahreszeitlichen überflutungen die sedimente im fluss verteilen zum stillstand",
+  "timestamp_utc": "2026-07-05T03:40:30Z",
+  "text": "Nachdem der Damm 1963 erbaut worden war, kamen die Jahreszeitlichen Überflutungen, die Sedimente im Fluss verteilen, zum Stillstand.",
+  "latency_sec": 3.305,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Nachdem der Damm 1963 erbaut worden war, kamen die Jahreszeitlichen Überflutungen, die Sedimente im Fluss verteilen, zum Stillstand.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222830,
+    "id": "LNJJar-1DsKl9tMPpf6PiQE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 651,
+      "total_tokens": 688
+    }
+  }
+}

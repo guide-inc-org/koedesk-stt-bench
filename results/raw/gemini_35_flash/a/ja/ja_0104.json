@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0104",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 15.96,
+  "ref_text_raw": "彼の作品は、その質の高さと詳細さが評価され、切手収集家の中では数少ない「有名人」の1人です。彼の作品だけを専門とする収集家もいるほどです。",
+  "ref_text_normalized": "彼の作品は その質の高さと詳細さが評価され 切手収集家の中では数少ない 有名人 の1人です 彼の作品だけを専門とする収集家もいるほどです",
+  "timestamp_utc": "2026-07-05T03:15:31Z",
+  "text": "彼の作品はその質の高さと詳細さが評価され、切手収集家の間で彼は数少ない有名人の一人です。彼の作品だけを専門とする収集家もいるほどです。",
+  "latency_sec": 7.2633,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "彼の作品はその質の高さと詳細さが評価され、切手収集家の間で彼は数少ない有名人の一人です。彼の作品だけを専門とする収集家もいるほどです。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221332,
+    "id": "TsxJatDrEMfJ0-kPwvvLoAE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 420,
+      "total_tokens": 1408
+    }
+  }
+}

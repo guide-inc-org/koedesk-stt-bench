@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0124",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.6,
+  "ref_text_raw": "Хьюн ушел в отставку, и в Кабинете министров его заменит член парламента Эд Дейви. Ожидается, что член парламента Норман Ламб займет принадлежащий Дейви пост Министра по делам бизнеса.",
+  "ref_text_normalized": "хьюн ушел в отставку и в кабинете министров его заменит член парламента эд дейви ожидается что член парламента норман ламб займет принадлежащий дейви пост министра по делам бизнеса",
+  "timestamp_utc": "2026-07-05T07:34:37Z",
+  "text": "Хью нашел воставку, и в кабинете министров его заменит член парламента Эд Дэйви. Ожидается, что член парламента Норман Ламб займет принадлежащий Дэйви пост министра по делам бизнеса.",
+  "latency_sec": 3.0111,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Хью нашел воставку, и в кабинете министров его заменит член парламента Эд Дэйви. Ожидается, что член парламента Норман Ламб займет принадлежащий Дэйви пост министра по делам бизнеса.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPB2R6Jm/R42imSkdl2OP5vGlGrUYDq7QQuLBjPVf3AodWdSUhoOLX1+ziafwM"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236877,
+    "id": "DAlKasfJCJnV1e8Pw6zfgAQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 50,
+      "prompt_tokens": 411,
+      "total_tokens": 461
+    }
+  }
+}

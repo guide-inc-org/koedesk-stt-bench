@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0173",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 19.08,
+  "ref_text_raw": "Hiện vẫn còn nhiều người nam và nữ còn sống đã sống sót qua thời gian bị giam cầm ở đây, và thêm nhiều người nữa có thân nhân đã bị sát hại hoặc đã bị khổ lao đến chết tại nơi này, cả người Do Thái lẫn những người không phải Do Thái.",
+  "ref_text_normalized": "hiện vẫn còn nhiều người nam và nữ còn sống đã sống sót qua thời gian bị giam cầm ở đây và thêm nhiều người nữa có thân nhân đã bị sát hại hoặc đã bị khổ lao đến chết tại nơi này cả người do thái lẫn những người không phải do thái",
+  "timestamp_utc": "2026-07-05T08:48:07Z",
+  "text": "Hiện vẫn còn nhiều người nam và nữ còn sống đã sống sót qua thời gian bị giam cầm ở đây và thêm nhiều người nữa có thân nhân đã bị sát hại hoặc đã bị khổ lao đến chết tại nơi này. Cả người Do Thái lẫn những người không phải Do Thái.",
+  "latency_sec": 2.8325,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Hiện vẫn còn nhiều người nam và nữ còn sống đã sống sót qua thời gian bị giam cầm ở đây và thêm nhiều người nữa có thân nhân đã bị sát hại hoặc đã bị khổ lao đến chết tại nơi này. Cả người Do Thái lẫn những người không phải Do Thái.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP/ow8fcYt2QU8RsnqpFsfgGuvbaizvBXyGF8GBvJvgjDxo9xePh+5BipUml1E"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241287,
+    "id": "RhpKaunmF-Czvr0P57qd6Ac",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 58,
+      "prompt_tokens": 498,
+      "total_tokens": 556
+    }
+  }
+}

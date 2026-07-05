@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0075",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 14.4,
+  "ref_text_raw": "虽然这通常只是一种不准确的刻板印象，但在巴黎生活的最佳方式仍然是尽量举止得当，表现得像一个有 “bien élevé”（教养良好）的人。这会让参加社会活动变得容易得多。",
+  "ref_text_normalized": "虽然这通常只是一种不准确的刻板印象但在巴黎生活的最佳方式仍然是尽量举止得当表现得像一个有  bien élevé”教养良好的人这会让参加社会活动变得容易得多",
+  "timestamp_utc": "2026-07-05T06:25:03Z",
+  "text": "虽然这通常只是一种不准确的刻板印象，但在巴黎生活的最佳方式仍然是举止尽量得当，表现得像一个有边有表、教养良好的人，这会让你参加社会活动变得容易很多。",
+  "latency_sec": 4.6868,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "15s",
+      "requestId": "6e41d416-0000-2527-8dc8-30fd38104d88",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "虽然这通常只是一种不准确的刻板印象，但在巴黎生活的最佳方式仍然是举止尽量得当，表现得像一个有边有表、教养良好的人，这会让你参加社会活动变得容易很多。"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

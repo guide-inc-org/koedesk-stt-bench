@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0112",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 12.24,
+  "ref_text_raw": "Le parc national des lacs de Plitvice est densément boisé, principalement de hêtres, d'épicéas et de sapins, et présente un mélange de végétation alpine et méditerranéenne.",
+  "ref_text_normalized": "le parc national des lacs de plitvice est densément boisé principalement de hêtres d'épicéas et de sapins et présente un mélange de végétation alpine et méditerranéenne",
+  "timestamp_utc": "2026-07-05T04:59:02Z",
+  "text": "Le parc national des lacs de Plitvice est densément boisé, principalement des hêtres, des picas et des sapins et présente un mélange de végétation alpine et méditerranéenne.",
+  "latency_sec": 5.0032,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Le parc national des lacs de Plitvice est densément boisé, principalement des hêtres, des picas et des sapins et présente un mélange de végétation alpine et méditerranéenne.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227542,
+    "id": "kuRJatmjKIaA0-kPotqL6Q4",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 413,
+      "total_tokens": 493
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0194",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 17.28,
+  "ref_text_raw": "Huhne ha renunciado, y Ed Davey MP lo reemplazará en el gabinete. Se espera que Norman Lamb MP asuma el puesto de ministro de negocios que Davey deja vacante.",
+  "ref_text_normalized": "huhne ha renunciado y ed davey mp lo reemplazará en el gabinete se espera que norman lamb mp asuma el puesto de ministro de negocios que davey deja vacante",
+  "timestamp_utc": "2026-07-05T04:45:23Z",
+  "text": "Hune ha renunciado y Ed Dave MP lo reemplazará en el gabinete. Se espera que Norman Lamb MP asuma el puesto de ministro de Negocios que Dave deja vacante.",
+  "latency_sec": 2.6418,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Hune ha renunciado y Ed Dave MP lo reemplazará en el gabinete. Se espera que Norman Lamb MP asuma el puesto de ministro de Negocios que Dave deja vacante.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP3mSo/RDB9zNp54qO5HjajYrOCdPrzA4fcsB3YVClGom1IbrDUZtPjwQpMBmn"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226723,
+    "id": "YuFJauSTFoCUvr0P6IWioQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 453,
+      "total_tokens": 492
+    }
+  }
+}

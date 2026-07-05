@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0029",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.66,
+  "ref_text_raw": "Les porcs sont porteurs de la maladie, qui est ensuite transmise à l'homme par les moustiques.",
+  "ref_text_normalized": "les porcs sont porteurs de la maladie qui est ensuite transmise à l'homme par les moustiques",
+  "timestamp_utc": "2026-07-05T05:03:39Z",
+  "text": "Les porcs sont porteurs de la maladie, qui est ensuite transmise à l'homme par les moustiques.",
+  "latency_sec": 3.285,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Les porcs sont porteurs de la maladie, qui est ensuite transmise à l'homme par les moustiques.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqAECp0EARFNMg+NOfa4WseJpnDk1Ahdin24cg8UAWOow0S3joCkTyLMXUXZLVvT+qaOrmGtvc/ls5SaiNlBspDEyeKbT6w3g+jUhxpm8wPnifMxFxmvrND0Mtq+0x5bNcmLS2cT/ATdTTp0sawH53dmcefKXCf1cCpVUFQu+ajdNfqDgRTq5RK5RarHAyx2JZq7T86ZSKgLHCaBO/n8nDorxNfdvzMEL6HtD/Rqsgoieip36t7N0NxCiSETn2vr16EeLMVoTAN3DsIXlxf6wnbk5OF5CUSx8HnHsY0cWgiivSDhzlVPxZQBzmpcxTR6/2/MtHOrJyRACUHAY7k0ECgG8o0qjxgpcvogchLUCTc5/Pwex1Fgqp1QXbhN0oeiGUQY3Hd38VKABpbsZ+PSQNF2WdM8CHgx6vyxyVYCnql8c6tYpvEsKAafpjaNRDArGLVqKOXzBnsJqKNGT0Sa7wJxTwYzVVD1rRcWfYX/FpbPUy0lTmZ1RwAlxNhnh5NFhEIArLAorSSZrVP7G9jrOzCLLtDIetasanOCXa8q/gKBxd2dttMojHcIeWRUHM/uUQaAK9jdLuXZj8e0PDEVkhjUmWsm/hnPzyPvwxnycj9l+qiwdbXBL+m2wyiiunrJq0F57dkGbecAu6R5CaltgST1Lo3QQLQNFMy+GiB8Ss6UwyKorx16akL6P9RmybS8m09OTR2CJwyR24UTgxf+uFdWiQ=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227819,
+    "id": "qeVJasHqIfeZ0-kPrbzayQU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 188,
+      "total_tokens": 333
+    }
+  }
+}

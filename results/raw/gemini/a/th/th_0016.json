@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0016",
+  "lang": "th",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.88,
+  "ref_text_raw": "ในทศวรรษที่ 1920 พลเมืองและประเทศส่วนใหญ่ต้องการความสงบและการเป็นเอกเทศ",
+  "ref_text_normalized": "ในทศวรรษที่ 1920 พลเมืองและประเทศส่วนใหญ่ต้องการความสงบและการเป็นเอกเทศ",
+  "timestamp_utc": "2026-07-05T07:35:24Z",
+  "text": "ใน ทศวรรษ ที่ 1920 พลเมือง และ ประเทศ ส่วน ใหญ่ ต้องการ ความ สงบ และ การ เป็น เอกเทศ",
+  "latency_sec": 3.8975,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ใน ทศวรรษ ที่ 1920 พลเมือง และ ประเทศ ส่วน ใหญ่ ต้องการ ความ สงบ และ การ เป็น เอกเทศ",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236924,
+    "id": "OQlKasWPKL3MrfcPx6WgiQQ",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 306,
+      "total_tokens": 361
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0023",
+  "lang": "zh",
+  "engine": "gemini_25_pro",
+  "duration_sec": 8.46,
+  "ref_text_raw": "pH 值以被测化学品中的氢（pH 中的 H）离子数量表示。",
+  "ref_text_normalized": "ph 值 以 被 测 化 学 品 中 的 氢 ph 中 的 h 离 子 数 量 表 示",
+  "timestamp_utc": "2026-07-05T08:52:05Z",
+  "text": "pH值被测化学品中的氢，pH中的H离子数量表示。",
+  "latency_sec": 5.0877,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "pH值被测化学品中的氢，pH中的H离子数量表示。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241525,
+    "id": "MRtKas_xK43IrfcPmu3D-AU",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 292,
+      "total_tokens": 554
+    }
+  }
+}

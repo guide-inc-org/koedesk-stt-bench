@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0158",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.68,
+  "ref_text_raw": "Traffic Flow is the study of the movement of individual drivers and vehicles between two points and the interactions they make with one another.",
+  "ref_text_normalized": "traffic flow is the study of the movement of individual drivers and vehicles between two points and the interactions they make with one another",
+  "timestamp_utc": "2026-07-05T03:36:37Z",
+  "text": "Traffic flow is the study of the movement of individual drivers and vehicles between two points and the interactions they make with one another.",
+  "latency_sec": 3.3871,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Traffic flow is the study of the movement of individual drivers and vehicles between two points and the interactions they make with one another.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EuIFCt8FARFNMg9GRf6x7IfYQhmy9HiepAHVxo+pf79+E673YagmlD5vUue/jq28m8MU44x4OfOtxH7ojaxzAF+N6xXAZX2mwgkXpgWa3J6PxKEdnrb8xAR699ly5vFla3Zrb47POn6koIatoL50NPhfB0GmulO5eaMr39y2eJX/7REkeuz7hhD7BDsnSlXoGrthZr6GE//sdhz3Dmj9fA1yuDzPnjtbvIiCZIzELPErnUQc9cJj7EVNqZJnOCGHrEe+rmJepcF+S91RLqnnnzpyD/7CaCjd7eYhfOVkRCk1Ja9TczBe5kOtbAp0FgsanYCLIoB5+emwqLb1MrqaMeVoIFGEuMDlnXoanR4R2WHVf0S5IUxI3BbzIb4BR6aEkJWpQTBkie2vfmlm/6Olr2PibbZVP8CqbecPDTUkqRIObf6zRy8x1FGBvR9YA33nVsMNH+YHrCuL8Vjv5ZPqAztULbb864xmfSdyzjg4/tfHTHdFwE5H8L9nVkepWBqPTPQcjqA8ZYkPbUviydUM5yhVygikXyhq/uI6TPGs1gGCdFeMP6iZpwaGvswnUSiA+gd6BVJfVB9tkvmRBkazzLFmNHz0phMw58mXTM7n8Y56t+9ag20WjPA5rgvw2hZZrCgSygFEz8maLbE6dmVuAgtDq0ltaiySJ7g5bq8IPv5wLQFBIDECDbLBUICxb21RQO99GPGBZt9zJInCqY/ZLKVr1UGJyWaKfTcNcNoUgNM8xMUag3EZKkiDpv2NIPdLEVV/WvHC3b3O6EjgmZ+PhEBI3AE5+btHjroOVtrLYelNA3SDp3IUlwltKgRcEdhI4AyzqhZxE4tQm/mWV9YVwpI/938wyWdYwxV61bMbszdWXCKqml1pGDIhD2Su+8pC9jd88Xfxu5ycAMwZQEZ3K/OpFkclKDX3tyKkEzKdSOhGlUvVoNTa925zdXTvPvvvJZKaZV8K3q1z4Ubaj5gNjJ6yJgpQ"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222597,
+    "id": "Q9FJar_0C5W4vr0PkIGBmQU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 213,
+      "total_tokens": 382
+    }
+  }
+}

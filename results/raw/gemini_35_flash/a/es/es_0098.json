@@ -1,0 +1,45 @@
+{
+  "utt_id": "es_0098",
+  "lang": "es",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.52,
+  "ref_text_raw": "A dos años del final de la guerra, los que eran aliados ahora eran enemigos y la Guerra Fría comenzó.",
+  "ref_text_normalized": "a dos años del final de la guerra los que eran aliados ahora eran enemigos y la guerra fría comenzó",
+  "timestamp_utc": "2026-07-05T04:36:55Z",
+  "text": "A dos años del final de la guerra, los que eran aliados ahora eran enemigos y la guerra fría comenzó.",
+  "latency_sec": 3.1302,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "A dos años del final de la guerra, los que eran aliados ahora eran enemigos y la guerra fría comenzó.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Eo8ECowEARFNMg/7+V6bBNJL5zKKA2oyn9MxNcmd/KdZ1DHeFrWrJRctQcsDmu9WsRFd4lBVKXX4yQJE93gS3hbg3Y+dxqvt6xj1Uaa/hfj+JiKrVcdtAQkkDIBe0SkjKemUPRxwYluulF8TgZ13meV7t2Faxofhy06IiKMnZF/VmYDRKrSTsxVe2ma4yJvmVAVCLctNg3QM1zy6zii8bzyfF3snzCmMcTsNYmTEN5dJKwMjNatT/Pf7MXBZYOZBmi4bBSWQwEDPdsrNhmd33kzJMPoyy5fqEdopKbvoSyVyxbJrWFlrdTT2i98Xh47WCXNsJKuVwbePUkTyuZ/A6bjBvduRf4Z8gWUAbtcgKtB7ybN7LXCYu5SxI7SXopdXt8kSrptHeK8o4QNFLaNr6K0wGwnEhec5D4OQ7okLdWcWfbTcCbAQheNFIji8Sl7M5Ca0/2j6z8B2C7qFomDZIvT6FFdlVz55EmlC8h4EPmNR6ArnLE1phFWDC5bqcuV9YQF+wyNg0eG3/ORTox8U0+3OTaWFStasyngLLJTWOiiVbjw3nZ7/87DG4pzPuzPfDHZf4/tuFiD+eW73fV063fYEDDq9gWH3uk3hw8fiWj8c4vAla275oTisnDIAcZzTtlXGIVOtTVTRQ86wPYrjJ54nizepj/mTWZWo8Y0HZLsxf0Tt4q5J/Rqwy0AyHVUAemU="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226215,
+    "id": "Zd9Jate6EuCzvr0P57qd6Ac",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 234,
+      "total_tokens": 359
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0043",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.32,
+  "ref_text_raw": "Travellers are strongly advised to be aware of any risk of severe weather affecting their area as they may affect any travel plans.",
+  "ref_text_normalized": "travellers are strongly advised to be aware of any risk of severe weather affecting their area as they may affect any travel plans",
+  "timestamp_utc": "2026-07-05T10:22:17Z",
+  "text": "Travelers are strongly advised to be aware of any risk of severe weather affecting their area as they may affect any travel plans.",
+  "latency_sec": 3.3598,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Travelers are strongly advised to be aware of any risk of severe weather affecting their area as they may affect any travel plans.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246937,
+    "id": "VzBKasisF6nDvr0PmKevgQ8",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 256,
+      "total_tokens": 281
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "vi_0108",
+  "lang": "vi",
+  "engine": "gemini_25_flash",
+  "duration_sec": 6.24,
+  "ref_text_raw": "Sô-cô-la nóng tùy vào tiêu chuẩn Bỉ. Nước ép trái cây đắt tiền nhưng tuyệt vời.",
+  "ref_text_normalized": "sô-cô-la nóng tùy vào tiêu chuẩn bỉ nước ép trái cây đắt tiền nhưng tuyệt vời",
+  "timestamp_utc": "2026-07-05T08:20:22Z",
+  "text": "Socola nóng tùy vào tiêu chuẩn bảy. Nước ép trái cây đắt tiền nhưng tuyệt vời.",
+  "latency_sec": 3.5176,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Socola nóng tùy vào tiêu chuẩn bảy. Nước ép trái cây đắt tiền nhưng tuyệt vời.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239622,
+    "id": "xBNKarHiF9mK0-kP0MrjsQM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 221,
+      "total_tokens": 303
+    }
+  }
+}

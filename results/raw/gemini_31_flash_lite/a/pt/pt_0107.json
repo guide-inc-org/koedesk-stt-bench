@@ -1,0 +1,44 @@
+{
+  "utt_id": "pt_0107",
+  "lang": "pt",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.84,
+  "ref_text_raw": "O choque de reentrada ocorre antes do que o choque cultural (ocorre menos tempo de lua de mel), dura mais tempo e pode ser mais grave.",
+  "ref_text_normalized": "o choque de reentrada ocorre antes do que o choque cultural ocorre menos tempo de lua de mel dura mais tempo e pode ser mais grave",
+  "timestamp_utc": "2026-07-05T07:00:27Z",
+  "text": "O choque de reentrada ocorre antes do que o choque cultural, ocorre menos tempo de lua de mel, dura mais tempo e pode ser mais grave.",
+  "latency_sec": 2.9678,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "O choque de reentrada ocorre antes do que o choque cultural, ocorre menos tempo de lua de mel, dura mais tempo e pode ser mais grave.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPT6Bw/kjzXjdlDwWPuCP9SErNgLQHTVNXR/rsdo+Sp9yshfWXFNrnBdvds1hR"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234827,
+    "id": "CQFKaqaGFcqfvr0Plb-amQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 342,
+      "total_tokens": 372
+    }
+  }
+}

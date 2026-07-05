@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0026",
+  "lang": "ko",
+  "engine": "gemini_25_flash",
+  "duration_sec": 24.06,
+  "ref_text_raw": "연예 뉴스 웹사이트인 TMZ는 사진사가 세풀베다 대로 맞은편에 차를 세워 두고, 길을 건너기 전에 계속해서 경찰서 사진을 찍으려 시도하였으며, 이에 교통정리를 하던 캘리포니아 고속도로 경찰이 두 번이나 물러나도록 명령했던 것에 대해 시인하였습니다.",
+  "ref_text_normalized": "연예 뉴스 웹사이트인 tmz는 사진사가 세풀베다 대로 맞은편에 차를 세워 두고 길을 건너기 전에 계속해서 경찰서 사진을 찍으려 시도하였으며 이에 교통정리를 하던 캘리포니아 고속도로 경찰이 두 번이나 물러나도록 명령했던 것에 대해 시인하였습니다",
+  "timestamp_utc": "2026-07-05T05:54:30Z",
+  "text": "연예 뉴스 웹사이트인 TMG는 사진사가 새풀 배다대로 맞은편에 차를 세워두고 길을 건너기 전에 계속해서 경찰서 사진을 찍으려 시도하였으며 이에 교통 정리를 하던 캘리포니아 고속도로 경찰이 두 번이나 물러나도록 명령했던 것에 대해 시인하였습니다.",
+  "latency_sec": 3.9992,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "연예 뉴스 웹사이트인 TMG는 사진사가 새풀 배다대로 맞은편에 차를 세워두고 길을 건너기 전에 계속해서 경찰서 사진을 찍으려 시도하였으며 이에 교통 정리를 하던 캘리포니아 고속도로 경찰이 두 번이나 물러나도록 명령했던 것에 대해 시인하였습니다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230870,
+    "id": "k_FJaqPSPICUvr0P6IWioQU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 76,
+      "prompt_tokens": 791,
+      "total_tokens": 895
+    }
+  }
+}

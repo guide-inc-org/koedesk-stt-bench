@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0021",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.76,
+  "ref_text_raw": "这被称为化学物质的 pH 值。你可以使用红甘蓝汁制作指示剂。",
+  "ref_text_normalized": "这 被 称 为 化 学 物 质 的 ph 值 你 可 以 使 用 红 甘 蓝 汁 制 作 指 示 剂",
+  "timestamp_utc": "2026-07-05T09:12:02Z",
+  "text": "这被称为化学物质的pH值，你可以用红甘蓝汁制作指示剂。",
+  "latency_sec": 2.6048,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "这被称为化学物质的pH值，你可以用红甘蓝汁制作指示剂。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP2AalIpHH71b9CxbBRbts2esWMCWaSAErJMiYyGwPQkFe/ohuZ0dYd7JV/vTO"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242722,
+    "id": "4B9KapzyMP_O1e8P-_GSuQg",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 240,
+      "total_tokens": 258
+    }
+  }
+}

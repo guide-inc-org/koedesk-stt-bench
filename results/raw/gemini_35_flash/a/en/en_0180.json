@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0180",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.62,
+  "ref_text_raw": "The photographers later took the place of an aged lady as she needed the lavatory. Mendoza was gunned down.",
+  "ref_text_normalized": "the photographers later took the place of an aged lady as she needed the lavatory mendoza was gunned down",
+  "timestamp_utc": "2026-07-05T03:38:24Z",
+  "text": "The photographer's lawyer took the place of an aged lady as she needed the lavatory. Mendoza was gunned down.",
+  "latency_sec": 3.7222,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The photographer's lawyer took the place of an aged lady as she needed the lavatory. Mendoza was gunned down.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EvMFCvAFARFNMg8NQIzdK1LyPotgChK2QDjzxYiEf95wDxeuh1yznvQ2baeLfYkNF9Zrwwjh2KeqeCE7aLFTcDp0ohdSpoOSmvg9nFjJs9MYpY2bqehjqQG4RWejVhJVsoS+kEUoPNdOlKUEHzNnb3AqThJ+L2/cL8lX1xzGGA2tOdb++L4K3OIPjJIL1fn6rX9bxf6XakAfGRKXFVYYUpRpogHK6CgimtR5V9YJa9V91SEg0ben8ZU9BBrmSGwcy+gOqIvBvIhLTlpCiUkdPU50z9xNce55iKH2Z6zhfXt5Z5aKFX8pPjnbAH1mN9m2qcKg2k9WwU5q7EItRtXjq8DJpj3khmVigtvILiRla3TKKemR7cwq1S2PqZ1zWSjGTJIrO4H7w5V+3AzthEk43of3rRAEyr7lG7J6ahBzA0bKZno+8v3ybBKCjWj6Z/SPNJv47Rps4FUJYddmA+F68eneiD2NXY6PKDrxozNY6en5KjCvKHxPTfykQlIBSMZMa4inm+WezfokgYKOawS5g1OvTMSf240V17jXWRBr7SvhjKcLo7UBr47NI7iitL6+FVn/tMK+fTMcex4UfVh8wgxDIx1WRNV8aRQVVJspOCN24WDL84S7+zyTugIsajRjscgKEXvkvOnEzEU0u4JQZ9uvY6Q8llL6ECMYzPeVtM12ACSe8lKeC5tYcXjMkyORY9kMN7yqEHmu5wrp/jmX+9lw1dnrOvzJi9LuGalST+7BhyofRSNZv5NNTXswLfMSPJz0nLx8Xf6W9N8I6RYzIFkpuqIwt/cFova2OMTz7Y2e4czdzSltvZ3iRtouZXCYdyNweYJ/2P4opX/hlpvSKt0CptCB376THXplTdLInXz7x6trQOZI4E5vJ9TjP5dkocxWoF1ejoHUTk0ftVRKvc9CMFZT05a1rr8FHH5QuoTfJNqIRn7/pIKsQHPSlUxKg8gN3F22JquldROh/QY4g3rmZE2BmmPRkYBtvMc50RkZfNwRpN0="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222704,
+    "id": "rdFJaqTBOrvLrfcPnvyU2AE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 237,
+      "total_tokens": 448
+    }
+  }
+}

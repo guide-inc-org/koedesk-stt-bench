@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0180",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 18.12,
+  "ref_text_raw": "Europa ist ein relativ kleiner Kontinent, hat aber zahlreiche unabhängige Länder. Normalerweise müsste man mehrfach Visa beantragen und mehrere Passkontrollen durchlaufen, wenn man durch mehrere Länder reisen möchte.",
+  "ref_text_normalized": "europa ist ein relativ kleiner kontinent hat aber zahlreiche unabhängige länder normalerweise müsste man mehrfach visa beantragen und mehrere passkontrollen durchlaufen wenn man durch mehrere länder reisen möchte",
+  "timestamp_utc": "2026-07-05T04:11:06Z",
+  "text": "Europa ist ein relativ kleiner Kontinent, hat aber zahlreiche unabhängige Länder. Normalerweise müsste man mehrfach Visa beantragen und mehrere Passkontrollen durchlaufen, wenn man durch mehrere Länder reisen möchte.",
+  "latency_sec": 3.9642,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Europa ist ein relativ kleiner Kontinent, hat aber zahlreiche unabhängige Länder. Normalerweise müsste man mehrfach Visa beantragen und mehrere Passkontrollen durchlaufen, wenn man durch mehrere Länder reisen möchte.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Et8FCtwFARFNMg/gTCQKx8Aie8dx3qZGuY+W15JcAckZEs0Db43zDNtFm5E73+25OLjlTv/c7Vgei0qZ17RhqCjhEYSeBNC01Q3pQd4gIXaqJxdDBCPoAWPnZkVc/6iN5X9zbeMVJ1AhV0aEk2e2l7BvJL3MIdzIsPFcdteJuxolcQRJe/JPvy8774Hwzimw48eQiKDEeUXDHw/LZQI+Y+6n9tbHuoUGlP9DUbY6kK1WysO6FWU5vKaG0vn6y15udIMmtYPjqtTmYrwgAUhBDVM/XjGmqr2uNN2Tdtwv8n+KbWfaU3zXxCoW1pnN0pdAhYNS62+15Dk0Zfd/HOGV+V57PpcNSSrMRhZnma53XFL8QwdhTD5mdXqM7KoheXQvJVhBjbcVGJz3MLw96EDW1eYqTKhJ37bf49S7DVRzom7NH/+/mRmIl2JLrawrMi+ggireHVpgFuz+iKTqs2JMoQ2wTaaXdeWGjX9FKxBs0+3MlBalUyxGMTHIm9gRfrV+7B6uEML9GdEF0OhpiJl9+KqS0Zbr0ZHm7IOdtNWWR57UrLJ1LM73xXAeXJUjmI79OmSZDjmQjnFJ/M7f0iVWiXjZWzm3R9TjC3VaozIEk2mQN4WsZHHZv9axrfJQb4j0UfFCFIsBvI52QeaQdj3OgHA9CxgC/S1j+xnVUoHND5VlrO+Ib3jJb6Z9032I/GLhl5GtrMRnHGG8492gWg5UKDDMutKXQAvP1PFxycWPOjSdhyaDASGvTpKetaaG7xdhfRS0jEGqiL0QNFx2nsZQPo0R3GScuWC0P8dHFSs9UqbQoIfvbtqSwVSLJyp3QtL0NJOkyyoi1lXW3PzUw/wYnKB8oM4FOwEwr+Oe8rbz/efCCqBLvUubmcLAIgQIgv1AEMgd6kllI9INIhhU/hmVfJhFwOOQDbKf5GC+detvIV9ydJ2cFBx0C3iKUQYhnDn7CDJBAaiUbXob7ZIvZw1dXp0t"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224666,
+    "id": "WNlJatTMDcP_2roPvqa06AU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 42,
+      "prompt_tokens": 474,
+      "total_tokens": 673
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0144",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 6.78,
+  "ref_text_raw": "By 1976, thirty percent of Machu Picchu had been restored and restoration continues till today.",
+  "ref_text_normalized": "by 1976 thirty percent of machu picchu had been restored and restoration continues till today",
+  "timestamp_utc": "2026-07-05T03:27:54Z",
+  "text": "By 1976, 30% of Machu Picchu has been restored and restoration continues till today.",
+  "latency_sec": 5.7167,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "By 1976, 30% of Machu Picchu has been restored and restoration continues till today.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222074,
+    "id": "Ns9JasTKCp2hvr0P78yT2Q8",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 238,
+      "total_tokens": 463
+    }
+  }
+}

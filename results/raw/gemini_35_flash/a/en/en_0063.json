@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0063",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.42,
+  "ref_text_raw": "Cuomo, 53, began his governorship earlier this year and signed a bill last month legalizing same-sex marriage.",
+  "ref_text_normalized": "cuomo 53 began his governorship earlier this year and signed a bill last month legalizing same-sex marriage",
+  "timestamp_utc": "2026-07-05T10:31:28Z",
+  "text": "Cuomo, 53, began his governorship earlier this year and signed a bill last month legalizing same-sex marriage.",
+  "latency_sec": 3.4548,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Cuomo, 53, began his governorship earlier this year and signed a bill last month legalizing same-sex marriage.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "ErwDCrkDARFNMg9pO4viWe/dtOKVtqVZwH5QDm5aO3lN1TyvyIM/TCIcby/Tf+aBxNt2rhmzbPaAjT7wdkym/aK59DmhwYD7U9frOpBYI7IvTOcJVRk0dUsrs1wRBbKkndVOJ9CBWJKFNYd6Qd1rIbgRqxElapLltNbJtsaD9zPDkX7txNxs9nZJfUTYXMGJDkk6rP4BbwyDrZKslKyyX8pG3anPBN0r4jAhBEnh7Y59AdvYIGWdHpVd2p9v3Fktno3yIY5DjLTU7JZ7hb8UWLFM2VAPt+nb9IX5NNLU5cD3mFvLlBbLfq617AbiroOgI66RePljXzHA55W87LaQUL/E4BrzOO01aSL3yra5PWLfyy3dJShXIypw8FHRCOfhbjr8NfzgULmoOxCz/J36Zw9m2paWk5Rck82hxuRkCSHiVPH6kc1ESZrvinqaiPpvMGDM8LCh7iWpidwf4F23kEs4TyeQAgD8myr6sEvZLuA438jm0Ebd5XPhAQQ4VDeuE2TsVV7BlN4ij3YpVipSWqeIwfeh/NlNVVQK4Q3yIG0mIui52SlP75ZBFN4bXrWMOQqosJ4WmvIGxaypZqtl"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247488,
+    "id": "fTJKauucNun62roPgJLP-QI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 257,
+      "total_tokens": 369
+    }
+  }
+}

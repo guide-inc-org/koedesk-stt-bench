@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0009",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 13.2,
+  "ref_text_raw": "Oliver Sacks ระบุในงานวิจัยของเขาที่ชื่อว่า ว่าด้วยสุนทรพจน์ของประธานาธิบดี ว่าผู้ที่ไม่สามารถเข้าใจคำพูดเนื่องจากสมองกระทบกระเทือนจะสามารถประเมินความจริงใจได้อย่างไร",
+  "ref_text_normalized": "oliver sacks ระบุในงานวิจัยของเขาที่ชื่อว่า ว่าด้วยสุนทรพจน์ของประธานาธิบดี ว่าผู้ที่ไม่สามารถเข้าใจคำพูดเนื่องจากสมองกระทบกระเทือนจะสามารถประเมินความจริงใจได้อย่างไร",
+  "timestamp_utc": "2026-07-05T07:51:42Z",
+  "text": "โอลิเวอร์ แซกส์ ระบุในงานวิจัยของเขาที่ชื่อว่า ว่าด้วยสุนทรพจน์ของประธานาธิบดีว่า ผู้ที่ไม่สามารถเข้าใจคำพูดเนื่องจากสมองกระทบกระเทือนจะสามารถประเมินความจริงใจได้อย่างไร",
+  "latency_sec": 3.8276,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "โอลิเวอร์ แซกส์ ระบุในงานวิจัยของเขาที่ชื่อว่า ว่าด้วยสุนทรพจน์ของประธานาธิบดีว่า ผู้ที่ไม่สามารถเข้าใจคำพูดเนื่องจากสมองกระทบกระเทือนจะสามารถประเมินความจริงใจได้อย่างไร",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237902,
+    "id": "Cw1KasSyO6ne1e8P6I_tqAg",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 59,
+      "prompt_tokens": 351,
+      "total_tokens": 677
+    }
+  }
+}

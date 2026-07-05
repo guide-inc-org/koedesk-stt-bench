@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0080",
+  "lang": "ko",
+  "engine": "gemini_25_pro",
+  "duration_sec": 13.5,
+  "ref_text_raw": "티벳 명상의 중심에는 신성 요가(Deity Yoga)가 있다. 다양한 신을 시각화해 에너지 채널을 청소하고, 차크라를 활성화하며, 계몽 의식을 창조한다.",
+  "ref_text_normalized": "티벳 명상의 중심에는 신성 요가deity yoga가 있다. 다양한 신을 시각화해 에너지 채널을 청소하고 차크라를 활성화하며 계몽 의식을 창조한다",
+  "timestamp_utc": "2026-07-05T06:05:53Z",
+  "text": "티벳 명상의 중심에는 신성 요가가 있다. 다양한 신을 시각화해 에너지 채널을 청소하고 차크라를 활성하며 개몽 의식을 창조한다.",
+  "latency_sec": 4.1736,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "티벳 명상의 중심에는 신성 요가가 있다. 다양한 신을 시각화해 에너지 채널을 청소하고 차크라를 활성하며 개몽 의식을 창조한다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231553,
+    "id": "PvRJaueKNNG3vr0PstvC2AM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 453,
+      "total_tokens": 527
+    }
+  }
+}

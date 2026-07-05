@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0033",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 16.26,
+  "ref_text_raw": "Las proteínas presentes en las hojas y las legumbres hubiesen constituido la fuente de recursos vegetales de más sencillo acceso, pero no son fácilmente digeribles para primates como nosotros, excepto que se las cocine.",
+  "ref_text_normalized": "las proteínas presentes en las hojas y las legumbres hubiesen constituido la fuente de recursos vegetales de más sencillo acceso pero no son fácilmente digeribles para primates como nosotros excepto que se las cocine",
+  "timestamp_utc": "2026-07-05T04:35:40Z",
+  "text": "Las proteínas presentes en las hojas y las legumbres hubiesen constituido la fuente de recursos vegetales de más sencillo acceso, pero no son fácilmente digeribles para primatales como nosotros, excepto que se las cocine.",
+  "latency_sec": 2.8915,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Las proteínas presentes en las hojas y las legumbres hubiesen constituido la fuente de recursos vegetales de más sencillo acceso, pero no son fácilmente digeribles para primatales como nosotros, excepto que se las cocine.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPEFpEyR8nZos89l0+tlYJOj82rx8+lv1dLiAhb3dDJzIzTQIg46igxeMQOx65"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226140,
+    "id": "G99JatzrBfPG2roPs9KcqAM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 428,
+      "total_tokens": 473
+    }
+  }
+}

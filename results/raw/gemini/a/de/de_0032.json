@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0032",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 14.04,
+  "ref_text_raw": "Es leben noch viele Männer und Frauen, die ihre Zeit hier überlebt haben, und viele weitere mit Angehörigen, die dort ermordet wurden oder sich zu Tode arbeiteten, Juden und Nichtjuden gleichermaßen.",
+  "ref_text_normalized": "es leben noch viele männer und frauen die ihre zeit hier überlebt haben und viele weitere mit angehörigen die dort ermordet wurden oder sich zu tode arbeiteten juden und nichtjuden gleichermaßen",
+  "timestamp_utc": "2026-07-05T03:42:22Z",
+  "text": "Es leben noch viele Männer und Frauen, die ihre Zeit hier überlebt haben, und viele weitere mit Angehörigen, die dort ermordet wurden, oder sich zu Tode arbeiteten. Juden und nichtjuden gleichermaßen.",
+  "latency_sec": 4.2655,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Es leben noch viele Männer und Frauen, die ihre Zeit hier überlebt haben, und viele weitere mit Angehörigen, die dort ermordet wurden, oder sich zu Tode arbeiteten. Juden und nichtjuden gleichermaßen.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222942,
+    "id": "m9JJaqvjFOKf2roP6tmdgAM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 48,
+      "prompt_tokens": 471,
+      "total_tokens": 548
+    }
+  }
+}

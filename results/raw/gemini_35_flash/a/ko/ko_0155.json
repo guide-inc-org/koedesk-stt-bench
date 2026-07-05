@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0155",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.96,
+  "ref_text_raw": "누가 기록한 것인지는 아무도 모르지만, 이 큰 양피지 문서(75.6 cm x 62.2 cm)는 초기에 말려 보관되었습니다.",
+  "ref_text_normalized": "누가 기록한 것인지는 아무도 모르지만 이 큰 양피지 문서75.6 cm x 62.2 cm는 초기에 말려 보관되었습니다",
+  "timestamp_utc": "2026-07-05T06:23:19Z",
+  "text": "누가 기록한 것인지는 아무도 모르지만 이 큰 양피지 문서는 초기에 말려 보관되었습니다.",
+  "latency_sec": 5.1617,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "누가 기록한 것인지는 아무도 모르지만 이 큰 양피지 문서는 초기에 말려 보관되었습니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232599,
+    "id": "U_hJaovCMvHZ1e8Pi4G_8QM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 195,
+      "total_tokens": 747
+    }
+  }
+}

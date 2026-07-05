@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0154",
+  "lang": "ru",
+  "engine": "gemini_25_pro",
+  "duration_sec": 12.36,
+  "ref_text_raw": "Бухта была местом печально известного военно-морского противостояния в 1889 году, когда семь кораблей из Германии, США и Британии отказались покидать бухту.",
+  "ref_text_normalized": "бухта была местом печально известного военно-морского противостояния в 1889 году когда семь кораблей из германии сша и британии отказались покидать бухту",
+  "timestamp_utc": "2026-07-05T07:22:09Z",
+  "text": "Бухта была местом печально известного военно-морского противостояния в 1889 году, когда семь кораблей из Германии, США и Британии отказались покидать бухту.",
+  "latency_sec": 5.7445,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Бухта была местом печально известного военно-морского противостояния в 1889 году, когда семь кораблей из Германии, США и Британии отказались покидать бухту.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236129,
+    "id": "HQZKaoSYJ4rW1e8Py5HYyAE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 417,
+      "total_tokens": 678
+    }
+  }
+}

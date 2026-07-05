@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0049",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 4.44,
+  "ref_text_raw": "Les Parisiens ont la réputation d'être égocentriques, grossiers et arrogants.",
+  "ref_text_normalized": "les parisiens ont la réputation d'être égocentriques grossiers et arrogants",
+  "timestamp_utc": "2026-07-05T04:48:58Z",
+  "text": "Les parisiens ont la réputation d'être égocentrique, grossier et arrogant.",
+  "latency_sec": 3.0753,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Les parisiens ont la réputation d'être égocentrique, grossier et arrogant.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226938,
+    "id": "OOJJarnkL8Ts1e8Pu-GUwQI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 164,
+      "total_tokens": 210
+    }
+  }
+}

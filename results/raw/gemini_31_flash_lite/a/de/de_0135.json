@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0135",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 19.74,
+  "ref_text_raw": "Angel (2006) erläutert das Kontinuum-Konzept als eine Methode, um Organisationen zu helfen, leistungsfähiger zu werden.",
+  "ref_text_normalized": "angel 2006 erläutert das kontinuum-konzept als eine methode um organisationen zu helfen leistungsfähiger zu werden",
+  "timestamp_utc": "2026-07-05T04:07:57Z",
+  "text": "Angel 2006 erläutert das Kontinuum-Konzept als eine Methode, um Organisationen zu helfen, leistungsfähiger zu werden.",
+  "latency_sec": 2.8639,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Angel 2006 erläutert das Kontinuum-Konzept als eine Methode, um Organisationen zu helfen, leistungsfähiger zu werden.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPfHK7MWvhAi09K3cmzCcVOxdoAcRaDKdDRG46Gxj2gR5yU0NkYuSg0OJUnzDa"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224477,
+    "id": "m9hJaq-pKsTs1e8Pu-GUwQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 515,
+      "total_tokens": 547
+    }
+  }
+}

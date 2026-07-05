@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0104",
+  "lang": "th",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.22,
+  "ref_text_raw": "ค่า pH จะถูกระบุด้วยปริมาณไอออนที่อยู่ในไฮโดรเจน (H ที่อยู่ใน pH) ในสารเคมีที่ได้รับการทดสอบ",
+  "ref_text_normalized": "ค่า ph จะถูกระบุด้วยปริมาณไอออนที่อยู่ในไฮโดรเจน h ที่อยู่ใน ph ในสารเคมีที่ได้รับการทดสอบ",
+  "timestamp_utc": "2026-07-05T07:42:51Z",
+  "text": "ค่า pH จะ ถูก ระบุ ด้วย ปริมาณ ไอออน ที่ อยู่ ใน ไฮโดรเจน H ที่ อยู่ ใน pH ใน สาร เคมี ที่ ได้ รับ การ ทด สอบ",
+  "latency_sec": 4.2081,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ค่า pH จะ ถูก ระบุ ด้วย ปริมาณ ไอออน ที่ อยู่ ใน ไฮโดรเจน H ที่ อยู่ ใน pH ใน สาร เคมี ที่ ได้ รับ การ ทด สอบ",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237371,
+    "id": "-ApKaovwPJja1e8P6IqesQI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 381,
+      "total_tokens": 535
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0054",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.9,
+  "ref_text_raw": "1963 年大坝建成后，季节性洪水被控制住了，沉积物不再冲散到河流里。",
+  "ref_text_normalized": "1963 年 大 坝 建 成 后 季 节 性 洪 水 被 控 制 住 了 沉 积 物 不 再 冲 散 到 河 流 里",
+  "timestamp_utc": "2026-07-05T09:13:54Z",
+  "text": "1963年大坝建成后，季节性洪水被控制住了，沉积物不再冲散到河流里。",
+  "latency_sec": 2.8224,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "1963年大坝建成后，季节性洪水被控制住了，沉积物不再冲散到河流里。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP6CjywtLSoclhVy5DUj0Pbj/qTsnpDjrDndgIlyTUh7cpoIvSuU7CZfZD6mCm"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242834,
+    "id": "UCBKasGXMLCr0-kPhJ6suQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 369,
+      "total_tokens": 395
+    }
+  }
+}

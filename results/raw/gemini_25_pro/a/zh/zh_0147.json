@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0147",
+  "lang": "zh",
+  "engine": "gemini_25_pro",
+  "duration_sec": 17.16,
+  "ref_text_raw": "美国体操协会对美国奥委会的信函表示支持，并接受奥运会大家庭的严格要求，即为所有运动员营造一个安全的训练环境。",
+  "ref_text_normalized": "美 国 体 操 协 会 对 美 国 奥 委 会 的 信 函 表 示 支 持 并 接 受 奥 运 会 大 家 庭 的 严 格 要 求 即 为 所 有 运 动 员 营 造 一 个 安 全 的 训 练 环 境",
+  "timestamp_utc": "2026-07-05T09:04:51Z",
+  "text": "美國體操協會對美國奧委會的信函表示支持,並接受奧運會大家庭的嚴格要求。 即為所有運動員營造一個安全的訓練環境。",
+  "latency_sec": 5.0129,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "美國體操協會對美國奧委會的信函表示支持,並接受奧運會大家庭的嚴格要求。 即為所有運動員營造一個安全的訓練環境。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242291,
+    "id": "MB5Kau_GKfPG2roPs9KcqAM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 571,
+      "total_tokens": 610
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0159",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.54,
+  "ref_text_raw": "革命後は職業も公募制になって男性全員に応募資格があり、最も意欲があって勝ち抜いた者が職に就けるようになりました。",
+  "ref_text_normalized": "革命後は職業も公募制になって男性全員に応募資格があり 最も意欲があって勝ち抜いた者が職に就けるようになりました",
+  "timestamp_utc": "2026-07-05T03:11:42Z",
+  "text": "革命後は職業も公募制になって男性全員に応募資格があり、最も意欲があって勝ち抜いたものが職につけるようになりました。",
+  "latency_sec": 4.5559,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "革命後は職業も公募制になって男性全員に応募資格があり、最も意欲があって勝ち抜いたものが職につけるようになりました。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221102,
+    "id": "a8tJasn_DI3y2roP6emiwQM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 423,
+      "total_tokens": 478
+    }
+  }
+}

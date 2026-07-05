@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0193",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.24,
+  "ref_text_raw": "또한 이탈리아어는 종교 의식에서 자주 사용하는 라틴어와 달리, 그 주에서 일하는 대부분의 사람들이 사용하는 일상어이다.",
+  "ref_text_normalized": "또한 이탈리아어는 종교 의식에서 자주 사용하는 라틴어와 달리 그 주에서 일하는 대부분의 사람들이 사용하는 일상어이다",
+  "timestamp_utc": "2026-07-05T06:30:41Z",
+  "text": "또한 이탈리아어는 종교 의식에서 자주 사용하는 라틴어와 달리 그 주에서 일하는 대부분의 사람들이 사용하는 일상어이다.",
+  "latency_sec": 3.2189,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "또한 이탈리아어는 종교 의식에서 자주 사용하는 라틴어와 달리 그 주에서 일하는 대부분의 사람들이 사용하는 일상어이다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPtu/FrKeEME2LRXffVEdxaZ53l1XzzfJrNuUs7SaqtxI3oM6qDo9qermCzWL5"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783233041,
+    "id": "D_pJasfwMuL81e8P5-3SkQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 402,
+      "total_tokens": 434
+    }
+  }
+}

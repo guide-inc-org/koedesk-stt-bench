@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0148",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.4,
+  "ref_text_raw": "Aristote, un philosophe, a théorisé que tout est constitué d’un mélange d’un ou plusieurs des quatre éléments. Il s’agissait de la terre, de l’eau, de l’air et du feu.",
+  "ref_text_normalized": "aristote un philosophe a théorisé que tout est constitué d'un mélange d'un ou plusieurs des quatre éléments il s'agissait de la terre de l'eau de l'air et du feu",
+  "timestamp_utc": "2026-07-05T05:18:40Z",
+  "text": "Aristote, un philosophe, a théorisé que tout est constitué d'un mélange d'un ou plusieurs des quatre éléments. Il s'agissait de la Terre, de l'eau, de l'air et du feu.",
+  "latency_sec": 2.6555,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Aristote, un philosophe, a théorisé que tout est constitué d'un mélange d'un ou plusieurs des quatre éléments. Il s'agissait de la Terre, de l'eau, de l'air et du feu.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPOXnF+Ld913RRXBSdbefQkiQPQS8sXx7oq3aHL/3Xmkr3Yl3I/W40y/BS88Rz"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228720,
+    "id": "LulJaryoHLui9tMPvLHh-QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 49,
+      "prompt_tokens": 231,
+      "total_tokens": 280
+    }
+  }
+}

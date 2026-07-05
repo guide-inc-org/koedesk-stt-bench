@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0041",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.78,
+  "ref_text_raw": "Oliver Sacks, in his paper The President's Speech, indicated how people who are unable to understand speech because of brain damage are nevertheless able to assess sincerity accurately.",
+  "ref_text_normalized": "oliver sacks in his paper the president's speech indicated how people who are unable to understand speech because of brain damage are nevertheless able to assess sincerity accurately",
+  "timestamp_utc": "2026-07-05T10:29:40Z",
+  "text": "Oliver Sacks, in his paper, The President's Speech, indicated how people who are unable to understand speech because of brain damage are nevertheless able to assess sincerity accurately.",
+  "latency_sec": 3.159,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Oliver Sacks, in his paper, The President's Speech, indicated how people who are unable to understand speech because of brain damage are nevertheless able to assess sincerity accurately.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EuwCCukCARFNMg+pnTQzh5z9q9j3dwWzBXrLlLezDgSpiLMl1UpMvqeKNUzXTuMAX+N6g3qNDQ1xOtp9W9fufxv0AlIKyLkIRYvFQuOmWSht1pMCLHNkMhXbZl/ZoDBmd4+Z3m3T/Tvm7+a73Si/momsl69W06+PPrbYCl2Uepvym4jD5NxpAT/b2mBHO6RTfR5ASY07jQA6p3JSC+zxQPCG9sHEwWIgajRPQzMI12thw5PTlPxnruol3P1p1cDAIt99nTFR6ElgNq9wei/QeUNLdaSYFnc57K3A/uz+gtLPjRCFgHjfdYxmIrGhNXqVkzqNwezai8fzbA8veioBFRPMsso9kQC5uVVjiqFE4vSGWMr6DqBBSMThSzSQHbEsaKSZ+8ZezpIrtJ4GeYUlB98fZAb60N5qQAebnx0lODPP2Qjmim76JSjhlT92Dqm9KcOfJiS/BSp1Adz6CCGKKvL29AEGROXF4DNCP+sd7A=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247380,
+    "id": "EjJKatfvIMvb2roP0s2koQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 341,
+      "total_tokens": 434
+    }
+  }
+}

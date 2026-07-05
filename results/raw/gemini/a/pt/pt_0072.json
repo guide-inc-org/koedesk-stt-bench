@@ -1,0 +1,39 @@
+{
+  "utt_id": "pt_0072",
+  "lang": "pt",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.32,
+  "ref_text_raw": "Grandes áreas mais ao norte também são bastante pouco populosas e algumas são praticamente de natureza inabitada.",
+  "ref_text_normalized": "grandes áreas mais ao norte também são bastante pouco populosas e algumas são praticamente de natureza inabitada",
+  "timestamp_utc": "2026-07-05T06:32:33Z",
+  "text": "Grandes áreas mais ao norte também são bastante pouco populosas. E algumas são praticamente de natureza inabitada.",
+  "latency_sec": 4.5307,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Grandes áreas mais ao norte também são bastante pouco populosas. E algumas são praticamente de natureza inabitada.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783233153,
+    "id": "ffpJar2lL6Hc1e8P1OStiQU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 352,
+      "total_tokens": 502
+    }
+  }
+}

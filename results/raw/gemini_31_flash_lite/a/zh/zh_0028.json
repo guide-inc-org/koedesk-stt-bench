@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0028",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.72,
+  "ref_text_raw": "宇宙中的一切都由物质构成，而所有的物质都由被称为原子的微小粒子组成。",
+  "ref_text_normalized": "宇 宙 中 的 一 切 都 由 物 质 构 成 而 所 有 的 物 质 都 由 被 称 为 原 子 的 微 小 粒 子 组 成",
+  "timestamp_utc": "2026-07-05T09:12:25Z",
+  "text": "宇宙中的一切都有物质构成，而所有的物质都有被称为原子的微小颗粒组成。",
+  "latency_sec": 2.9312,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "宇宙中的一切都有物质构成，而所有的物质都有被称为原子的微小颗粒组成。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPSSoozaeEmnEGb8t84zJrJcmDVK1DGQzrxr94vlTpLxr2T56cpsxwwUOg6ZUx"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242745,
+    "id": "-B9KarvHB6ne1e8P6I_tqAg",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 265,
+      "total_tokens": 285
+    }
+  }
+}

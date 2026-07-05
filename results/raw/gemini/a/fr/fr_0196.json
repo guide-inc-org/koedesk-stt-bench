@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0196",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.9,
+  "ref_text_raw": "Le Congrès a lancé le financement de l'initiative contre la pornographie au cours de l'exercice 2005, tout en précisant que le FBI s'apprêtait à affecter dix agents à la lutte contre la pornographie adulte.",
+  "ref_text_normalized": "le congrès a lancé le financement de l'initiative contre la pornographie au cours de l'exercice 2005 tout en précisant que le fbi s'apprêtait à affecter dix agents à la lutte contre la pornographie adulte",
+  "timestamp_utc": "2026-07-05T05:00:31Z",
+  "text": "Le Congrès a lancé le financement de l'initiative contre la pornographie au cours de l'exercice 2005, tout en précisant que le FBI s'apprêtait à affecter 10 agents à la lutte contre la pornographie adulte.",
+  "latency_sec": 3.9574,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Le Congrès a lancé le financement de l'initiative contre la pornographie au cours de l'exercice 2005, tout en précisant que le FBI s'apprêtait à affecter 10 agents à la lutte contre la pornographie adulte.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227631,
+    "id": "7ORJaqSaIOel0-kPltOWuAs",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 55,
+      "prompt_tokens": 434,
+      "total_tokens": 515
+    }
+  }
+}

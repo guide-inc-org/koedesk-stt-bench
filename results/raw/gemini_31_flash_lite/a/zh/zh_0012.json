@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0012",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.36,
+  "ref_text_raw": "执政党西南非洲人民组织 (SWAPO) 也在议会选举中保持了多数席位。",
+  "ref_text_normalized": "执 政 党 西 南 非 洲 人 民 组 织 swapo 也 在 议 会 选 举 中 保 持 了 多 数 席 位",
+  "timestamp_utc": "2026-07-05T09:11:32Z",
+  "text": "执政党西南非洲人民组织也在议会选举中保住了多数席位。",
+  "latency_sec": 3.0354,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "执政党西南非洲人民组织也在议会选举中保住了多数席位。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPcKSsoPa4GIBJUk8tyDTzr9j44RGP7Fbyf0QN5pXB6p0FauaXs9qpwknGWA0t"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242692,
+    "id": "wh9KaprwKOel0-kPltOWuAs",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 180,
+      "total_tokens": 198
+    }
+  }
+}

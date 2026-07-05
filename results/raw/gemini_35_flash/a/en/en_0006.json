@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0006",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.8,
+  "ref_text_raw": "The Northern Marianas emergency management office said that there were no damages reported in the nation.",
+  "ref_text_normalized": "the northern marianas emergency management office said that there were no damages reported in the nation",
+  "timestamp_utc": "2026-07-05T10:26:57Z",
+  "text": "The Northern Marianas Emergency Management Office said that there were no damages reported in the nation.",
+  "latency_sec": 3.3915,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The Northern Marianas Emergency Management Office said that there were no damages reported in the nation.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtAGCs0GARFNMg8O8YCSc5iCZIyWRaVSjlo31i2HeM1OCIws3EeS+aAzAeRYN3YZ6GVmU02YaCJt1OMZcRUXeJbWlyvV8fN5pd9tLaiq48Z2OsQH61T1psGg0y6a5I7SpF/BjC70atWK/l3YrUbQIW4RvrOxXWDGskJWKRupAXd87hmqdLKgADJwnsOe4BdWEKtx0h9GYWM4ceWlkrePFnw4M3hwMgrozZYchIvi1ZFHxHuc1yksP1JFJWaWydX/IsRdHpBxJRXMq3yRIlyq0pZUtrvDW+IaRDyDqi5Fjmrnc+JVJOFmAqO4vHUtnq4VTyeLs6YHstqGueWFxfhgj1TkLnv8meT/KH73O9nfT8xpN90q8jE3MHbgSHohUqAt+IT2MkGBz2LoQMIzsD+T42Bk1hthbma+inpjowmcSyGedFL4VLcrEDTl5/0jeQf48xyMeyx8veWbLoJbHMsKiMX+eq6/YwIreY5qk7Sa0TXGb4i3eBDm5ppVwnMn8JGdYPjX68B8FDl7Eil0Vkb2smVq2s/kbpER7qUq+iVzMuCDu4Ybw00SqFpWJI7lYkkfluTC9HpNiNcGQM0y2r8NE9ZNBE0MvG3I+zc9QNBiJxKvv+97N8nVFHU2kApTEHuaoiT3PMBaCGDHfz5y6J1MILGGj1A2Fso/hpmzpHO+izDAmBSBXLQErGF9973iIx+oPwRz5rJkaJwhy8Af1SekKQd647uH0QMC721AMEWNKMH+z+WIqFPfX5m8hnNJk/zMCbumqtOhnjSG1PeqeululronhpBTNwN4TQaRLV9IpjjqKAO0miaxY3xD0l68m3e40TYFlJG+PTFofkyn705+C5TmYHMJpiLMUDP48bG19xIvYu7Vd5kYfFpr9Vqqou0vM1b2Q66GrUDOxU1AC37hvLhE5CHi5YclH170PuaVg5thCHPw/yiaXqLbDrpQ4TG9HHwo2uXvUREdfjeEuVNlC3jSpLt7Q1ffSRti/5JV9VZSvdYSZKadp7VI+/ILUCKTlZVFOZgmYljl0n7xLSDTSmXvsgrfnxD/OzPfJtq7q5uKjuiElmJcgtDuDbB+DQtmVTAtjd8hCMRyqs4yXT6pCXCBz/h0udX3UZqy6YV/ti3tRaA="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247217,
+    "id": "bjFKaunqO8D21e8P0dn2qQE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 291,
+      "total_tokens": 504
+    }
+  }
+}

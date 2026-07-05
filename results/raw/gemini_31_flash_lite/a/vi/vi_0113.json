@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0113",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.86,
+  "ref_text_raw": "Trong hai năm kết thúc cuộc chiến, các đồng minh trước kia lại là kẻ thù và Chiến tranh lạnh bắt đầu.",
+  "ref_text_normalized": "trong hai năm kết thúc cuộc chiến các đồng minh trước kia lại là kẻ thù và chiến tranh lạnh bắt đầu",
+  "timestamp_utc": "2026-07-05T08:44:24Z",
+  "text": "Trong 2 năm kết thúc cuộc chiến, các đồng minh trước kia lại là kẻ thù và chiến tranh lạnh bắt đầu.",
+  "latency_sec": 2.636,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Trong 2 năm kết thúc cuộc chiến, các đồng minh trước kia lại là kẻ thù và chiến tranh lạnh bắt đầu.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP8ws8t+HdskMXR3U13BWnFnGwqDwZGYx9aIFHMZjbiNgJrMlSQaG7zGoYV0MR"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241065,
+    "id": "ZxlKaofFIYmV1e8Pn9-owAM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 218,
+      "total_tokens": 244
+    }
+  }
+}

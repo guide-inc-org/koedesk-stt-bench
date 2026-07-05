@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0132",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 17.16,
+  "ref_text_raw": "Während seiner Arbeit im Krankenhaus begann Liggins in seiner Freizeit damit, vorzeitige Wehen zu untersuchen.",
+  "ref_text_normalized": "während seiner arbeit im krankenhaus begann liggins in seiner freizeit damit vorzeitige wehen zu untersuchen",
+  "timestamp_utc": "2026-07-05T03:50:27Z",
+  "text": "Während seiner Arbeit im Krankenhaus begann Leggins in seiner Freizeit damit vorzeitige Wehen zu untersuchen.",
+  "latency_sec": 3.586,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Während seiner Arbeit im Krankenhaus begann Leggins in seiner Freizeit damit vorzeitige Wehen zu untersuchen.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223427,
+    "id": "gdRJapPaHrj22roP58zioAI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 571,
+      "total_tokens": 592
+    }
+  }
+}

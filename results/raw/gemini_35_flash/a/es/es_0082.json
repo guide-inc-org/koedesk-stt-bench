@@ -1,0 +1,45 @@
+{
+  "utt_id": "es_0082",
+  "lang": "es",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 13.92,
+  "ref_text_raw": "No se ha emitido ni se emitirá ninguna alerta de tsunami ya que, según la agencia geofísica de Yakarta, el terremoto no alcanzó la magnitud de 6,5 exigida a tal fin.",
+  "ref_text_normalized": "no se ha emitido ni se emitirá ninguna alerta de tsunami ya que según la agencia geofísica de yakarta el terremoto no alcanzó la magnitud de 6,5 exigida a tal fin",
+  "timestamp_utc": "2026-07-05T04:35:37Z",
+  "text": "No se ha emitido ni se emitirá ninguna alerta de tsunami, ya que según la Agencia Geofísica de Yakarta, el terremoto no alcanzó la magnitud de 6.5 exigida a tal fin.",
+  "latency_sec": 3.5669,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "No se ha emitido ni se emitirá ninguna alerta de tsunami, ya que según la Agencia Geofísica de Yakarta, el terremoto no alcanzó la magnitud de 6.5 exigida a tal fin.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpgGCpUGARFNMg8pHzvOx1F4MhOpdJs0LP3oQYg1JRmpnfFwZ2Z7TjO5bbFvZ4xB+4U3vKyLmEwAFzMC/0oYAn7gTMkuZGxCzQ4IpLT3rjyKOs73Ensc5N24hXxN1d0t2o+ilHR4ukEFlUnz0vcVI3mFfWCYG7l26xwWSyb172sX1GC/lH9yRG+raF+3kX4CGQ7aCtLe0jYcmsC17w734+0TBv4EwClba5FQkPr1PtNkFz+/ZH92ccAt2FFUutyn3QJwM7VGuYrC0xLOiW9KFw+TUf5nBpu12KgdRF775pCIN37q6krVJVuJmHtebaAuupdcVBCpuBX7YCKCZ72qedFrCcxy2dVY5Rp7FRgckJ5QON1MYfy5QR2Cw038g2HXT/x9G4mPduIvQhiaLICsawIzX92b1vHCJUgvaDJTW9yOjdDhgwqKwZY812KWEeC//ZGl/Qf06ESumgG+l8sDpyMcqt6s0VbPMpHi2/PyN2Y8lIURFI2hIJEhXSmUfqyGBEISRtGp/28OIRHIk17YZjBpPC9RrTayLLrvDKu4RjaVSwihKyHi2CcjtW+zsCWvmDAt6QfKDaVjw2AxIw15dscQkzZhjV0xV0BZ/XdttFm+dVK5pPmVuXUtsvyBWn0M6GNEIGaBDkaQIkBjq3ArXgViu6wnSiE4szOMT+8qL/IME49qmVi6qgn+6wLLyAd1MN9Ay9Uga6iw+z84AAXNLS1iZmtW9E3I9ZM7eHB2q16ct0FtMj3bk/iawkQNyztjJEZyAERSISzNLHD8Z9mQ8pdVYd/FfE1hkqzSdSvFQKV8BRCdE51mr0fn7AXSIvATAXyL/mmK9zqTgpNbIFXENFvuiYD4ifrtZeSEdILpqim7FYFE0YVNojzy97GeZ6LoPvf3u9nqZEoQDSJw2v23TBHI8KKMzQcJA0Hyr1Cf4qA0QLfLBoG/sRokmXTeP2m+QvbhPoXHsRFZf7AlzfFmVhNmwyYxt5oxduebmkQzEN1pHHzjAbKqGQdX/H1qucHClpXDrXwCi5Tpwai5UsSceJ8C64uuG6nrnYMJ"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226137,
+    "id": "F99JaqWYFf_R1e8PsqiM8QM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 369,
+      "total_tokens": 599
+    }
+  }
+}

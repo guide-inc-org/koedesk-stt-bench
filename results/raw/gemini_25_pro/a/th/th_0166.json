@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0166",
+  "lang": "th",
+  "engine": "gemini_25_pro",
+  "duration_sec": 11.76,
+  "ref_text_raw": "โมซาซอรัสคือสุดยอดสัตว์นักล่าแห่งยุค มันจึงไม่หวาดเกรงสิ่งใดนอกจากโมซาซอร์ตัวอื่น",
+  "ref_text_normalized": "โมซาซอรัสคือสุดยอดสัตว์นักล่าแห่งยุค มันจึงไม่หวาดเกรงสิ่งใดนอกจากโมซาซอร์ตัวอื่น",
+  "timestamp_utc": "2026-07-05T07:57:08Z",
+  "text": "โมซาซอรัสคือสุดยอดสัตว์แห่งนักล่ายุค มันจึงไม่หวาดเกรงสิ่งใดนอกจากโมซาซอตัวอื่น",
+  "latency_sec": 3.902,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "โมซาซอรัสคือสุดยอดสัตว์แห่งนักล่ายุค มันจึงไม่หวาดเกรงสิ่งใดนอกจากโมซาซอตัวอื่น",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238228,
+    "id": "Ug5KasGaFpj_1e8PrLe2mQQ",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 398,
+      "total_tokens": 469
+    }
+  }
+}

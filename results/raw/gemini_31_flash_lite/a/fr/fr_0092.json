@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0092",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.88,
+  "ref_text_raw": "Aussi, après la Révolution, les métiers furent ouverts à tous les candidats masculins, permettant aux plus ambitieux et aux plus talentueux de réussir.",
+  "ref_text_normalized": "aussi après la révolution les métiers furent ouverts à tous les candidats masculins permettant aux plus ambitieux et aux plus talentueux de réussir",
+  "timestamp_utc": "2026-07-05T05:15:12Z",
+  "text": "Aussi, après la Révolution, les métiers furent ouverts à tous les candidats masculins, permettant aux plus ambitieux et aux plus talentueux de réussir.",
+  "latency_sec": 2.5274,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Aussi, après la Révolution, les métiers furent ouverts à tous les candidats masculins, permettant aux plus ambitieux et aux plus talentueux de réussir.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP2/MLEaacHwqCPUHDdVP+B6TqKHA9wKMFypGUpA8FZHbAFSJ+8LOmGNJFRaRW"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228512,
+    "id": "XuhJavHuM8Kl9tMPpf6PiQE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 318,
+      "total_tokens": 351
+    }
+  }
+}

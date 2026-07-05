@@ -1,0 +1,39 @@
+{
+  "utt_id": "vi_0049",
+  "lang": "vi",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.54,
+  "ref_text_raw": "Các nhiếp ảnh gia về sau đã chiếm vị trí của người phụ nữ cao niên khi bà cần nhà vệ sinh. Mendoza đã bị bắn hạ.",
+  "ref_text_normalized": "các nhiếp ảnh gia về sau đã chiếm vị trí của người phụ nữ cao niên khi bà cần nhà vệ sinh mendoza đã bị bắn hạ",
+  "timestamp_utc": "2026-07-05T08:15:28Z",
+  "text": "Các nhiếp ảnh gia về sau đã chiếm vị trí của người phụ nữ cao niên, khi bà cần nhà vệ sinh, Mendoza đã bị bắn hạ.",
+  "latency_sec": 3.7955,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Các nhiếp ảnh gia về sau đã chiếm vị trí của người phụ nữ cao niên, khi bà cần nhà vệ sinh, Mendoza đã bị bắn hạ.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239328,
+    "id": "nRJKatu8Ov_IrfcPzNe_mAc",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 423,
+      "total_tokens": 540
+    }
+  }
+}

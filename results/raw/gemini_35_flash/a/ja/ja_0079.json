@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0079",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 16.5,
+  "ref_text_raw": "枕木は、線路を所定の位置に固定するためにかなり早い段階で導入されました。やがて、上部に鉄製の先端部を設けると効率がよいことが徐々にわかってきました。",
+  "ref_text_normalized": "枕木は 線路を所定の位置に固定するためにかなり早い段階で導入されました やがて 上部に鉄製の先端部を設けると効率がよいことが徐々にわかってきました",
+  "timestamp_utc": "2026-07-05T10:17:22Z",
+  "text": "枕木は線路所定の位置に固定するためにかなり早い段階で導入されました。やがて上部に鉄製の締結部を設けると効率が良いことが徐々に分かってきました。",
+  "latency_sec": 5.327,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "枕木は線路所定の位置に固定するためにかなり早い段階で導入されました。やがて上部に鉄製の締結部を設けると効率が良いことが徐々に分かってきました。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246642,
+    "id": "Li9Kaon-JYGp2roP-M7c4AY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 434,
+      "total_tokens": 947
+    }
+  }
+}

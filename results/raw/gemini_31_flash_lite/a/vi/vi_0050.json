@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0050",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 22.2,
+  "ref_text_raw": "\"Bởi vì lông vũ của khủng long không có thân lông phát triển tốt được gọi là thân ống lông nhưng lại có các đặc điểm khác của lông vũ - tơ và lông tơ - nên các nhà nghiên cứu cho rằng thân ống lông có thể là sự phát triển tiến hóa sau này với những đặc điểm khác này.\"",
+  "ref_text_normalized": "bởi vì lông vũ của khủng long không có thân lông phát triển tốt được gọi là thân ống lông nhưng lại có các đặc điểm khác của lông vũ tơ và lông tơ nên các nhà nghiên cứu cho rằng thân ống lông có thể là sự phát triển tiến hóa sau này với những đặc điểm khác này",
+  "timestamp_utc": "2026-07-05T08:40:42Z",
+  "text": "Mày vảy lông vũ của khủng long không có thân lông phát triển tốt được gọi là thân ống lông, nhưng lại có các đặc điểm khác của lông vũ, tơ và lông tơ, nên các nhà nghiên cứu cho rằng thân ống lông có thể là sự phát triển tiến hóa sau này với những đặc điểm khác này.",
+  "latency_sec": 3.0683,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Mày vảy lông vũ của khủng long không có thân lông phát triển tốt được gọi là thân ống lông, nhưng lại có các đặc điểm khác của lông vũ, tơ và lông tơ, nên các nhà nghiên cứu cho rằng thân ống lông có thể là sự phát triển tiến hóa sau này với những đặc điểm khác này.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPKNmBdy//X4ylYd1Cnhf3Qkj9FbNDVZiis0LF19gbXM7cx2NJmSTVUpjUz+LA"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240842,
+    "id": "iRhKapPDBfDW2roPh47FwQc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 68,
+      "prompt_tokens": 576,
+      "total_tokens": 644
+    }
+  }
+}

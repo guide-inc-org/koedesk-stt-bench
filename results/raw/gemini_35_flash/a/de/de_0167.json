@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0167",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 28.62,
+  "ref_text_raw": "Der Nationalpark Plitwitzer Seen ist stark bewaldet, es gibt hauptsächlich Buchen, Fichten und Tannen und er bietet eine Mischung aus alpiner und mediterraner Vegetation.",
+  "ref_text_normalized": "der nationalpark plitwitzer seen ist stark bewaldet es gibt hauptsächlich buchen fichten und tannen und er bietet eine mischung aus alpiner und mediterraner vegetation",
+  "timestamp_utc": "2026-07-05T04:10:04Z",
+  "text": "Der Nationalpark Plitvitzer Seen ist stark bewaldet. Es gibt hauptsächlich Buchen, Fichten und Tannen, und er bietet eine Mischung aus alpiner und mediterraner Vegetation.",
+  "latency_sec": 5.4942,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Der Nationalpark Plitvitzer Seen ist stark bewaldet. Es gibt hauptsächlich Buchen, Fichten und Tannen, und er bietet eine Mischung aus alpiner und mediterraner Vegetation.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224604,
+    "id": "GNlJatXqAsGC0-kP_snrsQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 737,
+      "total_tokens": 1352
+    }
+  }
+}

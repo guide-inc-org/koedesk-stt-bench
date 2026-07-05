@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0160",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 23.46,
+  "ref_text_raw": "Tatsächlich ist sie ganz und gar nicht einfach zu finden, auch wenn man weiß, dass sie existiert. Sobald man sich in der Höhle befindet, ist man vollkommen isoliert.",
+  "ref_text_normalized": "tatsächlich ist sie ganz und gar nicht einfach zu finden auch wenn man weiß dass sie existiert sobald man sich in der höhle befindet ist man vollkommen isoliert",
+  "timestamp_utc": "2026-07-05T04:09:39Z",
+  "text": "Tatsächlich ist sie ganz und gar nicht einfach zu finden, auch wenn man weiß, dass sie existiert. Sobald man sich in der Höhle befindet, ist man vollkommen isoliert.",
+  "latency_sec": 3.9485,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Tatsächlich ist sie ganz und gar nicht einfach zu finden, auch wenn man weiß, dass sie existiert. Sobald man sich in der Höhle befindet, ist man vollkommen isoliert.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPwu1+AYP9xRlVM4nXUutPyoW94UdlhDyA9aKFh9WeiK9No4xJxTsqZLRLblmq"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224579,
+    "id": "ANlJaqvyK62Qvr0PxLzU0Qc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 608,
+      "total_tokens": 648
+    }
+  }
+}

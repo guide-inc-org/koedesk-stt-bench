@@ -1,0 +1,45 @@
+{
+  "utt_id": "vi_0095",
+  "lang": "vi",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 15.24,
+  "ref_text_raw": "Không có cảnh báo sóng thần nào được đưa ra, và theo cơ quan địa vật lý Jakarta, sẽ không có cảnh báo sóng thần vì cơn địa chấn chưa đạt tới tiêu chuẩn 6.5 độ richter.",
+  "ref_text_normalized": "không có cảnh báo sóng thần nào được đưa ra và theo cơ quan địa vật lý jakarta sẽ không có cảnh báo sóng thần vì cơn địa chấn chưa đạt tới tiêu chuẩn 6.5 độ richter",
+  "timestamp_utc": "2026-07-05T08:37:20Z",
+  "text": "Không có cảnh báo sóng thần nào được đưa ra và theo cơ quan địa vật lý Jakarta, sẽ không có cảnh báo sóng thần vì cơn địa chấn chưa đạt tới tiêu chuẩn 6.5 độ Richter.",
+  "latency_sec": 4.4216,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Không có cảnh báo sóng thần nào được đưa ra và theo cơ quan địa vật lý Jakarta, sẽ không có cảnh báo sóng thần vì cơn địa chấn chưa đạt tới tiêu chuẩn 6.5 độ Richter.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpwKCpkKARFNMg/qTLG1YZvmcC8T56HsgdH8N8d0maBdzNvETCcUKSvkw15oUVrkrYQENQSk0LRvozD+2NLQCvBa/kLDdS4YmC4Eb7lxAW1XXNLvRj6e662mR9pdk80/roEA+SFy/YhVyBPhrBer/7+YP8RQckHEu9nbGvSRIEygjkl9J2Ex5lnycwBPm62y3M9mE9lvB0qKM4aBvJIteNWHikFPf0CV6BSDVUbmpJNvwKf2IUwmaOIe4Etf/0qxMlb86yCzZN4qFMc3evCCcPZzXkhOVEIRakwn+Xp8xfUsDIC0lmeZNU4t1+auBz+igrSICIDLqj3PLrROg6EJ76UC+UjQREsMBbIsrPpReLT1o04ZpvUYECk+OYe90w3VQ8zb2KGSrkh807NerdYVpJXE8BSarS6nsg8QoEQWhE8Jg9C4XePUGDPyE3z2XiqbfzfUd8TouypW5TTXEzPqpN3WI/xC981PDxxvzNcu5kVydOvO1Xcw+cjgfM4coTN8Z9vg2YUGYy7S0kLTxEU9N1ZY7ELavAPr2PXh9SQDeFjy34daLlIwVAY8qwqXrOutuVQWEg6mESmEtZepwfKS1UPdDmrWCGzf6v89MNGmBRaD5tH9+e7pAD3DoiiN20U/kPdEbzLA4JNWE5z16VXuP0aJCnDU34I0R7kaYtCa/WHJPBc8u0j75xpsOIK/0uPAQxOyQc7fC2zMG/49qWwvk7ILIE+CTTg2FSdoBbpGeYJn6FlUmsA6/vsWVTpzIINVfw/TmM7fsrbtVyYGSirf/PzVonliK7uGG0x0dS4NAkfpkRHdxuhJPtr6TiGLvsbdTitrHL3lJfR8erboNxkjO1jR2B/Xw/FXAdgMbL3X3Xaj9ogQIMFcUelwA8CUf1CcON6iUDOtqlpdWvymYJmpVR5GMmOPysTBBi8+rRkXvOH5ObX7s462NHQMzkA+VBWjXjXzh+98rE030hZ3+fA52nVi0XqldzQ91qztmmFPX4iCcMjqlNrng4vQ6eLWWQADC8KtwKFLXQBRW/8EB7ejW9pBErineCZQ7MhzYqWS5hYpHha2CqsU8+xHliLXQ0Rlgrv3+JZbsk/kPwm7zZLH5vHE8r3jDr/eAwhrjq6he0ZG5a/afHnhUuq8Mc6LYSdnk56m49TsGsaciJgWzSAug3J7Pmm5UzROj0e+r7D/rGF5rIVD/lNnaNOml/unK5Iq5vgIVCrfKQZNrDHBIZ2DouClAT5C6b7r4e7qwgGPXDjrUziNDm6236poQDQ9729JY3Y9txRgHdJC15Gy7SNH7Z3yfb4Wxllvvh6apB3HubwBZrXpN8QNZNAOr6PorRdSF5V34NbUzXmQyJcWFZklmY4I0lf5dYfEzIhH5iVJwXS7VRSEMoE1muznnzr2TJ2Ysv+CUC9vrZyb5I6J6yUF2hjizrEZmzo06qCAS9a/qrqQiK9bdgpWOnHuTz7s6eWEunH+kzNmsydVlRHRE2s1SH3tf7M2EAt7oaklx6oQn6zmHoG34drgdG2FdQcy0xjHpjvB5Rb2U1+g+MRnJApEeeROWapNaC1dN/uNvCnQyj3/eqoELtOFEwfISXiIhUt4a7NhL5dFcWwBg/RMjy0kEZ16UMeswJB43pYnbPl6xdyGjcVZH4X2rVH3o9pplkMotopOtGfH2sARsBFhilpoN5nlbGIv7EO9191tCeFYHW2gRe/5Q3sW4T3lneglQrR9ZAuDNMnXJ4aW2RPhhw26"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240640,
+    "id": "vhdKatasBvz-2roPj568yQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 402,
+      "total_tokens": 740
+    }
+  }
+}

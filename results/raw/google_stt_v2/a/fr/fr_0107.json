@@ -1,0 +1,36 @@
+{
+  "utt_id": "fr_0107",
+  "lang": "fr",
+  "engine": "google_stt_v2",
+  "duration_sec": 8.46,
+  "ref_text_raw": "Les enfants sont placés dans des familles d’accueil pour des raisons très diverses qui vont de la négligence à la maltraitance, en passant par l’extorsion.",
+  "ref_text_normalized": "les enfants sont placés dans des familles d'accueil pour des raisons très diverses qui vont de la négligence à la maltraitance en passant par l'extorsion",
+  "timestamp_utc": "2026-07-05T04:25:35Z",
+  "text": "Les enfants sont placés dans les familles d'accueil pour des raisons très diverses qui vont de la négligence à la maltraitance en passant par l'extorsion.",
+  "latency_sec": 3.9512,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "fr-FR",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "9s",
+      "requestId": "6c9d569f-0000-2b55-9986-fc4116929071",
+      "prompt": "Transcribe the following speech segment in French. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, French."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Les enfants sont placés dans les familles d'accueil pour des raisons très diverses qui vont de la négligence à la maltraitance en passant par l'extorsion."
+          }
+        ],
+        "languageCode": "fr-FR"
+      }
+    ]
+  }
+}

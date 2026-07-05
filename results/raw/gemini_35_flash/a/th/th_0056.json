@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0056",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.22,
+  "ref_text_raw": "ไอออนของไฮโดรเจนเป็นโปรตอนที่ถูกดึงอิเล็กตรอนออก (เนื่องจากอะตอมของไฮโดรเจนนั้นประกอบไปด้วยโปรตอนและอิเล็กตรอนอย่างละหนึ่งตัว)",
+  "ref_text_normalized": "ไอออนของไฮโดรเจนเป็นโปรตอนที่ถูกดึงอิเล็กตรอนออก เนื่องจากอะตอมของไฮโดรเจนนั้นประกอบไปด้วยโปรตอนและอิเล็กตรอนอย่างละหนึ่งตัว",
+  "timestamp_utc": "2026-07-05T07:56:39Z",
+  "text": "ไอออนของไฮโดรเจนเป็นโปรตอนที่ถูกดึงอิเล็กตรอนออก เนื่องจากอะตอมของไฮโดรเจนนั้นประกอบไปด้วย โปรตอนและอิเล็กตรอนอย่างละหนึ่งตัว",
+  "latency_sec": 4.7224,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ไอออนของไฮโดรเจนเป็นโปรตอนที่ถูกดึงอิเล็กตรอนออก เนื่องจากอะตอมของไฮโดรเจนนั้นประกอบไปด้วย โปรตอนและอิเล็กตรอนอย่างละหนึ่งตัว",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238199,
+    "id": "Mw5Kav61LIOv2roPupKSoQU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 302,
+      "total_tokens": 717
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0160",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 17.04,
+  "ref_text_raw": "Les blogues peuvent également aider les étudiants à améliorer leurs compétences en rédaction. Même si les étudiants tentent souvent l'expérience du blogue avec une grammaire et une orthographe négligées, le fait d'avoir un public fait généralement évoluer la situation.",
+  "ref_text_normalized": "les blogues peuvent également aider les étudiants à améliorer leurs compétences en rédaction même si les étudiants tentent souvent l'expérience du blogue avec une grammaire et une orthographe négligées le fait d'avoir un public fait généralement évoluer la situation",
+  "timestamp_utc": "2026-07-05T05:19:26Z",
+  "text": "Les blogs peuvent également aider les étudiants à améliorer leurs compétences en rédaction. Même si les étudiants tentent souvent l'expérience du blog avec une grammaire et une orthographe négligée, le fait d'avoir un public fait généralement évoluer la situation.",
+  "latency_sec": 3.0683,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Les blogs peuvent également aider les étudiants à améliorer leurs compétences en rédaction. Même si les étudiants tentent souvent l'expérience du blog avec une grammaire et une orthographe négligée, le fait d'avoir un public fait généralement évoluer la situation.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPJHS9fM8NFPQ+qCmW9K3j2Nlyrl4ZlcM9uz3qB0pUAIDlvYMoAFeIQ2T7YgYK"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228766,
+    "id": "XelJapbAEMKw0-kPjYbn-AU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 52,
+      "prompt_tokens": 447,
+      "total_tokens": 499
+    }
+  }
+}

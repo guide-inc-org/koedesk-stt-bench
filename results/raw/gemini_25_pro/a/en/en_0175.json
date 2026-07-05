@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0175",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 8.52,
+  "ref_text_raw": "But, after losing the captain's wicket India only made 36 runs loosing 7 wickets to end the innings.",
+  "ref_text_normalized": "but after losing the captain's wicket india only made 36 runs loosing 7 wickets to end the innings",
+  "timestamp_utc": "2026-07-05T03:30:46Z",
+  "text": "But after losing the captain's wicket, India only made 36 runs losing seven wickets to end the winnings.",
+  "latency_sec": 3.9208,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "But after losing the captain's wicket, India only made 36 runs losing seven wickets to end the winnings.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222246,
+    "id": "489JasL1M-L81e8P5-3SkQM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 294,
+      "total_tokens": 353
+    }
+  }
+}

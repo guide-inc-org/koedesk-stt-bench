@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0028",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.02,
+  "ref_text_raw": "Cuối Chủ Nhật, Tổng thống Hoa Kỳ Donald Trump, trong một tuyên bố đã gửi thông qua thư ký báo chí thông báo quân đội Mỹ sẽ rút quân khỏi Syria.",
+  "ref_text_normalized": "cuối chủ nhật tổng thống hoa kỳ donald trump trong một tuyên bố đã gửi thông qua thư ký báo chí thông báo quân đội mỹ sẽ rút quân khỏi syria",
+  "timestamp_utc": "2026-07-05T08:39:22Z",
+  "text": "Cuối Chủ Nhật, Tổng thống Hoa Kỳ Donald Trump trong một tuyên bố đã gửi thông qua thư ký báo chí thông báo quân đội Mỹ sẽ rút quân khỏi Syria.",
+  "latency_sec": 2.5116,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Cuối Chủ Nhật, Tổng thống Hoa Kỳ Donald Trump trong một tuyên bố đã gửi thông qua thư ký báo chí thông báo quân đội Mỹ sẽ rút quân khỏi Syria.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPJl0iuZFsz/1pD6Ar14u+G60/TMOXicUl0A27m8hLgjO38xFQZRR6qjbji9lh"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240762,
+    "id": "OBhKasyKOq6l9tMP-_vv-QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 347,
+      "total_tokens": 381
+    }
+  }
+}

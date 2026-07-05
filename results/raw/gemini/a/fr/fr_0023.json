@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0023",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 14.28,
+  "ref_text_raw": "En outre, il existe de nombreux petits chats (y compris les chats de compagnie en liberté) qui mangent les petites proies, bien plus nombreuses, comme les insectes, les rongeurs, les lézards et les oiseaux.",
+  "ref_text_normalized": "en outre il existe de nombreux petits chats y compris les chats de compagnie en liberté qui mangent les petites proies bien plus nombreuses comme les insectes les rongeurs les lézards et les oiseaux",
+  "timestamp_utc": "2026-07-05T04:47:07Z",
+  "text": "En outre, il existe de nombreux petits chats, y compris les chats de compagnie en liberté, qui mangent les petites proies, bien plus nombreuses, comme les insectes, les rongeurs, les lézards et les oiseaux.",
+  "latency_sec": 4.1139,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "En outre, il existe de nombreux petits chats, y compris les chats de compagnie en liberté, qui mangent les petites proies, bien plus nombreuses, comme les insectes, les rongeurs, les lézards et les oiseaux.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226827,
+    "id": "yOFJaq-7K__R1e8PsqiM8QM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 46,
+      "prompt_tokens": 478,
+      "total_tokens": 524
+    }
+  }
+}

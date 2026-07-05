@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0021",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 15.0,
+  "ref_text_raw": "スンダルバンスは世界最大の沿岸マングローブ地帯であり、海岸からバングラデシュとインドの内陸地域まで80 km（50マイル）にわたって広がっています。",
+  "ref_text_normalized": "スンダルバンスは世界最大の沿岸マングローブ地帯であり 海岸からバングラデシュとインドの内陸地域まで80 km50マイルにわたって広がっています",
+  "timestamp_utc": "2026-07-05T10:04:43Z",
+  "text": "スンダルバンスは世界最大の沿岸マングローブ地帯であり、海岸からバングラデシュとインドの内陸地域まで80km 50マイルにわたって広がっています。",
+  "latency_sec": 10.1517,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "スンダルバンスは世界最大の沿岸マングローブ地帯であり、海岸からバングラデシュとインドの内陸地域まで80km 50マイルにわたって広がっています。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783245883,
+    "id": "NCxKatW8N7_L0-kPu6eA2AI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 501,
+      "total_tokens": 1160
+    }
+  }
+}

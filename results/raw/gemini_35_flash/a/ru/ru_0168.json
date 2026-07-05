@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0168",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.12,
+  "ref_text_raw": "Бишкек был описан одним обозревателем как погружающийся в состояние анархии, поскольку группы людей бегали по улицам и грабили магазины с потребительскими товарами.",
+  "ref_text_normalized": "бишкек был описан одним обозревателем как погружающийся в состояние анархии поскольку группы людей бегали по улицам и грабили магазины с потребительскими товарами",
+  "timestamp_utc": "2026-07-05T07:31:25Z",
+  "text": "Бишкек был описан одним обозревателем как погружающийся в состояние анархии, поскольку группы людей бегали по улицам и грабили магазины с потребительскими товарами.",
+  "latency_sec": 4.5146,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Бишкек был описан одним обозревателем как погружающийся в состояние анархии, поскольку группы людей бегали по улицам и грабили магазины с потребительскими товарами.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236685,
+    "id": "SghKarbGDOvYvr0P_YW_6QM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 324,
+      "total_tokens": 762
+    }
+  }
+}

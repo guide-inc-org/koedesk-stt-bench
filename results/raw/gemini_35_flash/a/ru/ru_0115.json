@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0115",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.44,
+  "ref_text_raw": "Официальными языками Барселоны являются каталанский и испанский. Примерно половина населения предпочитает разговаривать на каталанском, большинство понимают его, и практически все знают испанский.",
+  "ref_text_normalized": "официальными языками барселоны являются каталанский и испанский примерно половина населения предпочитает разговаривать на каталанском большинство понимают его и практически все знают испанский",
+  "timestamp_utc": "2026-07-05T07:26:42Z",
+  "text": "Официальными языками Барселоны являются каталанский и испанский. Примерно половина населения предпочитает разговаривать на каталанском. Большинство понимает его и практически все знают испанский.",
+  "latency_sec": 3.9819,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Официальными языками Барселоны являются каталанский и испанский. Примерно половина населения предпочитает разговаривать на каталанском. Большинство понимает его и практически все знают испанский.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236402,
+    "id": "MAdKarj2A_jG2roPjLn34AI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 42,
+      "prompt_tokens": 282,
+      "total_tokens": 618
+    }
+  }
+}

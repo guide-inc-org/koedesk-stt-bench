@@ -1,0 +1,44 @@
+{
+  "utt_id": "pt_0000",
+  "lang": "pt",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 17.76,
+  "ref_text_raw": "Segundo informações, ele estava na casa dos 20 anos. Em uma declaração, Bieber disse que, \"embora eu não estivesse presente nem diretamente envolvido neste trágico incidente, meus pensamentos e orações estão com a família da vítima\".",
+  "ref_text_normalized": "segundo informações ele estava na casa dos 20 anos em uma declaração bieber disse que embora eu não estivesse presente nem diretamente envolvido neste trágico incidente meus pensamentos e orações estão com a família da vítima",
+  "timestamp_utc": "2026-07-05T06:53:51Z",
+  "text": "Segundo informações, ele estava na casa dos 20 anos. Em uma declaração, Bieber disse que, embora eu não tivesse presente nem diretamente envolvido neste trágico incidente, meus pensamentos e orações estão com a família da vítima.",
+  "latency_sec": 3.3367,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Segundo informações, ele estava na casa dos 20 anos. Em uma declaração, Bieber disse que, embora eu não tivesse presente nem diretamente envolvido neste trágico incidente, meus pensamentos e orações estão com a família da vítima.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPeXt8FcGO6h5NVFapTKjg4riZNCD7ZKiKbGWI8LT2H2UkwkUgCqt+UaceJOnh"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234431,
+    "id": "ff9JavCqE62l0-kP_9TT2QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 49,
+      "prompt_tokens": 466,
+      "total_tokens": 515
+    }
+  }
+}

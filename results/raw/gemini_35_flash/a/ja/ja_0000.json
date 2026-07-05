@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0000",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.44,
+  "ref_text_raw": "インターネットで「敵対的環境コース」について検索すると、おそらく現地企業の住所が出てくるでしょう。",
+  "ref_text_normalized": "インターネットで 敵対的環境コース について検索すると おそらく現地企業の住所が出てくるでしょう",
+  "timestamp_utc": "2026-07-05T10:09:37Z",
+  "text": "インターネットで敵対的環境コースについて検索すると、おそらく現地企業の住所が出てくるでしょう。",
+  "latency_sec": 3.2281,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "インターネットで敵対的環境コースについて検索すると、おそらく現地企業の住所が出てくるでしょう。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Er0ECroEARFNMg/gTxLjrQ6Vg24+7eaHHB2rnf/gCqqj+4k/qvAcgfg7s6gsIsBwG96LcruJrjI38yIeMYs5e/AGrCgPo4myzQajObHPPmhJOsLhPOvelGeB7y7CJYTLvYZ6TIGWVpliQmr1KnzdCFWv76ShDnt12nyBmeByPsS1vRmxb/V3vgyjy49LEusII5UgOvgRCasABw2Xho9JYs7qyv8E58LnElvRjZjGYRkzZFPWZCCE19sL3XoCl5TMKtaQVFRzRDLuMwa7E/ZomrHbWZmtFyz2rqOIOWUPKu9AyLib0PIQ9/evcPw3QBPMe+/T7lcARe0kcobCp0OZnh9KLqMV/cTqg1mDTLrjo4+GetVhD2/s5r09Q6Kc2Sb0e3c/Sy2qptCcwcFvNnqECZxG4HorFf6ZNuR/FDLH46TnaaxUV5DF6AdK7Bl0Awg3giB+4+KZWYspaW1/JErltY6aZqOGnnlV0/aJv2vbDhwcDESeNz53jrThJXAoIWKdjKBLaQXAvvKd7OSdFIIH45NUOnJM2t2cHL8hTBmy0tk6HfDx51STc/y6X0DfNElyhpm8YHYsZvjgUHs+QSfpZ+1DEc8ue2en2SgSFc8tdfSy76+XjUOAwvqQ7zqUFFC/t4F1rR/N1QpBK/8+cQsKa+nvzsocjA/lwH2+2BadwOpOqeO99ew5+4CqK/dUxUuGDB9yF55faoASYPbMEqadVwYbnCRu+ad9pyfZdE8nn1rE46ev8XV5VHjymO1hh64o"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246177,
+    "id": "Xy1KaoK2Ncmrvr0Ps4zPyAI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 282,
+      "total_tokens": 388
+    }
+  }
+}

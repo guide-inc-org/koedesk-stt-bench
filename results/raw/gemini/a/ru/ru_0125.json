@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0125",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.3,
+  "ref_text_raw": "Мухаммед очень интересовался темами, не связанными с мирской жизнью. Он часто посещал пещеру, которая стала известна как \"Хира\" на горе \"Нур\" (свет) для размышлений.",
+  "ref_text_normalized": "мухаммед очень интересовался темами не связанными с мирской жизнью. он часто посещал пещеру которая стала известна как хира на горе нур свет для размышлений",
+  "timestamp_utc": "2026-07-05T07:10:07Z",
+  "text": "Мухаммед очень интересовался темами, не связанными с мирской жизнью. Он часто посещал пещеру, которая стала известна как Хира, на горе Нур, свет, для размышлений.",
+  "latency_sec": 3.9375,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Мухаммед очень интересовался темами, не связанными с мирской жизнью. Он часто посещал пещеру, которая стала известна как Хира, на горе Нур, свет, для размышлений.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235407,
+    "id": "TQNKaurkCPz-2roPj568yQI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 46,
+      "prompt_tokens": 415,
+      "total_tokens": 561
+    }
+  }
+}

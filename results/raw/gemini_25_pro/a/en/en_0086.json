@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0086",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 11.64,
+  "ref_text_raw": "Everyone participates in society and uses transportation systems. Almost everyone complains about transportation systems.",
+  "ref_text_normalized": "everyone participates in society and uses transportation systems almost everyone complains about transportation systems",
+  "timestamp_utc": "2026-07-05T10:26:48Z",
+  "text": "Everyone participates in society and uses transportation systems. Almost everyone complains about transportation systems.",
+  "latency_sec": 4.0737,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Everyone participates in society and uses transportation systems. Almost everyone complains about transportation systems.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247208,
+    "id": "ZTFKaozmILzW2roP5ab44Ak",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 394,
+      "total_tokens": 410
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0136",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.32,
+  "ref_text_raw": "Casablanca là một trong những nơi ít thú vị nhất để mua sắm trên khắp Ma-rốc.",
+  "ref_text_normalized": "casablanca là một trong những nơi ít thú vị nhất để mua sắm trên khắp ma-rốc",
+  "timestamp_utc": "2026-07-05T08:45:50Z",
+  "text": "Casablanca là một trong những nơi ít thú vị nhất để mua sắm trên khắp Ma Rốc.",
+  "latency_sec": 2.7866,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Casablanca là một trong những nơi ít thú vị nhất để mua sắm trên khắp Ma Rốc.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPaH30pWgJs1q7vkORaj5MWSj+CJYFWYXQdCNPKbOm0f9HZM4zUJs6jj7hT2HD"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241150,
+    "id": "vBlKatHMNKXJ2roPu_yk0QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 279,
+      "total_tokens": 300
+    }
+  }
+}

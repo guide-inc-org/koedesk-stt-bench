@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0161",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.12,
+  "ref_text_raw": "그곳은 안전한 수영이 가능한 거의 모든 모래 해변이며, 대부분의 해변은 푸후투카와 나무(pohutukawa trees)가 만드는 그늘진 장소들이 많다.",
+  "ref_text_normalized": "그곳은 안전한 수영이 가능한 거의 모든 모래 해변이며 대부분의 해변은 푸후투카와 나무pohutukawa trees가 만드는 그늘진 장소들이 많다",
+  "timestamp_utc": "2026-07-05T06:23:54Z",
+  "text": "그곳은 안전한 수영이 가능한 거의 모든 모래 해변이며, 대부분의 해변은 포후투카와 나무가 만드는 그늘진 장소들이 많다.",
+  "latency_sec": 6.3003,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "그곳은 안전한 수영이 가능한 거의 모든 모래 해변이며, 대부분의 해변은 포후투카와 나무가 만드는 그늘진 장소들이 많다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232634,
+    "id": "dfhJaui2F8zLrfcPwe_16Qs",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 324,
+      "total_tokens": 1015
+    }
+  }
+}

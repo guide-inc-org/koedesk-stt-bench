@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0161",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 15.72,
+  "ref_text_raw": "Il a également gravé des billets de banque pour de nombreux pays. Parmi les exemples récents de son travail, on peut citer les portraits du Premier ministre au recto des nouveaux billets canadiens de 5 et 100 dollars.",
+  "ref_text_normalized": "il a également gravé des billets de banque pour de nombreux pays parmi les exemples récents de son travail on peut citer les portraits du premier ministre au recto des nouveaux billets canadiens de 5 et 100 dollars",
+  "timestamp_utc": "2026-07-05T05:15:46Z",
+  "text": "Il a également gravé des billets de banque pour de nombreux pays. Parmi les exemples récents de son travail, on peut citer les portraits du premier ministre au recto des nouveaux billets canadiens de 5 et 100 dollars.",
+  "latency_sec": 6.813,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Il a également gravé des billets de banque pour de nombreux pays. Parmi les exemples récents de son travail, on peut citer les portraits du premier ministre au recto des nouveaux billets canadiens de 5 et 100 dollars.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228546,
+    "id": "fOhJaunBI__R1e8PsqiM8QM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 49,
+      "prompt_tokens": 414,
+      "total_tokens": 1258
+    }
+  }
+}

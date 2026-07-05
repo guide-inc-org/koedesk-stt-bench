@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0169",
+  "lang": "es",
+  "engine": "gemini_25_pro",
+  "duration_sec": 8.82,
+  "ref_text_raw": "El espectáculo de luces y el sonido piramidal son una de las cosas más interesantes para los niños en la zona.",
+  "ref_text_normalized": "el espectáculo de luces y el sonido piramidal son una de las cosas más interesantes para los niños en la zona",
+  "timestamp_utc": "2026-07-05T04:30:21Z",
+  "text": "El espectáculo de luces y el sonido piramidal son una de las cosas más interesantes para los niños en la zona.",
+  "latency_sec": 3.7595,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "El espectáculo de luces y el sonido piramidal son una de las cosas más interesantes para los niños en la zona.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225821,
+    "id": "291JarORAcKl9tMPpf6PiQE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 304,
+      "total_tokens": 376
+    }
+  }
+}

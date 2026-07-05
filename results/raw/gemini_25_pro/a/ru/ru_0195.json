@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0195",
+  "lang": "ru",
+  "engine": "gemini_25_pro",
+  "duration_sec": 12.66,
+  "ref_text_raw": "Вы можете по Гома на бода-бода (мототакси). Обычная (местная) цена 500 конголезских франков за короткую поездку.",
+  "ref_text_normalized": "вы можете по гома на бода-бода мототакси. обычная местная цена 500 конголезских франков за короткую поездку",
+  "timestamp_utc": "2026-07-05T07:26:29Z",
+  "text": "Вы можете по Гома на бода-бода, мототакси. Обычная местная цена 500 ганголезских франков за короткую поездку.",
+  "latency_sec": 6.5202,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Вы можете по Гома на бода-бода, мототакси. Обычная местная цена 500 ганголезских франков за короткую поездку.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236389,
+    "id": "IAdKavz3GIOL0-kPiYjyuQQ",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 427,
+      "total_tokens": 947
+    }
+  }
+}

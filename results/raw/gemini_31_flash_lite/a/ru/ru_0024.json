@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0024",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 17.46,
+  "ref_text_raw": "Обычные объявления в метро делаются только на каталонском языке, но незапланированные перебои объявляются автоматизированной системой на самых разных языках, включая испанский, английский, французский, арабский и японский.",
+  "ref_text_normalized": "обычные объявления в метро делаются только на каталонском языке но незапланированные перебои объявляются автоматизированной системой на самых разных языках включая испанский английский французский арабский и японский",
+  "timestamp_utc": "2026-07-05T07:28:29Z",
+  "text": "Обычные объявления в метро делаются только на каталанском языке, но незапланированные перебои объявляются автоматизированной системой на самых разных языках, включая испанский, английский, французский, арабский и японский.",
+  "latency_sec": 3.5651,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Обычные объявления в метро делаются только на каталанском языке, но незапланированные перебои объявляются автоматизированной системой на самых разных языках, включая испанский, английский, французский, арабский и японский.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP9ubgkG/uXARV98o09C58D/wiQ8+Ln83EF2WXOr+Tcx852hvopW8Os3N47ii5"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236509,
+    "id": "mwdKauqaCO2crfcPkMChIA",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 53,
+      "prompt_tokens": 458,
+      "total_tokens": 511
+    }
+  }
+}

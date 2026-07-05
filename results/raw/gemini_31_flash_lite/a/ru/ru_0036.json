@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0036",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.3,
+  "ref_text_raw": "Шпалы начали применяться довольно давно для того, чтобы удерживать рельсы на месте. Однако впоследствии стало ясно, что пути были более эффективны при полосе из железа сверху.",
+  "ref_text_normalized": "шпалы начали применяться довольно давно для того чтобы удерживать рельсы на месте однако впоследствии стало ясно что пути были более эффективны при полосе из железа сверху",
+  "timestamp_utc": "2026-07-05T07:29:13Z",
+  "text": "Шпалы начали применяться довольно давно для того, чтобы удерживать рельсы на месте. Однако впоследствии стало ясно, что пути были более эффективны при полосе из железа сверху.",
+  "latency_sec": 2.8015,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Шпалы начали применяться довольно давно для того, чтобы удерживать рельсы на месте. Однако впоследствии стало ясно, что пути были более эффективны при полосе из железа сверху.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPjMBseL7k1U7+12tjMNGHmtZV+P7nO1yN/hEKoFYI77fUh1dtowZ5uN+Hzj43"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236553,
+    "id": "xwdKauD1MNCivr0P-6eduQE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 329,
+      "total_tokens": 368
+    }
+  }
+}

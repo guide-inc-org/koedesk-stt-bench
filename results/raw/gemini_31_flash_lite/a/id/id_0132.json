@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0132",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.98,
+  "ref_text_raw": "Zona Schengen, bagaimanapun, cara kerjanya sama seperti satu negara dalam hal ini.",
+  "ref_text_normalized": "zona schengen bagaimanapun cara kerjanya sama seperti satu negara dalam hal ini",
+  "timestamp_utc": "2026-07-05T05:53:09Z",
+  "text": "Zona Schengen. Bagaimanapun, cara kerjanya sama seperti satu negara dalam hal ini.",
+  "latency_sec": 2.5158,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Zona Schengen. Bagaimanapun, cara kerjanya sama seperti satu negara dalam hal ini.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPjnXpTBqrN3FCbj6wTt9a7ZVbAGRg6DFpvgdQaXaUG0wMwIxx5Y0omgTO5W2w"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230789,
+    "id": "RPFJau27HpnV1e8Pw6zfgAQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 221,
+      "total_tokens": 239
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0109",
+  "lang": "ru",
+  "engine": "gemini_25_pro",
+  "duration_sec": 5.58,
+  "ref_text_raw": "Эти пары могут выбрать  создание плана усыновления для своего ребёнка.",
+  "ref_text_normalized": "эти пары могут выбрать создание плана усыновления для своего ребёнка",
+  "timestamp_utc": "2026-07-05T07:17:37Z",
+  "text": "Эти пары могут выбрать создание плана усыновления для своего ребёнка.",
+  "latency_sec": 5.248,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Эти пары могут выбрать создание плана усыновления для своего ребёнка.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235857,
+    "id": "DgVKar-XHuD61e8P0MrToAE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 15,
+      "prompt_tokens": 200,
+      "total_tokens": 261
+    }
+  }
+}

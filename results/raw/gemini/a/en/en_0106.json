@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0106",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.64,
+  "ref_text_raw": "Unfortunately, studying traffic flow is difficult because driver behavior cannot be predicted with one-hundred percent certainty.",
+  "ref_text_normalized": "unfortunately studying traffic flow is difficult because driver behavior cannot be predicted with one-hundred percent certainty",
+  "timestamp_utc": "2026-07-05T03:25:28Z",
+  "text": "Unfortunately, studying traffic flow is difficult because driver behavior cannot be predicted with 100% certainty.",
+  "latency_sec": 3.0017,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Unfortunately, studying traffic flow is difficult because driver behavior cannot be predicted with 100% certainty.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221929,
+    "id": "p85JauimCu3j1e8P2Y3r2QE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 426,
+      "total_tokens": 477
+    }
+  }
+}

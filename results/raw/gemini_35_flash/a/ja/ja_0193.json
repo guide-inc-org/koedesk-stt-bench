@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0193",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.6,
+  "ref_text_raw": "警察のチャンドラ・シェカール・ソランキ総監によれば、被告人は顔を隠して法廷に出頭したそうです。",
+  "ref_text_normalized": "警察のチャンドラ シェカール ソランキ総監によれば 被告人は顔を隠して法廷に出頭したそうです",
+  "timestamp_utc": "2026-07-05T03:24:26Z",
+  "text": "警察のチャンドラ・シカール・ソランキ総監によれば被告人は顔を隠して法廷に出頭したそうです。",
+  "latency_sec": 5.5466,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "警察のチャンドラ・シカール・ソランキ総監によれば被告人は顔を隠して法廷に出頭したそうです。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221867,
+    "id": "Z85JaoGABMfE0-kP8qfE0QY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 261,
+      "total_tokens": 727
+    }
+  }
+}

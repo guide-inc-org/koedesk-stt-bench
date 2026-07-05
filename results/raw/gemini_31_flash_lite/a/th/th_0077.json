@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0077",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.94,
+  "ref_text_raw": "คนส่วนใหญ่ที่ทำงานในรัฐจะใช้ภาษาอิตาลีเป็นภาษาในชีวิตประจำวัน ในขณะที่ภาษาละตินจะถูกใช้บ่อยในพิธีทางศาสนา",
+  "ref_text_normalized": "คนส่วนใหญ่ที่ทำงานในรัฐจะใช้ภาษาอิตาลีเป็นภาษาในชีวิตประจำวัน ในขณะที่ภาษาละตินจะถูกใช้บ่อยในพิธีทางศาสนา",
+  "timestamp_utc": "2026-07-05T08:05:30Z",
+  "text": "คนส่วนใหญ่ที่ทำงานในรัฐจะใช้ภาษาอิตาลีเป็นภาษาในชีวิตประจำวัน ในขณะที่ภาษาละตินจะถูกใช้บ่อยในพิธีทางศาสนา",
+  "latency_sec": 3.316,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "คนส่วนใหญ่ที่ทำงานในรัฐจะใช้ภาษาอิตาลีเป็นภาษาในชีวิตประจำวัน ในขณะที่ภาษาละตินจะถูกใช้บ่อยในพิธีทางศาสนา",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPPGR4LVq+dq5+7bfCDn5qqlg7xW6O5FLybGE5g6Bh+jPDYs56Ylr6tTF5cQ42"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238730,
+    "id": "SBBKapT9N-Kf2roP6tmdgAM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 320,
+      "total_tokens": 358
+    }
+  }
+}

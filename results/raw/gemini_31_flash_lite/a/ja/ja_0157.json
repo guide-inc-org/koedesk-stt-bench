@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0157",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.54,
+  "ref_text_raw": "残念ながら、運転手の行動を100%の確率で予測することはできないので、交通の流れを研究することは困難です。",
+  "ref_text_normalized": "残念ながら 運転手の行動を100%の確率で予測することはできないので 交通の流れを研究することは困難です",
+  "timestamp_utc": "2026-07-05T03:20:47Z",
+  "text": "残念 ながら 、 運転 手 の 行動 を 100 % の 確率 で 予測 する こと は でき ない の で 、 交通 の 流れ を 研究 する こと は 困難 です 。",
+  "latency_sec": 3.9451,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "残念 ながら 、 運転 手 の 行動 を 100 % の 確率 で 予測 する こと は でき ない の で 、 交通 の 流れ を 研究 する こと は 困難 です 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPKM0tzoySiooYU2P+kTwGEHb1M6pKy3vIU7855zi834kJNWxZqmxG2Wyb/qR4"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221647,
+    "id": "js1JavSBBrif0-kPzJPfgAc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 335,
+      "total_tokens": 378
+    }
+  }
+}

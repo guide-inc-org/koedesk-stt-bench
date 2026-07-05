@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0006",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.8,
+  "ref_text_raw": "The Northern Marianas emergency management office said that there were no damages reported in the nation.",
+  "ref_text_normalized": "the northern marianas emergency management office said that there were no damages reported in the nation",
+  "timestamp_utc": "2026-07-05T10:19:25Z",
+  "text": "The Northern Mariana's Emergency Management office said that there were no damages reported in the nation.",
+  "latency_sec": 5.0782,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The Northern Mariana's Emergency Management office said that there were no damages reported in the nation.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246765,
+    "id": "qS9KasqIIL6a1e8PgPz1sQM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 367,
+      "total_tokens": 542
+    }
+  }
+}

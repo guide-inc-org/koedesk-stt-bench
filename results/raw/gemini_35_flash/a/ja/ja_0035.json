@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0035",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 16.44,
+  "ref_text_raw": "香港の地平線を描いて立ち並ぶビル群は、ビクトリア・ハーバーの水の存在によって、きらびやかな棒グラフに例えられています。",
+  "ref_text_normalized": "香港の地平線を描いて立ち並ぶビル群は ビクトリア ハーバーの水の存在によって きらびやかな棒グラフに例えられています",
+  "timestamp_utc": "2026-07-05T10:13:00Z",
+  "text": "香港の地平線を描いて立ち並ぶビル群は、ビクトリア・ハーバーの水の存在によって、きらびやかな棒グラフに例えられています。",
+  "latency_sec": 6.5573,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "香港の地平線を描いて立ち並ぶビル群は、ビクトリア・ハーバーの水の存在によって、きらびやかな棒グラフに例えられています。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246380,
+    "id": "Jy5Kav39H7ui9tMP8NiBsAM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 433,
+      "total_tokens": 1246
+    }
+  }
+}

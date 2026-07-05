@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0093",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.88,
+  "ref_text_raw": "Sundarbans est une réserve naturelle depuis 1966, vous pourrez y trouver environ 400 tigres du Bengale royal et 30 000 cerfs tachetés.",
+  "ref_text_normalized": "sundarbans est une réserve naturelle depuis 1966 vous pourrez y trouver environ 400 tigres du bengale royal et 30 000 cerfs tachetés",
+  "timestamp_utc": "2026-07-05T05:09:42Z",
+  "text": "Sundarban est une réserve naturelle depuis 1966. Vous pourrez y trouver environ 400 tigres du Bengale royal et 30 000 cerfs tachetés.",
+  "latency_sec": 4.9798,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Sundarban est une réserve naturelle depuis 1966. Vous pourrez y trouver environ 400 tigres du Bengale royal et 30 000 cerfs tachetés.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "ErILCq8LARFNMg/61xTh4FnRCCu3FYBkByCGl8C426Ag17km9sB7LF4sR0d366uLhMCTeAKKd/TWy5In3+4Hdzsz7aj9JIkOzRueXrG9pUjY+S+yrwy3OTRUCbd3UgPaMHKiFtIzDBIGNwE+bt0U6Ee6NAFEZuDh5+m+RE7NCqq590HfSvqzvgxerDm4NIRjxl2C0c3zuf6fd4eE0Wu2KyDOas33buo8o+nrJpI939Sv0EDUJP7Ec2hfOu0aXJE7jkCSOzTnCrObYb4aIaaCD9EM8WRXEP3T2S0xClMneBt9J5OEloVQ2zhv6WNLZkp5MMV2IkCioD7WxmpVR+1tA/0bW1VsU/VW7l3/POZ5BaqGJTiYwxjWAIoSwaWWWLyci1cKpprnvu2oIbrnCzEcxhMWGWOTT9WR13IELmxoFlnG8XJmUseeolYrRUxc0Y2FHItBvRuhmU8mZzsaxJe8flELTrN2Oes+NVuh85c0X6h2Hz4ysbrPHzO79iAPd+5cTaA0QaYXfh1OQ8qsw2ibnp5ne4FFuRFT+JopRXSgTEviMczxTsVf/VbkUuzDwNpaa5LMtykJEg+B/6vnDCiucPPpulM51WpHJsEafegeiUTOuiN8qquNC6U+7yI7vcEB7nkFzGmvyATij/ebdNfANwb4ACYyRaRxLJ+Mxy13jLpZO/HvT2ak0QYuM0gC7+ccvVfF36YVnOnWZtsaFoMRLNpeHil0CnZLI6lQ0wIiRtO+DaKG+g4Rq57CFvKC1+seyVb0dUA4y2vKolT8e8PYwkwWI4hq1522nqM2tfSofS/WaOCJrVPOjqPThQYh0ftqPtd/JiBwm3Ud+G4iyoaos70f1YKtxYHMbJOwrurlmeKr4VplfMESI3qQMfF8LyAlVN23E71w36wD6uKi4CNVN1TvYNlBgK3KbMs9t4AvbAYJ7cO+9FD6AyL8C0gkeJuj3NHuVjAZNjm+sZLjOk6Ie65CxNa/BrtkU6p9BMZ8YRVvbUbZz7moCf+rs5I45suMMAt3Gi0MP2jNtGz2tcKedAjO90yczxwlgpO3EH8Y2VQOGsGAaw90EFw3xLjQpGlcKMtfYOkb/QL0tDRMzgeh862JaKfRSrv1RB3ExHZuWHSh+xUD6uUi09E2Mr34+FSgZuJkWlcIQuoFM+AKnDTxTDH4NCLCwiZLvl4+RqTSwrDcsmL/r5pIYQE76tatMTjgl/Y6TpJR+lbzyMYEUjKiQMfRHwvYSVAkl3tEdHTs7oHtBIUi0NA6I1XhJOafNTEO/Fnr1Ku3xb+KeYaeaXaLSZe3dOW2wjHBNCsNLVrTiPbLXpxborXb7n/8WUpaMSNFMvHvxXM5I6hnKnvK78EQSpqkyFCTl7q9Tg12zXu4txWcQZZVDgKnDFvqPahbNudxVwjRc0C6RxhohnxCIXqIJcyxDfPO5qjAeLUZVrm9op092kw7G47Bfgf9gEXex2oo+0D2LWeBtnnKjJBohdkKp7nKGOnGn4NWzMDv2H31tARFQiGKFV1cY5+uoZECH8AJ5gyNbwWdYOj0Fa1qGG2mhYx0As+ON2Lg9GHvkdYXtiyAXEuKIiwswo87Hwm9PHC/fYukGC+/faQoCOiWM1gCCtCDL7KErV8ZHchKfsSszdh/Ir20/7N/K0+SuEfWhFUuV4t3VdthNh642f7gIvXFDovw8r5PXe/AMKvkJAyuOvCxrT4Ca1SpTcvog+qNiCCaTd9RHe6fJisrWlrB4j83wtneGuk9MSX07vGZItRCW+frd7VWd0U1L0bZmfPNaAQqSgKp4lg6W9jbzF6WrjbkkN2niaBjK4LNOn15F2cpHO55275N/n0m+O4Tk3hUD9K11yuznkc38lvExJEw7VJaNGAgq11puMovr4ZUVb0E3sjECo1fG/D6vfIXwkohxEFBKHmT5UY+9/xYsUZU6Qfv319yH6cF"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228182,
+    "id": "EudJasnINa_f1e8Pio2NuQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 318,
+      "total_tokens": 793
+    }
+  }
+}

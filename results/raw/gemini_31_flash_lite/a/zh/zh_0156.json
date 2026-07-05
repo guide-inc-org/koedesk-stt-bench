@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0156",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.58,
+  "ref_text_raw": "但在队长输掉三柱门后，印度在结束这一局的比赛时只得了 36 分，输掉 7 个三柱门。",
+  "ref_text_normalized": "但 在 队 长 输 掉 三 柱 门 后 印 度 在 结 束 这 一 局 的 比 赛 时 只 得 了 36 分 输 掉 7 个 三 柱 门",
+  "timestamp_utc": "2026-07-05T09:20:01Z",
+  "text": "单在队长输掉三柱门后，印度在结束这一局的比赛时，只得了36分，输掉了七个三柱门。",
+  "latency_sec": 2.9592,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "单在队长输掉三柱门后，印度在结束这一局的比赛时，只得了36分，输掉了七个三柱门。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPdpBGRiDNr1bTtDxpLcbXrw7ACbCmwCNQFc+cwYXRLvnKTGNQ8mGWSb2cBKxb"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243201,
+    "id": "vyFKasCmO7bR0-kPp6yr6QI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 336,
+      "total_tokens": 369
+    }
+  }
+}

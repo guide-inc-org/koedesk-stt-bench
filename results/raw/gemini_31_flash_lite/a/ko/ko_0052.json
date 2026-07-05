@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0052",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.52,
+  "ref_text_raw": "스프링복스의 경우, 다섯 경기 연패를 기록했다.",
+  "ref_text_normalized": "스프링복스의 경우 다섯 경기 연패를 기록했다",
+  "timestamp_utc": "2026-07-05T06:21:58Z",
+  "text": "스프링복스의 경우 다섯 경기 연패를 기록했다.",
+  "latency_sec": 2.4401,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "스프링복스의 경우 다섯 경기 연패를 기록했다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPk2mmvNupNTMR3F18anSe8AQ3cm/M+l9AK2vUTKtKM3pMZeufydY/f9wku0fm"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232518,
+    "id": "BPhJaoLzOtCivr0P-6eduQE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 14,
+      "prompt_tokens": 234,
+      "total_tokens": 248
+    }
+  }
+}

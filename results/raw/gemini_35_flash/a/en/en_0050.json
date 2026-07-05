@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0050",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.78,
+  "ref_text_raw": "The harbor was the site of an infamous naval standoff in 1889 when seven ships from Germany, the US, and Britain refused to leave the harbor.",
+  "ref_text_normalized": "the harbor was the site of an infamous naval standoff in 1889 when seven ships from germany the us and britain refused to leave the harbor",
+  "timestamp_utc": "2026-07-05T10:30:23Z",
+  "text": "The harbor was the site of an infamous naval standoff in 1889 when seven ships from Germany, the US and Britain refused to leave the harbor.",
+  "latency_sec": 3.5954,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The harbor was the site of an infamous naval standoff in 1889 when seven ships from Germany, the US and Britain refused to leave the harbor.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EooFCocFARFNMg9KXZBaUhhpebCOGztIdRPa8YYR7WTrGuE4FxaHPzfw/upp1aMsql5rKuZzQN72GrOhhw2cTnHiJThaMR+x4yZLSykunmQLb+YO/wDnbAk2Gos8QVOw7vRsBY/iCEgQJKu43xDBTkYGwEd+iY3D3hametmlChbf27KUxJ1rWT1W7Zd6/20o4foFfrCCYS8qpY3Zm3tcX/FQ+jaLboQ8QIAv2DgVZGkckZyFKMKpo3qVl/PqSf6LPkCNFCXlWdp4MKxElaUBmc6IDqY2jf750WZwnUmPq9RfzHSIJZC2nOkbbnZi8ufjALnaaN6oH5lmOm7kY6+ltJ3AzQSf/BjsawLmMBGU9f3QreHqAJUiL6EPfvlTlrjFRJUkUlng4vWS7vZWVqlgvmBSUJ99yxEkMFTXdrr8xwoVcT+TXPricbnOVP5aZ/6ldBW70hr95qQSQL/5YYdu0EMtMI/n/DqPunGcCmhKG0eWL/deFEs/scEnY1kkxxkneD6bMgYMtNUI78webcjTGiFUS91Bz15oT8yOx/FyLVTNjcRPtTEUuV2pslsrBLH4ZtZ4n3EKJsaGofjLvjYWp8VDiKxIgbll+6uCEu3P1pJhGn0aep/t7QVxAfpRClLZEMY/wioWEiNqERQritWlcI301JDE6+jNQr14D5vHgwAgd8UnDL9nfrGXcNEIPBDtowpg1W9Vb+c3Eb9XjiouXBC7YwfUkFt8+OCcdTlq4pNR7Jy5qvBZl158v6jv4Hazrv67cciXiG/EdsQnla+rgaNuudYlYMeO3AZNXhdxFGsL05gu3Uaz1bEyE4OvxgCmM2XfaGKs3fJid2CA2mhXBe/IdPgVFOZ2zVQYjwE="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247424,
+    "id": "PTJKaqqgJ-znosUP7JmIyQY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 341,
+      "total_tokens": 515
+    }
+  }
+}

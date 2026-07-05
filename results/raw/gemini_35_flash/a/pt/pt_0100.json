@@ -1,0 +1,45 @@
+{
+  "utt_id": "pt_0100",
+  "lang": "pt",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.92,
+  "ref_text_raw": "O próprio veículo foi tirado do local do acidente mais ou menos às 12h GMT do mesmo dia.",
+  "ref_text_normalized": "o próprio veículo foi tirado do local do acidente mais ou menos às 12h gmt do mesmo dia",
+  "timestamp_utc": "2026-07-05T06:51:31Z",
+  "text": "O próprio veículo foi tirado do local do acidente mais ou menos às 12 horas GMT do mesmo dia.",
+  "latency_sec": 3.9294,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "O próprio veículo foi tirado do local do acidente mais ou menos às 12 horas GMT do mesmo dia.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Er8GCrwGARFNMg+MWnJoEyUKkZ7tSyGdtBsG1J2ZAMPt1LqaaXuluLA0Qgpa0WoXRnWW//G6u4g2om7hSABY91hEc5pB4u0RlNt+iEkNwGJtcSOBNE2U5/0D9pJhNUhl1QnWFBwk0ti/Oyj7p+mSLk9ggmsUZtoTOsLFDAg9p3jVNGtXC2lqbWKLPGL9Oxl1BZRBIMQkF9oin95O5VbWmoob5nbJentjclEUV8FulCxpnz4rxJ59JzYg/wNlhBtM4/G4yIae0vlEFLRFWGmYwHgY2+sm4rbJLkamugs8E2hMchkgUH0lcfuZB9qbXv8Kff73RFwtlykGGBWCiUk++VgXxdTWSCuv914tZ0vq57MXK0eiZGHUqrmfgruZrZlseA3N8s68Yt1Z9/7hkX+xyENEZ1YUoy2w+n2v6BbX5pP96vzg26BBn0IzYs60LhoxfZK3uHYA61V+uIfDA2J1aDoMwio5XVevKh9f1Sn31y2Msl3NkZlescA5qaTgCc1W/dbfeQVnx3rBSc/O/lrLFLIq2iEZAI1NW9JpCkOmVpEd16VXtZ5rKBIbtGGChoqQSvxR8JWJiQz8UziohaQWgQWaH3TRkIs66svvhoKMG3x5jkekCML3N7SiZwoYAuAyngpEy7yGti8a30MYbQr9jyywe5c70MH2iZaKLcFF6EWQ/098IvTiZmlO13eUtVlgvuyVj6MjOBoARqgcQS3kXXrJeYlvUp+wGOyPh8Pl1GsZG5WFJBvF83xfb5G+oVTG/9Fy0mbUbucaTN/oA030yYy15KPsgWsCV4d3qtX49/17HJst2dfMtM50M2dHGYBCk6BOgJsGyiT35Ku2hN/+/CIpBfPce4/TF2B8oNxDzWzJWivc+6eZIGLNzHy4y6kJQ12goP3qG1bu4iVH+3B4poGETKiIEGkl45c2PWQSxFhN3YAX2qKQuAD2TF4peDIgQagb7q9PLsXGEjpbckULeSaDuanyZaCK1wGx+d1JSVG4CYe7aULN1CikZ72Y96LLKAG4YN2nfPFFU7L172EiWVnYYXxw/0/z2yIWl1YGDRcRIiIuxC0Jm37cwo38VvxFxU+APJE+dQHzSEAvjVwdt2aY"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234291,
+    "id": "8P5JauelJ9TM1e8Pof6vuQc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 294,
+      "total_tokens": 551
+    }
+  }
+}

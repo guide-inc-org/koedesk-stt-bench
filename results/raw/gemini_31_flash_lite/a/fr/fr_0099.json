@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0099",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.48,
+  "ref_text_raw": "Les gens écrivent maintenant des messages sur des écrans d'ordinateur, sans jamais avoir à s'approcher d'un taille-crayon.",
+  "ref_text_normalized": "les gens écrivent maintenant des messages sur des écrans d'ordinateur sans jamais avoir à s'approcher d'un taille-crayon",
+  "timestamp_utc": "2026-07-05T05:15:39Z",
+  "text": "Les gens écrivent maintenant des messages sur des écrans d'ordinateur sans jamais avoir à s'approcher d'un crayon.",
+  "latency_sec": 2.902,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Les gens écrivent maintenant des messages sur des écrans d'ordinateur sans jamais avoir à s'approcher d'un crayon.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP9DvKYkG7LYJolfrOkYjSfrY6tMptEU4uiIM1UtFQ4Rs/SFZyddss8SqlsDKf"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228539,
+    "id": "eehJauO0Ja7H0-kPsbugkQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 258,
+      "total_tokens": 286
+    }
+  }
+}

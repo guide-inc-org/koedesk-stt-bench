@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0015",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 13.68,
+  "ref_text_raw": "La professeur Pamela Ferguson, de l’université de Dundee, note que « les journalistes semblent suivre une ligne dangereuse s’ils publient des photos, etc. de suspects ».",
+  "ref_text_normalized": "la professeur pamela ferguson de l’université de dundee note que « les journalistes semblent suivre une ligne dangereuse s’ils publient des photos etc. de suspects »",
+  "timestamp_utc": "2026-07-05T04:46:32Z",
+  "text": "La professeur Pamela Ferguson de l'université de Dundee note que les journalistes semblent suivre une ligne dangereuse s'ils publient des photos, et cetera, de suspect.",
+  "latency_sec": 3.4151,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "La professeur Pamela Ferguson de l'université de Dundee note que les journalistes semblent suivre une ligne dangereuse s'ils publient des photos, et cetera, de suspect.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226792,
+    "id": "puFJarY2i6XV7w-rtqGpAg",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 459,
+      "total_tokens": 519
+    }
+  }
+}

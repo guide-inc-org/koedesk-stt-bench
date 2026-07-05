@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0092",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.14,
+  "ref_text_raw": "Im Jahr 1990 wurde es aufgrund der Bedrohung durch Wüstensand zur Liste der gefährdeten Weltkulturerbegebiete hinzugefügt.",
+  "ref_text_normalized": "im jahr 1990 wurde es aufgrund der bedrohung durch wüstensand zur liste der gefährdeten weltkulturerbegebiete hinzugefügt",
+  "timestamp_utc": "2026-07-05T03:47:04Z",
+  "text": "Im Jahr 1990 wurde es aufgrund der Bedrohung durch Wüstensand zur Liste der gefährdeten Weltkulturerbegebiete hinzugefügt.",
+  "latency_sec": 4.0445,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Im Jahr 1990 wurde es aufgrund der Bedrohung durch Wüstensand zur Liste der gefährdeten Weltkulturerbegebiete hinzugefügt.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223224,
+    "id": "tdNJavjWHaKw0-kP6bjO4AU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 250,
+      "total_tokens": 310
+    }
+  }
+}

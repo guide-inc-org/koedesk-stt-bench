@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0164",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 11.34,
+  "ref_text_raw": "California Governor Arnold Schwarzenegger signed into law a bill that bans the sale or rental of violent video games to minors.",
+  "ref_text_normalized": "california governor arnold schwarzenegger signed into law a bill that bans the sale or rental of violent video games to minors",
+  "timestamp_utc": "2026-07-05T03:29:46Z",
+  "text": "California Governor Arnold Schwarzenegger signed into law a bill that bans the sale or rental of violent video games to minors.",
+  "latency_sec": 4.1456,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "California Governor Arnold Schwarzenegger signed into law a bill that bans the sale or rental of violent video games to minors.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222186,
+    "id": "p89Jav6vMKG2vr0PqrfGqAE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 384,
+      "total_tokens": 464
+    }
+  }
+}

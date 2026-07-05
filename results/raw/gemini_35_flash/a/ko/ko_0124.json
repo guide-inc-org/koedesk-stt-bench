@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0124",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 13.5,
+  "ref_text_raw": "무리는 1~3마리의 동족 성인 수컷과 무려 30마리에 이르는 암컷과 새끼로 구성됩니다.",
+  "ref_text_normalized": "무리는 1~3마리의 동족 성인 수컷과 무려 30마리에 이르는 암컷과 새끼로 구성됩니다",
+  "timestamp_utc": "2026-07-05T06:20:31Z",
+  "text": "무리는 일부터 세 마리의 동맹 관계인 수컷과 무려 삼십 마리에 이르는 암컷과 새끼로 구성됩니다.",
+  "latency_sec": 8.7057,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "무리는 일부터 세 마리의 동맹 관계인 수컷과 무려 삼십 마리에 이르는 암컷과 새끼로 구성됩니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232431,
+    "id": "qPdJatbzGOSf1e8PgNPzwAE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 359,
+      "total_tokens": 1593
+    }
+  }
+}

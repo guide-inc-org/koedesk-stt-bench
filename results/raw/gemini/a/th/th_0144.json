@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0144",
+  "lang": "th",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.78,
+  "ref_text_raw": "อาการช็อกเมื่อกลับประเทศบ้านเกิดจะเกิดขึ้นเร็วกว่าอาการช็อกทางวัฒนธรรม (มีระยะแรกสั้นกว่า) คงอยู่นานกว่า และอาจรุนแรงกว่า",
+  "ref_text_normalized": "อาการช็อกเมื่อกลับประเทศบ้านเกิดจะเกิดขึ้นเร็วกว่าอาการช็อกทางวัฒนธรรม มีระยะแรกสั้นกว่า คงอยู่นานกว่า และอาจรุนแรงกว่า",
+  "timestamp_utc": "2026-07-05T07:46:06Z",
+  "text": "อาการช็อกเมื่อกลับประเทศบ้านเกิดจะเกิดขึ้นเร็วกว่าอาการช็อกทางวัฒนธรรม มีระยะแรกสั้นกว่า อยู่คงนานกว่า และอาจรุนแรงกว่า",
+  "latency_sec": 3.9087,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "อาการช็อกเมื่อกลับประเทศบ้านเกิดจะเกิดขึ้นเร็วกว่าอาการช็อกทางวัฒนธรรม มีระยะแรกสั้นกว่า อยู่คงนานกว่า และอาจรุนแรงกว่า",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237567,
+    "id": "vAtKaqS0GK7H0-kPsbugkQU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 334,
+      "total_tokens": 541
+    }
+  }
+}

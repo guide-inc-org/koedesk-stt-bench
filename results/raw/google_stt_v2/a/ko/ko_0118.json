@@ -1,0 +1,36 @@
+{
+  "utt_id": "ko_0118",
+  "lang": "ko",
+  "engine": "google_stt_v2",
+  "duration_sec": 14.88,
+  "ref_text_raw": "지각(crust)이 더 얇기 때문에 가까운 쪽에 마리아(maria)가 더 많을 수 있다. 용암이 수면 위로 솟아오르기가 더 쉬운 조건이다.",
+  "ref_text_normalized": "지각crust이 더 얇기 때문에 가까운 쪽에 마리아maria가 더 많을 수 있다. 용암이 수면 위로 솟아오르기가 더 쉬운 조건이다",
+  "timestamp_utc": "2026-07-05T05:01:13Z",
+  "text": "지각이 더 얇기 때문에, 가까운 쪽에 마리아가 더 많을 수 있다. 용암이 수면 위로 솟아오르기가 더 쉬운 조건이다.",
+  "latency_sec": 5.4742,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "ko-KR",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "15s",
+      "requestId": "6defc063-0000-22a7-9cdb-582429ad3d3c",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "지각이 더 얇기 때문에, 가까운 쪽에 마리아가 더 많을 수 있다. 용암이 수면 위로 솟아오르기가 더 쉬운 조건이다."
+          }
+        ],
+        "languageCode": "ko-KR"
+      }
+    ]
+  }
+}

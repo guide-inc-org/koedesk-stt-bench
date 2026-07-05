@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0143",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 17.64,
+  "ref_text_raw": "ภาษาราชการของบาร์เซโลนาได้แก่ภาษาคาตาลันและภาษาสเปน ประชากรประมาณครึ่งหนึ่งนิยมพูดภาษาคาตาลันมากกว่า ผู้คนส่วนใหญ่เข้าใจภาษานี้ และเกือบทุกคนรู้ภาษาสเปน",
+  "ref_text_normalized": "ภาษาราชการของบาร์เซโลนาได้แก่ภาษาคาตาลันและภาษาสเปน ประชากรประมาณครึ่งหนึ่งนิยมพูดภาษาคาตาลันมากกว่า ผู้คนส่วนใหญ่เข้าใจภาษานี้ และเกือบทุกคนรู้ภาษาสเปน",
+  "timestamp_utc": "2026-07-05T08:09:44Z",
+  "text": "ภาษาราชการของบาร์เซโลนา ได้แก่ ภาษาคาตาลัน และภาษาสเปน ประชากรประมาณครึ่งหนึ่งนิยมพูดภาษาคาตาลันมากกว่า ผู้คนส่วนใหญ่เข้าใจภาษานี้ และเกือบทุกคนรู้ภาษาสเปน",
+  "latency_sec": 3.5918,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ภาษาราชการของบาร์เซโลนา ได้แก่ ภาษาคาตาลัน และภาษาสเปน ประชากรประมาณครึ่งหนึ่งนิยมพูดภาษาคาตาลันมากกว่า ผู้คนส่วนใหญ่เข้าใจภาษานี้ และเกือบทุกคนรู้ภาษาสเปน",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPE2Sno7Y2STKCFvrmalYvliE6wgQtoeyjE0bNq2+p4joJrvXMO3r6MdZQ2x3h"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238984,
+    "id": "RxFKaqA2mdXV7w_DrN-ABA",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 52,
+      "prompt_tokens": 462,
+      "total_tokens": 514
+    }
+  }
+}

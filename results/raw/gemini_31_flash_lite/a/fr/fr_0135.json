@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0135",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.76,
+  "ref_text_raw": "Aucune alerte au tsunami n’a été émise et, selon l’agence de géophysique de Jakarta, aucune alerte au tsunami ne sera émise parce que le séisme n’a pas atteint la magnitude 6,5 requise.",
+  "ref_text_normalized": "aucune alerte au tsunami n'a été émise et selon l'agence de géophysique de jakarta aucune alerte au tsunami ne sera émise parce que le séisme n'a pas atteint la magnitude 6,5 requise",
+  "timestamp_utc": "2026-07-05T05:17:52Z",
+  "text": "Aucune alerte au tsunami n'a été émise et selon l'agence de géophysique de Jakarta, aucune alerte au tsunami ne sera émise parce que le séisme n'a pas atteint la magnitude 6,5 requise.",
+  "latency_sec": 3.0139,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Aucune alerte au tsunami n'a été émise et selon l'agence de géophysique de Jakarta, aucune alerte au tsunami ne sera émise parce que le séisme n'a pas atteint la magnitude 6,5 requise.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPGspco5nl7VIG0l0cYN2khsdR+mWqez941qWWZIUBh56jma9h6JZ2H8BU0TYy"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228672,
+    "id": "_uhJapHSM4-_vr0P4-jhmAM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 52,
+      "prompt_tokens": 390,
+      "total_tokens": 442
+    }
+  }
+}

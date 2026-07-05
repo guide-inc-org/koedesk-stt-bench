@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0099",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.28,
+  "ref_text_raw": "Не видно ничего кроме чистого прекрасного неба над головой и множества окружающих гор. Из глубины пещеры можно видеть и слышать лишь очень малую часть этого мира.",
+  "ref_text_normalized": "не видно ничего кроме чистого прекрасного неба над головой и множества окружающих гор из глубины пещеры можно видеть и слышать лишь очень малую часть этого мира",
+  "timestamp_utc": "2026-07-05T07:33:08Z",
+  "text": "Не видя ничего, кроме чистого прекрасного неба над головой и множество окружающих гор. Из глубины пещеры можно видеть и слышать лишь очень малую часть этого мира.",
+  "latency_sec": 3.3667,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Не видя ничего, кроме чистого прекрасного неба над головой и множество окружающих гор. Из глубины пещеры можно видеть и слышать лишь очень малую часть этого мира.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPuR5fvmWtPKC61gj5efRM6CZnG/1ibuscHWIO+QoJBPerRpHIodpMcYBubDx0"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236788,
+    "id": "sQhKarzEOpHNrfcPvY_ZsAY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 303,
+      "total_tokens": 342
+    }
+  }
+}

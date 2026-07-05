@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0055",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 14.58,
+  "ref_text_raw": "La semaine dernière, le METI a annoncé qu’Apple l’avait informé de 34 incidents de surchauffe supplémentaires, que la société a qualifiés de « non graves ».",
+  "ref_text_normalized": "la semaine dernière le meti a annoncé qu’apple l’avait informé de 34 incidents de surchauffe supplémentaires que la société a qualifiés de « non graves »",
+  "timestamp_utc": "2026-07-05T05:06:02Z",
+  "text": "La semaine dernière, le METI a annoncé qu'Apple avait informé de 34 accidents de surchauffe supplémentaires que la société a qualifiés de non graves.",
+  "latency_sec": 4.8544,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "La semaine dernière, le METI a annoncé qu'Apple avait informé de 34 accidents de surchauffe supplémentaires que la société a qualifiés de non graves.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227962,
+    "id": "NuZJapi8N-GHvr0PvZC5oQg",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 386,
+      "total_tokens": 837
+    }
+  }
+}

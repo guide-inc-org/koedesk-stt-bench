@@ -1,0 +1,45 @@
+{
+  "utt_id": "pt_0058",
+  "lang": "pt",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.76,
+  "ref_text_raw": "No entanto, isso não é verdade. Embora haja algo escrito no verso do documento, não é um mapa do tesouro.",
+  "ref_text_normalized": "no entanto isso não é verdade embora haja algo escrito no verso do documento não é um mapa do tesouro",
+  "timestamp_utc": "2026-07-05T06:47:40Z",
+  "text": "No entanto, isso não é verdade. Embora haja algo escrito no verso do documento, não é um mapa do tesouro.",
+  "latency_sec": 3.4604,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "No entanto, isso não é verdade. Embora haja algo escrito no verso do documento, não é um mapa do tesouro.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Eu4FCusFARFNMg/AzVBFN/riJ/C/xf5fE8rjKDVKn8yqVms3JS9hSkokJW/ihJlIVas7EnLI7l6fpg+J34xt2rcpvhdK532xlrbnd08mjmNax6ybuqaAn1ggA80F73fQYlyuZXEpJqGU5XCQajdWD/eD/AhmhQYcFSs3Jc5OMjmoSegCfDkMxQMAICQth3Y3ET1noMHtud3XSAgKRsMcQMrYjSJGNusV2+aMuTEaWAuQIWZtZ3+UoguGBbUpZwRMccasXy2geK3K1RWNuHJWvCiKe8NB9oAnmCEd5BqR7yeZMyt9BvSkxZy00Hhco60Q+Bdx6i+JzizREqXVLvEsB0ugPtpivqvqPz7tcOLi8i1bB0Rf8kD6whxF1XkVZM6nIDvFa1F0kndm/5aIb49diKNqn+x+GnRdRdq0KWqYXtw4OBa1986Q3IVFvo7bHVy/FTXQ6Hk9bwj338SJRcgq3T1NOpTBKsrwwtOfMC14vwIgk7ol4zCj9U8tFL3pg7fcoS3AhFjl5mJGtgzR/F295SZbNm8djRg/cs3+UFR7dkljWVmETHTqtE+8uQjsfWBVuSFypWuOfdFhjzCuVc5sjqo6RUO8itSSN6qnYSXdrbfJQuc+EqzIapkxsP1OmClcMO7c/dKs020W78to1WBn75VmpO7B5LLXoZQOkQT3t/EVbQs6astBOn7ha1WDRy57hm0Ra3rOqF8Bs3HuRQCzx+U3Ui9B7saLLSqF1v7YecO9EN3foAQs88Ol9XizEHqRUYSnLOVopkH1bWUKcaLe78IHe1xikNIS4TXy/MeIPy7x+JHjUd3JgBDfzJPpUt9mfbQBnDOMv3PHgn5ldzNEJXEh9zGHWYdaC7/D3auhwjGe5h5KnbuNvW4Ny4GFDbrTL3d4HbqxF670wnQOPiM0UbMcypYQloZpuArScjXwCpZs+6Mm1TthivrB/fnWKg3zkITTbl60Oc25QbIWoZzUofEbJe9R6R4L0wyJohUUKLWc"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234060,
+    "id": "Cf5JasjLMuCzvr0P57qd6Ac",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 240,
+      "total_tokens": 443
+    }
+  }
+}

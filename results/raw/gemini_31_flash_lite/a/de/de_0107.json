@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0107",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.98,
+  "ref_text_raw": "Er fügte hinzu, dass „sie jedoch nicht dazu aufgefordert werden sollten, Verpflichtungen einzugehen, die über ihren Entwicklungsstand, ihre Verantwortung und ihre Fähigkeiten hinausgehen“.",
+  "ref_text_normalized": "er fügte hinzu dass sie jedoch nicht dazu aufgefordert werden sollten verpflichtungen einzugehen die über ihren entwicklungsstand ihre verantwortung und ihre fähigkeiten hinausgehen",
+  "timestamp_utc": "2026-07-05T04:06:14Z",
+  "text": "Er fügte hinzu, dass sie jedoch nicht dazu aufgefordert werden sollten, Verpflichtungen einzugehen, die über ihren Entwicklungsstand, ihre Verantwortung und ihre Fähigkeiten hinausgehen.",
+  "latency_sec": 2.6576,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Er fügte hinzu, dass sie jedoch nicht dazu aufgefordert werden sollten, Verpflichtungen einzugehen, die über ihren Entwicklungsstand, ihre Verantwortung und ihre Fähigkeiten hinausgehen.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPNkX0i5nbFM/R9M1RjeBUf4OhyhnYnK4rlTsaJF/mH5oVst6l/omiiOZclq2Q"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224374,
+    "id": "NdhJatybHfjG2roPjLn34AI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 371,
+      "total_tokens": 408
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0022",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.44,
+  "ref_text_raw": "หมู่เกาะแห่งนี้อยู่ห่างจากคาบสมุทร 120 กม. ไปทางทิศเหนือ เกาะที่ใหญ่ที่สุดคือเกาะคิงจอร์จซึ่งเป็นที่ตั้งของวิลลา ลาส เอสเตรลลาส",
+  "ref_text_normalized": "หมู่เกาะแห่งนี้อยู่ห่างจากคาบสมุทร 120 กม. ไปทางทิศเหนือ เกาะที่ใหญ่ที่สุดคือเกาะคิงจอร์จซึ่งเป็นที่ตั้งของวิลลา ลาส เอสเตรลลาส",
+  "timestamp_utc": "2026-07-05T08:02:01Z",
+  "text": "หมู่ เกาะ แห่ง นี้ อยู่ ห่าง จาก คาบ สมุทร 120 กม. ไป ทาง ทิศ เหนือ และ เกาะ ที่ ใหญ่ ที่ สุด คือ เกาะ คิง จอร์จ ซึ่ง เป็น ที่ ตั้ง ของ วิลล่า ลาส เอสเตลลา ส์",
+  "latency_sec": 2.897,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "หมู่ เกาะ แห่ง นี้ อยู่ ห่าง จาก คาบ สมุทร 120 กม. ไป ทาง ทิศ เหนือ และ เกาะ ที่ ใหญ่ ที่ สุด คือ เกาะ คิง จอร์จ ซึ่ง เป็น ที่ ตั้ง ของ วิลล่า ลาส เอสเตลลา ส์",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP+qEyac/oxcYjcrPIkkBjBa7viw/y7ZwH/GrzjxduiwG06uPrOCCw5481dUKG"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238521,
+    "id": "dw9KapuMKe6j2roPp6OfsQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 59,
+      "prompt_tokens": 282,
+      "total_tokens": 341
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0081",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 15.06,
+  "ref_text_raw": "The Giza Plateau, or \"Giza Necropolis\" in the Egyptian Valley of the Dead contains several pyramids (of which the great pyramid is the largest), several small tombs, several temples, and the great Sphinx.",
+  "ref_text_normalized": "the giza plateau or giza necropolis in the egyptian valley of the dead contains several pyramids of which the great pyramid is the largest several small tombs several temples and the great sphinx",
+  "timestamp_utc": "2026-07-05T10:32:51Z",
+  "text": "The Giza plateau or Giza Necropolis in the Egyptian Valley of the Dead contains several pyramids, of which the Great Pyramid is the largest, several tombs, several temples, and the Great Sphinx.",
+  "latency_sec": 5.8596,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The Giza plateau or Giza Necropolis in the Egyptian Valley of the Dead contains several pyramids, of which the Great Pyramid is the largest, several tombs, several temples, and the Great Sphinx.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247571,
+    "id": "zzJKatjFGbbR0-kPp6yr6QI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 398,
+      "total_tokens": 1051
+    }
+  }
+}

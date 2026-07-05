@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0040",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 5.78,
+  "ref_text_raw": "But there are a lot of things about birds that still look like a dinosaur.",
+  "ref_text_normalized": "but there are a lot of things about birds that still look like a dinosaur",
+  "timestamp_utc": "2026-07-05T10:29:36Z",
+  "text": "But there are a lot of things about birds that still look like a dinosaur.",
+  "latency_sec": 3.7337,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "But there are a lot of things about birds that still look like a dinosaur.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "ErAECq0EARFNMg8+wnO3BV5pB2OShpPIqd7dXWbz1KKgkRYyu86jhnGqGdzcF5UOzDxFCB89Q49Aju4nznsvl8zY7uTubrVRYAJMXdM3Grutm7+xb92hnVTwIImb1eks+Dz7a9wJ2eYQV6716KOjAHr0eioenvoXNvPRYQmrWn6m5Er0soTBv2UYZozHWL2YRcQNy6Of9uOqS7m59Rhr0bYbdKN3ThsH7D14YelW0vrvt9qyTG7a0l6HGSoGz09tL1uODicls01xhk19lbK56btm09VVFPPYJTyLno1Djyc+G8Rft1DM2IEV0Uv1DiqTFhMM5fm5cFuIdmyG7Jk3coQSq2qdI87CsIzdnWo4vcdDmaAa794dHF9c1vNB9qSp9KYzMyu4aT8CS7mb6k7nAYp1a6tXNWI+aZEJ17HcU4hOK+vjcrIPJjE/pqE3bJzg7wscSFAEk7+axqAS/KzoMZhsLf/lG8SmGYdkA2AZW6vnJDDUA7GWhm+gk8/whVozFXEEHd4nep8h3PRmiYz+IFWmz0/DnuUwQX/5nk8BfaceZBrBuLR6Jj/ezacRiRYDGGlIG+1IZ9JF4nM/ypQwHl/DCx3Xa5St7SgJh2uLPAZHmsWq6u/mryhs90qqyXjttblvSirm/jJpcp7w2JNeWLDOhWNc8hh4/W5eMZ5grvIQlPxGiIjp2l56eLI1iwI+iJitvBEfIAlVL6lx5fb/pIi5hR+ejoCjHNYoNIaURZErao0="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247376,
+    "id": "DTJKasaULYfNrfcP8aSW8AI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 166,
+      "total_tokens": 315
+    }
+  }
+}

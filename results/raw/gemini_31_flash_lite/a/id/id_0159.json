@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0159",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.38,
+  "ref_text_raw": "Mereka memiliki kaki dengan sisik dan cakar, bertelur, dan berjalan dengan dua kaki belakang seperti T-Rex.",
+  "ref_text_normalized": "mereka memiliki kaki dengan sisik dan cakar bertelur dan berjalan dengan dua kaki belakang seperti t-rex",
+  "timestamp_utc": "2026-07-05T05:54:50Z",
+  "text": "Mereka memiliki kaki dengan sisik dan cakar, bertelur dan berjalan dengan dua kaki belakang seperti T-Rex.",
+  "latency_sec": 3.507,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Mereka memiliki kaki dengan sisik dan cakar, bertelur dan berjalan dengan dua kaki belakang seperti T-Rex.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPlxsPAb0YrllCkJhLon4JiO69dseUoG9bQEYIsd+6VTbnVLIS6cEiquoauFJj"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230891,
+    "id": "qPFJatn9MLup2roP26eg2QY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 281,
+      "total_tokens": 306
+    }
+  }
+}

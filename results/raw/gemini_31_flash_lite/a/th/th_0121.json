@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0121",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.38,
+  "ref_text_raw": "นักกีฏวิทยาเรียกแมลงกลุ่มนี้ในลักษณะที่เป็นทางการว่าแมลงปีกแข็ง",
+  "ref_text_normalized": "นักกีฏวิทยาเรียกแมลงกลุ่มนี้ในลักษณะที่เป็นทางการว่าแมลงปีกแข็ง",
+  "timestamp_utc": "2026-07-05T08:08:22Z",
+  "text": "นักกีฏวิทยาเรียกแมลงกลุ่มนี้ในลักษณะที่เป็นทางการว่าแมลงปีกแข็ง",
+  "latency_sec": 3.1532,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "นักกีฏวิทยาเรียกแมลงกลุ่มนี้ในลักษณะที่เป็นทางการว่าแมลงปีกแข็ง",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPhLXGE9CiGRal/XISW+x2amjwQKkiaFiD/LK3vuF3rFF7taWF5p254EvzWENn"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238902,
+    "id": "9BBKapfrHJja1e8P6IqesQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 206,
+      "total_tokens": 225
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0022",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.44,
+  "ref_text_raw": "As a result, two fish species have become extinct, and two others have become endangered, including the humpback chub.",
+  "ref_text_normalized": "as a result two fish species have become extinct and two others have become endangered including the humpback chub",
+  "timestamp_utc": "2026-07-05T10:28:16Z",
+  "text": "As a result, two fish species have become extinct and two others have become endangered, including the humpback chub.",
+  "latency_sec": 3.166,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "As a result, two fish species have become extinct and two others have become endangered, including the humpback chub.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpUDCpIDARFNMg9Hsox8Qf2yEWxzc0Y0/R7xr3V1ssIokmJNiJj9mq+usYKp07A3qFkFi0SQjFlamEMNGC9PiXQEvLqj5v1eQz5YlzGjcRW4DtHL+DrZfB5ibSBhIT0qavp/vrsXppcT/CuVsuP2lr4z3nMs80aENP4g0Wk/5N3EITzjvDRqyRGpKUKJdYOtvfyWpLPKRd15X2T3sshjOVaUtktOlWh6AAG5Mv249+z4vIqmMQbg/0Ec07JphWvDhJiNql0LbKAQM3N6dVcJ4mBJWTl7P4CBvPPf0R/IgvDMltvszoHySxxGYTRHn8xb6EO7RBjXj0QnaIclHIsPF0Tn0k0uZCxfwrhHZfBJZ2IIgUtbdxSZN0ZfgGzOubOb2p3Dntt9h9bTwSvo0O2bFnVNFvbInzPzEOuoPSxkgXm6TGm3Xqi+QTEe6DZH8vwCsq5fo3IR2cfJ5Bt2+4pGwNNbRJS1l9mSnXSJo0keEhcyw+c3u6l83DEOivF6KxWwefUyv6Qh2mpLYsoX8ZrAGCJ6Cwh0hAuF"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247296,
+    "id": "vjFKaobPOYrW1e8Py5HYyAE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 307,
+      "total_tokens": 403
+    }
+  }
+}

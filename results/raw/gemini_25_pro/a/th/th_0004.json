@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0004",
+  "lang": "th",
+  "engine": "gemini_25_pro",
+  "duration_sec": 7.5,
+  "ref_text_raw": "พวกเขาเดินทางกลับปารีสในรถม้าซึ่งรายล้อมด้วยฝูงชนที่ตะคอกและข่มขู่พระมหากษัตริย์และพระราชินี",
+  "ref_text_normalized": "พวกเขาเดินทางกลับปารีสในรถม้าซึ่งรายล้อมด้วยฝูงชนที่ตะคอกและข่มขู่พระมหากษัตริย์และพระราชินี",
+  "timestamp_utc": "2026-07-05T07:39:41Z",
+  "text": "พวกเขาเดินทางกลับปารีสไปในรถม้าซึ่งรายล้อมด้วยฝูงชนที่ตะคอกและข่มขู่พระมหากษัตริย์และพระราชินี",
+  "latency_sec": 4.4052,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "พวกเขาเดินทางกลับปารีสไปในรถม้าซึ่งรายล้อมด้วยฝูงชนที่ตะคอกและข่มขู่พระมหากษัตริย์และพระราชินี",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237182,
+    "id": "OgpKar34JLCr0-kPhJ6suQM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 42,
+      "prompt_tokens": 261,
+      "total_tokens": 447
+    }
+  }
+}

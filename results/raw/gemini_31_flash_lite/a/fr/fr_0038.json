@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0038",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.74,
+  "ref_text_raw": "Les courants d'arrachement sont les courants qui reviennent des vagues qui se brisent sur la plage, souvent sur un écueil ou équivalent.",
+  "ref_text_normalized": "les courants d'arrachement sont les courants qui reviennent des vagues qui se brisent sur la plage souvent sur un écueil ou équivalent",
+  "timestamp_utc": "2026-07-05T05:11:47Z",
+  "text": "Les courants d'arrachement sont des courants qui reviennent des vagues qui se brisent sur la plage, souvent sur un écueil ou équivalent.",
+  "latency_sec": 2.7695,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Les courants d'arrachement sont des courants qui reviennent des vagues qui se brisent sur la plage, souvent sur un écueil ou équivalent.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP0OJ9OkhEb4j1behx/SvIKaLCAtzOMfY/R84UU0x5N6AzNceqYUfD6X2g877N"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228307,
+    "id": "kedJas_7PL3KrfcPzfG_-QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 290,
+      "total_tokens": 323
+    }
+  }
+}

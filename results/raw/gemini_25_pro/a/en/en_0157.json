@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0157",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.72,
+  "ref_text_raw": "Children are placed in Foster Care for a wide variety of reasons that range from neglect, to abuse, and even to extortion.",
+  "ref_text_normalized": "children are placed in foster care for a wide variety of reasons that range from neglect to abuse and even to extortion",
+  "timestamp_utc": "2026-07-05T03:29:08Z",
+  "text": "Children are placed in foster care for a wide variety of reasons that range from neglect to abuse and even to extortion.",
+  "latency_sec": 5.8033,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Children are placed in foster care for a wide variety of reasons that range from neglect to abuse and even to extortion.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222148,
+    "id": "gM9JapTaM9q20-kPqrmQ0QM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 365,
+      "total_tokens": 578
+    }
+  }
+}

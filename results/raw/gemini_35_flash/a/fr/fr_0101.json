@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0101",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.88,
+  "ref_text_raw": "Il a ajouté qu’« on ne devrait cependant pas leur demander d’assumer des obligations qui dépassent leur stade de développement, leur responsabilité et leurs capacités. »",
+  "ref_text_normalized": "il a ajouté qu’« on ne devrait cependant pas leur demander d’assumer des obligations qui dépassent leur stade de développement leur responsabilité et leurs capacités. »",
+  "timestamp_utc": "2026-07-05T05:10:22Z",
+  "text": "Il a ajouté qu'on ne devrait cependant pas leur demander d'assumer les obligations qui dépassent leur stade de développement, leur responsabilité et leur capacité.",
+  "latency_sec": 5.6312,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Il a ajouté qu'on ne devrait cependant pas leur demander d'assumer les obligations qui dépassent leur stade de développement, leur responsabilité et leur capacité.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228222,
+    "id": "OudJauGtB4fEvr0P5fGP6AE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 318,
+      "total_tokens": 927
+    }
+  }
+}

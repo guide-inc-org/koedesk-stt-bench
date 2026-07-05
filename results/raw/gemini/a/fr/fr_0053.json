@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0053",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.64,
+  "ref_text_raw": "Si vous ne vous rendez à terre qu'avec des excursions de croisière, vous n'aurez pas besoin d'un visa distinct (à partir de 2009).",
+  "ref_text_normalized": "si vous ne vous rendez à terre qu'avec des excursions de croisière vous n'aurez pas besoin d'un visa distinct à partir de 2009",
+  "timestamp_utc": "2026-07-05T04:49:17Z",
+  "text": "Si vous ne vous rendez à terre qu'avec des excursions de croisière, vous n'aurez pas besoin d'un visa distinct à partir de 2009.",
+  "latency_sec": 3.96,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Si vous ne vous rendez à terre qu'avec des excursions de croisière, vous n'aurez pas besoin d'un visa distinct à partir de 2009.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226957,
+    "id": "SuJJatSCKpWJ1e8PhMDXiQU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 394,
+      "total_tokens": 506
+    }
+  }
+}

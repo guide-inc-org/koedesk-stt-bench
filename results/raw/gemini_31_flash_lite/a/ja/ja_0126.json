@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0126",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.6,
+  "ref_text_raw": "小さい島々の大半は独立国か、またはフランスに関係する国々であり、有名な高級ビーチリゾートもあります。",
+  "ref_text_normalized": "小さい島々の大半は独立国か またはフランスに関係する国々であり 有名な高級ビーチリゾートもあります",
+  "timestamp_utc": "2026-07-05T03:18:44Z",
+  "text": "小さい 島々 の 大半 は 独立 国 か 、 または フランス に 関係 する 国々 で あり 、 有名 な 高級 ビーチ リゾート も あり ます 。",
+  "latency_sec": 2.9273,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "小さい 島々 の 大半 は 独立 国 か 、 または フランス に 関係 する 国々 で あり 、 有名 な 高級 ビーチ リゾート も あり ます 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPAJffydCM29Y7pwUkkDnrsr8qq8NN2rzHwJDbId0x17tyLm0yg8iCyq9J0wuf"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221525,
+    "id": "E81JasG0IcD21e8P0dn2qQE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 336,
+      "total_tokens": 370
+    }
+  }
+}

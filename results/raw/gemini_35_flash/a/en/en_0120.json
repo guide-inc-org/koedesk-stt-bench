@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0120",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.72,
+  "ref_text_raw": "The cabbage juice changes color depending on how acidic or basic (alkaline) the chemical is.",
+  "ref_text_normalized": "the cabbage juice changes color depending on how acidic or basic alkaline the chemical is",
+  "timestamp_utc": "2026-07-05T03:33:40Z",
+  "text": "The cabbage juice changes colors depending on how acidic or basic, alkaline, the chemical is.",
+  "latency_sec": 3.4934,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The cabbage juice changes colors depending on how acidic or basic, alkaline, the chemical is.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EsMFCsAFARFNMg9ve25r/TCBlY1RMRokvsk9j35oYJoRo71fOdvdFM0lhFxz/4S5WaurmglONdtDm8qexEt6Geo+W5caaenhkdR+dcXDsE/JyUM+kGPKjHDZvoRB5J2k6i1EHjdOZeySQq5ewHlZGhgBRaptyaRLc+KkvF4ReAhvlzbenWp0s6hZF9azR6OfOX8oE2LA2xEsFzUdL1Jl3zICL1sRYZPnhoL+EjnZhpjOHOzhKWKG9mYHnZJ7heBvLP0cJ7WSdqgUCp6tB9ojv2GcGEUecjKYnoBj9otyXmVhp/IFNTPvtNJae/snT3uDxPdZ+twbfGl4LJVcIzaEUWjrjcBh/CASyF9dtoL+tUCOuyN4/9v/k1anpnRjCVkg7ia4N4ujp7ybU30qEptVSlQFMJdPX5J6dxTSJ3UQZWnfMTCkHBi/OWpqxFJMeYNo2L0tt07c8dgy8zOkcj9IUpMzEe0U3mzTNAhTBrvprTcUCpTHy8DVplKDjW5X0BjAiJ/u8LI04fJFN3ShoGf/wl4X/YH9XIgERPpGxn9bGZEAhmny5gUNlqlwmidDx2DeSRmzSNbKFiruAhrnBLODqjgJUAjX6l+hcHfsAMD8KJJpa3tBZ/kWMygnU0W7rYf0e2yLltmuaYECaO+bQ1dP/eUa7t86ucfQoqoaSrauXsUPcDmFecDpJd6/kmAZLFavxNaiCdYKuluO3vJd5VAHFwTVzMpw82HeRLDa4CXqi2S08OJmJsjGwO1N4jO9xOU0cMj2hILYccI4G1WMIi1bgMowyJF3alc6tAWplpuMWBgOuDDxCBUvwO5Y1NmLoJBKIVLmuAgwVyMmEYCp2Z1Xklnfp09THDhOvDu7CA6OEUUZkBkxm0GADxzGfVPZNzUJYtBhlrStuGfh25EzUR+O57wmVNYh3dJ3FGGXIL9BYrO7pyCgCb8="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222420,
+    "id": "ktBJau7WHNTf1e8PvLbrwQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 189,
+      "total_tokens": 375
+    }
+  }
+}

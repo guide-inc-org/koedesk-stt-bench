@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0000",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.2,
+  "ref_text_raw": "L’accident a eu lieu en terrain montagneux, et il semblerait que cela ait été causé par un incendie malveillant.",
+  "ref_text_normalized": "l'accident a eu lieu en terrain montagneux et il semblerait que cela ait été causé par un incendie malveillant",
+  "timestamp_utc": "2026-07-05T05:00:56Z",
+  "text": "L'accident a eu lieu en terrain montagneux et il semblerait que cela ait été causé par un incendie malveillant.",
+  "latency_sec": 4.7679,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "L'accident a eu lieu en terrain montagneux et il semblerait que cela ait été causé par un incendie malveillant.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpoLCpcLARFNMg/fcDb3mr4NPOkfqpLHLQ2bOfWSc/D2PHveCgV9NTXDQgz7N/7Cp01JZpBWnc9Pwm39vyxiDZFzwd0NzuEc4i21zaYAK6y4jVG2ZyC26d8fLF0kFw5I1XBVayNjlEdJKx9ejab7gkgJ6HbLDxxvZ1MGzinaRQsWraeP5M9fRziHP98vFrgNrBiHPeVpo4TIcI4Btwj8c9fhw4argGgIVOIya5UaHZAzCGxkHHrwVNqwerz+bgSaoZTY7OvZAoLNfxkSzJuu8kHGWGMxepYNf74RpOzkHqOpiEh1WYaspsAphRJGtN0EDIk/lyf34/Zhesp+khiv7TSqzNFysBYd6yZB66Kl/WQCJTK8l1WrQvhMITZO9pH3K8fLvmbZRTIJWqbpSF0i0pIokvNTbtjU5dGt4T2sFVgW5dWbFfPU4tMhl1BN3ldAafiKnaVD4AklomML/tMx5eMdPNqhBq4S7z9vF8U/KTxpBi/HTijvtMntQPf3sHHBK4JqCaG2DVRswMImiE3MscxcRZYo3WFHhjm7Ppq+t7hp5+OVpLiEaoKVOPE6Yydc7gSvJLcpXQbk8Tec88ld1nNnViV9dfe+TdZdyLVcujkqEnwjHIITQQJlvHIccq98e51S0nYssRBgILrkbeGbPn5Lr8iTFRQb0xUbR5tgAIe9/wbbtcGqZP1qd1bDDS4J8MxRbwOYbpUterc8Xou7fDUJgd6BRSy+zfX8QQtRI5i0QvNs7NZWb7B4QnT2MQtkswHgqVZJu3hUTAgDZXMCkLEl641p9kNu+iethtiUQE4g5hAZv4d/tSpWmgQszw2uoM9EV0h2Wmf9/sXeVlOMo3LxDemoR6D4L7KbhURmMo4hp2I9tvbbWZbf81OU56+sjhjVMWoDM+WoiJ1xU0KalI7lN85sRQgBbdDcylO+A7lrsfX/g+JhqecIoJaPUT3FFWPHGuH/Y58dmf+xUwie89KCjisBfhDb4IxsBIQZAmAq4QD6P/pl12I/pyVV2fo7sa9S57v19lDLpd82WyMqBvo1iof6MSxX2151ccyyuiKoRMsLX7kfHus2yBuAmqGY9jZ6AILI/XgQUdWrTyCEKWe733drq1/dnVGrgOpHxvIumZQIXL4xSKjKFWYOzpGf6aG3DUoz0g24zB2AOpmXs4glvieVynbdwq9owMuNRdpIgFYBZgznkBLR+ELxslhHel06tkZGdY9XR2xNXNt4eOa5emnecqaRr9Wga3VJoHhY8jsNy7eeg2So6Tgcg74jSObJAESNyXHbEQrNcDpGbi2s0Xjm81kzFH5j07Cq5X8822zrEGyItZ5mtamdEevAVUPHjREA/NAH2yTtN6ayJ3u7bem3AHFFMOwgzYQlfGZhHz3WFQJ4i6qVYIUhO3VQbPEQTx6p+xqpvI0hxXHKY09auHV2XPGwxfugJ4fnqmrKoTPYjGKUfILgBAhHrZbxoAyVKzoQOL95grIlWgfPY8AXu3uNLsVI9nU1glAs/NLdvHwYyVz5qU4rooZB1E97ry1LfsVtkjIrRtvVqgCZXQux6bOrVdjwJoaa5ZiVedMdhCzHfoi26PmchfBda5qSSDj5upUFTFo2k7ezjD7VGnI+3alireaM462Tn8yr//co2GJtn5Jx3N+4sMz7LuaQp/2W8VTR9G12P3E5w5v743nzIL9dq1sovRZVAq9oL2zaDl53XWTyp++8oy3eak9A8oFHHIxsqoRtOheEJJuR1xd/MpMfK8hQAxATuslsaQdYfUZa9delulxCEecwUDFtWhxbkwL9FNVxK2Bo/pQlhlgsJixyzOVdZNFSbh7K82RiWoSC4Q2kBwYAEwgUShtpLpNNbLhGZbe3WQcm4ZrE/BuT3TE39pf0OyuFxQ5IFS8fvA5dDBvo4nCNAyXd"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227656,
+    "id": "BeVJare0ENLM1e8PlJ7zgQc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 276,
+      "total_tokens": 661
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0160",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 8.04,
+  "ref_text_raw": "しかし、現在も鳥の外観は多くの点で恐竜に似ています。",
+  "ref_text_normalized": "しかし 現在も鳥の外観は多くの点で恐竜に似ています",
+  "timestamp_utc": "2026-07-05T03:12:58Z",
+  "text": "しかし現在も鳥の外観は多くの点で恐竜に似ています。",
+  "latency_sec": 4.9096,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "しかし現在も鳥の外観は多くの点で恐竜に似ています。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221178,
+    "id": "t8tJapT5BuGHvr0PvZC5oQg",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 15,
+      "prompt_tokens": 279,
+      "total_tokens": 515
+    }
+  }
+}

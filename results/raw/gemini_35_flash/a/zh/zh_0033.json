@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0033",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.5,
+  "ref_text_raw": "海地正义与民主研究所 (Haitian Institute for Justice and Democracy) 引用的独立研究表明，是尼泊尔的联合国维和部队在不知情的情况下将这种疾病带到了海地。",
+  "ref_text_normalized": "海 地 正 义 与 民 主 研 究 所 haitian institute for justice and democracy 引 用 的 独 立 研 究 表 明 是 尼 泊 尔 的 联 合 国 维 和 部 队 在 不 知 情 的 情 况 下 将 这 种 疾 病 带 到 了 海 地",
+  "timestamp_utc": "2026-07-05T09:08:22Z",
+  "text": "海地正义与民主研究所引用的独立研究表明是尼泊尔的联合国维和部队在不知情的情况下将这种疾病带到了海地。",
+  "latency_sec": 4.3337,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "海地正义与民主研究所引用的独立研究表明是尼泊尔的联合国维和部队在不知情的情况下将这种疾病带到了海地。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EssKCsgKARFNMg8jDYfmWUqoj9+bBQiL8td47IGeD1nb4KQbCPgCT2JJzepdZUgFyauWaFI0k6ED/53+O43pRyhfEbbQzXPfCASM8QvWC4u+6H8fz881wxh5/CfDrG7iz1jSgQ4CObFcyfcvMZ+NuZK3G8oV8WAFVE3tmE1iP2x/mKD4jmpB+OHucSVEObMWz0UtCkJ8qIKWCzc1XTjmGE/A2mekZVbUF/HMofzhHY/Kf2LEDLWItax0OW/H9DAD0Dz5ghmZ5RmIJ+UwBTFEeiSTb3U2TilDZ6nN0l413Hr7LjN8y9b7G4DEsSIYUddAG3R4xHO0qikI475JgflplpKp5s6hWgJ3JZpJof+hNN7V7kfdxd1Du1T06Gd2V8RUzdRenbI9L1a++nFJlmBwlGXi0fIMAeMlXlE7Gr4lzG5od3XoFTgqjf80kvkhwBE9Eq2FgSEj45QGkw8hD9Wap1YdMqmO+7TOK1MoSuWYmZjrmtiUbmhY4A6QyBkvAbJcCjLiSnz9wiRC118wzjsoAmnYmwa12pA6Gjo1IbbCdRS8w4UpiV4NsWx2ZR10b6u5pdHpWfHMaROE/+XlvHiUtw5sOW5oe+XV+bgMuPtic7DK3VLm74Gn11/BQJxpehCiijIjnXwcaHMa/hsqy9f+IYkO4isA3p+DsYmNdXTQa2XZiKLhCOaRRvY+4a7BGTtL/8rmRFx8bOE1SWJbrteH40PJEDpb2ITe982ql6WNVdG5bak0lvhyYbRSu71zKGS6N8sW1YwQg5ZX+3w1dmv1RyH8bApTuXMRgKA7PN7exoqpTaGrMcCMZByCpB9LUlQhdogQUyqvta5KLgBEoQdXx4uGobR4QU/ksFRaUtJc1XfK5epzEWryEkcGIxQAQXZGrMmX9wfapEw4llRtIDalIEnX2q3oiCw/TFw3h9vVcmaGS8WSkykX1zf05c6JtjjMyNKblYzxeTZ5DhZ+myKpFRKqgEKwhK7ceDF/NaI8UBdllPft1hviBHuNew4hlZcjWUXtZDHhkgJK4sMECgGkr4tBOkD3h3Ja5uxdmIzH9a5m6shtK40k/Ynhaexy1c45SvIc20wbttoAl79zDlaPWtThkr7V4Nms/BHxEEYMY7q6fkqPyz87WphUZf2daur0YSTwlLk1q6Fqk3pupq6Z/NLh3s/1NUfmZO7P+XvaIYN6tfmifSHySj0WVulE9IVsgs+C47wdGxTqDwTTWAvu4fbl71nZknTFOenAW/0aDbFOCj+eLjQI1J5MUdXVM7kNRQEW+d1dwdlKijVBzK7+XusQ+JZbgVg6dWhlQv3UniCuuBjaYFnrtDEBptLQQ64Ox8OpA8lDIVXZ0Rf2n9+rqWQaSXP0qzdifkWDL+gIU2z/AihV6jMokc7fBqjTLcn4PwhHv3tPYAXujhoAYOKTlVolXq5chMhVZXjsB/3TpITAxPjPaHNAoGNj9m5sIKKbbJKI/B/Vckyt9PsZj11rj5pvrN4gAlaBnxaiy83QbGcm4Minc6AXgTlpgjufXX0bhKFBTDtwNImFYETaEVksTLOXUZKKOSlxhj6kybDEQcv+b3D9FbY96FqLvid0TxXZE3BH4W0M47P35vJFmleyZaGmM8AzBa8a1bGO+JZmARtB29P5ihZG8F+DdT9xTDxVI/nHFQM6GXU4mxKDPwZ9oV1rqI7fcEXxyILq4VWCnc25G65WR5KPDn5asDn1FEjqlxQygq0ikQ1beD3wbevPZ+a2uyMroSae07o1Gkfmku3JJQqbLVw+ejrne0bW96lst1aexx3ylsEVzUM5J44="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242502,
+    "id": "Ax9KarWgKrmVvr0PopTJiQc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 284,
+      "total_tokens": 628
+    }
+  }
+}

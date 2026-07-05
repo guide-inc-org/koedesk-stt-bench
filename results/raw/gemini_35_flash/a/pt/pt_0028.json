@@ -1,0 +1,45 @@
+{
+  "utt_id": "pt_0028",
+  "lang": "pt",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 20.28,
+  "ref_text_raw": "Embora ninguém saiba ao certo quem a escreveu, é sabido que, no início de sua existência, o grande documento de pergaminho (ele mede 29¾ polegadas por 24½ polegadas) foi enrolado para ser armazenado.",
+  "ref_text_normalized": "embora ninguém saiba ao certo quem a escreveu é sabido que no início de sua existência o grande documento de pergaminho ele mede 29¾ polegadas por 24½ polegadas foi enrolado para ser armazenado",
+  "timestamp_utc": "2026-07-05T06:45:10Z",
+  "text": "Embora ninguém saiba ao certo quem escreveu, é sabido que, no início de sua existência, o grande documento de pergaminho, ele mede 29 e três quartos polegadas por 24 e meio polegadas, foi enrolado para ser armazenado.",
+  "latency_sec": 5.7328,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Embora ninguém saiba ao certo quem escreveu, é sabido que, no início de sua existência, o grande documento de pergaminho, ele mede 29 e três quartos polegadas por 24 e meio polegadas, foi enrolado para ser armazenado.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783233910,
+    "id": "cv1JasT0IMmrvr0Ps4zPyAI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 56,
+      "prompt_tokens": 528,
+      "total_tokens": 1178
+    }
+  }
+}

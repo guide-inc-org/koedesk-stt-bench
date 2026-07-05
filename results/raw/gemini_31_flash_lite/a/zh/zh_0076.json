@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0076",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.46,
+  "ref_text_raw": "六名人质（包括儿童和老人在内）以及那些菲律宾摄影师被提前释放。",
+  "ref_text_normalized": "六 名 人 质 包 括 儿 童 和 老 人 在 内 以 及 那 些 菲 律 宾 摄 影 师 被 提 前 释 放",
+  "timestamp_utc": "2026-07-05T09:15:12Z",
+  "text": "6名人质，包括儿童和老人在内，以及那些菲律宾摄影师被提前释放。",
+  "latency_sec": 2.6181,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "6名人质，包括儿童和老人在内，以及那些菲律宾摄影师被提前释放。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP4MxHX5KEtkHX26QMCyIkULR0fUPTuOlp8zR1MfvHSEzwWZmSP7eV+Nh2etIY"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242912,
+    "id": "nyBKaoeED-nn2roPlKW22Ao",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 233,
+      "total_tokens": 255
+    }
+  }
+}

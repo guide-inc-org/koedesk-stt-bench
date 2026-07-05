@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0021",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.88,
+  "ref_text_raw": "Лаккха Сингх исполнил чхаппан бхог бхаджан.  Певец Раджу Кханделвал пел вместе с ним.",
+  "ref_text_normalized": "лаккха сингх исполнил чхаппан бхог бхаджан певец раджу кханделвал пел вместе с ним",
+  "timestamp_utc": "2026-07-05T07:28:18Z",
+  "text": "Лакх Сингх исполнил Чаппан Пхок Пхаджан, певец Раджу Кханделвал пел вместе с ним.",
+  "latency_sec": 2.5372,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Лакх Сингх исполнил Чаппан Пхок Пхаджан, певец Раджу Кханделвал пел вместе с ним.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPyvDwhI6YK3tftTsRcApoAjPdk04qOpJGkF4JxwIsFxaNcKM1vCrdcagC5iyU"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236498,
+    "id": "kAdKaqroKpj_1e8PrLe2mQQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 244,
+      "total_tokens": 278
+    }
+  }
+}

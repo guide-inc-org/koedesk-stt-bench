@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0199",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 4.8,
+  "ref_text_raw": "Wenn man eine romanische Sprache spricht, ist es  natürlich leichter, Portugiesisch zu erlernen.",
+  "ref_text_normalized": "wenn man eine romanische sprache spricht ist es natürlich leichter portugiesisch zu erlernen",
+  "timestamp_utc": "2026-07-05T04:12:46Z",
+  "text": "Wenn man eine romanische Sprache spricht, ist es natürlich leichter, Portugiesisch zu lernen.",
+  "latency_sec": 4.5455,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Wenn man eine romanische Sprache spricht, ist es natürlich leichter, Portugiesisch zu lernen.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpEGCo4GARFNMg+ATDc8aPFSByG2kwF6SLAcBasgMHJwBZyFiJyUU+3vWma7UKGugPB8yrg5XtQUw5vvJg4CIJmasQVPa72goeKkGI3cax1G3TREHWnUqZM6qUekO7z7ZbR3mnzD/4tXp+7cNVdL7jAySBSJi0god8QzwIO2jBgdbKiXbUcVN8fVtD/139GJDrVpaeWpTZ94H8/3Dsb4vK8KTWeV1L6m2/FjTFCpsx0SFxVESO2cJHeFNxfTt7mDVD5UFqKN+ekemlDfG7YWfZs+GD/45pjBd9+I0v2A5nYwsxeYD4ZjKkbsa0aZAmQ5mOuP4R6WSLcegqbtL5wuyz1dHiDkVQBVEvfL2FlTMDP/NGYiZUtGw0qX211RDE9stgevFW3v46ghv4MC60HGvb0I9S9qXqoH2XCjMjHQBIyPlpGdEHGIXxRIs9Ym68DAmdiKzCT4sCCKPr5TJMKvodeEyP98S4vfMHifRUftBc9sns9Til3Qmo3U1RDz7CLcOOTpPO9DLAGipCPrp9H/yP5aVh6S7VzMmlx66mxMakLPOxa/z19nRDa5eb1V7eRPCKtuyAf7IaUg8V2iu4vrGS8X+WDs87jF6o73ijhz3NEAIsaRoALP3elH/vynPNgMJVlaSljwGpx4UhBbtmK7repTozrqZIfRlzzGnW0olRXoDSdslF3i37qoHI6uW22gu+7282P/U6g17zTHXaRr+IHSjtlV03zpDb3XlafHMYy6DddmIm/CSftEFOv9/0DDVf8qC+C5W4MchFNJzK0tIxbpw7s0GtGQneGANrGdVJlwy7INwUuy5RTzRgB4bcurwb/UF4eGvEWMxZ3WJNI3FHFkf/yEk3ZpLnb1L+i56S66xxKw9pjPDKlOBQekCGjDDaiUjJcdSl64BpzRZak1+xPbLcNcBWfChzbhdaYEFIncPHyI1Wlp2RLWqq4XK5NgpdYqPLlVjMc3wt0NXuMAcgRAUa55KFFnwchiqaOI+aP12no12LGkzyK9RWB0oLREgWRGx8dqBnZjgR7hKVJDuT+wsEs="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224766,
+    "id": "vNlJaov0Aq2l0-kP_9TT2QM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 141,
+      "total_tokens": 399
+    }
+  }
+}

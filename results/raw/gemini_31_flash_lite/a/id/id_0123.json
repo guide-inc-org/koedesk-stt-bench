@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0123",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.34,
+  "ref_text_raw": "Haiti tak menemui kendala terkait penyakit itu sejak era 1800-an, sebelum pasukan datang.",
+  "ref_text_normalized": "haiti tak menemui kendala terkait penyakit itu sejak era 1800-an sebelum pasukan datang",
+  "timestamp_utc": "2026-07-05T05:52:36Z",
+  "text": "Haiti tak menemui kendala terkait penyakit itu sejak 1800-an sebelum pasukan datang.",
+  "latency_sec": 2.678,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Haiti tak menemui kendala terkait penyakit itu sejak 1800-an sebelum pasukan datang.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPJxVvfdpxodhzoY8NPXwdsm1aGsC3bcsulGgaTpA7MtzemTtmb9V2TiDZvsV2"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230756,
+    "id": "I_FJasP8G7if0-kPzJPfgAc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 230,
+      "total_tokens": 252
+    }
+  }
+}

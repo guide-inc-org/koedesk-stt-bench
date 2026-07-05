@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0078",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.08,
+  "ref_text_raw": "Los investigadores indicaron que los dos compuestos reaccionan entre sí para dar lugar a cristales que pueden obstruir la función renal.",
+  "ref_text_normalized": "los investigadores indicaron que los dos compuestos reaccionan entre sí para dar lugar a cristales que pueden obstruir la función renal",
+  "timestamp_utc": "2026-07-05T04:38:25Z",
+  "text": "Los investigadores indicaron que los dos compuestos reaccionan entre sí para dar lugar a cristales que pueden obstruir la función renal.",
+  "latency_sec": 3.3926,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Los investigadores indicaron que los dos compuestos reaccionan entre sí para dar lugar a cristales que pueden obstruir la función renal.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPs7hKA34KqjH6d+N4sxbPWZwiwmePk3QIJP/PTK/XpbEpoohIohO4AL+Lb1On"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226305,
+    "id": "v99JavTnL7yyvr0Pp7y7iQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 273,
+      "total_tokens": 300
+    }
+  }
+}

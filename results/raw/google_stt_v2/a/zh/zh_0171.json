@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0171",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 10.2,
+  "ref_text_raw": "坠机发生在高海拔山区，据称是敌方火力所致。",
+  "ref_text_normalized": "坠 机 发 生 在 高 海 拔 山 区 据 称 是 敌 方 火 力 所 致",
+  "timestamp_utc": "2026-07-05T06:33:27Z",
+  "text": "坠机发生在高海拔山区，据称是敌方火力所致。",
+  "latency_sec": 4.1293,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "11s",
+      "requestId": "7a04aa58-0000-2f81-a876-d4f547eefc14",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "坠机发生在高海拔山区，据称是敌方火力所致。"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

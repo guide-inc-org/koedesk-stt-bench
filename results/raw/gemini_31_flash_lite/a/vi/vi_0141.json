@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0141",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.94,
+  "ref_text_raw": "Các cảnh được chiếu trên kim tự tháp và các kim tự tháp khác nhau được thắp sáng.",
+  "ref_text_normalized": "các cảnh được chiếu trên kim tự tháp và các kim tự tháp khác nhau được thắp sáng",
+  "timestamp_utc": "2026-07-05T08:46:08Z",
+  "text": "Các cảnh được chiếu trên kim tự tháp và các kim tự tháp khác nhau được thắp sáng.",
+  "latency_sec": 2.5605,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Các cảnh được chiếu trên kim tự tháp và các kim tự tháp khác nhau được thắp sáng.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPH77ouj6FIaN8IKkyL1OhASaWq+HUsCD7TqKFdWsHLUKlzuKw0xNWpo6TDZia"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241168,
+    "id": "zhlKapH-MPnC0-kP-o-AoAM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 245,
+      "total_tokens": 267
+    }
+  }
+}

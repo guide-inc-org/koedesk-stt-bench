@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0045",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.0,
+  "ref_text_raw": "บางคนเห็นด้วยกับความคิดของเขา แต่อีกหลายคนเชื่อในทางตรงข้ามว่าระบบสุริยะ รวมทั้งดวงอาทิตย์ (และแม้แต่ดาวฤกษ์ดวงอื่น ๆ) เคลื่อนที่รอบโลก",
+  "ref_text_normalized": "บางคนเห็นด้วยกับความคิดของเขา แต่อีกหลายคนเชื่อในทางตรงข้ามว่าระบบสุริยะ รวมทั้งดวงอาทิตย์ และแม้แต่ดาวฤกษ์ดวงอื่น ๆ เคลื่อนที่รอบโลก",
+  "timestamp_utc": "2026-07-05T08:03:25Z",
+  "text": "บางคนเห็นด้วยกับความคิดของเขา แต่อีกหลายคนเชื่อในทางตรงข้ามว่าระบบสุริยะ รวมทั้งดวงอาทิตย์ และแม้แต่ดาวฤกษ์ดวงอื่นๆ เคลื่อนที่รอบโลก",
+  "latency_sec": 3.8516,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "บางคนเห็นด้วยกับความคิดของเขา แต่อีกหลายคนเชื่อในทางตรงข้ามว่าระบบสุริยะ รวมทั้งดวงอาทิตย์ และแม้แต่ดาวฤกษ์ดวงอื่นๆ เคลื่อนที่รอบโลก",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPK9hynUqD/kIJ9c7neFneGRHv1qWgYTQsOEmBTQZMwEsVNnqQllQj8wtDEq5L"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238606,
+    "id": "zA9Kaq7XDbyo1e8Prpqp8QY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 48,
+      "prompt_tokens": 321,
+      "total_tokens": 369
+    }
+  }
+}

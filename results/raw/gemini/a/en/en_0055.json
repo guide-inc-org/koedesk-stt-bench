@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0055",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 6.18,
+  "ref_text_raw": "Scientists hope to understand how planets form, especially how the Earth formed, since comets collided with the Earth long ago.",
+  "ref_text_normalized": "scientists hope to understand how planets form especially how the earth formed since comets collided with the earth long ago",
+  "timestamp_utc": "2026-07-05T10:23:11Z",
+  "text": "Scientists hope to understand how planets form, especially how the Earth formed, since comets collided with the Earth long ago.",
+  "latency_sec": 3.4985,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Scientists hope to understand how planets form, especially how the Earth formed, since comets collided with the Earth long ago.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246991,
+    "id": "jDBKatORMpjCvr0PiamC4A8",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 219,
+      "total_tokens": 267
+    }
+  }
+}

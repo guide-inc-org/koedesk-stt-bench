@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0023",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.96,
+  "ref_text_raw": "Ion hidrogen adalah proton yang elektronnya dilucuti (sebab atom Hidrogen memiliki satu proton dan satu elektron).",
+  "ref_text_normalized": "ion hidrogen adalah proton yang elektronnya dilucuti sebab atom hidrogen memiliki satu proton dan satu elektron",
+  "timestamp_utc": "2026-07-05T05:46:17Z",
+  "text": "Ion hidrogen adalah proton yang elektronnya dilucuti sebab atom hidrogen memiliki satu proton dan satu elektron.",
+  "latency_sec": 3.1303,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Ion hidrogen adalah proton yang elektronnya dilucuti sebab atom hidrogen memiliki satu proton dan satu elektron.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPvZalZX6RN29F3V5ySp9QmERKkIIq4v3qkjkJRYAortcoYwN39YxkxZoWwDel"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230377,
+    "id": "p-9JapKwG8fJ0-kPwvvLoAE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 271,
+      "total_tokens": 293
+    }
+  }
+}

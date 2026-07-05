@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0095",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.06,
+  "ref_text_raw": "Не подвергайте ткань воздействию слишком высокой температуры (что может привести к усадке или в очень редких случаях к ожогу).",
+  "ref_text_normalized": "не подвергайте ткань воздействию слишком высокой температуры что может привести к усадке или в очень редких случаях к ожогу",
+  "timestamp_utc": "2026-07-05T07:32:52Z",
+  "text": "Не подвергайте ткань воздействию слишком высокой температуры, что может привести к усадке или, в очень редких случаях, к ожогу.",
+  "latency_sec": 3.4688,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Не подвергайте ткань воздействию слишком высокой температуры, что может привести к усадке или, в очень редких случаях, к ожогу.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPQHYuFSNiFbrkcpXluf9p+FwIjkOLGOMrlW7FxAapSsvlKKN9AGnR99rCusm5"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236772,
+    "id": "owhKasbsF_eZ0-kPrbzayQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 248,
+      "total_tokens": 280
+    }
+  }
+}

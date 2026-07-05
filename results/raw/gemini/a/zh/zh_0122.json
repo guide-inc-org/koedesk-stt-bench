@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0122",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.34,
+  "ref_text_raw": "例如，世界上最常见的静态图像摄影格式是 35mm 格式，这是胶片电影时代末期占主导地位的电影尺寸。",
+  "ref_text_normalized": "例 如 世 界 上 最 常 见 的 静 态 图 像 摄 影 格 式 是 35mm 格 式 这 是 胶 片 电 影 时 代 末 期 占 主 导 地 位 的 电 影 尺 寸",
+  "timestamp_utc": "2026-07-05T08:57:47Z",
+  "text": "例如,世界上最常見的靜態圖像攝影格式是35MM格式。這是膠片電影時代末期佔主導地位的電影尺寸。",
+  "latency_sec": 4.524,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "例如,世界上最常見的靜態圖像攝影格式是35MM格式。這是膠片電影時代末期佔主導地位的電影尺寸。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241867,
+    "id": "iBxKap6XGK2l0-kP_9TT2QM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 384,
+      "total_tokens": 701
+    }
+  }
+}

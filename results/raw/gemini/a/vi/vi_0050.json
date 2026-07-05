@@ -1,0 +1,39 @@
+{
+  "utt_id": "vi_0050",
+  "lang": "vi",
+  "engine": "gemini_25_flash",
+  "duration_sec": 22.2,
+  "ref_text_raw": "\"Bởi vì lông vũ của khủng long không có thân lông phát triển tốt được gọi là thân ống lông nhưng lại có các đặc điểm khác của lông vũ - tơ và lông tơ - nên các nhà nghiên cứu cho rằng thân ống lông có thể là sự phát triển tiến hóa sau này với những đặc điểm khác này.\"",
+  "ref_text_normalized": "bởi vì lông vũ của khủng long không có thân lông phát triển tốt được gọi là thân ống lông nhưng lại có các đặc điểm khác của lông vũ tơ và lông tơ nên các nhà nghiên cứu cho rằng thân ống lông có thể là sự phát triển tiến hóa sau này với những đặc điểm khác này",
+  "timestamp_utc": "2026-07-05T08:15:33Z",
+  "text": "Bởi vì lâm vũ của khủng long không có thân lông phát triển tốt, được gọi là thân ống lông, nhưng lại có các đặc điểm khác của lâm vũ, tơ và lông tơ. Nên các nhà nghiên cứu cho rằng thân ống lông có thể là sự phát triển tiến hóa sau này với những đặc điểm khác này.",
+  "latency_sec": 4.2298,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Bởi vì lâm vũ của khủng long không có thân lông phát triển tốt, được gọi là thân ống lông, nhưng lại có các đặc điểm khác của lâm vũ, tơ và lông tơ. Nên các nhà nghiên cứu cho rằng thân ống lông có thể là sự phát triển tiến hóa sau này với những đặc điểm khác này.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239333,
+    "id": "ohJKaoHdH52D0-kP0faGoAE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 68,
+      "prompt_tokens": 732,
+      "total_tokens": 825
+    }
+  }
+}

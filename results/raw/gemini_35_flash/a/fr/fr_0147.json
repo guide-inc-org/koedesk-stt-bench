@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0147",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.96,
+  "ref_text_raw": "Les scènes sont affichées sur les pyramides et les différentes pyramides sont éclairées.",
+  "ref_text_normalized": "les scènes sont affichées sur les pyramides et les différentes pyramides sont éclairées",
+  "timestamp_utc": "2026-07-05T05:14:24Z",
+  "text": "Les scènes sont affichées sur des pyramides et les différentes pyramides sont éclairées.",
+  "latency_sec": 3.5545,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Les scènes sont affichées sur des pyramides et les différentes pyramides sont éclairées.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "ErsGCrgGARFNMg92ThJvChC1DAcWriXeI1rCo9cI275vth7MSYnXYQ0HIC2e3VvPIs4xrnHeTiUJ12jY90P/Fsr7wdEZ1ruKovqsibjFAvRFj6qff4ayfZuH1KHLTXUPnE/DmyT9c5sV6Q+nu33U/E9Qdzif4jjZudRGrFyP9O0JF2f9A8uCpAV8dWIisafCEHA1RB0xaQgpKGNJnWhgnUdebNiUfQQNEeHEizg4u4Bx2DYBUqPiCikTjwcVjbd2eelYGMxskh4LlaqYgjslgcS74T8ymhACaWfAw8uLm7cj5DQVyWRyy/RCep4NBr2MJqmJabhgKC1/1+RdoCnVbOtkA2kGnQWn3fxePU0iFXsmyn6jRVd/kclLc8SqN26ykmQl18/TgdiFz3/Wb5WTqjG+rUyi0TRm4FCyCeu4Sh2t+f7p6vWGAM+QZfdTRK1usvwKeoc0l2nry0ZKbMnAJwv59Rpiczj1S+UL00FS9PCE2v2UxVB2Iv/RNgk8v6KJvM5Q804PlLBaK+pjBGs+YtTODk+XFs9DPln99aA8gRivvTMBsJYr/uWAyuFtijDJnAvvduE7pdPTxM3JOwTTjQ+vJJV76JSRTT/VOB3I3lnavnfSiYneLtFa0FKziSBBTbYtrFJqoIpJgbrPX3lQ0klnZA1SOzec2CATiQ4ivnv2cM4Apu/Wg6X+NkeaZMJIZPC8umJrT2ru+zUfUv986L9kRhFTz573/rTMQVoyZrzYID0TdxO3lGlyy95PIoF++cpJSoOpV/h6HhbF2f0NVJKWUcmVQCUj3iWNOqmnRPzqBoDi+DTKC7+lwvT1RzgBN6RMNKKXe0X0G5XhNcVANjoyNaBA7u/eUW1QDwVu2q+KaWY0EcrVv6n/oWXkRBGAujYqNzNZms6Y9IfQialX3/QuOJW5WA8LJlx5jkOlKVt6Y24TnSjX9d+nWPvj5ve1Z4gcTWg4MwmNIYJpA6qNT7cq9A96M/nAhgw49luCC0Wc6EVbkbxIb9WJTvD/FSRexsFl4+IY3s+Bt6tNvq0BisftHbOGKrREgNYIeB0EvGtr8Qjd8ym2LMMFVCTin4e9l8Y2pRRNr8EyS6xdh9o="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228464,
+    "id": "LehJaqLBMJnd2roP0-bGsQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 271,
+      "total_tokens": 504
+    }
+  }
+}

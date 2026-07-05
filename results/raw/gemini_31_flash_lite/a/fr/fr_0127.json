@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0127",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.92,
+  "ref_text_raw": "Depuis la fondation d'Asunción en 1537, le Paraguay a réussi à conserver une grande partie de son caractère et de son identité autochtones.",
+  "ref_text_normalized": "depuis la fondation d'asunción en 1537 le paraguay a réussi à conserver une grande partie de son caractère et de son identité autochtones",
+  "timestamp_utc": "2026-07-05T05:17:21Z",
+  "text": "Depuis la fondation d'Asunción en 1537, le Paraguay a réussi à conserver une grande partie de son caractère et de son identité autochtone.",
+  "latency_sec": 2.8148,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Depuis la fondation d'Asunción en 1537, le Paraguay a réussi à conserver une grande partie de son caractère et de son identité autochtone.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPB4N8oopzHc2nVDg5tb3dzmb3wMvHM3rQpO1fN3unIFObBxo+cVuwir+ipuNK"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228641,
+    "id": "4OhJauGXF_yk0-kP9PODwAc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 294,
+      "total_tokens": 329
+    }
+  }
+}

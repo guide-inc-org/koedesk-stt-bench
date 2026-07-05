@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0115",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.56,
+  "ref_text_raw": "피라미드 사운드와 광선 쇼는 이 지역에서 어린이들의 흥미를 가장 많이 끌어들이는 것들 중 하나입니다.",
+  "ref_text_normalized": "피라미드 사운드와 광선 쇼는 이 지역에서 어린이들의 흥미를 가장 많이 끌어들이는 것들 중 하나입니다",
+  "timestamp_utc": "2026-07-05T06:25:50Z",
+  "text": "피라미드 사운드와 광선 쇼는 이 지역에서 어린이들의 흥미를 가장 많이 끌어들이는 것들 중 하나입니다.",
+  "latency_sec": 2.7068,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "피라미드 사운드와 광선 쇼는 이 지역에서 어린이들의 흥미를 가장 많이 끌어들이는 것들 중 하나입니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPkGVZdb6JmbjZ2d/7wn5Ai3n+DtZ3JGaUHevGMxZK4QZm5wYaqwOi6bD2gkHX"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232750,
+    "id": "7PhJauWrOZWJ1e8PxbzN-QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 285,
+      "total_tokens": 317
+    }
+  }
+}

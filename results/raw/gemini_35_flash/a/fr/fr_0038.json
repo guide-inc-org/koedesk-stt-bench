@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0038",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.74,
+  "ref_text_raw": "Les courants d'arrachement sont les courants qui reviennent des vagues qui se brisent sur la plage, souvent sur un écueil ou équivalent.",
+  "ref_text_normalized": "les courants d'arrachement sont les courants qui reviennent des vagues qui se brisent sur la plage souvent sur un écueil ou équivalent",
+  "timestamp_utc": "2026-07-05T05:04:30Z",
+  "text": "Les courants d'arrachement sont des courants qui reviennent des vagues qui se brisent sur la plage, souvent sur un écueil ou équivalent.",
+  "latency_sec": 4.926,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Les courants d'arrachement sont des courants qui reviennent des vagues qui se brisent sur la plage, souvent sur un écueil ou équivalent.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpoLCpcLARFNMg/oo2d3D+knQQOWMCoV+2xerppXvMTe2cHlwrGYGb5UgQB76X8JuumD/OReTkaODbfu4HYgWtjfxvPpNGYMozWPB2dZzMKbRZzQpAGrUxnINZfHhOPlBytW+7gcwnbhZx11gFTsErwZQjfZTsRe6Lcm19to80u4sHehSrYtWnLyVzf88L6qwWfq9xuS24u4MDmXg7s6TrSB8kpNOm5Hi9sq2PdZ3zjTJ2CRtgVJmhwq5/glpgdznosxKsXUOYhVAk6wk/Nh3CXGey1JbZwWkM6SkqZ64bwxWt0DLyB0A7QxRP8bBd7pg2T0nTl8kKJ0PT++O9iXreVsIUy1zNM//RgjTUqwXGn2z50xoDZ1o3DH9GOlo9XndZrfaMhgpOkFS/06MUewPbthrrum6yTSPSmRw8vmUH710ZvgRvCkQalpHbnTBMIt27PqkPVvNmsEmhyQXmkJdowtJtJlv3/fehYk6twzaX8fpVRI3oIFnpdPBmvBLDXDLsf8NttOLyxPA4OY7GTUlzVA1PxqA34bp/wOuN8zMe/blTcVSEZLnVPfzItckhbWIViBVDU9hMhKFOemy/Pj4c6Bs3jj7LVpJFcAHVucz60r/Tl9PAWD/yMclQeAAqRxyyPd0yoryZKREjKuzg6ZAyEXa6EOnkMkKGMVqWA9vkLVKNyCRRG/sNjm4suMVNbe6aEhg9ZQC5joH//8jZhxAfJOXoGBVN5wHjf3RFZmkxsu2Iuxe6dmr5o66JoEGMhUkf3TzwkkvJq1iVTGFH52pk/DnfNj/u+JcVGiKgj3oSIJxbb0kvSRfjElDAT//BWqPCLdfQKRYdDtnx1LMp8hgRCNNKNeKNQSH1vaLhylAL+nRnwGtN0xxz0YQ2IYj2+FuBo6VZtVLAi8saO0r3YKa3l57fdaWGOG87qofVJFBfrTcurUo0PXO23qAeyHyojh7ifGeg+XqH9ZbAmQ6n46KClOJo8hX06RpVrZ8SJJt9lx8YdtAhaadA/DsOo22dQ3XVHsN6px13ShuGLcZeoG/mBG4tOsfpfO8/p+mL2VQ0qzOouI9Tbvmryz3KmBO4Mf3h5nseEQ7aeR+Lsny8l7JDFbg9dy5xO4Fpo+4/dQNtgTLaMNGJopcGPsnFjSumYFooMpb0d4rU2rVJtj287Aic6qvR9p3PNcipbGHIIfG3uJDV5dCEgL3qQPANLIuWxin2jQpleBtI1C0EEJfM5VjYtDkDvdAvaKHe5L+nETmVPJCyOf/wYAlTbiQ71fHM+ppr2C2nhSF999NM1BK1kNK5n1UGQCm1M/j9xZIi4hecbplBUNbeSAWg72W+572sy6P2sU0Zwwh7LHdi5L+Qwbp27AKDqbbqQAQhjBOu0PFAAEv8KfQkH1VEtCU4bswS1pZiJqyexNXgiKVMwnzS1NXy6OiJ5oNBHa87tOLLi9tCKEuiTgBd3c+VA7BUt321p9iJ6FpcblNTnN6obDjXzxwXhS9Arju+eT0jajrP0zLzUJ62zb0mllOLtbah9T0XQXymrF6Y2SzOqp59RwXMtxg8vntq+iM4IPkCxOUd9SuBcsHbmHE1Q4lTCX/SvMqWD46kyvrX7bZzG39Beqe39A8BogJebvkcCKkDePBrXuvpR6OVe4TQU6vE9+juD/UuEWiQq8K0KqdtI6rkf1U4OdwXrFdhrA17ZIRHd0AfQlkY8gy5m82DZ7cLucIUb7vDdn2hJvZ6dRPfAISpZrCgc4b67SaOd0wi+6TDLSY4hRBZIM8WFdFbEm3VjGTffZYcMff1xMHRp+pr7oUiq1xuzNTctPHgXObcsLgX/x8XTWF3uL0Nj2lkrnCl0vWOdD8MFtzW7N72y5jT0FjTQqZUjDoN+LMOyZwr+DxzVfWf+ILkzE5vXCl/6JtLROYPBG"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227870,
+    "id": "2uVJaq7iIcbJ2roPosfb0QY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 290,
+      "total_tokens": 721
+    }
+  }
+}

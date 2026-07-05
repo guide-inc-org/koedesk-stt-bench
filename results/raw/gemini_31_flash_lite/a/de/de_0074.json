@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0074",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.06,
+  "ref_text_raw": "Über die Veranstaltung vom Mittwoch hinaus nahm Carpanedo an der Meisterschaft in zwei Einzelrennen teil.",
+  "ref_text_normalized": "über die veranstaltung vom mittwoch hinaus nahm carpanedo an der meisterschaft in zwei einzelrennen teil",
+  "timestamp_utc": "2026-07-05T04:04:16Z",
+  "text": "Über die Veranstaltung von Mittwoch hinaus nahm Carpanedo an der Meisterschaft in zwei Einzelrennen teil.",
+  "latency_sec": 2.5808,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Über die Veranstaltung von Mittwoch hinaus nahm Carpanedo an der Meisterschaft in zwei Einzelrennen teil.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPK30NJ2J68KXAW1OLSAjPzEfy+BzcVnA06wI3mLzPBjluqty6d+N5ywc9bjrk"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224256,
+    "id": "v9dJaoHFA6XJ2roPu_yk0QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 398,
+      "total_tokens": 418
+    }
+  }
+}

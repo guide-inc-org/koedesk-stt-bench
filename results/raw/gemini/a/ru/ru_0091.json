@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0091",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.34,
+  "ref_text_raw": "В начальный период своего существования это шоу транслировалось только на сайте давно существующего онлайн-радио TogiNet Radio, посвященного радиобеседам.",
+  "ref_text_normalized": "в начальный период своего существования это шоу транслировалось только на сайте давно существующего онлайн-радио toginet radio посвященного радиобеседам",
+  "timestamp_utc": "2026-07-05T07:07:20Z",
+  "text": "В начальный период своего существования это шоу транслировалось только на сайте давно существующего онлайн-радио TogiNet Radio, посвящённого радиобеседам.",
+  "latency_sec": 3.6168,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "В начальный период своего существования это шоу транслировалось только на сайте давно существующего онлайн-радио TogiNet Radio, посвящённого радиобеседам.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235241,
+    "id": "pgJKavL-Isvb2roP0s2koQM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 384,
+      "total_tokens": 498
+    }
+  }
+}

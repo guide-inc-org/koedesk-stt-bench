@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0029",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.88,
+  "ref_text_raw": "ダンディー大学のパメラ・ファーガソン教授は、「容疑者の写真などを公開する報道記者は危い橋を渡っている」と指摘しています。",
+  "ref_text_normalized": "ダンディー大学のパメラ ファーガソン教授は 容疑者の写真などを公開する報道記者は危い橋を渡っている と指摘しています",
+  "timestamp_utc": "2026-07-05T10:14:29Z",
+  "text": "ダンディー大学のパメラ・ファーガソン教授は容疑者の写真などを公開する報道記者は危ない橋を渡っていると指摘しています。",
+  "latency_sec": 2.8981,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ダンディー大学のパメラ・ファーガソン教授は容疑者の写真などを公開する報道記者は危ない橋を渡っていると指摘しています。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPhnhri9ml3pI61YRQ34a5kJyNGtXBoz2eae+qA/JUDVSeg5flk0/Bd39DK0Eh"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246469,
+    "id": "gy5KasaPI8al1e8PnPeFgAI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 318,
+      "total_tokens": 350
+    }
+  }
+}

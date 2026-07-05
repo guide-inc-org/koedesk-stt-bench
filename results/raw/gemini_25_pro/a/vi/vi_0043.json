@@ -1,0 +1,39 @@
+{
+  "utt_id": "vi_0043",
+  "lang": "vi",
+  "engine": "gemini_25_pro",
+  "duration_sec": 13.62,
+  "ref_text_raw": "Del Potro có ưu thế sớm trong set thứ hai, tuy nhiên thời gian nghỉ giải lao khá ít sau khi đạt tỷ số 6-6.",
+  "ref_text_normalized": "del potro có ưu thế sớm trong set thứ hai tuy nhiên thời gian nghỉ giải lao khá ít sau khi đạt tỷ số 6-6",
+  "timestamp_utc": "2026-07-05T08:17:57Z",
+  "text": "Del Botcho có ưu thế sớm trong set thứ hai. Tuy nhiên, thời gian nghỉ giải lao khá ít sau khi đặt tỷ số 6-6.",
+  "latency_sec": 4.3125,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Del Botcho có ưu thế sớm trong set thứ hai. Tuy nhiên, thời gian nghỉ giải lao khá ít sau khi đặt tỷ số 6-6.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239477,
+    "id": "MhNKarb3AfjG2roPjLn34AI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 457,
+      "total_tokens": 489
+    }
+  }
+}

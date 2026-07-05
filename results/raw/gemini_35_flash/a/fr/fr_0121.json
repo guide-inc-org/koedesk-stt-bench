@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0121",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.64,
+  "ref_text_raw": "Casablanca est l’un des endroits les moins intéressants de tout le Maroc pour faire des achats.",
+  "ref_text_normalized": "casablanca est l'un des endroits les moins intéressants de tout le maroc pour faire des achats",
+  "timestamp_utc": "2026-07-05T05:12:13Z",
+  "text": "Casablanca est l'un des endroits les moins intéressants de tout le Maroc pour faire des achats.",
+  "latency_sec": 3.7127,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Casablanca est l'un des endroits les moins intéressants de tout le Maroc pour faire des achats.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpwGCpkGARFNMg/Bi1aGJX7B+w/v00U26MMntsraxEUbTMALiiwBswis3ZDm4YoYzzm0n5xjTgTXV6PfzB/pUsoMK186ImaKibprEXvhojBFBrPzC2DohTIvQI5pV3PPHuDydU3RZ+bXSMjTNTHrYGlTEKEGWLZU83CFJteSaQDsUArrONiS7szUvolAGMNveMLufSzwecaDMRigKFOKKvqJtPMsvauYPKY5E7SRsXnzpwf5MOiT9xZZRFr1LMvJ6evrFLrYouqfusUiH1VVeTgtKPgSN/uuQwRVr7kwpT7cIOIJwySsMzmWA3RkSSYLlwnvkyCKDTFKn6XBVHEwtXDkk25f9yanydkCEibuU68T7mJvfk6+KtgouCom0pGdOrO5zAYMSB2NGuSZEBBWmGf21Yiw4ucvRaOfz8KnMd09I1TAKRXdnkW24qZ7gDFA9ZWPiipJ4KhvCJXGOxzntuGDA4LyOWG4Toog31azVjol0oCepmypj5O6d2mczHQslJKjyHoCKc0OAkthGDVDIUo7IhzzkBsw/bxttciIC5+6tzxSkpH7CXl8J5VQ2Ao0m2aSwYaccGh58u1tzaMIddpxTTQ6KDFuDvq4S+vDZcv+uMOuoEDZ1jP+Mm8xI5rOUX0kI8roZAKsZBqWrR1X4wJCxtAPfMs3hhHr7xc3jL3F3vcvJc8dDtLE2+pA9i2ZQWdtryZDlo7wt6lnObB43usqsvk8WyezhwLEvd4JIqe70cEsAIVNnaX1BZG9ddKpj8pZ0YZKDaylr/3WHSBmkj8Qq7ILt4fssWPJl2gUOvYQRdbi6J5CQ4o4c+BZcK2Cny6cLKkeNspGjVr/laCx81e08y2X71E2LXaUpyXraMQcBQ7mmlqPJutZqaKlGJWMyZpbqBryZKXa4TlAKPBYEs3dBJLDySESUei3mqmIYt3hz78sfpSofyBNa1CoAqbtOGarSeMLs7ABOh0Gc4Za2H1vZj/GcQLnxmdngpd33Dp8rZ1/GgUttiWZ/OPxyH7ib5L7Fl2SvD+EhKtXoaP+Ebnkt8rBaUb4oBKydhIk1g=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228333,
+    "id": "qudJauGWNrmVvr0PopTJiQc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 237,
+      "total_tokens": 474
+    }
+  }
+}

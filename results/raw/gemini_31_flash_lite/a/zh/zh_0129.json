@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0129",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.46,
+  "ref_text_raw": "很早的时候就引进了轨枕，用于固定铁轨。但是，人们逐渐意识到，如果在铁轨上放上铁片，铁轨会更稳固有效。",
+  "ref_text_normalized": "很 早 的 时 候 就 引 进 了 轨 枕 用 于 固 定 铁 轨 但 是 人 们 逐 渐 意 识 到 如 果 在 铁 轨 上 放 上 铁 片 铁 轨 会 更 稳 固 有 效",
+  "timestamp_utc": "2026-07-05T09:18:24Z",
+  "text": "很早的时候就引入了轨枕用于固定铁铁路，但是人们逐渐意识到如果在铁轨上放上铁片，铁轨会更稳固有效。",
+  "latency_sec": 2.7349,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "很早的时候就引入了轨枕用于固定铁铁路，但是人们逐渐意识到如果在铁轨上放上铁片，铁轨会更稳固有效。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPF4giYoqvY0tJx5k97XXHCkkoB434eI82PSAb0AnRsmYk1SPfevQK3dpZ+qXn"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243104,
+    "id": "XyFKapf5Beex2roPrLDX2QU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 383,
+      "total_tokens": 417
+    }
+  }
+}

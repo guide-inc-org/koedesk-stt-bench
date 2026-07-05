@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0156",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.64,
+  "ref_text_raw": "Setiap orang ikut serta dalam masyarakat dan menggunakan sistem transportasi. Hampir semua orang mengeluhkan sistem transportasi.",
+  "ref_text_normalized": "setiap orang ikut serta dalam masyarakat dan menggunakan sistem transportasi hampir semua orang mengeluhkan sistem transportasi",
+  "timestamp_utc": "2026-07-05T05:54:38Z",
+  "text": "Setiap orang ikut serta dalam masyarakat dan menggunakan sistem transportasi, hampir semua orang mengeluhkan sistem transportasi.",
+  "latency_sec": 2.8782,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Setiap orang ikut serta dalam masyarakat dan menggunakan sistem transportasi, hampir semua orang mengeluhkan sistem transportasi.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP7D2uAWHtNftq2k0oE8szGJiB9CLjCP/HrbBhWj/zrXjSI4xL3DNnt/3BbhZf"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230878,
+    "id": "nfFJap-oBpWJ1e8PxbzN-QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 312,
+      "total_tokens": 333
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "id_0122",
+  "lang": "id",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.72,
+  "ref_text_raw": "Kru pemadam kebakaran akhirnya berhasil memadamkan api pada pukul 23.35.",
+  "ref_text_normalized": "kru pemadam kebakaran akhirnya berhasil memadamkan api pada pukul 23.35",
+  "timestamp_utc": "2026-07-05T05:28:43Z",
+  "text": "Grup pemadam kebakaran akhirnya berhasil memadamkan api pada pukul 23.35.",
+  "latency_sec": 4.0927,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Grup pemadam kebakaran akhirnya berhasil memadamkan api pada pukul 23.35.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783229323,
+    "id": "iOtJasW0EZKmvr0PocKK-QY",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 333,
+      "total_tokens": 410
+    }
+  }
+}

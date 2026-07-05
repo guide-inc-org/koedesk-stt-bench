@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0003",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 15.42,
+  "ref_text_raw": "\"适当使用博客，\"可以使学生变得更善于分析和进行思辨；通过积极回应网络材料，学生们可以在他人文章的上下文语境中找到自己的立场，并能够针对特定问题提出自己的观点（Oravec, 2002）。\"",
+  "ref_text_normalized": "适 当 使 用 博 客 可 以 使 学 生 变 得 更 善 于 分 析 和 进 行 思 辨 通 过 积 极 回 应 网 络 材 料 学 生 们 可 以 在 他 人 文 章 的 上 下 文 语 境 中 找 到 自 己 的 立 场 并 能 够 针 对 特 定 问 题 提 出 自 己 的 观 点 oravec 2002",
+  "timestamp_utc": "2026-07-05T06:19:09Z",
+  "text": "适当使用博客可以使学生变得更善于分析和进行思辨。通过积极回应网络材料,学生们可以在他人的文章的上下文语境中找到自己的立场,并能够针对特定问题提出自己的观点(Work,2002)。",
+  "latency_sec": 5.9655,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "16s",
+      "requestId": "7f02c7b4-0000-2069-ac39-582429a74f84",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "适当使用博客可以使学生变得更善于分析和进行思辨。通过积极回应网络材料,学生们可以在他人的文章的上下文语境中找到自己的立场,并能够针对特定问题提出自己的观点(Work,2002)。"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

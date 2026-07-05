@@ -1,0 +1,44 @@
+{
+  "utt_id": "pt_0089",
+  "lang": "pt",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.72,
+  "ref_text_raw": "Essa é uma ótima oportunidade de ver a aurora boreal, pois o céu fica escuro mais ou menos na hora certa.",
+  "ref_text_normalized": "essa é uma ótima oportunidade de ver a aurora boreal pois o céu fica escuro mais ou menos na hora certa",
+  "timestamp_utc": "2026-07-05T06:59:20Z",
+  "text": "Essa é uma ótima oportunidade de ver a aurora boreal, pois o céu fica escuro, mais ou menos na hora certa.",
+  "latency_sec": 2.912,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Essa é uma ótima oportunidade de ver a aurora boreal, pois o céu fica escuro, mais ou menos na hora certa.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPUgHF1eksgfRdewNy41L12RLeuUpyri7njDZE40M1rLgqczJTkY5F9LZIbZkp"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234761,
+    "id": "xwBKao3EG52_vr0Piquy2Q0",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 265,
+      "total_tokens": 290
+    }
+  }
+}

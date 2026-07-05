@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0172",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 11.1,
+  "ref_text_raw": "後に彼はケンブリッジのアデンブルック病院に転院しました。",
+  "ref_text_normalized": "後に彼はケンブリッジのアデンブルック病院に転院しました",
+  "timestamp_utc": "2026-07-05T03:14:14Z",
+  "text": "後に彼はケンブリッジのアデンブルック病院に転院しました。",
+  "latency_sec": 3.4849,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "後に彼はケンブリッジのアデンブルック病院に転院しました。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221254,
+    "id": "BMxJauvEIcmzvr0PpOCr2QI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 15,
+      "prompt_tokens": 377,
+      "total_tokens": 392
+    }
+  }
+}

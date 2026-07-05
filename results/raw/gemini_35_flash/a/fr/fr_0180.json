@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0180",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 16.44,
+  "ref_text_raw": "Le Dr Malar Balasubramanian, 29 ans, a été trouvé allongé sur le sol au bord de la route, à Blue Ash, dans l'Ohio, une banlieue située à environ 15 miles au nord de Cincinnati. Il était en T-shirt et en sous-vêtements, dans un état apparemment très médicamenté.",
+  "ref_text_normalized": "le dr malar balasubramanian 29 ans a été trouvé allongé sur le sol au bord de la route à blue ash dans l'ohio une banlieue située à environ 15 miles au nord de cincinnati il était en t-shirt et en sous-vêtements dans un état apparemment très médicamenté",
+  "timestamp_utc": "2026-07-05T05:17:32Z",
+  "text": "Le docteur Malhar Balasubramanian, 29 ans, a été trouvé allongé sur le sol au bord de la route à Blue Ash dans l'Ohio, une banlieue située à environ 15 miles au nord de Cincinnati. Il était en t-shirt et en sous-vêtements dans un état apparemment très médicamenté.",
+  "latency_sec": 5.8782,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Le docteur Malhar Balasubramanian, 29 ans, a été trouvé allongé sur le sol au bord de la route à Blue Ash dans l'Ohio, une banlieue située à environ 15 miles au nord de Cincinnati. Il était en t-shirt et en sous-vêtements dans un état apparemment très médicamenté.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228652,
+    "id": "6OhJasGEIo3O1e8PpY-EiAI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 73,
+      "prompt_tokens": 433,
+      "total_tokens": 1186
+    }
+  }
+}

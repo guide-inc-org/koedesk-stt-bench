@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0002",
+  "lang": "es",
+  "engine": "gemini_25_pro",
+  "duration_sec": 9.72,
+  "ref_text_raw": "Fue tanta la cantidad de gente que se concentró, que no todos pudieron acceder al funeral en la Plaza de San Pedro.",
+  "ref_text_normalized": "fue tanta la cantidad de gente que se concentró que no todos pudieron acceder al funeral en la plaza de san pedro",
+  "timestamp_utc": "2026-07-05T04:12:23Z",
+  "text": "Fue tanta la cantidad de gente que se concentró que no todos pudieron acceder al funeral en la plaza de San Pedro.",
+  "latency_sec": 6.9105,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Fue tanta la cantidad de gente que se concentró que no todos pudieron acceder al funeral en la plaza de San Pedro.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224743,
+    "id": "odlJaszbPIaA0-kPotqL6Q4",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 333,
+      "total_tokens": 567
+    }
+  }
+}

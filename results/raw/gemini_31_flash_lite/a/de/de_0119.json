@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0119",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.16,
+  "ref_text_raw": "Wir bauen unsere Häuser aus Pflanzen und stellen Kleidung aus Pflanzen her. Wir ernähren uns hauptsächlich von Pflanzen. Ohne Pflanzen könnten Tiere nicht überleben.",
+  "ref_text_normalized": "wir bauen unsere häuser aus pflanzen und stellen kleidung aus pflanzen her wir ernähren uns hauptsächlich von pflanzen ohne pflanzen könnten tiere nicht überleben",
+  "timestamp_utc": "2026-07-05T04:06:58Z",
+  "text": "Wir bauen unsere Häuser aus Pflanzen und stellen Kleidung aus Pflanzen her. Wir ernähren uns hauptsächlich von Pflanzen. Ohne Pflanzen könnten Tiere nicht überleben.",
+  "latency_sec": 3.1381,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Wir bauen unsere Häuser aus Pflanzen und stellen Kleidung aus Pflanzen her. Wir ernähren uns hauptsächlich von Pflanzen. Ohne Pflanzen könnten Tiere nicht überleben.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPHS3ccW9O2mK1ZIrdK0Af+KL99eiFQkTym8P9xIlUnAx0RaSQw2RWnS1PebSc"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224418,
+    "id": "YNhJar-BNaa3vr0PlMyl0QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 300,
+      "total_tokens": 333
+    }
+  }
+}

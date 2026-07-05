@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0125",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.3,
+  "ref_text_raw": "Мухаммед очень интересовался темами, не связанными с мирской жизнью. Он часто посещал пещеру, которая стала известна как \"Хира\" на горе \"Нур\" (свет) для размышлений.",
+  "ref_text_normalized": "мухаммед очень интересовался темами не связанными с мирской жизнью. он часто посещал пещеру которая стала известна как хира на горе нур свет для размышлений",
+  "timestamp_utc": "2026-07-05T07:27:34Z",
+  "text": "Мухаммед очень интересовался темами, не связанными с мирской жизнью. Он часто посещал пещеру, которая стала известна как Хира на горе Нур, Свет, для размышлений.",
+  "latency_sec": 5.3326,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Мухаммед очень интересовался темами, не связанными с мирской жизнью. Он часто посещал пещеру, которая стала известна как Хира на горе Нур, Свет, для размышлений.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236454,
+    "id": "YgdKatW4ELv31e8Pvf2M0QE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 329,
+      "total_tokens": 866
+    }
+  }
+}

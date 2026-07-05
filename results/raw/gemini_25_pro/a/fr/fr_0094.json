@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0094",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 12.48,
+  "ref_text_raw": "L'actuelle sénatrice et Première Dame d'Argentine Cristina Fernandez de Kirchner a annoncé sa candidature présidentielle, hier soir, à La Plata, une ville située à 50 kilomètres (31 miles) de Buenos Aires.",
+  "ref_text_normalized": "l'actuelle sénatrice et première dame d'argentine cristina fernandez de kirchner a annoncé sa candidature présidentielle hier soir à la plata une ville située à 50 kilomètres 31 miles de buenos aires",
+  "timestamp_utc": "2026-07-05T04:57:06Z",
+  "text": "L'actuelle sénatrice et première dame d'Argentine, Cristina Fernández de Kirchner, a annoncé sa candidature présidentielle hier soir à La Plata, une ville située à 50 km, 31 miles, de Buenos Aires.",
+  "latency_sec": 4.8014,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "L'actuelle sénatrice et première dame d'Argentine, Cristina Fernández de Kirchner, a annoncé sa candidature présidentielle hier soir à La Plata, une ville située à 50 km, 31 miles, de Buenos Aires.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227426,
+    "id": "HuRJarz6Jsmzvr0PmpW5mQI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 49,
+      "prompt_tokens": 421,
+      "total_tokens": 508
+    }
+  }
+}

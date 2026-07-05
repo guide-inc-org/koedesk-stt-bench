@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0064",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.1,
+  "ref_text_raw": "병원에서 일하는 동한 리긴스는 여가 시간에 조기 진통에 관해 조사하기 시작했다.",
+  "ref_text_normalized": "병원에서 일하는 동한 리긴스는 여가 시간에 조기 진통에 관해 조사하기 시작했다",
+  "timestamp_utc": "2026-07-05T06:22:42Z",
+  "text": "병원에서 일하는 동안 리그린스는 여가 시간에 조기 진통에 관해 조사하기 시작했다.",
+  "latency_sec": 2.6189,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "병원에서 일하는 동안 리그린스는 여가 시간에 조기 진통에 관해 조사하기 시작했다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPHAJpOx3Ny9XAFi2KIjfa89aT8Qua9J7Hy5f4etQcEE3hXwkEHjvUvTSpjsAX"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232562,
+    "id": "MfhJatekD_HZ1e8Pi4G_8QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 299,
+      "total_tokens": 322
+    }
+  }
+}

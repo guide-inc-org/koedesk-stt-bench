@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0185",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 16.98,
+  "ref_text_raw": "子供たちが里親制度に預けられる理由は、育児放棄から虐待、さらには恐喝に至るまでさまざまです。",
+  "ref_text_normalized": "子供たちが里親制度に預けられる理由は 育児放棄から虐待 さらには恐喝に至るまでさまざまです",
+  "timestamp_utc": "2026-07-05T03:22:33Z",
+  "text": "子供 たち が 里親 制度 に 預け られる 理由 は 育児 放棄 から 虐待 、 さらに は 狂活 に 至る まで 様々 です 。",
+  "latency_sec": 2.8062,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "子供 たち が 里親 制度 に 預け られる 理由 は 育児 放棄 から 虐待 、 さらに は 狂活 に 至る まで 様々 です 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPpYWqSR2HxfrZG3d/a17WagPNmmVRgCsRZ+/bAJoZb1lu7vApOv/L/XNH/EBc"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221753,
+    "id": "981JasbdLuKf2roP6tmdgAM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 446,
+      "total_tokens": 485
+    }
+  }
+}

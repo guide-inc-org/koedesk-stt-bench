@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0091",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.18,
+  "ref_text_raw": "与所有南非国家公园一样，该公园每天都收取养护费和门票费。",
+  "ref_text_normalized": "与 所 有 南 非 国 家 公 园 一 样 该 公 园 每 天 都 收 取 养 护 费 和 门 票 费",
+  "timestamp_utc": "2026-07-05T09:16:07Z",
+  "text": "与所有南非国家公园一样，该公园每天都收取养护费和门票费。",
+  "latency_sec": 2.5992,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "与所有南非国家公园一样，该公园每天都收取养护费和门票费。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPq97bTKhvpwe/moFjsAY0JmjeYaAQMW9ag1mtbHaj5f/V3NecmV1/ApPKq1Hs"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242967,
+    "id": "1iBKaq7eF8vb2roP0s2koQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 251,
+      "total_tokens": 272
+    }
+  }
+}

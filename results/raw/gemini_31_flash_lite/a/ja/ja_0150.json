@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0150",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.48,
+  "ref_text_raw": "夜空の下でピラミッドに映像が浮かび、ピラミッドが次々とライトアップされます。",
+  "ref_text_normalized": "夜空の下でピラミッドに映像が浮かび ピラミッドが次々とライトアップされます",
+  "timestamp_utc": "2026-07-05T03:20:14Z",
+  "text": "夜空 の 下 で ピラミッド に 映像 が 浮かび 、 ピラミッド が 次々 と ライト アップ さ れ ます 。",
+  "latency_sec": 2.7422,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "夜空 の 下 で ピラミッド に 映像 が 浮かび 、 ピラミッド が 次々 と ライト アップ さ れ ます 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP8sOQH/LT/hBXtICJW1tsSt4aFhoQgZa6gq0F18otOK7TrjbqC526vyul+h8q"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221614,
+    "id": "bc1JauTREb3MrfcPx6WgiQQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 258,
+      "total_tokens": 289
+    }
+  }
+}

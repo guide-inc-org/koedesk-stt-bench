@@ -1,0 +1,45 @@
+{
+  "utt_id": "pt_0095",
+  "lang": "pt",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.08,
+  "ref_text_raw": "Inicialmente, ele foi hospitalizado no James Paget Hospital, em Great Yarmouth.",
+  "ref_text_normalized": "inicialmente ele foi hospitalizado no james paget hospital em great yarmouth",
+  "timestamp_utc": "2026-07-05T06:51:03Z",
+  "text": "Inicialmente, ele foi hospitalizado no James Paget Hospital, em Great Yarmouth.",
+  "latency_sec": 3.8064,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Inicialmente, ele foi hospitalizado no James Paget Hospital, em Great Yarmouth.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EoQGCoEGARFNMg9j0d9fdYQ5fjyahDn27yKRD2W7ANgwYRJwdLvXKMRyDVnOfUCrCt1ucd4xso7lIDZHEn6FSnMpkp2qyAlgbctYBX22M8bj8dVldeb2vDVF2XrhtglMErPvWOer0w+yVzN1QCZ9dS83z4zuUJv/lblGBPB7Q2PNm/W3D1c3qEfE5DcmksOi15lc9wqOO0P6iZUpl2VVPeXZLE8fYP9XVz7KfIpMmzESuXTwcj53SU0eo/1pjlE/qAtl2VjmsQKM5Jlct7mPALweKxmz2xXOYnY5N7hMgNowqqadM+GEnzUbIk3ybMI1QrQX/iNnaVRku9l2hePQJCEcqPuDroR7p9GNBNlzmJ4YmIbSAW4lCANb0UCxkYtXnUuuMp0Qs1j9Rd05bJv+V85HDs4SmE0TLIydtewFDTZ4Wfs+efreCm/3zYzVdxKckpX5koMVpey4OSGNt31OdImcZRsZXQ9/iAplfWuk8Zr5kIylZ+sA7V437W3N8sTpF7i3NKUQeVX3A7glcam5HpI7hWZzXNkhGkIW9iCVP92ioefsp49TPbYnxmji3BqJW5HOaleeBRsCgjazCoKfiUopj/Xnuj5tq97/VwhxZzCv4GLG795xdTEvmeZiS56EB4gitL6S24c7vUXZmhQSenlwm3vD3dgJ+7nG4BAZhZuySa9vt0TnyBVdgPiRsAIwDlSUDQeuqRI/RibQ423RziEjhLj9Vqp6sy/Wzqp8QrgLOIic1GBLT8ME33rrM/tmOcGOj3Ahoj48OOwPQ057KVSIhJW1UwWnx2U0sxYYak3tYn7msMaX2HgvCUYDeEubaCWRfMyaZ+jUSae9Fj6dOwVAN8nAnjIwpG/clv0YE6Nz0Gci1QfgLm25368LeXH93TbLg60NsBM1kebB9/fgIN6taRzrIc17dO/1Ei7cRTW48GV/LbZl7/kJ5UpipoJFYQrIoLdEf9KhWFpazacnFICpUqoZROs9pfZQw6wSLf4Y5agWhVC6kPZKc14jx64ELGJBDUhVTw=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234263,
+    "id": "1f5JaobZGen62roPgJLP-QI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 273,
+      "total_tokens": 490
+    }
+  }
+}

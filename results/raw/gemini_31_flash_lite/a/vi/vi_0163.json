@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0163",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 20.1,
+  "ref_text_raw": "Bác sĩ Malar Balasubramanian, 29 tuổi, được phát hiện nằm trên mặt đất ven đường trong trang phục áo thun và đồ lót nồng nặc thuốc ở Blue Ash, một vùng ngoại ô cách Cincinnati 15 dặm về phía bắc.",
+  "ref_text_normalized": "bác sĩ malar balasubramanian 29 tuổi được phát hiện nằm trên mặt đất ven đường trong trang phục áo thun và đồ lót nồng nặc thuốc ở blue ash một vùng ngoại ô cách cincinnati 15 dặm về phía bắc",
+  "timestamp_utc": "2026-07-05T08:47:29Z",
+  "text": "Bác sĩ Mala Malasurramian, 29 tuổi được phát hiện nằm trên mặt đất ven đường trong trang phục áo thun và đồ lót nồng nặc thuốc ở Luat, một vùng ngoại ô cách Cincinnati 15 dặm về phía Bắc.",
+  "latency_sec": 3.1237,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Bác sĩ Mala Malasurramian, 29 tuổi được phát hiện nằm trên mặt đất ven đường trong trang phục áo thun và đồ lót nồng nặc thuốc ở Luat, một vùng ngoại ô cách Cincinnati 15 dặm về phía Bắc.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPwaBMTEwY4N8lda7g2n3nyhwthqoNLoRJGZP/IDp92vCqM7xfysvR5rwBLZe7"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241250,
+    "id": "IBpKatr6CrmVvr0PopTJiQc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 58,
+      "prompt_tokens": 524,
+      "total_tokens": 582
+    }
+  }
+}

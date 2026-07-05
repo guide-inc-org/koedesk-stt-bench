@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0076",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 17.28,
+  "ref_text_raw": "แม้วัคซีนในขั้นทดลองตัวหนึ่งจะสามารถลดอัตราการเสียชีวืตจากอีโบลาได้ แต่จนถึงขณะนี้ก็ยังไม่ได้มียาตัวใดแสดงให้เห็นได้อย่างชัดแจ้งว่าเหมาะสำหรับใช้รักษาการติดเชื้อที่มีอยู่",
+  "ref_text_normalized": "แม้วัคซีนในขั้นทดลองตัวหนึ่งจะสามารถลดอัตราการเสียชีวืตจากอีโบลาได้ แต่จนถึงขณะนี้ก็ยังไม่ได้มียาตัวใดแสดงให้เห็นได้อย่างชัดแจ้งว่าเหมาะสำหรับใช้รักษาการติดเชื้อที่มีอยู่",
+  "timestamp_utc": "2026-07-05T07:58:54Z",
+  "text": "แม้ วัคซีน ใน ขั้น ทดลอง ตัว หนึ่ง จะ สามารถ ลด อัตรา การ เสีย ชีวิต จาก อีโบลา ได้ แต่ จน ถึง ขณะ นี้ ก็ ยัง ไม่ ได้ มี ยา ตัว ใด แสดง ให้ เห็น ได้ ว่า เหมาะ สำหรับ ใช้ รักษา การ ติด เชื้อ ที่ มี อยู่",
+  "latency_sec": 4.4356,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "แม้ วัคซีน ใน ขั้น ทดลอง ตัว หนึ่ง จะ สามารถ ลด อัตรา การ เสีย ชีวิต จาก อีโบลา ได้ แต่ จน ถึง ขณะ นี้ ก็ ยัง ไม่ ได้ มี ยา ตัว ใด แสดง ให้ เห็น ได้ ว่า เหมาะ สำหรับ ใช้ รักษา การ ติด เชื้อ ที่ มี อยู่",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238334,
+    "id": "uw5Kap3nGeON1e8PjO3d6AM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 56,
+      "prompt_tokens": 453,
+      "total_tokens": 752
+    }
+  }
+}

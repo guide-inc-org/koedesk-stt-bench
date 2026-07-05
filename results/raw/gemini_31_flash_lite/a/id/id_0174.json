@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0174",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 17.4,
+  "ref_text_raw": "\"Layton meminta untuk dilakukan perubahan pada RUU lingkungan konservatif selama pertemuan dengan PM, meminta \"penulisan ulang yang menyeluruh dan lengkap\" terhadap RUU lingkungan partai Konservatif.\"",
+  "ref_text_normalized": "layton meminta untuk dilakukan perubahan pada ruu lingkungan konservatif selama pertemuan dengan pm meminta penulisan ulang yang menyeluruh dan lengkap terhadap ruu lingkungan partai konservatif",
+  "timestamp_utc": "2026-07-05T05:55:46Z",
+  "text": "Laitan meminta untuk dilakukan perubahan pada RUU Lingkungan Konservatif selama pertemuan dengan PM, meminta penulisan ulang yang menyeluruh dan lengkap terhadap RUU Lingkungan Partai Konservatif.",
+  "latency_sec": 2.9258,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Laitan meminta untuk dilakukan perubahan pada RUU Lingkungan Konservatif selama pertemuan dengan PM, meminta penulisan ulang yang menyeluruh dan lengkap terhadap RUU Lingkungan Partai Konservatif.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPBOF8/5hzrPXxauIrrGcXT0uuq0WisW5rAMF9wjSFM+XCiAQgvWAJ/1dZRRf2"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230946,
+    "id": "4fFJar3nDLv31e8Pvf2M0QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 456,
+      "total_tokens": 495
+    }
+  }
+}

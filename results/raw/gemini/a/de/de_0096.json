@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0096",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.86,
+  "ref_text_raw": "Es gibt Familienstrände, die manchmal überlaufen sind, mit einer schönen Einkaufspromenade entlang der Küste. Das Schwimmen ist hier sicher.",
+  "ref_text_normalized": "es gibt familienstrände die manchmal überlaufen sind mit einer schönen einkaufspromenade entlang der küste das schwimmen ist hier sicher",
+  "timestamp_utc": "2026-07-05T03:47:24Z",
+  "text": "Es gibt Familienstrände, die manchmal überlaufen sind mit einer schönen Einkaufspromenade entlang der Küste. Das Schwimmen ist hier sicher.",
+  "latency_sec": 4.7003,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Es gibt Familienstrände, die manchmal überlaufen sind mit einer schönen Einkaufspromenade entlang der Küste. Das Schwimmen ist hier sicher.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223244,
+    "id": "yNNJaqiDM5WJ1e8PhMDXiQU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 273,
+      "total_tokens": 439
+    }
+  }
+}

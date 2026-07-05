@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0001",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.2,
+  "ref_text_raw": "สิ่งนี้เรียกว่าค่า pH ของสารเคมี คุณสามารถสร้างตัวระบุได้โดยใช้น้ำกะหล่ำปลีแดง",
+  "ref_text_normalized": "สิ่งนี้เรียกว่าค่า ph ของสารเคมี คุณสามารถสร้างตัวระบุได้โดยใช้น้ำกะหล่ำปลีแดง",
+  "timestamp_utc": "2026-07-05T07:50:54Z",
+  "text": "สิ่งนี้เรียกว่าค่า pH ของสารเคมี คุณสามารถสร้างตัวระบุได้โดยใช้น้ำกะหล่ำปลีแดง",
+  "latency_sec": 4.1245,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "สิ่งนี้เรียกว่าค่า pH ของสารเคมี คุณสามารถสร้างตัวระบุได้โดยใช้น้ำกะหล่ำปลีแดง",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpcLCpQLARFNMg+pPITLQzq9lA/LKbw91WUM8En+kVLSCaYioXvBbROpgnNlf6e8OP/Z7DggmjUD6oE3+ovHGzZk6K38ECz4jlPTPedCqykx5jO2H4TYPF+8RRokINRr8ovZx3JFcYm9qJCOxc0vM3KLX24UsU4CEMkA/mk60zaCAtH8k5uLr6MgaZoBq6Dt6vSvpBEjKe0CdRgsS1YZbrfRyLXEeLpyGeajCiubkcfH3d8YHhK7FFDIKetqRh2zFzV+X8cs1PWyUkG1q9dr2qDQAby9daVLt4wC5gIJtVey7IFF43k5HOeIK2JUROWcB57cqlYlBTlYzZlnb+j0zOGynEVfQ95/OIfP0YKFYW05kmVcgr0JsVg3Sh0kERWbgmJDqkILKbleUOrBwgnVXXUKRP6fFbQWS1aF7CP7BxotaH/4IABaYE5lOqd9VGalkltaTjirrykwLfm6E6NNG4vIZxhpxORhwbxa1zXEMUBAWidtHO0zGBQE0cXuSwxX7auIjedVSxPSwwWkgCkiabV+9O3MJCe/7MnxenkJTyIM0jpP7LdbTUjACqwfekhMWRa0KO9M7eeK+VuIQLFfWXGFCwwXuvLWEp3gTZCoN8AvPy/+n7wXcawyb70ivHO83rNR+CXtwFG6aUiHxQxieDdwGMVWrCoIgH9QkYSSxKQjCyRgOmZZ23tohdA+y6q7T1CD8kmCOxy8Pt0HanBJgDVDZ7auNTaoPr5t1lNPJlEGsH8y5EAizov1TbvZ4M0GZfa8COyZKwl5+nSqj8fr6dj/g7uH9/FcWamwsSfwllVmNEv0D7ZtdzjA6cKnd1Txw+Q2K0UVBHeRPwdTbg0g2GGql9GRivoYKwAT5z/R2reAZcOQveqOfeapn/LviHER+ozImxteHmVwz2iRu02M2Rmdbvyfta43th2UUzXFE1aAtPiO648pjL1QIAs3k7EjApYH/mt1WHGoiu3+qqcscRRndW63olJ+YTuoyGA2W2KHlHMItxege+shCrDHNKMgI9pOTcwoDuKbzCDjHUXpw8/u05wHcr0YTMH2TAE71ZAn3I3A/W4kR4/W5SZzaWi8thXPkQtCmMaHVsD/XqDLxnTiLNDFPZWQfOBMSIGlTDqPaNdFvf+MsSY0Grlk5I+5Is3SmM/AKDq9bQV1Hx/MzVg/CxT8Cns2y/w347d+vuOSKbf4yQByrDdYZCi6FzEvMVr6xfiJK6XsXnrJkl2fgsUvYWQ0XNps5fEnIXaLWKYmiVULRitrInZAw3xQ7f6a5cTCIR90j3LHptd7EsEE2S5FcujeTjlIkLLgPCvuFJA7BOpmrmOW3loNSlbV4HmYqz0ITR9ySe+7jt1mZN3nCruyjk8pryP89Q5DLGYlGppTfR6gMKDKspHgW+EgJPhfXi8VV9INextoO3AsTqVgwIqFw685ZbJwr4VjEm1nIZo/BdB7Okoy8rG7mjKhyimIlCQ84nQcNzjFWI+0mEn6vt+NAa6oG9mNWfeKEFMt80NrD/yTzKWV41PetOhbkCk7bRaFQTqN0oWxWbJJjJHFQOs0yaYQOUBJDAWFTun0z3J+r/5WCSJbi+RRojUqEeQ+BeVUAWZKNEB9ZLkOEyeJ87XTtTnSY2KabHX4biooQB6OzvCbhe09HkshpfS2ePOIT8/dz0j0fdkaFQfMvp1gpHAguaS/3l8gL0TNX655ZgyFhIfe432HszCTpazYBvz3hrAFe8AKiR3JovFemKA3ZId83t2tGVwOtnMHQgvuRE3XUOxVMHT5qmgDHvd8lrHp4cW9W+y1qx08K7XMXPmQFumcsJVHBtgw0LmSqLftLVsG2Pu5MvNjlc0Pl5R3b/MVmFmWkmbS7W4tIUHgZK1Hx2cIejFX9047Pixe8KuT2u6jQDYRZ5Ba7fvX"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237854,
+    "id": "2wxKatCSH8fJ0-kPwvvLoAE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 201,
+      "total_tokens": 554
+    }
+  }
+}

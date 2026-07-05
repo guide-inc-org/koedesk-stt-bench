@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0180",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.74,
+  "ref_text_raw": "Сундарбан — это крупнейший пояс прибрежных мангровых зарослей, простирающийся от берега на 80 км (50 миль) вглубь континента в Бангладеше и Индии.",
+  "ref_text_normalized": "сундарбан — это крупнейший пояс прибрежных мангровых зарослей простирающийся от берега на 80 км 50 миль вглубь континента в бангладеше и индии",
+  "timestamp_utc": "2026-07-05T07:38:08Z",
+  "text": "Сундарбан — это крупнейший пояс прибрежных мангровых зарослей, простирающийся от берега на 80 км, 50 миль, вглубь континента Бангладеш и Индии.",
+  "latency_sec": 2.8386,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Сундарбан — это крупнейший пояс прибрежных мангровых зарослей, простирающийся от берега на 80 км, 50 миль, вглубь континента Бангладеш и Индии.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPnwwiGK+U84k23vCf59vROhQ3eHzxvujTDK25g+5nr+MfusKEX9iwhjawQ2Y7"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237088,
+    "id": "3wlKap7zCuex2roPrLDX2QU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 49,
+      "prompt_tokens": 365,
+      "total_tokens": 414
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "utt_id": "es_0039",
+  "lang": "es",
+  "engine": "google_stt_v2",
+  "duration_sec": 17.76,
+  "ref_text_raw": "El Teatro Argentino fue el lugar donde la señora Kirchner anunció su intención de candidatearse como presidenta; este es el mismo sitio donde inició su campaña para el senado en el año 2005, en representación de la provincia de Buenos Aires.",
+  "ref_text_normalized": "el teatro argentino fue el lugar donde la señora kirchner anunció su intención de candidatearse como presidenta este es el mismo sitio donde inició su campaña para el senado en el año 2005 en representación de la provincia de buenos aires",
+  "timestamp_utc": "2026-07-05T04:02:23Z",
+  "text": "El Teatro Argentino fue el lugar donde la Sra. Kirchner anunció su intención de candidatarse como presidenta. Este es el mismo sitio donde inició su campaña para el Senado en el año 2005, en representación de la provincia de Buenos Aires.",
+  "latency_sec": 6.0359,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "es-US",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "18s",
+      "requestId": "6c32d129-0000-2d56-b61b-14223bbf3ece",
+      "prompt": "Transcribe the following speech segment in Spanish. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Spanish."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "El Teatro Argentino fue el lugar donde la Sra. Kirchner anunció su intención de candidatarse como presidenta. Este es el mismo sitio donde inició su campaña para el Senado en el año 2005, en representación de la provincia de Buenos Aires."
+          }
+        ],
+        "languageCode": "es-US"
+      }
+    ]
+  }
+}

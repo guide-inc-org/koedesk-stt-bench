@@ -1,0 +1,45 @@
+{
+  "utt_id": "vi_0092",
+  "lang": "vi",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.74,
+  "ref_text_raw": "Tới 11:35 tối, đội cứu hỏa cuối cùng đã dùng nước dập được đám cháy.",
+  "ref_text_normalized": "tới 11:35 tối đội cứu hỏa cuối cùng đã dùng nước dập được đám cháy",
+  "timestamp_utc": "2026-07-05T08:36:53Z",
+  "text": "Tới 11 giờ 35 tối, đội cứu hỏa cuối cùng đã dùng nước dập được đám cháy.",
+  "latency_sec": 3.7642,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Tới 11 giờ 35 tối, đội cứu hỏa cuối cùng đã dùng nước dập được đám cháy.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EoQFCoEFARFNMg9MJL3S15GFreW4+Epw4Mat+9UPvBacoR7gpn1qEszAUWefuR9RiwJFelHXpHy9KQz0RZoZqTNgUlX4VNR5/S2SpIlWcAr9S5LRHQSDa0PB+TQobvZhr1R97Z/iXL4UUITnEXcNfdoKARcLNpwfoCie+ULg8Rs9EKOOUSLQHj+MRFWwir5kmwMj5bgZ3DeCIDzugu8YHaMP1GaXTQvxYlk8K7Ahq1mzt7BjZznlOCZoZ3EnyM+AGqYLiMlxTxg5BspRP/4EqoETtPCT9btIiDlaz4KP6nezK5OqEIhacv+Mn4sNN2gzEOVD24sxLaQMph45wjV1laxt92m6F5Fud7vN6RZv7AZmwZr72R3i7qMsK3f/zNbeZ9/L1NaDeN6DDc0ENW7k3C4Csgbca5IpXW41iuRPY5vN+h3EXaRn4m21i/qJKxuFGLcPT+cWMGjl60Xp8IqqHDm06Lc0u42OKRCYkgbv8a0NxeKZjcm3pyRpJGW1+0zOJmGk1ubv8sn9O8hw0aZZwmQHlJnSHwpZzRGFGthJO3dRHgyr1jYsuEXzv+SQmTzJ1KETDzah07lOTroqG8qkX0e1zazfSXqIRp8XIQUQ/nlKvVGnpkAr8ZKmpoOpvQfGke6ea8ox7lFHlR3p8BX09Ooga0HvuNND+AkGSWqEHsK5FN69IqU6BPbw+MM1WaaY1U6gqwrASEDUJDtf6fH9NvNVBrpknmfADd1hTm6aKPDTdfbLdQ8h1xg3M/WbbknNNiioEfsGuCqQvJGIFVlCtkP466SCYGqesvg5VXO1XGQtEJyGYlgub1Mql3HjQC7CGb7ih8QOhHrDGvk1q4vdp9XaQG+9Qxw="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240613,
+    "id": "oxdKaojfEanDvr0PmKevgQ8",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 215,
+      "total_tokens": 418
+    }
+  }
+}

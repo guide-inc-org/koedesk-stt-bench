@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0084",
+  "lang": "de",
+  "engine": "gemini_25_pro",
+  "duration_sec": 28.5,
+  "ref_text_raw": "Normale Durchsagen erfolgen in der Metro ausschließlich auf Katalanisch, aber unvorhergesehene Störungen werden von einem automatisierten System in einer Vielzahl von Sprachen gemeldet, darunter Spanisch, Englisch, Französisch, Arabisch und Japanisch.",
+  "ref_text_normalized": "normale durchsagen erfolgen in der metro ausschließlich auf katalanisch aber unvorhergesehene störungen werden von einem automatisierten system in einer vielzahl von sprachen gemeldet darunter spanisch englisch französisch arabisch und japanisch",
+  "timestamp_utc": "2026-07-05T03:48:14Z",
+  "text": "Normale Durchsagen erfolgen in der Metro ausschließlich auf Katalanisch, aber unvorhergesehene Störungen werden von einem automatisierten System in einer Vielzahl von Sprachen gemeldet, darunter Spanisch, Englisch, Französisch, Arabisch und Japanisch.",
+  "latency_sec": 6.3987,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Normale Durchsagen erfolgen in der Metro ausschließlich auf Katalanisch, aber unvorhergesehene Störungen werden von einem automatisierten System in einer Vielzahl von Sprachen gemeldet, darunter Spanisch, Englisch, Französisch, Arabisch und Japanisch.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223294,
+    "id": "-tNJatLiBLj22roP58zioAI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 55,
+      "prompt_tokens": 934,
+      "total_tokens": 1325
+    }
+  }
+}

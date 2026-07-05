@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0153",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 18.48,
+  "ref_text_raw": "1966年からスンダルバンスは野生動物保護区となり、現在では推定で400頭のロイヤルベンガルトラと約30,000頭のアクシスジカが生息しています。",
+  "ref_text_normalized": "1966年からスンダルバンスは野生動物保護区となり 現在では推定で400頭のロイヤルベンガルトラと約30,000頭のアクシスジカが生息しています",
+  "timestamp_utc": "2026-07-05T03:12:10Z",
+  "text": "1966年からスンダルバンスは野生動物保護区となり、現在では推定で400頭のロイヤルベンガルトラと約3万頭のアクシスジカが生息しています。",
+  "latency_sec": 7.6974,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "1966年からスンダルバンスは野生動物保護区となり、現在では推定で400頭のロイヤルベンガルトラと約3万頭のアクシスジカが生息しています。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221130,
+    "id": "hMtJatSCF7yyvr0Pp7y7iQU",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 46,
+      "prompt_tokens": 613,
+      "total_tokens": 1098
+    }
+  }
+}

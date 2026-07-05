@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0072",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.84,
+  "ref_text_raw": "These couples may choose to make an adoption plan for their baby.",
+  "ref_text_normalized": "these couples may choose to make an adoption plan for their baby",
+  "timestamp_utc": "2026-07-05T10:32:09Z",
+  "text": "These couples may choose to make an adoption plan for their baby.",
+  "latency_sec": 3.234,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "These couples may choose to make an adoption plan for their baby.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpQECpEEARFNMg8QLHONOaOWGYBI1UdcPNW7vMa0pAOmPZVvMNY28O6MxG75XvKsJ01/uj9uWl9LZVZ/6/H/TLnWT3I/3jJ9W5aiqEdR1xPlKDJv6K51HZWRCD21WtLe5JFcxyZsVEJRoirsnYOVYY4dtp8TnP5pcr8Xn9I1uQlwrbcoseeZDuBzAlGiP6jWXSEcTBDG3kk39u3hB3396ZnEoQAokTGaY3tZT3YjnlUNNdODbbNrOVEVkVPcE86++51Rn7tFm/2pX0fFz9xnoj9dDcE2t5DXlyiRmbukZHKepRbneNVE+q4eelwouLw9kK/SbgNQ6x84x9AXcMJmInLeS/PzD63VniE8RP5iZZU+oMnoxLOo9LA4j1gM3Ghji822IwjsTu7VnIXH4cPIGONqVKRxHng1+m4cJdYCyT7U4wD/DQovLy+XMpiBhBxVhDZynYjNgwzMNmpAofXfYWwE4NyxUaSC6jbjhWWepmuOoW+pPTs+au5AXw6BWmD04+Z4KSqL13KE6yi13C12pugtPUYzfbAHJVFomc1vNyTfmdoWfii4UtcqIYwAmPEELln8ikB5hsk85cDuUhz3aKobdY+3fH38IntSHJxSj8cdk8k5nMYDqKIhsT6/3wISK6bdcnePmM44+Riwt4qLkgLpfyv7otmVdmHraOEAbXymVWOIrKha5FScA6mY+B2T3oBPwBcorA=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247529,
+    "id": "pzJKap7fFKnDvr0PmKevgQ8",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 13,
+      "prompt_tokens": 192,
+      "total_tokens": 318
+    }
+  }
+}

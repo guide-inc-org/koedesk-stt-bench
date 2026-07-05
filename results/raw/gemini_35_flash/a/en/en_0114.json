@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0114",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.22,
+  "ref_text_raw": "In a carriage, they traveled back to Paris surrounded by a mob of people screaming and shouting threats against the King and Queen.",
+  "ref_text_normalized": "in a carriage they traveled back to paris surrounded by a mob of people screaming and shouting threats against the king and queen",
+  "timestamp_utc": "2026-07-05T03:33:11Z",
+  "text": "In a carriage, they travel back to Paris surrounded by a mob of people screaming and shouting threats against the king and queen.",
+  "latency_sec": 3.403,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "In a carriage, they travel back to Paris surrounded by a mob of people screaming and shouting threats against the king and queen.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EusDCugDARFNMg8aTy5OUar9GsFct3zKKKGTRRqGHuylvxcyfzZwm6v1g7C6vtVjT5QT3JKOP2TFpxV5BeolyZhpy0IcbleEUYli1XbdIAS6DpiYf9yJwaYIcbcsHMcs9EPimaW0WYG5O8Tno0Sz3ST3TDjFIMcb+yIk8RZ4OkXIIBDxCXaWqd7rdFQEtP98vYv3p678cWhWUgtIGXu1trrRMN1dmUodmUhSXkI6wLv2KPLjBeh/mzCAEwMIWqSccVAkX01LdQzz5mu6mljPMtAXRsr+jzN/U9rT96BBEPI8kzByNrjBeUqw4NoAIBcYdGsVLYnEXj/cJTUzBFb67NBrCjVIszY1EqOBzlowSqi9+fs9ULxKBgLLdPDv/rZkoRRBXyG+WEGrgizodP2wHi7rfHWXS1kgzWMCK7EFi+hG52467cEJdLYDQMwXdMOLoeKNWopTNQ2mVAToB6MRkhx/vEeSny1hLDRuhHqi1Clv2GX/FGgZ/I18X2VroG5pbhRiA72NHnmVDSrLhD+PdQ9BlQoI+Ol2PFCJM5Rv2xXFvnkCam+ElWKsTLqX9I4N18XRCEpwSvTugbp9gNmkzwFwLv9Qzhul5B2Ld5u+tWXtS+hfpqxeBBgDjGANgHAFcUUQNnA4bdpRjcai2Ys="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222391,
+    "id": "ddBJarCdOr3KrfcPzfG_-QM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 277,
+      "total_tokens": 391
+    }
+  }
+}

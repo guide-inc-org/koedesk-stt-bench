@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0112",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 15.96,
+  "ref_text_raw": "イタリア国内の他の多くの都市や世界の他の地域（特にポーランド）で同じように設置がされ、多くの人々が視聴しました。",
+  "ref_text_normalized": "イタリア国内の他の多くの都市や世界の他の地域特にポーランドで同じように設置がされ 多くの人々が視聴しました",
+  "timestamp_utc": "2026-07-05T03:07:28Z",
+  "text": "イタリア国内の他の多くの都市や世界の他の地域、特にポーランドで同じように設置がされ、多くの人々が視聴しました。",
+  "latency_sec": 4.1048,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "イタリア国内の他の多くの都市や世界の他の地域、特にポーランドで同じように設置がされ、多くの人々が視聴しました。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783220848,
+    "id": "bspJavKyF73dvr0Pv4K6sQE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 532,
+      "total_tokens": 609
+    }
+  }
+}

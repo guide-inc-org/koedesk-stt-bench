@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0155",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 22.02,
+  "ref_text_raw": "Der marokkanische Sultan baute die Stadt als Dar el Beida wieder auf und sie wurde von spanischen Händlern, die dort Handelsstützpunkte einrichteten, Casablanca genannt.",
+  "ref_text_normalized": "der marokkanische sultan baute die stadt als dar el beida wieder auf und sie wurde von spanischen händlern die dort handelsstützpunkte einrichteten casablanca genannt",
+  "timestamp_utc": "2026-07-05T04:09:03Z",
+  "text": "Der marokkanische Sultan baute die Stadt als Dar el Beida wieder auf, und sie wurde von spanischen Händlern, die dort Handelsstützpunkte einrichteten, Casablanca genannt.",
+  "latency_sec": 4.7828,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Der marokkanische Sultan baute die Stadt als Dar el Beida wieder auf, und sie wurde von spanischen Händlern, die dort Handelsstützpunkte einrichteten, Casablanca genannt.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224543,
+    "id": "29hJapDgKOL81e8P5-3SkQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 572,
+      "total_tokens": 1039
+    }
+  }
+}

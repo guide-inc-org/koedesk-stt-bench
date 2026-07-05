@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0103",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.54,
+  "ref_text_raw": "Il indique que l'endroit le plus efficace pour le sujet principal se trouve à l'intersection des lignes divisant l'image en tiers verticalement et horizontalement (voir exemple).",
+  "ref_text_normalized": "il indique que l'endroit le plus efficace pour le sujet principal se trouve à l'intersection des lignes divisant l'image en tiers verticalement et horizontalement voir exemple",
+  "timestamp_utc": "2026-07-05T05:15:55Z",
+  "text": "Il indique que l'endroit le plus efficace pour le sujet principal se trouve à l'intersection des lignes divisant l'image en tiers, verticalement et horizontalement, voir exemple.",
+  "latency_sec": 4.2438,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Il indique que l'endroit le plus efficace pour le sujet principal se trouve à l'intersection des lignes divisant l'image en tiers, verticalement et horizontalement, voir exemple.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPgZnujJbJbDPuDRpH55flkeuzkQK1PhtwUNdj8W+EErX5N5dBXlZNFWqxhOvf"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228555,
+    "id": "iOhJataQL_KE0-kPh9im2AE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 260,
+      "total_tokens": 298
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0050",
+  "lang": "th",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.5,
+  "ref_text_raw": "โรงพยาบาลได้ปฏิบัติตามมาตรการควบคุมการติดเชื้อรวมถึงมีการแยกผู้ป่วยออกจากกลุ่มคนอื่น ๆ เพื่อป้องกันโอกาสที่ผู้อื่นจะติดเชื้อ",
+  "ref_text_normalized": "โรงพยาบาลได้ปฏิบัติตามมาตรการควบคุมการติดเชื้อรวมถึงมีการแยกผู้ป่วยออกจากกลุ่มคนอื่น ๆ เพื่อป้องกันโอกาสที่ผู้อื่นจะติดเชื้อ",
+  "timestamp_utc": "2026-07-05T07:38:16Z",
+  "text": "โรง พยาบาล ได้ ปฏิบัติ ตาม มาตรการ ควบ คุม การ ติด เชื้อ รวม ถึง มี การ แยก ผู้ ป่วย ออก จาก กลุ่ม คน อื่น ๆ เพื่อ ป้อง กัน โอกาส ที่ ผู้ อื่น จะ ติด เชื้อ",
+  "latency_sec": 3.7257,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "โรง พยาบาล ได้ ปฏิบัติ ตาม มาตรการ ควบ คุม การ ติด เชื้อ รวม ถึง มี การ แยก ผู้ ป่วย ออก จาก กลุ่ม คน อื่น ๆ เพื่อ ป้อง กัน โอกาส ที่ ผู้ อื่น จะ ติด เชื้อ",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237097,
+    "id": "5glKarCWG4-_vr0P4-jhmAM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 357,
+      "total_tokens": 430
+    }
+  }
+}

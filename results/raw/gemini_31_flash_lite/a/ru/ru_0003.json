@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0003",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.92,
+  "ref_text_raw": "В различных местах Рима были установлены большие телевизионные экраны, с помощью которых люди могли наблюдать за церемонией.",
+  "ref_text_normalized": "в различных местах рима были установлены большие телевизионные экраны с помощью которых люди могли наблюдать за церемонией",
+  "timestamp_utc": "2026-07-05T07:27:08Z",
+  "text": "В различных местах Рима были установлены большие телевизионные экраны, с помощью которых люди могли наблюдать за церемонией.",
+  "latency_sec": 2.654,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "В различных местах Рима были установлены большие телевизионные экраны, с помощью которых люди могли наблюдать за церемонией.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP6RwWpW4XNDys/iyH03I5bTka3QipTYtcjllStwd3/1r+VqfItUGkEbRTxtXE"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236428,
+    "id": "SgdKapOTLpi9vr0P4KaPwQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 219,
+      "total_tokens": 246
+    }
+  }
+}

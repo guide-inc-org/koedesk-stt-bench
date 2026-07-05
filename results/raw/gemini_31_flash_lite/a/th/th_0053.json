@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0053",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.04,
+  "ref_text_raw": "เปลือกของดวงจันทร์จะบางลงในส่วนที่เป็นทะเลดวงจันทร์ (Maria) แต่หนาขึ้นในส่วนที่เป็นพื้นที่สูง (Highland)",
+  "ref_text_normalized": "เปลือกของดวงจันทร์จะบางลงในส่วนที่เป็นทะเลดวงจันทร์ maria แต่หนาขึ้นในส่วนที่เป็นพื้นที่สูง highland",
+  "timestamp_utc": "2026-07-05T08:03:55Z",
+  "text": "เปลือกของดวงจันทร์จะบางลงในส่วนที่เป็นทะเล เป็นทะเลดวงจันทร์มาเรีย แต่หนาขึ้นในส่วนที่เป็นพื้นที่สูงไฮแลนด์",
+  "latency_sec": 2.6513,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "เปลือกของดวงจันทร์จะบางลงในส่วนที่เป็นทะเล เป็นทะเลดวงจันทร์มาเรีย แต่หนาขึ้นในส่วนที่เป็นพื้นที่สูงไฮแลนด์",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPRX2/ddj+8R8LAOGcmhYowOvLf8mdS+1VuHMSHJ8BfyJg5IeEDGv8pF1Z9f+f"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238635,
+    "id": "6g9KaoCbEIul1e8Pq7ahqQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 297,
+      "total_tokens": 331
+    }
+  }
+}

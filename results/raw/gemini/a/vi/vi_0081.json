@@ -1,0 +1,39 @@
+{
+  "utt_id": "vi_0081",
+  "lang": "vi",
+  "engine": "gemini_25_flash",
+  "duration_sec": 16.68,
+  "ref_text_raw": "Một số chuyến du lịch sẽ đề cập đến thành phố Berlin, Đức trong tờ quảng cáo. Như bạn thấy trên bản đồ, Berlin không nằm gần biển và chuyến tham quan thành phố sẽ không bao gồm trong giá chuyến đi.",
+  "ref_text_normalized": "một số chuyến du lịch sẽ đề cập đến thành phố berlin đức trong tờ quảng cáo như bạn thấy trên bản đồ berlin không nằm gần biển và chuyến tham quan thành phố sẽ không bao gồm trong giá chuyến đi",
+  "timestamp_utc": "2026-07-05T08:18:04Z",
+  "text": "Một số chuyến du lịch sẽ đề cập đến thành phố Berlin, Đức trong tờ quảng cáo. Như bạn thấy trên bản đồ Berlin không nằm gần biển và chuyến tham quan thành phố sẽ không bao gồm trong giá chuyến đi.",
+  "latency_sec": 3.3172,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Một số chuyến du lịch sẽ đề cập đến thành phố Berlin, Đức trong tờ quảng cáo. Như bạn thấy trên bản đồ Berlin không nằm gần biển và chuyến tham quan thành phố sẽ không bao gồm trong giá chuyến đi.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239484,
+    "id": "OhNKaqTSIrD32roPjrXkkQc",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 555,
+      "total_tokens": 600
+    }
+  }
+}

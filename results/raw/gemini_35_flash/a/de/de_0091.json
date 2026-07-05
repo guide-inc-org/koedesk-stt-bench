@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0091",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 18.9,
+  "ref_text_raw": "Wasserstoffionen sind Protonen, denen ihre Elektronen entzogen wurden (denn Wasserstoffatome bestehen aus einem Proton und einem Elektron).",
+  "ref_text_normalized": "wasserstoffionen sind protonen denen ihre elektronen entzogen wurden denn wasserstoffatome bestehen aus einem proton und einem elektron",
+  "timestamp_utc": "2026-07-05T04:03:38Z",
+  "text": "Wasserstoffionen sind Protonen, denen ihre Elektronen entzogen wurden. Denn Wasserstoffatome bestehen aus einem Proton und einem Elektron.",
+  "latency_sec": 3.6037,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Wasserstoffionen sind Protonen, denen ihre Elektronen entzogen wurden. Denn Wasserstoffatome bestehen aus einem Proton und einem Elektron.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EscFCsQFARFNMg9gl9DB84dfZAOv62ZbzZfoVcJulMozBJfaU856ogVH/93GhaAMoxDLGnBSyBngw0Wc9bPfaCQ2u+P3aIXvc02r7LJdE3Vi/ZjKEnscfpFYIrwDAbezDBBPWvF5ry1C+SQumFVxwpDAF+4Rz9Jg9VkZ1omMFBOoknNxpsujPjgPBGKuU5ZkkHJ4bxszJGVddOEDd++Or2vrl1RRjt3yXLLCuDt1Tmsj4/I2qdbFiH1KkEkPKumq8wxfhe97TYZiTdheJis+CTIoNACyQZarLd6KttLGqUFrmcCErokXl6j/xDbpCGchThMoLc3wODbtg/8ARldAHGAYdqwOtJyPEZcFWaTj+VbL1MgeUrZS10pWnrnHh2SNsZD+vZ13+tH8+PwO/TE/bFYLSOY2JWIvy35xpRCD81sAOOjylwrws9mr5IpjgoFLY1D8K/N2ioBI438aKgpF9ki5fH3O8yjhWFRb8I7jKT0wVIYhNmF3ser768AhTtXmrs/8ahaqEqBxR72zZVzeQUj51jJ+3lSyKlzMTD8DnmEP+sg21l+bxpoOXITicHDBq8v2wnkTGrOMF7w8azfmco1WvaML/ZDpUqz5H52AKm9WatzfCmKiwIwRzPM0bEctFrObAjoQUrmN82WyBJq4IEMXfyoaEW5Hcw2eUh763BtUGNpRToPySDXREjxr91gffi11/d1EZfOPXpp1JYIdKAhdALC8Ei9nzHPWSc0t7MvAUFTdAwoNnfyTpGrDwNpo0rnJr3WBP2hGwTPW3Uz5tsQetLnSU1yNSKWVnvK3Xupvzhtt9PaNz4Ivc9Ex/pPaOYZ1+c3dERUd+j+PoXeMsshI8HN4jQlSsPEAcKCEMtx/ZKKWTm61aPxKk7wQ6OvVVOZ/g8weDbc8+Yt6dliWpDu22vcyDFJ+LozUklWZncK6OGHcWk5TAi3+"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224218,
+    "id": "mNdJapK4DMTs1e8Px-GUwQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 494,
+      "total_tokens": 689
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0051",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.4,
+  "ref_text_raw": "มีการใช้บริการนี้ในการขนส่งอยู่บ่อย ๆ ซึ่งรวมถึงเรือสำราญและการสำรวจที่ต้องการทั้งข้อมูลและเสียงจากระยะไกล",
+  "ref_text_normalized": "มีการใช้บริการนี้ในการขนส่งอยู่บ่อย ๆ ซึ่งรวมถึงเรือสำราญและการสำรวจที่ต้องการทั้งข้อมูลและเสียงจากระยะไกล",
+  "timestamp_utc": "2026-07-05T07:56:06Z",
+  "text": "มีการใช้บริการนี้ในการขนส่งอยู่บ่อยๆ ซึ่งรวมถึงเรือสำราญและการสำรวจที่ต้องการ ทั้งข้อมูลและเสียงจากระยะไกล",
+  "latency_sec": 4.0211,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "มีการใช้บริการนี้ในการขนส่งอยู่บ่อยๆ ซึ่งรวมถึงเรือสำราญและการสำรวจที่ต้องการ ทั้งข้อมูลและเสียงจากระยะไกล",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238166,
+    "id": "FA5KauKxBbyo1e8Prpqp8QY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 306,
+      "total_tokens": 634
+    }
+  }
+}

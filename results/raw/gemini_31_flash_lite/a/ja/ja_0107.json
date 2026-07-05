@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0107",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.5,
+  "ref_text_raw": "実に均整の取れた体で運動能力の高い虎は、（うまくはないものの）登ったり、泳いだり、長い距離を跳んだり、たくましい人間の5倍の力で引っ張ったりできます。",
+  "ref_text_normalized": "実に均整の取れた体で運動能力の高い虎は うまくはないものの登ったり 泳いだり 長い距離を跳んだり たくましい人間の5倍の力で引っ張ったりできます",
+  "timestamp_utc": "2026-07-05T03:17:33Z",
+  "text": "2015 年 と い た 川 で 運動 能力 の 高い トラ は 、 うまく は ない もの の 、 登っ たり 泳い だり 長い 距離 を 飛ん だり 、 たくましい 人間 の 5 倍 の 力 で 引っ張っ たり でき ます 。",
+  "latency_sec": 3.0202,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "2015 年 と い た 川 で 運動 能力 の 高い トラ は 、 うまく は ない もの の 、 登っ たり 泳い だり 長い 距離 を 飛ん だり 、 たくましい 人間 の 5 倍 の 力 で 引っ張っ たり でき ます 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPGQUN8awcv007DSyZcyxC6X5Jid59HoYrjaiwLnJE1ynIHVQ5ED2korePhmiv"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221453,
+    "id": "zMxJasoLjcit9w-a7cP4BQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 68,
+      "prompt_tokens": 359,
+      "total_tokens": 427
+    }
+  }
+}

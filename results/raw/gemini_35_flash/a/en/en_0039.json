@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0039",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.56,
+  "ref_text_raw": "As a result, two fish species have become extinct, and two others have become endangered, including the humpback chub.",
+  "ref_text_normalized": "as a result two fish species have become extinct and two others have become endangered including the humpback chub",
+  "timestamp_utc": "2026-07-05T10:29:31Z",
+  "text": "As a result, two fish species have become extinct and two others have become endangered including the humpback chub.",
+  "latency_sec": 3.386,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "As a result, two fish species have become extinct and two others have become endangered including the humpback chub.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpsGCpgGARFNMg81eg0HpxdqLaEiCiuQO9A4EC0mHSzX2khfCOArEhUaVyStxzXDbiAsTvrw4N57qrercX1pSqaNBi+k+2eNSq9A0YhujaeE7lNMnS5Hoe9aPNdG9xCrPEjJnID3nbiUf6Pubs83rScNlGAYgfKgD9ep3Fh5uiVi42vcylFDPgZOHTsBl6lNKdA3w5Zs75vq/5Qk6BECYs7QuVMYrrs40RzvcbguyN+6zg52IGcFgLkacNPSILFoYKXGQ+0HJVsixQGuMyzDGpmCetMUCzVwLdl57keRs4ts28mcm8Ykol6cALvK/ZC9OVXc+PGJXhpABq9DeRL4olvo8NpvU3JLsEPhDcK+hjYQLBVpFvwMOPjQStLtvVLjkRzoejvtkQjyrvJk36cQH5g12kp6RzGoIMdVKMZJrDUjGL3Bv7vkWPRJrPSP+T+HTl/CibA3wZ46x/ePEyWeAWOs7ZRKvJdOf/PP4xKBnlUQ40GPrvWvCVZvFgSrbPtiL6xlD9pT8SOvdfr4a26YrXCeNsskwqlQyL3bkHU0fw+R85lLUumoMlQcB8mFyR1HRFIN1a6+BiT+4OGfovCrVjE/dsjLp9fX8i7J2S3ZNv0nJUHf0bbSnqoijvG+6kPTcn+8//MzNKMOcgRGUoW0YIL+rx7TTLKS9ls9Qd+LlugZ6bN9DP9h5DhhHord6ULgUU5rsBezbl4rEMfjyw8lr6mDa0jmq9+4ZQoiuIP20b7WxG5tbCKQT+ohgaF3PWQPa0p8vrelXC6zZDOjhly1euY4RvbDSE/HtSnK22wkuAsetHfCz0N4OJhET4H4Kh5MJn9a6ZQ/wC4zi52+l4UMziyWttT7mkbEX+I72B3YW01khtYz86Of0fy8KIlxy1N1noz6vjupVImluGYNp1Tpi0p+9u+AQHlWOYkuudMEbUFLWs+Ihy27H/E8N+SnT7C6HYz2tQeDCEZ/+wezRX2aPLMps1eXoPSk3kaRuQbZcAWTiRXCncarbv85WyncBbM/wOD6/flbkvh4rLAjQaAPPANP5Bio3Gt9V6PiKVv5"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247371,
+    "id": "CTJKaozqIZTc2roP-cDPmAY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 210,
+      "total_tokens": 408
+    }
+  }
+}

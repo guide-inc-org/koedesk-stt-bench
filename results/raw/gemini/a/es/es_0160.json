@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0160",
+  "lang": "es",
+  "engine": "gemini_25_flash",
+  "duration_sec": 19.44,
+  "ref_text_raw": "Perry sostuvo que: «Volvería a Texas a evaluar los resultados de la reunión electoral de hoy y determinar si hay un camino que debo seguir». Luego dijo que permanecería en carrera y que competiría en las elecciones primarias del 21 de enero, en Carolina del Sur».",
+  "ref_text_normalized": "perry sostuvo que: «volvería a texas a evaluar los resultados de la reunión electoral de hoy y determinar si hay un camino que debo seguir». luego dijo que permanecería en carrera y que competiría en las elecciones primarias del 21 de enero en carolina del sur»",
+  "timestamp_utc": "2026-07-05T04:25:31Z",
+  "text": "Perry sostuvo que volvería a Texas a evaluar los resultados de la reunión electoral de hoy y determinar si hay un camino que debo seguir. Luego, dijo que permanecería en carrera y que competiría en las elecciones primarias del 21 de enero en Carolina del Sur.",
+  "latency_sec": 3.8426,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Perry sostuvo que volvería a Texas a evaluar los resultados de la reunión electoral de hoy y determinar si hay un camino que debo seguir. Luego, dijo que permanecería en carrera y que competiría en las elecciones primarias del 21 de enero en Carolina del Sur.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225531,
+    "id": "uNxJasC4KZ2C0-kPjp3EsQM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 55,
+      "prompt_tokens": 644,
+      "total_tokens": 722
+    }
+  }
+}

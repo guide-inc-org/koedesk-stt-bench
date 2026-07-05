@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0091",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.26,
+  "ref_text_raw": "La calidad y el nivel de detalle de su labor son tan reconocidos que se ha vuelto uno de los pocos «nombres familiares» entre los filatelistas. Hay personas que se especializan en recopilar su obra.",
+  "ref_text_normalized": "la calidad y el nivel de detalle de su labor son tan reconocidos que se ha vuelto uno de los pocos «nombres familiares» entre los filatelistas. hay personas que se especializan en recopilar su obra",
+  "timestamp_utc": "2026-07-05T04:39:12Z",
+  "text": "La calidad y el nivel de detalle de su labor son tan reconocidos que se ha vuelto uno de los pocos nombres familiares entre los filateístas. Hay personas que se especializan en recopilar su obra.",
+  "latency_sec": 2.8146,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "La calidad y el nivel de detalle de su labor son tan reconocidos que se ha vuelto uno de los pocos nombres familiares entre los filateístas. Hay personas que se especializan en recopilar su obra.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP1zZ0p8L9r+K1EBZiUEtU+4ZAIns9+wMln/uMgWAny4lvnMug2yJjVJ0qcfpm"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226352,
+    "id": "799Jao7KDu3j1e8P2Y3r2QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 353,
+      "total_tokens": 396
+    }
+  }
+}

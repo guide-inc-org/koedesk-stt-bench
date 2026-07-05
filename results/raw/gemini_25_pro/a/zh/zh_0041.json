@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0041",
+  "lang": "zh",
+  "engine": "gemini_25_pro",
+  "duration_sec": 7.14,
+  "ref_text_raw": "二十世纪的研究表明，基因变异有两种库：显性和隐性。",
+  "ref_text_normalized": "二 十 世 纪 的 研 究 表 明 基 因 变 异 有 两 种 库 显 性 和 隐 性",
+  "timestamp_utc": "2026-07-05T08:53:46Z",
+  "text": "20世纪的研究表明,基因变异有,有两种库,显性和隐性。",
+  "latency_sec": 6.277,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "20世纪的研究表明,基因变异有,有两种库,显性和隐性。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241626,
+    "id": "lRtKap65POnn2roPlKW22Ao",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 250,
+      "total_tokens": 556
+    }
+  }
+}

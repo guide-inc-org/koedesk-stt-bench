@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0033",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.68,
+  "ref_text_raw": "Dem Leak zufolge bezieht sich das Dokument auf den Grenzstreit, in dem die Palästinenser ein Zurücksetzen der Grenzen in den Zustand vor dem Sechstagekrieg von 1967 fordern.",
+  "ref_text_normalized": "dem leak zufolge bezieht sich das dokument auf den grenzstreit in dem die palästinenser ein zurücksetzen der grenzen in den zustand vor dem sechstagekrieg von 1967 fordern",
+  "timestamp_utc": "2026-07-05T04:01:47Z",
+  "text": "Dem liegt zufolge bezieht sich das Dokument auf den Grenzstreit, in dem die Palästinenser ein Zurücksetzen der Grenzen in den Zustand vor dem Sechstagekrieg von 1967 fordern.",
+  "latency_sec": 3.7192,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Dem liegt zufolge bezieht sich das Dokument auf den Grenzstreit, in dem die Palästinenser ein Zurücksetzen der Grenzen in den Zustand vor dem Sechstagekrieg von 1967 fordern.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPwzafs7iES6aICzTVSoBZYracAqbi30fuE15CjHMdRN2W86s/B3vQStw5zAgB"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224107,
+    "id": "KNdJaqv2Jeel0-kPltOWuAs",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 288,
+      "total_tokens": 333
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "pt_0007",
+  "lang": "pt",
+  "engine": "gemini_25_pro",
+  "duration_sec": 8.82,
+  "ref_text_raw": "O acidente ocorreu em grande altitude no terreno montanhoso, e acredita-se que tenha sido causado por fogo inimigo.",
+  "ref_text_normalized": "o acidente ocorreu em grande altitude no terreno montanhoso e acredita-se que tenha sido causado por fogo inimigo",
+  "timestamp_utc": "2026-07-05T06:31:59Z",
+  "text": "O acidente ocorreu em grande altitude, no terreno montanhoso, e acredita-se que tenha sido causado por fogo inimigo.",
+  "latency_sec": 4.0163,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "O acidente ocorreu em grande altitude, no terreno montanhoso, e acredita-se que tenha sido causado por fogo inimigo.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783233119,
+    "id": "XPpJar2SOPTLrfcPi72awAU",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 304,
+      "total_tokens": 372
+    }
+  }
+}

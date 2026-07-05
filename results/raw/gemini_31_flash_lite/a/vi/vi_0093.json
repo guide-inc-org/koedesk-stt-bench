@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0093",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 17.28,
+  "ref_text_raw": "Bà Kirchner tuyên bố ý định tranh cử tổng thống tại Nhà hát Argentina, đây cũng là địa điểm bà từng sử dụng để bắt đầu chương trình tranh cử vào Thượng viện năm 2005 với tư cách là thành viên của phái đoàn tỉnh Buenos Aires.",
+  "ref_text_normalized": "bà kirchner tuyên bố ý định tranh cử tổng thống tại nhà hát argentina đây cũng là địa điểm bà từng sử dụng để bắt đầu chương trình tranh cử vào thượng viện năm 2005 với tư cách là thành viên của phái đoàn tỉnh buenos aires",
+  "timestamp_utc": "2026-07-05T08:43:14Z",
+  "text": "Bà Cristina tuyên bố ý định tranh cử tổng thống tại nhà hát Argentina. Đây cũng là địa điểm bà từng sử dụng để bắt đầu chương trình tranh cử vào thượng viện năm 2005 với tư cách là thành viên của phái đoàn tỉnh Buenos Aires.",
+  "latency_sec": 2.6726,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Bà Cristina tuyên bố ý định tranh cử tổng thống tại nhà hát Argentina. Đây cũng là địa điểm bà từng sử dụng để bắt đầu chương trình tranh cử vào thượng viện năm 2005 với tư cách là thành viên của phái đoàn tỉnh Buenos Aires.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPk19PAV7xKUHefYTtpVvrkP/TDpI9VsssDlDyAdjrn6gQk7FF8npA0Zzz8U1S"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240994,
+    "id": "IRlKaqenHq2l0-kP_9TT2QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 55,
+      "prompt_tokens": 453,
+      "total_tokens": 508
+    }
+  }
+}

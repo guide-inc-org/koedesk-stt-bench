@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0108",
+  "lang": "th",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.44,
+  "ref_text_raw": "แต่หลังจากการเสียวิกเก็ตของกัปตัน อินเดียทำได้เพียง 36 รัน โดยเสีย 7 วิกเก็ตเพื่อจบอินนิ่ง",
+  "ref_text_normalized": "แต่หลังจากการเสียวิกเก็ตของกัปตัน อินเดียทำได้เพียง 36 รัน โดยเสีย 7 วิกเก็ตเพื่อจบอินนิ่ง",
+  "timestamp_utc": "2026-07-05T07:51:05Z",
+  "text": "แต่หลังจากการเสียวิตเก็ตของกัปตันอินเดีย ทำได้เพียง 36 รัน โดยเสีย 7 วิตเก็ตเพื่อจบอินนิ่ง",
+  "latency_sec": 5.2412,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "แต่หลังจากการเสียวิตเก็ตของกัปตันอินเดีย ทำได้เพียง 36 รัน โดยเสีย 7 วิตเก็ตเพื่อจบอินนิ่ง",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237865,
+    "id": "5QxKavmiOYKhvr0P0-6Y8AY",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 356,
+      "total_tokens": 679
+    }
+  }
+}

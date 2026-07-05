@@ -1,0 +1,39 @@
+{
+  "utt_id": "vi_0093",
+  "lang": "vi",
+  "engine": "gemini_25_flash",
+  "duration_sec": 17.28,
+  "ref_text_raw": "Bà Kirchner tuyên bố ý định tranh cử tổng thống tại Nhà hát Argentina, đây cũng là địa điểm bà từng sử dụng để bắt đầu chương trình tranh cử vào Thượng viện năm 2005 với tư cách là thành viên của phái đoàn tỉnh Buenos Aires.",
+  "ref_text_normalized": "bà kirchner tuyên bố ý định tranh cử tổng thống tại nhà hát argentina đây cũng là địa điểm bà từng sử dụng để bắt đầu chương trình tranh cử vào thượng viện năm 2005 với tư cách là thành viên của phái đoàn tỉnh buenos aires",
+  "timestamp_utc": "2026-07-05T08:19:01Z",
+  "text": "Bà kích n tuyên bố ý định tranh cử tổng thống tại nhà hát Argentina. Đây cũng là địa điểm bà từng sử dụng để bắt đầu chương trình tranh cử vào Thượng viện năm 2005 với tư cách là thành viên của phái đoàn tỉnh Buenos Air.",
+  "latency_sec": 3.6434,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Bà kích n tuyên bố ý định tranh cử tổng thống tại nhà hát Argentina. Đây cũng là địa điểm bà từng sử dụng để bắt đầu chương trình tranh cử vào Thượng viện năm 2005 với tư cách là thành viên của phái đoàn tỉnh Buenos Air.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239541,
+    "id": "cxNKaqz-DuGHvr0PvZC5oQg",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 57,
+      "prompt_tokens": 574,
+      "total_tokens": 656
+    }
+  }
+}

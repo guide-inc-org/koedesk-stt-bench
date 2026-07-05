@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0076",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.22,
+  "ref_text_raw": "Feuchte Kleidung zu bügeln kann beim Trocknen helfen. Viele Hotels verleihen Bügeleisen und Bügelbrett, auch wenn man man nicht im Zimmer anwesend ist.",
+  "ref_text_normalized": "feuchte kleidung zu bügeln kann beim trocknen helfen viele hotels verleihen bügeleisen und bügelbrett auch wenn man man nicht im zimmer anwesend ist",
+  "timestamp_utc": "2026-07-05T04:04:23Z",
+  "text": "Feuchte Kleidung zu bügeln kann beim Trocknen helfen. Viele Hotels verleihen Bügeleisen und Bügelbrett, auch wenn man nicht im Zimmer anwesend ist.",
+  "latency_sec": 2.8892,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Feuchte Kleidung zu bügeln kann beim Trocknen helfen. Viele Hotels verleihen Bügeleisen und Bügelbrett, auch wenn man nicht im Zimmer anwesend ist.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPE/8TqpUdhMtHUQdjEo884kg4ysw1G0Ps8MIRzIfrvLU46+QO8jnpSVAxUYHh"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224263,
+    "id": "xddJasLoO8Kl9tMPpf6PiQE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 227,
+      "total_tokens": 264
+    }
+  }
+}

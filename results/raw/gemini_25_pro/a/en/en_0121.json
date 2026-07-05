@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0121",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 6.12,
+  "ref_text_raw": "In particular, it is claimed that one can detect whether a person is lying by interpreting micro-expressions correctly.",
+  "ref_text_normalized": "in particular it is claimed that one can detect whether a person is lying by interpreting micro-expressions correctly",
+  "timestamp_utc": "2026-07-05T03:25:40Z",
+  "text": "In particular, it is claimed that one can detect whether a person is lying by interpreting micro expressions correctly.",
+  "latency_sec": 4.8531,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "In particular, it is claimed that one can detect whether a person is lying by interpreting micro expressions correctly.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221940,
+    "id": "sM5Jao7hGPK8vr0P85enuQQ",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 217,
+      "total_tokens": 404
+    }
+  }
+}

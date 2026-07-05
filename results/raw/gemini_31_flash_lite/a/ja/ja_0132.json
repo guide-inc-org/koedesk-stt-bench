@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0132",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.48,
+  "ref_text_raw": "受け入れられたのは、心理学を含む科学のあらゆる事項に関するアリストテレスの見解でした。",
+  "ref_text_normalized": "受け入れられたのは 心理学を含む科学のあらゆる事項に関するアリストテレスの見解でした",
+  "timestamp_utc": "2026-07-05T03:19:09Z",
+  "text": "受け入れられたのは心理学を含む科学のあらゆる事柄に関するアリストテレスの見解でした。",
+  "latency_sec": 3.1205,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "受け入れられたのは心理学を含む科学のあらゆる事柄に関するアリストテレスの見解でした。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPvxnb1ApbBuOMJ8wuoQ0OZHzcSLc/A69Ew5enoHVpY2d2buE3sBjhZ87qAEaU"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221549,
+    "id": "K81JarjHMOznosUP7JmIyQY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 333,
+      "total_tokens": 355
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0113",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.92,
+  "ref_text_raw": "Das Gebrüll des Tigers hört sich nicht so an wie das vollmundige Gebrüll des Löwens, sondern eher wie ein Satz aus knurrigen gebrüllten Worten.",
+  "ref_text_normalized": "das gebrüll des tigers hört sich nicht so an wie das vollmundige gebrüll des löwens sondern eher wie ein satz aus knurrigen gebrüllten worten",
+  "timestamp_utc": "2026-07-05T04:05:29Z",
+  "text": "Das Gebrüll des Tigers hört sich nicht so an wie das vollmundige Gebrüll des Löwen, sondern eher wie ein Satz aus knurrigen, gebrüllten Worten.",
+  "latency_sec": 5.4668,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Das Gebrüll des Tigers hört sich nicht so an wie das vollmundige Gebrüll des Löwen, sondern eher wie ein Satz aus knurrigen, gebrüllten Worten.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224329,
+    "id": "BNhJauegPImV1e8Pn9-owAM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 219,
+      "total_tokens": 790
+    }
+  }
+}

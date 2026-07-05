@@ -1,0 +1,39 @@
+{
+  "utt_id": "vi_0148",
+  "lang": "vi",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.74,
+  "ref_text_raw": "Ngày nay, con người viết tin nhắn trên màn hình máy tính, không bao giờ phải dúng đến gọt bút chì nữa.",
+  "ref_text_normalized": "ngày nay con người viết tin nhắn trên màn hình máy tính không bao giờ phải dúng đến gọt bút chì nữa",
+  "timestamp_utc": "2026-07-05T08:23:39Z",
+  "text": "Ngày nay con người viết tin nhắn trên màn hình máy tính không bao giờ phải nhúng đến gộc chì nữa.",
+  "latency_sec": 4.5554,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Ngày nay con người viết tin nhắn trên màn hình máy tính không bao giờ phải nhúng đến gộc chì nữa.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239820,
+    "id": "iBRKaq-9Kdbk1e8P_MzduQE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 365,
+      "total_tokens": 689
+    }
+  }
+}

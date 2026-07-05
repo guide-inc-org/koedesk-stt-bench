@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0002",
+  "lang": "zh",
+  "engine": "gemini_25_pro",
+  "duration_sec": 13.86,
+  "ref_text_raw": "桥下垂直净空 15 米。该项目于 2011 年 8 月完工，但直到 2017 年 3 月才开始通车。",
+  "ref_text_normalized": "桥 下 垂 直 净 空 15 米 该 项 目 于 2011 年 8 月 完 工 但 直 到 2017 年 3 月 才 开 始 通 车",
+  "timestamp_utc": "2026-07-05T08:49:56Z",
+  "text": "跳下垂直净空15米,该项目于2011年8月完工。 但直到2017年3月才开始通车。",
+  "latency_sec": 3.6677,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "跳下垂直净空15米,该项目于2011年8月完工。 但直到2017年3月才开始通车。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241396,
+    "id": "sRpKasy1L4GM0-kP4LLDwQk",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 465,
+      "total_tokens": 501
+    }
+  }
+}

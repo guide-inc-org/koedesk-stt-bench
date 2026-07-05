@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0051",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.52,
+  "ref_text_raw": "Спутник был доставлен в космос ракетой. Ученые используют телескопы в космосе, потому что атмосфера Земли в некоторой степени искажает наш свет и обзор.",
+  "ref_text_normalized": "спутник был доставлен в космос ракетой ученые используют телескопы в космосе потому что атмосфера земли в некоторой степени искажает наш свет и обзор",
+  "timestamp_utc": "2026-07-05T07:20:56Z",
+  "text": "Спутник был доставлен в космос ракетой. Ученые используют телескопы в космосе, потому что атмосфера Земли в некоторой степени искажает наш свет и обзор.",
+  "latency_sec": 4.1494,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Спутник был доставлен в космос ракетой. Ученые используют телескопы в космосе, потому что атмосфера Земли в некоторой степени искажает наш свет и обзор.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236056,
+    "id": "1QVKaqPOO_nC0-kP-o-AoAM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 309,
+      "total_tokens": 662
+    }
+  }
+}

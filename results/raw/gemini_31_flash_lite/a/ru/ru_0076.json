@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0076",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.52,
+  "ref_text_raw": "Философ Аристотель считал, что всё состоит из смеси одного или нескольких из четырёх элементов. Это были земля, вода, воздух и огонь.",
+  "ref_text_normalized": "философ аристотель считал что всё состоит из смеси одного или нескольких из четырёх элементов это были земля вода воздух и огонь",
+  "timestamp_utc": "2026-07-05T07:31:42Z",
+  "text": "Философ Аристотель считал, что всё состоит из смеси одного или нескольких из четырёх элементов. Это были земля, вода, воздух и огонь.",
+  "latency_sec": 3.2283,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Философ Аристотель считал, что всё состоит из смеси одного или нескольких из четырёх элементов. Это были земля, вода, воздух и огонь.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPOSDvEt5v3ssFW9gYQn9MBP2i7A5N4SAVLRr7WBjplUQ040tkgjI9PzXdPoKZ"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236702,
+    "id": "XAhKasGqKZO00-kP9qbDqAY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 384,
+      "total_tokens": 417
+    }
+  }
+}

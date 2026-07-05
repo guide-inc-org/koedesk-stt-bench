@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0042",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.62,
+  "ref_text_raw": "Goats seem to have been first domesticated roughly 10,000 years ago in the Zagros Mountains of Iran.",
+  "ref_text_normalized": "goats seem to have been first domesticated roughly 10,000 years ago in the zagros mountains of iran",
+  "timestamp_utc": "2026-07-05T10:30:29Z",
+  "text": "Goats seem to have been first domesticated roughly 10,000 years ago in the Zagros mountains of Iran.",
+  "latency_sec": 2.6792,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Goats seem to have been first domesticated roughly 10,000 years ago in the Zagros mountains of Iran.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPtTlrkVMM2tiEIwZxL631cRKH89OT24r92bvRcw65gz7kE/6m1Zx+lvEXy8tf"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247429,
+    "id": "RDJKaueDENLu1e8P1-bXkAI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 287,
+      "total_tokens": 313
+    }
+  }
+}

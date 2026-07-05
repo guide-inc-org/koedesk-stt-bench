@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0141",
+  "lang": "ru",
+  "engine": "gemini_25_pro",
+  "duration_sec": 11.64,
+  "ref_text_raw": "На некоторых маршрутах  у более крупных компаний есть свои собственные самолёты, но для других маршрутов и более мелких компаний с этим была проблема.",
+  "ref_text_normalized": "на некоторых маршрутах у более крупных компаний есть свои собственные самолёты но для других маршрутов и более мелких компаний с этим была проблема",
+  "timestamp_utc": "2026-07-05T07:20:47Z",
+  "text": "На некоторых маршрутах у более крупных компаний есть свои собственные самолёты, но для других маршрутов и более мелких компаний с этим была проблема.",
+  "latency_sec": 5.1158,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "На некоторых маршрутах у более крупных компаний есть свои собственные самолёты, но для других маршрутов и более мелких компаний с этим была проблема.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236047,
+    "id": "zAVKao-QCqXJ2roPu_yk0QE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 394,
+      "total_tokens": 581
+    }
+  }
+}

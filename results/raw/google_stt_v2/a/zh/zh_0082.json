@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0082",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 7.5,
+  "ref_text_raw": "氢离子是失去了电子的质子（因为氢原子由一个质子和一个电子组成）。",
+  "ref_text_normalized": "氢 离 子 是 失 去 了 电 子 的 质 子 因 为 氢 原 子 由 一 个 质 子 和 一 个 电 子 组 成",
+  "timestamp_utc": "2026-07-05T06:25:39Z",
+  "text": "氢离子是失去了电子的质子,因为氢原子由一个质子和一个电子组成。",
+  "latency_sec": 3.6219,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "8s",
+      "requestId": "6d5804b8-0000-2832-9460-14223bc7d1aa",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "氢离子是失去了电子的质子,因为氢原子由一个质子和一个电子组成。"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

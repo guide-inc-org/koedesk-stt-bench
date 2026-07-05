@@ -1,0 +1,39 @@
+{
+  "utt_id": "vi_0119",
+  "lang": "vi",
+  "engine": "gemini_25_pro",
+  "duration_sec": 20.88,
+  "ref_text_raw": "Vào mùa hè, mọi người thường hay thưởng thức một món đơn giản và phổ biến có tên là Pa amb Pli: gồm bánh mì dùng kèm dầu ô-liu, cà chua và bất cứ gia vị nào sẵn có như phô mai, cá ngừ, vv... vào bữa tối",
+  "ref_text_normalized": "vào mùa hè mọi người thường hay thưởng thức một món đơn giản và phổ biến có tên là pa amb pli gồm bánh mì dùng kèm dầu ô-liu cà chua và bất cứ gia vị nào sẵn có như phô mai cá ngừ vv vào bữa tối",
+  "timestamp_utc": "2026-07-05T08:28:26Z",
+  "text": "Vào mùa hè, mọi người thường hay thưởng thức một món đơn giản và phổ biến có tên là ba amb bli gồm bánh mì dùng kèm dầu ô liu, cà chua và bất cứ gia vị nào sẵn có như phô mai, cá ngừ, vân vân vào buổi tối.",
+  "latency_sec": 9.1214,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Vào mùa hè, mọi người thường hay thưởng thức một món đơn giản và phổ biến có tên là ba amb bli gồm bánh mì dùng kèm dầu ô liu, cà chua và bất cứ gia vị nào sẵn có như phô mai, cá ngừ, vân vân vào buổi tối.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240106,
+    "id": "oxVKarjtKJCe1e8PjsLZ0AQ",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 58,
+      "prompt_tokens": 690,
+      "total_tokens": 1221
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0155",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.42,
+  "ref_text_raw": "特に夏場には、オリーブオイルを塗ったパンにトマトとチーズ、チューナなどの調味料を加えた「パンボリ」というシンプルな料理が人気です。",
+  "ref_text_normalized": "特に夏場には オリーブオイルを塗ったパンにトマトとチーズ チューナなどの調味料を加えた パンボリ というシンプルな料理が人気です",
+  "timestamp_utc": "2026-07-05T03:11:19Z",
+  "text": "特にラスバニはオリーブオイルを塗ったパンにトマトとチーズ、チューナなどの調味料を加えたパンボリというシンプルな料理が人気です。",
+  "latency_sec": 4.4396,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "特にラスバニはオリーブオイルを塗ったパンにトマトとチーズ、チューナなどの調味料を加えたパンボリというシンプルな料理が人気です。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221079,
+    "id": "VMtJaoPMK5jF0-kPvZ-G6AE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 419,
+      "total_tokens": 480
+    }
+  }
+}

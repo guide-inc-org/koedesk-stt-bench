@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0027",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.6,
+  "ref_text_raw": "ชาวปารีสขึ้นชื่อในเรื่องความเห็นแก่ตัว หยาบคาย และหยิ่งยโส",
+  "ref_text_normalized": "ชาวปารีสขึ้นชื่อในเรื่องความเห็นแก่ตัว หยาบคาย และหยิ่งยโส",
+  "timestamp_utc": "2026-07-05T08:02:19Z",
+  "text": "ชาว ปารีส ขึ้น ชื่อ ใน เรื่อง ความ เห็น แก่ ตัว หยาบคาย และ หยิ่ง ยโส",
+  "latency_sec": 2.5926,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ชาว ปารีส ขึ้น ชื่อ ใน เรื่อง ความ เห็น แก่ ตัว หยาบคาย และ หยิ่ง ยโส",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPuqSNy+m3AQ8ehAtjzhmtH3MCOZ/B4jQlg6qijzfOhY/xv5wkwgMaulAKU2og"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238539,
+    "id": "ig9KatnyC62l0-kP_9TT2QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 186,
+      "total_tokens": 210
+    }
+  }
+}

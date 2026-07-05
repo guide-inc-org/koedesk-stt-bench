@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0158",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.68,
+  "ref_text_raw": "Traffic Flow is the study of the movement of individual drivers and vehicles between two points and the interactions they make with one another.",
+  "ref_text_normalized": "traffic flow is the study of the movement of individual drivers and vehicles between two points and the interactions they make with one another",
+  "timestamp_utc": "2026-07-05T03:29:03Z",
+  "text": "Traffic flow is a study of the movement of individual drivers and vehicles between two points and the interactions they make with one another.",
+  "latency_sec": 3.5154,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Traffic flow is a study of the movement of individual drivers and vehicles between two points and the interactions they make with one another.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222143,
+    "id": "fc9JapG7B-KSvr0Pv53i8AM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 267,
+      "total_tokens": 292
+    }
+  }
+}

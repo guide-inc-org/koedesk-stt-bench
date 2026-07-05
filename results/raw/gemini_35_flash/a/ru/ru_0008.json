@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0008",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.52,
+  "ref_text_raw": "Только мутации в клетках зародышевой линии могут передаваться далее детям, в то время как мутации где-то ещё могут привести к гибели клеток или раку.",
+  "ref_text_normalized": "только мутации в клетках зародышевой линии могут передаваться далее детям в то время как мутации где-то ещё могут привести к гибели клеток или раку",
+  "timestamp_utc": "2026-07-05T07:17:03Z",
+  "text": "Только мутации в клетках зародышевой линии могут передаваться далее детям, в то время как мутации где-то еще могут привести к гибели клеток или раку.",
+  "latency_sec": 4.3879,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Только мутации в клетках зародышевой линии могут передаваться далее детям, в то время как мутации где-то еще могут привести к гибели клеток или раку.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EvAMCu0MARFNMg/DKcRABYRfXpDpYCEpW7XS2recdW8Auc/D7YdvXNHkmG+W+lQFy2af164N84Fu4MKvl9HI+aaBahzesjNMYVLrSjRqQyJP9ygrcWAAqR6OzVm0gVGwYIU1MHSSrdbNRJVjcw/gtwyPqHzr+DOYkBjJdKTtJUIL3XLatK8rWoMLSFAbFkKmcCqlMsa359MOocSWao+OJQaalvE0wNU9Q5EWP2GoMkozX3daZT4hOrMa3zSgpIC+VW/WWFe6BL7Fu2HstGzVa1zNIiFh8yiuzdYrzZ5hAzT/hnoVCAwIWztFb/D68HfCFKeYH6DAtP6H8ClMmQTWElpvv2j0ThMZ4GrlSh6i7JXmAi/95yEu44yKKFViWRherJG/i3cgqHSac2Y4HC1IrC/hKrvgKD01KHo2kNmIFgp3Ez4soLzh2LITrDYLfMFj0ahlKZqzCjgUO8t+TOYpxgmj/7gEGOnJY+kCFNG6DWyf2oUefBDCOgrkif9MnEEfYjs6uegigHi3Ou4xOgRMYa8icKp/3fqs+ZD8h7WZPtyaT94QHmHMspT9XC2QUqXk49cl7u2Ehl2iDfzpYCHDq1VBl1La0y2M8/dyX00zP8NQQG1kd5495xnPFVCO6O3HudOuZRsCrTzRAW7YxbgGdJ6zJ69yjtk5KePuazMw7mrtTEMVg+wAMlrl3UPaGLFJ0QFBsna7NQ3f7lINzz86rnOi2ErjtbY+ZoBzVIQ1PlcAlQ0lGppQ2berT8xC2nNRnPODEnFKlt5eb6YSD1OS/Jzrf0yMGk+dOhIUliqOnM/4C3hzhzjXEZRDPLk9E99sArnrCtKZxjPQtkTCgYx3XP1LU6kbkOpM2j83C3mejVsOvhhUT9hcLxHQijzNguI5i2OR9FirqxS6CCyqyBdvoYLfAkNQTP++cgA88PGkRV4sVkc0NGojg+unxIGFXAAGI/TmTVmtusmhxsfOJLYzKzLM/jhPC6zxpjreMNCpwW7838yfe87NMtkGiDlB7e9BTleD7HD7CFPIuwXI1jd+XmWS9gz21JiL5vKAB91aBOczo6KYJM69VCXWUdYZ2rG2coceLuOQyYPaDSFdf4eDSxIUykFrF43JnbyQut7vhD1yMGDO3sTO9wDAmRAcPadgj5rzv5EMA+Nh54MnkkN3mktrL3cQhTjccHalSndVGSCWH0TTCEtfL8lm8hFs/rjX2LLK+IBHfAEsFKMKcWr+KRNLyh1Uwg0VzE9dSY9X4AYpFxRMedWKuvWubJvrutXcPR1uL6/VFAU44+D7cutxpKN7nCU7jUNhg1JMkL5WBZfsPnIAj8+nZw6vU8bU4AN5uS8OLPZWrrRcjpaZY5JniTIgZA/CmJhCeCd47bhn3BuoZhx4clo8hI4/0a2W/WPL9EGyElr5kohCCdEKDzp5pnTjOv9hgjYcOZkM7xuKV8A7+MZqJSGHpivsgzzsFWfDOG/IYC4r51EB3T/OydhnrmeD+g/zE9f1oEVmbuxPeMwyaC/BKNUhYxPoUnTa674t2B207YDXOo/e/ZIuPmunL7LnblOJA/t4zYtP8pMf6wKB2vpT6j6Dg6RSsTP1IcLb7wA7oWzZvwYYLnZjilS2IGgZvoyY7ZXceALyPxZjZNeVyAV1qYB79NLMFDu+/3Fk6CiVsSTUQSJKOcu5sIOzYO2w0LvMLTwTO9hEIC3xiSUEeyNY3Hl99r8fGxrgsPbHZpPeg54/YqudBpNHWKoiVvAvkKFVZXtNWGaNEZsR81MVMngt4z00kQ4TKG/JjYirUUwhC7TiFJMj4G1X91vN6xqmykkcEeqwBXEbi+udQqvysYi4TxTpY1ej0Nps8nEIpLGJKM+7n3eUX2vZ89HKtlmIiEdhILsy4GxBuVXD0nEBqvw0IFnyGVLAkxFz12pQyXA8TmzB05GsizPabu8lfRwFDEd6lbhAu4fbYpQJzgx6ljRIVfTHN1NFycDJUK4yZSZDqJqJCVdYNm7RFpdrrZ92RIlg6CfXepaXxgRrvIWn9/mP++SCuXrMae86i0uFMH/UV11x4IKTL+7n9gjtOmcM2XYMjG6jjv0fPV8lAGMzMLLQfK2cA9JOBc7CtFnjyUqTzAIetaBtmp/1ZyGOts/zWIYk9FhXD11ctCtWQ7LPwveJFJmQCxn7PHYPUtlgE1T8h1Uy29nEVcNYgtEzVqNa1g=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235823,
+    "id": "7ARKaqj1NomV1e8Pn9-owAM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 309,
+      "total_tokens": 628
+    }
+  }
+}

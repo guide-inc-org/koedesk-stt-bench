@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0097",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 22.56,
+  "ref_text_raw": "Danielle Lantagne, ein UN-Experte für die Krankheit, stellte fest, dass der Ausbruch vermutlich von den Blauhelmen verursacht wurde.",
+  "ref_text_normalized": "danielle lantagne ein un-experte für die krankheit stellte fest dass der ausbruch vermutlich von den blauhelmen verursacht wurde",
+  "timestamp_utc": "2026-07-05T04:05:39Z",
+  "text": "Daniel Lantagne, ein UN-Experte für die Krankheit, stellte fest, dass der Ausbruch vermutlich von den Blauhelmen verursacht wurde.",
+  "latency_sec": 2.9628,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Daniel Lantagne, ein UN-Experte für die Krankheit, stellte fest, dass der Ausbruch vermutlich von den Blauhelmen verursacht wurde.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPVzcShjy9jG5q8b+JfNPa6SuhLxDlGNcxSj9BGG5Asez6wA/UO7mN45Sule5a"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224339,
+    "id": "EthJariFEeGHvr0PvZC5oQg",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 585,
+      "total_tokens": 614
+    }
+  }
+}

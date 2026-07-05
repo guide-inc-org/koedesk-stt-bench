@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0144",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.0,
+  "ref_text_raw": "地球上の川から海に注ぐ水の20%は、アマゾン川から流れ出ています。",
+  "ref_text_normalized": "地球上の川から海に注ぐ水の20%は アマゾン川から流れ出ています",
+  "timestamp_utc": "2026-07-05T03:19:53Z",
+  "text": "地球 上 の 川 から 海 に 注ぐ 水 の 20 % は アマゾン 川 から 流れ出 て い ます 。",
+  "latency_sec": 3.1427,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "地球 上 の 川 から 海 に 注ぐ 水 の 20 % は アマゾン 川 から 流れ出 て い ます 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPC0wt4NrsxG5kzBJKIr9WNKOYpnJ62QN8BugxtF9tNj5Ovl8bcpDP2yUr0zA8"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221593,
+    "id": "WM1Jao2_BL3MrfcPx6WgiQQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 246,
+      "total_tokens": 274
+    }
+  }
+}

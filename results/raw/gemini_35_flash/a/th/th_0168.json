@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0168",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 15.3,
+  "ref_text_raw": "ในช่วงสายของวันอาทิตย์ ประธานาธิบดีโดนัลด์ ทรัมป์ของสหรัฐอเมริกาประกาศในแถลงการณ์ที่ส่งผ่านเลขาธิการสื่อมวลชนว่าสหรัฐฯ จะถอนกองทัพออกจากซีเรีย",
+  "ref_text_normalized": "ในช่วงสายของวันอาทิตย์ ประธานาธิบดีโดนัลด์ ทรัมป์ของสหรัฐอเมริกาประกาศในแถลงการณ์ที่ส่งผ่านเลขาธิการสื่อมวลชนว่าสหรัฐฯ จะถอนกองทัพออกจากซีเรีย",
+  "timestamp_utc": "2026-07-05T08:08:02Z",
+  "text": "ในช่วงสายของวันอาทิตย์ ประธานาธิบดีโดนัลด์ ทรัมป์ ของสหรัฐอเมริกาประกาศในแถลงการณ์ที่ส่งผ่านเลขาธิการสื่อมวลชนว่า สหรัฐจะถอนกองทัพออกจากซีเรีย",
+  "latency_sec": 5.094,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ในช่วงสายของวันอาทิตย์ ประธานาธิบดีโดนัลด์ ทรัมป์ ของสหรัฐอเมริกาประกาศในแถลงการณ์ที่ส่งผ่านเลขาธิการสื่อมวลชนว่า สหรัฐจะถอนกองทัพออกจากซีเรีย",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238882,
+    "id": "3hBKaonMD7mVvr0PopTJiQc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 55,
+      "prompt_tokens": 404,
+      "total_tokens": 921
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "pt_0044",
+  "lang": "pt",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.96,
+  "ref_text_raw": "O próprio veículo foi tirado do local do acidente mais ou menos às 12h GMT do mesmo dia.",
+  "ref_text_normalized": "o próprio veículo foi tirado do local do acidente mais ou menos às 12h gmt do mesmo dia",
+  "timestamp_utc": "2026-07-05T06:46:29Z",
+  "text": "O próprio veículo foi tirado do local do acidente mais ou menos às 12 horas GMT do mesmo dia.",
+  "latency_sec": 3.3271,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "O próprio veículo foi tirado do local do acidente mais ou menos às 12 horas GMT do mesmo dia.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EswECskEARFNMg+XSEk0BZM9Xng9HncXGZ4CdlsTeABwtPvTMbI2vRWO9P/fQAiOfYd7bKC5V0/nchOHogwmQRx34hkTP9Vb1WzbpdCg1hL57ENUk8l0JVt8clcCisvJ+ZjIa9EQ9IQSa6KO0ZkgjQX7N7oX6gJXymvQNsT2Ky2OTEloIZiY2ZVxCkLIH/Y0X1bRn0zmkoIP4FhUjBfmVtEIiVvLWWloOAb4IcextE5WaVvgqpZJuzmyAoewbpfa6L/0smd1Iq4wKdd/odWlcNhD45n//IqDaLjICHk14Mx3JiOisNV9r8iXzRT/3fa1QLaYOOo4MTUPdiWTe+57U2EM0ZRPHBT8ITjMEbnZbL/Bd0GIgFpAs4z24DGBxkHUaW759uzvnBA7x/5EWl47lyXuL1n45wQTQwnktLRfPmcN8BpaAzZWwBxG8cs9rEBLuu/PzVMQZlS7GRP3rCI39Zy4iuM7jVxTOmMFfju/m4SB8oeou+hbkqR8zxA4kVLoD7BCSDkJD9GpMq8f9WujmFWTF6JRyk9LWwE0HBcNmUm3xL7YmsMScmlAO4EtNVVDikKB3SV73ON237PlytGNnwMulNQ70D7ylwCLXBrLcuX7XLftMomOr46SaljT88TZuC7+TTzmqZuesA0opylUwniBswFzXAW7SYQOQRhhaC/Yxd712k3NCZymX2ZXgkhE9APCJHiqiVqKE7LnjJ+vep7BdKK415x38B/QkJBxN7KoLQjkdxYjC7v4oa3OD3HLFbQm3J65msPFIErTF5f+"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783233990,
+    "id": "w_1JaoLeO-D61e8P0MrToAE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 271,
+      "total_tokens": 450
+    }
+  }
+}

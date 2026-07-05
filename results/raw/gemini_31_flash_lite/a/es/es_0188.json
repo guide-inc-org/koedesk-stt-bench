@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0188",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.6,
+  "ref_text_raw": "La interrupción del sueño consiste en despertarse intencionalmente durante el período normal de sueño y dormirse después de un rato (10 a 60 minutos).",
+  "ref_text_normalized": "la interrupción del sueño consiste en despertarse intencionalmente durante el período normal de sueño y dormirse después de un rato 10 a 60 minutos",
+  "timestamp_utc": "2026-07-05T04:45:02Z",
+  "text": "La interrupción del sueño consiste en despertarse intencionalmente durante el periodo normal de sueño y dormirse después de un rato, 10 a 60 minutos.",
+  "latency_sec": 2.8952,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "La interrupción del sueño consiste en despertarse intencionalmente durante el periodo normal de sueño y dormirse después de un rato, 10 a 60 minutos.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPNzeT0xXjq6E21HB9gkt+0kww0ZDjT3BwRqWw02muFv2iBYSXDfsoBWxW36Qw"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226702,
+    "id": "TOFJapb3LbycrfcP6t_NqQY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 336,
+      "total_tokens": 371
+    }
+  }
+}

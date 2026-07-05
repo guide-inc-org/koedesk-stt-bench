@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0029",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 6.66,
+  "ref_text_raw": "Les porcs sont porteurs de la maladie, qui est ensuite transmise à l'homme par les moustiques.",
+  "ref_text_normalized": "les porcs sont porteurs de la maladie qui est ensuite transmise à l'homme par les moustiques",
+  "timestamp_utc": "2026-07-05T04:47:29Z",
+  "text": "Les porcs sont porteurs de la maladie qui est ensuite transmise à l'homme par les moustiques.",
+  "latency_sec": 2.8495,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Les porcs sont porteurs de la maladie qui est ensuite transmise à l'homme par les moustiques.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226849,
+    "id": "4OFJaqTDBJjCvr0PiamC4A8",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 235,
+      "total_tokens": 259
+    }
+  }
+}

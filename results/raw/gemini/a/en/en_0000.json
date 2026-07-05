@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0000",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.56,
+  "ref_text_raw": "However, due to the slow communication channels, styles in the west could lag behind by 25 to 30 year.",
+  "ref_text_normalized": "however due to the slow communication channels styles in the west could lag behind by 25 to 30 year",
+  "timestamp_utc": "2026-07-05T10:19:18Z",
+  "text": "However, due to the slow communication channels, styles in the West could lag behind by 25 to 30 years.",
+  "latency_sec": 3.2109,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "However, due to the slow communication channels, styles in the West could lag behind by 25 to 30 years.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246758,
+    "id": "pC9KarLFIuKf2roP6tmdgAM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 359,
+      "total_tokens": 385
+    }
+  }
+}

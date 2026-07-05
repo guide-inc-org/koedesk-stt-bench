@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0053",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.16,
+  "ref_text_raw": "Ibu kota Moldova adalah ChiÅŸinÄƒu. Bahasa lokalnya adalah bahasa Rumania, tetapi bahasa Rusia digunakan secara luas.",
+  "ref_text_normalized": "ibu kota moldova adalah chiåÿinäƒu. bahasa lokalnya adalah bahasa rumania tetapi bahasa rusia digunakan secara luas",
+  "timestamp_utc": "2026-07-05T05:48:10Z",
+  "text": "Ibu kota Moldova adalah Chisinau. Bahasa lokalnya adalah bahasa Rumania, tetapi bahasa Rusia digunakan secara luas.",
+  "latency_sec": 3.4282,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Ibu kota Moldova adalah Chisinau. Bahasa lokalnya adalah bahasa Rumania, tetapi bahasa Rusia digunakan secara luas.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPRuWHbUlcr7BT5kE/QoGac0sEBDnR0F9tImdPmaZMSaLBr5L+gG3uS10gmiOd"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230490,
+    "id": "GPBJaoGNIKqj9tMPiaisiAI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 300,
+      "total_tokens": 324
+    }
+  }
+}

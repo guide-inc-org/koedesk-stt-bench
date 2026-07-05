@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0194",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.06,
+  "ref_text_raw": "植物は光合成によって太陽から養分を作りだします。日陰も作ってくれます。",
+  "ref_text_normalized": "植物は光合成によって太陽から養分を作りだします 日陰も作ってくれます",
+  "timestamp_utc": "2026-07-05T03:14:35Z",
+  "text": "植物は光合成によって太陽から養分を作り出します。日陰も作ってくれます。",
+  "latency_sec": 4.4895,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "植物は光合成によって太陽から養分を作り出します。日陰も作ってくれます。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221275,
+    "id": "GMxJatbAEq6_vr0PmOySuQM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 311,
+      "total_tokens": 356
+    }
+  }
+}

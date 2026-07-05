@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0171",
+  "lang": "ko",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.38,
+  "ref_text_raw": "미국 공병대는 시간당 6인치의 강우량이 기 파손된 제방을 무너뜨릴 수 있다고 추정했다.",
+  "ref_text_normalized": "미국 공병대는 시간당 6인치의 강우량이 기 파손된 제방을 무너뜨릴 수 있다고 추정했다",
+  "timestamp_utc": "2026-07-05T06:06:30Z",
+  "text": "미국 공병대는 시간당 6인치의 강우량이 기파전된 제방을 무너뜨릴 수 있다고 추정했다.",
+  "latency_sec": 3.7587,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "미국 공병대는 시간당 6인치의 강우량이 기파전된 제방을 무너뜨릴 수 있다고 추정했다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231590,
+    "id": "ZPRJauHMCMKw0-kPjYbn-AU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 354,
+      "total_tokens": 449
+    }
+  }
+}

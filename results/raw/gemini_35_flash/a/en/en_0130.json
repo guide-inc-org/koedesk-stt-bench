@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0130",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.32,
+  "ref_text_raw": "In 1990, it was added to the list of world heritage sites in danger, due to the threat of desert sands.",
+  "ref_text_normalized": "in 1990 it was added to the list of world heritage sites in danger due to the threat of desert sands",
+  "timestamp_utc": "2026-07-05T03:34:25Z",
+  "text": "In 1990, it was added to the list of World Heritage sites in danger due to the threat of desert sands.",
+  "latency_sec": 3.4412,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "In 1990, it was added to the list of World Heritage sites in danger due to the threat of desert sands.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqUGCqIGARFNMg+eElmixdHONFQQHZJX8ZrqKz0lBfha6Wxvfm1cRyH8TmQx1K6OmFu26YJjLkgCdT67lBvVJSUnf+ryq22qoZ+fImdnkK6NliVNK25HZgp7GWy2/aOkzKA2DWtyidGPSbjSasX9jCF/MkxsmZsiHUxHjcu90pv3mVhXkt/S8vhaplpyVFSzitMRN9rBkqirdP537ZYtF9XrlnIA2+o3LoKABY2Z/GkOvF8GB02ejaVSURh79gIY71PtKaFj59L4Rr4byWZXrPDM8cm1lx0/v13qxu1KwNBpoLT3j5jigeZIz7UG+rZtgrYtvI7KldioBE3MjJoKS9WOgau7Qts+hh3DaWrTgRd500u/29pS6whltUlOcv1SnBVSXKM2Nt60aFPKUTFArKOT3iRYBN3YaMjgaFqx+0wljfsoE+SN0NLZv/ZbD0fPVxHZiiHq+7SKfAlgDsIWj8EwDD9+86qXGDEpGZL1o61zFKPcqJhdj41GUy/DwUhtNMAoKJDbHdyxBU4UlKu2Pcf9DkhBXpVviaVJkoBextGpBps9qYy/OJvAr3qvtgYRvPsAJug5SFQhoLnJPVj+saho7EqE4eYcLZFKOfc1ha9pXpRx6xOpahSSD49HU75TZ5K4al+Z0cbJV1WG4W47eOVgLMk4u+WNwt09KGmMFb8FvsZ5zpXyAL4f9artFedTKHUKQWbxbyvEBo6G+sfHkmzqIr0+EC+Q9/uxLgGF/1LYcTuqBmqks0zmCupgbujDIZTzlwou5g3ph8eGRTnazxe6LRC2nJeeSA+IKFgBP7VGfaTpz+8zOwJ0Hp2gwzoHJZrYXlxJLbw0u1TIZ+K8XFd1mNG+psn3K8ut8shTQJevFR3H8c+L8r0gwJUPN5JDLbJvolXmR5le+T6SaG3lJC5beRymdcUWLsHevvEcEon8UFUWAX4S8Ia56h/s9oR+4gHu1uci0B51oq1M7TaSbW/BdX8hPRLE0C+a3mvCOXN/DcqNxvxZKz8FBqI5sBN90gVkNBxJST1bNfZw4l0BbutA2jnCDrT0T4hgT8BSmsnWA4sNfDuUcw=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222465,
+    "id": "vtBJatTGL7yB0-kP2bOhwAc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 204,
+      "total_tokens": 445
+    }
+  }
+}

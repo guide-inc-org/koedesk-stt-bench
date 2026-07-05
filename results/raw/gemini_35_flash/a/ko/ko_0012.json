@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0012",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.82,
+  "ref_text_raw": "사건 발생 이후, 깁슨(Gibson)은 병원으로 이송되었으나 얼마 후 숨을 거뒀다.",
+  "ref_text_normalized": "사건 발생 이후 깁슨gibson은 병원으로 이송되었으나 얼마 후 숨을 거뒀다",
+  "timestamp_utc": "2026-07-05T06:10:02Z",
+  "text": "사건 발생 이후 깁스는 병원으로 이송되었으나 얼마 후 숨을 거두었다.",
+  "latency_sec": 4.9965,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "사건 발생 이후 깁스는 병원으로 이송되었으나 얼마 후 숨을 거두었다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231802,
+    "id": "N_VJauimBPK8vr0P85enuQQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 242,
+      "total_tokens": 728
+    }
+  }
+}

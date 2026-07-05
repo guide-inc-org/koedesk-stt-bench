@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0017",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 8.64,
+  "ref_text_raw": "The term safari in popular use refers to overland travel to view the stunning African wildlife, particularly on savanna.",
+  "ref_text_normalized": "the term safari in popular use refers to overland travel to view the stunning african wildlife particularly on savanna",
+  "timestamp_utc": "2026-07-05T10:20:26Z",
+  "text": "The term safari in popular use refers to overland travel to view the stunning African wildlife, particularly on savanna.",
+  "latency_sec": 5.1593,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The term safari in popular use refers to overland travel to view the stunning African wildlife, particularly on savanna.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246826,
+    "id": "5i9KaqL8G5ja1e8P6IqesQI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 298,
+      "total_tokens": 525
+    }
+  }
+}

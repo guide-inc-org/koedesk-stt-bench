@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0040",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.68,
+  "ref_text_raw": "Ngày nay, những loại côn trung không thể gập cánh lại chỉ có chuồn chuồn và những con phù du.",
+  "ref_text_normalized": "ngày nay những loại côn trung không thể gập cánh lại chỉ có chuồn chuồn và những con phù du",
+  "timestamp_utc": "2026-07-05T08:40:05Z",
+  "text": "Ngày nay, những loại côn trùng không thể gặp cánh lại, chỉ có chuồn chuồn và những con phù du.",
+  "latency_sec": 2.8698,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Ngày nay, những loại côn trùng không thể gặp cánh lại, chỉ có chuồn chuồn và những con phù du.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPjOP3KpeoZ2Eu6oSdkfAXV6AnmDFWzCP8bI0Z7rNAH7hjZT4/H/TAZ6fR2BeW"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240806,
+    "id": "ZBhKasu6HIrW1e8Py5HYyAE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 288,
+      "total_tokens": 313
+    }
+  }
+}

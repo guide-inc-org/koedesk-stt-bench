@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0081",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.16,
+  "ref_text_raw": "香港岛是香港地区的代名词，也是众多游客心目中的焦点所在。",
+  "ref_text_normalized": "香 港 岛 是 香 港 地 区 的 代 名 词 也 是 众 多 游 客 心 目 中 的 焦 点 所 在",
+  "timestamp_utc": "2026-07-05T09:15:31Z",
+  "text": "香港岛是香港地区的代名词，也是众多游客心目中的焦点所在。",
+  "latency_sec": 2.6347,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "香港岛是香港地区的代名词，也是众多游客心目中的焦点所在。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP4+AGjzginxPfkQ5LMg/1CIee5hK3vxYCjtBrWO0lfKXkwFfubTjCFqC1spPA"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242931,
+    "id": "siBKarKiDMal1e8PnPeFgAI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 17,
+      "prompt_tokens": 300,
+      "total_tokens": 317
+    }
+  }
+}

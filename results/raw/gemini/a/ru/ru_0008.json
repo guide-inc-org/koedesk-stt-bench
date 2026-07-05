@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0008",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.52,
+  "ref_text_raw": "Только мутации в клетках зародышевой линии могут передаваться далее детям, в то время как мутации где-то ещё могут привести к гибели клеток или раку.",
+  "ref_text_normalized": "только мутации в клетках зародышевой линии могут передаваться далее детям в то время как мутации где-то ещё могут привести к гибели клеток или раку",
+  "timestamp_utc": "2026-07-05T07:00:44Z",
+  "text": "Только мутации в клетках зародышевой линии могут передаваться далее детям, в то время как мутации где-то ещё могут привести к гибели клеток или раку.",
+  "latency_sec": 3.7668,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Только мутации в клетках зародышевой линии могут передаваться далее детям, в то время как мутации где-то ещё могут привести к гибели клеток или раку.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234844,
+    "id": "GgFKavGHMZjF0-kPvZ-G6AE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 390,
+      "total_tokens": 463
+    }
+  }
+}

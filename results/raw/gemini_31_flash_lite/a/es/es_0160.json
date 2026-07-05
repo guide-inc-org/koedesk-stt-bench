@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0160",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 19.44,
+  "ref_text_raw": "Perry sostuvo que: «Volvería a Texas a evaluar los resultados de la reunión electoral de hoy y determinar si hay un camino que debo seguir». Luego dijo que permanecería en carrera y que competiría en las elecciones primarias del 21 de enero, en Carolina del Sur».",
+  "ref_text_normalized": "perry sostuvo que: «volvería a texas a evaluar los resultados de la reunión electoral de hoy y determinar si hay un camino que debo seguir». luego dijo que permanecería en carrera y que competiría en las elecciones primarias del 21 de enero en carolina del sur»",
+  "timestamp_utc": "2026-07-05T04:43:19Z",
+  "text": "Perry sostuvo que volvería a Texas a evaluar los resultados de la reunión electoral de hoy y determinar si hay un camino que debo seguir. Luego dijo que permanecería en carrera y que competiría en las elecciones primarias del 21 de enero en Carolina del Sur.",
+  "latency_sec": 3.1037,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Perry sostuvo que volvería a Texas a evaluar los resultados de la reunión electoral de hoy y determinar si hay un camino que debo seguir. Luego dijo que permanecería en carrera y que competiría en las elecciones primarias del 21 de enero en Carolina del Sur.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPdo+P+n6w+SCnFFfIezrjhs/e/d5i6QIg+yElfS8pEHeJktBCK3A4mucg/p+6"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226599,
+    "id": "5eBJauLiMtDF1e8P2K7MiQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 54,
+      "prompt_tokens": 508,
+      "total_tokens": 562
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0177",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.78,
+  "ref_text_raw": "科学家希望了解自从彗星很久以前与地球相撞以来，行星是如何形成的，尤其是地球的形成方式。",
+  "ref_text_normalized": "科 学 家 希 望 了 解 自 从 彗 星 很 久 以 前 与 地 球 相 撞 以 来 行 星 是 如 何 形 成 的 尤 其 是 地 球 的 形 成 方 式",
+  "timestamp_utc": "2026-07-05T09:21:19Z",
+  "text": "科学家希望了解自从卫星很久以来，很久以前自于地球与地球相撞以来，行星是如何形成的，尤其是地球的形成方式。",
+  "latency_sec": 3.1327,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "科学家希望了解自从卫星很久以来，很久以前自于地球与地球相撞以来，行星是如何形成的，尤其是地球的形成方式。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPQ7cR+0XltchdQitbGBscSlgOxALCCB0eaiWfDJ7bp5aiKmb28H5VWxq1BDqd"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243279,
+    "id": "DiJKaqfREsmzvr0PmpW5mQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 341,
+      "total_tokens": 371
+    }
+  }
+}

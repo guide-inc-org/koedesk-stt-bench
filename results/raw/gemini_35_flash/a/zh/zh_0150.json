@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0150",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.76,
+  "ref_text_raw": "更传统的教堂常常在复活节周末的周六晚上举行复活节守夜活动，会众通常在午夜钟声敲响之时涌入庆典，庆祝基督的复活。",
+  "ref_text_normalized": "更 传 统 的 教 堂 常 常 在 复 活 节 周 末 的 周 六 晚 上 举 行 复 活 节 守 夜 活 动 会 众 通 常 在 午 夜 钟 声 敲 响 之 时 涌 入 庆 典 庆 祝 基 督 的 复 活",
+  "timestamp_utc": "2026-07-05T09:20:07Z",
+  "text": "跟传统的教堂常常在复活节周末的周六晚上举行复活节守夜活动，会众通常在午夜钟声敲响之时涌入庆典，庆祝基督的复活。",
+  "latency_sec": 5.1032,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "跟传统的教堂常常在复活节周末的周六晚上举行复活节守夜活动，会众通常在午夜钟声敲响之时涌入庆典，庆祝基督的复活。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243207,
+    "id": "wyFKasuEDdTf1e8PvLbrwQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 315,
+      "total_tokens": 897
+    }
+  }
+}

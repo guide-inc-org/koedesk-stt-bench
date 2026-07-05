@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0113",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.92,
+  "ref_text_raw": "Das Gebrüll des Tigers hört sich nicht so an wie das vollmundige Gebrüll des Löwens, sondern eher wie ein Satz aus knurrigen gebrüllten Worten.",
+  "ref_text_normalized": "das gebrüll des tigers hört sich nicht so an wie das vollmundige gebrüll des löwens sondern eher wie ein satz aus knurrigen gebrüllten worten",
+  "timestamp_utc": "2026-07-05T03:48:43Z",
+  "text": "Das Gebrüll des Tigers hört sich nicht so an wie das vollmundige Gebrüll des Löwens, sondern eher wie ein Satz aus knurrigen gebrüllten Worten.",
+  "latency_sec": 3.4014,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Das Gebrüll des Tigers hört sich nicht so an wie das vollmundige Gebrüll des Löwens, sondern eher wie ein Satz aus knurrigen gebrüllten Worten.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223323,
+    "id": "GdRJaovaFNKivr0PmOv26QM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 275,
+      "total_tokens": 315
+    }
+  }
+}

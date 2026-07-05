@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0146",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.96,
+  "ref_text_raw": "The same month saw another airliner overrun a runway at Mashhad and strike a wall, killing seventeen.",
+  "ref_text_normalized": "the same month saw another airliner overrun a runway at mashhad and strike a wall killing seventeen",
+  "timestamp_utc": "2026-07-05T03:35:39Z",
+  "text": "The same month saw another airliner overrun a runway at Mashhad and strike a wall killing 17.",
+  "latency_sec": 3.5872,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The same month saw another airliner overrun a runway at Mashhad and strike a wall killing 17.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EuIECt8EARFNMg/N4TP7ytjI5q0SgTg+Jz1wgT/w/7O4kX2V4r2U6/k93AeAjcM+5Fh2vBpsS6pksx8knVD427UovSwrS9rZHiZnyARvmvivar21haift6OZv0oMExvR/fBuIEbRgd7hewJuFM4JDqcVqNHDPrcjGiGjBB8Xocs3rdyBZnu6dsrOlSWV+gz8kRQjmx1Xj9C2AkcVDEefnyvHWR8h8sbp3tg6jfpcbEPDHS9bxdKo0Xoz/BxQg87GDAeIbCtOW/xKkS74usJmvyzfllSXJLRD8z5P2WOvQmFUeoJwKQFYmd4ZCD0I7BI2W6yxjeKx8QoAHcU7KdomEWCfNgRpM3y+YouoM4/MH4P+IWpSnLHV5lgI36ZY+qyXjXJrBcl0Aq1NSNN6jdOBnPmq2YMU72qoyiXfWn4jxqEZ01nVo9xrNCwx73TeMyU74HxCn/OvoEhQHGGUqNTjczmOr/Owo5SUFBXteCnWnltlPiVvkqojrk3JYa06SKnBUWlWS7IQdrysoCYWH7trGxkQsKSlJVGIgcaDY8r6yEtTclAg8bMFdhZBryXPeg7AIXDyBs+1tkI8PGgQSgY2fxYef7tXKvBAyMNnw9la9d1RGn+DqbwcZjs9qEzpn0N93vIQ7toGWwhzhF/UW4ceiaIxKgGsHxB6pigmwOrsby4nm0V8gmAPp9iEpnGjvVWyUk6c7kY4SOtnWq9RPnhnPEN66p7K1yAy4loPIxsbBOVmi1+ozgq0UnZWcbTGcTTgHQNuijIEVzx7THflLIySRroXxk4ypOzEid8/p7zP9tx0AEin8Q=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222539,
+    "id": "CdFJaoK0GPz-2roPj568yQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 195,
+      "total_tokens": 372
+    }
+  }
+}

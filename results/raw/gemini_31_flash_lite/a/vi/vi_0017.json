@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0017",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.52,
+  "ref_text_raw": "Cuomo, 53 tuổi, bắt đầu đảm nhiệm chức vụ thống đốc từ đầu năm nay. Tháng trước, ông đã ký dự luật hợp pháp hóa hôn nhân đồng giới.",
+  "ref_text_normalized": "cuomo 53 tuổi bắt đầu đảm nhiệm chức vụ thống đốc từ đầu năm nay tháng trước ông đã ký dự luật hợp pháp hóa hôn nhân đồng giới",
+  "timestamp_utc": "2026-07-05T08:38:42Z",
+  "text": "Kumo 53 tuổi, bắt đầu đảm nhiệm chức vụ thống đốc từ đầu năm nay. Tháng trước, ông đã ký dự luật hợp pháp hóa hôn nhân đồng giới.",
+  "latency_sec": 2.8808,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Kumo 53 tuổi, bắt đầu đảm nhiệm chức vụ thống đốc từ đầu năm nay. Tháng trước, ông đã ký dự luật hợp pháp hóa hôn nhân đồng giới.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPYvRGO6lBiLYSALoODIiK/me58Lfwyho5lZlNF1MmbVUlDiTDHp8WL3b3wyv+"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240722,
+    "id": "EBhKauu1KOL81e8P5-3SkQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 309,
+      "total_tokens": 345
+    }
+  }
+}

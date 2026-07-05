@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0030",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.12,
+  "ref_text_raw": "早先于全球发布的华硕 Eee PC 个人笔记本，因成本节约及功能性因素，成为 2007 年台北 IT 资讯月备受瞩目的话题。",
+  "ref_text_normalized": "早 先 于 全 球 发 布 的 华 硕 eee pc 个 人 笔 记 本 因 成 本 节 约 及 功 能 性 因 素 成 为 2007 年 台 北 it 资 讯 月 备 受 瞩 目 的 话 题",
+  "timestamp_utc": "2026-07-05T09:12:32Z",
+  "text": "早先在全球发布的华硕EPC个人笔记本，因成本节约及功能性因素，成为2007年台北IT资讯月备受瞩目的话题。",
+  "latency_sec": 2.5132,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "早先在全球发布的华硕EPC个人笔记本，因成本节约及功能性因素，成为2007年台北IT资讯月备受瞩目的话题。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPA1i9Lwcunp5kNao1ONdc1cMEd5rnjWB3wfqVG4bLj4YRITNcZDDjCb1iFI7P"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242752,
+    "id": "_h9Kaoz6LoTG0-kPurji2AU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 324,
+      "total_tokens": 360
+    }
+  }
+}

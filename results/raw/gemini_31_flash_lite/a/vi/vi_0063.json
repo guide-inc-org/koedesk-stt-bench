@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0063",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.44,
+  "ref_text_raw": "Đảng cầm quyền, Tổ chức Nhân dân Tây Nam Phi (SWAPO), cũng giữ được thế đa số trong các cuộc bầu cử nghị viện.",
+  "ref_text_normalized": "đảng cầm quyền tổ chức nhân dân tây nam phi swapo cũng giữ được thế đa số trong các cuộc bầu cử nghị viện",
+  "timestamp_utc": "2026-07-05T08:41:28Z",
+  "text": "Đảng cầm quyền, Tổ chức Nhân dân Tây Nam Phi, SWAPO, cũng giữ được thế đa số trong các cuộc bầu cử Nghị viện.",
+  "latency_sec": 2.9331,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Đảng cầm quyền, Tổ chức Nhân dân Tây Nam Phi, SWAPO, cũng giữ được thế đa số trong các cuộc bầu cử Nghị viện.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP7KRyzZ9UgjBIWIPGk2J0riTssBdBI2YOf9uG0WtQTwyQY2uqmZKrE3uNaDMw"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240888,
+    "id": "thhKav3xLJja1e8P6IqesQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 282,
+      "total_tokens": 313
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0105",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.32,
+  "ref_text_raw": "Italian is also the everyday language used by most of those who work in the state while Latin is often used in religious ceremonies.",
+  "ref_text_normalized": "italian is also the everyday language used by most of those who work in the state while latin is often used in religious ceremonies",
+  "timestamp_utc": "2026-07-05T03:32:31Z",
+  "text": "Italian is also the everyday language used by most of those who work in the state, while Latin is often used in religious ceremonies.",
+  "latency_sec": 3.5287,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Italian is also the everyday language used by most of those who work in the state, while Latin is often used in religious ceremonies.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpsFCpgFARFNMg9BIpmf8VaRuFX+CV5axdpVcx5SZb6cBbcFLrFRK4iZzidMc5s9GwvmNe4dvGSRTWsUc5rEpOoeX8sw9SDrcoDU+VH7t1Oxoq5x5oqRqTDm2GZmxvooNpqaUbR7MxnkW5eudn4tRVyc/lOLV3xAXX8Q/nTQf4c1FfzGW+Bo0PTu7xyeR2nFOcesm7/TCZj6T3ye3aeR6gid/DJFGneB+5voljsjlr/ApsWsdG61uQ0o6rzwCLiOWlQuVk1HdulOYlEdBgYA70d5iBTC+oJfe8bK7Gi/cW7M5BeICPWFsn1NpOpdxdXNulJBsVOvaG2MRPKKQJU9iQTu4Z9VyS/JDEGZeRVYwd7nU+hJU1GOcvHsamDLZT++k1Zw2Ckk7R0BCrP4i6yyg7P+tscNbsDEgpyRMhKwA0A9gsKy68E+MAtA5DitT0RnkjKdp7q0yv8GsZnRtnOSau9m0bm8zVqjRn1q5/6paNTJKNk3hRenriba1XGrdeeZNQidFaAGcagulUhajntW73ZsjxEsUkfPF8sw5UVI0SlKdgPaxjuTzebKvHyjKMwbcBIu7L74Fo+oXGfbMKWREqKcJLTSuJX3LQHS2nO0v7EoeunCqPFNZRTKs1MMGLYNnZLYufDO0Ky+eEICNweTs0hg566qm70oOpm2cSSxvf2B102HGp7hudmZAqvN+MU8d8USPC2aT9CxHP4VDvSWOcYsBJX63kcNOBiB17T70KsjDChCQdii4opmgy/DBnfUwLc49Ovh7RyRjuiKvE5Il8/TMdPbMaKtXE4pS1KDoYQcHCY5g8eS9DhOTL5HiR+57DycLuSyLgu6pabok+pE+wl0VsJEHSoj7W/cEBYPAb2Si7sZttsW3PjAI+uznQ=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222351,
+    "id": "TdBJaqXSJbv31e8Pvf2M0QE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 329,
+      "total_tokens": 500
+    }
+  }
+}

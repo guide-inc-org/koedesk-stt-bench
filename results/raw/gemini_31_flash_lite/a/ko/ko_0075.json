@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0075",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.76,
+  "ref_text_raw": "건조한 두 분말을 함께 휘저은 후에 물에 젖은 깨끗한 손으로 공에 짜 넣는다.",
+  "ref_text_normalized": "건조한 두 분말을 함께 휘저은 후에 물에 젖은 깨끗한 손으로 공에 짜 넣는다",
+  "timestamp_utc": "2026-07-05T06:23:23Z",
+  "text": "건조한 두 분말을 함께 휘저은 후에 물에 젖은 깨끗한 손으로 공에 짜 넣는다.",
+  "latency_sec": 3.1718,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "건조한 두 분말을 함께 휘저은 후에 물에 젖은 깨끗한 손으로 공에 짜 넣는다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPo1PlgFN3CnEmDI5QTe6ywT4xgP/gUOzqbxuE/601Pw1y1tV+DRsc79+gD+S8"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232603,
+    "id": "WfhJavSBNJT02roPp7fs4A4",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 315,
+      "total_tokens": 343
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0190",
+  "lang": "ko",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.2,
+  "ref_text_raw": "하지만 여전히 새에는 공룡처럼 보이게 하는 것들이 많습니다.",
+  "ref_text_normalized": "하지만 여전히 새에는 공룡처럼 보이게 하는 것들이 많습니다",
+  "timestamp_utc": "2026-07-05T06:08:02Z",
+  "text": "하지만 여전히 새는 공룡처럼 보이게 하는 것들이 많습니다.",
+  "latency_sec": 4.898,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "하지만 여전히 새는 공룡처럼 보이게 하는 것들이 많습니다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231683,
+    "id": "v_RJaoSUELyo1e8Prpqp8QY",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 348,
+      "total_tokens": 495
+    }
+  }
+}

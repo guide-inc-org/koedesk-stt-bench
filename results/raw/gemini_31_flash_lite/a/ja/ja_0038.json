@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0038",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 17.46,
+  "ref_text_raw": "彼は多くの国で紙幣の製作にも携わっており、最近では、カナダの新5ドル紙幣と新100ドル紙幣の表に描かれた首相の肖像画などがその一例です。",
+  "ref_text_normalized": "彼は多くの国で紙幣の製作にも携わっており 最近では カナダの新5ドル紙幣と新100ドル紙幣の表に描かれた首相の肖像画などがその一例です",
+  "timestamp_utc": "2026-07-05T10:15:01Z",
+  "text": "彼 は 多く の 国 で 紙幣 の 政策 に も 携わっ て おり 、 最近 で は カナダ の 新 5 ドル 紙幣 と 新 100 ドル 紙幣 の 表 に 描か れ た 首相 の 肖像 画 など が その 一 例 です 。",
+  "latency_sec": 2.9203,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "彼 は 多く の 国 で 紙幣 の 政策 に も 携わっ て おり 、 最近 で は カナダ の 新 5 ドル 紙幣 と 新 100 ドル 紙幣 の 表 に 描か れ た 首相 の 肖像 画 など が その 一 例 です 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP6wJUuHEFeI5gAcr6LQygUFF196CgbtQtxu7xkQYNhy6Ew49QDk+hEhsyHbUH"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246501,
+    "id": "pC5KauywEvia1e8P4ZHFoQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 66,
+      "prompt_tokens": 458,
+      "total_tokens": 524
+    }
+  }
+}

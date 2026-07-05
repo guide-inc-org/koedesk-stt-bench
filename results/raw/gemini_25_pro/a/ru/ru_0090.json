@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0090",
+  "lang": "ru",
+  "engine": "gemini_25_pro",
+  "duration_sec": 6.36,
+  "ref_text_raw": "Львы — самые социальные кошки, живущие в больших группах, которые называются прайдами.",
+  "ref_text_normalized": "львы самые социальные кошки живущие в больших группах которые называются прайдами",
+  "timestamp_utc": "2026-07-05T07:15:33Z",
+  "text": "Львы — самые социальные кошки, живущие в больших группах, которые называются прайдами.",
+  "latency_sec": 4.0549,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Львы — самые социальные кошки, живущие в больших группах, которые называются прайдами.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235733,
+    "id": "kgRKaoGAIYKhvr0P0-6Y8AY",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 225,
+      "total_tokens": 302
+    }
+  }
+}

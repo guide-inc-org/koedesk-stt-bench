@@ -1,0 +1,44 @@
+{
+  "utt_id": "pt_0073",
+  "lang": "pt",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.52,
+  "ref_text_raw": "Madagascar é, de longe, o maior, e um continente por si só, quando se trata da vida selvagem.",
+  "ref_text_normalized": "madagascar é de longe o maior e um continente por si só quando se trata da vida selvagem",
+  "timestamp_utc": "2026-07-05T06:58:21Z",
+  "text": "Madagascar é, de longe, o maior e um continente por si só, quando se trata da vida selvagem.",
+  "latency_sec": 3.8778,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Madagascar é, de longe, o maior e um continente por si só, quando se trata da vida selvagem.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPG36PrvD1mgVs8DwxwFrlgKCaTBkVK2vm0RTUMFUIDBp8OrcD+zz2QY2DFwrW"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234701,
+    "id": "iwBKapbuDY-30-kPqfOw8Q0",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 234,
+      "total_tokens": 258
+    }
+  }
+}

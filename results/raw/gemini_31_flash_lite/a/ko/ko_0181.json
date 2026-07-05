@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0181",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.94,
+  "ref_text_raw": "유엔 질병 전문가인 다니엘 란타뉴는 이러한 급격한 증가는 평화 유지군에 의해 발생했을 것이라고 말했습니다.",
+  "ref_text_normalized": "유엔 질병 전문가인 다니엘 란타뉴는 이러한 급격한 증가는 평화 유지군에 의해 발생했을 것이라고 말했습니다",
+  "timestamp_utc": "2026-07-05T06:29:57Z",
+  "text": "UN 질병 전문가인 다니엘 란타뉴는 이러한 급격한 증가는 평화 유지군에 의해 발생될 것이라고 말했습니다.",
+  "latency_sec": 2.9212,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "UN 질병 전문가인 다니엘 란타뉴는 이러한 급격한 증가는 평화 유지군에 의해 발생될 것이라고 말했습니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPaRwx8EYToOTUa46Ve4MJX0HTwtSvk4jv2XkCx3MciNlK8Pftmm5/yNP0mbCo"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232997,
+    "id": "4_lJauH6KNy4vr0Pgo3U0Q8",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 245,
+      "total_tokens": 276
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0011",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 5.04,
+  "ref_text_raw": "他随后被转送到剑桥的阿登布鲁克医院。",
+  "ref_text_normalized": "他 随 后 被 转 送 到 剑 桥 的 阿 登 布 鲁 克 医 院",
+  "timestamp_utc": "2026-07-05T09:06:15Z",
+  "text": "她随后被转送到剑桥的阿登布鲁克医院",
+  "latency_sec": 8.6271,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "她随后被转送到剑桥的阿登布鲁克医院",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242375,
+    "id": "gR5Kas1vvprV7w-A_PWxAw",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 14,
+      "prompt_tokens": 147,
+      "total_tokens": 834
+    }
+  }
+}

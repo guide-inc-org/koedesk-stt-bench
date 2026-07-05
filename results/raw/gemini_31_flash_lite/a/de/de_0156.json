@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0156",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 16.92,
+  "ref_text_raw": "Regionale und jahreszeitliche Unwettererscheinungen sind u. a. Blizzards, Schneestürme, Eisstürme und Staubstürme.",
+  "ref_text_normalized": "regionale und jahreszeitliche unwettererscheinungen sind u. a blizzards schneestürme eisstürme und staubstürme",
+  "timestamp_utc": "2026-07-05T04:09:22Z",
+  "text": "Regionale und jahreszeitliche Unwettererscheinungen sind unter anderem Blizzards, Schneestürme, Eisstürme und Staubstürme.",
+  "latency_sec": 2.9668,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Regionale und jahreszeitliche Unwettererscheinungen sind unter anderem Blizzards, Schneestürme, Eisstürme und Staubstürme.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPONy7qnNQCdv9SZiEYhiaZrOMmlS+FbcufOpivrk2F99DziVSti7jPQSujRuV"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224562,
+    "id": "8dhJatvSGqbX2roP9O2X-Qg",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 445,
+      "total_tokens": 480
+    }
+  }
+}

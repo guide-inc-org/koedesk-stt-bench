@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0107",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.38,
+  "ref_text_raw": "目前还没有发布海啸预警。根据雅加达地质局的说法，由于此次地震没有达到 6.5 级，因此不会发布海啸预警。",
+  "ref_text_normalized": "目 前 还 没 有 发 布 海 啸 预 警 根 据 雅 加 达 地 质 局 的 说 法 由 于 此 次 地 震 没 有 达 到 6.5 级 因 此 不 会 发 布 海 啸 预 警",
+  "timestamp_utc": "2026-07-05T09:15:31Z",
+  "text": "目前还没有发布海啸预警。根据雅加达地质局的说法，由于此次地震没有达到6.5级，因此不会发布海啸预警。",
+  "latency_sec": 12.3236,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "目前还没有发布海啸预警。根据雅加达地质局的说法，由于此次地震没有达到6.5级，因此不会发布海啸预警。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242931,
+    "id": "ryBKauGwGpKmvr0PocKK-QY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 281,
+      "total_tokens": 743
+    }
+  }
+}

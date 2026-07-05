@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0022",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.44,
+  "ref_text_raw": "หมู่เกาะแห่งนี้อยู่ห่างจากคาบสมุทร 120 กม. ไปทางทิศเหนือ เกาะที่ใหญ่ที่สุดคือเกาะคิงจอร์จซึ่งเป็นที่ตั้งของวิลลา ลาส เอสเตรลลาส",
+  "ref_text_normalized": "หมู่เกาะแห่งนี้อยู่ห่างจากคาบสมุทร 120 กม. ไปทางทิศเหนือ เกาะที่ใหญ่ที่สุดคือเกาะคิงจอร์จซึ่งเป็นที่ตั้งของวิลลา ลาส เอสเตรลลาส",
+  "timestamp_utc": "2026-07-05T07:52:59Z",
+  "text": "หมู่เกาะแห่งนี้อยู่ห่างจากคาบสมุทร 120 กิโลเมตร ไปทางทิศเหนือ และเกาะที่ใหญ่ที่สุดคือเกาะคิงจอร์จ ซึ่งเป็นที่ตั้งของวิลล่าลาส เอสเตรลาส",
+  "latency_sec": 7.7614,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "หมู่เกาะแห่งนี้อยู่ห่างจากคาบสมุทร 120 กิโลเมตร ไปทางทิศเหนือ และเกาะที่ใหญ่ที่สุดคือเกาะคิงจอร์จ ซึ่งเป็นที่ตั้งของวิลล่าลาส เอสเตรลาส",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237979,
+    "id": "VQ1KavHhFc-a1e8P7YSs0QE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 55,
+      "prompt_tokens": 282,
+      "total_tokens": 1421
+    }
+  }
+}

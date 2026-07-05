@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0199",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 17.7,
+  "ref_text_raw": "此外，在革命之后，官职面向全体男性开放申请，这使得最有抱负、最成功之人有机会飞黄腾达。",
+  "ref_text_normalized": "此 外 在 革 命 之 后 官 职 面 向 全 体 男 性 开 放 申 请 这 使 得 最 有 抱 负 最 成 功 之 人 有 机 会 飞 黄 腾 达",
+  "timestamp_utc": "2026-07-05T09:25:12Z",
+  "text": "此外在革命之后，官职面向全体男性开放申请。这使得最有抱负、最成功之人有机会飞黄腾达。",
+  "latency_sec": 3.7644,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "此外在革命之后，官职面向全体男性开放申请。这使得最有抱负、最成功之人有机会飞黄腾达。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Eu4FCusFARFNMg8E/79TtV2bXZH56MqsemZwLFPzWG+ZplwfDc+8qpeyHo4YUpeisurYpgkOQJlyA7hMtZ2Pauf4YwzagKv80d96eEYSfdNb1DIIPCw7rB8bN0hXrkFDKhMnnU9YjwtGAXSLlLH5/7MVwYBuEYN+u7EYkEkwndfJJ4FB+NRaxfaXibOrxZFnxISSXsI+9FGkm8StSfsm3C8nV9v8CY5Zo9FsDHuo8OJSsmxidNKujFRArpSRC2Lb2FJrzLtjE6tzxymsYulA1e31bILcI5Umx5CROHe4lZ2vuvAvab9cMOkWQwm/aykmM95v/u9WqFmF4jzMyZWiTEOAJcTvNIfPYWChlkPtmyaXN6E6uWW6BtgnGNzPAX5G1Sj5kEcV/VmhQAHPx3DtIJMAi9gEjPZj/4YCRHKnsEzjup6x11WAidoTm+MAn4iy6qC4XtUHf2l34uNazgJ+V5S4S5KlrAXrqoAZNmD7oCREA2cGYQcRGHfEHVHsotQhAsVpAaxys4nVCbsv/dETS4fGHk4udpdMaGZS68BV/lYQL1pcTvbLKKmSYxD8r0O6t1/kvgzuki0rVH91uNfwlk+Da/qotRLIn3Ii7k7vCy8Ju9AlhhHf9wO0IdXKdrUOmvOitfC5rNzc5Yb6B5/MmtN1jGyTKlxigDOcPIYQYLpfYRBt0+zxCGc3aTM9D+FOSO5Pb4LI/pLKUKJaQoK4nWNQ6KphH8cB3LWcXjkS1JpK4B79EKLuVl3HhNuMTEXI0NMdZJDaqVvTSmqtTCTEgenHP21KRBKJgc/9nO0LgbGtazu/Pw/a4dBKRvoiI6Dh/W1LPZ1VyU9b9VJtEz8jV0azMDMTEOGL8NZpsLh8mRZcD7B2WDm2okPJblkg53bc9feGokOjYSUNUwyVfahXRUub2975Ci0mPPp57JoBNJCOz6Z8awuW8tKYdy2E1kMI+FdGqfuM0T8yJo7oaTFmRbkM035oX7Qo5tHxPZzYiMvZ"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243512,
+    "id": "9iJKat64CYul1e8Pq7ahqQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 464,
+      "total_tokens": 657
+    }
+  }
+}

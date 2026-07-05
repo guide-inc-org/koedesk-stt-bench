@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0132",
+  "lang": "es",
+  "engine": "gemini_25_pro",
+  "duration_sec": 8.4,
+  "ref_text_raw": "Todo en el Universo está hecho de materia, compuesta por partículas pequeñas denominadas átomos.",
+  "ref_text_normalized": "todo en el universo está hecho de materia compuesta por partículas pequeñas denominadas átomos",
+  "timestamp_utc": "2026-07-05T04:26:50Z",
+  "text": "Todo en el universo está hecho de materia, compuesta por partículas pequeñas denominadas átomos.",
+  "latency_sec": 4.7196,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Todo en el universo está hecho de materia, compuesta por partículas pequeñas denominadas átomos.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225610,
+    "id": "Bt1JaqP1FMqfvr0Plb-amQM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 17,
+      "prompt_tokens": 290,
+      "total_tokens": 520
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0131",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.48,
+  "ref_text_raw": "言うまでもないことですが、ロマンス語のいずれかを知っていれば、ポルトガル語を学びやすいはずです。",
+  "ref_text_normalized": "言うまでもないことですが ロマンス語のいずれかを知っていれば ポルトガル語を学びやすいはずです",
+  "timestamp_utc": "2026-07-05T03:19:05Z",
+  "text": "言う まで も ない こと です が 、 ロマンス 語 の いずれ か を 知っ て いれ ば 、 ポルトガル 語 を 学び やすい はず です 。",
+  "latency_sec": 4.353,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "言う まで も ない こと です が 、 ロマンス 語 の いずれ か を 知っ て いれ ば 、 ポルトガル 語 を 学び やすい はず です 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP1looT/P8RbCRChobQ0H8d06l7lHPsN6cBV91nEjJaT4P8E4tr1NajDm347mt"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221545,
+    "id": "Js1JavnxN6ew0-kPzeiWSA",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 258,
+      "total_tokens": 296
+    }
+  }
+}

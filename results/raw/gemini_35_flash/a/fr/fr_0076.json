@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0076",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.58,
+  "ref_text_raw": "En 1976, trente pour cent du Machu Picchu avait été restauré et cette restauration se poursuit jusqu'à aujourd'hui.",
+  "ref_text_normalized": "en 1976 trente pour cent du machu picchu avait été restauré et cette restauration se poursuit jusqu'à aujourd'hui",
+  "timestamp_utc": "2026-07-05T05:08:06Z",
+  "text": "En 1976, 30 % du Machu Picchu avait été restauré. Cette restauration se poursuit jusqu'à aujourd'hui.",
+  "latency_sec": 6.2644,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "En 1976, 30 % du Machu Picchu avait été restauré. Cette restauration se poursuit jusqu'à aujourd'hui.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228086,
+    "id": "seZJatHqBOKf2roP6tmdgAM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 236,
+      "total_tokens": 1074
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0194",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.34,
+  "ref_text_raw": "Virtuelle Hilfestellungen sind in die Software eingebaut und sollen Arbeitsschritte, die der Schüler allein möglicherweise nicht bewältigen kann, hinterfragen, nahelegen und erklären.",
+  "ref_text_normalized": "virtuelle hilfestellungen sind in die software eingebaut und sollen arbeitsschritte die der schüler allein möglicherweise nicht bewältigen kann hinterfragen nahelegen und erklären",
+  "timestamp_utc": "2026-07-05T04:11:42Z",
+  "text": "Virtuelle Hilfestellungen sind in die Software eingebaut und sollen Arbeitsschritte, die der Schüler alleine möglicherweise nicht bewältigen kann, hinterfragen, nahelegen und erklären.",
+  "latency_sec": 2.7586,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Virtuelle Hilfestellungen sind in die Software eingebaut und sollen Arbeitsschritte, die der Schüler alleine möglicherweise nicht bewältigen kann, hinterfragen, nahelegen und erklären.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPXV3GUmGQ0sr+D/CJqFy5aUHWbP5yFrcDjUUUkhzWroyiSvXikCE8q/z3e0aF"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224702,
+    "id": "fdlJatbqBOzFvr0P-YXt8AM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 305,
+      "total_tokens": 342
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "id_0010",
+  "lang": "id",
+  "engine": "gemini_25_flash",
+  "duration_sec": 15.96,
+  "ref_text_raw": "Dia juga terlibat dalam pengukiran uang kertas untuk banyak negara, contoh karyanya yang terbaru termasuk potret Perdana Menteri di bagian depan uang kertas $5 dan $100 Kanada yang baru.",
+  "ref_text_normalized": "dia juga terlibat dalam pengukiran uang kertas untuk banyak negara contoh karyanya yang terbaru termasuk potret perdana menteri di bagian depan uang kertas $5 dan $100 kanada yang baru",
+  "timestamp_utc": "2026-07-05T05:20:00Z",
+  "text": "Dia juga terlibat dalam pengukiran uang kertas untuk banyak negara. Contoh karyanya yang terbaru termasuk potret Perdana Menteri di bagian depan uang kertas $5 dan $100 Kanada yang baru.",
+  "latency_sec": 3.2532,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Dia juga terlibat dalam pengukiran uang kertas untuk banyak negara. Contoh karyanya yang terbaru termasuk potret Perdana Menteri di bagian depan uang kertas $5 dan $100 Kanada yang baru.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228800,
+    "id": "fulJaurmOZj41e8PhNP08AM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 532,
+      "total_tokens": 599
+    }
+  }
+}

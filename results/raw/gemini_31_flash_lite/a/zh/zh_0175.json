@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0175",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.54,
+  "ref_text_raw": "结果，演员在舞台上吸食大麻，剧院本身也鼓励观众一起加入。",
+  "ref_text_normalized": "结 果 演 员 在 舞 台 上 吸 食 大 麻 剧 院 本 身 也 鼓 励 观 众 一 起 加 入",
+  "timestamp_utc": "2026-07-05T09:21:12Z",
+  "text": "结果，演员在舞台上吸食大麻，剧院本身也鼓励观众一起加入。",
+  "latency_sec": 2.7864,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "结果，演员在舞台上吸食大麻，剧院本身也鼓励观众一起加入。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPxRfo2wlQE2izf4NvVgmK+2NQgKo3EgBxWGsjD2VZFV+AHatakLqwzuK9J5+l"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243272,
+    "id": "ByJKaqxCw__aug--prToBQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 260,
+      "total_tokens": 280
+    }
+  }
+}

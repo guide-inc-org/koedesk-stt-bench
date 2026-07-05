@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0002",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.84,
+  "ref_text_raw": "バルセロナの公用語はカタルーニャ語とスペイン語です。約半数がカタルーニャ語を好み、大多数がカタルーニャ語を理解し、ほぼ全員がスペイン語を知っています。",
+  "ref_text_normalized": "バルセロナの公用語はカタルーニャ語とスペイン語です 約半数がカタルーニャ語を好み 大多数がカタルーニャ語を理解し ほぼ全員がスペイン語を知っています",
+  "timestamp_utc": "2026-07-05T10:09:47Z",
+  "text": "バルセロナの公用語はカタルーニャ語とスペイン語です。約半数がカタルーニャ語を好み、大多数がカタルーニャ語を理解し、ほぼ全員がスペイン語を知っています。",
+  "latency_sec": 4.6254,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "バルセロナの公用語はカタルーニャ語とスペイン語です。約半数がカタルーニャ語を好み、大多数がカタルーニャ語を理解し、ほぼ全員がスペイン語を知っています。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Eq0LCqoLARFNMg9QYFJdTT3XaKITEt8wp8pIkz2Z6dqz5Phaiq0ZkO0gbwN6tlHbMbfyLkh2/E2tDT4X5zvX1qyYUMbSLBsnU7z885wuAAuuuQPYTDBmLYLfYD9NOlc47VkJ5IoegwrlLvCDEfhVJuTJxDDhiQIbh9dkM15cFvjDwrAeis7Tw0CVLz1qQZyjVWK2/pMTuqS9+hcJipbb21CWUlyoNNvAevVEX02otkm3S4/M6F654f0IAbqn6Fp1ZzNGVPFwiDCDd+0n4Imq6/bxyf3rMBkLCua+Jw6sywMdh3w5PX3tEJBRw+A6eXbZUgzwhS+2CKnaI2A7aqO7CyFoBZefn1Ii9Rivdne2d0NvKUl/KaN89FwgPKVd/EHSROYJpG1pltm60AJO6icOCBpckdIGoVtMGahv0XbJO8EfC47B366UgTvN/EQC3CVhySyGujAxreUyxIrCfOC03ukR9A37GF0FZ44aLQknzzjfvCUbnKvTHr+4DzD/iual2iPFnbAWuDFbtwM71u7juJ2ZwlV8h5Lg5Sh1KOBj85zwNfuue5uq7GJLqIMXptByZtzCEqwgF9dczDfCdKqF9a0HsPKmf858JXen7I4OAiPSk5dJGXSSKedlC8pedrUnEY1x4Qeuo7LSlrqcncwsGjAFyPglIHvUSGNS0XS/aCCbIXfbsTmVgQMZUhDXmR5lkl/HtC6b68w5+bW48xBdA3OlxJlwEg5y+/9CT6qTqp5zY0pUkXanlDSnN8RYjfh35jhqBNULI3lrbbix3vFCM3lUAvhPDDjXL4pVsLPABz8Ctg2Qzl2tbPn9eA5fz1NNUl8PiWlO4/g6/mtvauGTpZ05zwcWt1gDdSGdBM3uGritmMyMNyXwxWwlOt2bIyRvC0xanAsTsSwaC3qFGpr2/nXJ2Va6COeGzwVP0EUDm9+VinzXTFoW50AcsmzC23yXlIQq+cz/99OKVVNImlMyc0XQusYHreBhaoSIPVuMb/7bQg1GkNfPxsww8H/qFXchxhvO97+AlPaVnnY24xJOap0XTl6FubsH1TpfOdbzMEsg8/lVKu8ZgdvRPy5/tfOIGcEPobY3HnuGu4NYmF1NtqI00qyBWAYbjcAbuaKaTGt5IzxnDVg5sgGSXSE64Z0xWgdAhehH26iDzRNcrq2RgKExv9FOtdxx4YGrbLgE9VkZ3DQHE7qnS2ZIAbwWok/OV1AH2gTaBpK7ofgUoO1wNdazZW/Re+lgSlDPLlLcLAIqssXRxFq6tffBHfnZYB6AWWiU0JLmYFtLzu0TyiEX6D1D8M/+BcS5K8PK2DvpOCa10h7RupL7qijhJe8StSkQErQM6UvvafUuQ+8BEUnm0eyOTJO6zY+Jf0qOKikfqRKlEHweggD0N3PEkFkgQp04dHtJvDB651/c1R9Z7Ii1C7z28cQHDk/hb1soXCpg8BGBdYUBTzJsBZy3uo8abNfFJ6Z8H1UBXyHn9AmZq2slBLCyXytLUQcSrUkPuxFu9M4pqC9z0yB4NQOXLbR0xpP7MinwhqqFcc06peK/Eih4MWVtdgJnDtQgf/GdkdqZc86v8uLFf1IV38i6QiGqWk+2xZyInvgwFs6ls0Fy/LffBii4YgiOpV8RbhVeUBLFNoopor2ec27uKKKofiWtEZcy4+YZI511oX6aYSy/NzwISlNv875jVfxJaLDATbYGN1zOIQt8kgpBoTMh1IauQon5hBJ7tSkQskDLfmG3Oo2v+cYrOzQhv4bGKrYKF57uaHjNIhX2+EBBud36vfHUJJr0Vugl6+Vx+zLEITSgG0fWx2HvXHFQ+MMiWAhxOiW925LgJJODcfdIn7pcrAeYl610AI48ZxwLn7bHQ6A3K2e5S7qOTe5UYs7kT2/0+lAVNn9sPmHXOrCzynedPtYrVM2N/NY7W+gWS/wo98/nrbChWQ=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246187,
+    "id": "aC1KaqqnLPz-2roPj568yQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 342,
+      "total_tokens": 727
+    }
+  }
+}

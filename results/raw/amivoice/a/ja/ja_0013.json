@@ -1,0 +1,121 @@
+{
+  "utt_id": "ja_0013",
+  "lang": "ja",
+  "engine": "amivoice_general",
+  "duration_sec": 10.08,
+  "ref_text_raw": "ロランド・メンドーサはM16ライフルで観光客に発砲しました。",
+  "ref_text_normalized": "ロランド メンドーサはm16ライフルで観光客に発砲しました",
+  "timestamp_utc": "2026-07-04T13:30:18Z",
+  "text": "ローランドメンドーサはM16ライフルで観光客に発砲しました。",
+  "latency_sec": 1.4038,
+  "params": {
+    "endpoint": "https://acp-api.amivoice.com/v1/recognize",
+    "grammarFileNames": "-a-general",
+    "logging": true,
+    "audio_conversion": "float32 wav -> pcm_16 wav (same samples)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "results": [
+      {
+        "tokens": [
+          {
+            "written": "ローランド",
+            "confidence": 0.71,
+            "starttime": 2038,
+            "endtime": 2518,
+            "spoken": "ろーらんど"
+          },
+          {
+            "written": "メンドーサ",
+            "confidence": 0.66,
+            "starttime": 2518,
+            "endtime": 3078,
+            "spoken": "めんどーさ"
+          },
+          {
+            "written": "は",
+            "confidence": 1.0,
+            "starttime": 3078,
+            "endtime": 3238,
+            "spoken": "は"
+          },
+          {
+            "written": "M",
+            "confidence": 1.0,
+            "starttime": 3270,
+            "endtime": 3542,
+            "spoken": "えむ"
+          },
+          {
+            "written": "16",
+            "confidence": 1.0,
+            "starttime": 3542,
+            "endtime": 3958,
+            "spoken": "じゅうろく"
+          },
+          {
+            "written": "ライフル",
+            "confidence": 1.0,
+            "starttime": 3958,
+            "endtime": 4358,
+            "spoken": "らいふる"
+          },
+          {
+            "written": "で",
+            "confidence": 0.97,
+            "starttime": 4358,
+            "endtime": 4502,
+            "spoken": "で"
+          },
+          {
+            "written": "観光客",
+            "confidence": 0.9,
+            "starttime": 4502,
+            "endtime": 5174,
+            "spoken": "かんこうきゃく"
+          },
+          {
+            "written": "に",
+            "confidence": 1.0,
+            "starttime": 5174,
+            "endtime": 5270,
+            "spoken": "に"
+          },
+          {
+            "written": "発砲",
+            "confidence": 0.61,
+            "starttime": 5270,
+            "endtime": 5638,
+            "spoken": "はっぽう"
+          },
+          {
+            "written": "しました",
+            "confidence": 1.0,
+            "starttime": 5638,
+            "endtime": 6166,
+            "spoken": "しました"
+          },
+          {
+            "written": "。",
+            "confidence": 0.9,
+            "starttime": 6166,
+            "endtime": 6486,
+            "spoken": "_"
+          }
+        ],
+        "confidence": 0.993,
+        "starttime": 1750,
+        "endtime": 6486,
+        "tags": [],
+        "rulename": "",
+        "text": "ローランドメンドーサはM16ライフルで観光客に発砲しました。"
+      }
+    ],
+    "utteranceid": "20260704/22/019f2d52a20c0a30336b94c6_20260704_223017",
+    "text": "ローランドメンドーサはM16ライフルで観光客に発砲しました。",
+    "code": "",
+    "message": ""
+  }
+}

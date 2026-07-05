@@ -1,0 +1,39 @@
+{
+  "utt_id": "id_0168",
+  "lang": "id",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.54,
+  "ref_text_raw": "Kari adalah masakan yang terdiri dari rempah-rempah dan bumbu, disertai daging atau sayuran.",
+  "ref_text_normalized": "kari adalah masakan yang terdiri dari rempah-rempah dan bumbu disertai daging atau sayuran",
+  "timestamp_utc": "2026-07-05T05:32:18Z",
+  "text": "Kari adalah masakan yang terdiri dari rempah-rempah dan bumbu, disertai daging atau sayuran.",
+  "latency_sec": 3.6586,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Kari adalah masakan yang terdiri dari rempah-rempah dan bumbu, disertai daging atau sayuran.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783229538,
+    "id": "X-xJaqy0K62A1e8P88TkuQE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 327,
+      "total_tokens": 406
+    }
+  }
+}

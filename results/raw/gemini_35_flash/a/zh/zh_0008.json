@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0008",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.62,
+  "ref_text_raw": "Scotturb 403 路公共汽车定期发车前往辛特拉 (Sintra)，在罗卡角停靠。",
+  "ref_text_normalized": "scotturb 403 路 公 共 汽 车 定 期 发 车 前 往 辛 特 拉 sintra 在 罗 卡 角 停 靠",
+  "timestamp_utc": "2026-07-05T09:05:55Z",
+  "text": "司各特巴士403路公交汽车定期发车前往新特拉，在罗卡角停靠。",
+  "latency_sec": 6.0451,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "司各特巴士403路公交汽车定期发车前往新特拉，在罗卡角停靠。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqIOCp8OARFNMg+JstGKO4mDVRb274803vaTld0kvv90a3p/xjvQZpyRJ4mRD6y88xc431HB+3uEaS1j6fCrs6/2GXx7Adpyv+MvFBLAURT8t0c3C1IvpL0kQ09TuRtqd+butoLtaQmIhvd7THmhEpN6yBwglACQOLQwZzABLQKtYU0ZaSEpGWbDTBY9BXVbyc84JTv9O5RPYbBKKaHl8qKBbn+6T7DUPYWANB7pLJ9j46yRHD9Mj+6eOhp/tMc4oV3jBFwIpA5Yl6Zi+5wUYtWSMKfN7X6aBRdD+Yj/fs7f6/cCF5bSKgXE3rFp4BfgRcNGnnRrE16gjRjcv7Z1hAJ5Cqqlv+NRDtJPCHX7Vc1Q0kXkBMofbqGcX6zqUHQfVf6DpUTvXfjdRSovq7COTKmV5nNFw3PTfc6Zp4QgpN34fiKJvTl2x27EEjl7MsnHaTrXYmJbBWoMGPRQR0gXqdtq/MCJgOBOrODNz9LHa2uZxocQhWkG9pLEjK87dYXFwbRc5dcQlU4gsJKzLe2etOqhsUBBeqynMAMd5xZ3a7kB26//S7le0wwq8m2jpCxp+IJGsIGr0O0S9eI+qQJ41i2Y8uc8JOMEFhwwXvpr6o0NyCcUbe8tJWSLY2+/tm0dgBFEkF56vfmJzk0zgRuQWxNAiTAK3X2luTs0gENHK7v5lVjC+Quxea0emhtnQg80YMiPCt416vOJEEfm/3+vAdZiTPsCATT7IGp+TqvSZNB64g8vGDQGGXNhED7ZdudiwVefDaluVnZNppVOU9tuYewqMjxcZeg77hVTIsY+XDuOgkuO1ppRf0o3P+I2JTX7PRQ6+zn8RxA+CBQgegGBHMAGlKngJwlbWLgMW3h52PKCYrfzEB/++ukrc2lXUpWuJe1R2KeY2g6aKamiuOk8AGBlYKjdLg/iZbD6DDgCfRW23S3HaKjftTPLxeeHG/6kxYGeYP0xMsngzMiMdQTS6qP7JDcNPFG/Bax00PZAQjgtJD2Tp+n/xoHGjwFEvPUt5L5H1qouA1V77lRblMDQ1TRRpWGdVGLjDWbYPmG+wStpyZqLQScD8tB3uv2KyULqGpMXE6cqtU58JiMG8n+goeNN16hH0JM4kNMAw/heHgtATYS2TzfBwnpR4M4q2ITIb7gTCV59Sa55/2NK4R1uSHU8lme+MjyhY9PCUQOJitU5EJpxRx8JCf6svNu8f3KVcWlX+OeHBSUUTIvl2vbmu1C87Mzbn4NNd9NmiM37Zlvd2xhHFCW9rZ9XsVkFa3D1CpMQbmDOFOXvTagWqvV/8ZxUGZlaiwjKn40wmjIuOLz10NritTq85vwYN3V59y5ycJY83hoVbW5pd7m7MVbjHYkxFJXzW+vs2iMIIj4OVub1G6r06+DLhKVSut4Bxl13boNrmTaCFA+QpaUoWWNhK0lQKU5UQNQkKWdcaOz71tU3fnSjfjgAp8ijUB8kFq5/2N1SNtY02cFD0LncvJUM4hg4La1Db0/qw0ab6VSVzvVhJQWK2N8IS49sTQJca8UXZ/KQ0CTuc5Dc8TU2vR1kLdWneDe9m0/LxbRmoMH6wBPDawk8v+MUHknr4ww3VNDyHsa6d0GTyxsNTn1+KUEUJYys5bpVYtFxqBv5YQSaKxGrpdgZqYAas4eJ/c8LH7vN8Xg2rknxHmDhGT1fQ+OEyzAp7Uij2ilqqZMdTldub2PwTCZZ+6qQf4VTXU65UzxpVYg9zkmdmPGpow8t3CJa2/4WzsIXHgI8qohgZzGx/2Ldx8PrhsScXQpBk4aCybx31qLPXVeKYbJsuIaH5n/CM42Z/U/Fqr1Ln4GaIWSjlSV7o9CNpdgbJ8icMGVCs+ZgnuSbN/9BzGvHz1aBiZ5Q3LLPvFZkRTWtAr89ndBOOU0GIR5vx/wfd0Cj9/nyqf5S3Cgu1COhLSvJhUQR7QEm/Jj+Y++1bcTm1IlX7LRQRbxxglLEu+SLOriraiJCCkoOrcsno46QujxHNdXu+0CI+Oz5o2KQIGfEIqb44Yw57zYWDQtkbBSRzQW6ijPd0+uh+rbgU/sJ8l4MAN/BEvIrRnh9qIqwSTD2Kmji+odpe/jjcS965Mh1BWdtCF5riCY4vvtn6712N+TpFR2e/QyHG6vzXq6KnmpvJOdR90RjRYqHR6/xbsrh9L5N84Vj8XCNSm2p6G3P3+h79sp+GhqSImKvkzmzXnJzOEeFPuIpEOnMWS0a56Tef4s9K/fFByfZOnF17woh9yij1yh2zv6uNoOhVv7Hg6T9oPynWs/oYTZXJYD+tbwr4GubnqrTJIYh91+m7jxe+fK14XJ34FAmKPHRFA4tf08gBl3oXgl62V2YsAEFIxwFqt15HHiTSYk5VjhyEpBLVwS3qAovZebxV/t5yBjbijcMlTyj5YVKo0ZYka0apBH9njDZKSbzF5Zfwq6Mvug="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242355,
+    "id": "bh5Kao63OevYvr0P_YW_6QM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 212,
+      "total_tokens": 798
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0070",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.56,
+  "ref_text_raw": "Im Laufe der Nacht wurden zwischen 150 und 200 Kopien angefertigt, die heute als „Dunlap broadsides“ bekannt sind.",
+  "ref_text_normalized": "im laufe der nacht wurden zwischen 150 und 200 kopien angefertigt die heute als dunlap broadsides bekannt sind",
+  "timestamp_utc": "2026-07-05T03:45:21Z",
+  "text": "Im Laufe der Nacht wurden inzwischen 150 und 200 Kopien angefertigt, die heute als Dunlop Broadsides bekannt sind.",
+  "latency_sec": 3.4771,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Im Laufe der Nacht wurden inzwischen 150 und 200 Kopien angefertigt, die heute als Dunlop Broadsides bekannt sind.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223121,
+    "id": "T9NJaq3PJdTM1e8Pof6vuQc",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 263,
+      "total_tokens": 293
+    }
+  }
+}

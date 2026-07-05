@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0156",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.9,
+  "ref_text_raw": "To get the best views of Hong Kong, leave the island and head for the Kowloon waterfront opposite.",
+  "ref_text_normalized": "to get the best views of hong kong leave the island and head for the kowloon waterfront opposite",
+  "timestamp_utc": "2026-07-05T03:36:37Z",
+  "text": "To get the best views of Hong Kong, leave the island and head for the Kowloon waterfront opposite.",
+  "latency_sec": 2.4935,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "To get the best views of Hong Kong, leave the island and head for the Kowloon waterfront opposite.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPSauaSKBRah/xVKTnOLjkAMF9vwl/Cvp4Ks2W86Jny4Ga2xaiW4P/dQawPR6B"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222597,
+    "id": "Q9FJaumuN5j41e8PhNP08AM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 194,
+      "total_tokens": 214
+    }
+  }
+}

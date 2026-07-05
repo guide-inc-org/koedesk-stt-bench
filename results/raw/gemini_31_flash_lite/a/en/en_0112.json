@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0112",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.68,
+  "ref_text_raw": "With two years of the end of the war, the former allies were now enemies and the Cold War began.",
+  "ref_text_normalized": "with two years of the end of the war the former allies were now enemies and the cold war began",
+  "timestamp_utc": "2026-07-05T03:33:57Z",
+  "text": "With two years of the end of the war, the former allies were now enemies and the Cold War began.",
+  "latency_sec": 2.6195,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "With two years of the end of the war, the former allies were now enemies and the Cold War began.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPHGx0dHidm+yQ4kwqgpUPPKy712pWIWhQRK3OxwmN6qiScInDjIWIWHsQ8iKF"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222437,
+    "id": "pNBJasmnCfHZ1e8Pi4G_8QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 213,
+      "total_tokens": 235
+    }
+  }
+}

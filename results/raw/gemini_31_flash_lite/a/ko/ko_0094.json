@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0094",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.84,
+  "ref_text_raw": "높은 고도나 산길을 넘어 운전하려고 하면 눈, 빙판 또는 영하의 기온 등이 생길 가능성에 대해 고려해야 한다.",
+  "ref_text_normalized": "높은 고도나 산길을 넘어 운전하려고 하면 눈 빙판 또는 영하의 기온 등이 생길 가능성에 대해 고려해야 한다",
+  "timestamp_utc": "2026-07-05T06:24:33Z",
+  "text": "높은 고도나 산길을 넘어 운전하려고 하면 눈, 빙판, 또는 영하의 기온 등이 생길 가능성에 대해 고려해야 한다.",
+  "latency_sec": 2.6942,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "높은 고도나 산길을 넘어 운전하려고 하면 눈, 빙판, 또는 영하의 기온 등이 생길 가능성에 대해 고려해야 한다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPKlciwkmpIXjXQDZqswWy/JK1kUPxQcJ2tiggv385ONCC5HDesO2NYTs4meQ0"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232673,
+    "id": "oPhJaoOhILvN2roPnu2ysAU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 342,
+      "total_tokens": 376
+    }
+  }
+}

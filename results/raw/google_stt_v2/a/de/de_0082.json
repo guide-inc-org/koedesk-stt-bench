@@ -1,0 +1,36 @@
+{
+  "utt_id": "de_0082",
+  "lang": "de",
+  "engine": "google_stt_v2",
+  "duration_sec": 36.42,
+  "ref_text_raw": "\"Perry erklärte, er werde „nach Texas zurückkehren, um das Ergebnis der Vorwahl von heute Abend auszuwerten und zu entscheiden, ob es in diesem Rennen einen weiterführenden Weg für mich gibt\"\", aber sagte später, er werde im Rennen bleiben und bei den Vorwahlen in South Carolina am 21. Januar antreten.\"",
+  "ref_text_normalized": "perry erklärte er werde nach texas zurückkehren um das ergebnis der vorwahl von heute abend auszuwerten und zu entscheiden ob es in diesem rennen einen weiterführenden weg für mich gibt aber sagte später er werde im rennen bleiben und bei den vorwahlen in south carolina am 21. januar antreten",
+  "timestamp_utc": "2026-07-05T03:48:12Z",
+  "text": "Perry erklärte, er werde nach Texas zurückkehren, um das Ergebnis der Vorwahl von heute Abend auszuwerten und zu entscheiden, ob es in diesem Rennen einen weiterführenden Weg für mich gibt. Aber sagte später, er werde im Rennen bleiben und bei den Vorwahlen in South Carolina am 21. Januar antreten.",
+  "latency_sec": 9.0733,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "de-DE",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "37s",
+      "requestId": "743dc802-0000-263e-843b-f4f5e8031264",
+      "prompt": "Transcribe the following speech segment in German. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, German."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Perry erklärte, er werde nach Texas zurückkehren, um das Ergebnis der Vorwahl von heute Abend auszuwerten und zu entscheiden, ob es in diesem Rennen einen weiterführenden Weg für mich gibt. Aber sagte später, er werde im Rennen bleiben und bei den Vorwahlen in South Carolina am 21. Januar antreten."
+          }
+        ],
+        "languageCode": "de-DE"
+      }
+    ]
+  }
+}

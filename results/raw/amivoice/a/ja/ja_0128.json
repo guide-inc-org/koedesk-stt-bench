@@ -1,0 +1,156 @@
+{
+  "utt_id": "ja_0128",
+  "lang": "ja",
+  "engine": "amivoice_general",
+  "duration_sec": 10.2,
+  "ref_text_raw": "消防隊は最終的に午後11時35分までに火を消しました。",
+  "ref_text_normalized": "消防隊は最終的に午後11時35分までに火を消しました",
+  "timestamp_utc": "2026-07-05T03:08:13Z",
+  "text": "消防隊は、最終的に午後11時35分までに火を消しました。",
+  "latency_sec": 1.5957,
+  "params": {
+    "endpoint": "https://acp-api.amivoice.com/v1/recognize",
+    "grammarFileNames": "-a-general",
+    "logging": true,
+    "audio_conversion": "float32 wav -> pcm_16 wav (same samples)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "results": [
+      {
+        "tokens": [
+          {
+            "written": "消防",
+            "confidence": 1.0,
+            "starttime": 1602,
+            "endtime": 2146,
+            "spoken": "しょうぼう"
+          },
+          {
+            "written": "隊",
+            "confidence": 0.95,
+            "starttime": 2146,
+            "endtime": 2434,
+            "spoken": "たい"
+          },
+          {
+            "written": "は",
+            "confidence": 1.0,
+            "starttime": 2434,
+            "endtime": 2706,
+            "spoken": "は"
+          },
+          {
+            "written": "、",
+            "confidence": 0.98,
+            "starttime": 2706,
+            "endtime": 3042,
+            "spoken": "_"
+          },
+          {
+            "written": "最終",
+            "confidence": 0.99,
+            "starttime": 3258,
+            "endtime": 3722,
+            "spoken": "さいしゅう"
+          },
+          {
+            "written": "的",
+            "confidence": 0.98,
+            "starttime": 3722,
+            "endtime": 3994,
+            "spoken": "てき"
+          },
+          {
+            "written": "に",
+            "confidence": 1.0,
+            "starttime": 3994,
+            "endtime": 4282,
+            "spoken": "に"
+          },
+          {
+            "written": "午後",
+            "confidence": 0.99,
+            "starttime": 4410,
+            "endtime": 5050,
+            "spoken": "ごご"
+          },
+          {
+            "written": "11時",
+            "confidence": 1.0,
+            "starttime": 5114,
+            "endtime": 5770,
+            "spoken": "じゅういちじ"
+          },
+          {
+            "written": "35分",
+            "confidence": 1.0,
+            "starttime": 5770,
+            "endtime": 6650,
+            "spoken": "さんじゅうごふん"
+          },
+          {
+            "written": "まで",
+            "confidence": 1.0,
+            "starttime": 6650,
+            "endtime": 6922,
+            "spoken": "まで"
+          },
+          {
+            "written": "に",
+            "confidence": 1.0,
+            "starttime": 6922,
+            "endtime": 7130,
+            "spoken": "に"
+          },
+          {
+            "written": "火",
+            "confidence": 1.0,
+            "starttime": 7130,
+            "endtime": 7418,
+            "spoken": "ひ"
+          },
+          {
+            "written": "を",
+            "confidence": 1.0,
+            "starttime": 7418,
+            "endtime": 7498,
+            "spoken": "を"
+          },
+          {
+            "written": "消し",
+            "confidence": 0.99,
+            "starttime": 7498,
+            "endtime": 7834,
+            "spoken": "けし"
+          },
+          {
+            "written": "ました",
+            "confidence": 1.0,
+            "starttime": 7834,
+            "endtime": 8314,
+            "spoken": "ました"
+          },
+          {
+            "written": "。",
+            "confidence": 0.91,
+            "starttime": 8314,
+            "endtime": 8586,
+            "spoken": "_"
+          }
+        ],
+        "confidence": 0.9745,
+        "starttime": 1250,
+        "endtime": 8586,
+        "tags": [],
+        "rulename": "",
+        "text": "消防隊は、最終的に午後11時35分までに火を消しました。"
+      }
+    ],
+    "utteranceid": "20260705/12/019f303f738e0a3015e894ce_20260705_120812",
+    "text": "消防隊は、最終的に午後11時35分までに火を消しました。",
+    "code": "",
+    "message": ""
+  }
+}

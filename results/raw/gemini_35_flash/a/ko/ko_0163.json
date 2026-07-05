@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0163",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.6,
+  "ref_text_raw": "포클랜드의 공식 화폐는 1영국 파운드(GBP)의 가치와 동등하게 설정된 포클랜드 파운드(FKP)이다.",
+  "ref_text_normalized": "포클랜드의 공식 화폐는 1영국 파운드gbp의 가치와 동등하게 설정된 포클랜드 파운드fkp이다",
+  "timestamp_utc": "2026-07-05T06:24:02Z",
+  "text": "포클랜드의 공식 화폐는 1 영국 파운드의 가치와 동등하게 설정된 포클랜드 파운드이다.",
+  "latency_sec": 3.3151,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "포클랜드의 공식 화폐는 1 영국 파운드의 가치와 동등하게 설정된 포클랜드 파운드이다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Er4ECrsEARFNMg/J+R29vNZjATQM4qOBSqoQBj6g6W+46Cjlxr3ZRQ2+16J46UIJh7foX4X6EzZ0GoMstoCxKKVShLS3obYT9X10Q9DLkvhchzoVxVaQeUeBup63ZAJYKGZKL4IQRYUNAVxvlgIogK4Cun2lLSWl6VtecBAG/1OKwMjjpZL6fEFNLmDJm+0t8KYqcgle6VnEFgDBZiQsBnEgiPgFT2RJQtKJ3U+0aGqty856RTBmLoQ//fHHcg+B7t2PxtsUa0MphBegkpD283kBI5lOxD5t1XWL+w+G60RFlOd/YqYkWmLcvZa8r5U6+di8i1AJ0HspO7Ql8PQVWgTT25RNS69jB9YplXydVOW0XU3CcDpkx6tZTSNLgBkx2gRhMUKTk/VvxqeIvl8LDNXTiqMvYEyESMouU88Dqdk7czbRVBjeR/CTqWuLIc3IIWany7IeSTV6QfwB3SMebVNkU1Nb7SKJe3yHQ+4pbn/sRVi+lCtFY8Ei25DDqbHyFn4N0HKXFHa4H5UmNEALIi2kf6Gj672PZF68x5xZ9DcuvGhNBBeMdjLhtie2TSTsfGvF3I3Sll1H5F+Wmffi+dQwDWJ00kNjn114OCP9/eFPAJS06m+Q55dlcreBGaXT3eL58x+c+Xm7cuw9pv//xM0Ta0zQhtoGTdFfY8sWvUBmZEvFZz6jcBgkGR/aMadYhNYHzSFvQFyIKQaShiw/YMlW171K61gu3ica0Jc4RLrWMX5m5l7Sxq0GJgpfP3JopA=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232642,
+    "id": "gPhJauGOGpja1e8P6IqesQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 336,
+      "total_tokens": 525
+    }
+  }
+}

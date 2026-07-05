@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0107",
+  "lang": "zh",
+  "engine": "gemini_31_pro_preview",
+  "duration_sec": 10.38,
+  "ref_text_raw": "目前还没有发布海啸预警。根据雅加达地质局的说法，由于此次地震没有达到 6.5 级，因此不会发布海啸预警。",
+  "ref_text_normalized": "目 前 还 没 有 发 布 海 啸 预 警 根 据 雅 加 达 地 质 局 的 说 法 由 于 此 次 地 震 没 有 达 到 6.5 级 因 此 不 会 发 布 海 啸 预 警",
+  "timestamp_utc": "2026-07-05T09:29:31Z",
+  "text": "目前还没有发布海啸预警，根据雅加达地质局的说法，由于此次地震没有达到6.5级，因此不会发布海啸预警。",
+  "latency_sec": 13.0866,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-pro-preview",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "目前还没有发布海啸预警，根据雅加达地质局的说法，由于此次地震没有达到6.5级，因此不会发布海啸预警。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243771,
+    "id": "8CNKapGKGLmVvr0PopTJiQc",
+    "model": "gemini-3.1-pro-preview",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 281,
+      "total_tokens": 1322
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0182",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.88,
+  "ref_text_raw": "Es gibt keine allgemeingültige Definition dafür, welche hergestellten Gegenstände als Antiquitäten gelten. Manche Steuerbehörden definieren über 100 Jahre alte Waren als Antiquitäten.",
+  "ref_text_normalized": "es gibt keine allgemeingültige definition dafür welche hergestellten gegenstände als antiquitäten gelten manche steuerbehörden definieren über 100 jahre alte waren als antiquitäten",
+  "timestamp_utc": "2026-07-05T04:10:59Z",
+  "text": "Es gibt keine allgemeingültige Definition dafür, welche hergestellten Gegenstände als Antiquitäten gelten. Manche Steuerbehörden definieren über 100 Jahre alte Waren als Antiquitäten.",
+  "latency_sec": 2.9019,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Es gibt keine allgemeingültige Definition dafür, welche hergestellten Gegenstände als Antiquitäten gelten. Manche Steuerbehörden definieren über 100 Jahre alte Waren als Antiquitäten.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP9r8ab02yyF4EmlnvDkaRq59mTZxRNtvrZKtbojBgVjZFTXI2b4sxeCVVrmNm"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224659,
+    "id": "UdlJaqjoMKHc1e8P1OStiQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 393,
+      "total_tokens": 432
+    }
+  }
+}

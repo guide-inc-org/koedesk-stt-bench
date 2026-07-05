@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0110",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.72,
+  "ref_text_raw": "胡纳已经辞职，他在内阁中的位置将由国会议员埃德·戴维 (Ed Davey) 接替。预计国会议员诺曼·兰姆 (Norman Lamb) 将接替戴维空出的商务部长一职。",
+  "ref_text_normalized": "胡 纳 已 经 辞 职 他 在 内 阁 中 的 位 置 将 由 国 会 议 员 埃 德 戴 维 ed davey 接 替 预 计 国 会 议 员 诺 曼 兰 姆 norman lamb 将 接 替 戴 维 空 出 的 商 务 部 长 一 职",
+  "timestamp_utc": "2026-07-05T09:17:15Z",
+  "text": "胡奈已经辞职，他在内阁中的位置将由国会议员艾德·戴维接替，预计国会议员诺曼·拉姆将接替艾维空出的商务部长一职。",
+  "latency_sec": 3.1804,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "胡奈已经辞职，他在内阁中的位置将由国会议员艾德·戴维接替，预计国会议员诺曼·拉姆将接替艾维空出的商务部长一职。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPTVgXlDqWP2frrRNEOg4yxqjE2uBa5CmpCC75qeVFYhxx/u1gLUgbmYch9KQL"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243035,
+    "id": "GSFKapaNG6ne1e8P6I_tqAg",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 339,
+      "total_tokens": 384
+    }
+  }
+}

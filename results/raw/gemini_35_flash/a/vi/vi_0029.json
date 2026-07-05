@@ -1,0 +1,45 @@
+{
+  "utt_id": "vi_0029",
+  "lang": "vi",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 19.02,
+  "ref_text_raw": "Vương quốc Ma-rốc đã xây dựng lại thành phố này giống như Daru l-Badya và nó được đặt tên là Casablanca bởi các thương nhân Tây Ban Nha, là những người đã lập các cơ sở giao thương ở đó.",
+  "ref_text_normalized": "vương quốc ma-rốc đã xây dựng lại thành phố này giống như daru l-badya và nó được đặt tên là casablanca bởi các thương nhân tây ban nha là những người đã lập các cơ sở giao thương ở đó",
+  "timestamp_utc": "2026-07-05T08:30:53Z",
+  "text": "Vương quốc Ma-rốc đã xây dựng lại thành phố này giống như Da-gu-y Ba-đi-a và nó được đặt tên là Ca-sa Blan-ca bởi các thương nhân Tây Ban Nha là những người đã lập các cơ sở giao thương ở đó.",
+  "latency_sec": 5.9295,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Vương quốc Ma-rốc đã xây dựng lại thành phố này giống như Da-gu-y Ba-đi-a và nó được đặt tên là Ca-sa Blan-ca bởi các thương nhân Tây Ban Nha là những người đã lập các cơ sở giao thương ở đó.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240253,
+    "id": "OBZKau_SOpjF0-kPvZ-G6AE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 58,
+      "prompt_tokens": 497,
+      "total_tokens": 1225
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0082",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.3,
+  "ref_text_raw": "Orang Paris dikenal egosentris, kasar, dan sombong.",
+  "ref_text_normalized": "orang paris dikenal egosentris kasar dan sombong",
+  "timestamp_utc": "2026-07-05T05:50:00Z",
+  "text": "Orang Paris dikenal egosentris, kasar, dan sombong.",
+  "latency_sec": 3.2634,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Orang Paris dikenal egosentris, kasar, dan sombong.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP8mctUG6x9SO0zSOOUXyM2E4vWiwdcjWyDvSc6YhZ+pa08BITW0qba7Oadkvw"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230600,
+    "id": "hvBJao2cOr6a1e8PgPz1sQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 14,
+      "prompt_tokens": 179,
+      "total_tokens": 193
+    }
+  }
+}

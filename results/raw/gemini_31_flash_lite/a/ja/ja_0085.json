@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0085",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.2,
+  "ref_text_raw": "この現象によってほぼ24時間空が暗くなるので、オーロラを見るには良い機会となります。",
+  "ref_text_normalized": "この現象によってほぼ24時間空が暗くなるので オーロラを見るには良い機会となります",
+  "timestamp_utc": "2026-07-05T10:17:54Z",
+  "text": "この 現象 に よっ て ほぼ 24 時間 空 が 暗く なる の で オーロラ を 見る に は いい 機会 と なり ます 。",
+  "latency_sec": 3.5245,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "この 現象 に よっ て ほぼ 24 時間 空 が 暗く なる の で オーロラ を 見る に は いい 機会 と なり ます 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPGMe/KTOLy2V1RGxGSny/xjDepQGt/JmCq6XyM8yBAHBeNTmwUL1zfsvRysR6"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246674,
+    "id": "UC9KarC6Ffia1e8P4ZHFoQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 276,
+      "total_tokens": 311
+    }
+  }
+}

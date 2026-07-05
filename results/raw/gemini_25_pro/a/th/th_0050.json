@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0050",
+  "lang": "th",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.5,
+  "ref_text_raw": "โรงพยาบาลได้ปฏิบัติตามมาตรการควบคุมการติดเชื้อรวมถึงมีการแยกผู้ป่วยออกจากกลุ่มคนอื่น ๆ เพื่อป้องกันโอกาสที่ผู้อื่นจะติดเชื้อ",
+  "ref_text_normalized": "โรงพยาบาลได้ปฏิบัติตามมาตรการควบคุมการติดเชื้อรวมถึงมีการแยกผู้ป่วยออกจากกลุ่มคนอื่น ๆ เพื่อป้องกันโอกาสที่ผู้อื่นจะติดเชื้อ",
+  "timestamp_utc": "2026-07-05T07:45:08Z",
+  "text": "โรงพยาบาลได้ปฏิบัติตามมาตรการควบคุมการติดเชื้อ รวมถึงมีการแยกผู้ป่วยออกจากกลุ่มคนอื่นอื่นเพื่อป้องกันโอกาสที่ผู้อื่นจะติดเชื้อ",
+  "latency_sec": 4.332,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "โรงพยาบาลได้ปฏิบัติตามมาตรการควบคุมการติดเชื้อ รวมถึงมีการแยกผู้ป่วยออกจากกลุ่มคนอื่นอื่นเพื่อป้องกันโอกาสที่ผู้อื่นจะติดเชื้อ",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237508,
+    "id": "gQtKarXrOp2_vr0Piquy2Q0",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 357,
+      "total_tokens": 427
+    }
+  }
+}

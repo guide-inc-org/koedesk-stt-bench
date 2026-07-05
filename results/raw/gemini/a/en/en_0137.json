@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0137",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.48,
+  "ref_text_raw": "All things considered, we should not be surprised if our own ancestors solved their \"protein problem\" in somewhat the same way that chimps on the savanna do today.",
+  "ref_text_normalized": "all things considered we should not be surprised if our own ancestors solved their protein problem in somewhat the same way that chimps on the savanna do today",
+  "timestamp_utc": "2026-07-05T03:27:29Z",
+  "text": "All things considered, we should not be surprised if our own ancestors solved their protein problem in somewhat the way that chimps on Savannah do today.",
+  "latency_sec": 3.2092,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "All things considered, we should not be surprised if our own ancestors solved their protein problem in somewhat the way that chimps on Savannah do today.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222049,
+    "id": "IM9JapuBCJW4vr0PkIGBmQU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 325,
+      "total_tokens": 412
+    }
+  }
+}

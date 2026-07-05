@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0005",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.9,
+  "ref_text_raw": "합금은 기본적으로 금속 두 개 이상의 혼합물이다. 주기율표 상에 원소가 많이 있다는 것을 잊지 마라.",
+  "ref_text_normalized": "합금은 기본적으로 금속 두 개 이상의 혼합물이다 주기율표 상에 원소가 많이 있다는 것을 잊지 마라",
+  "timestamp_utc": "2026-07-05T06:09:19Z",
+  "text": "합금은 기본적으로 금속 두 개 이상의 혼합물이다. 주기율표 상의 원소가 많이 있다는 것을 잊지 마라.",
+  "latency_sec": 3.4189,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "합금은 기본적으로 금속 두 개 이상의 혼합물이다. 주기율표 상의 원소가 많이 있다는 것을 잊지 마라.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Et4DCtsDARFNMg/dxnN+9MC1SxoBjQeStPfZeZn8y2vxxq1GscoSLL7x8m7kRJSwHIvJmY+mCajXr0RPPXL15w6BbS+807Vh74tOcbJEZlMjZFePtm9kbc/GY1TmmuAGNpVmboqQwbWpQUBByuaeiqfh3qIVIuSJtop/dSmt6qY+Qh/nJSYA+gKUMFO0ZLVmEnHHhij2SxVscDb6kfsAtQ3mReztFLy5iozQSs89TZc2vYVVaxtS+qG0DCIwrgE22UdwICtmBbMF3vlT+P8rYioH/ckOE12ywZ832u2gXgA6M1FBmspaoKGMbbJNATIBLiVHPT7nh31bL5l0QmS7lgis/wPL0xMxgI4sqgVycou7o2Tcmh7vIFI/i57cWhZtSp+E7e+Bu8xJcZH0qL9t0lOgfa7+A/WneUHFFMeqa4gM3A30UfV9iLzY+oVgZyiICNNuMOp+jEB4XIvhSWLrKkynlr9xM2k0o/eGkr6OL1xC5EzNPmCyfRvoEi+nFEcQ+9Ii+NF++UJVOzIjsLdmQAsB2fe7xrsUXE3985/ADhEApJSCP7j+zsaGuzT7/2CEatekX9W4LsP/05MSgvPdNm5n4zZY1W4L5eM14iLnBtnVs5Ri4srRCDX+DgC+gaSq2g=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231759,
+    "id": "DfVJarOIEJbPrfcP5aSH-Ac",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 269,
+      "total_tokens": 394
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0071",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.3,
+  "ref_text_raw": "Chấp nhận là quan điểm của Aristotle về tất cả mọi vấn đề liên quan đến khoa học, kể cả tâm lý học.",
+  "ref_text_normalized": "chấp nhận là quan điểm của aristotle về tất cả mọi vấn đề liên quan đến khoa học kể cả tâm lý học",
+  "timestamp_utc": "2026-07-05T08:41:55Z",
+  "text": "chấp nhận là quan điểm của Aristotle về tất cả mọi vấn đề liên quan đến khoa học, kể cả tâm lý học.",
+  "latency_sec": 2.2794,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "chấp nhận là quan điểm của Aristotle về tất cả mọi vấn đề liên quan đến khoa học, kể cả tâm lý học.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPeWK1SOQT6d7Q9KDTsWek3psBNMWIv/3v3HSbwIz1xn0IcaV1eIKNgOcip15r"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240916,
+    "id": "0hhKasuZM6bX2roP9O2X-Qg",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 254,
+      "total_tokens": 280
+    }
+  }
+}

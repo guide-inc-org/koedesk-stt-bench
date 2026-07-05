@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0075",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 19.38,
+  "ref_text_raw": "Zwar weiß niemand mit Sicherheit, wer es geschrieben hat, es ist allerdings bekannt, dass das große Pergamentdokument (welches 29¾ Zoll x 24½ Zoll misst) zu Beginn seines Lebens zur Aufbewahrung zusammengerollt wurde.",
+  "ref_text_normalized": "zwar weiß niemand mit sicherheit wer es geschrieben hat es ist allerdings bekannt dass das große pergamentdokument welches 29¾ zoll x 24½ zoll misst zu beginn seines lebens zur aufbewahrung zusammengerollt wurde",
+  "timestamp_utc": "2026-07-05T04:04:19Z",
+  "text": "Zwar weiß niemand mit Sicherheit, wer es geschrieben hat, es ist allerdings bekannt, dass das große Pergamentdokument, welches 29 3/4 Zoll mal 24 1/2 Zoll ist, zu Beginn seines Lebens zur Aufbewahrung zusammengerollt wurde.",
+  "latency_sec": 2.7591,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Zwar weiß niemand mit Sicherheit, wer es geschrieben hat, es ist allerdings bekannt, dass das große Pergamentdokument, welches 29 3/4 Zoll mal 24 1/2 Zoll ist, zu Beginn seines Lebens zur Aufbewahrung zusammengerollt wurde.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPNyGg8xAeywPpU2QVzVJhV7xFuinjbuwAHoqMUPHB5tpe9EVs/F9M91/lfRy9"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224259,
+    "id": "wtdJatjpIeel0-kPltOWuAs",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 58,
+      "prompt_tokens": 506,
+      "total_tokens": 564
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0012",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.44,
+  "ref_text_raw": "กองกำลังอเมริกันและกองกำลังเสรีฝรั่งเศสได้ปลดปล่อยฝรั่งเศสตอนใต้ให้เป็นอิสระและหันสู่ประเทศเยอรมนีภายในเวลาเพียงสองสัปดาห์เท่านั้น",
+  "ref_text_normalized": "กองกำลังอเมริกันและกองกำลังเสรีฝรั่งเศสได้ปลดปล่อยฝรั่งเศสตอนใต้ให้เป็นอิสระและหันสู่ประเทศเยอรมนีภายในเวลาเพียงสองสัปดาห์เท่านั้น",
+  "timestamp_utc": "2026-07-05T08:01:25Z",
+  "text": "กองกำลังอเมริกันและกองกำลังเสรีฝรั่งเศสได้ปลดปล่อยฝรั่งเศสตอนใต้ให้เป็นอิสระและหันสู่ประเทศเยอรมันภายในเวลา 2 สัปดาห์เท่านั้น",
+  "latency_sec": 2.8488,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "กองกำลังอเมริกันและกองกำลังเสรีฝรั่งเศสได้ปลดปล่อยฝรั่งเศสตอนใต้ให้เป็นอิสระและหันสู่ประเทศเยอรมันภายในเวลา 2 สัปดาห์เท่านั้น",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPnjigd6SaBSTRguGjWA/yj0cVVDio9s4FnMc9m498GvY279UD65DLUg0HaHI4"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238485,
+    "id": "Uw9Kauy_Iryyvr0Pp7y7iQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 357,
+      "total_tokens": 404
+    }
+  }
+}

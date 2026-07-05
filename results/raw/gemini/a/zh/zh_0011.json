@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0011",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 5.04,
+  "ref_text_raw": "他随后被转送到剑桥的阿登布鲁克医院。",
+  "ref_text_normalized": "他 随 后 被 转 送 到 剑 桥 的 阿 登 布 鲁 克 医 院",
+  "timestamp_utc": "2026-07-05T08:48:30Z",
+  "text": "他随后被传转送到剑桥的阿登布鲁克医院。",
+  "latency_sec": 7.8871,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "他随后被传转送到剑桥的阿登布鲁克医院。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241310,
+    "id": "VxpKasSYFsmD0-kPmZ7guAM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 183,
+      "total_tokens": 1058
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0063",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.86,
+  "ref_text_raw": "Piramida Agung di Giza adalah satu-satunya dari tujuh keajaiban yang masih berdiri hingga saat ini.",
+  "ref_text_normalized": "piramida agung di giza adalah satu-satunya dari tujuh keajaiban yang masih berdiri hingga saat ini",
+  "timestamp_utc": "2026-07-05T05:48:47Z",
+  "text": "Piramida Agung di Giza adalah satu-satunya dari tujuh keajaiban yang masih berdiri hingga saat ini.",
+  "latency_sec": 3.4807,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Piramida Agung di Giza adalah satu-satunya dari tujuh keajaiban yang masih berdiri hingga saat ini.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPaz9wxFeYU2osMG01K5rYuI/NIsP4U3WYnOXaikfq9HTPcMZZbHAS12ogdPZU"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230527,
+    "id": "PfBJatfDIPHZ1e8Pi4G_8QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 293,
+      "total_tokens": 316
+    }
+  }
+}

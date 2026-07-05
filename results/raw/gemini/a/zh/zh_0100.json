@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0100",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.7,
+  "ref_text_raw": "除了周三的比赛，卡帕内多（Carpanedo）还参加了锦标赛的两项个人竞赛。",
+  "ref_text_normalized": "除 了 周 三 的 比 赛 卡 帕 内 多 carpanedo 还 参 加 了 锦 标 赛 的 两 项 个 人 竞 赛",
+  "timestamp_utc": "2026-07-05T08:55:55Z",
+  "text": "除了週三的比賽，卡帕內多還參加了錦標賽的兩項個人競賽。",
+  "latency_sec": 3.4964,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "除了週三的比賽，卡帕內多還參加了錦標賽的兩項個人競賽。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241755,
+    "id": "GRxKarH5H7vN2roPnu2ysAU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 300,
+      "total_tokens": 406
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0173",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 5.1,
+  "ref_text_raw": "북쪽은 사헬, 남쪽과 서쪽은 대서양이 접해 있습니다.",
+  "ref_text_normalized": "북쪽은 사헬 남쪽과 서쪽은 대서양이 접해 있습니다",
+  "timestamp_utc": "2026-07-05T06:24:58Z",
+  "text": "북쪽은 사해 남쪽과 서쪽은 대서양에 접해 있습니다.",
+  "latency_sec": 4.4706,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "북쪽은 사해 남쪽과 서쪽은 대서양에 접해 있습니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EuoHCucHARFNMg9PNmMaE70EXWZX8auzOe2wnDeHbb3Tag4yEKOLWZXV2OppG6f0iaYo4caG12U2KRd86bSSvY+/4qnt4h69z+lrRAnALXbHaazcD6U5bIJ5Ph8RJt26eTl0l52OjjRN+M/+b9QjiAqiHGpoDD9ks60TY0UA+ViNjM/UL1bdqBPItmQ5oKGfSTSEKZ+ZIfTX6e+urJD2eJUjSJhzbA2aPrJINhkOSzGL73sI5fLfJmFR255+d2Ww3D9BElz4aOM7WH4T/m67tVkdsKdk2mnN6oxpZOrER8GRAh5TS9ac/hjMAAP9BgCDwxwvsBbEzhc+EsTxuYT7YZRSMXiM2xMBtICLSrxOq+XifgoOVuKX10pOk0aBEVaLMCuMnQ2EadlUJuXgOdDlwjhBozyO5fgpTexRf2sISznPlGyCgjYkYvFSIYBuhGyRanpem0siFjfYrWki0EQxHoLGD74dSkCVuWd0SRAufwFI/AQHTNXfCDKKw/+QjJOycs/v118gYnwLwcrKKrzNt5CSnSaBLC7fJ4K7MwL9nVZ0DmOZdY6q0wlhqouXrh1OJhkyCIpkB/cRg94kU1MN9JwFoUKWtQEXrV0sWjk+FJogYjhuFNDMIlluRaknCQpW9SDD5Nd/mDfDYGC221qJvf8w5wAMsqXLuRKL3xoIx1OunGgoFdbbjtUzV0a7dCZMtqDqkU/4KRiGXj5RPnf8xR/e6MN1aqOcHqzbnAPfDrFznd7+5xNjHszgn0XRNKkCh6aMsbvZULXecDC+Ei7b/hkMKeUdeHJzKpDzOfx/BYWSEiBSVoQRyN7EU1J2zzhMORTPYfDK7GGTOMGJcj8leBLmpgwQfQWkkmMF6gsqwAwVpiRfkAqHz1M9BlJFvyi1Ak5s2PY9qE1OuG4tPks4mqy6ebW0gRmCahTsZ3jR44lT6XR/Ho6/YbHosybylhWz8ypx/wDPIyw7+B8FBGG9dw2C8cfB0Rdi4KAFyufShuJkvrDOabbKuh6RIORvCi9cnWK1uKTbOXXxrpr01OtpHARVxn4eLl/N3aX8Y/odpO4CRd3ZwySicIC1pTVTH2dYpONwf5OiMEV51gPa/M/PLXqmSspusO+dzEp1IswYROzN28FjsEWRRd+7VRyeoYdMLIQbMiAkpqcyoTf6f9osjaOAgXrI67p23LEDvgSUBN5CdCZfrGYkTf0Lg3HndlhN7KN57oxrktlBtkaCrtZjUWZyGkMKPGGz5k5/H59I4K89153eS0y2Op/2tazJk1xRLuwsQHtBIFWRKiOto90VctESsjMvOkAEiQori2EaJsbNdHyNZzcPErksg54M"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232698,
+    "id": "tvhJav2NMJbPrfcP5aSH-Ac",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 149,
+      "total_tokens": 448
+    }
+  }
+}

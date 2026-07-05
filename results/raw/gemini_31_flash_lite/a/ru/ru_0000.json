@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0000",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 16.92,
+  "ref_text_raw": "В древнем Китае использовали уникальный способ обозначения периодов времени; каждый этап Китая или каждая семья, находившаяся у власти, были особой династией.",
+  "ref_text_normalized": "в древнем китае использовали уникальный способ обозначения периодов времени каждый этап китая или каждая семья находившаяся у власти были особой династией",
+  "timestamp_utc": "2026-07-05T07:26:57Z",
+  "text": "В Древнем Китае использовали уникальный способ обозначения периодов времени. Каждый этап Китая или каждая семья, находившаяся у власти, были особой династией.",
+  "latency_sec": 3.4505,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "В Древнем Китае использовали уникальный способ обозначения периодов времени. Каждый этап Китая или каждая семья, находившаяся у власти, были особой династией.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPoScNBtq8ICj7hoonUdQh5Ee2oeBz96+cuvVDwe5vS9gpedV3ZyYEa2H6qOUA"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236417,
+    "id": "PwdKas6ZMqbX2roP9O2X-Qg",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 445,
+      "total_tokens": 482
+    }
+  }
+}

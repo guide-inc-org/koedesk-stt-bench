@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0127",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.44,
+  "ref_text_raw": "Large areas further north are quite sparsely populated and some is nearly uninhabited wilderness.",
+  "ref_text_normalized": "large areas further north are quite sparsely populated and some is nearly uninhabited wilderness",
+  "timestamp_utc": "2026-07-05T03:26:50Z",
+  "text": "Large areas further north are quite sparsely populated and some is nearly uninhabited wilderness.",
+  "latency_sec": 3.3547,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Large areas further north are quite sparsely populated and some is nearly uninhabited wilderness.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222010,
+    "id": "-M5JaoueMo_V2roPj7-7kAY",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 260,
+      "total_tokens": 340
+    }
+  }
+}

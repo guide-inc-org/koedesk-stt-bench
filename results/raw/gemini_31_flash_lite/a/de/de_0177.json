@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0177",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.46,
+  "ref_text_raw": "Fast alle sind Sandstrände mit sicheren Bademöglichkeiten und die meisten bieten Schatten, der von Pohutukawa-Bäumen gespendet wird.",
+  "ref_text_normalized": "fast alle sind sandstrände mit sicheren bademöglichkeiten und die meisten bieten schatten der von pohutukawa-bäumen gespendet wird",
+  "timestamp_utc": "2026-07-05T04:10:41Z",
+  "text": "Fast alle sind Sandstrände mit sicheren Bademöglichkeiten und die meisten bieten Schatten, der von Pohutukawa-Bäumen gespendet wird.",
+  "latency_sec": 2.5405,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Fast alle sind Sandstrände mit sicheren Bademöglichkeiten und die meisten bieten Schatten, der von Pohutukawa-Bäumen gespendet wird.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPfxltqFCjR3dJfrousCOk52tcyV1G09KL3wXntqigWO3FbHNEm4Mtgraz9hiu"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224642,
+    "id": "QNlJariNIveZ0-kP0vvOuQE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 233,
+      "total_tokens": 265
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "pt_0141",
+  "lang": "pt",
+  "engine": "gemini_25_pro",
+  "duration_sec": 14.28,
+  "ref_text_raw": "Os 25 ataques de Dunlap que ainda existem são as cópias mais velhas sobreviventes do documento. A cópia original feita à mão não sobreviveu.",
+  "ref_text_normalized": "os 25 ataques de dunlap que ainda existem são as cópias mais velhas sobreviventes do documento a cópia original feita à mão não sobreviveu",
+  "timestamp_utc": "2026-07-05T06:47:40Z",
+  "text": "Os 25 ataques de Danlep, que ainda existem, são as cópias mais velhas sobreviventes do documento. A cópia original, feita à mão, não sobreviveu.",
+  "latency_sec": 11.4137,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Os 25 ataques de Danlep, que ainda existem, são as cópias mais velhas sobreviventes do documento. A cópia original, feita à mão, não sobreviveu.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234060,
+    "id": "Av5JavqSNZi9vr0P4KaPwQI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 478,
+      "total_tokens": 1510
+    }
+  }
+}

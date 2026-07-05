@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0049",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.92,
+  "ref_text_raw": "“这并不是告别。这是一个篇章的结束，也是新篇章的开始。”",
+  "ref_text_normalized": "这 并 不 是 告 别 这 是 一 个 篇 章 的 结 束 也 是 新 篇 章 的 开 始",
+  "timestamp_utc": "2026-07-05T09:09:50Z",
+  "text": "这并不是告别，这是一个篇章的结束，也是新篇章的开始。",
+  "latency_sec": 3.849,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "这并不是告别，这是一个篇章的结束，也是新篇章的开始。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpkGCpYGARFNMg8oGYMoiRWi1qjk/g3uUXS31Ien7wlnKE2ba+8rC8QK2amog+tJWXStn9Ha67ukm0DuPmCAnv1u0ZqHjEgzUxHA5g1oGM8PsZE7uC8P697W3ZcrImixWN0NB+aUU8xXIOljSYfsKdQ/T+uWe631dfD4n6kNq44+DCcVSV7Y/76wLLHKwvM0XYnChJZkjSBo+if3sMktDJ6eEJEPB0jUBRNfH7ntIR5Kv1tM5UM7EBIP1ZwDpeNQVMbha5KhnPDtj0Ho0A4OYMojrASK39Bmo4fFRARaye69Xg0KlRWl8qSIt8KWE4XeLeONM5XMH6yKxJmArhcqfnmbkc0fXZed4e4dRamI2te5xrpmD7MuYvhsst9tkJI+Yup5FbwqKoBEgLEoixYHwk69tL2nFE54JIuxLd+e7xvKm2Y46+SKE5qsf3o6IASwuLqKMYF8467JmMrhJ16GxD4XXeattClDIT7rPIl+Ms5XVlmUbThLxXy77cexsjxY/fh2LERpDhZ+HkJ7r619M7yayYzuPa2ipCF89aFYyNgIHbgqSiGCKnnLqKbvh5Utc3zZGNN9Adt9NZZgiP3rqNrcIPz90ZWJEeuG0bdSaDBYfaXOP6J6/9TpnbzAImdlCpSNisR5iW1UztznT6HdTv7x+DLtZXpm11tzWVdrxhOzhHL5l46uJrPd7Hz0SbNkTSGZ/4a0UrwLwxJ1FxCBjCvhTkZSOP+Q8fbdOPuuL40Eq94wFsTaLZ+bvJXedBkHKr9M0hLeoR36QfZcROMIqw0WSK9b5xB/EEFBdJlvnZ7DQxQntHftYAHjVbRRLhHAlEgW89umAypMzcl3udVTqErbcSxJs7i/jKlGbkKqj8r8MCZ0XRpw3K82h99f3QDVH+hjP1X27cjKl1rpSucr3bgrYh/XtlzGeYQQoh7eV2RZFHJFhgYRpkdc1Lae6DGuYVQkjFtnw0yhatJB2xqRUOz5m6V6uk4Lwc2fZjrn1u0xNuak4Q1B9wRPaB3pMDlnGS0QWPVqIhN2niLGD1AVbLRGDyrgsDRDbJr9aA=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242590,
+    "id": "Wx9KaonUK8vb2roP0s2koQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 219,
+      "total_tokens": 424
+    }
+  }
+}

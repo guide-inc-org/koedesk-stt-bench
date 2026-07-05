@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0144",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.78,
+  "ref_text_raw": "อาการช็อกเมื่อกลับประเทศบ้านเกิดจะเกิดขึ้นเร็วกว่าอาการช็อกทางวัฒนธรรม (มีระยะแรกสั้นกว่า) คงอยู่นานกว่า และอาจรุนแรงกว่า",
+  "ref_text_normalized": "อาการช็อกเมื่อกลับประเทศบ้านเกิดจะเกิดขึ้นเร็วกว่าอาการช็อกทางวัฒนธรรม มีระยะแรกสั้นกว่า คงอยู่นานกว่า และอาจรุนแรงกว่า",
+  "timestamp_utc": "2026-07-05T08:05:37Z",
+  "text": "อาการช็อกเมื่อกลับประเทศบ้านเกิดจะเกิดขึ้นเร็วกว่าอาการช็อกทางวัฒนธรรม มีระยะแรกสั้นกว่า อยู่คงนานกว่า และอาจรุนแรงกว่า",
+  "latency_sec": 4.9466,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "อาการช็อกเมื่อกลับประเทศบ้านเกิดจะเกิดขึ้นเร็วกว่าอาการช็อกทางวัฒนธรรม มีระยะแรกสั้นกว่า อยู่คงนานกว่า และอาจรุนแรงกว่า",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238737,
+    "id": "TRBKauH8K_6e0-kP-tbAuA4",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 266,
+      "total_tokens": 797
+    }
+  }
+}

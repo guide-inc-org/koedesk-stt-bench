@@ -1,0 +1,39 @@
+{
+  "utt_id": "id_0108",
+  "lang": "id",
+  "engine": "gemini_25_pro",
+  "duration_sec": 6.18,
+  "ref_text_raw": "Ini sepertinya masuk akal, karena Bumi tidak terasa seperti bergerak, bukan begitu?",
+  "ref_text_normalized": "ini sepertinya masuk akal karena bumi tidak terasa seperti bergerak bukan begitu",
+  "timestamp_utc": "2026-07-05T05:34:49Z",
+  "text": "Ini sepertinya masuk akal, karena bumi tidak terasa seperti bergerak, bukan begitu?",
+  "latency_sec": 9.3062,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Ini sepertinya masuk akal, karena bumi tidak terasa seperti bergerak, bukan begitu?",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783229689,
+    "id": "8exJau2ACqOm2roPua6M0QE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 219,
+      "total_tokens": 1024
+    }
+  }
+}

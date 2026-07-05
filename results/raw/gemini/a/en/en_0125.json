@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0125",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 4.98,
+  "ref_text_raw": "For the Springboks, it ended a five-match losing streak.",
+  "ref_text_normalized": "for the springboks it ended a five-match losing streak",
+  "timestamp_utc": "2026-07-05T03:26:42Z",
+  "text": "For the Springbox, it ended a five-match losing streak.",
+  "latency_sec": 3.0072,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "For the Springbox, it ended a five-match losing streak.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222003,
+    "id": "8c5Jas6QBMfG0-kPuZO6wQU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 14,
+      "prompt_tokens": 181,
+      "total_tokens": 221
+    }
+  }
+}

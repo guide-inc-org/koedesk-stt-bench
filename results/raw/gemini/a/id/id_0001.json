@@ -1,0 +1,39 @@
+{
+  "utt_id": "id_0001",
+  "lang": "id",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.68,
+  "ref_text_raw": "Segera setelah permusuhan pecah, Britania memulai blokade laut Jerman.",
+  "ref_text_normalized": "segera setelah permusuhan pecah britania memulai blokade laut jerman",
+  "timestamp_utc": "2026-07-05T05:19:21Z",
+  "text": "Segera setelah permusuhan pecah, Britania memulai blokade Laut Jerman.",
+  "latency_sec": 2.7774,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Segera setelah permusuhan pecah, Britania memulai blokade Laut Jerman.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228761,
+    "id": "V-lJatehJPijvr0Pmty12QU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 17,
+      "prompt_tokens": 267,
+      "total_tokens": 376
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0173",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.36,
+  "ref_text_raw": "Le Vatican compte environ 800 habitants. C'est le plus petit pays indépendant au monde, et le moins peuplé.",
+  "ref_text_normalized": "le vatican compte environ 800 habitants c'est le plus petit pays indépendant au monde et le moins peuplé",
+  "timestamp_utc": "2026-07-05T05:20:17Z",
+  "text": "Le Vatican compte environ 800 habitants. C'est le plus petit pays indépendant au monde et le moins peuplé.",
+  "latency_sec": 3.0845,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Le Vatican compte environ 800 habitants. C'est le plus petit pays indépendant au monde et le moins peuplé.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP4mzNuJOK1985F6tk+pf5RPEdLBtNH/RjqvNW1MbbQgzXdzM0VEPFJsiv/gNo"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228817,
+    "id": "j-lJavTuFevYvr0P_YW_6QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 255,
+      "total_tokens": 282
+    }
+  }
+}

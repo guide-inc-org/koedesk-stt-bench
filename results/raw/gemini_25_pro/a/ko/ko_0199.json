@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0199",
+  "lang": "ko",
+  "engine": "gemini_25_pro",
+  "duration_sec": 13.2,
+  "ref_text_raw": "현장 학습은 모든 학급에 있어서 큰 비중을 차지한다. 일반적으로 교사는 자신의 학생들을 버스 여행이 필요 없는 장소로 데려가고 싶어 한다.",
+  "ref_text_normalized": "현장 학습은 모든 학급에 있어서 큰 비중을 차지한다 일반적으로 교사는 자신의 학생들을 버스 여행이 필요 없는 장소로 데려가고 싶어 한다",
+  "timestamp_utc": "2026-07-05T06:18:27Z",
+  "text": "현장 학습은 모든 학급에 있어서 큰 비중을 차지한다. 일반적으로 교사는 자신의 학생들을 버스 여행이 필요 없는 장소로 데려가고 싶어 한다.",
+  "latency_sec": 4.3601,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "현장 학습은 모든 학급에 있어서 큰 비중을 차지한다. 일반적으로 교사는 자신의 학생들을 버스 여행이 필요 없는 장소로 데려가고 싶어 한다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232307,
+    "id": "MPdJav2uLK2l0-kP_9TT2QM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 444,
+      "total_tokens": 511
+    }
+  }
+}

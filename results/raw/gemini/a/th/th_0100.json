@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0100",
+  "lang": "th",
+  "engine": "gemini_25_flash",
+  "duration_sec": 13.08,
+  "ref_text_raw": "พืชผลิตก๊าซออกซิเจนที่มนุษย์ใช้หายใจและรับเอาคาร์บอนไดออกไซด์ที่มนุษย์ขับออกมา (ซึ่งก็คือการหายใจออก) เข้าไป",
+  "ref_text_normalized": "พืชผลิตก๊าซออกซิเจนที่มนุษย์ใช้หายใจและรับเอาคาร์บอนไดออกไซด์ที่มนุษย์ขับออกมา ซึ่งก็คือการหายใจออก เข้าไป",
+  "timestamp_utc": "2026-07-05T07:42:32Z",
+  "text": "พืช ผลิต ก๊าซ ออกซิเจน ที่ มนุษย์ ใช้ หาย ใจ และ รับ เอา คาร์บอนไดออกไซด์ ที่ มนุษย์ ขับ ออก มา ซึ่ง ก็ คือ การ หาย ใจ ออก เข้า ไป",
+  "latency_sec": 3.6519,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "พืช ผลิต ก๊าซ ออกซิเจน ที่ มนุษย์ ใช้ หาย ใจ และ รับ เอา คาร์บอนไดออกไซด์ ที่ มนุษย์ ขับ ออก มา ซึ่ง ก็ คือ การ หาย ใจ ออก เข้า ไป",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237352,
+    "id": "5gpKatqXHPKE0-kPh9im2AE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 48,
+      "prompt_tokens": 440,
+      "total_tokens": 578
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0168",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.14,
+  "ref_text_raw": "Die am leichtesten zugänglichen Pflanzenressourcen wären die Proteine in Blättern und Hülsenfrüchten gewesen, doch diese sind für Primaten wie uns schwer verdaulich, es sei denn, sie werden gekocht.",
+  "ref_text_normalized": "die am leichtesten zugänglichen pflanzenressourcen wären die proteine in blättern und hülsenfrüchten gewesen doch diese sind für primaten wie uns schwer verdaulich es sei denn sie werden gekocht",
+  "timestamp_utc": "2026-07-05T03:53:19Z",
+  "text": "Die am leichtesten zugänglichen Pflanzenressourcen wären die Proteine in Blättern und Hülsenfrüchten gewesen, doch diese sind für Primaten wie uns schwer verdaulich, es sei denn sie werden gekocht.",
+  "latency_sec": 4.3792,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Die am leichtesten zugänglichen Pflanzenressourcen wären die Proteine in Blättern und Hülsenfrüchten gewesen, doch diese sind für Primaten wie uns schwer verdaulich, es sei denn sie werden gekocht.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223599,
+    "id": "LNVJasvFCKHc1e8P1OStiQU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 46,
+      "prompt_tokens": 346,
+      "total_tokens": 539
+    }
+  }
+}

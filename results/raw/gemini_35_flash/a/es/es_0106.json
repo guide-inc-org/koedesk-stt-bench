@@ -1,0 +1,45 @@
+{
+  "utt_id": "es_0106",
+  "lang": "es",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.68,
+  "ref_text_raw": "Se acoge a los niños en hogares de guarda por una amplia variedad de motivos, desde negligencia hasta abuso e, incluso, extorsión.",
+  "ref_text_normalized": "se acoge a los niños en hogares de guarda por una amplia variedad de motivos desde negligencia hasta abuso e incluso extorsión",
+  "timestamp_utc": "2026-07-05T04:37:34Z",
+  "text": "Se acoge a los niños en hogares de guarda por una amplia variedad de motivos, desde negligencia hasta abuso e incluso extorsión.",
+  "latency_sec": 3.0804,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Se acoge a los niños en hogares de guarda por una amplia variedad de motivos, desde negligencia hasta abuso e incluso extorsión.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqwECqkEARFNMg9B6P1W6xRVVakVPsbI7A/ERcyPGogYVbQX+znVA24vNodCZg/bZ1nYK2E/G8FZ78Gn3CXCaWZ0WySVJB1gI9zXkAUU+Md1GMmvVN8auaQ2Q48yWU1ZjT8e80vymZTymzULTR9pT7v8SsX+eFC52x4aZG89harum7FLibhx7h8Te8RIqEUDYEBnBEEQrRu9DJptsf1LYWHMD1wL8cX5xtOHMSwUhnHwALmZRA0kQNwzxdkPhboLwLyMWtjJYsO3jv0p92j2IdLshCP/axnsqDsYZIDWjqynWFcePNiPG4QST4zKG/3ZxFma8ZAjVHhn7pw9KPqkP9pAxIsSNkRZH+uH+nkIb2Hbg4NkZi9QidagS0XujbeECYRejrYscDcGuu7imoBJdkkuSkRtQg6C5671HF8G2iguxTysDEtg9q0afgjiV6OF5wLUxL2EPlj8B/EEXs2HZTTVCIsfEyiy6BlmUNBCtIgGk5XKIVEuCqDU7ib6HBni6MuzAydDwkcGT4tLwNm3xqLmwinLlRWPVDy1rRP5n4JiyMWaxrT+nNdvnZWBqnBTHkiseFW0BZEUTXfUHPdCIZt1FbQc2vOWObyEZ8AAPlbuLStW47tmWh0ZQbntB40h6vdgKgIiNREIBByQSFWTV2SPg9tPPzmX5epd/fJQg4rtlaBEWea0E/vDL9/gXFRVe+J+l0rF4+xznSRssEVldbkF/F0ZkiTUG42Ww+ENOg=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226254,
+    "id": "jN9Jat3JHr6a1e8PgPz1sQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 288,
+      "total_tokens": 425
+    }
+  }
+}

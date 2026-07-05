@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0141",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.04,
+  "ref_text_raw": "野孩子在被抛弃或离家出走之前，可能经历过严重的儿童虐待或创伤。",
+  "ref_text_normalized": "野 孩 子 在 被 抛 弃 或 离 家 出 走 之 前 可 能 经 历 过 严 重 的 儿 童 虐 待 或 创 伤",
+  "timestamp_utc": "2026-07-05T09:19:07Z",
+  "text": "这些孩子在被抛弃或离家出走之前，可能经历过严重的儿童虐待或创伤。",
+  "latency_sec": 3.0613,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "这些孩子在被抛弃或离家出走之前，可能经历过严重的儿童虐待或创伤。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPXF9uwiLJAsFPZunyuNzAzsfwpnl5pdqwfG+2DYmJmLanY2hRLWFZmE8pDqVr"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243147,
+    "id": "iiFKatTMArmVvr0PopTJiQc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 297,
+      "total_tokens": 321
+    }
+  }
+}

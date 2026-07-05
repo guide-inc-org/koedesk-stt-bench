@@ -1,0 +1,45 @@
+{
+  "utt_id": "es_0159",
+  "lang": "es",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.24,
+  "ref_text_raw": "El chocolate caliente está a la altura de los estándares belgas. Los jugos frutales son costosos, pero deliciosos.",
+  "ref_text_normalized": "el chocolate caliente está a la altura de los estándares belgas los jugos frutales son costosos pero deliciosos",
+  "timestamp_utc": "2026-07-05T04:41:53Z",
+  "text": "El chocolate caliente está a la altura de los estándares belgas, los jugos frutales son costosos pero deliciosos.",
+  "latency_sec": 3.662,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "El chocolate caliente está a la altura de los estándares belgas, los jugos frutales son costosos pero deliciosos.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpMGCpAGARFNMg/Htd5N+HQ2QhPhQRlP/1CBKmfhA2NbTomR6m+7htiZch8q7bNN2PM55DOZiECQvuhaYzald+pMnmNum/GwmKV0DhcS8hnYjKnWdrjGojFjsHe2pw21WI2nXvAZwWh34gu4YPd+iPb/a2eavh7FPK1bhYtjZDyiSaBusim93xCi7tHmWiCeR0cFDiU0nEJ8BlkXQEXw73XNXj8QQeE98yEOaO17MxZG06n/iXIWSj+G1G6dlGAwQhpdh5QoSP+HtJjdnlOOacwK7SucZTnsVUdRfScewxth9wWYg+jooE14O2WbbpVfva/xU8/z9vee+sfXgJOW7J2MtcobaXtmge3P8f5sJaur2R6qt7Ag2mIOx5jG0gk1xGNIoTVGkwZ5lREVY+ctVLUldTARpZzmgkz5aKxvunI6D6dhR6PK77kUklHrzuh/PXppbu4TqEJmAVMFG7V6GYq91p8cjSOAFBFopT/mHFP2+ePmtnq5BWcWkgySL9KegFZThasXmtwsDfmuFAKpa71VZp/iUlpAy4pEEsLI1VlNHEZVS0a3cG88HsPG/t30FKRzVyG/+o5svdqvRXydNE9SyUGvMQ1SuioFhpwV0P2T7aKIEdALHgvia4FHpTkAVinT1mlTFMFMc4JiU3BXLjmdmVqfhXQRbvfoZQ2hIaE5k5cZm9oIcaYhchweNPA5BQOfKcJkNrLpJ0OAjzCN1lug3nqOZWhLBOFZyLX3FMKsM6Z3oUTJxMTgJxYLAdlTsXuBQEGALZsG2Uet9gEnxXTQcKWNwsXhTGT4423PdkqVAuRHBrvS0Jsn0+mRJ+0rTd5f6vq8jodSyqwCbAm1YsNt5sFft2Ahrg8tUPgwv9igAXttj+QXxFoJgXh8zae3S98PTnCmtg5bW0J73vOqHddXr4M0fD4Yaeol++uIUSyDZhNgQpRV3I4maRiLWt4dvN02OOjCWIpe5aRe83Rt9dF+VOdSvkRO9LVpBybn0lrY4H2TUmAt3wOo9W2OJLvnwH/BRUY08fftmJczBVkYqyDDaXv1YQ=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226513,
+    "id": "juBJasGPJ9Civr0P-6eduQE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 252,
+      "total_tokens": 451
+    }
+  }
+}

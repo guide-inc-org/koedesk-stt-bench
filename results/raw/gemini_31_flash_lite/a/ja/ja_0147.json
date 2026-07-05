@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0147",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.2,
+  "ref_text_raw": "一部の路線では大企業は自社機を持っているが、それ以外の路線や小規模企業では問題があった。",
+  "ref_text_normalized": "一部の路線では大企業は自社機を持っているが それ以外の路線や小規模企業では問題があった",
+  "timestamp_utc": "2026-07-05T03:20:03Z",
+  "text": "一部 の 路線 で は 大 企業 は 自社 企業 を 持っ て いる が 、 それ 以外 の 路線 や 小 規模 企業 で は 問題 が あっ た 。",
+  "latency_sec": 2.6097,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "一部 の 路線 で は 大 企業 は 自社 企業 を 持っ て いる が 、 それ 以外 の 路線 や 小 規模 企業 で は 問題 が あっ た 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPt3mi8htYxuaB9+aOpogUseRMQpJ8xX1oMagVe/4xdW+Pd09EUHAf05JYCtg2"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221603,
+    "id": "Yc1JataxOdTM1e8Pof6vuQc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 276,
+      "total_tokens": 316
+    }
+  }
+}

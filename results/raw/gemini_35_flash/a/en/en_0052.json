@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0052",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.88,
+  "ref_text_raw": "A civilization is a singular culture shared by a significant large group of people who live and work co-operatively, a society.",
+  "ref_text_normalized": "a civilization is a singular culture shared by a significant large group of people who live and work co-operatively a society",
+  "timestamp_utc": "2026-07-05T10:30:34Z",
+  "text": "A civilization is a singular culture shared by a significant large group of people who live and work cooperatively, a society.",
+  "latency_sec": 3.7441,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "A civilization is a singular culture shared by a significant large group of people who live and work cooperatively, a society.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EusFCugFARFNMg84IXsCQPqWtxkai2qrdFpNFjPQLuiHI2BwkabDH9w41jSzPWZSEyEBua16onPsLhR1wYj0grsgl1kKd8cGM47xkl4X5kgZrUgFKUvnE2MrQjRT6UaJAG1EaeGnP3ZSDxxnsIbDMBFxfAADk6Vl/2Mq4OIJ7YqWGxWjnGJqpdgY1tuo4uVmIh3BMmxBRDODq7qBvNGjXjawzHrHIcpEWTIZY/vcsWMEBrlRCXDZclq0oCpxxYjIU4+G76DvY7if6OAtmPgESW5GNdlPRK+/UiIglZKVAQHQq0L6odWWHwfPmWFar1ZHkY3NMjahRXhnX6FunybOuoxls1ztMvp9R7YvXO/G+RcQFcrqACpXZgYUEyaaKFbcyOIBrn3qoOrReAw24uLN5LK18JMlDwg+fuFUTqPcZ+jRavXCbkeOOudJub4BPolW8trVVwHf61bkpkArDCgpM2F7FyVn8WoQxhWWwbngkYWYPGmnvJy+BvW0eB25IwSCPAihC/KkSsrbPUjCjQMJqKuzcPJ6DwTb1vJE5uwhgD6iNMfZJxV27Z9jxLr8AzE7aaKmjV7RTYxBsjEIZjXQxLPVWaspsEAJietmBbmClSNcvTDgBONe/QVyh7QvE2BUIVOHm9KVnQmVcSOOiQs3k9ROWeC94cjPzb/A8726m8ANa58yuTm0fHbdljF4ssoc1y/SdRXjivpd76NkWfCSqBFPcDyFPPA99/WqraPxOdi5JPCICkA57qZszx2YEWd/Obpx1jJbhQf/2KuMUoGk/OmBCRNubm87f3adMa/j9uAD756pVE2/rh2UaPpmWuR1M/w50tGkIEY8Ln3iL/ZjJnMH+8r+ZSzYMNThKTQHylpL3jRe53GvgHhZQQ0RwpcSE7k/AUZdkICkZWoBuPSPNF4N18oex6ZHuqPmAkr686HAsLGbdaSaLBF/LR1BLea2lEvllRb/udr5qVysbgH8pf0vNj7XzX5JZXFgKnDa"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247434,
+    "id": "RzJKauvZE-el0-kPltOWuAs",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 244,
+      "total_tokens": 462
+    }
+  }
+}

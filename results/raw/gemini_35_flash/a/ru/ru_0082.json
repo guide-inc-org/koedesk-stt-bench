@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0082",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 13.56,
+  "ref_text_raw": "Кроме того между правлениями каждой династии царила раздробленность и нестабильность. Самой известной была эпоха Троецарствия, которая длилась 60 лет во время династий Хань и Цзинь.",
+  "ref_text_normalized": "кроме того между правлениями каждой династии царила раздробленность и нестабильность самой известной была эпоха троецарствия которая длилась 60 лет во время династий хань и цзинь",
+  "timestamp_utc": "2026-07-05T07:23:46Z",
+  "text": "Кроме того, между правлениями каждой династии царила раздробленность и нестабильность. Самой известной была эпоха Троецарствия, которая длилась 60 лет во время династии Хань и Цзинь.",
+  "latency_sec": 4.7127,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Кроме того, между правлениями каждой династии царила раздробленность и нестабильность. Самой известной была эпоха Троецарствия, которая длилась 60 лет во время династии Хань и Цзинь.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236226,
+    "id": "fgZKauSiK9Wd1e8PgOulsQY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 54,
+      "prompt_tokens": 360,
+      "total_tokens": 865
+    }
+  }
+}

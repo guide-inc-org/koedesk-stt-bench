@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0195",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.84,
+  "ref_text_raw": "Der verbreitete Automobilbesitz führt auch zu einer höheren Anzahl von Unfällen auf den Straßen, was wiederum zur Erfindung von neuen Techniken im Gesundheitswesen zur Reparatur beschädigter Körper führt.",
+  "ref_text_normalized": "der verbreitete automobilbesitz führt auch zu einer höheren anzahl von unfällen auf den straßen was wiederum zur erfindung von neuen techniken im gesundheitswesen zur reparatur beschädigter körper führt",
+  "timestamp_utc": "2026-07-05T04:11:46Z",
+  "text": "Der verbreitete Automobilbesitz führt auch zu einer höheren Anzahl von Unfällen auf den Straßen, was wiederum zur Erfindung von neuen Techniken im Gesundheitswesen zur Reparatur beschädigter Körper führt.",
+  "latency_sec": 2.7521,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Der verbreitete Automobilbesitz führt auch zu einer höheren Anzahl von Unfällen auf den Straßen, was wiederum zur Erfindung von neuen Techniken im Gesundheitswesen zur Reparatur beschädigter Körper führt.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPAfk5QL/Xa7YemXLDF+0YfBAAJvTrDAVHtBjkCTQCVCFxHHzsjBdMhJdZ7QkY"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224706,
+    "id": "gNlJasavI7Givr0P0MTRmQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 267,
+      "total_tokens": 310
+    }
+  }
+}

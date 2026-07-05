@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0101",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.38,
+  "ref_text_raw": "По мере того как знание греческого языка ухудшалось, Запад оказался отрезанным от своих философских и научных греческих корней.",
+  "ref_text_normalized": "по мере того как знание греческого языка ухудшалось запад оказался отрезанным от своих философских и научных греческих корней",
+  "timestamp_utc": "2026-07-05T07:25:31Z",
+  "text": "По мере того как знание греческого языка ухудшалось, Запад оказался отрезанным от своих философских и научных греческих корней.",
+  "latency_sec": 3.981,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "По мере того как знание греческого языка ухудшалось, Запад оказался отрезанным от своих философских и научных греческих корней.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Ev0KCvoKARFNMg+J+a5eX3QsZnizeMdSgEnjD1PRkk1YgirfaRySdb487yBPKZNqVhX9WjqU6J2tp4QclrVVut5QJf2zjITkEZYlRAvDWCp9khk5j8p+CmBz8UbgRKT8i4dpQt2uUiawv8POz3Pf+9IbBN4+XF0vNk8XwvU82sRrR969zBr09XaZrOJEq/NY43w01p10/ruw37dTwfivXJ++SIY0pDBH4aGfADdjajf3Oj3OLdl6pw5h6GFt+XLUDE0UsQONqDw5CVALybW12R8+64PcCDyxDqrA9yyr1BF6ZkGD8+n6quw79kBC1i+i/RR7wUnaUekB7S7l1dvqnyP5D+45jM1wSQW8X+SWKA4s1BsoFl985PlFnSWeGMdfYV39Nf7gWWCBhKx070oli1Z0rhM/BxaHW6asr7CGxlEv70Zt/koMVmUQepLk5c2iP6DLPGDCMojQ99lclXyjEnY7EjNJ8CdMN7j6sNgXoRO2k8tyuTicBMboyaqLr6jUYMMkJVZ1s4bmpagoph9awSYi3sP9FGrPLxQ8tAm/uZ60ARbhOUmHzkupEQL6E9kJBveJ94kbEEzqXe3plqdpr1mSrFuWJr03mS7xkRPzbBq2TzMpfvRPG4jyNz/vCfVoIEvzKbwoDBEGzINpcMDFDg/Fwt/ll7Fn3W+LsuTpuSTQzxh3M3PwNtWgBZnlxi/v4nVfE0S7w81jh4tTlKfnjyO7h93Yx4VKAy3FqNJ7K8P/f7UP086aXwrASS8rvFRIlTHadqpBQqJ9nPlSHkQOHj08NNa09Gia0F1H6o54EAYqf1WQoSRvP3m7JJK2DyxLUikisxB7FTqn01e6o9za9m6up0adxd4/R8C4vc/GejeN6M8k8tAa0VhuhSTc0XJQSMaNMpWEFvLcWVICt2sRcsz/IgYRtvsnwy/G2chHUNd+uJvXPY2KOevEclHDZXcB7BwYMOQTnQ8918oM2TvgifV2e4ecrBZuuHtI6y4uGveDeKU2tXiK+DkTpkkP3cf1vKUUuyiXdGWXY53uVOOEh7F1qnqbKSkT7tNR1x9txLrCYYpv2WJI7p/7DyL39OhANsLpyUtkcVC11dwU3fjR4LoP8IqS9ptgOL3MP2V8VJevigSOcAAqbScb16z2ZyB49MvZG74MnLEXdnG+eCf8huF4GVZO42g7wuCGq8mdiBHMSzaMM7h0WjCliwkiGuBkNyaQ0HpVWOeAsxlyGRIjeKcf+RhgPeqJuQJfJl6FF+lQU0lvZhatNKqbqB2MqJ6mR/Ja2dyQi5Nyrq57/K+g0KNdGt6jB3070JQbFpkFSD0k/720zWOdkeGO8F8mADUXg+ZUz0NzfqCfOSKVW9MMO2W4to1HN3Ni548LTuqXZ0r/uuT8SUuryL87qQBDILt6+hpLDlqVWVpexhKEyybTHD+WCYlMiE/6TROX7dnJsquQpSN/LXpJyo+vAhzZq/nXFnxjQUXBw6D1sVS4QcN/ek1saJWvKmev37JrTUSseoSc64xo/2XYrB7AEfeqprxn4wU8fh3xmb1HZTd7uFJ1lwFQPQnB+enGiG6Nzc9PLRhykqZHSvWW8fZjWwFfvSSbmnffDK4yCWxSK9jcnhhZRYcEKHC9tRdglVaa7WnD76IuwQ2AVNw6YTCwUSA8dRdvPPqsfkFa6rj61ZvfZfAI6Gk5Q4ie/FMfec1PxZ1RKngH/W8qjczYl49EnlNB4ravzXhHG9Y38VsyHTKDu/u0bjnFlMKzQzLocGDuJyAoGJ9TefhtzsUw11fqGAnfPo/sV4UtJQesjkxOeKGlBkl8X3sjLgpphrkwcnZBvE3xfRUPQ9MLWSUIxUnBmSxdCRSghbiVa0iyesDaiexuPQWoMg=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236331,
+    "id": "6AZKaqvOPJbPrfcP5aSH-Ac",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 281,
+      "total_tokens": 561
+    }
+  }
+}

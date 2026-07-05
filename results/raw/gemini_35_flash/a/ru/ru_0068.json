@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0068",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 14.28,
+  "ref_text_raw": "И наконец, многие маленькие кошки (включая гуляющих домашних кошек), едят и охотятся на намного более многочисленных мелких животных, наподобие насекомых, грызунов, ящериц и птиц.",
+  "ref_text_normalized": "и наконец многие маленькие кошки включая гуляющих домашних кошек едят и охотятся на намного более многочисленных мелких животных наподобие насекомых грызунов ящериц и птиц",
+  "timestamp_utc": "2026-07-05T07:22:30Z",
+  "text": "И наконец, многие маленькие кошки, включая гуляющих домашних кошек, едят и охотятся на намного более многочисленных мелких животных, наподобие насекомых, грызунов, ящериц и птиц.",
+  "latency_sec": 4.3364,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "И наконец, многие маленькие кошки, включая гуляющих домашних кошек, едят и охотятся на намного более многочисленных мелких животных, наподобие насекомых, грызунов, ящериц и птиц.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "ErcLCrQLARFNMg8bUl8gZ9vLVGFfzZ9dkva5d2eTSwIsvlXAHEJa87kNB30uokexy2iAlGA3UrBDJQRd11RCcCtsivyNPqc1nULQA4yNICS5KeqvtAW8nGp4Jmyt3B8JkyRLq4UwYCEu8YbSJ7PfOxtUJ9RpxBS+NVauF5ZKkHEEH81+Qh+R3RL6UgU5KtVcwFzE7h6S46eFJmsbsy9VR27bKF/Ra4s0f23hlhJjEt5miOjbyDuyUtojSjW7ZDgpUab9hYzqr03bE/D74YoOa3gE4gvlHzUXklnk5m27NdI32jidDSdTJO9xazCEjY08dWyPi4TKLByoJV8hOAkUuvt7YAJDU2Z+7mD7b/WWiIv6gIMmFQKHVg5/iT0qHzcK6ySLdkP7OI2xbvPlOEazqlvLthd9Bje0BRPAwAgHTtlI9A+ZSb40n9WvTp2ufBD5w3PJ+KquPqvRn30yBTSLIysYnwijy97u7WqD1+O8zc8hTtCmCSUyTx2YDy+iCbC45UXMeMAjAGZEdK6dvFzRQKAZv56ExhfR7FVVyM/K7bFwFuRLQAJdPNwyZ03j1Uk/RxspoRY4QfzDTqwWfFty4ShD5Nmj1cFCeFNRsqR2hSAj4MCq/k0DROw7rSBqGjAEF3HK5fo1UJ8KkgMBKjPVntwlF+aA6nGfsfISWSeW1QfxHeqQ4W8DZYEpZyfoByAoMIOmRt94lmgmShYkXcLs/qhrzMTBG2DaQeTABzDsZjOxbQulpJbUKVI7XRu5aOuxAj9CQhgxeVLh+IWFiaSaiX8ta2jWmjeYCjwNVG1N2HetmkcHxXs/5mSiggOu8+yszAOZ0Tbqp7Syg9DjBUiK28SiBJooHi9owVAesdtDSdRYmTeyxKyaVQQOJUBSIOmAXN9aAalix2JCXYqdEFdmKM37VS2u2xkbo29HTDw9ZgceMy/U3jg8WihFV6aSAbQnbfJemXB8cIC5yeI0kKSCvEFNGJjXwYeDz//sOzGO8MvMnKGhLRv1oVbR4nsRsxxmoEErWAB7j2CdmYV7uFdKh1hNKHwCSqPDu3+5IiQHbzj/DymupNmudBP+f9N53jLhoKjwxMMVId45gxvEw8QfAoe8lbcUilHhfl48QG7lN0GnZv5Fb9qeDuoAW/TnOJTpNdLxcRBkTUsWBsrZQok8mEB+/Eyi1S0nYX8Hd+EBSPP7VHa6ABXSOkHSvWxGUUNyBtWXTekj48xbRm3/KIGtmPUQKvb8rwja/RFPqye5tgBsaE+Ah8ek9ubIPDoGlud9PkhUqswmM3EoCZo7c7SLomhMMRzshU9ZQ9HiHreOHPXAshyaXgWE/ZsBKvMygTaqxQPRYByVzNtpaNl37ikzDRLugcCg5Ieq8LbsOXeb6zG7jHH5ohRLHh9bWnMEnmRvwU2UQcXLl0oduSPKggEtqmURnTJIu5c1jqNZqb2ckpJxUzqPagMeS+WusdFcupqToMuL/3USnQfDd0qMp3G3gdtdipA253Ouw47WQz2A3SfGKYcVcU+AlvlWciyA+RpkSRTDsowV0wkcmSMwg99PzJYAkjKqU7zdFSAHYIhCqVtzM3YNj04jObUMIANoQyTTbelnPFOEmdL1RckoCtUfqTVwXRbzv+foY6vgkP7KNp7p4COIgmrc/UuCVUGDBmY5S7mdFEEuSFJ4FbP4uRDbLhiIJ8o1oro3mv0EE+pBmlyhA/ijroR6ZNim6gas9rbuA5WlQ9kuJfFS0vuTdDo8aDHL0Attmw7C5S5YlFQRuz45yHYe8T6yGUtqfSod8TZcCFrt950f2OsDW1SGe8VLKlvS+6M1OUgT7fgi4bnnEnifs4GQrR71Z1nKkkIMy4IuGfIdM6VPasZyEbFJhH/zLAeh2xf4TmnoCUOvNCzeaI6Nd/UeAqZIZuQ3ousFEUwvF8xTZkRqDH54NVd0Pv8mOYT4Vrgw3WsC+Qk="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236150,
+    "id": "MwZKaoLbIdbk1e8P_MzduQE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 51,
+      "prompt_tokens": 378,
+      "total_tokens": 685
+    }
+  }
+}

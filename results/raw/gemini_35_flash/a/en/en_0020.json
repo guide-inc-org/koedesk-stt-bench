@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0020",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 5.64,
+  "ref_text_raw": "In some areas boiling water for a minute is enough, in others several minutes are needed.",
+  "ref_text_normalized": "in some areas boiling water for a minute is enough in others several minutes are needed",
+  "timestamp_utc": "2026-07-05T10:28:08Z",
+  "text": "In some areas, boiling water for a minute is enough, in others several minutes are needed.",
+  "latency_sec": 3.1316,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "In some areas, boiling water for a minute is enough, in others several minutes are needed.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EoECCv4BARFNMg9YrpJYhoxJ3ky8DFveO1svH0LG+RxpH1/afJPHBXuu8whWfr263WXAThrLvvUPp3M4DvCGQuTItmt7P0da9Gw2OXPPZoi6wC+qcl86CXgy0i5x72vGzJvNuNes2iy+pTm1PnOQ4VQtIIbxh2BMvRFV/idC3LJDWf2PMsMHQZxzF7X1WFhRdmacVajzKylLpsUTW9dM4KrR39v7EA4fVB0ubVVC0S5yNUhoS+ngFTXmo3bzpi3YTjedE9er8xjbTrcZoaaAwjb5Tly+8YTBYU1Y+Zk+79BRJUaTl/iY6NW/T8Jxp4stuGUrP4XAByiqeZCWQ7RPEe6JsL0="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247288,
+    "id": "tjFKar3tMJja1e8P6IqesQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 162,
+      "total_tokens": 222
+    }
+  }
+}

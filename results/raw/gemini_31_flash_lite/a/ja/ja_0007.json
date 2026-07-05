@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0007",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.96,
+  "ref_text_raw": "メインステージの音楽が終わっても、フェスティバルには夜遅くまで演奏を流し続けるセクションがあるかもしれないことを覚えておいてください。",
+  "ref_text_normalized": "メインステージの音楽が終わっても フェスティバルには夜遅くまで演奏を流し続けるセクションがあるかもしれないことを覚えておいてください",
+  "timestamp_utc": "2026-07-05T10:13:10Z",
+  "text": "メイン ステージ の 音楽 が 終わっ て も フェスティバル に は 夜 が 遅くまで 演奏 を 流し 続ける セクション が ある か も しれ ない こと を 覚え て おい て ください 。",
+  "latency_sec": 2.691,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "メイン ステージ の 音楽 が 終わっ て も フェスティバル に は 夜 が 遅くまで 演奏 を 流し 続ける セクション が ある か も しれ ない こと を 覚え て おい て ください 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPHGLl7jxJKfVI+Pbm/dtgNOM66w83ur9b80XNXW9YG9gvEI0Q/ZChuw1IZeSu"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246390,
+    "id": "NS5KavfaF6bG0-kPpaDayQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 46,
+      "prompt_tokens": 345,
+      "total_tokens": 391
+    }
+  }
+}

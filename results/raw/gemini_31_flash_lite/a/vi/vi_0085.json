@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0085",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.28,
+  "ref_text_raw": "Bishkek được một người quan sát giải thích là rơi vào tình trạng \"vô chính phủ\", khi các băng nhóm tràn ra đường và cướp phá các cửa hàng nhu yếu phẩm.",
+  "ref_text_normalized": "bishkek được một người quan sát giải thích là rơi vào tình trạng vô chính phủ khi các băng nhóm tràn ra đường và cướp phá các cửa hàng nhu yếu phẩm",
+  "timestamp_utc": "2026-07-05T08:42:45Z",
+  "text": "ý kiến cho rằng nguyên nhân giải thích là do vào tình trạng do chính phủ khi các ban nhóm tràn ra đường và cướp phá các cửa hàng mỹ phẩm.",
+  "latency_sec": 2.9957,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ý kiến cho rằng nguyên nhân giải thích là do vào tình trạng do chính phủ khi các ban nhóm tràn ra đường và cướp phá các cửa hàng mỹ phẩm.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPcxF179QQaFK1AyzUqOjogVayjwv41DwY4WSw54IerFOdRGFaJwNqdIs0bLOJ"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240965,
+    "id": "BBlKauLVA8fJ0-kPwvvLoAE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 378,
+      "total_tokens": 412
+    }
+  }
+}

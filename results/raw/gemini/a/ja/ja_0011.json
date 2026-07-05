@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0011",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 14.04,
+  "ref_text_raw": "都市はモロッコのスルタンによってダルル・バディアとして再建され、貿易拠点を設立したスペイン人貿易商によってカサブランカと名付けられました。",
+  "ref_text_normalized": "都市はモロッコのスルタンによってダルル バディアとして再建され 貿易拠点を設立したスペイン人貿易商によってカサブランカと名付けられました",
+  "timestamp_utc": "2026-07-05T10:02:32Z",
+  "text": "都市はモロッコのスルタンによってダルルバリアとして再建され、貿易拠点を設立したスペイン人貿易商によってカサブランカと名付けられました。",
+  "latency_sec": 3.8996,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "都市はモロッコのスルタンによってダルルバリアとして再建され、貿易拠点を設立したスペイン人貿易商によってカサブランカと名付けられました。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783245752,
+    "id": "tStKaqGkK9bk1e8P_MzduQE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 471,
+      "total_tokens": 591
+    }
+  }
+}

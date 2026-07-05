@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0111",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 4.86,
+  "ref_text_raw": "It has brought us the train, the car, and many other transportation devices.",
+  "ref_text_normalized": "it has brought us the train the car and many other transportation devices",
+  "timestamp_utc": "2026-07-05T03:33:54Z",
+  "text": "It has brought us the train, the car, and many other transportation devices.",
+  "latency_sec": 2.8572,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "It has brought us the train, the car, and many other transportation devices.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP6lv/mPrkgDj78OnF92X9kYuBcu+2oarN4YIjrg2laT0Iub213AQCFkck7sCU"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222434,
+    "id": "oNBJaqjJGrq3vr0P4Zm80Qw",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 143,
+      "total_tokens": 159
+    }
+  }
+}

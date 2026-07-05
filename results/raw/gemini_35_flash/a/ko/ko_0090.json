@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0090",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.52,
+  "ref_text_raw": "군대가 들어오기 전에, 아이티는 1800년 이래로 질병과 관련된 문제에 처한 적이 없습니다.",
+  "ref_text_normalized": "군대가 들어오기 전에 아이티는 1800년 이래로 질병과 관련된 문제에 처한 적이 없습니다",
+  "timestamp_utc": "2026-07-05T06:17:33Z",
+  "text": "군대가 들어오기 전에 아이티는 1800년 이래로 질병과 관련된 문제에 처한 적이 없습니다.",
+  "latency_sec": 3.796,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "군대가 들어오기 전에 아이티는 1800년 이래로 질병과 관련된 문제에 처한 적이 없습니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqcGCqQGARFNMg/9h0k8xle9qiciUHqjVWwj4lM3ln5rRZxIpihvHqFas9lsKZKWJErmhv2G7saFzlis0oaqusVuwT1NPxyWkrjKrTu184d3aOw/YG2iaIkZdm/boqRPV/U2858t5H16jVa1RPHGOYocwvxC327iEb1wTLV9nJe9pVoIl2KKXArnMsZ3SHM+YBX9m+jOLIyay98nEzmFCs3B2v/yQg5huie8asOdObj6U9NJ5+nOMaWOaDehxdQtyzcX2GN5/mrEMH3ERWV1fiZMWBrU1sG0O7ZoHS3dbY+bLJ+wLMRHxJDWbO89nWIUSE72+2V0mpzkBhrT2vtd9eNFyEm9ocuMSH3h94lYius35XdN4bvS7MBQ7lbyXubdnIL/jbzoNv5KgH8aJ4RWZg0Fz+jYwfzK9lUfR1nytTROAVtAVVFiWnN+glmWCEqg9wRgEZgwVFAtqXa0I9BTAH3VpTJv/FP5LVj8b1wUJMT8GtWW80n5N3GmMUMZbdE3maI5t4Kw4pZtigKToX5+Ng/mCb+IeA/AzYuZXb3MjCa7DtfmJUsmNLXqv7K/APGo4gBn0ZgXJDIt9gefG0sm/rWRDfaloZa/F6qm7B6WNBOEgfb3QOxaKCJik4IgO1vLF5cAhbjEqcxFCfZUVBS+rD+Q3SID10iPXLyJYrTLKblmyt2H4404dyMJxi97pzQgMd1sEyWIZcmHFaqEw82Yh7vwpnIpBHWwTQh5O+Lz17gxbZnGQZY6F5sqb1dRGAEmi4bQzqk3SLDrWF6FWok7exIi6cdzNaw/beEQuHY+gxdOLCQk00JhDC7DNsH2uAFax/FzD/shncZLMVd5kPCd0hw+ZRoLJXqbZgMCF0Cm8/4QgDNxbrbxlG5P883g+QVVRQzivNlrk/4aHMG3EfsnJwrMllo6ND5wkwmumdus5yFABjir6TFJN8HjKogMQwd63K455w22q52s809HU5jp3+xTPyCmjQiMU7lpgPY5ohiO+Q6ortPGHgAll46wHzyzwM2kaCaZ+Mp+tcHEcsoj2HulfHgKgQrFD/Yf8gxabDVEozhUjJ2+x2D6"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232253,
+    "id": "-_ZJaquPG-2crfcPkMChIA",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 309,
+      "total_tokens": 546
+    }
+  }
+}

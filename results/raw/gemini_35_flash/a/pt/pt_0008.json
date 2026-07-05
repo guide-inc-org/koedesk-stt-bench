@@ -1,0 +1,45 @@
+{
+  "utt_id": "pt_0008",
+  "lang": "pt",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 17.4,
+  "ref_text_raw": "Ele também estava envolvido na gravação de cédulas para muitos países, e exemplos recentes de seu trabalho incluíram os retratos do primeiro-ministro nas novas notas de 5 e 100 dólares canadenses.",
+  "ref_text_normalized": "ele também estava envolvido na gravação de cédulas para muitos países e exemplos recentes de seu trabalho incluíram os retratos do primeiro-ministro nas novas notas de 5 e 100 dólares canadenses",
+  "timestamp_utc": "2026-07-05T06:43:32Z",
+  "text": "Ele também estava envolvido na gravação de cédulas para muitos países e exemplos recentes do seu trabalho incluíram os retratos do Primeiro-Ministro nas novas notas de 5 e 100 dólares canadenses.",
+  "latency_sec": 6.5769,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Ele também estava envolvido na gravação de cédulas para muitos países e exemplos recentes do seu trabalho incluíram os retratos do Primeiro-Ministro nas novas notas de 5 e 100 dólares canadenses.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783233812,
+    "id": "Dv1JasSXMpj_1e8PrLe2mQQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 456,
+      "total_tokens": 1245
+    }
+  }
+}

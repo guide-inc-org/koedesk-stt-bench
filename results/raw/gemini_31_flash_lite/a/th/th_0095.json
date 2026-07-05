@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0095",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.8,
+  "ref_text_raw": "บางครั้งชายหาดเหล่านี้ก็เป็นชายหาดสำหรับครอบครัวที่มีคนแน่นขนัด และมีร้านค้าตั้งเรียงรายไปตามชายฝั่ง การว่ายน้ำนั้นปลอดภัย",
+  "ref_text_normalized": "บางครั้งชายหาดเหล่านี้ก็เป็นชายหาดสำหรับครอบครัวที่มีคนแน่นขนัด และมีร้านค้าตั้งเรียงรายไปตามชายฝั่ง การว่ายน้ำนั้นปลอดภัย",
+  "timestamp_utc": "2026-07-05T08:06:35Z",
+  "text": "บางบางครั้งชายหาดเหล่านี้ก็เป็นชายหาดสำหรับครอบครัวที่มีคนแน่นขนัดและมีร้านค้าตั้งเรียงรายไปตามชายฝั่งการว่ายน้ำนั้นปลอดภัย",
+  "latency_sec": 2.9234,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "บางบางครั้งชายหาดเหล่านี้ก็เป็นชายหาดสำหรับครอบครัวที่มีคนแน่นขนัดและมีร้านค้าตั้งเรียงรายไปตามชายฝั่งการว่ายน้ำนั้นปลอดภัย",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPqXG32cJHQWaDRh+9un+fP0dsdzPOohWO8aw0kNLeG6aA086uAL21nO6pRM2h"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238795,
+    "id": "iRBKatCENsGn2roP073K4AE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 366,
+      "total_tokens": 405
+    }
+  }
+}

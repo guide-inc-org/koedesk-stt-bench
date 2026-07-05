@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0094",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.48,
+  "ref_text_raw": "Но, оказавшись в \"глубоких тропиках\" лишь в нескольких градусах к северу от экватора, вам придется справляться как с жарой (постоянно), так и с сильным солнцем (при безоблачном небе, реже).",
+  "ref_text_normalized": "но оказавшись в глубоких тропиках лишь в нескольких градусах к северу от экватора вам придется справляться как с жарой постоянно так и с сильным солнцем при безоблачном небе реже",
+  "timestamp_utc": "2026-07-05T07:24:57Z",
+  "text": "Но, оказавшись в глубоких тропиках, лишь в нескольких градусах к северу от экватора, вам придется справляться как с жарой, постоянно, так и с сильным солнцем при безоблачном небе - реже.",
+  "latency_sec": 4.7356,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Но, оказавшись в глубоких тропиках, лишь в нескольких градусах к северу от экватора, вам придется справляться как с жарой, постоянно, так и с сильным солнцем при безоблачном небе - реже.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236297,
+    "id": "xQZKauG6K7Cr0-kPhJ6suQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 52,
+      "prompt_tokens": 333,
+      "total_tokens": 828
+    }
+  }
+}

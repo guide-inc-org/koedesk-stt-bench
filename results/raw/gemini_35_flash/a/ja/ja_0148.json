@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0148",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 14.4,
+  "ref_text_raw": "最後に、昆虫、げっ歯類、トカゲ、鳥といったはるかに多数の小さい獲物を餌とする小型の猫（野良猫を含む）が数多く生息しています。",
+  "ref_text_normalized": "最後に 昆虫 げっ歯類 トカゲ 鳥といったはるかに多数の小さい獲物を餌とする小型の猫野良猫を含むが数多く生息しています",
+  "timestamp_utc": "2026-07-05T03:19:48Z",
+  "text": "最後に昆虫、げっ歯類、トカゲ、鳥といったはるかに多数の小さいものを餌とする小型の猫、野良猫を含むが数多く生息しています。",
+  "latency_sec": 4.8406,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "最後に昆虫、げっ歯類、トカゲ、鳥といったはるかに多数の小さいものを餌とする小型の猫、野良猫を含むが数多く生息しています。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221588,
+    "id": "Uc1JatH7Af_IrfcPzNe_mAc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 381,
+      "total_tokens": 897
+    }
+  }
+}

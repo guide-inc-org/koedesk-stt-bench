@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0178",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.12,
+  "ref_text_raw": "\"식물은 자연환경에서 가장 좋아 보이므로 \"\"딱 하나\"\"의 표본은 괜찮겠지 라는 유혹은 버려야 한다.\"",
+  "ref_text_normalized": "\"식물은 자연환경에서 가장 좋아 보이므로 \"딱 하나\"\"의 표본은 괜찮겠지 라는 유혹은 버려야 한다.",
+  "timestamp_utc": "2026-07-05T06:29:46Z",
+  "text": "식물은 자연환경에서 가장 좋아 보이므로 딱 하나의 표본은 괜찮겠지라는 유혹은 버려야 한다.",
+  "latency_sec": 3.0281,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "식물은 자연환경에서 가장 좋아 보이므로 딱 하나의 표본은 괜찮겠지라는 유혹은 버려야 한다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP7xrNKOtZX2h+3riCicndvaqzM+EjmAHrwEX9eM5XHEoZ6A5mZIrMTbjrlhuu"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232986,
+    "id": "2flJaqyjAdCivr0P-6eduQE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 249,
+      "total_tokens": 276
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0070",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.2,
+  "ref_text_raw": "Le Bureau de gestion des urgences des îles Mariannes du Nord a déclaré qu'aucun dégât n'avait été signalé dans ce pays.",
+  "ref_text_normalized": "le bureau de gestion des urgences des îles mariannes du nord a déclaré qu'aucun dégât n'avait été signalé dans ce pays",
+  "timestamp_utc": "2026-07-05T04:50:37Z",
+  "text": "Le bureau de gestion des urgences des îles Mariannes du Nord a déclaré qu'aucun dégât n'avait été signalé dans ce pays.",
+  "latency_sec": 4.4966,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Le bureau de gestion des urgences des îles Mariannes du Nord a déclaré qu'aucun dégât n'avait été signalé dans ce pays.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227037,
+    "id": "muJJaur5FPeZ0-kP0vvOuQE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 252,
+      "total_tokens": 379
+    }
+  }
+}

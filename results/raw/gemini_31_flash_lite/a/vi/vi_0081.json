@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0081",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 16.68,
+  "ref_text_raw": "Một số chuyến du lịch sẽ đề cập đến thành phố Berlin, Đức trong tờ quảng cáo. Như bạn thấy trên bản đồ, Berlin không nằm gần biển và chuyến tham quan thành phố sẽ không bao gồm trong giá chuyến đi.",
+  "ref_text_normalized": "một số chuyến du lịch sẽ đề cập đến thành phố berlin đức trong tờ quảng cáo như bạn thấy trên bản đồ berlin không nằm gần biển và chuyến tham quan thành phố sẽ không bao gồm trong giá chuyến đi",
+  "timestamp_utc": "2026-07-05T08:42:31Z",
+  "text": "Một số chuyến du lịch sẽ đề cập đến thành phố Berlin, Đức trong tờ quảng cáo. Như bạn thấy trên bản đồ Berlin không nằm gần biển và chuyến tham quan thành phố sẽ không bao gồm trong giá chuyến đi.",
+  "latency_sec": 3.1256,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Một số chuyến du lịch sẽ đề cập đến thành phố Berlin, Đức trong tờ quảng cáo. Như bạn thấy trên bản đồ Berlin không nằm gần biển và chuyến tham quan thành phố sẽ không bao gồm trong giá chuyến đi.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP4zL8huh9DQd4JJaJOln64HFOLOzM292tdvrvKZ4BqeF9zmQk8l8m1/Ib5Jr/"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240951,
+    "id": "9RhKaqfhLtTM1e8Pof6vuQc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 438,
+      "total_tokens": 483
+    }
+  }
+}

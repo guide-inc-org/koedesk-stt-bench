@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0035",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.92,
+  "ref_text_raw": "Due to the underwater topology the return flow is concentrated at a few deeper sections, and a fast current to deep water may form there.",
+  "ref_text_normalized": "due to the underwater topology the return flow is concentrated at a few deeper sections and a fast current to deep water may form there",
+  "timestamp_utc": "2026-07-05T10:21:57Z",
+  "text": "Due to the underwater topology, the return flow is concentrated at a few deeper sections and a fast current to deep water may form there.",
+  "latency_sec": 6.2284,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Due to the underwater topology, the return flow is concentrated at a few deeper sections and a fast current to deep water may form there.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246917,
+    "id": "QTBKaoKLC9Lu1e8P1-bXkAI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 371,
+      "total_tokens": 626
+    }
+  }
+}

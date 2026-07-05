@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0072",
+  "lang": "zh",
+  "engine": "gemini_25_pro",
+  "duration_sec": 19.3,
+  "ref_text_raw": "虽然没有人能确定作者是谁，但这个大型羊皮纸文档（尺寸为 29¾ 英寸乘以 24½ 英寸）据称在刚写成的时候是卷起来存放的。",
+  "ref_text_normalized": "虽然没有人能确定作者是谁但这个大型羊皮纸文档尺寸为 29¾ 英寸乘以 24½ 英寸据称在刚写成的时候是卷起来存放的",
+  "timestamp_utc": "2026-07-05T08:56:51Z",
+  "text": "雖然沒有人能確定作者是誰, 但這個大型羊皮紙文檔尺寸為 29又4分之3英寸乘以24又2分之1英寸。 據稱在剛寫成的時候是捲起來存放的。",
+  "latency_sec": 5.4134,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "雖然沒有人能確定作者是誰, 但這個大型羊皮紙文檔尺寸為 29又4分之3英寸乘以24又2分之1英寸。 據稱在剛寫成的時候是捲起來存放的。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241811,
+    "id": "TxxKarD-H_6e0-kP-tbAuA4",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 52,
+      "prompt_tokens": 639,
+      "total_tokens": 691
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0010",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.14,
+  "ref_text_raw": "Jeder nimmt an der Gesellschaft teil und benutzt Transportsysteme. Fast jeder beklagt sich über die Transportsysteme.x",
+  "ref_text_normalized": "jeder nimmt an der gesellschaft teil und benutzt transportsysteme. fast jeder beklagt sich über die transportsysteme.x",
+  "timestamp_utc": "2026-07-05T03:40:42Z",
+  "text": "Jeder nimmt an der Gesellschaft teil und benutzt Transportsysteme. Fast jeder beklagt sich über die Transportsysteme.",
+  "latency_sec": 3.3019,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Jeder nimmt an der Gesellschaft teil und benutzt Transportsysteme. Fast jeder beklagt sich über die Transportsysteme.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222842,
+    "id": "ONJJaqrXC66_vr0PmOySuQM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 250,
+      "total_tokens": 361
+    }
+  }
+}

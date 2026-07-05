@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0115",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.84,
+  "ref_text_raw": "While Goma is reasonably safe, any visits outside of Goma should be researched to understand the state of the fighting that persists in the North Kivu province.",
+  "ref_text_normalized": "while goma is reasonably safe any visits outside of goma should be researched to understand the state of the fighting that persists in the north kivu province",
+  "timestamp_utc": "2026-07-05T03:26:04Z",
+  "text": "Goma is reasonably safe. Any visits outside of Goma should be researched to understand the state of the fighting that persists in the North Kivu province.",
+  "latency_sec": 3.0606,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Goma is reasonably safe. Any visits outside of Goma should be researched to understand the state of the fighting that persists in the North Kivu province.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221964,
+    "id": "y85JapTEFO6A0-kPgc2WkAY",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 336,
+      "total_tokens": 367
+    }
+  }
+}

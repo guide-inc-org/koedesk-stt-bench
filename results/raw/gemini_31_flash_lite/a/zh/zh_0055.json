@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0055",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.06,
+  "ref_text_raw": "支架式教学不是一种学习方法，而是一种辅助刚学习使用新电脑程序或启动新项目的人的手段。",
+  "ref_text_normalized": "支 架 式 教 学 不 是 一 种 学 习 方 法 而 是 一 种 辅 助 刚 学 习 使 用 新 电 脑 程 序 或 启 动 新 项 目 的 人 的 手 段",
+  "timestamp_utc": "2026-07-05T09:13:57Z",
+  "text": "指架式教学不是一种学习方法，而是一种辅助刚学习使用轻电脑程序或启动新项目的人的手段。",
+  "latency_sec": 2.6475,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "指架式教学不是一种学习方法，而是一种辅助刚学习使用轻电脑程序或启动新项目的人的手段。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPibKZZ0iJt47unAgIfTGR6FpCZTPsuKW06m3y8/+JnpCazuA33GIMEUnchT+u"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242837,
+    "id": "VCBKaquDC8Kl9tMPpf6PiQE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 323,
+      "total_tokens": 349
+    }
+  }
+}

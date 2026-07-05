@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0146",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 6.96,
+  "ref_text_raw": "The same month saw another airliner overrun a runway at Mashhad and strike a wall, killing seventeen.",
+  "ref_text_normalized": "the same month saw another airliner overrun a runway at mashhad and strike a wall killing seventeen",
+  "timestamp_utc": "2026-07-05T03:28:06Z",
+  "text": "The same month saw another airliner overrun a runway at Mashhad and strike a wall, killing 17.",
+  "latency_sec": 5.3048,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The same month saw another airliner overrun a runway at Mashhad and strike a wall, killing 17.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222086,
+    "id": "Q89JaojlA6Kw0-kP6bjO4AU",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 244,
+      "total_tokens": 309
+    }
+  }
+}

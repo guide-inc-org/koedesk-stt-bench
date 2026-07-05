@@ -1,0 +1,45 @@
+{
+  "utt_id": "pt_0025",
+  "lang": "pt",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.24,
+  "ref_text_raw": "Repousando no topo de uma das montanhas ao norte de Meca, a caverna está completamente isolada do resto do mundo.",
+  "ref_text_normalized": "repousando no topo de uma das montanhas ao norte de meca a caverna está completamente isolada do resto do mundo",
+  "timestamp_utc": "2026-07-05T06:44:54Z",
+  "text": "Repousando no topo de uma das montanhas ao norte de Meca, a caverna está completamente isolada do resto do mundo.",
+  "latency_sec": 3.0416,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Repousando no topo de uma das montanhas ao norte de Meca, a caverna está completamente isolada do resto do mundo.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpUECpIEARFNMg95fK6uaxfT+YwcKA80bg7DEIE9uOG98T6RJwLdKS0fGPJjP/eif9ioulT2KwgmcxzoSHLcA/XJRtAG5ImVDdHZet9n1ksugZbCcY6IaIk1LS+vBlZwudiwfiX+2UkSSYNqu7EUpKAdBzDIB7k/xcpf1/DCZ127VOsrG9/xM60ACFsFduK4wOJsr4t9LpnKzYc/lvITyCf8YMFxK/cVZm9RGg06oNBVR45O7e0VsZyVk5ZlE7Igy0xmMc+9HZAA0McqAdmU6bURgp7uw1mLHj602bTINwa2rjKFZFVi1MoPA/GEuup3Qm2uJb4oTtcSmchOsoOGRD8eqOjgvSTUzRpLPMZ+/uJeogVo1EaV91i44cRbKa66M6RuqFeOCUrfUbyH7hVOlybh3NwSFwAcV5K1dcMoAA/Vxhha3HCWNtWQGHVRA3kkTYr+lhhPKpamOil33n/G1WkPdGavhYvf1Z8DizfU6HZtyTIowKHHdbm49+qTgZsDTP4DH6eqM58rmgy0wRjip2WCzL9VnpHBG5mX//ugAx5DxI161DyBbw1CVJBAWU6yz6pfiipO7UV+H5RB7NHxZUy116KphqCCk/MuGJEALohr7W+2GZo2vSNhngPbuke9302tSeePxJ6Nu0Rla5VYbQ7fIuYMBaJSZY3LLC+KGsltk5RaquU7XXgimlovLu/nE6/HupMrktE="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783233894,
+    "id": "ZP1Jas_oN5HNrfcPvY_ZsAY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 252,
+      "total_tokens": 409
+    }
+  }
+}

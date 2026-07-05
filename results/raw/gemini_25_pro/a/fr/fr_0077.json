@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0077",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 13.2,
+  "ref_text_raw": "Selon certaines sources, il aurait une vingtaine d'années. Dans une déclaration, Bieber a déclaré : « Bien que je n'aie pas été présent ni directement impliqué dans ce tragique accident, mes pensées et prières vont à la famille de la victime. »",
+  "ref_text_normalized": "selon certaines sources il aurait une vingtaine d'années. dans une déclaration bieber a déclaré : « bien que je n'aie pas été présent ni directement impliqué dans ce tragique accident mes pensées et prières vont à la famille de la victime. »",
+  "timestamp_utc": "2026-07-05T04:55:11Z",
+  "text": "Selon certaines sources, il aurait une vingtaine d'années. Dans la déclaration, Bieber a déclaré bien que je n'ai pas été présent ni directement impliqué dans ce tragique accident, mes pensées et prières vont à la famille de la victime.",
+  "latency_sec": 7.9895,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Selon certaines sources, il aurait une vingtaine d'années. Dans la déclaration, Bieber a déclaré bien que je n'ai pas été présent ni directement impliqué dans ce tragique accident, mes pensées et prières vont à la famille de la victime.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227311,
+    "id": "qONJapiPNane1e8P6I_tqAg",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 53,
+      "prompt_tokens": 444,
+      "total_tokens": 1060
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "pt_0038",
+  "lang": "pt",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.84,
+  "ref_text_raw": "Ademais, posteriormente à Revolução, foram abertas vagas a todos os candidatos do sexo masculino, possibilitando que os mais ambiciosos e bem-sucedidos tivessem sucesso.",
+  "ref_text_normalized": "ademais posteriormente à revolução foram abertas vagas a todos os candidatos do sexo masculino possibilitando que os mais ambiciosos e bem-sucedidos tivessem sucesso",
+  "timestamp_utc": "2026-07-05T06:56:11Z",
+  "text": "Ademais, posteriormente à revolução, foram abertas vagas a todos os candidatos do sexo masculino, possibilitando que os mais ambiciosos e bem-sucedidos tivessem sucesso.",
+  "latency_sec": 3.1655,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Ademais, posteriormente à revolução, foram abertas vagas a todos os candidatos do sexo masculino, possibilitando que os mais ambiciosos e bem-sucedidos tivessem sucesso.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPm22gD+ggjmX3zDUJwaizdTfWUO8XUclCI6r0mkSFVd0+Dyq+4ncKeM26dzKF"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234571,
+    "id": "CQBKapa7N8GC0-kP_snrsQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 417,
+      "total_tokens": 457
+    }
+  }
+}

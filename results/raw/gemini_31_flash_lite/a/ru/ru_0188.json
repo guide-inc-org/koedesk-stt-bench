@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0188",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 19.56,
+  "ref_text_raw": "NextGen — это система, которая, по заверению Федеральной авиационной администрации США, позволит самолетам летать по сокращенным маршрутам и ежегодно экономить миллионы галлонов топлива, а также снизить выбросы углерода.",
+  "ref_text_normalized": "nextgen это система которая по заверению федеральной авиационной администрации сша позволит самолетам летать по сокращенным маршрутам и ежегодно экономить миллионы галлонов топлива а также снизить выбросы углерода",
+  "timestamp_utc": "2026-07-05T07:38:37Z",
+  "text": "NextGen — это система, которая, по заверению Федеральной авиационной администрации США, позволит самолетам летать по сокращенным маршрутам и ежегодно экономить миллионы галлонов топлива, а также снизить выбросы углерода.",
+  "latency_sec": 3.0387,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "NextGen — это система, которая, по заверению Федеральной авиационной администрации США, позволит самолетам летать по сокращенным маршрутам и ежегодно экономить миллионы галлонов топлива, а также снизить выбросы углерода.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPJQJbrjDdawW879aCZ1n9rA66ZsP43cVA5XYV9jRhPvVsDVomNbTyG1QwyFRj"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237117,
+    "id": "-wlKauvbO_TIrfcPhcL-0AI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 52,
+      "prompt_tokens": 510,
+      "total_tokens": 562
+    }
+  }
+}

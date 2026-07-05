@@ -1,0 +1,45 @@
+{
+  "utt_id": "vi_0032",
+  "lang": "vi",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.4,
+  "ref_text_raw": "Dịch vụ này thường được sử dụng bởi tàu thuyền, gồm cả tàu du lịch, cũng như các đoàn thám hiểm có nhu cầu trao đổi dữ liệu và giọng nói từ xa.",
+  "ref_text_normalized": "dịch vụ này thường được sử dụng bởi tàu thuyền gồm cả tàu du lịch cũng như các đoàn thám hiểm có nhu cầu trao đổi dữ liệu và giọng nói từ xa",
+  "timestamp_utc": "2026-07-05T08:31:10Z",
+  "text": "Dịch vụ này thường được sử dụng bởi tàu thuyền gồm cả tàu du lịch cũng như các đoàn thám hiểm có nhu cầu trao đổi dữ liệu và giọng nói từ xa.",
+  "latency_sec": 4.4884,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Dịch vụ này thường được sử dụng bởi tàu thuyền gồm cả tàu du lịch cũng như các đoàn thám hiểm có nhu cầu trao đổi dữ liệu và giọng nói từ xa.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EuwJCukJARFNMg/UEnsWPMe7i1IFKeFvkl3lrgmVDy6ezT1FyvH4SjnVzCssp3DvxO0crubl/NDxkVGBtQ557vL2RFWPWW4jJcZbr2G425aYg3Qp7iihuETJxtAtD4Sm8Mk9LsxCxujL/VN7qkfq6DWogAlAN48M9yct0XlFj+jLmptBYkbpLRhKVuZeoAIgtzftUtsNGDNy2IKE5QRDutlaK133G+VoDWMQSpI4TbTPDMB9XtzC8YDv8jV3scNvvJfiK85SivE0QvKxFG+VJRLnH6AIcDhZbQNc7eJW1TLKeaC+XTZJTHxVL12VTCUDLvMAiXEhNkPx/JZOJtpKF8D8zW2qO+GyL+P7OisSET4khUN5wf/hvy54vL6aQRdw79+RK/2ZG5UKikixJTSpu1eeFk/p3VFe699elKo+i9Gq8z3FIOYsih55IGl6YfC1/rt1VKPballHkuR06jkfOVCjznlSSWIoG9m3ArVz9OJLwk5Aj0Yo+Oqv+BZNj91b8m/FWM/+o3X98CSS+HEad10tSQdhStLMFWJzCrjn+z9c7WmDCVIb+HVMe5QzO35ofstpq4nWpZgpzvr7wIS3oSScQ1U1zXoI0ZbLJ7HpRnzFLtxVcxNtGedEzR9uOPxdBIJ3Kt5sQ/1c8+x5yxdyqggyzBr+Ab9pXprg4XMWmSRY78sUhgQrFuDhzEKFN/+iueZCM6QIdgYa60sN6AhGonqxP+DSJq8kDrSC/AQAT+NDvnnefvaaE946n13riVnzQSmQqyj/aX1yB/bxh0VshJb6pIhAiw1rdIk9PsW/FnuMSqvgMbsvBFev/D7fJ+9tL1p2hyk2IlVsAia2EChKhlKJZDPNSXQwsUiMpUrgOxesQqQBL/hCJbrr31+jpH0SSx4hC8yhV2Vr0Nif0C33ecQ6R4BBXDKTgJnYXDmerm8HcaQBsMjfkHJ+H8x3xhYXo9qaMg9pYjy1hyNoT36SxXERYkXiXHKK/pqaUeapp/A5wEsguQ37KObPORzaBdxnGfVCtHyMPuZ5CWh197ViCXAR6ixwRqEiQSLiueAny9RG4S7mbjtAF34FJlLJtUv5WvXdJ5IOAPNVY+II6vVkPzrrk+ohFVPmG+NN6/xdqLj9BZ+0oNyHk6DDQ5pNFKblknPzvtZt26uVFYMrxVDiiBAR/CpBoUsL4Kybu+zyVaRns2ih6MPaWOq+zzj0Y4e4g/jTY3mREixFMLUb+EYxTDZb9bOEmqLRFHRk1yWeVtYy4EtgSgjjVCXkaFIGoe5M68BxMc3FwUEUw7zCqlOgpW4Lo9Ohbo2h4fDYbZ+DwMA9tzFY9Gs9AJjKEVSLRl65Bv1bJ3dN65dDmtgsTTgaSyfg/RmREn6sxwA8NHwb36MuQsCy/GCnSO6YFLdiTWDy/wAbN5CuoEq5ZarWRpK9LW1II2XQo52Xr14lQeDmrxdRibwVZ9dsauSbW7ge3JqLHXZ/eYtMik7XRXfXj25NOWkOhJnSyFCmjhLSMGnsWA3rf8ThxVKHnEtR6r/4/iNPBMfvQIXyf1nbUyjYzx3KxfuDpd9JV0RVyURp50X41pQ6ELwqOxdJVf6vmrpLVZhLgvPX1TvaZb0yv9UhWz5DHh8COjgyNYQiLNl5M/hqfkpiescp+2F6qrBsBrDJcMsqhrIT3pWOZtfHye3tXWmL"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240270,
+    "id": "ShZKasmQOv_O1e8P-_GSuQg",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 306,
+      "total_tokens": 681
+    }
+  }
+}

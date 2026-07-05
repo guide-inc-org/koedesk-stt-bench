@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0023",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.22,
+  "ref_text_raw": "Cơn bão được đặt tên thứ mười của mùa Bão Atlantic, Bão cận nhiệt đới Jerry, đã hình thành tại Biển Atlantic hôm nay.",
+  "ref_text_normalized": "cơn bão được đặt tên thứ mười của mùa bão atlantic bão cận nhiệt đới jerry đã hình thành tại biển atlantic hôm nay",
+  "timestamp_utc": "2026-07-05T08:39:04Z",
+  "text": "Cơn bão được đặt tên Therry, của mùa bão Đại Tây Dương, bão Cơn nhiệt đới Cherry đã hình thành tại biển Đại Tây Dương hôm nay.",
+  "latency_sec": 2.7163,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Cơn bão được đặt tên Therry, của mùa bão Đại Tây Dương, bão Cơn nhiệt đới Cherry đã hình thành tại biển Đại Tây Dương hôm nay.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP0bxM3AKm7oPJ0Fch+lB/ZOHJgXL5+mJ4cg3sp+n5zq0xUXbWWWMK8xO6OcfS"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240744,
+    "id": "JhhKarSOOfz-2roPj568yQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 302,
+      "total_tokens": 339
+    }
+  }
+}

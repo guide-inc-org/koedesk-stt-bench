@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0166",
+  "lang": "ko",
+  "engine": "gemini_25_pro",
+  "duration_sec": 18.6,
+  "ref_text_raw": "또한 각 왕조 사이에는 여러 지방으로 분열되어 불안한 시대가 있었습니다. 가장 잘 알려진 시대로는 한나라와 진나라 사이 60년에 해당하는 시기인 삼국 시대입니다.",
+  "ref_text_normalized": "또한 각 왕조 사이에는 여러 지방으로 분열되어 불안한 시대가 있었습니다 가장 잘 알려진 시대로는 한나라와 진나라 사이 60년에 해당하는 시기인 삼국 시대입니다",
+  "timestamp_utc": "2026-07-05T06:14:56Z",
+  "text": "또한 각 왕조 사이에는 여러 지방으로 분열되어 불안한 시대가 있었습니다. 가장 잘 알려진 시대로는 한나라와 진나라 사이 60년에 해당하는 시기인 삼국 시대입니다.",
+  "latency_sec": 4.5007,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "또한 각 왕조 사이에는 여러 지방으로 분열되어 불안한 시대가 있었습니다. 가장 잘 알려진 시대로는 한나라와 진나라 사이 60년에 해당하는 시기인 삼국 시대입니다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232097,
+    "id": "XvZJaveBBJja1e8P6IqesQI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 617,
+      "total_tokens": 711
+    }
+  }
+}

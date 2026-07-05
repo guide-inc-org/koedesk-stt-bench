@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0117",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.62,
+  "ref_text_raw": "Im warmen Klima des Mittleren Ostens kamen Häusern keine so große bedeutung zu.",
+  "ref_text_normalized": "im warmen klima des mittleren ostens kamen häusern keine so große bedeutung zu",
+  "timestamp_utc": "2026-07-05T04:05:48Z",
+  "text": "Im warmen Klima des Mittleren Ostens kam den Häusern keine so große Bedeutung zu.",
+  "latency_sec": 3.2759,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Im warmen Klima des Mittleren Ostens kam den Häusern keine so große Bedeutung zu.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Er0ECroEARFNMg9Setmrkdi6fVxGpFroyViRRcCEcSgkwiJc6pKxGenGi0gWD4zM7iUtRzZ+jY05Op+H35VvvYQkRqR6vvxfQIeuyOjh0f94xm4Q9TBHktYp0CUYTj5bB++CXqdJ510tb0113CdFYqpSNZ+H2BrGEhrIuM/sdQYrS+OyNcwVicYVZotYYlzth4uOS+21kBVRW1RIpAwapc6YHCHekwnY7R4h5jwNPQizB/mZWPJudeT5B1KhnHSM7P8nUcTXEnXsx6aRhSKNiU4R7jVBjvaVUSlYTUDGTv6Zpiy0k/yEjMP3AKRxZYRKngiYsT79WotElrhGeFLw46F2zwMrh1geUSPzTyMn8I+Px8l9GVi5Ii0a2z0R5wulTUZNePruU+m/HdNGDZRKTloYg71n4aUKVie3fory5iTLrlIMgFMHgSu00ihSD5ysDsQtk57R0USN2IYKpcN3lQS4LIn2ev6azt8Ru5ym5apC40FWWYXypjmbwFDc7OP6qAoWT9lD2remQOfpYCdsdf6b0RHHKMzHP4yeKenXC2KECwqLyeCtNaZ7jXuhqywl6mU1qhWIyBSe/ZV04wnejPceAI2vckL28FWr1yniz7aMjIU8wxTouy55ezlDkNglSYhrLTLxKXKEpWrb9JIzky45EVZm6WHz2TO7daCrpiQ8tbGvXuYqaBkDZxSIan2Q3EjH5gXRLh1dw0PiTdViIhyIEAFjbWUukuGXZRxS7OH/CfqxKL7oAE/xNKXWF037"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224348,
+    "id": "GthJapqKHIGM0-kP4LLDwQk",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 287,
+      "total_tokens": 448
+    }
+  }
+}

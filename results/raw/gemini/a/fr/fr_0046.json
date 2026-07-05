@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0046",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.06,
+  "ref_text_raw": "« Ce n'est pas un au revoir. C'est une page qui se tourne, et une autre qui s'ouvre. »",
+  "ref_text_normalized": "« ce n'est pas un au revoir. c'est une page qui se tourne et une autre qui s'ouvre. »",
+  "timestamp_utc": "2026-07-05T04:48:44Z",
+  "text": "Ce n'est pas un au revoir, c'est une page qui se tourne et une autre qui s'ouvre.",
+  "latency_sec": 4.171,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Ce n'est pas un au revoir, c'est une page qui se tourne et une autre qui s'ouvre.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226924,
+    "id": "KeJJavXXHI-D1e8P9I7h6AE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 311,
+      "total_tokens": 362
+    }
+  }
+}

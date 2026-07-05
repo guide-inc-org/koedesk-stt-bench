@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0158",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.38,
+  "ref_text_raw": "En 1976, trente pour cent du Machu Picchu avait été restauré et cette restauration se poursuit jusqu'à aujourd'hui.",
+  "ref_text_normalized": "en 1976 trente pour cent du machu picchu avait été restauré et cette restauration se poursuit jusqu'à aujourd'hui",
+  "timestamp_utc": "2026-07-05T05:15:28Z",
+  "text": "En 1976, 30 % de Machu Picchu avait été restauré et cette restauration se poursuit jusqu'à aujourd'hui.",
+  "latency_sec": 5.3506,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "En 1976, 30 % de Machu Picchu avait été restauré et cette restauration se poursuit jusqu'à aujourd'hui.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228528,
+    "id": "bOhJar7FEY_V2roPj7-7kAY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 206,
+      "total_tokens": 764
+    }
+  }
+}

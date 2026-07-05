@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0021",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 8.58,
+  "ref_text_raw": "Anyone who's going to drive at high latitudes or over mountain passes should consider the possibility of snow, ice, or freezing temperatures.",
+  "ref_text_normalized": "anyone who's going to drive at high latitudes or over mountain passes should consider the possibility of snow ice or freezing temperatures",
+  "timestamp_utc": "2026-07-05T10:20:46Z",
+  "text": "Anyone who's going to drive at high latitudes or over mountain passes should consider the possibility of snow, ice, or freezing temperatures.",
+  "latency_sec": 4.2283,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Anyone who's going to drive at high latitudes or over mountain passes should consider the possibility of snow, ice, or freezing temperatures.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246846,
+    "id": "-y9KaqjlD_PG2roPs9KcqAM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 296,
+      "total_tokens": 468
+    }
+  }
+}

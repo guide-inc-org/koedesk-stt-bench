@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0031",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 5.94,
+  "ref_text_raw": "Aux femmes : Il est recommandé à toute femme qui voyage de dire qu’elle est mariée, quel que soit son état civil.",
+  "ref_text_normalized": "aux femmes il est recommandé à toute femme qui voyage de dire qu'elle est mariée quel que soit son état civil",
+  "timestamp_utc": "2026-07-05T05:11:20Z",
+  "text": "aux femmes. Il est recommandé à toute femme qui voyage de dire qu'elle est mariée, quel que soit son état civil.",
+  "latency_sec": 3.4985,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "aux femmes. Il est recommandé à toute femme qui voyage de dire qu'elle est mariée, quel que soit son état civil.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP6Vf3RYCqVZjRVGYS9VH+zr1sf6U+vQTuPfGO2D1RUl1HDjfAzzlT+eA416hM"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228280,
+    "id": "dudJaraODtDF1e8P2K7MiQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 170,
+      "total_tokens": 197
+    }
+  }
+}

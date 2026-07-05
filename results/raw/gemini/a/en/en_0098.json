@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0098",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.16,
+  "ref_text_raw": "Six hostages, including the children and elderly, were released early, as were the Filipino photographers.",
+  "ref_text_normalized": "six hostages including the children and elderly were released early as were the filipino photographers",
+  "timestamp_utc": "2026-07-05T10:26:19Z",
+  "text": "Six hostages including the children and elderly were released early as were the Filipino photographers.",
+  "latency_sec": 3.5105,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Six hostages including the children and elderly were released early as were the Filipino photographers.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247179,
+    "id": "STFKaq-rKOD61e8P0MrToAE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 315,
+      "total_tokens": 331
+    }
+  }
+}

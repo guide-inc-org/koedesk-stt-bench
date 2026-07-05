@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0005",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 11.42,
+  "ref_text_raw": "The hospital has followed protocol for infection control, including separating the patient from others to prevent possible infection of others.",
+  "ref_text_normalized": "the hospital has followed protocol for infection control including separating the patient from others to prevent possible infection of others",
+  "timestamp_utc": "2026-07-05T10:19:19Z",
+  "text": "The hospital has followed protocol for infection control including separating the patient from others to prevent possible infection of others.",
+  "latency_sec": 4.3765,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The hospital has followed protocol for infection control including separating the patient from others to prevent possible infection of others.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246759,
+    "id": "pC9Kauq2GrycrfcP6t_NqQY",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 387,
+      "total_tokens": 453
+    }
+  }
+}

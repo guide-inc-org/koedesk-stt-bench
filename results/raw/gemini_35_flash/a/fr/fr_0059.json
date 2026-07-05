@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0059",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.88,
+  "ref_text_raw": "Le Groenland a été peu peuplé. Dans les sagas scandinaves, on raconte qu’Erik le Rouge a été exilé d’Islande pour meurtre qu’il a trouvé le Groenland — et l’a nommé ainsi — en voyageant plus à l’ouest.",
+  "ref_text_normalized": "le groenland a été peu peuplé dans les sagas scandinaves on raconte qu'erik le rouge a été exilé d'islande pour meurtre qu'il a trouvé le groenland et l'a nommé ainsi en voyageant plus à l'ouest",
+  "timestamp_utc": "2026-07-05T05:06:29Z",
+  "text": "Le Groenland a été peu peuplé. Dans les sagas scandinaves, on raconte qu'Erik le Rouge a été exilé d'Islande pour meurtre, qu'il a trouvé le Groenland et l'a nommé ainsi en voyageant plus à l'ouest.",
+  "latency_sec": 4.0503,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Le Groenland a été peu peuplé. Dans les sagas scandinaves, on raconte qu'Erik le Rouge a été exilé d'Islande pour meurtre, qu'il a trouvé le Groenland et l'a nommé ainsi en voyageant plus à l'ouest.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EsgGCsUGARFNMg/kz9E/oztqH5tipa54Mgl45YT3nQqQGlsoL53dHd90PZSFb+CoXzYJ3+iP64FnypWNAX4SzMnZSpBESAittf7ozTt4oUhb6VjVYRhaF7eIEmunSzG41r1HgTSiZLen+CaCVnQpIS/Q+H5vJjaZ+T0mvwXDkOSKGiL5IewclAZk6AvxXbnnzAvc8OWRl7Bo8ox0bo/yuvmWueIwHy/KJYCwk8K1HUdmk7ksLE3MwUDXljbgOSIjUK1JUPK7hZLbEHuDMyzMl2sDqQkvTo+DYgR/pC+l0jK2NHRK/giwTuwfRyJGg0+ZUFvbIAsplVn2iqTfrB/yCLez/JuKywC3vD3pXZWNCJ2zvFS5cmviOLQm0a2Lgr+hBk/McDhbIljepjX5rM35s/f64RwvlrOM6+FeskonKSNeSdhRHcH9VlkQPvMv1T6W9zqcVQVzFXU2jtAd4bLtdy8RAHnuD69vAWqMBZ5e2d1ax5c3blWs7UFrxJzp6vAIt+ntdDXMUZWLjulVJI7SA0s6gfCYoV9MvLzmNCgjT9uUYsQU6tb7NOeuvYbC8BuFrwpic7dEtKvf+ramgryRsUNUXhpkHjJ7rnHvciDOP0kdxgZThoTPECcN/YoOv/fHu+YVMel1B9rZrj0YGj5UQRabsJp7HbcPROoebRlBYjCpPHQHdDAabBeh4urV1M34dat/S3bhbT20/jCGkBaE/62cA75GUJPa/5U4Pq0vDI9fWK/AfkP2t7nv5/0wl+CFQuyzS9Yc7BqsST4ckoxfBsYtXej9XXZmvA1+27VAlZfM6AfO+QsRDmqep/GIdeJORKqvUielPZsKyrEXtDN55qcFarzQtU+smweh0mmKKnaOHaT8M4MMtXAQDab8iM5/2yAzjZXZkwngdLwkDnLS5wG3NK2sOlpUsMv5vS1GccvIuVghgIsFd0azCL1yR+h+zmg1yRc5fNYtlJUAhgdM+LerKvZSpjtKVtxRkTtT0MY5lKzcxfBiKa8RJWaFusB5thGm+QnBGUlqXaAghhZOGeYLvlwYvg8ZQOM11e4jkn3m3fhSQoSESZ0HDCONrwXlFXnBrW718P4ChtnH4/fkfbPexlKKu902J7vh"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227989,
+    "id": "U-ZJasPQBdLu1e8P1-bXkAI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 63,
+      "prompt_tokens": 318,
+      "total_tokens": 629
+    }
+  }
+}

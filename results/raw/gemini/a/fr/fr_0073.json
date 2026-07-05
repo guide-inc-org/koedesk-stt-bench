@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0073",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.98,
+  "ref_text_raw": "Les Trois Royaumes ont été l'une des époques les plus sanguinaires de l'histoire de l'Antiquité Chinoise. Des milliers de personnes sont mort au combat pour s'asseoir sur le trône du grand palais de XI'an.",
+  "ref_text_normalized": "les trois royaumes ont été l'une des époques les plus sanguinaires de l'histoire de l'antiquité chinoise des milliers de personnes sont mort au combat pour s'asseoir sur le trône du grand palais de xi'an",
+  "timestamp_utc": "2026-07-05T04:50:52Z",
+  "text": "Les trois royaumes ont été l'une des époques les plus sanguinaires de l'histoire de l'Antiquité chinoise. Des milliers de personnes sont morts au combat pour s'asseoir sur le trône du grand palais Xilong.",
+  "latency_sec": 4.1792,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Les trois royaumes ont été l'une des époques les plus sanguinaires de l'histoire de l'Antiquité chinoise. Des milliers de personnes sont morts au combat pour s'asseoir sur le trône du grand palais Xilong.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227052,
+    "id": "qeJJavKpO-2crfcPkMChIA",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 54,
+      "prompt_tokens": 373,
+      "total_tokens": 453
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0063",
+  "lang": "zh",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.9,
+  "ref_text_raw": "对儿童来说，金字塔的声光表演是该地区最有趣的活动之一。",
+  "ref_text_normalized": "对 儿 童 来 说 金 字 塔 的 声 光 表 演 是 该 地 区 最 有 趣 的 活 动 之 一",
+  "timestamp_utc": "2026-07-05T08:55:45Z",
+  "text": "對兒童來說,金字塔的聲光表演是該地區最有趣的活動之一。",
+  "latency_sec": 5.4417,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "對兒童來說,金字塔的聲光表演是該地區最有趣的活動之一。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241745,
+    "id": "DRxKasXCMYaD1e8PyqKZ0Ac",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 370,
+      "total_tokens": 641
+    }
+  }
+}

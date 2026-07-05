@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0160",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.4,
+  "ref_text_raw": "The lower the tension, the more positive the life force present. Every person has the potential to find absolute peace and contentment.",
+  "ref_text_normalized": "the lower the tension the more positive the life force present every person has the potential to find absolute peace and contentment",
+  "timestamp_utc": "2026-07-05T03:36:51Z",
+  "text": "The lower the tension, the more positive the life force present. Every person has the potential to find absolute peace and contentment.",
+  "latency_sec": 3.7227,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The lower the tension, the more positive the life force present. Every person has the potential to find absolute peace and contentment.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPkvLCn5jidjSWGrcKfqFaMCmQzSivL3q5a4JMOPM0NCu0rA0I1qjwnL5ee6bc"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222611,
+    "id": "UdFJaojxJsfG0-kPuZO6wQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 281,
+      "total_tokens": 306
+    }
+  }
+}

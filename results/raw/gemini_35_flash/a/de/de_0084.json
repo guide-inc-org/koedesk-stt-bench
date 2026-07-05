@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0084",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 28.5,
+  "ref_text_raw": "Normale Durchsagen erfolgen in der Metro ausschließlich auf Katalanisch, aber unvorhergesehene Störungen werden von einem automatisierten System in einer Vielzahl von Sprachen gemeldet, darunter Spanisch, Englisch, Französisch, Arabisch und Japanisch.",
+  "ref_text_normalized": "normale durchsagen erfolgen in der metro ausschließlich auf katalanisch aber unvorhergesehene störungen werden von einem automatisierten system in einer vielzahl von sprachen gemeldet darunter spanisch englisch französisch arabisch und japanisch",
+  "timestamp_utc": "2026-07-05T04:03:06Z",
+  "text": "Normale Durchsagen erfolgen in der Metro ausschließlich auf Katalanisch, aber unvorhergesehene Störungen werden von einem automatisierten System in einer Vielzahl von Sprachen gemeldet, darunter Spanisch, Englisch, Französisch, Arabisch und Japanisch.",
+  "latency_sec": 4.7417,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Normale Durchsagen erfolgen in der Metro ausschließlich auf Katalanisch, aber unvorhergesehene Störungen werden von einem automatisierten System in einer Vielzahl von Sprachen gemeldet, darunter Spanisch, Englisch, Französisch, Arabisch und Japanisch.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224186,
+    "id": "d9dJat_yCfTIrfcPhcL-0AI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 54,
+      "prompt_tokens": 734,
+      "total_tokens": 1120
+    }
+  }
+}

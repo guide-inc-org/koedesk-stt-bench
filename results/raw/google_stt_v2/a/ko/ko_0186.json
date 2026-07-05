@@ -1,0 +1,36 @@
+{
+  "utt_id": "ko_0186",
+  "lang": "ko",
+  "engine": "google_stt_v2",
+  "duration_sec": 15.54,
+  "ref_text_raw": "수면 방해는 정상적인 수면 기간 동안 의도적으로 잠을 깨운 다음 짧은 시간(10–60분)이 지난 후에 잠드는 과정입니다.",
+  "ref_text_normalized": "수면 방해는 정상적인 수면 기간 동안 의도적으로 잠을 깨운 다음 짧은 시간10–60분이 지난 후에 잠드는 과정입니다",
+  "timestamp_utc": "2026-07-05T05:07:20Z",
+  "text": "수면 방해는 정상적인 수면 기간 동안 의도적으로 잠을 깨운 다음, 짧은 시간(10분에서 60분)이 지난 후에 잠드는 과정입니다.",
+  "latency_sec": 5.5773,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "ko-KR",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "16s",
+      "requestId": "7d949d5d-0000-2162-9ce2-14c14ef55bfc",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "수면 방해는 정상적인 수면 기간 동안 의도적으로 잠을 깨운 다음, 짧은 시간(10분에서 60분)이 지난 후에 잠드는 과정입니다."
+          }
+        ],
+        "languageCode": "ko-KR"
+      }
+    ]
+  }
+}

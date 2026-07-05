@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0000",
+  "lang": "es",
+  "engine": "gemini_25_pro",
+  "duration_sec": 12.84,
+  "ref_text_raw": "Se recomienda enfáticamente a los viajeros que se informen sobre cualquier riesgo de clima extremo en el área que visitan, dado que ello puede afectar sus planes de viaje.",
+  "ref_text_normalized": "se recomienda enfáticamente a los viajeros que se informen sobre cualquier riesgo de clima extremo en el área que visitan dado que ello puede afectar sus planes de viaje",
+  "timestamp_utc": "2026-07-05T04:12:08Z",
+  "text": "Se recomienda enfáticamente a los viajeros que se informen sobre cualquier riesgo del clima extremo en el área que visitan, dado que ello puede afectar sus planes de viaje.",
+  "latency_sec": 6.3371,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Se recomienda enfáticamente a los viajeros que se informen sobre cualquier riesgo del clima extremo en el área que visitan, dado que ello puede afectar sus planes de viaje.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224728,
+    "id": "k9lJasmXN9LM1e8PlJ7zgQc",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 432,
+      "total_tokens": 639
+    }
+  }
+}

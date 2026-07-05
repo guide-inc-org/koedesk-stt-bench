@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0008",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.04,
+  "ref_text_raw": "Insbesondere wird behauptet, dass man erkennen kann, ob jemand lügt, indem man minimale Veränderungen des Gesichtsausdrucks richtig deutet.x",
+  "ref_text_normalized": "insbesondere wird behauptet dass man erkennen kann ob jemand lügt indem man minimale veränderungen des gesichtsausdrucks richtig deutet.x",
+  "timestamp_utc": "2026-07-05T03:56:23Z",
+  "text": "Insbesondere wird behauptet, dass man erkennen kann, ob jemand lügt, indem man minimale Veränderungen des Gesichtsausdrucks richtig deutet.",
+  "latency_sec": 3.6395,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Insbesondere wird behauptet, dass man erkennen kann, ob jemand lügt, indem man minimale Veränderungen des Gesichtsausdrucks richtig deutet.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EsYCCsMCARFNMg+UCEMudSg0fa2ExZhS8qKfAPOCOvy1/tIgXeBJmRIhiIifeXcsTMV0nc6K/S6LrL2reRu7oN9OIM1XTk58gOGyIpAnvLvjz3ZnhHuq0g9LlNNUxLhJfKUOyrdBnYNjMcqvjrgqAgNcgD3iMgq7MGFmS0r6HlHmB2L95nN/dBvWMPeSi7fm730uPdYRevPLwnY8bawtfBut0avBcxOknsB73hDigFlhy9PVAioBq5uVKewDdqOXHbQArp9uLjajZQHQ4FPzn3iR0YlqgIe8msmvH18a+B2Vinj862UtZDgBDDmF8TFgf895ujc0QpEZBrYKr+C+ggM0FgYlb6tFMsocGt25xVkCIQzZKsESDJkPYtgtmgFhPCteb9jtQpC49Nz4+gJ3TNhEYvXxiyAOtqvCByszVGUn7Wj3AMHwIPs="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223783,
+    "id": "5dVJas-mLr6a1e8PgPz1sQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 297,
+      "total_tokens": 383
+    }
+  }
+}

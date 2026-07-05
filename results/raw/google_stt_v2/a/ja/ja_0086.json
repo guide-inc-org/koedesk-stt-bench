@@ -1,0 +1,36 @@
+{
+  "utt_id": "ja_0086",
+  "lang": "ja",
+  "engine": "google_stt_v2",
+  "duration_sec": 8.52,
+  "ref_text_raw": "ギザの大ピラミッドは、七不思議の中で唯一現存しているものです。",
+  "ref_text_normalized": "ギザの大ピラミッドは 七不思議の中で唯一現存しているものです",
+  "timestamp_utc": "2026-07-05T03:14:11Z",
+  "text": "ギザの大ピラミッドは、7不思議の中で唯一現存しているものです。",
+  "latency_sec": 3.8343,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "ja-JP",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "9s",
+      "requestId": "729ecf06-0000-2e32-8064-34391606d18b",
+      "prompt": "Transcribe the following speech segment in Japanese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Japanese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "ギザの大ピラミッドは、7不思議の中で唯一現存しているものです。"
+          }
+        ],
+        "languageCode": "ja-JP"
+      }
+    ]
+  }
+}

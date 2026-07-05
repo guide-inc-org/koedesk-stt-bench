@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0171",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 16.14,
+  "ref_text_raw": "Однако, процент людей с туберкулёзом с множественной лекарственной устойчивостью в целой группе больных туберкулезом все еще кажется низким; 6000 от общего числа 330 000 зараженных в данный конкретный момент в ЮАР.",
+  "ref_text_normalized": "однако процент людей с туберкулёзом с множественной лекарственной устойчивостью в целой группе больных туберкулезом все еще кажется низким 6000 от общего числа 330 000 зараженных в данный конкретный момент в юар",
+  "timestamp_utc": "2026-07-05T07:37:35Z",
+  "text": "Однако процент людей с туберкулёзом с множественной лекарственной устойчивостью в целой группе больных туберкулёзом всё ещё кажется низким, 6.000 от общего числа 330.000 заражённых в данный конкретный момент в ЮАР.",
+  "latency_sec": 3.0272,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Однако процент людей с туберкулёзом с множественной лекарственной устойчивостью в целой группе больных туберкулёзом всё ещё кажется низким, 6.000 от общего числа 330.000 заражённых в данный конкретный момент в ЮАР.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPVx+RJu29VtiTtdiWwV7/ES46u4sa1j9/jQB4GJXhW6VGGTAgtmEB2iwhUsZj"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237055,
+    "id": "vglKapzqA7up2roP26eg2QY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 62,
+      "prompt_tokens": 425,
+      "total_tokens": 487
+    }
+  }
+}

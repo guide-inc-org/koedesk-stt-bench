@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0080",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 13.18,
+  "ref_text_raw": "In its early days, the show was featured solely at the long-running internet radio site TogiNet Radio, a site focused on talk radio.",
+  "ref_text_normalized": "in its early days the show was featured solely at the long-running internet radio site toginet radio a site focused on talk radio",
+  "timestamp_utc": "2026-07-05T10:32:45Z",
+  "text": "In its early days, the show was featured solely at the long-running internet radio site TokiNet Radio, a site focused on talk radio.",
+  "latency_sec": 3.3518,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "In its early days, the show was featured solely at the long-running internet radio site TokiNet Radio, a site focused on talk radio.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Er4FCrsFARFNMg/m2F0go4xiTdTMdOLikp3J77e/AGA1rRM2JkC9B7MmQgfhU5DiINIp7RILtduJ9lJUs7nhkaCA/oYk4xTleTniMSnT3EWipe50amSvhRvh3tHrc+ZCEhtHbQtyjjB0cplF3tc5bAAEBxvl/rIOvgOD8SNCQ5a8Uuxj79j+JPySbeIhE93biruRNAv1H4DJSN1Hxbh8dvWuiKZibEmcoi3oCB+Vp4/MxfJJ+ELyBcD73fX2KvtjR4MDJu0nFVagySA46daW1WP4iZcXMa/MO1AvPlQK37QZnQ0Cd9YIuIqtfxnDjnA9IaGr2uRu0euzPCqbbfGCpj+DXlhg7HJmIrA9mwr8NvSDTXNRBZYV7rSi2NXg7wiX284BLQ1+mp435bKeiwiZPQMIO5F4xIjWZynPVdHvy778iE6Ghv7aZAld8D+rJeFysQZlWJiEJZ5i63zc1uoMHRPEc/aqCNjR9+NFUpypEOGhfg8H3ND0an+m9u1I56CzuAdscxuF4c8lukXkMI7kiGwiSyiNz6BowhX2nyQa0WCoJXiE5H2RlxUfVr45e7htuFjhtjKw4GbTm4QyUb9jcofGzhvqiEDPPD0ilFbRAzPvisBDNgkQwC6evTqS71bWPdz8bSJBy3w+P77zn3bZ4WilmexN/ZABmwQe+pSlsJEA3ImWJNwhfb2Ny2ZGP1Bt+7/TWwhIcuhTSbO59he7sfksDcUbVf9Xeh9UyHz77TewUS5W9iL5vs41lBCPcNMGMxfxBySMC39EZihfcPEUH0dR0X2wLeNaD48QMoyl8czpomW26LVPpThU4M8bis78Q0F1RYuMHOMOUa36jFPFP4vtBI3j4N3ZDitrzJENCJMjtcd0zmPKkxm3AUsAQADhb829VajXuiqGro+wcEnWNW+iJ6NrJ5H60bMEOrq/91MZ"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247565,
+    "id": "yzJKareWHsal1e8PnPeFgAI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 351,
+      "total_tokens": 535
+    }
+  }
+}

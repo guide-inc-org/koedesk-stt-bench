@@ -1,0 +1,44 @@
+{
+  "utt_id": "pt_0148",
+  "lang": "pt",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.24,
+  "ref_text_raw": "Ele também atacou qualquer coisa que entrou na água; mesmo um dinossauro gigante como o T-Rex não seria páreo para ele.",
+  "ref_text_normalized": "ele também atacou qualquer coisa que entrou na água mesmo um dinossauro gigante como o t-rex não seria páreo para ele",
+  "timestamp_utc": "2026-07-05T07:03:00Z",
+  "text": "Ele também atacou qualquer coisa que entrou na água, mesmo um dinossauro gigante como o T-Rex não seria páreo para ele.",
+  "latency_sec": 2.797,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Ele também atacou qualquer coisa que entrou na água, mesmo um dinossauro gigante como o T-Rex não seria páreo para ele.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP1F6WgcU31E16/gMo/+BlA7btXPaVlHnvmL2jtxE0Dr/yqztz+GZ0td/xmy3X"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234980,
+    "id": "ogFKasvuOIul1e8Pq7ahqQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 252,
+      "total_tokens": 281
+    }
+  }
+}

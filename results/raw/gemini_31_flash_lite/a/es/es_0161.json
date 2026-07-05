@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0161",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 16.98,
+  "ref_text_raw": "Los autobuses parten de la estación entre distritos (al otro lado del río) durante todo el día, aunque la mayoría, en especial los que viajan al este y a Jakar (también llamada Bumthang), salen entre las 6:30 y las 7:30 h.",
+  "ref_text_normalized": "los autobuses parten de la estación entre distritos al otro lado del río durante todo el día aunque la mayoría en especial los que viajan al este y a jakar también llamada bumthang salen entre las 6:30 y las 7:30 h",
+  "timestamp_utc": "2026-07-05T04:43:23Z",
+  "text": "Los autobuses parten de la estación entre distritos al otro lado del río durante todo el día, aunque la mayoría, en especial los que viajan al este y a Yakar, también llamada Bumtang, salen entre las 6:30 y las 7:30 horas.",
+  "latency_sec": 3.2732,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Los autobuses parten de la estación entre distritos al otro lado del río durante todo el día, aunque la mayoría, en especial los que viajan al este y a Yakar, también llamada Bumtang, salen entre las 6:30 y las 7:30 horas.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP3g0sdFKDAFE5d47x9JbX4eFwgAAGoh9ISeBOc+jsKjL7IGZ5ZxLPeUQStrYK"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226603,
+    "id": "6eBJao6YM_HZ1e8Pi4G_8QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 59,
+      "prompt_tokens": 446,
+      "total_tokens": 505
+    }
+  }
+}

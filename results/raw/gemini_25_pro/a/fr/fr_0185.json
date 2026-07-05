@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0185",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 6.42,
+  "ref_text_raw": "Selon l'agence nucléaire japonaise, du césium et de l'iode radioactifs ont été identifiés à la centrale.",
+  "ref_text_normalized": "selon l'agence nucléaire japonaise du césium et de l'iode radioactifs ont été identifiés à la centrale",
+  "timestamp_utc": "2026-07-05T05:07:38Z",
+  "text": "Selon l'agence nucléaire japonaise, du césium et de l'iode radioactif ont été identifiés à la centrale.",
+  "latency_sec": 4.0838,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Selon l'agence nucléaire japonaise, du césium et de l'iode radioactif ont été identifiés à la centrale.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228058,
+    "id": "l-ZJaoXSO7up2roP26eg2QY",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 227,
+      "total_tokens": 320
+    }
+  }
+}

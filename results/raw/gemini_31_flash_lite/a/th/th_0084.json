@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0084",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.92,
+  "ref_text_raw": "กิตติศัพท์ในการเป็นจุดศูนย์กลางของความหรูหราเริ่มต้นขึ้นในราวคริสตศักราช 400 และคงอยู่จนถึงราวคริสตศักราช 1100",
+  "ref_text_normalized": "กิตติศัพท์ในการเป็นจุดศูนย์กลางของความหรูหราเริ่มต้นขึ้นในราวคริสตศักราช 400 และคงอยู่จนถึงราวคริสตศักราช 1100",
+  "timestamp_utc": "2026-07-05T08:05:55Z",
+  "text": "กิตติศัพท์ในการเป็นจุดศูนย์กลางของความหรูหราเริ่มต้นขึ้นในราวคริสต์ศักราช 400 และคงอยู่จนถึงราวคริสต์ศักราช 1100",
+  "latency_sec": 2.8729,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "กิตติศัพท์ในการเป็นจุดศูนย์กลางของความหรูหราเริ่มต้นขึ้นในราวคริสต์ศักราช 400 และคงอยู่จนถึงราวคริสต์ศักราช 1100",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPe0Qe1tq1Ye7/+wk6waPryW5Z+867LGoh7k+A00EXdPtw4+Z3Fh+pW+bVFB+p"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238755,
+    "id": "YRBKat3HKbvN2roPnu2ysAU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 369,
+      "total_tokens": 413
+    }
+  }
+}

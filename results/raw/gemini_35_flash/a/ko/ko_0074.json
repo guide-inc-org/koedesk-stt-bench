@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0074",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.42,
+  "ref_text_raw": "유럽은 상대적으로 작지만 많은 독립 국가들이 있는 대륙입니다. 보통 여러 국가를 여행하는 것은 비자 신청과 여권 심사를 여러 번 거쳐야 한다는 것을 의미합니다.",
+  "ref_text_normalized": "유럽은 상대적으로 작지만 많은 독립 국가들이 있는 대륙입니다 보통 여러 국가를 여행하는 것은 비자 신청과 여권 심사를 여러 번 거쳐야 한다는 것을 의미합니다",
+  "timestamp_utc": "2026-07-05T06:15:57Z",
+  "text": "유럽은 상대적으로 작지만 많은 독립 국가들이 있는 대륙입니다. 보통 여러 국가를 여행하는 것은 비자 신청과 여권 심사를 여러 번 거쳐야 한다는 것을 의미합니다.",
+  "latency_sec": 4.0036,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "유럽은 상대적으로 작지만 많은 독립 국가들이 있는 대륙입니다. 보통 여러 국가를 여행하는 것은 비자 신청과 여권 심사를 여러 번 거쳐야 한다는 것을 의미합니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EosJCogJARFNMg/dR79TWsXte6HXRgp8WHKNqla+Gcjc8Ec9mT0sFLLMpNQVQBO4sWPFIQuAlPi9IKOny9YmeVIsTs1hJ+nlvEd2fSkmjuh3sicfBfc7CX0Vc40QriXQ/Wkt1DK5EmRexP6rQh8gYIOhXDZcAk/4sCuPy69+k+twBXvTfx/bRKmbZHUndzkSd5N5n7JLcI1a3sVbTQaT/FP5N9XD1Y0CZBcBpV9nsgD25JaxWIWxtxSxaejY7z9BKkDNucBjldag5A6KhbEU6djQBXqdXq6g8JleErCh+VWjM4wFzqwsKHI734nXknmfSCbyjDw9x9IVQcT0iN+dGFc6DAtWtsVHQTyOpGs2f8fW7Jcr92QLD5X9SxDYpDcAt2rcX3R8Ug6vUFQFtYbmtoAq47QFqiFIX+AMwzv8egsfIGT2CXpuidViMudhzfeJ2OwRSkzlk8B5PUAFS9bRwLU+HJ7hRQuz+DGmYfYZEkwSZLLNRww7+1wbrkHJA8Gty5Ix8TaPoVZVJpTsJgyAv6QI3lfKEBPf/zSWWlupieHy2fvhOc562+zM1Q82McVjeDKdGKjfeP9AqF+Uqg3Sb11pzpJjkme1aouCDBsWVWEDNg5LORrkoKrDjAp/9HzcvzTi5ZeEkBupUNXnZGN0+id/OJbM2IEUAUOvK0WGE5VoOcAfv0FPP7dfv25kKtx6PADH4TGlCUid0JgNby0/Z/z0wjPNDnW9HeoxUjH7GAoaL0ufe2b+8uIoh0SzCmbu9ZFT1qcknUMp4UcgQF8XjzlWcfPG70MylZUtw6lRp9GSJX36b/tyu9R/LnsZAyC8PuuGhCIk9GBqFrxuPFTp+JliZPTXLIf/JhbQuE6w0w0Aq9r1pCLKHXz9Y+svJxpblnofjKy2L/eAV14AOz0KxCwdh91E7ah05fbxQftPj+IaWbEWR38YLXg0WSvo7HQr3euASYFwFT6x0ZsHs/kaGX3JrxMKxJMtJ7KsNed3MyZlT4WW6BaEJm4wxGbcrymqKdhTnMOob4/y0AqfdYhS6zqDRIJDmJS/47mUSHNZM7qVoUXX7UDN2QW1dqq+SnTz+eXWlfVZkPeMupcJutw0fLnqAajkYMa6N9br69g4qgnah3IB+4BYFady8+k1KjZsRsO7NxVPARFK1l2embonOlUJIoQUQlVGvQV3faZjqh+X/PwamLV8FHkqVo2bZggSKje4LbfGaDp4eGRlW4+xGy81ZatMzJMLPswcvVa68mPo4ArNtoufr0kCVFxnoVDhHgVFpZ5Ekz7Gu3ZIwstYNJMZvV+PnTgTbkWgJJrLAu0pGPXpi+mml02unnMKfcnI0rnxsaLWhASP/QhmrvwKpYv5EJsoVC/DZq0LMKkEENdh0i/JcpPWSKOJhU/IRgfgmYZJXHBVy+/yD55sHeV8vO0+Ngat0ReDF6umd0nSj07G/bwmDYqjw9MZ4kt1hWV3GOmy7bKL6C9IV5dT+fqWWc94nNO2zaszcrN/FSvrVdKYlwOlgz+t+EFycA3hiWe3u8nx4YZ0kuZ75zQvsYI="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232157,
+    "id": "mvZJat2aK9Lu1e8P1-bXkAI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 332,
+      "total_tokens": 624
+    }
+  }
+}

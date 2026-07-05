@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0100",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.02,
+  "ref_text_raw": "Plants make oxygen which humans breathe, and they take in carbon-dioxide which humans exhale (that is, breathe out).",
+  "ref_text_normalized": "plants make oxygen which humans breathe and they take in carbon-dioxide which humans exhale that is breathe out",
+  "timestamp_utc": "2026-07-05T03:33:13Z",
+  "text": "Plants make oxygen, which humans breathe, and they take in carbon dioxide, which humans exhale, that is, breathe out.",
+  "latency_sec": 2.849,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Plants make oxygen, which humans breathe, and they take in carbon dioxide, which humans exhale, that is, breathe out.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPmr3cVaxILmoQGmQ6UUTbjWygTx3qI9bBxXiw6BdQanxY0wWa7C2U5Nc/B65J"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222393,
+    "id": "eNBJarLwGPK8vr0P9K6siQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 197,
+      "total_tokens": 222
+    }
+  }
+}

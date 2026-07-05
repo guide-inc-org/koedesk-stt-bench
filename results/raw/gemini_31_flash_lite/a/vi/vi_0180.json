@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0180",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.2,
+  "ref_text_raw": "Gió mạnh, mưa đá, lượng mưa nhiều, và cháy rừng là các loại và sự ảnh hưởng của thời tiết khắc nghiệt, cũng như bão tố, lốc xoáy, vòi rồng biển, và bão lốc xoáy nhiệt đới.",
+  "ref_text_normalized": "gió mạnh mưa đá lượng mưa nhiều và cháy rừng là các loại và sự ảnh hưởng của thời tiết khắc nghiệt cũng như bão tố lốc xoáy vòi rồng biển và bão lốc xoáy nhiệt đới",
+  "timestamp_utc": "2026-07-05T08:48:33Z",
+  "text": "xâm lấn, mưa đá, lượng mưa nhiều và cháy rừng là các loại và sự ảnh hưởng của thời tiết khắc nghiệt cũng như bão tố, lốc xoáy, vòi rồng biển và bão, lốc xoáy nhiệt đới.",
+  "latency_sec": 2.8212,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "xâm lấn, mưa đá, lượng mưa nhiều và cháy rừng là các loại và sự ảnh hưởng của thời tiết khắc nghiệt cũng như bão tố, lốc xoáy, vòi rồng biển và bão, lốc xoáy nhiệt đới.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPZ5xS98LG7X1GPbgx3Y9Rfo0/d+G4NWYZ3ZO5NDJHHaydmZWmn81UNBAarxI1"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241313,
+    "id": "XxpKaovPOen62roPgJLP-QI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 55,
+      "prompt_tokens": 351,
+      "total_tokens": 406
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "pt_0172",
+  "lang": "pt",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 5.34,
+  "ref_text_raw": "Nos deu o trem, o carro e diversas outras formas de transporte.",
+  "ref_text_normalized": "nos deu o trem o carro e diversas outras formas de transporte",
+  "timestamp_utc": "2026-07-05T06:57:41Z",
+  "text": "Hoje eu tenho o carro e diversas outras formas de transporte.",
+  "latency_sec": 3.7614,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Hoje eu tenho o carro e diversas outras formas de transporte.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EswECskEARFNMg/MkVA3WlW9hkubAfaKoP2gYmsnPbKM9pamjJpS4+YrKv3YJtRV5bmF3o6dUw+slHZU7u2+nEAz1H9vXZ0JMtFMDKRGaitxhP2KhbrJNxwrEfVsiGKWi+c9/UNdw3fN/dQCYBPVLRwHEKE9dsZTzcPr0vIgc9PE2uQCXJmiHZxvm1ygXa5L3TZAtrGiWKe4nn7ENk6NAFz+LIesSl0sBs2UILos4PY1p/kJ/6r/h/7BtAe4RX4gWxxU3Jb6yO5XtH5tdg6JmfA3zEG8LeKQ0GnIWs5i7ImZIWK/y5Q17mNiAhnbynHAsQtQxpb5eXCmyb59bg0OaxE9gFLRM9uAOtDR0Gy/p6/vEK/aRuRumGC+JRL1B2q30eyBJ9BTb+0xQ+2ta5mm3eom43PGLRAFswnn80pwHSMUovfzZNrH/+VMcoJ9QnN0Vfy00kgFR0xE6LFDr/7aWbIphaDuqL7CxMMMbptlhf/bP3yQ4U9NHNlJYvn65T59DzRDPYEAuQdGZlUaIJKURhUrz8yPLHwYnw9odAeonufECZDeeiZIiHeTffX69hd92rr03goKHg6Hmwhl/EpMu5r+vjnGsZnaXi489ZOW++x652CwEC/rEKoAlvNED0FTaZP54KczJtkdB0UU0SrwFUdLcKWhjySqxaY0uaNII3CQbMc6BOxdiOGsjYo40TJ/CIwq/cloCi58oLq1gzB9Yy+80sY0AeXQfxuKx/151z1dpch3NHorXprWVuBm1BVOgB3R2YHfrfzL/nWo9SHL"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234661,
+    "id": "YgBKaoGdLoOL0-kPiYjyuQQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 12,
+      "prompt_tokens": 155,
+      "total_tokens": 315
+    }
+  }
+}

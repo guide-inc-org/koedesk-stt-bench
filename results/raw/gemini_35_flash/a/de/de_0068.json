@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0068",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 13.92,
+  "ref_text_raw": "Im dritten Jahrhundert v. Chr. von den Ägyptern erbaut, ist die Cheops-Pyramide eine von vielen großen Pyramidenstrukturen, die zur Verehrung verstorbener Pharaonen erbaut wurden.",
+  "ref_text_normalized": "im dritten jahrhundert v. chr. von den ägyptern erbaut ist die cheops-pyramide eine von vielen großen pyramidenstrukturen die zur verehrung verstorbener pharaonen erbaut wurden",
+  "timestamp_utc": "2026-07-05T04:01:33Z",
+  "text": "Im dritten Jahrhundert vor Christus von den Ägyptern erbaut, ist die Cheops-Pyramide eine von vielen großen Pyramidenstrukturen, die zur Verehrung verstorbener Pharaonen erbaut wurden.",
+  "latency_sec": 4.6274,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Im dritten Jahrhundert vor Christus von den Ägyptern erbaut, ist die Cheops-Pyramide eine von vielen großen Pyramidenstrukturen, die zur Verehrung verstorbener Pharaonen erbaut wurden.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EosLCogLARFNMg/UFOU/hA4oMYn6U9syLk3eHpRxjHc/yUQn5Eus8Rl8PTRf1hrj6sCvF/6eAXl6Q3qVpKcSqQtoT3EPgzRFFLpN1sj5LVfT4D6hwv9dQnVd/HMHRynLiX4ix2fNgTzj7X6wTPRwQO99uvK0JYdcjwcrHYoZxbNHCq8JsqLAAOqH5qf+6j5UL0l8oZnX7Ys/9NJo2Uo7JmdOlEMvFi30eL+YCgqCPqNKML9rWyfmZIShIO6xpuTNNPqhzNS3lbsiRS/J5jLEaX7Nkwj4lZnfwlw1rS0exYx7fepuA1MsMr1IS8dVIpn5d8hUn4eaIkxEI8vcFED5SHiSN3wz4XSszvsaq66lDIEX6xa3/Hk35yzyusGSyaUMJmSsnqMJs4uLjToIiCoFrfP6qnhRxXXfu403yjpd7bvdeNWGscF+w+InrRpZwe2lW1lOw1k/opbrrxYMw5NtKjFixPAXGpNrCS1LTfiz33lpTXhYVPpf6HvFKZArZuJ8KhQCcbKQWP0WSTd309IMGdVB35gOx1kksCz32tDkLp3JrDvuLk2+g5kzBIcfQst+GPC6qeeB4cTVQb6UJJ62QVfLmUNReTyUlJnz6Q/4g99zvFRq+NNM8flHShnOSDpVQxeFvO2QVritQkaNsKKnMMsBoJv+1ryEpSzEayg/1K/jSVoxdYc2dccltu5e0BwuZv1aKyH+DgiII6ToFx7VKFGaiEAp14bQ9n/HTqOzPTjtb8sLxZYMVEaxJvgaLxa17ZFgwzVEmOFhnMdqx+9UcToboPFfj4pBMHmwAWhY/fogSDXE8CRcGhAn94e4Bgg6GyMoARLdf9wqc0jK8KoXMrdI5oIAxtnfSkEK+LA9m31vC+IbpqTJR2jJ2xa4AKAzKUBPwN0zGuT7Vgl+I2/LBwbPMZ+qSNhXwru14aDixqIY8nswl8Wxux3rvxuO3WSedQxzhKxa++OJoKU9xE9yG7isdxe67kIciXiIQs30PxyF7RyxFAt4a6Btvx3UyZb7o/LM+aA9CB9gRoOyHtlHZFeK3NH5m33BkzvWCDrKCdL5MwR3PkG14ZGbbRxmdrU7E1WSAhegUp1pSnxOU+glqo4bq8O4wrIMmPEpT7yEHgRh5VO186+sIDgqAXoll2/nPjRizBpwKlrZ+7pLSxruN14b+tqLraA3ZMdTOTBxEr4hkWkJJhclVi0T88Ed3Y1w0Ug7D8TbEjNWfo/DXVLuOu78n3dOZvHjEzlQxmZbTnhV3muwyF6nq7RK5YMmSFHW6bzyoGjynoguyJFpMHL6anqnd90n0lLleOjAVfIDZuKohh7ZV/e+gTf/UnPgGeaxTgkMRlqE7wy692ZeRTqKRz8qf5hNoHJ75JYXF5xuuLvsxQl1KBUXT2pEzjbcItUhXM4kSu++4mKOL9I00ZvNlE0cK0IlELNOvk4x6xfcEpTbzbDD0Ks5iiahyArFH1vixFmFKsK15309CgrlqlJOu0/LV5c8DreWN7P6AtfSYsov1FKHX4Gwe5aOYfQ1B4kuNJwWh7rQiew+8DLiyyROrEkTq1LAepXBjyfM0MmJXNRPX2PpPsWtrRE2YaWXSLPLEymhl4g4RoKR3EGRCBEdpPt8X/maSOmBBsDL0JfM7WMszzBoZ/2j+v0Yf3UIT7QZoOTT4mSPksVDyTsdJUBH7aCszqmxU3hUUqcgueoTxDzkCRo6jojnRl5KCb8H4GgxMTlFx/DGJaHK0pelJtDzAEc+rka9feteRufHanuDsfKm9U7LPj+gKfhB9zVMGERg+zTYwatlxtJhCuUn4T7x90kmxbCVOoBQn7hbnjr4zUOVDAwLLee2QfM4tY0R+wiLj2dGPmcJ3aucUZMxYG8fFrMQ7i8W8znoyJx9+l0j"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224093,
+    "id": "GtdJapHXFfKE0-kPh9im2AE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 46,
+      "prompt_tokens": 369,
+      "total_tokens": 843
+    }
+  }
+}

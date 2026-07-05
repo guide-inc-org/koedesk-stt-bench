@@ -1,0 +1,45 @@
+{
+  "utt_id": "es_0094",
+  "lang": "es",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.56,
+  "ref_text_raw": "En la mañana de ayer, en Gaziantep, Turquía, un coche bomba mató a dos oficiales de policía e hirió a más de otras veinte personas.",
+  "ref_text_normalized": "en la mañana de ayer en gaziantep turquía un coche bomba mató a dos oficiales de policía e hirió a más de otras veinte personas",
+  "timestamp_utc": "2026-07-05T04:36:36Z",
+  "text": "En la mañana de ayer, en Gaziantep, Turquía, un coche bomba mató a dos oficiales de policía e hirió a más de otras 20 personas.",
+  "latency_sec": 3.599,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "En la mañana de ayer, en Gaziantep, Turquía, un coche bomba mató a dos oficiales de policía e hirió a más de otras 20 personas.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EswGCskGARFNMg9Z4+1vLwSwpzFCLod06FaVWPwPFyrtok33GAye4quN+cbKOI6PqUb3KbQAGLs/7Af8Rdd8s9vmk/3jeszPhRczRtrVvHHH7Msz0Ly4AYVP3XgBUtJphWRUHcsUs64fjYb/KXxZ0ki5NFgAU23CZ4S6MnihJfmjTF3ATNlRGtqBe0okxn2b3KTkR4uWyt1wHMLGJfpMpE8KK3SkHiNujtlLY22A1r+3jV2GSxPpQvJPnHbvVDWVaFE8Jz5FMY/+bQS1cH7EHWkf7Fv92+6HCNXp11KeEUV10tEZ1Xfhs/3tDRkbDIk+M1Wm1mqP2wiQJLTmzcqSRQX5Vc0/4RJdSoIfWvRvUpdaC6lb5JsWyOol9eDyKOozTgLX17GIcXWvbEQUJj8OUigek2Rnlo+qYgcN8F/zoNKwBQx8FmyShFh1Jc/qaG5U7e1tuxFCZGsAsWNXNAp/4UyGNzXFR6WY7SiXxDWI0UnDKP5zZBki40DiIw6WD4pqH7L1DGH4SUMxouY5aTzscN4ojIlQTm7EuE6H1DxNh7ZFBXnjDeE06Z3KiQZOfCs7mc1QedgPw8mpWTbOL2Zm94+LyhfKwZ05l0m8QFtrpetim8XEoNWUd0ryXOaFu2TMJTmNeMttjTZpcclMONaEAKoXuan/yec+GD2QnHaR9xiMFZZatV7T35Od0gf5Rc8AEg/gqnD1ERY06oOpZxk8AjL4JQ4zlYATpbX2KCFvItvBYSyTWFIzXdnyRW4A9UxV8NcrUL33bJzksLVAnc+vd7QtmV1eXn4zlmo2L+NYOEVlwxS4gRMQ23Iy1adgs2qoV93/oEoquX87EkM3XqGj99Pd9/Hwi4l5XHuglGmRDZkx5WZf63qRCyjuOrOq8i6ry7shGhQ78MDSi3jer9ch4SkqQWRu51qlYl9hxGRKZ1cFho3+HMlbTlFcMOqAuFeC6vaSThPJcfpwlgEpth/tqUE29MxLEYYEtaEl+Gg4FBqH0K7xYUw4moqy4nXQwoGNaVh4zhm6CV7I2qkJT0EsEZHd/Ylnpgu1JvZ53ngffhRHuVoTBgjwMtsXHTmVTxHpWzOkVn+PEE9+zjZEwuEF37HTZ05i4u5cf7JlUMyFAw=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226196,
+    "id": "Ud9JapSFI9Lu1e8P1-bXkAI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 285,
+      "total_tokens": 523
+    }
+  }
+}

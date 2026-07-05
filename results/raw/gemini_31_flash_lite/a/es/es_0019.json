@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0019",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.88,
+  "ref_text_raw": "El 15 de agosto de 1940, se desplegó la denominada «Operación Dragón», a través de la cual los Aliados invadieron el sur de Francia.",
+  "ref_text_normalized": "el 15 de agosto de 1940 se desplegó la denominada «operación dragón» a través de la cual los aliados invadieron el sur de francia",
+  "timestamp_utc": "2026-07-05T04:34:49Z",
+  "text": "El 15 de agosto de 1940 se desplegó la denominada Operación Dragón, a través de la cual los aliados invadieron el sur de Francia.",
+  "latency_sec": 2.6978,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "El 15 de agosto de 1940 se desplegó la denominada Operación Dragón, a través de la cual los aliados invadieron el sur de Francia.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP3KthEECFIAhOPf0HwtraksO0O2sDkgTgngGkN0P5TnRBNJwQx0B7N0PflK8c"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226089,
+    "id": "595JapeZLvPG2roPs9KcqAM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 393,
+      "total_tokens": 430
+    }
+  }
+}

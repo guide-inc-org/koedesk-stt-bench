@@ -1,0 +1,39 @@
+{
+  "utt_id": "id_0064",
+  "lang": "id",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.5,
+  "ref_text_raw": "Dia tidak dapat meminum obat yang dibutuhkan untuk mengatasi rasa sakitnya, karena obat tersebut dilarang dari pertandingan Olimpiade.",
+  "ref_text_normalized": "dia tidak dapat meminum obat yang dibutuhkan untuk mengatasi rasa sakitnya karena obat tersebut dilarang dari pertandingan olimpiade",
+  "timestamp_utc": "2026-07-05T05:24:01Z",
+  "text": "Dia tidak dapat meminum obat yang dibutuhkan untuk mengatasi rasa sakitnya karena obat tersebut dilarang dari pertandingan Olimpiade.",
+  "latency_sec": 3.367,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Dia tidak dapat meminum obat yang dibutuhkan untuk mengatasi rasa sakitnya karena obat tersebut dilarang dari pertandingan Olimpiade.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783229041,
+    "id": "b-pJatOAGYmV1e8Pn9-owAM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 357,
+      "total_tokens": 434
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0171",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 16.14,
+  "ref_text_raw": "Однако, процент людей с туберкулёзом с множественной лекарственной устойчивостью в целой группе больных туберкулезом все еще кажется низким; 6000 от общего числа 330 000 зараженных в данный конкретный момент в ЮАР.",
+  "ref_text_normalized": "однако процент людей с туберкулёзом с множественной лекарственной устойчивостью в целой группе больных туберкулезом все еще кажется низким 6000 от общего числа 330 000 зараженных в данный конкретный момент в юар",
+  "timestamp_utc": "2026-07-05T07:31:40Z",
+  "text": "Однако процент людей с туберкулёзом с множественной лекарственной устойчивостью в целой группе больных туберкулёзом всё ещё кажется низким. 6 000 от общего числа 330 000 зараженных в данный конкретный момент в ЮАР.",
+  "latency_sec": 5.3469,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Однако процент людей с туберкулёзом с множественной лекарственной устойчивостью в целой группе больных туберкулёзом всё ещё кажется низким. 6 000 от общего числа 330 000 зараженных в данный конкретный момент в ЮАР.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Et0UCtoUARFNMg+0PRKStk/mlyrgq6KM0lp1/yCUcSO3YWPDu15wgzQEjqN+ulUIVM0pt/GEWiEb10k9tV6lIMUdJB1bnceoYXfIO5gfeUWkBw9A9+CItrFgNy7CvnvX4YRHsT3r8KcfUMRfkKh3mNmLFxGElPR3ayNxJfIin1rdaPcjd+cVXsYZNshgWSURkum0aBo/vuGSXxWB12uv9kO6ZJW/bRcdcoL23CUmreaflbPY7BL3H6QkIWfGzU6jOlZddIpaQ/IZHOT3A+QEWQLjvn91zxqp2Jzz5uJhS23g2z4bWwWW1Vw5mUQM3uWM0U+sqkKUOMJkvH3CfKiPwUzHOxLY+P5101ugg80gVXsN8BCkkgy7sZsA6spysFPKjAqS7N9NIBG1rzuBgnblqyE5k73ZbMT8+sLIDJ8uHFigyV10odLn8DsATc328vBp+R5ITEGuzq3MMCY5pwXOH3LfLTppMfCCHIU2Ns6ahHCPvpG2dQTFTa0HAvakWEHGaUY5+C4ZTDy2KSNd5J6aABtLHVX+MHpSLgbZCgLx+AK4nn3RIfGbx8NwQVn7SN1p2buQUDommpQoCka2oUl261vZH7VsKzfTEGt4Z0rhMNTE/+vTyM2FiRg4ciJjOD++vDWjXPbVEjBZ1XO1cq5t1HiSQH3lo88ibGvyFU0dtwUaJWr6YNVi/qlRBMMctrguZfyR+JnxEEO7CTFogr7v0FoFSkNT808mgoKlKduCEiIVd38e6T/JMG7J+/ywZ5ytFNFp5m59OD7C7d3q70mOAbuONtz6qUjfx64UXFGniPkAjlvgLov9VlqtsdQFZnO0ZBiylJrnSkcE9IOnGLNy4T/YRfnWUwx//zYCOyCJ4+K6vTcuyyfbp7ucS/PjqUoYxSlt9jynQgQdWbt7yHWBo3LrLSq+PqLuTMEUauN5BZ9Zd74fbuSvfrJQ2CW2kB5EgqL/Kt0+9/E4d1HFWS6eInDM4oXWbVRF/j2APOz+ItDdDmjSdRwiKQavcYqd+rFn/06/B9aK2Gbmg36ofLrx/cXISbD4rmn02ZGUWZx1eHmqVd9ZD/6LVT3FYnyeSJcq2v5L4MaiXF0tApP3fOQuk7bjgoe2P04NhWStjJz1oOaFapwTpZegjdzPyFdvr5/ewBwrXQTZBWYWlxunauck2nryK4itaT62q9mZADt2BZq+ac0h9zHYtzqIuQIiLvFkceh6EBknRe/za6XuZKB0VHzRDVNzpQL8V7RYlsMYd4922xpBXcTZRTaSb9Ht3Z/LFHOpuKsokJgpajTYB56Spjtm6zgrC/dw4KWb0eHYTLT/zYwIfwaYLP7uCvvBe59rN9wSF3vNdr0kXtpyFQX4SHZR+ftRdbW4rz19RLUB2vAi699mfcO+pW4P30wK6dB7Q8YaHt6hnKtddhCp756CsCorW/2RV7+D6pxjBWFyzlADpDAKx+eLiMf6z5UBr+Iql/U3Py6v3o+FfdTnzuiUztLWq6jo6j9YAD7nb1++vPlc+86Q/eMFVPGj6Ao19WsX4G0SQDeYuQJLkPR7bRb+5B3H1hDd7mELqR6anhnL3dceNQRln0hD58nOxd96X7m65LqHNHsHXci2KX7Q4YSfpaDW40PiAy5403V27aWnIkUkw89urHQFaNfDYlQLCaycmjuz125S7ekxEb9EhRIeQcjObUM5Mi0zEZ+/5jm1s/qA8kQUR4JFBmX+eJj+2Np/b12M0u/o28hTkEN1bsnb/btq8MhMeNMQiLn20IckJ1Z0XOhJho50p0TSUV0JoXrL5sJ1SooG3/kT0Y2v/hb69LVVU4yeOXUywq+XkWlPONmE12X7vmxEI+4sO0CQC6pbpZWPAv+7Zm6vD/A4o6SCNExcCBiMx2X/ryG44/uNw9rnrc0YQ9GE//UV3dAKApq/srXyBzc3TFcvQnd3denX+Ec3iAvZqfCwwSqsUgPXalkIV5s5ax9whcD/H2YdvbH5jTb3daqKWjaZ6xEQEI2RI5GlF5JHXGzuUMSeWIdXDb9xa3Kxu12OAOJKh7E2RlYNnRq05+bjk+0SI9Q5txX4Kz6WQC2wLgLSj91yy9Hs3XsdlZJsddl2UIlL7aGTUKk9eDQ5a8wKO1uuKf9z2QR3PZOrEuL+878iceh/RVDbzDbM6OtbXt6Jp3O0SzsIFIJjm6VMEKpauwxvnZG4an45fPn5f04l4cvUgVQlMuJAo1sMs3D7yAuqY6AQvf4zHNdUL7tfpoSRgCU5/zZGWmpH6k47PyPPuGQxAvit0jKvfmGy0pg8Y03+jDRrERYYFe5vUSawvpG15mi6fY8sMWHdnvzyzmkaVMyIa4LovfTJB3lJb/sTYrSsB4qF39+f79nAZwWzuWy8dtQkUxL1TNCnV5Bt2Ksal3AjEqE8eVOC1ZLt0TUhSTAS18elprfY5fk1zvxZHMy22b0tYWFFF9Q6bBOA2s8SpDCA1jaTWAAgbKVwdsEFE3lWj53IEvY9zxZUe/TH2as0Xj47X3/lKA2nV6oIHaxVwT11lAia0mBoD1H6316klM8yE0vETbs3HckQd1EyOf6oVt6HyPBj49bN5RQolGOC1pQ5LE2Kq+ztSpm7yQ5XyNmSRw/zv2X88IlDiVe/vPp3wZzkLFc4ktyEV6NtOw6dJdA7mxuV9LF9+yOltJ9tfkOAcfxnHucb8kShADTesznY35L36coM6CACENDEcOQO3Ydgs5/LOGgZeYTB3mH+X05GK3e9Aj4qBX3lJT1XZioFwHUrPSm5DdieO43kczifaeKQekqqV3CdLCagXlWZs2AC3n2UROhxt6g5THUah/eqtAqniXFohBCjIwSZW1HR1pYvjMwUYJnDhWAy23RecKFqQFSE38zUjNo33bakW91bXOcna6zYepixxykXR2f4r9qccg6aJMSePO+kaXAHqsG6EsMEZSFUdE757OB9zFlunZYo++VmgF6hoAr1ypBjStoNAJoUipzHmc/GJS8zFCdIGZ+t+JUAFWq4m5QkCewftT/z/+mm9SP/xu5mq+WJmNm8vNRNERKhsxdYFFxVKaiqJBWC+p5UjNq6fQFwL2vWdWbdFL+hegil7vaKoKtKb5bsRJ8tlZze5qWb2dhN9Vx4tYKUGPwtb6AZBw3Fs843xzzxDKWPtAEc0Sz0fmjTY3qrL5c9FUqtJN5TYJcS43DOPORQuP25JuGuivKtt3F6GFzycn4bkj0yUSmFi69MNOzSsSBYz2Bcvo4tOv2cbb151Ta533pJM/1HX/Fb+ppyhPjw0q9FSjLGdef5bQ9jq16Tre8gQBml15WuY9IDD9SxXHOtfAI8D9g+srLHsRC/Q+NcDyLAlpiNmJFRmBpw9Yn+v1cdh8D7MR2buPG1h1mRMsmEB7EWEP9zPv9oFn9NaJoYe9xg1cZFKa2n8TladehqLrXwpnvUt7bHdO8c5bYUt7YNiovU2MBrgjG72lcRVTlx+iB2rLBZmckqMKGcofu8eP74Asg1wwFfhUN4yq5i60C+1fCd1Apb9DqMRVSkFSOblHms0xyllw=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236700,
+    "id": "WAhKatGRM-Czvr0P57qd6Ac",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 61,
+      "prompt_tokens": 425,
+      "total_tokens": 1020
+    }
+  }
+}

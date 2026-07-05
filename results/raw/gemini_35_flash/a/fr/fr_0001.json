@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0001",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 23.4,
+  "ref_text_raw": "Nous sommes d'accord avec la déclaration de l'USOC (Comité olympique des États-Unis) selon laquelle les intérêts de nos athlètes et de nos clubs, ainsi que de leur sport, pourraient être mieux servis. Cela peut être fait en allant de l'avant et en procédant plutôt à des changements significatifs au sein de notre organisation, qu'à la révocation d'accréditation.",
+  "ref_text_normalized": "nous sommes d'accord avec la déclaration de l'usoc comité olympique des états-unis selon laquelle les intérêts de nos athlètes et de nos clubs ainsi que de leur sport pourraient être mieux servis. cela peut être fait en allant de l'avant et en procédant plutôt à des changements significatifs au sein de notre organisation qu'à la révocation d'accréditation",
+  "timestamp_utc": "2026-07-05T05:01:05Z",
+  "text": "Nous sommes d'accord avec la déclaration de l'USOC, comité olympique des États-Unis, selon laquelle les intérêts de nos athlètes et de nos clubs, ainsi que de leur sport, pourraient être ainsi mieux servis. Cela peut être fait en allant de l'avant et en procédant plutôt à des changements significatifs au sein de notre organisation qu'à la révocation d'accréditation.",
+  "latency_sec": 7.9983,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Nous sommes d'accord avec la déclaration de l'USOC, comité olympique des États-Unis, selon laquelle les intérêts de nos athlètes et de nos clubs, ainsi que de leur sport, pourraient être ainsi mieux servis. Cela peut être fait en allant de l'avant et en procédant plutôt à des changements significatifs au sein de notre organisation qu'à la révocation d'accréditation.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227665,
+    "id": "CuVJaoLqGoaA0-kPotqL6Q4",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 84,
+      "prompt_tokens": 606,
+      "total_tokens": 1765
+    }
+  }
+}

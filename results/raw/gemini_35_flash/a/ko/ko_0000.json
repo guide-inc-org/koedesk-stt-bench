@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0000",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.48,
+  "ref_text_raw": "다리 밑 수직 간격은 15미터이며, 공사는 2011년 8월에 마무리되었으며, 해당 다리의 통행금지는 2017년 3월까지이다.",
+  "ref_text_normalized": "다리 밑 수직 간격은 15미터이며 공사는 2011년 8월에 마무리되었으며 해당 다리의 통행금지는 2017년 3월까지이다",
+  "timestamp_utc": "2026-07-05T06:08:50Z",
+  "text": "다리의 수직 간격은 15m이며 공사는 2011년 8월에 마무리되었으며 해당 다리의 통행 금지는 2017년 3월까지이다.",
+  "latency_sec": 4.6004,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "다리의 수직 간격은 15m이며 공사는 2011년 8월에 마무리되었으며 해당 다리의 통행 금지는 2017년 3월까지이다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EuAGCt0GARFNMg+An2C1FW2bSJ0eIxnSLFV3RCf4dGWHOsbwmkNlK43Vn8vYy9ZbIkGUuG+yYAkx4DhtPjLmlyLI6GPa6eLFWnjXXh+VywZxxLqtpdvDqwQ8vuaneKsD4IGBnGg42MxI00AgZuFhzyvGK6/m7JEj81QBAra0e/clTVNsiNI8bRkyKUBu834QECU6bcXfvhvIC5ShRRwvFL2ATTyJnwPjrJnGX80gtKnCh1bHyMNTOW4+5B/mu1Lhl71rCqEan7q5vKNE7H2T13fvN7I50pCOKhEK0k4Hf6hzqjY/EywIO9+XtiWQ3bYUk7zcvuP5fNDs3NYUiG5+yKjwyCEXcmSJGjFQQ8ZSqka2uuW40jgcsuE0Vqt4EzD43Xsf4wZPpklcIFTyz+DxK4GE+Q1aoUtMyP0o42lmyhNtAbY6doMVL4ZCX3KHEz/uUILEJ05KPvfWYIuj9Tp9Nciz25QBi6McuGpLKZP4vWUiKn9g6Z3iaDPmNIv7YRrCnFV3kBhcC0cZzEnjeOcH1afJxwmKKmoke7UPmECyetxUweC/JsNcS1QZ6CRhQPA6q4J7ZdWzR+FcVhpbFCXFF8wsNEBc9Omibjra30BBaElmOn1kAigF7VCQsRk6xwdhPWOF2BYqwIfjr1CwDlwJ4+i0sjjNLKi7GqmeIOETycARNpgMlY3hsesQ3HssZzoUOlc5MmK3oXP6RfXes0lfzLXQfK51IQtyLDyEoABRrJRsyct0AfHNVDx/Nbtuap9UK9a8V/R0SVbiR+P+aa2B3bKxJq0ve7kIUABSLC8vOEaz06UUY/KpsdrzjMi491j1G+Lrui3NuM3xzBVxSCifshS5q3S1nPfdaja9QBfOW32Qc6aL1jNBOFBiAi89r3Lv0WS/UIxE3FV3Cnfk220iZKZY5DVHdgFqR+FaS670Iwy/EZC4KjHuo8K9VRoIal19inSQ5UN/VwizpinbGO6rZbuyjVDZNJSj3fd6J8m8RkpArPjVXi2gLDI40ZZhfzeMqVw859qrenpxOahO5wLJSvU28owP2OYy6/nEAFLXLOBkTYdqu5uGDCeo19E/IAFqJ+gwscgLyE7XIg2LWiVOKbX2A9dAIDgy/lusJNizi3wbD+I7woVkZ02EpLCuoisAm8sL"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231730,
+    "id": "7_RJatrhLty-vr0P4tf2gQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 333,
+      "total_tokens": 685
+    }
+  }
+}

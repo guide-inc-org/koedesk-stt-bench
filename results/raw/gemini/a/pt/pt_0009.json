@@ -1,0 +1,39 @@
+{
+  "utt_id": "pt_0009",
+  "lang": "pt",
+  "engine": "gemini_25_flash",
+  "duration_sec": 14.4,
+  "ref_text_raw": "Consequentemente, duas espécies de peixe entraram em extinção, e duas outras passaram a correr risco, como a espécie Gila cypha.",
+  "ref_text_normalized": "consequentemente duas espécies de peixe entraram em extinção e duas outras passaram a correr risco como a espécie gila cypha",
+  "timestamp_utc": "2026-07-05T06:27:53Z",
+  "text": "Consequentemente, duas espécies de peixe entraram em extinção e duas outras passaram a correr risco, como a espécie Gilacifa.",
+  "latency_sec": 3.3889,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Consequentemente, duas espécies de peixe entraram em extinção e duas outras passaram a correr risco, como a espécie Gilacifa.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232873,
+    "id": "Z_lJaqr7GZr22roP4enR6AU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 482,
+      "total_tokens": 535
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0003",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.54,
+  "ref_text_raw": "その長い顎には70本以上の鋭い歯が並び、口蓋には別の歯列があり、つまりここを通ったら逃げ道はないということになります。",
+  "ref_text_normalized": "その長い顎には70本以上の鋭い歯が並び 口蓋には別の歯列があり つまりここを通ったら逃げ道はないということになります",
+  "timestamp_utc": "2026-07-05T10:12:57Z",
+  "text": "その長い顎には70 本以上の鋭い歯が並び、口外には別の歯列があり、つまりここを通ったら逃げ道はないということになります。",
+  "latency_sec": 2.7058,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "その長い顎には70 本以上の鋭い歯が並び、口外には別の歯列があり、つまりここを通ったら逃げ道はないということになります。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPkX2LxI56HbhAIqC8Z/GdfLxL1hdY+KhIMkUPPPbZnzzkVvCuskDlPoWup3ox"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246377,
+    "id": "Jy5KaqPjKbvN2roPnu2ysAU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 335,
+      "total_tokens": 370
+    }
+  }
+}

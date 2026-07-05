@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0083",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.76,
+  "ref_text_raw": "1990 年，由于沙漠的威胁，它被列入了濒危世界遗产名录。",
+  "ref_text_normalized": "1990 年 由 于 沙 漠 的 威 胁 它 被 列 入 了 濒 危 世 界 遗 产 名 录",
+  "timestamp_utc": "2026-07-05T09:15:37Z",
+  "text": "1990 年，由于沙漠的威胁，它被列入了濒危世界遗产名录。",
+  "latency_sec": 2.5449,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "1990 年，由于沙漠的威胁，它被列入了濒危世界遗产名录。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPUjwo4Ivlp+8TXh1vRcgxzGPVB6lUP0mpCAteGwBr51KidpjVaBoGmNUzVo4p"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242937,
+    "id": "uCBKatXPGuvYvr0P_YW_6QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 240,
+      "total_tokens": 262
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0115",
+  "lang": "de",
+  "engine": "gemini_25_pro",
+  "duration_sec": 12.48,
+  "ref_text_raw": "Die Kreuzfahrten nach Sankt Petersburg bieten auch Zeit für einen Aufenthalt in der Stadt. Kreuzfahrtpassagiere sind von der Visumpflicht befreit (siehe Bedingungen).",
+  "ref_text_normalized": "die kreuzfahrten nach sankt petersburg bieten auch zeit für einen aufenthalt in der stadt. kreuzfahrtpassagiere sind von der visumpflicht befreit siehe bedingungen",
+  "timestamp_utc": "2026-07-05T03:51:23Z",
+  "text": "Die Kreuzfahrten nach St. Petersburg bieten auch Zeit für einen Aufenthalt in der Stadt. Kreuzfahrtpassagiere sind von der Visumspflicht befreit, siehe Bedingungen.",
+  "latency_sec": 4.5158,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Die Kreuzfahrten nach St. Petersburg bieten auch Zeit für einen Aufenthalt in der Stadt. Kreuzfahrtpassagiere sind von der Visumspflicht befreit, siehe Bedingungen.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223483,
+    "id": "t9RJavT9OabX2roP9O2X-Qg",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 421,
+      "total_tokens": 505
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "es_0160",
+  "lang": "es",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 19.44,
+  "ref_text_raw": "Perry sostuvo que: «Volvería a Texas a evaluar los resultados de la reunión electoral de hoy y determinar si hay un camino que debo seguir». Luego dijo que permanecería en carrera y que competiría en las elecciones primarias del 21 de enero, en Carolina del Sur».",
+  "ref_text_normalized": "perry sostuvo que: «volvería a texas a evaluar los resultados de la reunión electoral de hoy y determinar si hay un camino que debo seguir». luego dijo que permanecería en carrera y que competiría en las elecciones primarias del 21 de enero en carolina del sur»",
+  "timestamp_utc": "2026-07-05T04:41:58Z",
+  "text": "Perry sostuvo que volvería a Texas a evaluar los resultados de la reunión electoral de hoy y determinar si hay un camino que debo seguir. Luego dijo que permanecería en carrera y que competiría en las elecciones primarias del 21 de enero en Carolina del Sur.",
+  "latency_sec": 4.6891,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Perry sostuvo que volvería a Texas a evaluar los resultados de la reunión electoral de hoy y determinar si hay un camino que debo seguir. Luego dijo que permanecería en carrera y que competiría en las elecciones primarias del 21 de enero en Carolina del Sur.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226518,
+    "id": "k-BJap27Co-D1e8P9I7h6AE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 54,
+      "prompt_tokens": 508,
+      "total_tokens": 946
+    }
+  }
+}

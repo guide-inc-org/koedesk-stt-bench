@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0119",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 16.02,
+  "ref_text_raw": "然而，广泛耐药结核病在整个结核病患者群体中所占的比例似乎仍然很低；在南非，在任意特定时刻，总计 33 万人中只有 6000 人感染。",
+  "ref_text_normalized": "然 而 广 泛 耐 药 结 核 病 在 整 个 结 核 病 患 者 群 体 中 所 占 的 比 例 似 乎 仍 然 很 低 在 南 非 在 任 意 特 定 时 刻 总 计 33 万 人 中 只 有 6000 人 感 染",
+  "timestamp_utc": "2026-07-05T09:17:50Z",
+  "text": "然而，广散耐药结核病在整个结核病患者群体中所占的比例仍然很低。在南非，在任意特定时刻，总计33万人中只有6000人感染。",
+  "latency_sec": 2.8571,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "然而，广散耐药结核病在整个结核病患者群体中所占的比例仍然很低。在南非，在任意特定时刻，总计33万人中只有6000人感染。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP38SUXcXTNFauRmCixly7fM+6OxTJHOxcHPrRNwaJyntsHqYlrKamegIgauM7"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243070,
+    "id": "PCFKapvaK_ia1e8P4ZHFoQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 422,
+      "total_tokens": 469
+    }
+  }
+}

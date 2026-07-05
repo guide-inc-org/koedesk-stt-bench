@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0006",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.88,
+  "ref_text_raw": "パリジャンは、自己中心的で横柄で失礼な人が多いと言われています。",
+  "ref_text_normalized": "パリジャンは 自己中心的で横柄で失礼な人が多いと言われています",
+  "timestamp_utc": "2026-07-05T10:13:07Z",
+  "text": "パリジャンは自己中心的だ。横柄で失礼な人が多いと言われています。",
+  "latency_sec": 2.57,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "パリジャンは自己中心的だ。横柄で失礼な人が多いと言われています。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP/bw6D0pqLSFwFd+51Mnv2SRW6U6XUxvtdYUkmRmkGK8OB9eMvBEVkjmbmUsH"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246387,
+    "id": "Mi5Kauxz8dbaug-j3pzBAQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 244,
+      "total_tokens": 262
+    }
+  }
+}

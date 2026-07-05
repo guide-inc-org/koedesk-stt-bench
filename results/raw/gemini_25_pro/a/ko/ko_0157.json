@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0157",
+  "lang": "ko",
+  "engine": "gemini_25_pro",
+  "duration_sec": 12.78,
+  "ref_text_raw": "이 다리는 브라질 세관 검문소의 시공이 완료되는 2017년 9월에 전면 가동될 예정이다.",
+  "ref_text_normalized": "이 다리는 브라질 세관 검문소의 시공이 완료되는 2017년 9월에 전면 가동될 예정이다",
+  "timestamp_utc": "2026-07-05T06:14:01Z",
+  "text": "이 다리는 브라질 세관 검문소에 시공이 완료되는 2017년 9월에 전면 가동될 예정이다.",
+  "latency_sec": 5.641,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "이 다리는 브라질 세관 검문소에 시공이 완료되는 2017년 9월에 전면 가동될 예정이다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232041,
+    "id": "JfZJarPmFcvb2roP0s2koQM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 430,
+      "total_tokens": 794
+    }
+  }
+}

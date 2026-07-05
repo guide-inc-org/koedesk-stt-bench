@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0075",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.4,
+  "ref_text_raw": "虽然这通常只是一种不准确的刻板印象，但在巴黎生活的最佳方式仍然是尽量举止得当，表现得像一个有 “bien élevé”（教养良好）的人。这会让参加社会活动变得容易得多。",
+  "ref_text_normalized": "虽然这通常只是一种不准确的刻板印象但在巴黎生活的最佳方式仍然是尽量举止得当表现得像一个有  bien élevé”教养良好的人这会让参加社会活动变得容易得多",
+  "timestamp_utc": "2026-07-05T09:15:09Z",
+  "text": "虽然这通常只是一种不准确的刻板印象，但在巴黎生活的最佳方式仍然是举止尽量得当，表现得像一个有边ivo，教养良好的人，这会让参加社会活动变得容易很多。",
+  "latency_sec": 3.1718,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "虽然这通常只是一种不准确的刻板印象，但在巴黎生活的最佳方式仍然是举止尽量得当，表现得像一个有边ivo，教养良好的人，这会让参加社会活动变得容易很多。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPXXFH5x4D5nDpTGKX91mOjdPY98pkXdKwuIHB6kiVcWmgszOVoj4jHqr+urE1"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242909,
+    "id": "myBKap7ELqyv1e8P3_jVaA",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 381,
+      "total_tokens": 428
+    }
+  }
+}

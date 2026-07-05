@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0106",
+  "lang": "es",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.68,
+  "ref_text_raw": "Se acoge a los niños en hogares de guarda por una amplia variedad de motivos, desde negligencia hasta abuso e, incluso, extorsión.",
+  "ref_text_normalized": "se acoge a los niños en hogares de guarda por una amplia variedad de motivos desde negligencia hasta abuso e incluso extorsión",
+  "timestamp_utc": "2026-07-05T04:21:18Z",
+  "text": "Se acoge a los niños en hogares de guarda por una amplia variedad de motivos, desde negligencia hasta abuso e incluso extorsión.",
+  "latency_sec": 4.9989,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Se acoge a los niños en hogares de guarda por una amplia variedad de motivos, desde negligencia hasta abuso e incluso extorsión.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225278,
+    "id": "u9tJaoCXHcD21e8P0dn2qQE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 363,
+      "total_tokens": 450
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0119",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.66,
+  "ref_text_raw": "Ses longues mâchoires étaient dotées de plus de 70 dents acérées comme des lames de rasoir, ainsi que d'une série supplémentaire de dents dans le palais, de sorte que tout ce qui croisait son chemin ne pouvait pas s'échapper.",
+  "ref_text_normalized": "ses longues mâchoires étaient dotées de plus de 70 dents acérées comme des lames de rasoir ainsi que d'une série supplémentaire de dents dans le palais de sorte que tout ce qui croisait son chemin ne pouvait pas s'échapper",
+  "timestamp_utc": "2026-07-05T04:54:30Z",
+  "text": "Si une longue mâchoire était dotée de plus de 70 dents acérées comme des lames de rasoir, ainsi que d'une série supplémentaire de dents dans le palais de sorte que tous ceux qui croisaient son chemin ne pouvaient pas s'échapper.",
+  "latency_sec": 3.6631,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Si une longue mâchoire était dotée de plus de 70 dents acérées comme des lames de rasoir, ainsi que d'une série supplémentaire de dents dans le palais de sorte que tous ceux qui croisaient son chemin ne pouvaient pas s'échapper.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227270,
+    "id": "hONJatv6CZ2C0-kPjp3EsQM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 56,
+      "prompt_tokens": 427,
+      "total_tokens": 509
+    }
+  }
+}

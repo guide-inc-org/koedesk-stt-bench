@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0067",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.32,
+  "ref_text_raw": "该报告对行政当局目前对伊拉克政策的几乎每一个方面都提出了严厉批评，并敦促立即改变方向。",
+  "ref_text_normalized": "该 报 告 对 行 政 当 局 目 前 对 伊 拉 克 政 策 的 几 乎 每 一 个 方 面 都 提 出 了 严 厉 批 评 并 敦 促 立 即 改 变 方 向",
+  "timestamp_utc": "2026-07-05T09:14:39Z",
+  "text": "该 报告 对 行政 当局 目前 对 伊拉克 政策 的 几乎 每个 方面 都 提出 了 严厉 批评 ， 并 敦促 立即 改变 方向 。",
+  "latency_sec": 3.1291,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "该 报告 对 行政 当局 目前 对 伊拉克 政策 的 几乎 每个 方面 都 提出 了 严厉 批评 ， 并 敦促 立即 改变 方向 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPlGaOQwetfe3h1IVRD7nftabxH60540Z/0XJhNeQ2I+n8WFKLmUhMllt88yYd"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242880,
+    "id": "fiBKavjCJb_L0-kPu6eA2AI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 279,
+      "total_tokens": 318
+    }
+  }
+}

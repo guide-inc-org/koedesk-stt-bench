@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0041",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.52,
+  "ref_text_raw": "香港島は、その名のとおり香港の領土であり、観光の目玉として多くの観光客が訪れる場所です。",
+  "ref_text_normalized": "香港島は その名のとおり香港の領土であり 観光の目玉として多くの観光客が訪れる場所です",
+  "timestamp_utc": "2026-07-05T10:15:12Z",
+  "text": "香港島は、その名の通り香港の領土であり、観光の目玉として多くの観光客が訪れる場所です。",
+  "latency_sec": 2.8245,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "香港島は、その名の通り香港の領土であり、観光の目玉として多くの観光客が訪れる場所です。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPWp+PLqiOSg5UD375rNpXnLCKKYW7PDhblSAoSBcpyilU10ZOBi/V/K3UNsdF"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246513,
+    "id": "ry5KauCMIoGM0-kP4LLDwQk",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 309,
+      "total_tokens": 336
+    }
+  }
+}

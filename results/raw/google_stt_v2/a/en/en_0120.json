@@ -1,0 +1,36 @@
+{
+  "utt_id": "en_0120",
+  "lang": "en",
+  "engine": "google_stt_v2",
+  "duration_sec": 6.72,
+  "ref_text_raw": "The cabbage juice changes color depending on how acidic or basic (alkaline) the chemical is.",
+  "ref_text_normalized": "the cabbage juice changes color depending on how acidic or basic alkaline the chemical is",
+  "timestamp_utc": "2026-07-05T03:33:33Z",
+  "text": "The cabbage juice changes colors depending on how acidic or basic alkaline the chemical is.",
+  "latency_sec": 3.3033,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "en-US",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "7s",
+      "requestId": "7478a3c0-0000-2336-9b17-582429a8d614",
+      "prompt": "Transcribe the following speech segment in English. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, English."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "The cabbage juice changes colors depending on how acidic or basic alkaline the chemical is."
+          }
+        ],
+        "languageCode": "en-US"
+      }
+    ]
+  }
+}

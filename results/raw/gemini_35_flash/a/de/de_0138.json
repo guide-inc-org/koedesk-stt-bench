@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0138",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.96,
+  "ref_text_raw": "Der Mosasaurus war das größte Raubtier seiner Zeit, somit fürchtete er sich vor nichts außer anderen Mosasauriern.",
+  "ref_text_normalized": "der mosasaurus war das größte raubtier seiner zeit somit fürchtete er sich vor nichts außer anderen mosasauriern",
+  "timestamp_utc": "2026-07-05T04:07:35Z",
+  "text": "Der Mosasaurus war der größte Raubtier seiner Zeit. Somit fürchtete er sich vor nichts, außer anderen Mosasauriern.",
+  "latency_sec": 4.6891,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Der Mosasaurus war der größte Raubtier seiner Zeit. Somit fürchtete er sich vor nichts, außer anderen Mosasauriern.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224455,
+    "id": "hNhJasmdFs-a1e8P7YSs0QE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 271,
+      "total_tokens": 724
+    }
+  }
+}

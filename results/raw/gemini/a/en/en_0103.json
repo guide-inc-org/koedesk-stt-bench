@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0103",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.8,
+  "ref_text_raw": "The announcement was made after Trump had a phone conversation with Turkish President Recep Tayyip Erdoğan.",
+  "ref_text_normalized": "the announcement was made after trump had a phone conversation with turkish president recep tayyip erdoğan",
+  "timestamp_utc": "2026-07-05T03:25:16Z",
+  "text": "The announcement was made after Trump had a phone conversation with President Turkish President Resip Tayyip Erdogan.",
+  "latency_sec": 3.3559,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The announcement was made after Trump had a phone conversation with President Turkish President Resip Tayyip Erdogan.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221917,
+    "id": "m85JapKXD__R1e8PsqiM8QM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 367,
+      "total_tokens": 386
+    }
+  }
+}

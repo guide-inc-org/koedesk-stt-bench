@@ -1,0 +1,39 @@
+{
+  "utt_id": "id_0006",
+  "lang": "id",
+  "engine": "gemini_25_flash",
+  "duration_sec": 5.22,
+  "ref_text_raw": "Di kepulauan dan danau, Anda tidak perlu kapal pesiar.",
+  "ref_text_normalized": "di kepulauan dan danau anda tidak perlu kapal pesiar",
+  "timestamp_utc": "2026-07-05T05:19:42Z",
+  "text": "Di kepulauan dan danau, Anda tidak perlu kapal pesiar.",
+  "latency_sec": 3.4771,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Di kepulauan dan danau, Anda tidak perlu kapal pesiar.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228782,
+    "id": "bOlJaoEtp8qt9w_k-KjZAw",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 15,
+      "prompt_tokens": 189,
+      "total_tokens": 268
+    }
+  }
+}

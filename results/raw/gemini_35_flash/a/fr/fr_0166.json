@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0166",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 5.52,
+  "ref_text_raw": "Dans le climat chaud du Moyen-Orient, la maison n'était pas si importante.",
+  "ref_text_normalized": "dans le climat chaud du moyen-orient la maison n'était pas si importante",
+  "timestamp_utc": "2026-07-05T05:16:11Z",
+  "text": "Dans le climat chaud du Moyen-Orient, la maison n'était pas si importante.",
+  "latency_sec": 3.6709,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Dans le climat chaud du Moyen-Orient, la maison n'était pas si importante.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtsFCtgFARFNMg8wdLlUZ5pn35Jp8/sVkCo9a06YfNUBvvKymHcR2fxJNN8DjGdLcFSMhqU3egKTVpFsMmVJe1YdSWxGVwpcYTWi7HLHzJWZITG+DTabwHlf5YTFRZ7/52AjORuWAV1KrtbbOCgwP6n0b8DpAuDyVPsoePncCxqwIXZsfiAiHCkxOBYIMfXQIcxX6p4/s2oSZkLcOdzRm5HJrLR6jYgrPaFTnmZsFTKw0gi++bDkA3S5+kHWTaN0r8adfeyGreXv1PIt+IN5vX0vcZQJgJ1wK07g5goRZiUIl1DZJ9jNMkMBbEgrD4h/YPbz5qSlmofEJago8sng5uXDBmzA1LUTfkiNOX1iC/GztPUZ4B/wZ/06TLg8qdRinj++WhS2coNBJJsBNz1K5ReqpNFnIqzie3sVl9JEscS+bwqWBWHieDyTOXoYjtdvsiuKNr/IB1NDa+zM/9jgPjEk4gcQKaMJ0UjyyRzJw2k6++y7IoUY1lp/cK/D6+JHbxbaV11Omc3KUvTN1iwh2p4qn8sB49fa2B+JQH9RbGJZKiORTLkesSNro0kgPcKh8UnCKuH73aMBF1BxeYfgcVmGxgJ+RRo6BCBKTG9arY3isuJAWENLa0MJUsgpdOc4/SmGYLZYBCioUmzTTNTa+3Ar9xKqj/Kh5FNDESkYzQ0SpPY2oVPZCYgKRBskXLfm6UwyfeMibXkczCq/o4T4PSrBUGdG36I7Kg0/kP/f8FLmbvUwQQ75ISy3ZbjGCVyN6jWrP+wCS08lamA1A3pB8+lGoGpBt+YxrR7/QJFnPWozqOnMI+VaYJKeeGFDWUVgGiK27QZorU/mfREU8eiDfk7BVPjDVIvGtmhbQmIwUS2Mz22VB5Xpc78gxKbcbOQpRpCjTwvTn3HXdwOffZhaaF0L8CGIMenGucXudojcIw4mSpo2wafXTcctvAa3dkdL4FeqO/ssr8/GJhkZ6L8="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228571,
+    "id": "mehJatXgAYTG0-kPurji2AU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 159,
+      "total_tokens": 402
+    }
+  }
+}

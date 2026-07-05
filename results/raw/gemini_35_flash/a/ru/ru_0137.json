@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0137",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.96,
+  "ref_text_raw": "Его длинные челюсти были усеяны более чем 70 острейшими зубами, вдобавок имелся дополнительный ряд на нёбе, так что тем, кто встречался на его пути, не было спасения.",
+  "ref_text_normalized": "его длинные челюсти были усеяны более чем 70 острейшими зубами вдобавок имелся дополнительный ряд на нёбе так что тем кто встречался на его пути не было спасения",
+  "timestamp_utc": "2026-07-05T07:28:40Z",
+  "text": "Его длинные челюсти были усеяны более чем семьюдесятью острейшими зубами, вдобавок имелся дополнительный ряд на нёбе, так что тем, кто встречался на его пути, не было спасения.",
+  "latency_sec": 4.4303,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Его длинные челюсти были усеяны более чем семьюдесятью острейшими зубами, вдобавок имелся дополнительный ряд на нёбе, так что тем, кто встречался на его пути, не было спасения.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236520,
+    "id": "pQdKavq_JoTG0-kPurji2AU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 56,
+      "prompt_tokens": 345,
+      "total_tokens": 728
+    }
+  }
+}

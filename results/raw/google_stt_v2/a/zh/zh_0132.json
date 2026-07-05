@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0132",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 9.48,
+  "ref_text_raw": "如果只是在乘船游览的情况下登岸，则不需要单独的签证（规定截至 2009 年）。",
+  "ref_text_normalized": "如 果 只 是 在 乘 船 游 览 的 情 况 下 登 岸 则 不 需 要 单 独 的 签 证 规 定 截 至 2009 年",
+  "timestamp_utc": "2026-07-05T06:30:01Z",
+  "text": "如果只是乘船游览台海情况下的登岸，则不需要单独的签证（规定截止2009年）。",
+  "latency_sec": 3.6473,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "10s",
+      "requestId": "7442b431-0000-263e-843b-f4f5e8031264",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "如果只是乘船游览台海情况下的登岸，则不需要单独的签证（规定截止2009年）。"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

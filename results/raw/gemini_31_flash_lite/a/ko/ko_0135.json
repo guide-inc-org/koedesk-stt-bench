@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0135",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.4,
+  "ref_text_raw": "마르텔리는 어제 9명으로 이뤄진 임시 선거위원회(CEP) 취임을 위한 선서를 했습니다.",
+  "ref_text_normalized": "마르텔리는 어제 9명으로 이뤄진 임시 선거위원회cep 취임을 위한 선서를 했습니다",
+  "timestamp_utc": "2026-07-05T06:27:04Z",
+  "text": "바르텔리는 어제 9명으로 이루어진 임시상가위원회 CEP 취임을 위한 선서를 했습니다.",
+  "latency_sec": 4.2664,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "바르텔리는 어제 9명으로 이루어진 임시상가위원회 CEP 취임을 위한 선서를 했습니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPkEk4ozjkVG/i+uucf8xO/DMrb/817cbuODeOZ/YhaebNqovYtRjrGwKvt6w8"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232824,
+    "id": "NflJapHEGZ2C0-kPjp3EsQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 306,
+      "total_tokens": 331
+    }
+  }
+}

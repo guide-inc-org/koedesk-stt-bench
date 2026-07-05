@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0045",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.0,
+  "ref_text_raw": "บางคนเห็นด้วยกับความคิดของเขา แต่อีกหลายคนเชื่อในทางตรงข้ามว่าระบบสุริยะ รวมทั้งดวงอาทิตย์ (และแม้แต่ดาวฤกษ์ดวงอื่น ๆ) เคลื่อนที่รอบโลก",
+  "ref_text_normalized": "บางคนเห็นด้วยกับความคิดของเขา แต่อีกหลายคนเชื่อในทางตรงข้ามว่าระบบสุริยะ รวมทั้งดวงอาทิตย์ และแม้แต่ดาวฤกษ์ดวงอื่น ๆ เคลื่อนที่รอบโลก",
+  "timestamp_utc": "2026-07-05T07:55:29Z",
+  "text": "บางคนเห็นด้วยกับความคิดของเขา แต่อีกหลายคนเชื่อในทางตรงกันข้ามว่าระบบสุริยะ รวมทั้งดวงอาทิตย์ และแม้แต่ดาวฤกษ์ดวงอื่นๆ เคลื่อนที่รอบโลก",
+  "latency_sec": 4.1212,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "บางคนเห็นด้วยกับความคิดของเขา แต่อีกหลายคนเชื่อในทางตรงกันข้ามว่าระบบสุริยะ รวมทั้งดวงอาทิตย์ และแม้แต่ดาวฤกษ์ดวงอื่นๆ เคลื่อนที่รอบโลก",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EoALCv0KARFNMg9Le6aMz8SSEJwK3Gijp6eBPillJrcAPOvAlhteX1tzNwaLsS1mYwMjIGGhovlzqUFgMXLLkJ0rBTJX9ACb5Zx7ukaO+JHWM1Q9vKGk//1SGDchBFXlZYeCgtxhkCSz0I60CWf3mem8Jmo5ZGW560ePXLslKj6srjDtGc/TqyGUf2j8rxZU2uNIgv94RLnkTJhJtORUGbhIC7pl+ZpKnDy4w79YCl7xe5Tqlf4+bLJ1fqwDZZ4LqYk2zyx6tS+W2Fp/gyAM0bLLh064gl2qsmly1rO8uj36UM4FwylaSWHASN90p9PtWEaEUV+6QrSYmAEFAbvnIJu4fHNiSsrD8ECRHt99vN2n4qNnN0x7c7H2wRm51YBGWsjPRQVzqI4CEET/5uUupoR84wewnDWndKXzryrxCilg4HqFtBH3S2xwtqSFlxq9YzS6nU7gBfzAHH9fw9blVcMT/C2TBqhQ8aYT443s8MP2uDDeuECrH8E07V4Ut9UtaNXLdYKZEun8Xp5gK1R81XpSCKAlEItEHyixZmXiZN9a5X5+iJGBjuI89q8Vr5s8AaHSXZGEvV7rODN79xiLfZuB5QkkQMCZYEck7LGqaXsnLfY656JJ+FffFKHTSshFpXvKbHhx63X9YjEIo2aFG3S0dvjJJomwgFM0gFO7BCdtdDbNrX/WkA97ytaQ5t9FCi+bx0T62AToOGS2TIEVo2PMx48zm14xVwBr6tbZwDCiE9TKiOZKDhMcRq+YjW8om/m9E4dyvB8wkKFKBdINQx46DjJw0qVOYR7wfGT+WpfL1TOOe9MDf75e0m2hOw2Fb7W7AYRgj+tsL8QDEEk8xKYXdf4pkgv70OMBLNphwa2zrNFd7m9yORIlwj/JDA5jQUk7cy8Qactho4eIYFyzxkDip4pSJTGjn3ycSumerhl/wZkfgRpTunWJ6ecmOeWgq8yuHAcQSzTgbtz7Q+y1idNuThh2LBj/VCA2jjUqmWsSJ7FTnqNOzmp8VbIGfgDavTXx/WydiyxK0R7b12zYbSAYNmnYTntyokXUGLBtuLe1hqDOhKUFFfo325Dm3+6mD7HXk3eiiedkGBjbkRVylPi60mSH07jx763LtcHN2bFI6vQ1p5Juj5CyJsQ467rgT03Vjobtv8A1LqE6Fi4CtHmd78TjbFN1LQI85s06rrCh1nxA2ZdsnPF255tsUVFJqAwY/JS4LY91+fHHmtJZAHPDMVtSP5mg/x6/BGGL/SDM2x9pjuhlZ0f79J6U/skzieW9y/awgrSoCVesooIYZ32TAyXvh8pwFmnI0aiD3NXemce510RaovNkhLgPBcs9Pvyf///qtLJHk8F81Dw01vNOcFSix03worm/u+yF/YZcUxiho3xuwUnufu52EI2cUa9gx0aARTW05XP5ppL5h7jc9NPLuMI6ov4tf5Hn1Xa81WFX54TiQ0tW+XfFtNG1mgY9PB/UEs/C6cKLnYM5YjWAix1QpfErTWi+hQXzifuNuufIcxMPjiE46NLhRe2gaTZU21b2MbZoBb8ncSlgwJ13JOYFSh1I1zjkkvlsPivuFgrHCvAtTgI5JXtCXYUObOcDALvqyRdejlZtvMVD4iyalOWmIh9K+wkCnEffKUY0LCWR67YLJLrR2T0eWwl+nE2J6RqoKZ5AbnnqIP1XMQHlpUvI8zFCDvRSgUVOm1ehJkj6enr75+CsezksgrMRdmHChIK4CBDPQtwQr/xzIUzZ5sNiH4WOF2zwgeLvoB3X6v/gPx8Ahx+EoGEs+8WppC95jdjlgAc3NjN8UuDvdR/a6zKZwGC1G8iaoZLhGwG8a/whFF0uMMe4Lsd2GBOa4kqLoGy4dEf3XfEXnfKz2Nc9gQ=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238129,
+    "id": "7g1KapqwLv6e0-kP-tbAuA4",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 49,
+      "prompt_tokens": 321,
+      "total_tokens": 558
+    }
+  }
+}

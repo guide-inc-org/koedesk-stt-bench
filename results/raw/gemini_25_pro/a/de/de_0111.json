@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0111",
+  "lang": "de",
+  "engine": "gemini_25_pro",
+  "duration_sec": 6.24,
+  "ref_text_raw": "Das Amt für Katastrophenschutz der nördlichen Marianen sagte, dass im Land keine Schäden gemeldet wurden.",
+  "ref_text_normalized": "das amt für katastrophenschutz der nördlichen marianen sagte dass im land keine schäden gemeldet wurden",
+  "timestamp_utc": "2026-07-05T03:51:00Z",
+  "text": "Das Amt für Katastrophenschutz der Nördlichen Marianen sagte, dass im Land keine Schäden gemeldet wurden.",
+  "latency_sec": 4.3444,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Das Amt für Katastrophenschutz der Nördlichen Marianen sagte, dass im Land keine Schäden gemeldet wurden.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223460,
+    "id": "odRJauWsH8qn2roP1aC6yAE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 221,
+      "total_tokens": 334
+    }
+  }
+}

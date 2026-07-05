@@ -1,0 +1,45 @@
+{
+  "utt_id": "es_0072",
+  "lang": "es",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.38,
+  "ref_text_raw": "El color del jugo de repollo se verá alterado en función de cuán ácida o básica (alcalina) sea la sustancia química.",
+  "ref_text_normalized": "el color del jugo de repollo se verá alterado en función de cuán ácida o básica alcalina sea la sustancia química",
+  "timestamp_utc": "2026-07-05T04:34:45Z",
+  "text": "El color del jugo de repollo se verá alterado en función de cuán ácida o básica, alcalina, sea la sustancia química.",
+  "latency_sec": 3.363,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "El color del jugo de repollo se verá alterado en función de cuán ácida o básica, alcalina, sea la sustancia química.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EsAFCr0FARFNMg/OAzeNcQxPHlKCUUhvNkqKlufo+gfMj6SU8/G6vii+lv4FxxdMxZQewvYLQxVAA6ltj37lL7WxExdV5zy2YRPMrmJ0YW3c8nnIrF2VfnAIuiBXsD5Xi/U2vAiAFSJETK0Rf7nXXb7ZvINon2cwlqDIPZoXI18JTHJ4OV+0z1sZt8SU6U+JIfqUViR/h8O1RwJEt+5v1ZiksLL9XvZafd15WYP40beDFwMTzaEGLK30+psauE4pzVFyqeli2f2jJYVNeNx7FA48r5oW2ISK8mDmBo4O/j1WdgMd/CSQvOWFL6nuAhBNV3ISqJGmmxYV68mh2BUVIdfx256j/h7jsMzuwyQ0iQpgtsLUNUv1WpARAPQvdmkUsICtxqYaWYovrf2jMRO5+E2YRBgD8G/oJzoC8c3Tix/oyT93omjqToZA6O8dq1samw4/Vt7TyECnG0cK4sKIJ+LxO+Xdw3Sa1y+LhZLrkkJCJqbjxNCfj7AS4zfTrpCIIFVrj5GO5w6VV2F5fYYbS24dN0vlbJ31NcC0hOypkC1zs86Kz+kkIYOtdVDi9hm0EXLF4en8gov6s1Ttk1uhKaybsuJM4Ku6V6VBYewKFx97TY2rPM/IDUNPzoxLNCehgOJjZ7bEdfmliQ20vmQTJRBp+r6rBCq8YAp5yDLvTBY4waMlONrlluA9AS8TFFsgoqr1DkshXDw7QIZzoo5b5oK7WuUzrAHIXsZPLHu17QH2nUgjExdkvlNqF0UoDnC8Lds/kUlSUd/J7zXSdQqvLPZFK61MiIA6D/TecW6IaRurid0sfBOPWJRF6Mo67t6wxGWZPBPC5ECMsK71MrsAukHOfSebtd2hLY8hJ4GH+UBm849k9pQ1o2ZBx6cK8h81+ylHBDupRqaJ0i2FVdYPiKYm3YTlKY7TA/Ol8+9Z7uV4MkY="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226085,
+    "id": "495Javy-Bb3dvr0Pv4K6sQE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 281,
+      "total_tokens": 472
+    }
+  }
+}

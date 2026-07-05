@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0002",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.28,
+  "ref_text_raw": "Il a ajouté qu’« on ne devrait cependant pas leur demander d’assumer des obligations qui dépassent leur stade de développement, leur responsabilité et leurs capacités. »",
+  "ref_text_normalized": "il a ajouté qu’« on ne devrait cependant pas leur demander d’assumer des obligations qui dépassent leur stade de développement leur responsabilité et leurs capacités. »",
+  "timestamp_utc": "2026-07-05T05:09:26Z",
+  "text": "Il a ajouté qu'on ne devrait cependant pas leur demander d'assumer des obligations qui dépassent leur stade de développement, de responsabilité et leur capacité.",
+  "latency_sec": 3.4931,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Il a ajouté qu'on ne devrait cependant pas leur demander d'assumer des obligations qui dépassent leur stade de développement, de responsabilité et leur capacité.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP2ujFq883Z6jM2cHuvmPomIh+nGXsQW6TVkEM0kuDVq1oqymYMQw++to+aS2s"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228166,
+    "id": "BedJatTCDrup2roP26eg2QY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 228,
+      "total_tokens": 260
+    }
+  }
+}

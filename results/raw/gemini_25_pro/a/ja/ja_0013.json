@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0013",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.08,
+  "ref_text_raw": "ロランド・メンドーサはM16ライフルで観光客に発砲しました。",
+  "ref_text_normalized": "ロランド メンドーサはm16ライフルで観光客に発砲しました",
+  "timestamp_utc": "2026-07-05T10:02:56Z",
+  "text": "ロランド・メンドーサは M 16ライフルで観光客に発砲しました。",
+  "latency_sec": 3.9026,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ロランド・メンドーサは M 16ライフルで観光客に発砲しました。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783245776,
+    "id": "zStKasugLb3KrfcPzfG_-QM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 344,
+      "total_tokens": 418
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0185",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 19.2,
+  "ref_text_raw": "การประกาศปกติในรถไฟใต้ดินจะประกาศเป็นภาษาคาตาลันเท่านั้น แต่ระบบอัตโนมัติจะประกาศการหยุดชะงักที่ไม่ได้วางแผนไว้ในหลายภาษา รวมถึงภาษาสเปน อังกฤษ ฝรั่งเศส อาหรับ และญี่ปุ่น",
+  "ref_text_normalized": "การประกาศปกติในรถไฟใต้ดินจะประกาศเป็นภาษาคาตาลันเท่านั้น แต่ระบบอัตโนมัติจะประกาศการหยุดชะงักที่ไม่ได้วางแผนไว้ในหลายภาษา รวมถึงภาษาสเปน อังกฤษ ฝรั่งเศส อาหรับ และญี่ปุ่น",
+  "timestamp_utc": "2026-07-05T08:12:15Z",
+  "text": "การ ประกาศ ปกติ ใน รถ ไฟ ใต้ ดิน จะ ประกาศ เป็น ภาษา คา ตาลัน เท่า นั้น แต่ ระบบ อัตโนมัติ จะ ประกาศ การ ใช้ หยุด ชะงัก ที่ ไม่ ได้ วาง แผน ไว้ ใน หลาย ภาษา รวม ถึง ภาษา สเปน อังกฤษ ฝรั่งเศส อาหรับ และ ญี่ปุ่น",
+  "latency_sec": 2.8911,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "การ ประกาศ ปกติ ใน รถ ไฟ ใต้ ดิน จะ ประกาศ เป็น ภาษา คา ตาลัน เท่า นั้น แต่ ระบบ อัตโนมัติ จะ ประกาศ การ ใช้ หยุด ชะงัก ที่ ไม่ ได้ วาง แผน ไว้ ใน หลาย ภาษา รวม ถึง ภาษา สเปน อังกฤษ ฝรั่งเศส อาหรับ และ ญี่ปุ่น",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP1lPVSbAt23jMcL2bbjIx+FRluTTy0uqMPXDjN3osHAmgCNadLOGfTljqACX1"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239135,
+    "id": "3RFKau62N_jG2roPjLn34AI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 68,
+      "prompt_tokens": 501,
+      "total_tokens": 569
+    }
+  }
+}

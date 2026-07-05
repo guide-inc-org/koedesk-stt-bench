@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0149",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.8,
+  "ref_text_raw": "カサブランカはモロッコで最も買い物を楽しみにくい場所の1つです。",
+  "ref_text_normalized": "カサブランカはモロッコで最も買い物を楽しみにくい場所の1つです",
+  "timestamp_utc": "2026-07-05T03:20:11Z",
+  "text": "カサブランカ は モロッコ で 最も 買い物 を 楽しみ にくい 場所 の 1 つ です 。",
+  "latency_sec": 2.9012,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "カサブランカ は モロッコ で 最も 買い物 を 楽しみ にくい 場所 の 1 つ です 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPmi9M9WVCFk0m7/SmRDsgzKtZNBuuG5BxpbiH1xumajaXlWiTQV77spTdUPLF"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221611,
+    "id": "ac1Jar3QKP6e0-kP-tbAuA4",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 216,
+      "total_tokens": 241
+    }
+  }
+}

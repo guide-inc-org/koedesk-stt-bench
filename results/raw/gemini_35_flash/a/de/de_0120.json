@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0120",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 35.04,
+  "ref_text_raw": "Trotzdem ist der Anteil an XDR-TB in der gesamten Gruppe der Leute mit Tuberkulose offenbar dennoch gering; 6.000 der insgesamt 330.000 Leute, die in Südafrika zu einem bestimmten Zeitpunkt angesteckt sind.",
+  "ref_text_normalized": "trotzdem ist der anteil an xdr-tb in der gesamten gruppe der leute mit tuberkulose offenbar dennoch gering 6.000 der insgesamt 330.000 leute die in südafrika zu einem bestimmten zeitpunkt angesteckt sind",
+  "timestamp_utc": "2026-07-05T04:06:03Z",
+  "text": "Trotzdem ist der Anteil an XDR-TB in der gesamten Gruppe der Leute mit Tuberkulose offenbar dennoch gering. 6.000 der insgesamt 330.000 Leute, die in Südafrika zu einem bestimmten Zeitpunkt angesteckt sind.",
+  "latency_sec": 4.4301,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Trotzdem ist der Anteil an XDR-TB in der gesamten Gruppe der Leute mit Tuberkulose offenbar dennoch gering. 6.000 der insgesamt 330.000 Leute, die in Südafrika zu einem bestimmten Zeitpunkt angesteckt sind.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqAJCp0JARFNMg8A1ddHsHzlEKmHdiZZ3vjC22cKwH0evCXWUTMd4CZJqThZFlnU8EzbrQ5/Oi3Ks5/7cV4k3DH2ZbuA+Cw4XeKfoJ8k6D1uAKBdstMCzW8jWmlwRbvWaweT3akGQJzld1z1BrHT6mctS5hkyrsogzpDRHAtxyUXE/9CzTmDGQjXCC+Qw2VOfx6qRumYEYYC5Oz9oVmNUqb5m/y5Pn36BMX147jVZ2xFcnMAMe0iIRFDzJiEhQR3sDHo/fF7qFtiWVR0zNmWXwN/3SJzQApL8IGy3F8O8HwZDiXUCa2ONwBGGjBV75q7P1ZhHWFxH+KSVZyNgq5ujkBh/Z1SLo7xJbWhfHuNboEBpbLNCS2vx+JzVJU424x0xYBRhnyh6aDIDigZDSrPNDfZcY+7ksdfxSNGtJ4Ds1JG3sUtqemJV0khaOU3C8+/K5rV+pYQly3pYWtlkrDKld5lRqnWi8DR6UM3HOUgxAmGk8YY2VrRKyNy/GHN3HBkENey5zQ2K6vyGpwOx8R0yoG/ijDc++XvJY/Nm3/oxTuF787REnk4YDLnLXvfaCy/jSI+9ENR+qyNlllpYR/w3P5ZuOrF1/pUu/KpiQYjoqGipEyzLzbrN1loPCnj/z7N19Bxks9yKt3xINV9vMgGQ2biakixMl9U56v3FVVBm32x34VaNU3hu0s1kICL98+jYE7zvxk8AJ9n0cvUOjhO5O5PNrao4nNeQ0tP4SYlSKiwbqeI0GfRjpdQ/peKmaGBLME92Mstm+5tQVVnKl3q/OMROAoRSFAJCRphyNcPialMdfj/0u4HXt+AGSmicg+Dr3p8v/8x+37gemR95Ojstm3KtJwPBtcA5uGoArqESJKoVhHg/BPr31Bwo0AkaspJdMc6Z7k/fKQ/AdvL8e7qM/ZQlzNJG7KA+l5Pxd2kq/95P5tLN+2y9uqP5A2rhuztV3YoI+QYjYuSy+SQQN9dkVoTm2qlT7DQ0eoSEqnUqnHvQ5lGynXq8xLhYLgsQXMbCm3AvzV/bnrG8ubwCkhzq4EoDUa3fUCl9l6BXciFF15fgw0c+aLH95CWIlsZXlO2krSkeMCKb0R17Ixf6OATgv/Wz8DR/CBfLhZq57CA+J3EA5lmaWs6Ycn06AeIV58VyJZa1yLU7lU0+OS2a28SKM6Capn3ZH9B3FSUqYeaiPatGcNn2dQweXuDKJ/4kaXG9sJzSKi3VGwuzyIU+xKDfepdEml+L6Rj+x+h8VLNrRlcpPsmgyG1of7QNHHERthoikmhf43bM/hoUOdQRCucsRr424j7l5h+ZuyJw7hKVWkiw2qxcfPfwYK7Q+rHJ6kvApGjX6LXPU/v74IslTlXW83w9LcsIPzZhFIhkoO2MJQ5Ht18PZyvIYpqLVC1CLlC3rRq3BUKX3GqaBzCVWveLcSCspSaVZ1lbsgFaZHF3nqU2aiehcXXnSlpQGKTMD351TDyl+THRh7E4OImt7ovAdz13dPZmTrQZ5XcMivu2/dgvLHt2R3WbZj15AaFP3tCUxXkQq85Xet+K00mYOEGian7l0il+3nHNJHFgkNkRPt4DtM="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224363,
+    "id": "KNhJaqrJEL_L0-kPu6eA2AI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 57,
+      "prompt_tokens": 897,
+      "total_tokens": 1277
+    }
+  }
+}

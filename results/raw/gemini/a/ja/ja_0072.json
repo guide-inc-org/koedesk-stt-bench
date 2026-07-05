@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0072",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 16.92,
+  "ref_text_raw": "馬車に乗った彼らは、国王と王妃に向かって叫び、脅しの言葉を浴びせる暴徒に囲まれてパリに戻りました。",
+  "ref_text_normalized": "馬車に乗った彼らは 国王と王妃に向かって叫び 脅しの言葉を浴びせる暴徒に囲まれてパリに戻りました",
+  "timestamp_utc": "2026-07-05T10:07:27Z",
+  "text": "馬車に乗った彼らは国王と王妃に向かって叫び脅しの言葉を浴びせるボートに囲まれてパリに戻りました。",
+  "latency_sec": 4.0125,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "馬車に乗った彼らは国王と王妃に向かって叫び脅しの言葉を浴びせるボートに囲まれてパリに戻りました。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246047,
+    "id": "3CxKavv2KOn62roPgJLP-QI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 563,
+      "total_tokens": 627
+    }
+  }
+}

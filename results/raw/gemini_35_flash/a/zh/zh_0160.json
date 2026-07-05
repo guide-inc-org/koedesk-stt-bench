@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0160",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.32,
+  "ref_text_raw": "渥太华是加拿大的首都，富有魅力且采用使用双语制，亮点是一系列展示着加拿大过去和现在的艺术画廊和博物馆。",
+  "ref_text_normalized": "渥 太 华 是 加 拿 大 的 首 都 富 有 魅 力 且 采 用 使 用 双 语 制 亮 点 是 一 系 列 展 示 着 加 拿 大 过 去 和 现 在 的 艺 术 画 廊 和 博 物 馆",
+  "timestamp_utc": "2026-07-05T09:21:01Z",
+  "text": "渥太华是加拿大的首都，富有魅力且采用双语制。亮点是一系列展示着加拿大过去和现在的艺术画廊和博物馆。",
+  "latency_sec": 4.2532,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "渥太华是加拿大的首都，富有魅力且采用双语制。亮点是一系列展示着加拿大过去和现在的艺术画廊和博物馆。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpIKCo8KARFNMg9WR2XySo8LFNtwqKs2DgFrzx4Mey8TAoHC0lLrWc0Pxnro8jH8AYKKbeg6jOeyNx2G9qv7zJLB6vV8IzCH3Ylq8MCZHMT8hCRN42enXgbUnH5Ju3EhM5DRYRP4lGT5F1b1fkOvgh0Xyd1KncUFjivqys4OJbtbdePe7+xxrAvN7/HDCr/KulZOB5tilGOMnFPI9skvWYHmoZxhB09SYyIU69E+096OdwMtdjOxbjh0lUD3aQLKMT97Dce01fFwEnzet8Wm0erb/50E3YBKoqaucRCljkSK2f4MLGMqvHz2r8pqAku+belLmqyTJm6jZNMQUNQ9wdLlmh1V9RlG0aVR7HmUHbRsUVriX1GeNsz3iBPywcW/X4CQeIS99Ss6oYEuUwgaZr9nlbceMahdDyZc/0yFQJ8q/6zGiwRIkc75fagJO0VSPPZVFBefKmkSUso5TOZdF5p9ycn9IAUtyHdNygMpbJpzmAtbwlj7+Cdr/zGZ5yP3iFa4aq7a56lB566YeOhxB8rY2s7DqWKtYxeIGER7PVWmNH5Hvhkm7orEzABv3iMj7+ypWna3AEI7SUpl7SX1LtY79n65a7Wm5nAW/b7rPX/XQYvqPP/EEiWRKEBIikO9+twCByveD6+gRhRullySRRTsvjy3OVox/342RRJLF0AE48ZiMIzclczxD8kZW+Lkj/TPvZhKk0U1S2S7U6Z8jqMr8kWB+T1knkMAHNAE/Kb4/Yi4PgUSxhslEljXBMAGXMIPSzXV+Fzy0ftgTgk6UdycwUWN/ULzLZkX9eA+JZpubSMKemyEEwL8J7198ynSNJLZQeIZm02cybUE3ZOajEOTSTFoZnTDCVDjNmpxOb5qxgAMqsPalK3Xmz+NQ/VqtkhqO6AM1fi0jym+//gXEv7JQ01qIoMo18TCIcQPq8kctM0Akj8fCp1AZ4S/w9B3uguUxR1S1QrJ4xxWZZxyUM9gIs9Lk5dWODEzZhm4K3m/tZql/DPOsj9q8T4qg2SUbLRzz2OicqNi9Qo0nkkumHHYokC1qTi+iQx1+7JfwvM3egoHDM77w684l5Gcs7bBQEfN/OZlDzEZVwGntMh7JI9IJEcu+Vzdr+4vzEBszvssf+nunKIEuPniCN4ygsxAr8Pr8+JFn2IHYv/lmDL3w7/3SfgtlfEQZlNowuzdR05Xmduc4ZHBb/FGpgMFpxkyIxOtArcOxdlwB9KGp5+Apq8/m6IQ6/0jFJyXGWB5F7PjBOY+x47W7zfpAz6C0kUu4NL0M0oxKpWZ5s+UAKxnETHRpOhgL0v5dUtESuZtRCDSpqLzhtWXy/UaDycl9eGnIq24XyBPEIWtoci1GeA9ADLjaiQZMhLMAihJFCp2RIjA/cpBqwy5U5wMQSWEiAF7bLd01PyQ+BYEBc5WSqelrAjeCqWJDYMxvuUeH9SgkdnsceXU2G9hQWAAMlY3J5tndLp8M8neehqgvPDIBeLgXuCOjVR661nrFdgiHP6bCW05S/Tkk1vmP6UEtZgYWv6HaBgQibimir+cchmflV011JPQhzerEWjOjlNIjUDw0RAwCyPjUdzrcdImsXRq0nHvmjKimVpXrqIoqFApAtXvN49C6psdZLnrogUItBqfv5OAutXQvrURLU2pSBrb5r0PJis/4orlPz2WRILdSbd2YImFPvBXiDVNY03h6HEgw08p2I8u5KvFNn6ZcMeTBZGRPQoJHlU="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243261,
+    "id": "-iFKauG0J-6A0-kPgc2WkAY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 279,
+      "total_tokens": 619
+    }
+  }
+}

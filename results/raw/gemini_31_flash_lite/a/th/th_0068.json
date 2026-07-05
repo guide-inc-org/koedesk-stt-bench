@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0068",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.84,
+  "ref_text_raw": "ในทางตรงข้าม บุคคลหนึ่งเปลี่ยนเป็นบุคคลที่จำไม่ได้ซึ่งรู้สึกว่าเขาหรือเธอต้องเปลี่ยนทุกอย่างที่ทีมทำมาตลอดและทำให้เป็นของตัวเอง",
+  "ref_text_normalized": "ในทางตรงข้าม บุคคลหนึ่งเปลี่ยนเป็นบุคคลที่จำไม่ได้ซึ่งรู้สึกว่าเขาหรือเธอต้องเปลี่ยนทุกอย่างที่ทีมทำมาตลอดและทำให้เป็นของตัวเอง",
+  "timestamp_utc": "2026-07-05T08:04:56Z",
+  "text": "ในทางตรงกันข้าม บุคคลหนึ่งเปลี่ยนเป็นบุคคลที่จำไม่ได้ ซึ่งรู้สึกว่าเขาหรือเธอต้องเปลี่ยนทุกอย่างที่ทีมทำมาตลอดและทำให้เป็นของตัวเอง",
+  "latency_sec": 2.9447,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ในทางตรงกันข้าม บุคคลหนึ่งเปลี่ยนเป็นบุคคลที่จำไม่ได้ ซึ่งรู้สึกว่าเขาหรือเธอต้องเปลี่ยนทุกอย่างที่ทีมทำมาตลอดและทำให้เป็นของตัวเอง",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPcmCe9kJY4y2sfPFx8pI+6GXC3M21vmzRE7oMCTJ0USsi6LdLVh36m4FCRf5m"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238696,
+    "id": "JhBKaqP-Io-V9tMPqJa8yAI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 342,
+      "total_tokens": 377
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0173",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 13.5,
+  "ref_text_raw": "上空の澄んだ美しい空と、周囲の多くの山々以外には何も見えません。洞窟の中からは、外界はほとんど見えず、外界の音も聞こえません。",
+  "ref_text_normalized": "上空の澄んだ美しい空と 周囲の多くの山々以外には何も見えません 洞窟の中からは 外界はほとんど見えず 外界の音も聞こえません",
+  "timestamp_utc": "2026-07-05T03:14:21Z",
+  "text": "浄光の澄んだ美しい空と、周囲の多くの山々以外には何も見えません。洞窟の中からは、下界はほとんど見えず、下界の音も聞こえません。",
+  "latency_sec": 5.899,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "浄光の澄んだ美しい空と、周囲の多くの山々以外には何も見えません。洞窟の中からは、下界はほとんど見えず、下界の音も聞こえません。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221261,
+    "id": "CMxJavvbLI-V9tMPqJa8yAI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 42,
+      "prompt_tokens": 453,
+      "total_tokens": 731
+    }
+  }
+}

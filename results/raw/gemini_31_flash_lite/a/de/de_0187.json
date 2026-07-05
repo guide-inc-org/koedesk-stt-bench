@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0187",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 5.4,
+  "ref_text_raw": "Die Korrelation zwischen Gehirnpathologie und Verhalten stützt Wissenschaftler in ihrer Forschung.",
+  "ref_text_normalized": "die korrelation zwischen gehirnpathologie und verhalten stützt wissenschaftler in ihrer forschung",
+  "timestamp_utc": "2026-07-05T04:11:17Z",
+  "text": "Die Korrelation zwischen Gehirnpathologie und Verhalten stützt Wissenschaftler in ihrer Forschung.",
+  "latency_sec": 2.9509,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Die Korrelation zwischen Gehirnpathologie und Verhalten stützt Wissenschaftler in ihrer Forschung.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPt/jbVNqMVEV+gGtqXV6BSRgL8KtNFoA5OG2xiMZKC9pq/bW1x2whU39GKd5t"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224677,
+    "id": "ZNlJaqrLBLq3vr0P4Zm80Qw",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 156,
+      "total_tokens": 175
+    }
+  }
+}

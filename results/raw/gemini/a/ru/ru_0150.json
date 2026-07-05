@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0150",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.44,
+  "ref_text_raw": "Через два года после окончания войны бывшие союзники стали врагами, и началась Холодная война.",
+  "ref_text_normalized": "через два года после окончания войны бывшие союзники стали врагами и началась холодная война",
+  "timestamp_utc": "2026-07-05T07:12:13Z",
+  "text": "Через 2 года после окончания войны бывшие союзники стали врагами, началась холодная война.",
+  "latency_sec": 3.9192,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Через 2 года после окончания войны бывшие союзники стали врагами, началась холодная война.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235533,
+    "id": "ywNKarjDBI-D1e8P9I7h6AE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 260,
+      "total_tokens": 401
+    }
+  }
+}

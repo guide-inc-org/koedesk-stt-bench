@@ -1,0 +1,44 @@
+{
+  "utt_id": "pt_0006",
+  "lang": "pt",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.4,
+  "ref_text_raw": "Suas longas mandíbulas eram cravejadas com mais de 70 dentes afiados, junto com um conjunto extra no céu da boca, o que mostra que nada que cruzasse seu caminho poderia escapar.",
+  "ref_text_normalized": "suas longas mandíbulas eram cravejadas com mais de 70 dentes afiados junto com um conjunto extra no céu da boca o que mostra que nada que cruzasse seu caminho poderia escapar",
+  "timestamp_utc": "2026-07-05T06:54:12Z",
+  "text": "Suas longas mandíbulas eram cravejadas com mais de 70 dentes afiados, junto com um conjunto extra no céu da boca, o que mostra que nada que cruzasse seu caminho poderia escapar.",
+  "latency_sec": 2.9206,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Suas longas mandíbulas eram cravejadas com mais de 70 dentes afiados, junto com um conjunto extra no céu da boca, o que mostra que nada que cruzasse seu caminho poderia escapar.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPUTlmuL2gtmQ1zjjRl9dw2zyRYxCuVgZ00ABXHgze2u41kR6Gw4C9y3gRADOy"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234452,
+    "id": "kv9JaqeGPPGC0-kP1smn0AY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 46,
+      "prompt_tokens": 381,
+      "total_tokens": 427
+    }
+  }
+}

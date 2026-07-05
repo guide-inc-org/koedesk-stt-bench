@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0116",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 23.58,
+  "ref_text_raw": "例えば、ノースカロライナ州のベネットスクールの生徒は毎年、州都への旅行に関するウェブサイトを制作しており、ウェブサイトは毎年改訂されますが、旧サイトはスクラップブックとして閲覧できるようにオンラインで保管されています。",
+  "ref_text_normalized": "例えば ノースカロライナ州のベネットスクールの生徒は毎年 州都への旅行に関するウェブサイトを制作しており ウェブサイトは毎年改訂されますが 旧サイトはスクラップブックとして閲覧できるようにオンラインで保管されています",
+  "timestamp_utc": "2026-07-05T03:18:08Z",
+  "text": "例えば ノース カロライナ 州 の ベネット スクール の 生徒 は 毎年 シュート へ の 旅行 に 関する ウェブサイト を 制作 し て おり 、 ウェブサイト は 毎年 改訂 さ れ ます が 、 旧 サイト は スクラップ ブック と し て 閲覧 できる よう に オン ライン で 保管 さ れ て い ます 。",
+  "latency_sec": 3.6367,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "例えば ノース カロライナ 州 の ベネット スクール の 生徒 は 毎年 シュート へ の 旅行 に 関する ウェブサイト を 制作 し て おり 、 ウェブサイト は 毎年 改訂 さ れ ます が 、 旧 サイト は スクラップ ブック と し て 閲覧 できる よう に オン ライン で 保管 さ れ て い ます 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPLEGJPM9NDcGNSFQsZ6i/sJyTzyC9bweaIWwwZFUTV+9pcaOG3tXI5A//yTJe"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221488,
+    "id": "78xJau3nE9mK0-kP0MrjsQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 79,
+      "prompt_tokens": 611,
+      "total_tokens": 690
+    }
+  }
+}

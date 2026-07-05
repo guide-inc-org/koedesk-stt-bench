@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0099",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 5.7,
+  "ref_text_raw": "Beyond Wednesday's event, Carpanedo competed in two individual races at the Championships.",
+  "ref_text_normalized": "beyond wednesday's event carpanedo competed in two individual races at the championships",
+  "timestamp_utc": "2026-07-05T10:27:55Z",
+  "text": "Beyond Wednesday's event, Carpaneto competed in two individual races at the championships.",
+  "latency_sec": 4.3761,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Beyond Wednesday's event, Carpaneto competed in two individual races at the championships.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247274,
+    "id": "qDFKasOHA7mVvr0PopTJiQc",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 204,
+      "total_tokens": 222
+    }
+  }
+}

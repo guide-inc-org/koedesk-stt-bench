@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0043",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 17.58,
+  "ref_text_raw": "例如，北卡罗莱纳州本尼特学校 ( Bennet School) 的学生每年都会设计一个有关他们的州府之行的网站。网站每年都会重新设计，但是老版本会在线保存，用作剪贴簿。",
+  "ref_text_normalized": "例 如 北 卡 罗 莱 纳 州 本 尼 特 学 校 bennet school 的 学 生 每 年 都 会 设 计 一 个 有 关 他 们 的 州 府 之 行 的 网 站 网 站 每 年 都 会 重 新 设 计 但 是 老 版 本 会 在 线 保 存 用 作 剪 贴 簿",
+  "timestamp_utc": "2026-07-05T09:13:16Z",
+  "text": "例如，北卡罗来纳州本尼特学校的学生每一年都会设计一个有关他们的州政府职能的网站。网站每年都会重新设计，但是老版本会在线保存，用作剪切簿。",
+  "latency_sec": 2.8228,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "例如，北卡罗来纳州本尼特学校的学生每一年都会设计一个有关他们的州政府职能的网站。网站每年都会重新设计，但是老版本会在线保存，用作剪切簿。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPDVsbUpSW83OxVMRViK/A/LLTSvbCNS7nDJ25hxYOtYtDTUfk3+su7qdk3oDp"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242796,
+    "id": "KiBKaqbBMMvb2roP0s2koQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 46,
+      "prompt_tokens": 461,
+      "total_tokens": 507
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0010",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.1,
+  "ref_text_raw": "Par exemple, le format de photographie le plus courant au monde est le 35 mm ; c'était le format de pellicule le plus répandu à la fin de l'ère des films analogiques.",
+  "ref_text_normalized": "par exemple le format de photographie le plus courant au monde est le 35 mm c'était le format de pellicule le plus répandu à la fin de l'ère des films analogiques",
+  "timestamp_utc": "2026-07-05T04:46:09Z",
+  "text": "Par exemple, le format de photographier le plus courant du monde est le 35 mm. C'était le format de pellicule le plus répandu à la fin de l'air du film analogique.",
+  "latency_sec": 3.2974,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Par exemple, le format de photographier le plus courant du monde est le 35 mm. C'était le format de pellicule le plus répandu à la fin de l'air du film analogique.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226769,
+    "id": "j-FJao6aLtLM1e8PlJ7zgQc",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 281,
+      "total_tokens": 361
+    }
+  }
+}

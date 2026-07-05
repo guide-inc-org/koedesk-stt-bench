@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0099",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.04,
+  "ref_text_raw": "橋の全面開通は2017年9月の予定で、ブラジル税関の検問が終わる頃になると予想されています。",
+  "ref_text_normalized": "橋の全面開通は2017年9月の予定で ブラジル税関の検問が終わる頃になると予想されています",
+  "timestamp_utc": "2026-07-05T10:18:46Z",
+  "text": "橋 の 全面 開通 は 2017 年 9 月 の 予定 で ブラジル 税関 の 検問 が ある 頃 に なる と 予想 さ れ て い ます 。",
+  "latency_sec": 2.985,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "橋 の 全面 開通 は 2017 年 9 月 の 予定 で ブラジル 税関 の 検問 が ある 頃 に なる と 予想 さ れ て い ます 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPKDJ1/x+7078WugQxfr0jp9wyragsq8qNm6YBD+vwG2MjBTiG7hqrXm+x7qyA"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246726,
+    "id": "hC9KaouwNo-_vr0P4-jhmAM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 42,
+      "prompt_tokens": 372,
+      "total_tokens": 414
+    }
+  }
+}

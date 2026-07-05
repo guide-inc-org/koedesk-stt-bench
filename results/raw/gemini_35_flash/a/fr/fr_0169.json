@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0169",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 4.86,
+  "ref_text_raw": "Le chocolat chaud est conforme aux normes belges. Les jus de fruits sont chers mais excellents.",
+  "ref_text_normalized": "le chocolat chaud est conforme aux normes belges les jus de fruits sont chers mais excellents",
+  "timestamp_utc": "2026-07-05T05:16:27Z",
+  "text": "Le chocolat chaud est conforme aux normes belges. Les jus de fruits sont chers mais excellents.",
+  "latency_sec": 5.0771,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Le chocolat chaud est conforme aux normes belges. Les jus de fruits sont chers mais excellents.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtQKCtEKARFNMg8A2fteFwP40uhS2kw+Gn6UCiQVaRv2cOsF1+WYV+C/4pPff6fZ1b5UVrrPVwGLpPlOvwk8OmuJIFMTJlJeWVIB/LIzGFk3nPNq/P5EJhVwu+6+pESPxGvfR2hnvbsDenAGz6eQv5gc7xcAeCEaQYT1/mk9pbMF8j4CYARSeJgDZXuUVvrQsGgho97BUvhSksOX2SS4t3eZWCOlMmfd4UwCwqB8L6JYrWz5mrTkuL+i09hrrVcvK/8VjZQBdlfanrVJxIVUxp3GvKhKy6G0kiv6UZxLpRYvHg+7KL98pIarWN12wC13aJzXUhTjcUBwcWemm8DbQHt1lMKnqK8BxXVxyKzCKMJRAU6abe9jUtHMlMt1SueQtR/LIg7nKhxF22p1HPFzFt3V6XIbv3rbvojmqP94i+B9TYPG2h3l+C5rgVWct8oM52KZsl8+GBN+CaUiYUmXv7FGEO8b7xouS3R+UM4zSFQNNR+NsDtCiOYU8GmF5WyPPoPWKycqhtpf3lYoSeeTBdDqMwsBwSKB9rs+Z3DTfMClsJOPg92yT8vb1Hx3SxqgxIRrk1Pz8rieZKpwGl/0EkIIc0enH3gGFdQap5R2NzpEdEssFCFMMBjDnqbpPYS/gFBlSJgBCsXKpxBQtSONyeTwQWOX9Si5y6/mtDzcv0y0vgkbFJZBDMwwNHGphfa3dYXr8gLYFZqg/kZ3vgDx59F+vvLiqIO9M+CzycucNo3F1/pJOHjRgRZ45qgPJ/49N5R3ZuODtxwiiHK07/3cr4i+95W6rz0gZGLpDuCud2byySu6NdiheFO7Jrc3/bQUOnd4nYGAW/eZ+GDYPIm32ILzQI0atSerZ5n/MQKWuoR9Fhycter3QwYMo6dkwVO1IIYr5RlWgeCAeiSpu+kM8lOR2y+YT+dQF25kaWDWMabuAV8LhoKJITfBtJcEAYHtQejAcc4kQQgBmnXJibSnkLmNDpH4VROKyC806gbAvIRza4h1H0VkpPvLmD5J7wY52jb/zzucaYVuMNCHZIlF25UazVJAJf448oGJLBRwXLbe0zXLYsyLtPbtrSneqQI+qtskWcKSuYQDItIlDfNBJBs2d0F/ygqY/bfkVzY5lzd3td/vt5raGhRlZOesGkOLM8/jViuOHMfACTfFIoq24tjE5X4G/suuSw05GzQyRSUjL1RR+cPFEcg349sGspvcnybxODumm8U3pDvpGa0c0Qw7tl5NK2wLyn3n4VZxwkRkHoPwtmVKcimZ5fMdYsB1b+blDKCUpd6/iUWIq0PLItIzX4QDAIC20NVmIqPmYYKrgsUmYZUu8g4/YqT1RtStJVbFZ4ztpF8tTDoPxb35AY+kSTnkti7YPq+ATiESDXAcxBu8Fr+0Ofmi9rWK0EmJ2dZkWxmziKQzLllg/a4/mF+SfGOAzBD2ZC+EGQtY/1m8Dp8k85yMX+BHC5uEbcBHpgHcNp8w5fE7xnAqqPZ57JS9GyOJCuQlxe/VVfztTK87aYccW4C5PEIe12Hnf3+QksFOOJY5YQWjjZXiGflVSUzLCi+q7tu/dVocj9yzHe2sC8BxDchPZHY3h6sK9lxb7cf0cCG8I73mWP2SxA7+4UW3TkJ3MDefxw6dZGNN6zTSJ2+ulwifmLADiHshtB7ct4X7/+yjxyvXKV5hjm9lWhnvuGxHWzHLnb3DaSN7KFP3UcPn/qiUtYwwcVxOM0wEPBpgsTRAVz2tVnUAMcAOwGpzLcHTY7rU3boapQZHesxio0UcEK/0gjroXaBNJ74eACA6VzL+Uhwa40As5IEvavKoAxJL8Jw="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228587,
+    "id": "p-hJaoXpF8mrvr0Ps4zPyAI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 143,
+      "total_tokens": 513
+    }
+  }
+}

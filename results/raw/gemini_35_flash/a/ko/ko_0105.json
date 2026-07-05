@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0105",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 19.08,
+  "ref_text_raw": "올리버 색스는 그가 집필한 '대통령의 연설'에서 뇌 손상으로 인해 연설을 알아듣지 못함에도 불구하고 사람들이 그에 담긴 성실성을 정확하게 받아들였음에 대하여 나타냈습니다.",
+  "ref_text_normalized": "올리버 색스는 그가 집필한 대통령의 연설'에서 뇌 손상으로 인해 연설을 알아듣지 못함에도 불구하고 사람들이 그에 담긴 성실성을 정확하게 받아들였음에 대하여 나타냈습니다",
+  "timestamp_utc": "2026-07-05T06:18:54Z",
+  "text": "올리버 색스는 그가 집필한 대통령의 연설에서 뇌 손상으로 인해 연설을 알아듣지 못함에도 불구하고 사람들이 그에 담긴 성실성을 정확하게 받아들였음에 대하여 나타냈습니다.",
+  "latency_sec": 6.1051,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "올리버 색스는 그가 집필한 대통령의 연설에서 뇌 손상으로 인해 연설을 알아듣지 못함에도 불구하고 사람들이 그에 담긴 성실성을 정확하게 받아들였음에 대하여 나타냈습니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232334,
+    "id": "SfdJat2BOtWd1e8PgOulsQY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 49,
+      "prompt_tokens": 498,
+      "total_tokens": 1264
+    }
+  }
+}

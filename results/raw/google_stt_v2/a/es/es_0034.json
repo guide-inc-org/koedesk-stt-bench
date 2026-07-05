@@ -1,0 +1,36 @@
+{
+  "utt_id": "es_0034",
+  "lang": "es",
+  "engine": "google_stt_v2",
+  "duration_sec": 5.7,
+  "ref_text_raw": "Solo queda preguntarse qué será del teclado cuando surja algo más nuevo.",
+  "ref_text_normalized": "solo queda preguntarse qué será del teclado cuando surja algo más nuevo",
+  "timestamp_utc": "2026-07-05T04:01:56Z",
+  "text": "Solo queda preguntarse qué será del teclado cuando surja algo más nuevo.",
+  "latency_sec": 2.7855,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "es-US",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "6s",
+      "requestId": "74458b1f-0000-2750-8a3f-30fd3814de80",
+      "prompt": "Transcribe the following speech segment in Spanish. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Spanish."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Solo queda preguntarse qué será del teclado cuando surja algo más nuevo."
+          }
+        ],
+        "languageCode": "es-US"
+      }
+    ]
+  }
+}

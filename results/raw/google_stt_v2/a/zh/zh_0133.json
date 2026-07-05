@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0133",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 11.94,
+  "ref_text_raw": "人们自古以来就知道金、银、铜等基本化学元素，因为这些元素都能以自然形态在自然界中发现，而且比较容易使用原始工具进行开采。",
+  "ref_text_normalized": "人 们 自 古 以 来 就 知 道 金 银 铜 等 基 本 化 学 元 素 因 为 这 些 元 素 都 能 以 自 然 形 态 在 自 然 界 中 发 现 而 且 比 较 容 易 使 用 原 始 工 具 进 行 开 采",
+  "timestamp_utc": "2026-07-05T06:30:06Z",
+  "text": "人们自古以来就知道金、银、铜等基本化学元素，因为这些元素都能以自然形态在自然界中发现，并且比较容易使用原始工具进行开采。",
+  "latency_sec": 4.1795,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "12s",
+      "requestId": "6f1ca70f-0000-2fb3-9bbe-883d24f59fbc",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "人们自古以来就知道金、银、铜等基本化学元素，因为这些元素都能以自然形态在自然界中发现，并且比较容易使用原始工具进行开采。"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "utt_id": "ru_0130",
+  "lang": "ru",
+  "engine": "deepgram_nova3",
+  "duration_sec": 8.76,
+  "ref_text_raw": "Термин \"жук\" используется энтомологами формально для обозначения группы насекомых.",
+  "ref_text_normalized": "термин жук используется энтомологами формально для обозначения группы насекомых",
+  "timestamp_utc": "2026-07-05T04:49:16Z",
+  "text": "термин жук используется энтомологами формально для обозначения группы насекомых",
+  "latency_sec": 2.0631,
+  "params": {
+    "model": "nova-3",
+    "language": "ru",
+    "note": "model+language only; smart_format etc. = API defaults (R-2.4)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "transaction_key": "deprecated",
+      "request_id": "019f309b-f667-7840-9dfc-985dd555050f",
+      "sha256": "5470b67ab5c9836d32468b9db743f0f02ffdff5bf933aa88cc1f391fd4a65b42",
+      "created": "2026-07-05T04:49:16.788Z",
+      "duration": 8.76,
+      "channels": 1,
+      "models": [
+        "5820fddd-8c26-4518-9c1f-818e44801622"
+      ],
+      "model_info": {
+        "5820fddd-8c26-4518-9c1f-818e44801622": {
+          "name": "general-nova-3",
+          "version": "2025-09-24.28817",
+          "arch": "nova-3"
+        }
+      }
+    },
+    "results": {
+      "channels": [
+        {
+          "alternatives": [
+            {
+              "transcript": "термин жук используется энтомологами формально для обозначения группы насекомых",
+              "confidence": 0.9892578,
+              "words": [
+                {
+                  "word": "термин",
+                  "start": 2.0,
+                  "end": 2.48,
+                  "confidence": 0.94262695
+                },
+                {
+                  "word": "жук",
+                  "start": 2.48,
+                  "end": 2.8799999,
+                  "confidence": 0.9892578
+                },
+                {
+                  "word": "используется",
+                  "start": 2.8799999,
+                  "end": 3.84,
+                  "confidence": 0.95410156
+                },
+                {
+                  "word": "энтомологами",
+                  "start": 4.7999997,
+                  "end": 5.7599998,
+                  "confidence": 0.9964844
+                },
+                {
+                  "word": "формально",
+                  "start": 5.7599998,
+                  "end": 6.16,
+                  "confidence": 0.93603516
+                },
+                {
+                  "word": "для",
+                  "start": 6.16,
+                  "end": 6.48,
+                  "confidence": 0.9951172
+                },
+                {
+                  "word": "обозначения",
+                  "start": 6.48,
+                  "end": 7.12,
+                  "confidence": 0.99902344
+                },
+                {
+                  "word": "группы",
+                  "start": 7.12,
+                  "end": 7.44,
+                  "confidence": 0.9970703
+                },
+                {
+                  "word": "насекомых",
+                  "start": 7.44,
+                  "end": 10.88,
+                  "confidence": 0.96533203
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

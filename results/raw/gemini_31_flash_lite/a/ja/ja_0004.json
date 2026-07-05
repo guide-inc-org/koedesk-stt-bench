@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0004",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.06,
+  "ref_text_raw": "ロスビー数が小さいほど磁気反転に関して星の活性が低下するわけです。",
+  "ref_text_normalized": "ロスビー数が小さいほど磁気反転に関して星の活性が低下するわけです",
+  "timestamp_utc": "2026-07-05T10:13:00Z",
+  "text": "ロスビー数が小さいほど、磁気判定に関し、星の活性が低下するわけです。",
+  "latency_sec": 3.0693,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ロスビー数が小さいほど、磁気判定に関し、星の活性が低下するわけです。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP+jPYlkCjeqG+GK456Ij5VTKeGVNXAi0cXWqPbCWKV1NhGKaExFRlWhR3Lr1W"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246380,
+    "id": "Ky5KaqG5IbycrfcP6t_NqQY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 323,
+      "total_tokens": 344
+    }
+  }
+}

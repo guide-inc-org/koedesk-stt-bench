@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0043",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 17.7,
+  "ref_text_raw": "Parmi les autres nominations figurent celles du meilleur film, du meilleur réalisateur, de la meilleure cinématographie, des meilleurs costumes, du meilleur montage, de la meilleure musique originale, des meilleurs décors, du meilleur montage sonore, du meilleur mixage et du meilleur scénario original.",
+  "ref_text_normalized": "parmi les autres nominations figurent celles du meilleur film du meilleur réalisateur de la meilleure cinématographie des meilleurs costumes du meilleur montage de la meilleure musique originale des meilleurs décors du meilleur montage sonore du meilleur mixage et du meilleur scénario original",
+  "timestamp_utc": "2026-07-05T05:12:05Z",
+  "text": "Parmi les autres nominations figurent celles du meilleur film, du meilleur réalisateur, de la meilleure cinématographie, des meilleurs costumes, du meilleur montage, de la meilleure musique originale, des meilleurs décors, du meilleur montage sonore, du meilleur mixage et du meilleur scénario original.",
+  "latency_sec": 3.1812,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Parmi les autres nominations figurent celles du meilleur film, du meilleur réalisateur, de la meilleure cinématographie, des meilleurs costumes, du meilleur montage, de la meilleure musique originale, des meilleurs décors, du meilleur montage sonore, du meilleur mixage et du meilleur scénario original.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPbU7AmeWvCo4+1uVLxqymoRhGihuii76euupIijnUv6SgoivWHH1GgX2j79gF"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228325,
+    "id": "o-dJar6kM5DIrfcPxsKh8Q8",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 59,
+      "prompt_tokens": 464,
+      "total_tokens": 523
+    }
+  }
+}

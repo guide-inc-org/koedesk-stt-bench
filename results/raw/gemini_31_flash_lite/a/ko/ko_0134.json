@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0134",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.36,
+  "ref_text_raw": "\"\"\"이건 작별 인사가 아닙니다. 이것은 한 장의 끝이며 새로운 장의 시작입니다.\"\"\"",
+  "ref_text_normalized": "\"\"\"이건 작별 인사가 아닙니다. 이것은 한 장의 끝이며 새로운 장의 시작입니다.\"\"",
+  "timestamp_utc": "2026-07-05T06:26:59Z",
+  "text": "이건 작별 인사가 아닙니다. 이것은 한 장의 끝이며 새로운 장의 시작입니다.",
+  "latency_sec": 2.8477,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "이건 작별 인사가 아닙니다. 이것은 한 장의 끝이며 새로운 장의 시작입니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPv7dct9YdN0Mre/RysxV4g36AenkWUXoI2yWhvxPEkedVzUQWPDbt+4f1cw4p"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232819,
+    "id": "MflJas33GOvYvr0P_YW_6QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 180,
+      "total_tokens": 202
+    }
+  }
+}

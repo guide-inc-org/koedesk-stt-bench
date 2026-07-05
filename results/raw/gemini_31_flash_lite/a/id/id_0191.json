@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0191",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.06,
+  "ref_text_raw": "Hanya dalam dua minggu pasukan Amerika dan Prancis Merdeka telah membebaskan Prancis selatan dan beralih ke Jerman.",
+  "ref_text_normalized": "hanya dalam dua minggu pasukan amerika dan prancis merdeka telah membebaskan prancis selatan dan beralih ke jerman",
+  "timestamp_utc": "2026-07-05T05:56:48Z",
+  "text": "Hanya dalam dua minggu, pasukan Amerika dan Prancis merdeka telah membebaskan Prancis Selatan dan beralih ke Jerman.",
+  "latency_sec": 2.5936,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Hanya dalam dua minggu, pasukan Amerika dan Prancis merdeka telah membebaskan Prancis Selatan dan beralih ke Jerman.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPe1o+ayolAe0GdVQtWiWAla9HmEkLMOUeZlhKLEFrpw3CdFqbn3DFheBrCzVe"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231008,
+    "id": "H_JJasTtCrXIrfcPsof-gAc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 248,
+      "total_tokens": 273
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0191",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.1,
+  "ref_text_raw": "블로깅(blogging)은 협동심을 고취시키고, 학생들이 전통적인 학교생활을 넘어 학습을 잘 확대하도록 장려하는 도구다.",
+  "ref_text_normalized": "블로깅blogging은 협동심을 고취시키고 학생들이 전통적인 학교생활을 넘어 학습을 잘 확대하도록 장려하는 도구다",
+  "timestamp_utc": "2026-07-05T06:30:34Z",
+  "text": "블로깅은 협동심을 고취시키고 학생들이 전통적인 학교 생활을 넘어 학습을 잘 확대하도록 장려하는 도구다.",
+  "latency_sec": 2.9499,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "블로깅은 협동심을 고취시키고 학생들이 전통적인 학교 생활을 넘어 학습을 잘 확대하도록 장려하는 도구다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP0NIn6A5Bz7Aopn3th+wNjYIDCkQPZR5p5n6esU8w/5fOcUT95pLPoSNI7fE0"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783233034,
+    "id": "CPpJao3fHIOL0-kPiYjyuQQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 299,
+      "total_tokens": 330
+    }
+  }
+}

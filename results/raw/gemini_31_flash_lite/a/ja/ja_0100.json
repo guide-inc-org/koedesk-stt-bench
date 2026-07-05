@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0100",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.82,
+  "ref_text_raw": "実際には、洞窟の存在を知っていても見つけるのは容易ではありません。洞窟に入ると、そこは完全に隔離された空間です。",
+  "ref_text_normalized": "実際には 洞窟の存在を知っていても見つけるのは容易ではありません 洞窟に入ると そこは完全に隔離された空間です",
+  "timestamp_utc": "2026-07-05T03:17:07Z",
+  "text": "実際には洞窟の存在を知っていても、見つけるのは容易ではありません。洞窟に入るとそこは完全に隔離された空間です。",
+  "latency_sec": 3.0593,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "実際には洞窟の存在を知っていても、見つけるのは容易ではありません。洞窟に入るとそこは完全に隔離された空間です。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP+JbSSNJEnikTpeS/PqxvURdCV+Cq7jDCTQOmojOH2dTR9XpyhCs6OU/qh2Su"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221427,
+    "id": "ssxJaryDArCr0-kPhJ6suQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 317,
+      "total_tokens": 345
+    }
+  }
+}

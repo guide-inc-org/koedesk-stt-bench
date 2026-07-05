@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0048",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.66,
+  "ref_text_raw": "Bến cảng này là nơi xảy ra một trận đình chiến hải quân khét tiếng vào năm 1889 khi bảy tàu từ Đức, Hoa Kỳ và Anh từ chối rời bến cảng.",
+  "ref_text_normalized": "bến cảng này là nơi xảy ra một trận đình chiến hải quân khét tiếng vào năm 1889 khi bảy tàu từ đức hoa kỳ và anh từ chối rời bến cảng",
+  "timestamp_utc": "2026-07-05T08:40:35Z",
+  "text": "Bến cảng này là nơi xảy ra một trận đình chiến hải quân khét tiếng vào năm 1889, khi 7 tàu từ Đức, Hoa Kỳ và Anh từ chối rời bến cảng.",
+  "latency_sec": 3.1595,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Bến cảng này là nơi xảy ra một trận đình chiến hải quân khét tiếng vào năm 1889, khi 7 tàu từ Đức, Hoa Kỳ và Anh từ chối rời bến cảng.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPEWxmMZuOt2Tb7WWibx7lb+nt0FlVyPE9NpdHNTm4HyvjlI7nIBBv31BieoXH"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240835,
+    "id": "gRhKapbwLoCUvr0P6IWioQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 46,
+      "prompt_tokens": 413,
+      "total_tokens": 459
+    }
+  }
+}

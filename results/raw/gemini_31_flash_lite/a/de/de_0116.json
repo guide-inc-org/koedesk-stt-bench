@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0116",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.98,
+  "ref_text_raw": "Die Klang- und Lichtshow bei den Pyramiden ist eine der interessantesten Attraktionen für Kinder in der Gegend.",
+  "ref_text_normalized": "die klang und lichtshow bei den pyramiden ist eine der interessantesten attraktionen für kinder in der gegend",
+  "timestamp_utc": "2026-07-05T04:06:47Z",
+  "text": "Die Klang- und Lichtshow bei den Pyramiden ist eine der interessantesten Attraktionen für Kinder in der Gegend.",
+  "latency_sec": 2.754,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Die Klang- und Lichtshow bei den Pyramiden ist eine der interessantesten Attraktionen für Kinder in der Gegend.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPzzzhKorAOl2xVRPcvdJeMivEBLx2XEJrmQuOa3RhZygwnCX/gcr2v7y1e8Os"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224407,
+    "id": "VdhJao6QPMTs1e8Pu-GUwQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 221,
+      "total_tokens": 247
+    }
+  }
+}

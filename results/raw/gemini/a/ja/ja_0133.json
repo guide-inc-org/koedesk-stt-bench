@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0133",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 16.38,
+  "ref_text_raw": "レイトン氏は首相との会談で保守党の環境法案に対する変更を求め、保守党の環境法案の「徹底的かつ完全な書き直し」を求めました。",
+  "ref_text_normalized": "レイトン氏は首相との会談で保守党の環境法案に対する変更を求め 保守党の環境法案の 徹底的かつ完全な書き直し を求めました",
+  "timestamp_utc": "2026-07-05T03:09:26Z",
+  "text": "レイトン氏は首相との会談で保志党の環境法案に対する変更を求め、保志党の環境法案の徹底的かつ完全な書き直しを求めました。",
+  "latency_sec": 4.028,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "レイトン氏は首相との会談で保志党の環境法案に対する変更を求め、保志党の環境法案の徹底的かつ完全な書き直しを求めました。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783220966,
+    "id": "48pJarnuOYaD1e8PyqKZ0Ac",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 546,
+      "total_tokens": 586
+    }
+  }
+}

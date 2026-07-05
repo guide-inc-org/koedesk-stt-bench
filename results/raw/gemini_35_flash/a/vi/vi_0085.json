@@ -1,0 +1,45 @@
+{
+  "utt_id": "vi_0085",
+  "lang": "vi",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 14.28,
+  "ref_text_raw": "Bishkek được một người quan sát giải thích là rơi vào tình trạng \"vô chính phủ\", khi các băng nhóm tràn ra đường và cướp phá các cửa hàng nhu yếu phẩm.",
+  "ref_text_normalized": "bishkek được một người quan sát giải thích là rơi vào tình trạng vô chính phủ khi các băng nhóm tràn ra đường và cướp phá các cửa hàng nhu yếu phẩm",
+  "timestamp_utc": "2026-07-05T08:36:08Z",
+  "text": "Ít nhất đồng một một số giải thích là rơi vào tình trạng vô chính phủ khi các băng nhóm tràn ra đường và cướp phá các cửa hàng nhu yếu phẩm.",
+  "latency_sec": 8.7386,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Ít nhất đồng một một số giải thích là rơi vào tình trạng vô chính phủ khi các băng nhóm tràn ra đường và cướp phá các cửa hàng nhu yếu phẩm.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240569,
+    "id": "cRdKaqbJH5O00-kP9qbDqAY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 378,
+      "total_tokens": 1628
+    }
+  }
+}

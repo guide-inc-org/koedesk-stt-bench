@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0161",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.98,
+  "ref_text_raw": "Thương long là loài ăn thịt đỉnh cao trong thời kỳ tồn tại của nó, vì thế nó không sợ gì cả, ngoại trừ những con thương long khác.",
+  "ref_text_normalized": "thương long là loài ăn thịt đỉnh cao trong thời kỳ tồn tại của nó vì thế nó không sợ gì cả ngoại trừ những con thương long khác",
+  "timestamp_utc": "2026-07-05T08:47:22Z",
+  "text": "Thương long là loài ăn thịt đỉnh cao trong thời kỳ tồn tại của nó, vì thế nó không sợ gì cả, ngoại trừ những con thương long khác.",
+  "latency_sec": 2.7136,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Thương long là loài ăn thịt đỉnh cao trong thời kỳ tồn tại của nó, vì thế nó không sợ gì cả, ngoại trừ những con thương long khác.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPOTna/+CUsdTr9TxlFzkUTzKERFSlYgE0wO+lYHAm7vAXYFq9eKutUU8K8nUd"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241242,
+    "id": "GRpKasv0C6nDvr0PmKevgQ8",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 296,
+      "total_tokens": 329
+    }
+  }
+}

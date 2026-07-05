@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0069",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 13.8,
+  "ref_text_raw": "Les Sundarbans sont la plus grande ceinture de mangroves côtières du monde, s’étendant sur 80 km (50 miles) depuis la côte jusqu’à l’arrière-pays bangladais et indien.",
+  "ref_text_normalized": "les sundarbans sont la plus grande ceinture de mangroves côtières du monde s’étendant sur 80 km 50 miles depuis la côte jusqu’à l’arrière-pays bangladais et indien",
+  "timestamp_utc": "2026-07-05T04:50:32Z",
+  "text": "Les Sunderbans sont la plus grande ceinture de mangrove côtière du monde, s'étendant sur 80 km (50 miles) depuis la côte jusqu'à l'arrière-pays bangladais et indien.",
+  "latency_sec": 4.5557,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Les Sunderbans sont la plus grande ceinture de mangrove côtière du monde, s'étendant sur 80 km (50 miles) depuis la côte jusqu'à l'arrière-pays bangladais et indien.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227032,
+    "id": "leJJaq3oDdGX0-kP9sqqsAE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 48,
+      "prompt_tokens": 463,
+      "total_tokens": 535
+    }
+  }
+}

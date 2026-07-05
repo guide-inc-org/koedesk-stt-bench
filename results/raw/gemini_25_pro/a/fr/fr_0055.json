@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0055",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 14.58,
+  "ref_text_raw": "La semaine dernière, le METI a annoncé qu’Apple l’avait informé de 34 incidents de surchauffe supplémentaires, que la société a qualifiés de « non graves ».",
+  "ref_text_normalized": "la semaine dernière le meti a annoncé qu’apple l’avait informé de 34 incidents de surchauffe supplémentaires que la société a qualifiés de « non graves »",
+  "timestamp_utc": "2026-07-05T04:51:30Z",
+  "text": "La semaine dernière, le METI a annoncé qu'Apple avait informé de 34 accidents de surchauffe supplémentaires que la société a qualifié de non grave.",
+  "latency_sec": 5.1268,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "La semaine dernière, le METI a annoncé qu'Apple avait informé de 34 accidents de surchauffe supplémentaires que la société a qualifié de non grave.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227090,
+    "id": "zuJJapDMNMz71e8PxKycwAI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 488,
+      "total_tokens": 562
+    }
+  }
+}

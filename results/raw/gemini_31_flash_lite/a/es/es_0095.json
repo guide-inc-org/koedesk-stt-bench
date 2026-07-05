@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0095",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.1,
+  "ref_text_raw": "Angel (2006) explica el enfoque continuo como un método utilizado para ayudar a las organizaciones a lograr un mayor nivel de desempeño.",
+  "ref_text_normalized": "angel 2006 explica el enfoque continuo como un método utilizado para ayudar a las organizaciones a lograr un mayor nivel de desempeño",
+  "timestamp_utc": "2026-07-05T04:39:28Z",
+  "text": "Angel 2016 explica el enfoque continuo como un método utilizado para ayudar a las organizaciones a lograr un mayor nivel de desempeño.",
+  "latency_sec": 2.8917,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Angel 2016 explica el enfoque continuo como un método utilizado para ayudar a las organizaciones a lograr un mayor nivel de desempeño.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPTgiR8omWiMJ+oJ/Ehp5q/UJ1OX2Gi20ERhHJ2+TYikepKjl+RktxWgwv0Ibo"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226368,
+    "id": "_t9Jat_SM_TF1e8P96Xb2QI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 299,
+      "total_tokens": 326
+    }
+  }
+}

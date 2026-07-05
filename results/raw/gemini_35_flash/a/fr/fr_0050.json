@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0050",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.04,
+  "ref_text_raw": "Si vous voulez participer de près à l'événement musical, vous allez devoir arriver tôt pour trouver un aire de camping bien placée.",
+  "ref_text_normalized": "si vous voulez participer de près à l'événement musical vous allez devoir arriver tôt pour trouver un aire de camping bien placée",
+  "timestamp_utc": "2026-07-05T05:05:30Z",
+  "text": "Si vous voulez participer de près à l'événement musical, vous allez devoir arriver tôt pour trouver une aire de camping bien placée.",
+  "latency_sec": 5.9872,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Si vous voulez participer de près à l'événement musical, vous allez devoir arriver tôt pour trouver une aire de camping bien placée.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227930,
+    "id": "FeZJaq-mEZja1e8P6IqesQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 297,
+      "total_tokens": 984
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0118",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.5,
+  "ref_text_raw": "事故发生后，吉布森被送往医院，但很快就一命呜呼。",
+  "ref_text_normalized": "事 故 发 生 后 吉 布 森 被 送 往 医 院 但 很 快 就 一 命 呜 呼",
+  "timestamp_utc": "2026-07-05T09:17:46Z",
+  "text": "事故 发生 后 吉 普 森 被 送 往 医院 , 但 很快 就 医治 无 效 。",
+  "latency_sec": 4.9237,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "事故 发生 后 吉 普 森 被 送 往 医院 , 但 很快 就 医治 无 效 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPezmfy6HJI2+rzJANPtOTYwRSZntx8IAU5rIS828dx3R/SbR6I3A619+VkedE"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243066,
+    "id": "OSFKarqhFLyB0-kP2bOhwAc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 209,
+      "total_tokens": 235
+    }
+  }
+}

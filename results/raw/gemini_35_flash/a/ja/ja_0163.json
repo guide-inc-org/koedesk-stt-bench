@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0163",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.5,
+  "ref_text_raw": "植物は光合成によって太陽から養分を作りだします。日陰も作ってくれます。",
+  "ref_text_normalized": "植物は光合成によって太陽から養分を作りだします 日陰も作ってくれます",
+  "timestamp_utc": "2026-07-05T03:21:24Z",
+  "text": "植物は光合成によって太陽から養分を作り出します。日陰も作ってくれます。",
+  "latency_sec": 3.8307,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "植物は光合成によって太陽から養分を作り出します。日陰も作ってくれます。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EuwGCukGARFNMg/vm3tnhNx//jLzT854mVXdk25jxsio2azk9e3IHstJrvfgm721YAkEe6ZUnkpxTGrb7xbiTGHA8A0r5dFyG6H6KDUR/IAfkos0BfmsWEqVR4e2QSXa6A73iIdLhsdJkjfbPhffyx4xhLTteE5edzrSLudZENfpSQfU/muqg3YQLKm9C3+TXXb4sHMTB9/e1u6HUTe5K3fqh9S1HQ0eDqRNyoHR1OXPAm5BsbKQcCSfRnyugglXon5JgldMRHne5nRzDj4CzZNJd2oXJNp77PdF4hcukyEfHcSzjPzFoeexndWRWlqZ7U9DUBmWs9Ri0+aAmZq4avmdmgahBb2DuNyLDQSnSHpT4UgZaOmzrPPJooaiC3LRtqngSlkn6h4lpFUxqg/qP49anbwQms6d3U8COpE9ZsnHHIa4vqiFuxgmBxvFQWMvl8R205/9rga25Zyp2GKqb4B8WLLE6odDSsQsSe5VVjsbMPm30YagRdhV2Anm23Ap3KXSfLDMlOJhPmi4ZrL9qYSzYLakRlJ/A4EjwD+/oBFpz+u5UdTCOjnCqLwbvpSYsiYZFoB7r8/Nyr1FSRzN411CG4zF0YtVE7CDnayc3R6496PDRLl9+l9IC67fpXSlIVjFVCUCA1n5DPuVejU4z02OPntgtWCzoZwbLjKdI9iJlQJdHRVc/yrLUcj0e3SOxtAcItxTlBzR+KFk4KIQIkNZDcU5c11ntDT5tqxdra8gudf35+92loqJ3B3qB1Z0Uy97mfXBqsn/fDF7wyz4yU5eMM4sh2YJBRhoArDvSFKDAail1B0Xny63Btuc5gInjK2gU7HAnm6QM9PyKNDdzjMbD6oOHAjvohTWVzghl57l8+ZEqRNDCLk1f9bJdmzM3dZEbIBlcxt6Iw8ATibiPVreNgDe6YUB5aX9sR7oSLIssYLfcwLsNgMdbJSFMrY/RJ8BI6Cpw8rz3kS2m+uPvdrCHa8WlsLFsBEx7/wAPzG5nGNjpMoaObv02QsNdHY9vyyfFa2zBVKHdG3h4pFKWemzEdkl6sm4riQR8YQgiynbe+j148ymlHNXrohthHlgjnEJrw6nMtbP1bw/L2QowFpXrVWLg6DD3+ySmOoIakLVdKc9leX1YqCSgH4hoa7trZJpOkE6WbtldZhu67lU"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221684,
+    "id": "sc1JapabNpSi9tMP8vOl4AE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 284,
+      "total_tokens": 535
+    }
+  }
+}

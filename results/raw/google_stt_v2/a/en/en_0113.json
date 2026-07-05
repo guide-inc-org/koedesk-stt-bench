@@ -1,0 +1,36 @@
+{
+  "utt_id": "en_0113",
+  "lang": "en",
+  "engine": "google_stt_v2",
+  "duration_sec": 9.96,
+  "ref_text_raw": "Late on Sunday, the United States President Donald Trump, in a statement delivered via the press secretary, announced US troops would be leaving Syria.",
+  "ref_text_normalized": "late on sunday the united states president donald trump in a statement delivered via the press secretary announced us troops would be leaving syria",
+  "timestamp_utc": "2026-07-05T03:33:02Z",
+  "text": "Late on Sunday, the United States President Donald Trump, in a statement delivered via the press secretary, announced US troops would be leaving Syria.",
+  "latency_sec": 3.9726,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "en-US",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "10s",
+      "requestId": "6b66f822-0000-2651-b007-5c337bc1d4eb",
+      "prompt": "Transcribe the following speech segment in English. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, English."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Late on Sunday, the United States President Donald Trump, in a statement delivered via the press secretary, announced US troops would be leaving Syria."
+          }
+        ],
+        "languageCode": "en-US"
+      }
+    ]
+  }
+}

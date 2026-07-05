@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0192",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.64,
+  "ref_text_raw": "Dennoch sollten Sie den Rat von Behörden befolgen, alle Schilder beachten und insbesondere Augenmerk auf Sicherheitswarnungen richten.",
+  "ref_text_normalized": "dennoch sollten sie den rat von behörden befolgen alle schilder beachten und insbesondere augenmerk auf sicherheitswarnungen richten",
+  "timestamp_utc": "2026-07-05T04:12:08Z",
+  "text": "Dennoch sollten Sie den Rat von Behörden befolgen, alle Schilder beachten und insbesondere Augenmerk auf Sicherheitswarnungen richten.",
+  "latency_sec": 3.7064,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Dennoch sollten Sie den Rat von Behörden befolgen, alle Schilder beachten und insbesondere Augenmerk auf Sicherheitswarnungen richten.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpEFCo4FARFNMg+WEfNEMZPSfs+MXmL1PB/2VWKxhKC/XI2RZAAVq7wdd40TqaXlXRL0YA3bV1j9EYone3PgjRwIB8gfRPkr5Q0TIYHqef2N+Y57USxQkqNtXbIdr6SZF2411gRsIikEhUF+USIwBChJ8DTwQWdmq0FPmhT7Sx40UDVfBy8DYedwo0/j4sDzsBO48qC1ojiM5S3E6FrgB35VuW/iGm89vVaIRMTR6z75fZbinCanmLzyMI5lLhngqzbPEB87HyFNeREtCW+LILsjMEpeIcevihXQop5t7P3D5Tvdqhip6m1by1FfyYcr7gLJkdL6H7ghi+4GANzsqFw+mYTYAQ9ZO4Bih9ODeknyEGHZOBBGVq4YB996Bienq31Ni2t6Ou/QucFRw85/vk4fvc8y2caA5mIqWN7bMapUv97eZrBHOE/mmluRxpUl++4CXR1fGT0fqlP4gmLVvwo3Hik8YW8FDTFvnzAho4KSM9R5fsWhBO0h+htSP/HBJQGT7ht3ay11uB8foewXD1FdTNZHJtjD210thHAgOSyyGIxKfT9ZniEbICaNlqQ0FJOh683GYvRJx7NmMoPv8uLtvYaN4yvr/7wALyIZW7xRqDxxsfNxYgVnknLA7Lq8+k05fqsQV4ZzRDVA7ECBhfIMolYgm3zTIrM5cCBRqR5cY2/tu3nY/hFD1QE7DhThN72/RQfYRXR3xYXoZh9XBFOfu8OC9Z1iP9oE5t33RY+8H7szcodFRQBpD2nTZvxBSLqnj3/FB0P+59pedR3IFGa4LKYAuyLLbhfPbZFVuchzS3kOaqs3Lpml4XCAoMKijuVF4MTO8u26lQWn26mq3tJv4/xpoUgNiVDuGkO3N4ft1WYs"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224728,
+    "id": "ltlJauiVA_K8vr0P85enuQQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 312,
+      "total_tokens": 543
+    }
+  }
+}

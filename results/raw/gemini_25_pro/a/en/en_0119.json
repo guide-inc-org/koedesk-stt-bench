@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0119",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 9.48,
+  "ref_text_raw": "Mass car ownership also leads to a higher incidence of accidents on the roads, which leads to the invention of new techniques in healthcare for repairing damaged bodies.",
+  "ref_text_normalized": "mass car ownership also leads to a higher incidence of accidents on the roads which leads to the invention of new techniques in healthcare for repairing damaged bodies",
+  "timestamp_utc": "2026-07-05T03:25:29Z",
+  "text": "Mass car ownership also leads to a higher incidence of accidents on the road, which leads to the invention of new techniques in healthcare for repairing damaged bodies.",
+  "latency_sec": 5.4966,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Mass car ownership also leads to a higher incidence of accidents on the road, which leads to the invention of new techniques in healthcare for repairing damaged bodies.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221929,
+    "id": "pc5Jaoy_IbvN2roPnu2ysAU",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 325,
+      "total_tokens": 577
+    }
+  }
+}

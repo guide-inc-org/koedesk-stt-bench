@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0019",
+  "lang": "ko",
+  "engine": "gemini_25_pro",
+  "duration_sec": 13.26,
+  "ref_text_raw": "만약 내셔널 트레저라는 영화를 봤다면, 아마 독립선언서의 뒷면에 보물지도가 쓰여졌다고 생각할지도 모른다.",
+  "ref_text_normalized": "만약 내셔널 트레저라는 영화를 봤다면 아마 독립선언서의 뒷면에 보물지도가 쓰여졌다고 생각할지도 모른다",
+  "timestamp_utc": "2026-07-05T05:59:33Z",
+  "text": "만약 내셔널 트레저라는 영화를 봤다면 아마 독립 선언서의 뒷면에 보물 지도가 쓰여졌다고 생각할지도 모른다.",
+  "latency_sec": 7.4718,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "만약 내셔널 트레저라는 영화를 봤다면 아마 독립 선언서의 뒷면에 보물 지도가 쓰여졌다고 생각할지도 모른다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231173,
+    "id": "v_JJar-ZH7vLrfcPnvyU2AE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 446,
+      "total_tokens": 960
+    }
+  }
+}

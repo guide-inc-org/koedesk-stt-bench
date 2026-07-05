@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0076",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.12,
+  "ref_text_raw": "모로코 술탄은 다루 이 바드야(Daru l-Badya)라는 도시로 재건축하고, 여기에 무역 거점을 세운 스페인 상인들은 이곳을 카사블랑카라고 불렀다.",
+  "ref_text_normalized": "모로코 술탄은 다루 이 바드야daru l-badya라는 도시로 재건축하고 여기에 무역 거점을 세운 스페인 상인들은 이곳을 카사블랑카라고 불렀다",
+  "timestamp_utc": "2026-07-05T06:16:11Z",
+  "text": "모로코 술탄은 다르 엘 바이다라는 도시로 재건축하고 여기에 무역 거점을 세운 스페인 상인들은 이곳을 카사블랑카라고 불렀다.",
+  "latency_sec": 6.5212,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "모로코 술탄은 다르 엘 바이다라는 도시로 재건축하고 여기에 무역 거점을 세운 스페인 상인들은 이곳을 카사블랑카라고 불렀다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232171,
+    "id": "pvZJaq-tNOrS1e8Pod3IoAU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 42,
+      "prompt_tokens": 324,
+      "total_tokens": 1125
+    }
+  }
+}

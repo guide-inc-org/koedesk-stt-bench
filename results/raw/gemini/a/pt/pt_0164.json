@@ -1,0 +1,39 @@
+{
+  "utt_id": "pt_0164",
+  "lang": "pt",
+  "engine": "gemini_25_flash",
+  "duration_sec": 6.42,
+  "ref_text_raw": "Nos deu o trem, o carro e diversas outras formas de transporte.",
+  "ref_text_normalized": "nos deu o trem o carro e diversas outras formas de transporte",
+  "timestamp_utc": "2026-07-05T06:39:53Z",
+  "text": "nos deu o trem, o carro e diversas outras formas de transporte.",
+  "latency_sec": 3.6206,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "nos deu o trem, o carro e diversas outras formas de transporte.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783233593,
+    "id": "N_xJaquXAqzmosUPj8LSwAE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 14,
+      "prompt_tokens": 227,
+      "total_tokens": 269
+    }
+  }
+}

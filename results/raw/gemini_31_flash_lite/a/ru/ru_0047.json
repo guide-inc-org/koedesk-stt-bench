@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0047",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.44,
+  "ref_text_raw": "Круизы в Санкт-Петербург включают прогулки по городу. Пассажиры круизов освобождены от визовых требований (уточните условия).",
+  "ref_text_normalized": "круизы в санкт-петербург включают прогулки по городу. пассажиры круизов освобождены от визовых требований уточните условия",
+  "timestamp_utc": "2026-07-05T07:29:53Z",
+  "text": "Круизы в Санкт-Петербург включают прогулки по городу. Пассажиры круизов освобождены от визовых требований. Уточните условия.",
+  "latency_sec": 2.8043,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Круизы в Санкт-Петербург включают прогулки по городу. Пассажиры круизов освобождены от визовых требований. Уточните условия.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPGeyNoxyX887C3VPi0OPrCPbwDk3qTwpYpAUn8984d3Z3QgjRogV9yciOGeOL"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236594,
+    "id": "8AdKaurKJNTf1e8PvLbrwQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 282,
+      "total_tokens": 316
+    }
+  }
+}

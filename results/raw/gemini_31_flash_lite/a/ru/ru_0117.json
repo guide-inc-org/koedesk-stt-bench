@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0117",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.72,
+  "ref_text_raw": "Плато Гиза, или же Некрополь Гизы, в египетской Долине Мёртвых, включает несколько пирамид (из которых Великая пирамида Гизы — самая большая), несколько небольших гробниц, несколько храмов и Большой сфинкс.",
+  "ref_text_normalized": "плато гиза или же некрополь гизы в египетской долине мёртвых включает несколько пирамид из которых великая пирамида гизы — самая большая несколько небольших гробниц несколько храмов и большой сфинкс",
+  "timestamp_utc": "2026-07-05T07:34:12Z",
+  "text": "Плато Гиза или же некрополь Гизы в египетской Долине мёртвых включает несколько пирамид, из которых Великая пирамида Гизы самая большая, несколько небольших гробниц, несколько храмов и большой Сфинкс.",
+  "latency_sec": 2.7975,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Плато Гиза или же некрополь Гизы в египетской Долине мёртвых включает несколько пирамид, из которых Великая пирамида Гизы самая большая, несколько небольших гробниц, несколько храмов и большой Сфинкс.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPqeY0UTnwzT9M3OCvgpvjhHQrUt6GGlBKpFi4B5MCDyJVRFj1VOwYM7mGoDTT"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236852,
+    "id": "8ghKarigOa7H0-kPsbugkQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 56,
+      "prompt_tokens": 339,
+      "total_tokens": 395
+    }
+  }
+}

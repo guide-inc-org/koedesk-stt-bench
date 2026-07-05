@@ -1,0 +1,45 @@
+{
+  "utt_id": "vi_0035",
+  "lang": "vi",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 13.5,
+  "ref_text_raw": "Chiều cao tĩnh không dưới cầu là 15 mét. Việc xây dựng được hoàn thành vào tháng 8 năm 2011 nhưng đến tháng 3 năm 2017 cầu mới được khai thông.",
+  "ref_text_normalized": "chiều cao tĩnh không dưới cầu là 15 mét việc xây dựng được hoàn thành vào tháng 8 năm 2011 nhưng đến tháng 3 năm 2017 cầu mới được khai thông",
+  "timestamp_utc": "2026-07-05T08:31:26Z",
+  "text": "Chiều cao tĩnh không dưới cầu là 15 m, việc xây dựng được hoàn thành vào tháng 8 năm 2011, nhưng đến tháng 3 năm 2017 cầu mới được khai thông.",
+  "latency_sec": 4.3865,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Chiều cao tĩnh không dưới cầu là 15 m, việc xây dựng được hoàn thành vào tháng 8 năm 2011, nhưng đến tháng 3 năm 2017 cầu mới được khai thông.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "ErYKCrMKARFNMg/60DMYyf8gwYIm5p6G4t6uEOKX9z9Ydd/I9HPQEg1eORaHXdyauPT90mqDv3gC/LkEqn5khuNxbPFlhTwqthhjE7/1+4Xnyb1AbJarh5W6jsF1ECMXZjkLnQsCwH6o7KuOe8nL+CLwmaNDuIczI9MJnL9wVz+/5TGPS8vwcc9H9IiVPgPV5T6K/q4/265eBBuBfXsYEyWabehUpxr1AIGCQUWx0doVwFqXgIrR7gFaLOlq3HjViYRE+t6z/jFHkYRs1Ee3RAMcH3u+P6r5ftgT81J6mPvek/rimW7Dj7Hv8t59NNA+BxYUTRyIxP8f8WqrvGJosuI+cFBHr24ZWj4IaqICpdddb7pRmolVGVh0klf+Xbb2lY9vk7iR/QnnNCRKf1xmh+hR/s9FWWxIL4p0i9K42ushiL34/mdEiakhBPMVbLgVEGNCkyRUroZk5r402O4puNgvPZi8VozK95JRjselGwQ/1phBvNr7+Tvc9NwfPoXiwbdrfTf6wSDWRtrADdhlRXYTlcD/Zc0c9Sg7tX52ecKJDAYg7s2up4dX0igstjzxBlMIoRQ1ueO0PPbfXRsh9tLHHJY9O9zBlOo6rzY1uLnKfPeeldRDdAVtQ+22+QYQcPDjaJ7bTnsksfFXuVPLQeymP9sXdvx7m+6HVLwiBYeMDLdM7ds9tslBxCuWKPdriPG6iJx9FBMyiH9ezptRfO/9PsGhF7v4n/Cixk3Bm1KWTFTalWa+wj1g4RZwlVOj1IDnYHwR64pi6j1QFQ8wTg5SYEptjW9vvG+vzOfccjTAiVc3huuhZY4fCKN6Mrg+a7pmru8qJ/j18GegrgA+diZzvby563s5Tv7T2G4T9u4vShgNkj3N0dqVeCA/RtA35pmWH8CGq3AbLD8BWuQwu1vipOFnGbYld88rvBDjBs5eaQMVUmeyGtypOMjhe7aoJQJg0y70IsnjoONRq85RK4y9IS2WJQQY6XPqjBuyl12caiF7753itFKlCenZUHe9L0QlzZRtQV93/1cssIKMW7k/UI4HsXLEDmRUg0GBVMweAMw+RVeHw2vHYobyye86CHYP+6E6NWPWfOpS6sFgDYKp7Yv4MySTesLpZC6AmXJLk8TmN8HQjUxjnyutMztG4u5W+AmzgQT0ISLXHAafGDaBT3VG8yfpPEsZ7PRQpwrv2JxIBi4g+FJiVCYgTkbnhHbGlKMY5591DzsvWF7TpD+TMO/EdJjOD2J4rlNv9l93kwpEzczaS3wEuyeLKYA1CTcgR9GW8ERGFFPsDEoi95lDD8Ea4UpAW3MYqj0iArtVQR0ceT7AHscaCS4MdBy4XHcvg2ZgZbBdhzjqSuLfRfkRWY1heZZOsxzNtOCdBR8RLn7Yd6jN9KnrqU6EHR/xm/8Fnze6rKwyz8u54jOykBY6y1a0UKpR/NVuzWwJRPekSBM8jYyF2BQT5lvRPVisgp7M+9+iDsq0SIdbi2VP9lbmR+a1CzFOaS6SIrSJh903JcUkzyQGEcNUxiscGf7WB61wPfA9B8DqkqogDpEzJVGdN15fp4DOcEEvejaWw65CY1FHPLvnCRdhVYSb7b0pT58MJ82WGFtunOkkC/Gf2PmbPhyG+U8UrY+KDyI3iumGLwcZybL3q0XYyzoGptuUZIYTHVn9U2tHlkhR3GfKtxBgT1/i9dqDcO/kQ79K8nvZIocT/Uc6yXiPblHwN6ZO5VJASUEP2RN+nWMyo4ACsht5DX/uqdIrxiuV5DoMb663g7ZOi1Ykc7g="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240286,
+    "id": "WhZKarTQO8fG0-kPuZO6wQU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 46,
+      "prompt_tokens": 359,
+      "total_tokens": 787
+    }
+  }
+}

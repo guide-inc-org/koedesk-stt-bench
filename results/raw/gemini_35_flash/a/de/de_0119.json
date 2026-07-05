@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0119",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.16,
+  "ref_text_raw": "Wir bauen unsere Häuser aus Pflanzen und stellen Kleidung aus Pflanzen her. Wir ernähren uns hauptsächlich von Pflanzen. Ohne Pflanzen könnten Tiere nicht überleben.",
+  "ref_text_normalized": "wir bauen unsere häuser aus pflanzen und stellen kleidung aus pflanzen her wir ernähren uns hauptsächlich von pflanzen ohne pflanzen könnten tiere nicht überleben",
+  "timestamp_utc": "2026-07-05T04:05:58Z",
+  "text": "Wir bauen unsere Häuser aus Pflanzen und stellen Kleidung aus Pflanzen her. Wir ernähren uns hauptsächlich von Pflanzen. Ohne Pflanzen könnten Tiere nicht überleben.",
+  "latency_sec": 3.8466,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Wir bauen unsere Häuser aus Pflanzen und stellen Kleidung aus Pflanzen her. Wir ernähren uns hauptsächlich von Pflanzen. Ohne Pflanzen könnten Tiere nicht überleben.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EscGCsQGARFNMg+ss3UkZ50CQho6WpuCo/jSwZh2sHH7JqZRMpTLC0MUm7iDeAR/jjHYbGxGxDANY9QzQ/xj68i7nsQ2B6fPWzQ5278LYLWlRP9eXZmKoDyDmjQqquMivTHhBhCkQWLxe08QCnARRJQ6VQ8+ndBYa+Mk+uL4sR3Vu4swVBVcLJyscrsLTYfp83A4/Donab1+inL1sOxS4odtbpJ6fvmraAFhu9hDvsH4dw3oaBEDpNHA6pJG0OHPz3cZVu1U7QUUkRWqVIW3kA2b7AiGzb3HKIYiRgRFzz8GWhRI+fAULaNMV8AtU6bjD+LQp8VEmkpYA5t06YIchg/jCoqOCdZ0L9d/M6faJoJhM4QSo+zqSS82aFVWEy62+sNUdtFSKqBKCl3TIGIAmJwkvcu4N6oHqmrqyru046g1+AikEXxR5dUtTOreffTfF4PcEtZhkFoWQi1/95Gb8ZgMfmR3EyQqtM11Bhda05Kt8otQIwApX0p/09Zvu5P0l1p3+1Cgqr/S12jEAq17Jip9mi2u3pNjpPue3ews+G1FzJwRrJe703ShukyfkXBqzp0HbszvSeu4d+W2FaCSoeyGMb6cd8pT6S3Ndrs7f0St2lkHgVe7CB9u5ApKYqkINkkZGoK05g37wQPi4YIeKl/hfb2iVe8vv1/m9UA2BfKlb8bs4Q6oG5qLcKvM6yuV4ANyoJBMgp4sHQD/jke7U0blbC03ANa7NRVj6toHFcCTfoHO7RllLTEg2oQqb8bsFuvzEKoNlYeM/y16yJk2rvmXEYGRXjjiXd1unxl3mobOMXTA+whfpZUeKwNJog4YAtkViY20c4i0bkqaeDHSL5Cb9KWcz5dxXxNJ3AVaE+iLRFr01aCmbunlTadS5nhH9t4WkZkWlWIPhKErGlT5xEq+2TYtLwcqEiqLfn7DvKSubhQfKlGB5xI8w9HHLTX8LOPvWWGEqd8f60hZaLG3uxrpPuhpwArX9RLQfzTX85+V+D2GWBTrVI/B8biRAbpcOmoEY6cPDVi4zEREbxfjaobX2Ka3L/sGN1FLTWufwijY7ME8fzrmyD7zf8YmpXYGIfkAdZV+VyEKG7vpTiK1mxjXpS6VN/J8k+8="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224358,
+    "id": "I9hJapPuJPz-2roPj568yQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 300,
+      "total_tokens": 519
+    }
+  }
+}

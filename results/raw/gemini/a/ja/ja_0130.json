@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0130",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.1,
+  "ref_text_raw": "これは、一部の動詞と目的語を区別するうえで重要な方法です。",
+  "ref_text_normalized": "これは 一部の動詞と目的語を区別するうえで重要な方法です",
+  "timestamp_utc": "2026-07-05T03:09:10Z",
+  "text": "これは一部の動詞と目的語を区別する上で重要な方法です。",
+  "latency_sec": 4.5886,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "これは一部の動詞と目的語を区別する上で重要な方法です。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783220950,
+    "id": "08pJao6fH-ON1e8PjO3d6AM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 17,
+      "prompt_tokens": 281,
+      "total_tokens": 329
+    }
+  }
+}

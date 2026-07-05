@@ -1,0 +1,36 @@
+{
+  "utt_id": "es_0047",
+  "lang": "es",
+  "engine": "google_stt_v2",
+  "duration_sec": 24.96,
+  "ref_text_raw": "Por ejemplo, todos los años, los alumnos de la escuela Bennet en Carolina del Norte diseñan una página web acerca de su viaje a la capital del Estado y cada año la página se actualiza, pero se conservan en línea las versiones previas que en la forma de álbum de recuerdos.",
+  "ref_text_normalized": "por ejemplo todos los años los alumnos de la escuela bennet en carolina del norte diseñan una página web acerca de su viaje a la capital del estado y cada año la página se actualiza pero se conservan en línea las versiones previas que en la forma de álbum de recuerdos",
+  "timestamp_utc": "2026-07-05T04:03:08Z",
+  "text": "Por ejemplo, todos los años los alumnos de la Escuela Bennett en Carolina del Norte diseñan una página web acerca de su viaje a la capital del estado, y cada año la página se actualiza, pero se conservan en línea las versiones previas en la forma de álbum de recuerdos.",
+  "latency_sec": 8.8004,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "es-US",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "25s",
+      "requestId": "7dd23a96-0000-256e-9221-582429cf7a5c",
+      "prompt": "Transcribe the following speech segment in Spanish. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Spanish."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Por ejemplo, todos los años los alumnos de la Escuela Bennett en Carolina del Norte diseñan una página web acerca de su viaje a la capital del estado, y cada año la página se actualiza, pero se conservan en línea las versiones previas en la forma de álbum de recuerdos."
+          }
+        ],
+        "languageCode": "es-US"
+      }
+    ]
+  }
+}

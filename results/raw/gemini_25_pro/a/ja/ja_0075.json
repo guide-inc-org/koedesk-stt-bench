@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0075",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 11.04,
+  "ref_text_raw": "しかし、シェンゲン圏は、この点では一国のように機能します。",
+  "ref_text_normalized": "しかし シェンゲン圏は この点では一国のように機能します",
+  "timestamp_utc": "2026-07-05T10:10:30Z",
+  "text": "しかし、シェンゲン圏はこの点では一国のように機能します。",
+  "latency_sec": 4.2004,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "しかし、シェンゲン圏はこの点では一国のように機能します。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246230,
+    "id": "ky1KatjFG7D32roPjrXkkQc",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 15,
+      "prompt_tokens": 375,
+      "total_tokens": 431
+    }
+  }
+}

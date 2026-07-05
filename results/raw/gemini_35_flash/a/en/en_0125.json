@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0125",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 4.98,
+  "ref_text_raw": "For the Springboks, it ended a five-match losing streak.",
+  "ref_text_normalized": "for the springboks it ended a five-match losing streak",
+  "timestamp_utc": "2026-07-05T03:34:02Z",
+  "text": "For the Springboks, it ended a five-match losing streak.",
+  "latency_sec": 3.5944,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "For the Springboks, it ended a five-match losing streak.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtICCs8CARFNMg8vXOKfPZ4zD9cZZXC0Fdx6lWNYFg+2VbEpIVZxn5Dh8L+LY4IqfpH7cgbMiFYVVQsgCy9ybpn8W4wttZMCOTSmuOSIRnwMtJOBakKewceniHTa0WQL0KA9IkXFoi7OBzhhcp0hSpL9zUANBchxDcHmh12eezVU096/NeIRBdX1Eex6CR9rmqy1vLgb2vXa2T2fBNrrN1KoSS/RtYk7b4afGvjWhlwL/xyXWxVej0ZlbVw8tBCq+xZ/zl5+ruWP/b3tveJWISgrwpu0eMIbNfcwC4N+lve5ijNUtCuaJATgWV4YMPcvhNAQmd2JJfwFpOzWH+/OiNuIqipiptRz4b0qDm4hTHeOEaF+jiMsTgW8dtfOgyWM0ZiGO3lZRX/UKNSOCGN++RaafLw6GyC+2APDzXlr1cD6iQ5a5KOWGObGJe22T/i8AkutaKY="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222442,
+    "id": "qNBJaqmEIMal1e8PnPeFgAI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 13,
+      "prompt_tokens": 146,
+      "total_tokens": 230
+    }
+  }
+}

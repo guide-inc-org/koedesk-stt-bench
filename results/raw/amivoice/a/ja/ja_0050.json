@@ -1,0 +1,107 @@
+{
+  "utt_id": "ja_0050",
+  "lang": "ja",
+  "engine": "amivoice_general",
+  "duration_sec": 6.42,
+  "ref_text_raw": "スブリングボックにとっては、5連敗が止まりました。",
+  "ref_text_normalized": "スブリングボックにとっては 5連敗が止まりました",
+  "timestamp_utc": "2026-07-04T13:32:10Z",
+  "text": "スプリングボックにとっては5連敗が止まりました。",
+  "latency_sec": 1.2746,
+  "params": {
+    "endpoint": "https://acp-api.amivoice.com/v1/recognize",
+    "grammarFileNames": "-a-general",
+    "logging": true,
+    "audio_conversion": "float32 wav -> pcm_16 wav (same samples)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "results": [
+      {
+        "tokens": [
+          {
+            "written": "スプリング",
+            "confidence": 0.94,
+            "starttime": 1654,
+            "endtime": 2326,
+            "spoken": "すぷりんぐ"
+          },
+          {
+            "written": "ボック",
+            "confidence": 1.0,
+            "starttime": 2326,
+            "endtime": 2614,
+            "spoken": "ぼっく"
+          },
+          {
+            "written": "にとって",
+            "confidence": 1.0,
+            "starttime": 2614,
+            "endtime": 3062,
+            "spoken": "にとって"
+          },
+          {
+            "written": "は",
+            "confidence": 1.0,
+            "starttime": 3062,
+            "endtime": 3254,
+            "spoken": "は"
+          },
+          {
+            "written": "5",
+            "confidence": 1.0,
+            "starttime": 3302,
+            "endtime": 3430,
+            "spoken": "ご"
+          },
+          {
+            "written": "連敗",
+            "confidence": 1.0,
+            "starttime": 3430,
+            "endtime": 3814,
+            "spoken": "れんぱい"
+          },
+          {
+            "written": "が",
+            "confidence": 1.0,
+            "starttime": 3814,
+            "endtime": 3910,
+            "spoken": "が"
+          },
+          {
+            "written": "止まり",
+            "confidence": 0.97,
+            "starttime": 3910,
+            "endtime": 4262,
+            "spoken": "とまり"
+          },
+          {
+            "written": "ました",
+            "confidence": 1.0,
+            "starttime": 4262,
+            "endtime": 4678,
+            "spoken": "ました"
+          },
+          {
+            "written": "。",
+            "confidence": 0.81,
+            "starttime": 4678,
+            "endtime": 4934,
+            "spoken": "_"
+          }
+        ],
+        "confidence": 0.9725,
+        "starttime": 0,
+        "endtime": 4934,
+        "tags": [],
+        "rulename": "",
+        "text": "スプリングボックにとっては5連敗が止まりました。"
+      }
+    ],
+    "utteranceid": "20260704/22/019f2d5457f90a30111a94c5_20260704_223210",
+    "text": "スプリングボックにとっては5連敗が止まりました。",
+    "code": "",
+    "message": ""
+  }
+}

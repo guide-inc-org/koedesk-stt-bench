@@ -1,0 +1,478 @@
+{
+  "utt_id": "ja_0120",
+  "lang": "ja",
+  "engine": "amivoice_general",
+  "duration_sec": 19.08,
+  "ref_text_raw": "芸能ニュースサイトTMZによると、写真家はセプルベダ大通りの反対車線に車を停め、道路を渡って進む前に警察の検問を写真に収めようとしたため、交通規制をしていたカリフォルニア州ハイウェイパトロールの警察官が横断して戻るように2回も命じたそうです。",
+  "ref_text_normalized": "芸能ニュースサイトtmzによると 写真家はセプルベダ大通りの反対車線に車を停め 道路を渡って進む前に警察の検問を写真に収めようとしたため 交通規制をしていたカリフォルニア州ハイウェイパトロールの警察官が横断して戻るように2回も命じたそうです",
+  "timestamp_utc": "2026-07-05T03:07:44Z",
+  "text": "芸能ニュースサイトDMZによると、写真川瀬プレベ大通りの反対車線に車を停め、道路を渡って進む前に、警察の検問を写真に収めようとしたため、交通規制を過ぎたカリフォルニア州ハイウェイパトロールの警察官が横断して戻るように理解も命じたそうです。",
+  "latency_sec": 3.6219,
+  "params": {
+    "endpoint": "https://acp-api.amivoice.com/v1/recognize",
+    "grammarFileNames": "-a-general",
+    "logging": true,
+    "audio_conversion": "float32 wav -> pcm_16 wav (same samples)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "results": [
+      {
+        "tokens": [
+          {
+            "written": "芸能",
+            "confidence": 1.0,
+            "starttime": 1070,
+            "endtime": 1502,
+            "spoken": "げいのう"
+          },
+          {
+            "written": "ニュースサイト",
+            "confidence": 0.98,
+            "starttime": 1502,
+            "endtime": 2174,
+            "spoken": "にゅーすさいと"
+          },
+          {
+            "written": "DMZ",
+            "confidence": 1.0,
+            "starttime": 2222,
+            "endtime": 2958,
+            "spoken": "でぃーえむぜっと"
+          },
+          {
+            "written": "に",
+            "confidence": 1.0,
+            "starttime": 2958,
+            "endtime": 3038,
+            "spoken": "に"
+          },
+          {
+            "written": "よる",
+            "confidence": 1.0,
+            "starttime": 3038,
+            "endtime": 3214,
+            "spoken": "よる"
+          },
+          {
+            "written": "と",
+            "confidence": 1.0,
+            "starttime": 3214,
+            "endtime": 3342,
+            "spoken": "と"
+          },
+          {
+            "written": "、",
+            "confidence": 0.8,
+            "starttime": 3342,
+            "endtime": 3374,
+            "spoken": "_"
+          },
+          {
+            "written": "写真",
+            "confidence": 1.0,
+            "starttime": 3374,
+            "endtime": 3790,
+            "spoken": "しゃしん"
+          },
+          {
+            "written": "川瀬",
+            "confidence": 0.76,
+            "starttime": 3790,
+            "endtime": 4174,
+            "spoken": "かわせ"
+          },
+          {
+            "written": "プレベ",
+            "confidence": 0.46,
+            "starttime": 4174,
+            "endtime": 4606,
+            "spoken": "ぷれべ"
+          },
+          {
+            "written": "大通り",
+            "confidence": 0.96,
+            "starttime": 4606,
+            "endtime": 5070,
+            "spoken": "おおどおり"
+          },
+          {
+            "written": "の",
+            "confidence": 1.0,
+            "starttime": 5070,
+            "endtime": 5166,
+            "spoken": "の"
+          },
+          {
+            "written": "反対",
+            "confidence": 1.0,
+            "starttime": 5166,
+            "endtime": 5534,
+            "spoken": "はんたい"
+          },
+          {
+            "written": "車線",
+            "confidence": 1.0,
+            "starttime": 5534,
+            "endtime": 5822,
+            "spoken": "しゃせん"
+          },
+          {
+            "written": "に",
+            "confidence": 1.0,
+            "starttime": 5822,
+            "endtime": 5934,
+            "spoken": "に"
+          },
+          {
+            "written": "車",
+            "confidence": 0.87,
+            "starttime": 5934,
+            "endtime": 6270,
+            "spoken": "くるま"
+          },
+          {
+            "written": "を",
+            "confidence": 1.0,
+            "starttime": 6270,
+            "endtime": 6350,
+            "spoken": "を"
+          },
+          {
+            "written": "停め",
+            "confidence": 0.71,
+            "starttime": 6350,
+            "endtime": 6606,
+            "spoken": "とめ"
+          },
+          {
+            "written": "、",
+            "confidence": 0.97,
+            "starttime": 6606,
+            "endtime": 6638,
+            "spoken": "_"
+          },
+          {
+            "written": "道路",
+            "confidence": 1.0,
+            "starttime": 6638,
+            "endtime": 7006,
+            "spoken": "どうろ"
+          },
+          {
+            "written": "を",
+            "confidence": 1.0,
+            "starttime": 7006,
+            "endtime": 7054,
+            "spoken": "を"
+          },
+          {
+            "written": "渡っ",
+            "confidence": 1.0,
+            "starttime": 7054,
+            "endtime": 7358,
+            "spoken": "わたっ"
+          },
+          {
+            "written": "て",
+            "confidence": 1.0,
+            "starttime": 7358,
+            "endtime": 7470,
+            "spoken": "て"
+          },
+          {
+            "written": "進む",
+            "confidence": 0.99,
+            "starttime": 7470,
+            "endtime": 7758,
+            "spoken": "すすむ"
+          },
+          {
+            "written": "前",
+            "confidence": 1.0,
+            "starttime": 7758,
+            "endtime": 7998,
+            "spoken": "まえ"
+          },
+          {
+            "written": "に",
+            "confidence": 1.0,
+            "starttime": 7998,
+            "endtime": 8206,
+            "spoken": "に"
+          },
+          {
+            "written": "、",
+            "confidence": 0.71,
+            "starttime": 8206,
+            "endtime": 8238,
+            "spoken": "_"
+          },
+          {
+            "written": "警察",
+            "confidence": 1.0,
+            "starttime": 8238,
+            "endtime": 8718,
+            "spoken": "けいさつ"
+          },
+          {
+            "written": "の",
+            "confidence": 1.0,
+            "starttime": 8718,
+            "endtime": 8814,
+            "spoken": "の"
+          },
+          {
+            "written": "検問",
+            "confidence": 0.98,
+            "starttime": 8814,
+            "endtime": 9182,
+            "spoken": "けんもん"
+          },
+          {
+            "written": "を",
+            "confidence": 0.93,
+            "starttime": 9182,
+            "endtime": 9214,
+            "spoken": "を"
+          },
+          {
+            "written": "写真",
+            "confidence": 1.0,
+            "starttime": 9214,
+            "endtime": 9518,
+            "spoken": "しゃしん"
+          },
+          {
+            "written": "に",
+            "confidence": 1.0,
+            "starttime": 9518,
+            "endtime": 9598,
+            "spoken": "に"
+          },
+          {
+            "written": "収め",
+            "confidence": 0.89,
+            "starttime": 9598,
+            "endtime": 9854,
+            "spoken": "おさめ"
+          },
+          {
+            "written": "よう",
+            "confidence": 1.0,
+            "starttime": 9854,
+            "endtime": 9982,
+            "spoken": "よう"
+          },
+          {
+            "written": "と",
+            "confidence": 1.0,
+            "starttime": 9982,
+            "endtime": 10158,
+            "spoken": "と"
+          },
+          {
+            "written": "した",
+            "confidence": 1.0,
+            "starttime": 10158,
+            "endtime": 10350,
+            "spoken": "した"
+          },
+          {
+            "written": "ため",
+            "confidence": 1.0,
+            "starttime": 10350,
+            "endtime": 10798,
+            "spoken": "ため"
+          },
+          {
+            "written": "、",
+            "confidence": 0.64,
+            "starttime": 10798,
+            "endtime": 10846,
+            "spoken": "_"
+          },
+          {
+            "written": "交通",
+            "confidence": 0.97,
+            "starttime": 10978,
+            "endtime": 11410,
+            "spoken": "こうつう"
+          },
+          {
+            "written": "規制",
+            "confidence": 0.97,
+            "starttime": 11410,
+            "endtime": 11666,
+            "spoken": "きせい"
+          },
+          {
+            "written": "を",
+            "confidence": 1.0,
+            "starttime": 11666,
+            "endtime": 11746,
+            "spoken": "を"
+          },
+          {
+            "written": "過ぎ",
+            "confidence": 0.73,
+            "starttime": 11746,
+            "endtime": 12002,
+            "spoken": "すぎ"
+          },
+          {
+            "written": "た",
+            "confidence": 0.89,
+            "starttime": 12002,
+            "endtime": 12178,
+            "spoken": "た"
+          },
+          {
+            "written": "カリフォルニア",
+            "confidence": 0.98,
+            "starttime": 12210,
+            "endtime": 12818,
+            "spoken": "かりふぉるにあ"
+          },
+          {
+            "written": "州",
+            "confidence": 1.0,
+            "starttime": 12818,
+            "endtime": 13026,
+            "spoken": "しゅう"
+          },
+          {
+            "written": "ハイウェイ",
+            "confidence": 1.0,
+            "starttime": 13026,
+            "endtime": 13346,
+            "spoken": "はいうぇい"
+          },
+          {
+            "written": "パトロール",
+            "confidence": 1.0,
+            "starttime": 13346,
+            "endtime": 13858,
+            "spoken": "ぱとろーる"
+          },
+          {
+            "written": "の",
+            "confidence": 1.0,
+            "starttime": 13858,
+            "endtime": 13938,
+            "spoken": "の"
+          },
+          {
+            "written": "警察官",
+            "confidence": 1.0,
+            "starttime": 13938,
+            "endtime": 14562,
+            "spoken": "けいさつかん"
+          },
+          {
+            "written": "が",
+            "confidence": 1.0,
+            "starttime": 14562,
+            "endtime": 14786,
+            "spoken": "が"
+          },
+          {
+            "written": "横断",
+            "confidence": 1.0,
+            "starttime": 14818,
+            "endtime": 15202,
+            "spoken": "おうだん"
+          },
+          {
+            "written": "して",
+            "confidence": 0.99,
+            "starttime": 15202,
+            "endtime": 15362,
+            "spoken": "して"
+          },
+          {
+            "written": "戻る",
+            "confidence": 1.0,
+            "starttime": 15362,
+            "endtime": 15650,
+            "spoken": "もどる"
+          },
+          {
+            "written": "よう",
+            "confidence": 1.0,
+            "starttime": 15650,
+            "endtime": 15746,
+            "spoken": "よう"
+          },
+          {
+            "written": "に",
+            "confidence": 1.0,
+            "starttime": 15746,
+            "endtime": 15874,
+            "spoken": "に"
+          },
+          {
+            "written": "理解",
+            "confidence": 1.0,
+            "starttime": 15874,
+            "endtime": 16162,
+            "spoken": "りかい"
+          },
+          {
+            "written": "も",
+            "confidence": 0.87,
+            "starttime": 16162,
+            "endtime": 16274,
+            "spoken": "も"
+          },
+          {
+            "written": "命じ",
+            "confidence": 1.0,
+            "starttime": 16274,
+            "endtime": 16546,
+            "spoken": "めいじ"
+          },
+          {
+            "written": "た",
+            "confidence": 1.0,
+            "starttime": 16546,
+            "endtime": 16642,
+            "spoken": "た"
+          },
+          {
+            "written": "そう",
+            "confidence": 1.0,
+            "starttime": 16642,
+            "endtime": 16834,
+            "spoken": "そう"
+          },
+          {
+            "written": "です",
+            "confidence": 1.0,
+            "starttime": 16834,
+            "endtime": 17346,
+            "spoken": "です"
+          },
+          {
+            "written": "。",
+            "confidence": 0.87,
+            "starttime": 17346,
+            "endtime": 17538,
+            "spoken": "_"
+          }
+        ],
+        "confidence": 0.98,
+        "starttime": 750,
+        "endtime": 17538,
+        "tags": [],
+        "rulename": "",
+        "text": "芸能ニュースサイトDMZによると、写真川瀬プレベ大通りの反対車線に車を停め、道路を渡って進む前に、警察の検問を写真に収めようとしたため、交通規制を過ぎたカリフォルニア州ハイウェイパトロールの警察官が横断して戻るように理解も命じたそうです。"
+      }
+    ],
+    "utteranceid": "20260705/12/019f303efaa90a30351894cb_20260705_120741",
+    "text": "芸能ニュースサイトDMZによると、写真川瀬プレベ大通りの反対車線に車を停め、道路を渡って進む前に、警察の検問を写真に収めようとしたため、交通規制を過ぎたカリフォルニア州ハイウェイパトロールの警察官が横断して戻るように理解も命じたそうです。",
+    "code": "",
+    "message": ""
+  }
+}

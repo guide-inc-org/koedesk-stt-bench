@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0092",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 13.26,
+  "ref_text_raw": "在意大利很多其他城市以及世界上其他地方，尤其是波兰，都设置了类似的设施，以供大量群众观看。",
+  "ref_text_normalized": "在 意 大 利 很 多 其 他 城 市 以 及 世 界 上 其 他 地 方 尤 其 是 波 兰 都 设 置 了 类 似 的 设 施 以 供 大 量 群 众 观 看",
+  "timestamp_utc": "2026-07-05T09:13:56Z",
+  "text": "在意大利很多其他城市以及世界上其他地方，尤其是波兰，都设置了类似的设施以供大众观赏。",
+  "latency_sec": 4.8588,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "在意大利很多其他城市以及世界上其他地方，尤其是波兰，都设置了类似的设施以供大众观赏。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242836,
+    "id": "USBKavOuEPeZ0-kPrbzayQU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 353,
+      "total_tokens": 845
+    }
+  }
+}

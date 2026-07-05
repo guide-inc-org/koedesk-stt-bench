@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0112",
+  "lang": "zh",
+  "engine": "gemini_25_pro",
+  "duration_sec": 15.74,
+  "ref_text_raw": "此外，在革命之后，官职面向全体男性开放申请，这使得最有抱负、最成功之人有机会飞黄腾达。",
+  "ref_text_normalized": "此 外 在 革 命 之 后 官 职 面 向 全 体 男 性 开 放 申 请 这 使 得 最 有 抱 负 最 成 功 之 人 有 机 会 飞 黄 腾 达",
+  "timestamp_utc": "2026-07-05T09:00:45Z",
+  "text": "此外,在革命之後,官制面向全體男性開放申請, 這使得最有抱負,最成功之人有機會飛黃騰達。",
+  "latency_sec": 4.1809,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "此外,在革命之後,官制面向全體男性開放申請, 這使得最有抱負,最成功之人有機會飛黃騰達。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242045,
+    "id": "Oh1KaszLIq2A1e8P88TkuQE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 525,
+      "total_tokens": 556
+    }
+  }
+}

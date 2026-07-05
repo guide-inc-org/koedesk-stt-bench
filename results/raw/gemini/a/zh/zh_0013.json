@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0013",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 5.1,
+  "ref_text_raw": "巴黎人是出了名的以自我中心、粗鲁和傲慢。",
+  "ref_text_normalized": "巴 黎 人 是 出 了 名 的 以 自 我 中 心 粗 鲁 和 傲 慢",
+  "timestamp_utc": "2026-07-05T08:48:39Z",
+  "text": "巴林人是出了名的以自我为中心，粗鲁和傲慢。",
+  "latency_sec": 3.3448,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "巴林人是出了名的以自我为中心，粗鲁和傲慢。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241319,
+    "id": "ZRpKaoncBI-D1e8P9I7h6AE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 17,
+      "prompt_tokens": 185,
+      "total_tokens": 270
+    }
+  }
+}

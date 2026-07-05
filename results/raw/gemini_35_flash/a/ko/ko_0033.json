@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0033",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.6,
+  "ref_text_raw": "아이티 정의와 민주주의 연구소는 네팔의 UN 평화 유지 부대가 의도치 않게 아이티에 질병을 전파시켰다는 독립적인 연구를 언급했다.",
+  "ref_text_normalized": "아이티 정의와 민주주의 연구소는 네팔의 un 평화 유지 부대가 의도치 않게 아이티에 질병을 전파시켰다는 독립적인 연구를 언급했다",
+  "timestamp_utc": "2026-07-05T06:12:09Z",
+  "text": "아이티 정의와 민주주의 연구소는 네팔의 UN 평화유지부대가 의도치 않게 아이티에 질병을 전파시켰다는 독립적인 연구를 언급했다.",
+  "latency_sec": 5.9056,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "아이티 정의와 민주주의 연구소는 네팔의 UN 평화유지부대가 의도치 않게 아이티에 질병을 전파시켰다는 독립적인 연구를 언급했다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231929,
+    "id": "tPVJauCBKO2crfcPkMChIA",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 336,
+      "total_tokens": 1044
+    }
+  }
+}

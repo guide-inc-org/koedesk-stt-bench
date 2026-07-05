@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0163",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.44,
+  "ref_text_raw": "Muchas personas no se los representan como dinosaurios, ya que tienen plumas y pueden volar.",
+  "ref_text_normalized": "muchas personas no se los representan como dinosaurios ya que tienen plumas y pueden volar",
+  "timestamp_utc": "2026-07-05T04:43:31Z",
+  "text": "Muchas personas no se los representan como dinosaurios, ya que tienen plumas y pueden volar.",
+  "latency_sec": 2.891,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Muchas personas no se los representan como dinosaurios, ya que tienen plumas y pueden volar.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPObJeFdvlN8zU64Z8YAL6QF6QUPPO7J7mJ+S/k2i9SZX8pkfRXZNgEgqc1up9"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226611,
+    "id": "8uBJao-pEPia1e8P4ZHFoQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 282,
+      "total_tokens": 301
+    }
+  }
+}

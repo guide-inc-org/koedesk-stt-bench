@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0171",
+  "lang": "zh",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.2,
+  "ref_text_raw": "坠机发生在高海拔山区，据称是敌方火力所致。",
+  "ref_text_normalized": "坠 机 发 生 在 高 海 拔 山 区 据 称 是 敌 方 火 力 所 致",
+  "timestamp_utc": "2026-07-05T09:07:26Z",
+  "text": "坠机发生在在海拔山区,据称是敌方火力所致。",
+  "latency_sec": 4.1769,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "坠机发生在在海拔山区,据称是敌方火力所致。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242446,
+    "id": "zB5Kat7DB-n62roPgJLP-QI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 348,
+      "total_tokens": 364
+    }
+  }
+}

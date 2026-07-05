@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0113",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.54,
+  "ref_text_raw": "它们脚上有鳞片和爪子，会产卵，还像霸王龙一样用两条后腿走路。",
+  "ref_text_normalized": "它 们 脚 上 有 鳞 片 和 爪 子 会 产 卵 还 像 霸 王 龙 一 样 用 两 条 后 腿 走 路",
+  "timestamp_utc": "2026-07-05T09:17:26Z",
+  "text": "它们脚上有鳞片和爪子，会产卵，还有像霸王龙一样用两条后腿走路。",
+  "latency_sec": 3.3153,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "它们脚上有鳞片和爪子，会产卵，还有像霸王龙一样用两条后腿走路。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPCv1Ds6ItyEOBYmqjdPNURM/Ulq6wzLhQv+83x/b8P2oE18Lfp/T93KUpee3y"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243046,
+    "id": "JCFKapHpDcmzvr0PmpW5mQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 185,
+      "total_tokens": 210
+    }
+  }
+}

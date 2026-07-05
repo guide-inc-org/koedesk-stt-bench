@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0179",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 11.52,
+  "ref_text_raw": "Le sultan marocain a reconstruit la ville sous le nom de Daru l-Badya, et elle a été rebaptisée Casablanca par les commerçants espagnols qui y ont établi des comptoirs de négoce.",
+  "ref_text_normalized": "le sultan marocain a reconstruit la ville sous le nom de daru l-badya et elle a été rebaptisée casablanca par les commerçants espagnols qui y ont établi des comptoirs de négoce",
+  "timestamp_utc": "2026-07-05T05:07:03Z",
+  "text": "Le sultan marocain a reconstruit la ville sous le nom de Dar el-Beïda, et elle a été rebaptisée Casablanca par les commerçants espagnols, qui y ont établi des comptoirs de négoce.",
+  "latency_sec": 4.8137,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Le sultan marocain a reconstruit la ville sous le nom de Dar el-Beïda, et elle a été rebaptisée Casablanca par les commerçants espagnols, qui y ont établi des comptoirs de négoce.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228023,
+    "id": "c-ZJavzZLeex2roPq7DX0QU",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 48,
+      "prompt_tokens": 390,
+      "total_tokens": 473
+    }
+  }
+}

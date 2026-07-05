@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0020",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.34,
+  "ref_text_raw": "Большинство зданий по краям комплекса было перестроено, чтобы дать туристам более точное представление о том, как они выглядели изначально.",
+  "ref_text_normalized": "большинство зданий по краям комплекса было перестроено чтобы дать туристам более точное представление о том как они выглядели изначально",
+  "timestamp_utc": "2026-07-05T07:01:40Z",
+  "text": "Большинство зданий по краям комплекса было перестроено, чтобы дать туристам более точное представление о том, как они выглядели изначально.",
+  "latency_sec": 3.6137,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Большинство зданий по краям комплекса было перестроено, чтобы дать туристам более точное представление о том, как они выглядели изначально.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234900,
+    "id": "UgFKaoz8H7yB0-kP2bOhwAc",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 384,
+      "total_tokens": 553
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0090",
+  "lang": "ko",
+  "engine": "gemini_25_pro",
+  "duration_sec": 11.52,
+  "ref_text_raw": "군대가 들어오기 전에, 아이티는 1800년 이래로 질병과 관련된 문제에 처한 적이 없습니다.",
+  "ref_text_normalized": "군대가 들어오기 전에 아이티는 1800년 이래로 질병과 관련된 문제에 처한 적이 없습니다",
+  "timestamp_utc": "2026-07-05T06:06:56Z",
+  "text": "군대가 들어오기 전에 아이티는 1800년 이래로 질병과 관련된 문제에 처한 적이 없습니다.",
+  "latency_sec": 5.5185,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "군대가 들어오기 전에 아이티는 1800년 이래로 질병과 관련된 문제에 처한 적이 없습니다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231616,
+    "id": "fPRJaqqgBJj_1e8PrLe2mQQ",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 390,
+      "total_tokens": 689
+    }
+  }
+}

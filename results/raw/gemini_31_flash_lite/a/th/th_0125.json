@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0125",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.3,
+  "ref_text_raw": "มิตเชลล์ กอร์เลย์ ของออสเตรเลียจบการแข่งขันที่อันดับ 11 ในรายการ Super-G ชายประเภทยืน ส่วน โอลด์ริค เจลิเนก คู่แข่งชาวเช็กจบการแข่งขันที่อันดับ 16 ในรายการ Super-G ชายประเภทนั่ง",
+  "ref_text_normalized": "มิตเชลล์ กอร์เลย์ ของออสเตรเลียจบการแข่งขันที่อันดับ 11 ในรายการ super-g ชายประเภทยืน ส่วน โอลด์ริค เจลิเนก คู่แข่งชาวเช็กจบการแข่งขันที่อันดับ 16 ในรายการ super-g ชายประเภทนั่ง",
+  "timestamp_utc": "2026-07-05T08:08:37Z",
+  "text": "มิเชล กอเล ของออสเตรเลีย จบการแข่งขันที่อันดับ 11 ในรายการซูเปอร์จีชายประเภท ยืน ส่วน โอริก เจนรีเนก คู่แข่งชาวเช็กจบการแข่งขันที่อันดับ 16 ในรายการซูเปอร์จีชายประเภทนั่ง",
+  "latency_sec": 3.2944,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "มิเชล กอเล ของออสเตรเลีย จบการแข่งขันที่อันดับ 11 ในรายการซูเปอร์จีชายประเภท ยืน ส่วน โอริก เจนรีเนก คู่แข่งชาวเช็กจบการแข่งขันที่อันดับ 16 ในรายการซูเปอร์จีชายประเภทนั่ง",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP30sj9pcD7QnzPeurufcO3POoV2atylZadR0JBihnQ7yFFawyJk82Muqj2V3/"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238917,
+    "id": "AxFKaoXPEaXJ2roPu_yk0QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 67,
+      "prompt_tokens": 404,
+      "total_tokens": 471
+    }
+  }
+}

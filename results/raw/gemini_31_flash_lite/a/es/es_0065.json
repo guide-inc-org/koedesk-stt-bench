@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0065",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.7,
+  "ref_text_raw": "No se trata, sin embargo, de una experimentación, es una prueba que se usa para descartar una o más de las posibles hipótesis, haciendo preguntas y observaciones que guían la investigación científica.",
+  "ref_text_normalized": "no se trata sin embargo de una experimentación es una prueba que se usa para descartar una o más de las posibles hipótesis haciendo preguntas y observaciones que guían la investigación científica",
+  "timestamp_utc": "2026-07-05T04:37:36Z",
+  "text": "No se trata, sin embargo, de una experimentación, es una prueba que se usa para descartar una o más de las posibles hipótesis haciendo preguntas y observaciones que guían la investigación científica.",
+  "latency_sec": 2.7653,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "No se trata, sin embargo, de una experimentación, es una prueba que se usa para descartar una o más de las posibles hipótesis haciendo preguntas y observaciones que guían la investigación científica.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPvzTT/lFol99pMELOL8sA9ZHWyj0V2vxHlGgFP3L37tRKJFlvfEIQYJ31nWdV"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226256,
+    "id": "j99JasTbG-vYvr0P_YW_6QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 389,
+      "total_tokens": 428
+    }
+  }
+}

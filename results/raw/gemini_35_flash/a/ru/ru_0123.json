@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0123",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 14.16,
+  "ref_text_raw": "Львиные прайды ведут себя очень похоже со стаями волков или собак — животных, которые по повадкам удивительно похожи на львов (но не других крупных кошек) и тоже очень опасны для своих жертв.",
+  "ref_text_normalized": "львиные прайды ведут себя очень похоже со стаями волков или собак — животных которые по повадкам удивительно похожи на львов но не других крупных кошек и тоже очень опасны для своих жертв",
+  "timestamp_utc": "2026-07-05T07:27:22Z",
+  "text": "Львиные прайды ведут себя очень похоже со стаями волков или собак, животных, которые по повадкам удивительно похожи на львов, но не других крупных кошек, и тоже очень опасны для своих жертв.",
+  "latency_sec": 4.9444,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Львиные прайды ведут себя очень похоже со стаями волков или собак, животных, которые по повадкам удивительно похожи на львов, но не других крупных кошек, и тоже очень опасны для своих жертв.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236442,
+    "id": "VwdKapv8BvHW2roPo96cwQE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 53,
+      "prompt_tokens": 375,
+      "total_tokens": 813
+    }
+  }
+}

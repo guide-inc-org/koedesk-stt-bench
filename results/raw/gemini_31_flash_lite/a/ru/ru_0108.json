@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0108",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.28,
+  "ref_text_raw": "Федерация гимнастики США поддерживает письмо Олимпийского комитета США и соглашается с абсолютной необходимостью создания безопасной среды для всех наших спортсменов.",
+  "ref_text_normalized": "федерация гимнастики сша поддерживает письмо олимпийского комитета сша и соглашается с абсолютной необходимостью создания безопасной среды для всех наших спортсменов",
+  "timestamp_utc": "2026-07-05T07:33:40Z",
+  "text": "Федерация гимнастики США поддерживает письмо Олимпийского комитета США и соглашается с абсолютной необходимостью создания безопасной среды для всех наших спортсменов.",
+  "latency_sec": 2.8356,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Федерация гимнастики США поддерживает письмо Олимпийского комитета США и соглашается с абсолютной необходимостью создания безопасной среды для всех наших спортсменов.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP0xxsrmePvtz27nYR4FjN5WPlMY1G9NipsyFIsfu5qJqH6rZ3UuZRyYQvSsI/"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236820,
+    "id": "0whKarrUEbif0-kPzJPfgAc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 303,
+      "total_tokens": 333
+    }
+  }
+}

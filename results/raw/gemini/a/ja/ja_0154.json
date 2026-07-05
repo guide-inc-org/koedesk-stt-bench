@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0154",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 16.8,
+  "ref_text_raw": "哲学者のアリストテレスは、万物は4つの要素のうち1つ以上を混合した物で構成されているという理論を唱えました。4つの要素とは、土、水、空気、火です。",
+  "ref_text_normalized": "哲学者のアリストテレスは 万物は4つの要素のうち1つ以上を混合した物で構成されているという理論を唱えました 4つの要素とは 土 水 空気 火です",
+  "timestamp_utc": "2026-07-05T03:11:14Z",
+  "text": "哲学者のアリストテレスは、万物は4つの要素のうち1つ以上を混合したもので構成されているという理論を唱えました。4つの要素とは、土、水、空気、火です。",
+  "latency_sec": 3.7943,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "哲学者のアリストテレスは、万物は4つの要素のうち1つ以上を混合したもので構成されているという理論を唱えました。4つの要素とは、土、水、空気、火です。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221074,
+    "id": "UMtJasDHGJ2_vr0Piquy2Q0",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 559,
+      "total_tokens": 602
+    }
+  }
+}

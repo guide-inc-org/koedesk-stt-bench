@@ -1,0 +1,44 @@
+{
+  "utt_id": "pt_0121",
+  "lang": "pt",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.82,
+  "ref_text_raw": "Uma civilização é uma cultura única compartilhada por um grande grupo significativo de pessoas que vivem e trabalham de forma cooperativa, uma sociedade.",
+  "ref_text_normalized": "uma civilização é uma cultura única compartilhada por um grande grupo significativo de pessoas que vivem e trabalham de forma cooperativa uma sociedade",
+  "timestamp_utc": "2026-07-05T07:01:22Z",
+  "text": "Uma civilização é uma cultura única, compartilhada por um grande grupo significativo de pessoas que vivem e trabalha de forma cooperativa, uma sociedade.",
+  "latency_sec": 2.6176,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Uma civilização é uma cultura única, compartilhada por um grande grupo significativo de pessoas que vivem e trabalha de forma cooperativa, uma sociedade.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPNIylFW5ihoCn8rEbFNBZzmZTKcTltOQDWN+wHTWuwUXwdX4b+kRk82eJYzcc"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234882,
+    "id": "QQFKaqzwD5WJ1e8PhMDXiQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 317,
+      "total_tokens": 347
+    }
+  }
+}

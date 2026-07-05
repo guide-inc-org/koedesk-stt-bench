@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0176",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.66,
+  "ref_text_raw": "환불 규정은 상이하지만, 3월 말 현재 코로나 바이러스로 인한 환불 규정은 대부분 2020년 7월 올림픽 기간까지 연장되어 있지 않다.",
+  "ref_text_normalized": "환불 규정은 상이하지만 3월 말 현재 코로나 바이러스로 인한 환불 규정은 대부분 2020년 7월 올림픽 기간까지 연장되어 있지 않다",
+  "timestamp_utc": "2026-07-05T06:29:39Z",
+  "text": "환불 규정은 상이하지만 3월 말 현재 코로나바이러스로 인한 환불 규정은 대부분 2020년 7월 올림픽 기간까지 연장되어 있지 않다.",
+  "latency_sec": 2.7037,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "환불 규정은 상이하지만 3월 말 현재 코로나바이러스로 인한 환불 규정은 대부분 2020년 7월 올림픽 기간까지 연장되어 있지 않다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP/+jq0jAfToj5i4/8+d3sbMWgutu7gXGEk8m+QcddD8XpSUPUsV80Ildku4aG"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232979,
+    "id": "0vlJavg60ZfT6Q_2yqqwAQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 413,
+      "total_tokens": 457
+    }
+  }
+}

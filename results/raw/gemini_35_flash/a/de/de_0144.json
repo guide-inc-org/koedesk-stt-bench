@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0144",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.86,
+  "ref_text_raw": "Leider fällt das Studium von Verkehrsflüssen schwer, da man Fahrerverhalten nicht mit hundertprozentiger Sicherheit voraussagen kann.",
+  "ref_text_normalized": "leider fällt das studium von verkehrsflüssen schwer da man fahrerverhalten nicht mit hundertprozentiger sicherheit voraussagen kann",
+  "timestamp_utc": "2026-07-05T04:08:06Z",
+  "text": "Leider fällt das Studium von Verkehrsflüssen schwer, da man Fahrerverhalten nicht mit hundertprozentiger Sicherheit voraussagen kann.",
+  "latency_sec": 3.8174,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Leider fällt das Studium von Verkehrsflüssen schwer, da man Fahrerverhalten nicht mit hundertprozentiger Sicherheit voraussagen kann.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "ErIFCq8FARFNMg+09MHyB0CC5rMgqeJ+It+iBhvIMsy8CM1P5k3+7zbFSoOHAipDTcjnJzhxbTkDsqQY8b8buMJqytFv6ZO0CG8YtYCPBtwF5I2GUTuA6+geNsH7xXt+cQwPrw7xyFe6Fc6o+zkmgrJdA5fuJ0uW4cfW57yBzuHPI9onWKx0chILi6j7EYuoSZIsb7uePh/ajflNgaC15qWjIgKH83InReTonYIKoMbQsEkwKKNIruouiSt3+tsvkuceAe+U059TTdjxpZpnVGzg4oVVgygYBSexe/Y5Ijdq/3SQ4PcxD/ODcUJjgeFCLYLHIDPVom06gDVp17kj3jcdxTfu5Utj8sAj6BykAdKcoFaRE6a4DBtahREUe++gaLdx/wnbB6Bzx98oVvfKuI4AuKLg4vkzETZNzhBTYJpF3PV3ng23muQIlyHhmfYqz4kOTWlZHoCdeHxSClT6sb+vuDJ4U1WIf2kMScPbZHBjC3BX34jeryzEi6jbPj13/Xt8qPziIt1nFkw4z85RBWfy9U+h1ZWbehJrhdrwCRL7qEGSqs/uIAecMblTDpE4El56xMUAl1pEfyJEJp5mZqEgM3jseyhBniaRjIrnvVAJ+2aFlAQfqqB8ziHE2K+AgeOZUqw81EAt3n7qqgtCGvYhnpfqckc4okURftaMMP6MYxRIgZeF2yyy9U3DcttaLQit7rHyTtQzzx4WFA1y7phaEhEtzI9+SBumEO0lw4ZXBBpYWulp/DdzRr1vZS6bOgNAqtgL+/YWl/PGrknAHu842cxdK+Ptr1ra51ZOTRHuas3fHXvo8vyk7TcWvbOJymhQftVr+4C9baWL/XK8G1N2xPToLWRlk18ANmtOasq/sijQz19Wnt7i5xw752Qvq0kS9bI2yGMrkDEDjSQgdiZik0pK"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224486,
+    "id": "pNhJao73IqXJ2roPu_yk0QE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 293,
+      "total_tokens": 482
+    }
+  }
+}

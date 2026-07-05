@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0025",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.9,
+  "ref_text_raw": "乾いた粉を2つ合わせてくるくるとこね回し、清潔な濡れた手でぎゅっと握ります。",
+  "ref_text_normalized": "乾いた粉を2つ合わせてくるくるとこね回し 清潔な濡れた手でぎゅっと握ります",
+  "timestamp_utc": "2026-07-05T10:14:15Z",
+  "text": "乾い た 粉 を 2 つ 合わせ て くるくる と 練り回し 清潔 な 布巾 で ぎゅっ と 握り ます 。",
+  "latency_sec": 2.9366,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "乾い た 粉 を 2 つ 合わせ て くるくる と 練り回し 清潔 な 布巾 で ぎゅっ と 握り ます 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPdQMf17Q3QJj0gTN8xbhCHcWkVRN+cXf6qHvocoeEPfUrY/Gc7RjHTubV9YXB"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246455,
+    "id": "dS5Kat-nL4Gp2roP-M7c4AY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 269,
+      "total_tokens": 305
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0152",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.84,
+  "ref_text_raw": "Los viajes de estudio constituyen una parte importante de todo salón de clases. Es muy frecuente que una docente desee llevar a sus estudiantes a sitios a los que no es posible llegar en autobús.",
+  "ref_text_normalized": "los viajes de estudio constituyen una parte importante de todo salón de clases es muy frecuente que una docente desee llevar a sus estudiantes a sitios a los que no es posible llegar en autobús",
+  "timestamp_utc": "2026-07-05T04:42:50Z",
+  "text": "Los viajes de estudio constituyen una parte importante de todo salón de clases. Es muy frecuente que una docente desee llevar a sus estudiantes a sitios a los que no es posible llegar en autobús.",
+  "latency_sec": 2.8467,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Los viajes de estudio constituyen una parte importante de todo salón de clases. Es muy frecuente que una docente desee llevar a sus estudiantes a sitios a los que no es posible llegar en autobús.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPFWbyV+X+7ok/d1mbyWGEDWO8ixg6pTlTs69fWPHTy3v2NqAzPywD4qC8rbZR"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226570,
+    "id": "yeBJauK_CrvN2roPnu2ysAU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 417,
+      "total_tokens": 454
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0129",
+  "lang": "es",
+  "engine": "gemini_25_flash",
+  "duration_sec": 6.12,
+  "ref_text_raw": "Rolando Mendoza abrió fuego con su M16 contra los visitantes extranjeros.",
+  "ref_text_normalized": "rolando mendoza abrió fuego con su m16 contra los visitantes extranjeros",
+  "timestamp_utc": "2026-07-05T04:23:07Z",
+  "text": "Rolando Mendoza abrió fuego con su M16 contra los visitantes extranjeros.",
+  "latency_sec": 4.2678,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Rolando Mendoza abrió fuego con su M16 contra los visitantes extranjeros.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225387,
+    "id": "KNxJatKpLImV1e8Pn9-owAM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 15,
+      "prompt_tokens": 217,
+      "total_tokens": 275
+    }
+  }
+}

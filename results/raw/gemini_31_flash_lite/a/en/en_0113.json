@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0113",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.96,
+  "ref_text_raw": "Late on Sunday, the United States President Donald Trump, in a statement delivered via the press secretary, announced US troops would be leaving Syria.",
+  "ref_text_normalized": "late on sunday the united states president donald trump in a statement delivered via the press secretary announced us troops would be leaving syria",
+  "timestamp_utc": "2026-07-05T03:34:00Z",
+  "text": "Late on Sunday, the United States President Donald Trump in a statement delivered via the press secretary, announced US troops would be leaving Syria.",
+  "latency_sec": 2.6098,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Late on Sunday, the United States President Donald Trump in a statement delivered via the press secretary, announced US troops would be leaving Syria.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPIojIIGUiblTDT12MqTn+ofvRzpLWt3dfd1ikjQLgF3yUcE5FIC0MpQibFekJ"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222440,
+    "id": "p9BJaoHmH-n62roPgJLP-QI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 271,
+      "total_tokens": 298
+    }
+  }
+}

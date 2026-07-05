@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0036",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.3,
+  "ref_text_raw": "洞窟はメッカの北にあたる山頂にあり、外界から完全に隔離されています。",
+  "ref_text_normalized": "洞窟はメッカの北にあたる山頂にあり 外界から完全に隔離されています",
+  "timestamp_utc": "2026-07-05T10:13:05Z",
+  "text": "洞窟はメッカの北にあたる山頂にあり、下界から完全に隔離されています。",
+  "latency_sec": 3.7835,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "洞窟はメッカの北にあたる山頂にあり、下界から完全に隔離されています。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Er4GCrsGARFNMg/8shbdUK05C9Y/2q9CUOML4p59O264rkKJVk0dnYVCKYXx1c9j+Gi+yDE854/fewvFYt66NxoYZ4HxwCzDdYqcQQWMfP6DQlMnTXaPbiSBP4vz1JXglWbochAm8PqKyvCdvsBSvKRDb1QtDOstjwQO2m2iO0gYvinqt3Tu2DZTMyttb0zLu3F/uvmKpPsVGVZzD/bvEe88yyQj3zteCoKHJLApJ8HW8TPnufcRfuX2RAOANH5+z/7M4j9Cfhfg0Z5PxSM5+XNtSxcTIhXISz2xEtPxTidcZOXMHTFiQEwQPIJvQ3KcPFgKQU9rt4siGxEWbd6GETKeK6ZsdF3yZ2BT6dCvbpasawT/YWquL5k/xvC8S7jEoC0g5ZilmBJ/zUGZgyPgRANCmjG2K1bUL/MmTKhDHEuZc77N/z0rnq11qQKXhll28TMEsJ0YikNm2CcaANvLvxBwyzkDgcdwTg86T7hUXGeqC5gKavZPCf79yDWElumpG+kOt1KVC5JoExeu1L2TSJERaJ1VYCVP8rnw2mwUz9QS4eBYNPc8yvBG4HvpdNIP3FhZPMHeWbx1o1qBqB+HLGf3AhU039maxb1y66ixX4KTk/qbZKGo/4yZ8T0mcjBOtxXRTNe41yQM3wcJ1RxQ0wgDzU37yvotsFzioKOixgKNlSMyWPCZT5nGJbkihKe9aN3+PAvy+K9heYXv+oxWOWYK35pmJHRwKpyx4IWs/MzTno5sPw5u7X+8FTDNXtp3Jkra8Gy9F1QQxxXGWnW4TTtpLwyBxuDQnMhzWWztUqhiay62AlcTYTjS0IQbtfhq7P1DupAGvXO2lgB8QIsZoZoyhDA55wroJifDDjcTndxVv5ov+pJfks6tiClhuHTQHkQ6ahCGCdLqaTaf9t/o28frbokV0Ek2/UjMKNPXBOKDARIRhR9VTyCGwTmFc53w+BYd12Yc6uwIZTIZ5XWGK/4xHQcn0x0LRwhqw7Mtb7XEN/j22YM2I6Q6UUTWy0ZMBBoXk3S5iuz+TCnuCe3PxtXeqF3lQhXa5aq14f3NFERHM7FuivI8Fod7zBfXVhjeHnJV5fCHdAZE2KpGRxXxBp4="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246385,
+    "id": "Li5KavD7JbycrfcP6t_NqQY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 254,
+      "total_tokens": 491
+    }
+  }
+}

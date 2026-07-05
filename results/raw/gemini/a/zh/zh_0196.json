@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0196",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.06,
+  "ref_text_raw": "只有生殖细胞的突变才会遗传给孩子，而其他细胞的突变则会导致细胞死亡或癌症。",
+  "ref_text_normalized": "只 有 生 殖 细 胞 的 突 变 才 会 遗 传 给 孩 子 而 其 他 细 胞 的 突 变 则 会 导 致 细 胞 死 亡 或 癌 症",
+  "timestamp_utc": "2026-07-05T09:04:36Z",
+  "text": "只有生殖細胞的突變才會遺傳給孩子,而其他細胞的突變則會導致細胞死亡或癌症。",
+  "latency_sec": 5.3705,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "只有生殖細胞的突變才會遺傳給孩子,而其他細胞的突變則會導致細胞死亡或癌症。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242276,
+    "id": "IR5KavTzENKivr0PmOv26QM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 407,
+      "total_tokens": 491
+    }
+  }
+}

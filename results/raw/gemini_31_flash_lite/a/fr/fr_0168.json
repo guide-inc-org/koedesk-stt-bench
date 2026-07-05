@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0168",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.08,
+  "ref_text_raw": "Il n'a pas pu prendre les médicaments nécessaires pour surmonter sa douleur, ceux-ci étant interdits au sein des Jeux.",
+  "ref_text_normalized": "il n'a pas pu prendre les médicaments nécessaires pour surmonter sa douleur ceux-ci étant interdits au sein des jeux",
+  "timestamp_utc": "2026-07-05T05:19:57Z",
+  "text": "Il n'a pas, il n'a pas pu prendre les médicaments nécessaires pour surmonter sa douleur, ceci étant interdit au sein des jeux.",
+  "latency_sec": 2.7728,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Il n'a pas, il n'a pas pu prendre les médicaments nécessaires pour surmonter sa douleur, ceci étant interdit au sein des jeux.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP0Q+KqkzVEdszITkCxIs4DOB0xrfEf3voxpu3uQkjm0T3Yn3jUc+nNRvNVXW6"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228797,
+    "id": "e-lJapvsLKnDvr0PmKevgQ8",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 198,
+      "total_tokens": 229
+    }
+  }
+}

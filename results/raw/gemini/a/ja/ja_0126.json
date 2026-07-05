@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0126",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.6,
+  "ref_text_raw": "小さい島々の大半は独立国か、またはフランスに関係する国々であり、有名な高級ビーチリゾートもあります。",
+  "ref_text_normalized": "小さい島々の大半は独立国か またはフランスに関係する国々であり 有名な高級ビーチリゾートもあります",
+  "timestamp_utc": "2026-07-05T03:08:42Z",
+  "text": "小さな島々の大部分は独立国か、またはフランスに関係する国々であり、有名な高級ビーチリゾートもあります。",
+  "latency_sec": 5.1642,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "小さな島々の大部分は独立国か、またはフランスに関係する国々であり、有名な高級ビーチリゾートもあります。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783220923,
+    "id": "t8pJatTRG-nn2roPlKW22Ao",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 425,
+      "total_tokens": 655
+    }
+  }
+}

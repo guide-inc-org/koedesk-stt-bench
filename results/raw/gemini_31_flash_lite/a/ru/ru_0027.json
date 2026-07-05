@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0027",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 17.76,
+  "ref_text_raw": "Например, ежегодно учащиеся школы Беннет в Северной Каролине создают сайт о своём посещении столицы штата, и каждый год этот сайт обновляется, но доступ к старым версиям по-прежнему сохраняется — они служат памятным альбомом.",
+  "ref_text_normalized": "например ежегодно учащиеся школы беннет в северной каролине создают сайт о своём посещении столицы штата и каждый год этот сайт обновляется но доступ к старым версиям по-прежнему сохраняется они служат памятным альбомом",
+  "timestamp_utc": "2026-07-05T07:28:39Z",
+  "text": "Например, ежегодно учащиеся школы Беннет в Северной Каролине создают сайт о своем посещении столицы штата. И каждый год этот сайт обновляется, но доступ к старым версиям по-прежнему сохраняется. Они служат памятным альбомом.",
+  "latency_sec": 3.1682,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Например, ежегодно учащиеся школы Беннет в Северной Каролине создают сайт о своем посещении столицы штата. И каждый год этот сайт обновляется, но доступ к старым версиям по-прежнему сохраняется. Они служат памятным альбомом.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPP7LMOWcDblUJBcgd2/THN1SCncEOxpkT2n9+1dn86PrTluo6Q+N4GZD5XStk"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236519,
+    "id": "pgdKarX_Fa6l9tMP-_vv-QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 58,
+      "prompt_tokens": 466,
+      "total_tokens": 524
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "vi_0102",
+  "lang": "vi",
+  "engine": "gemini_25_pro",
+  "duration_sec": 15.54,
+  "ref_text_raw": "Chẳng có gì ngoài bầu trời cao trong vắt, tuyệt mĩ bao lấy những rặng núi.Một thế giới nhỏ bé được biết và nghe nói đến từ bên trong hang động.",
+  "ref_text_normalized": "chẳng có gì ngoài bầu trời cao trong vắt tuyệt mĩ bao lấy những rặng núi.một thế giới nhỏ bé được biết và nghe nói đến từ bên trong hang động",
+  "timestamp_utc": "2026-07-05T08:26:30Z",
+  "text": "chẳng có gì ngoài bầu trời cao trong vắt.\nTuyệt mỹ bao lấy những rặng núi.\nMột thế giới nhỏ bé được biết\nvà nghe nói\nđến từ bên trong hang động.",
+  "latency_sec": 4.8357,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "chẳng có gì ngoài bầu trời cao trong vắt.\nTuyệt mỹ bao lấy những rặng núi.\nMột thế giới nhỏ bé được biết\nvà nghe nói\nđến từ bên trong hang động.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239990,
+    "id": "MxVKavnCHPyk0-kP9PODwAc",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 519,
+      "total_tokens": 675
+    }
+  }
+}

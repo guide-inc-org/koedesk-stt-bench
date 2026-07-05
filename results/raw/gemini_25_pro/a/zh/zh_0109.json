@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0109",
+  "lang": "zh",
+  "engine": "gemini_25_pro",
+  "duration_sec": 14.44,
+  "ref_text_raw": "意大利语也是大部分在该国工作的人日常使用的语言，拉丁语则常使用于宗教仪式。",
+  "ref_text_normalized": "意 大 利 语 也 是 大 部 分 在 该 国 工 作 的 人 日 常 使 用 的 语 言 拉 丁 语 则 常 使 用 于 宗 教 仪 式",
+  "timestamp_utc": "2026-07-05T09:00:15Z",
+  "text": "意大利語也是大部分在該國工作的人正日常使用的語言,拉丁語則常使用於宗教儀式。",
+  "latency_sec": 6.4568,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "意大利語也是大部分在該國工作的人正日常使用的語言,拉丁語則常使用於宗教儀式。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242015,
+    "id": "Gh1Kar3NK_nC0-kP-o-AoAM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 484,
+      "total_tokens": 943
+    }
+  }
+}

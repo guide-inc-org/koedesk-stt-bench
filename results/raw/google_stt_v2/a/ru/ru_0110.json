@@ -1,0 +1,36 @@
+{
+  "utt_id": "ru_0110",
+  "lang": "ru",
+  "engine": "google_stt_v2",
+  "duration_sec": 11.22,
+  "ref_text_raw": "Возможно, вам также следует проконсультироваться с другими правительствами, помимо своего, но их рекомендации направлены на своих граждан.",
+  "ref_text_normalized": "возможно вам также следует проконсультироваться с другими правительствами помимо своего но их рекомендации направлены на своих граждан",
+  "timestamp_utc": "2026-07-05T05:35:56Z",
+  "text": "Возможно, вам также следует проконсультироваться с другими правительствами, помимо своего, но их рекомендации направлены на своих граждан.",
+  "latency_sec": 4.231,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "ru-RU",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "12s",
+      "requestId": "731b5da2-0000-2dd7-abd6-582429b37318",
+      "prompt": "Transcribe the following speech segment in Russian. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Russian."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Возможно, вам также следует проконсультироваться с другими правительствами, помимо своего, но их рекомендации направлены на своих граждан."
+          }
+        ],
+        "languageCode": "ru-RU"
+      }
+    ]
+  }
+}

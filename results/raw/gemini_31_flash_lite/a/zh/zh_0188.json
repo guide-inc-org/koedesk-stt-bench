@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0188",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.5,
+  "ref_text_raw": "合金基本上由两种或以上金属混合而成。不要忘记一点，元素周期表上有很多元素。",
+  "ref_text_normalized": "合 金 基 本 上 由 两 种 或 以 上 金 属 混 合 而 成 不 要 忘 记 一 点 元 素 周 期 表 上 有 很 多 元 素",
+  "timestamp_utc": "2026-07-05T09:21:59Z",
+  "text": "合金基本上有两种或以上金属混合而成，不要忘记一点，元素周期表上有很多元素。",
+  "latency_sec": 2.6189,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "合金基本上有两种或以上金属混合而成，不要忘记一点，元素周期表上有很多元素。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPCpAOYwgCZeuO1F1P60S2iJl1C+Ja6e+pkY4VB5rGut2ySFyUYPMPkXN6qUIz"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243319,
+    "id": "NSJKauWcO4ul1e8Pq7ahqQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 209,
+      "total_tokens": 229
+    }
+  }
+}

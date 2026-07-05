@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0036",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.36,
+  "ref_text_raw": "염소 사육은 대략 일만 년 전에 이란의 자그로스산맥에서 시작한 것으로 보입니다.",
+  "ref_text_normalized": "염소 사육은 대략 일만 년 전에 이란의 자그로스산맥에서 시작한 것으로 보입니다",
+  "timestamp_utc": "2026-07-05T06:20:59Z",
+  "text": "염소 사육은 대략 1만 년 전에 이란의 자그로스 산맥에서 시작한 것으로 보입니다.",
+  "latency_sec": 2.6366,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "염소 사육은 대략 1만 년 전에 이란의 자그로스 산맥에서 시작한 것으로 보입니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPKOr1PINV+y8NmawlhzOD+BFePtEu3dRRjpGPACEYqGoExc2pzE3TGE+/9eiW"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232459,
+    "id": "yvdJasmYA_jG2roPjLn34AI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 255,
+      "total_tokens": 283
+    }
+  }
+}

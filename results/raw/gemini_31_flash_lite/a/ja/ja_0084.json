@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0084",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.64,
+  "ref_text_raw": "原子の中には不安定な原子核を持つものがあり、その原子核は、ほとんど何もしなくても分裂してしまう傾向があります。",
+  "ref_text_normalized": "原子の中には不安定な原子核を持つものがあり その原子核は ほとんど何もしなくても分裂してしまう傾向があります",
+  "timestamp_utc": "2026-07-05T10:17:50Z",
+  "text": "原子 の 中 に は 不 安定 な 原子 核 を 持つ もの が あり 、 その 原子 核 は ほとんど 何 も し なく て も 分裂 し て しまう 傾向 が あり ます 。",
+  "latency_sec": 2.8627,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "原子 の 中 に は 不 安定 な 原子 核 を 持つ もの が あり 、 その 原子 核 は ほとんど 何 も し なく て も 分裂 し て しまう 傾向 が あり ます 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPqP3E+BtzgI/IAmThPfnUDTQ0rtDkdMlj8qICyINdq49JE3htIjFhn1w05vKx"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246670,
+    "id": "TC9KavbkN6XJ2roPu_yk0QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 312,
+      "total_tokens": 355
+    }
+  }
+}

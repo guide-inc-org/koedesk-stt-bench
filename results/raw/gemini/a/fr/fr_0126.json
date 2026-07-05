@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0126",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.98,
+  "ref_text_raw": "Il est fortement conseillé aux voyageurs de se renseigner sur les risques de mauvais temps pouvant affecter leur région de destination, sachant que cela peut avoir une incidence sur les itinéraires qu'ils envisagent.",
+  "ref_text_normalized": "il est fortement conseillé aux voyageurs de se renseigner sur les risques de mauvais temps pouvant affecter leur région de destination sachant que cela peut avoir une incidence sur les itinéraires qu'ils envisagent",
+  "timestamp_utc": "2026-07-05T04:55:03Z",
+  "text": "Il est fortement conseillé aux voyageurs de se renseigner sur les risques de mauvais temps pouvant affecter leur région de destination. Sachant que cela peut avoir une incidence sur les itinéraires qu'ils envisagent.",
+  "latency_sec": 4.0954,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Il est fortement conseillé aux voyageurs de se renseigner sur les risques de mauvais temps pouvant affecter leur région de destination. Sachant que cela peut avoir une incidence sur les itinéraires qu'ils envisagent.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227303,
+    "id": "pONJaqbQH-D61e8P0MrToAE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 373,
+      "total_tokens": 440
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0065",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.92,
+  "ref_text_raw": "北はサヘルと境界を接し、南と西は大西洋に囲まれた地域です。",
+  "ref_text_normalized": "北はサヘルと境界を接し 南と西は大西洋に囲まれた地域です",
+  "timestamp_utc": "2026-07-05T10:16:41Z",
+  "text": "北はサヘルと境界を接し、南と西は大西洋に囲まれた地域です。",
+  "latency_sec": 2.8661,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "北はサヘルと境界を接し、南と西は大西洋に囲まれた地域です。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPZ1keews3eemp/XF/fIh7ag66HmKPgRHitcdlwWyQoNoXtfuf0YSZ4JZAW/Ma"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246601,
+    "id": "By9KapahNLDM0-kP1Zry4AU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 294,
+      "total_tokens": 316
+    }
+  }
+}

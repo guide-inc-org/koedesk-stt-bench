@@ -1,0 +1,39 @@
+{
+  "utt_id": "vi_0006",
+  "lang": "vi",
+  "engine": "gemini_25_flash",
+  "duration_sec": 22.56,
+  "ref_text_raw": "Thông báo thông thường trong khu Metro chỉ được phát bằng tiếng Catalunya tuy nhiên với những sự cố bất ngờ thì thông báo sẽ được thực hiên qua hệ thống tự động bằng nhiều thứ tiếng gồm tiếng Tây Ban Nha, tiếng Anh, tiếng Pháp, tiếng Ả rập và tiếng Nhật.",
+  "ref_text_normalized": "thông báo thông thường trong khu metro chỉ được phát bằng tiếng catalunya tuy nhiên với những sự cố bất ngờ thì thông báo sẽ được thực hiên qua hệ thống tự động bằng nhiều thứ tiếng gồm tiếng tây ban nha tiếng anh tiếng pháp tiếng ả rập và tiếng nhật",
+  "timestamp_utc": "2026-07-05T08:11:54Z",
+  "text": "Thông báo thông thường trong khu metro chỉ được phát bằng tiếng Catalonia. Tuy nhiên, với những sự cố bất ngờ thì thông báo sẽ được thiên qua hệ thống tự động bằng nhiều thứ tiếng gồm tiếng Tây Ban Nha, tiếng Anh, tiếng Pháp, tiếng Ả Rập và tiếng Nhật.",
+  "latency_sec": 4.304,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Thông báo thông thường trong khu metro chỉ được phát bằng tiếng Catalonia. Tuy nhiên, với những sự cố bất ngờ thì thông báo sẽ được thiên qua hệ thống tự động bằng nhiều thứ tiếng gồm tiếng Tây Ban Nha, tiếng Anh, tiếng Pháp, tiếng Ả Rập và tiếng Nhật.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239114,
+    "id": "yBFKas2jA8mzvr0PpOCr2QI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 59,
+      "prompt_tokens": 743,
+      "total_tokens": 829
+    }
+  }
+}

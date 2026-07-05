@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0129",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.6,
+  "ref_text_raw": "해당 차량은 같은 날 그리니치 표준시로 대략 12시에 사고 현장에서 옮겨졌습니다.",
+  "ref_text_normalized": "해당 차량은 같은 날 그리니치 표준시로 대략 12시에 사고 현장에서 옮겨졌습니다",
+  "timestamp_utc": "2026-07-05T06:20:56Z",
+  "text": "해당 차량은 같은 날 그리니치 표준시로 대략 12시에 사고 현장에서 옮겨졌습니다.",
+  "latency_sec": 3.9829,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "해당 차량은 같은 날 그리니치 표준시로 대략 12시에 사고 현장에서 옮겨졌습니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpYHCpMHARFNMg978cswnD488Tu3SKbnoOozGfO6eF2dz9vZXuhRnKht+R/eC9gi5GDd0SLdPDqrP0KO20xFbuKpCulvQWa0Nb9/FkiyeC4GMRNO3WJazTwF/YZoCkEuuhgZ1WBimMnsdN6Db6TPSQKAUo2kupR3phSBmVtHOzzmu3OE/rQNHv1D7g+cINpPh9uhlDpeBVqZb0QyckpHjpoVM4anQyCfRgw1h8bib3TQ/ZstS7IQIR8psCTK3an9N3JyADIj4tnEXP7Uv6ZRVrASX9QErmd/ilyXseWJhdjYPX6tnGlKOylS7m+zMPbuuMURjE/vYLtIdsOZn0sl8oYhTG/kVO3M916wNtSCRNlap5gkqsxTkZoP5wMWPWhq8L8YBa98MTO5KA0ZE2GmBbT8gGb0O4f+HZ+FGRiXpMi7mtVQy3/iz9XZqf9/Gc4x5YvslKWdBxYI35rWa0rpAcactqc/Npb6xtAToatZS6NpAo2U7b3trgxhvd/y5UZPVxKSA9PBZO1CTV/10B9RND2XYlGspTzzyCXn1Vi/D1lRPxMttUAOPr3xnnUgz5hsVVgTv9adTpAwr5VktrnzwkLaeSvCL94NYTEOg0W9iWo0b4hoyYerTv+Rp9HRtwedPLFgpBYJwGXjk//Vfst+I8ggcPrRaliUopQldJ5fyqrevoHYOAVHhWtPELwX4KQjB6xmAleTQwuc3X7TlmCM41dtTStGizPqtI650Uh7JQyWdvz2y4Y4+DHyEYkp3vHSPKdi5aDVWsUYlgyqCKMHGqRajf7rHd5X4Tj5ikyqL/wAPAF65XxuvqaZ6k19U8ZseHM05lq6OFzYrbs7xqZVYH5VqwRHsAvtUi/DuwPviPF0P2gmgZu2bfZH11ePyf4f6Hi8KVKtsrtDBy204z5IK6XN2UGo5KUSYOUdSN5YMdKVo/7nCS4U5QipanhIYKropBrLN8gaiLCC6C/vpTiYLcTE5986fdl022ZG5ETJxIlpsK4PnaEZEZoN0DqiTrNXywyJ37e97FvXqBtRooj8/xlp4iiujgqZMT3BItIfAmr5R1giPMIrQ3xbmE43oHx7+sZnSIAgq7i5A3U4kWVj0+WrcdJ0cbnnlraL0+0XXc3iao6x/fNm1QSYYr9JF8fdEtuliOgdl0tBXnkMe8oiLcnBBIg2/TnINiU/PsKh28f522vzhhwgXmvuboFLCY+aKf2YQO8+WWX9"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232456,
+    "id": "xvdJarSABJKmvr0PocKK-QY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 261,
+      "total_tokens": 560
+    }
+  }
+}

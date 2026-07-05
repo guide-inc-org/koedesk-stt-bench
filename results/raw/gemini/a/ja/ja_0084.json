@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0084",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.64,
+  "ref_text_raw": "原子の中には不安定な原子核を持つものがあり、その原子核は、ほとんど何もしなくても分裂してしまう傾向があります。",
+  "ref_text_normalized": "原子の中には不安定な原子核を持つものがあり その原子核は ほとんど何もしなくても分裂してしまう傾向があります",
+  "timestamp_utc": "2026-07-05T10:08:23Z",
+  "text": "原子の中には不安定な原子核を持つものがあり、その原子核はほとんど何もせずに分裂してしまう傾向があります。",
+  "latency_sec": 4.039,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "原子の中には不安定な原子核を持つものがあり、その原子核はほとんど何もせずに分裂してしまう傾向があります。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246104,
+    "id": "FS1KaqiZGeznosUP7JmIyQY",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 394,
+      "total_tokens": 441
+    }
+  }
+}

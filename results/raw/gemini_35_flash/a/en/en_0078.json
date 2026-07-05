@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0078",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.98,
+  "ref_text_raw": "Only mutations in germ-line cells can be passed on to children, while mutations elsewhere can cause cell-death or cancer.",
+  "ref_text_normalized": "only mutations in germ-line cells can be passed on to children while mutations elsewhere can cause cell-death or cancer",
+  "timestamp_utc": "2026-07-05T10:32:37Z",
+  "text": "Only mutations in germline cells can be passed on to children, while mutations elsewhere can cause cell death or cancer.",
+  "latency_sec": 3.3004,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Only mutations in germline cells can be passed on to children, while mutations elsewhere can cause cell death or cancer.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Eq8GCqwGARFNMg9LyYh8d/p96l1oFhvQ25o/XPE4At2Lhd2p3+58kvyW5pAkFRLhd3xhVqCuahzosFGVNBeLiH4zQ0lu14qQqtTrwp73B0GxN0lOVKSGQD39s70kQ17mik32R1mQN2T/EWIIXvHmJMXvbeQt9t4Ey0RJX8L6DdYjBU7NQiPB6WMmanVLp+5qI9YMixA5DOq7fphp0EfccbF/ghjRs2/O29hJnazfjXJyL6NRB1ojXqZBsVJ8VjUjL46ngEFs06iEbNI70MTX5wpF8vhT1f+Og1Nx8vx5deJYn5jWQdPLsut58CQAgmu+o0a5aBoBKji0cJZZ4mqsO8PC3MLiEJk7WvAbvC6d2EF62Ibl36eNufnkTR36BJp7q7F5ZA2g1IwrQWIs8cKNwo9WRqPNRwfnFBDr8XXejQ8F44O8wgqq4hHd6iQaGoQr/UFG3Lyh9jS5byu94cRY4hNzcDw4JN/7+H7XxxybYaqIXv+jG+vTfkuH5g2UZqx2dlPUNVvH4xZbJ5G8rHG+Po+JyfDjuliAu1PyJr+UETTg/c/2ho7V7h/nidOgtgon/oFLGe+uWOGOuCYwShYsqHG5o5a4l6hRNMGVlxDbQr2YWZHE2y2TOoy3/4+4tNov6bRZK9sVEogVKn6cLBgsObLFJiwHwhMV0FH/uPEEwAtAJceqjDVJ/Kkgky53wYsm50JeJc6r0EJST/p1dykjfovQ5zBg/NXQX7VpuESr3G5jCrJis71BpmgY3cVqxVlLmdJXxNd7tVxx0Ns0zrpjiApqjJAioZ5zxKE/NG1knuu4hkSbomi2YNBcDFJBs1SnVWuNnFw3hjk0IkvqjJDKnqTDCvJYp3cGxQRH8CPMZYlfSVuR/sH594IfDoKRaRIbFQjZPx4jOCw+kVcqWRA0AXnaD6rHTdajgSywKi0BLnXB/obg+nyPFrlECaOVGkCK/6QSETzhvLEmG4jtPnXdU0ZO9R2j7XZHd16TZgEoRhO3TBtzDEJMEIQKDUigdbNz30KU1CqCzlGQ+PSDdJQZ9NJcjiekaqkCes+DifAyo9bW515f5UO8oPhTPrJVANvRX5A="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247557,
+    "id": "wzJKauDWFIPMrfcPiKHRgAE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 296,
+      "total_tokens": 482
+    }
+  }
+}

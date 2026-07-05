@@ -1,0 +1,39 @@
+{
+  "utt_id": "pt_0100",
+  "lang": "pt",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.92,
+  "ref_text_raw": "O próprio veículo foi tirado do local do acidente mais ou menos às 12h GMT do mesmo dia.",
+  "ref_text_normalized": "o próprio veículo foi tirado do local do acidente mais ou menos às 12h gmt do mesmo dia",
+  "timestamp_utc": "2026-07-05T06:34:50Z",
+  "text": "O próprio veículo foi tirado do local do acidente mais ou menos às 12 horas GMT do mesmo dia.",
+  "latency_sec": 3.9181,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "O próprio veículo foi tirado do local do acidente mais ou menos às 12 horas GMT do mesmo dia.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783233290,
+    "id": "B_tJaumYKOSf1e8PgNPzwAE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 371,
+      "total_tokens": 463
+    }
+  }
+}

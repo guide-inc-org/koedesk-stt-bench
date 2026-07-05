@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0196",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.42,
+  "ref_text_raw": "С момента основания Асунсьона в 1537 Парагваю в основном удалось сохранить большую часть своего самобытного характера и идентичности.",
+  "ref_text_normalized": "с момента основания асунсьона в 1537 парагваю в основном удалось сохранить большую часть своего самобытного характера и идентичности",
+  "timestamp_utc": "2026-07-05T07:39:06Z",
+  "text": "С момента основания Асунсьона в 1537 году Парагваю в основном удалось сохранить большую часть своего самобытного характера и идентичности.",
+  "latency_sec": 2.8136,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "С момента основания Асунсьона в 1537 году Парагваю в основном удалось сохранить большую часть своего самобытного характера и идентичности.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPD6SnrduKDlUl3mpM3I5FiXyF8AB/RDKXcxkuBHkLc5R+su7ojXHyLYssOT4j"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237146,
+    "id": "GApKauTqPNCd1e8Pt4DcqQQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 332,
+      "total_tokens": 364
+    }
+  }
+}

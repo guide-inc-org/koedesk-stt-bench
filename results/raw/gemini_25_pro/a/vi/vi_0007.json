@@ -1,0 +1,39 @@
+{
+  "utt_id": "vi_0007",
+  "lang": "vi",
+  "engine": "gemini_25_pro",
+  "duration_sec": 8.4,
+  "ref_text_raw": "Các nguyên tố như canxi và kali được coi là kim loại. Dĩ nhiên, cũng có các kim loại như vàng và bạc.",
+  "ref_text_normalized": "các nguyên tố như canxi và kali được coi là kim loại dĩ nhiên cũng có các kim loại như vàng và bạc",
+  "timestamp_utc": "2026-07-05T08:13:56Z",
+  "text": "các nguyên tố như canxi và kali được coi là kim loại, dĩ nhiên, cũng có các kim loại như vàng và bạc.",
+  "latency_sec": 5.3575,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "các nguyên tố như canxi và kali được coi là kim loại, dĩ nhiên, cũng có các kim loại như vàng và bạc.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239236,
+    "id": "QBJKaoDpC8Kw0-kPjYbn-AU",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 290,
+      "total_tokens": 554
+    }
+  }
+}

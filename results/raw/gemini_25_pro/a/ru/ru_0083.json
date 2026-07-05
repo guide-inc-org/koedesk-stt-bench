@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0083",
+  "lang": "ru",
+  "engine": "gemini_25_pro",
+  "duration_sec": 7.8,
+  "ref_text_raw": "Первоначально он был госпитализирован в госпитале Джеймса Педжета в Грейт-Ярмуте.",
+  "ref_text_normalized": "первоначально он был госпитализирован в госпитале джеймса педжета в грейт-ярмуте",
+  "timestamp_utc": "2026-07-05T07:14:45Z",
+  "text": "Первоначально он был госпитализирован в госпитале Джеймса Педжета в Грейт-Ярмуте.",
+  "latency_sec": 5.2288,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Первоначально он был госпитализирован в госпитале Джеймса Педжета в Грейт-Ярмуте.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235685,
+    "id": "YQRKaruxDKqj9tMPiaisiAI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 271,
+      "total_tokens": 621
+    }
+  }
+}

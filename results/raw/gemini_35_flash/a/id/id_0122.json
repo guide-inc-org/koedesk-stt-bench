@@ -1,0 +1,45 @@
+{
+  "utt_id": "id_0122",
+  "lang": "id",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.72,
+  "ref_text_raw": "Kru pemadam kebakaran akhirnya berhasil memadamkan api pada pukul 23.35.",
+  "ref_text_normalized": "kru pemadam kebakaran akhirnya berhasil memadamkan api pada pukul 23.35",
+  "timestamp_utc": "2026-07-05T05:45:30Z",
+  "text": "Regu pemadam kebakaran akhirnya berhasil memadamkan api pada pukul 23.35.",
+  "latency_sec": 5.7525,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Regu pemadam kebakaran akhirnya berhasil memadamkan api pada pukul 23.35.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230330,
+    "id": "du9JatRVrZC-vQ_EvNTRBw",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 265,
+      "total_tokens": 955
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0109",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.8,
+  "ref_text_raw": "Cuanto más baja sea la tensión, más positiva es la fuerza de la vida con la que contemos. Cada uno de nosotros tiene el potencial de hallar paz y dicha absolutas.",
+  "ref_text_normalized": "cuanto más baja sea la tensión más positiva es la fuerza de la vida con la que contemos cada uno de nosotros tiene el potencial de hallar paz y dicha absolutas",
+  "timestamp_utc": "2026-07-05T04:40:18Z",
+  "text": "Cuanto más baja sea la atención, más positiva es la fuerza de la vida con la que contamos. Cada uno de nosotros tiene el potencial de hallar paz y dichas absolutas.",
+  "latency_sec": 2.787,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Cuanto más baja sea la atención, más positiva es la fuerza de la vida con la que contamos. Cada uno de nosotros tiene el potencial de hallar paz y dichas absolutas.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP8BGu1tSYzIzCqSkjQvmSb+2WNrAKuLYZyV7QH4+YLrKZ38HyFxq049lz8GxK"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226418,
+    "id": "MOBJarfJNOex2roPrLDX2QU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 291,
+      "total_tokens": 327
+    }
+  }
+}

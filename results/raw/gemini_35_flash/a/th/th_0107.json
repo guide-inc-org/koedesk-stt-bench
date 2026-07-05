@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0107",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.52,
+  "ref_text_raw": "ฝั่งด้านใกล้อาจมีมาเรียมากกว่านี้เพราะเปลือกผิวบางกว่า ทำให้ลาวาพุ่งขึ้นมาถึงพื้นผิวได้ง่ายกว่า",
+  "ref_text_normalized": "ฝั่งด้านใกล้อาจมีมาเรียมากกว่านี้เพราะเปลือกผิวบางกว่า ทำให้ลาวาพุ่งขึ้นมาถึงพื้นผิวได้ง่ายกว่า",
+  "timestamp_utc": "2026-07-05T08:01:55Z",
+  "text": "ฝั่งด้านใกล้ อาจมีมาเรีย มากกว่านี้ เพราะเปลือกผิว บางกว่า ทำให้ลาวาพุ่งขึ้นมาถึงพื้นผิวได้ง่ายกว่า",
+  "latency_sec": 4.5852,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ฝั่งด้านใกล้ อาจมีมาเรีย มากกว่านี้ เพราะเปลือกผิว บางกว่า ทำให้ลาวาพุ่งขึ้นมาถึงพื้นผิวได้ง่ายกว่า",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238515,
+    "id": "cA9KasDlHI3O1e8PpY-EiAI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 309,
+      "total_tokens": 695
+    }
+  }
+}

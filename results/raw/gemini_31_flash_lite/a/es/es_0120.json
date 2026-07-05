@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0120",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.0,
+  "ref_text_raw": "El uso masivo de automóviles también genera una mayor incidencia en los accidentes de tránsito, lo que conduce al desarrollo de nuevas técnicas en el campo de la salud para reparar los cuerpos dañados.",
+  "ref_text_normalized": "el uso masivo de automóviles también genera una mayor incidencia en los accidentes de tránsito lo que conduce al desarrollo de nuevas técnicas en el campo de la salud para reparar los cuerpos dañados",
+  "timestamp_utc": "2026-07-05T04:40:59Z",
+  "text": "El uso masivo de automóviles también genera una mayor incidencia en los accidentes de tránsito, lo que conduce al desarrollo de nuevas técnicas en el campo de la salud para reparar los cuerpos dañados.",
+  "latency_sec": 2.9352,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "El uso masivo de automóviles también genera una mayor incidencia en los accidentes de tránsito, lo que conduce al desarrollo de nuevas técnicas en el campo de la salud para reparar los cuerpos dañados.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPRmTLGS1uwC8qk5aNQrV3+yBVTnF5hPL48mUlAezA4sEIRXtczQ4T4LkSJVvQ"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226459,
+    "id": "WeBJapHoMfijvr0Pmty12QU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 321,
+      "total_tokens": 359
+    }
+  }
+}

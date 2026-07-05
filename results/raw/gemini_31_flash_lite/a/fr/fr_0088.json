@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0088",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 5.4,
+  "ref_text_raw": "Une recherche sur internet de « Cours en environnement hostile » fournira probablement l'adresse d'une entreprise locale.",
+  "ref_text_normalized": "une recherche sur internet de « cours en environnement hostile » fournira probablement l'adresse d'une entreprise locale",
+  "timestamp_utc": "2026-07-05T05:14:58Z",
+  "text": "En cherchant sur Internet de cours en environnement aussi, il fournirait probablement une adresse d'une entreprise locale.",
+  "latency_sec": 2.9521,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "En cherchant sur Internet de cours en environnement aussi, il fournirait probablement une adresse d'une entreprise locale.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP3H7PYCkQB4x4xmj1S/dFnviWij697bIq8x6EgifZvmWsYNFbnBs0yDJyrAoV"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228498,
+    "id": "UOhJavXXF5WJ1e8PhMDXiQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 156,
+      "total_tokens": 179
+    }
+  }
+}

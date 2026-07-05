@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0074",
+  "lang": "ko",
+  "engine": "gemini_25_pro",
+  "duration_sec": 12.42,
+  "ref_text_raw": "유럽은 상대적으로 작지만 많은 독립 국가들이 있는 대륙입니다. 보통 여러 국가를 여행하는 것은 비자 신청과 여권 심사를 여러 번 거쳐야 한다는 것을 의미합니다.",
+  "ref_text_normalized": "유럽은 상대적으로 작지만 많은 독립 국가들이 있는 대륙입니다 보통 여러 국가를 여행하는 것은 비자 신청과 여권 심사를 여러 번 거쳐야 한다는 것을 의미합니다",
+  "timestamp_utc": "2026-07-05T06:05:15Z",
+  "text": "유럽은 상대적으로 작지만 많은 독립 국가들이 있는 대륙입니다. 보통 여러 국가를 여행하는 것은 비자 신청과 여권 심사를 여러 번 거쳐야 한다는 것을 의미합니다.",
+  "latency_sec": 5.8073,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "유럽은 상대적으로 작지만 많은 독립 국가들이 있는 대륙입니다. 보통 여러 국가를 여행하는 것은 비자 신청과 여권 심사를 여러 번 거쳐야 한다는 것을 의미합니다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231515,
+    "id": "FvRJavbEKorW1e8Py5HYyAE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 419,
+      "total_tokens": 782
+    }
+  }
+}

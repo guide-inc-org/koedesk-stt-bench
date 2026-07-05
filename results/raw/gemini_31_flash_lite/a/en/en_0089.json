@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0089",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.28,
+  "ref_text_raw": "The parade of buildings that make the Hong Kong skyline has been likened to a glittering bar chart that is made apparent by the presence of the waters of Victoria Harbour.",
+  "ref_text_normalized": "the parade of buildings that make the hong kong skyline has been likened to a glittering bar chart that is made apparent by the presence of the waters of victoria harbour",
+  "timestamp_utc": "2026-07-05T10:33:13Z",
+  "text": "the parade of buildings that make the Hong Kong skyline has been likened to a glittering bar chart that is made apparent by the presence of the waters of Victoria Harbour.",
+  "latency_sec": 2.7541,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "the parade of buildings that make the Hong Kong skyline has been likened to a glittering bar chart that is made apparent by the presence of the waters of Victoria Harbour.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPSOpqR5HxWyeJgImqoRXUdk2DLdEF9KKyd1M3j1ppPfxEWrLQOlczJ/lKnmEI"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247593,
+    "id": "5zJKaqGYM5i9vr0P4KaPwQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 378,
+      "total_tokens": 410
+    }
+  }
+}

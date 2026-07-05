@@ -1,0 +1,45 @@
+{
+  "utt_id": "vi_0031",
+  "lang": "vi",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 18.12,
+  "ref_text_raw": "Thời gian di chuyển của tàu Saint Petersburg bao gồm cả thời gian trong thành phố. Hành khách trên tàu được miễn thị thực (kiểm tra các điều khoản).",
+  "ref_text_normalized": "thời gian di chuyển của tàu saint petersburg bao gồm cả thời gian trong thành phố. hành khách trên tàu được miễn thị thực kiểm tra các điều khoản",
+  "timestamp_utc": "2026-07-05T08:31:04Z",
+  "text": "Thời gian di chuyển của tàu Saint Petersburg bao gồm cả thời gian trong thành phố. Hành khách trên tàu được miễn thị thực. Kiểm tra các điều khoản.",
+  "latency_sec": 6.125,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Thời gian di chuyển của tàu Saint Petersburg bao gồm cả thời gian trong thành phố. Hành khách trên tàu được miễn thị thực. Kiểm tra các điều khoản.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240265,
+    "id": "RBZKas6QGPTLrfcPi72awAU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 474,
+      "total_tokens": 1191
+    }
+  }
+}

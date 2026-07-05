@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0072",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.26,
+  "ref_text_raw": "Les lions sont les chats les plus sociables, vivant en grands groupes appelés meutes.",
+  "ref_text_normalized": "les lions sont les chats les plus sociables vivant en grands groupes appelés meutes",
+  "timestamp_utc": "2026-07-05T05:13:57Z",
+  "text": "Les lions sont les chats les plus sociables, vivant en grands groupes appelés meutes.",
+  "latency_sec": 2.55,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Les lions sont les chats les plus sociables, vivant en grands groupes appelés meutes.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPcg8F5mvTUnN0X87sFRgreJ5Mwlrv9M7XF4aAgpdbA9xEwmV8Jfp5P394bkcH"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228437,
+    "id": "E-hJauG9Lr6a1e8PgPz1sQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 203,
+      "total_tokens": 222
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0031",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 11.94,
+  "ref_text_raw": "自 1966 年以来，孙德尔本斯一直是野生动物保护区。据估计，目前该区生活着 400 只皇家孟加拉虎和大约 3 万只梅花鹿。",
+  "ref_text_normalized": "自 1966 年 以 来 孙 德 尔 本 斯 一 直 是 野 生 动 物 保 护 区 据 估 计 目 前 该 区 生 活 着 400 只 皇 家 孟 加 拉 虎 和 大 约 3 万 只 梅 花 鹿",
+  "timestamp_utc": "2026-07-05T06:21:24Z",
+  "text": "自1966年以来，孙德尔班斯一直是野生动物保护区，据估计，目前该区生活着400只皇家孟加拉虎和大约30,000只梅花鹿。",
+  "latency_sec": 4.7418,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "12s",
+      "requestId": "6d026b69-0000-2ccf-a2fa-14c14eec991c",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "自1966年以来，孙德尔班斯一直是野生动物保护区，据估计，目前该区生活着400只皇家孟加拉虎和大约30,000只梅花鹿。"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0151",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 19.62,
+  "ref_text_raw": "그러나 전체 결핵 환자 중 XDR-TB가 있는 비율은 그리 높지 않은 듯합니다. 어느 특정 순간에 남아프리카에서 결핵에 걸린 환자가 330,000명이라고 할 때, 6,000명 정도가 XDR-TB가 있는 수준입니다.",
+  "ref_text_normalized": "그러나 전체 결핵 환자 중 xdr-tb가 있는 비율은 그리 높지 않은 듯합니다 어느 특정 순간에 남아프리카에서 결핵에 걸린 환자가 330,000명이라고 할 때 6,000명 정도가 xdr-tb가 있는 수준입니다",
+  "timestamp_utc": "2026-07-05T06:28:06Z",
+  "text": "그러나 전체 결핵 환자 중 XDR-TB가 있는 비율은 그리 높지 않은 듯합니다. 어느 특정 순간에 남아프리카에서 결핵에 걸린 환자가 33만 명이라고 할 때 6천 명 정도가 XDR-TB가 있는 수준입니다.",
+  "latency_sec": 3.163,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "그러나 전체 결핵 환자 중 XDR-TB가 있는 비율은 그리 높지 않은 듯합니다. 어느 특정 순간에 남아프리카에서 결핵에 걸린 환자가 33만 명이라고 할 때 6천 명 정도가 XDR-TB가 있는 수준입니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPvHDIghrFCdCjkGDbXCe9l0lWhf05oLLcV+ssIFRP9TdTulQpVmDlr7rCPKcj"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232886,
+    "id": "dPlJavCGJofNrfcP8aSW8AI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 60,
+      "prompt_tokens": 512,
+      "total_tokens": 572
+    }
+  }
+}

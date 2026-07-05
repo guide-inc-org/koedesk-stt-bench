@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0030",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 15.18,
+  "ref_text_raw": "女子シッティンググループでは4人のスキーヤーが滑走を終えられず、ジャイアントスラロームでは全117人中45人がランクインできなかった。",
+  "ref_text_normalized": "女子シッティンググループでは4人のスキーヤーが滑走を終えられず ジャイアントスラロームでは全117人中45人がランクインできなかった",
+  "timestamp_utc": "2026-07-05T10:12:31Z",
+  "text": "女子シッティンググループでは4人のスキーヤーが滑走を終えられず、ジャイアントスラロームでは全117人中45人が完走できなかった。",
+  "latency_sec": 6.0065,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "女子シッティンググループでは4人のスキーヤーが滑走を終えられず、ジャイアントスラロームでは全117人中45人が完走できなかった。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246351,
+    "id": "Cy5KaqnhDY-_vr0P4-jhmAM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 401,
+      "total_tokens": 971
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0052",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 14.58,
+  "ref_text_raw": "Ils ont des pattes recouvertes d'écailles et pourvues de griffes, ils pondent des œufs et marchent sur leurs deux pattes arrière comme des T-Rex.",
+  "ref_text_normalized": "ils ont des pattes recouvertes d'écailles et pourvues de griffes ils pondent des œufs et marchent sur leurs deux pattes arrière comme des t-rex",
+  "timestamp_utc": "2026-07-05T05:05:40Z",
+  "text": "Ils ont des pattes recouvertes d'écailles et pourvues de griffes. Ils pondent des œufs et marchent sur leurs deux pattes arrière comme des T-Rex.",
+  "latency_sec": 4.631,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Ils ont des pattes recouvertes d'écailles et pourvues de griffes. Ils pondent des œufs et marchent sur leurs deux pattes arrière comme des T-Rex.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EocHCoQHARFNMg+J0aGf072TTB3cVzdg3PWW5Bk9Eg2uOp2eOfnhTbnRyH40cE/wyM+nK6IAzK9VBGgR4tRPM3Z75pEOEwZCAB6Wiriro24if6I64yu6dlkeO3dK44GfMlqTfgtqEuflmI4YvCMuN3IMQEhyLxkm9ICUCUlD+wTh2VT0OpjsRaQS8Us94SfixRS4nas8kvCKCejHyEpguwjEGYkJO8VbxkFOZIGCrvqcVfKo0hwnKDeyN1CLBb+CKkloPPH4AP5OgiTSKdMgTc6gIFiBSTRfd3v06tsGHpyR4DG0v9UpR9n0mFs5KFasbDdW7RDP3zMJ1EZDwI1Nr3E599wUZzddZp6Q/2/5HVAtMzHPLxcyDnNrfc+ZEBxjQK/4o6qN/nJzxDddpy7UdDAaltrOmi8Ee/hd4/SOYD6HsDVioBKgOvuzaNweJrEE4siwKU7RASpo9xHbn7/kwDqjGrBDeoEvL69Pd8qyMviLUpTV/8XSpdwBt+5P8Hrh9zg83eC+tzqyqORReCiRN0bcvFExp96Z9sFG+mENehansIdbr21QoPUAd3r9WMSJoNloWMotsq0B2HN+BwqasUEANDmENDXZUe+bnju/rKH/Y6xMvALhLkSwOYbOCfAVhS3aRl1OF3VEq5nrOXYcDvOowC/5tWcwrYeVLT6JbVk7hou8MgLE/FERU/vFUqGZDHEAT5nU8n2rXuEyXDJLR3LEfQkqWpgmM0LG505bHumWJOR/Sg8IfZHx60d4xtTooTPrHoJNNDqPPtvH0ePjD+kJ2SEXIhRJuppvvENwx8KXZU+wpeqmfz9Qh7SdA1+Appxoo8BRFQIUwBMrLmI9K+TyDjMYFaroiTMN5QmzK9NpZLH2ycQybCkXIactmmO9nuzQRAU2VhRiQY0d6m5MgiKYtLreiY8C76AW9CJPGgEJU6jqz5MYBEkB64tO2GNZQ2AuWRalVz7DytQuYt92qANgczBK/Mftmia2E1ErosInBDfMO18IgaubTWQFblxvQspTarHGB2X6jXgmThw/QPwjw5OFgB/YIT8FqY9zC2HPtoN1c9MJgZhkvaua+rBJabpsOwI3MS+HCPNsOy/R4Nt0GYG4nWh0frhl5AjeQh/MJKqSTznMp80OwHpL5PRPD1ZsZWLdlTqkEIA0cuOy+2xZotZlgq7DB7QHje2UdgvAEQ1VwjNInOrp"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227940,
+    "id": "IeZJaoG-LsbJ2roPosfb0QY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 386,
+      "total_tokens": 663
+    }
+  }
+}

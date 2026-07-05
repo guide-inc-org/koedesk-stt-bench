@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0031",
+  "lang": "ko",
+  "engine": "gemini_25_pro",
+  "duration_sec": 7.32,
+  "ref_text_raw": "파리 사람들은 자기중심적이고, 무례하고, 오만하다는 평판이 있습니다.",
+  "ref_text_normalized": "파리 사람들은 자기중심적이고 무례하고 오만하다는 평판이 있습니다",
+  "timestamp_utc": "2026-07-05T06:00:57Z",
+  "text": "파리 사람들은 자기 중심적이고 무례하고 오만하다는 평판이 있습니다.",
+  "latency_sec": 8.6941,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "파리 사람들은 자기 중심적이고 무례하고 오만하다는 평판이 있습니다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231257,
+    "id": "EvNJaqi7E9y4vr0Pgo3U0Q8",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 256,
+      "total_tokens": 711
+    }
+  }
+}

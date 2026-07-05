@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0048",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.38,
+  "ref_text_raw": "Die Fotografen nahmen den Platz einer älteren Dame ein, als sie zur Toilette musste. Mendoza wurde erschossen.",
+  "ref_text_normalized": "die fotografen nahmen den platz einer älteren dame ein als sie zur toilette musste mendoza wurde erschossen",
+  "timestamp_utc": "2026-07-05T03:59:51Z",
+  "text": "Die Fotografen nahmen den Platz einer älteren Dame ein, als sie zur Toilette musste. Mendoza wurde erschossen.",
+  "latency_sec": 3.3097,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Die Fotografen nahmen den Platz einer älteren Dame ein, als sie zur Toilette musste. Mendoza wurde erschossen.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EoUGCoIGARFNMg+MULXb0Fq4gcJvKLhKMiLtgOHvVNBAsQ6ifSmYY3pFa2T31PsvhF5VANac26f4NGssxyTGUhBpySGgDextsxZO+q2A6ATpE9cezOvDyAAYcJBdy4KNO/zKevaKP5rWcnVBGJESdEDwtI6/tyDCSZ/H2NlaDvEKJCaPJhXVvY734qNw3xo8c/hUphMVXAF7Jt9/257bPbrxgr5stqDKjaJFtitnjj5AMAqdKJd5QrHLfKC9bSvSlta10ZhTpb7tN9UuNoQOhHwff/uNJXIsAGuN+5s8KvxM38AqpQnJqqs+7kwoBIqnXF19ktMlXmQ3rIQJcMDIo3NSMNwF/WPgCmjHDXmMvePDZDl7ypa1WKZKDQDOKlQRaMffvFOtcVhFdrYy3g68ztTeBP45m7yzl6W0DFy5+gURprZWUBnxUdwzwbx7KoOzgfVP2QJbXBfPzqker5ADE0WqKWmKRusQsj/FrX7eBPvaSZBUb7KefSwFVK7jvswwgRiIwoXq/eaHPhJsWpCx2dqQBFNXoIk+ezbnIj9QEwAWdsXmxHY5MYJzde+sJqFaViZxhVrS0/47bPRl/uvD0uzj00oor9LASYBGIeS2DhFHoJFc6WjvOiZPwZNJLrTwZOx4vZONkqBl5tWNFtiqDs1zGy+UVrP3Gn0+SgR3lEuHxqh4EUTgz4FGHK0bHagVgIBQw31UE8gFADznsJTnRcCpDNKyWujhTcujUKObZONjV9jEOTwPNqdRQb0Tub3peaoUdIOvLrT1ptsdOJ6kPvJc8Z1Jl12OVhrUhWkd0qcKk0mihykeP3TrJX2qSU5G264hI1Dt7MnNc1ydwHJh3P2+2qDsEBhf6cHu75nWjOAaTBpS2on877mEtQwCFN+DN6DaBqU3r1O0AmeJOq6OhbZieU0XJh08AXRLM6EVqb5RezQb9UgQelD4OKmEHMZHY+DtBmZc7hGICFQKcJ7+38zIJjveS0nb1o5ee2/EG+8eczLPNKslYBI25WNbxPRdA/zYC2yQklM="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223991,
+    "id": "tdZJavGwEqbX2roP9O2X-Qg",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 281,
+      "total_tokens": 483
+    }
+  }
+}

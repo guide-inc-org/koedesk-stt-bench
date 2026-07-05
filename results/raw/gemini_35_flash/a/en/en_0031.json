@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0031",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.58,
+  "ref_text_raw": "In the north the region is bounded by the Sahel, and in the south and west by the Atlantic Ocean.",
+  "ref_text_normalized": "in the north the region is bounded by the sahel and in the south and west by the atlantic ocean",
+  "timestamp_utc": "2026-07-05T10:28:57Z",
+  "text": "In the north, the region is bounded by the Sahel, and in the south and west by the Atlantic Ocean.",
+  "latency_sec": 3.497,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "In the north, the region is bounded by the Sahel, and in the south and west by the Atlantic Ocean.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EugFCuUFARFNMg/EKMKrjLXwafZ2Bv1WasahiJDQ0R8BtmcYOPA2sAzhhFbEoJrHU5TowAvl++iyc49KetmrDQKXaVt0BX8TgZqwWa+cnMVi/h8Htc8WIpq0S4qe4/iNUxkQb3PBgCul6d97H8i1q4mnp0MXt/g/b1yRd755sM97C24m5ZTFxZFCgamvDUZCsHfsrkScNJcXLbXX+D/tfG3wzaRhN4qdLTGguzbyRJug5FwYfI6mAqraB0iHJNEpcdDQUGMtAudzDS+102amR9ZRjNzr7mARAR1ROYFz0/ZM1e+vNHaPWKAF0DwZg8uSNFI9SDPUZ3z8I1jJYAPwInplCQEBUFy2ZqBhUrUNMWt0FmWavseMzGwgX9cD9L+MGCUwAbVTi69Io7UqH+QFZnwHd8gT1qykiW6sTKJa+3he2NpaQEoWHw3GEs0JvEc1UNlQr0Fh1GfO/OQQ2yH9EX0UHNi5aFjGoY/wff3YnIIssNQ/X6jLtMbnWeAwyeDBkBnihQNvf5QVz5VWHMpAchuxivyMe1U9noP0oblMwltb+RJtBoH4/3+DXHJnVTZL2+YUd6t83HjNEdnrBExZ+29B3SSj+kdIMXMqQ+mUHLBR2rYpgokKmOHKio/wEE/BCDDOKeG2O7mjFasD45hPWU+TIaQjKccLXLx3yIvZGX1+Tcy/m/d3fCmVaY7kUXBGdEb3ktY3o7dFQL0vP2Q2pmqxvz3AaozrdJCK3CZZoiV18BWGNsR/TwOpfV9lOB2SStJjviaff33TzofTreEKSDYWH7jEz3Cg0B8ItDm9ablBjg79CCRGawTuaTKzTW+2ZRwAtDOS7w/tKrXNlkkPqaQm5+LN9u1L5qf/jJuKIi3DW+gBURGZFoBZUHW+t+bz3Znz1+IqgFH0ROB9JiROsoiSKnGs/bpAlc1t4qOCmJNNSNO96QQGMVsEedxW8P83tXlUjGWakzB7iXiTuqIDHPcCE2+8Ttz1H3F2"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247337,
+    "id": "5jFKaqegO4aA0-kPotqL6Q4",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 261,
+      "total_tokens": 463
+    }
+  }
+}

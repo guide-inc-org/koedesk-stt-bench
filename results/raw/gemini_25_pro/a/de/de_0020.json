@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0020",
+  "lang": "de",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.92,
+  "ref_text_raw": "Ein Curry ist ein Gericht, das auf Kräutern und Gewürzen basiert, zusammen mit entweder Fleisch oder Gemüse.",
+  "ref_text_normalized": "ein curry ist ein gericht das auf kräutern und gewürzen basiert zusammen mit entweder fleisch oder gemüse",
+  "timestamp_utc": "2026-07-05T03:41:24Z",
+  "text": "Ein Curry ist ein Gericht, das auf Kräutern und Gewürzen basiert, zusammen mit entweder Fleisch oder Gemüse.",
+  "latency_sec": 4.9547,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Ein Curry ist ein Gericht, das auf Kräutern und Gewürzen basiert, zusammen mit entweder Fleisch oder Gemüse.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222884,
+    "id": "YNJJarjbKsmzvr0PpOCr2QI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 371,
+      "total_tokens": 605
+    }
+  }
+}

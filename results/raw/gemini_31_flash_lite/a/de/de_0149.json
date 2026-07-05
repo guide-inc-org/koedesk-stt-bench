@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0149",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 18.42,
+  "ref_text_raw": "Demzufolge wurde der Bleistift nach seiner Erfindung vielen Menschen ein guter Freund.",
+  "ref_text_normalized": "demzufolge wurde der bleistift nach seiner erfindung vielen menschen ein guter freund",
+  "timestamp_utc": "2026-07-05T04:08:57Z",
+  "text": "Demzufolge wurde der Bleistift nach seiner Erfindung vielen Menschen ein guter Freund.",
+  "latency_sec": 2.6637,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Demzufolge wurde der Bleistift nach seiner Erfindung vielen Menschen ein guter Freund.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP7Zs8qC1U1rAi0mnGZxqz/ghnZH3i6pssEbC+czryZmoPyBHgkwHcb7WWY57s"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224537,
+    "id": "19hJav7oLqfKrfcP5Pio2QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 482,
+      "total_tokens": 500
+    }
+  }
+}

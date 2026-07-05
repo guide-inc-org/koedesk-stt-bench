@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0075",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 14.4,
+  "ref_text_raw": "虽然这通常只是一种不准确的刻板印象，但在巴黎生活的最佳方式仍然是尽量举止得当，表现得像一个有 “bien élevé”（教养良好）的人。这会让参加社会活动变得容易得多。",
+  "ref_text_normalized": "虽然这通常只是一种不准确的刻板印象但在巴黎生活的最佳方式仍然是尽量举止得当表现得像一个有  bien élevé”教养良好的人这会让参加社会活动变得容易得多",
+  "timestamp_utc": "2026-07-05T09:12:24Z",
+  "text": "虽然这通常只是一种不准确的刻板印象，但在巴黎生活的最佳方式仍然是举止尽量得当，表现得像一个有 bien élevé 教养良好的人，这会让参加社会活动变得容易很多。",
+  "latency_sec": 7.3248,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "虽然这通常只是一种不准确的刻板印象，但在巴黎生活的最佳方式仍然是举止尽量得当，表现得像一个有 bien élevé 教养良好的人，这会让参加社会活动变得容易很多。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242744,
+    "id": "8h9Kasn1N__R1e8PsqiM8QM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 46,
+      "prompt_tokens": 381,
+      "total_tokens": 1291
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0064",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 13.98,
+  "ref_text_raw": "ある観察者がビシュケクを「無政府状態」に陥っていると表現したように、ギャングたちが街路を徘徊し、日用品店を略奪しました。",
+  "ref_text_normalized": "ある観察者がビシュケクを 無政府状態 に陥っていると表現したように ギャングたちが街路を徘徊し 日用品店を略奪しました",
+  "timestamp_utc": "2026-07-05T10:15:53Z",
+  "text": "ある観察者がビシュケクを無政府状態に陥っていると表現しているように、ギャングたちが街路を徘徊し、日用品店を略奪しました。",
+  "latency_sec": 6.1012,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ある観察者がビシュケクを無政府状態に陥っていると表現しているように、ギャングたちが街路を徘徊し、日用品店を略奪しました。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246553,
+    "id": "1S5KatneAorW1e8Py5HYyAE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 371,
+      "total_tokens": 1012
+    }
+  }
+}

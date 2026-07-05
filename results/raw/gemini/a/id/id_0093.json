@@ -1,0 +1,39 @@
+{
+  "utt_id": "id_0093",
+  "lang": "id",
+  "engine": "gemini_25_flash",
+  "duration_sec": 13.86,
+  "ref_text_raw": "Tumbuhan menghasilkan oksigen yang dihirup manusia, dan mereka menghirup karbondioksida yang dikeluarkan manusia (yang artinya, bernapas).",
+  "ref_text_normalized": "tumbuhan menghasilkan oksigen yang dihirup manusia dan mereka menghirup karbondioksida yang dikeluarkan manusia yang artinya bernapas",
+  "timestamp_utc": "2026-07-05T05:26:26Z",
+  "text": "Tumbuhan menghasilkan oksigen yang dihirup manusia, dan mereka menghirup karbon dioksida yang dikeluarkan manusia, dalam kurung yang artinya bernapas.",
+  "latency_sec": 4.6308,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Tumbuhan menghasilkan oksigen yang dihirup manusia, dan mereka menghirup karbon dioksida yang dikeluarkan manusia, dalam kurung yang artinya bernapas.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783229186,
+    "id": "_upJavaAN67H0-kPp7WTuQM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 465,
+      "total_tokens": 788
+    }
+  }
+}

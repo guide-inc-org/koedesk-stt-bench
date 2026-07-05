@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0039",
+  "lang": "es",
+  "engine": "gemini_25_pro",
+  "duration_sec": 17.76,
+  "ref_text_raw": "El Teatro Argentino fue el lugar donde la señora Kirchner anunció su intención de candidatearse como presidenta; este es el mismo sitio donde inició su campaña para el senado en el año 2005, en representación de la provincia de Buenos Aires.",
+  "ref_text_normalized": "el teatro argentino fue el lugar donde la señora kirchner anunció su intención de candidatearse como presidenta este es el mismo sitio donde inició su campaña para el senado en el año 2005 en representación de la provincia de buenos aires",
+  "timestamp_utc": "2026-07-05T04:16:18Z",
+  "text": "El Teatro Argentino fue el lugar donde la señora Kirchner anunció su intención de candidatarse como presidenta. Este es el mismo sitio donde inició su campaña para el Senado en el año 2005 en representación de la provincia de Buenos Aires.",
+  "latency_sec": 4.6582,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "El Teatro Argentino fue el lugar donde la señora Kirchner anunció su intención de candidatarse como presidenta. Este es el mismo sitio donde inició su campaña para el Senado en el año 2005 en representación de la provincia de Buenos Aires.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224978,
+    "id": "j9pJasC7Bbq3vr0P4Zm80Qw",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 49,
+      "prompt_tokens": 590,
+      "total_tokens": 755
+    }
+  }
+}

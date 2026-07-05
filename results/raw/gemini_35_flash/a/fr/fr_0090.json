@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0090",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.22,
+  "ref_text_raw": "Pour admirer les plus beaux panoramas de Hong Kong, quittez l’île et rejoignez le front de mer de Kowloon situé en face.",
+  "ref_text_normalized": "pour admirer les plus beaux panoramas de hong kong quittez l'île et rejoignez le front de mer de kowloon situé en face",
+  "timestamp_utc": "2026-07-05T05:09:26Z",
+  "text": "Pour admirer les plus beaux panoramas de Hong Kong, quittez l'île, rejoignez le front de mer de Kowloon situé en face.",
+  "latency_sec": 5.2621,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Pour admirer les plus beaux panoramas de Hong Kong, quittez l'île, rejoignez le front de mer de Kowloon situé en face.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpoFCpcFARFNMg88uq8UoRTi+5MGD8mmCzxHDCneCsxlAsDNo3kZCxPA7gq694AtGi/XoissfW19pHazS2PdtNJJz2fyNy6lnHM7NSQg07ZwI7Hj5/MtPv8vYoBrxs1yQ1h6DuFrWQwXRljbpHQW5JhvRX2hYsZQkxEWgGij1L0yEtDcT9Gahgr/6gg/PjApC6BgrmcppC2zAsTognf+u8cky+l99TjspPmGC0Crg8360aoOnBeQd22Mcp9of+t7A21LP0TNhzSWxjTRnmCpSYtCAY5Nd3uMA1eJzRW6lI/MxT4BsaB6HoHMBSKQsBP3JqBHtNrMaXgLr9ZejvZWIlQKtpuR34CBWgwXpIkvenjeI6LJptk9dJT9ACq4TqXpeEAAbrZqHflUCt1rPtRCbViA/bEyTDG8jrBDZ/IpwBjweZ9d19+DXXOzzvNms1pckyz4rkJsat64qPl385oKYkkfPvSAVNBCeRWgeJPJ3HZDzz7yf1BUvu3ke+5kPDWjOeAyEkh3aZ+1tO0MLYy2y9/ZZhPQrbNg1MlqupnP/HGZQPOzNkJXdFpzAki2g498IprtApnRZRudgOcNuwJAjVcPRzMpgQB7wJ1iAl5FdIyeOUQh5SmGv//4zeMIyG6jRV7FLMbUpVp94a/ZZfPgENJd132magewpQfnXY6IjLVyk70Ow0ALgA0P3atLNVv8JiVPkPKBcjQ/DrUYRAeNTR9UUqRq17rdp+L+cgwA/5Yxl860E8rqhcwZ7LNplI4JM5fgTHRDIQvir9fAmGiUjhN1tUyMLSD9CdkWl9zU9wFEDUDjhDmESbybwr3ZmxKoen+2MNyMjSnLEjAHOceICOp1BHfqZiPCuoP8pj8o0mZkvO2nHM51Qr9XYDCE"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228166,
+    "id": "A-dJavHQNqbX2roP9O2X-Qg",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 227,
+      "total_tokens": 416
+    }
+  }
+}

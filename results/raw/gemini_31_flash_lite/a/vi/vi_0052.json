@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0052",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.2,
+  "ref_text_raw": "Hiển nhiên, nếu bạn biết một ngôn ngữ La Mã, bạn sẽ dễ dàng học Tiếng Bồ Đào Nha.",
+  "ref_text_normalized": "hiển nhiên nếu bạn biết một ngôn ngữ la mã bạn sẽ dễ dàng học tiếng bồ đào nha",
+  "timestamp_utc": "2026-07-05T08:40:49Z",
+  "text": "Hiển nhiên, nếu bạn biết một ngôn ngữ La Mã, bạn sẽ dễ dàng học tiếng Bồ Đào Nha.",
+  "latency_sec": 2.2653,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Hiển nhiên, nếu bạn biết một ngôn ngữ La Mã, bạn sẽ dễ dàng học tiếng Bồ Đào Nha.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPlz6xwTmDOYbbIW7jnhjYl4R0GpXihEr0wgD5Jv+ceOd9P7SLY11MZ88SxL5m"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240849,
+    "id": "kBhKarqyCJja1e8P6IqesQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 201,
+      "total_tokens": 226
+    }
+  }
+}

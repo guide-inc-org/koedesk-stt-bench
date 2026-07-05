@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0102",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.42,
+  "ref_text_raw": "サファリとは、アフリカの野生動物、特にサバンナにいる野生動物の観察を目的とした陸路での旅行を指します。",
+  "ref_text_normalized": "サファリとは アフリカの野生動物 特にサバンナにいる野生動物の観察を目的とした陸路での旅行を指します",
+  "timestamp_utc": "2026-07-05T03:06:40Z",
+  "text": "サファリとはアフリカの野生動物、特にサバンナにいる野生動物の観察を目的とした陸路での旅行を指します。",
+  "latency_sec": 4.4742,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "サファリとはアフリカの野生動物、特にサバンナにいる野生動物の観察を目的とした陸路での旅行を指します。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783220801,
+    "id": "PspJasD1GMmzvr0PpOCr2QI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 419,
+      "total_tokens": 522
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0061",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.72,
+  "ref_text_raw": "В результате бригады пожарных потушили пожар к 23:35.",
+  "ref_text_normalized": "в результате бригады пожарных потушили пожар к 23:35",
+  "timestamp_utc": "2026-07-05T07:21:52Z",
+  "text": "В результате бригады пожарных потушили пожар к двадцати трем тридцати пяти.",
+  "latency_sec": 4.7668,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "В результате бригады пожарных потушили пожар к двадцати трем тридцати пяти.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236112,
+    "id": "DQZKaveCHcqfvr0Plb-amQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 189,
+      "total_tokens": 598
+    }
+  }
+}

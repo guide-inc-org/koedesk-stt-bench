@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0143",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 13.32,
+  "ref_text_raw": "Это обеспечит его обратную совместимость с 802.11a, 802.11b и 802.11g при условии, что у базовой станции есть двойной приемник.",
+  "ref_text_normalized": "это обеспечит его обратную совместимость с 802.11a 802.11b и 802.11g при условии что у базовой станции есть двойной приемник",
+  "timestamp_utc": "2026-07-05T07:11:41Z",
+  "text": "Это обеспечит его обратную совместимость с 802.11a, 802.11b и 802.11g, при условии, что у базовой станции есть двойной приёмник.",
+  "latency_sec": 4.5363,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Это обеспечит его обратную совместимость с 802.11a, 802.11b и 802.11g, при условии, что у базовой станции есть двойной приёмник.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235501,
+    "id": "qQNKaoe7NK2A1e8P88TkuQE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 51,
+      "prompt_tokens": 448,
+      "total_tokens": 808
+    }
+  }
+}

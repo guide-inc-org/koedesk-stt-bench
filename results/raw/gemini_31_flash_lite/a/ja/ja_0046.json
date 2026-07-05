@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0046",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.7,
+  "ref_text_raw": "私たちは、資格を剥奪するよりも、組織内で意味のある変革を進めた方が選手やクラブ、そしてスポーツに資する可能性があるというUSOCの声明に同意しています。",
+  "ref_text_normalized": "私たちは 資格を剥奪するよりも 組織内で意味のある変革を進めた方が選手やクラブ そしてスポーツに資する可能性があるというusocの声明に同意しています",
+  "timestamp_utc": "2026-07-05T10:15:32Z",
+  "text": "私たちは比較を剥奪するよりも、組織内で意味のある変革を進めたほうが選手やクラブ、そしてスポーツに資する可能性があるというUSOCの声明に同意しています。",
+  "latency_sec": 2.8015,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "私たちは比較を剥奪するよりも、組織内で意味のある変革を進めたほうが選手やクラブ、そしてスポーツに資する可能性があるというUSOCの声明に同意しています。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP971534LI6Z3UpAGs38OJC96LmpwC+2IuRHg9PG8R9uOJVn1TcSfAQ+2df42c"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246532,
+    "id": "wi5KaonKHLGivr0P0MTRmQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 389,
+      "total_tokens": 425
+    }
+  }
+}

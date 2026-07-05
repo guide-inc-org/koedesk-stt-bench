@@ -1,0 +1,45 @@
+{
+  "utt_id": "id_0080",
+  "lang": "id",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.82,
+  "ref_text_raw": "Di sebagian area, memasak air selama semenit dianggap cukup, sedang di area lainnya butuh beberapa menit.",
+  "ref_text_normalized": "di sebagian area memasak air selama semenit dianggap cukup sedang di area lainnya butuh beberapa menit",
+  "timestamp_utc": "2026-07-05T05:41:48Z",
+  "text": "Di sebagian area memasak air selama semenit dianggap cukup sedang di area lainnya butuh beberapa menit.",
+  "latency_sec": 4.8265,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Di sebagian area memasak air selama semenit dianggap cukup sedang di area lainnya butuh beberapa menit.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230108,
+    "id": "mO5JapOLMLui9tMPvLHh-QE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 242,
+      "total_tokens": 725
+    }
+  }
+}

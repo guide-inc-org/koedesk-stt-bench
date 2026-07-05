@@ -1,0 +1,44 @@
+{
+  "utt_id": "pt_0182",
+  "lang": "pt",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 21.18,
+  "ref_text_raw": "Perry disse que iria \"voltar ao Texas para olhar os resultados da convenção partidária desta noite e determinar se há para mim um caminho a seguir nesta corrida\", porém mais tarde afirmou que permaneceria na corrida e participaria das preliminares do dia 21 de janeiro na Carolina do Sul.",
+  "ref_text_normalized": "perry disse que iria voltar ao texas para olhar os resultados da convenção partidária desta noite e determinar se há para mim um caminho a seguir nesta corrida porém mais tarde afirmou que permaneceria na corrida e participaria das preliminares do dia 21 de janeiro na carolina do sul",
+  "timestamp_utc": "2026-07-05T07:05:05Z",
+  "text": "A Perry disse que iria voltar ao Texas para olhar os resultados da convenção partidária desta noite e determinar se há, para mim, um caminho a seguir nessa corrida. Porém, mais tarde afirmou que permaneceria na corrida e participaria das preliminares do dia 21 de janeiro na Carolina do Sul.",
+  "latency_sec": 3.4026,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "A Perry disse que iria voltar ao Texas para olhar os resultados da convenção partidária desta noite e determinar se há, para mim, um caminho a seguir nessa corrida. Porém, mais tarde afirmou que permaneceria na corrida e participaria das preliminares do dia 21 de janeiro na Carolina do Sul.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPqPHgVjUZ4DrluIi0KaLT5eOXtxHFdVbVzldGj99g0Ypyi2HVHixcpWXjCwu2"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235105,
+    "id": "HwJKarqsIdq20-kPqrmQ0QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 63,
+      "prompt_tokens": 551,
+      "total_tokens": 614
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0138",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.6,
+  "ref_text_raw": "Danielle Lantagne, a UN expert on the disease, stated the outbreak was likely caused by the peacekeepers.",
+  "ref_text_normalized": "danielle lantagne a un expert on the disease stated the outbreak was likely caused by the peacekeepers",
+  "timestamp_utc": "2026-07-05T03:27:33Z",
+  "text": "Daniel Letaj, a UN expert on the disease, stated the outbreak was likely caused by peace keepers.",
+  "latency_sec": 2.9628,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Daniel Letaj, a UN expert on the disease, stated the outbreak was likely caused by peace keepers.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222053,
+    "id": "I89JarrALJWJ1e8PhMDXiQU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 329,
+      "total_tokens": 350
+    }
+  }
+}

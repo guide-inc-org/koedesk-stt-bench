@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0010",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 4.8,
+  "ref_text_raw": "Through the night between 150 and 200 copies were made, now known as \"Dunlap broadsides\".",
+  "ref_text_normalized": "through the night between 150 and 200 copies were made now known as dunlap broadsides",
+  "timestamp_utc": "2026-07-05T10:19:48Z",
+  "text": "for the night between 150 and 200 copies were made now known as Dunlop Broadsides.",
+  "latency_sec": 4.0836,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "for the night between 150 and 200 copies were made now known as Dunlop Broadsides.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246788,
+    "id": "wS9KaueNGqyv1e8P3_jVaA",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 175,
+      "total_tokens": 199
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0044",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 13.86,
+  "ref_text_raw": "骨董品について普遍的な定義はありません。税務署によっては、100年以上前のものを骨董品と定義しています。",
+  "ref_text_normalized": "骨董品について普遍的な定義はありません 税務署によっては 100年以上前のものを骨董品と定義しています",
+  "timestamp_utc": "2026-07-05T10:05:14Z",
+  "text": "骨董品について 普遍的な定義はありません。 税務署によっては100年以上前のものを骨董品と定義しています。",
+  "latency_sec": 4.152,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "骨董品について 普遍的な定義はありません。 税務署によっては100年以上前のものを骨董品と定義しています。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783245914,
+    "id": "WCxKapbTC9q20-kPqrmQ0QM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 465,
+      "total_tokens": 492
+    }
+  }
+}

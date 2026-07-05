@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0137",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 18.96,
+  "ref_text_raw": "Selon certaines sources, il aurait une vingtaine d'années. Dans une déclaration, Bieber a déclaré : « Bien que je n'aie pas été présent ni directement impliqué dans ce tragique accident, mes pensées et prières vont à la famille de la victime. »",
+  "ref_text_normalized": "selon certaines sources il aurait une vingtaine d'années. dans une déclaration bieber a déclaré : « bien que je n'aie pas été présent ni directement impliqué dans ce tragique accident mes pensées et prières vont à la famille de la victime. »",
+  "timestamp_utc": "2026-07-05T05:13:34Z",
+  "text": "Selon certaines sources, il aurait une vingtaine d'années. Dans une déclaration, Bieber a déclaré : « Bien que je n'aie pas été présent ni directement impliqué dans ce tragique accident, mes pensées et mes prières vont à la famille de la victime. »",
+  "latency_sec": 4.1888,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Selon certaines sources, il aurait une vingtaine d'années. Dans une déclaration, Bieber a déclaré : « Bien que je n'aie pas été présent ni directement impliqué dans ce tragique accident, mes pensées et mes prières vont à la famille de la victime. »",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Eu0FCuoFARFNMg9E7NR2SSOQbvXr027v9eun+Lh+jH6/Brsk8LI2U6OpdRzYLCj3KPmXmTRu3/0BjhsRol2QOETgfDf/jLjjzSueUpYXPyCwuzaYa+zRawVZT9quQE7NUgkT6jv7uKBxO4eX/l7vZbXPDeFdycK5bbbeyPZLw2IW6utXqLEuLFs1Y5hSj3mgLqKeS6jnLQWCFE5/87XUkrd0Az517LGaEGThpSgaarZ/IMAQ56207J9RswRlYRH4yzjNeB0ul4uax7yMdIDqFp0OgkcexlXX3/NIGVxCu/VP28uzqhhAWu66Fz5k5nhQc4eDtSujVo44+EpUzGxd6V7cOzyeTbTlbtyMXuVaTEDh/X2PgG6bnE+55NRFx3eSn/DhqN8stAOIbexschnH+MgnxI9+19YIph5sESDxjRj0AXkpq4QYEf5OkRpbyrvF/XvTu09uDmFfSQB5ofQ7BC1h2Sy7C2hszNPqVDWC1bAwAf7kMl6k1ap5xXTLDPkjOEKSPvPaptpcP57ISUHViYxj7nnLrcmU1YOcAW6UJqAcE7FXRzCk/DW9HDOHKq0m9BXS6BQjQCADDvfyNRZjnyst0M1htelpouKFLztXN/yc9mI90VC0whdmSZyV+X3t8MRyr2ZTS1NHdJTCej90xWgCube/xcg4lw3suU5iAcIEZVxquynS9V8M5b0yRJz6IjHuQdzh2g+/QZN4fbay+B9g+wX8iZzE6nhBcsVfknPNvf2EOBieDFl6+Mf8KqfBP2FiLeg//aoBOe1bMtNchpWDBjkLHuBSDoIj4xP4Ze+TQ/ZHoXywjnHxpFecdEvVg+XJUhMb/WlMZDpPVVfQy9qj94PLGycjADFBxkR6jOnQA9dmw6nq0FxL/nGHhBnJXhz+9aF2ZsWMZz/s2MLbMMNLsubWfXW1e+j8PoGnEnCrQc6f/3l5j6DRWl9QS7tupM182NuYyAqWP4Zufc1bElGu+yVRTiYCjFwn0LyQHNI="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228414,
+    "id": "--dJapjsA-ON1e8PjO3d6AM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 58,
+      "prompt_tokens": 495,
+      "total_tokens": 713
+    }
+  }
+}

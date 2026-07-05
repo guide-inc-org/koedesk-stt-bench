@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0119",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.48,
+  "ref_text_raw": "Можно только гадать, что станет с клавиатурой, с появлением более новых технологий.",
+  "ref_text_normalized": "можно только гадать что станет с клавиатурой с появлением более новых технологий",
+  "timestamp_utc": "2026-07-05T07:27:01Z",
+  "text": "Можно только гадать, что станет с клавиатурой с появлением более новых технологий.",
+  "latency_sec": 3.402,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Можно только гадать, что станет с клавиатурой с появлением более новых технологий.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Eo4ECosEARFNMg+Jfocv6eytbwt8YkvS/z/Xd7bbhDKM1dRHrThEmQlfHPOAoScDTrrrpoIWRPTBVrTKRGfgQW1y3oJ4EhvmyDSLCwxZnkONhKz4jSMKJmIs9XAm09e0GshzJ2cwHNmStjIJQhkwC6s6vZ/3T86E70KYoeLsQQ+d1yZUzYMQvYTxTlYPuPBNgqf9LuV1yTUExKwz+CnGJFxBpzPXYcVirvFCQFUaTbDcxY8ronYAjZ8nKPrOhA7yReWI6kjKpiYz7qc4YkrPsfNelTwaVTpSzULmjDiBP+OQbhRXrLRCsMy8khYjIbodUKIC0iPI/U0NNINAn4vz+qvSbD098R84ykURv02csY2NFNWl/9TAO7qzVxjTREEwpXVhd2ALfEwV5WG5dVeLwityjlXwUUY3gc2sdQ4dkp7zD4XHq0hKM/6Cb6Vbjpob57dkEaCl7IiTnJstOEq9WkDizqDYU6ngl40PQgR1C861SgKGXn28fzPa/XP6LjceW21T0QLp0f5X2ytSYzvayVUXH9vC9pa796iYZ2dbLPAKg5O+4Yb9upyiXAEXgY0+4bd/68VVb/BO+BV4NBqa/lDRSzNHtcxdYvQFpM7iNYMuaMBi/Qhqp7zheRAQrnr9+zzjdAcjGK0+4LwTVs+RwEY1Nd2F94ZZWGze0JJEO9yb2gzcAvH6wTb2RwYZPwHMFQ=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236422,
+    "id": "QwdKaqjQN8bJ2roPosfb0QY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 17,
+      "prompt_tokens": 258,
+      "total_tokens": 349
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0167",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 19.68,
+  "ref_text_raw": "表演开始五分钟后，刮起了风，约一分钟后，风速达到了 70 公里/小时……紧接着又下起了雨，雨势如此之大，像针扎一样拍打在皮肤上，随后天上下起了冰雹，惊慌失措的人群尖叫着四散奔逃。",
+  "ref_text_normalized": "表 演 开 始 五 分 钟 后 刮 起 了 风 约 一 分 钟 后 风 速 达 到 了 70 公 里 小 时 紧 接 着 又 下 起 了 雨 雨 势 如 此 之 大 像 针 扎 一 样 拍 打 在 皮 肤 上 随 后 天 上 下 起 了 冰 雹 惊 慌 失 措 的 人 群 尖 叫 着 四 散 奔 逃",
+  "timestamp_utc": "2026-07-05T09:21:39Z",
+  "text": "表演开始五分钟后，刮起了风。约一分钟后，风速达到了70公里每小时。紧接着又下起了雨。雨势如此之大，像针扎一样拍打在皮肤上。随后天上下起了冰雹。惊慌失措的人群尖叫着四散奔逃。",
+  "latency_sec": 5.6562,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "表演开始五分钟后，刮起了风。约一分钟后，风速达到了70公里每小时。紧接着又下起了雨。雨势如此之大，像针扎一样拍打在皮肤上。随后天上下起了冰雹。惊慌失措的人群尖叫着四散奔逃。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243299,
+    "id": "HyJKaoe3GZ2_vr0Piquy2Q0",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 68,
+      "prompt_tokens": 513,
+      "total_tokens": 1165
+    }
+  }
+}

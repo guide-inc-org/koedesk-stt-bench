@@ -1,0 +1,39 @@
+{
+  "utt_id": "id_0080",
+  "lang": "id",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.82,
+  "ref_text_raw": "Di sebagian area, memasak air selama semenit dianggap cukup, sedang di area lainnya butuh beberapa menit.",
+  "ref_text_normalized": "di sebagian area memasak air selama semenit dianggap cukup sedang di area lainnya butuh beberapa menit",
+  "timestamp_utc": "2026-07-05T05:25:22Z",
+  "text": "di sebagian area, memasak air selama semenit dianggap cukup. Sedang di area lainnya butuh beberapa menit.",
+  "latency_sec": 5.0628,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "di sebagian area, memasak air selama semenit dianggap cukup. Sedang di area lainnya butuh beberapa menit.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783229122,
+    "id": "v-pJau-bA8P_2roPvqa06AU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 304,
+      "total_tokens": 439
+    }
+  }
+}

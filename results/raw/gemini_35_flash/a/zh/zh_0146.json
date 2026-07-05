@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0146",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 23.34,
+  "ref_text_raw": "表演开始五分钟后，刮起了风，约一分钟后，风速达到了 70 公里/小时……紧接着又下起了雨，雨势如此之大，像针扎一样拍打在皮肤上，随后天上下起了冰雹，惊慌失措的人群尖叫着四散奔逃。",
+  "ref_text_normalized": "表 演 开 始 五 分 钟 后 刮 起 了 风 约 一 分 钟 后 风 速 达 到 了 70 公 里 小 时 紧 接 着 又 下 起 了 雨 雨 势 如 此 之 大 像 针 扎 一 样 拍 打 在 皮 肤 上 随 后 天 上 下 起 了 冰 雹 惊 慌 失 措 的 人 群 尖 叫 着 四 散 奔 逃",
+  "timestamp_utc": "2026-07-05T09:19:45Z",
+  "text": "表演开始五分钟后，刮起了风，约一分钟后，风速达到了70公里每小时。紧接着又下起了大雨，雨势如此之大，像针扎一样拍打在皮肤上。随后天上下起了冰雹，惊慌失措的人群尖叫着四散奔逃。",
+  "latency_sec": 5.3952,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "表演开始五分钟后，刮起了风，约一分钟后，风速达到了70公里每小时。紧接着又下起了大雨，雨势如此之大，像针扎一样拍打在皮肤上。随后天上下起了冰雹，惊慌失措的人群尖叫着四散奔逃。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243185,
+    "id": "rSFKatPSFJCe1e8PjsLZ0AQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 69,
+      "prompt_tokens": 605,
+      "total_tokens": 1222
+    }
+  }
+}

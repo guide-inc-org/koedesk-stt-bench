@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0102",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 27.24,
+  "ref_text_raw": "Die Zentralgewalt der Kirche war seit mehr als tausend Jahren in Rom. Diese Konzentration von Macht und Geld veranlasste viele zu zweifeln, ob diesem Grundsatz entsprochen wurde.",
+  "ref_text_normalized": "die zentralgewalt der kirche war seit mehr als tausend jahren in rom diese konzentration von macht und geld veranlasste viele zu zweifeln ob diesem grundsatz entsprochen wurde",
+  "timestamp_utc": "2026-07-05T04:05:57Z",
+  "text": "Die Zentralgewalt der Kirche war seit mehr als 1000 Jahren in Rom. Diese Konzentration von Macht und Geld veranlasste viele zu zweifeln, ob diesem Grundsatz entsprochen wurde.",
+  "latency_sec": 2.89,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Die Zentralgewalt der Kirche war seit mehr als 1000 Jahren in Rom. Diese Konzentration von Macht und Geld veranlasste viele zu zweifeln, ob diesem Grundsatz entsprochen wurde.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPn/TWqfp0z2lCqivMTKv6BtaC7xhi7TFYslW4oxKuT+eyzbjSJC/Sb1gp2XOQ"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224357,
+    "id": "JNhJaomzEoTG0-kPurji2AU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 702,
+      "total_tokens": 746
+    }
+  }
+}

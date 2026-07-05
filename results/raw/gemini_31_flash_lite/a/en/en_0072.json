@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0072",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.84,
+  "ref_text_raw": "These couples may choose to make an adoption plan for their baby.",
+  "ref_text_normalized": "these couples may choose to make an adoption plan for their baby",
+  "timestamp_utc": "2026-07-05T10:32:12Z",
+  "text": "These couples may choose to make an adoption plan for their baby.",
+  "latency_sec": 2.3521,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "These couples may choose to make an adoption plan for their baby.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPlmSju+0mt967lS9NvaiChrK2TPIXcdhi2dt5PbCTQ313L85j+cNUQhlEE8Aq"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247532,
+    "id": "qzJKas3FAuel0-kPltOWuAs",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 13,
+      "prompt_tokens": 192,
+      "total_tokens": 205
+    }
+  }
+}

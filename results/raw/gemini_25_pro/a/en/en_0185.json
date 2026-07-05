@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0185",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 15.6,
+  "ref_text_raw": "USA Gymnastics supports the United States Olympic Committee's letter and accepts the absolute need of the Olympic family to promote a safe environment for all of our athletes.",
+  "ref_text_normalized": "usa gymnastics supports the united states olympic committee's letter and accepts the absolute need of the olympic family to promote a safe environment for all of our athletes",
+  "timestamp_utc": "2026-07-05T03:31:51Z",
+  "text": "USA Gymnastics supports the United States Olympic Committee's letter and accepts the absolute need of the Olympic family to promote a safe environment for all of our athletes.",
+  "latency_sec": 4.6012,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "USA Gymnastics supports the United States Olympic Committee's letter and accepts the absolute need of the Olympic family to promote a safe environment for all of our athletes.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222311,
+    "id": "I9BJatTuMp2hvr0P78yT2Q8",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 521,
+      "total_tokens": 611
+    }
+  }
+}

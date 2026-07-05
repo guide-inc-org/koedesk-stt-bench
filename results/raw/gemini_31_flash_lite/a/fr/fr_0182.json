@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0182",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.44,
+  "ref_text_raw": "Sur certaines routes, les grandes entreprises ont leurs propres avions, mais sur d’autres routes et pour les petites entreprises, il y a eu un problème.",
+  "ref_text_normalized": "sur certaines routes les grandes entreprises ont leurs propres avions mais sur d'autres routes et pour les petites entreprises il y a eu un problème",
+  "timestamp_utc": "2026-07-05T05:20:50Z",
+  "text": "Sur certaines routes, les grandes entreprises ont leur propre avion, mais sur d'autres routes et pour les petites entreprises, il y a eu un problème.",
+  "latency_sec": 3.416,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Sur certaines routes, les grandes entreprises ont leur propre avion, mais sur d'autres routes et pour les petites entreprises, il y a eu un problème.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPXSlWUtg61XW9cL5zwY7WydEIMv4XKbezR0ApTz8ExsdEsLuMEqwJOZ85UDd9"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228850,
+    "id": "sOlJavSYDImV1e8Pn9-owAM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 357,
+      "total_tokens": 388
+    }
+  }
+}

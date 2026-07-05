@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0028",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.08,
+  "ref_text_raw": "Das stimmt allerdings nicht. Obwohl auf der Rückseite des Schriftstücks etwas geschrieben steht, handelt es sich nicht um eine Schatzkarte.",
+  "ref_text_normalized": "das stimmt allerdings nicht obwohl auf der rückseite des schriftstücks etwas geschrieben steht handelt es sich nicht um eine schatzkarte",
+  "timestamp_utc": "2026-07-05T03:58:04Z",
+  "text": "Das stimmt allerdings nicht. Obwohl auf der Rückseite des Schriftstücks etwas geschrieben steht, handelt es sich nicht um eine Schatzkarte.",
+  "latency_sec": 3.5568,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Das stimmt allerdings nicht. Obwohl auf der Rückseite des Schriftstücks etwas geschrieben steht, handelt es sich nicht um eine Schatzkarte.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EuMGCuAGARFNMg8D3ewmFSAND+ud6RC8oTzVPEe1ioMDFdDrtpEeHTDKiFXSDZrINrvUdKspzmwO08+v/vCBgfkmJFnoIjYXSPRntHUXqWDiGef89oTPj1mcnr9rQsYeYJLxoudEw7x/nfS2VMr0u41GZnotPKEx34KQwru/aOJm2Wl4DogfQb8zLq4K6tKu+L+fNustNo5jBqPWxO+e9y2ujtxcTajPZqL7xRYlBMNFsWNU9fXZPpjxUwHfOmP4O4fevc+2fFOLOnwAsgq98oFD7GcS1E2JITKa0fGS0sDf90ZD8bey9Krr3GiPzoMYEQA7idUM2JnvV4tfQh94qXxJ3iF5wUkuJmz71K6jNp/6U6qxT/h9jh1bvt1z1TWD1ec3IOjDcvey71oAtVkVqljHmlF4sB8qPCyyR+TSeudund7Jt2rJFpSDKvpY6xqiPQMbcEo+ycSXC4CGTmplyhYSlhXuOL7hYeh5dSWeee1FxxZlUz1Gha2Ywdd/7EsA8x4lKP/Vcj2cte8LfLPGzyLeVpM6PnKMf+XAbHalqLrOpaEf8vFqxMGYDg0dceJvTfyXtCdEGgB/dBpvhxJ58Liu5LINbui8VZHqFIA9oI0mBkF0wRylp3lZ4ac7akUmhV7TIwpCbLf5TO8bjHURudk6kGL/YosBA36aFnucE1lNlyHSDl6N8wuZU3q9lwIPUPalzDpGgJ7fZwpKpFoDCOHjyUGIp8AROn7Vv8hOz8y7fUhrN8DerF1PVA3cE46+I9ILThlWHiUa9KTRyPtqcaSgLQG7CkJk1uFHBxhcWjLxTocEtsX1QoxwTJScGW6tP/jdjAI0iuyn8EuvBEnKnyo6FWjFdS/aU3cJtCV9XGVJYXzCToKIRIb8+z381mFXLK4Pf19PizoxmQKd8OPOD6FSVMnn024Jcv7k1jBEMxW/d02Tb304rQNYA8FPidrLoxb9krv/zdEy4U/OtqfDnAdcEcaKM9Vx3ajNdgwUUqyga7/G4Zb8tOMOixFqjPCo47zmeonmWOfa2+j8CeoZ8G+l4YA3RXfXqRdZ6iK9qBt8iKoA1t0oQZgwXQCmd3Tn3fSEXOTZohX94ySJgF6PTj15YoSe3NekG5WroMEGzs+lJZsp6LhPw7UI5LuFWZ7LTdvyjMFl"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223884,
+    "id": "StZJasq2D73dvr0Pv4K6sQE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 198,
+      "total_tokens": 419
+    }
+  }
+}

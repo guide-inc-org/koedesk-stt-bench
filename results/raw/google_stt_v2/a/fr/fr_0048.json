@@ -1,0 +1,36 @@
+{
+  "utt_id": "fr_0048",
+  "lang": "fr",
+  "engine": "google_stt_v2",
+  "duration_sec": 7.98,
+  "ref_text_raw": "L’équipe des sapeurs pompiers a finalement éteint le feu à 23 h 35.",
+  "ref_text_normalized": "l'équipe des sapeurs pompiers a finalement éteint le feu à 23 h 35",
+  "timestamp_utc": "2026-07-05T04:20:41Z",
+  "text": "L'équipe des sapeurs-pompiers a finalement éteint le feu à 23h35.",
+  "latency_sec": 3.6214,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "fr-FR",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "8s",
+      "requestId": "6c346cd1-0000-2d56-b61b-14223bbf3ece",
+      "prompt": "Transcribe the following speech segment in French. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, French."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "L'équipe des sapeurs-pompiers a finalement éteint le feu à 23h35."
+          }
+        ],
+        "languageCode": "fr-FR"
+      }
+    ]
+  }
+}

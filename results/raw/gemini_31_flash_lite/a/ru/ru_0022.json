@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0022",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.72,
+  "ref_text_raw": "Показатель pH определяется степенью насыщенности ионами водорода (H в pH) исследуемого химического соединения.",
+  "ref_text_normalized": "показатель ph определяется степенью насыщенности ионами водорода h в ph исследуемого химического соединения",
+  "timestamp_utc": "2026-07-05T07:28:21Z",
+  "text": "Показатель pH определяется степенью насыщенности ионами водорода H в pH исследуемого химического соединения.",
+  "latency_sec": 2.6321,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Показатель pH определяется степенью насыщенности ионами водорода H в pH исследуемого химического соединения.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPqfKnsLXqf3UkWi6pDe4+oWiSUTYQghP8GahhANuzfRJozPWVuZcDGbcjdmdX"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236501,
+    "id": "lAdKap_LApTc2roP-cDPmAY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 265,
+      "total_tokens": 289
+    }
+  }
+}

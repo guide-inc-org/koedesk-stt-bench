@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0099",
+  "lang": "ko",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.94,
+  "ref_text_raw": "그는 싱가포르 부총리 웡칸셍의 환영을 받았고 싱가포르 총리 리셴룽과 무역 및 테러 문제를 논의하였습니다.",
+  "ref_text_normalized": "그는 싱가포르 부총리 웡칸셍의 환영을 받았고 싱가포르 총리 리셴룽과 무역 및 테러 문제를 논의하였습니다",
+  "timestamp_utc": "2026-07-05T06:00:29Z",
+  "text": "그는 싱가포르 부총리 원칸생의 환영을 받았고 싱가포르 총리 리 셰룽과 무역 및 테러 문제를 논의하였습니다.",
+  "latency_sec": 10.76,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "그는 싱가포르 부총리 원칸생의 환영을 받았고 싱가포르 총리 리 셰룽과 무역 및 테러 문제를 논의하였습니다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231229,
+    "id": "-_JJaqHED5ja1e8P6IqesQI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 404,
+      "total_tokens": 472
+    }
+  }
+}

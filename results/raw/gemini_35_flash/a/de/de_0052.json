@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0052",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 13.08,
+  "ref_text_raw": "Normale Durchsagen erfolgen in der Metro ausschließlich auf Katalanisch, aber unvorhergesehene Störungen werden von einem automatisierten System in einer Vielzahl von Sprachen gemeldet, darunter Spanisch, Englisch, Französisch, Arabisch und Japanisch.",
+  "ref_text_normalized": "normale durchsagen erfolgen in der metro ausschließlich auf katalanisch aber unvorhergesehene störungen werden von einem automatisierten system in einer vielzahl von sprachen gemeldet darunter spanisch englisch französisch arabisch und japanisch",
+  "timestamp_utc": "2026-07-05T04:00:14Z",
+  "text": "Normale Durchsagen erfolgen in der Metro ausschließlich auf Katalanisch, aber unvorhergesehene Störungen werden von einem automatisierten System in einer Vielzahl von Sprachen gemeldet, darunter Spanisch, Englisch, Französisch, Arabisch und Japanisch.",
+  "latency_sec": 4.4248,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Normale Durchsagen erfolgen in der Metro ausschließlich auf Katalanisch, aber unvorhergesehene Störungen werden von einem automatisierten System in einer Vielzahl von Sprachen gemeldet, darunter Spanisch, Englisch, Französisch, Arabisch und Japanisch.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EoELCv4KARFNMg/UDbM/nsHiuGpjqk0Oz19x/R0vgAJSHb7+5FN4R8KXRRPXrhLeLVY4ZUp6tS0gYrFwm6xAnrdjSmkuhvKhYRDh7tMBRur5EaXkTSPCCEge5b3wqHj0SAsjaL+UTklIAStPRDSyc3rw1ieQx1nNucZXr2lUdeXq9WITMnE1t+LjscCMOVV1uEQp2KakCm5nTkfJmGLIYGy6jqFN11plxOCTB9I7KJojPVH3JYbMWf+gxIevLWHbI2PUAdrQod57Gwa+31hE/65+ESd9s7TsVegy+XxBzFRA5KDWV5SKUVZLVZoo4CQgtecfo0qkqkieEU64PyTvhEV5weoAOsDqcrQTNzKYYPrwc1oqSxBFyoAu8In8RLZXYv7IMWJ4kbA6DpMIR9ujwb+ElkkYL1RbdwKgZqCVru34u98ICNsc5Qt6u8dxZpXbjP/Y/Vd4P3BKNjoeH2dSwq2OeUt036VWcZmw0nMeIZplzGmbWpmk/4vjmCWZE3KS9YYq92b1T+XGgygb5vatC41CkZnsat8gGDgX3gKA3yd6VIhirHKrr80yln7aUR6o1oPuo2WKBUAB415ok4vNuu8XuNJUTpp5s60EWEE/mQMBwKIdEuaX4LwhgPUDp38vShaKiAQH6OJc95aO6iLwHA9ZCW65XqR4qclslwe5EIqIfC3JqmyBfHKtjdZOV+sb4qJXjf0AC5QjVglpY/Utus5cb+T/J2eKswbomyYFhn/ZJ1Aur5ZaTNhZYVulOqSLCVgRmYsfoEVkTtS4tmsEhTDJ2t2ML/+C1p3lMI6rztFIOnAwKe1tHDxQob+meSPJpY+wY61k3/ZqNm2zOqwSl2a8SEwvdqIFmrxD7sXGjB3A8FBi/DeeWvPqweZ3s1DZyK3g6Qdeuec+0phR9MH6J39HZEV0NcCzsrZrtCU0rUNYpkj9OQXSFAmt+xMA0G1blxGXkbMXuWXDdMXFQ3ONrrYvJk5Acs5lZrodTCLL5qDtCS0WEdfp0tMunKTjHQRM7+CJaEiUfiqWIJUSo0eRt+AL+PMIWGnaN8tp+lm8koqZzbqkO9/1QE3wNXrciNEKF6ZVLpcItaLZ4Eskg+EfMg4ItyeM+6FaslIbmLA7jC6P6u9H31+yO6c8bGIqrgAnaEeLM8upPbFmQrxPdtgyohIthpJv5qSfR4yIBUhZBJgzWaTQFihZsOusf7ew3HF6eToc6yNbe0cPPxbjTbbDGuC/udYDpz/Tw23pzO5ObjXCGSF10gtBYMMYFbiA7Bl+v28/JNC8DI26GrRYH8gZL3cLYaW/eFPinb7mG8wu9N05RvY+BgiFfSWoNbI7QfoHyGnf/dMph6gEQ4rfrYtpKVZiMxNGQ9rj05/3CMzPkPY5cS+OLEdRJyaYGDMuCgmQ6+GtbIw0v7jwvIYTSgDwRP7TeLsZ4EKUdL5KiBbqOBW/UI/C2qB8ZDDZxfod6HamiDiuW4w/uqUkjUvDv0XnlAxWnaxB/9Es96bwRXsQIvoPe122FGcyTjmX2EhAa8kTzAwEroEOsC1UwElJAbZWpS70kGTfFe4uUqwl5WfUHh83e4GEEHrBELyD1Iyy9/+w1cYPvTNZZ9o4KAZSwjEVnqSqiF4+uoBMFwQC+svAxaZWbU1uhgxCodxVsiTDiMhI0/D7JQ9Bc+/FAm0ZdWQCEzNoYM6dP+7XCyySDef8Yj+5v2xOG3iblTsgQtzbgsTYBTkwcmkVgK7+FKHvgLdvnqJETZEo1XROQ9dWK387XPBmIHpWD7x084hbAFwS8WhNkSWKALguCCThm+91iydXHp5fW6Ll/jTwBKrnwanxtUpnRRuXfZIE7Qg2zf1hQWGeOIN5y98A0MhQddbuQXV7XHmrDZU="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224014,
+    "id": "y9ZJauODA4-30-kPqfOw8Q0",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 55,
+      "prompt_tokens": 348,
+      "total_tokens": 739
+    }
+  }
+}

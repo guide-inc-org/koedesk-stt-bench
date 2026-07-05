@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0012",
+  "lang": "ko",
+  "engine": "gemini_25_pro",
+  "duration_sec": 8.82,
+  "ref_text_raw": "사건 발생 이후, 깁슨(Gibson)은 병원으로 이송되었으나 얼마 후 숨을 거뒀다.",
+  "ref_text_normalized": "사건 발생 이후 깁슨gibson은 병원으로 이송되었으나 얼마 후 숨을 거뒀다",
+  "timestamp_utc": "2026-07-05T05:58:45Z",
+  "text": "사건 발생 이후 깁스는 병원으로 이송되었으나 얼마 후 숨을 거뒀다.",
+  "latency_sec": 4.2861,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "사건 발생 이후 깁스는 병원으로 이송되었으나 얼마 후 숨을 거뒀다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231125,
+    "id": "kvJJarzlDYTG0-kPurji2AU",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 304,
+      "total_tokens": 325
+    }
+  }
+}

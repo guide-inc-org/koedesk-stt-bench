@@ -1,0 +1,44 @@
+{
+  "utt_id": "pt_0020",
+  "lang": "pt",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.98,
+  "ref_text_raw": "Os andaimes virtuais estão internalizados no software com o objetivo questionar, alertar e explicar procedimentos que podem ser desafiadores para o aluno lidar sozinho.",
+  "ref_text_normalized": "os andaimes virtuais estão internalizados no software com o objetivo questionar alertar e explicar procedimentos que podem ser desafiadores para o aluno lidar sozinho",
+  "timestamp_utc": "2026-07-05T06:55:06Z",
+  "text": "Os andaimes virtuais estão internalizados no software com o objetivo de questionar, alertar e explicar procedimentos que podem ser desafiadores para o aluno lidar sozinho.",
+  "latency_sec": 2.8791,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Os andaimes virtuais estão internalizados no software com o objetivo de questionar, alertar e explicar procedimentos que podem ser desafiadores para o aluno lidar sozinho.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPnHRdZOmA6s5xS06IKltLYq7S3ra7p2oi/g47KcywBBAeu/ZKq4nMdZ39JQat"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234506,
+    "id": "yP9Jarm_Lc-a1e8P7YSs0QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 371,
+      "total_tokens": 405
+    }
+  }
+}

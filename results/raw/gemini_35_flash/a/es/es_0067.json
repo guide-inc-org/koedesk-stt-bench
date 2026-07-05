@@ -1,0 +1,45 @@
+{
+  "utt_id": "es_0067",
+  "lang": "es",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 15.48,
+  "ref_text_raw": "Para trasladarte dentro de Goma, puede optar por tomar una boda-boda (mototaxi). La tarifa regular (local) es de CDF500 (francos congoleños) por un viaje corto.",
+  "ref_text_normalized": "para trasladarte dentro de goma puede optar por tomar una boda-boda mototaxi. la tarifa regular local es de cdf500 francos congoleños por un viaje corto",
+  "timestamp_utc": "2026-07-05T04:34:22Z",
+  "text": "Para trasladarte dentro de Goma, puede optar por tomar una boda boda mototaxi, la tarifa regular local es de CDF 500 francos congoleños por un viaje corto.",
+  "latency_sec": 4.9343,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Para trasladarte dentro de Goma, puede optar por tomar una boda boda mototaxi, la tarifa regular local es de CDF 500 francos congoleños por un viaje corto.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226062,
+    "id": "yt5JavGpEpCe1e8PjsLZ0AQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 408,
+      "total_tokens": 897
+    }
+  }
+}

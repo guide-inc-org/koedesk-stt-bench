@@ -1,0 +1,44 @@
+{
+  "utt_id": "pt_0081",
+  "lang": "pt",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 16.08,
+  "ref_text_raw": "\"Ele [Wales] basicamente mentiu desde o princípio. Primeiro, agindo como se fosse por uma razão legal. Segundo, fingindo que ele estava anos ouvindo, até sua exclusão de artigos\"",
+  "ref_text_normalized": "\"ele [wales] basicamente mentiu desde o princípio. primeiro agindo como se fosse por uma razão legal. segundo fingindo que ele estava anos ouvindo até sua exclusão de artigos",
+  "timestamp_utc": "2026-07-05T06:58:52Z",
+  "text": "Ele, o Alex, basicamente mentiu desde o princípio. Primeiro, agindo como se fosse por uma razão legal. Segundo, fingindo que ele estava anos ouvindo até sua exclusão de artigos.",
+  "latency_sec": 3.2393,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Ele, o Alex, basicamente mentiu desde o princípio. Primeiro, agindo como se fosse por uma razão legal. Segundo, fingindo que ele estava anos ouvindo até sua exclusão de artigos.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPs156O8v/YH/PNykoli+8UiDTdocPymuBNUIZ5gZv0eQ5CpWSmunvQIHjSeef"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234732,
+    "id": "qwBKapfWF66l9tMP-_vv-QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 423,
+      "total_tokens": 464
+    }
+  }
+}

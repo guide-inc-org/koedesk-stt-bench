@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0056",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.28,
+  "ref_text_raw": "Цивилизация — это отдельная культура, носителями которой является достаточно большая группа людей, живущих и работающих вместе, общество.",
+  "ref_text_normalized": "цивилизация это отдельная культура носителями которой является достаточно большая группа людей живущих и работающих вместе общество",
+  "timestamp_utc": "2026-07-05T07:04:32Z",
+  "text": "Цивилизация - это отдельная культура, носителями которой является достаточно большая группа людей, живущих и работающих вместе, общество.",
+  "latency_sec": 4.8925,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Цивилизация - это отдельная культура, носителями которой является достаточно большая группа людей, живущих и работающих вместе, общество.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235072,
+    "id": "_QFKaqDjO_DW2roPh47FwQc",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 382,
+      "total_tokens": 443
+    }
+  }
+}

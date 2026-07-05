@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0077",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 18.42,
+  "ref_text_raw": "連邦議会は2005年度から猥褻物取締法への資金提供を開始し、FBIはアダルトポルノに10人の捜査員を投入しなければならないと規定しました。",
+  "ref_text_normalized": "連邦議会は2005年度から猥褻物取締法への資金提供を開始し fbiはアダルトポルノに10人の捜査員を投入しなければならないと規定しました",
+  "timestamp_utc": "2026-07-05T10:17:11Z",
+  "text": "連邦議会は2005年度からわいせつ物取り締まり法への資金提供を開始し、FBIはアダルトポルノに10人の捜査員を投入しなければならないと規定しました。",
+  "latency_sec": 5.4556,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "連邦議会は2005年度からわいせつ物取り締まり法への資金提供を開始し、FBIはアダルトポルノに10人の捜査員を投入しなければならないと規定しました。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246631,
+    "id": "Ii9KaoqCOIGp2roP-M7c4AY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 48,
+      "prompt_tokens": 482,
+      "total_tokens": 1056
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0100",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.18,
+  "ref_text_raw": "Der Schengen-Raum funktioniert in dieser Hinsicht jedoch ein wenig wie ein Land.",
+  "ref_text_normalized": "der schengen-raum funktioniert in dieser hinsicht jedoch ein wenig wie ein land",
+  "timestamp_utc": "2026-07-05T04:04:20Z",
+  "text": "Der Schengenraum funktioniert in dieser Hinsicht jedoch ein wenig wie ein Land.",
+  "latency_sec": 4.2644,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Der Schengenraum funktioniert in dieser Hinsicht jedoch ein wenig wie ein Land.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtoFCtcFARFNMg88NDSV2UzzE4uS7UWr1yEIE5EaGlZVIQUhhhOHRLeMTCqJFyeRa8GVEVqbOJfg83bWEhkBwDGkNaDS+g+S7HJqlq8RpluvHJ5psIev3N0kgpQDJhsaKmDkBdlLxwDhvNoR0pRiKM4yEQcZZZkJLdaKR3kSIyr+LF7RErMV5s8y2rYNq1nyk+FyiUXsNLpYrSnlK/EZ7duHeOVuKIHzGMzZuNSmT4VtJc922GaBcrOnF8ThyiHEkVvP+7gTPrKdJ7Z5sI+Tuu/M9ZFwQAgWncrmScH+54ks1947SIwihtWEaanCpYzUmaQ1m4e1vMO/ofT4p9ZhLTENQG4Y1oltcv6DV3T/KOIUIv6B3zmQUrHVefSqsKNi5CiWw/nvgtxmKQ+rdtHlI+UdHz4MTl8PXeCWZCzSiCfLePHs1V9MP729vfacCyZ8BTf5GzktOYCD31EzKV3TuyJSXqbhJV3/N3HAZ0kLUDwVuwwoO0ZWRNeNy3FwEuXfaEfeoZOT+yZvrbRXG8DxsI7ZZ3mX7QyR3yy3Tn5g7mxPtmnYv66NTFxBXdHGs176G4BLIQiq7WPUhNG/cFMWzOPqSnkMJlerbtIkwipoC+z4kYizQVMpDSE2POhK/A5BPmZ/rWREekXuelHKiynsl6z61g1QYz7f9mz14TeEeYSl+srzMMwZB+8K7RSHtshE/OLkS92TPhsvyO243J/2Z2smoeFnK5ZFJJdciDMDuDglIe99VBjxbcJBYrjN8vvo0UV4A2r86KYuBCRbNQM/SXpSRBltlkVEK7+sTGUuPmcqg7JT+c+tK5ym98EnuX6zAlKQb5MmQ1PKlQe017tu17wSQcfCRnqv7HqmFEhhv8Rx6OXulpbPcrQf1x8iTz9PtG24pnsQ+NAGuC66a3wVjWuN0/FJnRqWIMFzNI7xBHMuPZhSwO4OnOx4IfWzp7Fgfi5K+m1DXnooWjmydw=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224260,
+    "id": "wddJauieHvjG2roPjLn34AI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 15,
+      "prompt_tokens": 176,
+      "total_tokens": 417
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0070",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.2,
+  "ref_text_raw": "Le Bureau de gestion des urgences des îles Mariannes du Nord a déclaré qu'aucun dégât n'avait été signalé dans ce pays.",
+  "ref_text_normalized": "le bureau de gestion des urgences des îles mariannes du nord a déclaré qu'aucun dégât n'avait été signalé dans ce pays",
+  "timestamp_utc": "2026-07-05T05:07:31Z",
+  "text": "Le bureau de gestion des urgences des îles Mariannes du Nord a déclaré qu'aucun dégât n'avait été signalé dans ce pays.",
+  "latency_sec": 3.2205,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Le bureau de gestion des urgences des îles Mariannes du Nord a déclaré qu'aucun dégât n'avait été signalé dans ce pays.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtsFCtgFARFNMg99Z3VDQEyRQDbd737Cg8ftHxkcZXbwquJx4Gg5syNw6EXH5QtUUJzBcDu5zf05yP8BgtcTOzqTBBvxZhnBdwW6s7nlA5hoUMqA3XKAwmd/ceBTtJsOPolKlcmKt6EIIGwp1DtsUWteyfdqtHavJv3ejRXd9OwnnZK6VdNiYNv45s1q0IEk8K7LPMmgiI4OYag40O64vFddvl364Rt2uoYgXSqWMyWBB6zhUKyAuXjSB+aDt+FwrLiU2aeCp+IQzYUjmPEYpK7j0cf7R4ljGDBks1M27oFHuL4als4pto12QFCs4Jhu/yJ30EwylDcgI4CIwyoRn6uhGrhr9EAewZP/3r+7d46jsNXQIbbD7lix5JKh4KMssDHtEi8skf0CogR/d/xJ0XZaxgzbJMu+NqvA7Nr71bf6t+23yy9JzyBxScS02nC5YHB/4GbV5OEhV1Sudw79f2/c00uwqfpPRAYgWbkwTw6UH2REUw5l6lRCE+edOjKFyo85q5VFSweiAY4TPL/ZeCYIUKvjz05PAWDqWBLcqmikLszXB+pKVgiu78AYdDBdt1k1bB2UCUHfeFRwPVaW0mGFZhhS5CVz8HaZw6ivt1ovxGX5T7fdhZJIU+43W2YlTje9yBLj0RAbnjD2zV8eQGc7H1swx/24643g47+YSFVl25OFUuzHi0qkdhETgl1Xo5NqNLypjCcNm5lE8itJqHlaO+3I0qYA4REFWWEEMY3UKSdMDDkd13vW4/nyXNW0nwP8k1XBQU3WleUhJ2O9evJWD8aMIRq1mf/LBt1uwOzpnALjyH+P80xAhhgSTNPXbPROqGmxeneYbsNte645ohUD67xsKdObapI6WiJwdmpweBdpTXhfPxhsE0ucHO+V3GGej6bHVQniiTHc0jcztY4aGjnCg4skSyexKiTF9wANOU570qWlnyKrHc1N7ow743eErSEiwClXK93wlQk="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228051,
+    "id": "keZJap-BJbyo1e8Prpqp8QY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 201,
+      "total_tokens": 413
+    }
+  }
+}

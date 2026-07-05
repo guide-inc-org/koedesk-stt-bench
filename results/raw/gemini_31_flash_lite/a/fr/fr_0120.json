@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0120",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.8,
+  "ref_text_raw": "Le gouverneur de Californie, Arnold Schwarzenegger, a promulgué une loi qui interdit la vente ou la location de jeux vidéo violents aux mineurs.",
+  "ref_text_normalized": "le gouverneur de californie arnold schwarzenegger a promulgué une loi qui interdit la vente ou la location de jeux vidéo violents aux mineurs",
+  "timestamp_utc": "2026-07-05T05:16:57Z",
+  "text": "Le gouverneur de Californie, Arnold Schwarzenegger, a promulgué une loi qui interdit la vente ou la location de jeux vidéo violents aux mineurs.",
+  "latency_sec": 2.8872,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Le gouverneur de Californie, Arnold Schwarzenegger, a promulgué une loi qui interdit la vente ou la location de jeux vidéo violents aux mineurs.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPr90trCgCyl4KXrs4wwHXnzabvg311SQChY5Pn/oIlL1IrX3ZC5zX0YMHYjUt"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228617,
+    "id": "x-hJavDwJ6qj9tMPiaisiAI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 216,
+      "total_tokens": 246
+    }
+  }
+}

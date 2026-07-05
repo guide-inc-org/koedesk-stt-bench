@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0128",
+  "lang": "th",
+  "engine": "gemini_25_flash",
+  "duration_sec": 17.58,
+  "ref_text_raw": "เขา [เวลส์] โกหกเราตั้งแต่แรกเริ่มแล้ว อย่างแรก เขาทำราวกับว่านี่เป็นเหตุผลทางกฎหมาย อย่างที่สอง เขาแสร้งทำเป็นว่ากำลังฟังเราจนกระทั่งมีการลบรูปภาพ",
+  "ref_text_normalized": "เขา [เวลส์] โกหกเราตั้งแต่แรกเริ่มแล้ว อย่างแรก เขาทำราวกับว่านี่เป็นเหตุผลทางกฎหมาย อย่างที่สอง เขาแสร้งทำเป็นว่ากำลังฟังเราจนกระทั่งมีการลบรูปภาพ",
+  "timestamp_utc": "2026-07-05T07:44:51Z",
+  "text": "เขาเวลส์โกหกเราตั้งแต่แรกเริ่มแล้ว อย่างแรกเขาทำราวกับว่านี่เป็นเหตุผลทางกฎหมาย อย่างที่สองเขาส้างทำเป็นว่ากำลังฟังเราจนกระทั่งมีการลบรูปภาพ",
+  "latency_sec": 3.5237,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "เขาเวลส์โกหกเราตั้งแต่แรกเริ่มแล้ว อย่างแรกเขาทำราวกับว่านี่เป็นเหตุผลทางกฎหมาย อย่างที่สองเขาส้างทำเป็นว่ากำลังฟังเราจนกระทั่งมีการลบรูปภาพ",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237491,
+    "id": "cQtKapX2DqKw0-kP6bjO4AU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 584,
+      "total_tokens": 702
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0175",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 13.14,
+  "ref_text_raw": "ฝูงสิงโตมีความประพฤติคล้ายกับในฝูงหมาป่าหรือสุนัข ซึ่งเป็นสิ่งมีชีวิตที่คล้ายกับสิงโตอย่างน่าประหลาดใจ (แต่ไม่คล้ายพวกแมวตัวใหญ่ประเภทอื่นเท่าไร ) และยังเป็นอันตรายร้ายแรงต่อเหยื่อของพวกมันด้วยเชนกัน",
+  "ref_text_normalized": "ฝูงสิงโตมีความประพฤติคล้ายกับในฝูงหมาป่าหรือสุนัข ซึ่งเป็นสิ่งมีชีวิตที่คล้ายกับสิงโตอย่างน่าประหลาดใจ แต่ไม่คล้ายพวกแมวตัวใหญ่ประเภทอื่นเท่าไร  และยังเป็นอันตรายร้ายแรงต่อเหยื่อของพวกมันด้วยเชนกัน",
+  "timestamp_utc": "2026-07-05T08:08:45Z",
+  "text": "ฝูงสิงโตมีความประพฤติคล้ายกับในฝูงหมาป่าหรือสุนัขซึ่งเป็นสิ่งที่มีการคล้ายกันกับสิงโตอย่างน่าประหลาดใจแต่ไม่คล้ายกับพวกแมวตัวใหญ่ประเภทอื่นเท่าไหร่ และยังเป็นอันตรายร้ายแรงต่อเหยื่อของพวกมันด้วยเช่นกัน",
+  "latency_sec": 5.2231,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ฝูงสิงโตมีความประพฤติคล้ายกับในฝูงหมาป่าหรือสุนัขซึ่งเป็นสิ่งที่มีการคล้ายกันกับสิงโตอย่างน่าประหลาดใจแต่ไม่คล้ายกับพวกแมวตัวใหญ่ประเภทอื่นเท่าไหร่ และยังเป็นอันตรายร้ายแรงต่อเหยื่อของพวกมันด้วยเช่นกัน",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238925,
+    "id": "CRFKapekIo_V2roPj7-7kAY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 78,
+      "prompt_tokens": 350,
+      "total_tokens": 989
+    }
+  }
+}

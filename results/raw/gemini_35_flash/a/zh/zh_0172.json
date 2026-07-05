@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0172",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.56,
+  "ref_text_raw": "如果在冬天穿越北波罗的海，要检查客舱的位置，因为在冰面上航行会给那些受影响最严重的人带来非常可怕的噪音。",
+  "ref_text_normalized": "如 果 在 冬 天 穿 越 北 波 罗 的 海 要 检 查 客 舱 的 位 置 因 为 在 冰 面 上 航 行 会 给 那 些 受 影 响 最 严 重 的 人 带 来 非 常 可 怕 的 噪 音",
+  "timestamp_utc": "2026-07-05T09:22:09Z",
+  "text": "如果在冬天穿越北波罗的海，要检查客舱的位置，因为在冰面上航行会给那些受噪音影响最严重的人带来非常可怕的噪音。",
+  "latency_sec": 5.2757,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "如果在冬天穿越北波罗的海，要检查客舱的位置，因为在冰面上航行会给那些受噪音影响最严重的人带来非常可怕的噪音。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243330,
+    "id": "PiJKapiMA_K8vr0P9K6siQU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 285,
+      "total_tokens": 808
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0052",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 14.58,
+  "ref_text_raw": "Ils ont des pattes recouvertes d'écailles et pourvues de griffes, ils pondent des œufs et marchent sur leurs deux pattes arrière comme des T-Rex.",
+  "ref_text_normalized": "ils ont des pattes recouvertes d'écailles et pourvues de griffes ils pondent des œufs et marchent sur leurs deux pattes arrière comme des t-rex",
+  "timestamp_utc": "2026-07-05T04:51:13Z",
+  "text": "Ils ont des pattes recouvertes d'écailles et pourvues de griffes. Ils pondent des œufs et marchent sur leurs deux pattes arrières comme des T-Rex.",
+  "latency_sec": 5.9923,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Ils ont des pattes recouvertes d'écailles et pourvues de griffes. Ils pondent des œufs et marchent sur leurs deux pattes arrières comme des T-Rex.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227073,
+    "id": "vOJJarDgKdqdrfcP9dyxkQM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 488,
+      "total_tokens": 746
+    }
+  }
+}

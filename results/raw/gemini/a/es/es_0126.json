@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0126",
+  "lang": "es",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.22,
+  "ref_text_raw": "Esto se denomina pH de una sustancia química. Usted puede elaborar un indicador de pH utilizando jugo de col roja.",
+  "ref_text_normalized": "esto se denomina ph de una sustancia química usted puede elaborar un indicador de ph utilizando jugo de col roja",
+  "timestamp_utc": "2026-07-05T04:22:51Z",
+  "text": "Esto se denomina pH de una sustancia química. Usted puede elaborar un indicador de pH utilizando jugo de col roja.",
+  "latency_sec": 3.4246,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Esto se denomina pH de una sustancia química. Usted puede elaborar un indicador de pH utilizando jugo de col roja.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225371,
+    "id": "GdxJat_jH8z71e8PxKycwAI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 381,
+      "total_tokens": 427
+    }
+  }
+}

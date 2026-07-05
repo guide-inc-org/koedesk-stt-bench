@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0143",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.14,
+  "ref_text_raw": "플리트비체 호수 국립공원은 대게 너도밤나무, 가문비나무, 전나무, 그리고 알프스와 지중해성 식물로 울창하게 삼림이 우거져 있다.",
+  "ref_text_normalized": "플리트비체 호수 국립공원은 대게 너도밤나무 가문비나무 전나무 그리고 알프스와 지중해성 식물로 울창하게 삼림이 우거져 있다",
+  "timestamp_utc": "2026-07-05T06:27:35Z",
+  "text": "플리트비체 호수 국립공원은 대개 너도밤나무, 가문비나무, 전나무, 그리고 알프스와 지중해성 식물로 울창하게 삼림이 우거져 있다.",
+  "latency_sec": 3.0033,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "플리트비체 호수 국립공원은 대개 너도밤나무, 가문비나무, 전나무, 그리고 알프스와 지중해성 식물로 울창하게 삼림이 우거져 있다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP5Wlohb6ZFLBZf4mrPmCMGq9rQ+/mVnUgsVqfsMc3T2j94It8moPk2L3NOZGm"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232855,
+    "id": "VflJaqTyJ62l0-kP_9TT2QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 48,
+      "prompt_tokens": 275,
+      "total_tokens": 323
+    }
+  }
+}

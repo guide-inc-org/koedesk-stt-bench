@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0036",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.82,
+  "ref_text_raw": "The crash occurred high up in mountainous terrain, and is believed to have been the result of hostile fire.",
+  "ref_text_normalized": "the crash occurred high up in mountainous terrain and is believed to have been the result of hostile fire",
+  "timestamp_utc": "2026-07-05T10:21:47Z",
+  "text": "The crash occurred high up in mountainous terrain and is believed to have been the result of hostile fire.",
+  "latency_sec": 3.5465,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The crash occurred high up in mountainous terrain and is believed to have been the result of hostile fire.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246907,
+    "id": "OTBKaqGWDfKE0-kPh9im2AE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 336,
+      "total_tokens": 380
+    }
+  }
+}

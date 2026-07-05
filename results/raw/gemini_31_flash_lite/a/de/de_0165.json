@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0165",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 16.92,
+  "ref_text_raw": "Auch standen nach der Revolution alle Berufe allen männlichen Bewerbern offen, so dass die Ehrgeizigsten und Besten reüssieren konnten.",
+  "ref_text_normalized": "auch standen nach der revolution alle berufe allen männlichen bewerbern offen so dass die ehrgeizigsten und besten reüssieren konnten",
+  "timestamp_utc": "2026-07-05T04:09:58Z",
+  "text": "Auch standen nach der Revolution alle Berufe allen männlichen Bewerbern offen, sodass die ehrgeizigsten und besten reüssieren konnten.",
+  "latency_sec": 2.8867,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Auch standen nach der Revolution alle Berufe allen männlichen Bewerbern offen, sodass die ehrgeizigsten und besten reüssieren konnten.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPWRihiLl7vG7o7H3vTpSDUc0TL7FGhLWykdNj6a/lTA75VRT584h65zyjYNok"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224598,
+    "id": "FNlJavHhKqzmosUPj8LSwAE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 445,
+      "total_tokens": 475
+    }
+  }
+}

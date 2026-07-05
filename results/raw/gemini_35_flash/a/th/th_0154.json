@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0154",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 5.94,
+  "ref_text_raw": "โมซาซอรัสคือสุดยอดสัตว์นักล่าแห่งยุค มันจึงไม่หวาดเกรงสิ่งใดนอกจากโมซาซอร์ตัวอื่น",
+  "ref_text_normalized": "โมซาซอรัสคือสุดยอดสัตว์นักล่าแห่งยุค มันจึงไม่หวาดเกรงสิ่งใดนอกจากโมซาซอร์ตัวอื่น",
+  "timestamp_utc": "2026-07-05T08:06:30Z",
+  "text": "โมซาซอรัสคือสุดยอดนักล่าแห่งยุค มันจึงไม่หวาดเกรงสิ่งใดนอกจากโมซาซอรัสตัวอื่น",
+  "latency_sec": 4.52,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "โมซาซอรัสคือสุดยอดนักล่าแห่งยุค มันจึงไม่หวาดเกรงสิ่งใดนอกจากโมซาซอรัสตัวอื่น",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238790,
+    "id": "ghBKapG9J43y2roP6emiwQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 170,
+      "total_tokens": 596
+    }
+  }
+}

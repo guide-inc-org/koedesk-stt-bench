@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0189",
+  "lang": "ko",
+  "engine": "gemini_25_pro",
+  "duration_sec": 11.1,
+  "ref_text_raw": "하지만, 솅겐 존(국경 자유 통행 지역: Schengen zone)은 이런 측면에서 다소 한 나라같이 작용한다.",
+  "ref_text_normalized": "하지만 솅겐 존국경 자유 통행 지역: schengen zone은 이런 측면에서 다소 한 나라같이 작용한다",
+  "timestamp_utc": "2026-07-05T06:17:26Z",
+  "text": "하지만 솅겐조는 이런 측면에서 다소 한 나라 같이 작용한다.",
+  "latency_sec": 4.9815,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "하지만 솅겐조는 이런 측면에서 다소 한 나라 같이 작용한다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232246,
+    "id": "8_ZJatKvCoaD1e8PyqKZ0Ac",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 377,
+      "total_tokens": 598
+    }
+  }
+}

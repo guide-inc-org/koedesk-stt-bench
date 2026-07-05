@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0047",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.72,
+  "ref_text_raw": "MSは、脳、脊髄、視神経からなる中枢神経系に影響を与える病気です。",
+  "ref_text_normalized": "msは 脳 脊髄 視神経からなる中枢神経系に影響を与える病気です",
+  "timestamp_utc": "2026-07-05T10:15:35Z",
+  "text": "MS は 脳 、 脊髄 、 視 神経 から なる 中枢 神経 系 に 影響 を 与える 病気 です 。",
+  "latency_sec": 3.0696,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "MS は 脳 、 脊髄 、 視 神経 から なる 中枢 神経 系 に 影響 を 与える 病気 です 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPx2aVkvZpYZVq2oEHILWfxQ2UIoE3ZrsfhLVnWcIUOA+kieBbP0HOxCOJaUbw"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246535,
+    "id": "xi5Kave0Gcvb2roP0s2koQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 265,
+      "total_tokens": 295
+    }
+  }
+}

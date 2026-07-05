@@ -1,0 +1,45 @@
+{
+  "utt_id": "es_0123",
+  "lang": "es",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.16,
+  "ref_text_raw": "«Esto no será una despedida; es solo el final de un capítulo y el comienzo de uno nuevo».",
+  "ref_text_normalized": "«esto no será una despedida; es solo el final de un capítulo y el comienzo de uno nuevo»",
+  "timestamp_utc": "2026-07-05T04:38:57Z",
+  "text": "Esto no será una despedida, es solo el final de un capítulo y el comienzo de uno nuevo.",
+  "latency_sec": 3.119,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Esto no será una despedida, es solo el final de un capítulo y el comienzo de uno nuevo.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpgDCpUDARFNMg/bPRi563yg4CjHA+ZxTYAQNIeQYW/TqnKrF/tGDGB6MrECmG2oNLgfA1N5r3ETDPf18aBr3/ud/aExg+MN8K1bpLT6NVbLTXm6SB7ZoGo4gJ9WXoQLioSybRd6zVyERK7J7V3L0oUm+PTOsYUk9JUG5mekmP/JEzcBIuubKIKgJBZT9F7flJaaXYlTsASsrZKs+f14zu5wNbSNHkENeCE9FCdR7Pd0sKJTvzN30q7/CAblu/5EJXLypHZMCn3nOW/dFhtAKIRyXbFsMM27q62swGOmDAQhPMP3zp6W4z2S8n4Wk/dnA64yo4TgWs8M2FIw+I8aJyfuAYHY0rnpZ+3aD8ZrcBnTqKmcEP2BD68v7xtbcw3sDANVRxKrb9AGCzIW4VMy3nAyvDllj7gjODLM+5P5R09/if9Wm+x4bLUCYns/kU7rPdQpBxQMc6zWOayhcfPxT1kS//lwEDBaon4dv2WvtvdaG1btaSz5R8t4ReI0/VurKUggVz2NsDxHv0tZVFrVCefTaKKMpETtQi2Y"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226337,
+    "id": "399JasKXG5bPrfcP5aSH-Ac",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 225,
+      "total_tokens": 324
+    }
+  }
+}

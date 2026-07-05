@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0145",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.9,
+  "ref_text_raw": "Als vielseitiger Athlet kann der Tiger klettern (wenn auch nicht besonders gut), schwimmen, große Strecken springen und mit der fünffachen Kraft eines starken Menschen ziehen.",
+  "ref_text_normalized": "als vielseitiger athlet kann der tiger klettern wenn auch nicht besonders gut schwimmen große strecken springen und mit der fünffachen kraft eines starken menschen ziehen",
+  "timestamp_utc": "2026-07-05T04:08:38Z",
+  "text": "Als vielseitiger Athlet kann der Tiger klettern, wenn auch nicht besonders gut, schwimmen, große Strecken springen und mit der fünffachen Kraft eines starken Menschen ziehen.",
+  "latency_sec": 3.0308,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Als vielseitiger Athlet kann der Tiger klettern, wenn auch nicht besonders gut, schwimmen, große Strecken springen und mit der fünffachen Kraft eines starken Menschen ziehen.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPYqfMyfHjFSlzaEug/o1SLtI+qqb6GC9g+jJu9hhZKkYk+s+ZQUa+sOyotMOY"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224518,
+    "id": "xNhJav-pPPTLrfcP9LOIsAE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 269,
+      "total_tokens": 307
+    }
+  }
+}

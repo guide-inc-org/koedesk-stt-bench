@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0106",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.56,
+  "ref_text_raw": "Die Schlagmänner der mittleren Reihe, Sachin Tendulkar und Rahul Dravid, zeigten gute Leistungen und erzielten eine Partnerschaft mit 100 Runs.",
+  "ref_text_normalized": "die schlagmänner der mittleren reihe sachin tendulkar und rahul dravid zeigten gute leistungen und erzielten eine partnerschaft mit 100 runs",
+  "timestamp_utc": "2026-07-05T04:04:51Z",
+  "text": "Die Schlagmänner der mittleren Reihe Sachin Tendulkar und Rahul Dravid zeigten gute Leistungen und erzielten eine Partnerschaft mit 100 Runs.",
+  "latency_sec": 4.6439,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Die Schlagmänner der mittleren Reihe Sachin Tendulkar und Rahul Dravid zeigten gute Leistungen und erzielten eine Partnerschaft mit 100 Runs.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224291,
+    "id": "4NdJauT_CJjF0-kPvZ-G6AE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 285,
+      "total_tokens": 742
+    }
+  }
+}

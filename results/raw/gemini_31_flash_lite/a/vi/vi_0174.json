@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0174",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.36,
+  "ref_text_raw": "Đại Kim Tự Tháp ở Giza là một trong bảy kì quan thế giới vẫn còn tồn tại cho đến ngày nay.",
+  "ref_text_normalized": "đại kim tự tháp ở giza là một trong bảy kì quan thế giới vẫn còn tồn tại cho đến ngày nay",
+  "timestamp_utc": "2026-07-05T08:48:11Z",
+  "text": "Đại kim tự tháp ở Giza là một trong bảy kỳ quan thế giới vẫn còn tồn tại cho đến ngày nay.",
+  "latency_sec": 2.8099,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Đại kim tự tháp ở Giza là một trong bảy kỳ quan thế giới vẫn còn tồn tại cho đến ngày nay.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP1DnyiLrtvDPtBH9bhgEXQdVRH3q9KKLxrBB918YFmoy1KHw9D8nbqLoLTeVS"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241291,
+    "id": "ShpKarOMAcmzvr0PpOCr2QI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 255,
+      "total_tokens": 281
+    }
+  }
+}

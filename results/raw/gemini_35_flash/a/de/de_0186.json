@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0186",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.98,
+  "ref_text_raw": "Die heiße Schokolade entspricht belgischen Standards. Fruchtsäfte sind zwar teuer, aber hervorragend.",
+  "ref_text_normalized": "die heiße schokolade entspricht belgischen standards fruchtsäfte sind zwar teuer aber hervorragend",
+  "timestamp_utc": "2026-07-05T04:11:38Z",
+  "text": "Die heiße Schokolade entspricht belgischen Standards. Fruchtsäfte sind zwar teuer, aber hervorragend.",
+  "latency_sec": 3.7165,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Die heiße Schokolade entspricht belgischen Standards. Fruchtsäfte sind zwar teuer, aber hervorragend.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtEFCs4FARFNMg8hXQ+rZsBr1kMkPq61wh5L/O3JdOLUYnQlXVw/9BLNuEQBrduMFphJ1tcjAisMjSdSvl4j+H+UPuZP1wygqDSxYbOaV14BMCqLUj6URAZ3Huhagl5tHsT2ocZ2ktODksmc4EtrmH+EryuStPGlA3x3IHe0mVGk32wMQ0WMH/nYv18oHV87sxSy8A6EPmkP4bpEk0y9clEG59oKiWgEuadhs2l1KsnipRYRbdpJhf7KsieiVqPapjgM+UmMG+4/RK6vsOn7FbW2JdplD46pdTW+U2UAirQrC5lV6HN7Tn3PUShy8VIEb5RPpiUBy6kvF2K1T9PtAfcswWhxFq+ytojGYOPZPf2XSUAFhq/znbV1HvgzwPrY3xC0XPXR5wj65647DhkT9llImcF1/eNv8bOQT63MF/iAM2P9wCGIpuB8+dmKUfzdCmROiOFPl0eme/IkUcShQMBsE5z+zLnzovujyhu/XiIB5YnqmoNV+R0vdEDBHdZkTVs5G7eVQYBcarseKe/CGfplYdwHryQaKH0oFZQYtw0vzmQltzBzHs4poEYkX/J1nQDiESPYIFtsYFXjAQ3vbBxMvu2hMoB3n8QgvELvBSYMh4iwQtyPNpvf/Nxsr442hDybgnJMyisTYi5B5FK0EfLVHDW1GWiQrxKn4y7iwywJAOlSKMAUusWpZwZEH6xlcZvJ3OQo7GDthN5pujheoU3TvFGtl3PsMX8Eh9XgCfgOQMpYfxquYMWRKmRgnNrSaZf6LBoOXWqCp8nOeghVSj24Cj741qd6EN7teg+qVoelN/mvJ4tonGsLVJsXnlPZwNOUH525a/Sa26nGCw0ferhlXbXaV1+e69jBcXX2UHHN6cjYadFxY4CSeTA1hizFObosCnrBwIS23liCqultdw6wezRJqph75inuRFY7kUF8f+KOLIom0AjTK1JKnCkzsGnqYQ=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224698,
+    "id": "eNlJas3sE87W2roP7vfvgQQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 296,
+      "total_tokens": 481
+    }
+  }
+}

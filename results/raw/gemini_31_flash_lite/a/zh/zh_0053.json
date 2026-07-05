@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0053",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 17.08,
+  "ref_text_raw": "也可以到北部参观法蒂玛圣母院（圣地），它是举世闻名的圣母玛丽亚显现之地。",
+  "ref_text_normalized": "也 可 以 到 北 部 参 观 法 蒂 玛 圣 母 院 圣 地 它 是 举 世 闻 名 的 圣 母 玛 丽 亚 显 现 之 地",
+  "timestamp_utc": "2026-07-05T09:13:50Z",
+  "text": "也可以到北部参观法蒂玛圣母显现远圣地，他是举世闻名的圣母玛利亚显现之地。",
+  "latency_sec": 2.7366,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "也可以到北部参观法蒂玛圣母显现远圣地，他是举世闻名的圣母玛利亚显现之地。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPUiKICUfIlokn+m+v3qxevdm4oTk+MLLvnxTbJN9F1tvpDbcUUaVaK/2PpP3B"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242830,
+    "id": "TSBKavHtGLycrfcP6t_NqQY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 448,
+      "total_tokens": 476
+    }
+  }
+}

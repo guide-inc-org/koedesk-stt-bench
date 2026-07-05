@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0152",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.74,
+  "ref_text_raw": "Die offiziellen Sprachen von Barcelona sind Katalanisch und Spanisch. Ungefähr die Hälfte der Einwohner spricht lieber Katalanisch, die große Mehrheit versteht es, und so gut wie jeder kann Spanisch.",
+  "ref_text_normalized": "die offiziellen sprachen von barcelona sind katalanisch und spanisch ungefähr die hälfte der einwohner spricht lieber katalanisch die große mehrheit versteht es und so gut wie jeder kann spanisch",
+  "timestamp_utc": "2026-07-05T04:09:08Z",
+  "text": "Die offiziellen Sprachen von Barcelona sind katalanisch und Spanisch. Ungefähr die Hälfte der Einwohner spricht lieber katalanisch. Die große Mehrheit versteht es und so gut wie jeder kann Spanisch.",
+  "latency_sec": 3.1253,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Die offiziellen Sprachen von Barcelona sind katalanisch und Spanisch. Ungefähr die Hälfte der Einwohner spricht lieber katalanisch. Die große Mehrheit versteht es und so gut wie jeder kann Spanisch.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPsrSFhuWsIDDY9CRrE1F/Q6jV+Bi2XoRgflJONQq7lZj2EFOtgqrdNpLVYehd"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224548,
+    "id": "49hJaqiaCOex2roPrLDX2QU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 365,
+      "total_tokens": 408
+    }
+  }
+}

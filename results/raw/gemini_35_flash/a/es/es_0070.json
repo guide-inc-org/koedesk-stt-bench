@@ -1,0 +1,45 @@
+{
+  "utt_id": "es_0070",
+  "lang": "es",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.72,
+  "ref_text_raw": "Las escenas se proyectan en las pirámides y todas ellas son iluminadas.",
+  "ref_text_normalized": "las escenas se proyectan en las pirámides y todas ellas son iluminadas",
+  "timestamp_utc": "2026-07-05T04:34:36Z",
+  "text": "Las escenas se proyectan en las pirámides y todas ellas son iluminadas.",
+  "latency_sec": 3.5245,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Las escenas se proyectan en las pirámides y todas ellas son iluminadas.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqIGCp8GARFNMg+lr6C4qKUVctOI//d0WozDTExN8gUKchZbHJdg8W6GJPt73y0VVQLxrjMYMsAFDB+E1dYm3YW/j2Wqtg6e1rbHvF3aPT6gaKm7N2F2MAbpjMYuthmcpmiHHq7pz2cJaKyagESMHp9yvT9myYQyBvJRxFiFZ7ScLobjoQzAcX8u7bQMLWtAv1rqL45xEDKDQ3Lo90fkLG37R257NLwMeeXwWthrNm+JzSJUgIstsr8dwjQtc195ySUImKc2jN5IcdRgXp+tjhb75k7fSg6marKqeD2AZ3/yyIhY+GdwjE3+jdm8VHJ1Uq3R253VDeCJUCz4inX6qSQygf+cfC4jrpUHJhuAdaOU7GmLymYVIvrobZCU9Pk70NOt4GP7/h3msH2mqF3NPGxK1kJUF3r3Ksdw14uNrOJzWVePQ2Zw96fPt6Uk7VzxxLnTcLAH+0iTRef7C/8V1HorZdzX4DrIuZZiOy1ps286J1bF/KnwGgPsEG6x8LmdDBSJt9nOt2ZOLmH80Tmy2aU5y7lYdc/7NedJIxvl5F9cPjgENR0Ml2xy6RmPUoaJvVqHQQs3iFpHn/M4VxQCtpJA+pwCC4d7UfIwdUCYGUMArCJImWssUTO6X2hbve7okohaUTA9xfTMH89WSTYBbR5v3Mvgl+XxYe6IcuSO39k3mnV8b8PJzVdMSpoyf4pjSquHhRyaCuHH+2+4F64DLUQQgJt0/PsY77wd934V83LXkQH2KXNG1unullmo+rHvAJOaqxFS1cBApnL/RD4Et6y/ERXUYI+/TcuVlrSvASXkPsIn+pbFuixzB8MH9ymHqc7+zftRGZKJBdrrJsKbHR+J5Io6cxey67AkThPU+/w3DmWz0hzJdvzrySCNYhc5rmWQnIt8Thn9SkhS7Gp/FUTT2Es7VVyhWv7C39Sdqy4AYp4JWq413ItimAqtDLjotSX8TnZtO1arWNZ5nKoulWyPagNCYLQws+tF3RMCA6p5lQjM0q4InKBUQeTGyrh6ZQWU/ZW6n+F20lz1zcz4r6YTmclrmQ+OCnI6uvUbs6kHcNJunw=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226076,
+    "id": "2t5JauPpA8al1e8PnPeFgAI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 17,
+      "prompt_tokens": 189,
+      "total_tokens": 403
+    }
+  }
+}

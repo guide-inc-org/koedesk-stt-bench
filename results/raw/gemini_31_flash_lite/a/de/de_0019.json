@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0019",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.82,
+  "ref_text_raw": "Lakkha Singh präsentierte den Chhappan Bhog Bhajan ebenfalls. Der Sänger Raju Khandelwal begleitete ihn.",
+  "ref_text_normalized": "lakkha singh präsentierte den chhappan bhog bhajan ebenfalls der sänger raju khandelwal begleitete ihn",
+  "timestamp_utc": "2026-07-05T04:00:53Z",
+  "text": "Laka Singh präsentierte den Capan Bog Bayan ebenfalls, der Sänger Raju Kandelwal begleitete ihn.",
+  "latency_sec": 2.5505,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Laka Singh präsentierte den Capan Bog Bayan ebenfalls, der Sänger Raju Kandelwal begleitete ihn.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPZSlwnY9cSk572Z+zD9Y5nqw8cWgPL+/3V/9ZtsbimaNP/EmBaFoiLQBYGNKa"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224053,
+    "id": "89ZJaoj0KPijvr0Pmty12QU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 242,
+      "total_tokens": 266
+    }
+  }
+}

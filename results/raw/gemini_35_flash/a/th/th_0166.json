@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0166",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.76,
+  "ref_text_raw": "โมซาซอรัสคือสุดยอดสัตว์นักล่าแห่งยุค มันจึงไม่หวาดเกรงสิ่งใดนอกจากโมซาซอร์ตัวอื่น",
+  "ref_text_normalized": "โมซาซอรัสคือสุดยอดสัตว์นักล่าแห่งยุค มันจึงไม่หวาดเกรงสิ่งใดนอกจากโมซาซอร์ตัวอื่น",
+  "timestamp_utc": "2026-07-05T08:07:45Z",
+  "text": "โมซาซอรัสคือสุดยอดสัตว์แห่งนักล่ายุค มันจึงไม่หวาดเกรงสิ่งใดนอกจากโมซาซอรัสตัวอื่น",
+  "latency_sec": 4.6693,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "โมซาซอรัสคือสุดยอดสัตว์แห่งนักล่ายุค มันจึงไม่หวาดเกรงสิ่งใดนอกจากโมซาซอรัสตัวอื่น",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238865,
+    "id": "zhBKavb-Lsal1e8PnPeFgAI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 315,
+      "total_tokens": 681
+    }
+  }
+}

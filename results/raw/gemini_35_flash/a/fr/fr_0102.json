@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0102",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 21.84,
+  "ref_text_raw": "\"Lorsqu'on en fait bon usage, les blogs \"\"peuvent permettre aux étudiants de renforcer leurs capacités d'analyse et leur esprit critique : en réagissant activement aux contenus en ligne, ils peuvent confronter leur avis à celui des autres et exposer leurs propres points de vue sur des sujets bien précis\"\" (Oravec, 2002).\"",
+  "ref_text_normalized": "\"lorsqu'on en fait bon usage les blogs \"peuvent permettre aux étudiants de renforcer leurs capacités d'analyse et leur esprit critique : en réagissant activement aux contenus en ligne ils peuvent confronter leur avis à celui des autres et exposer leurs propres points de vue sur des sujets bien précis\" oravec 2002.",
+  "timestamp_utc": "2026-07-05T05:10:28Z",
+  "text": "Lorsqu'on en fait bon usage, les blogs peuvent permettre aux étudiants de renforcer leur capacité d'analyse et leur esprit critique. En réagissant activement au contenu en ligne, ils peuvent confronter leur avis à celui des autres et exposer leur propre point de vue sur des sujets bien précis. Oravec, 2002.",
+  "latency_sec": 5.2564,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Lorsqu'on en fait bon usage, les blogs peuvent permettre aux étudiants de renforcer leur capacité d'analyse et leur esprit critique. En réagissant activement au contenu en ligne, ils peuvent confronter leur avis à celui des autres et exposer leur propre point de vue sur des sujets bien précis. Oravec, 2002.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228228,
+    "id": "QOdJas-DJLvN2roPnu2ysAU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 71,
+      "prompt_tokens": 567,
+      "total_tokens": 1116
+    }
+  }
+}

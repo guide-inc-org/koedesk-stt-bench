@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0196",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.9,
+  "ref_text_raw": "Le Congrès a lancé le financement de l'initiative contre la pornographie au cours de l'exercice 2005, tout en précisant que le FBI s'apprêtait à affecter dix agents à la lutte contre la pornographie adulte.",
+  "ref_text_normalized": "le congrès a lancé le financement de l'initiative contre la pornographie au cours de l'exercice 2005 tout en précisant que le fbi s'apprêtait à affecter dix agents à la lutte contre la pornographie adulte",
+  "timestamp_utc": "2026-07-05T05:18:57Z",
+  "text": "Le Congrès a lancé le financement de l'initiative contre la pornographie au cours de l'exercice 2005, tout en précisant que le FBI s'apprêtait à affecter dix agents à la lutte contre la pornographie adulte.",
+  "latency_sec": 5.5913,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Le Congrès a lancé le financement de l'initiative contre la pornographie au cours de l'exercice 2005, tout en précisant que le FBI s'apprêtait à affecter dix agents à la lutte contre la pornographie adulte.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228737,
+    "id": "PelJapPyEurS1e8Pod3IoAU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 53,
+      "prompt_tokens": 344,
+      "total_tokens": 1051
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0115",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.16,
+  "ref_text_raw": "Le temps violent est le terme générique pour tout phénomène météorologique dangereux susceptible de causer des dommages, de graves bouleversements sociaux ou la perte de vies humaines.",
+  "ref_text_normalized": "le temps violent est le terme générique pour tout phénomène météorologique dangereux susceptible de causer des dommages de graves bouleversements sociaux ou la perte de vies humaines",
+  "timestamp_utc": "2026-07-05T04:54:12Z",
+  "text": "Les temps violents est le terme générique pour tout phénomène météorologique dangereux susceptible de causer des dommages, de graves bouleversements sociaux ou la perte de vie humaine.",
+  "latency_sec": 5.2849,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Les temps violents est le terme générique pour tout phénomène météorologique dangereux susceptible de causer des dommages, de graves bouleversements sociaux ou la perte de vie humaine.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227252,
+    "id": "ceNJaqGGHMKl9tMPpf6PiQE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 379,
+      "total_tokens": 588
+    }
+  }
+}

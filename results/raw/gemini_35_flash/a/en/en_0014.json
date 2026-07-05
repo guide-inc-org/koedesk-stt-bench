@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0014",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 5.72,
+  "ref_text_raw": "The Internet combines elements of both mass and interpersonal communication.",
+  "ref_text_normalized": "the internet combines elements of both mass and interpersonal communication",
+  "timestamp_utc": "2026-07-05T10:27:40Z",
+  "text": "The internet combines elements of both mass and interpersonal communication.",
+  "latency_sec": 3.1169,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The internet combines elements of both mass and interpersonal communication.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EvkDCvYDARFNMg9gXLE901H+zEgszMKEv1hHOS++LhYFgR0POcQCXhCd802tMGFk4urTPQNfZP5o/MOk9Wupz8YKlj25Es3p3VJIH4t3UAmmY7maQyjwzE1Ow9MIeDomzmYpdt/HOQuCfpkjs0sGAVhsqIJNesy8p8EnUfHoCmIzbEhCa3DuR3UVODEJdOHkzuXTGcQ3msHUJqbxHimtRTncCQsJzDL9iw+/xqKdg4Miac59jWVMeQ+kHz/dVOgmhykidDbfN1RMNS1rJQ9uUHn7iry5ADMb2WmLaZA2GgK9zLBvl/rGG3Jd+QxdiTqHgK7uHeg7am0xttEZWJ66V2FRuEsSXXoqf97wq6CJ9ksYSW/LWSqPDbuQuiVficVuNE8bz211MDzCSNVyZvPmqsyOzh0cF0ucrX5jFVtXFcHkXyTIQ3w1Q4E18o2UBcu9XzORLouwGnqmgX7w07y8PYG6SdJW9IlNF97RLjxNMdhk02dbJ7Nn/h5ToHfd29DAnpZwLLYnKQlzTdD1gfzCrbeNC+CFap9MIxChSmZoTkCO87Tl+ZAcelLc5XD0SEV/bjL8vj+8QxIF2wpxdZinMD7XCjapu35Hk9hJrmYta1QZJr2hZpc6gvUYYHB8ErvE+6zX/u5mqPqe2qZiHn5BF+aUkRS9nrVoovSuyQ=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247260,
+    "id": "mjFKaogo4p_aug_q2Z2AAw",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 11,
+      "prompt_tokens": 164,
+      "total_tokens": 276
+    }
+  }
+}

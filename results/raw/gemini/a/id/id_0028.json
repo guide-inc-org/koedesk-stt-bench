@@ -1,0 +1,39 @@
+{
+  "utt_id": "id_0028",
+  "lang": "id",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.32,
+  "ref_text_raw": "Saat ia bekerja di rumah sakit, Liggins mulai menyelidiki persalinan prematur selama waktu luangnya.",
+  "ref_text_normalized": "saat ia bekerja di rumah sakit liggins mulai menyelidiki persalinan prematur selama waktu luangnya",
+  "timestamp_utc": "2026-07-05T05:21:20Z",
+  "text": "Saat ia bekerja di rumah sakit, Mike Gains mulai menyelidiki persalinan prematur selama waktu luangnya.",
+  "latency_sec": 3.153,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Saat ia bekerja di rumah sakit, Mike Gains mulai menyelidiki persalinan prematur selama waktu luangnya.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228880,
+    "id": "zulJaueQN7XIrfcPsof-gAc",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 352,
+      "total_tokens": 429
+    }
+  }
+}

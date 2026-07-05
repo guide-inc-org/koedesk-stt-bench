@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0089",
+  "lang": "ko",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.8,
+  "ref_text_raw": "사람들은 귀국길에 오르는 여행객들에게도 인내심과 이해심이 필요하다고 생각하지 않을 수 있다.",
+  "ref_text_normalized": "사람들은 귀국길에 오르는 여행객들에게도 인내심과 이해심이 필요하다고 생각하지 않을 수 있다",
+  "timestamp_utc": "2026-07-05T06:06:50Z",
+  "text": "사람들은 귀국길에 오르는 여행객들에게도 인내심과 이해심이 필요하다고 생각하지 않을 수 있다.",
+  "latency_sec": 6.927,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "사람들은 귀국길에 오르는 여행객들에게도 인내심과 이해심이 필요하다고 생각하지 않을 수 있다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231610,
+    "id": "dPRJav2cJJWJ1e8PhMDXiQU",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 367,
+      "total_tokens": 772
+    }
+  }
+}

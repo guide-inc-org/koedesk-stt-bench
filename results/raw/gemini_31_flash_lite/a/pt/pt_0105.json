@@ -1,0 +1,44 @@
+{
+  "utt_id": "pt_0105",
+  "lang": "pt",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.68,
+  "ref_text_raw": "Na semana passada, o METI divulgou que a Apple o havia informado de mais 34 incidentes de superaquecimento, os quais a empresa classificou como \"não graves\".",
+  "ref_text_normalized": "na semana passada o meti divulgou que a apple o havia informado de mais 34 incidentes de superaquecimento os quais a empresa classificou como não graves",
+  "timestamp_utc": "2026-07-05T07:00:19Z",
+  "text": "Na semana passada, o METI divulgou que a Apple o havia informado de mais 34 incidentes de superaquecimento, os quais a empresa classificou como não graves.",
+  "latency_sec": 3.046,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Na semana passada, o METI divulgou que a Apple o havia informado de mais 34 incidentes de superaquecimento, os quais a empresa classificou como não graves.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPf3kltRoV4bGsuDpRlm0H4xgpcd8Vr0lfRDhJSwwlSDiZk57e2CoTBk3lEybh"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234819,
+    "id": "AgFKap-KGIGM0-kP4LLDwQk",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 363,
+      "total_tokens": 400
+    }
+  }
+}

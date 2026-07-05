@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0002",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.42,
+  "ref_text_raw": "Wenn Sie den Film „Das Vermächtnis der Tempelritter“ gesehen haben, denken Sie vielleicht, dass auf die Rückseite der Unabhängigkeitserklärung eine Schatzkarte gezeichnet wurde.",
+  "ref_text_normalized": "wenn sie den film das vermächtnis der tempelritter gesehen haben denken sie vielleicht dass auf die rückseite der unabhängigkeitserklärung eine schatzkarte gezeichnet wurde",
+  "timestamp_utc": "2026-07-05T03:59:52Z",
+  "text": "Wenn Sie den Film Das Vermächtnis der Tempelritter gesehen haben, denken Sie vielleicht, dass auf der Rückseite der Unabhängigkeitserklärung eine Schatzkarte gezeichnet wurde.",
+  "latency_sec": 2.474,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Wenn Sie den Film Das Vermächtnis der Tempelritter gesehen haben, denken Sie vielleicht, dass auf der Rückseite der Unabhängigkeitserklärung eine Schatzkarte gezeichnet wurde.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPqAx7/w0N8naRmr28IlarMOFzWtMvX75EXT3DfOWgm/NFXr6yIvXFyqFAVJBP"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223992,
+    "id": "t9ZJarm9D_TLrfcP9LOIsAE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 332,
+      "total_tokens": 371
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0050",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.22,
+  "ref_text_raw": "因此，一个组织在共同努力克服障碍的过程中，往往会带来新的创新流程，以满足客户的需求。",
+  "ref_text_normalized": "因 此 一 个 组 织 在 共 同 努 力 克 服 障 碍 的 过 程 中 往 往 会 带 来 新 的 创 新 流 程 以 满 足 客 户 的 需 求",
+  "timestamp_utc": "2026-07-05T09:13:40Z",
+  "text": "因此，一个组织在共同努力克服障碍的过程中，往往会带来新的创新流程以满足客户的需求。",
+  "latency_sec": 2.321,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "因此，一个组织在共同努力克服障碍的过程中，往往会带来新的创新流程以满足客户的需求。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP+5e3gW7fh3qqIZdtcnjLKRCZfbXXnlcRtOwp9Ua8hXTHwBEtLVvvVRgM4E0F"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242820,
+    "id": "QiBKavydNZHNrfcPvY_ZsAY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 227,
+      "total_tokens": 249
+    }
+  }
+}

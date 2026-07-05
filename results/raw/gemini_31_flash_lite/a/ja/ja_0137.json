@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0137",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.9,
+  "ref_text_raw": "すべての名詞は、「あなた」を指す単語Sieと同様に、文の途中であっても常に大文字で始まります。",
+  "ref_text_normalized": "すべての名詞は あなた を指す単語sieと同様に 文の途中であっても常に大文字で始まります",
+  "timestamp_utc": "2026-07-05T03:19:27Z",
+  "text": "全て の 名詞 は あなた を 指す 単語 C と 同様 に 文 の 途中 で あっ て も 常 に 大文字 で 始まり ます 。",
+  "latency_sec": 3.0829,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "全て の 名詞 は あなた を 指す 単語 C と 同様 に 文 の 途中 で あっ て も 常 に 大文字 で 始まり ます 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPq8wNswFYukh97eyUQZA6Fz0nkIt1xmvlVorhFiRlaODrhjJxZEAQBByT6HvR"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221567,
+    "id": "Ps1JarWkCuKSvr0Pv53i8AM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 419,
+      "total_tokens": 452
+    }
+  }
+}

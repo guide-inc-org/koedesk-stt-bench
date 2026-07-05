@@ -1,0 +1,45 @@
+{
+  "utt_id": "id_0196",
+  "lang": "id",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.3,
+  "ref_text_raw": "Sebuah bom meledak di luar kantor gubernur.",
+  "ref_text_normalized": "sebuah bom meledak di luar kantor gubernur",
+  "timestamp_utc": "2026-07-05T05:52:12Z",
+  "text": "Sebuah bom meledak di luar kantor gubernur",
+  "latency_sec": 3.8157,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Sebuah bom meledak di luar kantor gubernur",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpYFCpMFARFNMg/jNMUGlQ2Dn2eltlEdqkBGx6FP/6x07qlD7xJ0q43896H7KISaSL+eQl+yl4rIQCbCuSh22HJvX5KhDqk+jH/OZAOr1e2vlVGDmNjy/WaxAaELUWVAdwPM1uj7QG8Ip+G6hlqgTFBtGhyEX56kJAa8Ntf+D/Z53OCyMFninppCuzKPHRfB9ucsOKBxVrZmu6HY+683Qkk6GJ62Fr5MK+eA3M8S1WXD+GA1ufTOgKsMWSOTFuOrpld0g6vqtj7Nt7q+Gay9Hx2NuOq8neA7K+bO6aYTqiykr8o82c8NQ2MaFSlKXB37e2XgyXA0B0bBjiyyauyHM8qplgIqYFp+RELYLEhowtfEMETaitL//+ySB7iKepmB1jDqmqLEqazusz9JXrvXBV6oUnEQQ4Z8fCEmXjWkblPBOFyh0Uvns9HUDjSKFvdp4fF7MB1xXpRvsrCO2yAovtvG+q8/I10O1EEuwvBYvIFk8ozXFWVHaRehnHMrbaPzQlIKDBE9rHnDQtIM9HBRtjFL9/oh2eS6bu2yEtdH/jhsUkiD1vXI5ui1Ngw9iluhnIgRJ3UEPt3G6wxW8VHVRGnJ1HrAqtw+g04lbGLWwFKpCblqOaKF0sGLht/NJx0b7agPjAnWYHl1Rz8sucKSfkQe6QbQrT/EFaNgqa4Uk5N8VOuCe8GDCMHlBu/YTZpz/2dvc+EOGJ/csmnf/z2xQiz8P+uaAfCtPvlJBzSMlZLzDUnIuZSPgromqF+litdLDNHyAJBoZsxley+tKUffBstk12s5z3L2N5ymf6t/fJ+/nffNLtyMITFuJL2NTkB+L4Cu0d1LVZAqjUapA0Mjw6A7zyvxXBCqT6FhUQuEtyVK0UZFjbV3Wq4="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230732,
+    "id": "CfFJaunYGoaD1e8PyqKZ0Ac",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 11,
+      "prompt_tokens": 179,
+      "total_tokens": 367
+    }
+  }
+}

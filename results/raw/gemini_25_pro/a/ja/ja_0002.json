@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0002",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 12.84,
+  "ref_text_raw": "バルセロナの公用語はカタルーニャ語とスペイン語です。約半数がカタルーニャ語を好み、大多数がカタルーニャ語を理解し、ほぼ全員がスペイン語を知っています。",
+  "ref_text_normalized": "バルセロナの公用語はカタルーニャ語とスペイン語です 約半数がカタルーニャ語を好み 大多数がカタルーニャ語を理解し ほぼ全員がスペイン語を知っています",
+  "timestamp_utc": "2026-07-05T10:01:49Z",
+  "text": "バルセロナの公用語はカタルーニャ語とスペイン語です。約半数がカタルーニャ語を好み、大多数がカタルーニャ語を理解し、ほぼ全員がスペイン語を知っています。",
+  "latency_sec": 4.1102,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "バルセロナの公用語はカタルーニャ語とスペイン語です。約半数がカタルーニャ語を好み、大多数がカタルーニャ語を理解し、ほぼ全員がスペイン語を知っています。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783245709,
+    "id": "iytKarqABYTG0-kPurji2AU",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 432,
+      "total_tokens": 518
+    }
+  }
+}

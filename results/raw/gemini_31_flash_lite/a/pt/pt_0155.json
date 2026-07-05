@@ -1,0 +1,44 @@
+{
+  "utt_id": "pt_0155",
+  "lang": "pt",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.76,
+  "ref_text_raw": "A ilha de Hong Kong dá seu nome ao território de Hong Kong e é o local que muitos turistas consideram como seu principal atrativo.",
+  "ref_text_normalized": "a ilha de hong kong dá seu nome ao território de hong kong e é o local que muitos turistas consideram como seu principal atrativo",
+  "timestamp_utc": "2026-07-05T07:03:26Z",
+  "text": "A Ilha de Hong Kong dá seu nome ao território de Hong Kong e é o local que muitos turistas consideram como seu principal atrativo.",
+  "latency_sec": 2.4876,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "A Ilha de Hong Kong dá seu nome ao território de Hong Kong e é o local que muitos turistas consideram como seu principal atrativo.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPr76x0bzh7/SU2ehNv+wQDh/7MP1gtUolAC8ChKS1J1CV1Aj5usBj6TdpxEN3"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235007,
+    "id": "vQFKau2KKM_g1e8PpM-tqAQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 315,
+      "total_tokens": 345
+    }
+  }
+}

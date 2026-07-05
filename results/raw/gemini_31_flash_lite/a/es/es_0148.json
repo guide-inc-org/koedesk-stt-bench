@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0148",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 17.16,
+  "ref_text_raw": "Los blogs también pueden contribuir a mejorar la redacción de los alumnos. Aun cuando los estudiantes suelen iniciar su experiencia de blog con una gramática y ortografía poco cuidadas, esto generalmente cambia ante la presencia de una audiencia.",
+  "ref_text_normalized": "los blogs también pueden contribuir a mejorar la redacción de los alumnos aun cuando los estudiantes suelen iniciar su experiencia de blog con una gramática y ortografía poco cuidadas esto generalmente cambia ante la presencia de una audiencia",
+  "timestamp_utc": "2026-07-05T04:42:37Z",
+  "text": "Los blogs también pueden contribuir a mejorar la redacción de los alumnos, aún cuando los estudiantes suelen iniciar su experiencia de blog con una gramática y ortografía poco cuidados, esto generalmente cambia ante la presencia de una audiencia.",
+  "latency_sec": 2.7456,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Los blogs también pueden contribuir a mejorar la redacción de los alumnos, aún cuando los estudiantes suelen iniciar su experiencia de blog con una gramática y ortografía poco cuidados, esto generalmente cambia ante la presencia de una audiencia.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPXOWRJFM9N6Gg1J89gIHdqVBh+NOvis4LHa+Z5qlg3JZdcuX5mnkgj3paGJ5K"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226557,
+    "id": "u-BJaqaRLc-a1e8P7YSs0QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 450,
+      "total_tokens": 494
+    }
+  }
+}

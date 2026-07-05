@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0162",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 17.4,
+  "ref_text_raw": "สุลต่านของโมร็อกโกสร้างเมืองนี้ขึ้นมาใหม่โดยใช้ชื่อว่า Daru l-Badya และบรรดาพ่อค้าชาวสเปนซึ่งตั้งฐานการค้าที่นั่นตั้งชื่อให้ว่าคาซาบลังกา",
+  "ref_text_normalized": "สุลต่านของโมร็อกโกสร้างเมืองนี้ขึ้นมาใหม่โดยใช้ชื่อว่า daru l-badya และบรรดาพ่อค้าชาวสเปนซึ่งตั้งฐานการค้าที่นั่นตั้งชื่อให้ว่าคาซาบลังกา",
+  "timestamp_utc": "2026-07-05T08:10:54Z",
+  "text": "สุลต่านของโมร็อกโกสร้างเมืองนี้ขึ้นมาใหม่โดยใช้ชื่อว่า เดอรุไอ บัดยา และบรรดาพ่อค้าชาวสเปนซึ่งตั้งฐานการค้าที่นั่นตั้งชื่อให้ว่า คาซาบลังกา",
+  "latency_sec": 2.7918,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "สุลต่านของโมร็อกโกสร้างเมืองนี้ขึ้นมาใหม่โดยใช้ชื่อว่า เดอรุไอ บัดยา และบรรดาพ่อค้าชาวสเปนซึ่งตั้งฐานการค้าที่นั่นตั้งชื่อให้ว่า คาซาบลังกา",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP46Ogs/cLCSfmqseOsbkc5Ooyj2LGp4PVSkujAvzxruKC2AndUHQGBWgPvC/H"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239054,
+    "id": "jBFKar7vOpSi9tMP8vOl4AE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 54,
+      "prompt_tokens": 456,
+      "total_tokens": 510
+    }
+  }
+}

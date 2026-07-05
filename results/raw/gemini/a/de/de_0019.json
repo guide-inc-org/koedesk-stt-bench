@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0019",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.82,
+  "ref_text_raw": "Lakkha Singh präsentierte den Chhappan Bhog Bhajan ebenfalls. Der Sänger Raju Khandelwal begleitete ihn.",
+  "ref_text_normalized": "lakkha singh präsentierte den chhappan bhog bhajan ebenfalls der sänger raju khandelwal begleitete ihn",
+  "timestamp_utc": "2026-07-05T03:41:21Z",
+  "text": "La Casing präsentierte den Japanburg Bayan ebenfalls. Der Sänger Rayu Can del Valle begleitete ihn.",
+  "latency_sec": 3.4528,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "La Casing präsentierte den Japanburg Bayan ebenfalls. Der Sänger Rayu Can del Valle begleitete ihn.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222881,
+    "id": "XtJJarLQOKXJ2roPu_yk0QE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 304,
+      "total_tokens": 352
+    }
+  }
+}

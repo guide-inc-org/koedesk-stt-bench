@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0188",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.6,
+  "ref_text_raw": "Australia's Mitchell Gourley finished eleventh in the men's standing Super-G. Czech competitor Oldrich Jelinek finished sixteenth in the men's sitting Super-G.",
+  "ref_text_normalized": "australia's mitchell gourley finished eleventh in the men's standing super-g czech competitor oldrich jelinek finished sixteenth in the men's sitting super-g",
+  "timestamp_utc": "2026-07-05T03:38:32Z",
+  "text": "Australia's Mitchell Gallery finished the 11th in the men's standing Super G, Czech's competitor Ulrich Jocklin finished 16th in the men's sitting Super G.",
+  "latency_sec": 3.2848,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Australia's Mitchell Gallery finished the 11th in the men's standing Super G, Czech's competitor Ulrich Jocklin finished 16th in the men's sitting Super G.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPgcG8O+4QVf3ddL4jDC854jI8vnuzNk/da6v7NjQk67nNZ7X8BgchgG4MV+gi"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222712,
+    "id": "t9FJat77BcD21e8P0dn2qQE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 42,
+      "prompt_tokens": 411,
+      "total_tokens": 453
+    }
+  }
+}

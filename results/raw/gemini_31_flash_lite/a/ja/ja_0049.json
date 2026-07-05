@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0049",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.18,
+  "ref_text_raw": "1963年にダムが建設されてからは、川全体に土砂を拡散する季節性洪水が止まりました。",
+  "ref_text_normalized": "1963年にダムが建設されてからは 川全体に土砂を拡散する季節性洪水が止まりました",
+  "timestamp_utc": "2026-07-05T10:15:43Z",
+  "text": "1963 年 に ダム が 建設 さ れ て から は 、 川 全体 に 土砂 を 拡散 する 季節 性 洪水 が 止まり まし た 。",
+  "latency_sec": 2.8315,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "1963 年 に ダム が 建設 さ れ て から は 、 川 全体 に 土砂 を 拡散 する 季節 性 洪水 が 止まり まし た 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPtZFpLgu1uGZnnSrlJtqvN+jO18rdjGYuHKk6Ik7fjEEkjJlybq1lunPZPBie"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246543,
+    "id": "zS5KaqHyGY-V9tMPqJa8yAI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 401,
+      "total_tokens": 440
+    }
+  }
+}

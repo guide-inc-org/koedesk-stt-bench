@@ -1,0 +1,45 @@
+{
+  "utt_id": "pt_0007",
+  "lang": "pt",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.82,
+  "ref_text_raw": "O acidente ocorreu em grande altitude no terreno montanhoso, e acredita-se que tenha sido causado por fogo inimigo.",
+  "ref_text_normalized": "o acidente ocorreu em grande altitude no terreno montanhoso e acredita-se que tenha sido causado por fogo inimigo",
+  "timestamp_utc": "2026-07-05T06:43:24Z",
+  "text": "O acidente ocorreu em grande altitude no terreno montanhoso, e acredita-se que tenha sido causado por fogo inimigo.",
+  "latency_sec": 3.1918,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "O acidente ocorreu em grande altitude no terreno montanhoso, e acredita-se que tenha sido causado por fogo inimigo.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtUECtIEARFNMg9kOBxUAyEbCvMmqLBKDhS/8HfUQqBizOLrILh8KXwvmbjxK9B92TTTltGC9xHz9hL99MaCp7B0lL9uXAB0YEO6rFZgcfSDyR/mkWs1rWBH7/adhRz8yl6AKwFDIYuU47PFcHIOyldhvNaG6GOpumpU4A9mFBV5Wm/z3ioA46z8Kl3elimgKiSyJD7dy+rCcW7YYdPcrjL6huqWdj7UQ322eLpXX5MmP33FV6a2m3InX8dBuujrdEf7+2NUdoLlV/uEKH0N8NkkGcKP3pm1ofAlWtRn5/Hz+y4c1KkwPGvx78D5WWCbKaQsh15Fq9op/YBQQqTeEp/emVJVQSlhAgF6i9a3KmZ3lYRl8+GY7uq3XQP92EUJxTBpAp0ltKbxe3ANdCtgyczR4NZhwKx0LAVS+OFeQr5FkKvz0SXMMazMuSx9uCNA66Zi6yGYtNdKDr7QiIUaGEMtiLLyh5mf/zncNWVZJC0YK43nofZpzxcIZ26HRaWU38Dac1m2XuL+Lg0eMjj2BLJ/q4rn2BF1lXTXel2VNvDgDCbs4IR1/VWANnt/aqVVbvnEvMOQkNu+NBaT/H23JBH2N0RBIkIOH3X/Sd3o0P0fxd1FL4FWNjQK0TEglfp7anyOv8W/vPZ1fYSaDJ7CbwKSzB/I6GCma0nnkCWQKKYWqbi9eLVcZ93u/8HFK7yaBdZ0x/N1IKPAf6EKUkoFX5TJCZdQY4IKCVUz4KYElKTgVAnpF19lFPMO7vMhZenS7JxtLyTjmxcX1OyXL6EjX+vnK+ryD6Rf"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783233804,
+    "id": "Cv1Jauq_LYmV1e8Pn9-owAM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 242,
+      "total_tokens": 398
+    }
+  }
+}

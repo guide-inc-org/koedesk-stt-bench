@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0108",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.0,
+  "ref_text_raw": "De nombreux produits de boulangerie allemands contiennent également des amandes, des noisettes et d’autres noix. Les gâteaux populaires se marient souvent particulièrement bien avec une tasse de café serré.",
+  "ref_text_normalized": "de nombreux produits de boulangerie allemands contiennent également des amandes des noisettes et d'autres noix les gâteaux populaires se marient souvent particulièrement bien avec une tasse de café serré",
+  "timestamp_utc": "2026-07-05T05:16:13Z",
+  "text": "Le nombre de produits de boulangerie allemand contient également des amandes, des noisettes et d'autres noix. Les gâteaux populaires se marient souvent particulièrement bien avec une tasse de café serré.",
+  "latency_sec": 2.7523,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Le nombre de produits de boulangerie allemand contient également des amandes, des noisettes et d'autres noix. Les gâteaux populaires se marient souvent particulièrement bien avec une tasse de café serré.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPTN/deGjjVkKnc31GH5GqJ1/rebbCxwmM2t/Qdi2XiQZQttCVMj/RDs+C+9Rn"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228573,
+    "id": "m-hJarL9L7if0-kPzJPfgAc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 246,
+      "total_tokens": 289
+    }
+  }
+}

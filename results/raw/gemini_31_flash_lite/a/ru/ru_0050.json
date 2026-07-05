@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0050",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.92,
+  "ref_text_raw": "Сегрегация и рекомбинация с каждым поколением тасуют вариации между двумя пулами.",
+  "ref_text_normalized": "сегрегация и рекомбинация с каждым поколением тасуют вариации между двумя пулами",
+  "timestamp_utc": "2026-07-05T07:30:04Z",
+  "text": "Сегрегация и рекомбинация с каждым поколением тасуют вариации между двумя пулами.",
+  "latency_sec": 2.621,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Сегрегация и рекомбинация с каждым поколением тасуют вариации между двумя пулами.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP1ncG6Ej7hynPvI+5LyL4fHyrJ0IpDB1Id16kuAS57aiRLxVBNm2ImrDrWFvz"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236604,
+    "id": "-gdKaor_OJnd2roP0-bGsQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 219,
+      "total_tokens": 242
+    }
+  }
+}

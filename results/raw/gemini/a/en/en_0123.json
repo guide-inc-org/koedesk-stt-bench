@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0123",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.26,
+  "ref_text_raw": "Several large television screens were installed in various places in Rome to let the people watch the ceremony.",
+  "ref_text_normalized": "several large television screens were installed in various places in rome to let the people watch the ceremony",
+  "timestamp_utc": "2026-07-05T03:26:35Z",
+  "text": "Several large television screens were installed in various places in Rome to let the people watch the ceremony.",
+  "latency_sec": 2.7768,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Several large television screens were installed in various places in Rome to let the people watch the ceremony.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221995,
+    "id": "6c5Jav2FKeex2roPq7DX0QU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 350,
+      "total_tokens": 393
+    }
+  }
+}

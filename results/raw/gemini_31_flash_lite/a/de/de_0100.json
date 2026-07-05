@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0100",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.18,
+  "ref_text_raw": "Der Schengen-Raum funktioniert in dieser Hinsicht jedoch ein wenig wie ein Land.",
+  "ref_text_normalized": "der schengen-raum funktioniert in dieser hinsicht jedoch ein wenig wie ein land",
+  "timestamp_utc": "2026-07-05T04:05:50Z",
+  "text": "Der Schengen-Raum funktioniert in dieser Hinsicht jedoch ein wenig wie ein Land.",
+  "latency_sec": 3.3044,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Der Schengen-Raum funktioniert in dieser Hinsicht jedoch ein wenig wie ein Land.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPzXefBiU2T7/ws+ONdmoXVH1RSHIFNI8Fk6BRoAVmnoxciBQjRFGFFDmS2QL7"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224350,
+    "id": "HNhJaqfmFfPG2roPs9KcqAM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 17,
+      "prompt_tokens": 176,
+      "total_tokens": 193
+    }
+  }
+}

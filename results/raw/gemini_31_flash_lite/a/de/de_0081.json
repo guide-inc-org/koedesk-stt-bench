@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0081",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 17.76,
+  "ref_text_raw": "Berichten zufolge war er in seinen 20er Jahren. In einer Stellungnahme sagte Bieber: „Obwohl ich bei diesem tragischen Unfall weder anwesend noch direkt an ihm beteiligt war, sind meine Gedanken und Gebete bei der Familie des Opfers“.",
+  "ref_text_normalized": "berichten zufolge war er in seinen 20er jahren in einer stellungnahme sagte bieber obwohl ich bei diesem tragischen unfall weder anwesend noch direkt an ihm beteiligt war sind meine gedanken und gebete bei der familie des opfers",
+  "timestamp_utc": "2026-07-05T04:04:42Z",
+  "text": "Berichten zufolge war er in seinen 20er Jahren. In einer Stellungnahme sagte Bieber: Obwohl ich bei diesem tragischen Unfall weder anwesend noch direkt an ihm beteiligt war, sind meine Gedanken und Gebete bei der Familie des Opfers.",
+  "latency_sec": 2.9194,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Berichten zufolge war er in seinen 20er Jahren. In einer Stellungnahme sagte Bieber: Obwohl ich bei diesem tragischen Unfall weder anwesend noch direkt an ihm beteiligt war, sind meine Gedanken und Gebete bei der Familie des Opfers.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPASfjqvAfbYTnSnfp3+lvKD9dfQzXEt0SuzqvwtdEhva/PoWc/tvrh+mzmyFV"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224282,
+    "id": "2NdJaqLXG7if0-kPzJPfgAc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 52,
+      "prompt_tokens": 466,
+      "total_tokens": 518
+    }
+  }
+}

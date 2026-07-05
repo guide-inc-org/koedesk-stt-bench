@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0090",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.22,
+  "ref_text_raw": "Pour admirer les plus beaux panoramas de Hong Kong, quittez l’île et rejoignez le front de mer de Kowloon situé en face.",
+  "ref_text_normalized": "pour admirer les plus beaux panoramas de hong kong quittez l'île et rejoignez le front de mer de kowloon situé en face",
+  "timestamp_utc": "2026-07-05T05:15:05Z",
+  "text": "Pour admirer les plus beaux panoramas de Hong Kong, quittez l'île et rejoignez le front de mer de Kowloon situé en face.",
+  "latency_sec": 2.6989,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Pour admirer les plus beaux panoramas de Hong Kong, quittez l'île et rejoignez le front de mer de Kowloon situé en face.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPpEMAzDv1Y5tbp5MLXBr/Pexvqp1UBMykGw/+lX0B8Y0QxY5bpEmI9Gca05hJ"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228505,
+    "id": "V-hJat3JNOD61e8P0MrToAE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 227,
+      "total_tokens": 257
+    }
+  }
+}

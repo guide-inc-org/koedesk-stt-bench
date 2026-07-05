@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0092",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 13.92,
+  "ref_text_raw": "일본의 핵 관련 정부 기관에 따르면, 방사성 세슘과 요오드가 발전소에서 검출되었다고 한다.",
+  "ref_text_normalized": "일본의 핵 관련 정부 기관에 따르면 방사성 세슘과 요오드가 발전소에서 검출되었다고 한다",
+  "timestamp_utc": "2026-07-05T06:17:44Z",
+  "text": "일본의 핵 관련 정보 기관에 따르면 방사성 세슘과 요오드가 발전소에서 검출되었다고 한다.",
+  "latency_sec": 3.9824,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "일본의 핵 관련 정보 기관에 따르면 방사성 세슘과 요오드가 발전소에서 검출되었다고 한다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "ErgGCrUGARFNMg/PSM1HGlv8wP2jcEFPy73nteMTHWFr4cXCb5AW3af7Voe5GEAl4Zicn7VcG+8NPvvbFTivP3YISg54CaJLuaUebL0YP3TWh6zypKFcxEpcGWGcmiCtEiZ5xJy2eUOQIiqcZh6CmITu2dO9LaMCYkEKV0ovquJdcmKRbNpIU09X6wJjNtX95NrD7T5BTBXc/Z3dtRlaxXMBM0kADAXObc5R+BBHnORa28cMXU4apJExMlTYOXLsTe8YRVv91D7M/tDtLrsl69FSqNe6L2LsyZqQe7QOIGRUZVAISmhvnRPiYxjL2yf4nPAZTiTaeiooR/vc4uwJeaENfsSljhs8Z6gOiJol93URMAop+31D09vEkoB4dH41YwBh+Ya6isFwBqsXbhH88Vl9L9mSCSxyAAg4NCbE7cUlF4MIBwzO9fjOjErHyfpVPkjtJF+cJnwaHoEyQoYiv9cWlNu8zSFK4cCxjyXm6plmH14inZrHbPgCWWcOp5oIUtC0txZUFTMwMS8ycqnzJwchocfkpmlSICl2nONoqxDmDeiMnIqw+NHEcaaLV37QDPzJW+wtv2rg6u3LSibcrU3VtpBXTb4WCSbra65dbmKsR0KxewNv/ii35nsb7K6ZKpo/kMn5eujBbCrkpymq/U1OGdIlIW/kKboegZHEKn9s8mTpMKpiYPj0tNWJUwQ6GQGbu8h3YuHEcRPZMXwTtE0W/RCz4Ly0oAnQWQ6oGrNvd06txL3Wbpe6oRmtfJj95zWt2G0/cBLCuKe5RJCfam1PjvAShxLCqxZODhysDLGqyoMNznsVIUFGLjyfrIX8yPE6dTVu5x69KcB3dcnv61xxmLIeHbnKaa7SmPCPRwsaRwOpL/bKAQGosYYW5fV0JBL+4vzy24mwklPTu8Ly0M8Ed6+4ls3DsoenKDaTA3iNg3UdO7YfKFWEqIw300frTRQ140GlpWE7CsLJbsueO6pLtTPervLjRISthcum/pDAgNJshpKXvmQsNHHMQu4iVchCMPjOGDDkXoSuYQPS4eTmVxaGdm08Yibu3ixbWVFpBiAyfglUSyFUxTGH0N5cVidYegiX5nD29Jk="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232264,
+    "id": "BfdJavr0LIfNrfcP8aSW8AI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 369,
+      "total_tokens": 636
+    }
+  }
+}

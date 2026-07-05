@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0108",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.38,
+  "ref_text_raw": "Die Romantik hatte ein starkes, kulturell deterministisches Element, das sich aus Schriftstellern wie Goethe, Fichte und Schlegel schöpfte.",
+  "ref_text_normalized": "die romantik hatte ein starkes kulturell deterministisches element dass sich aus schriftstellern wie goethe fichte und schlegel schöpfte",
+  "timestamp_utc": "2026-07-05T04:06:18Z",
+  "text": "Die Romantik hatte ein starkes, kulturell deterministisches Element, das sich aus Schriftstellern wie Goethe, Fichte und Schlegel schöpfte.",
+  "latency_sec": 2.8535,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Die Romantik hatte ein starkes, kulturell deterministisches Element, das sich aus Schriftstellern wie Goethe, Fichte und Schlegel schöpfte.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPoCP6hZcPtDLp5pNK2V/qZsppBN+uQZc5gDi2SvdSvITBUcD2U9Y7CGBwZMXS"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224378,
+    "id": "ONhJavjnM8D21e8P0dn2qQE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 281,
+      "total_tokens": 314
+    }
+  }
+}

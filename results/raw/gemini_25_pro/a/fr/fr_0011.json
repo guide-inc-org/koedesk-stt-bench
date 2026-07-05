@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0011",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 14.4,
+  "ref_text_raw": "Tout bien considéré, nous ne devrions pas être surpris si nos propres ancêtres ont résolu leur « problème de protéines » un peu de la même manière que les chimpanzés de la savane le font aujourd'hui.",
+  "ref_text_normalized": "tout bien considéré nous ne devrions pas être surpris si nos propres ancêtres ont résolu leur « problème de protéines » un peu de la même manière que les chimpanzés de la savane le font aujourd'hui",
+  "timestamp_utc": "2026-07-05T04:47:02Z",
+  "text": "Tout bien considéré, nous ne devrions pas être surpris si nos propres ancêtres ont résolu leurs problèmes de protéines un peu de la même manière que les chimpanzés de la savane le font aujourd'hui.",
+  "latency_sec": 4.601,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Tout bien considéré, nous ne devrions pas être surpris si nos propres ancêtres ont résolu leurs problèmes de protéines un peu de la même manière que les chimpanzés de la savane le font aujourd'hui.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226822,
+    "id": "w-FJaqf9FMmzvr0PmpW5mQI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 482,
+      "total_tokens": 569
+    }
+  }
+}

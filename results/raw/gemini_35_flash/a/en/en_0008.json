@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0008",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.04,
+  "ref_text_raw": "The aspect ratio of this format (dividing by twelve to obtain the simplest whole-number ratio) is therefore said to be 3:2.",
+  "ref_text_normalized": "the aspect ratio of this format dividing by twelve to obtain the simplest whole-number ratio is therefore said to be 3:2",
+  "timestamp_utc": "2026-07-05T10:27:07Z",
+  "text": "The aspect ratio of this format, dividing by 12 to obtain the simplest whole number ratio, is therefore said to be 3 to 2.",
+  "latency_sec": 4.6095,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The aspect ratio of this format, dividing by 12 to obtain the simplest whole number ratio, is therefore said to be 3 to 2.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Eq0FCqoFARFNMg8dSoMAdwBvlTDqKGwoBbbTCCuft+7YmSQqSR728D62BH+ZrwAzVBvqMoCUa8vYlU4HkpwzzGDGVBmg/3YnAFS6rqhYWrmnzHvaVOvV3nn5DtNOD3QU3AJmEn4ZHVQgW4x54jomIfpxDLDyqQMFPiraqxSfVkQSv7p4uYVLftHgpls+taaGUDW86cHxlMI6UXcgeKtaCwR6swhOwbhGFdNu1EbAbQOlVMy6ycaUAx48Gegx9cLqDULzTLMMi4sivhlhlu38RAr1vCFfc3HSeoVfXujhsSo4j7mUdkzQHz2eOW0TY4Qp8qcEZ5t0NnFoMyjnxgK3VoGLVcgL3Liqw6YD1H37tN4sYb9bWYxzIU4xkUJt+NNthBCcoUGddUc/5ahxpo6lgAwu5Wr9LL2jrxF/Bvo0eHPoqwzT82SnXQODjgYnzT4fovpPqmRoO/aaLbWfMpKy5YsNsI09tQ6qxJOwNBywVMkaBP+zKQPmFEt4cGLZ6fzqi/4Yz75ZuHYm3U3XGtRSJra4EDhO9Nj3aGvtZid3+CuU0DcvTq8kzDb/+BFEyTouw0g5aBMuV9wtEGWHiCb7ZPESALeLJwUgILlEDseJ7l8aTRFoKkZUlMz2ldIlMWYToh1yP2y/IQAq/4ReftpWe7JPq5ebcE0J+NODxdfg0LZqhqjmCeuuhbxhGdsmqdkAKRixQW27meZgwk1ha1LoL/Nk8KGzCZcEMOfpyFfdn7681PsGzX2NV3neYi3uD3OxrcNaeskwBGGBjSC61clptNZEmEgJkSGweNmGNJp841SebZ8CzrbAQl+7GJ41s/BFV7D/Ykuvkz+IgJxswppe9daENyjY4XsYcia9XXcRXhIbtJ0qQbbmQkBLYznVRdTtoSxnvp922GEWIqguMp68BQ=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247227,
+    "id": "eDFKaqqzMb3MrfcPx6WgiQQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 297,
+      "total_tokens": 480
+    }
+  }
+}

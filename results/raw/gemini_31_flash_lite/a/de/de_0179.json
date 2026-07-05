@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0179",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.4,
+  "ref_text_raw": "Auf der anderen Seite sind eisige und schneereiche Bedingungen in vielen Ländern normal, und der Verkehr läuft das ganze Jahr über größtenteils ununterbrochen weiter.",
+  "ref_text_normalized": "auf der anderen seite sind eisige und schneereiche bedingungen in vielen ländern normal und der verkehr läuft das ganze jahr über größtenteils ununterbrochen weiter",
+  "timestamp_utc": "2026-07-05T04:10:48Z",
+  "text": "Auf der anderen Seite sind eisige und schneereiche Bedingungen in vielen Ländern normal und der Verkehr läuft das ganze Jahr über größtenteils ununterbrochen weiter.",
+  "latency_sec": 2.685,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Auf der anderen Seite sind eisige und schneereiche Bedingungen in vielen Ländern normal und der Verkehr läuft das ganze Jahr über größtenteils ununterbrochen weiter.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPuiWfHuLXk443DmQ4sZPYxu0zATlRCzeYDYJp2tZB5o/FVTHlIp6vnbCoc7Re"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224648,
+    "id": "R9lJasebF62A1e8P88TkuQE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 231,
+      "total_tokens": 264
+    }
+  }
+}

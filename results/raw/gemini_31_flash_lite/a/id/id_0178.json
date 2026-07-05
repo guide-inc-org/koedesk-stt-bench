@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0178",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.06,
+  "ref_text_raw": "Pada tahun 1976, 30 persen Machu Picchu telah dipulihkan dan restorasi berlanjut hingga hari ini.",
+  "ref_text_normalized": "pada tahun 1976 30 persen machu picchu telah dipulihkan dan restorasi berlanjut hingga hari ini",
+  "timestamp_utc": "2026-07-05T05:56:02Z",
+  "text": "Pada tahun 1976, 30% Machu Picchu telah dipulihkan dan restorasi berlanjut hingga hari ini.",
+  "latency_sec": 3.4051,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Pada tahun 1976, 30% Machu Picchu telah dipulihkan dan restorasi berlanjut hingga hari ini.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPclhuKrr8CX7lBXYfkDdc98wPeSyhJew3ZDlCsHm+/deJ69iP2gwlSGCpJGyJ"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230962,
+    "id": "8PFJasmNKbCr0-kPhJ6suQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 248,
+      "total_tokens": 276
+    }
+  }
+}

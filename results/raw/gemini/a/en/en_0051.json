@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0051",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.94,
+  "ref_text_raw": "Built by the Egyptians in the third century BCE, the Great Pyramid is one of many large pyramid structures built to honor dead Pharaoh.",
+  "ref_text_normalized": "built by the egyptians in the third century bce the great pyramid is one of many large pyramid structures built to honor dead pharaoh",
+  "timestamp_utc": "2026-07-05T10:22:54Z",
+  "text": "Built by the Egyptians in the third century BCE, the Great Pyramid is one of many large pyramid structures built to honor dead Pharaoh.",
+  "latency_sec": 3.3216,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Built by the Egyptians in the third century BCE, the Great Pyramid is one of many large pyramid structures built to honor dead Pharaoh.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246974,
+    "id": "fDBKatitArCr0-kPhJ6suQM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 308,
+      "total_tokens": 334
+    }
+  }
+}

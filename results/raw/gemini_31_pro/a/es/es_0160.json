@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0160",
+  "lang": "es",
+  "engine": "gemini_31_pro_preview",
+  "duration_sec": 19.44,
+  "ref_text_raw": "Perry sostuvo que: «Volvería a Texas a evaluar los resultados de la reunión electoral de hoy y determinar si hay un camino que debo seguir». Luego dijo que permanecería en carrera y que competiría en las elecciones primarias del 21 de enero, en Carolina del Sur».",
+  "ref_text_normalized": "perry sostuvo que: «volvería a texas a evaluar los resultados de la reunión electoral de hoy y determinar si hay un camino que debo seguir». luego dijo que permanecería en carrera y que competiría en las elecciones primarias del 21 de enero en carolina del sur»",
+  "timestamp_utc": "2026-07-05T04:35:36Z",
+  "text": "Perry sostuvo que volvería a Texas a evaluar los resultados de la reunión electoral de hoy y determinar si hay un camino que deba seguir. Luego dijo que permanecería en carrera y que competiría en las elecciones primarias del 21 de enero en Carolina del Sur.",
+  "latency_sec": 8.1322,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-pro-preview",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Perry sostuvo que volvería a Texas a evaluar los resultados de la reunión electoral de hoy y determinar si hay un camino que deba seguir. Luego dijo que permanecería en carrera y que competiría en las elecciones primarias del 21 de enero en Carolina del Sur.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226136,
+    "id": "Ed9JapX3LfK8vr0P9K6siQU",
+    "model": "gemini-3.1-pro-preview",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 55,
+      "prompt_tokens": 508,
+      "total_tokens": 1260
+    }
+  }
+}

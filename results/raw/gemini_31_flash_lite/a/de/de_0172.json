@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0172",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.88,
+  "ref_text_raw": "Die 25 Dunlap-Breitseiten, die es noch gibt, sind die ältesten noch existierenden Kopien des Dokuments. Die Originalhandschrift hat die Zeiten nicht überdauert.",
+  "ref_text_normalized": "die 25 dunlap-breitseiten die es noch gibt sind die ältesten noch existierenden kopien des dokuments die originalhandschrift hat die zeiten nicht überdauert",
+  "timestamp_utc": "2026-07-05T04:10:24Z",
+  "text": "Die 25 Dunlap-Breitseiten, die es noch gibt, sind die ältesten noch existierenden Kopien des Dokuments. Die Originalhandschrift hat die Zeiten nicht überdauert.",
+  "latency_sec": 2.8275,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Die 25 Dunlap-Breitseiten, die es noch gibt, sind die ältesten noch existierenden Kopien des Dokuments. Die Originalhandschrift hat die Zeiten nicht überdauert.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPa9SM5YcpeXs6gnYwbShJEOrNon8VU3rIdqHaQgGLz1sOoO6184XGLygeRWco"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224624,
+    "id": "LtlJaoXALe6d1e8P5u7EuQQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 393,
+      "total_tokens": 434
+    }
+  }
+}

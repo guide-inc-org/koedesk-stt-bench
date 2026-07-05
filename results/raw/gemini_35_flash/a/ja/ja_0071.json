@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0071",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 16.14,
+  "ref_text_raw": "彼の作品は、その質の高さと詳細さが評価され、切手収集家の中では数少ない「有名人」の1人です。彼の作品だけを専門とする収集家もいるほどです。",
+  "ref_text_normalized": "彼の作品は その質の高さと詳細さが評価され 切手収集家の中では数少ない 有名人 の1人です 彼の作品だけを専門とする収集家もいるほどです",
+  "timestamp_utc": "2026-07-05T10:16:35Z",
+  "text": "彼の作品はその質の高さと繊細さが評価され、切手収集家の中では数少ない有名人の一人です。彼の作品だけを専門とする収集家もいるほどです。",
+  "latency_sec": 6.0235,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "彼の作品はその質の高さと繊細さが評価され、切手収集家の中では数少ない有名人の一人です。彼の作品だけを専門とする収集家もいるほどです。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqwNCqkNARFNMg8JFGAl2rN9FOOVPGW1xIChSevP5XRH5qiQQKdYuo5z+wftcFc+9RU2Sfpo2sT5IIvDWVfGwxxv1LawbyDXB8hdmpwOm3R2B5mItOn84YUcEg6DwZCg/H6T35J8/f8zjyh0jIXYpTCTNhgCl3oKQSOh4BBM+emCO6hxUqxr5SveqOBzDK2j9xChtM/Z6IjJ1BEHzyhBULI9oVzbrW+T3z1GKbJm3rc8zLxN1LO5PoqWKH51Y5K3vRwrJZwZwjcvt7VLedXmKZj4GI9neYCh1TJ60S6SJGSWUYYOJSaN+kkh7c7fkVh8cFG5meFmtfyIdSr/nkx422McIObRymqKud5jj9trIAOZML9Qib/EcJDL847E0pR30SBCvLZFe1QDjqf5e5+PEH5JPjVvNhvNU6/4vpbTLcxCo5H++O2LdcXTzxkYivXRNxz9RLtmqt58wCENc/Q5+fqGQ4gfbaARGTK7WcCWPTkSNVfQb6I/RESO6yEr7jZACckQZjuG27f8hsiEaKJk6h6+AQcguLOIKUXFdHYvBkz7PqTbmhUFpxEXDpUDNPiesRZlMKF3pC6NCSv5gghgVHKHr3CaxP/L06RuE2SZ78RGGgNzFky5pKNCUFOqFiXSCwq68UxqDFbj8Lwk/a00m5/DoA1p7YbPtWs4wKbbNN7IY82jg9oo61LTEF2XuAXcXytE/F+z8pQHrLjSqCreRyJD5yQAw9Hgy46EPSxT29vjFQ0VJ+Nq16lznzXzlCUsCPGFzXqLRSMamptrGV3xZ1oIyB8EqHYo9a95cFOSszEm2OuhUMubo+kSgihHZykgb6CT/LU6LrpIs9W9j+eIOIkuaREOQ+u/1nwysUVZKXiQfm7LyBCegCtZLdbxkQ4nLck3m+aefNmV28r3l59QpW76ZQm+s3Nd55cSQ6QewU0wvAJyZDOfWqkxIVcfrlpTCDM5mWvPD2bAMyDtktYc/zfCt7Icq6eNb3KbwDbSYdAUNthiHdtje5L/n/J/BjyqqwqKPgyP2SQgYCAblNFrLvrntfKk7X2Y30vAG449j5XNz1EYGxqqeKDFRVQoGCYMT1grBGcshfaeTwUdWJlFWAMPaEFlMJcfHNEVAln6rRQRholngxiAeQu/jj/GQZiYCqyqnrI3kAP0Cmh19jczwZmdAHmaeFeUqFJj9a/2uPb/Rx6UISZD2z7ePMdQXNpZKUzkWn9DowaWa5ghqHbkPYpjnZ5FytQOAO81xjCyPXdkqIf5ClOkkCCxNW5UjRd543mnEhZGNU5jfDIgA57bE6Hq3RZfHh+wAmZ9hbNoabYPPz6S5fRbciwYiUuk8aemYM1vSGBXP0NrYcHerI3bx/UxStypFEGpHtpbs8AERP/kmEC3gSILjdKUAUmdE8Rl0Pc3PtckO/4Yeaw4PzbnzivJ8lvkZdcVMx62aGq/oqK4iOxd/6VaGHLWAD6Wob6zsZXaesbeYuPEKB5pWd2zl23giIlLf/h3zuV6hTwhOuqMZtt4K16ZhEUfzp0qN5+MIpJK2tzs/OIVsflpezOwfvTIQRhXKIQNDOKiooaa4hS+32dZKHuawHj3EaH9TWK2aRFHBLo6MFr+FlWmEnVGBkOSxZg6zaapJQJQ3hrhtWQg9IzfrNN5yfvvPt9oiK1yz9V1i0lVRlFZ67CcjAfLeB3wZO3eNZIpfQ6WtrucJ4iO0QHsQzFvOZ4EV6PLF+RvMcy9Crg1Rk/FtZMkNX4uDw5gGiSsJPonmA+ndPfKiXHhgjYksEnb6sqSZNanQSeLNMGVfnUDH3wKvDB5FdFH0Pp1kqFuat5fpCUZxgaGg1boZoDTa7hHF1unFCiRF0uFetSG+ynAXlweVwJLzgY4foiqbtF84Lbpid74TTPOkGQ+OckjskrG48FCDTStR8qp9uAtWJ0MQGEoAfN1DyKVkwl7yj43T2Ih5Jj8Px/KzxRVGFUhnsPv+yLBY6z7zOsBCJUqFH+fpd0Wv7SjQubIX0g/GLnxFttV0PtjtKVegMxtzwFXsw8zTQSst8zVtoS2VTsT0RNcg/jADpzIwEvrsxXuF1mLyg6YlD0yf7VgPgvauyLU3KcsIdUOyw/lq72vcxO2jlx5pzgB8ntKNEfwfp6MOXmwvhlrBC7L76Q4XZN8XPfZe9d5l9FtSRf5GD2bqz2sjpsRSGXiXRjTVbaQc8ArWMODljHppdb8669GKKKltyhGeTVMv40znrPIkZxwt/wSXfM2T/fzgLV5C29WRDJYlHrLKw80PYBRntDwwA=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246595,
+    "id": "_i5KavGTN8Sb1e8Pw-2buAM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 425,
+      "total_tokens": 1018
+    }
+  }
+}

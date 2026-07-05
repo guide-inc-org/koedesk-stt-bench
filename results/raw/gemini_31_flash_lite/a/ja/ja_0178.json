@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0178",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.74,
+  "ref_text_raw": "また、水の中に入ってくるものは何でも攻撃し、ティラノサウルスのような巨大な恐竜も敵わないでしょう。",
+  "ref_text_normalized": "また 水の中に入ってくるものは何でも攻撃し ティラノサウルスのような巨大な恐竜も敵わないでしょう",
+  "timestamp_utc": "2026-07-05T03:22:07Z",
+  "text": "また 、 水 の 中 に 入っ て くる もの は 何 で も 攻撃 し 、 ティラノサウルス の よう な 巨大 な 恐竜 も かなわ ない でしょう 。",
+  "latency_sec": 2.8703,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "また 、 水 の 中 に 入っ て くる もの は 何 で も 攻撃 し 、 ティラノサウルス の よう な 巨大 な 恐竜 も かなわ ない でしょう 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP1SYvyT00h9VpCrudjemQCbgm23TYc5NOr1UzsI2iSFaUlXkSW9IEJlffqUf9"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221727,
+    "id": "3s1Japi5EqbG0-kPpaDayQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 365,
+      "total_tokens": 405
+    }
+  }
+}

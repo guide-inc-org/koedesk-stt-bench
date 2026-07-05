@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0171",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.08,
+  "ref_text_raw": "pH レベルは、検査した化学物質に含まれる水素イオン（pHのH）の量で示されます。",
+  "ref_text_normalized": "ph レベルは 検査した化学物質に含まれる水素イオンphのhの量で示されます",
+  "timestamp_utc": "2026-07-05T03:12:44Z",
+  "text": "pH レベル は 検査 し た 化学 物質 に 含ま れる 水素 イオン 、 pH の H の 量 で 示さ れ ます 。",
+  "latency_sec": 3.7787,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "pH レベル は 検査 し た 化学 物質 に 含ま れる 水素 イオン 、 pH の H の 量 で 示さ れ ます 。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221164,
+    "id": "qctJarapLNWd1e8PgOulsQY",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 344,
+      "total_tokens": 376
+    }
+  }
+}

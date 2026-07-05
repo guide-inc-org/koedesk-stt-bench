@@ -1,0 +1,45 @@
+{
+  "utt_id": "vi_0111",
+  "lang": "vi",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 17.4,
+  "ref_text_raw": "Không có cảnh báo sóng thần nào được đưa ra, và theo cơ quan địa vật lý Jakarta, sẽ không có cảnh báo sóng thần vì cơn địa chấn chưa đạt tới tiêu chuẩn 6.5 độ richter.",
+  "ref_text_normalized": "không có cảnh báo sóng thần nào được đưa ra và theo cơ quan địa vật lý jakarta sẽ không có cảnh báo sóng thần vì cơn địa chấn chưa đạt tới tiêu chuẩn 6.5 độ richter",
+  "timestamp_utc": "2026-07-05T08:38:50Z",
+  "text": "Không có cảnh báo sóng thần nào được đưa ra và theo cơ quan địa vật lý Jakarta sẽ không có cảnh báo sóng thần vì cơn địa chấn chưa đạt tới tiêu chuẩn 6,5 độ Richter",
+  "latency_sec": 6.2212,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Không có cảnh báo sóng thần nào được đưa ra và theo cơ quan địa vật lý Jakarta sẽ không có cảnh báo sóng thần vì cơn địa chấn chưa đạt tới tiêu chuẩn 6,5 độ Richter",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240730,
+    "id": "FRhKas6AMf_O1e8P-_GSuQg",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 456,
+      "total_tokens": 1145
+    }
+  }
+}

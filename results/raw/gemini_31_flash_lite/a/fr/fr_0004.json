@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0004",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.34,
+  "ref_text_raw": "Le même mois, un autre avion de ligne a fait une sortie de piste à Mashhad et a heurté un mur, tuant ainsi dix-sept personnes.",
+  "ref_text_normalized": "le même mois un autre avion de ligne a fait une sortie de piste à mashhad et a heurté un mur tuant ainsi dix-sept personnes",
+  "timestamp_utc": "2026-07-05T05:09:34Z",
+  "text": "Le même mois, un autre avion de ligne a fait une sortie de piste à Machade et heurté un mur, tuant ainsi 17 personnes.",
+  "latency_sec": 2.8159,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Le même mois, un autre avion de ligne a fait une sortie de piste à Machade et heurté un mur, tuant ainsi 17 personnes.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPhbXkynp4g5ZrS9O647m96VCfm9uBXNL4GMmAnMJDc7QfHhklW4WMrpaoTHCC"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228174,
+    "id": "DOdJarWnH4fNrfcP8aSW8AI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 230,
+      "total_tokens": 263
+    }
+  }
+}

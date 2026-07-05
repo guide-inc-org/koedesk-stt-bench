@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0040",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.0,
+  "ref_text_raw": "Giancarlo Fisichella verlor die Kontrolle über sein Auto und musste das Rennen schon kurz nach dem Start beenden.",
+  "ref_text_normalized": "giancarlo fisichella verlor die kontrolle über sein auto und musste das rennen schon kurz nach dem start beenden",
+  "timestamp_utc": "2026-07-05T04:02:12Z",
+  "text": "Giancarlo Fisichella verlor die Kontrolle über sein Auto und musste das Rennen schon kurz nach dem Start beenden.",
+  "latency_sec": 2.9225,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Giancarlo Fisichella verlor die Kontrolle über sein Auto und musste das Rennen schon kurz nach dem Start beenden.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPd3fdfZbmPDFIP6WyA5k4SiH4aXLe9xBbOZgFNoC+BJkHPkxZ+PTrMLMgaFVm"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224132,
+    "id": "QtdJaq3zD_PG2roPs9KcqAM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 171,
+      "total_tokens": 195
+    }
+  }
+}

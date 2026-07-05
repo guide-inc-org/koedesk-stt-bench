@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0159",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.24,
+  "ref_text_raw": "El chocolate caliente está a la altura de los estándares belgas. Los jugos frutales son costosos, pero deliciosos.",
+  "ref_text_normalized": "el chocolate caliente está a la altura de los estándares belgas los jugos frutales son costosos pero deliciosos",
+  "timestamp_utc": "2026-07-05T04:43:15Z",
+  "text": "El chocolate caliente está a la altura de los estándares belgas, los jugos frutales son costosos pero deliciosos.",
+  "latency_sec": 2.5695,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "El chocolate caliente está a la altura de los estándares belgas, los jugos frutales son costosos pero deliciosos.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPdh6T+sOd0B+M1cNTysqq6Q+YmhaZKx1dp3O0iPgFuNSutmboVOgHO19wOxPK"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226595,
+    "id": "4uBJaojHDLDM0-kP1Zry4AU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 252,
+      "total_tokens": 277
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0147",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.84,
+  "ref_text_raw": "В тёплом климате Ближнего Востока дом не имел особого значения.",
+  "ref_text_normalized": "в тёплом климате ближнего востока дом не имел особого значения",
+  "timestamp_utc": "2026-07-05T07:36:01Z",
+  "text": "В теплом климате Ближнего Востока дом не имел особого значения.",
+  "latency_sec": 2.5351,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "В теплом климате Ближнего Востока дом не имел особого значения.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPc6fjSwtxr0eO60UJR9kSOF5QrvPxn7UqFDuHAo6JnY+kmcTdR1cpStEDHy3t"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236961,
+    "id": "YAlKat-PDPu8vr0P1bam0AY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 192,
+      "total_tokens": 211
+    }
+  }
+}

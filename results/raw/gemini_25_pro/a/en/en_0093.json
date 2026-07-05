@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0093",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 9.3,
+  "ref_text_raw": "Cuomo, 53, began his governorship earlier this year and signed a bill last month legalizing same-sex marriage.",
+  "ref_text_normalized": "cuomo 53 began his governorship earlier this year and signed a bill last month legalizing same-sex marriage",
+  "timestamp_utc": "2026-07-05T10:27:25Z",
+  "text": "Cuomo, 53, began his government governorship earlier this year and signed a bill last month legalizing same-sex marriage.",
+  "latency_sec": 3.7276,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Cuomo, 53, began his government governorship earlier this year and signed a bill last month legalizing same-sex marriage.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247245,
+    "id": "ijFKarugH-zFvr0P-YXt8AM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 319,
+      "total_tokens": 395
+    }
+  }
+}

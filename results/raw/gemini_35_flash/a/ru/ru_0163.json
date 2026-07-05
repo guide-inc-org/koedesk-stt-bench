@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0163",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.7,
+  "ref_text_raw": "Дюваль, который женат и имеет двух совершеннолетних детей, не произвел большого впечатления на Миллера, которому рассказали эту историю.",
+  "ref_text_normalized": "дюваль который женат и имеет двух совершеннолетних детей не произвел большого впечатления на миллера которому рассказали эту историю",
+  "timestamp_utc": "2026-07-05T07:31:00Z",
+  "text": "Дюваль, который женат и имеет двух совершеннолетних детей, не произвел большого впечатления на Миллера, которому рассказывали эту историю.",
+  "latency_sec": 3.6478,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Дюваль, который женат и имеет двух совершеннолетних детей, не произвел большого впечатления на Миллера, которому рассказывали эту историю.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EvAKCu0KARFNMg8Io04CsZocDapOPIQhfKboA8EAYrE4zdBN2Yn7KXCqGAocHNEIJ0HW/phrzqAot/5kjRsatP4CDA3KBxt6IBmo0wUj1J5kIxB0stTGZQxps7J7aqF3Qea9zbxEeeNEwYLvGY+Bw4lxkRzhFoCdAFtVwtK6B0DCoSA0kiJVG2bSEXS5HMCQydTOnjw+VhxJYnvFPvNt3mgqhM/qwsBtvioCPcmB7uA+LFvz9ltRksFto9qS115lQMqqLBVhq+f020hSmn56gbnsFxgfiUzhAYmiKmPrV3o/Tn/e8XOIB5iJMv7OGao4CFukNG+i7e2SLIqTg6g1tO3afLrUxbVB9IGbUXO8PyOCGxQe84xN3+fnjkKR1jIh6TM06hoTv6U4Ln8qOjlWodGCwNGbXjGGMu7t0ArSbZyQ1ToZxw8SVsF0o8c9nnpZXdigsaXO6WaWETcE2tDSVDqwxHVnkyXQ7hlvg01od8B4d11C9wZKGsirPRF06Mh2471y/G3NKbvGaPnfSZMQ9nPogNRkMVKal1xSXsnznuCFkkFyQ470Rw1SeMJwdx45dl1Jcrm7r6WQJSIpdIo+TZtGtodz0L1pLdgsRPyP+iAIAH0fJsTXjbvwJpQb2mMsKU4aAb+tV1/+FmPG/vn0JIfPC9YSEcarAEPCurmB5N26IvIo75fkKA1TNOM8eTMMpNtApcdguKu7fC/1WVA112ioREh7hTG+f0HMztBNh4t5fI2R69QET29LqnP6kNT/OEy9b8l1tU/QK3aH4TqFu9DcAxX3MgJLcIInXQ0YafXTN7tA7vNY41EtFEq+/in1L6jejcB2YuhQlI1G9YiAySkUb1wHjkjGDyb+3OsWGf8yJ6xHhjud4hEfFap3FWHriug6QBMG83wQsV2HHwk0FYmFXzKZsOBwa1u6nt7FkalrrrhudlqkqEd4U06SoWTZ0hJXld/d7HWt0i86RsKA1finjnBbtn8viOqjazCOXgV148q9naUsVqnbtLPCYfZXrdMPLYjN3wx7ZrYWSAC5RkHJmcdgsHmCUo8zKTAHLfLZzLBkZOiajqBAA/OoztQoT92bMk4VnrWa8BD2w8I+lT2JchYXLTu8E/yFHH+mZHNsU6dM0PBZgafMDM8NIgsuO5YiTej0uYcDk60fjOkbTnUtQT7KOF+kkVQHcOI6FwwwLAE0nJwIjUiy4wCQdD1dApHT1eEk7N99eFsn9VzBzs/WuYlEjH0NfAuDAUg8wXBRNAYsp3eMxlmpIatStTwe2rKbxvFmr8Ie2PfeGdxsIWxAFmLMkTHru0ZNBFdiC5owXKtox25ZtXhLjg/QLL5MEFzyKXKvJqBDkMUAjlVUzYFok+07thJCYJmzGFmcoscA2IAazWB2a6rCMrLX79eMsWCE/ORXd9cFOo72sfIPdVWhi5jed7O9MTETwFLbHz+c4IJt5XNTOcsBmsyauuQz5UUECjHOLcI3IqtoBn35TIT5VOXPnX/5u9qiAvMdNIB/k1ys2zhGcCvusGZvKQwNOQAxY3CA51hD8jSM4jC+/GlaUw+is3bZrmHDSX9x7vT32EsmzkjxyZXMHJ5TluB4DhGuJ4Dla45G2UOLrdU7UwAjnaQ7HK+OsGhMDynSh/XOLFImWdwWZsBfxkJ3aYm8a2bk14TiZ7piiaMG3UEINnMSOsBBFs/Llxl03D0kwKlc91ldUb9jUcg3wELWgc5fPuDsXYJOLqbRHBz57c+jtoQgYhaGDOP203XDwCm4S+AwaPY6YGRhJod34rKSApZu4uKwt9w4jNK26QEHzYHmEPasqs4o3uz3T41Sxu2leFfTJv+qThIiGhIvSF2Z9q39iNjc"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236660,
+    "id": "MQhKavvHOp2D0-kP0faGoAE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 314,
+      "total_tokens": 603
+    }
+  }
+}

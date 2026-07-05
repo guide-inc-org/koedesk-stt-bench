@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0040",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 17.82,
+  "ref_text_raw": "一般的に言えば、管理職がかつての仲間を率いることになった場合、2とおりの行動が現れる可能性があります。1つは「仲間の1人」のままでいようとする行動です。",
+  "ref_text_normalized": "一般的に言えば 管理職がかつての仲間を率いることになった場合 2とおりの行動が現れる可能性があります 1つは 仲間の1人 のままでいようとする行動です",
+  "timestamp_utc": "2026-07-05T10:15:09Z",
+  "text": "一般 的 に 言え ば 、 管理 職 が かつて の 仲間 を 率いる こと に なっ た 場合 、 二 通り の 行動 が 現れる 可能 性 が あり ます 。 1 つ は 、 仲間 の 1人 の まま で いよう と する 行動 です 。",
+  "latency_sec": 3.0675,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "一般 的 に 言え ば 、 管理 職 が かつて の 仲間 を 率いる こと に なっ た 場合 、 二 通り の 行動 が 現れる 可能 性 が あり ます 。 1 つ は 、 仲間 の 1人 の まま で いよう と する 行動 です 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPb9e3gfKrlH6y8Te8nXrC8ZfMfYHQ49pZYd75fmbFA9wksNh9m6AswEJfJNJn"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246509,
+    "id": "qy5KapufLYfEvr0P5fGP6AE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 63,
+      "prompt_tokens": 467,
+      "total_tokens": 530
+    }
+  }
+}

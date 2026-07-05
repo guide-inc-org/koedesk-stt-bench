@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0193",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 16.56,
+  "ref_text_raw": "NextGen là hệ thống mà FAA tuyên bố sẽ cho phép máy bay bay quãng đường ngắn hơn và tiết triệu hàng triệu gallon nhiên liệu mỗi năm và cắt giảm lượng khí thải cacbon.",
+  "ref_text_normalized": "nextgen là hệ thống mà faa tuyên bố sẽ cho phép máy bay bay quãng đường ngắn hơn và tiết triệu hàng triệu gallon nhiên liệu mỗi năm và cắt giảm lượng khí thải cacbon",
+  "timestamp_utc": "2026-07-05T08:49:20Z",
+  "text": "NextGen là hệ thống mà FAA tuyên bố sẽ cho phép máy bay bay quãng đường ngắn hơn và tiết triệu, hàng triệu gallon nhiên liệu mỗi năm và cắt giảm lượng khí thải carbon.",
+  "latency_sec": 2.996,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "NextGen là hệ thống mà FAA tuyên bố sẽ cho phép máy bay bay quãng đường ngắn hơn và tiết triệu, hàng triệu gallon nhiên liệu mỗi năm và cắt giảm lượng khí thải carbon.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPS9YPv0aAdzD8A0veBK9/I+hVy+zOXM7wnKDVvFhMuEkvEG4xWBjDIJQwhYjc"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241360,
+    "id": "jhpKarjSOpSi9tMP8vOl4AE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 435,
+      "total_tokens": 473
+    }
+  }
+}

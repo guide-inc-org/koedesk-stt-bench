@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0027",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.08,
+  "ref_text_raw": "Bien que Goma soit raisonnablement sûre, toute visite à l'extérieur de Goma doit faire l'objet de recherches pour comprendre l'état des combats qui persistent dans la province du Nord-Kivu.",
+  "ref_text_normalized": "bien que goma soit raisonnablement sûre toute visite à l'extérieur de goma doit faire l'objet de recherches pour comprendre l'état des combats qui persistent dans la province du nord-kivu",
+  "timestamp_utc": "2026-07-05T05:11:05Z",
+  "text": "Bien que Goma soit raisonnablement sûre, toute visite à l'extérieur de Goma doit faire l'objet de recherche pour comprendre l'état des combats qui persistent dans la province du Nord-Kivu.",
+  "latency_sec": 2.84,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Bien que Goma soit raisonnablement sûre, toute visite à l'extérieur de Goma doit faire l'objet de recherche pour comprendre l'état des combats qui persistent dans la province du Nord-Kivu.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPSrzT5rYix/+X/ybp4pSKzpJqUHrAGJNEMLz6oM6c2TxUzOq02Jq2aZDDmwJq"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228265,
+    "id": "Z-dJauGKOsTs1e8Px-GUwQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 273,
+      "total_tokens": 318
+    }
+  }
+}

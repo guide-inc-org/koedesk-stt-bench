@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0106",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 18.24,
+  "ref_text_raw": "例えば、世界で最も普及している静止画写真のフィルム形式は35 mmで、これはアナログフィルム時代の終わり頃には主流のフィルムサイズでした。",
+  "ref_text_normalized": "例えば 世界で最も普及している静止画写真のフィルム形式は35 mmで これはアナログフィルム時代の終わり頃には主流のフィルムサイズでした",
+  "timestamp_utc": "2026-07-05T03:17:29Z",
+  "text": "例えば、世界で最も普及している静止画写真のフィルム形式は35mmで、これはアナログフィルム時代の終わり頃には主流のフィルムサイズでした。",
+  "latency_sec": 3.0281,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "例えば、世界で最も普及している静止画写真のフィルム形式は35mmで、これはアナログフィルム時代の終わり頃には主流のフィルムサイズでした。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPi5g65cMdoZvo76nNGq0scI9934g7x/QuDrk84wEspWF6F0OOBsdq3exr0ZJz"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221449,
+    "id": "yMxJarWmGPeZ0-kP0vvOuQE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 477,
+      "total_tokens": 510
+    }
+  }
+}

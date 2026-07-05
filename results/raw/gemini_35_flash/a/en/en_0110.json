@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0110",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.02,
+  "ref_text_raw": "Congress began funding the obscenity initiative in fiscal 2005 and specified that the FBI must devote 10 agents to adult pornography.",
+  "ref_text_normalized": "congress began funding the obscenity initiative in fiscal 2005 and specified that the fbi must devote 10 agents to adult pornography",
+  "timestamp_utc": "2026-07-05T03:32:53Z",
+  "text": "Congress began funding the obscenity initiative in fiscal 2005 and specified that the FBI must devote ten agents to adult pornography.",
+  "latency_sec": 3.3669,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Congress began funding the obscenity initiative in fiscal 2005 and specified that the FBI must devote ten agents to adult pornography.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Eq4FCqsFARFNMg9jJHZPZaacxIEedyhT1Zjz3FREw00YYqT/0fFh6XZf9KW5pMqWqjcWjfHA7hJrm5J8v8Wq6/98NJkJXqbuKRgCihgNaeEF8yNGTfDZZ2mARGg/X4NFF9exis25N6NaAN6M83fBcXfRdpK/7JCtdQ7iTQ/jeztdJ16Lk2mIhUtGZ076+iiEc//jug7fa29ctga8PWx2MIWergKszZw5/d/oS/e0xgYRF/Q/VwzjxGmuI7uO4dNvP2kLl37msgz3pjnr4Rk8O8HO165TTgLDX9YLrgh/i41Jg6mCel8lbmLfBjWOMfWEqtRtrOq+7VcQgYFs4ygkcfoZBRqi/XFjjSgsAOgqaE6dqqVO1NB2InG2Q9+Yrvds02zf+29Aqge58hE1OZVSTQ8p9ic37Fq8fW4588pJgnt9nwQsxGTj6dGqJfFEJRm9OpgSXajbC+Vd30ihmTAU+q6aNna8AtIKTrqKWX41yMQuBxLJO4S/qQYgXtHdON8CocL4gAFsMWWwNtH7EjcI8rnRP/Gl4X0+QOPmJ/t2ZlGHEC7yzDoSaEnkZcCDND3U0o7Zx0qWVzERYk8T6ac8KTMJ2kMlMxfl+V4GqxB5FGexIuSw2pcVDMCuh3dMhjAFcoWmm01F1bSAMotERFGM0SAQb7zcGq4a3BbcYQGSenVQ/Cphwi9SFDP3CKtV8cWK4ExfxBLb5hfh0Hkx6FsB7jRztMxLteoIJXESuzgUvW5BAjpQ48rmYAmVoO/ejSHwyIu8Ydz3AcPebUMCSxzK50G0V6qKUB0CaW5xXjZXpAhMUmXmCH39e5edTuOB2+aOXB9AE1WJv2ST8JxrusC2GcxVQco7szlm0JkOzjPMtoiTfhAXr8HmBaWZN2hJM+FGnQXKF/mkP6+iHDaw2uk8rfQ="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222373,
+    "id": "Y9BJaoeTIY-V9tMPqJa8yAI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 272,
+      "total_tokens": 447
+    }
+  }
+}

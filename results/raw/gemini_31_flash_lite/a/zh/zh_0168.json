@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0168",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.4,
+  "ref_text_raw": "澳大利亚选手米切尔·古尔力获得男子站姿超级大回转比赛第十一名。捷克选手奥德里奇·耶利内克获得男子坐姿超级大回转比赛第十六名。",
+  "ref_text_normalized": "澳 大 利 亚 选 手 米 切 尔 古 尔 力 获 得 男 子 站 姿 超 级 大 回 转 比 赛 第 十 一 名 捷 克 选 手 奥 德 里 奇 耶 利 内 克 获 得 男 子 坐 姿 超 级 大 回 转 比 赛 第 十 六 名",
+  "timestamp_utc": "2026-07-05T09:20:46Z",
+  "text": "澳大利亚选手米切尔·古尔利获得男子站姿超级大回转比赛第11名；捷克选手奥德里奇·耶利内克获得男子坐姿超级大回转比赛第16名。",
+  "latency_sec": 3.4769,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "澳大利亚选手米切尔·古尔利获得男子站姿超级大回转比赛第11名；捷克选手奥德里奇·耶利内克获得男子坐姿超级大回转比赛第16名。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPMIO3nFm36uYi5hwLdOKXiKGrUWMr1+nCbrGMv7D7nKnUE93vhVYZRVkpGUiE"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243246,
+    "id": "7CFKaoG6Ivyk0-kP9PODwAc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 49,
+      "prompt_tokens": 381,
+      "total_tokens": 430
+    }
+  }
+}

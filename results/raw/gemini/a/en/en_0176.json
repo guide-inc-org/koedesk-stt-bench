@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0176",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.94,
+  "ref_text_raw": "Between 10:00-11:00 pm MDT, a fire was started by the inmates in the yard.",
+  "ref_text_normalized": "between 10:00-11:00 pm mdt a fire was started by the inmates in the yard",
+  "timestamp_utc": "2026-07-05T03:30:23Z",
+  "text": "between 10:00 to 11:00 p.m. mountain time, a fire was started by the inmates in the yard.",
+  "latency_sec": 4.3608,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "between 10:00 to 11:00 p.m. mountain time, a fire was started by the inmates in the yard.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222223,
+    "id": "zM9JasPYE6zmosUPj8LSwAE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 308,
+      "total_tokens": 365
+    }
+  }
+}

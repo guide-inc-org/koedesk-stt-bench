@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0164",
+  "lang": "de",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.2,
+  "ref_text_raw": "Der pH-Level weist auf die Menge der Wasserstoffionen (das H in pH) in den getesteten Chemikalien hin.",
+  "ref_text_normalized": "der ph-level weist auf die menge der wasserstoffionen das h in ph in den getesteten chemikalien hin",
+  "timestamp_utc": "2026-07-05T03:56:15Z",
+  "text": "Der pH-Level weist auf die Menge der Wasserstoffionen, das H im pH, in den getesteten Chemikalien hin.",
+  "latency_sec": 5.0222,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Der pH-Level weist auf die Menge der Wasserstoffionen, das H im pH, in den getesteten Chemikalien hin.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223775,
+    "id": "29VJasbBDaqj9tMPiaisiAI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 348,
+      "total_tokens": 577
+    }
+  }
+}

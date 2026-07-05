@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0121",
+  "lang": "de",
+  "engine": "gemini_25_pro",
+  "duration_sec": 6.18,
+  "ref_text_raw": "Die Teilnehmerzahl war so groß, dass es nicht allen möglich war, Zugang zur Bestattung auf dem Petersplatz zu erhalten.",
+  "ref_text_normalized": "die teilnehmerzahl war so groß dass es nicht allen möglich war zugang zur bestattung auf dem petersplatz zu erhalten",
+  "timestamp_utc": "2026-07-05T03:52:00Z",
+  "text": "Die Teilnehmerzahl war so groß, dass es nicht allen möglich war, Zugang zur Bestattung auf dem Petersplatz zu erhalten.",
+  "latency_sec": 5.2875,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Die Teilnehmerzahl war so groß, dass es nicht allen möglich war, Zugang zur Bestattung auf dem Petersplatz zu erhalten.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223520,
+    "id": "3NRJas37JsTs1e8Pu-GUwQI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 219,
+      "total_tokens": 436
+    }
+  }
+}

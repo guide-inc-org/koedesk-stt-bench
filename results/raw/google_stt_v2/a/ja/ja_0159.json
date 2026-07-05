@@ -1,0 +1,36 @@
+{
+  "utt_id": "ja_0159",
+  "lang": "ja",
+  "engine": "google_stt_v2",
+  "duration_sec": 12.54,
+  "ref_text_raw": "革命後は職業も公募制になって男性全員に応募資格があり、最も意欲があって勝ち抜いた者が職に就けるようになりました。",
+  "ref_text_normalized": "革命後は職業も公募制になって男性全員に応募資格があり 最も意欲があって勝ち抜いた者が職に就けるようになりました",
+  "timestamp_utc": "2026-07-05T03:20:39Z",
+  "text": "革命後は職業も公募制になって男性全員に応募資格があり、最も意欲があって勝ち抜いた者が職に付けれるようになりました。",
+  "latency_sec": 4.7275,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "ja-JP",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "13s",
+      "requestId": "6b823cc5-0000-272f-a05b-7474463c3b25",
+      "prompt": "Transcribe the following speech segment in Japanese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Japanese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "革命後は職業も公募制になって男性全員に応募資格があり、最も意欲があって勝ち抜いた者が職に付けれるようになりました。"
+          }
+        ],
+        "languageCode": "ja-JP"
+      }
+    ]
+  }
+}

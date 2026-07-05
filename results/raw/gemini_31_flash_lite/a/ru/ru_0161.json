@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0161",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.12,
+  "ref_text_raw": "Ученые смогли сделать вывод, что темная материя воздействует на другую темную материю так же, как и в случае с обычной материей.",
+  "ref_text_normalized": "ученые смогли сделать вывод что темная материя воздействует на другую темную материю так же как и в случае с обычной материей",
+  "timestamp_utc": "2026-07-05T07:36:56Z",
+  "text": "Учёные смогли сделать вывод, что тёмная материя воздействует на другую тёмную материю так же, как и в случае с обычной материей.",
+  "latency_sec": 4.1057,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Учёные смогли сделать вывод, что тёмная материя воздействует на другую тёмную материю так же, как и в случае с обычной материей.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPqhyL9dOfER3PzMhlAr1z3QurFnU6PV2p3MdgYYAbZqpjEQMzKaJ7x7yZ7H5q"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237016,
+    "id": "lglKatKMMoTG0-kPurji2AU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 249,
+      "total_tokens": 283
+    }
+  }
+}

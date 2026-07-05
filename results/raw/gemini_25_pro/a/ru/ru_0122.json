@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0122",
+  "lang": "ru",
+  "engine": "gemini_25_pro",
+  "duration_sec": 8.76,
+  "ref_text_raw": "Столицей Молдовы является Кишинёв. Местный язык — румынский, но русский также широко распространён.",
+  "ref_text_normalized": "столицей молдовы является кишинёв местный язык румынский но русский также широко распространён",
+  "timestamp_utc": "2026-07-05T07:18:52Z",
+  "text": "Столицей Молдовы является Кишинёв. Местный язык — румынский, но русский также широко распространён.",
+  "latency_sec": 4.9103,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Столицей Молдовы является Кишинёв. Местный язык — румынский, но русский также широко распространён.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235932,
+    "id": "WQVKaoz0Bp2_vr0Piquy2Q0",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 302,
+      "total_tokens": 487
+    }
+  }
+}

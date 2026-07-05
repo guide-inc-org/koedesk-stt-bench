@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0153",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.24,
+  "ref_text_raw": "A simple popular dinner, especially during the summer, is the Pa amb Oli: Bread with olive oil, tomato, and any available condiments such as cheese, tunafish, etc.",
+  "ref_text_normalized": "a simple popular dinner especially during the summer is the pa amb oli bread with olive oil tomato and any available condiments such as cheese tunafish etc",
+  "timestamp_utc": "2026-07-05T03:36:27Z",
+  "text": "A simple, popular dinner, especially during the summer, is the pa amb oli: bread with olive oil, tomato, and any available condiments, such as cheese, tuna fish, etc.",
+  "latency_sec": 3.0619,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "A simple, popular dinner, especially during the summer, is the pa amb oli: bread with olive oil, tomato, and any available condiments, such as cheese, tuna fish, etc.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPpGm9ItiuszBIJQ5aeQsHiyahR9F0sohAKYKVGwHzKq+1psJwDcs1vWpvL4ws"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222587,
+    "id": "OdFJas2fK9Lu1e8P1-bXkAI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 327,
+      "total_tokens": 365
+    }
+  }
+}

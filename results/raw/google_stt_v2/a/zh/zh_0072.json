@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0072",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 19.3,
+  "ref_text_raw": "虽然没有人能确定作者是谁，但这个大型羊皮纸文档（尺寸为 29¾ 英寸乘以 24½ 英寸）据称在刚写成的时候是卷起来存放的。",
+  "ref_text_normalized": "虽然没有人能确定作者是谁但这个大型羊皮纸文档尺寸为 29¾ 英寸乘以 24½ 英寸据称在刚写成的时候是卷起来存放的",
+  "timestamp_utc": "2026-07-05T06:24:45Z",
+  "text": "虽然没有人能确定作者是谁,但这个大型羊皮纸文档尺寸为293/4英寸 x 241/2英寸,据称在刚写成的时候是卷起来存放的。",
+  "latency_sec": 5.7943,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "20s",
+      "requestId": "74484447-0000-2750-8a3f-30fd3814de80",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "虽然没有人能确定作者是谁,但这个大型羊皮纸文档尺寸为293/4英寸 x 241/2英寸,据称在刚写成的时候是卷起来存放的。"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

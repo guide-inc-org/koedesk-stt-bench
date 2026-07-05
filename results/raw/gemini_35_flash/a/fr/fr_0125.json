@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0125",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.52,
+  "ref_text_raw": "Il est donc probable que la notation a été ajoutée simplement comme une étiquette.",
+  "ref_text_normalized": "il est donc probable que la notation a été ajoutée simplement comme une étiquette",
+  "timestamp_utc": "2026-07-05T05:12:34Z",
+  "text": "Il est donc probable que la notation a été ajoutée simplement comme une étiquette.",
+  "latency_sec": 3.781,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Il est donc probable que la notation a été ajoutée simplement comme une étiquette.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "ErUFCrIFARFNMg9l6SfC+17YIQ/qRV9Wjry7kGZmmZJmdDmzdX4W5BRWHMCduVDJzIrSEyhD7x+q0YbPt8lyAb2Rfs+Sk9YdFEW3vhXVh7RoDA9FIfHjg/ugt3kGl1PIlximcWDpWUfjsU9g0ya/3ZsUd5cCm6nq3FSk4XqqSelS/PyRAFJW/NbrQcc1HXn+PwQgZy7du8zU8bHZPh+44EQgdJqY8VjsXYv1wm0BRB8CB7Kog/k26U/QpKiSp2iNle/jogQAl5UjnuT8bBkEuN9wby+RpA5VcBhupf5ZRhLhOABE+jkE56tMYFv2jW2eAEe3q+RA0u54NIekQ38pH0NsEu8vqvsSGQVVLEK7S0w500pg+P9tDYjF2Hu6jTJokRmjdJCL1oxamq4zfGJ8Vik/vxy5CZULCwGewCbScbb8G9dAOXOS9wTZ3Qu0Xf6HDSryxwvResTF/lbBDID7pjhuYb/LlfbfPKGG7bFukKz+g/7vLdLsoZmP7/ALyPv9gA99diGC6KxGmBRcHUckyQLG4+VtILgivpehfzotIOWbARe+pWgR0yZqWCNUAAysareGDHQ6QqqIVaXtGtD3N9Ed+N3ocbmq2D5Twqc9eyrQ3Djf59PW5XQ4pqn2AMdpWOrzGxcD8iit+UlquMRF03/Rldh+XUeGStcZAdB8sMPTs40bFC4qNA6hCqf4C6imi0qzxBefHAADj4pmk0TpPTdlBlncv9eUACMu1Vc82mobH1OX5BsgP9UQWv+dZqNa/NhJb41Lmgh0iBfVB/sAg2dSwt2VGq4M9XisHqh6xszS06f6Bw+ZsuEa6SZcjcH9IU6pEVvP9ZD2d7OIKvtDB7sN+dpPfqO53mkcvodxtSlrk9PkDSSVoidjeFUXbA9KdeaTvpv1fjAZdSP4loORpjx8hqmpc0j/"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228354,
+    "id": "v-dJauLuJMmD0-kPmZ7guAM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 17,
+      "prompt_tokens": 234,
+      "total_tokens": 418
+    }
+  }
+}

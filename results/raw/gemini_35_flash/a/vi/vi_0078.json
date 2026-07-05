@@ -1,0 +1,45 @@
+{
+  "utt_id": "vi_0078",
+  "lang": "vi",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 21.3,
+  "ref_text_raw": "Bốn vận động viên trượt tuyết trong đội nữ đã không hoàn tất được cuộc đua, và 45 trong tổng số 117 vận động viên trượt tuyết ở môn Giant Slalom không giành được vị trí trong bảng xếp hạng.",
+  "ref_text_normalized": "bốn vận động viên trượt tuyết trong đội nữ đã không hoàn tất được cuộc đua và 45 trong tổng số 117 vận động viên trượt tuyết ở môn giant slalom không giành được vị trí trong bảng xếp hạng",
+  "timestamp_utc": "2026-07-05T08:35:28Z",
+  "text": "Bốn vận động viên trượt tuyết trong đội nữ đã không hoàn thành tất cù đua và 45 trong tổng số 117 vận động viên trượt tuyết ở môn Gan La lôm không giành được vị trí trong bảng xếp hạng.",
+  "latency_sec": 7.7627,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Bốn vận động viên trượt tuyết trong đội nữ đã không hoàn thành tất cù đua và 45 trong tổng số 117 vận động viên trượt tuyết ở môn Gan La lôm không giành được vị trí trong bảng xếp hạng.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240528,
+    "id": "ShdKasynKpr22roP4enR6AU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 53,
+      "prompt_tokens": 554,
+      "total_tokens": 1618
+    }
+  }
+}

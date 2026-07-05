@@ -1,0 +1,36 @@
+{
+  "utt_id": "fr_0088",
+  "lang": "fr",
+  "engine": "google_stt_v2",
+  "duration_sec": 5.4,
+  "ref_text_raw": "Une recherche sur internet de « Cours en environnement hostile » fournira probablement l'adresse d'une entreprise locale.",
+  "ref_text_normalized": "une recherche sur internet de « cours en environnement hostile » fournira probablement l'adresse d'une entreprise locale",
+  "timestamp_utc": "2026-07-05T04:23:59Z",
+  "text": "Une recherche sur internet de courant environnement, s'il fournira probablement adresse d'une entreprise locale.",
+  "latency_sec": 3.1066,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "fr-FR",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "6s",
+      "requestId": "76bd69a1-0000-2d85-b51b-34c7e94842bb",
+      "prompt": "Transcribe the following speech segment in French. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, French."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Une recherche sur internet de courant environnement, s'il fournira probablement adresse d'une entreprise locale."
+          }
+        ],
+        "languageCode": "fr-FR"
+      }
+    ]
+  }
+}

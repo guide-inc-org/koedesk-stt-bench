@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0011",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.28,
+  "ref_text_raw": "For example, each year students from Bennet School in North Carolina design a website about their trip to the State Capital, each year the website gets remodeled, but old versions are kept online to serve as a scrapbook.",
+  "ref_text_normalized": "for example each year students from bennet school in north carolina design a website about their trip to the state capital each year the website gets remodeled but old versions are kept online to serve as a scrapbook",
+  "timestamp_utc": "2026-07-05T10:20:01Z",
+  "text": "For example, each year students from Bennett School in North Carolina design a website about their trip to the state capital. Each year the website gets remodeled, but old versions are kept online to serve as a scrapbook.",
+  "latency_sec": 3.4128,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "For example, each year students from Bennett School in North Carolina design a website about their trip to the state capital. Each year the website gets remodeled, but old versions are kept online to serve as a scrapbook.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246801,
+    "id": "zy9KarLdCKa3vr0PlMyl0QE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 42,
+      "prompt_tokens": 382,
+      "total_tokens": 457
+    }
+  }
+}

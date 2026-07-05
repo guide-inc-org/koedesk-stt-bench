@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0154",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.72,
+  "ref_text_raw": "On the other hand, icy and snowy conditions are normal in many countries, and traffic goes on mostly uninterrupted all year round.",
+  "ref_text_normalized": "on the other hand icy and snowy conditions are normal in many countries and traffic goes on mostly uninterrupted all year round",
+  "timestamp_utc": "2026-07-05T03:36:30Z",
+  "text": "On the other hand, icy and snowy conditions are normal in many countries and the traffic goes on most uninterrupted all year round.",
+  "latency_sec": 2.726,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "On the other hand, icy and snowy conditions are normal in many countries and the traffic goes on most uninterrupted all year round.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPrdvR9zx1qmzVv21Ezmt8wyMFgzCref9pdvDoYDQPWtZdGYnnONDDbzHmzb/X"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222590,
+    "id": "PdFJaubQDZHNrfcPvY_ZsAY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 265,
+      "total_tokens": 290
+    }
+  }
+}

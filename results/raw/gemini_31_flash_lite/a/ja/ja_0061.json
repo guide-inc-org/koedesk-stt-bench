@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0061",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.8,
+  "ref_text_raw": "最も被害が大きかった頃の公害は現在とは問題の種類が異なり、都市部や学校の校庭で発生していたため、現代の問題よりも身近なものでした。",
+  "ref_text_normalized": "最も被害が大きかった頃の公害は現在とは問題の種類が異なり 都市部や学校の校庭で発生していたため 現代の問題よりも身近なものでした",
+  "timestamp_utc": "2026-07-05T10:16:26Z",
+  "text": "最も 被害 が 大きかっ た 頃 の 公害 は 現在 と は 問題 の 種類 が 異なり 、 都市 部 や 学校 の 校庭 で 発生 し て い た ため 、 現代 の 問題 より も 身近 な もの でし た 。",
+  "latency_sec": 2.9652,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "最も 被害 が 大きかっ た 頃 の 公害 は 現在 と は 問題 の 種類 が 異なり 、 都市 部 や 学校 の 校庭 で 発生 し て い た ため 、 現代 の 問題 より も 身近 な もの でし た 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPbVwNqtVh5hX65UqWqQNLTw/REmZB7s701UX/Xro1gkdaGGHUBymuuD4wCDre"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246586,
+    "id": "-S5Kav2-FoKhvr0P0-6Y8AY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 55,
+      "prompt_tokens": 366,
+      "total_tokens": 421
+    }
+  }
+}

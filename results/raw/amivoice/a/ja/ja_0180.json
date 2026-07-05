@@ -1,0 +1,121 @@
+{
+  "utt_id": "ja_0180",
+  "lang": "ja",
+  "engine": "amivoice_general",
+  "duration_sec": 7.8,
+  "ref_text_raw": "後に彼はケンブリッジのアデンブルック病院に転院しました。",
+  "ref_text_normalized": "後に彼はケンブリッジのアデンブルック病院に転院しました",
+  "timestamp_utc": "2026-07-05T03:11:26Z",
+  "text": "後に彼はケンブリッジのブロック病院に転院しました。",
+  "latency_sec": 1.6716,
+  "params": {
+    "endpoint": "https://acp-api.amivoice.com/v1/recognize",
+    "grammarFileNames": "-a-general",
+    "logging": true,
+    "audio_conversion": "float32 wav -> pcm_16 wav (same samples)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "results": [
+      {
+        "tokens": [
+          {
+            "written": "後",
+            "confidence": 0.79,
+            "starttime": 1836,
+            "endtime": 2108,
+            "spoken": "のち"
+          },
+          {
+            "written": "に",
+            "confidence": 1.0,
+            "starttime": 2108,
+            "endtime": 2220,
+            "spoken": "に"
+          },
+          {
+            "written": "彼",
+            "confidence": 1.0,
+            "starttime": 2220,
+            "endtime": 2476,
+            "spoken": "かれ"
+          },
+          {
+            "written": "は",
+            "confidence": 1.0,
+            "starttime": 2476,
+            "endtime": 2572,
+            "spoken": "は"
+          },
+          {
+            "written": "ケンブリッジ",
+            "confidence": 1.0,
+            "starttime": 2604,
+            "endtime": 3212,
+            "spoken": "けんぶりっじ"
+          },
+          {
+            "written": "の",
+            "confidence": 1.0,
+            "starttime": 3212,
+            "endtime": 3404,
+            "spoken": "の"
+          },
+          {
+            "written": "ブロック",
+            "confidence": 0.92,
+            "starttime": 3916,
+            "endtime": 4348,
+            "spoken": "ぶろっく"
+          },
+          {
+            "written": "病院",
+            "confidence": 0.98,
+            "starttime": 4348,
+            "endtime": 4604,
+            "spoken": "びょういん"
+          },
+          {
+            "written": "に",
+            "confidence": 0.94,
+            "starttime": 4604,
+            "endtime": 4748,
+            "spoken": "に"
+          },
+          {
+            "written": "転院",
+            "confidence": 0.99,
+            "starttime": 4748,
+            "endtime": 5052,
+            "spoken": "てんいん"
+          },
+          {
+            "written": "しました",
+            "confidence": 1.0,
+            "starttime": 5052,
+            "endtime": 5628,
+            "spoken": "しました"
+          },
+          {
+            "written": "。",
+            "confidence": 0.79,
+            "starttime": 5628,
+            "endtime": 5884,
+            "spoken": "_"
+          }
+        ],
+        "confidence": 0.994,
+        "starttime": 0,
+        "endtime": 5884,
+        "tags": [],
+        "rulename": "",
+        "text": "後に彼はケンブリッジのブロック病院に転院しました。"
+      }
+    ],
+    "utteranceid": "20260705/12/019f304263c80a30393594c5_20260705_121125",
+    "text": "後に彼はケンブリッジのブロック病院に転院しました。",
+    "code": "",
+    "message": ""
+  }
+}

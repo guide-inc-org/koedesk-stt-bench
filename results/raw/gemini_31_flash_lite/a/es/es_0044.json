@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0044",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.0,
+  "ref_text_raw": "Imagínese la pista de esquí como una ruta de senderismo.",
+  "ref_text_normalized": "imagínese la pista de esquí como una ruta de senderismo",
+  "timestamp_utc": "2026-07-05T04:36:20Z",
+  "text": "Imagínese la pista de esquí como una ruta de senderismo.",
+  "latency_sec": 3.1514,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Imagínese la pista de esquí como una ruta de senderismo.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPI3NdM2eH8JMuT6Tj44EOKN4RcHAuEl3kPCn0hLG6OSIpdTwilR5bsq4/jnDU"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226180,
+    "id": "Qt9JasnXKKqj9tMPiaisiAI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 15,
+      "prompt_tokens": 171,
+      "total_tokens": 186
+    }
+  }
+}

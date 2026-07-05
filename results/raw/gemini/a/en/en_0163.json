@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0163",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 20.76,
+  "ref_text_raw": "Europe is a continent that is relatively small but with many independent countries. Under normal circumstances, travelling through multiple countries would mean having to go through visa applications and passport control multiple times.",
+  "ref_text_normalized": "europe is a continent that is relatively small but with many independent countries under normal circumstances travelling through multiple countries would mean having to go through visa applications and passport control multiple times",
+  "timestamp_utc": "2026-07-05T03:29:26Z",
+  "text": "Europe is a continent that is relatively small, but with many independent countries. Under normal circumstances, traveling through multiple countries would mean having to go through visa applications and passport control multiple times.",
+  "latency_sec": 3.7554,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Europe is a continent that is relatively small, but with many independent countries. Under normal circumstances, traveling through multiple countries would mean having to go through visa applications and passport control multiple times.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222166,
+    "id": "lM9Jat2aCYvb2roP5ayN6AY",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 686,
+      "total_tokens": 723
+    }
+  }
+}

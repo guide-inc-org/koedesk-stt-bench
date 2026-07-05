@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0087",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 16.5,
+  "ref_text_raw": "摩洛哥苏丹将该市重建为 Daru l-Badya。西班牙商人在这里建立了贸易基地，并将其命名为卡萨布兰卡。",
+  "ref_text_normalized": "摩 洛 哥 苏 丹 将 该 市 重 建 为 daru l-badya 西 班 牙 商 人 在 这 里 建 立 了 贸 易 基 地 并 将 其 命 名 为 卡 萨 布 兰 卡",
+  "timestamp_utc": "2026-07-05T09:13:30Z",
+  "text": "摩洛哥苏丹将该市重建为达鲁巴达亚，西班牙商人在这里建立了贸易基地，并将其命名为卡萨布兰卡。",
+  "latency_sec": 5.6771,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "摩洛哥苏丹将该市重建为达鲁巴达亚，西班牙商人在这里建立了贸易基地，并将其命名为卡萨布兰卡。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Et8KCtwKARFNMg+krbetWHLg4yy66RXQjs2lDxHBvBMEfSuDyAUK1/22tpTI9T4ZY7syUQQRN1l3XmeZo32T7BWuiFC4Wxd3nNgdqm/qlOqN1hvGuV0iMINO7sj7l3mbby9kuruZ3mA7/oqaOesit5INyfJl0FTYWREKu8Yn2j0INETuTPErMBvSeZsINPgK2/gp2CCzZ/aWoUhNalQh1ToiVFn6kfEIWygJlEZuZ1VrMSgDYMD7C9cIGwCHRIgqbT5QskbH5NBT1ZSyvM1Ep43P/Zf69G0WUWAa68By1zQKAawkmtgv6mcTqDJPvX2C0TuMzVrjIX5/R5pUd4/fEMlHqtj7GAAtWaOouACYyeY246pp2gnqPxJR1/VC/v0fzNU2NFgOm1bRdoaCIAWyUlXHScVKsimHrtQitIpIlNyFYgDajjafUWRQ29ulLkhHoFyMO6udJrRL9GAzLV8CoeTUwqvG4KMnHZdwYueH+a0f7XwyM1dXRnQRJUY/1tkpkm8qi7eFPdEpXyJYtU5OPp1c+AuN4pyEHeZ6RvG5mCk23LYo2xuGbzIkHfN2b6ZsbnDzEvwInRqjT3WGFeKwfJc+uNSncxC87bDvxTbzLB2pmiwAQdTWoKWAVCie8les5vru8ixC+dQ9X3QSXUqPlts93qNekykiD5qZouAXa8xuJNjw3SBvIZzUhOpbqgBppYtYClE0MerZjf3e+BAFe818KAXDcwqlXIp58l8Kjc36MqqSWI9PSDEAKis+5oNF7jyAJ4Fj7DpvSyU0p+o8ibJzHp6/cCB9jg3Kx9PK0JiqGEiResg6z+4bYUWGMZF1Hn88nJrQY+ncICMpEbABJOn35Ibop/Ysaj+kvTqV0kEATIvWxFjl266lcZ8fSq0L8bVsC3Lz1PqLcLzv/ixNhr8ElK9Shgc/WU0dA6p3y2s+iqpwcaLlDg5aJsj0GfSUZ1S5THsQs1WObNbmB2cCE9//V5OF+10Qfg7+5XheFXPDOCYopDQseeMP+Hl1C4AmC9ThjXJdb1BCCRyXuqrZAlS4YwTDXE4VipkhPpH8dfUvpzb4DI6QANML0judvs7iqlWse2ijjAGjZvbvaWP/woFdbeRfRqQ4j6cZrjPf1+YE6/xnGcmetHtwlU54RXiMsnCK9YxPOgQTQBS+54tZYD8DZ3cOo8Kn7QYoH94UPmhzOZH5j3rDa8ZikNQZpok5+pzuVb5iMUmwj1MT65SkwkCcmme6srKskQ0P0jlRnu6qak8C6SgvlgRtnKjvpl7+KLMtmrqLNdvtk4KSQKLJKkkR0VXgIs9Py/v6BS0jIXLxqBtoWba4wVN06x7TppTThod2UBCVmA11xGMrumzb8fkNJpqLLX130pdwGzN+MoKTYq3C3pVFXem+qwLHx6lrxMsTxVmGHHryNoYwQKo8hCFLxQ6GtZJrOxXkKnsAnrZVyqvO1hGjWJPTsZO8D+Bil7MjlJuSRG4mCe6uZDjYF8d32DyQOtb87dWDAd+W6qH+AshN2pa++TAftnwfTGVxIe1a3d9mL8ZbPK+ADbJUmPVqEt5LohKoF/6PNRDK0Y20Pv8bYm5B3kGPxr6hM4ZGOfxo+Rm+j4GQdBAg25N38/DuosbI9/1Ebd6x0IargdwXZ+7Ncr0f0Y8CoCRi9hmEAVCFWcC880xSNFCQLnhvnSB6zCukIXdYzR/pz8Z+tNKjFyZtw4xIsagC3pw8QTHp7I3TWJUpwTPdYwQpKvwkkYs0jHrJhljuUnUG9VEvSDmpZZMAwQoh0A3hxxUjbu0ricfAA5w3LWT2oi9D0Qtyd5AD6j33AM44xtYj8UjcVOm9+w=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242810,
+    "id": "NiBKauvFMpWJ1e8PhMDXiQU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 434,
+      "total_tokens": 876
+    }
+  }
+}

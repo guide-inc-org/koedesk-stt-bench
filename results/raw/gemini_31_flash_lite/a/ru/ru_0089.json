@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0089",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.84,
+  "ref_text_raw": "Он не смог принять препараты, необходимые для облегчения боли, так как они запрещены в Играх.",
+  "ref_text_normalized": "он не смог принять препараты необходимые для облегчения боли так как они запрещены в играх",
+  "timestamp_utc": "2026-07-05T07:32:27Z",
+  "text": "Он не смог принять препараты, необходимые для облегчения боли, так как они запрещены в играх.",
+  "latency_sec": 2.4388,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Он не смог принять препараты, необходимые для облегчения боли, так как они запрещены в играх.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPgNL57ttjTjm35mlrsdT9IwZ/jx06B+Xv+oKEmPFRBwr7ZloPX+NOiaoaaZTg"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236748,
+    "id": "ighKatbTNJ2hvr0P78yT2Q8",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 192,
+      "total_tokens": 214
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "utt_id": "ru_0140",
+  "lang": "ru",
+  "engine": "google_stt_v2",
+  "duration_sec": 10.44,
+  "ref_text_raw": "В 1990 году он был добавлен в список всемирного наследия, находящегося под угрозой из-за опасности со стороны песков пустыни.",
+  "ref_text_normalized": "в 1990 году он был добавлен в список всемирного наследия находящегося под угрозой из-за опасности со стороны песков пустыни",
+  "timestamp_utc": "2026-07-05T05:38:33Z",
+  "text": "В 1990 году он был добавлен в список Всемирного наследия, находящегося под угрозой из-за опасности со стороны песков пустыни.",
+  "latency_sec": 4.3652,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "ru-RU",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "11s",
+      "requestId": "6b8e3df0-0000-272f-a05b-7474463c3b25",
+      "prompt": "Transcribe the following speech segment in Russian. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Russian."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "В 1990 году он был добавлен в список Всемирного наследия, находящегося под угрозой из-за опасности со стороны песков пустыни."
+          }
+        ],
+        "languageCode": "ru-RU"
+      }
+    ]
+  }
+}

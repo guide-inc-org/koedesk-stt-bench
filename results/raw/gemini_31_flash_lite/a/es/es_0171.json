@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0171",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.24,
+  "ref_text_raw": "El flujo de tráfico es el estudio del movimiento individual de conductores y vehículos entre dos puntos y de las interacciones entre ellos.",
+  "ref_text_normalized": "el flujo de tráfico es el estudio del movimiento individual de conductores y vehículos entre dos puntos y de las interacciones entre ellos",
+  "timestamp_utc": "2026-07-05T04:44:01Z",
+  "text": "El flujo de tráfico es el estudio del movimiento individual de conductores y vehículos entre dos puntos y de las interacciones entre ellos.",
+  "latency_sec": 2.9902,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "El flujo de tráfico es el estudio del movimiento individual de conductores y vehículos entre dos puntos y de las interacciones entre ellos.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPDk2OGCUrLUpmnFPDx4lJUOAenWprjTaQf0oXb6veYgzTiQqcKkOPxT2rRPc1"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226641,
+    "id": "D-FJaqO7Ov_O1e8P-_GSuQg",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 327,
+      "total_tokens": 352
+    }
+  }
+}

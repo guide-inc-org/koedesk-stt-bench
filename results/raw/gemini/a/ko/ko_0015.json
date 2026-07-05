@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0015",
+  "lang": "ko",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.22,
+  "ref_text_raw": "무거운 세금을 물리는 국가의 여행객들은 때때로 상당한 금액을 아낄 수 있다. 특히 주류나 담배를 살 때 그렇다.",
+  "ref_text_normalized": "무거운 세금을 물리는 국가의 여행객들은 때때로 상당한 금액을 아낄 수 있다 특히 주류나 담배를 살 때 그렇다",
+  "timestamp_utc": "2026-07-05T05:53:41Z",
+  "text": "무거운 세금을 물리는 국가의 여행객들은 때때로 상당한 금액을 아낄 수 있다. 특히 주류나 담배를 살 때 그렇다.",
+  "latency_sec": 4.9619,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "무거운 세금을 물리는 국가의 여행객들은 때때로 상당한 금액을 아낄 수 있다. 특히 주류나 담배를 살 때 그렇다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230821,
+    "id": "YvFJapTDE-nF0-kPwPbOqAc",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 381,
+      "total_tokens": 550
+    }
+  }
+}

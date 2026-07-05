@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0181",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.56,
+  "ref_text_raw": "植物は人間が吸う酸素を作り、人間が（息として）吐き出す二酸化炭素を取り込んでいます。",
+  "ref_text_normalized": "植物は人間が吸う酸素を作り 人間が息として吐き出す二酸化炭素を取り込んでいます",
+  "timestamp_utc": "2026-07-05T03:22:18Z",
+  "text": "植物 は 人間 が 吸う 酸素 を 作り 、 人間 が ( 息 と し て ) 吐き出す 二酸化 炭素 を 取り込ん で い ます 。",
+  "latency_sec": 3.1071,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "植物 は 人間 が 吸う 酸素 を 作り 、 人間 が ( 息 と し て ) 吐き出す 二酸化 炭素 を 取り込ん で い ます 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPAR0mW6lIKynElW9rK9TA8eWC5Rjnoy85jgl/oX+/+4qM/1yuoHehFUr+HCSE"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221738,
+    "id": "6M1JapmlNe6d1e8P5u7EuQQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 285,
+      "total_tokens": 324
+    }
+  }
+}

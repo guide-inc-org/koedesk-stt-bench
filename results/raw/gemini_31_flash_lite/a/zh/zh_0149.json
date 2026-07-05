@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0149",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.26,
+  "ref_text_raw": "亚里士多德就所有科学领域的问题（包括心理学在内）所发表的观点都被一一接纳。",
+  "ref_text_normalized": "亚 里 士 多 德 就 所 有 科 学 领 域 的 问 题 包 括 心 理 学 在 内 所 发 表 的 观 点 都 被 一 一 接 纳",
+  "timestamp_utc": "2026-07-05T09:19:36Z",
+  "text": "亚里士多德就所有科学领域的问题，包括心理学在内的所发表的观点都被一一接纳。",
+  "latency_sec": 2.7454,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "亚里士多德就所有科学领域的问题，包括心理学在内的所发表的观点都被一一接纳。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPrfSE9mN+mDMeZVomMq3C7/qpqlZulJ4+Z5dkKkrRZeMTjcFD6S8avECHcHwt"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243176,
+    "id": "pyFKasiVELvLrfcPnvyU2AE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 278,
+      "total_tokens": 303
+    }
+  }
+}

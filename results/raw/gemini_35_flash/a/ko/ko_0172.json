@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0172",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 14.04,
+  "ref_text_raw": "해당 서비스는 유락용 선박을 포함한 해상운송 및 원켝 데이터 및 음성 서비스가 필요한 곳에서 자주 사용됩니다.",
+  "ref_text_normalized": "해당 서비스는 유락용 선박을 포함한 해상운송 및 원켝 데이터 및 음성 서비스가 필요한 곳에서 자주 사용됩니다",
+  "timestamp_utc": "2026-07-05T06:24:53Z",
+  "text": "해당 서비스는 유람용 선박을 포함한 해상 운송 및 원격 데이터 및 음성 서비스가 필요한 곳에서 자주 사용됩니다.",
+  "latency_sec": 4.8866,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "해당 서비스는 유람용 선박을 포함한 해상 운송 및 원격 데이터 및 음성 서비스가 필요한 곳에서 자주 사용됩니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232693,
+    "id": "sfhJatemF4Khvr0P0-6Y8AY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 372,
+      "total_tokens": 874
+    }
+  }
+}

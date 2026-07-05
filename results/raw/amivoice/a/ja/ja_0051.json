@@ -1,0 +1,331 @@
+{
+  "utt_id": "ja_0051",
+  "lang": "ja",
+  "engine": "amivoice_general",
+  "duration_sec": 15.06,
+  "ref_text_raw": "クルーズによっては案内書にドイツのベルリンが載っています。上の地図からおわかりのように、ベルリンは海から離れており、市街観光はクルーズ料金とは別になります。",
+  "ref_text_normalized": "クルーズによっては案内書にドイツのベルリンが載っています 上の地図からおわかりのように ベルリンは海から離れており 市街観光はクルーズ料金とは別になります",
+  "timestamp_utc": "2026-07-04T13:32:15Z",
+  "text": "クルーズによって案内書にドイツのベルリンが載っています。上の地図からおわかりのように、ベルリンは海から離れており、市外観光はクルーズ料金とは別になります。",
+  "latency_sec": 3.7783,
+  "params": {
+    "endpoint": "https://acp-api.amivoice.com/v1/recognize",
+    "grammarFileNames": "-a-general",
+    "logging": true,
+    "audio_conversion": "float32 wav -> pcm_16 wav (same samples)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "results": [
+      {
+        "tokens": [
+          {
+            "written": "クルーズ",
+            "confidence": 0.69,
+            "starttime": 1906,
+            "endtime": 2450,
+            "spoken": "くるーず"
+          },
+          {
+            "written": "によって",
+            "confidence": 0.73,
+            "starttime": 2450,
+            "endtime": 2818,
+            "spoken": "によって"
+          },
+          {
+            "written": "案内",
+            "confidence": 0.95,
+            "starttime": 2818,
+            "endtime": 3282,
+            "spoken": "あんない"
+          },
+          {
+            "written": "書",
+            "confidence": 0.53,
+            "starttime": 3282,
+            "endtime": 3474,
+            "spoken": "しょ"
+          },
+          {
+            "written": "に",
+            "confidence": 1.0,
+            "starttime": 3474,
+            "endtime": 3666,
+            "spoken": "に"
+          },
+          {
+            "written": "ドイツ",
+            "confidence": 1.0,
+            "starttime": 3778,
+            "endtime": 4114,
+            "spoken": "どいつ"
+          },
+          {
+            "written": "の",
+            "confidence": 1.0,
+            "starttime": 4114,
+            "endtime": 4194,
+            "spoken": "の"
+          },
+          {
+            "written": "ベルリン",
+            "confidence": 1.0,
+            "starttime": 4194,
+            "endtime": 4610,
+            "spoken": "べるりん"
+          },
+          {
+            "written": "が",
+            "confidence": 1.0,
+            "starttime": 4610,
+            "endtime": 4706,
+            "spoken": "が"
+          },
+          {
+            "written": "載っ",
+            "confidence": 0.84,
+            "starttime": 4706,
+            "endtime": 4898,
+            "spoken": "のっ"
+          },
+          {
+            "written": "て",
+            "confidence": 1.0,
+            "starttime": 4898,
+            "endtime": 4994,
+            "spoken": "て"
+          },
+          {
+            "written": "います",
+            "confidence": 1.0,
+            "starttime": 4994,
+            "endtime": 5490,
+            "spoken": "います"
+          },
+          {
+            "written": "。",
+            "confidence": 0.85,
+            "starttime": 5490,
+            "endtime": 5618,
+            "spoken": "_"
+          },
+          {
+            "written": "上",
+            "confidence": 1.0,
+            "starttime": 5964,
+            "endtime": 6508,
+            "spoken": "うえ"
+          },
+          {
+            "written": "の",
+            "confidence": 1.0,
+            "starttime": 6508,
+            "endtime": 6620,
+            "spoken": "の"
+          },
+          {
+            "written": "地図",
+            "confidence": 1.0,
+            "starttime": 6620,
+            "endtime": 6892,
+            "spoken": "ちず"
+          },
+          {
+            "written": "から",
+            "confidence": 1.0,
+            "starttime": 6892,
+            "endtime": 7084,
+            "spoken": "から"
+          },
+          {
+            "written": "おわかり",
+            "confidence": 0.52,
+            "starttime": 7084,
+            "endtime": 7548,
+            "spoken": "おわかり"
+          },
+          {
+            "written": "の",
+            "confidence": 1.0,
+            "starttime": 7548,
+            "endtime": 7644,
+            "spoken": "の"
+          },
+          {
+            "written": "よう",
+            "confidence": 1.0,
+            "starttime": 7644,
+            "endtime": 7820,
+            "spoken": "よう"
+          },
+          {
+            "written": "に",
+            "confidence": 1.0,
+            "starttime": 7820,
+            "endtime": 8012,
+            "spoken": "に"
+          },
+          {
+            "written": "、",
+            "confidence": 0.75,
+            "starttime": 8012,
+            "endtime": 8060,
+            "spoken": "_"
+          },
+          {
+            "written": "ベルリン",
+            "confidence": 0.95,
+            "starttime": 8060,
+            "endtime": 8668,
+            "spoken": "べるりん"
+          },
+          {
+            "written": "は",
+            "confidence": 1.0,
+            "starttime": 8668,
+            "endtime": 8860,
+            "spoken": "は"
+          },
+          {
+            "written": "海",
+            "confidence": 1.0,
+            "starttime": 8892,
+            "endtime": 9116,
+            "spoken": "うみ"
+          },
+          {
+            "written": "から",
+            "confidence": 1.0,
+            "starttime": 9116,
+            "endtime": 9324,
+            "spoken": "から"
+          },
+          {
+            "written": "離れ",
+            "confidence": 1.0,
+            "starttime": 9324,
+            "endtime": 9740,
+            "spoken": "はなれ"
+          },
+          {
+            "written": "て",
+            "confidence": 1.0,
+            "starttime": 9740,
+            "endtime": 9836,
+            "spoken": "て"
+          },
+          {
+            "written": "おり",
+            "confidence": 1.0,
+            "starttime": 9836,
+            "endtime": 10156,
+            "spoken": "おり"
+          },
+          {
+            "written": "、",
+            "confidence": 0.68,
+            "starttime": 10156,
+            "endtime": 10220,
+            "spoken": "_"
+          },
+          {
+            "written": "市外",
+            "confidence": 0.42,
+            "starttime": 10476,
+            "endtime": 10892,
+            "spoken": "しがい"
+          },
+          {
+            "written": "観光",
+            "confidence": 1.0,
+            "starttime": 10892,
+            "endtime": 11356,
+            "spoken": "かんこう"
+          },
+          {
+            "written": "は",
+            "confidence": 1.0,
+            "starttime": 11356,
+            "endtime": 11532,
+            "spoken": "は"
+          },
+          {
+            "written": "クルーズ",
+            "confidence": 0.9,
+            "starttime": 11564,
+            "endtime": 11996,
+            "spoken": "くるーず"
+          },
+          {
+            "written": "料金",
+            "confidence": 1.0,
+            "starttime": 11996,
+            "endtime": 12396,
+            "spoken": "りょうきん"
+          },
+          {
+            "written": "と",
+            "confidence": 1.0,
+            "starttime": 12396,
+            "endtime": 12476,
+            "spoken": "と"
+          },
+          {
+            "written": "は",
+            "confidence": 0.95,
+            "starttime": 12476,
+            "endtime": 12540,
+            "spoken": "は"
+          },
+          {
+            "written": "別",
+            "confidence": 0.5,
+            "starttime": 12540,
+            "endtime": 12796,
+            "spoken": "べつ"
+          },
+          {
+            "written": "に",
+            "confidence": 0.48,
+            "starttime": 12796,
+            "endtime": 12892,
+            "spoken": "に"
+          },
+          {
+            "written": "なり",
+            "confidence": 1.0,
+            "starttime": 12892,
+            "endtime": 13100,
+            "spoken": "なり"
+          },
+          {
+            "written": "ます",
+            "confidence": 1.0,
+            "starttime": 13100,
+            "endtime": 13484,
+            "spoken": "ます"
+          },
+          {
+            "written": "。",
+            "confidence": 0.84,
+            "starttime": 13484,
+            "endtime": 13644,
+            "spoken": "_"
+          }
+        ],
+        "confidence": 0.9206667,
+        "starttime": 0,
+        "endtime": 13644,
+        "tags": [],
+        "rulename": "",
+        "text": "クルーズによって案内書にドイツのベルリンが載っています。上の地図からおわかりのように、ベルリンは海から離れており、市外観光はクルーズ料金とは別になります。"
+      }
+    ],
+    "utteranceid": "20260704/22/019f2d545fa50a3015e894cc_20260704_223212",
+    "text": "クルーズによって案内書にドイツのベルリンが載っています。上の地図からおわかりのように、ベルリンは海から離れており、市外観光はクルーズ料金とは別になります。",
+    "code": "",
+    "message": ""
+  }
+}

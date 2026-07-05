@@ -1,0 +1,45 @@
+{
+  "utt_id": "id_0125",
+  "lang": "id",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 16.92,
+  "ref_text_raw": "Bahasa resmi Barcelona adalah Katalan dan Spanyol. Hampir separuh penduduknya lebih suka berbicara dalam bahasa Katalan, sebagian besar memahaminya, dan hampir semua orang mengetahui bahasa Spanyol.",
+  "ref_text_normalized": "bahasa resmi barcelona adalah katalan dan spanyol hampir separuh penduduknya lebih suka berbicara dalam bahasa katalan sebagian besar memahaminya dan hampir semua orang mengetahui bahasa spanyol",
+  "timestamp_utc": "2026-07-05T05:45:45Z",
+  "text": "Bahasa resmi Barselona adalah Katalan dan Spanyol. Hampir separuh penduduknya lebih suka berbicara dalam bahasa Katalan. Sebagian besar memahaminya, dan hampir semua orang mengetahui bahasa Spanyol.",
+  "latency_sec": 4.4857,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Bahasa resmi Barselona adalah Katalan dan Spanyol. Hampir separuh penduduknya lebih suka berbicara dalam bahasa Katalan. Sebagian besar memahaminya, dan hampir semua orang mengetahui bahasa Spanyol.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230345,
+    "id": "hu9JatTLLrj22roP58zioAI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 445,
+      "total_tokens": 869
+    }
+  }
+}

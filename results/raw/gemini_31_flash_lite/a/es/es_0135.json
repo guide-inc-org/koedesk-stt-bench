@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0135",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.66,
+  "ref_text_raw": "Si va a cruzar el norte del Báltico en época invernal, constate dónde se localiza la cabina, puesto que atravesar el hielo genera un ruido muy molesto para los más afectados.",
+  "ref_text_normalized": "si va a cruzar el norte del báltico en época invernal constate dónde se localiza la cabina puesto que atravesar el hielo genera un ruido muy molesto para los más afectados",
+  "timestamp_utc": "2026-07-05T04:41:51Z",
+  "text": "Si va a cruzar el norte del Báltico en época invernal, constate dónde se localiza la cabina, puesto que atravesar el hielo genera un ruido muy molesto para los más afectados.",
+  "latency_sec": 2.9828,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Si va a cruzar el norte del Báltico en época invernal, constate dónde se localiza la cabina, puesto que atravesar el hielo genera un ruido muy molesto para los más afectados.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPHlRfdJ1IGWYw+dutdsm0PkEde2SsuJXJmYU9/O0YRLWM9hL+QKBVN7OR6OTz"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226511,
+    "id": "jeBJaqnwJ8fJ0-kPwvvLoAE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 42,
+      "prompt_tokens": 338,
+      "total_tokens": 380
+    }
+  }
+}

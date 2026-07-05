@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0044",
+  "lang": "ko",
+  "engine": "gemini_25_flash",
+  "duration_sec": 14.76,
+  "ref_text_raw": "FAA의 주장에 따르면 NextGen은 항공기가 더 짧은 노선을 비행해서 매년 수백만 갤런의 연료를 절약하고 탄소 배출을 줄일 수 있는 시스템입니다.",
+  "ref_text_normalized": "faa의 주장에 따르면 nextgen은 항공기가 더 짧은 노선을 비행해서 매년 수백만 갤런의 연료를 절약하고 탄소 배출을 줄일 수 있는 시스템입니다",
+  "timestamp_utc": "2026-07-05T05:55:48Z",
+  "text": "FAA의 주장에 따르면 넥스트젠은 항공기가 더 짧은 노선을 비행해서 매년 수백만 갤런의 연료를 절약하고 탄소 배출을 줄일 수 있는 시스템입니다.",
+  "latency_sec": 3.3757,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "FAA의 주장에 따르면 넥스트젠은 항공기가 더 짧은 노선을 비행해서 매년 수백만 갤런의 연료를 절약하고 탄소 배출을 줄일 수 있는 시스템입니다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230948,
+    "id": "4vFJauueKfia1e8P4ZHFoQI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 46,
+      "prompt_tokens": 494,
+      "total_tokens": 567
+    }
+  }
+}

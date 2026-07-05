@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0145",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.12,
+  "ref_text_raw": "Cuomo, 53 ans, a commencé son mandat de gouverneur au début de cette année et a signé le mois dernier un projet de loi légalisant le mariage entre personnes du même sexe.",
+  "ref_text_normalized": "cuomo 53 ans a commencé son mandat de gouverneur au début de cette année et a signé le mois dernier un projet de loi légalisant le mariage entre personnes du même sexe",
+  "timestamp_utc": "2026-07-05T05:18:28Z",
+  "text": "Cuomo, 53 ans, a commencé son mandat de gouverneur au début de cette année et a signé le mois dernier un projet de loi légalisant le mariage entre personnes du même sexe.",
+  "latency_sec": 2.652,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Cuomo, 53 ans, a commencé son mandat de gouverneur au début de cette année et a signé le mois dernier un projet de loi légalisant le mariage entre personnes du même sexe.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPjsAt1vmaGl4PC8onV7BzOWUNBSHTjrfwiy/Qq3L/cytywH0f/u3QndpCtU+g"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228708,
+    "id": "I-lJatetC9G3vr0PstvC2AM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 399,
+      "total_tokens": 440
+    }
+  }
+}

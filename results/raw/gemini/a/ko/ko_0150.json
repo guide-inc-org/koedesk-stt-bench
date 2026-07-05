@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0150",
+  "lang": "ko",
+  "engine": "gemini_25_flash",
+  "duration_sec": 15.06,
+  "ref_text_raw": "교회의 핵심 권력은 천 년 넘게 로마에 머물렀다. 이런 힘과 돈의 편중은 이 교리가 합당한지에 대한 의문을 낳았다.",
+  "ref_text_normalized": "교회의 핵심 권력은 천 년 넘게 로마에 머물렀다 이런 힘과 돈의 편중은 이 교리가 합당한지에 대한 의문을 낳았다",
+  "timestamp_utc": "2026-07-05T06:04:50Z",
+  "text": "교회의 핵심 권력은 천년 넘게 로마에 머물렀다. 이런 힘과 돈의 편중은 이 교리가 합당한지에 대한 의문을 낳았다.",
+  "latency_sec": 4.7036,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "교회의 핵심 권력은 천년 넘게 로마에 머물렀다. 이런 힘과 돈의 편중은 이 교리가 합당한지에 대한 의문을 낳았다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231490,
+    "id": "_vNJatTrJqbG0-kPpaDayQU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 503,
+      "total_tokens": 567
+    }
+  }
+}

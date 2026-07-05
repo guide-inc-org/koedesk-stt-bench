@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0086",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 27.78,
+  "ref_text_raw": "Des chercheurs de l'université de Princeton aux États-Unis et de l'université d'Uppsala en Suède ont indiqué que la nouvelle espèce avait évolué en seulement deux générations, bien que ce processus ait été estimé beaucoup plus long, suite à la reproduction entre un pinson de Darwin endémique, Geospiza fortis, et le pinson immigrant à bec conique, Geospiza conirostris.",
+  "ref_text_normalized": "des chercheurs de l'université de princeton aux états-unis et de l'université d'uppsala en suède ont indiqué que la nouvelle espèce avait évolué en seulement deux générations bien que ce processus ait été estimé beaucoup plus long suite à la reproduction entre un pinson de darwin endémique geospiza fortis et le pinson immigrant à bec conique geospiza conirostris",
+  "timestamp_utc": "2026-07-05T05:14:51Z",
+  "text": "Des chercheurs de l'Université de Princeton aux États-Unis et de l'Université d'Uppsala en Suède, ont indiqué que la nouvelle espèce avait évolué en seulement deux générations, bien que ce processus ait été estimé beaucoup plus long, suite à la reproduction entre un pinçon de Darwin endémique, Geospiza fortis, et le pinçon immigrant à bec conique, Geospiza conirostris.",
+  "latency_sec": 3.4269,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Des chercheurs de l'Université de Princeton aux États-Unis et de l'Université d'Uppsala en Suède, ont indiqué que la nouvelle espèce avait évolué en seulement deux générations, bien que ce processus ait été estimé beaucoup plus long, suite à la reproduction entre un pinçon de Darwin endémique, Geospiza fortis, et le pinçon immigrant à bec conique, Geospiza conirostris.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPmRzGys/XlAid+rUy0zapyAH3mwil6Z8RUUqOhR2xbS/wjcR0IeYK/BDq6WqR"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228490,
+    "id": "SehJarz4D67H0-kPp7WTuQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 86,
+      "prompt_tokens": 716,
+      "total_tokens": 802
+    }
+  }
+}

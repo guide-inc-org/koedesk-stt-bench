@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0087",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.64,
+  "ref_text_raw": "Сравнительно не далеко, к северу, расположен романтический и очаровательный городок Синтра, воспетый лордом Байроном и получивший после этого известность во всём мире.",
+  "ref_text_normalized": "сравнительно не далеко к северу расположен романтический и очаровательный городок синтра воспетый лордом байроном и получивший после этого известность во всём мире",
+  "timestamp_utc": "2026-07-05T07:24:12Z",
+  "text": "Сравнительно недалеко к северу расположен романтический и очаровательный городок Синтра, воспетый лордом Байроном и получивший после этого известность во всем мире.",
+  "latency_sec": 5.7031,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Сравнительно недалеко к северу расположен романтический и очаровательный городок Синтра, воспетый лордом Байроном и получивший после этого известность во всем мире.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236252,
+    "id": "lwZKapzHOa2Qvr0PxLzU0Qc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 312,
+      "total_tokens": 997
+    }
+  }
+}

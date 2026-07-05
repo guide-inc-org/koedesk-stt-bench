@@ -1,0 +1,45 @@
+{
+  "utt_id": "pt_0064",
+  "lang": "pt",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 24.84,
+  "ref_text_raw": "Segundo o site de notícias de entretenimento TMZ, o fotógrafo parou seu veículo do outro lado do Boulevard Sepulveda e tentou tirar fotos da parada policial antes de cruzar a estrada e continuar, levando o policial da Patrulha Rodoviária da Califórnia que conduzia a parada do trânsito a ordenar que ele voltasse, duas vezes.",
+  "ref_text_normalized": "segundo o site de notícias de entretenimento tmz o fotógrafo parou seu veículo do outro lado do boulevard sepulveda e tentou tirar fotos da parada policial antes de cruzar a estrada e continuar levando o policial da patrulha rodoviária da califórnia que conduzia a parada do trânsito a ordenar que ele voltasse duas vezes",
+  "timestamp_utc": "2026-07-05T06:48:12Z",
+  "text": "Segundo o site de notícias de entretenimento TMZ, o fotógrafo parou seu veículo do outro lado do boulevard Spuveld e tentou tirar fotos da parada policial antes de cruzar a estrada e continuar, levando o policial da patrulha rodoviária da Califórnia que conduzia a parada do trânsito a ordenar que ele voltasse duas vezes.",
+  "latency_sec": 6.4287,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Segundo o site de notícias de entretenimento TMZ, o fotógrafo parou seu veículo do outro lado do boulevard Spuveld e tentou tirar fotos da parada policial antes de cruzar a estrada e continuar, levando o policial da patrulha rodoviária da Califórnia que conduzia a parada do trânsito a ordenar que ele voltasse duas vezes.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234092,
+    "id": "KP5JaszQA-6d1e8P5u7EuQQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 74,
+      "prompt_tokens": 642,
+      "total_tokens": 1465
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0119",
+  "lang": "es",
+  "engine": "gemini_25_flash",
+  "duration_sec": 15.78,
+  "ref_text_raw": "Nada puede verse más que el maravilloso cielo despejado y las numerosas montañas de los alrededores. Desde el interior de esta cueva, se puede ver u oír muy poco de este mundo.",
+  "ref_text_normalized": "nada puede verse más que el maravilloso cielo despejado y las numerosas montañas de los alrededores desde el interior de esta cueva se puede ver u oír muy poco de este mundo",
+  "timestamp_utc": "2026-07-05T04:22:20Z",
+  "text": "Nada puede verse más que el maravilloso cielo despejado y las numerosas montañas de los alrededores. Desde el interior de esta cueva se puede ver u oír muy poco de este mundo.",
+  "latency_sec": 4.8897,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Nada puede verse más que el maravilloso cielo despejado y las numerosas montañas de los alrededores. Desde el interior de esta cueva se puede ver u oír muy poco de este mundo.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225340,
+    "id": "-NtJatDJHI_V2roPj7-7kAY",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 526,
+      "total_tokens": 592
+    }
+  }
+}

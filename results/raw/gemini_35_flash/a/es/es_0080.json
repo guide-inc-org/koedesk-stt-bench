@@ -1,0 +1,45 @@
+{
+  "utt_id": "es_0080",
+  "lang": "es",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.78,
+  "ref_text_raw": "Se realizaron, durante la noche, entre 150 y 200 copias, a las que actualmente se conoce como las «Copias Dunlap».",
+  "ref_text_normalized": "se realizaron durante la noche entre 150 y 200 copias a las que actualmente se conoce como las «copias dunlap»",
+  "timestamp_utc": "2026-07-05T04:35:28Z",
+  "text": "Se realizaron durante la noche entre 150 y the 200 copias a las que actualmente se conoce como las copias Dunlap.",
+  "latency_sec": 4.0016,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Se realizaron durante la noche entre 150 y the 200 copias a las que actualmente se conoce como las copias Dunlap.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EuIGCt8GARFNMg/e2xa/Swe+WKhKccC10eUO28tvRYcrHbJ5uihiKPluBhNSgot4/mjt5NCM4RKBoIJNqRomW/25XueeB1q1VBgYDi7aXUI1y4kYA5Zt2USG+S2696GigoJgZq0q2Iz+W6iZXdjvxFHrwWHm6CtaHtuRsWqGzJGf2l/GmhAu+7dih7q4Gz0Ne6XZl0/XWbF+NEr0iIUDfhwwOG9Gkl+fD5zyoy9VgJTSo2SQXBmyz5ZcGlaCsh6m7w0ahOxdiU2247pSzRDh4RIQhotV6OHvdagiyGhWiw+SDXJFDwKgezCAYBaDwVQOvwF6PDN9xoP327XXCJqCFBXudTBWaaSrUlMmuDCgUYg3olUU1TCM2cG+hicnN7Cs0HxBQJkGWwvwAdBx1gGEEwkoWWKCOhapoKsUMnuiWhKmWK576SWV4fzSy1K/3KGyKSDohzu4gOoehyAwc/Yw+HPKZ52vha7ENBiC0UZkaOi+KeJ9DlSjkLUAIElA43vPw0UGL/x10dSFEvXGhftq1DqgKspnvJnzgGCu5pA3bKOdeyCSfT4Duhpvns2I9n3aQzVGuHh3yYWGXUhKIG1wHdNdM+6kOzey1wCRAH99xfag21UOPETGP7I0HR0wLehTqKEdySJ3kHhYt+H1B15LxX3magv5Nr4V3U27rnpl1zOewv+rNvef/Bl3qxMtGbI1tFUdinqyvSkc4F7uOavNElsprv+w2J5trWKSr1hO+yvhPHU7ce1wbbYsZAi2ad16qfmpGMNZYpw+ppF93EDXmTeyFCdPKuGs27UHd7QDjQnArScn6MPubo0OX3TMLdg8jTE91FFu/m6xvTQ9/exQ/aHfc6drStzVKneOeowSFnqz7PFjDF1UbCQLMgUXoGA7up0VjdtbzW1r0FzLvHLjLGZQHQ8nXnMp19+Ca528hHc1LbtdswdSQhR3EJ5Z03zRat7fNT3GaUpIHh7R6vMpZ5g18j39yOftGnqSDDy3SMPNetv/S3mcQHpb80zIz4uFSYa92DfRz0dXb7EBF4h3wvM3O2BTXLzXJKYYHul7t4yCVzJ00supMCF7zK8DgSsVZsRjglI0Nk7yBhAActOi7v6fiZMnh8Odp182zkXeNI1PNLgGaZwrEomHAohCrcwysPrSNXk="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226128,
+    "id": "Dd9Jaq3IDdTM1e8Pof6vuQc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 266,
+      "total_tokens": 518
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0094",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 18.6,
+  "ref_text_raw": "Reisende werden dringend gewarnt, auf jedwede Art von Unwetter zu achten, die ihr Gebiet betrifft, da dies sich auf alle Reisepläne auswirken kann.",
+  "ref_text_normalized": "reisende werden dringend gewarnt auf jedwede art von unwetter zu achten die ihr gebiet betrifft da dies sich auf alle reisepläne auswirken kann",
+  "timestamp_utc": "2026-07-05T04:03:51Z",
+  "text": "Reisende werden dringend gewarnt, auf jedwede Art von Unwetter zu achten, die ihr Gebiet betrifft, da dies sich auf alle Reisepläne auswirken kann.",
+  "latency_sec": 3.8286,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Reisende werden dringend gewarnt, auf jedwede Art von Unwetter zu achten, die ihr Gebiet betrifft, da dies sich auf alle Reisepläne auswirken kann.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "ErsGCrgGARFNMg9qfHfwyNCAi6oeHeAykBl3xiYpWvNK++KGQMQm/cwFMewzb9SC30FTdsVEYFTKl2GJdoDKLZdRmZXNQrHqxYYkazk2/lAzHPFA+HafgpHFjePfox8a3ibukT+zQjDoXkJRBTVhqIPEjHLVHalGmjb2DPU8KFZiS5OEs1qNrcWwug2TPQ1VvDvYh4gGh2pF5eFtF1as0QAgHKnI9IdX3yJAfDZVATd8LJpc673GdZZqLDALQ/2JhYx12Wr4pdZ9bL1SHotlrVjf6NLVRUxKXrnF9MVTFd+KCgLcCUyzxanLNX1V6jGf4xr0xKNZ3FhhpN7Xn7O4+Vhn+HLIWqHum8ps0vx8cfZT8vOyGZxy0lP2vM1S3gGPqjWhD751VgylmF3VYlwRcstaU5yISxcGt7Q2977yGytG/q3uCm6u/NZ4+CAkRuLGyAuZ9a3MTDgUcOjfOrpg2CFpQfEp7+L2O7aySx4Mneqr7194JfjBkeJATLf7q1HzJ1fMZUgNV4PfQ1xkwKUQ/QpKxY37oDKO7pE7iXqbKlsvP7b0jtEAvrX90YneSOWA5toKEBueLC/oGfodtcVFCYOFr1UPZEnswTUJU+eeFHgMzrcO9Oon0KZ5ZaoLHoS35jbotXX8JG1LvlPBfjGNmxSlfLLLbEfcvrZ1f2SXOWq9y2x0gr3vg4bhmhUcrayfVDM1J0w6JWK8n/8gzJmyTahzJxtdXlXwuURtnl4kuCkF6HrKIEksN/K7TxFhTtydyelMLbBSxbIUnSDKtF+kfe3anXewPT9+C1XOUs70C8CPsWW4onKV6AVZkRSeRLfnYAxHVy4Ib5zhWvc82TYfrPRgeEbMpej04Zlh3zDdohb/zsB38Wa1skVcWBrl6opvhwcwPqW8jUTSNLSAvAHRnpKHLKKB3XGhjmA3NQPJXYpt5kO/YCRtag4ubfIsu6CNU0w3FaV4UKpOG5XMIVuDyHo6SHqDslo497iwSSY1Sk2s6bPYuTFQCip0MydPC06HEOaPZhJCGT1+lIdYyVv0b8x8gTD3JzzitYFfJYewjtt1HHxM4JFE2Rs8EavoqBBsKkkAfMJctDJk43NwqtQ="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224231,
+    "id": "pddJar3kFoaD1e8PyqKZ0Ac",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 487,
+      "total_tokens": 726
+    }
+  }
+}

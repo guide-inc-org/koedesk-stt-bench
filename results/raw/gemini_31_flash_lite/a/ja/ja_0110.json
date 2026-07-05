@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0110",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 26.04,
+  "ref_text_raw": "文明という言葉は、市民を意味するラテン語の形容詞civilisから来ており、市民を意味するラテン語の名詞civis、都市や都市国家を意味し、何らかの形で社会の規模を定義するcivitasという名詞に関係しています。",
+  "ref_text_normalized": "文明という言葉は 市民を意味するラテン語の形容詞civilisから来ており 市民を意味するラテン語の名詞civis 都市や都市国家を意味し 何らかの形で社会の規模を定義するcivitasという名詞に関係しています",
+  "timestamp_utc": "2026-07-05T03:17:45Z",
+  "text": "文明という言葉は、市民を意味するラテン語の形容詞、シヴィリスから来ており、市民を意味するラテン語の名詞、シヴィス、都市や都市国家を意味し、なんらかの形で社会の規模を定義する、シヴィタスという名詞に関係しています。",
+  "latency_sec": 3.264,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "文明という言葉は、市民を意味するラテン語の形容詞、シヴィリスから来ており、市民を意味するラテン語の名詞、シヴィス、都市や都市国家を意味し、なんらかの形で社会の規模を定義する、シヴィタスという名詞に関係しています。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPHO3AlHtj9X8VZviAXA+AqOQAEQUTk5UdOjEA785PPsT/LrbAiEYctJAJ1mcb"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221465,
+    "id": "18xJauPPNZnd2roP0-bGsQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 67,
+      "prompt_tokens": 672,
+      "total_tokens": 739
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0136",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.26,
+  "ref_text_raw": "Madagascar est de loin le plus grand pays, et même un continent à lui tout seul, s'agissant de faune.",
+  "ref_text_normalized": "madagascar est de loin le plus grand pays et même un continent à lui tout seul s'agissant de faune",
+  "timestamp_utc": "2026-07-05T05:13:29Z",
+  "text": "Madagascar est de loin le plus grand pays et même un continent à lui seul s'agissant de faune.",
+  "latency_sec": 3.6378,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Madagascar est de loin le plus grand pays et même un continent à lui seul s'agissant de faune.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqIGCp8GARFNMg+qC0GpXAQYFl0N4O4SMGL0hHF6TmLUSMIiICL0Lge+ME4Kqef8Wgvegxw6oHxuyvgcuD+zUBpuA+BWe0DvUr1XGFzbguJ3wtHDfLiIrYcTjxBaQzQzRMWNUyimS6E+rcaNrWMF51a3sxPZ3zf6iIWLsQY1eOOeitYsRV44RTJabCpxpvE4k7ZJVnyCECcfAgPn8kE1N8UDic4Pl6rQiNS0whIc7mxay02bc40wlhl4na1xzOIcowKhqLfHyMPtJuDyaNpppX+sfqfMYsQSgGLC/rnAW2rVsW4OztNa7MivsKPynjMWyvwoPsYcVPmMmdwpLapgkwGrMnW3IibFTUwT6vA6ELxd0AQ7r+S0DVJwRv1pSiquszgu1wCgsA0hDF+lulDw9czEiWWp6s+ln3HoZ2kkVM7HYEhNeve+VsI1Xnq9xQqINHyO2/98VCUy5Lb/O3DrNnaezatpu3Lz148e6jyDpt33+ctpiWuBvtW62t6eEVUlPLC5tE/DihWBKJi3NlMzrJyqz0HsL4fR9dLwU8tOdrcLOObCTMdj5dP3V+hrp4jARibXuGlNd2w5Wc9Fh7Y9rKpLJPxumicDY51SWTXsdVvF1TAahDFpbp8dXyJt87reMNngQ00tx+M9vv0oCtPZeIK+ljTIFACaB7w8Kiz4lusmXdHA7EGxBT21VQ9v6Ikb6O3mvQFvuAkNf0TCm+ehBJYbkkY2mK2xD1A8jKzh8CyQIcSqew4CJ+2qFil/hIwQa9lSX/yTRGJtsZbBflUHHzD2YqemmHfoSzRYAvPk8N54naekoqIWDBqSWm56Mx8KUnFB/BroPxwsbztuupQ5jDW376RjYut54xuZ1wJz2hxq2ZZ3L/MCAQgRuCPGnrHt1wbmQDMp5+bpKgMr+YqaFnmX3zK+2E3yDDyKi7W2HBpHCVtfcIX9Sep1WUadb3dfK6H9Xny+So63Hl3UY7icYVMOF8ucAAFMvf7sglGT1SAFlERAYZipQjZ0EMje5Clj4BEQRA9u66uWZJ+qNmBPYuOFy6O3nBI92JgG6itLZbnGH8XhdA=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228409,
+    "id": "9udJav6KIcqfvr0Plb-amQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 203,
+      "total_tokens": 442
+    }
+  }
+}

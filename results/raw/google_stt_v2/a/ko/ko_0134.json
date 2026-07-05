@@ -1,0 +1,36 @@
+{
+  "utt_id": "ko_0134",
+  "lang": "ko",
+  "engine": "google_stt_v2",
+  "duration_sec": 6.36,
+  "ref_text_raw": "\"\"\"이건 작별 인사가 아닙니다. 이것은 한 장의 끝이며 새로운 장의 시작입니다.\"\"\"",
+  "ref_text_normalized": "\"\"\"이건 작별 인사가 아닙니다. 이것은 한 장의 끝이며 새로운 장의 시작입니다.\"\"",
+  "timestamp_utc": "2026-07-05T05:02:32Z",
+  "text": "이건 작별 인사가 아닙니다. 이것은 한 장의 끝이며 새로운 장의 시작입니다.",
+  "latency_sec": 3.15,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "ko-KR",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "7s",
+      "requestId": "6b5f7026-0000-228b-9e82-fc4116928d11",
+      "prompt": "Transcribe the following speech segment in Korean. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Korean."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "이건 작별 인사가 아닙니다. 이것은 한 장의 끝이며 새로운 장의 시작입니다."
+          }
+        ],
+        "languageCode": "ko-KR"
+      }
+    ]
+  }
+}

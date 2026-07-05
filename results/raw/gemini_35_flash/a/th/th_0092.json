@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0092",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.14,
+  "ref_text_raw": "มันยังโจมตีอะไรก็ตามที่ลงไปในน้ำอีกด้วย แม้แต่ไดโนเสาร์ยักษ์ใหญ่อย่างทีเร็กซ์ก็ไม่ใช่คู่ต่อกรของมัน",
+  "ref_text_normalized": "มันยังโจมตีอะไรก็ตามที่ลงไปในน้ำอีกด้วย แม้แต่ไดโนเสาร์ยักษ์ใหญ่อย่างทีเร็กซ์ก็ไม่ใช่คู่ต่อกรของมัน",
+  "timestamp_utc": "2026-07-05T08:00:29Z",
+  "text": "มันยังโจมตีอะไรก็ตามที่ลงไปในน้ำอีกด้วย แม้แต่ไดโนเสาร์ยักษ์ใหญ่อย่างทีเร็กซ์ก็ไม่ใช่คู่ต่อกรของมัน",
+  "latency_sec": 7.1525,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "มันยังโจมตีอะไรก็ตามที่ลงไปในน้ำอีกด้วย แม้แต่ไดโนเสาร์ยักษ์ใหญ่อย่างทีเร็กซ์ก็ไม่ใช่คู่ต่อกรของมัน",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238429,
+    "id": "Fw9KaqSkJrif0-kPzJPfgAc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 200,
+      "total_tokens": 1126
+    }
+  }
+}

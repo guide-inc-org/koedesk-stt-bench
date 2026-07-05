@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0064",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.1,
+  "ref_text_raw": "병원에서 일하는 동한 리긴스는 여가 시간에 조기 진통에 관해 조사하기 시작했다.",
+  "ref_text_normalized": "병원에서 일하는 동한 리긴스는 여가 시간에 조기 진통에 관해 조사하기 시작했다",
+  "timestamp_utc": "2026-07-05T06:15:05Z",
+  "text": "병원에서 일하는 동안 리긴스는 여가 시간에 조기 진통에 관해 조사하기 시작했다.",
+  "latency_sec": 3.9004,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "병원에서 일하는 동안 리긴스는 여가 시간에 조기 진통에 관해 조사하기 시작했다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Er4FCrsFARFNMg92Y3VkQILyizZ60o6pZQw8vmzflLrPrRnzK8mD2NGFpmptDDrCvxui3lZJ6cF83N/MGPus1cJ2xoPHGhe03Q34hyYkqsusnER0IZ3+Ky9Twbh7OvhIuTb8uvmFJaIJqwux7N1roPqQbI3J309I0RbUvpRGeu13ZPmd0YN1JcTBp4myljKQaI2GZho18MjoGjM5cxOrZw6kzlV7sqts/6MjimY5xQvEc3Acbvw0rAp1tqA422KCPX38VttY1LC6QMslhk65s1/3tfBD18010qIjJt9/5QABhvf8lMYY0jI1acf9bt+Q7UilVfZeUhURfBTq+qPTMgS+mUT+ORYgvJguRQxIrcUWhqKngrQH9BnmiNByCAcJ0JHAiVms164D2EnYT1eu1aFmHlHVRFUu9wKJmnhlYFrdRRqjXM43D6HwSanTobkZZWEOrb4WSH+A0DFTK1qYu7ooRtKszdQxCHI4k0wPBXGS9030Vyo1JeM/gsnPkSqzoW5h+NBI1PbD2r5MkCtykHvnpfs8iXBDb1Aig/U7jxffgZ7E0T6WPx/lFaxwjUXHdIUSoo1Co273787Ya/jB3W2sW2Nl4VrW7gb/WpKY06BLgwQ0Rmn3Df/KNH2pp23YpcqpnzdB4jy9aP0SOQolO5RzNTOVehhTIIhXJQ8PnaFyLYHLq4Wp2GziJlP6BMcEoTdu1/37OcfHlQMfF/S14XkdBOkCFvRn8vpackpXb1cm9YxZe+CFrz7ocymuBJtibXL6KOT4Y37udfwLA921iLHhxrb3CLDc2bFz4i8khfuerzjdOQtK3mvhdoalLEQSGbLalQleyuAZPQATplk/eQ0iYTjHp1z19UfNRwDdgPeAEcLpMcLTWVGqY2haEuSMhGmgYl/5kwaI89olckAFVRV1bEMCMY8KGQkbeFN1u18+"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232105,
+    "id": "Z_ZJaoKnDsfJ0-kPwvvLoAE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 299,
+      "total_tokens": 514
+    }
+  }
+}

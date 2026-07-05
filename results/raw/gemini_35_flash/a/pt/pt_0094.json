@@ -1,0 +1,45 @@
+{
+  "utt_id": "pt_0094",
+  "lang": "pt",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.7,
+  "ref_text_raw": "A ponte está programada para entrar em operação em setembro de 2017, data prevista para finalização das inspeções aduaneiras no Brasil.",
+  "ref_text_normalized": "a ponte está programada para entrar em operação em setembro de 2017 data prevista para finalização das inspeções aduaneiras no brasil",
+  "timestamp_utc": "2026-07-05T06:50:59Z",
+  "text": "A ponte está programada para estar em operação em setembro de 2017, data prevista para finalização das inspeções aduaneiras no Brasil.",
+  "latency_sec": 3.6243,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "A ponte está programada para estar em operação em setembro de 2017, data prevista para finalização das inspeções aduaneiras no Brasil.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Es4GCssGARFNMg9IbNsVtYHpYCvbhz/Gw3KL2V/qurUW4mGrrhfH3A0xPyxQb+HuLfEQ9ly9b+hUhLha+LoIXvSWDsNAafyz6R5OxGHRV3ZJ8M3Ki1b2n9WwRnnYrfo2l3gBly7bOvvvcQTQJ05ObndMJ73zwUcEPBVXUlYORM5DjFT/59c2xVbjKUsnlQDc/Sjgmd4VYyj6cF8yj7L6StKSWHWJN3sikibEqpHleyKC+gM+gl/R3N1Es3ez2ETAUXVZ8KIRtXbbdUg2F/vLbHZMqNPl/RodJvpWYFk4+2tee39Foi78gPrzAJz5lRz5561UmUllIuNzv392Win120i+kXRgJHk3CSKWSuEvJWqsWCvXgGbe4/nby4twKRuw2/fuyMabuAeLzUU5aviGs4vbrR/kEX6hU7XZHio+IBeeNf1GQGqrFlQd8j0MDMsauayB9OQkfTtVkkA/ghr53SCeKU8XumdXZM+WKOrCiiA1oSHkoVYby+A7xFhlP6kl39iwOvwPcSNfn7sGz4yb1H15R4Qm3nf9xAvBDGw84YF6cCkf7LWdl6tOqvNexHdAVyuteV/fc78JoRjUd6sttuC3apxBUZQf5VpX7hyXII9nSA8Zh7JoGSg7oaMQOghH9AYZAc6FG5fOBjFTYXviE8AkWzwceRd9l6L85dLfgPCLKxQjrLddsbaFaoO6Z1DQAPiB/0bbsQ/j5pjyxrPUYFCptKQiJ4Q5x2MzFhNUJOj+1gnJVAv1rrTVd8YxO+m6jgE2KpmksX6h1pKwOApe7kGPN+fI4bPs495tGxpUhyjWy2F7xW7vyXIg+TSWj9fI/Reod4+pFKeuj2Afq4/6NE2N3I1RuSuQZi3PHb/c6w11unf4oSo9puJ/UneQWQ3PFxi5xvcb6pr9CwKd12kcTVZhEHKeULUmSHFNFPDUzBa37IVx3/LwmvOpTUVr8YvypGvFskILHYa2ec2toLNhEsOjsr+lOiksqtCYykTdFc/pyFj9hHWk62vUQ0cfeTLp1J9QMsi6CQCm5SrPXeF/ipUEZzyKg65D1ddlM295AUYpKoYpHbdQdlnAGp8IKRzHva3cF6o+qPG/XWD992YiKyGTbQjy9m2Tq1QIlvgo1pZ8"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234259,
+    "id": "0P5JarSPO-GHvr0PvZC5oQg",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 314,
+      "total_tokens": 566
+    }
+  }
+}

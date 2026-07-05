@@ -1,0 +1,44 @@
+{
+  "utt_id": "pt_0091",
+  "lang": "pt",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.3,
+  "ref_text_raw": "Aconteceu novamente no mesmo mês em Mashhad, outro avião comercial entrou em uma pista e atingiu uma parede, matando dezessete pessoas.",
+  "ref_text_normalized": "aconteceu novamente no mesmo mês em mashhad outro avião comercial entrou em uma pista e atingiu uma parede matando dezessete pessoas",
+  "timestamp_utc": "2026-07-05T06:59:28Z",
+  "text": "Aconteceu novamente no mês em Mashhad, outro avião comercial entrou em uma pista e atingiu uma parede, matando 17 pessoas.",
+  "latency_sec": 2.7729,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Aconteceu novamente no mês em Mashhad, outro avião comercial entrou em uma pista e atingiu uma parede, matando 17 pessoas.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPFCHWInovcjxWt+/S6spd7zoynQRNRsTWF1uB0sMEYk3XJ+f+JvPf+xEtzOiV"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234768,
+    "id": "zgBKatWFOMP_2roPvqa06AU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 329,
+      "total_tokens": 360
+    }
+  }
+}

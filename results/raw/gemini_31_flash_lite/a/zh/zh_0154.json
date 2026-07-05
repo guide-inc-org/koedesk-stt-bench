@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0154",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.18,
+  "ref_text_raw": "自 1966 年以来，孙德尔本斯一直是野生动物保护区。据估计，目前该区生活着 400 只皇家孟加拉虎和大约 3 万只梅花鹿。",
+  "ref_text_normalized": "自 1966 年 以 来 孙 德 尔 本 斯 一 直 是 野 生 动 物 保 护 区 据 估 计 目 前 该 区 生 活 着 400 只 皇 家 孟 加 拉 虎 和 大 约 3 万 只 梅 花 鹿",
+  "timestamp_utc": "2026-07-05T09:19:54Z",
+  "text": "自1966年以来，孙德尔本斯一直是野生动物的保护区。据估计，目前该区生活着400只皇家孟加拉虎和大约3万只梅花鹿。",
+  "latency_sec": 3.1022,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "自1966年以来，孙德尔本斯一直是野生动物的保护区。据估计，目前该区生活着400只皇家孟加拉虎和大约3万只梅花鹿。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPVBRjR/c1qDTAEVZ6z0C4526sro2sQnujNRIve7cb1lkQ/d08sbLPpJthLObU"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243194,
+    "id": "uSFKarzoCtqA1e8PtKvlgQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 46,
+      "prompt_tokens": 326,
+      "total_tokens": 372
+    }
+  }
+}

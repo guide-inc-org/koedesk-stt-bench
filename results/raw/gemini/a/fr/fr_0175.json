@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0175",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.84,
+  "ref_text_raw": "Deux ans après la fin de la guerre, les anciens alliés sont devenus des ennemis et la guerre froide a commencé.",
+  "ref_text_normalized": "deux ans après la fin de la guerre les anciens alliés sont devenus des ennemis et la guerre froide a commencé",
+  "timestamp_utc": "2026-07-05T04:58:53Z",
+  "text": "2 ans après la fin de la guerre, les anciens alliés sont devenus des ennemis et la guerre froide a commencé.",
+  "latency_sec": 3.9632,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "2 ans après la fin de la guerre, les anciens alliés sont devenus des ennemis et la guerre froide a commencé.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227533,
+    "id": "iuRJatzpOqKw0-kP6bjO4AU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 336,
+      "total_tokens": 420
+    }
+  }
+}

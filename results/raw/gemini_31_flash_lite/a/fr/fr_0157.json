@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0157",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.62,
+  "ref_text_raw": "Cependant, le pourcentage de TB-UR dans l’ensemble du groupe de personnes atteintes de tuberculose semble encore faible ; 6 000 personnes sur un total de 330 000 ont été infectées à un moment donné en Afrique du Sud.",
+  "ref_text_normalized": "cependant le pourcentage de tb-ur dans l’ensemble du groupe de personnes atteintes de tuberculose semble encore faible ; 6 000 personnes sur un total de 330 000 ont été infectées à un moment donné en afrique du sud",
+  "timestamp_utc": "2026-07-05T05:19:15Z",
+  "text": "Cependant, le pourcentage de TBU R dans l'ensemble du groupe des personnes atteintes de tuberculose semble encore faible. 6000 personnes, sur un total de 330000, ont été infectées à un moment donné en Afrique du Sud.",
+  "latency_sec": 3.7087,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Cependant, le pourcentage de TBU R dans l'ensemble du groupe des personnes atteintes de tuberculose semble encore faible. 6000 personnes, sur un total de 330000, ont été infectées à un moment donné en Afrique du Sud.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPcBQ3ebvKXlyCgrSeQvn9FT1KxiMlStZ+TrWF2F0c5hWBsq9BofhMfvb0UIB/"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228755,
+    "id": "UelJav-TCJTc2roP-cDPmAY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 58,
+      "prompt_tokens": 362,
+      "total_tokens": 420
+    }
+  }
+}

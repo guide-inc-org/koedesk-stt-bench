@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0161",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 12.52,
+  "ref_text_raw": "他受到了新加坡副总理黄根成的欢迎，并与新加坡总理李显龙探讨了贸易和恐怖主义问题。",
+  "ref_text_normalized": "他 受 到 了 新 加 坡 副 总 理 黄 根 成 的 欢 迎 并 与 新 加 坡 总 理 李 显 龙 探 讨 了 贸 易 和 恐 怖 主 义 问 题",
+  "timestamp_utc": "2026-07-05T06:32:34Z",
+  "text": "他受到了新加坡副总理黄根成的欢迎，并与新加坡总理李显龙探讨了贸易和恐怖主义问题。",
+  "latency_sec": 4.1329,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "13s",
+      "requestId": "7442c63c-0000-263e-843b-f4f5e8031264",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "他受到了新加坡副总理黄根成的欢迎，并与新加坡总理李显龙探讨了贸易和恐怖主义问题。"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0032",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.4,
+  "ref_text_raw": "Dịch vụ này thường được sử dụng bởi tàu thuyền, gồm cả tàu du lịch, cũng như các đoàn thám hiểm có nhu cầu trao đổi dữ liệu và giọng nói từ xa.",
+  "ref_text_normalized": "dịch vụ này thường được sử dụng bởi tàu thuyền gồm cả tàu du lịch cũng như các đoàn thám hiểm có nhu cầu trao đổi dữ liệu và giọng nói từ xa",
+  "timestamp_utc": "2026-07-05T08:39:37Z",
+  "text": "Dịch vụ này thường được sử dụng bởi tàu thuyền gồm cả tàu du lịch cũng như các đoàn thám hiểm có nhu cầu trao đổi dữ liệu và giọng nói từ xa.",
+  "latency_sec": 3.1274,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Dịch vụ này thường được sử dụng bởi tàu thuyền gồm cả tàu du lịch cũng như các đoàn thám hiểm có nhu cầu trao đổi dữ liệu và giọng nói từ xa.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP6VifdBULOSGA8P/0q0Y/g6++OwTygUbDDTyTv53kJorH2j5D+RwIPYYszvkB"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240777,
+    "id": "RxhKasnoMv_R1e8PsqiM8QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 306,
+      "total_tokens": 342
+    }
+  }
+}

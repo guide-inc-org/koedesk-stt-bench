@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0163",
+  "lang": "de",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.32,
+  "ref_text_raw": "Der kalifornische Gouverneur Arnold Schwarzenegger unterzeichnete einen Gesetzentwurf, der den Verkauf oder Verleih von Videospielen, die Gewalt beinhalten, an Minderjährige verbietet.",
+  "ref_text_normalized": "der kalifornische gouverneur arnold schwarzenegger unterzeichnete einen gesetzentwurf der den verkauf oder verleih von videospielen die gewalt beinhalten an minderjährige verbietet",
+  "timestamp_utc": "2026-07-05T03:56:09Z",
+  "text": "Der kalifornische Gouverneur Arnold Schwarzenegger unterzeichnete einen Gesetzentwurf, der den Verkauf oder Verleih von Videospielen, die Gewalt beinhalten, an Minderjährige verbietet.",
+  "latency_sec": 4.5687,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Der kalifornische Gouverneur Arnold Schwarzenegger unterzeichnete einen Gesetzentwurf, der den Verkauf oder Verleih von Videospielen, die Gewalt beinhalten, an Minderjährige verbietet.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223769,
+    "id": "1tVJavWGDPijvr0Pmty12QU",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 352,
+      "total_tokens": 525
+    }
+  }
+}

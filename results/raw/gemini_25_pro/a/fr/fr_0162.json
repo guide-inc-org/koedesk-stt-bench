@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0162",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 9.9,
+  "ref_text_raw": "L'autorité centrale de l'église était à Rome depuis plus de 1000 ans et cette concentration de pouvoir et d'argent a conduit beaucoup de gens à se demander si cette doctrine était respectée.",
+  "ref_text_normalized": "l'autorité centrale de l'église était à rome depuis plus de 1000 ans et cette concentration de pouvoir et d'argent a conduit beaucoup de gens à se demander si cette doctrine était respectée",
+  "timestamp_utc": "2026-07-05T05:05:10Z",
+  "text": "L'autorité centrale de l'église était à Rome depuis plus de 1000 ans et cette concentration de pouvoir et d'argent a conduit beaucoup de gens à se demander si ces doctrines étaient respectées.",
+  "latency_sec": 4.5856,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "L'autorité centrale de l'église était à Rome depuis plus de 1000 ans et cette concentration de pouvoir et d'argent a conduit beaucoup de gens à se demander si ces doctrines étaient respectées.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227910,
+    "id": "A-ZJarTBDqXJ2roPu_yk0QE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 338,
+      "total_tokens": 420
+    }
+  }
+}

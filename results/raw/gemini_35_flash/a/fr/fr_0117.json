@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0117",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 13.8,
+  "ref_text_raw": "Layton avait demandé des changements au sujet du projet de loi environnemental des conservateurs lors de la réunion avec le premier ministre, demandant une « reformulation complète et approfondie » du projet de loi environnemental du parti conservateur.",
+  "ref_text_normalized": "layton avait demandé des changements au sujet du projet de loi environnemental des conservateurs lors de la réunion avec le premier ministre demandant une « reformulation complète et approfondie » du projet de loi environnemental du parti conservateur",
+  "timestamp_utc": "2026-07-05T05:11:54Z",
+  "text": "Layton avait demandé des changements au sujet du projet de loi environnementale des conservateurs lors de la réunion avec le premier ministre, demandant une reformulation complète et approfondie du projet de loi environnementale du parti conservateur.",
+  "latency_sec": 4.331,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Layton avait demandé des changements au sujet du projet de loi environnementale des conservateurs lors de la réunion avec le premier ministre, demandant une reformulation complète et approfondie du projet de loi environnementale du parti conservateur.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtEKCs4KARFNMg+RzMDlB1EuLufFuPKhOsT7v/e1c3++l6NcKsigGW7i21WpuKane3O8HDv1pY7Vlje9J+Er9w/oGStxThrhfiPyFqgGw8vb801ynI7TdpUyM+oaFjYMnTBB9NtkOk9I95T+mIEAFdaJAb6tvQdGGm9QII9bquLRldpxJf34YQg9sY3abxizqzCIALy0RzEbAhQPEm9NkF3opNw1ocoHxhDDQY9nDBkBnMl7fz/Yzs+aoXD9KXNEPpknndn6p5zYY+QD5tG47iBXRzEu07wF29lA6uv0fbefsZTGz4KF0YWJO55lwFaqovKPa6B2plNRB2sX+95dx960RfoPMF8rLst2vNfD7ij5P0YaBTtBFh2U/l3NznaaavZmySMpYnETv9A8hgHzbgsfYMrJat+wnwOuqOUnfe2GQfWjLj/1PKg7oC/7QopN13PePIehtsD0xFz8kSgg3GoF851mvlAkgv7+SidVSlkDRt/F7INIVBRSF9193PEP4al+INdNPmjWQl/njqMP0AiKZFMP9tYpcl4FBmoFACbNaY4UD2BXJbVvKfF9mBbFD9C9Cv0kjYlJI5vCb5kqb4tZGKulVuzqM1L0b/7hHZ/9RhU4IVY472519yaBFrlg0R2UnlJvLEWBUghtoD9BEyQGqRVwg9qyc/OEmOfx+2TQLF35EGtKQhxSPgCe9bJbu/TuGBp20ChZSFBR9MCjzvJS5bWiqf5OdMsGX6IfRidWYysB9gXAHRgOu4IvctVd4zg4jgNNK7rjTlGZKdj7//Mmne1cC4PKyahc46CZThwrXUQHa/oJtHzJeOD5xfsPndGhD2L+FggMe9zpU/9Pp68s3tusw/nDGxuLFaEjCwH4C4qjk5/YUWLx3Eekzp5nfAU15yed/GCJK/OLvRUACycIeBF14h3278vGwYFKd+0DvT1QOkkkc+RSBmRMrNVo26l/Pxe9kRGwO+1zYqjJKVsemHc6h2/9GIn0TF3eTdrgttPBxRVyBg9jsdB4Rtc9dINnvcrBDFcUYMI8hCknwqluZrw369oNGccDPRkakOiTBDz2B9XQcjKWCvIvDfKrJBOERhddeaqmucJz0ct6FaXDC/6bW6wG/vJxQ+SN+IJCfy97jlL1xgGnXHz/x8P6Sm6qLh1+NNoQNS7pw2faxb4LIFHms35uBUszySMxUmdD4rhswGNvffs2GhU6zqs/SrQWv7jp1BoK5gUpCfJYrp29RSf1akcg+zpIlV0NgmfTGrevSEguSl1RnvjA8b+wp90S/aytA4Zo7gHl1kVMATWF6LOtR4gPKI2zhnBWm6grIR4PnqB6NSeBcmmKnwvmDDJWGiQYP4Iq3g4+V5asFwuBaaUYrLsn2hWzIn54HlNp9sltyqoTqIKOWK9rvlT0PMbdXqPrjzT/ViKkuY5jqphHbW7jvMI2VV6+IH6MqdYj4mYsJ15ud+5rkQqYMnsjq+BZsTTP6EUwnd0h2L9YvdgEgSjX+Me4ixwXMeBsiVPTyULjFBetUNEo+J+5Gad/4Vi1MHqSaJImI/ddnBE37gyHKt62d+y492xjmJc7tKJmh7qrY39rH8i2UmayPQijo6MCyXqbH3gdOGCdbwYBtXBDtghZSacTZl39I+M6DSbPgMKRaBKhSx1rKyTMfmFeRylBsaUqRVesRdIkbwuLvVWXX1ODEu2lxVjd4oiNUxdwtOPXJGVJXXJO92BceQi42WHNG/sxaJZmqlErOvGFM3s7JpXDv+qkaavZKpCYwd2PvUakV1hJulkh1MGVnuwZv0boY1mTblLbTDG1IqKDF8Cr8cs="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228314,
+    "id": "l-dJaqWpJtTM1e8Pof6vuQc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 366,
+      "total_tokens": 687
+    }
+  }
+}

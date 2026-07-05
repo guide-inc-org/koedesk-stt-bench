@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0130",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 23.04,
+  "ref_text_raw": "그린란드는 드문드문 정착했다. 노르웨이 모험담에서 그들은 Erik the Red가 살인죄로 아이슬란드에서 추방당했다고 말한다. 그리고 서쪽으로 더 멀리 항해할 때, 그린란드를 발견하여 그린란드라고 이름 지었다.",
+  "ref_text_normalized": "그린란드는 드문드문 정착했다 노르웨이 모험담에서 그들은 erik the red가 살인죄로 아이슬란드에서 추방당했다고 말한다 그리고 서쪽으로 더 멀리 항해할 때 그린란드를 발견하여 그린란드라고 이름 지었다",
+  "timestamp_utc": "2026-07-05T06:26:44Z",
+  "text": "그린란드는 드문드문 정착했다. 노르웨이 모험담에서 그들은 에릭 더 레드가 살인죄로 아이슬란드에서 추방당했다고 말한다. 그리고 서쪽으로 더 멀리 항의할 때 그린란드를 발견하여 그린란드라고 이름 지었다.",
+  "latency_sec": 3.2291,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "그린란드는 드문드문 정착했다. 노르웨이 모험담에서 그들은 에릭 더 레드가 살인죄로 아이슬란드에서 추방당했다고 말한다. 그리고 서쪽으로 더 멀리 항의할 때 그린란드를 발견하여 그린란드라고 이름 지었다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPIVhq/3cmfzqkvWGCuMM1M2JRXLtntN1GSLoE/3n0+iTGw5UbPUeL7ap3OejI"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232804,
+    "id": "I_lJapXNCJnV1e8Pw6zfgAQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 65,
+      "prompt_tokens": 597,
+      "total_tokens": 662
+    }
+  }
+}

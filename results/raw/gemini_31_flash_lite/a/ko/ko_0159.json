@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0159",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 19.8,
+  "ref_text_raw": "\"그의 작품은 높은 품질과 세밀하기로 정평이 나 있고 그는 도장 파는 사람 중 정말 몇 되지 않는 \"\"누구나 아는 이름\"\"의 소유자이다. 그의 작품만을 전문으로 수집하는 사람들도 있다.   \"",
+  "ref_text_normalized": "\"그의 작품은 높은 품질과 세밀하기로 정평이 나 있고 그는 도장 파는 사람 중 정말 몇 되지 않는 \"누구나 아는 이름\"\"의 소유자이다. 그의 작품만을 전문으로 수집하는 사람들도 있다.   ",
+  "timestamp_utc": "2026-07-05T06:28:36Z",
+  "text": "그의 작품은 높은 품질과 세밀하기로 정평이 나 있고 그는 도장 파는 사람 중 정말 몇 되지 않는 누구나 아는 이름의 소유자이다. 그의 작품만을 전문으로 수집하는 사람들도 있다.",
+  "latency_sec": 3.4857,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "그의 작품은 높은 품질과 세밀하기로 정평이 나 있고 그는 도장 파는 사람 중 정말 몇 되지 않는 누구나 아는 이름의 소유자이다. 그의 작품만을 전문으로 수집하는 사람들도 있다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP5CmmFmSUDvmfXT8sfq3Veh4jhGGDapgbzyTPpkGsRN00o+QMywEjTsHghzwp"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232916,
+    "id": "kvlJapSaFMfE0-kP8qfE0QY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 50,
+      "prompt_tokens": 516,
+      "total_tokens": 566
+    }
+  }
+}

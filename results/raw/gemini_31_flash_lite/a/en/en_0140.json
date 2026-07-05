@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0140",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 19.66,
+  "ref_text_raw": "We agree with the USOC's statement that the interests of our athletes and clubs, and their sport, may be better served by moving forward with meaningful change within our organization, rather than decertification.",
+  "ref_text_normalized": "we agree with the usoc's statement that the interests of our athletes and clubs and their sport may be better served by moving forward with meaningful change within our organization rather than decertification",
+  "timestamp_utc": "2026-07-05T03:35:32Z",
+  "text": "We agree with the USOC statement that the interests of our athletes and clubs and their sport may be better served by moving forward with meaningful change within our organization rather than decertification.",
+  "latency_sec": 3.037,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "We agree with the USOC statement that the interests of our athletes and clubs and their sport may be better served by moving forward with meaningful change within our organization rather than decertification.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPtZ4eV2pweL0wHrAE0s8vregtE/ZwhYsaBkvoVsUrIkOMI5q7Ty4Z1ryqy0qh"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222532,
+    "id": "AtFJaqCeNLui9tMP8NiBsAM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 513,
+      "total_tokens": 550
+    }
+  }
+}

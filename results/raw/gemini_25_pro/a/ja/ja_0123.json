@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0123",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 9.06,
+  "ref_text_raw": "月面は岩石と塵でできています。月の外層は地殻と呼ばれています。",
+  "ref_text_normalized": "月面は岩石と塵でできています 月の外層は地殻と呼ばれています",
+  "timestamp_utc": "2026-07-05T03:08:54Z",
+  "text": "月面は岩石と塵でできています。 月の外装は 地殻と呼ばれています。",
+  "latency_sec": 3.9225,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "月面は岩石と塵でできています。 月の外装は 地殻と呼ばれています。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783220934,
+    "id": "xMpJaoyKBNWd1e8PgOulsQY",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 311,
+      "total_tokens": 359
+    }
+  }
+}

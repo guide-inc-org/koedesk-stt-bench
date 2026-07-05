@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0124",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.18,
+  "ref_text_raw": "你手上的水分会与外层发生反应，这样会形成一层类似外壳的东西，感觉十分有趣。",
+  "ref_text_normalized": "你 手 上 的 水 分 会 与 外 层 发 生 反 应 这 样 会 形 成 一 层 类 似 外 壳 的 东 西 感 觉 十 分 有 趣",
+  "timestamp_utc": "2026-07-05T09:17:15Z",
+  "text": "你手上的水分会与外层发生反应，这会形成一层类似外壳的东西，感觉十分有趣。",
+  "latency_sec": 5.6403,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "你手上的水分会与外层发生反应，这会形成一层类似外壳的东西，感觉十分有趣。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243035,
+    "id": "FyFKar-8B4-V9tMPqJa8yAI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 251,
+      "total_tokens": 713
+    }
+  }
+}

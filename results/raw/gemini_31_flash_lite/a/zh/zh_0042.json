@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0042",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 18.88,
+  "ref_text_raw": "在另一种极端情况下，这个人会变成一个与之前迥然不同的个体，觉得他/她必须改变团队所做的一切，并把成果据为己有。",
+  "ref_text_normalized": "在 另 一 种 极 端 情 况 下 这 个 人 会 变 成 一 个 与 之 前 迥 然 不 同 的 个 体 觉 得 他 她 必 须 改 变 团 队 所 做 的 一 切 并 把 成 果 据 为 己 有",
+  "timestamp_utc": "2026-07-05T09:13:12Z",
+  "text": "在另一种极端情况下，这个人会变成一个与之前迥然不同的个体，觉得他必须改变团队所做的一切，并把成果据为己有。",
+  "latency_sec": 2.9245,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "在另一种极端情况下，这个人会变成一个与之前迥然不同的个体，觉得他必须改变团队所做的一切，并把成果据为己有。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPA0Ek4b82LAc8bSQ+AXzkAUd7F6olmyLenQerFNRRevVH7pBhhgaTXB61tq9K"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242792,
+    "id": "JyBKarvBFsDH2roPzfDW-AM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 493,
+      "total_tokens": 526
+    }
+  }
+}

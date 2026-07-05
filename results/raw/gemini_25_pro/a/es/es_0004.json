@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0004",
+  "lang": "es",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.62,
+  "ref_text_raw": "Carpanedo participó en dos carreras individuales del campeonato aparte de la competencia del miércoles.",
+  "ref_text_normalized": "carpanedo participó en dos carreras individuales del campeonato aparte de la competencia del miércoles",
+  "timestamp_utc": "2026-07-05T04:12:35Z",
+  "text": "Carpaneo participó en dos carreras individuales del campeonato, aparte de la competencia del miércoles.",
+  "latency_sec": 5.6876,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Carpaneo participó en dos carreras individuales del campeonato, aparte de la competencia del miércoles.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224755,
+    "id": "r9lJasqUDvKE0-kPh9im2AE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 17,
+      "prompt_tokens": 361,
+      "total_tokens": 546
+    }
+  }
+}

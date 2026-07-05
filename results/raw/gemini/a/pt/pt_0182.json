@@ -1,0 +1,39 @@
+{
+  "utt_id": "pt_0182",
+  "lang": "pt",
+  "engine": "gemini_25_flash",
+  "duration_sec": 21.18,
+  "ref_text_raw": "Perry disse que iria \"voltar ao Texas para olhar os resultados da convenção partidária desta noite e determinar se há para mim um caminho a seguir nesta corrida\", porém mais tarde afirmou que permaneceria na corrida e participaria das preliminares do dia 21 de janeiro na Carolina do Sul.",
+  "ref_text_normalized": "perry disse que iria voltar ao texas para olhar os resultados da convenção partidária desta noite e determinar se há para mim um caminho a seguir nesta corrida porém mais tarde afirmou que permaneceria na corrida e participaria das preliminares do dia 21 de janeiro na carolina do sul",
+  "timestamp_utc": "2026-07-05T06:41:18Z",
+  "text": "Perry disse que queria voltar ao Texas para olhar os resultados da convenção partidária desta noite e determinar se há, para mim, um caminho a seguir nessa corrida. Porém, mais tarde, afirmou que permaneceria na corrida e participaria das preliminares do dia 21 de janeiro na Carolina do Sul.",
+  "latency_sec": 4.0597,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Perry disse que queria voltar ao Texas para olhar os resultados da convenção partidária desta noite e determinar se há, para mim, um caminho a seguir nessa corrida. Porém, mais tarde, afirmou que permaneceria na corrida e participaria das preliminares do dia 21 de janeiro na Carolina do Sul.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783233679,
+    "id": "jPxJaoWUFaqj9tMPiaisiAI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 63,
+      "prompt_tokens": 699,
+      "total_tokens": 788
+    }
+  }
+}

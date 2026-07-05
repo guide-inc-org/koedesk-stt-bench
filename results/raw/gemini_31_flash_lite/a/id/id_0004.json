@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0004",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.3,
+  "ref_text_raw": "Di sisi lain, kondisi yang dingin dan bersalju tergolong normal di banyak negara dan lalu lintas terus berlanjut tanpa gangguan sepanjang tahun.",
+  "ref_text_normalized": "di sisi lain kondisi yang dingin dan bersalju tergolong normal di banyak negara dan lalu lintas terus berlanjut tanpa gangguan sepanjang tahun",
+  "timestamp_utc": "2026-07-05T05:45:02Z",
+  "text": "Di sisi lain, kondisi yang dingin dan bersalju tergolong normal di banyak negara dan lalu lintas terus berlanjut tanpa gangguan sepanjang tahun.",
+  "latency_sec": 3.7718,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Di sisi lain, kondisi yang dingin dan bersalju tergolong normal di banyak negara dan lalu lintas terus berlanjut tanpa gangguan sepanjang tahun.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPaFLk2g8B+0MfCUXJj7RthXvk0NzUKUuL6hQosx182iIleNc8UKjytnDtxfgF"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230302,
+    "id": "W-9JaszhN5jF0-kPvZ-G6AE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 329,
+      "total_tokens": 359
+    }
+  }
+}

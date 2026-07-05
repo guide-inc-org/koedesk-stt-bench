@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0128",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.2,
+  "ref_text_raw": "消防隊は最終的に午後11時35分までに火を消しました。",
+  "ref_text_normalized": "消防隊は最終的に午後11時35分までに火を消しました",
+  "timestamp_utc": "2026-07-05T03:17:55Z",
+  "text": "消防隊は最終的に午後11時35分までに火を消しました。",
+  "latency_sec": 4.9515,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "消防隊は最終的に午後11時35分までに火を消しました。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221476,
+    "id": "4MxJaq39Erv31e8Pvf2M0QE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 276,
+      "total_tokens": 748
+    }
+  }
+}

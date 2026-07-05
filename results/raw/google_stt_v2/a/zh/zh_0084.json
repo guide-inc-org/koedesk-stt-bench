@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0084",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 9.42,
+  "ref_text_raw": "研究该疾病的联合国专家丹妮尔·拉塔涅 (Danielle Lantagne) 表示，疫情爆发很可能是由维和人员引起的。",
+  "ref_text_normalized": "研 究 该 疾 病 的 联 合 国 专 家 丹 妮 尔 拉 塔 涅 danielle lantagne 表 示 疫 情 爆 发 很 可 能 是 由 维 和 人 员 引 起 的",
+  "timestamp_utc": "2026-07-05T06:25:48Z",
+  "text": "研究该疾病的联合国专家丹尼尔·拉塔涅表示，疫情爆发很可能是由维和人员引起的。",
+  "latency_sec": 3.9551,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "10s",
+      "requestId": "6b65745a-0000-228b-9e82-fc4116928d11",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "研究该疾病的联合国专家丹尼尔·拉塔涅表示，疫情爆发很可能是由维和人员引起的。"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

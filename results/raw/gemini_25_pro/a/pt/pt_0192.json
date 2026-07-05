@@ -1,0 +1,39 @@
+{
+  "utt_id": "pt_0192",
+  "lang": "pt",
+  "engine": "gemini_25_pro",
+  "duration_sec": 12.12,
+  "ref_text_raw": "Os batedores da ordem média, Sachin Tendulkar e Rahul Dravid, tiveram um bom desempenho e fizeram uma parceria de cem corridas.",
+  "ref_text_normalized": "os batedores da ordem média sachin tendulkar e rahul dravid tiveram um bom desempenho e fizeram uma parceria de cem corridas",
+  "timestamp_utc": "2026-07-05T06:53:04Z",
+  "text": "Os batedores da ordem média, Sachin Tendulkar e Rahul Dravid, tiveram um bom desempenho e fizeram uma parceria de 100 corridas.",
+  "latency_sec": 6.0942,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Os batedores da ordem média, Sachin Tendulkar e Rahul Dravid, tiveram um bom desempenho e fizeram uma parceria de 100 corridas.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234384,
+    "id": "S_9JasCXMYaA0-kPotqL6Q4",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 409,
+      "total_tokens": 828
+    }
+  }
+}

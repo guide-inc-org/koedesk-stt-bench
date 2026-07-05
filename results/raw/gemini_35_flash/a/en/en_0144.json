@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0144",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.78,
+  "ref_text_raw": "By 1976, thirty percent of Machu Picchu had been restored and restoration continues till today.",
+  "ref_text_normalized": "by 1976 thirty percent of machu picchu had been restored and restoration continues till today",
+  "timestamp_utc": "2026-07-05T03:35:30Z",
+  "text": "By 1976, 30% of Machu Picchu has been restored and restoration continues till today.",
+  "latency_sec": 3.5305,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "By 1976, 30% of Machu Picchu has been restored and restoration continues till today.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EuYECuMEARFNMg9O2nEKgu+/E/dkhwJjTP/VQEc6eufx5l/LpgCpPI/R9w4HOTMEeU8PlzycbLSLRfnryKb0DZFQVFaaEKbKyJxYo/tq+MM2EWrnL00UScpkpwQVrzGQXduS0aAijdEd6SE7y7eUGuArT4+5XZrQXAAxV8GlA9eTFqM0dC6WX2TUo9nslrfvXf85fvcrPk3DMf6Amf7f5mM3GdrsxjDkEApkO5UWOlTU9F4+KFLBVt4eU6odZDmo1zS02yYlLUEAUstahgnSrFkiqhl/s233zfzlZ4I4KCTEr4swbBvrrb1lPBlD4IdloPyroxW3dbScFFgwaXa27+xVh+vsIhZj4A87IFCzgqD7ce2bB2LowSoOK/1g1yXOgkPiBu6AoH67dDF8gwO50dfA5t5KhF5/Hu14cp/yr8fEenu0/khIC2xHAmJxyPiWy9voh5FJuPK5vbtXwslPhKujHRILmc45VR1IdN2RgvAAJmqAUscaTqdh/cf80AGmvSJXAtX/vqcePxhliZgmUqxEb5CGOLFlcpyynm1TxwynWTrz1oqp40ir1nW+jhUWvZOfHYVA4jPzOuuXRR5QIqvXYWYxC1F7+6mZx6xjZtkEciabRIXtRTpstSc0iR9wFavY5N6QfiwJJuJ8s4ZypMl8Vcm07deaYFXGGkpgSipwQorw2MYosZfGjE53n1oSUVjJqauAyN3mEKGFpg8lS0EMm8K1l7Aq6zymoORdQFtAOHdaQhfcXOn0yiOKOJ0hNoB7aG1Dqs1xreTb2xh4Ek8/9IPqfD11ED8gyY70rjrHJsNVccP5VYU="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222530,
+    "id": "_9BJasKLNMGC0-kP_snrsQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 191,
+      "total_tokens": 366
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0175",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.52,
+  "ref_text_raw": "But, after losing the captain's wicket India only made 36 runs loosing 7 wickets to end the innings.",
+  "ref_text_normalized": "but after losing the captain's wicket india only made 36 runs loosing 7 wickets to end the innings",
+  "timestamp_utc": "2026-07-05T03:38:01Z",
+  "text": "But, after losing the captain's wicket India only made 36 runs losing 7 wickets to end the innings.",
+  "latency_sec": 3.1285,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "But, after losing the captain's wicket India only made 36 runs losing 7 wickets to end the innings.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtoECtcEARFNMg+LRZCgA74biOj6oUvcrybQUsDrTtKWgamZIGnzqUgkuXzS4T50r+xHYsQXUKfAR+leFecuh1GfayyDziz88JD1xB9Pan9/m0M1TZy4KLJqmU7cZRqSQ1UZysQoNXBJ+EcDcMkfmruVcGpZAfrhTl0MAxmJHInPvFr9ukcpB1I1zrDI1ng+hsnclpGDwyftDEFjNtOL0BEuon4ym6l6WnqNhmMi41FTgwNBL0MGFXmFBVHjbiy20daPEPDQasqXDM8+h+OHO34/nWXsxvCwh5NxpgxPJbw8zrlrn0O1GaQQfsyeSTXWYPFzBcUh234jXIcL4mLVvKlMKH4TNFaRFyu5V3ooqRfeMOokYQONBumQio82bdE+iGS56q8DEjWnAEPeF4Lib+bfPJi7rzvx/+bwfVYk/Ys0aa0l9VhpHnORGvD9mf6phGLFh0tQwAcZDGsrt7dUlzmMh6XeRaemPDgbXecgXkDeHTpzhnhsYHsJIID1q527zPtASOJjSsT8qeyPoMVqxd/JwUJC8vYULHnilvvCf5SA3gFqE/Jsw+2RZ7lAlKHpmf1/DJrEyVsTTLVyFHEsB1jbI9b3GdSxR41D+ZIfp6vXhrZh0g1SpHlV14XLQC1SlQ3A1Z/KY2na8TMtNfvz0Tp9L+0GrkbML0QBfLadMYVDJtB30wI3PrH4jTkVxDr+c3rVnH89P+zXphTdys9Z5UUjtETcO6EUgK73Y0QJjGs1e8hv4+SZVZfIXSjqEtFTE1Q/mpRMrmRgXbVT2RuGd7WvaPU4zqYNW15uBzw="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222681,
+    "id": "l9FJao_UMNy-vr0P4tf2gQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 234,
+      "total_tokens": 412
+    }
+  }
+}

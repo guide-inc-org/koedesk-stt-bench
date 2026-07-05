@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0191",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.24,
+  "ref_text_raw": "Когда Лиггинс работал в больнице, в свободное от работы время он начал расследовать случаи преждевременных родов.",
+  "ref_text_normalized": "когда лиггинс работал в больнице в свободное от работы время он начал расследовать случаи преждевременных родов",
+  "timestamp_utc": "2026-07-05T07:15:35Z",
+  "text": "Когда Лиггинс работал в больнице, в свободное от работы время, он начал расследовать случай преждевременных родов.",
+  "latency_sec": 4.9696,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Когда Лиггинс работал в больнице, в свободное от работы время, он начал расследовать случай преждевременных родов.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235735,
+    "id": "kwRKaqOENr3dvr0Pv4K6sQE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 413,
+      "total_tokens": 740
+    }
+  }
+}

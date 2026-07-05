@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0153",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.6,
+  "ref_text_raw": "Les blogs sont un outil qui stimule la collaboration et encourage les élèves à prolonger leur apprentissage bien au-delà de la journée scolaire traditionnelle.",
+  "ref_text_normalized": "les blogs sont un outil qui stimule la collaboration et encourage les élèves à prolonger leur apprentissage bien au-delà de la journée scolaire traditionnelle",
+  "timestamp_utc": "2026-07-05T04:57:12Z",
+  "text": "Les blocs sont l'outil qui stimule la collaboration et l'encourage les élèves à prolonger leur apprentissage bien au-delà de la journée scolaire traditionnelle.",
+  "latency_sec": 5.0745,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Les blocs sont l'outil qui stimule la collaboration et l'encourage les élèves à prolonger leur apprentissage bien au-delà de la journée scolaire traditionnelle.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227432,
+    "id": "JeRJaruSDPDW2roPh47FwQc",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 425,
+      "total_tokens": 483
+    }
+  }
+}

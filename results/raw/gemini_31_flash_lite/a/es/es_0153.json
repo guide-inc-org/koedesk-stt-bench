@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0153",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.04,
+  "ref_text_raw": "El 802.11n estándar funciona tanto en frecuencias de 2.4Ghz como 5.0Ghz.",
+  "ref_text_normalized": "el 802.11n estándar funciona tanto en frecuencias de 2.4ghz como 5.0ghz",
+  "timestamp_utc": "2026-07-05T04:42:54Z",
+  "text": "El 802.11n estándar funciona tanto en frecuencias de 2.4 GHz como en 5.0 GHz.",
+  "latency_sec": 3.0121,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "El 802.11n estándar funciona tanto en frecuencias de 2.4 GHz como en 5.0 GHz.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPw1qOGJQgU2uxwRYEXGrSAh0WWOEyVPmpmxlr41Ho7jwwJIA7qmJbYR+xqapX"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226574,
+    "id": "zOBJavLlKeL81e8P5-3SkQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 297,
+      "total_tokens": 325
+    }
+  }
+}

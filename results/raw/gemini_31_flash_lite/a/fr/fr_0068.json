@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0068",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.16,
+  "ref_text_raw": "Sundarbans est une réserve naturelle depuis 1966, vous pourrez y trouver environ 400 tigres du Bengale royal et 30 000 cerfs tachetés.",
+  "ref_text_normalized": "sundarbans est une réserve naturelle depuis 1966 vous pourrez y trouver environ 400 tigres du bengale royal et 30 000 cerfs tachetés",
+  "timestamp_utc": "2026-07-05T05:13:41Z",
+  "text": "Sundarbans est une réserve naturelle depuis 1966, vous pourriez trouver environ 400 tigres du Bengale royal et 3000 30000 cerfs tachetés.",
+  "latency_sec": 2.8626,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Sundarbans est une réserve naturelle depuis 1966, vous pourriez trouver environ 400 tigres du Bengale royal et 3000 30000 cerfs tachetés.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPyPbq2/oOPOKgV/KqcXHlgsuLT/XNaV0KUO1AE15BiYQjTTSOBWphIN0uYG5v"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228421,
+    "id": "A-hJao3FKe6j2roPp6OfsQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 46,
+      "prompt_tokens": 300,
+      "total_tokens": 346
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0107",
+  "lang": "zh",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.38,
+  "ref_text_raw": "目前还没有发布海啸预警。根据雅加达地质局的说法，由于此次地震没有达到 6.5 级，因此不会发布海啸预警。",
+  "ref_text_normalized": "目 前 还 没 有 发 布 海 啸 预 警 根 据 雅 加 达 地 质 局 的 说 法 由 于 此 次 地 震 没 有 达 到 6.5 级 因 此 不 会 发 布 海 啸 预 警",
+  "timestamp_utc": "2026-07-05T09:00:04Z",
+  "text": "目前還沒有發布海嘯預警,根據雅加達地質局的說法,由於此次地震沒有達到6.5級,因此不會發布海嘯預警。",
+  "latency_sec": 6.4683,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "目前還沒有發布海嘯預警,根據雅加達地質局的說法,由於此次地震沒有達到6.5級,因此不會發布海嘯預警。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242004,
+    "id": "Dx1KaqKnD8al1e8PnPeFgAI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 354,
+      "total_tokens": 687
+    }
+  }
+}

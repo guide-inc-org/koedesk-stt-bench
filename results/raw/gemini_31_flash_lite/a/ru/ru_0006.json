@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0006",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.2,
+  "ref_text_raw": "Согласно ядерному управлению Японии, на заводе были обнаружены радиоактивный цезий и йод.",
+  "ref_text_normalized": "согласно ядерному управлению японии на заводе были обнаружены радиоактивный цезий и йод",
+  "timestamp_utc": "2026-07-05T07:27:19Z",
+  "text": "Согласно ядерному управлению Японии, на заводе были обнаружены радиоактивные цезий и йод.",
+  "latency_sec": 2.696,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Согласно ядерному управлению Японии, на заводе были обнаружены радиоактивные цезий и йод.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPrcxt1fEz0QTh/eZ+wSedlQYuQUfOHeSCSyb2iCSK+7Tbto+72KA0WfbVAMlA"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236439,
+    "id": "VQdKasLqK8GC0-kP_snrsQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 201,
+      "total_tokens": 224
+    }
+  }
+}

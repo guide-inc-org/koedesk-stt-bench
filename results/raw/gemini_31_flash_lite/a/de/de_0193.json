@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0193",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.1,
+  "ref_text_raw": "Nach nur zwei Wochen hatten die Amerikaner und die französischen Befreiungstruppen den Süden Frankreichs befreit und wandten sich Richtung Deutschland.",
+  "ref_text_normalized": "nach nur zwei wochen hatten die amerikaner und die französischen befreiungstruppen den süden frankreichs befreit und wandten sich richtung deutschland",
+  "timestamp_utc": "2026-07-05T04:11:39Z",
+  "text": "Nach nur zwei Wochen hatten die Amerikaner und die französischen Befreiungstruppen den Süden Frankreichs befreit und wandten sich in Richtung Deutschland.",
+  "latency_sec": 2.52,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Nach nur zwei Wochen hatten die Amerikaner und die französischen Befreiungstruppen den Süden Frankreichs befreit und wandten sich in Richtung Deutschland.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPtp6VsTgieWFAACTeAuhzAUNCAwNDBfJRg+ukf2d296oq0zpAwp8C7v+HX07+"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224699,
+    "id": "edlJatD2KpCe1e8PjsLZ0AQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 224,
+      "total_tokens": 255
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0154",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.42,
+  "ref_text_raw": "Reisende, deren Zielland eine hohe Besteuerung aufweist, können manchmal eine beträchtliche Menge an Geld sparen, insbesondere bei Produkten wie alkoholischen Getränken und Tabak.",
+  "ref_text_normalized": "reisende deren zielland eine hohe besteuerung aufweist können manchmal eine beträchtliche menge an geld sparen insbesondere bei produkten wie alkoholischen getränken und tabak",
+  "timestamp_utc": "2026-07-05T04:09:15Z",
+  "text": "Reisende, deren Zielland eine hohe Besteuerung aufweist, können manchmal eine beträchtliche Menge an Geld sparen, insbesondere bei Produkten wie alkoholischen Getränken und Tabak.",
+  "latency_sec": 2.801,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Reisende, deren Zielland eine hohe Besteuerung aufweist, können manchmal eine beträchtliche Menge an Geld sparen, insbesondere bei Produkten wie alkoholischen Getränken und Tabak.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPOrHu2z50D6Y3TAEZpWx7sds1Zq8q9p5YQF/sZ5+zaGw5pZejHXi9T2L26N0w"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224555,
+    "id": "6dhJaoHTNezFvr0P-YXt8AM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 257,
+      "total_tokens": 296
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0042",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.92,
+  "ref_text_raw": "Esta es una de las atracciones más importantes de Sudáfrica y se la reconoce como ícono principal de los Parques Nacionales de Sudáfrica (SANParks).",
+  "ref_text_normalized": "esta es una de las atracciones más importantes de sudáfrica y se la reconoce como ícono principal de los parques nacionales de sudáfrica sanparks",
+  "timestamp_utc": "2026-07-05T04:36:13Z",
+  "text": "Esta es una de las atracciones más importantes de Sudáfrica y se la reconoce como icono principal de los parques nacionales de Sudáfrica, SANParks.",
+  "latency_sec": 2.5503,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Esta es una de las atracciones más importantes de Sudáfrica y se la reconoce como icono principal de los parques nacionales de Sudáfrica, SANParks.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPIIKWjOZZXZFq3wn5vG6xZ+n0y5zykCYSRqRvYrMxwUaxXcHDATny+A/XV9HQ"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226173,
+    "id": "PN9JasWxAa2A1e8P88TkuQE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 294,
+      "total_tokens": 326
+    }
+  }
+}

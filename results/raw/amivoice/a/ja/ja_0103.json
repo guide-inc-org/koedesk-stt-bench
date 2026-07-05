@@ -1,0 +1,121 @@
+{
+  "utt_id": "ja_0103",
+  "lang": "ja",
+  "engine": "amivoice_general",
+  "duration_sec": 10.62,
+  "ref_text_raw": "エアロスミスはツアーで予定していたコンサートを中止しました。",
+  "ref_text_normalized": "エアロスミスはツアーで予定していたコンサートを中止しました",
+  "timestamp_utc": "2026-07-05T03:06:34Z",
+  "text": "エアロスミスはツアーで予定していたコンサートを中止しました。",
+  "latency_sec": 1.9608,
+  "params": {
+    "endpoint": "https://acp-api.amivoice.com/v1/recognize",
+    "grammarFileNames": "-a-general",
+    "logging": true,
+    "audio_conversion": "float32 wav -> pcm_16 wav (same samples)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "results": [
+      {
+        "tokens": [
+          {
+            "written": "エアロスミス",
+            "confidence": 1.0,
+            "starttime": 2388,
+            "endtime": 3364,
+            "spoken": "えあろすみす"
+          },
+          {
+            "written": "は",
+            "confidence": 1.0,
+            "starttime": 3364,
+            "endtime": 3652,
+            "spoken": "は"
+          },
+          {
+            "written": "ツアー",
+            "confidence": 1.0,
+            "starttime": 4052,
+            "endtime": 4452,
+            "spoken": "つあー"
+          },
+          {
+            "written": "で",
+            "confidence": 1.0,
+            "starttime": 4452,
+            "endtime": 4532,
+            "spoken": "で"
+          },
+          {
+            "written": "予定",
+            "confidence": 1.0,
+            "starttime": 4532,
+            "endtime": 4948,
+            "spoken": "よてい"
+          },
+          {
+            "written": "して",
+            "confidence": 1.0,
+            "starttime": 4948,
+            "endtime": 5204,
+            "spoken": "して"
+          },
+          {
+            "written": "いた",
+            "confidence": 1.0,
+            "starttime": 5204,
+            "endtime": 5668,
+            "spoken": "いた"
+          },
+          {
+            "written": "コンサート",
+            "confidence": 1.0,
+            "starttime": 5764,
+            "endtime": 6548,
+            "spoken": "こんさーと"
+          },
+          {
+            "written": "を",
+            "confidence": 1.0,
+            "starttime": 6548,
+            "endtime": 6788,
+            "spoken": "を"
+          },
+          {
+            "written": "中止",
+            "confidence": 1.0,
+            "starttime": 6916,
+            "endtime": 7348,
+            "spoken": "ちゅうし"
+          },
+          {
+            "written": "しました",
+            "confidence": 1.0,
+            "starttime": 7348,
+            "endtime": 8020,
+            "spoken": "しました"
+          },
+          {
+            "written": "。",
+            "confidence": 0.9,
+            "starttime": 8020,
+            "endtime": 8244,
+            "spoken": "_"
+          }
+        ],
+        "confidence": 0.999,
+        "starttime": 2100,
+        "endtime": 8244,
+        "tags": [],
+        "rulename": "",
+        "text": "エアロスミスはツアーで予定していたコンサートを中止しました。"
+      }
+    ],
+    "utteranceid": "20260705/12/019f303deeb30a301a1094ca_20260705_120633",
+    "text": "エアロスミスはツアーで予定していたコンサートを中止しました。",
+    "code": "",
+    "message": ""
+  }
+}

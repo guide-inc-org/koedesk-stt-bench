@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0175",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.14,
+  "ref_text_raw": "彼らの規律あるディフェンス、ボールハンドリングのスキル、そして優れたチームワークは傑出しており、このチームが勝者であることは明らかだった。",
+  "ref_text_normalized": "彼らの規律あるディフェンス ボールハンドリングのスキル そして優れたチームワークは傑出しており このチームが勝者であることは明らかだった",
+  "timestamp_utc": "2026-07-05T03:21:56Z",
+  "text": "彼ら の 切り替える ディフェンス 、 ボール ハンドリング の スキル 、 そして 優れ た チーム ワーク を 欠損 し て おり 、 この チーム が 勝者 で ある こと は 明らか だっ た 。",
+  "latency_sec": 3.708,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "彼ら の 切り替える ディフェンス 、 ボール ハンドリング の スキル 、 そして 優れ た チーム ワーク を 欠損 し て おり 、 この チーム が 勝者 で ある こと は 明らか だっ た 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPoDdwPm7fOZdAz3/9WHNEwKJIKIYy4l8ZcVZWdxS2TGXkcZoBAvNk6ra+LXX6"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221716,
+    "id": "0s1JatG_EZWJ1e8PxbzN-QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 50,
+      "prompt_tokens": 350,
+      "total_tokens": 400
+    }
+  }
+}

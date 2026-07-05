@@ -1,0 +1,44 @@
+{
+  "utt_id": "pt_0177",
+  "lang": "pt",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 16.92,
+  "ref_text_raw": "O scaffolding não é um método de aprendizado, mas sim uma ajuda para alunos que estão passando por uma nova experiência de aprendizado, como usar um novo computador ou começar um novo projeto.",
+  "ref_text_normalized": "o scaffolding não é um método de aprendizado mas sim uma ajuda para alunos que estão passando por uma nova experiência de aprendizado como usar um novo computador ou começar um novo projeto",
+  "timestamp_utc": "2026-07-05T07:04:45Z",
+  "text": "O scaffolding não é um método de aprendizado, mas sim uma ajuda para alunos que estão passando por uma nova experiência de aprendizado, como usar um novo computador ou começar um novo projeto.",
+  "latency_sec": 3.0552,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "O scaffolding não é um método de aprendizado, mas sim uma ajuda para alunos que estão passando por uma nova experiência de aprendizado, como usar um novo computador ou começar um novo projeto.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPWyARP2kWb7nHwy251aWzft6rcSmE1iIHWpqBo/BJgz4unnxNQ3WAk9Unr4r4"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235085,
+    "id": "CwJKavfTG7vLrfcPnvyU2AE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 445,
+      "total_tokens": 483
+    }
+  }
+}

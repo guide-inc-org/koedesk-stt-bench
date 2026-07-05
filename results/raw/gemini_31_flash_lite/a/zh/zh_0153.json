@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0153",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.9,
+  "ref_text_raw": "这种沉积物是形成沙洲和海滩的必要条件，而沙洲和海滩是野生动物的栖息地。",
+  "ref_text_normalized": "这 种 沉 积 物 是 形 成 沙 洲 和 海 滩 的 必 要 条 件 而 沙 洲 和 海 滩 是 野 生 动 物 的 栖 息 地",
+  "timestamp_utc": "2026-07-05T09:19:50Z",
+  "text": "这种沉积物是形成沙丘和海滩的必要条件，而沙丘和海滩是野生动物的栖息地。",
+  "latency_sec": 2.5434,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "这种沉积物是形成沙丘和海滩的必要条件，而沙丘和海滩是野生动物的栖息地。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPxyG8u9q455hA9SuLWedG3UZJXrUzOzAEXHuQOu065jtPbCqask14DQ4chH5R"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243190,
+    "id": "tSFKavf5GK2Qvr0PxLzU0Qc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 194,
+      "total_tokens": 222
+    }
+  }
+}

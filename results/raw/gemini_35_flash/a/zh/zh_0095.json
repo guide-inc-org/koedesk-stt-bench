@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0095",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.04,
+  "ref_text_raw": "昨天，马尔泰利在由 9 名成员组成的新临时选举委员会 (CEP)中宣誓就职。",
+  "ref_text_normalized": "昨 天 马 尔 泰 利 在 由 9 名 成 员 组 成 的 新 临 时 选 举 委 员 会 cep 中 宣 誓 就 职",
+  "timestamp_utc": "2026-07-05T09:14:16Z",
+  "text": "昨天，马尔泰利在由九名成员组成的临时选举委员会，CEP，中宣誓就职。",
+  "latency_sec": 8.0373,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "昨天，马尔泰利在由九名成员组成的临时选举委员会，CEP，中宣誓就职。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242856,
+    "id": "YSBKatTIKcKl9tMPpf6PiQE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 297,
+      "total_tokens": 1200
+    }
+  }
+}

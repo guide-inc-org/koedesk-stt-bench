@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0061",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.2,
+  "ref_text_raw": "D’après le U.S. Corps of Engineers, une pluviométrie de 6 pouces pourrait ouvrir une brèche dans les digues précédemment endommagées.",
+  "ref_text_normalized": "d'après le u.s. corps of engineers une pluviométrie de 6 pouces pourrait ouvrir une brèche dans les digues précédemment endommagées",
+  "timestamp_utc": "2026-07-05T05:06:40Z",
+  "text": "D'après le US Corps of Engineers, une pluviométrie de 6 pouces pourrait ouvrir une brèche dans les digues précédemment endommagées.",
+  "latency_sec": 5.5642,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "D'après le US Corps of Engineers, une pluviométrie de 6 pouces pourrait ouvrir une brèche dans les digues précédemment endommagées.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228000,
+    "id": "XOZJas3cH5j41e8PhNP08AM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 201,
+      "total_tokens": 889
+    }
+  }
+}

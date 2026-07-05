@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0025",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.14,
+  "ref_text_raw": "Peradaban adalah sebuah kebudayaan tunggal yang dijalankan bersama oleh sekelompok orang yang hidup dan bekerja bersama, sebagai masyarakat.",
+  "ref_text_normalized": "peradaban adalah sebuah kebudayaan tunggal yang dijalankan bersama oleh sekelompok orang yang hidup dan bekerja bersama sebagai masyarakat",
+  "timestamp_utc": "2026-07-05T05:46:24Z",
+  "text": "Peradaban adalah sebuah kebudayaan tunggal yang dijalankan bersama oleh sekelompok orang yang hidup dan bekerja bersama sebagai masyarakat.",
+  "latency_sec": 3.1306,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Peradaban adalah sebuah kebudayaan tunggal yang dijalankan bersama oleh sekelompok orang yang hidup dan bekerja bersama sebagai masyarakat.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPp81zs4Cwa0dAnJEJCdpTCxNc/0Gl0t3fwPb0OqXpUz8wdMOFnjW6PIljuMmZ"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230384,
+    "id": "r-9JaomeDK2A1e8P88TkuQE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 350,
+      "total_tokens": 377
+    }
+  }
+}

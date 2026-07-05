@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0076",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 17.28,
+  "ref_text_raw": "แม้วัคซีนในขั้นทดลองตัวหนึ่งจะสามารถลดอัตราการเสียชีวืตจากอีโบลาได้ แต่จนถึงขณะนี้ก็ยังไม่ได้มียาตัวใดแสดงให้เห็นได้อย่างชัดแจ้งว่าเหมาะสำหรับใช้รักษาการติดเชื้อที่มีอยู่",
+  "ref_text_normalized": "แม้วัคซีนในขั้นทดลองตัวหนึ่งจะสามารถลดอัตราการเสียชีวืตจากอีโบลาได้ แต่จนถึงขณะนี้ก็ยังไม่ได้มียาตัวใดแสดงให้เห็นได้อย่างชัดแจ้งว่าเหมาะสำหรับใช้รักษาการติดเชื้อที่มีอยู่",
+  "timestamp_utc": "2026-07-05T08:05:26Z",
+  "text": "แม้ วัคซีน ใน ขั้น ทดลอง ตัว หนึ่ง จะ สามารถ ลด อัตรา การ เสีย ชีวิต จาก อี โบรา ได้ แต่ จน ถึง ขณะ นี้ ก็ ยัง ไม่ ได้ มี ยา ตัว ใด แสดง ให้ เห็น ได้ ว่า เหมาะ สําหรับ ใช้ รักษา การ ติด เชื้อ ที่ มี อยู่",
+  "latency_sec": 3.0718,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "แม้ วัคซีน ใน ขั้น ทดลอง ตัว หนึ่ง จะ สามารถ ลด อัตรา การ เสีย ชีวิต จาก อี โบรา ได้ แต่ จน ถึง ขณะ นี้ ก็ ยัง ไม่ ได้ มี ยา ตัว ใด แสดง ให้ เห็น ได้ ว่า เหมาะ สําหรับ ใช้ รักษา การ ติด เชื้อ ที่ มี อยู่",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPGknN8hH6gQMnlCYRjUBAGQejBNM5yaIxUBMASj/HMimIHcf9at6jYqC0pBNT"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238726,
+    "id": "RBBKat28K7mVvr0PopTJiQc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 57,
+      "prompt_tokens": 453,
+      "total_tokens": 510
+    }
+  }
+}

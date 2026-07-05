@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0054",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.16,
+  "ref_text_raw": "Согласно плану мост полностью войдёт в эксплуатацию  в сентябре 2017 года, когда бразильские пункты таможенной проверки, как ожидается, будут завершены.",
+  "ref_text_normalized": "согласно плану мост полностью войдёт в эксплуатацию в сентябре 2017 года когда бразильские пункты таможенной проверки как ожидается будут завершены",
+  "timestamp_utc": "2026-07-05T07:30:19Z",
+  "text": "Согласно плану, мост полностью войдёт в эксплуатацию в сентябре 2017 года, когда бразильские пункты таможенной проверки, как ожидается, будут завершены.",
+  "latency_sec": 3.1522,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Согласно плану, мост полностью войдёт в эксплуатацию в сентябре 2017 года, когда бразильские пункты таможенной проверки, как ожидается, будут завершены.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPQpITKPhAaELk4w78g7lPQ9Em3OlV8yd34sZz9ZBJVYx/nXXXlA9F6uFDVjby"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236619,
+    "id": "CQhKarr2HZTc2roP-cDPmAY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 300,
+      "total_tokens": 341
+    }
+  }
+}

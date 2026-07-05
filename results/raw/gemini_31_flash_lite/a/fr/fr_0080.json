@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0080",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.76,
+  "ref_text_raw": "Bien que ce stéréotype soit souvent inexact, la meilleure façon de s'entendre à Paris reste de se comporter au mieux, d'agir comme quelqu'un de bien élevé. Cela facilitera considérablement vos déplacements.",
+  "ref_text_normalized": "bien que ce stéréotype soit souvent inexact la meilleure façon de s'entendre à paris reste de se comporter au mieux d'agir comme quelqu'un de bien élevé cela facilitera considérablement vos déplacements",
+  "timestamp_utc": "2026-07-05T05:14:25Z",
+  "text": "Bien que ce stéréotype soit souvent inexact, la meilleure façon de s'entendre à Paris reste de se comporter en mieux, d'agir comme quelqu'un de bien élevé. Cela facilitera considérablement vos déplacements.",
+  "latency_sec": 2.601,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Bien que ce stéréotype soit souvent inexact, la meilleure façon de s'entendre à Paris reste de se comporter en mieux, d'agir comme quelqu'un de bien élevé. Cela facilitera considérablement vos déplacements.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPfk2LTKZIAFCTCT/1LsXfAcnZjZkjK+DjDIp1wNZH88MmkR5BvI0rgybbbGT+"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228465,
+    "id": "MOhJapL8IKy1vr0P8c_P-Qc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 48,
+      "prompt_tokens": 315,
+      "total_tokens": 363
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0126",
+  "lang": "th",
+  "engine": "gemini_25_pro",
+  "duration_sec": 5.52,
+  "ref_text_raw": "วง Aerosmith ยกเลิกการทัวร์คอนเสิร์ตที่เหลือทั้งหมดแล้ว",
+  "ref_text_normalized": "วง aerosmith ยกเลิกการทัวร์คอนเสิร์ตที่เหลือทั้งหมดแล้ว",
+  "timestamp_utc": "2026-07-05T07:53:03Z",
+  "text": "วง Aerosmith ยกเลิกการทัวร์คอนเสิร์ตที่เหลือทั้งหมดแล้ว",
+  "latency_sec": 5.038,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "วง Aerosmith ยกเลิกการทัวร์คอนเสิร์ตที่เหลือทั้งหมดแล้ว",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237983,
+    "id": "Ww1KaqnzKeex2roPq7DX0QU",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 198,
+      "total_tokens": 456
+    }
+  }
+}

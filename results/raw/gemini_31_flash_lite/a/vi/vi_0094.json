@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0094",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.64,
+  "ref_text_raw": "Số người có mặt quá lớn nên việc mọi người tới được nơi tổ chức lễ tang tại Quảng trường Thánh Peter là không thể.",
+  "ref_text_normalized": "số người có mặt quá lớn nên việc mọi người tới được nơi tổ chức lễ tang tại quảng trường thánh peter là không thể",
+  "timestamp_utc": "2026-07-05T08:43:18Z",
+  "text": "Số người có mặt quá lớn nên việc mọi người tới được nơi tổ chức lễ tang tại quảng trường Thánh Peter là không thể.",
+  "latency_sec": 2.707,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Số người có mặt quá lớn nên việc mọi người tới được nơi tổ chức lễ tang tại quảng trường Thánh Peter là không thể.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP64fRuISF/P7OVPz+UMBVX60cM/2PEwqlCX61sAceDW8q+xK7zk8ko5Q9wbDg"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240998,
+    "id": "JBlKasWTNvijvr0Pmty12QU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 237,
+      "total_tokens": 263
+    }
+  }
+}

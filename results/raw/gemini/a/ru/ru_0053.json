@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0053",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 17.76,
+  "ref_text_raw": "На прошлой недели Министерство экономики, труда и промышленности объявило, что Apple  проинформировала его о 34 дополнительных случаях перегрева, которые компания назвала \"несерьёзными\".",
+  "ref_text_normalized": "на прошлой недели министерство экономики труда и промышленности объявило что apple проинформировала его о 34 дополнительных случаях перегрева которые компания назвала несерьёзными",
+  "timestamp_utc": "2026-07-05T07:04:18Z",
+  "text": "На прошлой неделе Министерство экономики, труда и промышленности объявило, что Apple проинформировала его о тридцати четырёх дополнительных случаях перегрева, которые компания назвала несерьёзными.",
+  "latency_sec": 4.726,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "На прошлой неделе Министерство экономики, труда и промышленности объявило, что Apple проинформировала его о тридцати четырёх дополнительных случаях перегрева, которые компания назвала несерьёзными.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235058,
+    "id": "7wFKauy1EMmD0-kPmZ7guAM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 42,
+      "prompt_tokens": 590,
+      "total_tokens": 664
+    }
+  }
+}

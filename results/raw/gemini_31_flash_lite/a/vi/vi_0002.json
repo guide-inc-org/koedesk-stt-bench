@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0002",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.02,
+  "ref_text_raw": "Nó cũng tấn công mọi thứ trong nước; ngay cả khủng long khổng lồ như T. rex cũng không phải là đối thủ với nó.",
+  "ref_text_normalized": "nó cũng tấn công mọi thứ trong nước ngay cả khủng long khổng lồ như t rex cũng không phải là đối thủ với nó",
+  "timestamp_utc": "2026-07-05T08:37:48Z",
+  "text": "Nó cũng tấn công mọi thứ trong nước, ngay cả khủng long khổng lồ như T-Rex, cũng không phải là đối thủ với nó.",
+  "latency_sec": 2.7978,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Nó cũng tấn công mọi thứ trong nước, ngay cả khủng long khổng lồ như T-Rex, cũng không phải là đối thủ với nó.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPMf3wCENR8x6xlSds3DRSnUcsu0mnVWrR76HYWAtTR6+3GptfOChC/yb5K8w4"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240668,
+    "id": "2xdKarzxErbR0-kPp6yr6QI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 272,
+      "total_tokens": 303
+    }
+  }
+}

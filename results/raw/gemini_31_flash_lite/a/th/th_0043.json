@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0043",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.8,
+  "ref_text_raw": "บางครั้งนักท่องเที่ยวที่เดินทางไปยังประเทศที่มีการเก็บภาษีสูงสามารถลดค่าใช้จ่ายได้พอสมควร โดยเฉพาะเมื่อซื้อสินค้าประเภทเครื่องดื่มแอลกอฮอล์และยาสูบ",
+  "ref_text_normalized": "บางครั้งนักท่องเที่ยวที่เดินทางไปยังประเทศที่มีการเก็บภาษีสูงสามารถลดค่าใช้จ่ายได้พอสมควร โดยเฉพาะเมื่อซื้อสินค้าประเภทเครื่องดื่มแอลกอฮอล์และยาสูบ",
+  "timestamp_utc": "2026-07-05T08:03:17Z",
+  "text": "บางครั้งนักท่องเที่ยวที่เดินทางไปยังประเทศที่มีการเก็บภาษีสูง สามารถลดค่าใช้จ่ายได้พอสมควร โดยเฉพาะเมื่อซื้อสินค้าประเภทเครื่องดื่มแอลกอฮอล์และยาสูบ",
+  "latency_sec": 3.0017,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "บางครั้งนักท่องเที่ยวที่เดินทางไปยังประเทศที่มีการเก็บภาษีสูง สามารถลดค่าใช้จ่ายได้พอสมควร โดยเฉพาะเมื่อซื้อสินค้าประเภทเครื่องดื่มแอลกอฮอล์และยาสูบ",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPh5LswRGkxnSwC2b3V4E6j7yCYuQsIJ5lBzNfqGsdquqIpj6JeNQoMWh4YpVk"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238597,
+    "id": "ww9KarGjMane1e8P6I_tqAg",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 366,
+      "total_tokens": 409
+    }
+  }
+}

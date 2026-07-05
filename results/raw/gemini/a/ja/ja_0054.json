@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0054",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 14.34,
+  "ref_text_raw": "カジノでは通常、特別な飲食やエンターテイメントを用意しています。ゲストが気分良く施設内に留まるようにするためです。",
+  "ref_text_normalized": "カジノでは通常 特別な飲食やエンターテイメントを用意しています ゲストが気分良く施設内に留まるようにするためです",
+  "timestamp_utc": "2026-07-05T10:06:01Z",
+  "text": "カジノでは通常特別料理やエンターテイメントを用意しています。ゲストが気分よく施設内にとどまるようにするためです。",
+  "latency_sec": 3.5781,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "カジノでは通常特別料理やエンターテイメントを用意しています。ゲストが気分よく施設内にとどまるようにするためです。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783245961,
+    "id": "hyxKauHSC5ja1e8P6IqesQI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 480,
+      "total_tokens": 570
+    }
+  }
+}

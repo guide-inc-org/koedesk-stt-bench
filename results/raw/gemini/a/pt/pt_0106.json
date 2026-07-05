@@ -1,0 +1,39 @@
+{
+  "utt_id": "pt_0106",
+  "lang": "pt",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.76,
+  "ref_text_raw": "Rolando Mendoza disparou seu rifle M16 contra os turistas.",
+  "ref_text_normalized": "rolando mendoza disparou seu rifle m16 contra os turistas",
+  "timestamp_utc": "2026-07-05T06:35:17Z",
+  "text": "Rolando Mendonça disparou seu rifle M16 contra os turistas.",
+  "latency_sec": 3.708,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Rolando Mendonça disparou seu rifle M16 contra os turistas.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783233317,
+    "id": "I_tJapeKCu2crfcPkMChIA",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 302,
+      "total_tokens": 364
+    }
+  }
+}

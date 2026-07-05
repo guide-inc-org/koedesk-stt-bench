@@ -1,0 +1,45 @@
+{
+  "utt_id": "pt_0035",
+  "lang": "pt",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 15.42,
+  "ref_text_raw": "Por fim, existem muitos gatos pequenos (incluindo gatos de estimação soltos) que comem animais pequenos, muito mais numerosos, como insetos, roedores, lagartos e pássaros.",
+  "ref_text_normalized": "por fim existem muitos gatos pequenos incluindo gatos de estimação soltos que comem animais pequenos muito mais numerosos como insetos roedores lagartos e pássaros",
+  "timestamp_utc": "2026-07-05T06:45:45Z",
+  "text": "Por fim, existem muitos gatos pequenos, incluindo gatos de estimação soltos, que comem animais pequenos muito mais numerosos, como insetos, roedores, lagartos e pássaros.",
+  "latency_sec": 4.229,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Por fim, existem muitos gatos pequenos, incluindo gatos de estimação soltos, que comem animais pequenos muito mais numerosos, como insetos, roedores, lagartos e pássaros.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpsGCpgGARFNMg9+Nl3ni327dmRH6J7dtI00iIOqUcQZWkiaJ7duZ8iEQklZXp7eXB57bPv63JG0ikgB7L8W8E24iZFre/IdZEy2mclHz/FMxV4bih9YSDv3h9CVNv9+fNTZjJlniKrFaGXeobtOyU4WUrTG3qSj6mZd0T7ghHTnhvkzEw9a1LmflGF5hAGMaCnJe5HHtPXWYn6hFrXddYD4kOfLE2zXDM6QMErI9FeFJOd7qz8s9ycMsI13h5SE5S4G9AMUkRPHeSKR+m6PYOer8Rk29sdsgiRYlmyjSOw3KFoXr2sqFHs4WpFJ1N0H4rhBGd7fKJnl5u2vx5snqvJ+DU6GrcWvaipYPFHeSxAoZRPbldjUUkYAUbsRIMZ6xToJHxqmZCxokBepNcV8bpnAh5O+kQmWTEqhAjqZHm2p3AJayEeAnNYd1ZVGBsJVSucir24FmmTw8AfuJqu8abfG+ZAD0OXLh2PE4e93C/tXbRb6JkLyD7xQGYvWvlO4Oi5ZZMvFgCmy5yWVOD5vratyCIzenBR6N+LdvkW4CBg/PAiLp4p8CwU+2+72NcHPolpIhHH8i4fO944PB2gL5m4tQTL/KndZiLgKUjINVnVSdfOjK72Bye4zlsg2vEf8aDQvjF7AldGFQwyxS4YzW7Otsh/aAAEWTmwJ5GapaLPAnLmFGDpRmAGsF1t7Uuth4oIygisDiLZ5aFeUPrQd2eMGG9/v9K8h/v66GKMeORMXYzRGgCA+9gW3fdx+5pXPCLOa52sfdtX/O4b9aWc/v3G7xVlDvuoGO1es1E6DYwPfTbXMC5JMp6x2USmdz9XDH75m0jfIboY5c+fr/xmDc1G/ES9q0gW0+VJawFIdQG686MoLxqcDeghuUpMXvbWVHQ73r20kOneOM2nfBZXctYTJHZyJjAq5/VQ9MK9lbcOGyPD2ciXfu+UShaNZvRf6w5xP5o4k+xfR2wFK17lQx8O45Wi07hw20XtpEWjp0lJJDy4g2DECmlIUkvJKqmAZ54uOKvP0FOZTeMNHAMcALMtU1zqdV4dvIGU8ewGF"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783233945,
+    "id": "l_1JaunpDo3y2roP6emiwQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 407,
+      "total_tokens": 700
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "pt_0097",
+  "lang": "pt",
+  "engine": "gemini_25_pro",
+  "duration_sec": 15.54,
+  "ref_text_raw": "A crosta possui 70 km de espessura no lado visível e 100 km de espessura no lado invisível.",
+  "ref_text_normalized": "a crosta possui 70 km de espessura no lado visível e 100 km de espessura no lado invisível",
+  "timestamp_utc": "2026-07-05T06:42:35Z",
+  "text": "A crosta possui 70 km de espessura no lado visível e 100 km de espessura no lado invisível.",
+  "latency_sec": 5.7502,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "A crosta possui 70 km de espessura no lado visível e 100 km de espessura no lado invisível.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783233755,
+    "id": "1_xJat3wB_PG2roPs9KcqAM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 519,
+      "total_tokens": 807
+    }
+  }
+}

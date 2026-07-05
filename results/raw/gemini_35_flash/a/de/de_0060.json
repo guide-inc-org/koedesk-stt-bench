@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0060",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.78,
+  "ref_text_raw": "Große Gebiete weiter im Norden sind ziemlich dünn bevölkert und manche sind fast unbewohnte Wildnis.",
+  "ref_text_normalized": "große gebiete weiter im norden sind ziemlich dünn bevölkert und manche sind fast unbewohnte wildnis",
+  "timestamp_utc": "2026-07-05T04:00:53Z",
+  "text": "Große Gebiete weiter im Norden sind ziemlich dünn bevölkert und manche sind fast unbewohnte Wildnis.",
+  "latency_sec": 3.721,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Große Gebiete weiter im Norden sind ziemlich dünn bevölkert und manche sind fast unbewohnte Wildnis.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EoQGCoEGARFNMg+cteS2sZjbD0MT+UHcCxOczncSr26fMXNQwHDuQppEhcnMZCvfVq+DvLvwxPljzMQPCqnfnFdFn5dbkHGI5QDiathGFI0LiBBGw3UGsH7DphPNqQvLdhKwhrumq3kcOkIvxarhRlUPv4II4BfYvk6HPftJvoUiUge7Kd0YY+dt0UJa2Z1iQROZfe9cxVRjp4khUqqBqN7kE63oIFxu4VF5Kekk7WzTqE3J879Jme2zuFZQdCXJP2HXviv2ZT41N5IwnoRuYvkGzn6nGPC2D1Ym9MOa0n53xgqkJeesuMqJMklK2U2htgpjUPhnwF7AeluB/ZDIOvvMJTNnDc5v36tEYnDMGrw0WMpBN+E9WGa6BLHAKeFztJ9ZviZtd2etuFaZZFv9Mr5xzt5rsxSUHljRfXcEuuZhSFGzizWZlpF2mvCttImH5wvBC7LXoIHyRsGdZVUKHMy/uoBmO+jFR42NaY4UZN9iC53BQs5vpXQJ4NWI7zkw9OpdHbzru7GXOgP4IOMpVUR85IchwRdz6xkwHHU8gSeojXi2tyb7/by5Olya4X5gn8K6mjMpMZX/5o6lZEyDhgRF84mRKLEgqcoZaf7HCmAeONB/t06Zt7maJ0lB6Mz5nsp1x0ZmD3fkOzfSjwEQ2fW7DBgGjeZBK/W20prBJQOJ8nHdSRlfIaEvj+0ymntWdYTV8RtcgrxrJH8yymwQq2CArIfn4TjS6MXRCnLnku/GUWyY9HbBiD4mpnrX1dVKOF10h8c9CIUGsx+ECNQAhbIeLUpOzwwljnhAW/Ew+dI7/1S4UVhu9go4sBA1EMphUQAyELy9h7TMwJA2JwkQKbKT956OlONfx9+VRIGwa9atfBEvN3SBO0mqA9TiwLuxwWPoSP/L38KfWMbPF4kdw2Ty8aVFM3d+o392OeotIg8OKPiZJN+MKSWqnWVIPGm/6ji79vla3+zBSwE/CoVytj4KjhaMMFrDFgY3EmRYMtSMy+G3UduyV+qhKPlIrS9wfdRc4vjBpw=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224053,
+    "id": "89ZJary_EomV1e8Pn9-owAM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 341,
+      "total_tokens": 556
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "pt_0011",
+  "lang": "pt",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.12,
+  "ref_text_raw": "Alguns cruzeiros mostram Berlim, Alemanha, nos panfletos. Como você pode ver no mapa acima, Berlim não fica perto do mar, e uma visita à cidade não está incluída no preço do cruzeiro.",
+  "ref_text_normalized": "alguns cruzeiros mostram berlim alemanha nos panfletos como você pode ver no mapa acima berlim não fica perto do mar e uma visita à cidade não está incluída no preço do cruzeiro",
+  "timestamp_utc": "2026-07-05T06:54:33Z",
+  "text": "Alguns cruzeiros mostram Berlim, Alemanha, nos panfletos. Como você pode ver no mapa acima, Berlim não fica perto do mar, e uma visita à cidade não está incluída no preço do cruzeiro.",
+  "latency_sec": 2.8543,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Alguns cruzeiros mostram Berlim, Alemanha, nos panfletos. Como você pode ver no mapa acima, Berlim não fica perto do mar, e uma visita à cidade não está incluída no preço do cruzeiro.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPc3QSWd9XI9i43sKHnIzlD6jk2deO5/2ww7QJtycbH1+RLvwNTIzQ/uF/b75q"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234473,
+    "id": "p_9JatvOI5ja1e8P6IqesQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 49,
+      "prompt_tokens": 399,
+      "total_tokens": 448
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0105",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 14.12,
+  "ref_text_raw": "利金斯 (Liggins) 在医院工作时，开始在业余时间研究早产。",
+  "ref_text_normalized": "利 金 斯 liggins 在 医 院 工 作 时 开 始 在 业 余 时 间 研 究 早 产",
+  "timestamp_utc": "2026-07-05T08:56:23Z",
+  "text": "利金斯在醫院工作時,開始在業餘時間研究早產。",
+  "latency_sec": 4.3967,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "利金斯在醫院工作時,開始在業餘時間研究早產。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241783,
+    "id": "NBxKarrpJJHNrfcPvY_ZsAY",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 17,
+      "prompt_tokens": 473,
+      "total_tokens": 676
+    }
+  }
+}

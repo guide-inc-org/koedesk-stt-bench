@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0067",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.34,
+  "ref_text_raw": "À l'autre bout du spectre, l'un se transforme en un individu méconnaissable qui sent qu'il/elle doit changer tout ce que le groupe a créé jusqu'alors et faire les choses à sa manière.",
+  "ref_text_normalized": "à l'autre bout du spectre l'un se transforme en un individu méconnaissable qui sent qu'il/elle doit changer tout ce que le groupe a créé jusqu'alors et faire les choses à sa manière",
+  "timestamp_utc": "2026-07-05T04:50:21Z",
+  "text": "à l'autre bout du spectre se transforme en un individu méconnaissable qui se rend qu'il, elle doit changer tout ce que le groupe a créé jusqu'alors et faire les choses à sa manière.",
+  "latency_sec": 3.4921,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "à l'autre bout du spectre se transforme en un individu méconnaissable qui se rend qu'il, elle doit changer tout ce que le groupe a créé jusqu'alors et faire les choses à sa manière.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227021,
+    "id": "i-JJapmJC8Ts1e8Px-GUwQI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 384,
+      "total_tokens": 453
+    }
+  }
+}

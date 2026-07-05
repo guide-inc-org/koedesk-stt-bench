@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0075",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.44,
+  "ref_text_raw": "Según ha informado la agencia nuclear de Japón, se ha encontrado cesio y iodo radioactivos en la planta.",
+  "ref_text_normalized": "según ha informado la agencia nuclear de japón se ha encontrado cesio y iodo radioactivos en la planta",
+  "timestamp_utc": "2026-07-05T04:38:13Z",
+  "text": "Según ha informado la Agencia Nuclear de Japón, se ha encontrado cesio y yodo radiactivos en la planta.",
+  "latency_sec": 2.9649,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Según ha informado la Agencia Nuclear de Japón, se ha encontrado cesio y yodo radiactivos en la planta.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPKYtFpkhgU+1J6hWv1XwfuHsoXpuaL/5EnQxD9eLleKO2XEZbH/RJKD9QwDPd"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226293,
+    "id": "s99JavuPMuD61e8P0MrToAE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 357,
+      "total_tokens": 381
+    }
+  }
+}

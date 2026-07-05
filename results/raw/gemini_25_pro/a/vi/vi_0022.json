@@ -1,0 +1,39 @@
+{
+  "utt_id": "vi_0022",
+  "lang": "vi",
+  "engine": "gemini_25_pro",
+  "duration_sec": 8.22,
+  "ref_text_raw": "Cụ thể, người ta cho rằng một người có thể phát hiện ai đó đang nói dối bằng việc giải nghĩa chính xác từng biểu hiện rất nhỏ.",
+  "ref_text_normalized": "cụ thể người ta cho rằng một người có thể phát hiện ai đó đang nói dối bằng việc giải nghĩa chính xác từng biểu hiện rất nhỏ",
+  "timestamp_utc": "2026-07-05T08:15:48Z",
+  "text": "Cụ thể, người ta cho rằng một người có thể phát hiện ai đó đang nói dối bằng việc giải nghĩa chính xác từng biểu hiện rất nhỏ.",
+  "latency_sec": 6.2268,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Cụ thể, người ta cho rằng một người có thể phát hiện ai đó đang nói dối bằng việc giải nghĩa chính xác từng biểu hiện rất nhỏ.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239348,
+    "id": "rxJKarftMPyk0-kP9PODwAc",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 285,
+      "total_tokens": 592
+    }
+  }
+}

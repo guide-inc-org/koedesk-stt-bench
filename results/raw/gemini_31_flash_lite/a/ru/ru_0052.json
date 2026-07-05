@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0052",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.96,
+  "ref_text_raw": "Чтобыу видеть самые живописные места Гонконга, следует покинуть остров и направиться на побережье полуострова Цзюлун, что находится напротив.",
+  "ref_text_normalized": "чтобыу видеть самые живописные места гонконга следует покинуть остров и направиться на побережье полуострова цзюлун что находится напротив",
+  "timestamp_utc": "2026-07-05T07:30:11Z",
+  "text": "Чтобы увидеть самые живописные места Гонконга, следует покинуть остров и направиться на побережье полуострова Цзюлун, что находится напротив.",
+  "latency_sec": 2.9322,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Чтобы увидеть самые живописные места Гонконга, следует покинуть остров и направиться на побережье полуострова Цзюлун, что находится напротив.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPWIkNVK2sVG/hQ63irp90+vi9pt60sBmKIQj3O0rb0o8+fgziEQCGoeBgjnb1"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236611,
+    "id": "AghKaqnlE5HNrfcPvY_ZsAY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 271,
+      "total_tokens": 304
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0057",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 32.94,
+  "ref_text_raw": "Peneliti dari Universitas Princeton di Amerika Serikat dan Universitas Uppsala di Swedia melaporkan bahwa spesies baru berevolusi dalam dua generasi saja. Sebelumnya proses ini diyakini berlangsung lebih lama. Hal ini disebabkan adanya pembiakan finch Darwin endemik, Geospiza fortes, dan finch kaktus imigran, Geospiza conirostris.",
+  "ref_text_normalized": "peneliti dari universitas princeton di amerika serikat dan universitas uppsala di swedia melaporkan bahwa spesies baru berevolusi dalam dua generasi saja sebelumnya proses ini diyakini berlangsung lebih lama hal ini disebabkan adanya pembiakan finch darwin endemik geospiza fortes dan finch kaktus imigran geospiza conirostris",
+  "timestamp_utc": "2026-07-05T05:48:26Z",
+  "text": "Peneliti dari Universitas Princeton di Amerika Serikat dan Universitas Uppsala di Swedia melaporkan bahwa spesies baru berevolusi dalam dua generasi saja. Sebelumnya proses ini diyakini berlangsung lebih lama, hal ini disebabkan adanya pembiakan finch Darwin endemik Geospiza fortis dan finch kaktus imigran Geospiza conirostris.",
+  "latency_sec": 3.2562,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Peneliti dari Universitas Princeton di Amerika Serikat dan Universitas Uppsala di Swedia melaporkan bahwa spesies baru berevolusi dalam dua generasi saja. Sebelumnya proses ini diyakini berlangsung lebih lama, hal ini disebabkan adanya pembiakan finch Darwin endemik Geospiza fortis dan finch kaktus imigran Geospiza conirostris.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPqAci9FBS/P3bUlqkN9ULLba1SMFE5mhPqI7VKSa/Ly2ldzDd5uv2rFm2neDG"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230506,
+    "id": "KPBJavGlM6zmosUPj8LSwAE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 70,
+      "prompt_tokens": 845,
+      "total_tokens": 915
+    }
+  }
+}

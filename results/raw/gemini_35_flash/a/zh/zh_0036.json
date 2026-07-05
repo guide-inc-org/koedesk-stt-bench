@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0036",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 16.86,
+  "ref_text_raw": "2002 年，戈马被尼拉贡戈火山的熔岩所摧毁。火山熔岩掩埋了该镇的大部分街道，尤其是镇中心。",
+  "ref_text_normalized": "2002 年 戈 马 被 尼 拉 贡 戈 火 山 的 熔 岩 所 摧 毁 火 山 熔 岩 掩 埋 了 该 镇 的 大 部 分 街 道 尤 其 是 镇 中 心",
+  "timestamp_utc": "2026-07-05T09:08:37Z",
+  "text": "2002年戈马被尼拉贡戈火山的熔岩所摧毁，火山熔岩淹没了该镇的大部分街道，尤其是镇中心。",
+  "latency_sec": 3.8197,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "2002年戈马被尼拉贡戈火山的熔岩所摧毁，火山熔岩淹没了该镇的大部分街道，尤其是镇中心。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Es0ECsoEARFNMg9jzr617tAVYTdAjITg1cfJStGjZDvtv+CNXU5vYNwHzEk8tLqTxCH6Q5B0YttgfVPg6rrQLqKN2UYyDrRDp9XuvnWEnK8ahrAJwja6k3IyBQsivmkRzr8OBkSN7OpE9bJ0HJ6kdfCLITiWLYxQSg9XI0OwJjt8E5qeRLrWP2P6lJXh2zcX4w38ru9HLRo3c6B4pZz1hqE51zaW7oWvsBQuVHxIJBGpK2VEn/aQFn9Na5iXTAa8LVmvwtR0Sp5uC3nizlNpB7m2cgUExU4+GE4U+IB5ch4fYLq6g99HzzqwxQQVmAXuIgridgAOSYbwEoyVUmy1wSDEDl0UUGVlKOXap69thnmE2DJOyCcWFHCXxBuOqNWIXSHSuFNVfN+g1rkSGt3lSda3tg1kly5GHDSdZktGAQWuHM8UNXwRtIu2zRqTLNvkJsOoiY3/wrV/kET+OFyk9CjCMIxEQKzYk4eYcJmyvWIrl88BhdmjuPzktAvUldnSTjZk8I6zW4e6Alua7Kd/llFa9KsIGEEnOEPOVhLHmh/eyBevJZCFVe16ETNGYmKF074KlIYmBx0lYp//kZQxxc0j6UbwY+czR70OFF3z/638SoibIcnnMVAYH6x2IftOkzn5MofvZrLVU+odwuyPn6xThjqMztU3JBpBOdZ1IwfShX3k6/D+42HNC3TweBTONkjdfWVayc5SnZ3JsgZkzidtPOeo3EqBm9HhBhJ/fOtNYIkzclrSqvTB8maIL81QUeLJzROayoMnRHfVl4S4kw=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242517,
+    "id": "Ex9KaqvyI_PG2roPs9KcqAM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 443,
+      "total_tokens": 622
+    }
+  }
+}

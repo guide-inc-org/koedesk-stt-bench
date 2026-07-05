@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0178",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.56,
+  "ref_text_raw": "摩尔多瓦的首都是基希讷乌。当地语言是罗马尼亚语，但俄语也被广泛使用。",
+  "ref_text_normalized": "摩 尔 多 瓦 的 首 都 是 基 希 讷 乌 当 地 语 言 是 罗 马 尼 亚 语 但 俄 语 也 被 广 泛 使 用",
+  "timestamp_utc": "2026-07-05T09:02:47Z",
+  "text": "摩尔多瓦的首都是基希纳乌，当地语言是罗马尼亚语，但俄语也被广泛使用。",
+  "latency_sec": 7.5146,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "摩尔多瓦的首都是基希纳乌，当地语言是罗马尼亚语，但俄语也被广泛使用。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242167,
+    "id": "sB1KarKZPLbR0-kPp6yr6QI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 359,
+      "total_tokens": 591
+    }
+  }
+}

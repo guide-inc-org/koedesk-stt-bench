@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0183",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 18.48,
+  "ref_text_raw": "Las manadas de leones tienen el mismo comportamiento que las de los lobos o los perros, con quienes guardan una sorprendente similitud (a diferencia de los otros grandes felinos) tanto en su conducta como en que son altamente letales para sus presas.",
+  "ref_text_normalized": "las manadas de leones tienen el mismo comportamiento que las de los lobos o los perros con quienes guardan una sorprendente similitud a diferencia de los otros grandes felinos tanto en su conducta como en que son altamente letales para sus presas",
+  "timestamp_utc": "2026-07-05T04:44:44Z",
+  "text": "Las manadas de leones tienen el mismo comportamiento que las de los lobos o los perros, con quienes guardan una sorprendente similitud, a diferencia de los otros grandes felinos, tanto en su conducta como en que son altamente letales para sus presas.",
+  "latency_sec": 3.1128,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Las manadas de leones tienen el mismo comportamiento que las de los lobos o los perros, con quienes guardan una sorprendente similitud, a diferencia de los otros grandes felinos, tanto en su conducta como en que son altamente letales para sus presas.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPpYK2E9eCveZgllPKDCheUW2iAMJo37DUhKo6Rm2Lg3IteaRcXQjN07GOLxDj"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226684,
+    "id": "O-FJatLTE9y-vr0P4tf2gQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 54,
+      "prompt_tokens": 483,
+      "total_tokens": 537
+    }
+  }
+}

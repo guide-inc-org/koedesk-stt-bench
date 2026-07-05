@@ -1,0 +1,45 @@
+{
+  "utt_id": "vi_0132",
+  "lang": "vi",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.04,
+  "ref_text_raw": "Cuối cùng, có nhiều loài mèo nhỏ (gồm cả mèo nuôi trong nhà) ăn những con mồi nhỏ có số lượng lớn như côn trùng, các loài gặm nhấm, thằn lằn và chim.",
+  "ref_text_normalized": "cuối cùng có nhiều loài mèo nhỏ gồm cả mèo nuôi trong nhà ăn những con mồi nhỏ có số lượng lớn như côn trùng các loài gặm nhấm thằn lằn và chim",
+  "timestamp_utc": "2026-07-05T08:40:52Z",
+  "text": "Cuối cùng có nhiều loài mèo nhỏ, gồm cả mèo nuôi trong nhà, ăn những con mồi nhỏ có số lượng lớn như côn trùng, các loài gặm nhấm, thằn lằn và chim.",
+  "latency_sec": 5.0576,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Cuối cùng có nhiều loài mèo nhỏ, gồm cả mèo nuôi trong nhà, ăn những con mồi nhỏ có số lượng lớn như côn trùng, các loài gặm nhấm, thằn lằn và chim.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240852,
+    "id": "kBhKat2fOenn2roPlKW22Ao",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 46,
+      "prompt_tokens": 297,
+      "total_tokens": 906
+    }
+  }
+}

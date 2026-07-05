@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0133",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 20.76,
+  "ref_text_raw": "Так как у перьев динозавров отсутствует хорошо развитый стержень, называемый рахисом, но все же имеются другие отличительные черты — бородки и бородочки — исследователи пришли к выводу, что рахис, скорее всего, появился позднее путем эволюционного развития других отличительных черт.",
+  "ref_text_normalized": "так как у перьев динозавров отсутствует хорошо развитый стержень называемый рахисом но все же имеются другие отличительные черты бородки и бородочки исследователи пришли к выводу что рахис скорее всего появился позднее путем эволюционного развития других отличительных черт",
+  "timestamp_utc": "2026-07-05T07:28:18Z",
+  "text": "Так как у перьев динозавров отсутствует хорошо развитый стержень, называемый рахисом, но все же имеются другие отличительные черты — бородки и бородочки, исследователи пришли к выводу, что рахис, скорее всего, появился позднее путем эволюционного развития других отличительных черт.",
+  "latency_sec": 5.6088,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Так как у перьев динозавров отсутствует хорошо развитый стержень, называемый рахисом, но все же имеются другие отличительные черты — бородки и бородочки, исследователи пришли к выводу, что рахис, скорее всего, появился позднее путем эволюционного развития других отличительных черт.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236498,
+    "id": "jgdKao-WF7yB0-kP2bOhwAc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 69,
+      "prompt_tokens": 540,
+      "total_tokens": 1200
+    }
+  }
+}

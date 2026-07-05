@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0008",
+  "lang": "zh",
+  "engine": "gemini_25_pro",
+  "duration_sec": 7.62,
+  "ref_text_raw": "Scotturb 403 路公共汽车定期发车前往辛特拉 (Sintra)，在罗卡角停靠。",
+  "ref_text_normalized": "scotturb 403 路 公 共 汽 车 定 期 发 车 前 往 辛 特 拉 sintra 在 罗 卡 角 停 靠",
+  "timestamp_utc": "2026-07-05T08:50:36Z",
+  "text": "Scotturb 403路公共汽车定期发车前往辛特拉，在罗卡角停靠。",
+  "latency_sec": 4.961,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Scotturb 403路公共汽车定期发车前往辛特拉，在罗卡角停靠。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241436,
+    "id": "2BpKavKHJrvLrfcPnvyU2AE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 265,
+      "total_tokens": 542
+    }
+  }
+}

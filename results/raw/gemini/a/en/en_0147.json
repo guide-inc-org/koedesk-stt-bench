@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0147",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.34,
+  "ref_text_raw": "You may also wish to consult the advice of governments other than your own, but their advice is designed for their citizens.",
+  "ref_text_normalized": "you may also wish to consult the advice of governments other than your own but their advice is designed for their citizens",
+  "timestamp_utc": "2026-07-05T03:28:10Z",
+  "text": "You may also wish to consult the advice of governments other than your own, but their advice is designed for their citizens.",
+  "latency_sec": 3.6737,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "You may also wish to consult the advice of governments other than your own, but their advice is designed for their citizens.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222091,
+    "id": "SM9JavzaLsmD0-kPmZ7guAM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 288,
+      "total_tokens": 336
+    }
+  }
+}

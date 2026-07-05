@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0148",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.4,
+  "ref_text_raw": "最後に、昆虫、げっ歯類、トカゲ、鳥といったはるかに多数の小さい獲物を餌とする小型の猫（野良猫を含む）が数多く生息しています。",
+  "ref_text_normalized": "最後に 昆虫 げっ歯類 トカゲ 鳥といったはるかに多数の小さい獲物を餌とする小型の猫野良猫を含むが数多く生息しています",
+  "timestamp_utc": "2026-07-05T03:20:07Z",
+  "text": "最後に昆虫、げっ歯類、トカゲ、鳥といったはるかに多数の小さいものを餌とする小型の猫、野良猫を含むが数多く生息しています。",
+  "latency_sec": 3.7862,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "最後に昆虫、げっ歯類、トカゲ、鳥といったはるかに多数の小さいものを餌とする小型の猫、野良猫を含むが数多く生息しています。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIProJ4XpnEZT7pAtdelE25/z29o7yuRHb0SBAxsEQyFBOx6NtA16Wz0xu32Wac"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221607,
+    "id": "Zc1Jau2uOJ2C0-kPjp3EsQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 381,
+      "total_tokens": 420
+    }
+  }
+}

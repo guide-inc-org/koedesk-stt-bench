@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0024",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 22.98,
+  "ref_text_raw": "Die Sundarbans sind seit 1966 ein Naturschutzgebiet, und Schätzungen zufolge halten sich dort mittlerweile 400 bengalische Königstiger und etwa 30.000 gefleckte Hirsche auf.",
+  "ref_text_normalized": "die sundarbans sind seit 1966 ein naturschutzgebiet und schätzungen zufolge halten sich dort mittlerweile 400 bengalische königstiger und etwa 30.000 gefleckte hirsche auf",
+  "timestamp_utc": "2026-07-05T03:41:45Z",
+  "text": "Die Sundarbans sind seit 1966 ein Naturschutzgebiet und Schätzungen zufolge halten sich dort mittlerweile 400 bengalische Königstiger und etwa 30.000 gefleckte Hirsche auf.",
+  "latency_sec": 4.1493,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Die Sundarbans sind seit 1966 ein Naturschutzgebiet und Schätzungen zufolge halten sich dort mittlerweile 400 bengalische Königstiger und etwa 30.000 gefleckte Hirsche auf.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222905,
+    "id": "dtJJaq-SHvK8vr0P9K6siQU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 50,
+      "prompt_tokens": 757,
+      "total_tokens": 831
+    }
+  }
+}

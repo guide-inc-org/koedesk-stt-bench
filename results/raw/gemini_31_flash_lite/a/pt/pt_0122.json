@@ -1,0 +1,44 @@
+{
+  "utt_id": "pt_0122",
+  "lang": "pt",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.2,
+  "ref_text_raw": "Hoje, os únicos insetos que não podem dobrar suas asas para trás são libélulas e efêmeras.",
+  "ref_text_normalized": "hoje os únicos insetos que não podem dobrar suas asas para trás são libélulas e efêmeras",
+  "timestamp_utc": "2026-07-05T07:01:26Z",
+  "text": "Hoje os únicos insetos que não podem dobrar suas asas para trás são libélulas e efêmeras.",
+  "latency_sec": 3.5444,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Hoje os únicos insetos que não podem dobrar suas asas para trás são libélulas e efêmeras.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPqp6o2uH2YvzEdq/xtbuKwkkg7mWpEqdFpRNSHP6O1pDVaJhzN+F/MgXv5Uuv"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234886,
+    "id": "RAFKaqu6Hrup2roP26eg2QY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 276,
+      "total_tokens": 299
+    }
+  }
+}

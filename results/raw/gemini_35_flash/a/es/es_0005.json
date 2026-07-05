@@ -1,0 +1,45 @@
+{
+  "utt_id": "es_0005",
+  "lang": "es",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.78,
+  "ref_text_raw": "Hoy en día, las personas escriben mensajes en las pantallas de sus computadoras. No tienen la necesidad de, siquiera, aproximarse a un sacapuntas.",
+  "ref_text_normalized": "hoy en día las personas escriben mensajes en las pantallas de sus computadoras no tienen la necesidad de siquiera aproximarse a un sacapuntas",
+  "timestamp_utc": "2026-07-05T04:29:11Z",
+  "text": "Hoy en día las personas escriben mensajes en las pantallas de sus computadoras, no tienen la necesidad de siquiera aproximar un sacapuntas.",
+  "latency_sec": 4.8344,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Hoy en día las personas escriben mensajes en las pantallas de sus computadoras, no tienen la necesidad de siquiera aproximar un sacapuntas.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "ErQLCrELARFNMg/XLVnICTs1+9o4jWwqb1XLts5d8EjC+vRCiujcLqXZlkVJPUp0gzDuEzbQMLB277ndm3wdSuc9utrlx1mw+UV7tsWdcA5OECyLlOqThu/q8b1dQl+EBhl8nlCFQN3G6KGyK8E9hKSG8KWCc5qNjxyLLNUh0spLCPUr0AFC814WRzFcI3wmnlN+yJB3Rl/vtZSifiPoHtZIf4WaB16Pz7+bZQJi3TkXnFkrjlqyqfMUhcR3DQqADDl4UGiEki+xSnExqyr0cyxx37LO/UVwixsR6e4rE0fBKHjVObFBpRI5AZ0+G5+npcFfcyMmgFY+7yCz/aT7bwmWABG/hnRpPTN8rlwaMNLiRgpYhsbS1evN4w61GaqpBQaqRz5DWKTYHye8w/EmozKCwFOEkXu00lIS/ssC5JSMeh3lvaPb8wLehBEK2b12XxGEFF2ISpXn+3jAKlb69BWFOjtMFgJOdTHP7DYp5Gra9+BbynIADiMMnG6nshs17+U0Mv9TCsdeRyqe0zYdEGkNfZCB1c6Wa8ZLvjtZwnhLht58dQRRjhWCMPFsYrfyJqo+bkMkde6pf689JsmzpckZDrVl2MZngZTsdVQk+9F7A+7uMWXm3QTha2SEdQR7z6i8/vs03e/J5tsmwklvFWTIWfRzJ8zGVd968SZ3ptN16LEB46W8rnfyeaIpxKkoMt8Qx6YamxO8YCQ2Ly1Fj8SkY2pflMDlCmAMhK25G8IvTXH1gWdiWz4kmLDdH3aWP1PZAhTPALgE6j4nznsS0CV1a0vKghkqm0JxIkJ60tohFuRmAoyOXrUTndELQyuFbMAUXPO/gP8qLX+1Z+YriXQSPon6GSXJFkncT6Cea93b8O74Ppb/8smpoHmc6gW2670VZ4t8PFRY1tswVyW6lYP7ZWoPwHXXEcw+nO4s1On07IOpJraGcCwk72OoIj5UL9L5nrFqYg9GKBQQhuZHTqOGDjl0EyfD6qTm5R3b0Ox40hnY/a2o5YFhDjPVUqeWVh9Gr9A0tocf/JK9m8bkU4gwIUaD5lwavwgumoG5bICPFepYlEvJbkwsSbnkck7GdcRn09qfsFl7+cOFedbCB2/1FQ+i05DdEVvoaXaQ/WZIku8QcX9Vk/vb4LMocVkOe19UuZu+3hEK74dmXKrA7HMrYbIyqQcmsHGEt1t84KzxQzISiU5PKqJnRWz0pt31UJsC8C8gA7hbBlSPqpEslhpVsmQJp8yllrMyKRwibb2jXfpg/Vpw4iMMNlmnBqb4JMyzSxDKTXCfV6nOeSgiRbeW2nAA9A0pvPjq3d31lp8+yqe7KmT8g9zBes1e7q8qZqF2uWIBs9q5B8Vw7kz/F7Zl61iRu8UbK9etM4YQZKTvDaBvavA1FacuEq5EPoqtu3DyQayI6VwpwF66K0sw8qit8dd7eBbEqiVYbQ1/U58ixZ/YleFotYc2+P2MM7twFTbYO7w5M8HKkRQT+1ZWgUqR17KrEkRuFuZRG6bAMrkrnjp2/+kSOiOuVFpyA+yK4Yg/qsRD2hTm2apXlBRnoXWCcbKtTZy03iwTu5VooU8PQO6/q6EKA16EARET8cxrROQ64PmXeWP9PJroaLGTCCDKKmrq21eJpLEhQtxrv9RP7DfdZLUmrJlTD8oF6x765i78GDcJLmsmVu3k257NtvZf4RCZctID60hAxNScUECLKSezAChmgZgAcboDojKcbndSvd67Z9aTIoIbytl6iQEzHrVgsyyuJEIb3O/FRzH2VhH8rI2BOOWwR/Vsa37H7mWL66sYits7PJzKz0fvLo6ol0T6ns/oq1G/orwl+GtpCjcJsCQs73CZtfyuw7zZxvNSkMx5V90469bCq2c0rHi0HbKrFCoTFUDLeynA65b05b2Jbmuym0Ibn94pTGqKRmc5ToIpKnfn0c8fKZruUFfhiFwi/HY="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225751,
+    "id": "lN1JatyWKdKivr0PmOv26QM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 266,
+      "total_tokens": 681
+    }
+  }
+}

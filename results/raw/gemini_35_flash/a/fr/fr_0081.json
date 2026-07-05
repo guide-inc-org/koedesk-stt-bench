@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0081",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 14.88,
+  "ref_text_raw": "Les langues officielles de Barcelone sont le catalan et l'espagnol. Environ la moitié des habitants préfère parler catalan, une grande majorité le comprend, et pratiquement tout le monde est capable de parler espagnol.",
+  "ref_text_normalized": "les langues officielles de barcelone sont le catalan et l'espagnol environ la moitié des habitants préfère parler catalan une grande majorité le comprend et pratiquement tout le monde est capable de parler espagnol",
+  "timestamp_utc": "2026-07-05T05:08:34Z",
+  "text": "Les langues officielles de Barcelone sont le catalan et l'espagnol. Environ la moitié des habitants préfère parler catalan. Une grande majorité le comprend et pratiquement tout le monde est capable de parler espagnol.",
+  "latency_sec": 4.7435,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Les langues officielles de Barcelone sont le catalan et l'espagnol. Environ la moitié des habitants préfère parler catalan. Une grande majorité le comprend et pratiquement tout le monde est capable de parler espagnol.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqEOCp4OARFNMg+QRd5xxnmygobgfmyKbZ8dJoo6QxgNECE9tCyg3ZXtPdyv4uPo5wCMjnYUBibi8RNaHnW4pPpZgjEJORQd/PkXiV1Q5jbonzF93dVTxiyGIBFmqIcFshGfF3wC6OT/fOolvj/h3FFFgbyklHlx0BT20M8PGI/a6B1ZQYCNWMo25XtkPcVnkUdRDBdkoaKsIfrq6xewWUVIGuCgPuJjPaDVDI3SVpgyMIcfNrHdwWRr54S0co36QKGnB2ETkxW3f+M8eiok/qIFyIY65y1EUibt7oFhSBCBoSdFKolLUVcHN9IfxUsIqc50kjWW7aSr+deg862ko2Yg64Ug0r3at1kvgtxpzXvNLsGbjw9FI75vA790x7jndmYi90U/u0s+X2wNCwFNdRlEK6mYpZrjsatkYO3biI17/5mXuZRRyOZtG6Re02xuLwi+mG4eAEyRrXWzWJEs2awwtUWsO9wgULbvJVyzoo/1kFmMQh/TXQL3U8g/AUl9MZm1iT0ifp4amVrw7AVeOnqt+vbGf11pzWRNk/ZqA0QA/6Smt98z0pKlcPO4pD19e75H5ckF+U61r+xD8ItRHWgRwHjTIkZNPy3XIxqkgh7nYAV6S9AP3PWoaGePO94dqvUPlmwLVGtN1J3ZvrloMF6QZW+vYZYg2vcUcQx2uFYp3j97b0II8Ad2tJkYM4pxVF8nJjj1mlS/8tuyLaa91+VEzmGBOoyIOMjCu6lWKQZhRFfOQdNVD1J22l8lFUUyMWmdlBTGBHfr0jLSMIp7TvxQwbAUBTUphyELSLVpvJ4W8kS9QchgIS5Nr7dg47yVmqg/wKALlveT0tA6Ah1h9CNGZ+j/uvH5qW1g4m5JO/kZNqV9swm7/OaZpXxqfMcQJC4YzfFHY5Yhs+xBuGR92I8APzjuyM63ehmw02vdbDFdSpjQLJgns5m+23Fw3vnTpQmzRpQACaa3KpvdVT0IPU1eEm3a9ANmuIcXhs7oCQkF6WLRU+DsV8b8e+Su2STfsurRurDySDA+Hxo7Fwpfv/QiERQ+2OAr1kddCLqCK2S78bRvgsc6iukrb80Ws6Za5lf151cwIBEgTtojVyS2GMpUnOWiFqAi5yJaKWDaOrnUpmpj/kcMet0oPACW3O5plTfW8DBbSg04InZ9amuJ1EJi+X/z+6I7gOiKo0KpDMct1dSKcBP70Q/vDAFb2llp9p8ONCccWxDH+WkUk8X3+dvMbBu5XUM9pKnhBRKQoHtQ2ASjYEbSy9ky99P4J2QuLF6E06443c3gMZWyvGz+rJ/gONKOsSfFyfCflY8ssuGNk/TbsRWvvmb/S658YUbH8o8lVxhspWqRVsKulJow65aOAiZGyslibEOTahoYyiNRAjhnaLvaMnJ7JrIb7+dogHlX0gf7VNFE7hk9OQZxte9MbKbIcLV8eLgCwy0cAyeeEkGeS2Q2NFKIY03AHo1BecceSoIOdTUGGC2M+Tv+76yBDZSbPj0HPngjEP4cEooenBntKtFUUhNAAw1i8Ns2EoZiNPtgjbNXndiSDw7/Z8wtAqOoHQMagImYdgVE8DCT/V0PK3s5Lt0bhzjjPoIjuxv3Uc155m9vVNSoXS2XNlOgPKIRJ8Nh3sRktt2hl3m7Ror9syilsXcEqbeoR2nWUIcNudtwAdJXuPoZNtm+JAiT7teIZute6yrJaGGsO4hoccDM3kiyOhSON4IM8t42ZZgjlFOMF9ycpb++iOmd6AgjMhlPeQ4Jpw87NjqawBKWJnRo5agwxlMoyjylpVs6CUI429Jub6C//GJkCAHshqbhdmdeYJJJAWHjv7Agg3/FQJtJMHMn2MxMi4H+OUA+3ODYILcCKxhDzLJvFPszHvF8Mi/rqrR2BgacmouDaRLQdM6obCO3z7mFyvSytwIE42T903yLfxd+lxlnR0I9MlPOECu+H8ToXv+ZVxFTg1A43foSbNgiAaQhCqHDcjf26KB7heMIfJC8YJxABIZIxCPBAfhP7G7kL4Br2s8zhEhEAhdMNEBZCPTeuDq8tgMqCuIWyNLXqtTbdxoF2RcURkMEuPGdDy7HIO4tjYgQ4s1OJ4hxdzG51BLaE3n+yCzuLZ9cev1D197gLHDhEWAGK6sYOxDgORMS98o1jGrtNYno74StLEUv+yrC/YIVRFNPhhWq/8IdRnn+OU5Y8eBH59LIV/x0Ko1NWrSFtjoiXPA0NIvqD7frafBa6Suhh4wByAi7Amkn3PjatpndJh1SOwZ3DsE8iiJl8+unofshjpW4VaKvgjDP/vu+SQJOEk9qRJ3mcxX1Auc9Eq/x8JjkNxTLFWOuMhMSYOs23qRKHRCJVny6d6TgzniGuT0z3jzMIOJuVyIrCEpZB0pXefWnh0N+vLrCaww6XxkVXArtJaBWJJ+tHhfhdPfw8TQi84soLQr72Q=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228114,
+    "id": "zuZJapbzN5WJ1e8PxbzN-QE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 393,
+      "total_tokens": 854
+    }
+  }
+}

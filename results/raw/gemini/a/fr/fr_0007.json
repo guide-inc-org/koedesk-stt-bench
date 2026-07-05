@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0007",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.64,
+  "ref_text_raw": "Malheureusement, il est difficile d'étudier le flux de circulation car le comportement des conducteurs ne peut être prédit avec cent pour cent de certitude.",
+  "ref_text_normalized": "malheureusement il est difficile d'étudier le flux de circulation car le comportement des conducteurs ne peut être prédit avec cent pour cent de certitude",
+  "timestamp_utc": "2026-07-05T04:45:57Z",
+  "text": "Malheureusement, il est difficile d'étudier le flux de circulation car les comportements des conducteurs ne peut être prédit avec 100 % de certitude.",
+  "latency_sec": 3.3191,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Malheureusement, il est difficile d'étudier le flux de circulation car les comportements des conducteurs ne peut être prédit avec 100 % de certitude.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226757,
+    "id": "g-FJarDrIvK8vr0P85enuQQ",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 394,
+      "total_tokens": 493
+    }
+  }
+}

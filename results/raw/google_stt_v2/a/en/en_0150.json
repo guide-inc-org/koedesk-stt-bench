@@ -1,0 +1,36 @@
+{
+  "utt_id": "en_0150",
+  "lang": "en",
+  "engine": "google_stt_v2",
+  "duration_sec": 14.06,
+  "ref_text_raw": "We don't know for sure, but it may have had a forked tongue. Its diet included turtles, large fish, other mosasaurs, and it may even have been a cannibal.",
+  "ref_text_normalized": "we don't know for sure but it may have had a forked tongue its diet included turtles large fish other mosasaurs and it may even have been a cannibal",
+  "timestamp_utc": "2026-07-05T03:35:48Z",
+  "text": "We don't know for sure, but it may have had a forked tongue. Its diet included turtles, large fish, other mosasaurs, and it may even have been a cannibal.",
+  "latency_sec": 5.0543,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "en-US",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "15s",
+      "requestId": "6a83aef1-0000-23a9-a5d7-d43a2cc2b52f",
+      "prompt": "Transcribe the following speech segment in English. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, English."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "We don't know for sure, but it may have had a forked tongue. Its diet included turtles, large fish, other mosasaurs, and it may even have been a cannibal."
+          }
+        ],
+        "languageCode": "en-US"
+      }
+    ]
+  }
+}

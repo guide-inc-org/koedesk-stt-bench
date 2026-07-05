@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0190",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 22.14,
+  "ref_text_raw": "Blog juga dapat membantu meningkatkan kemampuan menulis siswa. Sementara itu, siswa biasanya mulai merasakan pengalaman membuat blog dengan tata bahasa dan ejaan yang kurang baik, keberadaan audiens secara umum mengubah itu.",
+  "ref_text_normalized": "blog juga dapat membantu meningkatkan kemampuan menulis siswa sementara itu siswa biasanya mulai merasakan pengalaman membuat blog dengan tata bahasa dan ejaan yang kurang baik keberadaan audiens secara umum mengubah itu",
+  "timestamp_utc": "2026-07-05T05:56:45Z",
+  "text": "Blog juga dapat membantu meningkatkan kemampuan menulis siswa. Sementara itu, siswa biasanya mulai merasakan pengalaman membuat blog dengan tata bahasa dan ejaan yang kurang baik. Keberadaan audiens secara umum mengubah itu.",
+  "latency_sec": 2.9637,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Blog juga dapat membantu meningkatkan kemampuan menulis siswa. Sementara itu, siswa biasanya mulai merasakan pengalaman membuat blog dengan tata bahasa dan ejaan yang kurang baik. Keberadaan audiens secara umum mengubah itu.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPFcKZLTKRBtQB7Oftu9GhAYDg8E+T7PCM+wo+BVth1+zwl7IboTVPllJmbj7h"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231005,
+    "id": "G_JJaqDFKYyl1e8P2deLgAI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 575,
+      "total_tokens": 614
+    }
+  }
+}

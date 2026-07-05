@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0122",
+  "lang": "es",
+  "engine": "gemini_25_flash",
+  "duration_sec": 19.44,
+  "ref_text_raw": "Entre los deportes que más se practican están el fútbol, el baloncesto, el voleibol, el waterpolo, la esgrima, el rugby, el ciclismo, el jóquey sobre hielo, el jóquey sobre patines y las carreras d Fórmula 1.",
+  "ref_text_normalized": "entre los deportes que más se practican están el fútbol el baloncesto el voleibol el waterpolo la esgrima el rugby el ciclismo el jóquey sobre hielo el jóquey sobre patines y las carreras d fórmula 1",
+  "timestamp_utc": "2026-07-05T04:22:34Z",
+  "text": "Entre los deportes que más se practican está el fútbol, el baloncesto, el voleibol, el waterpolo, la esgrima, el rugby, el ciclismo, el yockey sobre hielo, el hockey sobre patines y las carreras de Fórmula 1.",
+  "latency_sec": 4.4341,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Entre los deportes que más se practican está el fútbol, el baloncesto, el voleibol, el waterpolo, la esgrima, el rugby, el ciclismo, el yockey sobre hielo, el hockey sobre patines y las carreras de Fórmula 1.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225354,
+    "id": "B9xJaoqjC8Ts1e8Px-GUwQI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 54,
+      "prompt_tokens": 644,
+      "total_tokens": 807
+    }
+  }
+}

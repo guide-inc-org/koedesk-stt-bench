@@ -1,0 +1,36 @@
+{
+  "utt_id": "fr_0105",
+  "lang": "fr",
+  "engine": "google_stt_v2",
+  "duration_sec": 10.68,
+  "ref_text_raw": "La Finlande est une destination de choix pour la navigation de plaisance. Le « Pays des mille lacs » compte aussi des milliers d’îles, dans les lacs et dans les archipels côtiers.",
+  "ref_text_normalized": "la finlande est une destination de choix pour la navigation de plaisance. le « pays des mille lacs » compte aussi des milliers d’îles dans les lacs et dans les archipels côtiers",
+  "timestamp_utc": "2026-07-05T04:25:25Z",
+  "text": "La Finlande est une destination de choix pour la navigation de plaisance. Le pays des mille lacs compte aussi des milliers d'îles dans les lacs et dans les archipels côtiers.",
+  "latency_sec": 4.3781,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "fr-FR",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "11s",
+      "requestId": "7ac41416-0000-2b8e-83cd-c82add70f100",
+      "prompt": "Transcribe the following speech segment in French. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, French."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "La Finlande est une destination de choix pour la navigation de plaisance. Le pays des mille lacs compte aussi des milliers d'îles dans les lacs et dans les archipels côtiers."
+          }
+        ],
+        "languageCode": "fr-FR"
+      }
+    ]
+  }
+}

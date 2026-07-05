@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0149",
+  "lang": "es",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.62,
+  "ref_text_raw": "Procure no dejar que la tela se caliente demasiado, ya que podría encogerse o, en casos extremos, quemarse.",
+  "ref_text_normalized": "procure no dejar que la tela se caliente demasiado ya que podría encogerse o en casos extremos quemarse",
+  "timestamp_utc": "2026-07-05T04:24:41Z",
+  "text": "Procure no dejar que la tela se caliente demasiado, ya que podrían cogerse o en casos extremos, quemarse.",
+  "latency_sec": 3.5448,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Procure no dejar que la tela se caliente demasiado, ya que podrían cogerse o en casos extremos, quemarse.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225481,
+    "id": "htxJarb9Jo-D1e8P9I7h6AE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 265,
+      "total_tokens": 321
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "vi_0057",
+  "lang": "vi",
+  "engine": "gemini_25_pro",
+  "duration_sec": 17.76,
+  "ref_text_raw": "Chúng ta không biết chắc chắn nhưng có thể nó có lưỡi chẻ. Thức ăn của nó bao gồm rùa, cá lớn, những con mosasaur khác và nó thậm chí có thể là thú ăn thịt.",
+  "ref_text_normalized": "chúng ta không biết chắc chắn nhưng có thể nó có lưỡi chẻ thức ăn của nó bao gồm rùa cá lớn những con mosasaur khác và nó thậm chí có thể là thú ăn thịt",
+  "timestamp_utc": "2026-07-05T08:19:48Z",
+  "text": "Chúng ta không biết chắc chắn nhưng chúng ta có thể có lưỡi chẻ. Thức ăn của nó bao gồm rùa, cá lớn, những con Mosasaur khác, và nó thậm chí có thể là thú ăn thịt.",
+  "latency_sec": 16.6164,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Chúng ta không biết chắc chắn nhưng chúng ta có thể có lưỡi chẻ. Thức ăn của nó bao gồm rùa, cá lớn, những con Mosasaur khác, và nó thậm chí có thể là thú ăn thịt.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239588,
+    "id": "lRNKasWqLOD61e8P0MrToAE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 48,
+      "prompt_tokens": 590,
+      "total_tokens": 2514
+    }
+  }
+}

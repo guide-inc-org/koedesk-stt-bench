@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0003",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 15.42,
+  "ref_text_raw": "\"适当使用博客，\"可以使学生变得更善于分析和进行思辨；通过积极回应网络材料，学生们可以在他人文章的上下文语境中找到自己的立场，并能够针对特定问题提出自己的观点（Oravec, 2002）。\"",
+  "ref_text_normalized": "适 当 使 用 博 客 可 以 使 学 生 变 得 更 善 于 分 析 和 进 行 思 辨 通 过 积 极 回 应 网 络 材 料 学 生 们 可 以 在 他 人 文 章 的 上 下 文 语 境 中 找 到 自 己 的 立 场 并 能 够 针 对 特 定 问 题 提 出 自 己 的 观 点 oravec 2002",
+  "timestamp_utc": "2026-07-05T09:05:21Z",
+  "text": "适当使用博客可以使学生变得更善于分析和进行思辨，通过积极回应网络材料，学生们可以在他人的文章的上下文语境中找到自己的立场，并能够针对特定问题提出自己的观点，Wark 2002。",
+  "latency_sec": 6.267,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "适当使用博客可以使学生变得更善于分析和进行思辨，通过积极回应网络材料，学生们可以在他人的文章的上下文语境中找到自己的立场，并能够针对特定问题提出自己的观点，Wark 2002。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242321,
+    "id": "TB5KapuwHtLM1e8PlJ7zgQc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 53,
+      "prompt_tokens": 407,
+      "total_tokens": 1100
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "vi_0125",
+  "lang": "vi",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.9,
+  "ref_text_raw": "Ví dụ, định dạng chụp ảnh tĩnh phổ biến nhất trên thế giới là 35mm, kích cỡ phim thịnh hành trước khi kết thúc thời đại phim analog.",
+  "ref_text_normalized": "ví dụ định dạng chụp ảnh tĩnh phổ biến nhất trên thế giới là 35mm kích cỡ phim thịnh hành trước khi kết thúc thời đại phim analog",
+  "timestamp_utc": "2026-07-05T08:21:42Z",
+  "text": "Ví dụ, định dạng chụp ảnh tỉnh phổ biến nhất trên thế giới là 35 mm. Kích cỡ phim thịnh hành trước khi kết thúc thời đại phim analog.",
+  "latency_sec": 4.0392,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Ví dụ, định dạng chụp ảnh tỉnh phổ biến nhất trên thế giới là 35 mm. Kích cỡ phim thịnh hành trước khi kết thúc thời đại phim analog.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239702,
+    "id": "FBRKav7PFK2l0-kP_9TT2QM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 434,
+      "total_tokens": 587
+    }
+  }
+}

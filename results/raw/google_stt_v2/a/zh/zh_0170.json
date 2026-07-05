@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0170",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 7.2,
+  "ref_text_raw": "这似乎是合理的，因为地球感觉不到自己在移动，不是吗？",
+  "ref_text_normalized": "这 似 乎 是 合 理 的 因 为 地 球 感 觉 不 到 自 己 在 移 动 不 是 吗",
+  "timestamp_utc": "2026-07-05T06:33:23Z",
+  "text": "这似乎是合理的,因为地球感觉不到自己在移动,不是吗?",
+  "latency_sec": 3.4939,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "8s",
+      "requestId": "7f987edc-0000-20f9-97fe-582429cfae60",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "这似乎是合理的,因为地球感觉不到自己在移动,不是吗?"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

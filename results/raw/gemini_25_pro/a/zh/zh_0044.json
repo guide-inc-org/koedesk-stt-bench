@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0044",
+  "lang": "zh",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.26,
+  "ref_text_raw": "互联网结合了大众传播和人际传播的要素。",
+  "ref_text_normalized": "互 联 网 结 合 了 大 众 传 播 和 人 际 传 播 的 要 素",
+  "timestamp_utc": "2026-07-05T08:54:00Z",
+  "text": "互聯網結合了​​大眾傳播和人際傳播的要素。",
+  "latency_sec": 3.4923,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "互聯網結合了​​大眾傳播和人際傳播的要素。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241640,
+    "id": "phtKarqeDqTMrfcPve3HuAM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 350,
+      "total_tokens": 368
+    }
+  }
+}

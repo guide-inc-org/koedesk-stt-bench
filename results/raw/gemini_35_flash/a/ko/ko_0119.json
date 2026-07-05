@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0119",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.84,
+  "ref_text_raw": "병원은 다른 사람들의 감염 가능성을 막기 위해 환자를 다른 사람들로부터 분리시키는 것을 포함하여 감염 통제 규직을 준수했다.",
+  "ref_text_normalized": "병원은 다른 사람들의 감염 가능성을 막기 위해 환자를 다른 사람들로부터 분리시키는 것을 포함하여 감염 통제 규직을 준수했다",
+  "timestamp_utc": "2026-07-05T06:20:01Z",
+  "text": "병원은 다른 사람들의 감염 가능성을 막기 위해 환자를 다른 사람들로부터 분리시키는 것을 포함하여 감염 통제 규칙을 준수했다.",
+  "latency_sec": 3.3618,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "병원은 다른 사람들의 감염 가능성을 막기 위해 환자를 다른 사람들로부터 분리시키는 것을 포함하여 감염 통제 규칙을 준수했다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Er4ECrsEARFNMg/HZaUkragzHRNt5Df3ea24IW1MZZGlHvl+GrP3TmUBa1tboJYgUHqxe5ULBp1Fw3vV2dKbGB9qbhdR7BohwMrR9gJm7G9/OQwS9vkcUsX5dvM8Iyw0LGDh7EVNXfyqgR5Owin3PZJ5JFFFxHBr0gYJgRZ2mHA/doUncXz9MYZH438yDcBD0c6wlFRr/0P8hrvrHiVhrFFlsHSMxckmWX/S66SSsqyJhpaxQWGXFPJPtVuAb+Ynb44xbn5FVLScCqkrPkohKTQJj2NJNeTr8Sy/9Reb58CwZAFPnZJuC+qGTlFh8UgpP1bkht7g7Nm4TAZDovAx2io/pQyBnSlL/BOZ7ZeOgibH89nKvo6H/P2LrhLQFn7Ak0eqNDFxt0eEsYWe12w3fNIP4DA/7pdM6zMiqlifnyHI7+rLNYt1T48cyu5hE20ASSFD7TaO1+/qtFwD4QMpdrydrwKNPyg9xm9ODnZljOCaypBNNBhFpfzCM7TiDswzgM32T/f0psxDPlrGA+aHmhJZRpRB+UsFdITk6nBO34Po4JsBqJKW62sPa21FarFS3mL/NC6uep1Sfi96iLMAi2viE9gpYqGUXEIIxhI9CfScEyVJz1yqxzF2LUPPRnZXWbIbAiy1cd2g46ViS9vcobOlZwdWT82EgFWq/viweEKKjXbo8thB+lo7PEXLRDirWvjs9r7SjdXx7zaYpkSZpQ+HXH/PoHk051y+bb9zxwL0xkbu13KmeWep4/Z2U9/1ow=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232401,
+    "id": "j_dJaoiLIsTs1e8Px-GUwQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 342,
+      "total_tokens": 481
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "pt_0066",
+  "lang": "pt",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 13.26,
+  "ref_text_raw": "Apia é a capital de Samoa. A cidade fica na ilha de Upolu e tem uma população de pouco menos de 40.000 habitantes.",
+  "ref_text_normalized": "apia é a capital de samoa a cidade fica na ilha de upolu e tem uma população de pouco menos de 40.000 habitantes",
+  "timestamp_utc": "2026-07-05T06:48:24Z",
+  "text": "Apia é a capital da Samoa. A cidade fica na ilha de Upolu e tem uma população de pouco mais de 40 mil habitantes.",
+  "latency_sec": 4.8083,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Apia é a capital da Samoa. A cidade fica na ilha de Upolu e tem uma população de pouco mais de 40 mil habitantes.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqgGCqUGARFNMg+QtrPIANZuTtuhF7sZxeA/Sm4zK0JOfUYPZv85h0ByFZ9eGnf08jTe1RmdXC62m2jvHBOoZMaAyUbVA5xyNOwO/hXH0yDZDxLakCV88AvCf8FGJnArEUYsiRqjmdijzBEhP9bAEOzBgXAQBDf5ZAeGCiAUmYFCbvfWJBIURx213esm0OSdxptRqGi65qFyeqp30Vm+jQeYcGD7gfu/1Qoh+df28/8JP8PR/nrnIGDL1obRNbmSPwHHBoyBDN+LC/wAUQkHH7fMo45gZYSkSSdL8HPZD61t9MbuGJ22upoR/XG3fCs/9eMDKYW5MiU1DvNWzYz1tTFxR+xzzZAzbO4Rgp98VzIQu6onTSKbaeCKLPr6HkNk4EpgdnpzRKIkYrNi4IaHtey5bcaKe8NS+Jpdej94oHPtVs1jrxe2LmHFgcBxoKxwdSkgf1ILRH3AXOXZQ3SZyrw8fbXEfNK/3Gxw4+qd+dx22/IQomsrvRK3f2JZP+voN2NlT2vXj3NS5PcO4gaIUETPR1+K2a5uiiZ+NHHDXl3bi0ARBKnDCokHm620mu/dzh7C6Hjm61db/nxOtSpUcmWZZeVKSEAVnT8PdkWLP9MOW28tVjwflEqYPtAE80ixQjQeOexf93yJlbcBH2myvZaORm7BpuDK9mKlphF11bSt+TzpUj7Wnx7OWAw0+DwrcQlv87Yx9LyX7+tz2/rQ4UFKWdsJSVZI0biaMjopNSOLfe71yAPBfs2Mx5J4oHPanM66uwIubkRS1gG55GgiSNfvEHKZ8Ic6SXQQ7Xgaq62mOjipo+6YkDuT60/d8hCN2fFzZ23pR/Xr8FLijNlJ/nLquSqf4oV4FRERH2HldkuOyObLw7SK5nQOIhhPIDjtLDGipyIcD+zi9iExbuShN6jqiNJYvWkUcB12M5IH/f4I4tMRzbHkjm/6D7gTiipYqV4wgeVimNDnrhCzrT1lXkbFksqVZE8tIl0YUobw/yXkEUKG1Cbv/ew9pt5vdZ4qLrVI4pIrAgG4/UwFW4NmR3TUVHro2bmhGnm9hRMxJhwgj2Va1gNIORGBzQ=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234104,
+    "id": "Nf5JauadJrXIrfcPsof-gAc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 353,
+      "total_tokens": 610
+    }
+  }
+}

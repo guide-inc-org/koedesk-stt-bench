@@ -1,0 +1,39 @@
+{
+  "utt_id": "pt_0090",
+  "lang": "pt",
+  "engine": "gemini_25_flash",
+  "duration_sec": 18.12,
+  "ref_text_raw": "A Groenlândia teve sua colonização de maneira esparsa. Nas sagas nórdicas, dizem que Erik, o Vermelho, foi exilado da Islândia por assassinato e, ao viajar para o oeste, achou a Groenlândia e lhe deu esse nome.",
+  "ref_text_normalized": "a groenlândia teve sua colonização de maneira esparsa nas sagas nórdicas dizem que erik o vermelho foi exilado da islândia por assassinato e ao viajar para o oeste achou a groenlândia e lhe deu esse nome",
+  "timestamp_utc": "2026-07-05T06:33:59Z",
+  "text": "A Groenlândia teve sua colonização de maneira esparsa. Nas sagas nórdicas, dizem que o Eric, o Vermelho, foi exilado da Islândia por assassinato e, ao viajar para o Oeste, achou a Groenlândia e lhe deu esse nome.",
+  "latency_sec": 4.007,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "A Groenlândia teve sua colonização de maneira esparsa. Nas sagas nórdicas, dizem que o Eric, o Vermelho, foi exilado da Islândia por assassinato e, ao viajar para o Oeste, achou a Groenlândia e lhe deu esse nome.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783233239,
+    "id": "1PpJarzaHY-_vr0P4-jhmAM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 61,
+      "prompt_tokens": 601,
+      "total_tokens": 690
+    }
+  }
+}

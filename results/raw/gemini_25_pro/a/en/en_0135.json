@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0135",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 5.88,
+  "ref_text_raw": "\"This is not going to be goodbye. This is the closing of one chapter and the opening of a new one.\"",
+  "ref_text_normalized": "this is not going to be goodbye this is the closing of one chapter and the opening of a new one",
+  "timestamp_utc": "2026-07-05T03:26:56Z",
+  "text": "This is not going to be goodbye. This is the closing of one chapter and the opening of a new one.",
+  "latency_sec": 5.5028,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "This is not going to be goodbye. This is the closing of one chapter and the opening of a new one.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222016,
+    "id": "_c5JaveYDb3KrfcPzfG_-QM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 210,
+      "total_tokens": 264
+    }
+  }
+}

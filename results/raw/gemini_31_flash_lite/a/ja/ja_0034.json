@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0034",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.8,
+  "ref_text_raw": "実地に体験したければ、早めに到着して演奏が聞こえやすいキャンプ場を確保しなければなりません。",
+  "ref_text_normalized": "実地に体験したければ 早めに到着して演奏が聞こえやすいキャンプ場を確保しなければなりません",
+  "timestamp_utc": "2026-07-05T10:14:47Z",
+  "text": "実地 に 体験 し たけれ ば 早め に 到着 し て 、 演奏 が 聞こえ やすい キャンプ 場 を 確保 し なけれ ば なり ませ ん 。",
+  "latency_sec": 2.7734,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "実地 に 体験 し たけれ ば 早め に 到着 し て 、 演奏 が 聞こえ やすい キャンプ 場 を 確保 し なけれ ば なり ませ ん 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPAmQGZjQYm6NlRyQEKJTlhnLOnZ1wcHi6OgOWC2hcPQk5upBqUs8/WZS4KGSm"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246487,
+    "id": "li5KaoXYCuex2roPq7DX0QU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 291,
+      "total_tokens": 330
+    }
+  }
+}

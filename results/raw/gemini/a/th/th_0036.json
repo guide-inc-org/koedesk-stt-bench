@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0036",
+  "lang": "th",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.34,
+  "ref_text_raw": "คนจำนวนมากไม่คิดว่าพวกมันเป็นไดโนเสาร์ เพราะพวกมันมีขนและบินได้",
+  "ref_text_normalized": "คนจำนวนมากไม่คิดว่าพวกมันเป็นไดโนเสาร์ เพราะพวกมันมีขนและบินได้",
+  "timestamp_utc": "2026-07-05T07:37:04Z",
+  "text": "คนจำนวนมากไม่คิดพวกมันเป็นไดโนเสาร์เพราะพวกมันมีขนและบินได้",
+  "latency_sec": 4.0115,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "คนจำนวนมากไม่คิดพวกมันเป็นไดโนเสาร์เพราะพวกมันมีขนและบินได้",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237025,
+    "id": "nglKasGSOK6l9tMP-_vv-QM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 288,
+      "total_tokens": 336
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0175",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.88,
+  "ref_text_raw": "Durante los años 60, Brzezinski trabajó para John F. Kennedy en el puesto de asesor y, posteriormente, para el gobierno de Lyndon B. Johnson.",
+  "ref_text_normalized": "durante los años 60 brzezinski trabajó para john f kennedy en el puesto de asesor y posteriormente para el gobierno de lyndon b johnson",
+  "timestamp_utc": "2026-07-05T04:44:17Z",
+  "text": "Durante los años 60, Brzezinski trabajó para John F. Kennedy en el puesto de asesor y posteriormente para el gobierno de Lyndon B. Johnson.",
+  "latency_sec": 2.7531,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Durante los años 60, Brzezinski trabajó para John F. Kennedy en el puesto de asesor y posteriormente para el gobierno de Lyndon B. Johnson.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPmTpbEsJbBS4j6ad7boUGKdsoguFkn7OQgfL107//h3wPhkP3iwEA0POZ2kXc"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226657,
+    "id": "H-FJavOXJtDF1e8P2K7MiQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 318,
+      "total_tokens": 350
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0023",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.6,
+  "ref_text_raw": "It was ruled by the \"Vichy\" French. These were French people who had made peace with the Germans in 1940 and worked with the invaders instead of fighting them.",
+  "ref_text_normalized": "it was ruled by the vichy french these were french people who had made peace with the germans in 1940 and worked with the invaders instead of fighting them",
+  "timestamp_utc": "2026-07-05T10:20:50Z",
+  "text": "It was ruled by the Vicky French. These were French people who had made peace with the Germans in 1940 and worked with the invaders instead of fighting them.",
+  "latency_sec": 3.676,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "It was ruled by the Vicky French. These were French people who had made peace with the Germans in 1940 and worked with the invaders instead of fighting them.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246850,
+    "id": "ADBKatzwLKbG0-kPpaDayQU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 329,
+      "total_tokens": 391
+    }
+  }
+}

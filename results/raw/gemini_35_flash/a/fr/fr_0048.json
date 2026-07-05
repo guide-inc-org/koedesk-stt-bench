@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0048",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.98,
+  "ref_text_raw": "L’équipe des sapeurs pompiers a finalement éteint le feu à 23 h 35.",
+  "ref_text_normalized": "l'équipe des sapeurs pompiers a finalement éteint le feu à 23 h 35",
+  "timestamp_utc": "2026-07-05T05:05:18Z",
+  "text": "L'équipe des sapeurs-pompiers a finalement éteint le feu à 23h35.",
+  "latency_sec": 3.7966,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "L'équipe des sapeurs-pompiers a finalement éteint le feu à 23h35.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtcFCtQFARFNMg+UVWZSOPCXkgPFHh7YKmTSBOGC9OrLfALdjyV3obZ6HHYo/DiocTK5ub5HtN90p7WwVdR4eauF0fsRYyeyLd2CXaSVM3qsZa25poiDXX/V0Dw16Wap02LaTFAaHEXbHrAV4QKGXwfaZVvSZ3zPRJ3zFYdL7UMYG2dBpO+lG2+Fm4p9JmlpNbASQYiYrWFO0M2FBRtBSQu/doAv7G8yijhVJp3pOETZO96amX4YkYhnQyT1OJvl++90Lse+nSXtjbgSE2nabYRPZW8kFU7YYlKAfE+KMqs9JUWFe41d2HdVPIN/tKgRj3WvmLav3zzq9ukd150fC70xN126F3fRQDP2q+9TsJTj2IV6npf+0w7whEccjC/+92glp4JfqiVN8P2OyiX72AevBVShQ7EWcnAtRlSGWwcBzdcSTHXX0o3dNJzSDdBeY0QOskK4MhrbN1z9eOOGXPPl32wxBiTrYcEhsWEShg28O1t8OMEOv2FaQhHnmeADoMdRnzSaGbv9pv9QubonEjwTAuHglswjrtS+CJ63Q6aqWiguE+1LYqL1xXxdEzBHryb4gWkvj2x1ro8fYGNu5FGeEvTJdFK8x8c3Yg7z9OME73AlsycY4c9oISi2u52SsHJ155Y8/HBBRT2nS4LPHkqK52fE7f3f36VQWbm3276LsocZmKq4BGrG/OXx8Ftg7INktgXA2LMDjjQxGgQrv8C1PeD8a5nKVXan8L8IQ4FMDmpTcw+Rv7Yl1uTSqiOwPBl3v/vjSB86TgOwiHSpw7k7GAPrcE+/1kwjCxDVTe12W8RvfsF2EI19E/1AmLPVchGwHvQS5iQYA61KXTUBCjvOiiGMlZbbggpjMC3jQk1K5g8TxGNFc2lx20x7MGMHAGkMc8gd4d9C9YJvoREZZH/ljG2Ld40aTZdVVlawndr5XhvjdF38PV+1fyjNdqw1LfGlcnD0i6fZUg=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227918,
+    "id": "DOZJauuvAuSf1e8PgNPzwAE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 221,
+      "total_tokens": 510
+    }
+  }
+}

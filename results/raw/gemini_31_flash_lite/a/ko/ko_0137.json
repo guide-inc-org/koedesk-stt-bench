@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0137",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.3,
+  "ref_text_raw": "어린이와 노약자를 포함한 6명의 인질들은 필리핀 사진작가들과 마찬가지로 일찍 풀려났다.",
+  "ref_text_normalized": "어린이와 노약자를 포함한 6명의 인질들은 필리핀 사진작가들과 마찬가지로 일찍 풀려났다",
+  "timestamp_utc": "2026-07-05T06:27:11Z",
+  "text": "어린이와 노약자를 포함한 6명의 인질들은 필리핀 사진작가들과 마찬가지로 일찍 풀려났다.",
+  "latency_sec": 2.8477,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "어린이와 노약자를 포함한 6명의 인질들은 필리핀 사진작가들과 마찬가지로 일찍 풀려났다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPsqG2xHQOWfQ7pYjgdFhOsfAw8lfXjYxPQmDvBEJ6AkOV1ruK1Cv0GkQmhyKn"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232831,
+    "id": "PflJas-QLoGp2roP-M7c4AY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 329,
+      "total_tokens": 358
+    }
+  }
+}

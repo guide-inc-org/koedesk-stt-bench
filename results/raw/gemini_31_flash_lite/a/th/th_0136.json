@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0136",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.4,
+  "ref_text_raw": "องค์การยูเนสโกประกาศให้ซุนดาร์บันส์เป็นมรดกโลก ส่วนหนึ่งของป่าที่อยู่ในเขตแดนของอินเดียเรียกว่าอุทยานแห่งชาติซุนดาร์บันส์",
+  "ref_text_normalized": "องค์การยูเนสโกประกาศให้ซุนดาร์บันส์เป็นมรดกโลก ส่วนหนึ่งของป่าที่อยู่ในเขตแดนของอินเดียเรียกว่าอุทยานแห่งชาติซุนดาร์บันส์",
+  "timestamp_utc": "2026-07-05T08:09:19Z",
+  "text": "องค์การ UNESCO ประกาศให้สุนดาบันส์เป็นมรดกโลก ส่วนหนึ่งของป่าที่อยู่ในเขตแดนของอินเดียเรียกว่าอุทยานแห่งชาติสุนดาบันส์",
+  "latency_sec": 2.9711,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "องค์การ UNESCO ประกาศให้สุนดาบันส์เป็นมรดกโลก ส่วนหนึ่งของป่าที่อยู่ในเขตแดนของอินเดียเรียกว่าอุทยานแห่งชาติสุนดาบันส์",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPFXYta0S1T6c6cgIdg7AdmNOiA7LTf7wfsY6splyaIdmnaJFJCj4G7vZQq5Fk"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238959,
+    "id": "LRFKavaxOYaA0-kPotqL6Q4",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 42,
+      "prompt_tokens": 306,
+      "total_tokens": 348
+    }
+  }
+}

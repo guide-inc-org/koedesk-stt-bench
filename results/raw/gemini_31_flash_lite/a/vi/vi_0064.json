@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0064",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.34,
+  "ref_text_raw": "Cơ quan năng lượng hạt nhân Nhật Bản thông báo đã phát hiện chất xê-zi và i-ốt phóng xạ tại nhà máy này.",
+  "ref_text_normalized": "cơ quan năng lượng hạt nhân nhật bản thông báo đã phát hiện chất xê-zi và i-ốt phóng xạ tại nhà máy này",
+  "timestamp_utc": "2026-07-05T08:41:31Z",
+  "text": "Cơ quan năng lượng hạt nhân Nhật Bản thông báo đã phát hiện chất Cj và Ios phóng xạ tại nhà máy này.",
+  "latency_sec": 2.534,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Cơ quan năng lượng hạt nhân Nhật Bản thông báo đã phát hiện chất Cj và Ios phóng xạ tại nhà máy này.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPxM3okSXpIAF0xvrU+ozv5tsflMydxFuX7tXMYgMCA0kkHeHfdMgNpECNemHR"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240891,
+    "id": "uhhKap71Dsqn2roP1aC6yAE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 230,
+      "total_tokens": 257
+    }
+  }
+}

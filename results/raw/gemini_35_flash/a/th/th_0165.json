@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0165",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 21.48,
+  "ref_text_raw": "รถโดยสารออกจากสถานีรถระหว่างมณฑล (ข้ามแม่น้ำ) ตลอดทั้งวัน โดยส่วนใหญ่แล้วรถที่มุ่งหน้าไปทางตะวันออกและ Jakar/Bumthang จะออกจากสถานีระหว่างเวลา 06.30 and 07.30 น.",
+  "ref_text_normalized": "รถโดยสารออกจากสถานีรถระหว่างมณฑล ข้ามแม่น้ำ ตลอดทั้งวัน โดยส่วนใหญ่แล้วรถที่มุ่งหน้าไปทางตะวันออกและ jakar/bumthang จะออกจากสถานีระหว่างเวลา 06.30 and 07.30 น",
+  "timestamp_utc": "2026-07-05T08:07:40Z",
+  "text": "รถโดยสารออกจากสถานีรถระหว่างมณฑลข้ามแม่น้ำตลอดทั้งวัน โดยส่วนใหญ่แล้วรถที่มุ่งหน้าไปทางตะวันออก และ จากาบาริง จะออกจากสถานีระหว่างเวลา 6.30 น. และ 7.30 น.",
+  "latency_sec": 5.3705,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "รถโดยสารออกจากสถานีรถระหว่างมณฑลข้ามแม่น้ำตลอดทั้งวัน โดยส่วนใหญ่แล้วรถที่มุ่งหน้าไปทางตะวันออก และ จากาบาริง จะออกจากสถานีระหว่างเวลา 6.30 น. และ 7.30 น.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238860,
+    "id": "yBBKaqGFHu6A0-kPgc2WkAY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 59,
+      "prompt_tokens": 558,
+      "total_tokens": 1072
+    }
+  }
+}

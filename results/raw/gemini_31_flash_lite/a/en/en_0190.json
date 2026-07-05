@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0190",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.6,
+  "ref_text_raw": "The pH level is indicated by the amount of Hydrogen (the H in pH) ions in the tested chemical.",
+  "ref_text_normalized": "the ph level is indicated by the amount of hydrogen the h in ph ions in the tested chemical",
+  "timestamp_utc": "2026-07-05T03:38:40Z",
+  "text": "The pH level is indicated by the amount of hydrogen, the H in pH, ions in the tested chemical.",
+  "latency_sec": 3.0037,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The pH level is indicated by the amount of hydrogen, the H in pH, ions in the tested chemical.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPvveR8j+y0Wt2WZKojie7IxmU+1LutIiX4yHvrM2MPN07BJ30M8nmsAo8AamT"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222720,
+    "id": "v9FJavayBvKE0-kPh9im2AE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 186,
+      "total_tokens": 208
+    }
+  }
+}

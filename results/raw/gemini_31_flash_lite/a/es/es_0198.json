@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0198",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.6,
+  "ref_text_raw": "En efecto, es muy difícil de encontrar, incluso si uno estuviera seguro de su existencia. En el interior de la cueva, el aislamiento es total.",
+  "ref_text_normalized": "en efecto es muy difícil de encontrar incluso si uno estuviera seguro de su existencia en el interior de la cueva el aislamiento es total",
+  "timestamp_utc": "2026-07-05T04:45:39Z",
+  "text": "En efecto, es muy difícil de encontrar, incluso si uno estuviera seguro de su existencia, en el interior de la cueva el aislamiento es total.",
+  "latency_sec": 2.7847,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "En efecto, es muy difícil de encontrar, incluso si uno estuviera seguro de su existencia, en el interior de la cueva el aislamiento es total.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP0c4bj/HwzfvvLMd/cXhHw2sFZxC3dUa8m/3WlyFkicF/sLkCVAC/MvHkOirV"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226739,
+    "id": "ceFJaqu4H62Qvr0PxLzU0Qc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 336,
+      "total_tokens": 367
+    }
+  }
+}

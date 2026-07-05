@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0132",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 16.98,
+  "ref_text_raw": "Во время борьбы за независимость, организованной движением Мау, мирное собрание в городе привело к убийству верховного вождя Тупуа Тамсесе Леалофи III.",
+  "ref_text_normalized": "во время борьбы за независимость организованной движением мау мирное собрание в городе привело к убийству верховного вождя тупуа тамсесе леалофи iii",
+  "timestamp_utc": "2026-07-05T07:35:06Z",
+  "text": "Во время борьбы за независимость, организованной движением Мау-Мау, мирное собрание в городе привело к убийству Верховного вождя Тупуа Тамсесе Леалофи III.",
+  "latency_sec": 2.949,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Во время борьбы за независимость, организованной движением Мау-Мау, мирное собрание в городе привело к убийству Верховного вождя Тупуа Тамсесе Леалофи III.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPkls/YXHfUg2K6yMbRGgkmTJ73DZ6AxIIH0kePZCNmEe5AKqGPhqrvfgW0sPq"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236906,
+    "id": "KQlKapKjF8mzvr0PpOCr2QI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 446,
+      "total_tokens": 491
+    }
+  }
+}

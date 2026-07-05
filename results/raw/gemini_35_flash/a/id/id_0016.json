@@ -1,0 +1,45 @@
+{
+  "utt_id": "id_0016",
+  "lang": "id",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.5,
+  "ref_text_raw": "Casablanca adalah salah satu tempat paling tidak menarik untuk berbelanja di seluruh Maroko.",
+  "ref_text_normalized": "casablanca adalah salah satu tempat paling tidak menarik untuk berbelanja di seluruh maroko",
+  "timestamp_utc": "2026-07-05T05:36:15Z",
+  "text": "Casablanca adalah salah satu tempat paling tidak menarik untuk berbelanja di seluruh Maroko.",
+  "latency_sec": 3.885,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Casablanca adalah salah satu tempat paling tidak menarik untuk berbelanja di seluruh Maroko.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EscFCsQFARFNMg+FX3gk1fEp45u/qO0j2NdpHV0Q2701mmu6f11FoFuj4WxmEJt60S5nT/JKmZJrK3sQbZbgHcR/FkRsQponn/UcfYS+y/k5wLVOhyOXZqcb0mD1wiOFeAeSdgtBPVzRVhNnVBr3ZXYJpXXvUFDEzAke9lxbhH5dWBiyz5A/gcToumt4c0gOEEpiVHZfXwZDaOrAgriq4b73KrhfgOogJb8JsuzPNBjdysh3BUvEj0xPnkTh9educ6y5X3gTS7zrSe8KBawgdAO4KMW6Z4pmFuDovF/5OZ5JP7XfuuAn37kNvgTSZ5+7k/X/xMA2V96W3GK8lX6h1Ko3MQ4CuPAyuTa1jNvWUnhg9YuE7mHC5QS9MUmDDoZ1nEtK6CykbCjCGcofLQRu8MRjHvIUHiVhu9TQARa1o36PG2XEyK7q3rshyl1GrroIRcqkclKGDaPzkW50rnWoGTjrJ/qlp0AS9hULfA69upQO9RFZ9ltADgxd2YqTquv/mrXbnY29dGRoEcze5iGfEPJwisNtzC5t8LRb9jDBjCl64c+3XhTco46L+zXNrOjOB/HbJa+Ub8jzELOAm5rLMJ4+YMqtpG9Md7y/y/UZJasAhxP6ImBaRpB5NoRiVAqS5/rZaVQosa19uIO9GTdmwRio784es/77DVkwPibzv+1H23DC9/y1wDeNMO1TZXpMxGKJDNylzCOx7GTJ31B0kfoHnPNGcSc5FwSTMzunmqA/LSUirUAEkn1lRKJu+eEvOc1qeLMRjbCFxauSoXxf2ENtIqLjOgUYWs3dI8ltwYJ4VlkplNgUlMIYAwD1+vfKT9kxJUZ9yg6xirWRBkujXhVGT0lRCg+gj4DZe++kxyYFnMKM3bOdvIFFHe+r72KdSAwyJontU6A5vNsDN4l23jfVwi77SmtEiePvxtKJzBo7BvEM8jrTooP1"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783229775,
+    "id": "TO1JatS_Mb3MrfcPx6WgiQQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 284,
+      "total_tokens": 464
+    }
+  }
+}

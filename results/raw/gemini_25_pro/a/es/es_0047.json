@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0047",
+  "lang": "es",
+  "engine": "gemini_25_pro",
+  "duration_sec": 24.96,
+  "ref_text_raw": "Por ejemplo, todos los años, los alumnos de la escuela Bennet en Carolina del Norte diseñan una página web acerca de su viaje a la capital del Estado y cada año la página se actualiza, pero se conservan en línea las versiones previas que en la forma de álbum de recuerdos.",
+  "ref_text_normalized": "por ejemplo todos los años los alumnos de la escuela bennet en carolina del norte diseñan una página web acerca de su viaje a la capital del estado y cada año la página se actualiza pero se conservan en línea las versiones previas que en la forma de álbum de recuerdos",
+  "timestamp_utc": "2026-07-05T04:17:10Z",
+  "text": "Por ejemplo, todos los años, los alumnos de la escuela Bennet en Carolina del Norte diseñan una página web acerca de su viaje a la capital del estado. Y cada año la página se actualiza, pero se conservan en línea las versiones previas en la forma de álbum de recuerdos.",
+  "latency_sec": 5.6834,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Por ejemplo, todos los años, los alumnos de la escuela Bennet en Carolina del Norte diseñan una página web acerca de su viaje a la capital del estado. Y cada año la página se actualiza, pero se conservan en línea las versiones previas en la forma de álbum de recuerdos.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225030,
+    "id": "wdpJauinMfTLrfcPi72awAU",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 59,
+      "prompt_tokens": 820,
+      "total_tokens": 1099
+    }
+  }
+}

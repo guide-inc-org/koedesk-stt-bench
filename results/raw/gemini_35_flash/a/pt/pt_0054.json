@@ -1,0 +1,45 @@
+{
+  "utt_id": "pt_0054",
+  "lang": "pt",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.5,
+  "ref_text_raw": "Todas os pensamentos científicos de Aristóteles foram aceitos, inclusive a psicologia.",
+  "ref_text_normalized": "todas os pensamentos científicos de aristóteles foram aceitos inclusive a psicologia",
+  "timestamp_utc": "2026-07-05T06:47:20Z",
+  "text": "Todos os pensamentos científicos de Aristóteles foram aceitos, inclusive a psicologia.",
+  "latency_sec": 3.1577,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Todos os pensamentos científicos de Aristóteles foram aceitos, inclusive a psicologia.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EsIECr8EARFNMg9LcKvJb23nbPFniqd8okvyCbGuI09CtHxoBoij4VaCbrCPVgC+Ihd+PedbU1WczRpdpV9PFopcQSoRw/SnBzIcvYxyCvSELd2Q/9hY8mVXK1v41xqQ/RDaC42cqEK84GwBGkxhddmgTX0Sj/pV2mAfW1Ej7eC0rMxSHxPxjJUcoYH1Ssk+MDwA61ovsKmfIdSP91+6Lu1zOWPad2PPE9YY5vslA5YRJ4cD3PU64aJI/WkXJzoBPrPOfzKBFHqs/9Q2tLtTHn/wQ/IZJKJc7DtcJ4zZTL6tHzNR8EGw21YXHdQhCVu7pZvxWQ806/tpmnEwwHBwrYNo8vHZa8MOyfHcT3Rz1FEkuXJF9tEnp9HSPYhc2cgDnZveHBoUuj1w88JN/SyxAwRV1Un34oi46yatSpgaO+Eww7qDCUrgKWY+NdXydXXdtEa0ESIKeEPNTioEq5QRBhtPnN9ZsG+RZ5CoYtGH+wOjYhHNZZxLOGILGRb7XRumZgDSjMth7ZUWtcdV8dmFnDHzUlb3ut1XkWBBsCDI/cBGeCp0WLS6X4nx6RxSJfyJ6qMGwKi6ovznLJ5H0oSfF7rjusB5LyfqFprLLeoU9T+KrJFV9JitMFnWCtoAG4cBIYcpOZpIXY3OXNQ6JZEosI0fZuEDSaNb6sGvOQANl78wszWO7AvFonQY874ThIjXNfzZ60DmImjs2O+l09irrNk1InJP+vjBppeRhG21sa4nOLFsnra61hbVOejkFD8zxqhNouc="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234040,
+    "id": "9v1Jaqj6Lp2hvr0P78yT2Q8",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 17,
+      "prompt_tokens": 209,
+      "total_tokens": 351
+    }
+  }
+}

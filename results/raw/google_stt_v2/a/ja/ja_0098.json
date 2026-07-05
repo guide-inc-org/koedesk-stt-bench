@@ -1,0 +1,36 @@
+{
+  "utt_id": "ja_0098",
+  "lang": "ja",
+  "engine": "google_stt_v2",
+  "duration_sec": 14.46,
+  "ref_text_raw": "田舎道の運転に慣れていない方は、急勾配、狭い車線、急カーブに注意し、気を抜かないでください。",
+  "ref_text_normalized": "田舎道の運転に慣れていない方は 急勾配 狭い車線 急カーブに注意し 気を抜かないでください",
+  "timestamp_utc": "2026-07-05T03:15:12Z",
+  "text": "田舎道の運転に慣れていない方は急勾配、狭い車線、急カーブに注意し、気を抜かないでください。",
+  "latency_sec": 4.6935,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "ja-JP",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "15s",
+      "requestId": "6e3d0659-0000-2527-8dc8-30fd38104d88",
+      "prompt": "Transcribe the following speech segment in Japanese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Japanese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "田舎道の運転に慣れていない方は急勾配、狭い車線、急カーブに注意し、気を抜かないでください。"
+          }
+        ],
+        "languageCode": "ja-JP"
+      }
+    ]
+  }
+}

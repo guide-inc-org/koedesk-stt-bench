@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0008",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.64,
+  "ref_text_raw": "ในทางตรงข้าม สภาพอากาศอันหนาวเย็นและเต็มไปด้วยหิมะเป็นเรื่องปกติธรรมดาในหลายประเทศ และส่วนใหญ่การจราจรจะคล่องตัวตลอดปี",
+  "ref_text_normalized": "ในทางตรงข้าม สภาพอากาศอันหนาวเย็นและเต็มไปด้วยหิมะเป็นเรื่องปกติธรรมดาในหลายประเทศ และส่วนใหญ่การจราจรจะคล่องตัวตลอดปี",
+  "timestamp_utc": "2026-07-05T08:01:10Z",
+  "text": "ในทางตรงกันข้าม สภาพอากาศอันหนาวเย็นและเต็มไปด้วยหิมะ เป็นเรื่องปกติธรรมดาในหลายประเทศ และส่วนใหญ่การจราจรจะคล่องตัวตลอดปี",
+  "latency_sec": 2.7114,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ในทางตรงกันข้าม สภาพอากาศอันหนาวเย็นและเต็มไปด้วยหิมะ เป็นเรื่องปกติธรรมดาในหลายประเทศ และส่วนใหญ่การจราจรจะคล่องตัวตลอดปี",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP0HelOkonmhpwgXfvKPwATrMe60TMCfHrGKOezE8w8v6j0VoiNffyIXmB2fGf"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238470,
+    "id": "RA9Kaq2ONJDIrfcPxsKh8Q8",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 312,
+      "total_tokens": 352
+    }
+  }
+}

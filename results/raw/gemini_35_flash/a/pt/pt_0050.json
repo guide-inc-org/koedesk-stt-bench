@@ -1,0 +1,45 @@
+{
+  "utt_id": "pt_0050",
+  "lang": "pt",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.02,
+  "ref_text_raw": "Portanto, o lápis foi um bom amigo para muitas pessoas quando foi lançado.",
+  "ref_text_normalized": "portanto o lápis foi um bom amigo para muitas pessoas quando foi lançado",
+  "timestamp_utc": "2026-07-05T06:47:03Z",
+  "text": "Portanto, o lápis foi um bom amigo para muitas pessoas quando foi lançado.",
+  "latency_sec": 3.8722,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Portanto, o lápis foi um bom amigo para muitas pessoas quando foi lançado.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EoIDCv8CARFNMg9HbfmN7Zvty/7Z4pVDSUsBMiHG5rr+LXFXMiLJSkb2z0ONN+TSkqxm10nqpSLP+ijiB9GleguZ+1iKpnh1uDlWI9LiPDBT9FN4CrzjMEiYprcqHifr+cWxsZQ9138zqWufVCuCwkIXxuKn2GrbQWo9ci5M2zcmfZa8PP2x/dIfryC8P7tkziPPLRlh1ncFQiE9Wg9hThOyceyi9CZaMPLAEcOHojf0XZBec3rwX5eS0GhdIK+u9/lc8JZKcaVYWwL7TSR0z7F9XnpEHpO6jy07Tig2meTAcHbq/C2UaGZ4S3bu7yszR/aL8X4zbsUWEvsZPaWqrSW69S/PAfVMA4NHWTxLL+F1MOw3vjH80C8pg6zuInOKIv4DmBN2LSJT+B6eqVV56LEE+Ufz2g3p79Umznl99EnrIm4l+NDjkwb3wzTHBh+1DUyi4stwsjmWuauCtSidEva9IdZxt8eLcY1lkeSvC4GpxKdD7jpFOnb1j099N/EwyNPnVuA="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234023,
+    "id": "5f1JatrTKY3y2roP6emiwQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 17,
+      "prompt_tokens": 197,
+      "total_tokens": 285
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0184",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.22,
+  "ref_text_raw": "Ông ấy đã không đưa ra con số cắt giảm, mà nói rằng việc đó sẽ được thực hiện dựa vào kết quả của nền kinh tế Trung Quốc.",
+  "ref_text_normalized": "ông ấy đã không đưa ra con số cắt giảm mà nói rằng việc đó sẽ được thực hiện dựa vào kết quả của nền kinh tế trung quốc",
+  "timestamp_utc": "2026-07-05T08:48:47Z",
+  "text": "ông ấy đã không đưa con số cắt giảm mà nói rằng việc đó sẽ được thực hiện dựa vào kết quả của nền kinh tế Trung Quốc.",
+  "latency_sec": 2.7636,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ông ấy đã không đưa con số cắt giảm mà nói rằng việc đó sẽ được thực hiện dựa vào kết quả của nền kinh tế Trung Quốc.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPRb16xThLM69CIG4cdEJtXjUyJsHd1/WuF/xg0W+iC7JTFcgnsW6oNk5ypqaS"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241327,
+    "id": "bRpKau-RJfz-2roPj568yQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 302,
+      "total_tokens": 331
+    }
+  }
+}

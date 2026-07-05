@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0140",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 6.3,
+  "ref_text_raw": "Giancarlo Fisichella a perdu le contrôle de sa voiture et a terminé la course peu après le démarrage.",
+  "ref_text_normalized": "giancarlo fisichella a perdu le contrôle de sa voiture et a terminé la course peu après le démarrage",
+  "timestamp_utc": "2026-07-05T04:56:10Z",
+  "text": "Giancarlo Fisichella a perdu le contrôle de sa voiture et a terminé la course peu après le démarrage.",
+  "latency_sec": 3.5346,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Giancarlo Fisichella a perdu le contrôle de sa voiture et a terminé la course peu après le démarrage.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227370,
+    "id": "6ONJatm0GZKmvr0PocKK-QY",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 223,
+      "total_tokens": 361
+    }
+  }
+}

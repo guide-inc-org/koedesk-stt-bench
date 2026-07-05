@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0124",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.88,
+  "ref_text_raw": "The composition of these crystals matches those found in the urine of affected pets when compared by infrared spectroscopy (FTIR).",
+  "ref_text_normalized": "the composition of these crystals matches those found in the urine of affected pets when compared by infrared spectroscopy ftir",
+  "timestamp_utc": "2026-07-05T03:34:38Z",
+  "text": "The composition of these crystals matches those found in urine of affected pets when compared by infrared spectroscopy, FTIR.",
+  "latency_sec": 3.0046,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The composition of these crystals matches those found in urine of affected pets when compared by infrared spectroscopy, FTIR.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP6MLeB7HBR0hOIel+VA7wMAx68YkKLVFv0G/fxvwZzeiqsVDtvF/MqCJjsCUz"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222478,
+    "id": "zNBJapuKJ4ul1e8Pq7ahqQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 318,
+      "total_tokens": 339
+    }
+  }
+}

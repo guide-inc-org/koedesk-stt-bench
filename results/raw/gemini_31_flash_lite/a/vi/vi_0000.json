@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0000",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.34,
+  "ref_text_raw": "Văn hóa và bộ lạc cổ xưa đã bắt đầu giữ những con vật này để dễ lấy sữa, tóc, thịt, và da.",
+  "ref_text_normalized": "văn hóa và bộ lạc cổ xưa đã bắt đầu giữ những con vật này để dễ lấy sữa tóc thịt và da",
+  "timestamp_utc": "2026-07-05T08:37:42Z",
+  "text": "văn hóa và bộ lạc cổ xưa đã bắt đầu giữ những con vật này để dễ lấy sữa, tóc, thịt và da.",
+  "latency_sec": 3.4155,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "văn hóa và bộ lạc cổ xưa đã bắt đầu giữ những con vật này để dễ lấy sữa, tóc, thịt và da.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP4/33wmSctv94+N4dGGiSLCBo8eSKkAOqHNaOzeSYPsZmFVO9ystEknUYamza"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240662,
+    "id": "1BdKarWGIay1vr0P8c_P-Qc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 305,
+      "total_tokens": 332
+    }
+  }
+}

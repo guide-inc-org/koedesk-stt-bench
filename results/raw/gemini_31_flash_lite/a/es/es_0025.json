@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0025",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.24,
+  "ref_text_raw": "La mayor parte de las islas más pequeñas constituyen estados independientes o asociadas con Francia y son populares por sus playas y complejos turísticos de lujo.",
+  "ref_text_normalized": "la mayor parte de las islas más pequeñas constituyen estados independientes o asociadas con francia y son populares por sus playas y complejos turísticos de lujo",
+  "timestamp_utc": "2026-07-05T04:35:11Z",
+  "text": "La mayor parte de las islas más pequeñas constituyen estados independientes o asociadas con Francia, y son populares por sus playas y complejos turísticos de lujo.",
+  "latency_sec": 2.8137,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "La mayor parte de las islas más pequeñas constituyen estados independientes o asociadas con Francia, y son populares por sus playas y complejos turísticos de lujo.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPl4XrARBtK9C7TGXEml8/CyXJrNsNL9Rx0ahqa4a4uYAFDKI9WMmBGac7snjq"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226111,
+    "id": "_d5JatC0PLv31e8Pvf2M0QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 327,
+      "total_tokens": 357
+    }
+  }
+}

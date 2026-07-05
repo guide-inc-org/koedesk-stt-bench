@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0025",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 19.62,
+  "ref_text_raw": "Bald nach dem Ausbruch von Kampfhandlungen initiierte Großbritannien eine Seeblockade gegen Deutschland.",
+  "ref_text_normalized": "bald nach dem ausbruch von kampfhandlungen initiierte großbritannien eine seeblockade gegen deutschland",
+  "timestamp_utc": "2026-07-05T04:01:17Z",
+  "text": "Bald nach dem Ausbruch von Kampfhandlungen initiierte Großbritannien eine Seeblockade gegen Deutschland.",
+  "latency_sec": 3.1813,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Bald nach dem Ausbruch von Kampfhandlungen initiierte Großbritannien eine Seeblockade gegen Deutschland.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP2V0bh24c2xQ03peYCC0/7ThciQldKiPKpG5530TFXLS21Tswk//xVHcjbxL3"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224078,
+    "id": "DNdJasWNHOex2roPrLDX2QU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 512,
+      "total_tokens": 531
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0083",
+  "lang": "ko",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.86,
+  "ref_text_raw": "결과적으로 무대에서 공연자들이 마리화나 담배를 피우고 극장 자체에서 관객들에게 참여하도록 독려하고 있다.",
+  "ref_text_normalized": "결과적으로 무대에서 공연자들이 마리화나 담배를 피우고 극장 자체에서 관객들에게 참여하도록 독려하고 있다",
+  "timestamp_utc": "2026-07-05T05:58:56Z",
+  "text": "결과적으로 무대에서 공연자들이 마리와나 담배를 피우고 극장 자체에서 관객들에게 참여하도록 독려하고 있다.",
+  "latency_sec": 3.6175,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "결과적으로 무대에서 공연자들이 마리와나 담배를 피우고 극장 자체에서 관객들에게 참여하도록 독려하고 있다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231136,
+    "id": "nfJJapeNJpWJ1e8PxbzN-QE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 369,
+      "total_tokens": 400
+    }
+  }
+}

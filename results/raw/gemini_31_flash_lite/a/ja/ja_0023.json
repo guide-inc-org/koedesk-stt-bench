@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0023",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.22,
+  "ref_text_raw": "羽を持ち、空を飛べるので、恐竜だと思っていない人も大勢います。",
+  "ref_text_normalized": "羽を持ち 空を飛べるので 恐竜だと思っていない人も大勢います",
+  "timestamp_utc": "2026-07-05T10:14:07Z",
+  "text": "羽毛 が あっ て 空 を 飛べる の で 恐竜 だ と 思っ て い ない 人 も 当然 い ます 。",
+  "latency_sec": 2.6881,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "羽毛 が あっ て 空 を 飛べる の で 恐竜 だ と 思っ て い ない 人 も 当然 い ます 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPxQS4/TgeUGvcWVqCWArevbl7jBxXzWWsmR1QzEnGDeH8qs2RKCNw41Jmsiiu"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246447,
+    "id": "bi5KarniGbbR0-kPp6yr6QI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 227,
+      "total_tokens": 254
+    }
+  }
+}

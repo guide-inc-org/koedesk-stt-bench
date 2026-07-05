@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0025",
+  "lang": "zh",
+  "engine": "gemini_25_pro",
+  "duration_sec": 9.66,
+  "ref_text_raw": "这座城市与该国其他城市形成了鲜明对比，因为它更多的是阿拉伯风格，而不是非洲风格。",
+  "ref_text_normalized": "这 座 城 市 与 该 国 其 他 城 市 形 成 了 鲜 明 对 比 因 为 它 更 多 的 是 阿 拉 伯 风 格 而 不 是 非 洲 风 格",
+  "timestamp_utc": "2026-07-05T08:52:15Z",
+  "text": "这座城市与该国其他城市形成了鲜明的对比,因为它更多的是阿拉伯风格,而不是非洲风格。",
+  "latency_sec": 4.1063,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "这座城市与该国其他城市形成了鲜明的对比,因为它更多的是阿拉伯风格,而不是非洲风格。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241535,
+    "id": "PBtKasjmHuON1e8PjO3d6AM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 331,
+      "total_tokens": 510
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "pt_0105",
+  "lang": "pt",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 13.68,
+  "ref_text_raw": "Na semana passada, o METI divulgou que a Apple o havia informado de mais 34 incidentes de superaquecimento, os quais a empresa classificou como \"não graves\".",
+  "ref_text_normalized": "na semana passada o meti divulgou que a apple o havia informado de mais 34 incidentes de superaquecimento os quais a empresa classificou como não graves",
+  "timestamp_utc": "2026-07-05T06:51:57Z",
+  "text": "Na semana passada, o M-E-T-I divulgou que a Apple o havia informado de mais 34 incidentes de superaquecimento, os quais a empresa classificou como não graves.",
+  "latency_sec": 6.5298,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Na semana passada, o M-E-T-I divulgou que a Apple o havia informado de mais 34 incidentes de superaquecimento, os quais a empresa classificou como não graves.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234317,
+    "id": "CP9Jas6hHvijvr0Pmty12QU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 42,
+      "prompt_tokens": 363,
+      "total_tokens": 1311
+    }
+  }
+}

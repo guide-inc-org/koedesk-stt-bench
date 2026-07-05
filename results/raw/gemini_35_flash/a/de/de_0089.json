@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0089",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 19.14,
+  "ref_text_raw": "„Dies wird kein Abschied sein. Dies ist das Ende eines Kapitels und der Beginn eines neuen Kapitels.“",
+  "ref_text_normalized": "dies wird kein abschied sein dies ist das ende eines kapitels und der beginn eines neuen kapitels",
+  "timestamp_utc": "2026-07-05T04:03:28Z",
+  "text": "Dies wird kein Abschied sein. Dies ist das Ende eines Kapitels und der Beginn eines neuen Kapitels.",
+  "latency_sec": 3.7271,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Dies wird kein Abschied sein. Dies ist das Ende eines Kapitels und der Beginn eines neuen Kapitels.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EvMFCvAFARFNMg83PCSdLaDw10hIbCkVXXSzVsqGQ1w+XGey29jWNAH/B4+5HXPEDsxoSxAi/GAv2bPD1lsyIS1ZuwtBnCKOl0uJ/bUpj2WO+hvATe9286CedpA6Za2R2P1k8o3h2mWvOLWahwX/NXzBRyQGN7AvMPJ/nGjkXogCgAdyzr940+YVE5/ugaI8J4cghkVNmeyZESpxUcILe4o1pFd9r+500fU8KFs1Flg6Adawf6sNEVKXk6n6lRtHy4LNF6lmA1suDmmtTlKHMSw4LD5tiGKn+itN8rFrAml8pQgFg3DX6vT7xt4qYdGX76G0Z2zEQX/1dCFIVNgO0i907l3HYAwCCMq+yQybVm80jRu1j2uz3yr/WJyd8H+TthqjMZscV9T4mB8ATC9Ri5p8GRU7grKSumA73wnnm+IODj36hKeaU0os97WzV7Rwxww3xkabaIC/oLg7LRHuV3WlzH/Q6IagReKfftBNYCCTsHXYT5MKFZNpAJ8IPGICi4UqJPzkhG/4J+edkVEBdXko18tcQNV53OyKblKl/NcHPyjW+62Q6r7+JxqmY0Gg7xEvlF5y8sw5cGxRBznAiv+xaLbepbYDi/K7u6Jp7ZQ5VDtEhLjhfkEKPw1kfukRbIjin3HztWap2QC/tVkAHz+QZI1aaaR/flNQm3PRhWcWuFbUipYUa8ljGGXGFVSWdvAkxRei78ZkkSR46IgtsTklXWYaSEJU8/pv2XcUzHfJMm7i9p6+UIrIVehQMUv0PZMV6wASdZHTp4NBPcne6rOUmEsA5YuX/FiryqZuQS/Piq8hpdpXqHfZWi+DDNvFdEathOZqj8KHpLN2XRhY3e7yyM55OrN9tm8PcfTEwzVGAl1gsEzB8aF9+3n4bg/YtRELSoFegYn1FnKur6mKo5wEYYHNLC3qn4Vzg7M2WFlzPVvgzPHI4pT4rRkxDJfNOKNidAVtpnWXdDSPf+gwF6cqBzMqgGsNfmYURFgfmHvJQCsKsgE="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224208,
+    "id": "jtdJap20IcTs1e8Pu-GUwQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 500,
+      "total_tokens": 707
+    }
+  }
+}

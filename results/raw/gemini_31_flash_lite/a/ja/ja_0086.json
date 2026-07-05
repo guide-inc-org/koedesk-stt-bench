@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0086",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.52,
+  "ref_text_raw": "ギザの大ピラミッドは、七不思議の中で唯一現存しているものです。",
+  "ref_text_normalized": "ギザの大ピラミッドは 七不思議の中で唯一現存しているものです",
+  "timestamp_utc": "2026-07-05T10:17:57Z",
+  "text": "ギザ の 大 ピラミッド は 七 不思議 の 中 で 唯一 現存 し て いる もの です 。",
+  "latency_sec": 2.6086,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ギザ の 大 ピラミッド は 七 不思議 の 中 で 唯一 現存 し て いる もの です 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP2eEaKj7kpeRNUlGGx7t3F9p0yFb2ytyPXz1v1jXjDgR1md7k3DtmHBozVepV"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246678,
+    "id": "VC9Kav7tI7if0-kPzJPfgAc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 234,
+      "total_tokens": 259
+    }
+  }
+}

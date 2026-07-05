@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0124",
+  "lang": "ru",
+  "engine": "gemini_25_pro",
+  "duration_sec": 15.6,
+  "ref_text_raw": "Хьюн ушел в отставку, и в Кабинете министров его заменит член парламента Эд Дейви. Ожидается, что член парламента Норман Ламб займет принадлежащий Дейви пост Министра по делам бизнеса.",
+  "ref_text_normalized": "хьюн ушел в отставку и в кабинете министров его заменит член парламента эд дейви ожидается что член парламента норман ламб займет принадлежащий дейви пост министра по делам бизнеса",
+  "timestamp_utc": "2026-07-05T07:19:07Z",
+  "text": "Хьюн ушёл в отставку, и в кабинете министров его заменит член парламента Эд Дэйви. Ожидается, что член парламента Норман Лэмб займёт принадлежащий Дэйви пост министра по делам бизнеса.",
+  "latency_sec": 6.7377,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Хьюн ушёл в отставку, и в кабинете министров его заменит член парламента Эд Дэйви. Ожидается, что член парламента Норман Лэмб займёт принадлежащий Дэйви пост министра по делам бизнеса.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235947,
+    "id": "ZQVKaonGMp2hvr0P78yT2Q8",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 54,
+      "prompt_tokens": 521,
+      "total_tokens": 1018
+    }
+  }
+}

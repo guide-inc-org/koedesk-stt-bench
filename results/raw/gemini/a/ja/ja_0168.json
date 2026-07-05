@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0168",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 13.08,
+  "ref_text_raw": "これらはたまに混雑する家族向けのビーチで、海岸にはさまざまな店舗が並んでいます。安全に泳ぐことができます。",
+  "ref_text_normalized": "これらはたまに混雑する家族向けのビーチで 海岸にはさまざまな店舗が並んでいます 安全に泳ぐことができます",
+  "timestamp_utc": "2026-07-05T03:12:29Z",
+  "text": "これらはたまに混雑する家族向けのビーチで、海外には様々な店舗が並んでいます。安全に泳ぐことができます。",
+  "latency_sec": 3.5469,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "これらはたまに混雑する家族向けのビーチで、海外には様々な店舗が並んでいます。安全に泳ぐことができます。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221150,
+    "id": "m8tJavaeL43O1e8PpY-EiAI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 440,
+      "total_tokens": 491
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0177",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.54,
+  "ref_text_raw": "敵対行為が始まってまもなく、イギリスはドイツに対する海上封鎖を開始しました。",
+  "ref_text_normalized": "敵対行為が始まってまもなく イギリスはドイツに対する海上封鎖を開始しました",
+  "timestamp_utc": "2026-07-05T03:13:14Z",
+  "text": "敵対行為が始まってまもなく、イギリスはドイツに対する会場封鎖を開始しました。",
+  "latency_sec": 4.0658,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "敵対行為が始まってまもなく、イギリスはドイツに対する会場封鎖を開始しました。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221194,
+    "id": "yMtJaoWGBYPMrfcPiKHRgAE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 423,
+      "total_tokens": 471
+    }
+  }
+}

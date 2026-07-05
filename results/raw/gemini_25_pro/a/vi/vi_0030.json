@@ -1,0 +1,39 @@
+{
+  "utt_id": "vi_0030",
+  "lang": "vi",
+  "engine": "gemini_25_pro",
+  "duration_sec": 11.76,
+  "ref_text_raw": "Du khách được khuyến cáo nên đề phòng mọi rủi ro thời tiết khắc nghiệt ảnh hưởng đến khu vực của họ vì thời tiết khắc nghiệt có thể ảnh hưởng đến bất kỳ kế hoạch du lịch nào.",
+  "ref_text_normalized": "du khách được khuyến cáo nên đề phòng mọi rủi ro thời tiết khắc nghiệt ảnh hưởng đến khu vực của họ vì thời tiết khắc nghiệt có thể ảnh hưởng đến bất kỳ kế hoạch du lịch nào",
+  "timestamp_utc": "2026-07-05T08:16:47Z",
+  "text": "Du khách được khuyến cáo nên đề phòng mọi rủi ro, thời tiết khắc nghiệt ảnh hưởng đến khu vực của họ, vì thời tiết khắc nghiệt có thể ảnh hưởng đến bất kỳ kế hoạch du lịch nào.",
+  "latency_sec": 7.3115,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Du khách được khuyến cáo nên đề phòng mọi rủi ro, thời tiết khắc nghiệt ảnh hưởng đến khu vực của họ, vì thời tiết khắc nghiệt có thể ảnh hưởng đến bất kỳ kế hoạch du lịch nào.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239407,
+    "id": "6xJKapvGOMmzvr0PmpW5mQI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 398,
+      "total_tokens": 624
+    }
+  }
+}

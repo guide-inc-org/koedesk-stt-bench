@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0140",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 23.82,
+  "ref_text_raw": "现任参议员、阿根廷第一夫人克里斯蒂娜·费尔南德斯·德·柯克纳 (Cristina Fernandez de Kirchner) 昨晚在距离布宜诺斯艾利斯 50 公里（31英里）的拉普拉塔市 (La Plata) 宣布了其总统竞选资格。",
+  "ref_text_normalized": "现 任 参 议 员 阿 根 廷 第 一 夫 人 克 里 斯 蒂 娜 费 尔 南 德 斯 德 柯 克 纳 cristina fernandez de kirchner 昨 晚 在 距 离 布 宜 诺 斯 艾 利 斯 50 公 里 31 英 里 的 拉 普 拉 塔 市 la plata 宣 布 了 其 总 统 竞 选 资 格",
+  "timestamp_utc": "2026-07-05T09:19:12Z",
+  "text": "现任议员阿根廷第一夫人克里斯蒂娜·费尔南德斯·德·克科纳，昨晚在距离布宜诺斯艾利斯50公里（30英里）的拉普拉塔市宣布了其总统竞选资格。",
+  "latency_sec": 11.4449,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "现任议员阿根廷第一夫人克里斯蒂娜·费尔南德斯·德·克科纳，昨晚在距离布宜诺斯艾利斯50公里（30英里）的拉普拉塔市宣布了其总统竞选资格。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243152,
+    "id": "hiFKavqzGunn2roPlKW22Ao",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 60,
+      "prompt_tokens": 617,
+      "total_tokens": 2383
+    }
+  }
+}

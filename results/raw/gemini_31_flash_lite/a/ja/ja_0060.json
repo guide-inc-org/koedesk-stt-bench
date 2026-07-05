@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0060",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.22,
+  "ref_text_raw": "生地の温度が上がりすぎないように気を付けてください（縮みの原因になったり、極端な場合は焦げ付きの原因になります）。",
+  "ref_text_normalized": "生地の温度が上がりすぎないように気を付けてください縮みの原因になったり 極端な場合は焦げ付きの原因になります",
+  "timestamp_utc": "2026-07-05T10:16:23Z",
+  "text": "生地 の 温度 が 上がり すぎ ない よう に 気 を つけ て ください 。 縮み の 原因 に なっ たり 、 極端 な 場合 は 焦げ付き の 原因 に なり ます 。",
+  "latency_sec": 2.7193,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "生地 の 温度 が 上がり すぎ ない よう に 気 を つけ て ください 。 縮み の 原因 に なっ たり 、 極端 な 場合 は 焦げ付き の 原因 に なり ます 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP4P/RcWYAhfdD78yPWpVs1TUvnLGFXDIbFlQtdlqnNjIe8wFBMAyGYL1TN1pc"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246583,
+    "id": "9S5KavW0J-Czvr0P57qd6Ac",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 302,
+      "total_tokens": 343
+    }
+  }
+}

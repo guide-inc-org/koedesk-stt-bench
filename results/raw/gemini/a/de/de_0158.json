@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0158",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 27.24,
+  "ref_text_raw": "Schließlich gibt es noch viele kleine Katzen (einschließlich frei herumstreunende Hauskatzen), die weitaus kleinere Beutetiere wie Insekten, Nagetiere, Eidechsen und Vögel fressen.",
+  "ref_text_normalized": "schließlich gibt es noch viele kleine katzen einschließlich frei herumstreunende hauskatzen die weitaus kleinere beutetiere wie insekten nagetiere eidechsen und vögel fressen",
+  "timestamp_utc": "2026-07-05T03:52:32Z",
+  "text": "Schließlich gibt es noch viele kleine Katzen, einschließlich frei herumstreunenden Hauskatzen, die weitaus kleinere Beuteltiere wie Insekten, Nagetiere, Eidechsen und Vögel fressen.",
+  "latency_sec": 5.0756,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Schließlich gibt es noch viele kleine Katzen, einschließlich frei herumstreunenden Hauskatzen, die weitaus kleinere Beuteltiere wie Insekten, Nagetiere, Eidechsen und Vögel fressen.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223552,
+    "id": "_NRJauCLPOznosUP7JmIyQY",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 893,
+      "total_tokens": 1168
+    }
+  }
+}

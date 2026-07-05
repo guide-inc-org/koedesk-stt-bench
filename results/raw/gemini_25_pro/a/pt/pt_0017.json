@@ -1,0 +1,39 @@
+{
+  "utt_id": "pt_0017",
+  "lang": "pt",
+  "engine": "gemini_25_pro",
+  "duration_sec": 20.4,
+  "ref_text_raw": "Cinco minutos depois, um vento começa a soprar, cerca de um minuto depois, o vento está chegando a 70km/h... então vem a chuva, mas tão forte e tão grande que bate em sua pele como uma agulha e cai granizo do céu, pessoas em pânico e gritando e correndo umas sobre as outras.",
+  "ref_text_normalized": "cinco minutos depois um vento começa a soprar cerca de um minuto depois o vento está chegando a 70km/h... então vem a chuva mas tão forte e tão grande que bate em sua pele como uma agulha e cai granizo do céu pessoas em pânico e gritando e correndo umas sobre as outras",
+  "timestamp_utc": "2026-07-05T06:33:07Z",
+  "text": "Cinco minutos depois, um vento começa a soprar. Cerca de 1 minuto depois, o vento está chegando a 70 km/h. Então vem a chuva, mas tão forte e tão grande que bate em sua pele como uma agulha e cai granizo do céu. Pessoas em pânico e gritando e correndo uma sobre as outras.",
+  "latency_sec": 4.6405,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Cinco minutos depois, um vento começa a soprar. Cerca de 1 minuto depois, o vento está chegando a 70 km/h. Então vem a chuva, mas tão forte e tão grande que bate em sua pele como uma agulha e cai granizo do céu. Pessoas em pânico e gritando e correndo uma sobre as outras.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783233187,
+    "id": "n_pJat2eO8_H2roPya_FyQE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 76,
+      "prompt_tokens": 674,
+      "total_tokens": 783
+    }
+  }
+}

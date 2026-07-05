@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0083",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.42,
+  "ref_text_raw": "Por tanto, es probable que la anotación haya sido agregada tan solo como un rótulo.",
+  "ref_text_normalized": "por tanto es probable que la anotación haya sido agregada tan solo como un rótulo",
+  "timestamp_utc": "2026-07-05T04:38:43Z",
+  "text": "Por tanto, es probable que la anotación haya sido agregada tan solo como un rótulo.",
+  "latency_sec": 3.6416,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Por tanto, es probable que la anotación haya sido agregada tan solo como un rótulo.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPpnOutnTm/2CzaDkgaTZpUAFbX7FomiYkub09cmDEs7Xv+2p8SbiYY4tfhq9A"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226323,
+    "id": "0d9Jao2VH52C0-kPjp3EsQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 182,
+      "total_tokens": 203
+    }
+  }
+}

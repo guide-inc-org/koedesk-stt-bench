@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0132",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.3,
+  "ref_text_raw": "그래서 단순히 라벨로 표기했을 가능성이 높다.",
+  "ref_text_normalized": "그래서 단순히 라벨로 표기했을 가능성이 높다",
+  "timestamp_utc": "2026-07-05T06:26:51Z",
+  "text": "그래서 단순히 라벨로 표기했을 가능성이 높다.",
+  "latency_sec": 3.0066,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "그래서 단순히 라벨로 표기했을 가능성이 높다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP4AXozMmzYo8XJqlsMr1APbe3f8kzuWFuoYljmEjBe5Tv+RnHlPD1V2IHWRPp"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232811,
+    "id": "KflJav26PPz-2roPj568yQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 13,
+      "prompt_tokens": 179,
+      "total_tokens": 192
+    }
+  }
+}

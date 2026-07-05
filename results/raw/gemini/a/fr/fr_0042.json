@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0042",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.34,
+  "ref_text_raw": "De même que les hommes doivent porter un pantalon couvrant les genoux.",
+  "ref_text_normalized": "de même que les hommes doivent porter un pantalon couvrant les genoux",
+  "timestamp_utc": "2026-07-05T04:48:27Z",
+  "text": "De même que les hommes doivent porter un pantalon couvrant les genoux.",
+  "latency_sec": 3.572,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "De même que les hommes doivent porter un pantalon couvrant les genoux.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226907,
+    "id": "GeJJauXVJtbk1e8P_MzduQE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 288,
+      "total_tokens": 304
+    }
+  }
+}

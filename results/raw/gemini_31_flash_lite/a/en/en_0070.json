@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0070",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.02,
+  "ref_text_raw": "Also after the Revolution occupations were open to all male applicants allowing the most ambitious and successful to succeed.",
+  "ref_text_normalized": "also after the revolution occupations were open to all male applicants allowing the most ambitious and successful to succeed",
+  "timestamp_utc": "2026-07-05T10:32:05Z",
+  "text": "Also after the revolution, occupations were open to all male applicants, allowing the most ambitious and successful to succeed.",
+  "latency_sec": 2.6118,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Also after the revolution, occupations were open to all male applicants, allowing the most ambitious and successful to succeed.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPqtsHYBBss7GjtmBAx9GrufM2EN4hiLLWCYZ59Q1EismBmamdrRMjaKFI8Yyp"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247525,
+    "id": "pDJKaq72Afz-2roPj568yQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 197,
+      "total_tokens": 219
+    }
+  }
+}

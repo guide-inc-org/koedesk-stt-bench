@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0180",
+  "lang": "es",
+  "engine": "gemini_25_flash",
+  "duration_sec": 6.84,
+  "ref_text_raw": "Una bomba fue detonada en la puerta de la oficina del gobernador general.",
+  "ref_text_normalized": "una bomba fue detonada en la puerta de la oficina del gobernador general",
+  "timestamp_utc": "2026-07-05T04:27:09Z",
+  "text": "Una bomba fue detonada en la puerta de la oficina del gobernador general.",
+  "latency_sec": 3.2814,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Una bomba fue detonada en la puerta de la oficina del gobernador general.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225629,
+    "id": "G91JaqvbF8-a1e8P7YSs0QE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 15,
+      "prompt_tokens": 240,
+      "total_tokens": 307
+    }
+  }
+}

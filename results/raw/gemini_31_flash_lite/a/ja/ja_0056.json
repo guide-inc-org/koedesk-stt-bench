@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0056",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.62,
+  "ref_text_raw": "当初、彼はグレート・ヤーマスにあるジェームズ・パジェット病院に入院していました。",
+  "ref_text_normalized": "当初 彼はグレート ヤーマスにあるジェームズ パジェット病院に入院していました",
+  "timestamp_utc": "2026-07-05T10:16:08Z",
+  "text": "当初 、 彼 は グレート ヤーマス に ある ジェームズ パジェット 病院 に 入院 し て い まし た 。",
+  "latency_sec": 2.6369,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "当初 、 彼 は グレート ヤーマス に ある ジェームズ パジェット 病院 に 入院 し て い まし た 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPCX7rTjBX9VqN3J6xJfxhgkMIwvtnNssIjyj5L/2HfEUfHPlmrYNelCQvaCzG"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246568,
+    "id": "5i5KaqX3Jq7H0-kPp7WTuQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 212,
+      "total_tokens": 239
+    }
+  }
+}

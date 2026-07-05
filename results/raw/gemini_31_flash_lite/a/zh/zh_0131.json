@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0131",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.62,
+  "ref_text_raw": "尚存的 25 份当列普单面印刷版（ Dunlap broadsides）是该文件现存最早的版本。手写原稿未能保留下来。",
+  "ref_text_normalized": "尚 存 的 25 份 当 列 普 单 面 印 刷 版 dunlap broadsides 是 该 文 件 现 存 最 早 的 版 本 手 写 原 稿 未 能 保 留 下 来",
+  "timestamp_utc": "2026-07-05T09:18:31Z",
+  "text": "上存的25分,当列普单面印刷版,是该文件现存最早的版本,手写原稿未能保留下来。",
+  "latency_sec": 2.7354,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "上存的25分,当列普单面印刷版,是该文件现存最早的版本,手写原稿未能保留下来。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPoDOXWI494EtYfMVJLGke4tIH3VwTbfXKUBhvec4W+pLAe+pqAvOQ62Eqg1dZ"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243111,
+    "id": "ZiFKat37CtDF1e8P2K7MiQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 362,
+      "total_tokens": 393
+    }
+  }
+}

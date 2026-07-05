@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0069",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 15.1,
+  "ref_text_raw": "据透露，这份文件将提及边界争端，巴勒斯坦希望以1967年中东战争前的边界为基础。",
+  "ref_text_normalized": "据 透 露 这 份 文 件 将 提 及 边 界 争 端 巴 勒 斯 坦 希 望 以 1967 年 中 东 战 争 前 的 边 界 为 基 础",
+  "timestamp_utc": "2026-07-05T06:24:30Z",
+  "text": "据透露，这份文件将提及边界争端，巴勒斯坦希望以1967年中东战争前的边界为基础。",
+  "latency_sec": 4.6128,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "16s",
+      "requestId": "7299bd76-0000-2720-bb70-30fd38105428",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "据透露，这份文件将提及边界争端，巴勒斯坦希望以1967年中东战争前的边界为基础。"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

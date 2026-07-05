@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0148",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.76,
+  "ref_text_raw": "在 20 世纪 20 年代，大多市民的主流态度是和平主义的、分离主义的。",
+  "ref_text_normalized": "在 20 世 纪 20 年 代 大 多 市 民 的 主 流 态 度 是 和 平 主 义 的 分 离 主 义 的",
+  "timestamp_utc": "2026-07-05T08:59:59Z",
+  "text": "在20世纪80年代，大多数市民的主流态度是和平主义的、分离主义的。",
+  "latency_sec": 4.1549,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "在20世纪80年代，大多数市民的主流态度是和平主义的、分离主义的。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241999,
+    "id": "DB1Kar7VCbGivr0P0MTRmQU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 302,
+      "total_tokens": 376
+    }
+  }
+}

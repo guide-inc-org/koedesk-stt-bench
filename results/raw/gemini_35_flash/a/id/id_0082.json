@@ -1,0 +1,45 @@
+{
+  "utt_id": "id_0082",
+  "lang": "id",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.3,
+  "ref_text_raw": "Orang Paris dikenal egosentris, kasar, dan sombong.",
+  "ref_text_normalized": "orang paris dikenal egosentris kasar dan sombong",
+  "timestamp_utc": "2026-07-05T05:41:56Z",
+  "text": "Orang Paris dikenal egosentris, kasar, dan sombong.",
+  "latency_sec": 3.4836,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Orang Paris dikenal egosentris, kasar, dan sombong.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "ErMFCrAFARFNMg/DY6wRlXuyF8fdgS5LTSw/ehIOvDeSgUDmk7vAWzvX9r7iyOlfq2GXaBUz9wSq0Nunb0FvU9GSe/JyM+IOU7fSpdIzaoTH3sX/MSTcm/JVVvGquiwO8uH27reEXqzQtiJ2Ej9xzC76rBVraH3JQYAxkk6ayavJDcK3ZD5Zu8LG0wKlpDV3sBuY1YiyB4XrKcSZyo/QVKo5X98hRAv+JEU3txS+nXabG9Xib4WCC5eQJPQsZ7nF1YjU9Bjifw1qdw2WyTKEXIV3HmoybEYd4ErHkNiK9ka1V9crTUmnfiYVDZKpsOI2rT3aw6vKERthMh66zK8ICsZW0Rvxf7/G17ZnItlpKNkw7Lcg87k8fXQL9ooTu18Re/72Ym4GK7mSNhHR6pjrWdHnHN4Qo21XIC/ujuAiuQgaVpjjjqSKGmMA7ylc3QJsJhZIdl3Gja2K7WBsVZzBlqzuJ90vurlE5dQnb2qAnejvcDSYeDs/S2C/oOgkjbRhi3JEJweLALipIvva0k+hC2g5Yvaiqi78/RypebGClQKQpnvUXqKWpYffAOrotolBFwEKH77iMB82l5BsnH5QQC2lKjTqGmpn1+TjaPRVVFPx8vWqeaR7N8+qzWL+L7hdv4/dCOqSzzAhFZc+X8mgdig/imCSIxUjfKKRcE+YiKnRxFfPX6677d4ByYbnjV/prSjGYkAfhKM8FuJA0haucVuUAHISVn/V7KE1cP1twDvBkvkOHzPQbj+ZkMDYbuEJnTV6QRQUcrhsG8ABhtq+UOGIKaVx1HYBg7q4uIgpRvgYvm3cFvzPmLaAateavKuTONVTe2zCfozvoPsL4qJbtCz5yr8yW4MYUeMwfmjQz/VUdKYlcqLJxBDuNYWxzCgfmk7NzqOnbvGA2Fa87Q0P4BECMrYXJQ=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230116,
+    "id": "ou5JatalGLup2roP26eg2QY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 14,
+      "prompt_tokens": 179,
+      "total_tokens": 393
+    }
+  }
+}

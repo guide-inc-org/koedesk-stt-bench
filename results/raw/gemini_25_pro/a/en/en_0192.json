@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0192",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 18.9,
+  "ref_text_raw": "Five minutes into the display a wind starts rolling in, about a minute later, the wind is reaching 70km/h... then the rain comes, but so hard and so large that it slaps your skin like a needle, then hail fell from the sky, people panicking and screaming and running over each other.",
+  "ref_text_normalized": "five minutes into the display a wind starts rolling in about a minute later the wind is reaching 70km/h... then the rain comes but so hard and so large that it slaps your skin like a needle then hail fell from the sky people panicking and screaming and running over each other",
+  "timestamp_utc": "2026-07-05T03:32:32Z",
+  "text": "Five minutes into the display, a wind starts rolling in. About a minute later, the wind is reaching 70 km per hour. Then the rain comes, but so hard and so large that it slaps your skin like a needle. Then hail fell from the sky, people panicking and screaming and running over each other.",
+  "latency_sec": 3.9909,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Five minutes into the display, a wind starts rolling in. About a minute later, the wind is reaching 70 km per hour. Then the rain comes, but so hard and so large that it slaps your skin like a needle. Then hail fell from the sky, people panicking and screaming and running over each other.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222352,
+    "id": "TtBJau6DAo-D1e8P9I7h6AE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 67,
+      "prompt_tokens": 626,
+      "total_tokens": 729
+    }
+  }
+}

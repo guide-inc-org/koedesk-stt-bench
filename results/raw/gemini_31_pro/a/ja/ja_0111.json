@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0111",
+  "lang": "ja",
+  "engine": "gemini_31_pro_preview",
+  "duration_sec": 10.08,
+  "ref_text_raw": "警察のチャンドラ・シェカール・ソランキ総監によれば、被告人は顔を隠して法廷に出頭したそうです。",
+  "ref_text_normalized": "警察のチャンドラ シェカール ソランキ総監によれば 被告人は顔を隠して法廷に出頭したそうです",
+  "timestamp_utc": "2026-07-05T03:09:20Z",
+  "text": "警察のチャンドラ・シェーカル・ソランキ総監によれば、被告人は顔を隠して法廷に出廷したそうです。",
+  "latency_sec": 11.319,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-pro-preview",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "警察のチャンドラ・シェーカル・ソランキ総監によれば、被告人は顔を隠して法廷に出廷したそうです。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783220961,
+    "id": "18pJatm0D9y4vr0Pgo3U0Q8",
+    "model": "gemini-3.1-pro-preview",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 273,
+      "total_tokens": 1390
+    }
+  }
+}

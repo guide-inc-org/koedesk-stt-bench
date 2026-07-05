@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0185",
+  "lang": "ko",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.08,
+  "ref_text_raw": "특히, 미세한 표정을 정확하게 해석해서 사람이 거짓말을 하고 있는지 여부를 검출할 수 있다고 주장합니다.",
+  "ref_text_normalized": "특히 미세한 표정을 정확하게 해석해서 사람이 거짓말을 하고 있는지 여부를 검출할 수 있다고 주장합니다",
+  "timestamp_utc": "2026-07-05T06:07:37Z",
+  "text": "특히 미세한 표정을 정확하게 해석해서 사람이 거짓말을 하고 있는지 여부를 검출할 수 있다고 주장합니다.",
+  "latency_sec": 4.2196,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "특히 미세한 표정을 정확하게 해석해서 사람이 거짓말을 하고 있는지 여부를 검출할 수 있다고 주장합니다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231657,
+    "id": "pvRJarf5C_z-2roPj568yQI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 344,
+      "total_tokens": 508
+    }
+  }
+}

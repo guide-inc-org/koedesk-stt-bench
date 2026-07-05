@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0032",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 18.48,
+  "ref_text_raw": "統治者は「ビシー」のフランス人たちでした。彼らは1940年にドイツ軍と和平を結び、侵略者と戦うのではなく、侵略者に協力したフランス人たちです。",
+  "ref_text_normalized": "統治者は ビシー のフランス人たちでした 彼らは1940年にドイツ軍と和平を結び 侵略者と戦うのではなく 侵略者に協力したフランス人たちです",
+  "timestamp_utc": "2026-07-05T10:04:10Z",
+  "text": "当事者はヴィシーのフランス人たちでした。彼らは1940年にドイツ軍と和平を結び、侵略者と戦うのではなく、侵略者に協力したフランス人たちです。",
+  "latency_sec": 3.679,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "当事者はヴィシーのフランス人たちでした。彼らは1940年にドイツ軍と和平を結び、侵略者と戦うのではなく、侵略者に協力したフランス人たちです。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783245850,
+    "id": "GCxKapWSEfTIrfcPhcL-0AI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 613,
+      "total_tokens": 678
+    }
+  }
+}

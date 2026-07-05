@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0008",
+  "lang": "es",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.68,
+  "ref_text_raw": "Entre los fenómenos climáticos regionales y estacionales extremos encontramos los ventarrones, las tormentas de nieve, hielo o polvo.",
+  "ref_text_normalized": "entre los fenómenos climáticos regionales y estacionales extremos encontramos los ventarrones las tormentas de nieve hielo o polvo",
+  "timestamp_utc": "2026-07-05T04:12:59Z",
+  "text": "Entre los fenómenos climáticos regionales y estacionales extremos, encontramos los ventarrones, las tormentas de nieve, hielo o polvo.",
+  "latency_sec": 5.3364,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Entre los fenómenos climáticos regionales y estacionales extremos, encontramos los ventarrones, las tormentas de nieve, hielo o polvo.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224779,
+    "id": "x9lJaqbvLrD32roPjrXkkQc",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 363,
+      "total_tokens": 587
+    }
+  }
+}

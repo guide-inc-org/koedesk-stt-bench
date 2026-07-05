@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0151",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.88,
+  "ref_text_raw": "Tuy nhiên, điều đó không đúng. Mặc dù có thứ gì đó được viết ở mặt sau của tài liệu nhưng đó không phải là bản đồ kho báu.",
+  "ref_text_normalized": "tuy nhiên điều đó không đúng mặc dù có thứ gì đó được viết ở mặt sau của tài liệu nhưng đó không phải là bản đồ kho báu",
+  "timestamp_utc": "2026-07-05T08:46:45Z",
+  "text": "Tuy nhiên điều đó không đúng, mặc dù có thứ gì đó được viết ở mặt sau của tài liệu nhưng đó không phải là bản đồ kho báu.",
+  "latency_sec": 2.4996,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Tuy nhiên điều đó không đúng, mặc dù có thứ gì đó được viết ở mặt sau của tài liệu nhưng đó không phải là bản đồ kho báu.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPM+r1E34nkZJL+dNnGnfljYP0WYSgi1ODMFegZJLKUjl0OPahTdKiOJU818EQ"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241205,
+    "id": "9BlKar8q2oDV7w-0q-WBAg",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 244,
+      "total_tokens": 276
+    }
+  }
+}

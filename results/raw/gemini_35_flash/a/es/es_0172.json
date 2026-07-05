@@ -1,0 +1,45 @@
+{
+  "utt_id": "es_0172",
+  "lang": "es",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.32,
+  "ref_text_raw": "Todo en el Universo está hecho de materia, compuesta por partículas pequeñas denominadas átomos.",
+  "ref_text_normalized": "todo en el universo está hecho de materia compuesta por partículas pequeñas denominadas átomos",
+  "timestamp_utc": "2026-07-05T04:42:58Z",
+  "text": "Todo el universo está hecho de materia, compuesta por partículas pequeñas denominadas átomos.",
+  "latency_sec": 3.129,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Todo el universo está hecho de materia, compuesta por partículas pequeñas denominadas átomos.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EsQECsEEARFNMg8RcQCb5TgirVoSTOUBJHozFIBf7k2c8UPW47r6/eXKRmj6nCRR5zuc7E2iQ3CGAuO9WbUXD026bOMyt/HJRjYFnFEQ7Eq1gABGMtNOAG45rFvfY683TyxIneyxqRbCttXYvdJ8+xTyXrx8BH8YzDk2rz1EIaLLFCsIR2o3laDwXN/cQKXSew53ls/VhBQxzx98U1MSC49pZW04znhPWO66r2Av+aZu6ViSiRprjmTa3Bo6TXfv5eFPFtXoYqAFrjf7mLEHjKKFbge0T0EtUpa/fGptX41f1htacrDQYAB1c3im2rwJjlK+YYATE6EHuhjqkVmb4Euly7uCAYKT7h3yq60lKpW1QHnprGItLxowQsxWszmoeL+0r13xlObhT7IjO/v6r9HleWUufQ6YmvdMyfZLcVFqLFbgVgOB/57BXJS+OH4cDdA3aa4BWa6xgqEIKTb/IkMib9lZR/OJP7SAB6gKNC9LmXBGmAWvqWztFZucVhw7tzAaXiSuWnFuoi8QtflzANnBCB3em0O+XS41UpbdiTvLL7mwGsmzFbLMQ0ruKwtZWQfQPOdhbJnUfpAndayKr1M2nsACWMEG8K7P/EMG0ICtIolvEYT8yEduIdaA7jiKhIWJdpjMSG+o3l/J9r4+JdAb2hQvXl4q87TGcL6k7e5kqOWnxnC9axav00jkP21aqtVjapnQ59FmumgeM0r+a9gydHHFdnif999u9zUL2shp+nI3zw4HxRtjwPwIXYNjhV1LzyKKSg=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226578,
+    "id": "0OBJaue7EIfNrfcP8aSW8AI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 279,
+      "total_tokens": 410
+    }
+  }
+}

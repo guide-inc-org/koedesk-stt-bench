@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0030",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 15.18,
+  "ref_text_raw": "女子シッティンググループでは4人のスキーヤーが滑走を終えられず、ジャイアントスラロームでは全117人中45人がランクインできなかった。",
+  "ref_text_normalized": "女子シッティンググループでは4人のスキーヤーが滑走を終えられず ジャイアントスラロームでは全117人中45人がランクインできなかった",
+  "timestamp_utc": "2026-07-05T10:05:40Z",
+  "text": "女子シッティンググループでは4人のスキーヤーが滑走を終えられず、ジャイアントスラロームでは全117人中45人がラインコインできなかった。",
+  "latency_sec": 10.6083,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "女子シッティンググループでは4人のスキーヤーが滑走を終えられず、ジャイアントスラロームでは全117人中45人がラインコインできなかった。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783245940,
+    "id": "aixKapvKLdGX0-kP9sqqsAE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 507,
+      "total_tokens": 1501
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0025",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.38,
+  "ref_text_raw": "Alloys are basically a mixture of two or more metals. Don't forget that there are many elements on the periodic table.",
+  "ref_text_normalized": "alloys are basically a mixture of two or more metals don't forget that there are many elements on the periodic table",
+  "timestamp_utc": "2026-07-05T10:28:30Z",
+  "text": "Alloys are basically a mixture of two or more metals. Don't forget there are many elements on the periodic table.",
+  "latency_sec": 3.1458,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Alloys are basically a mixture of two or more metals. Don't forget there are many elements on the periodic table.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Ep0GCpoGARFNMg+UrD0CcniRUZn9BqJ4UwnXYhyhFFA0o1Lvri5g2t+DkmOv2uN2Nptx21NwJ58gZ/GpE43N6uBA/YlvJ9sdnSKGFmempMLdmLJ7tpBXVSAJH2oHf8pDI9xNIjdN4qmdDu0yna+sw6io/LG35D2Z7vJOEq4Wf8iJrSa9D/UCgTIUBjugB35/z3WzAIqM1pxbnIpAcfBp9QT7Y75QTlBL8KZjKXcGvkjv9H9divPbjvAXBCwnZs8f6yj/tK/sEY2j8YjId+dLz7oThxBGIsxNr3es1heJUnua6TM3HT8ibmyemIi5MV8f0edUWobNKT5r21izG+mMUxosdCnLtgDBSUDyL9uHsdEzVg8CmaPnMz5H2k5ov+Ca9qzOoFacyIxSoWdVh8HmpxAVSDjSvKR2c6SOL0Xpp73ZKFfsvmTdww/6mNsBjzVYpfsU7FQ2fWMFsd56pUvyfhAWzsTXQmD9R5m+XrYnR3/TxZO1vnK4F638QtBpMiQ5pX5SstMkq0o/XwhY21dIR+tsHLRRDJAp/Hf//8o0xYolLmYFwVP8YT4w6VBuANsk2aaICVi757kilz2v2a17Z9E5EODPl5vCPjhjjtG7j2f6BhMxYu7/Uuvp/g7hDoMO4oNTz87oztAld9uLl/dxwgu892XaAwdCWh7B9OsQXN0x82x3kBf/kLkCy/mZgPiru0P7pHeK2zNdoDhj5cfBltuZG7u/uKO8Xd4OcJBrKDmLrIHuZkZg0QR36nm5gTlrkAFa2z2J/sGW8ijv63RODqS4BnOjp2x7pZ9IspLVahVHlVtBkoSaPe8Ed6KqGX5kSJovACvM9vC/a+/W/8r/xLXGUJ5xylE1ag6VG+wTduzrTqbuK5eepDtf6G4P3SQYRCACWiirmFnGDDmOrluMxHVFAjER5cQkSLsesN2/YpYZKjoranyOoAzPrBx7UXKYLYzjedCBXSJGifLbaL0nhVpb+9z2s7TRYSqm2jzhEYCNT0bmiebm4z6WaUQE+dp82xEvKMuPMnaycAMCTSLmk39MKKrcQGjUEJwQiJ74rvQ="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247310,
+    "id": "zDFKaoyLDJCe1e8PjsLZ0AQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 231,
+      "total_tokens": 443
+    }
+  }
+}

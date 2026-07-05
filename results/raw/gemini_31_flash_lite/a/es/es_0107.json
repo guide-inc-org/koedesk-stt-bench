@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0107",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.52,
+  "ref_text_raw": "Sus largas mandíbulas tenían incrustados más de 70 dientes afilados como navajas, además de otro grupo adicional en el paladar, lo que se traduce en que cualquier cosa que le pasara por delante, no tenía escapatoria.",
+  "ref_text_normalized": "sus largas mandíbulas tenían incrustados más de 70 dientes afilados como navajas además de otro grupo adicional en el paladar lo que se traduce en que cualquier cosa que le pasara por delante no tenía escapatoria",
+  "timestamp_utc": "2026-07-05T04:40:11Z",
+  "text": "Sus largas mandíbulas tenían incrustados más de 70 dientes afilados como navajas, además de otro grupo adicional en el paladar, lo que se traduce en que cualquier cosa que le pasara por delante no tenía escapatoria.",
+  "latency_sec": 2.99,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Sus largas mandíbulas tenían incrustados más de 70 dientes afilados como navajas, además de otro grupo adicional en el paladar, lo que se traduce en que cualquier cosa que le pasara por delante no tenía escapatoria.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPovBaf3VagzxtLEhzz7HSVKA0Rm3h0+JpiWBxWUmoSynPXc527SLcfvKc74CK"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226411,
+    "id": "KeBJatuNM4Gp2roP-M7c4AY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 52,
+      "prompt_tokens": 384,
+      "total_tokens": 436
+    }
+  }
+}

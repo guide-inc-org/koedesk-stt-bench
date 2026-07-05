@@ -1,0 +1,39 @@
+{
+  "utt_id": "id_0016",
+  "lang": "id",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.5,
+  "ref_text_raw": "Casablanca adalah salah satu tempat paling tidak menarik untuk berbelanja di seluruh Maroko.",
+  "ref_text_normalized": "casablanca adalah salah satu tempat paling tidak menarik untuk berbelanja di seluruh maroko",
+  "timestamp_utc": "2026-07-05T05:20:26Z",
+  "text": "Casablanca adalah salah satu tempat paling tidak menarik untuk berbelanja di seluruh Maroko.",
+  "latency_sec": 3.2797,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Casablanca adalah salah satu tempat paling tidak menarik untuk berbelanja di seluruh Maroko.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228826,
+    "id": "mOlJavztMo3O1e8PpY-EiAI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 357,
+      "total_tokens": 403
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0191",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.64,
+  "ref_text_raw": "He was greeted by Singapore's Deputy Prime Minister Wong Kan Seng and discussed trade and terrorism issues with the Singapore Prime Minister Lee Hsien Loong.",
+  "ref_text_normalized": "he was greeted by singapore's deputy prime minister wong kan seng and discussed trade and terrorism issues with the singapore prime minister lee hsien loong",
+  "timestamp_utc": "2026-07-05T03:31:31Z",
+  "text": "He was greeted by Singapore's Deputy Prime Minister Wong Kain Seng and discussed trade and terrorism issues with the Singapore Prime Minister Lee Hasin Long.",
+  "latency_sec": 4.1188,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "He was greeted by Singapore's Deputy Prime Minister Wong Kain Seng and discussed trade and terrorism issues with the Singapore Prime Minister Lee Hasin Long.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222291,
+    "id": "EdBJasDEAtDF1e8P2K7MiQU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 394,
+      "total_tokens": 485
+    }
+  }
+}

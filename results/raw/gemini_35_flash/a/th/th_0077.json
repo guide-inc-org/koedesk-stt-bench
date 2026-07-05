@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0077",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.94,
+  "ref_text_raw": "คนส่วนใหญ่ที่ทำงานในรัฐจะใช้ภาษาอิตาลีเป็นภาษาในชีวิตประจำวัน ในขณะที่ภาษาละตินจะถูกใช้บ่อยในพิธีทางศาสนา",
+  "ref_text_normalized": "คนส่วนใหญ่ที่ทำงานในรัฐจะใช้ภาษาอิตาลีเป็นภาษาในชีวิตประจำวัน ในขณะที่ภาษาละตินจะถูกใช้บ่อยในพิธีทางศาสนา",
+  "timestamp_utc": "2026-07-05T07:58:59Z",
+  "text": "คนส่วนใหญ่ที่ทำงานในรัฐจะใช้ภาษาอิตาลีเป็นภาษาในชีวิตประจำวัน ในขณะที่ภาษาลาตินจะถูกใช้บ่อยในพิธีทางศาสนา",
+  "latency_sec": 4.4084,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "คนส่วนใหญ่ที่ทำงานในรัฐจะใช้ภาษาอิตาลีเป็นภาษาในชีวิตประจำวัน ในขณะที่ภาษาลาตินจะถูกใช้บ่อยในพิธีทางศาสนา",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238339,
+    "id": "wA5KasvrE9vKrfcPoLj86Ac",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 320,
+      "total_tokens": 727
+    }
+  }
+}

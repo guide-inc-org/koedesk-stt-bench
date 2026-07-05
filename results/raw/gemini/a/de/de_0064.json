@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0064",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 18.66,
+  "ref_text_raw": "Sie besagt, dass der Kreuzungspunkt der Linien, die ein Bild vertikal und horizontal dritteln, der effektivste Platz für das Hauptmotiv ist (siehe Beispiel).",
+  "ref_text_normalized": "sie besagt dass der kreuzungspunkt der linien die ein bild vertikal und horizontal dritteln der effektivste platz für das hauptmotiv ist siehe beispiel",
+  "timestamp_utc": "2026-07-05T03:44:52Z",
+  "text": "Sie besagt, dass der Kreuzungspunkt der Linien, die ein Bild vertikal und horizontal dritteln, der effektivste Platz für das Hauptmotiv ist. Siehe Beispiel.",
+  "latency_sec": 3.8153,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Sie besagt, dass der Kreuzungspunkt der Linien, die ein Bild vertikal und horizontal dritteln, der effektivste Platz für das Hauptmotiv ist. Siehe Beispiel.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223092,
+    "id": "MtNJar_AAu3j1e8P2Y3r2QE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 619,
+      "total_tokens": 687
+    }
+  }
+}

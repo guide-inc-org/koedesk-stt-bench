@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0013",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.64,
+  "ref_text_raw": "Les troupes de lions agissent comme des meutes de loups ou de chiens, des animaux étonnamment semblables aux lions (mais pas aux autres grands félins) dans leur comportement, et aussi très mortels pour leurs proies.",
+  "ref_text_normalized": "les troupes de lions agissent comme des meutes de loups ou de chiens des animaux étonnamment semblables aux lions mais pas aux autres grands félins dans leur comportement et aussi très mortels pour leurs proies",
+  "timestamp_utc": "2026-07-05T05:02:12Z",
+  "text": "Les troupes de lions agissent comme des meutes de loups ou de chiens, des animaux étonnamment semblables au lion, mais pas aux autres grands félins, dans leur comportement, et aussi très mortels pour leurs proies.",
+  "latency_sec": 5.2599,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Les troupes de lions agissent comme des meutes de loups ou de chiens, des animaux étonnamment semblables au lion, mais pas aux autres grands félins, dans leur comportement, et aussi très mortels pour leurs proies.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227732,
+    "id": "UOVJar7cHpr22roP4enR6AU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 48,
+      "prompt_tokens": 312,
+      "total_tokens": 785
+    }
+  }
+}

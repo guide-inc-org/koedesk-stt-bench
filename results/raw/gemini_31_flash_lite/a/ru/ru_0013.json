@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0013",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.18,
+  "ref_text_raw": "Также может быть выгодно купить Wild Card, которая позволяет посещать национальные парки ЮАР либо выборочно, либо все.",
+  "ref_text_normalized": "также может быть выгодно купить wild card которая позволяет посещать национальные парки юар либо выборочно либо все",
+  "timestamp_utc": "2026-07-05T07:27:46Z",
+  "text": "Также может быть выгодно купить Wild Card, которая позволяет посещать национальные парки ЮАР, либо выборочно, либо все.",
+  "latency_sec": 3.4575,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Также может быть выгодно купить Wild Card, которая позволяет посещать национальные парки ЮАР, либо выборочно, либо все.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPpb6zuzs1XxolFeznp9gdQkO97rrFd92NzDOFK6mKuZVmTfyCD3K00j2vz+PV"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236466,
+    "id": "cAdKasDhNabG0-kPpaDayQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 251,
+      "total_tokens": 279
+    }
+  }
+}

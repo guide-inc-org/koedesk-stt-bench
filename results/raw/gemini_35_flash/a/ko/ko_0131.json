@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0131",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 4.2,
+  "ref_text_raw": "수소 이온은 전자가 벗겨져 나간 양성자이다. (수소 원자는 양성자 하나와 전자 하나로 구성되므로)",
+  "ref_text_normalized": "수소 이온은 전자가 벗겨져 나간 양성자이다 수소 원자는 양성자 하나와 전자 하나로 구성되므로",
+  "timestamp_utc": "2026-07-05T06:21:06Z",
+  "text": "수소 이온은 전자가 벗겨져 나간 양성자이다.",
+  "latency_sec": 3.7343,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "수소 이온은 전자가 벗겨져 나간 양성자이다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EvgECvUEARFNMg+BmGJ64xWAz2jIsTh0V9StQ6iJ6dQ1Lo6KbAhtj+tmwX+fFA/gzCR6bxNJWtV3rUgq2HzlvaZC6U5MPnWoYtJxWPdoslKNW89fhC5CcaAvg0uA4PqPqzPDJf5bQmXLL0RIXYNoMvt3PO8lbs+m6ol9LY0kmc7e8I684L2TkbAMcp2sgc5bWwVI/1h38j8e2kpzQYxuHA8RBDy/ocV32FAUiZCHkb1H3wbI/RFH99kaaAkJBDLE8Qsp1PluwKyOj7W60vMXO2sSC2mXzs/qYf+KeEvB1abyX3PuvFQF9+23HSb9AnM2kcKfn6mhQ2rHsG5gBz1s39xgEW1mVrlxv/wfefHbGgZwzv0bsdnyvtWYR679WqtLyZN00fJQH8I+8WkRgZD8MTkG7FtyJvQx5gjJ6cg7hqf4C3Od+iy8VaUwhm44NSahg2Xy726evcnAzhHCHkLxD5z3z8BrCp+OcUHx7WmqkKorFgxx0J6zQpfccdySRBDGVoaMaoLC9BHxSDlhxouucL0si2dTZ/7Q8V+pELA7Az8qCk/Zqvk6+YRwchHjI3I66tLjph7YOHKTPtpMm4qO64w9C6szE4t4dgJaNrJcHA0+gUzhdcA/yT51sPqlJIlDpLiOQYkak6Ve2UW6yd9mwx8crVmDtnOBY9wSjBmZO+1yOnG4BFkj4CWdcDQ2WSzoX/O40l6EthmYNqrJNCDxkkX/W4Fb1N4aNoFyYDbB68j7Ssf32B9oYyGbYxn0M48NBC2SX0/lLTDhYGGpLF6SGW/sJrVpgYN+0gzsiukMPcG2hbgYpuk8Qzo4ZZCP9X6aZ+YCAhFx14QVPP0="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232466,
+    "id": "z_dJaqyFGqOm2roPua6M0QE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 17,
+      "prompt_tokens": 126,
+      "total_tokens": 292
+    }
+  }
+}

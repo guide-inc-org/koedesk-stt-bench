@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0093",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.28,
+  "ref_text_raw": "สิ่งนี้เรียกว่าค่า pH ของสารเคมี คุณสามารถสร้างตัวระบุได้โดยใช้น้ำกะหล่ำปลีแดง",
+  "ref_text_normalized": "สิ่งนี้เรียกว่าค่า ph ของสารเคมี คุณสามารถสร้างตัวระบุได้โดยใช้น้ำกะหล่ำปลีแดง",
+  "timestamp_utc": "2026-07-05T08:06:28Z",
+  "text": "สิ่งนี้เรียกว่าค่า pH ของสารเคมี คุณสามารถสร้างตัวระบุได้โดยใช้น้ำกะหล่ำปลีแดง",
+  "latency_sec": 2.5816,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "สิ่งนี้เรียกว่าค่า pH ของสารเคมี คุณสามารถสร้างตัวระบุได้โดยใช้น้ำกะหล่ำปลีแดง",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPsuJC6E99ygfMcJT8MZzt2dCISh3L8+q8+i5CkNYVCA4ijsH/zRg/0iYBE3JZ"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238788,
+    "id": "ghBKapTZMJja1e8P6IqesQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 228,
+      "total_tokens": 257
+    }
+  }
+}

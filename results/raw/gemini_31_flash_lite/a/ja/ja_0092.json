@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0092",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.68,
+  "ref_text_raw": "南アフリカにあるすべての国立公園と同様に、この公園には毎日保護費と入園料がかかります。",
+  "ref_text_normalized": "南アフリカにあるすべての国立公園と同様に この公園には毎日保護費と入園料がかかります",
+  "timestamp_utc": "2026-07-05T10:18:20Z",
+  "text": "南アフリカ に ある 全て の 国立 公園 と 同様 に この 公園 に は 毎日 保護 費 と 入園 料 が かかり ます 。",
+  "latency_sec": 2.9371,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "南アフリカ に ある 全て の 国立 公園 と 同様 に この 公園 に は 毎日 保護 費 と 入園 料 が かかり ます 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP0LzRRRDcdUGCCw96FjSvtLK+gnqiBIl/xj0agXN8XfSpYSHmsY0ZoErciiYr"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246700,
+    "id": "ai9KapLSPLmVvr0PopTJiQc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 288,
+      "total_tokens": 323
+    }
+  }
+}

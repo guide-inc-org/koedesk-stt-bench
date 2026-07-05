@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0095",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.04,
+  "ref_text_raw": "昨天，马尔泰利在由 9 名成员组成的新临时选举委员会 (CEP)中宣誓就职。",
+  "ref_text_normalized": "昨 天 马 尔 泰 利 在 由 9 名 成 员 组 成 的 新 临 时 选 举 委 员 会 cep 中 宣 誓 就 职",
+  "timestamp_utc": "2026-07-05T08:55:31Z",
+  "text": "昨天，马尔泰利在由九名成员组成的新临时全球委员会 CEP 中宣誓就职。",
+  "latency_sec": 3.9169,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "昨天，马尔泰利在由九名成员组成的新临时全球委员会 CEP 中宣誓就职。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241731,
+    "id": "ARxKaseLHOnn2roPlKW22Ao",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 375,
+      "total_tokens": 454
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0193",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.6,
+  "ref_text_raw": "警察のチャンドラ・シェカール・ソランキ総監によれば、被告人は顔を隠して法廷に出頭したそうです。",
+  "ref_text_normalized": "警察のチャンドラ シェカール ソランキ総監によれば 被告人は顔を隠して法廷に出頭したそうです",
+  "timestamp_utc": "2026-07-05T03:14:30Z",
+  "text": "警察のチャンドラシカールソラキー総監によれば、被告人は顔を隠して法廷に出頭したそうです。",
+  "latency_sec": 3.7674,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "警察のチャンドラシカールソラキー総監によれば、被告人は顔を隠して法廷に出頭したそうです。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221270,
+    "id": "E8xJau2FPNmK0-kP0MrjsQM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 329,
+      "total_tokens": 357
+    }
+  }
+}

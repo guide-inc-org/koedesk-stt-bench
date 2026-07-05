@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0063",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 9.12,
+  "ref_text_raw": "Cette commission a été la réponse de Martelly aux vastes protestations contre le régime qui ont commencé en octobre.",
+  "ref_text_normalized": "cette commission a été la réponse de martelly aux vastes protestations contre le régime qui ont commencé en octobre",
+  "timestamp_utc": "2026-07-05T04:52:19Z",
+  "text": "Cette commission a été la réponse de Martelly aux vastes protestations contre le régime qui ont commencé en octobre.",
+  "latency_sec": 5.5943,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Cette commission a été la réponse de Martelly aux vastes protestations contre le régime qui ont commencé en octobre.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227139,
+    "id": "_-JJar7RKbup2roP26eg2QY",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 313,
+      "total_tokens": 520
+    }
+  }
+}

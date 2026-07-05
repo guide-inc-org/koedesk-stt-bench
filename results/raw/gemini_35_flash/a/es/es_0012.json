@@ -1,0 +1,45 @@
+{
+  "utt_id": "es_0012",
+  "lang": "es",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.68,
+  "ref_text_raw": "No ha podido tomarse medicamentos para aliviar el dolor, porque está prohibido su uso en los Juegos.",
+  "ref_text_normalized": "no ha podido tomarse medicamentos para aliviar el dolor porque está prohibido su uso en los juegos",
+  "timestamp_utc": "2026-07-05T04:29:43Z",
+  "text": "No ha podido tomarse medicamentos para aliviar el dolor porque está prohibido su uso en los juegos.",
+  "latency_sec": 3.1825,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "No ha podido tomarse medicamentos para aliviar el dolor porque está prohibido su uso en los juegos.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Es8FCswFARFNMg+4aL2njEaSVTZKS3VOo9T5++BiomYCYU2okXeXHZcgbEKyS/+6ibwiW6JclwcX3MzV08iHZPTC5QrnCkehKZzUiNpoemlsQKPk9bqo7zFvfUYWmqIWLpp+JBLXVhgX2f2st67zPizwle1XUVzZ5Svlj8pFOgPlapIw92Ez7LvcU6uTg2BwG1C5rjfAQAERs1x85uJNnnFMiqk4g1D2+NM775ChparW8a1dxGKPykjXlWTq+JTy4j6OMEIsRxXrHiQ5BYfaFHKf77MjskucP4qasQl8WrEnDQXnc9+fJH6ZGgVDD1sorN/hWaM3+PtTJhiloIQwEq0U/yAb0txLXQc8iJwvVzpzYXds4SE+Ya5LGzC5Exkh4l5Vcvfq954tRsWoGfbTnMef7+v+51ZCWIzTzcnu6CweulGjXXXTQ0Bf4y+7WdTnh/L2O3pxb4g0kcn6PbgltlR9eWSDjC5ov7mycSmssfyFbacxowK4YlfKa+G/yzSvm7dISgLk8UzeGOWSx2geDg7mQUCKxTxT3Bek7/FRDTJERHyZfNUy1beVQ2dCMIUAyk8ZzR/Ogw/xJu8mF9bIkOC8wfETGdbwZKF79m75rxLZU4VqIOt+1mGjNRlm51Vv8sSVsVI09zhuetGfqNRhct9WAu5zR8yRTRlwQ20lVUIK7qvaedoCS5VZ3AOnP2DQX5cgtXegSlVj7ta14nrqdjg9NLDilWB28QNpaLa/ThNhSUvTB88hrdDxcSj0WLmP8PPslkcm6wymbUg55Bs6QOEEAMOHJxsux24g+s9VhfkPadu8Ko+MhSFBmvqwqUfn6twVIE0hyhr2tHU7v7u+ncYj2HnTXTtCYuKniW/U+Adbh8VL9Q3TsA7tqCBZXZ/7d+nfCFXaOoSELzOjWZ7h2ZMsk8+XKA7nSXfwb0e5vr3ZqTBIzs/CPaVjFlqxmN/S4N4="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225783,
+    "id": "td1Jat0zlbi-vQ-QgYGZBQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 213,
+      "total_tokens": 391
+    }
+  }
+}

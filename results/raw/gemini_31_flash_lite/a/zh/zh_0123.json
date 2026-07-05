@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0123",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.6,
+  "ref_text_raw": "罗兰多·门多萨 (Rolando Mendoza) 架起他的 M16 步枪对游客扫射。",
+  "ref_text_normalized": "罗 兰 多 门 多 萨 rolando mendoza 架 起 他 的 m16 步 枪 对 游 客 扫 射",
+  "timestamp_utc": "2026-07-05T09:18:03Z",
+  "text": "罗兰多·门多萨架起他的M16步枪对游客扫射。",
+  "latency_sec": 2.4603,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "罗兰多·门多萨架起他的M16步枪对游客扫射。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP9NMzrEml2335oleO1cz/ko4O1dZR5cJhUi1xzQFcCYiQxkNNdyRxTatYQ95j"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243083,
+    "id": "SiFKaqDoAZWJ1e8PxbzN-QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 186,
+      "total_tokens": 206
+    }
+  }
+}

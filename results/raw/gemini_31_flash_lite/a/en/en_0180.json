@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0180",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.62,
+  "ref_text_raw": "The photographers later took the place of an aged lady as she needed the lavatory. Mendoza was gunned down.",
+  "ref_text_normalized": "the photographers later took the place of an aged lady as she needed the lavatory mendoza was gunned down",
+  "timestamp_utc": "2026-07-05T03:38:03Z",
+  "text": "The photographer's layer took the place of an aged lady as she needed the lavatory. Mendoza was gunned down.",
+  "latency_sec": 3.1326,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The photographer's layer took the place of an aged lady as she needed the lavatory. Mendoza was gunned down.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPaGQI9PHnQZGHoHp0BpNi6FYNwzwgZIoHO8f9AQNxlWjPuiFpqg3R9T2xBMSB"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222683,
+    "id": "mdFJarXuJcSb1e8Pw-2buAM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 237,
+      "total_tokens": 262
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0044",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 3.78,
+  "ref_text_raw": "Une bombe a explosé devant le bureau du gouverneur général.",
+  "ref_text_normalized": "une bombe a explosé devant le bureau du gouverneur général",
+  "timestamp_utc": "2026-07-05T05:05:00Z",
+  "text": "Une bombe a explosé devant le bureau du gouverneur général.",
+  "latency_sec": 3.3435,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Une bombe a explosé devant le bureau du gouverneur général.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqcFCqQFARFNMg+vwHy/ypsjfo28mLzGHRB0zKdr9+dNwn97dKmhF/zo+pzbHDFCeQs8eMmjOAhlkNGGrQTYGYTJcFr8vjB1cT6N0FcgqxPRK5FZ5CYE9HcMqLQcSvJJRoV4+VyiKm7fc3q2sxeUWzfO4p7WHKoR8VEGplhvxWMIHoCn6urvhyXP9qlia2ISSYmhsqqpO45SKdRdqPTz1kzXx/AlLSYuwzhS6ZQ5sugjqb+Qgcg9+teRV0wAg9msE6/XnPkzuHmQeth+tkoZa5UKAe4RCgk8+ajzgU3ZUDMYo64dg95KKUpfVelWGDTtiKfy1vAuNBnWAIe/XWpx4UR05J5k0pba6vjc/01A9ONrH8bIjzBSf60Mvz4Un1GGPoTqjrKhWoAfxzDXBra2fKBfooGpOjMDPlXYIaKB5cCgfL0K30ZzB1FJLfzwVscNu+EG+2VslACtehrg9khRu5tbqQcj34ylaBkU1M7oeFvDC07WipfC0iofKlm9JzspjWIn/BfzRyEbd9AiySdadtAIASI+VnxfwcAi6wgi/NSIz/6nMmvj9WiKZX661Cjoa+Em1AY7IB7w0eS9rurwB9ioeXbzJL+4LJpnPNyBbt4BYBWQL89/2p0etiOPGjeETDVRdb77WsCyyOpCSu5M7lyicIhpTsv6Xb9v+wj4heuTN2YG4rwpME4g6Fd0BXooB7IK7Gq7fgAjr14C7StpG+PbZS/o94o6lc3R7FDQX6tHWNgLydkQCQe6uW1SLGskBcj0xYyRMc9SRAtngo3u6WGjCzZi9/U6/3l+4A1lQpilj6yBSEGkVwJe3AhLGMfV7rJwxToBiEI3WqfCTG1X53YEcKlRRSt7bhMt/WMHg5f9T80u4OCMytL5a/fq9vLrIcU596Y7tEQydw=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227900,
+    "id": "-eVJau7HIsGC0-kP_snrsQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 13,
+      "prompt_tokens": 116,
+      "total_tokens": 293
+    }
+  }
+}

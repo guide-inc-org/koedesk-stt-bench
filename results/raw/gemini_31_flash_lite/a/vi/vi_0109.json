@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0109",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.88,
+  "ref_text_raw": "Đừng phá hoại cảnh quan bằng cách viết vẽ, khắc tranh phun sơn lên tường.",
+  "ref_text_normalized": "đừng phá hoại cảnh quan bằng cách viết vẽ khắc tranh phun sơn lên tường",
+  "timestamp_utc": "2026-07-05T08:44:10Z",
+  "text": "Đừng phá hoại cảnh quan bằng cách viết, vẽ, khắc, tranh phun sơn lên tường.",
+  "latency_sec": 2.3174,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Đừng phá hoại cảnh quan bằng cách viết, vẽ, khắc, tranh phun sơn lên tường.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPJ0WWmwvoxk8tG8z/AUuGAedpABFWoDxpOLWzl8XbL4JEX8jV5gK/ZjmeV5b/"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241050,
+    "id": "WRlKareUBoOL0-kPiYjyuQQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 244,
+      "total_tokens": 265
+    }
+  }
+}

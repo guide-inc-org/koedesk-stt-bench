@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0006",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.4,
+  "ref_text_raw": "Malgré le net avantage de Del Potro pendant le deuxième set, il a fallu passer par un tie-break une fois que le score a atteint 6-6.",
+  "ref_text_normalized": "malgré le net avantage de del potro pendant le deuxième set il a fallu passer par un tie-break une fois que le score a atteint 6-6",
+  "timestamp_utc": "2026-07-05T05:01:30Z",
+  "text": "Malgré le net avantage de Del Potro pendant le deuxième set, il a fallu passer par un tie-break une fois que le score a atteint 6-6.",
+  "latency_sec": 4.0051,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Malgré le net avantage de Del Potro pendant le deuxième set, il a fallu passer par un tie-break une fois que le score a atteint 6-6.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "ErEKCq4KARFNMg8sE9W5feLlOII8zCv1tmq40x8kHqGJDHUZoFnH0AFNLEu5b64OtuaLW9TD9SPCPtvNtplRzk3qZvMx/NJkJsPrqBN749H1AK2hzrumaR/UMEIVzpXISQDxal5K/7oxGykVKvBcSsc5f9WkOktqdxpaS+cHw7Lh4XXRMoe0pKKvaH2MtMFjbuLnkIAOfnSunYWAVtyaFeCTAG50nW6lx2mOinb4LbjynHjW1vQJDKIBCOHR7Il3RCfyOIqPBS+0ymol1j1fxS1+uaiLXPIxffJASsITYZZWUS+leUmMumxoTb9vueyD2O8KEhr3vZT7oO4sHwC72ukcwDD321jVnqZ35tnSQO19FiGSUS463wzcHhJc+CO3bWaQd6hwIm993gUbtWXEEdxFNX63DQCFrIeDQQIXVHEpVssQ/IKkQIO31zA/mon/EVFDBWCzJZ0SN8zbAjXBvHe8Wh+fRqmTalvs9eDgUXwSlzB5YXJy0wWvXmzT06HLzdaM2wftRJVtMmoQDuveJmZiOLwnN6MoInXwHwyrtJLIUmejZbRXXAe4AVOAhvvUxaC4SbZU33nYh1YMgI0xp1yBHooO2MbQdV0ue8pPuopJ87C4hWO0e2ZGzwABSgMnLt+6ryGVRpOd5KPfBFbXQtKzS8TXAALQyCGm98Vzl7fuVarHWEu9ZTLm5nbDRQj/r997RbVqou+PwOPmq6VDbCIK2r9A7r3WwxJw0zulyb3gKfdrojR3G0w16AMK9NJMQnn4oi/x5cZrSytqKcmWz3GTGq3q14MYslB7lpr2M6/31hhYZCcyUUWahFXaOpIcj87xoYheaN/YxZhQCO8q4XgFh6o4Z3i2shNilyBMx2YvHEwPzmVGMPzZAm7mMDfYdN/e1X9GpEmrvmogZ4dISYVQnCNZwW8ZZUzU913/StZ2z/O6YLXH96rtPdxrhvZJ3pGDBMO1R9mF9gtX7NIp+lCUAPtp1tmQDEm+u9+ohawVYBQcc5JdEepVjTn9hKhdFA3f3jnGtOJABmZ6fHDGgxD+b56rwQNczFD7VUtynP7NqMK6abPbVGmFFulN5FJWZC06dPvbmSKm+AOQgN36fa5U+TYblOvIQSwDiK+zPOgtlES1DwSHApQJZYRwr3ZUEtpY+1rdp307Jv0PYwpWFUjTt58BVg/3M/7MeGUww6bAu3tcv3Hf+eatWXuEXgyEu9n7ZWcQu6BwGVtkse/sW9sZkNoyF8zY9xvdkknhpIw1PuVkAToZcV3wio8UxfxD1O5kkRS2/38eOVrRewT/EVotxXuCg2DcQKYPe3gXM54nPcg134FS1z1Peq4z5LGgSGhVBAbn3qiQwLA5cBXA7RQFwIoojk4C6GThMpZGLfepLZD+GaRHNHM3ygZ9rUgiXekUBR0goi+6Sh0Hpaq+zarrV2O3rKBOl5rnU/qseqHF1QT1WJ7eQk9MQAWsbLxf9KpRb7i0lbKimYSqHHZGqA8uTP+IFQroGjbEWuBdvanTfCfsoEx4y3hBvfhM3zAh9h8m+mzqNYsiUXPWV9Dd1aClTTZYjiQFyMKGvV8h5N26gE6iryYyHz5vhgcplFWTkLuqzsH3T0na8LYyjUXuHHPiDk7PhJhEck7jxM96JNmmmO+HrdcYNzJ4PkZL7h5WRhS6oA2Zg/K4hdpx/iS0om+GERwavxmz7k7UEIB3O+5AvQWD/lKJCp46N2yKaKRCrhGo9dzT32xmWV45AUj5uvmeJ+cQpyVlUBETyLQIKKCwf8S1"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227690,
+    "id": "J-VJapLfOdbk1e8P_MzduQE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 231,
+      "total_tokens": 611
+    }
+  }
+}

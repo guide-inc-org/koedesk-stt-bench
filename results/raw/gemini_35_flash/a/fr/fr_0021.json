@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0021",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 5.04,
+  "ref_text_raw": "Le chocolat chaud est conforme aux normes belges. Les jus de fruits sont chers mais excellents.",
+  "ref_text_normalized": "le chocolat chaud est conforme aux normes belges les jus de fruits sont chers mais excellents",
+  "timestamp_utc": "2026-07-05T05:02:56Z",
+  "text": "Le chocolat chaud est conforme aux normes belges. Les jus de fruits sont chers mais excellents.",
+  "latency_sec": 3.3919,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Le chocolat chaud est conforme aux normes belges. Les jus de fruits sont chers mais excellents.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "ErYECrMEARFNMg/qIF2j7RKxxRyJ8eya/TGjamc6VM9ecX0xGnZ6pNo3tPVm9fR8K+heJ5nR2UkwFn6txIpXyDzLsqtpoLQgHhYjOyh37xU2RjCwfDimKOz8yqMCebUoI68p1m2s2TGxJd8PX9AT948SOSg89Tk4xQCxuONpd1wrwYETdQtiyqhWKxXHcy7EvKkKWZwyhUBWX21a9M+WK50ClfOOCFCLXos0r0GGAqvyqb0jTsCt0lBOgpmi8IaSJc5ci7fl/pgLR33zDEY+/N5zONFqzbQx82A+woTuO49k67lHVrRM6ewdmbEnwLKzxKcPM7cvkm7DjlAh0ZeHAEMydEGpijZtH4PsHUYmds5qsAg62wxohl9EFE8OMsxTh+R/bUowmXub8Jl7JfLDB2O+8+cNnC9nRBMBz5usjn15PJByeRhn+kpozEpO0SZQwiZI3KJdAHRY6I71eWHtX8pJXSPict7rKq9hMb7FxOzcY/qHvzdU03GCIg+WQ32/yDvNdn3ApzrxMTdd3176MspBF8DXzHbYfKCxilI0q9aodMgmlhJoON0pwshpBzkOBap6ko2nunSIO7+FFmdd4dXNmhq6DOQGbnHuinZXCQfkhASpq5A8JQpr+UE3gO5EjcetrynPzmiWi62z7h62IsdaU/T5gjkN7y973AYqpJJ2/+pgXUwsxuEgDpU58wq01sN+eXD9njJzaP5U/tFeBd8MKBz/bvea9pHBqWFhi5lfJINrSYgzTxc="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227776,
+    "id": "feVJasvFLMSb1e8Pw-2buAM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 147,
+      "total_tokens": 297
+    }
+  }
+}

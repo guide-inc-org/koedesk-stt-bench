@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0164",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.48,
+  "ref_text_raw": "Los núcleos de algunos átomos son inestables, es decir que tienden a descomponerse con un mínimo o casi ningún empujón.",
+  "ref_text_normalized": "los núcleos de algunos átomos son inestables es decir que tienden a descomponerse con un mínimo o casi ningún empujón",
+  "timestamp_utc": "2026-07-05T04:43:35Z",
+  "text": "Los núcleos de algunos átomos son inestables, es decir, que tienden a descomponerse con un mínimo o casi ningún empujón.",
+  "latency_sec": 2.8635,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Los núcleos de algunos átomos son inestables, es decir, que tienden a descomponerse con un mínimo o casi ningún empujón.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPdcAw1Fk8FjRNWUPjJlnygZEcgj7gGgUEHLa5c8XLIbEVdCqX/clOf6bcYAuf"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226615,
+    "id": "9eBJaoawLfTLrfcPi72awAU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 258,
+      "total_tokens": 287
+    }
+  }
+}

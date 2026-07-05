@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0093",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.64,
+  "ref_text_raw": "ここは南アフリカの主な観光地の1つであり、南アフリカ国立公園（SAN Parks）の目玉とされています。",
+  "ref_text_normalized": "ここは南アフリカの主な観光地の1つであり 南アフリカ国立公園san parksの目玉とされています",
+  "timestamp_utc": "2026-07-05T10:18:24Z",
+  "text": "ここは南アフリカの主な観光地の1つであり、南アフリカ国立公園SANParksの目玉とされています。",
+  "latency_sec": 2.8658,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ここは南アフリカの主な観光地の1つであり、南アフリカ国立公園SANParksの目玉とされています。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP8IyTXbh9bvpKA8dhQfkktU89CeaxScno0bNvI+t7gnWeQ1KFZK+9IJp9g+xs"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246704,
+    "id": "bi9KauiHKu6d1e8P5u7EuQQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 312,
+      "total_tokens": 337
+    }
+  }
+}

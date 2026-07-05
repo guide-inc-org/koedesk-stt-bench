@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0081",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 17.76,
+  "ref_text_raw": "Berichten zufolge war er in seinen 20er Jahren. In einer Stellungnahme sagte Bieber: „Obwohl ich bei diesem tragischen Unfall weder anwesend noch direkt an ihm beteiligt war, sind meine Gedanken und Gebete bei der Familie des Opfers“.",
+  "ref_text_normalized": "berichten zufolge war er in seinen 20er jahren in einer stellungnahme sagte bieber obwohl ich bei diesem tragischen unfall weder anwesend noch direkt an ihm beteiligt war sind meine gedanken und gebete bei der familie des opfers",
+  "timestamp_utc": "2026-07-05T04:02:48Z",
+  "text": "Berichten zufolge war er in seinen 20er Jahren. In einer Stellungnahme sagte Bieber: Obwohl ich bei diesem tragischen Unfall weder anwesend noch direkt an ihm beteiligt war, sind meine Gedanken und Gebete bei der Familie des Opfers.",
+  "latency_sec": 4.7576,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Berichten zufolge war er in seinen 20er Jahren. In einer Stellungnahme sagte Bieber: Obwohl ich bei diesem tragischen Unfall weder anwesend noch direkt an ihm beteiligt war, sind meine Gedanken und Gebete bei der Familie des Opfers.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224168,
+    "id": "ZNdJaoKiKI3O1e8PpY-EiAI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 52,
+      "prompt_tokens": 466,
+      "total_tokens": 976
+    }
+  }
+}

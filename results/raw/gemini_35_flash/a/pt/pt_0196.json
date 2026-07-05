@@ -1,0 +1,45 @@
+{
+  "utt_id": "pt_0196",
+  "lang": "pt",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.24,
+  "ref_text_raw": "Os idiomas oficiais de Barcelona são catalão e espanhol. Quase metade das pessoas preferem falar catalão, grande parte o compreende, e quase todos sabem espanhol",
+  "ref_text_normalized": "os idiomas oficiais de barcelona são catalão e espanhol quase metade das pessoas preferem falar catalão grande parte o compreende e quase todos sabem espanhol",
+  "timestamp_utc": "2026-07-05T06:59:49Z",
+  "text": "Os idiomas oficiais de Barcelona são catalão e espanhol. Quase metade das pessoas prefere falar catalão, grande parte compreende, e quase todos sabem espanhol.",
+  "latency_sec": 4.7535,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Os idiomas oficiais de Barcelona são catalão e espanhol. Quase metade das pessoas prefere falar catalão, grande parte compreende, e quase todos sabem espanhol.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234789,
+    "id": "4QBKasHqOsTs1e8Pu-GUwQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 327,
+      "total_tokens": 814
+    }
+  }
+}

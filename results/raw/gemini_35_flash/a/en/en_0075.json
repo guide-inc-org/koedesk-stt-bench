@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0075",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 4.62,
+  "ref_text_raw": "The find also grants insight into the evolution of feathers in birds.",
+  "ref_text_normalized": "the find also grants insight into the evolution of feathers in birds",
+  "timestamp_utc": "2026-07-05T10:32:23Z",
+  "text": "The find also grants insight into the evolution of feathers in birds.",
+  "latency_sec": 3.549,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The find also grants insight into the evolution of feathers in birds.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpwDCpkDARFNMg9VNWUzP7OWKQ+ByZIj5YTwMK1dWInWcpCYv60qKxyTgJAix8n5MX9XXh+RIr8J/Kb+bZjmldI/pKIMBS6j3bvM8Qvo1bLQzShnEEZ7tu/xh70aArGK1erUgkKbdRuman1bs9vfJqNNZkZPAxynPqvxox3MVcUg9MzQsbiWSvuqSZ6lGlKaIXmkjb9Zy81G4QvQbMWd1tIp1UxUtbVpkWZmIw3iKRcPtPH1mrYYViy4D6YGxUvyFp+MzXVLXrQZXq3G0A632HMyN4eWEfksMQ54LjVN3z08KHM/d1Fk4YBC1mR/fWt44m4Lj6XgYeTcsNlasLvZ3SQ9GKDlUMEkdKJS9ZEHq0/YebkNWQSX5zZ6q4oxGWFOHTcB9Ep3K6OrvYpDs91Yp/LQxie3+omi+7pXb6NztLJ8UFNwdOJx4QIJ5V1NolTo9YEi5FAijCHQ0zZbembEf/wl3NpYVbGrRFMmfY/yoE1Q6fU+GGA1uobPcbnSwEw1xzeiM7SL76xVbBlypoFvpHCvN79AtQx/UXP0+YfYiw=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247543,
+    "id": "tTJKasTyAqne1e8P6I_tqAg",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 12,
+      "prompt_tokens": 137,
+      "total_tokens": 228
+    }
+  }
+}

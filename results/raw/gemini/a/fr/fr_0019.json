@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0019",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.08,
+  "ref_text_raw": "L'île de Hong Kong donne son nom au territoire de Hong Kong et représente le principal centre d'intérêt pour de nombreux touristes.",
+  "ref_text_normalized": "l'île de hong kong donne son nom au territoire de hong kong et représente le principal centre d'intérêt pour de nombreux touristes",
+  "timestamp_utc": "2026-07-05T04:46:48Z",
+  "text": "L'île de Hong Kong donne son nom au territoire de Hong Kong et représente le principal centre d'intérêt pour de nombreux touristes.",
+  "latency_sec": 3.4585,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "L'île de Hong Kong donne son nom au territoire de Hong Kong et représente le principal centre d'intérêt pour de nombreux touristes.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226808,
+    "id": "tuFJaveWKeKSvr0Pv53i8AM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 344,
+      "total_tokens": 462
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0071",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.56,
+  "ref_text_raw": "Jeder nimmt an der Gesellschaft teil und benutzt Transportsysteme. Fast jeder beklagt sich über die Transportsysteme.x",
+  "ref_text_normalized": "jeder nimmt an der gesellschaft teil und benutzt transportsysteme. fast jeder beklagt sich über die transportsysteme.x",
+  "timestamp_utc": "2026-07-05T04:01:50Z",
+  "text": "Jeder nimmt an der Gesellschaft teil und benutzt Transportsysteme. Fast jeder beklagt sich über die Transportsysteme.",
+  "latency_sec": 3.5047,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Jeder nimmt an der Gesellschaft teil und benutzt Transportsysteme. Fast jeder beklagt sich über die Transportsysteme.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpkECpYEARFNMg8Lij9r9q5HtT1XHl9dlxcSoxH+1ALr6eCXoU2/yT/RS3zJlWEwL7ZOiwxTew2x2XM67yjhRjnG+Dy+Vu8AzIiHUqLkbgV/49+2MJsT3iQKHVg4lPHgCGLm+MeTxPcIIW3TWgOT5JPO+EBickNPCvMWAlY3l5occ9QaFSqu0XxS/5MY/FDdabcH/xNTGq9Bde3Fam5CiscPc73xFCpZ+xGgztek2gMgXWCwderihy6JPpGAfXVL0Egj8Nqu3U8l+DPvRIbPvc6gTKdtO2azzflZYfG7LcqJhn946Hdoqk88wa/+AMrcpE4tXfbN/gSW4vUaL5dSg4H1Ujwns/zb5dZe/mOjZazqU64lO1owjQ78LWCnD3R077E7WDx2o9+Iu+W4Z2e9yW3w+okE/LKsWukYqCQ0qI7i80xcCWqEo45AJxdOLt8HQMtgrQWCJDEiIs8hm/pjsvscOdbQcAZnSvAO4Xy5EYMFh1TapmlfB9sQ+gnGh5XvR8nTiBjuJeCYl/lZN0VmbXWAr13+Esswl/U1EM044/J2l0AYP7IOh7Hw6k3bSS6fxPu0/KVwXcXJbBuDJ8j/hOI+Nlb5ONt/oPR0NzkC2lI8+TrqwR35zbe9vS5xKKmmDF5PZOfDBrDYz4kcXl28kk9FCGjoy8IXXp73IfUBn/Lx3UqhjdzWnJFgcYQxr636OK8YpBvhu0XQvpsD"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224110,
+    "id": "LNdJauCNGI-30-kPqfOw8Q0",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 285,
+      "total_tokens": 434
+    }
+  }
+}

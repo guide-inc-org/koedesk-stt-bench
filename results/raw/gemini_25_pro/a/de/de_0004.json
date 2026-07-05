@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0004",
+  "lang": "de",
+  "engine": "gemini_25_pro",
+  "duration_sec": 9.9,
+  "ref_text_raw": "Die Höhle befindet sich auf der Spitze eines der Berge nördlich von Mekka und ist vom Rest der Welt völlig isoliert.",
+  "ref_text_normalized": "die höhle befindet sich auf der spitze eines der berge nördlich von mekka und ist vom rest der welt völlig isoliert",
+  "timestamp_utc": "2026-07-05T03:39:40Z",
+  "text": "Die Höhle befindet sich auf der Spitze eines der Berge nördlich von Mekka und ist vom Rest der Welt völlig isoliert.",
+  "latency_sec": 3.9715,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Die Höhle befindet sich auf der Spitze eines der Berge nördlich von Mekka und ist vom Rest der Welt völlig isoliert.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222780,
+    "id": "-dFJao_eFeGHvr0PvZC5oQg",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 338,
+      "total_tokens": 364
+    }
+  }
+}

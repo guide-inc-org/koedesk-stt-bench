@@ -1,0 +1,44 @@
+{
+  "utt_id": "pt_0061",
+  "lang": "pt",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.0,
+  "ref_text_raw": "O termo \"insetos\" é utilizado por entomologistas em um sentido formal para tratar desse grupo de insetos.",
+  "ref_text_normalized": "o termo insetos é utilizado por entomologistas em um sentido formal para tratar desse grupo de insetos",
+  "timestamp_utc": "2026-07-05T06:57:34Z",
+  "text": "O termo insetos é utilizado por entomologistas em um sentido formal para tratar desse grupo de insetos.",
+  "latency_sec": 2.6693,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "O termo insetos é utilizado por entomologistas em um sentido formal para tratar desse grupo de insetos.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPlJN9GY0WI5CQmBf85Nb9Ev28jTaV7LDVWFQ7KFPMI2/iibl33ykQYuPiNNo3"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234654,
+    "id": "XABKarDQKay1vr0P8c_P-Qc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 246,
+      "total_tokens": 268
+    }
+  }
+}

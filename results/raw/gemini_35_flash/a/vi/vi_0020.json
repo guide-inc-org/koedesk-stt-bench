@@ -1,0 +1,45 @@
+{
+  "utt_id": "vi_0020",
+  "lang": "vi",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 19.5,
+  "ref_text_raw": "Vương quốc Ma-rốc đã xây dựng lại thành phố này giống như Daru l-Badya và nó được đặt tên là Casablanca bởi các thương nhân Tây Ban Nha, là những người đã lập các cơ sở giao thương ở đó.",
+  "ref_text_normalized": "vương quốc ma-rốc đã xây dựng lại thành phố này giống như daru l-badya và nó được đặt tên là casablanca bởi các thương nhân tây ban nha là những người đã lập các cơ sở giao thương ở đó",
+  "timestamp_utc": "2026-07-05T08:29:50Z",
+  "text": "Vương quốc Maroc đã xây dựng lại thành phố này giống như Dar el Beida và nó được đặt tên là Casablanca bởi các thương nhân Tây Ban Nha là những người đã lập các cơ sở giao thương ở đó.",
+  "latency_sec": 6.8073,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Vương quốc Maroc đã xây dựng lại thành phố này giống như Dar el Beida và nó được đặt tên là Casablanca bởi các thương nhân Tây Ban Nha là những người đã lập các cơ sở giao thương ở đó.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240190,
+    "id": "-RVKaveiBKOm2roPua6M0QE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 509,
+      "total_tokens": 1429
+    }
+  }
+}

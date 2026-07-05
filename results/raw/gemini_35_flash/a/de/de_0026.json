@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0026",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.8,
+  "ref_text_raw": "Man sieht nichts außer dem darüber liegenden, klaren, wunderschönen Himmel und den zahlreichen umliegenden Bergen. Vom Innern der Höhle aus ist sehr wenig von dieser Welt zu sehen oder zu hören.",
+  "ref_text_normalized": "man sieht nichts außer dem darüber liegenden klaren wunderschönen himmel und den zahlreichen umliegenden bergen vom innern der höhle aus ist sehr wenig von dieser welt zu sehen oder zu hören",
+  "timestamp_utc": "2026-07-05T03:57:55Z",
+  "text": "Man sieht nichts außer dem darüber liegenden, klaren, wunderschönen Himmel und den zahlreichen und umliegenden Bergen. Vom Innern der Höhle aus ist es sehr wenig von dieser Welt zu sehen oder zu hören.",
+  "latency_sec": 4.953,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Man sieht nichts außer dem darüber liegenden, klaren, wunderschönen Himmel und den zahlreichen und umliegenden Bergen. Vom Innern der Höhle aus ist es sehr wenig von dieser Welt zu sehen oder zu hören.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223875,
+    "id": "QNZJarOoBK_f1e8Pio2NuQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 291,
+      "total_tokens": 786
+    }
+  }
+}

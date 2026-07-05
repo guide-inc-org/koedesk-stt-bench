@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0005",
+  "lang": "th",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.2,
+  "ref_text_raw": "พื้นผิวของดวงจันทร์ประกอบด้วยหินและฝุ่น พื้นผิวชั้นนอกของดวงจันทร์เรียกว่าเปลือก",
+  "ref_text_normalized": "พื้นผิวของดวงจันทร์ประกอบด้วยหินและฝุ่น พื้นผิวชั้นนอกของดวงจันทร์เรียกว่าเปลือก",
+  "timestamp_utc": "2026-07-05T07:34:33Z",
+  "text": "พื้น ผิว ของ ดวง จันทร์ ประกอบ ด้วย หิน และ ฝุ่น พื้น ผิว ชั้น นอก ของ ดวง จันทร์ เรียก ว่า เปลือก",
+  "latency_sec": 3.3801,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "พื้น ผิว ของ ดวง จันทร์ ประกอบ ด้วย หิน และ ฝุ่น พื้น ผิว ชั้น นอก ของ ดวง จันทร์ เรียก ว่า เปลือก",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236873,
+    "id": "BwlKauDVIOnF0-kPwPbOqAc",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 252,
+      "total_tokens": 377
+    }
+  }
+}

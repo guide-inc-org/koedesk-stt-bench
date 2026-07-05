@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0124",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 8.88,
+  "ref_text_raw": "La monnaie officielle des Îles Malouines est la livre des Îles Malouines (FKP) dont la valeur est équivalente à une livre sterling (GBP).",
+  "ref_text_normalized": "la monnaie officielle des îles malouines est la livre des îles malouines fkp dont la valeur est équivalente à une livre sterling gbp",
+  "timestamp_utc": "2026-07-05T05:01:09Z",
+  "text": "La monnaie officielle des îles Malouines est la livre des îles Malouines (FKP), dont la valeur est équivalente à un livre sterling (GBP).",
+  "latency_sec": 22.4254,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "La monnaie officielle des îles Malouines est la livre des îles Malouines (FKP), dont la valeur est équivalente à un livre sterling (GBP).",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227669,
+    "id": "_-RJatClN5ja1e8P6IqesQI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 306,
+      "total_tokens": 2595
+    }
+  }
+}

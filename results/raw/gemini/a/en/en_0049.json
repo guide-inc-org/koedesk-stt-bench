@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0049",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 6.42,
+  "ref_text_raw": "The hot chocolate is up to Belgian standards. Fruit juices are pricey but excellent.",
+  "ref_text_normalized": "the hot chocolate is up to belgian standards fruit juices are pricey but excellent",
+  "timestamp_utc": "2026-07-05T10:22:44Z",
+  "text": "The hot chocolate is up to Belgian standards. Fruits juices are pricey but excellent.",
+  "latency_sec": 5.1137,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The hot chocolate is up to Belgian standards. Fruits juices are pricey but excellent.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246965,
+    "id": "cDBKavLsNYGM0-kP4LLDwQk",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 227,
+      "total_tokens": 243
+    }
+  }
+}

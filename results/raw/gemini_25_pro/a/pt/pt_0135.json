@@ -1,0 +1,39 @@
+{
+  "utt_id": "pt_0135",
+  "lang": "pt",
+  "engine": "gemini_25_pro",
+  "duration_sec": 19.14,
+  "ref_text_raw": "Não é, de fato, somente experimentação; um experimento é um teste usado para eliminar uma das possíveis hipóteses ou mais, fazer perguntas. Fazer observações também guia uma pesquisa científica.",
+  "ref_text_normalized": "não é de fato somente experimentação um experimento é um teste usado para eliminar uma das possíveis hipóteses ou mais fazer perguntas fazer observações também guia uma pesquisa científica",
+  "timestamp_utc": "2026-07-05T06:47:01Z",
+  "text": "não é, de fato, somente experimentação. Um experimento é um teste usado para eliminar uma das possíveis hipóteses ou mais. Fazer perguntas, fazer observações também guia uma pesquisa científica.",
+  "latency_sec": 4.4996,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "não é, de fato, somente experimentação. Um experimento é um teste usado para eliminar uma das possíveis hipóteses ou mais. Fazer perguntas, fazer observações também guia uma pesquisa científica.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234021,
+    "id": "4v1JarucLPjG2roPjLn34AI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 634,
+      "total_tokens": 706
+    }
+  }
+}

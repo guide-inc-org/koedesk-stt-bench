@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0030",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 5.64,
+  "ref_text_raw": "Virtual teams are held to the same standards of excellence as conventional teams, but there are subtle differences.",
+  "ref_text_normalized": "virtual teams are held to the same standards of excellence as conventional teams but there are subtle differences",
+  "timestamp_utc": "2026-07-05T10:28:53Z",
+  "text": "Virtual teams are held to the same standard of excellence as conventional teams, but there are subtle differences.",
+  "latency_sec": 3.6684,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Virtual teams are held to the same standard of excellence as conventional teams, but there are subtle differences.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "ErIECq8EARFNMg9lb3Uh6NKPX78TukOqFx+BViD2qRFahfIXXG47zz5XpRzUd9F+LGBRzuq4T8KE/FuAdkzsQdF4blDzDuqnYEilK1bEMt/wQCJDG17u/e9CaPwvtnYmEVCP4qgqQJQ7vphn8l5j0zhbvMHDKIw4tTgtZZ4y028pzWCqQ+vSEgoaV7Uh5jL2o6MEZtIvR1Dv5RMbOwtNjBeBKdTqcP8FrANjoMb4FyynaAt6Eh03CzXdlP+pnzWIXx4ARcHeGI04NfuIsuiWh+JsALFRlAdHrw7gWtFuEOjqnfsuQkHFL3avHHi8xO3XUAj9EgQQIwAi4HWl+ifnN70BOhYltWobsmd12qRBqN3Mv+48G0A2VehaF1KZYWicWLeB/2bMbI6FhrdpIY9cf6rxu9wW8nBaW3rVIN5pY6XdcGN4bMO65ymIwkVm3SwTSW+dPpU2XdMxBYadLkGRETUzw34fZq3B6Sby8OfRLLfhiM/V6w9Vt+/hKCpRf3oFM2xdFDb3OsdRW7t7hzQsec+SFyNusve/EelQcE+1wiBCHwVFI4qF5RgDjvnfndUPD3244D58xqUg7sNmpGwryCdmLfIz7Apas1LSjBHGREVHW5Ojc3aUQewra+68bFtwYTmTOu5UvVdZoBwtHXkc3f0++Hi7aGPsY2bYr+mrWUFbqZTsdJJkBPMHuhTOkdmu+RieMhgvC59P5yXENdKJZmpfgmGYMOAbWo66YR42CF9pFJMwVg=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247333,
+    "id": "4jFKatiqIbyB0-kP2bOhwAc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 162,
+      "total_tokens": 313
+    }
+  }
+}

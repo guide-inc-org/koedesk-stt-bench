@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0097",
+  "lang": "ko",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.62,
+  "ref_text_raw": "그 주지사는 부상자 중 19명이 경찰관이라고 말했다.",
+  "ref_text_normalized": "그 주지사는 부상자 중 19명이 경찰관이라고 말했다",
+  "timestamp_utc": "2026-07-05T06:00:11Z",
+  "text": "그 주지사는 부상자 중 19명이 경찰관이라고 말했다.",
+  "latency_sec": 3.5869,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "그 주지사는 부상자 중 19명이 경찰관이라고 말했다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231211,
+    "id": "6fJJatT9Eaew0-kPzeiWSA",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 17,
+      "prompt_tokens": 361,
+      "total_tokens": 402
+    }
+  }
+}

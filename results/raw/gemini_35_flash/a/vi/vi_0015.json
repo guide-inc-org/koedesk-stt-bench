@@ -1,0 +1,45 @@
+{
+  "utt_id": "vi_0015",
+  "lang": "vi",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.3,
+  "ref_text_raw": "Tuy nhiên, sau khi thua gôn của đội trưởng, Ấn Độ chỉ thực hiện được 36 lần chạy và thua 7 gôn trước khi kết thúc hiệp thi đấu.",
+  "ref_text_normalized": "tuy nhiên sau khi thua gôn của đội trưởng ấn độ chỉ thực hiện được 36 lần chạy và thua 7 gôn trước khi kết thúc hiệp thi đấu",
+  "timestamp_utc": "2026-07-05T08:29:23Z",
+  "text": "Tuy nhiên sau khi thu gom của đội trưởng, Ấn Độ chỉ thực hiện được 36 lần chạy và thua bảy gôn trước khi kết thúc hiệp thi đấu.",
+  "latency_sec": 6.3292,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Tuy nhiên sau khi thu gom của đội trưởng, Ấn Độ chỉ thực hiện được 36 lần chạy và thua bảy gôn trước khi kết thúc hiệp thi đấu.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240163,
+    "id": "3hVKapXXDMGC0-kP_snrsQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 329,
+      "total_tokens": 1125
+    }
+  }
+}

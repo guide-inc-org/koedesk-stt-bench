@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0185",
+  "lang": "th",
+  "engine": "gemini_25_pro",
+  "duration_sec": 19.2,
+  "ref_text_raw": "การประกาศปกติในรถไฟใต้ดินจะประกาศเป็นภาษาคาตาลันเท่านั้น แต่ระบบอัตโนมัติจะประกาศการหยุดชะงักที่ไม่ได้วางแผนไว้ในหลายภาษา รวมถึงภาษาสเปน อังกฤษ ฝรั่งเศส อาหรับ และญี่ปุ่น",
+  "ref_text_normalized": "การประกาศปกติในรถไฟใต้ดินจะประกาศเป็นภาษาคาตาลันเท่านั้น แต่ระบบอัตโนมัติจะประกาศการหยุดชะงักที่ไม่ได้วางแผนไว้ในหลายภาษา รวมถึงภาษาสเปน อังกฤษ ฝรั่งเศส อาหรับ และญี่ปุ่น",
+  "timestamp_utc": "2026-07-05T07:59:10Z",
+  "text": "การประกาศปกติในรถไฟใต้ดินจะประกาศเป็นภาษาคาตาลันเท่านั้น แต่ระบบอัตโนมัติจะประกาศการหยุดชะงักที่ไม่ได้วางแผนไว้ในหลายภาษา รวมถึงภาษาสเปน อังกฤษ ฝรั่งเศส อาหรับ และญี่ปุ่น",
+  "latency_sec": 7.475,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "การประกาศปกติในรถไฟใต้ดินจะประกาศเป็นภาษาคาตาลันเท่านั้น แต่ระบบอัตโนมัติจะประกาศการหยุดชะงักที่ไม่ได้วางแผนไว้ในหลายภาษา รวมถึงภาษาสเปน อังกฤษ ฝรั่งเศส อาหรับ และญี่ปุ่น",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238350,
+    "id": "yA5KavewGa7H0-kPp7WTuQM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 52,
+      "prompt_tokens": 636,
+      "total_tokens": 1087
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0189",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.36,
+  "ref_text_raw": "He has been unable to take the drugs needed to overcome his pain as they are banned from the Games.",
+  "ref_text_normalized": "he has been unable to take the drugs needed to overcome his pain as they are banned from the games",
+  "timestamp_utc": "2026-07-05T03:38:36Z",
+  "text": "He has been unable to take the drugs needed to overcome his pain as they are banned from the games.",
+  "latency_sec": 3.5206,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "He has been unable to take the drugs needed to overcome his pain as they are banned from the games.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP4xYvwwyYpwuUgEZAb119qPCfrui5CiwlOKMtR+uI6VNoQ/TkWMpGHXlvtGLA"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222717,
+    "id": "utFJavn_Lsz71e8PxKycwAI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 180,
+      "total_tokens": 201
+    }
+  }
+}

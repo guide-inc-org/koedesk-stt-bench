@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0117",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.62,
+  "ref_text_raw": "Im warmen Klima des Mittleren Ostens kamen Häusern keine so große bedeutung zu.",
+  "ref_text_normalized": "im warmen klima des mittleren ostens kamen häusern keine so große bedeutung zu",
+  "timestamp_utc": "2026-07-05T04:06:50Z",
+  "text": "Im warmen Klima des Mittleren Ostens kam den Häusern keine so große Bedeutung zu.",
+  "latency_sec": 2.6582,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Im warmen Klima des Mittleren Ostens kam den Häusern keine so große Bedeutung zu.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPE6LEP4OGOn7a3m45DSqt09qcyCBDijFgObUhRnS2tiJjzGSorrhMYlFjdGTR"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224410,
+    "id": "WdhJaunaFYGM0-kP4LLDwQk",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 287,
+      "total_tokens": 307
+    }
+  }
+}

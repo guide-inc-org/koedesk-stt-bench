@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0186",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.18,
+  "ref_text_raw": "Представьте, что лыжный маршрут — это пешеходный маршрут.",
+  "ref_text_normalized": "представьте что лыжный маршрут это пешеходный маршрут",
+  "timestamp_utc": "2026-07-05T07:38:30Z",
+  "text": "Представьте, что лыжный маршрут — это пешеходный маршрут.",
+  "latency_sec": 3.3671,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Представьте, что лыжный маршрут — это пешеходный маршрут.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPmdQ7nDpbwA9ykHzfxJdW59EhMhuAxo+y7Z4BjdZtIYMhXVwyjlGP06Uf5iFQ"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237110,
+    "id": "9AlKaojyDOznosUP7JmIyQY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 176,
+      "total_tokens": 194
+    }
+  }
+}

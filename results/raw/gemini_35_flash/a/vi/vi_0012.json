@@ -1,0 +1,45 @@
+{
+  "utt_id": "vi_0012",
+  "lang": "vi",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.46,
+  "ref_text_raw": "Cái này gọi là độ pH của hóa chất. Bạn có thể tạo ra chất chỉ thị bằng nước ép bắp cải đỏ.",
+  "ref_text_normalized": "cái này gọi là độ ph của hóa chất bạn có thể tạo ra chất chỉ thị bằng nước ép bắp cải đỏ",
+  "timestamp_utc": "2026-07-05T08:29:04Z",
+  "text": "Cái này gọi là độ pH của hóa chất. Bạn có thể tạo ra chất chỉ thị bằng nước ép bắp cải đỏ.",
+  "latency_sec": 3.4877,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Cái này gọi là độ pH của hóa chất. Bạn có thể tạo ra chất chỉ thị bằng nước ép bắp cải đỏ.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqkFCqYFARFNMg+SmTzTydB3m1sk20LBH4G3bykc4FCFlXT3U/LAxaaI5vkPjNZLoWBoNxFKYrbVPipVpV/Y/yCojzgcEmuBcIdMWOpaFGo5yGY+F4LqWnIU2oo1tuArnMW59hKrXOU6v9L416nO8D2nTHQ+RtuAKSIc7afzXvb+gO9y6WGJ5DgpGL+cQtms4ei8yPbRuIfEZ+/IabzypMR2de4MNX4mK+xftcGKrhzYNeyHuyNSv2DJGUC98g8cvZFlPM7wnh2PDh/3MHYS12L5n2azvi+7T2ehhqSWSMbB+TJutgeTXGCHDGrVf7KFo5DGF6wFWvF4d6UJoOOWGoYFrmKSzaeu/zxWkgOlbMXwgWv5KXB0wVCjy4dnLp87SDQGQx55f//nRmeAJLz14xA1qzRHwfIiFpeTnPBcr1G+gUVEbpUIrgK5taXAKzqj76t3IfoVcpM5XimQDkNpTOp7OOvqfqA4YcKzoaPvGAEHLTRCq20YQPgvm5TBSsBni41go2axybJwSRZ4Rq3O14HE9ZGTY/pyanzDgAQEsFi3c6vADSFHG0pI1Xgn5e2zEGG1jbPfccjBP10UJyUYjoszytIHZ49mMk/EhfBXciBtXx34ewGZHrp3KPIRZq7CeIicNlzP+Wx+WnOb8I755G/4iFHwriJGEbEneYzKDIxPwg//PoJ7NgHoo9iWLNjxeQOAsTVxbIcZ2NpRwc0bmQYTGtukHbsNVUoxPPYSpqEOQFKBWAjnmspc0wdN5rwxV6MrYSFRaAZ6A+HJ3DWFUMiNBZHKJYp7eaw3iPB9PlC/PDqBy8fng8A6+2j2Ncm7cG0CJ/Hk9F5z/gMjTxF0J3rGnU5n782vrxcNFr8jadxeXiIGYP8vT2LRSx/v3p6Q4VLeRNPrIGJcy3CG"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240144,
+    "id": "zhVKar_sJ66_vr0PmOySuQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 308,
+      "total_tokens": 520
+    }
+  }
+}

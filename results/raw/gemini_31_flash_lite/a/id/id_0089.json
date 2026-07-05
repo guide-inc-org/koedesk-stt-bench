@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0089",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 5.7,
+  "ref_text_raw": "Aerosmith meniadakan konser tur mereka yang tersisa.",
+  "ref_text_normalized": "aerosmith meniadakan konser tur mereka yang tersisa",
+  "timestamp_utc": "2026-07-05T05:50:27Z",
+  "text": "Aerosmith meniadakan konser tur mereka yang tersisa.",
+  "latency_sec": 2.9789,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Aerosmith meniadakan konser tur mereka yang tersisa.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPTrsbx1VQPwoiwJxyqvkmj/CvFhSN2z5IDD32snz4+LhN8DvzRXih1M34K8Ov"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230627,
+    "id": "ofBJaqzHM8P_2roPvqa06AU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 13,
+      "prompt_tokens": 164,
+      "total_tokens": 177
+    }
+  }
+}

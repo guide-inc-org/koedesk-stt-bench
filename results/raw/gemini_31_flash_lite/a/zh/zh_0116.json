@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0116",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.32,
+  "ref_text_raw": "在某些航线上，大型公司有自己的飞机，但对于其他航线和小公司来说，就有问题了。",
+  "ref_text_normalized": "在 某 些 航 线 上 大 型 公 司 有 自 己 的 飞 机 但 对 于 其 他 航 线 和 小 公 司 来 说 就 有 问 题 了",
+  "timestamp_utc": "2026-07-05T09:17:37Z",
+  "text": "在某些航线上，大型公司有自己的飞机，但对于其他航线和小公司来说，就有问题了。",
+  "latency_sec": 2.9451,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "在某些航线上，大型公司有自己的飞机，但对于其他航线和小公司来说，就有问题了。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPlYgsEX1KxEnL2n66baMMbWpGUOk+mvV9NmpPKen/JAs3wg2PJvULQeiffmwJ"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243057,
+    "id": "LyFKau3qPPTF1e8P96Xb2QI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 379,
+      "total_tokens": 403
+    }
+  }
+}

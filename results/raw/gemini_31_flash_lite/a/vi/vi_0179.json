@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0179",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.1,
+  "ref_text_raw": "Nó mỏng hơn dưới vùng maria (biển) và dày hơn ở vùng cao.",
+  "ref_text_normalized": "nó mỏng hơn dưới vùng maria biển và dày hơn ở vùng cao",
+  "timestamp_utc": "2026-07-05T08:48:30Z",
+  "text": "nó mỏng hơn ở dưới vùng Maria biển và dày hơn ở vùng cao.",
+  "latency_sec": 2.8868,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "nó mỏng hơn ở dưới vùng Maria biển và dày hơn ở vùng cao.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPFrgjdPQTBobTBVaTOfzdNVOuZSINDXEXbbBiPHhpLGws8v5+XtBX9o/ZpQn4"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241309,
+    "id": "XBpKarW6HtDF1e8P2K7MiQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 17,
+      "prompt_tokens": 224,
+      "total_tokens": 241
+    }
+  }
+}

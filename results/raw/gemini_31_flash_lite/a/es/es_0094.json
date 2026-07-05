@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0094",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.56,
+  "ref_text_raw": "En la mañana de ayer, en Gaziantep, Turquía, un coche bomba mató a dos oficiales de policía e hirió a más de otras veinte personas.",
+  "ref_text_normalized": "en la mañana de ayer en gaziantep turquía un coche bomba mató a dos oficiales de policía e hirió a más de otras veinte personas",
+  "timestamp_utc": "2026-07-05T04:39:24Z",
+  "text": "En la mañana de ayer, en Gaziantep, Turquía, un coche bomba mató a dos oficiales de policía e hirió a más de otras 20 personas.",
+  "latency_sec": 2.7573,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "En la mañana de ayer, en Gaziantep, Turquía, un coche bomba mató a dos oficiales de policía e hirió a más de otras 20 personas.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPLiUIJ7/D++l0qwxHLpz86C7BSnnG2A5FUf5rIhqHtCTOgQzIKm/IEQLZowZ/"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226364,
+    "id": "-99JaunFBp2C0-kPjp3EsQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 285,
+      "total_tokens": 321
+    }
+  }
+}

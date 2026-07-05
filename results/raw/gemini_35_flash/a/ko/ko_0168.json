@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0168",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 16.38,
+  "ref_text_raw": "\"레이튼(Layton)은 총리와의 면담에서 보수당의 환경 법안을 \"\"철저히, 완전하게 재작성\"\" 할 것을 요청하며, 보수당의 환경 법안에 대한 변경을 촉구했다.\"",
+  "ref_text_normalized": "\"레이튼layton은 총리와의 면담에서 보수당의 환경 법안을 \"철저히 완전하게 재작성\" 할 것을 요청하며 보수당의 환경 법안에 대한 변경을 촉구했다.",
+  "timestamp_utc": "2026-07-05T06:24:29Z",
+  "text": "레이튼 레이튼은 총리와의 면담에서 보수당의 환경법안을 철저히 완전하게 재작성할 것을 요청하며 보수당의 환경법안에 대한 변경을 촉구했다",
+  "latency_sec": 3.5612,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "레이튼 레이튼은 총리와의 면담에서 보수당의 환경법안을 철저히 완전하게 재작성할 것을 요청하며 보수당의 환경법안에 대한 변경을 촉구했다",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EvwECvkEARFNMg8nvyipBSdc8XsdBUbX1sK4euTJnKWbLiP+BMp8Jbve0Si+nkudFtbIWkrmYeGxoSwx76QBj6BsBYRo5zK0oEgGdzD5rFS6PO+2dcwSqxWrQVOAHNBnOoqagOwEeXZkuD6wxkDkPo0ivj63P8mlPdwvuhMBE03eVbrd5wHI2gWCzOloXAFtFaWiLajASTYYZw/hcX38bz53+T+RmVDZZre0guZ4c0VQiKhXyVnjimNZYi9/kjZSESKMJ23ebRlUg2MRTMw0vi7/c768ZmiirOPpD3IYLm1KcfoijDwDhvq+PJs68tZOK4x3FDBj+fwVNUKHbdeqGWT0miHknto8MesQbuKgA/4kKObEyyJO6mRvILNa6iq4EFZtXe6BEa9nk4sjBvzqFYkDQj0YqomP0uOfZ4O/L5gL/+ozyCkAvBkpys6WMiMpxgqWMcRZjVYRQWlNGjs7rWS29uwiltVMfYmWduFO78L+eexaaSvXtoHpjzsh6oAvBxg7DOTAUcWr6UVhx1hmiIaLTeSFE4Rc92OyB6O+dy9NaWvqOGWetcX0kUuVHgdaURuHjyTjRHLN+CB0jd3jEd0ztueLn0l8El00gCEATAe8l5auuriPaV5R8wiYDJ5MDjwIUenWIKtEoNhW7NLw8sISRwEyR5nDJs6/OeWmTuxGW0gT09HA/4jvMMdrXosZqbZssx2XimVcQX2imOpd1w0rB6y1qlzG9dDMNFyFpMuZA/UeqOmQvmGVHLS9fSNrwFOuI6kri23jzdGb2o5gGt2WrSuF9PHJsa3NJ5otgdb3yDeWvu0l+nbXCSOO0L8HTyW/bY0NSavq7OosjpwF"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232669,
+    "id": "mvhJaqaULpCe1e8PjsLZ0AQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 431,
+      "total_tokens": 618
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0074",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.42,
+  "ref_text_raw": "Everything in the Universe is made of matter. All matter is made of tiny particles called atoms.",
+  "ref_text_normalized": "everything in the universe is made of matter all matter is made of tiny particles called atoms",
+  "timestamp_utc": "2026-07-05T10:32:19Z",
+  "text": "Everything in the universe is made of matter. All matter is made of tiny particles called atoms.",
+  "latency_sec": 3.6035,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Everything in the universe is made of matter. All matter is made of tiny particles called atoms.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqAFCp0FARFNMg+KUhAVNAtXsJ4vvBIZ/Fc4EhUanSC8xP+r+Xi5kBzJ5EDWsYwJo84+ZssvhX6ZLWddGspqiKUqWijKocGocBQ7J6Msty1yuCtYT+4Ed+GXT9MMTJPd3mQrHRxEayDJox7AfXXzXGgVBTCZDUtIxpMYlC53RScz9302r0SAKtZ9aBDDdyT/Ql4T8BwAj4QxYAv9bsgoexsbfgE1M0DicpEwtUa4QL1V+LcbyS1KMplZcnLqKiHuL9+uCerAXU2SLYPCFLR9k+DdymVdVEDO76lLTSAUrzWzvNT7CpbCgi114WR8VsjL9kWlexOrQQH0kgYr9x39d7j/qdPfKh+wHax2+znz0rl6SksSiCNmsVIj2MgBwxKh3LebI3hzbaQfzrAMs3n6a+xHeyxhJRpF8Jr1/B0dUAXIp71UiliAFI/Tjzak8EwAtVvyNEIXtZ0UDrDqqEwuWUtQ8BaA6vQs1AmLcXv7/QbSXrLrqJrfiDaLH1eH7vWRBK6tVnkslMhJVRVze3wEeHAJTPNQWRkLxatULBUNj8GrO0x8G2NQiuxYUV6USd0BKFbeavouLQmIoTppXNEaPzFjaBvkBLxCDC1YvJQSpvCZSZb6LWOnDJ31SaRQWLOVkzgG5rRY9nYle4Cp1Kf+K1EvdUjCOzEQTMLOXbZEzoYww2/KqwGXVMc9OxYZ1wz3GW3pxdANYbCF8uPdkKLL1HvIBbxr1V1xnPm+1FoJnsScBhosUT+mULq+86gMA88qMZ8Xs7X+bZWnTrP+QbnigGrdNF0Kl7WSnlZcKRDx2JZie6dTC5JwBs1LX/giR/MnnSPu2V9i8CbywcqfH5vMaJFCo9JRSqdKkqJV2mYtRSGnUJCsxdczTeUCbrSNOXS4sNn3"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247539,
+    "id": "sDJKaumBMJCe1e8PjsLZ0AQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 182,
+      "total_tokens": 336
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "vi_0074",
+  "lang": "vi",
+  "engine": "gemini_25_pro",
+  "duration_sec": 11.64,
+  "ref_text_raw": "Đây là những bãi biển gia đình đôi khi đông đúc có nhiều cửa hàng dọc theo bờ biển. Nơi đây có thể bơi lội an toàn.",
+  "ref_text_normalized": "đây là những bãi biển gia đình đôi khi đông đúc có nhiều cửa hàng dọc theo bờ biển nơi đây có thể bơi lội an toàn",
+  "timestamp_utc": "2026-07-05T08:21:43Z",
+  "text": "Đây là những bãi biển gia đình, đôi khi đông đúc. Có nhiều cửa hàng dọc theo bờ biển. Nơi đây có thể bơi lội an toàn.",
+  "latency_sec": 6.3177,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Đây là những bãi biển gia đình, đôi khi đông đúc. Có nhiều cửa hàng dọc theo bờ biển. Nơi đây có thể bơi lội an toàn.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239703,
+    "id": "EhRKavixGczLrfcPwe_16Qs",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 394,
+      "total_tokens": 798
+    }
+  }
+}

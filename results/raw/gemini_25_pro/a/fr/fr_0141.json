@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0141",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 15.36,
+  "ref_text_raw": "L'Europe est un continent relativement petit, mais comportant de nombreux pays indépendants. Dans des circonstances classiques, voyager à travers plusieurs pays implique donc de devoir procéder à plusieurs demandes de visa et de subir plusieurs vérifications de passeport.",
+  "ref_text_normalized": "l'europe est un continent relativement petit mais comportant de nombreux pays indépendants dans des circonstances classiques voyager à travers plusieurs pays implique donc de devoir procéder à plusieurs demandes de visa et de subir plusieurs vérifications de passeport",
+  "timestamp_utc": "2026-07-05T05:02:53Z",
+  "text": "L'Europe est un continent relativement petit mais comportant de nombreux pays indépendants. En des circonstances classiques, voyager à travers plusieurs pays implique dans le donc de devoir procéder à plusieurs demandes de visa et de subir plusieurs vérifications de passeport.",
+  "latency_sec": 7.5771,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "L'Europe est un continent relativement petit mais comportant de nombreux pays indépendants. En des circonstances classiques, voyager à travers plusieurs pays implique dans le donc de devoir procéder à plusieurs demandes de visa et de subir plusieurs vérifications de passeport.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227773,
+    "id": "d-VJarzvCevYvr0P_YW_6QM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 49,
+      "prompt_tokens": 513,
+      "total_tokens": 966
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0053",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 17.04,
+  "ref_text_raw": "앞서 비용 절감과 기능성 요인을 위해 전 세계적으로 출시된 ASUS Eee PC는 2007년 타이베이 IT Month에서 화제가 되었다.",
+  "ref_text_normalized": "앞서 비용 절감과 기능성 요인을 위해 전 세계적으로 출시된 asus eee pc는 2007년 타이베이 it month에서 화제가 되었다",
+  "timestamp_utc": "2026-07-05T06:22:02Z",
+  "text": "앞서 비용 절감과 기능성 요인을 위해 전 세계적으로 출시된 아수스 Eee PC는 2007년 타이베이 IT 먼스에서 화제가 되었다.",
+  "latency_sec": 3.1248,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "앞서 비용 절감과 기능성 요인을 위해 전 세계적으로 출시된 아수스 Eee PC는 2007년 타이베이 IT 먼스에서 화제가 되었다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP1Z7QlN7Zh7oZ4PJKGRaOcIcL8gblMY7n/3jk1VouVqGyzty3h31MZ6WPe3V/"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232522,
+    "id": "CPhJapGhF9Lu1e8P1-bXkAI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 447,
+      "total_tokens": 486
+    }
+  }
+}

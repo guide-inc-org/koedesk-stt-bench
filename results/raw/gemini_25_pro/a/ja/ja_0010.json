@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0010",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 11.94,
+  "ref_text_raw": "残念ながら、運転手の行動を100%の確率で予測することはできないので、交通の流れを研究することは困難です。",
+  "ref_text_normalized": "残念ながら 運転手の行動を100%の確率で予測することはできないので 交通の流れを研究することは困難です",
+  "timestamp_utc": "2026-07-05T10:02:40Z",
+  "text": "残念ながら、運転手の行動を100%の確率で予測することはできないので、交通の流れを研究することは困難です。",
+  "latency_sec": 6.1464,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "残念ながら、運転手の行動を100%の確率で予測することはできないので、交通の流れを研究することは困難です。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783245760,
+    "id": "uytKapr9EI-_vr0P4-jhmAM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 404,
+      "total_tokens": 794
+    }
+  }
+}

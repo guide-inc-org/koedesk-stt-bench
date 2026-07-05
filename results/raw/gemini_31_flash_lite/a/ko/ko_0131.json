@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0131",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 4.2,
+  "ref_text_raw": "수소 이온은 전자가 벗겨져 나간 양성자이다. (수소 원자는 양성자 하나와 전자 하나로 구성되므로)",
+  "ref_text_normalized": "수소 이온은 전자가 벗겨져 나간 양성자이다 수소 원자는 양성자 하나와 전자 하나로 구성되므로",
+  "timestamp_utc": "2026-07-05T06:26:48Z",
+  "text": "수소 이온은 전자가 벗겨져 나간 양성자이다.",
+  "latency_sec": 2.7613,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "수소 이온은 전자가 벗겨져 나간 양성자이다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPSnBz4XRce3NM8lOv+kE8My2rLUdat0EFYitDrHJLHgohMT9bzKND43Ta5zwi"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232808,
+    "id": "JvlJarfbIrbR0-kPp6yr6QI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 17,
+      "prompt_tokens": 126,
+      "total_tokens": 143
+    }
+  }
+}

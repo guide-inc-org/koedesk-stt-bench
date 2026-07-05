@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0133",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.82,
+  "ref_text_raw": "Since the foundation of Asunción in 1537, Paraguay has managed to keep a lot of its indigenous character and identity.",
+  "ref_text_normalized": "since the foundation of asunción in 1537 paraguay has managed to keep a lot of its indigenous character and identity",
+  "timestamp_utc": "2026-07-05T03:35:08Z",
+  "text": "Since the foundation of Asunción in 1537, Paraguay has managed to keep a lot of its indigenous character and identity.",
+  "latency_sec": 2.6394,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Since the foundation of Asunción in 1537, Paraguay has managed to keep a lot of its indigenous character and identity.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPjQV0+9hu7t9FOie4dQ6d1DgRtJWCsiiVlO8PZB7Nbskt4RMBmoGbDXfNE9h/"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222508,
+    "id": "69BJauSiEOKf2roP6tmdgAM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 317,
+      "total_tokens": 344
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0037",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.78,
+  "ref_text_raw": "他一直无法用药物来缓解疼痛，因为比赛禁止参赛者服用这些药物。",
+  "ref_text_normalized": "他 一 直 无 法 用 药 物 来 缓 解 疼 痛 因 为 比 赛 禁 止 参 赛 者 服 用 这 些 药 物",
+  "timestamp_utc": "2026-07-05T09:12:55Z",
+  "text": "他一直无法用药物来缓解疼痛，因为比赛禁止参赛者服用这些药物。",
+  "latency_sec": 2.7402,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "他一直无法用药物来缓解疼痛，因为比赛禁止参赛者服用这些药物。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPaqSjRKqihvUCyrUnimXRwhUVjPBrURxHaIPXELMs8BrkCmkiyJ6OMfK6m0X8"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242775,
+    "id": "FiBKasKXEp2D0-kP0faGoAE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 266,
+      "total_tokens": 284
+    }
+  }
+}

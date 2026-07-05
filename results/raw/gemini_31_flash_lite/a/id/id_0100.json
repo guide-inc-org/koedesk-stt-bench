@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0100",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 41.28,
+  "ref_text_raw": "Jika Anda ingin berada dekat dengan pertunjukannya, maka Anda harus datang lebih awal agar mendapatkan tempat berkemah yang dekat dengan musiknya.",
+  "ref_text_normalized": "jika anda ingin berada dekat dengan pertunjukannya maka anda harus datang lebih awal agar mendapatkan tempat berkemah yang dekat dengan musiknya",
+  "timestamp_utc": "2026-07-05T05:51:10Z",
+  "text": "Jika Anda ingin berada dekat dengan pertunjukannya, maka Anda harus datang lebih awal agar mendapatkan tempat berkemah yang dekat dengan musiknya.",
+  "latency_sec": 3.1254,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Jika Anda ingin berada dekat dengan pertunjukannya, maka Anda harus datang lebih awal agar mendapatkan tempat berkemah yang dekat dengan musiknya.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPQ19tjurJujRFhj3f8AgMK3iL8bAKXTrdBdk+ekdo0COxNixWoMIheNgrCqff"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230670,
+    "id": "zfBJar7cC7yyvr0Pp7y7iQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 1053,
+      "total_tokens": 1081
+    }
+  }
+}

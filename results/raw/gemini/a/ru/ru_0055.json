@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0055",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 5.7,
+  "ref_text_raw": "В репортажах по телевидению сообщается  о белом дыме, идущем от завода.",
+  "ref_text_normalized": "в репортажах по телевидению сообщается о белом дыме идущем от завода",
+  "timestamp_utc": "2026-07-05T07:04:26Z",
+  "text": "В репортажах по телевидению сообщается о белом дыме, идущем от завода.",
+  "latency_sec": 3.6165,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "В репортажах по телевидению сообщается о белом дыме, идущем от завода.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235067,
+    "id": "-AFKasSQJeel0-kPltOWuAs",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 204,
+      "total_tokens": 310
+    }
+  }
+}

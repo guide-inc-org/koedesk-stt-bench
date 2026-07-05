@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0023",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.6,
+  "ref_text_raw": "It was ruled by the \"Vichy\" French. These were French people who had made peace with the Germans in 1940 and worked with the invaders instead of fighting them.",
+  "ref_text_normalized": "it was ruled by the vichy french these were french people who had made peace with the germans in 1940 and worked with the invaders instead of fighting them",
+  "timestamp_utc": "2026-07-05T10:28:20Z",
+  "text": "It was ruled by the Vichy French. These were French people who had made peace with the Germans in 1940 and worked with the invaders instead of fighting them.",
+  "latency_sec": 3.3429,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "It was ruled by the Vichy French. These were French people who had made peace with the Germans in 1940 and worked with the invaders instead of fighting them.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpEFCo4FARFNMg+bJTWA4bIwJjtFULiRxVC7c6zNFLBBuA8gerAdJwcRcjkshVJYnHLvtiYXEjHG9THtGpDTT8yvOcT9xwCSD4MVUH6J3ZtXK8ABrhHlGGLYeVpo6rQPXksntTklywqQr4cviXEfDTXtlJMVL/4AbYEWoI7BCXgqsxCjH8TB2xH6dlhTbJbawHBav/goR+15YVSBMXIo5yO1EVQjxiU5vbfkJQV4r5aORT+e8DKxLnuAp3ZLIX2tlscx9uLlkZi0JQa/4F9U1Jb/cKQCDKiQ7bqGlayc2fI/IdEKqvBZCwS3SugSiRFcfq8hDzJvYnbmGexPJYtuag/Ken85UXMZB5tnOggzTO582gYqid+nrD7OQ/Jts44c/Y4EfA2Nfx8/+0r0bVXwnMYFhw73yqK/COH/MDx46x8LNdIXqBMjxHFbtFtkAljgNy1jyJCYqr2DwJmt8g0HgPZj9r13NsINJS1Ob/Nz6uGeN+oDKc0Wq+EHdJJgq8EGFL16dL7OoaT2D5RBFhEZmX6kTySO57KvivcA1WJc10GUrMEsU8Sv+ymZSSTkawqdozajl0Rpbr4nCYGdWwTGijvO2QkgOea3cXTC9kgDEOwj/0YXbU1jKpvGWADP7egixD7s0K/WEiLffEwAPf2d3+TdYaCyqrTH2rhs56n5SUz0p4YD1jRsM4ykvW2peduV1lyAxjyEr4elRdlpC3IhPc3zwsFSAfTxJBpKz+yMvq8sX5ISQ1AYLceQ9kMDwGO2FLmTTk2HluqbrZws3jQIU7uqEd91lx4di4LgHIkJ44arNedkG6qklftwN9qqS/n9w1K4EUP+44UE70RxCFOs3ifdAWseVX1dMAAE+jM3SNFYnxWE"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247300,
+    "id": "wjFKauOnI87W2roP7vfvgQQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 261,
+      "total_tokens": 447
+    }
+  }
+}

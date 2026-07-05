@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0005",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.02,
+  "ref_text_raw": "Mọi danh từ, kế bên từ Sie dành cho bạn, luôn bắt đầu bằng một chữ viết hoa, ngay cả khi ở giữa câu.",
+  "ref_text_normalized": "mọi danh từ kế bên từ sie dành cho bạn luôn bắt đầu bằng một chữ viết hoa ngay cả khi ở giữa câu",
+  "timestamp_utc": "2026-07-05T08:38:00Z",
+  "text": "Mọi danh từ, kế bên từ \"she\" dành cho bạn, luôn bắt đầu bằng một chữ viết hoa, ngay cả khi ở giữa câu.",
+  "latency_sec": 2.5904,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Mọi danh từ, kế bên từ \"she\" dành cho bạn, luôn bắt đầu bằng một chữ viết hoa, ngay cả khi ở giữa câu.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPEp36HRM50Vt+UIQc6wG/aVKAGsICM4Yh3tZnqhOaXLL7IifcX/Cf2FH/LGZh"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240680,
+    "id": "5hdKaur-KLD32roPjrXkkQc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 272,
+      "total_tokens": 303
+    }
+  }
+}

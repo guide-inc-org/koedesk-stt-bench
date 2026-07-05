@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0053",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.04,
+  "ref_text_raw": "เปลือกของดวงจันทร์จะบางลงในส่วนที่เป็นทะเลดวงจันทร์ (Maria) แต่หนาขึ้นในส่วนที่เป็นพื้นที่สูง (Highland)",
+  "ref_text_normalized": "เปลือกของดวงจันทร์จะบางลงในส่วนที่เป็นทะเลดวงจันทร์ maria แต่หนาขึ้นในส่วนที่เป็นพื้นที่สูง highland",
+  "timestamp_utc": "2026-07-05T07:56:22Z",
+  "text": "เปลือกของดวงจันทร์จะบางลงในส่วนที่เป็นทะเลดวง... เป็นทะเลดวงจันทร์มาเรีย แต่หนาขึ้นในส่วนที่เป็นพื้นที่สูงไฮแลนด์",
+  "latency_sec": 4.792,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "เปลือกของดวงจันทร์จะบางลงในส่วนที่เป็นทะเลดวง... เป็นทะเลดวงจันทร์มาเรีย แต่หนาขึ้นในส่วนที่เป็นพื้นที่สูงไฮแลนด์",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238182,
+    "id": "Iw5KapeSCcqfvr0Plb-amQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 297,
+      "total_tokens": 734
+    }
+  }
+}

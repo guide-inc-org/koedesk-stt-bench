@@ -1,0 +1,39 @@
+{
+  "utt_id": "pt_0181",
+  "lang": "pt",
+  "engine": "gemini_25_flash",
+  "duration_sec": 17.88,
+  "ref_text_raw": "Você pode usar um boda-boda (mototáxi) para passear por Goma. O preço normal (local) é de cerca de 500 francos congoleses para um passeio rápido.",
+  "ref_text_normalized": "você pode usar um boda-boda mototáxi para passear por goma. o preço normal local é de cerca de 500 francos congoleses para um passeio rápido",
+  "timestamp_utc": "2026-07-05T06:41:14Z",
+  "text": "Você pode usar um boda-boda, mototáxi, para passear por Goma. O preço normal, local, é de cerca de 500 francos congolenses para um passeio rápido.",
+  "latency_sec": 4.2119,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Você pode usar um boda-boda, mototáxi, para passear por Goma. O preço normal, local, é de cerca de 500 francos congolenses para um passeio rápido.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783233674,
+    "id": "h_xJatjyC-vYvr0P_YW_6QM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 594,
+      "total_tokens": 662
+    }
+  }
+}

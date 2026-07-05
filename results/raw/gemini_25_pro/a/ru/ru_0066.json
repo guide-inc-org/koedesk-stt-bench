@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0066",
+  "lang": "ru",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.62,
+  "ref_text_raw": "Как и во всех южноафриканских национальных парках, в этом парке существует ежедневная плата за его охрану и посещение.",
+  "ref_text_normalized": "как и во всех южноафриканских национальных парках в этом парке существует ежедневная плата за его охрану и посещение",
+  "timestamp_utc": "2026-07-05T07:13:05Z",
+  "text": "\nКак и во всех южноафриканских национальных парках, в этом парке существует ежедневная плата за его охрану и посещение.",
+  "latency_sec": 3.527,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "\nКак и во всех южноафриканских национальных парках, в этом парке существует ежедневная плата за его охрану и посещение.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235585,
+    "id": "_wNKap7pDuex2roPq7DX0QU",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 361,
+      "total_tokens": 393
+    }
+  }
+}

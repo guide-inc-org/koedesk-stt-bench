@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0122",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.8,
+  "ref_text_raw": "Au cours de la fin du Moyen Âge, l'Europe occidentale a commencé à développer son propre style. Un des plus grands progrès de l'époque, suite aux croisades, fut l'utilisation de boutons pour la fermeture des vêtements.",
+  "ref_text_normalized": "au cours de la fin du moyen âge l'europe occidentale a commencé à développer son propre style un des plus grands progrès de l'époque suite aux croisades fut l'utilisation de boutons pour la fermeture des vêtements",
+  "timestamp_utc": "2026-07-05T05:17:03Z",
+  "text": "Au cours de la fin du Moyen Âge, l'Europe occidentale a commencé à développer son propre style. Un des plus grands progrès de l'époque, suite aux croisades, fut l'utilisation de boutons pour la fermeture des vêtements.",
+  "latency_sec": 2.8426,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Au cours de la fin du Moyen Âge, l'Europe occidentale a commencé à développer son propre style. Un des plus grands progrès de l'époque, suite aux croisades, fut l'utilisation de boutons pour la fermeture des vêtements.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPqVHiuyYpNUGgPlMC5JEC+FGB6t1nRYXTwW574Imq3j9sHSEjVef1I+uni5m2"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228623,
+    "id": "zuhJaoX3E7yyvr0Pp7y7iQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 49,
+      "prompt_tokens": 366,
+      "total_tokens": 415
+    }
+  }
+}

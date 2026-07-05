@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0000",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.56,
+  "ref_text_raw": "However, due to the slow communication channels, styles in the west could lag behind by 25 to 30 year.",
+  "ref_text_normalized": "however due to the slow communication channels styles in the west could lag behind by 25 to 30 year",
+  "timestamp_utc": "2026-07-05T10:27:58Z",
+  "text": "However, due to the slow communication channels, styles in the West could lag behind by 25 to 30 years.",
+  "latency_sec": 2.9664,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "However, due to the slow communication channels, styles in the West could lag behind by 25 to 30 years.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPFLhCT/RXKkcpiUWqO0+92QinUpLBU6URunnXpTT3BdorLGUU/aw2a+0oQGmX"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247279,
+    "id": "rTFKaqOEHpjF0-kPvZ-G6AE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 285,
+      "total_tokens": 311
+    }
+  }
+}

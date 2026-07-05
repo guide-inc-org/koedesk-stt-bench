@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0024",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.9,
+  "ref_text_raw": "具体说来，据说可以通过正确解读微表情来判断一个人是否在撒谎。",
+  "ref_text_normalized": "具 体 说 来 据 说 可 以 通 过 正 确 解 读 微 表 情 来 判 断 一 个 人 是 否 在 撒 谎",
+  "timestamp_utc": "2026-07-05T09:12:12Z",
+  "text": "具体说来，据称可以通过正确解读微表情来判断一个人是否在撒谎。",
+  "latency_sec": 2.5536,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "具体说来，据称可以通过正确解读微表情来判断一个人是否在撒谎。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPtwm2a1QfZn4I2vBkCBblJiX9LWfzpSYqFmNg6XgavlWJHIs1du7IMCYCuvfI"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242732,
+    "id": "6h9KasrBMvijvr0Pmty12QU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 194,
+      "total_tokens": 213
+    }
+  }
+}

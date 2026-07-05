@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0191",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 4.62,
+  "ref_text_raw": "Ces couples peuvent choisir de faire un projet d’adoption pour leur bébé.",
+  "ref_text_normalized": "ces couples peuvent choisir de faire un projet d'adoption pour leur bébé",
+  "timestamp_utc": "2026-07-05T05:21:24Z",
+  "text": "Ces couples peuvent choisir de faire un projet d'adoption pour leur un bébé.",
+  "latency_sec": 2.9333,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Ces couples peuvent choisir de faire un projet d'adoption pour leur un bébé.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPaGsStaxX11h2kv6JlXfRco20JntwjwspR5CJeqibdNV1eaSFdi/6pTpvWojm"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228884,
+    "id": "0ulJap-BK8zLrfcPwe_16Qs",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 137,
+      "total_tokens": 153
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0073",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.9,
+  "ref_text_raw": "シンガポールを訪れた彼は、ウォン・カン・セン副首相から出迎えを受け、リー・シェン・ルーン首相と会談で貿易やテロ問題について話し合いました。",
+  "ref_text_normalized": "シンガポールを訪れた彼は ウォン カン セン副首相から出迎えを受け リー シェン ルーン首相と会談で貿易やテロ問題について話し合いました",
+  "timestamp_utc": "2026-07-05T10:17:11Z",
+  "text": "シンガポール を 訪れ た 彼 は ウォン 感染 副 首相 から 出迎え を 受け 、 リー セン 龍 首相 と 会談 で 貿易 や テロ 問題 に つい て 話し合い まし た 。",
+  "latency_sec": 2.7142,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "シンガポール を 訪れ た 彼 は ウォン 感染 副 首相 から 出迎え を 受け 、 リー セン 龍 首相 と 会談 で 貿易 や テロ 問題 に つい て 話し合い まし た 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP+FSbbQs9bDSpTcZhRGS6ea8pwZCZhrbdZJ6uU0xGwKhEz0w0V9UT8URO/uY1"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246631,
+    "id": "JS9KaomyOpDIrfcPxsKh8Q8",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 49,
+      "prompt_tokens": 344,
+      "total_tokens": 393
+    }
+  }
+}

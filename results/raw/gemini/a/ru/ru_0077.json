@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0077",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 6.12,
+  "ref_text_raw": "Это кажется разумной идеей, потому что мы не чувствуем, что Земля движется, не так ли?",
+  "ref_text_normalized": "это кажется разумной идеей потому что мы не чувствуем что земля движется не так ли",
+  "timestamp_utc": "2026-07-05T07:06:14Z",
+  "text": "Это кажется разумной идеей, потому что мы не чувствуем, что земля движется, не так ли?",
+  "latency_sec": 4.2052,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Это кажется разумной идеей, потому что мы не чувствуем, что земля движется, не так ли?",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235174,
+    "id": "YwJKaumEA9q20-kPqrmQ0QM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 217,
+      "total_tokens": 381
+    }
+  }
+}

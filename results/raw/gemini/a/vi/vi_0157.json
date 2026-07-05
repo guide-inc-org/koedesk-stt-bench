@@ -1,0 +1,39 @@
+{
+  "utt_id": "vi_0157",
+  "lang": "vi",
+  "engine": "gemini_25_flash",
+  "duration_sec": 5.28,
+  "ref_text_raw": "Một quả bom đã phát nổ phía bên ngoài văn phòng toàn quyền.",
+  "ref_text_normalized": "một quả bom đã phát nổ phía bên ngoài văn phòng toàn quyền",
+  "timestamp_utc": "2026-07-05T08:24:25Z",
+  "text": "Một quả bom đã phát nổ phía bên ngoài văn phòng tòa quyền.",
+  "latency_sec": 3.8065,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Một quả bom đã phát nổ phía bên ngoài văn phòng tòa quyền.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239865,
+    "id": "thRKarrZPI3IrfcPmu3D-AU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 15,
+      "prompt_tokens": 190,
+      "total_tokens": 348
+    }
+  }
+}

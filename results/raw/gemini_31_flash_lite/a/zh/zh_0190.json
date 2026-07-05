@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0190",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.34,
+  "ref_text_raw": "很多人认为它们并非恐龙，因为它们有羽毛，会飞。",
+  "ref_text_normalized": "很 多 人 认 为 它 们 并 非 恐 龙 因 为 它 们 有 羽 毛 会 飞",
+  "timestamp_utc": "2026-07-05T09:22:06Z",
+  "text": "很多人认为他们并非恐龙，因为他们有羽毛，会飞。",
+  "latency_sec": 2.8117,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "很多人认为他们并非恐龙，因为他们有羽毛，会飞。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPu/4+3NrwilD8z2Gcm+28IAYpRA/lFq0CLXrDPraN0shdrB3/5CmjREhlsBIC"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243327,
+    "id": "PSJKava2Ivz-2roPj568yQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 230,
+      "total_tokens": 246
+    }
+  }
+}

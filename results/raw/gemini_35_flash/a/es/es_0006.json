@@ -1,0 +1,45 @@
+{
+  "utt_id": "es_0006",
+  "lang": "es",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 5.64,
+  "ref_text_raw": "Los luchadores compañeros de Luna también le rindieron homenaje.",
+  "ref_text_normalized": "los luchadores compañeros de luna también le rindieron homenaje",
+  "timestamp_utc": "2026-07-05T04:29:16Z",
+  "text": "Los luchadores compañeros de Luna también le rindieron homenaje.",
+  "latency_sec": 3.5084,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Los luchadores compañeros de Luna también le rindieron homenaje.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpkDCpYDARFNMg8owXEx16qyZR7KDej6bz9d5PsD9KFeaR505078x++L2UeSeCIFwDqv0U1nKzZfUzcjLOLCEWPOQAiO4rq9upTBEY/USRA71PsKKfsnVlo46ReRjt7NXD0s+SYorc9RmFZJoWLKFWQM2RkBmCW51koUEuF04SIG/HkhraDoA1LmLfNWdTpvvqado5enewv3fCp3k0QpOzesU9/YIH2eYWjDSRtQuvUZznltqk8bTPMzQ4nRCeZ+KPf/hT8Use3ANTT/RK1Fkbd+sxDC/tvYzePssMLPPg079I+w3sni3/lPfDt+qhYxk/8+aC+rEqGtK3HWkkgDQcI469jKhb9DXNyAa0Me5DSeeLzchYhvIMGBnnRTDxASbnVcWTuPXWrAFzmqMB2s3A/SNP1nRnMtUJLPY40BslbCB4dxfb1lPVkUqGXN+4iD16yR9cQ2C0mDGw90SMYaNCAf1qNWQAY9L2o1S2HF4RlHx69Zxuxo64u6P1SGk0jqvb060VzVcdfh69jJ/J2tZsfTOsOeCRFzRGBQqg=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225756,
+    "id": "md1Jap2mI8mzvr0PpOCr2QI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 12,
+      "prompt_tokens": 162,
+      "total_tokens": 246
+    }
+  }
+}

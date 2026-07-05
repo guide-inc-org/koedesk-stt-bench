@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0016",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 15.0,
+  "ref_text_raw": "就像月球对地球施加拉力，引起潮汐一样，银河系也对人马座星系施加着作用力。",
+  "ref_text_normalized": "就 像 月 球 对 地 球 施 加 拉 力 引 起 潮 汐 一 样 银 河 系 也 对 人 马 座 星 系 施 加 着 作 用 力",
+  "timestamp_utc": "2026-07-05T08:48:55Z",
+  "text": "就像月球对地球施加拉力, 引起潮汐一样, 人和系也对人马座系施加着作用力。",
+  "latency_sec": 5.926,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "就像月球对地球施加拉力, 引起潮汐一样, 人和系也对人马座系施加着作用力。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241335,
+    "id": "chpKaqauPO6j2roPp6OfsQM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 501,
+      "total_tokens": 607
+    }
+  }
+}

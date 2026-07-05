@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0150",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.36,
+  "ref_text_raw": "Dies nennt man den PH-Wert einer Chemikalie. Man kann mit rotem Kohlsaft einen Indikator herstellen.",
+  "ref_text_normalized": "dies nennt man den ph-wert einer chemikalie man kann mit rotem kohlsaft einen indikator herstellen",
+  "timestamp_utc": "2026-07-05T04:09:01Z",
+  "text": "Dies nennt man den pH-Wert einer Chemikalie. Man kann mit Rotkohlsaft einen Indikator herstellen.",
+  "latency_sec": 3.204,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Dies nennt man den pH-Wert einer Chemikalie. Man kann mit Rotkohlsaft einen Indikator herstellen.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPWNURqADcW9Q5uRUAID39j2GgEHOQYqz47qQrASrvZqBRjkgKzXTMOflaPkne"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224540,
+    "id": "2thJaqf4No3O1e8PpY-EiAI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 180,
+      "total_tokens": 207
+    }
+  }
+}

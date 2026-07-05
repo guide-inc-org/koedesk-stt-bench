@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0026",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.1,
+  "ref_text_raw": "地殻の厚さは、手前側が約70 km、奥側が約100 kmです。",
+  "ref_text_normalized": "地殻の厚さは 手前側が約70 km 奥側が約100 kmです",
+  "timestamp_utc": "2026-07-05T10:14:18Z",
+  "text": "近く の 厚 さ は 手前 側 が 約 70km 、 奥 側 が 約 100km です 。",
+  "latency_sec": 2.5748,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "近く の 厚 さ は 手前 側 が 約 70km 、 奥 側 が 約 100km です 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPzqCDxq1sK/vkg3FM0daE5nxycPXdK3XdCRgjJPz7or1PxWNJeB8PGY+R54R/"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246458,
+    "id": "eS5KatTsA7yB0-kP2bOhwAc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 224,
+      "total_tokens": 252
+    }
+  }
+}

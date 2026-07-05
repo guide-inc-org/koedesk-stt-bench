@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0063",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 15.24,
+  "ref_text_raw": "香港の地平線を描いて立ち並ぶビル群は、ビクトリア・ハーバーの水の存在によって、きらびやかな棒グラフに例えられています。",
+  "ref_text_normalized": "香港の地平線を描いて立ち並ぶビル群は ビクトリア ハーバーの水の存在によって きらびやかな棒グラフに例えられています",
+  "timestamp_utc": "2026-07-05T10:15:46Z",
+  "text": "香港の地平線を描いて立ち並ぶビル群は、ビクトリア・ハーバーの水の存在によって、きらびやかな棒グラフに例えられています。",
+  "latency_sec": 5.2912,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "香港の地平線を描いて立ち並ぶビル群は、ビクトリア・ハーバーの水の存在によって、きらびやかな棒グラフに例えられています。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246547,
+    "id": "zy5KaqMm4PrV7w_QytOgAQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 402,
+      "total_tokens": 900
+    }
+  }
+}

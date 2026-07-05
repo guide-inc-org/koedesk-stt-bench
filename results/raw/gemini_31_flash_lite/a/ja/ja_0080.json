@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0080",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.6,
+  "ref_text_raw": "ジャンカルロ・フィジケラがマシンをコントロールできなくなり、スタート直後にレースから脱落しました。",
+  "ref_text_normalized": "ジャンカルロ フィジケラがマシンをコントロールできなくなり スタート直後にレースから脱落しました",
+  "timestamp_utc": "2026-07-05T10:17:36Z",
+  "text": "ジャンカルロ・フィジケラがマシンをコントロールできなくなり、スタート直後にレースから脱落しました。",
+  "latency_sec": 2.9598,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ジャンカルロ・フィジケラがマシンをコントロールできなくなり、スタート直後にレースから脱落しました。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPFxKpbFfvqDoqD71aDqudAHSebuBwZYxrwTor7mMSq/ONQ6y9T5lPS6LYJ2Gh"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246656,
+    "id": "Pi9KauSdJLvLrfcPnvyU2AE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 261,
+      "total_tokens": 286
+    }
+  }
+}

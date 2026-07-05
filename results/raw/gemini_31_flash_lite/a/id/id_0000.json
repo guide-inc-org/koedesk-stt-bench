@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0000",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.58,
+  "ref_text_raw": "Tim-tim virtual memiliki standar keunggulan yang sama dengan tim konvensional, tetapi ada sedikit perbedaan.",
+  "ref_text_normalized": "tim-tim virtual memiliki standar keunggulan yang sama dengan tim konvensional tetapi ada sedikit perbedaan",
+  "timestamp_utc": "2026-07-05T05:44:47Z",
+  "text": "Tim-tim virtual memiliki standar keunggulan yang sama dengan tim konvensional, tetapi ada sedikit perbedaan.",
+  "latency_sec": 2.7799,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Tim-tim virtual memiliki standar keunggulan yang sama dengan tim konvensional, tetapi ada sedikit perbedaan.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPRTHUhiguj8EsfmWZ/wzzyrzF+VDrHfz4EqZrkTPC69VS1IoYkx+h9gUmLHsm"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230287,
+    "id": "Te9JaqyZHvDW2roPh47FwQc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 236,
+      "total_tokens": 258
+    }
+  }
+}

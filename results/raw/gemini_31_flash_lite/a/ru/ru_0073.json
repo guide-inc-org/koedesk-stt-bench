@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0073",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.6,
+  "ref_text_raw": "Поверхность Луны состоит из камней и пыли. Внешний слой Луны называется корой.",
+  "ref_text_normalized": "поверхность луны состоит из камней и пыли внешний слой луны называется корой",
+  "timestamp_utc": "2026-07-05T07:31:31Z",
+  "text": "Поверхность Луны состоит из камней и пыли. Внешний слой Луны называется корой.",
+  "latency_sec": 2.6023,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Поверхность Луны состоит из камней и пыли. Внешний слой Луны называется корой.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPOsMa2CG5N9Zzpsh6pGydwa8FLUqT69roG/oWXNriYQkbCOlx8/VXd0uU6svE"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236691,
+    "id": "UQhKauTvL5ja1e8P6IqesQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 186,
+      "total_tokens": 209
+    }
+  }
+}

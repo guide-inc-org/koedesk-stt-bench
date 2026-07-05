@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0189",
+  "lang": "zh",
+  "engine": "gemini_25_pro",
+  "duration_sec": 15.5,
+  "ref_text_raw": "通过红外光谱 (FTIR) 进行比较后发现，这些结晶的成分与在受影响宠物的尿液中发现的结晶成分吻合。",
+  "ref_text_normalized": "通 过 红 外 光 谱 ftir 进 行 比 较 后 发 现 这 些 结 晶 的 成 分 与 在 受 影 响 宠 物 的 尿 液 中 发 现 的 结 晶 成 分 吻 合",
+  "timestamp_utc": "2026-07-05T09:09:22Z",
+  "text": "通過紅外光譜進行比較後發現,這些結晶的成分與在受影響寵物的尿液中發現的結晶成分吻合。",
+  "latency_sec": 4.6629,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "通過紅外光譜進行比較後發現,這些結晶的成分與在受影響寵物的尿液中發現的結晶成分吻合。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242562,
+    "id": "Px9KapCUC76a1e8PgPz1sQM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 517,
+      "total_tokens": 582
+    }
+  }
+}

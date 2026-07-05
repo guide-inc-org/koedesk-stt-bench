@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0130",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 17.04,
+  "ref_text_raw": "ที่นี่ถูกปกครองโดยชาวฝรั่งเศสจาก \"เขตวีชี\" ซึ่งเป็นชาวฝรั่งเศสที่สร้างสันติภาพกับชาวเยอรมันในปี 1940 และทำงานร่วมกับผู้รุกรานแทนที่จะต่อสู้กับพวกเขา",
+  "ref_text_normalized": "ที่นี่ถูกปกครองโดยชาวฝรั่งเศสจาก เขตวีชี ซึ่งเป็นชาวฝรั่งเศสที่สร้างสันติภาพกับชาวเยอรมันในปี 1940 และทำงานร่วมกับผู้รุกรานแทนที่จะต่อสู้กับพวกเขา",
+  "timestamp_utc": "2026-07-05T08:04:19Z",
+  "text": "ที่นี่ถูกปกครองโดยชาวฝรั่งเศสจากเขตวีซี ซึ่งเป็นชาวฝรั่งเศสที่สร้างสันติภาพกับชาวเยอรมันในปี 1940 และทำงานร่วมกับผู้รุกรานแทนที่จะต่อสู้กับพวกเขา",
+  "latency_sec": 5.0462,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ที่นี่ถูกปกครองโดยชาวฝรั่งเศสจากเขตวีซี ซึ่งเป็นชาวฝรั่งเศสที่สร้างสันติภาพกับชาวเยอรมันในปี 1940 และทำงานร่วมกับผู้รุกรานแทนที่จะต่อสู้กับพวกเขา",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238659,
+    "id": "_w9Kar7ANNqA1e8PtKvlgQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 54,
+      "prompt_tokens": 447,
+      "total_tokens": 991
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "utt_id": "en_0041",
+  "lang": "en",
+  "engine": "google_stt_v2",
+  "duration_sec": 12.78,
+  "ref_text_raw": "Oliver Sacks, in his paper The President's Speech, indicated how people who are unable to understand speech because of brain damage are nevertheless able to assess sincerity accurately.",
+  "ref_text_normalized": "oliver sacks in his paper the president's speech indicated how people who are unable to understand speech because of brain damage are nevertheless able to assess sincerity accurately",
+  "timestamp_utc": "2026-07-05T03:27:27Z",
+  "text": "Oliver Sacks, in his paper The President's Speech, indicated how people who are unable to understand speech because of brain damage are nevertheless able to assess sincerity accurately.",
+  "latency_sec": 4.5467,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "en-US",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "13s",
+      "requestId": "737a00df-0000-2c92-a145-883d24f27ed4",
+      "prompt": "Transcribe the following speech segment in English. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, English."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Oliver Sacks, in his paper The President's Speech, indicated how people who are unable to understand speech because of brain damage are nevertheless able to assess sincerity accurately."
+          }
+        ],
+        "languageCode": "en-US"
+      }
+    ]
+  }
+}

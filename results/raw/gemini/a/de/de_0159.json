@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0159",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 13.38,
+  "ref_text_raw": "Die Kommission war Martellys Antwort auf die weitverbreiteten regimekritischen Proteste, die im Oktober begannen.",
+  "ref_text_normalized": "die kommission war martellys antwort auf die weitverbreiteten regimekritischen proteste die im oktober begannen",
+  "timestamp_utc": "2026-07-05T03:52:37Z",
+  "text": "Die Kommission war Matelis Antwort auf die weit verbreiteten Regime kritischen Proteste, die im Oktober begannen.",
+  "latency_sec": 4.3031,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Die Kommission war Matelis Antwort auf die weit verbreiteten Regime kritischen Proteste, die im Oktober begannen.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223557,
+    "id": "AtVJap7DH9TM1e8Pof6vuQc",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 450,
+      "total_tokens": 523
+    }
+  }
+}

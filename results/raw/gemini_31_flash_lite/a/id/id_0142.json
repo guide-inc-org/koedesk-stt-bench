@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0142",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.36,
+  "ref_text_raw": "Empat pemain ski di grup duduk putri gagal menyelesaikan giliran mereka, sedangkan 45 dari total 117 pemain ski di Giant Slalom gagal meraih peringkat dalam lomba ini.",
+  "ref_text_normalized": "empat pemain ski di grup duduk putri gagal menyelesaikan giliran mereka sedangkan 45 dari total 117 pemain ski di giant slalom gagal meraih peringkat dalam lomba ini",
+  "timestamp_utc": "2026-07-05T05:53:46Z",
+  "text": "Empat pemain ski di grup putri gagal menyelesaikan giliran mereka. Sedangkan 45 dari total 117 pemain ski di giant slalom gagal meraih peringkat dalam lomba ini.",
+  "latency_sec": 3.0216,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Empat pemain ski di grup putri gagal menyelesaikan giliran mereka. Sedangkan 45 dari total 117 pemain ski di giant slalom gagal meraih peringkat dalam lomba ini.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPzlK4l2D3NMsXz3Gu6itj40UzHT2mcmGpisXa+pzKBM5anC2CO4VZvrSME9gd"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230826,
+    "id": "aPFJaoaBNa2Qvr0PxLzU0Qc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 330,
+      "total_tokens": 365
+    }
+  }
+}

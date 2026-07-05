@@ -1,0 +1,39 @@
+{
+  "utt_id": "vi_0087",
+  "lang": "vi",
+  "engine": "gemini_25_pro",
+  "duration_sec": 16.32,
+  "ref_text_raw": "Xe buýt xuất phát từ trạm xe buýt liên huyện (dọc con sông) chạy cả ngày, dù chủ yếu, đặc biệt là các xe đến phía Đông và Jakar/Bumthang sẽ xuất phát từ lúc 06:30 đến 07:30.",
+  "ref_text_normalized": "xe buýt xuất phát từ trạm xe buýt liên huyện dọc con sông chạy cả ngày dù chủ yếu đặc biệt là các xe đến phía đông và jakar/bumthang sẽ xuất phát từ lúc 06:30 đến 07:30",
+  "timestamp_utc": "2026-07-05T08:24:26Z",
+  "text": "Xe buýt xuất phát từ trạm xe buýt liên huyện, dọc con sông, chạy cả ngày dù chủ yếu, đặc biệt là các xe đến phía đông và Zacat. Bung thang sẽ xuất phát từ lúc 6:30 đến 7:30.",
+  "latency_sec": 52.2638,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Xe buýt xuất phát từ trạm xe buýt liên huyện, dọc con sông, chạy cả ngày dù chủ yếu, đặc biệt là các xe đến phía đông và Zacat. Bung thang sẽ xuất phát từ lúc 6:30 đến 7:30.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239866,
+    "id": "hxRKauunH-el0-kPltOWuAs",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 56,
+      "prompt_tokens": 544,
+      "total_tokens": 7534
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "utt_id": "ru_0124",
+  "lang": "ru",
+  "engine": "google_stt_v2",
+  "duration_sec": 15.6,
+  "ref_text_raw": "Хьюн ушел в отставку, и в Кабинете министров его заменит член парламента Эд Дейви. Ожидается, что член парламента Норман Ламб займет принадлежащий Дейви пост Министра по делам бизнеса.",
+  "ref_text_normalized": "хьюн ушел в отставку и в кабинете министров его заменит член парламента эд дейви ожидается что член парламента норман ламб займет принадлежащий дейви пост министра по делам бизнеса",
+  "timestamp_utc": "2026-07-05T05:37:08Z",
+  "text": "Хьюн ушёл в отставку, и в кабинете министров его заменит член парламента Эд Дэви. Ожидается, что член парламента Норман Ламб займёт принадлежащий Дэви пост министра по делам бизнеса.",
+  "latency_sec": 5.5092,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "ru-RU",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "16s",
+      "requestId": "6dd4d56d-0000-27db-8279-ac3eb143df6c",
+      "prompt": "Transcribe the following speech segment in Russian. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Russian."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Хьюн ушёл в отставку, и в кабинете министров его заменит член парламента Эд Дэви. Ожидается, что член парламента Норман Ламб займёт принадлежащий Дэви пост министра по делам бизнеса."
+          }
+        ],
+        "languageCode": "ru-RU"
+      }
+    ]
+  }
+}

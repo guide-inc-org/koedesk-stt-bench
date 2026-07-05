@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0099",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 14.04,
+  "ref_text_raw": "橋の全面開通は2017年9月の予定で、ブラジル税関の検問が終わる頃になると予想されています。",
+  "ref_text_normalized": "橋の全面開通は2017年9月の予定で ブラジル税関の検問が終わる頃になると予想されています",
+  "timestamp_utc": "2026-07-05T10:09:33Z",
+  "text": "橋の前面開通は2017年9月の予定で、ブラジル税関の検問がある頃になると予想されています。",
+  "latency_sec": 4.0498,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "橋の前面開通は2017年9月の予定で、ブラジル税関の検問がある頃になると予想されています。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246173,
+    "id": "Wy1KaujEBu6d1e8P5u7EuQQ",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 471,
+      "total_tokens": 558
+    }
+  }
+}

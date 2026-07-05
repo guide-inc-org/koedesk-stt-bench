@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0176",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.22,
+  "ref_text_raw": "Aduk kedua bubuk kering menjadi satu, kemudian peras menjadi bola-bola dengan tangan bersih yang basah.",
+  "ref_text_normalized": "aduk kedua bubuk kering menjadi satu kemudian peras menjadi bola-bola dengan tangan bersih yang basah",
+  "timestamp_utc": "2026-07-05T05:55:54Z",
+  "text": "Aduk kedua bubuk kering menjadi satu, kemudian peras menjadi bola-bola dengan tangan bersih yang basah.",
+  "latency_sec": 3.0903,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Aduk kedua bubuk kering menjadi satu, kemudian peras menjadi bola-bola dengan tangan bersih yang basah.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPQeB/rhTiPua7M3wU6l5hqUXEpmvCXj2xKH5cZy9WaySPacobSwHd7ldNCs8U"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230954,
+    "id": "6fFJarG2BIyl1e8P2deLgAI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 227,
+      "total_tokens": 250
+    }
+  }
+}

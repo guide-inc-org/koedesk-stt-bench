@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0033",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.12,
+  "ref_text_raw": "ฝูงสิงโตประกอบด้วยสิงโตตัวผู้ที่โตเต็มวัยหนึ่งถึงสามตัว รวมไปถึงสิงโตตัวเมียและลูกสิงโตมากถึง 30 ตัว",
+  "ref_text_normalized": "ฝูงสิงโตประกอบด้วยสิงโตตัวผู้ที่โตเต็มวัยหนึ่งถึงสามตัว รวมไปถึงสิงโตตัวเมียและลูกสิงโตมากถึง 30 ตัว",
+  "timestamp_utc": "2026-07-05T07:54:09Z",
+  "text": "ฝูงสิงโตประกอบด้วยสิงโตตัวผู้ที่โตเต็มวัย 1 ถึง 3 ตัว รวมไปถึงสิงโตตัวเมียและลูกสิงโตมากถึง 30 ตัว",
+  "latency_sec": 5.6427,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ฝูงสิงโตประกอบด้วยสิงโตตัวผู้ที่โตเต็มวัย 1 ถึง 3 ตัว รวมไปถึงสิงโตตัวเมียและลูกสิงโตมากถึง 30 ตัว",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238049,
+    "id": "nQ1Kao7_BrDM0-kP1Zry4AU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 324,
+      "total_tokens": 990
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0021",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.8,
+  "ref_text_raw": "Der Scotturb-Bus 403 fährt regelmäßig über Cabo da Roca nach Sintra.",
+  "ref_text_normalized": "der scotturb-bus 403 fährt regelmäßig über cabo da roca nach sintra",
+  "timestamp_utc": "2026-07-05T04:01:01Z",
+  "text": "Der Skodabus 403 fährt regelmäßig über Cabo da Roca nach Sintra.",
+  "latency_sec": 3.8628,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Der Skodabus 403 fährt regelmäßig über Cabo da Roca nach Sintra.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP2aoRqdszlla0/AuAy+VDCQjw8j691s55GdOxRojxbFuTshEuiKfBkk26MHCW"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224061,
+    "id": "-9ZJareDAqXJ2roPu_yk0QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 366,
+      "total_tokens": 384
+    }
+  }
+}

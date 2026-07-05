@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0167",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 21.84,
+  "ref_text_raw": "Además, tuvo participación en al grabado de billetes para muchos estados, siendo los ejemplos más recientes de su labor los retratos del primer ministro visibles en el anverso de los nuevos billetes de 5 y 100 dólares canadienses.",
+  "ref_text_normalized": "además tuvo participación en al grabado de billetes para muchos estados siendo los ejemplos más recientes de su labor los retratos del primer ministro visibles en el anverso de los nuevos billetes de 5 y 100 dólares canadienses",
+  "timestamp_utc": "2026-07-05T04:43:46Z",
+  "text": "Además, tuvo participación en al grabado de billetes para muchos estados, siendo los ejemplos más recientes de su labor los retratos del Primer Ministro visibles en el anverso de los nuevos billetes de cinco y cien dólares canadienses.",
+  "latency_sec": 3.9254,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Además, tuvo participación en al grabado de billetes para muchos estados, siendo los ejemplos más recientes de su labor los retratos del Primer Ministro visibles en el anverso de los nuevos billetes de cinco y cien dólares canadienses.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPHQ+Hlot4gLgARE0fd+KBA9C6/yeAlIOBbsAMpbZ0Go2pTbdkZJY6NQRdAKay"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226626,
+    "id": "AeFJap3uGtTf1e8PvLbrwQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 567,
+      "total_tokens": 614
+    }
+  }
+}

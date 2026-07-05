@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0118",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.26,
+  "ref_text_raw": "ในประวัติศาสตร์ยุโรปช่วงนี้ มีการตรวจสอบคริสตจักรคาทอลิกซึ่งมั่งคั่งและเรืองอำนาจขึ้นอย่างละเอียด",
+  "ref_text_normalized": "ในประวัติศาสตร์ยุโรปช่วงนี้ มีการตรวจสอบคริสตจักรคาทอลิกซึ่งมั่งคั่งและเรืองอำนาจขึ้นอย่างละเอียด",
+  "timestamp_utc": "2026-07-05T08:08:09Z",
+  "text": "ในประวัติศาสตร์ยุโรปช่วงนี้มีการตรวจสอบคริสตจักรคาทอลิกซึ่งมั่งคั่งและเรืองอำนาจขึ้นอย่างละเอียด",
+  "latency_sec": 4.4607,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ในประวัติศาสตร์ยุโรปช่วงนี้มีการตรวจสอบคริสตจักรคาทอลิกซึ่งมั่งคั่งและเรืองอำนาจขึ้นอย่างละเอียด",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPqsEKpQ8hNEoiggGb079ajpP1LNIeP2eokjvf5cxXD/BuP242vzsE/AQAtkmj"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238889,
+    "id": "5hBKavePHNDF1e8P2K7MiQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 278,
+      "total_tokens": 312
+    }
+  }
+}

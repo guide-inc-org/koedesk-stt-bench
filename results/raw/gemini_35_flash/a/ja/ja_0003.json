@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0003",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.54,
+  "ref_text_raw": "その長い顎には70本以上の鋭い歯が並び、口蓋には別の歯列があり、つまりここを通ったら逃げ道はないということになります。",
+  "ref_text_normalized": "その長い顎には70本以上の鋭い歯が並び 口蓋には別の歯列があり つまりここを通ったら逃げ道はないということになります",
+  "timestamp_utc": "2026-07-05T10:09:53Z",
+  "text": "その長い顎には70本以上の鋭い歯が並び、口蓋には別の歯列があり、つまりここを通ったら逃げ道はないということになります。",
+  "latency_sec": 5.0307,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "その長い顎には70本以上の鋭い歯が並び、口蓋には別の歯列があり、つまりここを通ったら逃げ道はないということになります。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246193,
+    "id": "bS1KaqrRONTf1e8PvLbrwQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 335,
+      "total_tokens": 901
+    }
+  }
+}

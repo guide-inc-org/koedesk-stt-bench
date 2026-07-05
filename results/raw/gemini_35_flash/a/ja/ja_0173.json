@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0173",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 13.5,
+  "ref_text_raw": "上空の澄んだ美しい空と、周囲の多くの山々以外には何も見えません。洞窟の中からは、外界はほとんど見えず、外界の音も聞こえません。",
+  "ref_text_normalized": "上空の澄んだ美しい空と 周囲の多くの山々以外には何も見えません 洞窟の中からは 外界はほとんど見えず 外界の音も聞こえません",
+  "timestamp_utc": "2026-07-05T03:22:19Z",
+  "text": "上空の澄んだ美しい空と周囲の多くの山々以外には何も見えません。洞窟の中からは下界はほとんど見えず、下界の音も聞こえません。",
+  "latency_sec": 5.6229,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "上空の澄んだ美しい空と周囲の多くの山々以外には何も見えません。洞窟の中からは下界はほとんど見えず、下界の音も聞こえません。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221739,
+    "id": "5s1Jaqa5OoPMrfcPiKHRgAE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 359,
+      "total_tokens": 1001
+    }
+  }
+}

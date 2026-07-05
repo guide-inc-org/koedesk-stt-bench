@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0037",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.76,
+  "ref_text_raw": "Blogs can also help improve student writing. While students often begin their blog experience with sloppy grammar and spelling, the presence of an audience generally changes that.",
+  "ref_text_normalized": "blogs can also help improve student writing while students often begin their blog experience with sloppy grammar and spelling the presence of an audience generally changes that",
+  "timestamp_utc": "2026-07-05T10:30:12Z",
+  "text": "Blogs can also help improve student writing. While students often begin their blog experience with sloppy grammar and spelling, the presence of an audience generally changes that.",
+  "latency_sec": 2.806,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Blogs can also help improve student writing. While students often begin their blog experience with sloppy grammar and spelling, the presence of an audience generally changes that.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP0H9wIQdlpQIA8F2gW/YmWcPXD6sGabswlqW+11MdeGTQCLHk0fInW454OxdF"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247412,
+    "id": "MjJKavSoIYOL0-kPiYjyuQQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 240,
+      "total_tokens": 270
+    }
+  }
+}

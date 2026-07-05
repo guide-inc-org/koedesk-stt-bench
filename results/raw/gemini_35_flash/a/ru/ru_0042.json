@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0042",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 13.56,
+  "ref_text_raw": "25 листовок Данлэпа, известные на настоящее время, являются старейшими выжившими копиями документа. Оригинальная рукописная копия не дошла до нас.",
+  "ref_text_normalized": "25 листовок данлэпа известные на настоящее время являются старейшими выжившими копиями документа оригинальная рукописная копия не дошла до нас",
+  "timestamp_utc": "2026-07-05T07:20:09Z",
+  "text": "25 листов Данлапа, известных на настоящее время, являются старейшими выжившими копиями документа. Оригинальная рукописная копия не дошла до нас.",
+  "latency_sec": 5.166,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "25 листов Данлапа, известных на настоящее время, являются старейшими выжившими копиями документа. Оригинальная рукописная копия не дошла до нас.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236009,
+    "id": "pQVKapy3LLmVvr0PopTJiQc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 360,
+      "total_tokens": 838
+    }
+  }
+}

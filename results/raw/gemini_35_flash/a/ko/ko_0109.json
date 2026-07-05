@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0109",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 14.76,
+  "ref_text_raw": "그러나 실험은 하나 혹은 그 이상의 가설을 제거하는 것이며, 질문을 하고 관찰을 하며 과학적 연구로 이끌어내는 것이다.",
+  "ref_text_normalized": "그러나 실험은 하나 혹은 그 이상의 가설을 제거하는 것이며 질문을 하고 관찰을 하며 과학적 연구로 이끌어내는 것이다",
+  "timestamp_utc": "2026-07-05T06:19:13Z",
+  "text": "그러나 실험은 하나 혹은 그 이상의 가설을 제거하는 것이며 질문을 하고 관찰을 하며 과학적 연구로 이끌어 내는 것이다",
+  "latency_sec": 3.0358,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "그러나 실험은 하나 혹은 그 이상의 가설을 제거하는 것이며 질문을 하고 관찰을 하며 과학적 연구로 이끌어 내는 것이다",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EvADCu0DARFNMg8QIMChxbO23lKQT6p+hVt3CpmRU3slKfWCYeaGveko/Xz6Eh97vJ2so4Ie/wEVKZBIgMZy8d/pqLlGdrVyc/6uf9gOVl5+Sa/wTjrpMDKWWAsurCftHcG5ssTw2xOM4mvloiHyT5BwQiBXjog0x5kNmBqiQfy3K/VySp9NajgrSQcRdfZN5tXWAUC/JTTx4qT8G7Ey4CG0n9yUFbln7aCvZCcOeDmP2EeLpkQnU4ck4XCHsKgQ4588AADbveMAWncEhMIT9OQms6pvuIgvw59FeX06UTG+SPh43uKPmTmkoWsDH5sA8qbKIhWxafm6nI9S3O2/oMqbyDkG6Brn2Rgj3l6QQcY7i/ufq386QtWQMKbsIF284kvymSxTSzmB9RSm6TPs1GiYt7MNwb8sXJCzRh5jWyh/Ju4BKOqion+n2K3bSyIgPEEqRc+iA+ukKLAx5Q3s0a3W/e4ym+3+js/jtQQ8d2KV7Wnj01AuAQ6/eeirGx/27C4I5kxzCj4d35jWCBd7nuzXhMpqmYoLbFHgP8OszD1cytFifW4S5fISs7BinLBP8DWAT0JSfFOvIWZdnrCVeQR9Sc6F/tQ3GuK8VMuyWJjxmznUc2M5Qh+4JR2/nuZ3VFitbiI+vzO4QZTQScdoVtF9Lg=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232353,
+    "id": "X_dJapipOPGC0-kP1smn0AY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 390,
+      "total_tokens": 512
+    }
+  }
+}

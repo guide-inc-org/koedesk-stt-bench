@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0158",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.46,
+  "ref_text_raw": "強風、ひょう、過度の降水量、および山火事は、雷雨、竜巻、水噴き、およびサイクロンなどの厳しい気象形態やその影響によるものです。",
+  "ref_text_normalized": "強風 ひょう 過度の降水量 および山火事は 雷雨 竜巻 水噴き およびサイクロンなどの厳しい気象形態やその影響によるものです",
+  "timestamp_utc": "2026-07-05T03:20:51Z",
+  "text": "強風 、 氷 、 過度 の 降水 量 及び 山火事 は 雷雨 、 竜巻 、 水 吹き 及び サイクロン など の 厳しい 気象 形態 や その 影響 に よる もの です 。",
+  "latency_sec": 2.8832,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "強風 、 氷 、 過度 の 降水 量 及び 山火事 は 雷雨 、 竜巻 、 水 吹き 及び サイクロン など の 厳しい 気象 形態 や その 影響 に よる もの です 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPGLPx6lJyokhAej8A/Ny9f1P8gtGu14qc75wudzaS7SoHzAojBuDJ6EJqqyXG"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221651,
+    "id": "ks1JaqjFBMDH2roPzfDW-AM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 48,
+      "prompt_tokens": 383,
+      "total_tokens": 431
+    }
+  }
+}

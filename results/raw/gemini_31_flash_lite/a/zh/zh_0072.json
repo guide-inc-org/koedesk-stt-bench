@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0072",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 19.3,
+  "ref_text_raw": "虽然没有人能确定作者是谁，但这个大型羊皮纸文档（尺寸为 29¾ 英寸乘以 24½ 英寸）据称在刚写成的时候是卷起来存放的。",
+  "ref_text_normalized": "虽然没有人能确定作者是谁但这个大型羊皮纸文档尺寸为 29¾ 英寸乘以 24½ 英寸据称在刚写成的时候是卷起来存放的",
+  "timestamp_utc": "2026-07-05T09:14:58Z",
+  "text": "虽然没有人能确定作者是谁，但这个大型羊皮纸文挡，尺寸为29又4分之3英寸乘以24又2分之一英寸，据称在刚写成的时候，是卷起来存放的。",
+  "latency_sec": 2.9528,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "虽然没有人能确定作者是谁，但这个大型羊皮纸文挡，尺寸为29又4分之3英寸乘以24又2分之一英寸，据称在刚写成的时候，是卷起来存放的。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPC5Ob6+q6rFTyg9YxBVNLsA9MvbxmAWBpDiW1dRCw29Ty4snK3kdlo5pIt/S2"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242898,
+    "id": "kCBKaui1Kv_R1e8PsqiM8QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 48,
+      "prompt_tokens": 504,
+      "total_tokens": 552
+    }
+  }
+}

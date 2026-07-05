@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0052",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.94,
+  "ref_text_raw": "每个人都是社会的一份子，都会使用交通系统。而几乎每个人都对交通系统有怨言。",
+  "ref_text_normalized": "每 个 人 都 是 社 会 的 一 份 子 都 会 使 用 交 通 系 统 而 几 乎 每 个 人 都 对 交 通 系 统 有 怨 言",
+  "timestamp_utc": "2026-07-05T09:13:47Z",
+  "text": "每个人都是社会的一分子，都会使用交通系统，而几乎每个人都对交通系统有怨言。",
+  "latency_sec": 3.0292,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "每个人都是社会的一分子，都会使用交通系统，而几乎每个人都对交通系统有怨言。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPF8CreZ9vPzP6Zfm+JZHeHyRXsugmPTXFNA8xccNLcnHXSOeteCmZKx8/Ua2X"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242827,
+    "id": "SSBKasz6Oane1e8P6I_tqAg",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 245,
+      "total_tokens": 267
+    }
+  }
+}

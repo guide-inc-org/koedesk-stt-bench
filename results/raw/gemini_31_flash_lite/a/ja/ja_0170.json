@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0170",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 17.1,
+  "ref_text_raw": "オーストラリアのミッチェル・ゴーリーはスーパーG男子スタンディングで11位に終わりました。チェコのオルドリッチ・イェリネクは、男子シングルスーパーGで16位に終わりました。",
+  "ref_text_normalized": "オーストラリアのミッチェル ゴーリーはスーパーg男子スタンディングで11位に終わりました チェコのオルドリッチ イェリネクは 男子シングルスーパーgで16位に終わりました",
+  "timestamp_utc": "2026-07-05T03:21:37Z",
+  "text": "オーストラリアのミッチェル・ゴーリーはスーパーG男子スタンディングで11位に終わりました。チェコのオルドリッヒ・エリネゴは男子シングルスーパーGで16位に終わりました。",
+  "latency_sec": 3.7547,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "オーストラリアのミッチェル・ゴーリーはスーパーG男子スタンディングで11位に終わりました。チェコのオルドリッヒ・エリネゴは男子シングルスーパーGで16位に終わりました。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPl3W3yaiNxGtd2QmUXYdcbpsQU8zRTda4T9nd3tWGSn0v3sOSRndaiPHnO9H3"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221697,
+    "id": "vs1JapPjOYaA0-kPotqL6Q4",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 449,
+      "total_tokens": 496
+    }
+  }
+}

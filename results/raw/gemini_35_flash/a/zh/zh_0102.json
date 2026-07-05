@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0102",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.0,
+  "ref_text_raw": "女性：建议无论实际婚姻状况如何，所有女性游客都应说自己已婚。",
+  "ref_text_normalized": "女 性 建 议 无 论 实 际 婚 姻 状 况 如 何 所 有 女 性 游 客 都 应 说 自 己 已 婚",
+  "timestamp_utc": "2026-07-05T09:14:52Z",
+  "text": "女性，建议无论实际婚姻状况如何，所有女性游客都应说自己已婚。",
+  "latency_sec": 3.6673,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "女性，建议无论实际婚姻状况如何，所有女性游客都应说自己已婚。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Ev8FCvwFARFNMg+e0divE1lZG7igW6zdniNpDHdCGuYa7O+YEN+COBQTJvFB68sWOf4piagZJ27abpqzzgyLt3Q0B35ZCL6QzLdQ1+Y0/cv0rB2ZAN6BSZHWRjZNB4eMnt0EQXzf1+x9ovFhG86UaH4R0WEkyxpdXnQPK3iDCkemmiKfk2h+Sk00a82DnyBeJfe3AyxlXvhjfW5z5rvslyNpeiPzjxO2CEYgzyr4/nxjd31TUdEyMEBjzriCS3+a3xI13RdbFKVA32bzHdldNNGHIyl5DzU/s3/p09MvN7gJ+AKNmlw1suUEc/jtjQY6qlL4owMKPodArszUA7uz9GdbW2kBmDcURCsL894yGluRJC1jmnJzgQ3v+08C8BBgloZvAEbblz24SAWSEgnSKYbF7/8tGZoEQdZzjFMElyl7U1n+cLqmZ3HPJXCNvQYyoP+6bQ/B/u5/G+4zTHI25q41JLV4WkqD5uOzOwUePJTAHepcq1X6373Q59H3DGx5LLF9SizlJ6H1is8hSHi67xjNJg1hf2xg6oPGY6EmAVXp7vuq1fjBBbcmbNjpVqnZc60QtEuXjVUeMGh/dY2wgVn1cOK2b036RFjJQORTNCnViW3jRnJpdVyf0VO7U4POEBY0OK+LWfhfQZfvgMdGREnIT1Z9al+ElNdhhNIzJr8fKRUbXReMv2dvFEhFYcGQzHMrOe/N4g9zfWgo5snow884l+0V8wV9rcdXGrLB/F3bx1zEpaNYy+wuMYglcLQagnKaE0EQjWP69oqBeYMZH9gTbQO871HlrMveqCy0I1qfjHN+aN2STamdLcJpVGVHK3kPNxHjbYwG5Llf7WyKvDAWrqBUKEulAnWIH1zMboz5MdFB7ERZHNPZ9N7e3d4IxmH8lHF6oAP9dT/msqviMUIKz84BF1MLT/i98sjsW9Sa5bOc631D/edADz8v6LhsQ+1JffEw1x5vturVPGZ93RvjKcOwcNmyYQnI3ixVJRy695r5Lo2AxjjQ0yHWzT/STrc="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242892,
+    "id": "iiBKaoiGCqHc1e8P1OStiQU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 321,
+      "total_tokens": 539
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "pt_0037",
+  "lang": "pt",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 19.44,
+  "ref_text_raw": "O Platô de Gizé, ou a \"Necrópole de Gizé\", no Vale dos Mortos egípcio, conta com diversas pirâmides (dentre as quais a Grande Pirâmide é a de maior tamanho), diversas tumbas pequenas, diversos templos e a grande Esfinge.",
+  "ref_text_normalized": "o platô de gizé ou a necrópole de gizé no vale dos mortos egípcio conta com diversas pirâmides dentre as quais a grande pirâmide é a de maior tamanho diversas tumbas pequenas diversos templos e a grande esfinge",
+  "timestamp_utc": "2026-07-05T06:45:55Z",
+  "text": "O platô de Gizé ou a necrópole de Gizé, no Vale dos Mortos egípcio, conta com diversas pirâmides, dentre as quais a grande pirâmide é a de maior tamanho, diversas tumbas pequenas, diversos templos e a grande esfinge.",
+  "latency_sec": 4.9673,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "O platô de Gizé ou a necrópole de Gizé, no Vale dos Mortos egípcio, conta com diversas pirâmides, dentre as quais a grande pirâmide é a de maior tamanho, diversas tumbas pequenas, diversos templos e a grande esfinge.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783233955,
+    "id": "oP1JaqSSCo-D1e8P9I7h6AE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 61,
+      "prompt_tokens": 508,
+      "total_tokens": 1045
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0138",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.36,
+  "ref_text_raw": "Пещера располагается на вершине горы к северу от Мекки и полностью изолирована от остального мира.",
+  "ref_text_normalized": "пещера располагается на вершине горы к северу от мекки и полностью изолирована от остального мира",
+  "timestamp_utc": "2026-07-05T07:35:29Z",
+  "text": "Пещера располагается на вершине горы к северу от Мекки и полностью изолирована от остального мира.",
+  "latency_sec": 2.8114,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Пещера располагается на вершине горы к северу от Мекки и полностью изолирована от остального мира.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPdzn3tgPMfyOrWFGkRZ2EjYVmhV+pmup2TeogRP5xGN//rR/Y4YyE/oQ+p1nW"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236929,
+    "id": "PwlKasPvOfKE0-kPh9im2AE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 255,
+      "total_tokens": 281
+    }
+  }
+}

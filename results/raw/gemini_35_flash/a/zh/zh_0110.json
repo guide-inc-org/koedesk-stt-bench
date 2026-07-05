@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0110",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.72,
+  "ref_text_raw": "胡纳已经辞职，他在内阁中的位置将由国会议员埃德·戴维 (Ed Davey) 接替。预计国会议员诺曼·兰姆 (Norman Lamb) 将接替戴维空出的商务部长一职。",
+  "ref_text_normalized": "胡 纳 已 经 辞 职 他 在 内 阁 中 的 位 置 将 由 国 会 议 员 埃 德 戴 维 ed davey 接 替 预 计 国 会 议 员 诺 曼 兰 姆 norman lamb 将 接 替 戴 维 空 出 的 商 务 部 长 一 职",
+  "timestamp_utc": "2026-07-05T09:15:51Z",
+  "text": "胡恩已经辞职，他在内阁中的位置将由国会议员艾德·戴维接替。预计国会议员诺曼·兰姆将接替艾德空出的商务部长一职。",
+  "latency_sec": 7.2162,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "胡恩已经辞职，他在内阁中的位置将由国会议员艾德·戴维接替。预计国会议员诺曼·兰姆将接替艾德空出的商务部长一职。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqETCp4TARFNMg859Xj9YCoc1q2GAMzCU02u1nNBuAxkkg349gnyp0B9Bimfa1PdyUG2ZkOr5nSGi/5v3YkUuJHtxvkky0lF/URQDg/nh9cVeqF+SKbdaxHDyrGqCwYaYjqV0SfCDzOtZl977ZKUzK/COWvPQ4tyKVBYUSZpQEIlDRmD/MYSrIW3ApDP8F4k8AV4LBGrIEXgyNPTR5RI6mCpyggx8ixCM/xNx7ZHDy/h75719swmEmswwv8sqjX4ESNMqaR9e7aFGTMuT4GLg3OSy+com++v9gA1SUfWv0TVmWIwOMaF9870I8VoqqMRJKZPjaE/lLxaQSuC8XNlUbAQ8UAg0t7o/63O6zocC+NS/XXKhpfz/5ZLPkWQJYsFEBlSgSmUWMZ2Pd3nfhzn6ifBUWtVzuzX2cSdNgg6lfUFtjOiH4rBJB7erJo6dlbQS+dU6TDDegYleaE8CB/FFbrYKf1+aMo8jl8TVinW0wk9OeyQKlRJ/AhlIW28yeNbkUPavdlgd2hO7xGT6J3rpKDIcQNBfGEuebr/M+9OmCuRpWDtmwWIrNRtd2YbygQ3QsOwYXfVb1Dl2jrPhDxNuqAVWUUptj5uD55Rr1b6njTwIXebJCG3YLpyp+ozVlKYTcnYiVTqKWe6SgtPxS5dNXtn/0zTvY5LMSI5uB6eI8wlAi1bcPSLchrz7HcquCm3Bz6iQylU+sFTE5OLu86AA600BPGFq87q4oY+h4sGOz1u8w4uVS4VeOw5b+wiqjMZSsKi7Fuj5RaCAyj6c6DQAKKjrGe4mbuMA3nvDlKBxc0Ljy1KgL8X4WpnuawH1JI/iwoC8yT2j3OX6RyTe5VzNFJM0VpXAWLU6n25+Oi4uj4iJgp3M8CVuNtq780bTTFqf1zSu+ffcrhdmjmLMiF+ZV3COWjdKmS7sMAXlH3He8/ZPaCDtHMf2rgUHrqeNO09rfx+2oAk+Gfb96tcu0boS7lOSMGOTC/n1dpFiIvPAEJgbpxphLV3K7AT/OHqBh1IVMVRvHH34IGTJ4UBi6Vy3Z7ty81tpISZZV0f86022oMegVZ9s97hciNpLNFof0AZWudA/y/dzoLC6BBMZudoaux99VUo8WmJSeQdDD2mt4xgCHYg3aLyao1CofYJIz7alD13Mj+lhNI9CxcTXOEDFaF3QgKmARi5ugRSEqoAF/6LTOYETkuE9dCsC0zTDOZJCqTFrO95WrUxxdGfz5IUemNYusx2dCo/E4t9ScC15CDdkaCB1EQBmzLJaq4VSKZP6Sp8qlyn1VWAszFNw8WfiRL1yI+3yywqQaXueQrPwrXqqyGn+Mnbe3XYKU14qpU8+n81P/S5gK+3XRHniSA9pPOHgv59Y4BJUNF397ksilyo4Hd6wQnHJj4rkAZw5rJo3fpQKiW3kD0S0YekBTELj8TMl5ePqXHg0Uq3/DR4mcHmLug/KWQkWeI1sYLmn3wjfJJq8RPcu88vglUaT/BmsHI7P/Per6F7ppD+ah3z2g4IEQTQQ08Mv3zr229PynDZD6GxHJt2M1eOPVd/11llSa/m+k2hZWCqwED8oftsT3WrKVw2BYA1zGHnpdwTkwZdIvccDhpsEOC2S2sV975hkEbWc7+L7eiMr4bbJkeQ1JY1iQtfKwstWXD3kIxtgmLF7yVN8bHkiNkNUyPeOh52bJBNVbb6OPHS/aEBYgRQbBTjQ28VO4RvuZaq5CJvn1B1Kd5ild6ZPsWqjzBh3Y+2kzlgRrL0f4dnyYQ5Rr6he2UnoX3QSRJTV66+F1CXYBvn1cH5OptyiOt9899MLYS5neDeCjgF6DisMZ6mLKeiVvpBT6ewKktjZS+yLq988c+Qdij6oWzeNvWXGW2BQfhCmXg4OXFOmJd7s+TU8VUBJmTXlXBjU2aV9PlFo8KIXMLj6rKDNf8MGkk3E5DTUOCT2l+XpaSDIoFzlqXQgIjCWTdbntZ5L/jzuMeHOfx7Il2zrON5zSMUAupVR6mn8p5UPCWVZdAYfQuVcrVivFLA8co90mQEN59/Dj2VKWfsS9cPpR7Nh9KcrGrTuFO2/TiLEbAzn0JwfNU+UqfYPHxJKWmV94oildJc8pS/U54BHCHjH1BxiJj5MP/cvsRwIeQw+oWdxQtLxGvuKJLBDtWCmB/9gy/ewqEge+JhentCyN+pMZTUZeekrD7mGlJSV7SmsDuu0xq3UE1bhszhbz1ev+y/fSGi8CvlW81hjSRHABsE8IcviEKF4JOvZQRMrtB3QJ7BaiF7j2FDkBMOnFiHJaChQPPX5Gt4OPuBHG3nsc+SvGxkw/iXvDc2JyuATOXmrhGxWc7Im41I4DfERPxHPe7W/i5cjMGOLq8K0AyZYDbds9i5xZhnp4foKDKX5kStgNHQMNoKAwBVKeA884Kgd2IrxHGg3NUv+9RBKP49VEjOQs+T2WrmE1GRotBtEOQfEMxiHoITDdxXlmy36Y+Jn3qx/fldwGdYKeUQsjK2l/TpHHe7FQlHPFCijp02rsxzuV8J6yvx0puF60w98uWucW92NKs8t8bNgnWM6G5zn9iOdhTa95ldW7QblUUrChBdST4ONtshMPwFszITGg+O4DBDFhSQ3rxivP9kwUHjWOKxhiFhs5/EBTDp6biOH5xqMSJZaacdsEXLbV8TnG+bM5F3Sc11rvZnilhQLSBui4L/UpcrE4GO+6XwAtQx4+UTjy2fIFAlWVLgnqEIPLk4ip5a5JPf4UAXXc82Ae+NcsXfmt4Sf1bSkTWu9xLKlvcGYAR2Y07RDvOKUpeKydy4kWNHgUJqWYM7TTOSP2HII30ggFoSAWg0DlZO27kCLu0JLXmUyFh9kz75YJVbIHPEF1LY3yHOCQ+rdu5QM3kxyHA43BdJf6XSo6vOWhdFfMVXVK52S0Ib2Fo3Abys6fS7bPRAv/hTltaf/Iw+6OqufvgP2HgeoOT1eIeyy9GNtu+p1ZDCHT20lIVezpx1cwcqLrRDttuKDld/tXEg/a3vPy4CcRYl5uJYFe3IiEdkGDzQhn8q6BAdWBgqYURfe29fFJyQmbbjO4FXa27VMRSPeqoWXH7gn+Upd4LyBHdb90YjTyhg3ADcKAmSuQL52wTfZcuGXQPkbTPieDLESGhyumRxQmXV90sNeuShKxqz0hBmRFTG8oXwYBH+w0Kizn9/5RsWyT+R/VTW/QVvo/H7hDS4HeaMdbftGkVtjbDw+qe5JcNpYvgSkCTUfVOxMovHsrsAwJDTL4yWrJK62cJW49nOcwR2i79Jdhl/v+3VBjeEAHpc4kk="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242951,
+    "id": "wSBKaqX4KJW4vr0PkIGBmQU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 339,
+      "total_tokens": 1117
+    }
+  }
+}

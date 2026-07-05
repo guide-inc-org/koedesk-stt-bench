@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0118",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.44,
+  "ref_text_raw": "A causa de la topología submarina, el flujo de retorno se reúne en ciertas zonas de mayor profundidad y allí puede originarse una corriente rápida con dirección a aguas profundas.",
+  "ref_text_normalized": "a causa de la topología submarina el flujo de retorno se reúne en ciertas zonas de mayor profundidad y allí puede originarse una corriente rápida con dirección a aguas profundas",
+  "timestamp_utc": "2026-07-05T04:40:51Z",
+  "text": "A causa de la topografía submarina, el flujo de retorno se reúne en ciertas zonas de mayor profundidad y allí puede originarse una corriente rápida con dirección a aguas profundas.",
+  "latency_sec": 3.1573,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "A causa de la topografía submarina, el flujo de retorno se reúne en ciertas zonas de mayor profundidad y allí puede originarse una corriente rápida con dirección a aguas profundas.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPS8xmd0ywQivG04epM7uFZrf7D4cOg1c4ZoYv9SY0d35VLtssbMZ5NrtgpEbr"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226451,
+    "id": "UuBJap2PEMzLrfcPwe_16Qs",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 357,
+      "total_tokens": 393
+    }
+  }
+}

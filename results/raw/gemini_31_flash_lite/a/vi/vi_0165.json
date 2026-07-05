@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0165",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.0,
+  "ref_text_raw": "Sundarbans là vành đai rừng ngập mặn ven biển lớn nhất trên thế giới trải dài 80 km (50 dặm) vào nội địa Băng-la-đét và Ấn Độ từ bờ biển.",
+  "ref_text_normalized": "sundarbans là vành đai rừng ngập mặn ven biển lớn nhất trên thế giới trải dài 80 km 50 dặm vào nội địa băng-la-đét và ấn độ từ bờ biển",
+  "timestamp_utc": "2026-07-05T08:47:37Z",
+  "text": "Sundarban là vùng đai rừng ngập mặn ven biển lớn nhất trên thế giới trải dài 80 km 50 dặm vào nội địa Bangladesh và Ấn Độ từ bờ biển.",
+  "latency_sec": 2.8849,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Sundarban là vùng đai rừng ngập mặn ven biển lớn nhất trên thế giới trải dài 80 km 50 dặm vào nội địa Bangladesh và Ấn Độ từ bờ biển.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPmGRYfNxhfMwCrqensjz0P7DvkB3viDwyqhIYOk2VKOEhQ5YBYVYqoJ+Q18+w"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241257,
+    "id": "KBpKarenCvK8vr0P85enuQQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 42,
+      "prompt_tokens": 321,
+      "total_tokens": 363
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0094",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.22,
+  "ref_text_raw": "一方、多くの国では氷雪の多い状況が普通ですが、交通は1年中ほぼ途切れることなく続いています。",
+  "ref_text_normalized": "一方 多くの国では氷雪の多い状況が普通ですが 交通は1年中ほぼ途切れることなく続いています",
+  "timestamp_utc": "2026-07-05T10:18:27Z",
+  "text": "一歩 多く の 国 で は 氷雪 の 多い 状況 が 普通 です が 、 交通 は 1 年 中 ほぼ 途切れる こと なく 続い て い ます 。",
+  "latency_sec": 2.7786,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "一歩 多く の 国 で は 氷雪 の 多い 状況 が 普通 です が 、 交通 は 1 年 中 ほぼ 途切れる こと なく 続い て い ます 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPLkgSB19X+WM+hnHo3P0KigszorJKtQmGVMONntxoGPevf9otiv7BYQD5QgKW"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246707,
+    "id": "ci9KaufLBcGn2roP073K4AE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 377,
+      "total_tokens": 418
+    }
+  }
+}

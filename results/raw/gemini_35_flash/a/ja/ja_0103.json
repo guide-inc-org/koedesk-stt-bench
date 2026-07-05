@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0103",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.62,
+  "ref_text_raw": "エアロスミスはツアーで予定していたコンサートを中止しました。",
+  "ref_text_normalized": "エアロスミスはツアーで予定していたコンサートを中止しました",
+  "timestamp_utc": "2026-07-05T03:15:23Z",
+  "text": "エアロスミスはツアーで予定していたコンサートを中止しました。",
+  "latency_sec": 3.7739,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "エアロスミスはツアーで予定していたコンサートを中止しました。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpcICpQIARFNMg/PWHjWVFfBgp1gxAqxr6DmrM+yYjzpT4/Y3kZjO5ri63cUy/EFdjw8DHjKV41KOMt3ocU6T02RnjomZah3TmjGehWvdijfEqJkmTMMG6PkaDN2QfVPzcN7Q5pxK15gSNBSqeX4qB1UL0o7mIiuxO2XOABtqqupEin2eI9eRho/vhfWJCKylJpn67S2g8OtTYcaeqoUimF2oGDCjvWjpVSO7pjL//SnI831AY95EXLlV++5zWVnuQAPnAWDuy4gu/UczlySAEEF2Ncs6Okq73LqkZWPoD9650pw0ls3BUPfm8Cs/3UTsIvZ3HlbqmrZzPp1XQT4/wr5LFTiE++ciad3i5CnhkYa5hM1rmo/SYITBxIdT/TqMqeAUhtUcc+5Nu4/qpumX9n/3TKPhD9Cb/qNK4xO3fKt3xw68jAlTUPX5PmDbgVvp9lJwyzCHVlkouPQ7tFIdFQo+UlaRjbqh1fWFPNySa60A9fHpOhdAUkLAjF55pmUuHOh/O/GyknZzLQuizlM9HFq8lZ2dxCgT9tkFvdXpIDjYWjf9t5tQ56BZKB9h3FNHNBXDyLYmXeeWzOYse26/6jys8fSKsuv0GzanNaArLoAiyKeqcriRz/YKEn9hWj8H8SQiIs1fJKk4to5UlfKviNg8bFARaYzfLsZMVyWsH+rvDHdNnq7sWAkTcM4LbD69YjD6MModbc/g5KbgeMMWM4iBJJ8XFkWdlfbNFAZrVIFSLCcJNt1YjnNlHh0ok+310ZifROdHkB8BjyI9Mu9PY9uLeMYZP0TeholCktmXd0dsQQ3mltQCxd3Rz/aCktdH5S67KQbhv7guY3mlKv8OptvccOwMQiuCin9FiQ0agkpn6J83BchMfhTSSW3xA6lKYLRCq1iqbTFcxlCMHAaIN6URKjrZ81hHQRnEtD2mK0vVAQBuQ9D9S2mFnYjibNNX01FeFhCottKlbahLAA+BSlUWEGydJuIYfdWcLdFFTJJxdIkDyQKbhGMkXQYgxzDsLP3gD3qnHtopeFpeGY3F7bdb+xd+1alZh0/g8RRoDbuqxLjvEx4lPuJsnp0WOy7sF7AvcNi8VIPiDfCU1862q3fJOMGvEMEiTF4tzzz1bqbHfFIXbfOd2+vYo3EyufCSYy24sCrJAuA5JA1Ym0I4eXShzMPCszyYfuatN2R2tvgORXGO7SlYGjTSL391pV1VmyArsYv8X8wJCMqg3zipoUb5C/Qqh+Ae901i4qm7qbzalTC80ZY8zMk06DYwPP/+45N0b9vF4N6/SExAmWuXplaDY1oRMlcasEANgilfX4PuPDP/SaE/95SEw/x+3fJp7QsyZ3Wapnjmy/29zZ9e7rJMxdXXIrTzbI6ye+geqVygRXmYR21vuJz"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221324,
+    "id": "ScxJav-XKI3O1e8PpY-EiAI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 13,
+      "prompt_tokens": 287,
+      "total_tokens": 520
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0177",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 13.5,
+  "ref_text_raw": "La ville est également le point de départ pour l'ascension du volcan Nyiragongo ainsi que pour des treks de pistage des gorilles des montagnes parmi les moins chers d'Afrique.",
+  "ref_text_normalized": "la ville est également le point de départ pour l'ascension du volcan nyiragongo ainsi que pour des treks de pistage des gorilles des montagnes parmi les moins chers d'afrique",
+  "timestamp_utc": "2026-07-05T04:59:02Z",
+  "text": "La ville est également le point de départ pour l'ascension du volcan Nyiragongo, ainsi que pour des treks de pistage des gorilles des montagnes, parmi les moins chers d'Afrique.",
+  "latency_sec": 3.5361,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "La ville est également le point de départ pour l'ascension du volcan Nyiragongo, ainsi que pour des treks de pistage des gorilles des montagnes, parmi les moins chers d'Afrique.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227542,
+    "id": "k-RJaueKNJnV1e8Pw6zfgAQ",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 453,
+      "total_tokens": 574
+    }
+  }
+}

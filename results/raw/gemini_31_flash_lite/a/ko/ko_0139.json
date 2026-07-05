@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0139",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 20.82,
+  "ref_text_raw": "아직도 이곳에서 살아남은 사람이 많이 있습니다. 여기서 살해당하거나 노동에 시달리다 죽은 소중한 이를 둔 사람은 훨씬 많죠. 유대인이든 그렇지 않든 말입니다.",
+  "ref_text_normalized": "아직도 이곳에서 살아남은 사람이 많이 있습니다 여기서 살해당하거나 노동에 시달리다 죽은 소중한 이를 둔 사람은 훨씬 많죠 유대인이든 그렇지 않든 말입니다",
+  "timestamp_utc": "2026-07-05T06:27:20Z",
+  "text": "아직도 이곳에서 살아남은 사람이 많이 있습니다. 여기서 살해당하거나 노동에 시달리다 죽은 소중한 이를 둔 사람은 훨씬 많죠. 유대인이든 그렇지 않든 말입니다.",
+  "latency_sec": 4.2203,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "아직도 이곳에서 살아남은 사람이 많이 있습니다. 여기서 살해당하거나 노동에 시달리다 죽은 소중한 이를 둔 사람은 훨씬 많죠. 유대인이든 그렇지 않든 말입니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP7h9b+nvjHw3gnq41c51YzJvJ93lTmelnBOdhwO+Q9wK0PPwwRTFIqHZhUbWc"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232840,
+    "id": "RflJaty-IvnC0-kP-o-AoAM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 46,
+      "prompt_tokens": 542,
+      "total_tokens": 588
+    }
+  }
+}

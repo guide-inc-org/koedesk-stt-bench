@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0052",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 8.94,
+  "ref_text_raw": "每个人都是社会的一份子，都会使用交通系统。而几乎每个人都对交通系统有怨言。",
+  "ref_text_normalized": "每 个 人 都 是 社 会 的 一 份 子 都 会 使 用 交 通 系 统 而 几 乎 每 个 人 都 对 交 通 系 统 有 怨 言",
+  "timestamp_utc": "2026-07-05T06:23:06Z",
+  "text": "每个人都是社会的一份子,都会使用交通系统,而几乎每个人都对交通系统有怨言。",
+  "latency_sec": 3.9843,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "9s",
+      "requestId": "6f42f70b-0000-2016-ba36-14c14eec7164",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "每个人都是社会的一份子,都会使用交通系统,而几乎每个人都对交通系统有怨言。"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

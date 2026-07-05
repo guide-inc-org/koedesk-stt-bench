@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0136",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.26,
+  "ref_text_raw": "Madagascar est de loin le plus grand pays, et même un continent à lui tout seul, s'agissant de faune.",
+  "ref_text_normalized": "madagascar est de loin le plus grand pays et même un continent à lui tout seul s'agissant de faune",
+  "timestamp_utc": "2026-07-05T05:17:55Z",
+  "text": "Madagascar est de loin le plus grand pays et même un continent à lui seul s'agissant de faune.",
+  "latency_sec": 2.5881,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Madagascar est de loin le plus grand pays et même un continent à lui seul s'agissant de faune.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPwwgvR2oks622m0BcezOQHvy1h/imATzaRRLUM0F3R3nQkB0wnU42UlWATGgM"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228675,
+    "id": "AulJaqWNEuel0-kPltOWuAs",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 203,
+      "total_tokens": 227
+    }
+  }
+}

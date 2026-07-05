@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0075",
+  "lang": "de",
+  "engine": "gemini_25_pro",
+  "duration_sec": 19.38,
+  "ref_text_raw": "Zwar weiß niemand mit Sicherheit, wer es geschrieben hat, es ist allerdings bekannt, dass das große Pergamentdokument (welches 29¾ Zoll x 24½ Zoll misst) zu Beginn seines Lebens zur Aufbewahrung zusammengerollt wurde.",
+  "ref_text_normalized": "zwar weiß niemand mit sicherheit wer es geschrieben hat es ist allerdings bekannt dass das große pergamentdokument welches 29¾ zoll x 24½ zoll misst zu beginn seines lebens zur aufbewahrung zusammengerollt wurde",
+  "timestamp_utc": "2026-07-05T03:47:17Z",
+  "text": "Zwar weiß niemand mit Sicherheit, wer es geschrieben hat. Es ist allerdings bekannt, dass das große Pergamentdokument, welches 29 3/4 Zoll mal 24,5 Zoll misst, zu Beginn seines Lebens zur Aufbewahrung zusammengerollt wurde.",
+  "latency_sec": 7.1881,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Zwar weiß niemand mit Sicherheit, wer es geschrieben hat. Es ist allerdings bekannt, dass das große Pergamentdokument, welches 29 3/4 Zoll mal 24,5 Zoll misst, zu Beginn seines Lebens zur Aufbewahrung zusammengerollt wurde.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223237,
+    "id": "v9NJauq_D5O00-kP9qbDqAY",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 57,
+      "prompt_tokens": 642,
+      "total_tokens": 1110
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0112",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 16.92,
+  "ref_text_raw": "In ihren frühen Tagen wurde die Show nur auf der altgedienten Internetradioseite TogiNet Radio gezeigt, eine Site, die den Schwerpunkt auf Talkradio legt.",
+  "ref_text_normalized": "in ihren frühen tagen wurde die show nur auf der altgedienten internetradioseite toginet radio gezeigt eine site die den schwerpunkt auf talkradio legt",
+  "timestamp_utc": "2026-07-05T03:48:39Z",
+  "text": "In ihren frühen Tagen wurde die Show nur auf der alt gedienten Internetradioseite Toginet Radio gezeigt. Eine Seite, die den Schwerpunkt auf Talkradio legt.",
+  "latency_sec": 3.6721,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "In ihren frühen Tagen wurde die Show nur auf der alt gedienten Internetradioseite Toginet Radio gezeigt. Eine Seite, die den Schwerpunkt auf Talkradio legt.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223319,
+    "id": "FNRJaruCN5WJ1e8PxbzN-QE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 563,
+      "total_tokens": 596
+    }
+  }
+}

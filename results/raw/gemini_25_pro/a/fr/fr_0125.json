@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0125",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 8.52,
+  "ref_text_raw": "Il est donc probable que la notation a été ajoutée simplement comme une étiquette.",
+  "ref_text_normalized": "il est donc probable que la notation a été ajoutée simplement comme une étiquette",
+  "timestamp_utc": "2026-07-05T05:01:15Z",
+  "text": "Il est donc probable que la notation a été ajoutée simplement comme une étiquette.",
+  "latency_sec": 5.8744,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Il est donc probable que la notation a été ajoutée simplement comme une étiquette.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227675,
+    "id": "F-VJavvSCZbPrfcP9aSH-Ac",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 17,
+      "prompt_tokens": 294,
+      "total_tokens": 477
+    }
+  }
+}

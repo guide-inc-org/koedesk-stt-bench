@@ -1,0 +1,39 @@
+{
+  "utt_id": "pt_0120",
+  "lang": "pt",
+  "engine": "gemini_25_pro",
+  "duration_sec": 17.34,
+  "ref_text_raw": "Construímos nossas casas usando plantas e fazemos nossas roupas usando plantas. A maior parte dos alimentos que consumimos são plantas. Sem plantas, os animais não conseguiriam sobreviver.",
+  "ref_text_normalized": "construímos nossas casas usando plantas e fazemos nossas roupas usando plantas a maior parte dos alimentos que consumimos são plantas sem plantas os animais não conseguiriam sobreviver",
+  "timestamp_utc": "2026-07-05T06:45:18Z",
+  "text": "Construímos nossas casas usando plantas e fazemos nossas roupas usando plantas. A maior parte dos alimentos que consumimos são plantas. Sem plantas, os animais não conseguiriam sobreviver.",
+  "latency_sec": 6.2472,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Construímos nossas casas usando plantas e fazemos nossas roupas usando plantas. A maior parte dos alimentos que consumimos são plantas. Sem plantas, os animais não conseguiriam sobreviver.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783233918,
+    "id": "ef1JarrVGsTs1e8Pu-GUwQI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 576,
+      "total_tokens": 903
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0188",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 15.6,
+  "ref_text_raw": "Australia's Mitchell Gourley finished eleventh in the men's standing Super-G. Czech competitor Oldrich Jelinek finished sixteenth in the men's sitting Super-G.",
+  "ref_text_normalized": "australia's mitchell gourley finished eleventh in the men's standing super-g czech competitor oldrich jelinek finished sixteenth in the men's sitting super-g",
+  "timestamp_utc": "2026-07-05T03:31:18Z",
+  "text": "Australia's Mitchell Gaury finished 11th in the men's standing Super G, Czech's competitor, Ulrich Jaqueline, finished 16th in the men's sitting Super G.",
+  "latency_sec": 3.675,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Australia's Mitchell Gaury finished 11th in the men's standing Super G, Czech's competitor, Ulrich Jaqueline, finished 16th in the men's sitting Super G.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222278,
+    "id": "BNBJaumaAo3O1e8PpY-EiAI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 521,
+      "total_tokens": 564
+    }
+  }
+}

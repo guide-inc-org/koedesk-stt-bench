@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0109",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.8,
+  "ref_text_raw": "Mélangez les deux poudres sèches ensemble, puis, avec les mains propres et humides, pressez-les en une boule.",
+  "ref_text_normalized": "mélangez les deux poudres sèches ensemble puis avec les mains propres et humides pressez-les en une boule",
+  "timestamp_utc": "2026-07-05T05:11:11Z",
+  "text": "Mélangez les deux poudres sèches ensemble, puis avec les mains propres et humides, pressez-les en boule.",
+  "latency_sec": 4.3326,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Mélangez les deux poudres sèches ensemble, puis avec les mains propres et humides, pressez-les en boule.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqcLCqQLARFNMg++lucgE2IrEButX1zQtrgm3eM1Vd1EQLVxPLlToMpYcFNZuFgydoLs5p0N8vhbAtvRJ8P+kb5R962IaEncoaq2IXZ4ZkwB4CB98JeaeikeJV1VTzPyTjLMDFFK3yyQlWbqFNCthLquBgU6We/THEAa3Z689ZEWBa2ZNVrsKBRDjUIIVsIK5zh5GyAE3cTj3xM7EbjRu78bJ9Aw0eYg6UW53k7/YvIX/YRrtOvG5xmeqqVGwDMIMuaILp9ScPX7KhjYya9BOZEmvikkby12c3dWV0TWLRsvZlGyznkaqtXhh4xayyhnCfhUvOKCTBsIwoMGV5qhnSevLaPaCFSFXO3QhlCkTcoG58WlzUvDyi2QgUAMK6LKFZGG9jQ8uNJUzyvzY6TQ3SFadkbh9WTj2t1eK0V7tlmNw1aT0YzTmrkcldN1dSET8X7+AKwlmGIHGz1D7OyiDE+xhCPPyEXrKidlIMBYID+MY1jStKGorE2K8KXEO2z2wU/b0rOXqlOT5+ULzJg/AUkYV/e4ECX6HCthvkgIRH6A47WJNj1pUeebskmKwFD62k+x4pVWJ0gn/ieM/Lv+83cvwAyXxMvycvn0yCkVajlo9v21jZlxMb0fd9MJ46KayRHb3VPoryqC8jHFfgYXzwtVvY+iCxC0BAHFKduA2//S06SWpOHmnFCJZLHgjkRufiH174GG1MhNne7FxK58YT7Qh1YyohKU9J6gVN4Pe5/1OxNeE/v1D1b1bjJ7QV2IG5r4aghS1fwM297oS3Pkui/+R1c0tuJiShQ6tGCySQi5TwTrd5y3SjnoOZDLQp81dVWm32eRhFMx38VILwPIMj3GTHRUhRwZCrrYiYxzM4Iwet6pHubQFtC96bdfR/EVsKkOKDJsBA1yjAFSf8bCv34uE5PLuIbwWC2WWicLbHY31a4sB+HEAyioiT1J706SFH16hFMvn6lOu10ixGBrQe9m0bmQYiK06ilL1r7lvRBNVj3/ImbwbxqxUXBbPrVfos0i3aZHs5mi1DoU7nKj9+94xOM4ntVlv0fNVMFFyh0PIVZalbj3qn0xKMrHPA69Sw6OpUlFqo+9RwAm2aX1nwrP2k3ykXyMY5dWwqeVP/z2722G+wdbAZHncGcqg8Dj8usCdrPAcVPGKDhQClV+GV3ZIpbYIWFbHCHKllbpg+BSWQ0dTX8FHlp+ny7HIRyOXH9inQA7tBmva9PlHoDSJHjx1OwffBBzxVoKFPJHJ5C1fuKOeiIGLjjTa1NKz3OzRutUEmbt4T6TrfGJBSg63pxLcz34hXay6YXNERWmIz2dSj1bthmrPQZa4fDm2TQMf499JX0oNSmJDjVRHZyeERd4tNnG9g4Svl+DSqi4U5u07Vi/DlPWWrWwMfIozYTGdblixfTgk6rzIGUwsIVlhHJ/oLeKWCyezE9juQmrPVfN3dcGPvAsyvsISuQaPsEeSKxFleYDSSnZnNOzVoV3I7zk9hbjseDyzz3HgJ2uOf4EtZ3nVk2SzPd4dROlZVs0O3f6FBGBBavyhrplFLqn6M8n+lmWbFxJQWjc5d2A3QL9anGdUHG5TBI2EtV7wz+Oa1b1Dwhqw7OaZZmRd54J66dX+ydBMUQgAg6JaY54hcCaT3EHKTIcyQGTYHhDU24UjX+0+bQuDIn3zQ0pBsBGiUOQcwWTjSaJuP4AlBLhan4vCC+ts1RG0VwHLn8v56A9rd7a/gXrB5Irf8S1CegDnMYkJt8XVM5TljzAhUTeY9fAJ5YUkLox6crBMyGaA+NOLUtmEALvtWzjdvQgJUDk/vWD5b3M8X1RIYPmKfjkxccxsNlg8RQLJ+RcdKOGjpwPdSvteu0ALaQQqLWsxu96QhVerOWAGXYk1XoiV0M0F2FCwSW/W1jKURce6Vm5fLRmDMd7LTYCipsm4A=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228271,
+    "id": "a-dJapbVN_K8vr0P85enuQQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 216,
+      "total_tokens": 656
+    }
+  }
+}

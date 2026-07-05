@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0159",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 12.9,
+  "ref_text_raw": "Avec le Kundalini Yoga, l’énergie Kundalini (énergie d’illumination) est éveillée par des postures de yoga, des exercices de respiration, des mantras et des visualisations.",
+  "ref_text_normalized": "avec le kundalini yoga l’énergie kundalini énergie d’illumination est éveillée par des postures de yoga des exercices de respiration des mantras et des visualisations",
+  "timestamp_utc": "2026-07-05T05:04:51Z",
+  "text": "Avec le Kundalini yoga, l'énergie Kundalini, énergie d'illumination, est éveillée par des postures de yoga, des exercices de respiration, des mantras et des visualisations.",
+  "latency_sec": 4.5447,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Avec le Kundalini yoga, l'énergie Kundalini, énergie d'illumination, est éveillée par des postures de yoga, des exercices de respiration, des mantras et des visualisations.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227891,
+    "id": "8OVJaufUFvGC0-kP1smn0AY",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 434,
+      "total_tokens": 515
+    }
+  }
+}

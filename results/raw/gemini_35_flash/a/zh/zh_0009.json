@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0009",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.84,
+  "ref_text_raw": "这里几乎都是沙滩，游泳很安全，大部分地方都有新西兰圣诞树的树荫。",
+  "ref_text_normalized": "这 里 几 乎 都 是 沙 滩 游 泳 很 安 全 大 部 分 地 方 都 有 新 西 兰 圣 诞 树 的 树 荫",
+  "timestamp_utc": "2026-07-05T09:06:00Z",
+  "text": "这里几乎都是沙滩，游泳很安全，大部分地方都有新西兰圣诞树的树荫。",
+  "latency_sec": 4.1316,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "这里几乎都是沙滩，游泳很安全，大部分地方都有新西兰圣诞树的树荫。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EuAGCt0GARFNMg93ypUG5rtuWn9gm1ogGel4BEu8poCzkw5AK0wtBkcV+GDNRMRehwG0nwrIhX167r4QiGzaJaCtTF+d2LvNgXO1QUG7Y1cjKTrMWQLpT6oqocNCy50SvW+NmYV9P/SQ4RKS1TJQ4SC9HcjtSNZvzgfrPvault+7R05QxaXRnEHUIzQ21/lQj0+51hNNGzHS7tK3iUQmWxjuLceEx/EslNZdiVnVpVW/Hl1zhkFCuinXkfpSzzDRITdyDVYyTXxcEoRw9lreuXr6xnvVuiNYK9QC9lc+K9ZzNkHV8clBMq4aEhOLgD67iAv1H7HnlELeZFvzZi7cj9yIqCtutvQddhQidKYongQrON5tIvEG2qpIgf9fGFoZW2Z+pOp4PLeqtdt/JzT+GSGkNZlfAyi6zxpR8wQN+5VCscCIpDuxjX6OXAsZnUA+lUlMNJ3aC5n5yKbVAkwsRdiP4ag032fAhmUhZA1BTCXg5nx2UJkSDnNYjR2FRRctCBTCwnUKKZnpkGRsyy9PrirIDQWwOm8gyROw4MhhRGqdFSy9wUismMjG4TQvSZmV9tAb3dYbBiYUATAvGcjbHj/znmCHczRlqo/yx68EK2U6CYkPt863kkaYCGpZ3YJ8/WRgStJ88toQST6oM/Lr4apu6ch0p6++sEWE6zbWu/L1U3OCXuMSMW5lh5jlUJk4QwbY5KqE77ORpr+EANAyH96SGJi6zlbfJSCxYPo9JhpDZwHSAL2kG39hdQS0m5rHZWfeCXrqJovQGyZ5TYVTzD5b130LZPqqPkgfu3qjRrn4dgWT2iTl5vMnbeBiJAuqaF4mdGQHNYMHPBX0YHMjYD8FECYPnwhrUhFwnrZK8lCtw3/yxs8SgZJ0nIgy2P3lZBYvFnWWQhwjMyazWT0+y21xkWPzEZVagt/MIRpNh8fKD8EnpV+65mdCbBmIx2rP7YBQCWSXjROo7555TJyRAiQ4mC0FDO4Ylk/zSARr2fjKKPj9T7EZKjCY4moR3eMPSLPXWcICVkxfycMqlHqT2HeBV8rbPblvs69pBherLWfkQ0MmZ2ugp7ZWY5PyOJN7xG5fm36hlkuGlKPWooRw1yF698Klk6ViQtjR23QSJpcd/V0f1EVQF6q47lQPHECSUrtv"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242360,
+    "id": "dR5Kaue_LJj41e8PhNP08AM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 192,
+      "total_tokens": 440
+    }
+  }
+}

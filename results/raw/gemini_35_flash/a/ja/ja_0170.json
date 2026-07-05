@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0170",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 17.1,
+  "ref_text_raw": "オーストラリアのミッチェル・ゴーリーはスーパーG男子スタンディングで11位に終わりました。チェコのオルドリッチ・イェリネクは、男子シングルスーパーGで16位に終わりました。",
+  "ref_text_normalized": "オーストラリアのミッチェル ゴーリーはスーパーg男子スタンディングで11位に終わりました チェコのオルドリッチ イェリネクは 男子シングルスーパーgで16位に終わりました",
+  "timestamp_utc": "2026-07-05T03:22:03Z",
+  "text": "オーストラリアのミッチェル・ゴーリーはスーパーG男子スタンディングで11位に終わりました。チェコのオルドリッヒ・イェレクは、男子シッティングスーパーGで16位に終わりました。",
+  "latency_sec": 5.9868,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "オーストラリアのミッチェル・ゴーリーはスーパーG男子スタンディングで11位に終わりました。チェコのオルドリッヒ・イェレクは、男子シッティングスーパーGで16位に終わりました。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221723,
+    "id": "1s1JatrZMbmVvr0PopTJiQc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 50,
+      "prompt_tokens": 449,
+      "total_tokens": 1210
+    }
+  }
+}

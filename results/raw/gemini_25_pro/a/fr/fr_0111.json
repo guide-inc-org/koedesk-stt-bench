@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0111",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.62,
+  "ref_text_raw": "L’annonce a été faite après que M. Trump ait eu une conversation téléphonique avec le président turc Recep Tayyip Erdoğan.",
+  "ref_text_normalized": "l’annonce a été faite après que m. trump ait eu une conversation téléphonique avec le président turc recep tayyip erdoğan",
+  "timestamp_utc": "2026-07-05T04:58:56Z",
+  "text": "L'annonce a été faite après que monsieur Trump ait eu une conversation téléphonique avec le président turc Recep Tayyip Erdogan.",
+  "latency_sec": 4.8913,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "L'annonce a été faite après que monsieur Trump ait eu une conversation téléphonique avec le président turc Recep Tayyip Erdogan.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227536,
+    "id": "jeRJaqmNE8_g1e8PpM-tqAQ",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 361,
+      "total_tokens": 429
+    }
+  }
+}

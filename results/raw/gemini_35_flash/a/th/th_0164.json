@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0164",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 23.82,
+  "ref_text_raw": "มีผู้ตั้งถิ่นฐานอยู่ในฟินแลนด์เพียงประปราย ในตำนานของชาวนอร์สกล่าวกันว่าเอริกผมแดงถูกเนรเทศออกจากไอซ์แลนด์ในข้อหาฆาตกรรม และเมื่อเดินทางต่อไปทางตะวันตก เขาก็ค้นพบกรีนแลนด์และตั้งชื่อให้ว่ากรีนแลนด์",
+  "ref_text_normalized": "มีผู้ตั้งถิ่นฐานอยู่ในฟินแลนด์เพียงประปราย ในตำนานของชาวนอร์สกล่าวกันว่าเอริกผมแดงถูกเนรเทศออกจากไอซ์แลนด์ในข้อหาฆาตกรรม และเมื่อเดินทางต่อไปทางตะวันตก เขาก็ค้นพบกรีนแลนด์และตั้งชื่อให้ว่ากรีนแลนด์",
+  "timestamp_utc": "2026-07-05T08:07:34Z",
+  "text": "มีผู้ตั้งถิ่นฐานอยู่ในฟินแลนด์เพียงประปราย ในตำนานของชาวนอร์ส กล่าวว่า เอริกผมแดงถูกเนรเทศออกจากไอซ์แลนด์ ในข้อหาฆาตกรรม และเมื่อเดินทางต่อไปทางตะวันตก เขาก็ค้นพบกรีนแลนด์ และตั้งชื่อให้ว่ากรีนแลนด์",
+  "latency_sec": 5.3577,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "มีผู้ตั้งถิ่นฐานอยู่ในฟินแลนด์เพียงประปราย ในตำนานของชาวนอร์ส กล่าวว่า เอริกผมแดงถูกเนรเทศออกจากไอซ์แลนด์ ในข้อหาฆาตกรรม และเมื่อเดินทางต่อไปทางตะวันตก เขาก็ค้นพบกรีนแลนด์ และตั้งชื่อให้ว่ากรีนแลนด์",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238854,
+    "id": "whBKauu3IqKw0-kP6bjO4AU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 72,
+      "prompt_tokens": 617,
+      "total_tokens": 1148
+    }
+  }
+}

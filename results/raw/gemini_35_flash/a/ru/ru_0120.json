@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0120",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.62,
+  "ref_text_raw": "Между 10:00 и 11:00 вечера по горному времени заключенные устроили пожар во дворе.",
+  "ref_text_normalized": "между 10:00 и 11:00 вечера по горному времени заключенные устроили пожар во дворе",
+  "timestamp_utc": "2026-07-05T07:27:06Z",
+  "text": "Между десятью и одиннадцатью вечера по горному времени заключённые устроили пожар во дворе.",
+  "latency_sec": 3.4324,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Между десятью и одиннадцатью вечера по горному времени заключённые устроили пожар во дворе.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Et4FCtsFARFNMg+1+44MpP3X56rxCYDywCHGtX6C2/KjUyA7VtU3VF0gQXvUduAJE3zyJASm+1lB7wLmcU8PTJFmm6Fy1JJckstntX6xPlD5PrzUsjPAkCE++YxErsJUKPZV4XMaRt62EGU6nNHm0DudFBuHupH0Jtxu7O5JmuVULu+pPgcPf8pXPlT/ZwWm2vem3Mos7Jl8xEfdUCGWcWjmsbKkMltxLvPgMcHVIiC+/JmHxEB9b0m5NH4uWskX+TdgCr+qRCQ8ITr4waGdczO/+VRC9MlS2mHBtegYxJA/jYTaxgcFm6nzL6fcm/TnzFTHeHyCft8dkITYkBM2EZqIrk4EOIyZKaCcP9Ifd/5WdYQS0p2KDDdFLP1pm7P1Nnc0bmyA7Eq6sLI1rsdKevQtvd0eyGTXn8fBNtg7EACS0kf0PiRUekBTylb3tLrul6bxVYr868SWgLJNFE5ZJ6CB8JbvlRqj1ML8IF/HjZbvBs7cxAIE+SYr4zdwmnam4mdR9zK/DE6rcMrguxkLyJi+fYWMRPP//A/IaD8nkJEkVJFfOZ4Z2CXo+lJBes66lYppUYODZU9QwzSDKMFLo6AIBbkMdiPistNH75Gk+AlYNa9SMIILANTfvdWAUzgPQOB1Ia9mWV3X08UwKMwM6OzSWxYYonlpNMhADMGjZ6pJZ0rJmzj0eV6cQTIq45HJUDQo/+STtfz6RA0XX1MxuaZh5ENxY+B6d9a7TkuenKH7SAKvXW347uZi3u5ylY0T6g9KacRZofA+BeDJeyxj3aAv+uz1FjMfOUpzL2VIHOKElu0Xj7jsy4/sknFIb4BlGDwZJJqG/ptEOH6wgitVWuag6Aj+ZthY1MywRMWZXai5+ogvtx1+OXU/puWxrnf04sCH/9QlpLlprtazwN/vuoJV6lV5ligfa/dw58CXAioYvDFxxJu+XyeGgDZ82GhuaamismdQ/5NP5Kc0N4qPWbg="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236426,
+    "id": "RwdKarTuOunn2roPlKW22Ao",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 212,
+      "total_tokens": 383
+    }
+  }
+}

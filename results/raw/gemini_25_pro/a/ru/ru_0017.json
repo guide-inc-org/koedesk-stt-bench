@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0017",
+  "lang": "ru",
+  "engine": "gemini_25_pro",
+  "duration_sec": 8.28,
+  "ref_text_raw": "Так же, как Луна притягивает Землю, при этом вызывая приливы, так и Млечный Путь воздействует на галактику в Стрельце.",
+  "ref_text_normalized": "так же как луна притягивает землю при этом вызывая приливы так и млечный путь воздействует на галактику в стрельце",
+  "timestamp_utc": "2026-07-05T07:08:02Z",
+  "text": "Так же как Луна притягивает Землю, при этом вызывая приливы, так и Млечный Путь воздействует на галактику в Стрельце.",
+  "latency_sec": 5.8323,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Так же как Луна притягивает Землю, при этом вызывая приливы, так и Млечный Путь воздействует на галактику в Стрельце.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235282,
+    "id": "zQJKav3zHMmzvr0PmpW5mQI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 286,
+      "total_tokens": 614
+    }
+  }
+}

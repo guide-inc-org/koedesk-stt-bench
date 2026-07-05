@@ -1,0 +1,36 @@
+{
+  "utt_id": "en_0143",
+  "lang": "en",
+  "engine": "google_stt_v2",
+  "duration_sec": 13.74,
+  "ref_text_raw": "It was ruled by the \"Vichy\" French. These were French people who had made peace with the Germans in 1940 and worked with the invaders instead of fighting them.",
+  "ref_text_normalized": "it was ruled by the vichy french these were french people who had made peace with the germans in 1940 and worked with the invaders instead of fighting them",
+  "timestamp_utc": "2026-07-05T03:35:14Z",
+  "text": "It was ruled by the Vichy French. These were French people who made peace with the Germans in 1940 and worked with the invaders instead of fighting them.",
+  "latency_sec": 4.5312,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "en-US",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "14s",
+      "requestId": "743d6233-0000-263e-843b-f4f5e8031264",
+      "prompt": "Transcribe the following speech segment in English. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, English."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "It was ruled by the Vichy French. These were French people who made peace with the Germans in 1940 and worked with the invaders instead of fighting them."
+          }
+        ],
+        "languageCode": "en-US"
+      }
+    ]
+  }
+}

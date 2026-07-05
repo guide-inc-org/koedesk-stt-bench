@@ -1,0 +1,39 @@
+{
+  "utt_id": "pt_0076",
+  "lang": "pt",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.12,
+  "ref_text_raw": "As crianças são colocadas em casas de acolhimento por uma infinidade de razões, que vão desde negligência a abuso e até mesmo extorsão.",
+  "ref_text_normalized": "as crianças são colocadas em casas de acolhimento por uma infinidade de razões que vão desde negligência a abuso e até mesmo extorsão",
+  "timestamp_utc": "2026-07-05T06:32:53Z",
+  "text": "As crianças são colocadas em casas de acolhimento por uma infinidade de razões, que vão desde negligência a abuso e até mesmo extorsão.",
+  "latency_sec": 6.0314,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "As crianças são colocadas em casas de acolhimento por uma infinidade de razões, que vão desde negligência a abuso e até mesmo extorsão.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783233173,
+    "id": "kfpJaueHApHNrfcPvY_ZsAY",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 409,
+      "total_tokens": 466
+    }
+  }
+}

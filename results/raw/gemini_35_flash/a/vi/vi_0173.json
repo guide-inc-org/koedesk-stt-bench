@@ -1,0 +1,45 @@
+{
+  "utt_id": "vi_0173",
+  "lang": "vi",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 19.08,
+  "ref_text_raw": "Hiện vẫn còn nhiều người nam và nữ còn sống đã sống sót qua thời gian bị giam cầm ở đây, và thêm nhiều người nữa có thân nhân đã bị sát hại hoặc đã bị khổ lao đến chết tại nơi này, cả người Do Thái lẫn những người không phải Do Thái.",
+  "ref_text_normalized": "hiện vẫn còn nhiều người nam và nữ còn sống đã sống sót qua thời gian bị giam cầm ở đây và thêm nhiều người nữa có thân nhân đã bị sát hại hoặc đã bị khổ lao đến chết tại nơi này cả người do thái lẫn những người không phải do thái",
+  "timestamp_utc": "2026-07-05T08:44:53Z",
+  "text": "Hiện vẫn còn nhiều người nam và nữ còn sống đã sống sót qua thời gian bị giam cầm ở đây và thêm nhiều người nữa có thân nhân đã bị sát hại hoặc đã bị khổ lao đến chết tại nơi này cả người Do Thái lẫn những người không phải Do Thái.",
+  "latency_sec": 4.7132,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Hiện vẫn còn nhiều người nam và nữ còn sống đã sống sót qua thời gian bị giam cầm ở đây và thêm nhiều người nữa có thân nhân đã bị sát hại hoặc đã bị khổ lao đến chết tại nơi này cả người Do Thái lẫn những người không phải Do Thái.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EsENCr4NARFNMg9GpApSlVb/GgGqlt+HKu6gFC0k56PsXNhaAH/mLquYuDt4zakoIti1BjumcbSAjzwWMnfWv8BqwYtxSXLOBdns/hw/sh+OdPYc2uZItEljD5PnCqovyl1wLa1Q9KRxhk82O2km7TZfs+/QP7VNH+q4b1peWSoaEM4zIHNVfpe/de5AS8g9y0KWH33i9JlXX+Q/Ey8W13Ykusy5+s08DceKJrvLh5eeoLnMsOJk2SG1Y/7wW+1RpP+jlA9ax5YHrvI+noEfxdeWZ25HWR0CSNCQAYorpoIvCtftCZK/8FCzaj0ZthmZ142cqVELgZeHcs8myg80K9+tTEL5kMBRpteZAwft7/72XHxceYXX6cZ4fs28XIgE7XTX7tVbA09jyOi6R+zfnalf5goW3A0Yxsxs0+JGGBPh8cTStENATMOmMHnSvUZ46yJobFojREzG4RQP97M6K8svuYy4675goUHaFDTdg7TnVwkf+cd9O8REW0fkzus+NelWQ78ihQhRxtVyPKeHG+G0waANkwTSiieD36V6reAYddzvgi5XO/S0XW4p869eR5dvwJxk0tyl5yfqfqeJUXVM/6TiYWXvrIEt21ZostA+qKmljv1J1kguwc3ulTJq4ZZ7F75yHo6Z1M/qy8X3N92Et/1xPt4Hfbg0Ruhb1joC9CF8dZhyF0zcA2QDlb4o6r6ggdqO+EmJwOn/f/Vq0dmaLtocsX53iE0zFaywCZ441tGjOawSHmB09JeG3OICd5WACIGDIt559ukFK/PIxmLDxOhkLO1oBiZuEAJDqOttv5qgq9nMIUT2N30xBpAld+4/C2tWmh/44EoG0sp+yyNW1IiWTD31U5iE0zTnPgDl/HMPEX1FLNVgscAOVNA64oKtdp6RUk6vHaVq0sJ36cqBIPsaD3EGSKInq6IZdEwjeeLRP1k2dvqMu78oENCbjV4xM+PmZ/w6K3BgoXLYHftiLvCZSqXYUq2GsyXCs2QXqV4swNU30yDX8Azxzyxt1P0yosV1OiT3FCikaaWHkfAt42Pd/IaFPT/vujQCHCCZFHmIcaca0PePzWXL8mq2NoR2M0Hd4N+0I9Mu00vaHdy1FqMsQKvPKrbEpSIVK3IT5JUJnEHOBXCdx/Fs7tWKCNcGSC0EpjnexslzMy2/2Q2hHrcygCTWCX0O2++WUQsRs56aFYTW5nFyE4JXu8jKUcL4YcuJGAlpz9NxaBcPuD7UPhTPDAHs8mQ2lntxosKUYD2Ae17GiVQ61Aa+WjlG6UVc55yKgrG2MXwnNEyhbjcg0NvRh5DEbIpay9JHc8zZs5U9Z7QbkCqGIPMj4zx/E6eFkwGIAcgHhvrgGZR92w9NJpK7+IrUD/wCfo/4r/ez914zJGsWeAPPCm2zZ/0ixMm6i+Ey+jJ1RKOeXq2T0TkhOCLx7deOx8SxIktiiiDsSGLviVqRS0+ZJb3TIov+rzGrCsUulyoDyYS2ifHDgA7NBa5uRrmdWUngzkyQvVlMcHgO4JUrVXZ1y5v98A8OGzuzlS4pd98ySCjRGdVLS3tOOZgJDaoY5PapjhGNUZaemy7UexkmDBT+CPqXpMMkH0Hl7W5pOpru9xJPhyZINKnUuzb7fKvtDZe/gCWE5x4LlfMisp14kF9GLnFQ4llV+YxDFXlVxh7gIid9RxHpKInkKIZfSjzIfv+dV2vfboMUpnrWhRk/34Pr/ve8jXNr6REdy8pw8o7qYhmvKz+GKZ5ZnnBwnCqwfOwigz8FpOvXr5BPiWmssHRo+QztZ8kOG0i0lv2xO8UiEp3MEyWTQF7ySNv9/gUswXhomT6oM0pFnWIxcHDkPLL5SDq6ufhvSkQDgPll6+4Vx+dTIFfC5xjDcfAqrhT2yNTtMfG7e+PoS/U+FeM0mAgPzqugkvSAvOq1mQ0nG0qVfDVcKw+0i6Bo7Ikwopx5kMdwKmAYZ+/pbk6pDl0vXuy4fx4IPcPXMetDyZEcq3Mwy4wyivk54PAWa7uZM05Wuld72S6A2ObORnOt1IUSqA/CjBLz8XIRY+F6oasUYuUWa7bGqZ/zd6giGyss5yLH+AHvChvf2874jYKGoydGIUNJpMPt08HGQgsXfLtIHmswIWcIyY6l9TU5GUMNguktDix1OdIefzHPPCgeQ1u+Prxv0gg6KTL2tfF6k6ck/O0LwLhacsGlH4rWwO+gJt2FTTxHTYo80Uxz5UDDoeEgnZhFb9tvvlSLGPc8Pz1WjtGTqL5hZaORHI4vbZD/2iCvum3qlYxQSvfSKutbFfCq6vJYosadAZVKhixHeQ=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241093,
+    "id": "gRlKaoiEPa2A1e8P88TkuQE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 56,
+      "prompt_tokens": 498,
+      "total_tokens": 981
+    }
+  }
+}

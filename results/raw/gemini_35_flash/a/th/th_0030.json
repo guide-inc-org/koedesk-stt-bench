@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0030",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 13.98,
+  "ref_text_raw": "รายงานฉบับนี้มีความสำคัญอย่างยิ่งต่อนโยบายปัจจุบันที่ผู้บริหารมีต่ออิรักในเกือบทุกแง่มุม อีกทั้งยังกระตุ้นให้เกิดการเปลี่ยนแปลงทิศทางได้ในทันที",
+  "ref_text_normalized": "รายงานฉบับนี้มีความสำคัญอย่างยิ่งต่อนโยบายปัจจุบันที่ผู้บริหารมีต่ออิรักในเกือบทุกแง่มุม อีกทั้งยังกระตุ้นให้เกิดการเปลี่ยนแปลงทิศทางได้ในทันที",
+  "timestamp_utc": "2026-07-05T07:53:48Z",
+  "text": "รายงานฉบับนี้มีความสำคัญอย่างยิ่งต่อนโยบายปัจจุบันที่ผู้บริหารมีต่ออิรัก ในเกือบทุกแง่มุม อีกทั้งยังกระตุ้นให้เกิดการเปลี่ยนแปลงทิศทางได้ในทันที",
+  "latency_sec": 5.3934,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "รายงานฉบับนี้มีความสำคัญอย่างยิ่งต่อนโยบายปัจจุบันที่ผู้บริหารมีต่ออิรัก ในเกือบทุกแง่มุม อีกทั้งยังกระตุ้นให้เกิดการเปลี่ยนแปลงทิศทางได้ในทันที",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238028,
+    "id": "iQ1KapnJDfK8vr0P85enuQQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 46,
+      "prompt_tokens": 371,
+      "total_tokens": 899
+    }
+  }
+}

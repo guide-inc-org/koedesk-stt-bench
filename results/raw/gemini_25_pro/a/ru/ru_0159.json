@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0159",
+  "lang": "ru",
+  "engine": "gemini_25_pro",
+  "duration_sec": 16.68,
+  "ref_text_raw": "Вчера утром возле главного полицейского управления Газиантепа (Турция) был подорван автомобиль, в результате чего погибли 2 полицейских и еще более 20 человек получили ранения.",
+  "ref_text_normalized": "вчера утром возле главного полицейского управления газиантепа турция был подорван автомобиль в результате чего погибли 2 полицейских и еще более 20 человек получили ранения",
+  "timestamp_utc": "2026-07-05T07:22:38Z",
+  "text": "Вчера утром возле главного полицейского управления Газиантепа, Турция, был подорван автомобиль, в результате чего погибли два полицейских и ещё более двадцати человек получили ранения.",
+  "latency_sec": 5.1089,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Вчера утром возле главного полицейского управления Газиантепа, Турция, был подорван автомобиль, в результате чего погибли два полицейских и ещё более двадцати человек получили ранения.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236158,
+    "id": "OgZKaoqKFbycrfcP6t_NqQY",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 42,
+      "prompt_tokens": 555,
+      "total_tokens": 783
+    }
+  }
+}

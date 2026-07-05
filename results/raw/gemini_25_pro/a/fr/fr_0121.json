@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0121",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 8.64,
+  "ref_text_raw": "Casablanca est l’un des endroits les moins intéressants de tout le Maroc pour faire des achats.",
+  "ref_text_normalized": "casablanca est l'un des endroits les moins intéressants de tout le maroc pour faire des achats",
+  "timestamp_utc": "2026-07-05T05:00:34Z",
+  "text": "Casablanca est l'un des endroits les moins intéressants de tout le Maroc pour faire des achats.",
+  "latency_sec": 6.1002,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Casablanca est l'un des endroits les moins intéressants de tout le Maroc pour faire des achats.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227634,
+    "id": "7eRJauOsA-ON1e8PjO3d6AM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 298,
+      "total_tokens": 486
+    }
+  }
+}

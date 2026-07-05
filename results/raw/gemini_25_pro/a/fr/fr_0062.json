@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0062",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.26,
+  "ref_text_raw": "Son travail est d'une telle qualité et d'un tel niveau de détail qu'il est l'un des rares philatélistes bien connus du « grand public ». Certains collectionneurs consacrent leur attention uniquement à ses œuvres.",
+  "ref_text_normalized": "son travail est d'une telle qualité et d'un tel niveau de détail qu'il est l'un des rares philatélistes bien connus du « grand public ». certains collectionneurs consacrent leur attention uniquement à ses œuvres",
+  "timestamp_utc": "2026-07-05T04:52:13Z",
+  "text": "Son travail est d'une telle qualité et d'un tel niveau de détail qu'il est l'un des rares philatélistes bien connus du grand public. Certains collectionneurs consacrent leur attention uniquement à ses œuvres.",
+  "latency_sec": 5.7996,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Son travail est d'une telle qualité et d'un tel niveau de détail qu'il est l'un des rares philatélistes bien connus du grand public. Certains collectionneurs consacrent leur attention uniquement à ses œuvres.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227133,
+    "id": "-eJJapqeA7ycrfcP6t_NqQY",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 350,
+      "total_tokens": 658
+    }
+  }
+}

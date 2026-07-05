@@ -1,0 +1,45 @@
+{
+  "utt_id": "vi_0124",
+  "lang": "vi",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 20.76,
+  "ref_text_raw": "Năm phút sau khi bắt đầu cuộc trình diễn, một cơn gió bắt đầu xuất hiện, khoảng một phút sau, gió đạt vận tốc 70km/h... sau đó mưa tới với cường độ mạnh và lớn đến nỗi da có cảm giác như bị kim châm, sau đó mưa đá xuất hiện, mọi người hoảng loạn và la hét và dẫm đạp lên nhau.",
+  "ref_text_normalized": "năm phút sau khi bắt đầu cuộc trình diễn một cơn gió bắt đầu xuất hiện khoảng một phút sau gió đạt vận tốc 70km/h... sau đó mưa tới với cường độ mạnh và lớn đến nỗi da có cảm giác như bị kim châm sau đó mưa đá xuất hiện mọi người hoảng loạn và la hét và dẫm đạp lên nhau",
+  "timestamp_utc": "2026-07-05T08:40:08Z",
+  "text": "5 phút sau khi bắt đầu cuộc trình diễn, một cơn gió bắt đầu xuất hiện. Khoảng 1 phút sau, gió đạt vận tốc 70 km/giờ. Sau đó mưa tới với cường độ mạnh và lớn đến nỗi da có cảm giác như bị kim châm. Sau đó mưa đá xuất hiện, mọi người hoảng loạn và la hét và dẫm đạp lên nhau.",
+  "latency_sec": 4.7668,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "5 phút sau khi bắt đầu cuộc trình diễn, một cơn gió bắt đầu xuất hiện. Khoảng 1 phút sau, gió đạt vận tốc 70 km/giờ. Sau đó mưa tới với cường độ mạnh và lớn đến nỗi da có cảm giác như bị kim châm. Sau đó mưa đá xuất hiện, mọi người hoảng loạn và la hét và dẫm đạp lên nhau.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240808,
+    "id": "ZRhKasi5CdCivr0P-6eduQE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 81,
+      "prompt_tokens": 540,
+      "total_tokens": 1045
+    }
+  }
+}

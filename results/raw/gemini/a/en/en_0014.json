@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0014",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 5.72,
+  "ref_text_raw": "The Internet combines elements of both mass and interpersonal communication.",
+  "ref_text_normalized": "the internet combines elements of both mass and interpersonal communication",
+  "timestamp_utc": "2026-07-05T10:20:12Z",
+  "text": "The internet combines elements of both mass and interpersonal communication.",
+  "latency_sec": 3.1644,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The internet combines elements of both mass and interpersonal communication.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246812,
+    "id": "2i9KasnrCcal1e8PnPeFgAI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 11,
+      "prompt_tokens": 205,
+      "total_tokens": 216
+    }
+  }
+}

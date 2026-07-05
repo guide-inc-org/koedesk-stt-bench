@@ -1,0 +1,45 @@
+{
+  "utt_id": "es_0136",
+  "lang": "es",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.48,
+  "ref_text_raw": "Casablanca es uno de los sitios más aburridos de todo Marruecos para ir de compras.",
+  "ref_text_normalized": "casablanca es uno de los sitios más aburridos de todo marruecos para ir de compras",
+  "timestamp_utc": "2026-07-05T04:39:58Z",
+  "text": "Casablanca es uno de los sitios más aburridos de todo Marruecos para ir de compras.",
+  "latency_sec": 3.4861,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Casablanca es uno de los sitios más aburridos de todo Marruecos para ir de compras.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EuAFCt0FARFNMg/mYD3732YZq68XRIUsAj6p7j7U8t0OanttO8wo+731A3pIWP5TCfV66R69C730dgLmOywby8hF9e8njpoG9MJn/I/2cNGN8JI00332GSZXxqE8gh1DKmLugEy5Ve2WicVdRiyphIFEfO9ypknOK6lKic4Ox+SieHkdGkNtM4oN09ZWDaaWmphY5yNykM2ZZ1OFQP8xBv0s8rfMobm/9btghenM5UyJUl8yVWmDDG2L7NHTTRYhUJw+JkLmRO462qFbxvu1T6pFxRwX54VZVNSxVHKQU7TAYC3LvWO/eeHnrKxVfhEXOqj/SWV4XC9n2oiEimCXK6gGhwfT0SYLvoG5IEZADEdsqgrGkVmATkqy7tfU1WIzFSpj2UU4IL2hrsS0Z6JEltT7QLl+MgDcgzN2omOV931pmT/L7ZwfhqDMz60SV5s6VhBntWEZsLzrOgo1JEDMftHrcKotzs/xwJ+dL3KXMaGS2V+d3UFIJ1fLIaS27jvLbVx1m3ub06HpSzlP+qNM6trkafdjFw/57ai+Uuqths+UNTlW7Mj6BumElRlYUkFIm+CUBPpwD2M+OwRIIbG6ztvcLMZXBxzGJU7J+0pX09krqlA1I6fdWFXmrqc9Gla/+2NB7TaHoUIZBXVwPb88P3cYdKmuua/1O+28b8FflivBT+qB3ecR17WTErLAVkN1xgNXeq/pTgY6+hzj0r420X9Tvk8C976HWoalEPIeg+/gne1iDNKHMSd5PxvWAG6c46MVPGclEmUWPS17Tt8OB4cOHKijliJA6+fiwPlE5pAMM6TIwwKbFKXZ7xRAvqckM+4kYq+D6PfhAayAo8hPwsjSy7/dzQZPZyn7hMocqvosq1n9flrJPoAl5ltjMSG/gctr5SZLgnYHg99Wv10TJaLo05NS2dfY3EyDjjynj0mPC2fPj0k7Z204D9qsvemnzS09L2J7gGC/8tLcUTBgXPei/A=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226398,
+    "id": "HOBJavW2F_GC0-kP1smn0AY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 183,
+      "total_tokens": 372
+    }
+  }
+}

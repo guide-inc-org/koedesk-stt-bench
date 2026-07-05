@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0093",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 15.66,
+  "ref_text_raw": "Die Gebäude, die die Hongkonger Skyline ausmachen, wurden mit einem schillernden Balkendiagramm verglichen, das durch die Gegenwart der Gewässer des Victoria Harbour sichtbar wird.x",
+  "ref_text_normalized": "die gebäude die die hongkonger skyline ausmachen wurden mit einem schillernden balkendiagramm verglichen das durch die gegenwart der gewässer des victoria harbour sichtbar wird.x",
+  "timestamp_utc": "2026-07-05T03:47:08Z",
+  "text": "Die Gebäude, die die Hongkonger Skyline ausmachen, wurden mit einem schillenden Balkendiagramm verglichen, dass durch die Gegenwart der Gewässer des Victoria Harbour sichtbar wird.",
+  "latency_sec": 3.6134,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Die Gebäude, die die Hongkonger Skyline ausmachen, wurden mit einem schillenden Balkendiagramm verglichen, dass durch die Gegenwart der Gewässer des Victoria Harbour sichtbar wird.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223228,
+    "id": "utNJap7XEIrW1e8Py5HYyAE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 523,
+      "total_tokens": 595
+    }
+  }
+}

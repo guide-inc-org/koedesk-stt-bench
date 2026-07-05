@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0028",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 17.52,
+  "ref_text_raw": "훈는 사임했고 내각에서 에드 데이비 하원 의원에 의해 교체될 예정이다. 노먼 램 하원 의원은 데이비가 떠나는 사업부 장관직을 밭을 것으로 예산된다.",
+  "ref_text_normalized": "훈는 사임했고 내각에서 에드 데이비 하원 의원에 의해 교체될 예정이다 노먼 램 하원 의원은 데이비가 떠나는 사업부 장관직을 밭을 것으로 예산된다",
+  "timestamp_utc": "2026-07-05T06:11:41Z",
+  "text": "훈은 사임했고 내각에서 애드 데이비 하원의원에 교체될 예정이다. 노먼 램 하원의원은 데이비가 떠나는 사업부 장관직을 받을 것으로 예상된다.",
+  "latency_sec": 5.8342,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "훈은 사임했고 내각에서 애드 데이비 하원의원에 교체될 예정이다. 노먼 램 하원의원은 데이비가 떠나는 사업부 장관직을 받을 것으로 예상된다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231901,
+    "id": "mPVJavuVKoaD1e8PyqKZ0Ac",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 459,
+      "total_tokens": 1124
+    }
+  }
+}

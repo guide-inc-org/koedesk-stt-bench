@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0078",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.98,
+  "ref_text_raw": "Only mutations in germ-line cells can be passed on to children, while mutations elsewhere can cause cell-death or cancer.",
+  "ref_text_normalized": "only mutations in germ-line cells can be passed on to children while mutations elsewhere can cause cell-death or cancer",
+  "timestamp_utc": "2026-07-05T10:32:34Z",
+  "text": "Only mutations in germline cells can be passed on to children, while mutations elsewhere can cause cell death or cancer.",
+  "latency_sec": 2.7641,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Only mutations in germline cells can be passed on to children, while mutations elsewhere can cause cell death or cancer.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP5+cczdXTd63elGFxExNpthFDqSGUlVcLWkF5eiFNMQM7BBSTy1msuxb9H/O2"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247554,
+    "id": "wDJKauqyKfTLrfcPi72awAU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 296,
+      "total_tokens": 319
+    }
+  }
+}

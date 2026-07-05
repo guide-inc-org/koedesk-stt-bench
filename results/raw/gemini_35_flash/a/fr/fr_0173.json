@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0173",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.36,
+  "ref_text_raw": "Le Vatican compte environ 800 habitants. C'est le plus petit pays indépendant au monde, et le moins peuplé.",
+  "ref_text_normalized": "le vatican compte environ 800 habitants c'est le plus petit pays indépendant au monde et le moins peuplé",
+  "timestamp_utc": "2026-07-05T05:16:49Z",
+  "text": "Le Vatican compte environ 800 habitants. C'est le plus petit pays indépendant au monde et le moins peuplé.",
+  "latency_sec": 3.5097,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Le Vatican compte environ 800 habitants. C'est le plus petit pays indépendant au monde et le moins peuplé.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EuEFCt4FARFNMg8pt8Kvde6tADP7Q56Fe+ic5ryUevOVgZa4FDSUQCZU3yE1ElvaW6kRSztA1/WFmkOjiTgNIsUC5bdrxwVloySv7HPY9+ma4ehZLVnYJ02+ruuxRaif6cLJqvBC9gvvtrXhFJjMrPF4NFK0NCYiLS3gzY1mhxPEWEfYQ/Onhcz6EXnAQMyhqRKlDPuxfr5To+Gnb4XRhxNBYxvYRXMKiP2qipgotTh9qbv8+aD9D8obXMTrmXrTO6MVf/SBY0YXuuQem/b68Ba45b6Pw+GHL5EndKRh+EfMhL6hIMdf7U2sdkW/9rM+BzL/A4zr9fz8LGdAeL+B19WCI5j06+S5xoJebK/fsNc31qqljnnN0LEDcMtlMSTrg+6lpf5XuYeEe9ee1f8aSeBFSwe5OVmgbtgSHT623/ctUqo/hTL5xzl79F+JNLZqHayphccKkRoSgW8YuZMc4ZHBL955Zoyg615WEjrpp0Z2BUvvL4nlrlKXUXsTXGX/ROnHPi74wZaD+z7TYx+h50WWYXVeO6pnl+PMMO9f0SdJZ3FrHCTA0OD8GAp20z1GASx1qhFxfvENYcn360f6izG5UXN5Cppuo8FwrXzPV+vDjKF3GKjcMqHOXZwP/Oyzc5PRigJieqORMeG8vKl9Y0DxjzPOH6svl4XnOFX/oscZMMC9G8NzGue8XimHqteZl8yL+FQ/9zk7So5AH7H7E8uTbuqN3n13KjLlhfgeVFMCjF/avTPJ5BnoyquHVQd9mWmx4kPUgtbg/JKfqVqu7awvhZx4D5S5Ke3QVzskF7puazZzAdQYJ61imZKphDHNvV/vAoCOkfDFI/X5LMhHcD8TgKeuhafwm0dwgzVbg/mfnooTYnCQaRPsWAgJoabbZ+cQtEO1Dx6+mvMnBSkXjz1Jngaq9Eh1FHB5plhhX9naim/fvP6drhRE7VQxFegudk2G33S//wSZFBgUssQm6BW1kCA="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228609,
+    "id": "v-hJaqvJBJSi9tMP8vOl4AE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 255,
+      "total_tokens": 448
+    }
+  }
+}

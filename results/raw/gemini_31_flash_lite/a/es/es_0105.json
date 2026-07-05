@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0105",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 21.84,
+  "ref_text_raw": "El término civilización deriva del latín civilis, que quiere decir civil, y se relaciona tanto con la palabra civis, del mismo idioma, que significa ciudadano, como con civitas, que cuyo significado es ciudad o ciudad estado y que, además, determina de algún modo el tamaño de la sociedad.",
+  "ref_text_normalized": "el término civilización deriva del latín civilis que quiere decir civil y se relaciona tanto con la palabra civis del mismo idioma que significa ciudadano como con civitas que cuyo significado es ciudad o ciudad estado y que además determina de algún modo el tamaño de la sociedad",
+  "timestamp_utc": "2026-07-05T04:40:04Z",
+  "text": "El término civilización deriva del latín civilis que quiere decir civil y se relaciona tanto con la palabra civis, del mismo idioma que significa ciudadano, como con civitas, que cuyo significado es ciudad o ciudad-estado y que, además, determina de algún modo el tamaño de la sociedad.",
+  "latency_sec": 3.357,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "El término civilización deriva del latín civilis que quiere decir civil y se relaciona tanto con la palabra civis, del mismo idioma que significa ciudadano, como con civitas, que cuyo significado es ciudad o ciudad-estado y que, además, determina de algún modo el tamaño de la sociedad.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPDdpSyCn1skD5zfwD81d9KHTnMnZVdO5w2pWeVMukaURBMuV/rtE6HxiKCUxG"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226404,
+    "id": "IuBJapzmHvK8vr0P9K6siQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 60,
+      "prompt_tokens": 567,
+      "total_tokens": 627
+    }
+  }
+}

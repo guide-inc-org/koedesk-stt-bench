@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0036",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.94,
+  "ref_text_raw": "Bề mặt của Mặt Trăng được tạo nên bởi đá và bụi. Lớp bên ngoài của Mặt Trăng được gọi là lớp vỏ.",
+  "ref_text_normalized": "bề mặt của mặt trăng được tạo nên bởi đá và bụi lớp bên ngoài của mặt trăng được gọi là lớp vỏ",
+  "timestamp_utc": "2026-07-05T08:39:50Z",
+  "text": "Bề mặt của Mặt Trăng được tạo nên bởi đá và bụi. Lớp bên ngoài của Mặt Trăng được gọi là lớp vỏ.",
+  "latency_sec": 2.565,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Bề mặt của Mặt Trăng được tạo nên bởi đá và bụi. Lớp bên ngoài của Mặt Trăng được gọi là lớp vỏ.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPnI8zL93tpLLP/zUG5Yu0bme5ieZpssnwRa9wwhnmr6cTI9J5PymBG+1lX2WS"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240790,
+    "id": "VRhKav2SHrGivr0P0MTRmQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 245,
+      "total_tokens": 274
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0056",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 6.84,
+  "ref_text_raw": "Most modern research telescopes are enormous facilities in remote areas with favorable atmospheric conditions.",
+  "ref_text_normalized": "most modern research telescopes are enormous facilities in remote areas with favorable atmospheric conditions",
+  "timestamp_utc": "2026-07-05T10:23:14Z",
+  "text": "Most modern research telescopes are enormous facilities in remote areas with favorable atmospheric conditions.",
+  "latency_sec": 3.0067,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Most modern research telescopes are enormous facilities in remote areas with favorable atmospheric conditions.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246994,
+    "id": "kDBKas-fNfijvr0Pmty12QU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 15,
+      "prompt_tokens": 240,
+      "total_tokens": 279
+    }
+  }
+}

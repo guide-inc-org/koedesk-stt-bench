@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0009",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 5.94,
+  "ref_text_raw": "Не оскверняйте это место, нанося или выцарапывая граффити на объекты вокруг.",
+  "ref_text_normalized": "не оскверняйте это место нанося или выцарапывая граффити на объекты вокруг",
+  "timestamp_utc": "2026-07-05T07:00:52Z",
+  "text": "Не оскверняйте это место, нанося или выцарапывая граффити на объекты вокруг.",
+  "latency_sec": 7.0833,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Не оскверняйте это место, нанося или выцарапывая граффити на объекты вокруг.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234852,
+    "id": "IQFKavCZGKG2vr0PqrfGqAE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 212,
+      "total_tokens": 502
+    }
+  }
+}

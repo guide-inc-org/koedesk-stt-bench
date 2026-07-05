@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0017",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.34,
+  "ref_text_raw": "Este sedimento era necesario para la formación de bancos de arena y playas, las que, a su vez, funcionaban como hábitats para la vida silvestre.",
+  "ref_text_normalized": "este sedimento era necesario para la formación de bancos de arena y playas las que a su vez funcionaban como hábitats para la vida silvestre",
+  "timestamp_utc": "2026-07-05T04:34:41Z",
+  "text": "Este seguimiento era necesario para la formación de bancos de arena y playas, las que a su vez funcionaban como hábitats para la vida silvestre.",
+  "latency_sec": 2.5458,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Este seguimiento era necesario para la formación de bancos de arena y playas, las que a su vez funcionaban como hábitats para la vida silvestre.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP63sn9Na5U0TC3B6hOmuy5BGW+7i0qKqq1M2I3zOI6hSRlLuO4Plial9KReTL"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226081,
+    "id": "4N5JasyeGvK8vr0P85enuQQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 305,
+      "total_tokens": 336
+    }
+  }
+}

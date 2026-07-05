@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0044",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.54,
+  "ref_text_raw": "Gangguan tidur adalah proses Anda terbangun secara sengaja selama periode tidur normal, lalu tertidur beberapa saat kemudian (10â€“60 menit).",
+  "ref_text_normalized": "gangguan tidur adalah proses anda terbangun secara sengaja selama periode tidur normal lalu tertidur beberapa saat kemudian 10â€ 60 menit",
+  "timestamp_utc": "2026-07-05T05:47:35Z",
+  "text": "Gangguan tidur adalah proses Anda terbangun secara sengaja selama periode tidur normal, lalu tertidur beberapa saat kemudian, 10 sampai 60 menit.",
+  "latency_sec": 2.9427,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Gangguan tidur adalah proses Anda terbangun secara sengaja selama periode tidur normal, lalu tertidur beberapa saat kemudian, 10 sampai 60 menit.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPSMUxliHFD1T5JL9gS8phAjfJPrEhmE7ZiJ148tLVWD0sXmAnvVsKMRZJDp+Z"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230455,
+    "id": "9u9JarDHFJ2D0-kP0faGoAE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 335,
+      "total_tokens": 367
+    }
+  }
+}

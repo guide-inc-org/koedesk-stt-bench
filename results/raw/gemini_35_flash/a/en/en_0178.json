@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0178",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.6,
+  "ref_text_raw": "They have feet with scales and claws, they lay eggs, and they walk on their two back legs like a T-Rex.",
+  "ref_text_normalized": "they have feet with scales and claws they lay eggs and they walk on their two back legs like a t-rex",
+  "timestamp_utc": "2026-07-05T03:38:15Z",
+  "text": "They have feet with scales and claws, they lay eggs, and they walk on their two back legs like a T-Rex.",
+  "latency_sec": 4.1056,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "They have feet with scales and claws, they lay eggs, and they walk on their two back legs like a T-Rex.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtYFCtMFARFNMg9Es/e2HvieaVSFJjWSlWwR7WdL8sznptXy5cTNponvmyLb187wscreO0er9C9kfNJsUKkIMFBl93yrMRXWYyTptNeh95Kwdm27w52CWDsWh51OVvue1PF5n8wn/PkyeeIYc8TUuIB83ocsS2M6IDQhr/NcZZecZAsmLDVuNoM+YuQ6B5O14EZGXzPe+Rx2UlMoJocuR2SLaZVPwQ8DKc33Xwr6vPBq3yzXSdMR4ns/RK6ER8VQxHz+2YXqfhP0NC3JZ2KVtP9ssV4Zju5iH5SnPoYl1Tvr+KjaSERp3rLO3qlzzE/62mL7zCd84y6AMFGKxj1lwtj8DzTJfi8pVpf0MRMhR6FxZblKPY1+m+lEkdaCXwqtw4lKo+FIhN+mi/eyl3hIBumoJYZNTj9sKSy9XMigVZ+WigtHi++Pho3+xyUBWubLeyJtXoHufeRUUMrJW6r+qjgH5eEDFQV3Wq516H7OSTVyrQWqXJSYYJ98UKQsWkA8p/Ht1b/IeELxhiJoVZ3HfWdKZ7bvvM0mSgOetbybBhh3lIgCti47pi3R3CKGL1UsrTpCUEy+g1AoiAq9JtCHWdq8RRIlgyW9/wcyMfYHj3Ox1jONHDcnY3+rjNPKJAhMmupoDAHN76fvHX2geNXdoZFVjP/knM2ZRi/lP4GIenn8j8dDsXuNfcc9uurV1F/tHiAY6dBLDAkDIGBEJ2j+DlMGThQCbrCeC9UZ1hK73vVLLvDaY35TC7vYvhVwIzKnI78rga1zYr5gG7nt6gum0Wv6ml9ov/WmQkYDVrjqPlQV9s6RO0PPY7RghqaKbw2eXqO1Lv9GcWGg4Ja+UXNcfSRmbuHBe6Hbno5cWs7EX5CKzFfR6CQdbIWi12Opj57JkdULoFpq19EOCjvFhhKMBxrMdZhAN0jDTLCfXCNIy8ufrwJrwDObhEAEgKMmtSwNTJ8tB+pEnx/z"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222695,
+    "id": "pdFJaq-gG-nn2roPlKW22Ao",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 186,
+      "total_tokens": 387
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0026",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.72,
+  "ref_text_raw": "Đồng tiền chính thức của Falklands là đồng bảng Falkland (FKP) có giá trị được ấn định bằng với đồng bảng Anh (GBP).",
+  "ref_text_normalized": "đồng tiền chính thức của falklands là đồng bảng falkland fkp có giá trị được ấn định bằng với đồng bảng anh gbp",
+  "timestamp_utc": "2026-07-05T08:39:15Z",
+  "text": "Đồng tiền chính thức của Falkland là đồng bảng Falkland FKB, có giá trị được ấn định bằng với đồng bảng Anh, GTB.",
+  "latency_sec": 2.9624,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Đồng tiền chính thức của Falkland là đồng bảng Falkland FKB, có giá trị được ấn định bằng với đồng bảng Anh, GTB.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPNTAvMWEB0sZnYcyX9+RKUpdqSlhRGFa9+orGWIMPRmB8nH3Gvyqj0Z095keh"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240755,
+    "id": "MRhKavSYNvjG2roPjLn34AI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 414,
+      "total_tokens": 445
+    }
+  }
+}

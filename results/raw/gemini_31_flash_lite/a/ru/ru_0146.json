@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0146",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.26,
+  "ref_text_raw": "Слава о нем как о центре роскоши пошла около 400 г. н. э. и продолжалась примерно до 1100 г. н. э.",
+  "ref_text_normalized": "слава о нем как о центре роскоши пошла около 400 г н э и продолжалась примерно до 1100 г н э",
+  "timestamp_utc": "2026-07-05T07:35:58Z",
+  "text": "Слава о нём, как о центре роскоши, пошла около четырёхсотого года нашей эры и продолжалась примерно до 1100 года нашей эры.",
+  "latency_sec": 2.9632,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Слава о нём, как о центре роскоши, пошла около четырёхсотого года нашей эры и продолжалась примерно до 1100 года нашей эры.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP7LMD74c/llS0NnI4LGmK1iaH3ldTmpJ7DoFi7nmWe1ey0+nDjFOHBwg1gvie"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236958,
+    "id": "XAlKaoDKL5WJ1e8PxbzN-QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 278,
+      "total_tokens": 315
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0046",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 9.12,
+  "ref_text_raw": "Last week, METI announced that Apple had informed it of 34 additional overheating incidents, which the company called \"non-serious.\"",
+  "ref_text_normalized": "last week meti announced that apple had informed it of 34 additional overheating incidents which the company called non-serious",
+  "timestamp_utc": "2026-07-05T10:23:05Z",
+  "text": "Last week, and METI announced that Apple had informed it of 34 additional overheating incidents which the company called non-serious.",
+  "latency_sec": 13.8935,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Last week, and METI announced that Apple had informed it of 34 additional overheating incidents which the company called non-serious.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246985,
+    "id": "fDBKaouaJ-6d1e8P5u7EuQQ",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 313,
+      "total_tokens": 1719
+    }
+  }
+}

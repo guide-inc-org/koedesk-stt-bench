@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0060",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.58,
+  "ref_text_raw": "มาตรฐาน 802.11n ทำงานได้ทั้งบนความถี่ 2.4 กิกะเฮิร์ตซ์ และ 5.0 กิกะเฮิร์ตซ์",
+  "ref_text_normalized": "มาตรฐาน 802.11n ทำงานได้ทั้งบนความถี่ 2.4 กิกะเฮิร์ตซ์ และ 5.0 กิกะเฮิร์ตซ์",
+  "timestamp_utc": "2026-07-05T08:04:21Z",
+  "text": "มาตรฐาน 802.11n ทำงานได้ทั้งบน ทั้งบนความถี่ 2.4 GHz และ 5.0 GHz",
+  "latency_sec": 3.6062,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "มาตรฐาน 802.11n ทำงานได้ทั้งบน ทั้งบนความถี่ 2.4 GHz และ 5.0 GHz",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP/5Mtr3FqouGy4+t6jYAGXSzKIgz+LDm0RM+7JSIO6OuzyP0pA2Tw+k7ugV1b"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238661,
+    "id": "AxBKarnqCJj41e8PhNP08AM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 236,
+      "total_tokens": 265
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0167",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.36,
+  "ref_text_raw": "最新式の研究用望遠鏡の多くは、良好な大気条件下で観測できるように遠隔地の巨大な施設に設置されています。",
+  "ref_text_normalized": "最新式の研究用望遠鏡の多くは 良好な大気条件下で観測できるように遠隔地の巨大な施設に設置されています",
+  "timestamp_utc": "2026-07-05T03:12:25Z",
+  "text": "最新式の研究用望遠鏡の多くは良好な待機条件化で観測できるように遠隔地の巨大な施設に設置されています。",
+  "latency_sec": 4.4362,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "最新式の研究用望遠鏡の多くは良好な待機条件化で観測できるように遠隔地の巨大な施設に設置されています。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221145,
+    "id": "lstJatLcKvDW2roPh47FwQc",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 417,
+      "total_tokens": 469
+    }
+  }
+}

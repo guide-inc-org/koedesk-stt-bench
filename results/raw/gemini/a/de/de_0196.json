@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0196",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.16,
+  "ref_text_raw": "Das Krankenhaus befolgte Protokolle zum Infektionsschutz, einschließlich der Trennung des Patienten von anderen, um die Infektion Dritter zu vermeiden.",
+  "ref_text_normalized": "das krankenhaus befolgte protokolle zum infektionsschutz einschließlich der trennung des patienten von anderen um die infektion dritter zu vermeiden",
+  "timestamp_utc": "2026-07-05T03:55:25Z",
+  "text": "Das Krankenhaus befolgte Protokolle zum Infektionsschutz, einschließlich der Trennung des Patienten von anderen, um die Infektion Retter zu vermeiden.",
+  "latency_sec": 3.6521,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Das Krankenhaus befolgte Protokolle zum Infektionsschutz, einschließlich der Trennung des Patienten von anderen, um die Infektion Retter zu vermeiden.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223725,
+    "id": "q9VJapGbA4mV1e8Pn9-owAM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 283,
+      "total_tokens": 375
+    }
+  }
+}

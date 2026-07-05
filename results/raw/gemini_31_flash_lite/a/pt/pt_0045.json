@@ -1,0 +1,44 @@
+{
+  "utt_id": "pt_0045",
+  "lang": "pt",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.46,
+  "ref_text_raw": "Posteriormente, ele foi transferido para o Addenbrooke's Hospital em Cambridge.",
+  "ref_text_normalized": "posteriormente ele foi transferido para o addenbrooke's hospital em cambridge",
+  "timestamp_utc": "2026-07-05T06:56:36Z",
+  "text": "Posteriormente, ele foi transferido para o Addenbrooke's Hospital em Cambridge.",
+  "latency_sec": 2.5358,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Posteriormente, ele foi transferido para o Addenbrooke's Hospital em Cambridge.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPG1RrhcKMhQ4L3VHdni/Oc1GJ72oyA4YHWgBMwE3b5vo7kksvq4K5v/6zUOLn"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234596,
+    "id": "IwBKavv_Hayv1e8P3_jVaA",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 233,
+      "total_tokens": 252
+    }
+  }
+}

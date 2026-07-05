@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0033",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.84,
+  "ref_text_raw": "He was subsequently relocated to Addenbrooke's Hospital in Cambridge.",
+  "ref_text_normalized": "he was subsequently relocated to addenbrooke's hospital in cambridge",
+  "timestamp_utc": "2026-07-05T10:29:05Z",
+  "text": "He was subsequently relocated to Addenbrooke's Hospital in Cambridge.",
+  "latency_sec": 3.0676,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "He was subsequently relocated to Addenbrooke's Hospital in Cambridge.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Et0ECtoEARFNMg9AqxjhnNTJV/feQLvycLpoFx/7xT+IcgiD0zaTNZwC/6TYsdnVTGhCsixTZcppRqNlPWdkLGMCX6aRr5pR3nDC01UAXq9rrCOsnk/laW9fl5t2Sf8Q1brKfH5GcgLrRw9wEq27ohfRbCh/HBdM5KJZ0GKsL4Fpn+y+/LR8wOitueBg2Nn/eneYeDu5mtGM/Xqhfo1u0r9dLD5uvHBw1uSKpgRyg5mkRB+jKz4bzhMSKMuYDKg0fjcbdN2kmORf/QCY2xv8gY3foNOPZWimdEEv7JfRPTpDuAq8HhM9OHeulWCBQ5cHlLZ6uJiGh/fLiyZXjHEhsyip7g9tzAlk3bwxbqh8cbGsR0hP6DV1PXy5jFkMENPQNwSuXtxpR04nEqqnhS43DU15iSlIsCgGJfE3YU5WXiH3vexMm58BJowrnIHoX5QoVDGPkU1Kcu1nFmdMh/+D+XbOZsBxTZeHrZ82lKyE6j4lCeUXhg3elgdwKt74mkxmFvav7MIpMdFyzFule7ruk7grehjZOozbAu1G2vE7igFOPRp8J6hA/10rRsjZeJQEkzEDoBP+br0QKjgXHB5+gv2p5XCLcfx0fCr5kAbxC31+YKK1MKkmJ/ydmtuUCq2xqBgU+zrRGE/tNWoXEIUVpKULu3ZPhKZxcubNQ2KJE/Sf1i7OZQE1r9+Kf+COsc+Wqy8xuR//+hre0dVfZ9ecmc/EgHh+X05AvOB17PjzYtd04rsRLIuFZIZFSVDoemGbO83tMofgxbbKjif4wzJ7DJ8/etOHM1GABOOjadqi0SI="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247345,
+    "id": "7zFKatm4CI-_vr0P4-jhmAM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 14,
+      "prompt_tokens": 192,
+      "total_tokens": 343
+    }
+  }
+}

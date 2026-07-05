@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0020",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.92,
+  "ref_text_raw": "Ein Curry ist ein Gericht, das auf Kräutern und Gewürzen basiert, zusammen mit entweder Fleisch oder Gemüse.",
+  "ref_text_normalized": "ein curry ist ein gericht das auf kräutern und gewürzen basiert zusammen mit entweder fleisch oder gemüse",
+  "timestamp_utc": "2026-07-05T03:57:23Z",
+  "text": "Ein Curry ist ein Gericht, das auf Kräutern und Gewürzen basiert, zusammen mit entweder Fleisch oder Gemüse.",
+  "latency_sec": 3.9512,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Ein Curry ist ein Gericht, das auf Kräutern und Gewürzen basiert, zusammen mit entweder Fleisch oder Gemüse.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqMGCqAGARFNMg+1nhctqA4/JPw3FlO4PvS3DssLwEwyctSqRlSXY8JiwSSHYE3BY1Y/rDjplyGgCzFkqYsTG9f6xpw7eKB9D+2V7HjAjpcN67IUXLD+57Gndt5G3A5WWjG9YDT4i/sPP07onZ56nbRtkLf5nc7iz5uC9+43g9p5z4arFVYRfo6Pxiga0FIJYmJszcgOeYsVAfXoT/f+wIMEJMz6tUbmfzxU7Ayf9RSg0FRUVRdaI2qMH6H9Xz1tYqy9eT4DDDX2MOZgTC71gW4urpyRZI0FmxHG9tEbzJEk3zeVrdWHzesBSBVLXVkYPChXGqbBKjCGypzXFscDs6MZS5AljAa12C6Sbe8DFzLzxLAdBkS2guBMtpjGelVEuEtsSBx9/c/q+yDFgDjMofb476mi/ZYs9m8fxd43HCiRBFY8RBjnu9smux/3NUsprQsvvmN7KBRIav3s237zRY4DJ9xj3JSN/0DOPvt3nMJyLhJwuUEwxWRARP6DB0Oow77aXQhuC50/N9VdFmZZ9w6rHmrmLQ22kBUYUJl+0roJPfLn3FyF1pPB8lQ8jwO/RSYHnYR0wdDdvg0ZLVdfJU3pHYR6iPg0AXZ0rBlovxVtLsq1YrZeQw0SEMWWgLlXIjXfZA6O1blBbpIzI4BPrJrPdJA+NGxg6KfcV7Birbv08GWzpDsUvcyAIZlsBIhisDdyTTxDxufhdiZ2YaI1rCuYGhfDg50qAtfFkg0RQwYa3x+N05ymfXFj9qDMNQZwTdmh8Xwj5a3wxhqI/AzVrjWycp1skMd9ZXj8aCBzsV6hLq51ykGLLnh7k6RCWnxntDTafqEBHJD/9FPoP+JMEBwEZcW51cQdk/TGrP11Wx134HkhMTG0dgePx3GETwZYuSFaOv+FA16XrVvjnCGlTKaetG3n5vafydXlFjBRqk9j41dbXVGdwZdcovmd8KcNu1jddwUMj8zroVmQrEez8iL0XVagxkyaWX3ibRRpD1rEErCq4aLPVK1VGLwRertcCB8F8ekTk0fmFPYBPBGx3ueVNQgWU79+oUBG+nL7npWq9SBRd5U="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223843,
+    "id": "INZJarfXN6ne1e8P6I_tqAg",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 294,
+      "total_tokens": 501
+    }
+  }
+}

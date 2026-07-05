@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0013",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.64,
+  "ref_text_raw": "Les troupes de lions agissent comme des meutes de loups ou de chiens, des animaux étonnamment semblables aux lions (mais pas aux autres grands félins) dans leur comportement, et aussi très mortels pour leurs proies.",
+  "ref_text_normalized": "les troupes de lions agissent comme des meutes de loups ou de chiens des animaux étonnamment semblables aux lions mais pas aux autres grands félins dans leur comportement et aussi très mortels pour leurs proies",
+  "timestamp_utc": "2026-07-05T04:46:23Z",
+  "text": "Les troupes de lions agissent comme des meutes de loups ou de chiens. Des animaux étonnamment semblables au lion, mais pas aux autres grands félins dans leur comportement et aussi très mortels pour leurs proies.",
+  "latency_sec": 3.3851,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Les troupes de lions agissent comme des meutes de loups ou de chiens. Des animaux étonnamment semblables au lion, mais pas aux autres grands félins dans leur comportement et aussi très mortels pour leurs proies.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226783,
+    "id": "neFJasebAaG2vr0PqrfGqAE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 46,
+      "prompt_tokens": 394,
+      "total_tokens": 469
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "utt_id": "ja_0092",
+  "lang": "ja",
+  "engine": "google_stt_v2",
+  "duration_sec": 10.68,
+  "ref_text_raw": "南アフリカにあるすべての国立公園と同様に、この公園には毎日保護費と入園料がかかります。",
+  "ref_text_normalized": "南アフリカにあるすべての国立公園と同様に この公園には毎日保護費と入園料がかかります",
+  "timestamp_utc": "2026-07-05T03:14:41Z",
+  "text": "南アフリカにあるすべての国立公園と同様に、この公園には毎日保護費と入園料がかかります。",
+  "latency_sec": 3.7288,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "ja-JP",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "11s",
+      "requestId": "6e3d01ff-0000-2527-8dc8-30fd38104d88",
+      "prompt": "Transcribe the following speech segment in Japanese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Japanese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "南アフリカにあるすべての国立公園と同様に、この公園には毎日保護費と入園料がかかります。"
+          }
+        ],
+        "languageCode": "ja-JP"
+      }
+    ]
+  }
+}

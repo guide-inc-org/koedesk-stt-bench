@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0131",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.76,
+  "ref_text_raw": "The U.S. Corps of Engineers estimated that 6 inches of rainfall could breach the previously damaged levees.",
+  "ref_text_normalized": "the u.s. corps of engineers estimated that 6 inches of rainfall could breach the previously damaged levees",
+  "timestamp_utc": "2026-07-05T03:34:29Z",
+  "text": "The US Corps of Engineers estimated that 6 in of rainfall could breach the previously damaged levees.",
+  "latency_sec": 3.2104,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The US Corps of Engineers estimated that 6 in of rainfall could breach the previously damaged levees.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqgGCqUGARFNMg+mhYQlhITx/PrdiQOqhPeS3utRRcaABR3qFjEGG9kDSuGq7QRCrQ4a/wacuKUfkHCY3bgXlnTgJ9awjUlohrcm/bMNMDWtrA518zh915QRDCdy1BfyGuSbA7nB5mAs294kH/nGZ0grNqchEGH/6bynGbmU9/eTdEJUk/xI+qU7t0nUi6LhawJHqZBFBoVBdenm4HSbtZQYsc8V4ppxuAzn2kur8wyJUfD3R53dP+XK3LO8+2mtNR2Dxf2KfFLRXy1fiGc24oQEyos29iH3+dRx6XNLonGx69pcE58gXVT7gGReFXmPANmNWXN9MUUkMkjvBz3bHFQtSy7Uf+2ZECn5CyKToiJIp/gsuEZ1jpRPH3+ixnr3EmszkDys9SV5lkR2qzFzPRQUhyhCSR0AhnTImsDDrfpBKkCFCSrefor/OhBQ0cE36GAOPN8fSLaA/JJmmOLtB0DtxApu1OJv9xUVGh3uYSOUxooQce36IuXRV646aO9j0G2I5wH3R0lLz3dmO9plsh4GEULFGyYEhlOASmpxLLhbC6aujNZnb6kOGjlm1ZtjeRA356F8UCO3ULbe+fKqO2BvK4NUINkxToBvMFGB7exGeqzT0zRzqfJmtK3H2FSS5TYSGGHD+kb4DetSf4O8NTgpDlwDxDab9whqm+Kl0X6KoOP9VPC2VGATQudUPJLBhL80hJeQDdICSY6K1BDHKi59n/S/iRW/bZFURF4Se+R2SYBxzhiSHUhoKlu7//rhq3I+3h8+jpkdNu0xMsCGL9CrAEdumPlPo0IQRjiDEB6a7JQARg5SP7dz8HXpLBlrdtvld7QkSi+CpA/eIpA4yzGdsvX4qbMMVYWj5B2uD9P5KPteESumKPDtGgNogqBOF+hhmQrvgBvqncaGxoSxLpNYyLhOw9EDIkT4oEmZbkv5batEXGX4pZOBlPm5roy9/pBNMf4keSaEejg9Gz+8uta/uInga2FawEEXnTN32Zl0kdC3nj5pv05oP37uVCMFwnFaRNRJ0y95IvtlI8+tJyEYVHauyCsNqEOZ1fwHnLQKJcekjJBxv7k4Vg=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222469,
+    "id": "wtBJaozsN66_vr0PmOySuQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 240,
+      "total_tokens": 429
+    }
+  }
+}

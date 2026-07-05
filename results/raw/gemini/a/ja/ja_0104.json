@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0104",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 15.96,
+  "ref_text_raw": "彼の作品は、その質の高さと詳細さが評価され、切手収集家の中では数少ない「有名人」の1人です。彼の作品だけを専門とする収集家もいるほどです。",
+  "ref_text_normalized": "彼の作品は その質の高さと詳細さが評価され 切手収集家の中では数少ない 有名人 の1人です 彼の作品だけを専門とする収集家もいるほどです",
+  "timestamp_utc": "2026-07-05T03:06:50Z",
+  "text": "彼の作品はその質の高さと詳細さが評価され、切手収集家から数少ない有名人の一人です。彼の作品だけを専門とする収集家もいるほどです。",
+  "latency_sec": 3.9013,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "彼の作品はその質の高さと詳細さが評価され、切手収集家から数少ない有名人の一人です。彼の作品だけを専門とする収集家もいるほどです。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783220810,
+    "id": "SMpJatK9BeSf1e8PgNPzwAE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 532,
+      "total_tokens": 590
+    }
+  }
+}

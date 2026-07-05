@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0169",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 15.12,
+  "ref_text_raw": "マチュピチュは1976年の時点で30%まで修復され、現在も引き続き修復されています。",
+  "ref_text_normalized": "マチュピチュは1976年の時点で30%まで修復され 現在も引き続き修復されています",
+  "timestamp_utc": "2026-07-05T03:14:00Z",
+  "text": "マチュピチュは1976年の時点で30%まで修復され現在も引き続き修復されています。",
+  "latency_sec": 5.9762,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "マチュピチュは1976年の時点で30%まで修復され現在も引き続き修復されています。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221240,
+    "id": "9MtJavzfC43y2roP6emiwQM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 505,
+      "total_tokens": 793
+    }
+  }
+}

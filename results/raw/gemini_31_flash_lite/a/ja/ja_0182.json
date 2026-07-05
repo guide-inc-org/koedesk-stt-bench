@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0182",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.52,
+  "ref_text_raw": "この発見はまた、鳥類の羽毛の進化について探るための手がかりとなるものでした。",
+  "ref_text_normalized": "この発見はまた 鳥類の羽毛の進化について探るための手がかりとなるものでした",
+  "timestamp_utc": "2026-07-05T03:22:22Z",
+  "text": "この 発見 は また 鳥類 の 羽毛 の 進化 に つい て 探る ため の 手がかり と なる もの でし た 。",
+  "latency_sec": 2.9405,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "この 発見 は また 鳥類 の 羽毛 の 進化 に つい て 探る ため の 手がかり と なる もの でし た 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPYBK9r3VwbcelgcPRz8fbU4V/Fg6TXWysWey6xKP4f9fdWeT8mNjO6dFaLQMu"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221742,
+    "id": "7M1JaqaxIv_IrfcPzNe_mAc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 234,
+      "total_tokens": 265
+    }
+  }
+}

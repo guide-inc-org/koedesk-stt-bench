@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0167",
+  "lang": "de",
+  "engine": "gemini_25_pro",
+  "duration_sec": 28.62,
+  "ref_text_raw": "Der Nationalpark Plitwitzer Seen ist stark bewaldet, es gibt hauptsächlich Buchen, Fichten und Tannen und er bietet eine Mischung aus alpiner und mediterraner Vegetation.",
+  "ref_text_normalized": "der nationalpark plitwitzer seen ist stark bewaldet es gibt hauptsächlich buchen fichten und tannen und er bietet eine mischung aus alpiner und mediterraner vegetation",
+  "timestamp_utc": "2026-07-05T03:56:33Z",
+  "text": "Der Nationalpark Plitvicer Seen ist stark bewaldet. Es gibt hauptsächlich Buchen, Fichten und Tannen und er bietet eine Mischung aus alpiner und mediterraner Vegetation.",
+  "latency_sec": 5.649,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Der Nationalpark Plitvicer Seen ist stark bewaldet. Es gibt hauptsächlich Buchen, Fichten und Tannen und er bietet eine Mischung aus alpiner und mediterraner Vegetation.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223793,
+    "id": "7dVJaoHaJfTLrfcPi72awAU",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 937,
+      "total_tokens": 1240
+    }
+  }
+}

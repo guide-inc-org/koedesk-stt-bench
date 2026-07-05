@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0009",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.66,
+  "ref_text_raw": "香港の最高の景色を見るには、島から出て九龍のウォーターフロントに向かいましょう。",
+  "ref_text_normalized": "香港の最高の景色を見るには 島から出て九龍のウォーターフロントに向かいましょう",
+  "timestamp_utc": "2026-07-05T10:02:15Z",
+  "text": "香港の最高の景色を見るには、島から出てクーロンのウォーターフロントに向かいましょう。",
+  "latency_sec": 3.8931,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "香港の最高の景色を見るには、島から出てクーロンのウォーターフロントに向かいましょう。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783245735,
+    "id": "pCtKapKwNo_V2roPj7-7kAY",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 331,
+      "total_tokens": 401
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "utt_id": "vi_0002",
+  "lang": "vi",
+  "engine": "google_stt_v2",
+  "duration_sec": 10.02,
+  "ref_text_raw": "Nó cũng tấn công mọi thứ trong nước; ngay cả khủng long khổng lồ như T. rex cũng không phải là đối thủ với nó.",
+  "ref_text_normalized": "nó cũng tấn công mọi thứ trong nước ngay cả khủng long khổng lồ như t rex cũng không phải là đối thủ với nó",
+  "timestamp_utc": "2026-07-05T06:01:03Z",
+  "text": "Nó cũng tấn công mọi thứ trong nước, ngay cả khủng long khổng lồ như T-Rex cũng không phải là đối thủ với nó.",
+  "latency_sec": 4.1889,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "vi-VN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "11s",
+      "requestId": "7c9ddb7d-0000-2c57-b580-14223bb80d7e",
+      "prompt": "Transcribe the following speech segment in Vietnamese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Vietnamese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Nó cũng tấn công mọi thứ trong nước, ngay cả khủng long khổng lồ như T-Rex cũng không phải là đối thủ với nó."
+          }
+        ],
+        "languageCode": "vi-VN"
+      }
+    ]
+  }
+}

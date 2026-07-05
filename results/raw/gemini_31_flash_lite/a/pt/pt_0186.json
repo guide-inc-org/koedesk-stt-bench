@@ -1,0 +1,44 @@
+{
+  "utt_id": "pt_0186",
+  "lang": "pt",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.56,
+  "ref_text_raw": "Na área reservada para as crianças, uma das coisas mais interessantes é o show de luzes e sons da pirâmide.",
+  "ref_text_normalized": "na área reservada para as crianças uma das coisas mais interessantes é o show de luzes e sons da pirâmide",
+  "timestamp_utc": "2026-07-05T07:05:19Z",
+  "text": "Nada reservado para as crianças, uma das coisas mais interessantes é o show de luzes e sons da pirâmide.",
+  "latency_sec": 3.2353,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Nada reservado para as crianças, uma das coisas mais interessantes é o show de luzes e sons da pirâmide.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP4e6wz00x+McV8pDK4kLaV8IgFDH2jyrI2g7U2HyIPMVtb/5/Sw8GKlSALY6W"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235119,
+    "id": "LQJKaoCmKeex2roPq7DX0QU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 285,
+      "total_tokens": 311
+    }
+  }
+}

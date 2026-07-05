@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0008",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.64,
+  "ref_text_raw": "ในทางตรงข้าม สภาพอากาศอันหนาวเย็นและเต็มไปด้วยหิมะเป็นเรื่องปกติธรรมดาในหลายประเทศ และส่วนใหญ่การจราจรจะคล่องตัวตลอดปี",
+  "ref_text_normalized": "ในทางตรงข้าม สภาพอากาศอันหนาวเย็นและเต็มไปด้วยหิมะเป็นเรื่องปกติธรรมดาในหลายประเทศ และส่วนใหญ่การจราจรจะคล่องตัวตลอดปี",
+  "timestamp_utc": "2026-07-05T07:51:38Z",
+  "text": "ในทางตรงข้าม สภาพอากาศอันหนาวเย็นและเต็มไปด้วยหิมะ เป็นเรื่องปกติธรรมดาในหลายประเทศ และส่วนใหญ่การจราจรจะคล่องตัวตลอดปี",
+  "latency_sec": 4.6862,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ในทางตรงข้าม สภาพอากาศอันหนาวเย็นและเต็มไปด้วยหิมะ เป็นเรื่องปกติธรรมดาในหลายประเทศ และส่วนใหญ่การจราจรจะคล่องตัวตลอดปี",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237898,
+    "id": "Bg1KaseNLOzFvr0P-YXt8AM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 312,
+      "total_tokens": 752
+    }
+  }
+}

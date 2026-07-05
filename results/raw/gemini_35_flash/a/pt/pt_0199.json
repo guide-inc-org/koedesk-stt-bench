@@ -1,0 +1,45 @@
+{
+  "utt_id": "pt_0199",
+  "lang": "pt",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 14.7,
+  "ref_text_raw": "Os idiomas oficiais de Barcelona são catalão e espanhol. Quase metade das pessoas preferem falar catalão, grande parte o compreende, e quase todos sabem espanhol",
+  "ref_text_normalized": "os idiomas oficiais de barcelona são catalão e espanhol quase metade das pessoas preferem falar catalão grande parte o compreende e quase todos sabem espanhol",
+  "timestamp_utc": "2026-07-05T07:00:04Z",
+  "text": "Os idiomas oficiais de Barcelona são catalão e espanhol. Quase metade das pessoas preferem falar catalão. Grande parte o compreende e quase todos sabem espanhol.",
+  "latency_sec": 4.7869,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Os idiomas oficiais de Barcelona são catalão e espanhol. Quase metade das pessoas preferem falar catalão. Grande parte o compreende e quase todos sabem espanhol.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EvEKCu4KARFNMg/7mGqh/SIUU46DS0FOmXZx7ErTOO3lNTttWMETGEqLmRplHy5XdEpROPzi/2ozn400JVtq2jFPpbpX/HINFvqc4zSodBR95YuGCWD9KFEhUAOtLSfw8hOQhWH0OdvHAi1GXVTmY3oogaHLOT10D36xNMMGfZGtAkNjQ4CTySH1+xVz0uaM2HravUIh/5KSaeH+JJgtwoeuBE4Zgl4huJfeFP21Rs//FUriZe0LA90EgRgvoMV2n8yP8qxJjMVvr25fyRD5SiKvJZW9s2pWuXWT9ULIwlXIl7rl/nPY+EMBrHUlMg1oK7uy8kX8AABuEgNKd/A947LgSWteUIUkESNPX7CYXsuiqqk3GfJqRYOshcZpIOatDZ4eg+sBHCWp2ukfFddUaPV8wJgY35QTJmjqGUKF1RLehgU3luRukKga8kRrKeyTmvahWrGQ8DhpXqvpnvWBnttpwgs1gFhz+m8cVNq0shddTA65McysfglWS2xY15ff1/FAPQc6AQCzakx7ApL0AKvnP/TSnSbBHjcWeloP2VqzGxj96M37dbgCVGYzz1Tz/bh4NIvMRhqdrx/WmT61Cb/lN+MpsKCtaKqinZxxclbwljJmjVeuXH6KHS71fCTm6+UBsQDDXqhAUgacngJMMWgu6VlgKCy1VyyzLduCtV5Ace4sFuxWG5YWQ4NwvwbDJLwUTkeTrB9cojanM2Pisqk0h+O2U19JtUved1hi1k6HK9JWZ5DqhsMHkJoOrcUkuJKv5joKLrrHIGhJCPLtYYXwW8dZ+yD1skSI9tgvK/6Y0o518syo4gfw/g0a04A/V7IWhA0y5XyrjP+Q5lajyF7BU0IZQNxYsBBvGYF6WlmEQLekSUrQkbPjPbJmDvq1/13di7XEjz0xQPAWigixDdCyxy9bo1UXLeolmFFGSn+M/aWBTCJ1Cyn7ZhJnOGCwIbEWPR5PBXsYiVCQvDwkjgzEnfEYsKQ/sHl0Bh+k7G2n+v9EmYpeieXewmWjHCaUofkn6DgtimRk6lM/6ag6nZpi1XF9suLl3BeFc+jc2NV+6h+eI/x4exZYVQ8KC5lmq7h5NrxOLBFOvBH4sacsYZhQc8r+/9K2v2vazOlbiO/EdmKS5deUmWoJ0LkzQLKU5hnCj02HfTguHXv5nf3RaJArkJZcUnWuApakG0IIrK7BpfMePlSDYd7kG1gVIMCy7+Wfgx+HD1agvOzacJyi9vFZ/POID3WFqXOXYHTviRrbZPYvPLxMIYp0CesEM4U80kXJWR116PtaUmLZI8A/i/JmesFhmHQstQN3Lnl+sKNtE47Y3vTH8fEOy+OgZ4oU9F3ty07zJbhhnQbUTffQltEGfpjpTUHsWF2SnB/oDz4WDaJUlKDV8WFYoiz1mepMT8iEjcNEA7oyul5ruACyySHHJ/S7KIydKaBI4l179NSovZ0IIh4Su0mDDIF+HX+hRhBv3KjfxFKHxXIU99qCIbwVq0clHuUcszSFYFU9qxbgN020tH+rs9bbHZlJoO2uA1zCTDa0mGwpYm7HwoqwGNIwPmVohuQ9FfOOG6TSgbfILBbHcDbiQze/gSF3DUzEl5divNXpfW2peIQxI1E8Jne7oUTcjhblJDXyiPTJdaQQZpVeZk8g3nV1go1u4Vay9BBEfok1tSVX8USY2fzgB+m0Y6CVZByFFoTggP4k3ibiWoH5DZvX4qnNQR3UMjwv96ualIzNRm573oJA6j4h5LB7t28fDS0ZEj7SjE3BKKOeQxHx161zZMJpopbYbVtlQKMDgksS++wjpE7WDTKiestY9tYR2SUdhYMPUu6gcB7acw6vtcMY1+KNZS2q/1kE2e8gAQ=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234804,
+    "id": "8QBKasjwB8fG0-kPuZO6wQU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 389,
+      "total_tokens": 773
+    }
+  }
+}

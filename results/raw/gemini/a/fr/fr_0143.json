@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0143",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.46,
+  "ref_text_raw": "N'oubliez pas que même si les spectacles musicaux sont terminés sur les scènes principales, d'autres spectacles musicaux peuvent se poursuivre jusqu'à tard dans la nuit sur d'autres sites du festival.",
+  "ref_text_normalized": "n'oubliez pas que même si les spectacles musicaux sont terminés sur les scènes principales d'autres spectacles musicaux peuvent se poursuivre jusqu'à tard dans la nuit sur d'autres sites du festival",
+  "timestamp_utc": "2026-07-05T04:56:25Z",
+  "text": "N'oubliez pas que même si spectacles musicaux sont terminés sur les scènes principales, d'autres spectacles musicaux peuvent se poursuivre jusqu'à tard dans la nuit sur d'autres sites du festival.",
+  "latency_sec": 4.3973,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "N'oubliez pas que même si spectacles musicaux sont terminés sur les scènes principales, d'autres spectacles musicaux peuvent se poursuivre jusqu'à tard dans la nuit sur d'autres sites du festival.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227385,
+    "id": "9uNJatfVI-Kf2roP6tmdgAM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 388,
+      "total_tokens": 431
+    }
+  }
+}

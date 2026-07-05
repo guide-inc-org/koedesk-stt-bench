@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0072",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.26,
+  "ref_text_raw": "Les lions sont les chats les plus sociables, vivant en grands groupes appelés meutes.",
+  "ref_text_normalized": "les lions sont les chats les plus sociables vivant en grands groupes appelés meutes",
+  "timestamp_utc": "2026-07-05T05:07:40Z",
+  "text": "Les lions sont les chats les plus sociables, vivant en grands groupes appelés meutes.",
+  "latency_sec": 3.6004,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Les lions sont les chats les plus sociables, vivant en grands groupes appelés meutes.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqcHCqQHARFNMg+vShx9rvSJ+ocUHIUyOPPtZ88M+ZxP2DO1ZBmfH4uqQUqULqQQX1+iR9FGl2S0H5lPW4VmJSr44H4D3VkMqYzwlEyxTfXKkBfUEad83OHzzxh9HAXH5+f5xAxr3YmLZzUlXUWxA+EPrFhqIX07HZd7DrB9UcMb2hPCZjbgAwUbVVgsH02FPZGrAfCvSD9ePZ4AUibGyD0gUQXNbonXkaKgw1s8PFmWz57B5HAmFr47LsuXn1aeAO/pNTJaGMy16i7lSY21c8eKJy3TxrMuJU7xLtIGZb6VbIkPNPzsc2b3LHSyxrZbmdRPNLd7HhkJV37ZbjQ9QxNZ0i9AySbR0ZfaO8tjRvD+BqUzBd7K6Yu4AYOfFCTGr1aaNSJkhTm2P0TN70PO0C2Kb1NbOc554QnSo6Kc9MeasF9QEWE7eJtB/8+Uh80Dn8fOcuNpiLdakjX0jWqRYjhOXQofjNXWOLIyNxFbRS4U55zIcPpnN/X+itD2eNqpeiHSeOeBr0DVv6XgfpanptXihn0aq3qdnnBu5Po4yZIAaGq3DaSu0u9Yx0qr7cEdybFvkOiMIaczgD+KMd9kEcWqG6PGrZAXIuCH7+caYIF93FOxT9Sbs7pvJn0Lp0Taf2tQAV/VxKWMIlRfDvVX8k8W9EVkL9gHeT2YewiwTwjLbj08eRL3pxxMfuyAmk79BOZ+R0hTxGbtypEw8Pl/hgBI6iffLFMMf6a0XWnCab338/cYR3a0ja6VAxP4siJL6r6mhHauCTG2DLEFp/Jrg5vgAEM8P8Vr6SWIXkUBeNaAzBtKSk7pDgQJCpHf2ICGiBetfLo/5aDlTP0QHnsL9Ptwwa3jez3qMn2maREkI2EWySnKW5vbHkkm3q+JhHlvhe8/E+w6cOHZfRKp8GwAydbCrrBplkXiHd8HS/YusibzH7HCByUDsfPzvJ03D4Pt5RP9ZEjVx2gXgeBmPgHYP9FO0pAhflIPXcsifxRLSkf9NKCZ6gySXDh4XH2fkh2RANLaoOHOSOrK96fuOoHzsLBFD9UG5Frp4KQ8ro0/GwRUTE+2K2Opwr6GdIzY1x9yqgh9YXjYcpPsMzDWumTkxGhlqKN5uWKQKaKa9bmvjIfXwHE7vcx/DSKZFPPBTLgJ/q4s8PmxT7L9VZf/pK6AE/1qOfQ6FHBCW+CnKvBKrQGmhy1pCNMCIjlAtDPN3Q4vZ9uMaQIUd8he9EEtsTZOW35QgYdfxTO2AeU="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228060,
+    "id": "muZJatj8BJja1e8P6IqesQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 203,
+      "total_tokens": 467
+    }
+  }
+}

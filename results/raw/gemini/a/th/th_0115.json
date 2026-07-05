@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0115",
+  "lang": "th",
+  "engine": "gemini_25_flash",
+  "duration_sec": 4.86,
+  "ref_text_raw": "โรแลนโด เมนโดซา รัวปืนไรเฟิล M 16 ใส่นักท่องเที่ยว",
+  "ref_text_normalized": "โรแลนโด เมนโดซา รัวปืนไรเฟิล m 16 ใส่นักท่องเที่ยว",
+  "timestamp_utc": "2026-07-05T07:43:48Z",
+  "text": "โรนัลโด้ เมนโดซา รัว ปืน ไรเฟิล M16 ใส่ นัก ท่อง เที่ยว",
+  "latency_sec": 3.4955,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "โรนัลโด้ เมนโดซา รัว ปืน ไรเฟิล M16 ใส่ นัก ท่อง เที่ยว",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237428,
+    "id": "MgtKaoKeC8al1e8PnPeFgAI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 177,
+      "total_tokens": 297
+    }
+  }
+}

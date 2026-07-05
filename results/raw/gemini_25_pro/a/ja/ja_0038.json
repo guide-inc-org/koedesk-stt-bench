@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0038",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 17.46,
+  "ref_text_raw": "彼は多くの国で紙幣の製作にも携わっており、最近では、カナダの新5ドル紙幣と新100ドル紙幣の表に描かれた首相の肖像画などがその一例です。",
+  "ref_text_normalized": "彼は多くの国で紙幣の製作にも携わっており 最近では カナダの新5ドル紙幣と新100ドル紙幣の表に描かれた首相の肖像画などがその一例です",
+  "timestamp_utc": "2026-07-05T10:06:36Z",
+  "text": "彼は多くの国で紙幣の政策にも携わっており、最近ではカナダの新5ドル紙幣と新100ドル紙幣の表に書かれた首相の肖像画などがその一例です。",
+  "latency_sec": 6.056,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "彼は多くの国で紙幣の政策にも携わっており、最近ではカナダの新5ドル紙幣と新100ドル紙幣の表に書かれた首相の肖像画などがその一例です。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783245996,
+    "id": "qCxKasC8A5ja1e8P6IqesQI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 46,
+      "prompt_tokens": 580,
+      "total_tokens": 939
+    }
+  }
+}

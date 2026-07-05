@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0111",
+  "lang": "es",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.24,
+  "ref_text_raw": "En la cúspide de una de las montañas al norte de La Meca, yace una cueva totalmente abstraída del resto del planeta.",
+  "ref_text_normalized": "en la cúspide de una de las montañas al norte de la meca yace una cueva totalmente abstraída del resto del planeta",
+  "timestamp_utc": "2026-07-05T04:21:42Z",
+  "text": "En la cúspide de una de las montañas al norte de la Meca, yace una cueva totalmente abstraída del resto del planeta.",
+  "latency_sec": 3.6338,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "En la cúspide de una de las montañas al norte de la Meca, yace una cueva totalmente abstraída del resto del planeta.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225302,
+    "id": "1NtJasTxEcqfvr0Plb-amQM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 317,
+      "total_tokens": 412
+    }
+  }
+}

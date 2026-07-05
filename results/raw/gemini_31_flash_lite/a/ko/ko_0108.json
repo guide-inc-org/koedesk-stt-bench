@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0108",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 21.72,
+  "ref_text_raw": "\"기술 결정론에 대한 대부분의 해석은 두 가지 개념을 갖습니다. 기술 개발 자체가 문화나 정치 이상의 영향력을 보인다는 것과 기술은 사회적으로 통제되는 것이 아니라 오히려 사회에 본질적인 \"\"영향\"\"을 미칩니다.\"",
+  "ref_text_normalized": "\"기술 결정론에 대한 대부분의 해석은 두 가지 개념을 갖습니다. 기술 개발 자체가 문화나 정치 이상의 영향력을 보인다는 것과 기술은 사회적으로 통제되는 것이 아니라 오히려 사회에 본질적인 \"영향\"\"을 미칩니다.",
+  "timestamp_utc": "2026-07-05T06:25:24Z",
+  "text": "기술 결정론에 대한 대부분의 해석은 두 가지 개념을 갖습니다. 기술 개발 자체가 문화나 정치 이상의 영향력을 보인다는 것과, 기술은 사회적으로 통제되는 것이 아니라 오히려 사회의 본질적인 영향을 미칩니다.",
+  "latency_sec": 3.0285,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "기술 결정론에 대한 대부분의 해석은 두 가지 개념을 갖습니다. 기술 개발 자체가 문화나 정치 이상의 영향력을 보인다는 것과, 기술은 사회적으로 통제되는 것이 아니라 오히려 사회의 본질적인 영향을 미칩니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPTxRSNy2CyQJQJM6eLLyqdgk9hOrtQC9UyLNmvm99CYsQmOeTyKi1tpkHK8qp"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232724,
+    "id": "0_hJavP8B4yl1e8P2deLgAI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 51,
+      "prompt_tokens": 564,
+      "total_tokens": 615
+    }
+  }
+}

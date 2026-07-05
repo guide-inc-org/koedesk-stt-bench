@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0082",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 13.68,
+  "ref_text_raw": "สะพานดังกล่าวมีกำหนดที่จะเปิดใช้งานอย่างเต็มรูปแบบในเดือนกันยายนปี 2017 ซึ่งเป็นเวลาที่คาดว่าด่านศุลกากรของบราซิลจะเสร็จสมบูรณ์",
+  "ref_text_normalized": "สะพานดังกล่าวมีกำหนดที่จะเปิดใช้งานอย่างเต็มรูปแบบในเดือนกันยายนปี 2017 ซึ่งเป็นเวลาที่คาดว่าด่านศุลกากรของบราซิลจะเสร็จสมบูรณ์",
+  "timestamp_utc": "2026-07-05T07:59:27Z",
+  "text": "สะพานดังกล่าว มีกำหนดที่เปิดใช้งานอย่างเต็มรูปแบบในเดือน กันยายน ปี 2017 ซึ่งเป็นเวลาที่คาดว่า ด่านศุลกากรของบราซิลจะเสร็จสมบูรณ์",
+  "latency_sec": 5.2836,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "สะพานดังกล่าว มีกำหนดที่เปิดใช้งานอย่างเต็มรูปแบบในเดือน กันยายน ปี 2017 ซึ่งเป็นเวลาที่คาดว่า ด่านศุลกากรของบราซิลจะเสร็จสมบูรณ์",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238368,
+    "id": "3A5KauvXAqne1e8P6I_tqAg",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 46,
+      "prompt_tokens": 363,
+      "total_tokens": 954
+    }
+  }
+}

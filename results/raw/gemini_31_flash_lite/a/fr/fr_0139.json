@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0139",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.8,
+  "ref_text_raw": "L'épaisseur de la croûte est d'environ 70 km sur la face visible et 100 km sur la face cachée.",
+  "ref_text_normalized": "l'épaisseur de la croûte est d'environ 70 km sur la face visible et 100 km sur la face cachée",
+  "timestamp_utc": "2026-07-05T05:18:06Z",
+  "text": "L'épaisseur de la croûte est d'environ 70 km sur la face visible et 100 km sur la face cachée.",
+  "latency_sec": 2.727,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "L'épaisseur de la croûte est d'environ 70 km sur la face visible et 100 km sur la face cachée.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPeLh1UG1MTMVl3ZIAJckjCY+JjRgXoP3EewiKHiV2taLT8IQpXry+U8pLANWf"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228686,
+    "id": "DelJaov0Bq2l0-kP_9TT2QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 291,
+      "total_tokens": 323
+    }
+  }
+}

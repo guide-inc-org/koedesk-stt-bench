@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0194",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.2,
+  "ref_text_raw": "It is thinner under the maria and thicker under the highlands.",
+  "ref_text_normalized": "it is thinner under the maria and thicker under the highlands",
+  "timestamp_utc": "2026-07-05T03:31:44Z",
+  "text": "It is thinner under the Maria and thicker under the Highlands.",
+  "latency_sec": 3.3373,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "It is thinner under the Maria and thicker under the Highlands.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222304,
+    "id": "HtBJau-aBfyk0-kP9PODwAc",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 12,
+      "prompt_tokens": 252,
+      "total_tokens": 304
+    }
+  }
+}

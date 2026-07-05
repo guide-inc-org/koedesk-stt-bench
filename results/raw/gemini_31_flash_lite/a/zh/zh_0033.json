@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0033",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.5,
+  "ref_text_raw": "海地正义与民主研究所 (Haitian Institute for Justice and Democracy) 引用的独立研究表明，是尼泊尔的联合国维和部队在不知情的情况下将这种疾病带到了海地。",
+  "ref_text_normalized": "海 地 正 义 与 民 主 研 究 所 haitian institute for justice and democracy 引 用 的 独 立 研 究 表 明 是 尼 泊 尔 的 联 合 国 维 和 部 队 在 不 知 情 的 情 况 下 将 这 种 疾 病 带 到 了 海 地",
+  "timestamp_utc": "2026-07-05T09:12:42Z",
+  "text": "海地正义与民主研究所引用的独立研究表明，是尼泊尔的联合国维和部队在不知情的情况下，将这种疾病带到了海地。",
+  "latency_sec": 2.7965,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "海地正义与民主研究所引用的独立研究表明，是尼泊尔的联合国维和部队在不知情的情况下，将这种疾病带到了海地。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPtbvR0X8R6co7egKjyzVo5TrTKdi25t9bisoBPqt+mfdRhOhHgeDWEMyknv1p"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242762,
+    "id": "CCBKauXrMbCr0-kPhJ6suQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 284,
+      "total_tokens": 319
+    }
+  }
+}

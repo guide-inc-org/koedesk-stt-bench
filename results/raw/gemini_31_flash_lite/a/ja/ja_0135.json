@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0135",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.98,
+  "ref_text_raw": "テレビの報道によると、原発から白煙が上がっています。",
+  "ref_text_normalized": "テレビの報道によると 原発から白煙が上がっています",
+  "timestamp_utc": "2026-07-05T03:19:19Z",
+  "text": "テレビ の 報道 に よる と 原発 から 白煙 が 上がっ て い ます 。",
+  "latency_sec": 2.5551,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "テレビ の 報道 に よる と 原発 から 白煙 が 上がっ て い ます 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPh7/EB361qCIE22ykoKkeE2OnIizXucujCao8uZ6fGXJLxbSLVyIIlxA80HtC"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221559,
+    "id": "Ns1Jaq_pB8fJ0-kPwvvLoAE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 221,
+      "total_tokens": 241
+    }
+  }
+}

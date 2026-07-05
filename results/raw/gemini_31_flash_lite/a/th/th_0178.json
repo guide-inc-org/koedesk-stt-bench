@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0178",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.06,
+  "ref_text_raw": "คำว่าซาฟารีที่นิยมใช้กันหมายถึง การเดินทางทางบกเพื่อดูชมสัตว์ป่าแอฟริกาที่น่าทึ่ง โดยเฉพาะในทุ่งหญ้าสะวันนา",
+  "ref_text_normalized": "คำว่าซาฟารีที่นิยมใช้กันหมายถึง การเดินทางทางบกเพื่อดูชมสัตว์ป่าแอฟริกาที่น่าทึ่ง โดยเฉพาะในทุ่งหญ้าสะวันนา",
+  "timestamp_utc": "2026-07-05T08:11:51Z",
+  "text": "คำว่า ซาฟารี ที่นิยมใช้กันหมายถึง การเดินทางทางบกเพื่อดูชมสัตว์ป่าแอฟริกาที่น่าทึ่ง โดยเฉพาะในทุ่งหญ้าสะวันนา",
+  "latency_sec": 2.5975,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "คำว่า ซาฟารี ที่นิยมใช้กันหมายถึง การเดินทางทางบกเพื่อดูชมสัตว์ป่าแอฟริกาที่น่าทึ่ง โดยเฉพาะในทุ่งหญ้าสะวันนา",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPBPbizax+8X98jIDdbSciKZV2dSBI7MIzKEldfBKQOPwB+ZfEE69jtvvzxRkP"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239111,
+    "id": "xhFKap-MD87W2roP7vfvgQQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 42,
+      "prompt_tokens": 323,
+      "total_tokens": 365
+    }
+  }
+}

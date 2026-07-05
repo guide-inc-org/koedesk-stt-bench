@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0110",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.06,
+  "ref_text_raw": "커리는 약용 식물과 향신료를 기본으로 하여 고기나 채소를 곁들이는 요리입니다.",
+  "ref_text_normalized": "커리는 약용 식물과 향신료를 기본으로 하여 고기나 채소를 곁들이는 요리입니다",
+  "timestamp_utc": "2026-07-05T06:25:32Z",
+  "text": "커리는 약용식물과 향신료를 기본으로 하여 고기나 채소를 곁들이는 요리입니다.",
+  "latency_sec": 2.7655,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "커리는 약용식물과 향신료를 기본으로 하여 고기나 채소를 곁들이는 요리입니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPB5MTaXMs/A+FNGgBfGxTJ8C0hWRMVljV1K/1GiRtkd/JbqSvj9+SbkHyRfKN"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232732,
+    "id": "2vhJasO1Ga6l9tMP-_vv-QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 248,
+      "total_tokens": 275
+    }
+  }
+}

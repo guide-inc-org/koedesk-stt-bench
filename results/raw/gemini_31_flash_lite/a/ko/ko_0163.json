@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0163",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.6,
+  "ref_text_raw": "포클랜드의 공식 화폐는 1영국 파운드(GBP)의 가치와 동등하게 설정된 포클랜드 파운드(FKP)이다.",
+  "ref_text_normalized": "포클랜드의 공식 화폐는 1영국 파운드gbp의 가치와 동등하게 설정된 포클랜드 파운드fkp이다",
+  "timestamp_utc": "2026-07-05T06:28:50Z",
+  "text": "포클랜드의 공식 화폐는 1 영국 파운드의 가치와 동등하게 설정된 포클랜드 파운드이다.",
+  "latency_sec": 2.9372,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "포클랜드의 공식 화폐는 1 영국 파운드의 가치와 동등하게 설정된 포클랜드 파운드이다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPTQRGZnUINodtaLPFuMoEjBJv20Sjc1qxjZfWYbNLg9JAoVpI+Eosbemnr0S9"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232930,
+    "id": "oflJatXFB6nDvr0PmKevgQ8",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 336,
+      "total_tokens": 366
+    }
+  }
+}

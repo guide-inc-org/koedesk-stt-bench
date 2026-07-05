@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0123",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.06,
+  "ref_text_raw": "月面は岩石と塵でできています。月の外層は地殻と呼ばれています。",
+  "ref_text_normalized": "月面は岩石と塵でできています 月の外層は地殻と呼ばれています",
+  "timestamp_utc": "2026-07-05T03:17:26Z",
+  "text": "月面は岩石と塵でできています。月の外層は地殻と呼ばれています。",
+  "latency_sec": 3.867,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "月面は岩石と塵でできています。月の外層は地殻と呼ばれています。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Eq4FCqsFARFNMg/1HxzXJMK4pmVqWyAmXIfvRL9ocYTXPZo9wO74N0dfe574iQv5NEnK6wVrb1/iDOXLeKTlaL+UWh9JAjNknV/2K6nTL8pEC7HyefM6tI2JAf632WaBKM9XvmHYoF1RRhsBbNI0HPvdfv0xBhVaUeP/dHdQm9KprSV7rGlrFXYPFPBmqgAW3LXTLk68pQhjZDQLp24Giz/t1BYdM0SolI1w9MSCzSw6ZU54QGnQyDxXqaLnBhPrV1LdANrzRy6oiIOQoo1Dl5SOH8oVWTwQcKC5HhPbRrneidLFSJGr9P5AJd64fkFfGgq3u6gJ5gWV90urAQmwc0iDkgjotWEZMHcpivAzGoDmVVNakrUbAjDEiz/4hWeSoWfzwwGqcRlvJ3GLAodTtfdf9RwPIA/aT82Ikmyy8QDyUU1lwY8uhP9gxeH9XDs3iNXWReXhl6Ue1Q+gRry8YFgsrJf0FeZB2QLERGjnMxb8W1YxtKxA0bM4KOhqhx2PokJHJH4JGuI5HkqgZn9LqNYi1sJqJ30kuklM5O7R7Dzf+XENfhraUjWmONqU7g7BXQ7PAv28Peks1ZZVdsWr+D5RhWat6lHxnHQNLLJrIja9Yb9xdZbXPtw/KsJDJs9SF6xHemxLeC2+fbvXzszeTfzg++YYv6zlCVm51h5tIBRqAW6GkNqa7h+TZdq125oAoI3LyOclrpxpyLXCZkJHiL1wnXiJ/8gxRh0Xx/MCy3EzA0IlUnYmAcRGiHq5cgVMdJ7Qud0XjOzP3Jv7p2wLFzt2r9YGbMSZZhK05kxNikSNUvsbtBYdbFFuEPUQWuuxW0hvMaIOmUFxKf54KNR7NdOceVHAYP6uQ/MayHnoStw4X6TMMO0ZqEylrklpJuaY62bloH3ei6RDsQJ/jUPmCC8="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221446,
+    "id": "xMxJarnHBNLu1e8P1-bXkAI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 248,
+      "total_tokens": 461
+    }
+  }
+}

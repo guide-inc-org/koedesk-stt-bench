@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0044",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 22.38,
+  "ref_text_raw": "มีผู้ตั้งถิ่นฐานอยู่ในฟินแลนด์เพียงประปราย ในตำนานของชาวนอร์สกล่าวกันว่าเอริกผมแดงถูกเนรเทศออกจากไอซ์แลนด์ในข้อหาฆาตกรรม และเมื่อเดินทางต่อไปทางตะวันตก เขาก็ค้นพบกรีนแลนด์และตั้งชื่อให้ว่ากรีนแลนด์",
+  "ref_text_normalized": "มีผู้ตั้งถิ่นฐานอยู่ในฟินแลนด์เพียงประปราย ในตำนานของชาวนอร์สกล่าวกันว่าเอริกผมแดงถูกเนรเทศออกจากไอซ์แลนด์ในข้อหาฆาตกรรม และเมื่อเดินทางต่อไปทางตะวันตก เขาก็ค้นพบกรีนแลนด์และตั้งชื่อให้ว่ากรีนแลนด์",
+  "timestamp_utc": "2026-07-05T08:03:21Z",
+  "text": "มีผู้ตั้งถิ่นฐานอยู่ในฟินแลนด์เพียงประปราย ในตำนานของชาวนอร์สเก่าเล่าว่า เอริกผมแดงถูกเนรเทศออกจากไอซ์แลนด์ในข้อหาฆาตกรรม และเมื่อเดินทางต่อไปทางตะวันตก เขาก็ค้นพบกรีนแลนด์และตั้งชื่อให้ว่ากรีนแลนด์",
+  "latency_sec": 3.3558,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "มีผู้ตั้งถิ่นฐานอยู่ในฟินแลนด์เพียงประปราย ในตำนานของชาวนอร์สเก่าเล่าว่า เอริกผมแดงถูกเนรเทศออกจากไอซ์แลนด์ในข้อหาฆาตกรรม และเมื่อเดินทางต่อไปทางตะวันตก เขาก็ค้นพบกรีนแลนด์และตั้งชื่อให้ว่ากรีนแลนด์",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPlWKoOI1166XufyQmJQ4pga9w6i7PikDkxRIcVxohsDYkpqDDZL5NCpqs7dNJ"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238601,
+    "id": "xw9KaterH4aD1e8PyqKZ0Ac",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 74,
+      "prompt_tokens": 581,
+      "total_tokens": 655
+    }
+  }
+}

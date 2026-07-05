@@ -1,0 +1,142 @@
+{
+  "utt_id": "ja_0135",
+  "lang": "ja",
+  "engine": "amivoice_general",
+  "duration_sec": 7.98,
+  "ref_text_raw": "テレビの報道によると、原発から白煙が上がっています。",
+  "ref_text_normalized": "テレビの報道によると 原発から白煙が上がっています",
+  "timestamp_utc": "2026-07-05T03:08:37Z",
+  "text": "テレビの報道によると、原発から白煙が上がっています。",
+  "latency_sec": 1.333,
+  "params": {
+    "endpoint": "https://acp-api.amivoice.com/v1/recognize",
+    "grammarFileNames": "-a-general",
+    "logging": true,
+    "audio_conversion": "float32 wav -> pcm_16 wav (same samples)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "results": [
+      {
+        "tokens": [
+          {
+            "written": "テレビ",
+            "confidence": 0.89,
+            "starttime": 2136,
+            "endtime": 2520,
+            "spoken": "てれび"
+          },
+          {
+            "written": "の",
+            "confidence": 1.0,
+            "starttime": 2520,
+            "endtime": 2600,
+            "spoken": "の"
+          },
+          {
+            "written": "報道",
+            "confidence": 0.99,
+            "starttime": 2600,
+            "endtime": 2968,
+            "spoken": "ほうどう"
+          },
+          {
+            "written": "に",
+            "confidence": 1.0,
+            "starttime": 2968,
+            "endtime": 3064,
+            "spoken": "に"
+          },
+          {
+            "written": "よる",
+            "confidence": 1.0,
+            "starttime": 3064,
+            "endtime": 3224,
+            "spoken": "よる"
+          },
+          {
+            "written": "と",
+            "confidence": 1.0,
+            "starttime": 3224,
+            "endtime": 3416,
+            "spoken": "と"
+          },
+          {
+            "written": "、",
+            "confidence": 0.7,
+            "starttime": 3416,
+            "endtime": 3448,
+            "spoken": "_"
+          },
+          {
+            "written": "原発",
+            "confidence": 1.0,
+            "starttime": 3448,
+            "endtime": 3992,
+            "spoken": "げんぱつ"
+          },
+          {
+            "written": "から",
+            "confidence": 1.0,
+            "starttime": 3992,
+            "endtime": 4376,
+            "spoken": "から"
+          },
+          {
+            "written": "白煙",
+            "confidence": 0.99,
+            "starttime": 4456,
+            "endtime": 4952,
+            "spoken": "はくえん"
+          },
+          {
+            "written": "が",
+            "confidence": 1.0,
+            "starttime": 4952,
+            "endtime": 5032,
+            "spoken": "が"
+          },
+          {
+            "written": "上がっ",
+            "confidence": 0.92,
+            "starttime": 5032,
+            "endtime": 5320,
+            "spoken": "あがっ"
+          },
+          {
+            "written": "て",
+            "confidence": 1.0,
+            "starttime": 5320,
+            "endtime": 5400,
+            "spoken": "て"
+          },
+          {
+            "written": "います",
+            "confidence": 1.0,
+            "starttime": 5400,
+            "endtime": 5896,
+            "spoken": "います"
+          },
+          {
+            "written": "。",
+            "confidence": 0.82,
+            "starttime": 5896,
+            "endtime": 6184,
+            "spoken": "_"
+          }
+        ],
+        "confidence": 0.98950005,
+        "starttime": 0,
+        "endtime": 6184,
+        "tags": [],
+        "rulename": "",
+        "text": "テレビの報道によると、原発から白煙が上がっています。"
+      }
+    ],
+    "utteranceid": "20260705/12/019f303fd0960a3015e894c9_20260705_120836",
+    "text": "テレビの報道によると、原発から白煙が上がっています。",
+    "code": "",
+    "message": ""
+  }
+}

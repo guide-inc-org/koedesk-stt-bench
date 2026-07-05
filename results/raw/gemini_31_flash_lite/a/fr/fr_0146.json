@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0146",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.88,
+  "ref_text_raw": "La ville romantique et fascinante de Sintra, située au nord, est facilement accessible et a été rendue célèbre auprès des étrangers par le récit éclatant de sa splendeur qu'en a fait Lord Byron.",
+  "ref_text_normalized": "la ville romantique et fascinante de sintra située au nord est facilement accessible et a été rendue célèbre auprès des étrangers par le récit éclatant de sa splendeur qu'en a fait lord byron",
+  "timestamp_utc": "2026-07-05T05:18:32Z",
+  "text": "La ville romantique et fascinante de Sintra, située au nord, est facilement accessible et a été rendue célèbre auprès des étrangers par le récit éclatant de sa splendeur qu'en a fait Lord Byron.",
+  "latency_sec": 2.887,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "La ville romantique et fascinante de Sintra, située au nord, est facilement accessible et a été rendue célèbre auprès des étrangers par le récit éclatant de sa splendeur qu'en a fait Lord Byron.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPcKMolrMxADT6h100GVb3Vz3+EF7acayTaPQ+9dXJYNdQjKRlQPYSVLnCIkak"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228712,
+    "id": "JulJat7yGorW1e8Py5HYyAE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 393,
+      "total_tokens": 438
+    }
+  }
+}

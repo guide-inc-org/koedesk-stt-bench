@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0162",
+  "lang": "ko",
+  "engine": "gemini_25_pro",
+  "duration_sec": 7.14,
+  "ref_text_raw": "이것은 몇몇 동사와 사물을 구별하는 중요한 방법이다.",
+  "ref_text_normalized": "이것은 몇몇 동사와 사물을 구별하는 중요한 방법이다",
+  "timestamp_utc": "2026-07-05T06:14:33Z",
+  "text": "이것은 몇몇 동사와 사물을 구별하는 중요한 방법이다.",
+  "latency_sec": 6.9452,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "이것은 몇몇 동사와 사물을 구별하는 중요한 방법이다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232073,
+    "id": "RvZJasbYKsfE0-kP8qfE0QY",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 250,
+      "total_tokens": 325
+    }
+  }
+}

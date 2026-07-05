@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0127",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 15.9,
+  "ref_text_raw": "マウ運動によって組織された独立闘争の間に、町で開かれた平和的な集会で最高責任者トゥプア・タマセーゼ・レアロフィ3世が殺害されました。",
+  "ref_text_normalized": "マウ運動によって組織された独立闘争の間に 町で開かれた平和的な集会で最高責任者トゥプア タマセーゼ レアロフィ3世が殺害されました",
+  "timestamp_utc": "2026-07-05T03:17:50Z",
+  "text": "マウ運動によって組織された独立闘争の間に、街で開かれた平和的な集会で、最高責任者ドゥプア・タマセゼ・レアロフィ3世が殺害されました。",
+  "latency_sec": 4.604,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "マウ運動によって組織された独立闘争の間に、街で開かれた平和的な集会で、最高責任者ドゥプア・タマセゼ・レアロフィ3世が殺害されました。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtgKCtUKARFNMg/6WYKVMve4pSISKIWtKzZdsDgX3uY5P9zQtGnpUjTNIdIP5uTB/hwvwH7TZryleSh+9gmRbS854VchIQK5+/gV15Tn2/GpjQGaNpQgzLRvoz3JBhenhFA2Z3c/UK+rCTxR1GYuDlAkLTzsp0RPd5mY4Rq9WNnA+7lAjrs9J/dt/WXOpR4MCG62Uj1F/olPTdk9lmT956MS/noqNg0K4Gb/qwOzJ58cKr613AaFrvSd2CpVlOqEWGyUL/bbuLr/g0EVZhdwVX3l7GmsQ9sUSqfkV1m4VnLMaLM7hB+3nat3tGSiQ1lZMAG7qUANVu+7j+OIXcZNNI7rlfODNyqtsWe4xIchBabOL/YaTG1g2nhhBw4A7WZnCC5vKNGaeBMX1jJsLAP43mrwiQ7FjY9lmECai46qvBVwYLoXb7uH4L28Wydmc19qUP1+nlW3j6n1/qKDV2Mcz6wiHPnTh+rbX+BTh/XJeXRl48rTO9I3ofnXxwvyjDgDAu4E3zN/fbzaTz2PemTQ7sDlfq/CDoCk8RR1/ZobBHwL+6U4SsnZWkclNoicofqy5TIexx31BC3gsFPqs9iB/ZcYOteZQzPGCmVgLt4vPM5ae53fRdEeoOI7n27CG/uPKdKUxE0gBT5brFxhTz2uDuu5yFiYttwwggut9+ot4Ke2KX+W7PF2/Y79A/S0NHn6cKo5ku5dvmSuL5f58JFaYroKL2AFK7c0UkbeBVDDVUel815ZCnBwIeSQO74BfpUSFIxrW7/naEqgYU7H3CmvQB8hZu6NelnDKtAAOG/frUjicRT8GL+4+SMQnCIKXDdlMeIq4Ruk3chyd3I7vGs2FG/GoN/OISYJjCrBOKsnU0JaBatmU6LQf4OxNSnfui5e4TZe8IryriG7wS5Z8Yk8hEjFHuwOBDU3UlIakXWv/vYhoZdaotssK7Ox+efz2kcBED1AnmGC4U222iCDjmkH8TCqB2o4VbAcKFwhXtxAhTJw5FOpJA2ZQcCGU1fyZDiTDWssqAjtY134CnAokVyYU1bPJ2dVqNF1vT0PWEpM7K+ctfMNGaFzry2PgJLLr1rljkgNkVCUdg57jcnifulJ0WoSgiJjkLWtfuk+6kaaYsSxUFYEGFcbwrENCCELupaYx09uH1sI0N2iLsqkohbU04fVAjI6JhJI8shlTOQlbZghndDmC8nqsBa+DkvYpMDcdciPO9cChUtrnzgfwsvFuckxLLHH/Vgewu7DbXlLRTW0vK/Q/GALuN6M05h+XHmTxN3TsFyasubplVjvAKZzYW2anwnyEm97q01tyMLJKRtYr7RLc4xUoRilwSOotvjaVbmSw8/AsqMBXsxnvNozXrdFsVUnNroGOQgByDlH/ZPluEaqKG9a3uluMYtjPxy68toLI2L1cwzL4/SIEttQDAxEbkDLkqgwYrum9hDwIyYPtrwObnYJA/MO2OSHoRUYPpxrvY0SYA4fs08/tnYGochEm4rzqwxtXENNyiMuyxTE0ZLBJfruYet8OztWBpt5aNl0LwOrt+vW1sYQs4EXvYT7Ngl5qoOUEB1C5PS/EYgYnFmi+TV91vrYzsA6q5c59+k341KcoG0NhK0CmzY3gmGmbqRxmUttaywjFC6kkIsM5T0b7wmUFEOenB2HEW/GdBQV8a1XpGXof2p3+NGs4nFvYAY3Wx8y4WVajM/hAPus2XwIWyHaKPzSXtsmPJOgphsW3+dysFPYSlq9jvjzpZ0UntauUiKetI57v5IB+SzSXFT0GmSjFmeOr9I6eBZiHXgsd9dgKd9Zvv5qcxN+J60RO6mukV5Y9O22"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221470,
+    "id": "28xJaq7_FofNrfcP8aSW8AI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 419,
+      "total_tokens": 783
+    }
+  }
+}

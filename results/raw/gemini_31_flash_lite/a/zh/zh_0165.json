@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0165",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 18.48,
+  "ref_text_raw": "流行的运动项目包括足球、篮球、排球、水球、击剑、橄榄球、自行车、冰球、轮滑曲棍球和一级方程式赛车。",
+  "ref_text_normalized": "流 行 的 运 动 项 目 包 括 足 球 篮 球 排 球 水 球 击 剑 橄 榄 球 自 行 车 冰 球 轮 滑 曲 棍 球 和 一 级 方 程 式 赛 车",
+  "timestamp_utc": "2026-07-05T09:20:34Z",
+  "text": "流行 的 运动 项目 包括 足球 、 篮球 、 排球 、 水球 、 机 剑 、 橄榄 球 、 自行车 、 冰球 、 轮滑 、 曲棍球 和 一级 方程式 赛车 。",
+  "latency_sec": 3.135,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "流行 的 运动 项目 包括 足球 、 篮球 、 排球 、 水球 、 机 剑 、 橄榄 球 、 自行车 、 冰球 、 轮滑 、 曲棍球 和 一级 方程式 赛车 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPICAAD9yUZXh6OtG3ypirJZr5sZ1o+BmbBdJR2Q1Pk5SWmgFYRg7iZ7YmtHcT"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243234,
+    "id": "4CFKauP6Mf_R1e8PsqiM8QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 51,
+      "prompt_tokens": 483,
+      "total_tokens": 534
+    }
+  }
+}

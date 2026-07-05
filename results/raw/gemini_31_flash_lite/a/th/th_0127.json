@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0127",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.72,
+  "ref_text_raw": "เกาะฮ่องกงทำให้ดินแดนฮ่องกงมีชื่อเสียง และยังเป็นสถานที่ที่นักท่องเที่ยวจำนวนมากมองว่าควรเน้นเป็นหลัก",
+  "ref_text_normalized": "เกาะฮ่องกงทำให้ดินแดนฮ่องกงมีชื่อเสียง และยังเป็นสถานที่ที่นักท่องเที่ยวจำนวนมากมองว่าควรเน้นเป็นหลัก",
+  "timestamp_utc": "2026-07-05T08:08:44Z",
+  "text": "เกาะฮ่องกงทำให้ดินแดนฮ่องกงมีชื่อเสียงและยังเป็นสถานที่ที่นักท่องเที่ยวจำนวนมากมองว่าควรเน้นเป็นหลัก",
+  "latency_sec": 2.6153,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "เกาะฮ่องกงทำให้ดินแดนฮ่องกงมีชื่อเสียงและยังเป็นสถานที่ที่นักท่องเที่ยวจำนวนมากมองว่าควรเน้นเป็นหลัก",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPDRbhTUCTifMunWRvtOQkIxv3NrNgUefEIyXSJuLuHBdTONvhnWzke1Y5ELI3"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238924,
+    "id": "ChFKavqdJKbG0-kPpaDayQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 189,
+      "total_tokens": 222
+    }
+  }
+}

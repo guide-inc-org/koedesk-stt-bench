@@ -1,0 +1,45 @@
+{
+  "utt_id": "pt_0173",
+  "lang": "pt",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.2,
+  "ref_text_raw": "Os parisienses possuem a reputação de serem egocêntricos, rudes e arrogantes.",
+  "ref_text_normalized": "os parisienses possuem a reputação de serem egocêntricos rudes e arrogantes",
+  "timestamp_utc": "2026-07-05T06:57:45Z",
+  "text": "Os parisienses possuem a reputação de serem egocêntricos, rudes e arrogantes.",
+  "latency_sec": 3.7051,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Os parisienses possuem a reputação de serem egocêntricos, rudes e arrogantes.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "ErEGCq4GARFNMg/wpHxsMnS5h2zO9Dup31FdRbThkAcH2yPysRGtfhtOA4BkukmEa2qMF8HEJKuoFC42FLnG5wcsUzXgV43Wv8hMrNkrzi5kmSJ1Vgx2VQ1E0j2F8/bUe//zaqFgmEMtsaGtnol45ePrdelbp5s3nnc++F0+XInxP+x7C09vNb5ZYKBce59B309c7S4LwRDYUXwH2A/T4lC5VjwogZTLkjsGQQk7/+ZmqYkZ+V5E4ZfchBxU4BO7z0p56T5dW4pD2JBm8VIPDCtavjTxbmNDqf5b9ZxE2DLkmKKcFHLtHYt1UPXv8heT7mg6pXuBRaRRV9Tgww1rOIJvCLuXw/eY9HILJ1mhbR2JGFxVIxSrWqX0MoCWtq0LR4KxdNBeuF7PtRF1BBMDwyaYjpmXQ4H94jSs+lcn1jh/lQdCsX4PieDlm64dGVwEW4Mk8R501QBRD/vQMlXDP+YES2B/GTvMVsa8cUlsBwPyRSA74SdeZAoz74nq1taJFBmqgS1OK+vZRKAStY6TKrvXUrQbEtHwz10+KLhKrTkfk78/147p7TkUO12Kh+SPg9sFLfXu4BuUPYKywyKaiy+CAyhwfQMZcK2cgApYP1qtBLIkPw9GW8JpFyR4Evy9TszFVeySU+IvdMoBpc4sh/yNmR+t9N4NWvX4A/6kme9Vc+GWs+FpSNGE80CYnle5nq6M6ANdmiFhekwvb/JOlMD9AVIrakM8YFaEe6mlYXDBzxNHuY9MUXPMCiK4g4/QiP2WS86mugBRr+VM7dpN1w8VcA7JEfBkiKFA+GDLyGyUqfGISLj0mOuRoFmwovi6W1lnAufZlqHuznseDeRPPbkgM/sQajNyrNm2xBhrQ7wUTX73/bE3u43G1CNZimUFdu5ZWkQNAkhIRth6DauEiUX+wpS2buXGcV2Z5qKIUd0bHnHL11flMH7BhLnYHFn92dRg48e1lui+pK+ys2m4ho0xIibZgKtFL1abhLro/6v8YZxVmL55AJPy49JwhRrYoMcMW8jNL0VlPCosw9+UuZHXx2k1mQ6EtFLKlPzADFQD8iV9d2efD6tah2uZOj6EIim3Jg=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234665,
+    "id": "ZwBKasn4EY_V2roPj7-7kAY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 201,
+      "total_tokens": 435
+    }
+  }
+}

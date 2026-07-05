@@ -1,0 +1,45 @@
+{
+  "utt_id": "id_0034",
+  "lang": "id",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 17.94,
+  "ref_text_raw": "Pemberitahuan reguler di Metro hanya menggunakan bahasa Katalan, tetapi gangguan tak terencana diumumkan lewat sistem otomatis dalam berbagai bahasa, antara lain Spanyol, Inggris, Prancis, Arab, dan Jepang.",
+  "ref_text_normalized": "pemberitahuan reguler di metro hanya menggunakan bahasa katalan tetapi gangguan tak terencana diumumkan lewat sistem otomatis dalam berbagai bahasa antara lain spanyol inggris prancis arab dan jepang",
+  "timestamp_utc": "2026-07-05T05:37:48Z",
+  "text": "Pemberitahuan reguler di metro hanya menggunakan bahasa Katalan, tetapi gangguan tak terencana diumumkan lewat sistem otomatis dalam beberapa bahasa antara lain Spanyol, Inggris, Prancis, Arab, dan Jepang.",
+  "latency_sec": 4.6528,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Pemberitahuan reguler di metro hanya menggunakan bahasa Katalan, tetapi gangguan tak terencana diumumkan lewat sistem otomatis dalam beberapa bahasa antara lain Spanyol, Inggris, Prancis, Arab, dan Jepang.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EvsKCvgKARFNMg9m6w5cqya3R1GYQTBIAu7rV6uonhJqDDFlp/f0c60yFuN2yDgb+1nwVeXMHrv9JPMQTaz6WSGPnOKem49FCi9+lcfeihpn0bSJ5m4wsAxVCZXjEmLrD2o6hC+Dv6b+5w5bIxfs+DacCgkDsjwVT6QCqe4LUloJh5DujtK8gne+0apUN8qfvGt75xl+9OTMQthPYmZJMD9fIs9c631nf26BdYtheLC0x4qe49pcsf96mECrpUmYnt7dubLZwqaGfHtUI/F3YjU3nBzEc2XwGJWhwGhZoeT1Qj0tQb0Tq/PJWsbtN0A5jSs8iab2VgFxEq1Dydpi9hsa6OPJUbsJCOVAatWp6OQBxOyY8MbShs1vBQWmdoB3PUBTXqpmtMkk7swKkf/HDmzoN41zogmaEIZ7dOr4gOF3uux2PriImusXafQHqSo4BhKSTpBbRsGCmPy3fsSksvzDVkO6ycXXkouDY8hg4okijvOLCm4aCQfgW5C51MPG3J9sn+7J4ZAVdpfFEX4rdYXgBBTIp8cZB29+Zgxva5u4QP60Y9q9cDFd95gqAY4vXCsRDzUcb7H6JmRpRWsoh3HpVTbE1tm4l/mIqAtgEa35uC3Ix3r6F++M9MXIlHizFvVrLZ+W/jXxR4kJyqho0yfYDcuUEJaCd+KT08KKRdyoTkIW61jM2auc5EtgRblSgt2RJxl9sXAsxgEQg3bngyTs44qHheUV7FiuRaWdYQry7vPUKxqhNehUN4RXO1da2hUDMkw7T8e6pBemT0PYOjd9KeyGIxUGvABdZWhoFB+nqp1Phr+vG2mWUZYsHR7Nz/2xKFR6FnhzvPnTzmCAwOeCpZ80qR/dI0vrBVyyfFLCt4iKj9w5B0KNkx7L6Wp/MN2PSCKiGwE99cfB91fRTGmR0/265pYcNfflXWKIKFEySgvxgow86YYXhIIY4d2jTzvG9kE1bWbaOyB34VTsGN90wKqAwWY7ur9FfHpojw4emToC6UQ+E7NtJiYXzCtqSdBMRwGYc8SBA65sQmCzde61irDiNx6Yibqjl+qeAjoutke3FLPcoTq5EO7hEtblpQdAoHsujQzK6v2/to8O5rFP31grDYws+kfngCVlJz0ChhrmWRSBaD2pWb/V9E1i+B+CGHWMuxQnOaS4FzJvgTqKfRLbU7ydvGGLTRWG/mgWvKGlv3kiZ1RW1+Pae713i0MTMYXCtI9W0GfHiyeJAQ6td65mH7jQnqaDRWroj3PVsQ3Iz9H/+BX49BaS5WodLEtnQy1i1gCDqwEcydbdnNqqRLYTaVY/EUm4UrpHiX4wzFaTEgIo0FSrQ0THtwL5gbCdlvqbDmobvNjj66ShFg+TNRMkZCe15Udn359jY/lUWX/Jz36lEzScyeVPLOBJ0kJvKG1u5cvB0F8pt9q5nUPiagvipZAQWdVF9GW3Xnf37NiUTSZOi9sZ2SV34KrnChuyw19frBmH56u+IqzJN2r/w/FneiL7ioHsxrmcFL5pRdb/Jroyz65HpRmvALevezi0iw6bKhqaNaJZXyNE3A9mIpWgOCJ9RiIWvV5ftvuFoYtm4RK27CculW3y3hZFm4gawzxxh0fIiUvFyt+ZSygQ2TOmdRHGk1E1Kq6WKb2JzsKUZj5288t1bmkUbX7cUYvrENSv2Vi8rZVoFqw7A1w29tvdiCtF1QWwJeP1alCqvxteUmIfYoXbBTbBbTHBY0zXLPXty5JZ1rsv9/jTUG8oYwRUzWGEptoqourltXjhWUeYtfZ86bHG/szqUVx3rVwwHAbjvqhVFWN9jGMejokxLD4dRBD9ZDa3GNd9zh3gjygadWq1GYICE9vIrhAHEzNUwDET1iHe44fzErM="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783229868,
+    "id": "qe1JaqvCGMTs1e8Px-GUwQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 470,
+      "total_tokens": 815
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0049",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 13.92,
+  "ref_text_raw": "หมู่เกาะแห่งนี้อยู่ห่างจากคาบสมุทร 120 กม. ไปทางทิศเหนือ เกาะที่ใหญ่ที่สุดคือเกาะคิงจอร์จซึ่งเป็นที่ตั้งของวิลลา ลาส เอสเตรลลาส",
+  "ref_text_normalized": "หมู่เกาะแห่งนี้อยู่ห่างจากคาบสมุทร 120 กม. ไปทางทิศเหนือ เกาะที่ใหญ่ที่สุดคือเกาะคิงจอร์จซึ่งเป็นที่ตั้งของวิลลา ลาส เอสเตรลลาส",
+  "timestamp_utc": "2026-07-05T07:55:57Z",
+  "text": "หมู่เกาะแห่งนี้ห่างจากคาบสมุทร 120 กิโลเมตร ไปทางทิศเหนือ เกาะที่ใหญ่ที่สุดคือเกาะคิงจอร์จ ซึ่งเป็นที่ตั้งของวิลล่า ลาส เอสเตรลาส",
+  "latency_sec": 4.9542,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "หมู่เกาะแห่งนี้ห่างจากคาบสมุทร 120 กิโลเมตร ไปทางทิศเหนือ เกาะที่ใหญ่ที่สุดคือเกาะคิงจอร์จ ซึ่งเป็นที่ตั้งของวิลล่า ลาส เอสเตรลาส",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238157,
+    "id": "CQ5Kase9JpW4vr0PkIGBmQU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 54,
+      "prompt_tokens": 369,
+      "total_tokens": 874
+    }
+  }
+}

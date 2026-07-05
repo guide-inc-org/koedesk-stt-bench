@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0178",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 6.6,
+  "ref_text_raw": "They have feet with scales and claws, they lay eggs, and they walk on their two back legs like a T-Rex.",
+  "ref_text_normalized": "they have feet with scales and claws they lay eggs and they walk on their two back legs like a t-rex",
+  "timestamp_utc": "2026-07-05T03:31:12Z",
+  "text": "They have feet with scales and claws. They lay eggs and they walk on their two back legs like a T-Rex.",
+  "latency_sec": 6.7692,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "They have feet with scales and claws. They lay eggs and they walk on their two back legs like a T-Rex.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222272,
+    "id": "-s9Jao2iO-nF0-kPwPbOqAc",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 233,
+      "total_tokens": 488
+    }
+  }
+}

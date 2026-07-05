@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0064",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.32,
+  "ref_text_raw": "La región limita con el Sahel al norte, y con el Océano Atlántico al sur y al oeste.",
+  "ref_text_normalized": "la región limita con el sahel al norte y con el océano atlántico al sur y al oeste",
+  "timestamp_utc": "2026-07-05T04:37:33Z",
+  "text": "La región limita con el Sahel al norte y con el océano Atlántico al sur y al oeste.",
+  "latency_sec": 2.8333,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "La región limita con el Sahel al norte y con el océano Atlántico al sur y al oeste.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPd9eDtM7elewATZ1Jak/H3T1Sclrk/AIWq9UUNa0U7k0FfexNZN2F0APLaLTM"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226253,
+    "id": "i99Jaq6iM4TG0-kPurji2AU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 204,
+      "total_tokens": 224
+    }
+  }
+}

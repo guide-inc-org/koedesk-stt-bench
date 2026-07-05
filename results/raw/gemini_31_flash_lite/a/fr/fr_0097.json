@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0097",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.72,
+  "ref_text_raw": "Les blogs sont un outil qui stimule la collaboration et encourage les élèves à prolonger leur apprentissage bien au-delà de la journée scolaire traditionnelle.",
+  "ref_text_normalized": "les blogs sont un outil qui stimule la collaboration et encourage les élèves à prolonger leur apprentissage bien au-delà de la journée scolaire traditionnelle",
+  "timestamp_utc": "2026-07-05T05:15:32Z",
+  "text": "Les blogs sont un outil qui stimule la collaboration et encourage les élèves à prolonger leur apprentissage bien au-delà de la journée scolaire traditionnelle.",
+  "latency_sec": 3.7072,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Les blogs sont un outil qui stimule la collaboration et encourage les élèves à prolonger leur apprentissage bien au-delà de la journée scolaire traditionnelle.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPxpybWNDuD9oQcODm7kCuwRrEeov0YvzF7fYfujvglJJGvdyQ7Rpcl14KCS3p"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228531,
+    "id": "cehJaovuJ_K8vr0P9K6siQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 339,
+      "total_tokens": 369
+    }
+  }
+}

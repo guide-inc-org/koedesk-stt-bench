@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0060",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.22,
+  "ref_text_raw": "生地の温度が上がりすぎないように気を付けてください（縮みの原因になったり、極端な場合は焦げ付きの原因になります）。",
+  "ref_text_normalized": "生地の温度が上がりすぎないように気を付けてください縮みの原因になったり 極端な場合は焦げ付きの原因になります",
+  "timestamp_utc": "2026-07-05T10:06:28Z",
+  "text": "生地の温度が上がりすぎないように気を付けてください。縮みの原因になったり、極端な場合は焦げ付きの原因になります。",
+  "latency_sec": 3.8052,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "生地の温度が上がりすぎないように気を付けてください。縮みの原因になったり、極端な場合は焦げ付きの原因になります。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783245988,
+    "id": "oixKaqaoCNTf1e8PvLbrwQI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 381,
+      "total_tokens": 470
+    }
+  }
+}

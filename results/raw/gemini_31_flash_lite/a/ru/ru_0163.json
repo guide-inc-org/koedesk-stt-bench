@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0163",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.7,
+  "ref_text_raw": "Дюваль, который женат и имеет двух совершеннолетних детей, не произвел большого впечатления на Миллера, которому рассказали эту историю.",
+  "ref_text_normalized": "дюваль который женат и имеет двух совершеннолетних детей не произвел большого впечатления на миллера которому рассказали эту историю",
+  "timestamp_utc": "2026-07-05T07:37:04Z",
+  "text": "Джуваль, который женат и имеет двух совершеннолетних детей, не произвел большого впечатления на Миллера, которому рассказывали эту историю.",
+  "latency_sec": 3.0603,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Джуваль, который женат и имеет двух совершеннолетних детей, не произвел большого впечатления на Миллера, которому рассказывали эту историю.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPqnU+DTSX5sf//4DdumLrDHwSR88iemhb9sxD1RU94aklT+s4kyxhJZxx/Ss2"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237024,
+    "id": "nglKarOdKO3j1e8P2Y3r2QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 314,
+      "total_tokens": 346
+    }
+  }
+}

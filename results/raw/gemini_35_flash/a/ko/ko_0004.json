@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0004",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.12,
+  "ref_text_raw": "홍콩의 스카이라인을 이루는 빌딩 행렬은 빅토리아 항구의 수면에 선명히 비치는 모습 때문에 반짝이는 막대그래프에 비유된다.",
+  "ref_text_normalized": "홍콩의 스카이라인을 이루는 빌딩 행렬은 빅토리아 항구의 수면에 선명히 비치는 모습 때문에 반짝이는 막대그래프에 비유된다",
+  "timestamp_utc": "2026-07-05T06:09:15Z",
+  "text": "홍콩의 스카이라인을 이루는 빌딩 행렬은 빅토리아 항구의 수면에 선명히 비치는 모습 때문에 반짝이는 막대그래프에 비유된다.",
+  "latency_sec": 3.3734,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "홍콩의 스카이라인을 이루는 빌딩 행렬은 빅토리아 항구의 수면에 선명히 비치는 모습 때문에 반짝이는 막대그래프에 비유된다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Et0FCtoFARFNMg8Z59/Rk3wb3tImpnw5fJtlkZYIJwtDK1bT15z95kAh9dYB4EfuVrAzgjXT8rXM/32hIE437FwdR1+FUYpsYf5qtV+BIqBGkynufeIgEZpGA3dc0V6iTtMjHT5wEbBW8Ve4d5PxiCf9bqU/lbY4J7M9PexWQASTAe+X7tqrLdkYwf6f6jJ2HLGWNoHoCHnz0o9Ya0GmHgKi881KceIwuszCcZpueFUUl/5MJmrMMZfB6cn1qHB/y2Hl1xhrDfgPg4sl7LuG8GWMyyzMfnCoU2AsuSAElZfnafEGe5yqwR0axEBQRMxKGby7OjjNYHTWsd5OhG86KHcaEi2bbd9XshXGHrxes+6QWMj10EeAzZ8tOIJJ6fMR87cdE2c+sr6y5ezAKcMqN4jEll4g5p1Rl8suzg8EXtoI0bLvuKINbBWzkENWD/TaKaksb1B1XdHS61X1AMFNI+dXqQXtnnTFALLZ6mNxP7tteKVVXOH1WP7nZYglBlvPdZKEmKpDtdLZ0UNjkUvlQrJVD6gd3V4Ug9XYNXvpVxe7zhRGUtEpzuF3uNAddJ2xEYek3PV+DABhkbiOlgVStwAyulp+vTYLoIrmOJGV1wHj/pWXymCIxSsyyfPbRlGOh3RBllh/ekKUnfqI+EhpKTyoLalaPgZMYP8GMwdYXDaGetWK2PEAei3LiKty+J0uGDb+AcJyI11KEzUzQZwNajvbfew51LbGLNB6cyvyNzWVOVoIJ61aEddMrS+jNTFixP1ui7/VNTvBJlRZQzKqOa2viPtM/Of5Pzg/eclPGzlCV+ATRfjvfu9652WRcGrK3fJdunjt6pL2JF+jHb7VFyo5sxH+WO4Aru29FVI1/nB9GEqEkM3zjPk8+9i+rrAiHFn4JijQor+TKun5a1N9ZBt9A9/LbMFsxMPH3iP9HdALQaz2HjLD8NLuRzjw8PS1TGjKpqgmNwL2ieWn/U8vfg=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231755,
+    "id": "CfVJatihDaHc1e8P1OStiQU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 324,
+      "total_tokens": 532
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0077",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 13.2,
+  "ref_text_raw": "Selon certaines sources, il aurait une vingtaine d'années. Dans une déclaration, Bieber a déclaré : « Bien que je n'aie pas été présent ni directement impliqué dans ce tragique accident, mes pensées et prières vont à la famille de la victime. »",
+  "ref_text_normalized": "selon certaines sources il aurait une vingtaine d'années. dans une déclaration bieber a déclaré : « bien que je n'aie pas été présent ni directement impliqué dans ce tragique accident mes pensées et prières vont à la famille de la victime. »",
+  "timestamp_utc": "2026-07-05T05:08:12Z",
+  "text": "Selon certaines sources, il aurait une vingtaine d'années. Dans la déclaration, Bieber a déclaré : « Bien que je n'aie pas été présent, ni directement impliqué dans ce tragique accident, mes pensées et prières vont à la famille de la victime. »",
+  "latency_sec": 5.0783,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Selon certaines sources, il aurait une vingtaine d'années. Dans la déclaration, Bieber a déclaré : « Bien que je n'aie pas été présent, ni directement impliqué dans ce tragique accident, mes pensées et prières vont à la famille de la victime. »",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228092,
+    "id": "uOZJauLQEevYvr0P_YW_6QM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 58,
+      "prompt_tokens": 351,
+      "total_tokens": 761
+    }
+  }
+}

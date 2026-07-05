@@ -1,0 +1,45 @@
+{
+  "utt_id": "vi_0126",
+  "lang": "vi",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.52,
+  "ref_text_raw": "Hãy nhớ rằng dù âm nhạc trên sân khấu chính đã tắt, thì vẫn có một số khu vực của lễ hội sẽ tiếp tục chơi nhạc cho đến tối muộn.",
+  "ref_text_normalized": "hãy nhớ rằng dù âm nhạc trên sân khấu chính đã tắt thì vẫn có một số khu vực của lễ hội sẽ tiếp tục chơi nhạc cho đến tối muộn",
+  "timestamp_utc": "2026-07-05T08:40:17Z",
+  "text": "Hãy nhớ rằng dù âm nhạc trên sân khấu chính đã tắt thì vẫn có một số khu vực của lễ hội sẽ tiếp tục chơi nhạc cho đến tối muộn",
+  "latency_sec": 3.634,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Hãy nhớ rằng dù âm nhạc trên sân khấu chính đã tắt thì vẫn có một số khu vực của lễ hội sẽ tiếp tục chơi nhạc cho đến tối muộn",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpQGCpEGARFNMg81IWNCxnNzIaEvz38u1aJnZEsHmm1Ax6ez+AEF+edDBBr4/uWbQfkyjuWkulTzYHhHo+pmXgHmshYatdNKtenPeVwiLYkH6tG450yzsH5NXRy4AqFfBeMJx8ifk4VeoOpWhcvOkTccZfNJfo6InT1W5qvLC1/TL1K9Z8a/KnGLOSQo1cL0kfqFWsmKdCd8uo9SUiWQALMtPH9zcPRcnziCPwHB4+MkHubU2UYpjMmbCvNB+wSWYdO/THgjohVc+XWT2dOM5Ngtva6Q0h7ngy0yG4pGQqAtLg/qEFIyZmLpUH7fOG8FXL9/hPvCTgK5URsPMlP91T83Mb/KIAu4zz++bBpNXEgz3OVBiLebrrUzWq/ThXEWvfYuX9jCxZxx9wskRKw8uZHABxDS7u9Qnh1pJQJFvKigRPWy+0IqJw61XlejU12UKa4IkYM0v54Y5iXtzc8Q20fGBMdjTAzwM6mPAeiHCB4RrA4QW8a8qmB+MadKnMgHVldu9c6AZgNT1jf0Kygm5MH7kkmHQZ1aWplCq0YJpl8rmcoRzd9Qd6NYFvw58QWL3Vp12c+6qS3JMq4klQgKMj1oRWT99XihhyFzNoOUiXJwdfmPInNLzpMQgzVmYjXaMjBOFDP3McrOrPYB73DYiT2u318W+YsVKYYRWW3rQB/8yz55y0UL96ifZjw/r+XceRS5kfd3rGeTh+VzZcGx++jGb3hr66J8JqZ53C/CyBijOa6L54y6zfAGBlVCgfHJ92V/5UHFpoHYNHhI1jqE4ISarV/WHZU19BefBeRy97WzVns2SnKVQ1/lsi03yKmxcoVYzBeQCKCAgCYeGoHb1jz3ABobcDLqEmjCOoRHB/skhAdvDQpP77YFqfXaiP/pP80cHumAtTWQOdCCcEuVMtR6hnDvKOjLx1FS7HynPFHz+yDE1fEpiMc3nh6ETA5mLLscMDvi+jmNe5D+C8TWHvvM+DZ1tSyC5Tm3JULuw2RFQOPmaYvWf2blvMxiP11uJ+6kreqvFYMdQgKR/JiVYn4vgH9PpSI="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240817,
+    "id": "bxhKaoe5IJCe1e8PjsLZ0AQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 309,
+      "total_tokens": 506
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0120",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 19.08,
+  "ref_text_raw": "芸能ニュースサイトTMZによると、写真家はセプルベダ大通りの反対車線に車を停め、道路を渡って進む前に警察の検問を写真に収めようとしたため、交通規制をしていたカリフォルニア州ハイウェイパトロールの警察官が横断して戻るように2回も命じたそうです。",
+  "ref_text_normalized": "芸能ニュースサイトtmzによると 写真家はセプルベダ大通りの反対車線に車を停め 道路を渡って進む前に警察の検問を写真に収めようとしたため 交通規制をしていたカリフォルニア州ハイウェイパトロールの警察官が横断して戻るように2回も命じたそうです",
+  "timestamp_utc": "2026-07-05T03:17:12Z",
+  "text": "芸能ニュースサイトTMZによると、写真家はセプルベダ大通りの反対車線に車を止め、道路を渡って進む前に、警察の検問を写真に収めようとしたため、交通規制を敷いていたカリフォルニア州ハイウェイパトロールの警察官が、横断して戻るように2回も命じたそうです。",
+  "latency_sec": 6.8156,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "芸能ニュースサイトTMZによると、写真家はセプルベダ大通りの反対車線に車を止め、道路を渡って進む前に、警察の検問を写真に収めようとしたため、交通規制を敷いていたカリフォルニア州ハイウェイパトロールの警察官が、横断して戻るように2回も命じたそうです。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221432,
+    "id": "ssxJaozUN5bPrfcP9aSH-Ac",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 78,
+      "prompt_tokens": 498,
+      "total_tokens": 1399
+    }
+  }
+}

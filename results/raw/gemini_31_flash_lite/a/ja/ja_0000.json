@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0000",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.44,
+  "ref_text_raw": "インターネットで「敵対的環境コース」について検索すると、おそらく現地企業の住所が出てくるでしょう。",
+  "ref_text_normalized": "インターネットで 敵対的環境コース について検索すると おそらく現地企業の住所が出てくるでしょう",
+  "timestamp_utc": "2026-07-05T10:12:46Z",
+  "text": "インターネット で 敵対 的 環境 工作 に つい て 検索 する と 、 おそらく 現地 企業 の 住所 が 出 て くる でしょう 。",
+  "latency_sec": 2.8393,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "インターネット で 敵対 的 環境 工作 に つい て 検索 する と 、 おそらく 現地 企業 の 住所 が 出 て くる でしょう 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPmRTjDyNcZHssS6zqZ+s9BdVknEAL9aOigfSe9VQ6Uc/2rN8YE9JUv8ktAygA"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246366,
+    "id": "HS5KaqKKH7vN2roPnu2ysAU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 282,
+      "total_tokens": 314
+    }
+  }
+}

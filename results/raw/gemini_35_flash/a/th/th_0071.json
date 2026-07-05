@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0071",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.32,
+  "ref_text_raw": "มีการใช้บริการนี้ในการขนส่งอยู่บ่อย ๆ ซึ่งรวมถึงเรือสำราญและการสำรวจที่ต้องการทั้งข้อมูลและเสียงจากระยะไกล",
+  "ref_text_normalized": "มีการใช้บริการนี้ในการขนส่งอยู่บ่อย ๆ ซึ่งรวมถึงเรือสำราญและการสำรวจที่ต้องการทั้งข้อมูลและเสียงจากระยะไกล",
+  "timestamp_utc": "2026-07-05T07:58:21Z",
+  "text": "มีการใช้บริการนี้ในการขนส่งอยู่บ่อยๆ รวมถึงเรือสำราญและการสำรวจที่ต้องการข้อมูลและเสียงจากระยะไกล",
+  "latency_sec": 5.3015,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "มีการใช้บริการนี้ในการขนส่งอยู่บ่อยๆ รวมถึงเรือสำราญและการสำรวจที่ต้องการข้อมูลและเสียงจากระยะไกล",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpERCo4RARFNMg9wGqfn2YmTHG4GyuMxvFK1JX7D/7sUu6d07NUJ3lJi5PazQzrNEH5aB3sqCBHknwczS3LcdYklz3yzsSh/goJerP8F7aXRo1T/KNH7dvfzJ2XPi2wkFP0caTLn2kTj/afJ2bJyTP2xasCumcNdXDXujflxoLn7dxuL+fyAOcZSrSOYbq+OPmEys6RIxjf8rb8zDgttqPs/3LDuJ+UK58+STcyZl2Nuc+CPkBB3e8rybht34MG+1vQV96OBWyUcAdbbDCRIKgjqQRHYzajaSbXFVft7HA94Bl9YaLMibIQ7xg7Cd7/v5kz/V25pBqWtWq0o+iZUILWfOn0/m85vHEC9/tRI/KnpTjX/6VdL9Ao0u0QNZvT3TIF/Xz3d0ENcvA3yr3zW418e5mk+cEqvZkhrPfJ8p2nUsLrlMtD93B9lJrWxDyeYntlfalkU6F1V5rNu0onIVlZaE4WhL207xKPTLBva18HFfoKta26QodlZHIC943qxj+I9p5BwfG8Yv/usc6vrbAV8CFnX7DQik3ASck4ayc82TPWIeIxWanj+V6dVHHQj+1sYVV+8iMs3oJ9aP7urMkuPWMw3KrFS42ghPcamMd2GqVeaCMtzV/kFYNdW0qyVzBqbGKcUySLISDNbyQmCpePIoCsikkMcRZY+xBABchBJaaqVRfGimP6STAa6F9528AaLsXrbUqlOFrVxFJSTL/LD4e8XTkvhu+++6o+zWOI39maVmsk90i9HdKSLr25kjnmx5ZONdnsF24ZUerBkpj/70k90r3eUeizuQJup37d62DfNtCNgpt11XQ9XCabPEZI6X8gMLzGs/M3CzFgGYo1orEr4FU5+bMqgVZ5OoesveouvcQS3aI1lsuzqmTRuk54FiJhV02iE6xWL5UnL2ZuAMN1xXcXPC7XXP9ZmqzaCkAvKxyBmGafzS1da8cjYiMnBbWRrvAo1/29kKytUuZuHy4uHexuckb2dFOCXsUisnjMicjN+A/TNLZLm3N2Ea4Db9nmMTxNMahJd18gsXOxv8dEnEV3+bMH4n99W7fnu52ZvmdUjsSVv8mwHyZzV6HCBTdy44rkiCHWDrrqeGI0brbb+kRvvgiyfn7wwLqBHGf4DJsbZj/ICFtYa+wkhGWlc15wyP2eKjm/ColKNxh3FOg4C/jTzT0RxNqhAyvgjmtOg4KIZYIp5biParXGTfsjFrVThn1hNjhhUCRkXU5aOYw+TRHmHhvnyKVWjJcRc+PtEQB0x//k7Nm4W39dhex+FPip2rcQGGrp1a5y/yj0ldq4MuSMyk2yrHphsMGXrEUhG3WYleyQ6/qyfdK2WyUv872GjDizvTjBhho7Yoff7xhiGSPzOCAdgKXFyS7VGc4w5Y6+oEIqjzqCAM2ZmWhjOjnclT6kCruc0V6PuAN29TjCILa5s0aCiiVPgxu15rddpRbR4u9oXFiDPWCvfo19S7wqThvadvAW6v3RvQ8urtAR5syKd3NBwJIzK4xP0X8QwdxeS3D2sxPxIJjYMuEsGxvQLQ7UbBgXS+RqTibVgD59kyZCx4l3vT26HdAoWb5MlQ4nDDpl1B50GhjxtRpi7TZCD5R5E92PIP0FtSQToe2eh/w1OWVzAAd5tpaL4iktXLTh3MgjXO4SImxREEGlA01qEF5QzfOxbAUx+PoaFf2PiubpqTYuZ+OKeEO8FAudwyzJPcS0k53gPgc80pRBVLdZVgZG7v6wpSWDvXAwdhSssI75EzB9BnpLUFWpdI3NtzCJworEDEKbSM6m7WoV0gUohHVrBAGxRPuP+lmFijN0134r/DaVAoh0SVtpBzmFkdYUwfS5pdJvVPyrP8nv1HF27nuMl53irK1ZZFiP5aGUUAJFqphUsAzJm3ooNgh7NkAeAxynZGdOHyxav+AAgvUMZ1EhMFXZB8YfcuIVAhhU/RpSUwHlvANStO6GHVnwjSUeWYEyqvm3U1fg29netIz18lXIXV47npoV0k/8uuWQpOZO5OMXnLBDYZbAxOiCZB7ZdhVzExxm3BIlfs95dh79baEdBa0PGDdRuKjn9tEZ41MFXU9cjGE1bL8RjJ85Q269BH2xJsUH3GfW9Qs7l+yw/GWD6y/RXUf+2CJFlZkzTWiC1RgbfQgTRb1mMrTzdsuQoBywAZARRyuBqGhTJKdyi2Oru7QKZ7uiqbb2z2oP0GvR0Z6zlMY+2F6liBu2k+j2LoCm9k59bsrFFbNQiEWJ/CFTLdEC/QSEEDxb8oALiQPsu2jJD8cbSqC9LeaLSUmCh8lJjPaYeKRM1NJq3h6xc2AB3By0QzAHsz3cBdXdTRgROgJ7jbUgQZDXHdcVfFqBzuBA+MZ1ZiiDFYZ0FSJAm4XndnYJmdu45kCj9WczxMbaqmz5FmY+Y5Dh2ymv1cvBoDMu0O2rjC76r2E4irZznST54WN7O0pcyi6tsv3H/hco1OhsDCfm7MIikQW9zdyoOtcU1GIcIJ7VyGBixf6eK3G8sLAZTScXBYvi+P9UDAJ2nGBZYeWkHgqVZxUliWkZ7mrhi5pYzh3ONh16gabfrUmlshSxzOCPsBf/4Of7RUYWw9YjX1KuOe8RLw64HSQuMNJdoDIRPhFdDxzWmoYci1X4xwn0sJ7X/IQSjMxqGGGRcPZtu4F+HI2TCp9NK8m1owNLEK2muLorgg0oF7Nikuph8CqXVizORB2vFG7eT1TViBQEXbETIwqb+S26K1Noa0flIP+0CZ+KgEgXtD/gwxlMiXPbC+hjGftOT2PFB3KHEeqOyp0dYSj2/Phj6g46Sg68lRch+AEUArVtaqDW6rhllVOJQLaR6akrtAocuUcmUYzT7KdTgYqf8gNhH83F43VipRyyGRxo6dAxHUTvWfB3trs9rRWrJ7D09cTIr7j1pxjea/k9X323E5M/M"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238301,
+    "id": "mg5KarzCGK2Qvr0PxLzU0Qc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 279,
+      "total_tokens": 721
+    }
+  }
+}

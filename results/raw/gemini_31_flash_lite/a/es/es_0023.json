@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0023",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.16,
+  "ref_text_raw": "En 1990, fue incorporado al listado de lugares del patrimonio de la humanidad en riesgo, producto de la amenaza de las arenas del desierto.",
+  "ref_text_normalized": "en 1990 fue incorporado al listado de lugares del patrimonio de la humanidad en riesgo producto de la amenaza de las arenas del desierto",
+  "timestamp_utc": "2026-07-05T04:35:04Z",
+  "text": "En 1990, fue incorporado al listado de lugares del Patrimonio de la Humanidad en peligro, producto de la amenaza de las arenas del desierto.",
+  "latency_sec": 2.8893,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "En 1990, fue incorporado al listado de lugares del Patrimonio de la Humanidad en peligro, producto de la amenaza de las arenas del desierto.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPp7hKqZgMmjFzIdD30ShkoQ7jP2D5iGM7JH9salQiaZ8FHC+MY6xu8X9HmBED"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226104,
+    "id": "995JarmkEsqn2roP1aC6yAE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 300,
+      "total_tokens": 335
+    }
+  }
+}

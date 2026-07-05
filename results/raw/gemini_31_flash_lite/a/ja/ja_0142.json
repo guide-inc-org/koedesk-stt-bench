@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0142",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.5,
+  "ref_text_raw": "海の下は薄く、高地の下は厚くなっています。",
+  "ref_text_normalized": "海の下は薄く 高地の下は厚くなっています",
+  "timestamp_utc": "2026-07-05T03:19:46Z",
+  "text": "海 の 下 は 薄く 、 高知 の 下 は 厚く なっ て い ます 。",
+  "latency_sec": 2.6682,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "海 の 下 は 薄く 、 高知 の 下 は 厚く なっ て い ます 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP5bu/W1T28a2Oe8AUTacaV/7S7SSUhLatpdzzg3iaJJbUwq6poTIKWO1U1EBg"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221586,
+    "id": "UM1JareVL8fJ0-kPwvvLoAE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 209,
+      "total_tokens": 228
+    }
+  }
+}

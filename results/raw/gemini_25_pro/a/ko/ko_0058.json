@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0058",
+  "lang": "ko",
+  "engine": "gemini_25_pro",
+  "duration_sec": 6.78,
+  "ref_text_raw": "이곳은 남아프리카의 명소 중 하나로 남아프리카 국립 공원(SANParks)의 플래그십입니다.",
+  "ref_text_normalized": "이곳은 남아프리카의 명소 중 하나로 남아프리카 국립 공원sanparks의 플래그십입니다",
+  "timestamp_utc": "2026-07-05T06:03:42Z",
+  "text": "이곳은 남아프리카의 명소 중 하나로, 남아프리카 국립공원의 플래그십입니다.",
+  "latency_sec": 6.1633,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "이곳은 남아프리카의 명소 중 하나로, 남아프리카 국립공원의 플래그십입니다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231422,
+    "id": "ufNJarPOMMfG0-kPuZO6wQU",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 238,
+      "total_tokens": 622
+    }
+  }
+}

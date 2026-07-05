@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0028",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 5.1,
+  "ref_text_raw": "เปลือกด้านใกล้หนาประมาณ 70 กม. ส่วนด้านไกลหนาประมาณ 100 กม.",
+  "ref_text_normalized": "เปลือกด้านใกล้หนาประมาณ 70 กม. ส่วนด้านไกลหนาประมาณ 100 กม",
+  "timestamp_utc": "2026-07-05T08:02:22Z",
+  "text": "เปลือกด้านใกล้หนาประมาณ 70 กิโลเมตร ส่วนด้านไกลหนาประมาณ 100 กิโลเมตร",
+  "latency_sec": 2.7233,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "เปลือกด้านใกล้หนาประมาณ 70 กิโลเมตร ส่วนด้านไกลหนาประมาณ 100 กิโลเมตร",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPyaq0S2WiTKDLtf1be5sjdL+WOopzYctjltWmin1iISLMgBElWWgxktihIyw8"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238542,
+    "id": "jQ9KauqODZjF0-kPvZ-G6AE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 149,
+      "total_tokens": 178
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0064",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 13.98,
+  "ref_text_raw": "ある観察者がビシュケクを「無政府状態」に陥っていると表現したように、ギャングたちが街路を徘徊し、日用品店を略奪しました。",
+  "ref_text_normalized": "ある観察者がビシュケクを 無政府状態 に陥っていると表現したように ギャングたちが街路を徘徊し 日用品店を略奪しました",
+  "timestamp_utc": "2026-07-05T10:06:48Z",
+  "text": "ある観察者がビシュケクを未遂府状態に陥っていると表現しているようにギャングたちが街路を徘徊し日用品店を略奪しました。",
+  "latency_sec": 4.06,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ある観察者がビシュケクを未遂府状態に陥っていると表現しているようにギャングたちが街路を徘徊し日用品店を略奪しました。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246008,
+    "id": "tSxKauTvK8vb2roP0s2koQM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 469,
+      "total_tokens": 532
+    }
+  }
+}

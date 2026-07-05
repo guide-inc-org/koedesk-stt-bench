@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0124",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 9.18,
+  "ref_text_raw": "你手上的水分会与外层发生反应，这样会形成一层类似外壳的东西，感觉十分有趣。",
+  "ref_text_normalized": "你 手 上 的 水 分 会 与 外 层 发 生 反 应 这 样 会 形 成 一 层 类 似 外 壳 的 东 西 感 觉 十 分 有 趣",
+  "timestamp_utc": "2026-07-05T06:29:16Z",
+  "text": "你手上的水分会与外层发生反应，这会形成一层类似外壳的东西,感觉十分有趣。",
+  "latency_sec": 4.0906,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "10s",
+      "requestId": "6ca6e5f1-0000-2b55-9986-fc4116929071",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "你手上的水分会与外层发生反应，这会形成一层类似外壳的东西,感觉十分有趣。"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

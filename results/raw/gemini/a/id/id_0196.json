@@ -1,0 +1,39 @@
+{
+  "utt_id": "id_0196",
+  "lang": "id",
+  "engine": "gemini_25_flash",
+  "duration_sec": 6.3,
+  "ref_text_raw": "Sebuah bom meledak di luar kantor gubernur.",
+  "ref_text_normalized": "sebuah bom meledak di luar kantor gubernur",
+  "timestamp_utc": "2026-07-05T05:34:30Z",
+  "text": "Sebuah bom meledak di luar kantor Gubernur.",
+  "latency_sec": 3.6486,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Sebuah bom meledak di luar kantor Gubernur.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783229670,
+    "id": "4-xJarbJOenF0-kPwPbOqAc",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 11,
+      "prompt_tokens": 223,
+      "total_tokens": 291
+    }
+  }
+}

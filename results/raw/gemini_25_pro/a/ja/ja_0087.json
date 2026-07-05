@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0087",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 12.54,
+  "ref_text_raw": "日曜深夜、ドナルド・トランプ米大統領は報道官経由で配信された声明において、米軍がシリアから撤退することを発表しました。",
+  "ref_text_normalized": "日曜深夜 ドナルド トランプ米大統領は報道官経由で配信された声明において 米軍がシリアから撤退することを発表しました",
+  "timestamp_utc": "2026-07-05T10:11:39Z",
+  "text": "日曜 深夜 ドナルド トランプ 米 大統領 は 報道 官 経由 で 配信 さ れ た 生命 に おい て 米軍 が シリア から 撤退 する こと を 発表 し まし た 。",
+  "latency_sec": 3.6276,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "日曜 深夜 ドナルド トランプ 米 大統領 は 報道 官 経由 で 配信 さ れ た 生命 に おい て 米軍 が シリア から 撤退 する こと を 発表 し まし た 。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246299,
+    "id": "2C1Kar2XO-6d1e8P5u7EuQQ",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 423,
+      "total_tokens": 470
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0005",
+  "lang": "ko",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.9,
+  "ref_text_raw": "합금은 기본적으로 금속 두 개 이상의 혼합물이다. 주기율표 상에 원소가 많이 있다는 것을 잊지 마라.",
+  "ref_text_normalized": "합금은 기본적으로 금속 두 개 이상의 혼합물이다 주기율표 상에 원소가 많이 있다는 것을 잊지 마라",
+  "timestamp_utc": "2026-07-05T05:52:56Z",
+  "text": "합금은 기본적으로 금속 두 개 이상의 혼합물이다. 주기율표상의 원소가 많이 있다는 것을 잊지 마라.",
+  "latency_sec": 2.7848,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "합금은 기본적으로 금속 두 개 이상의 혼합물이다. 주기율표상의 원소가 많이 있다는 것을 잊지 마라.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230776,
+    "id": "N_FJaqu1FurS1e8Pod3IoAU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 338,
+      "total_tokens": 368
+    }
+  }
+}

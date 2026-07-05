@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0101",
+  "lang": "th",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.88,
+  "ref_text_raw": "เขาเรียกข่าวลือนี้ว่า \"การพูดไร้สาระทางการเมืองและความโง่เขลา\"",
+  "ref_text_normalized": "เขาเรียกข่าวลือนี้ว่า การพูดไร้สาระทางการเมืองและความโง่เขลา",
+  "timestamp_utc": "2026-07-05T07:42:37Z",
+  "text": "เขา เรียก ข่าว ลือ นี้ ว่า การ พูด ไร้ สาระ ทาง การ เมือง และ ความ โง่ เขลา",
+  "latency_sec": 3.8656,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "เขา เรียก ข่าว ลือ นี้ ว่า การ พูด ไร้ สาระ ทาง การ เมือง และ ความ โง่ เขลา",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237357,
+    "id": "6wpKasMY4pK-vQ-_neLwAw",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 306,
+      "total_tokens": 420
+    }
+  }
+}

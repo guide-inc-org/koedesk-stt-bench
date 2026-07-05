@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0119",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.3,
+  "ref_text_raw": "AIはSF的な意味合いが強いものの、コンピュータサイエンスにおける非常に重要な分野を形成しており、行動、学習、知的適応を機械で処理します。",
+  "ref_text_normalized": "aiはsf的な意味合いが強いものの コンピュータサイエンスにおける非常に重要な分野を形成しており 行動 学習 知的適応を機械で処理します",
+  "timestamp_utc": "2026-07-05T03:18:19Z",
+  "text": "AI は SF 的 な 意味 合い が 強い ものの コンピューター サイエンス における 非常 に 重要 な 分野 を 形成 し て おり 行動 学習 知的 点 適応 を 機械 で 処理 し ます 。",
+  "latency_sec": 2.893,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "AI は SF 的 な 意味 合い が 強い ものの コンピューター サイエンス における 非常 に 重要 な 分野 を 形成 し て おり 行動 学習 知的 点 適応 を 機械 で 処理 し ます 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPAo/V6xHyY8hpc2mYJc6c8yq1qvy3a60Xwq2nHbvZY+7H0/avvMA7aSHLYwat"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221499,
+    "id": "-cxJaojuMJWJ1e8PhMDXiQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 49,
+      "prompt_tokens": 404,
+      "total_tokens": 453
+    }
+  }
+}

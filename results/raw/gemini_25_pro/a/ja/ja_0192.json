@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0192",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 9.06,
+  "ref_text_raw": "ラッカ・シンがチャッパン・ボグ・バジャンを披露し、歌手のラジュ・カンデルワルが共演しました。",
+  "ref_text_normalized": "ラッカ シンがチャッパン ボグ バジャンを披露し 歌手のラジュ カンデルワルが共演しました",
+  "timestamp_utc": "2026-07-05T03:16:19Z",
+  "text": "落下 し が ジャパン ポグ バジャン を 披露 し 歌手 の ラジュ カンデルワル が 共演 し まし た 。",
+  "latency_sec": 3.8369,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "落下 し が ジャパン ポグ バジャン を 披露 し 歌手 の ラジュ カンデルワル が 共演 し まし た 。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221379,
+    "id": "gMxJasaeM7ui9tMP8NiBsAM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 311,
+      "total_tokens": 341
+    }
+  }
+}

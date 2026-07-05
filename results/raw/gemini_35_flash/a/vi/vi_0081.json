@@ -1,0 +1,45 @@
+{
+  "utt_id": "vi_0081",
+  "lang": "vi",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 16.68,
+  "ref_text_raw": "Một số chuyến du lịch sẽ đề cập đến thành phố Berlin, Đức trong tờ quảng cáo. Như bạn thấy trên bản đồ, Berlin không nằm gần biển và chuyến tham quan thành phố sẽ không bao gồm trong giá chuyến đi.",
+  "ref_text_normalized": "một số chuyến du lịch sẽ đề cập đến thành phố berlin đức trong tờ quảng cáo như bạn thấy trên bản đồ berlin không nằm gần biển và chuyến tham quan thành phố sẽ không bao gồm trong giá chuyến đi",
+  "timestamp_utc": "2026-07-05T08:35:44Z",
+  "text": "Một số chuyến du lịch sẽ đề cập đến thành phố Berlin, Đức trong tờ quảng cáo. Như bạn thấy trên bản đồ Berlin không nằm gần biển. Và chuyến tham quan thành phố sẽ không bao gồm trong giá chuyến đi.",
+  "latency_sec": 4.7667,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Một số chuyến du lịch sẽ đề cập đến thành phố Berlin, Đức trong tờ quảng cáo. Như bạn thấy trên bản đồ Berlin không nằm gần biển. Và chuyến tham quan thành phố sẽ không bao gồm trong giá chuyến đi.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240544,
+    "id": "XBdKarmyHOel0-kPltOWuAs",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 46,
+      "prompt_tokens": 438,
+      "total_tokens": 949
+    }
+  }
+}

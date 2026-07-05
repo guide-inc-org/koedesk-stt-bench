@@ -1,0 +1,36 @@
+{
+  "utt_id": "fr_0108",
+  "lang": "fr",
+  "engine": "google_stt_v2",
+  "duration_sec": 9.0,
+  "ref_text_raw": "De nombreux produits de boulangerie allemands contiennent également des amandes, des noisettes et d’autres noix. Les gâteaux populaires se marient souvent particulièrement bien avec une tasse de café serré.",
+  "ref_text_normalized": "de nombreux produits de boulangerie allemands contiennent également des amandes des noisettes et d'autres noix les gâteaux populaires se marient souvent particulièrement bien avec une tasse de café serré",
+  "timestamp_utc": "2026-07-05T04:25:40Z",
+  "text": "Nombreux produits de boulangerie allemands contiennent également des amandes, des noisettes et d'autres noix. Les gâteaux populaires se marient souvent particulièrement bien avec une tasse de café serré.",
+  "latency_sec": 3.9438,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "fr-FR",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "9s",
+      "requestId": "6b880e03-0000-272f-a05b-7474463c3b25",
+      "prompt": "Transcribe the following speech segment in French. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, French."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Nombreux produits de boulangerie allemands contiennent également des amandes, des noisettes et d'autres noix. Les gâteaux populaires se marient souvent particulièrement bien avec une tasse de café serré."
+          }
+        ],
+        "languageCode": "fr-FR"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0174",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 16.74,
+  "ref_text_raw": "漏れ聞いた情報によれば、当該文書は国境紛争に言及するもので、パレスチナの希望は1967年の中東戦争前の国境に基づくものです。",
+  "ref_text_normalized": "漏れ聞いた情報によれば 当該文書は国境紛争に言及するもので パレスチナの希望は1967年の中東戦争前の国境に基づくものです",
+  "timestamp_utc": "2026-07-05T03:21:52Z",
+  "text": "漏れ聞いた情報によれば、当該文書は国境紛争に言及するもので、パレスチナの希望は1967年の中東戦争前の国境に基づくものです。",
+  "latency_sec": 2.9888,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "漏れ聞いた情報によれば、当該文書は国境紛争に言及するもので、パレスチナの希望は1967年の中東戦争前の国境に基づくものです。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPWSGPDnAvtaWHyDOnEPFFfxqLUlHjlCSBp8kbTmk9qitks6EQLMvcyWnojqHs"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221712,
+    "id": "zs1Jar2pMLyB0-kP2bOhwAc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 440,
+      "total_tokens": 480
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0197",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 8.64,
+  "ref_text_raw": "再往北的广袤地区人烟稀少，有些地方是杳无人烟的荒野。",
+  "ref_text_normalized": "再 往 北 的 广 袤 地 区 人 烟 稀 少 有 些 地 方 是 杳 无 人 烟 的 荒 野",
+  "timestamp_utc": "2026-07-05T06:35:40Z",
+  "text": "再往北的广袤地区人烟稀少,有些地方是杳无人烟的旷野。",
+  "latency_sec": 4.1165,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "9s",
+      "requestId": "6f43e64e-0000-2016-ba36-14c14eec7164",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "再往北的广袤地区人烟稀少,有些地方是杳无人烟的旷野。"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

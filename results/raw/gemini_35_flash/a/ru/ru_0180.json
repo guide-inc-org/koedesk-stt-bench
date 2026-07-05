@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0180",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 13.74,
+  "ref_text_raw": "Сундарбан — это крупнейший пояс прибрежных мангровых зарослей, простирающийся от берега на 80 км (50 миль) вглубь континента в Бангладеше и Индии.",
+  "ref_text_normalized": "сундарбан — это крупнейший пояс прибрежных мангровых зарослей простирающийся от берега на 80 км 50 миль вглубь континента в бангладеше и индии",
+  "timestamp_utc": "2026-07-05T07:32:25Z",
+  "text": "Сундарбан — это крупнейший пояс прибрежных мангровых зарослей, простирающийся от берега на 80 километров (50 миль) вглубь континента в Бангладеш и Индии.",
+  "latency_sec": 4.9709,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Сундарбан — это крупнейший пояс прибрежных мангровых зарослей, простирающийся от берега на 80 километров (50 миль) вглубь континента в Бангладеш и Индии.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236745,
+    "id": "hQhKaqC2LeCzvr0P57qd6Ac",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 49,
+      "prompt_tokens": 365,
+      "total_tokens": 853
+    }
+  }
+}

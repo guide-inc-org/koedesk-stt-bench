@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0021",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.58,
+  "ref_text_raw": "Anyone who's going to drive at high latitudes or over mountain passes should consider the possibility of snow, ice, or freezing temperatures.",
+  "ref_text_normalized": "anyone who's going to drive at high latitudes or over mountain passes should consider the possibility of snow ice or freezing temperatures",
+  "timestamp_utc": "2026-07-05T10:28:12Z",
+  "text": "Anyone who's going to drive at high altitudes or over mountain passes should consider the possibility of snow, ice, or freezing temperatures.",
+  "latency_sec": 3.4625,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Anyone who's going to drive at high altitudes or over mountain passes should consider the possibility of snow, ice, or freezing temperatures.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EoMFCoAFARFNMg+uWFwN/+hxyl7+kNYuCrCcs1oW4E9UmMpWdQh5zaTjBavugaf4wo2GE3/9oz5jCm02mKOcMaQLFzyKHZMXvffWazQ/ulkMXpWLrJOn2ZSAwvc8haBSH805JUM+Kif+VvAqn+u9oRXlITh1OSUQfRIM/dvftkk+8Wbw/pXVnnqRRR7ZlrR0mXIre+NPN3j3mc71AkgfxjqraohiqNXrLJM+hj6zQD5WbBfaPL31o/d0HkWGa66r/RjLxX3NgxfwHH6w8d3oNqJOUkk9oOo1fTqGUYXCnZlHXklbF16nk5P+eTmjKHtORIvbBZnNEfiteK11q/joriejftsxIZPcMPiYIsystJiKSQXC45zDQHRiU0y1BD+i5ED8qKJsfXxOk+w4qaiXRXWWw94087ONlC23UJJNfh/+YJsyL+DAviw1AsusFW3OKgfrTVyXardW2higK/rHkLVpRLV9leSCs+H0S0o2jhF1bqtHNKkRmgktBwe/5jCz9u7J8rr1AyDaOJeknqZg6SrV5d6Nfr2uvNp7n1nt9JHniNcqRLHbTTD8M6HWr2lh3b98FrLOt9RVD40pCIBu69wAbE6vZ9iNXae52dhhzPqaxQhY0W6FLDSTXrNB5OAi8SKLn64+VziUqoB/8CaX4AcEsv2QReNLqS8B30BxxgvI5qOt02K3W/yW1rdUfDqSYfQeBIuzFT6Vsfp3S5c9ThlPQUptpWwT4J3kSKkymHyJv1u7azrW2PLFFEidAUdieR0DhcATYQ8ih8KZHnK5EVj17qF5+ixXiktBFJyNKMl/1EWYhgkdZTNpHHN5rL4S6tWsWR+D00QKSsp4beUvxtvG6LRDPg=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247292,
+    "id": "ujFKavz9I-zFvr0P-YXt8AM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 236,
+      "total_tokens": 397
+    }
+  }
+}

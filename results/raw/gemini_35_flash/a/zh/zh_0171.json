@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0171",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.2,
+  "ref_text_raw": "坠机发生在高海拔山区，据称是敌方火力所致。",
+  "ref_text_normalized": "坠 机 发 生 在 高 海 拔 山 区 据 称 是 敌 方 火 力 所 致",
+  "timestamp_utc": "2026-07-05T09:22:03Z",
+  "text": "坠机发生在高海拔山区，据称是敌方火力所致。",
+  "latency_sec": 7.1308,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "坠机发生在高海拔山区，据称是敌方火力所致。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243323,
+    "id": "NyJKarOyNPK8vr0P9K6siQU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 276,
+      "total_tokens": 819
+    }
+  }
+}

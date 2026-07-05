@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0104",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.58,
+  "ref_text_raw": "Wir stimmen mit der Aussage des USOC überein, dass den Interessen unserer Athleten und Vereine und ihres Sports besser gedient ist, wenn wir innerhalb unserer Organisation sinnvolle Veränderungen vorantreiben, anstatt eine Dezertifizierung vorzunehmen.",
+  "ref_text_normalized": "wir stimmen mit der aussage des usoc überein dass den interessen unserer athleten und vereine und ihres sports besser gedient ist wenn wir innerhalb unserer organisation sinnvolle veränderungen vorantreiben anstatt eine dezertifizierung vorzunehmen",
+  "timestamp_utc": "2026-07-05T04:06:04Z",
+  "text": "Wir stimmen mit der Aussage des USOC überein, dass den Interessen unserer Athleten und Vereine und ihres Sports besser gedient ist, wenn wir innerhalb unserer Organisation sinnvolle Veränderungen vorantreiben, anstatt einer Zertifizierung vorzunehmen.",
+  "latency_sec": 2.6914,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Wir stimmen mit der Aussage des USOC überein, dass den Interessen unserer Athleten und Vereine und ihres Sports besser gedient ist, wenn wir innerhalb unserer Organisation sinnvolle Veränderungen vorantreiben, anstatt einer Zertifizierung vorzunehmen.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPvIoqOQ5bZ5BYtxPRDdxQWjFz7d1EvADPK5s2nhMgW5rmMfHlw8LW/mdablbk"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224364,
+    "id": "K9hJaqKtIcKw0-kPjYbn-AU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 49,
+      "prompt_tokens": 386,
+      "total_tokens": 435
+    }
+  }
+}

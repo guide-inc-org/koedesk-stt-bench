@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0066",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.96,
+  "ref_text_raw": "しかし、赤道から数度北の「高緯度の熱帯」に位置しているため、（常に）暑さと（まれにですが快晴時に）強い日差しの両方に対処する必要があります。",
+  "ref_text_normalized": "しかし 赤道から数度北の 高緯度の熱帯 に位置しているため 常に暑さとまれにですが快晴時に強い日差しの両方に対処する必要があります",
+  "timestamp_utc": "2026-07-05T10:16:05Z",
+  "text": "しかし、赤道から数度北の低緯度の熱帯に位置しているため、常に暑さと、稀にですが、快晴時に強い日差しの両方に対処する必要があります。",
+  "latency_sec": 6.4961,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "しかし、赤道から数度北の低緯度の熱帯に位置しているため、常に暑さと、稀にですが、快晴時に強い日差しの両方に対処する必要があります。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246566,
+    "id": "4C5KaqKzPJWJ1e8PhMDXiQU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 345,
+      "total_tokens": 1064
+    }
+  }
+}

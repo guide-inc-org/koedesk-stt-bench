@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0144",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 13.9,
+  "ref_text_raw": "小心不要让衣服变得太热（这可能会产生收缩现象，在极端情况下会把衣服烤焦）。",
+  "ref_text_normalized": "小 心 不 要 让 衣 服 变 得 太 热 这 可 能 会 产 生 收 缩 现 象 在 极 端 情 况 下 会 把 衣 服 烤 焦",
+  "timestamp_utc": "2026-07-05T08:59:39Z",
+  "text": "小心不要讓衣服變得太熱,這可能會產生收縮現象,在極端情況下會把衣服烤焦。",
+  "latency_sec": 3.6169,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "小心不要讓衣服變得太熱,這可能會產生收縮現象,在極端情況下會把衣服烤焦。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241980,
+    "id": "-RxKauvjJerS1e8Pod3IoAU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 466,
+      "total_tokens": 556
+    }
+  }
+}

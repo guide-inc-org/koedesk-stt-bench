@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0082",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 36.42,
+  "ref_text_raw": "\"Perry erklärte, er werde „nach Texas zurückkehren, um das Ergebnis der Vorwahl von heute Abend auszuwerten und zu entscheiden, ob es in diesem Rennen einen weiterführenden Weg für mich gibt\"\", aber sagte später, er werde im Rennen bleiben und bei den Vorwahlen in South Carolina am 21. Januar antreten.\"",
+  "ref_text_normalized": "perry erklärte er werde nach texas zurückkehren um das ergebnis der vorwahl von heute abend auszuwerten und zu entscheiden ob es in diesem rennen einen weiterführenden weg für mich gibt aber sagte später er werde im rennen bleiben und bei den vorwahlen in south carolina am 21. januar antreten",
+  "timestamp_utc": "2026-07-05T04:02:55Z",
+  "text": "Perry erklärte, er werde nach Texas zurückkehren, um das Ergebnis der Vorwahl von heute Abend auszuwerten und zu entscheiden, ob es in diesem Rennen einen weiterführenden Weg für mich gibt. Aber sagte später, er werde im Rennen bleiben und bei den Vorwahlen in South Carolina am 21. Januar antreten.",
+  "latency_sec": 6.5998,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Perry erklärte, er werde nach Texas zurückkehren, um das Ergebnis der Vorwahl von heute Abend auszuwerten und zu entscheiden, ob es in diesem Rennen einen weiterführenden Weg für mich gibt. Aber sagte später, er werde im Rennen bleiben und bei den Vorwahlen in South Carolina am 21. Januar antreten.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224175,
+    "id": "atdJav35GszLrfcPwe_16Qs",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 68,
+      "prompt_tokens": 932,
+      "total_tokens": 1784
+    }
+  }
+}

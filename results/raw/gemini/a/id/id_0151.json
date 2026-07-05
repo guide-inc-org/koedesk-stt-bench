@@ -1,0 +1,39 @@
+{
+  "utt_id": "id_0151",
+  "lang": "id",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.1,
+  "ref_text_raw": "Pengawas polisi Chandra Shekhar Solanki mengatakan tertuduh hadir di pengadilan dengan wajah tertutup.",
+  "ref_text_normalized": "pengawas polisi chandra shekhar solanki mengatakan tertuduh hadir di pengadilan dengan wajah tertutup",
+  "timestamp_utc": "2026-07-05T05:30:58Z",
+  "text": "Pengawas polisi Chandra Sekar Solanki mengatakan tertuduh hadir di pengadilan dengan wajah tertutup.",
+  "latency_sec": 4.1907,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Pengawas polisi Chandra Sekar Solanki mengatakan tertuduh hadir di pengadilan dengan wajah tertutup.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783229458,
+    "id": "D-xJasuJOY-D1e8P9I7h6AE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 377,
+      "total_tokens": 465
+    }
+  }
+}

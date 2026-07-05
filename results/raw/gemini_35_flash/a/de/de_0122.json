@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0122",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 17.88,
+  "ref_text_raw": "Die Sundarbans wurden zum UNESCO-Weltkulturerbe erklärt. Der Teil des Waldes, der innerhalb des indischen Staatsgebietes liegt, wird als Sundarbans National Park bezeichnet.",
+  "ref_text_normalized": "die sundarbans wurden zum unesco-weltkulturerbe erklärt der teil des waldes der innerhalb des indischen staatsgebietes liegt wird als sundarbans national park bezeichnet",
+  "timestamp_utc": "2026-07-05T04:06:13Z",
+  "text": "Die Sundarbans wurden zum UNESCO-Weltkulturerbe erklärt. Der Teil des Waldes, der innerhalb des indischen Staatsgebietes liegt, wird als Sundarbans Nationalpark bezeichnet.",
+  "latency_sec": 4.7898,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Die Sundarbans wurden zum UNESCO-Weltkulturerbe erklärt. Der Teil des Waldes, der innerhalb des indischen Staatsgebietes liegt, wird als Sundarbans Nationalpark bezeichnet.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EsIMCr8MARFNMg8FGx6sbpBWWkWPt76rzOotJdhkVP78x+rBi7XisNmz5+X4pZySzZ9w2YQtZxPNMDHyTyyPj7r2wDffeNHpLIA+6dQcYXZcmShpVFQiLA1YNe7bGvEeUN3PWZ12U/EMpqhtVKHceVQ/LIwy3OFFVWyCPgmWjg8+A1T3HacLxAGGBRaOrxxfpEb4jRtPxVQDFQ7VGDgWknHfSRqbFDJ21Q97UBgAa+YyGHKZbTBX1wQvJ83hrYTPmsTuh3OkhjX2RGpbDsR5kffJPuuSKR+9y3H/QoPXndZllplY7H1oAJyA9p/bn5bB6+dXmFgdbXrCUq5PFYSBPJuY13uKghxzGK9dvCBdLROyCUM2fJKDquBKZ/uIDza5EVVsb0NGNU6yhHgqt43g8F8Gl3A42NFprymry8UxeP/CW3CU5tcyVSHA1jVdWuu5CssCKqaCy/eRxnC0piDm/yTlmy6pFdInZFLfRtrvZ0g0UDG2aJDOG9Cbb8seGo+tPjrbLK36s6Yn69vqI5zh2gqCPGuMYQIkYgLsPeROsK/wYkVR1+WT9c3xjHXrc5n69dBSpohZKbUyk2YyZy4oB8Oi8P5ZJSQuKGiQUUv0AeWAFP9/k/Uo7uQ8u1jwUld1m9ZCZBLD4FCnn29Zir/fsFOM8vh7EbYar49zyw/QNa3LKrJbiTOdQzVeMNetLquFzUJcabdSJSVSM6N912N//622BoKshyQ9cVdZwSnqcuzeViHojDqOchReABkF91q/3Ab2XtWcK+xVBaTnvEyEBv+s3tF0AFyWWWmsZRovj9hN7/4mlwJ3jpThx87BvApgQQ/afz2YR3AC917ln4qIPDXVQKYct4hC/fNznbMcmZposiJFW/qBmQQGXyMC8NE2puqoAsfbJDS90n0+Q5qJb7uGWqoqXrCrmI2/TqXBp4trgHobD0bWHUFPk9GmzVO5TJh9H7t6DLyNI6i/M9wUB1tC7evtS52/6t3/cJj7Aan/rxtdG8tq0WH5vfR6Zom3WEnx5Cp7/bzRQD+tzooYySM/s+ctAofLKemZd8IP6EtVOrY0uByx9NRFzResBp9U2jAYKrkTBm/uQm33XV8lXfxqrPnAG7XGCNZxO89mCHhZ+7ns4FH81i7FI4YOdnbIOAbuFvPRdnNj0IpTp45OFb5mSXqUDqLvk4r3bOb+93jBll8ZXC0mv2J4Uc20z/LOlDbWVxRnbr38w1Gm6SbUF33yKdn3tUTwM7D+rKDYqBmfPiNkf01OqUw++IdA64/lvv+AuJxoSVMW6+Z04JhcRz2xK7uIX5NVQ/ksXHFdH5f3KfuCnbyafiqOveVRepHaiDvtHJBY1JCFSk7J9vdN8HcNKsngctOEzJG33ngtDqYRS08dUTwqrBcJ98VVFU+/N3iISmT0DGqLDPUc57ZjF8YZL612ZTk1LMMaNdzO/yWCSL2son+zGo5yaHShu58B/olxqGsoInfgIE8ZLuJrvgeRYAO7igYrTxuJ2ndrzqOpUpMLqwpuYDZOY8QLmz49A32lC9lNccmeTDL4zKg4faykHJCTTdvRlLk6GqoFts3Mpedzx56zCboVGH2Kaak/s1+okZso7TAFCT9O8rQYnIEDnxsbqUwv+ZiC4kesDWVZ3EK8AWyCaMc6yF176ja2m16mkdljc5InMzeIQ0sSDwdOiLpc1MYrMhnERbcwYEPJsq/HQPdGsJSg+xOvfq5cHtkkTZPxjwkWwEPG/Qcucvwb/k++3odxY/234lgXq29W1JWFhNpjBopYL6lQ18YNbagl2E+UG6eK8cAYxLi/f2Mx4wn6udCTkltbyNVkexNZDzZwV+LCHbQ1tiq4Akm+jArXb3iSb+e6lFqLw7ZgXpdwL6Mbq/CKjquEIIrEo4CrYB5dm/nH/mZky3z2Lq4i1NZDqI93xi8yXip+H19W3SLuqBgGf+uzf0PvylZUWNmX+PNwgW8rxXtF7P+suM545FE8U/HW2bDHMezzCnP7SUlAyuDIIgN6lQIKY0Vx3bXu4j2LqrNeFngz4zYXfWx2FtjbH9jj0SfKiKV4UUkRBFDTK82Lt6svwy3zaCuCCfENTGqQBaL/gJvNW8Ia93wFbnwEKUGpYMvFqqVkwW3Hai69tM/V"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224373,
+    "id": "MdhJaqnhLdLu1e8P1-bXkAI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 468,
+      "total_tokens": 913
+    }
+  }
+}

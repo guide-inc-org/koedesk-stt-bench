@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0108",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 14.88,
+  "ref_text_raw": "A well rounded athlete, the tiger can climb (though not well), swim, leap great distances and pull with five times the force of a strong human.",
+  "ref_text_normalized": "a well rounded athlete the tiger can climb though not well swim leap great distances and pull with five times the force of a strong human",
+  "timestamp_utc": "2026-07-05T03:32:44Z",
+  "text": "A well-rounded athlete, the tiger can climb, though not well, swim, leap great distances, and pull with five times the force of a strong human.",
+  "latency_sec": 3.151,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "A well-rounded athlete, the tiger can climb, though not well, swim, leap great distances, and pull with five times the force of a strong human.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EvYECvMEARFNMg8z4h3I84bJQ0+oIlp+gxrZ6NzVywbmhi0sepBMlA2opwmQxOtJeIcgiqJjWovTpR/8HlXGb7ARXKDaie7WhmHFOwg0fAf/T4Mq0CDlzD1+eYnFpTQ1acVlbtdwbNVhiHf5NF25STZFQQl9PHp68/IHtQ2B0Md2iZpXFVCJ59zfprbRBrxPxU4U0remo1b6PpiywfmHGQWoTFZbAdnaODjYY620iRsitDV7oQpeiy40bBDFB45JGawjxV2G33wxjjg5zeloVf5z0yZTDvNmYUkyQYLiV8+NcAoQKd2hW/YK44ZSzxW7DpkDjINn9Jk0Uc0EtQP4gsdHFMlksrHLsPH2D+pj7ILyPZJ4KlWO0TYuX7xApAteZWOX/KqQ21VM7ckDhLEVTH8UL2pPrhsBYuuJvZggAVybr/7orjNmWuVkG4MqyhauJhR1AskecDCN7/NES4v04EKNHLtPi8M2dRRjMLiaRRYIZtFbIexlCLh2vhtnyXl6RJMGVfJnC+9Jq131LJ3EXEag0a0HUp9/QA/S3eW7DpZxYz3SDUyaOGPZ8GTcRY7eJ3/ZZa7HLDFkcd70CPRBdR6i/b/qlYNb0r+silRHrClHe18R1YZ5TdrZOWaWYd4CYRYMtpemqoRG52z2Op8eVwzvqO/xpnKqH5gROnG91k6As2Smko5X24IM1oaVvzMl7mQFPV2QF7Pva2n7ZbyCKCkk8gPrp3OmPzoToFFro98alC3V6D7t5E+Rb12ZtLDdkZ4oc/4X/0Eb+TSNmC0R8IgWNc+SbnRd6WIITaL4KP4v/75816dxQ/wfjkdFe/3CZ6OtKGC7MvIa"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222364,
+    "id": "WtBJao-3I9y-vr0P4tf2gQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 393,
+      "total_tokens": 559
+    }
+  }
+}

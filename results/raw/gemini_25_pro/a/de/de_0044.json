@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0044",
+  "lang": "de",
+  "engine": "gemini_25_pro",
+  "duration_sec": 22.08,
+  "ref_text_raw": "Zum Beispiel ist das weltweit am weitesten verbreitete Standbildformat 35 mm, was der vorherrschenden Filmgröße am Ende der Analogfilmära entspricht.",
+  "ref_text_normalized": "zum beispiel ist das weltweit am weitesten verbreitete standbildformat 35 mm was der vorherrschenden filmgröße am ende der analogfilmära entspricht",
+  "timestamp_utc": "2026-07-05T03:44:13Z",
+  "text": "z.B. ist das weltweit am weitesten verbreitete Standbildformat 35 mm, was der vorherrschenden Filmgröße am Ende der Analogfilm Era entspricht.",
+  "latency_sec": 5.8165,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "z.B. ist das weltweit am weitesten verbreitete Standbildformat 35 mm, was der vorherrschenden Filmgröße am Ende der Analogfilm Era entspricht.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223053,
+    "id": "CdNJap2ICfyk0-kP9PODwAc",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 728,
+      "total_tokens": 1006
+    }
+  }
+}

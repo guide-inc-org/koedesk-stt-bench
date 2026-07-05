@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0128",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 6.6,
+  "ref_text_raw": "Aujourd'hui, les seuls insectes qui ne peuvent pas replier leurs ailes sont les mouches dragons et les éphémères.",
+  "ref_text_normalized": "aujourd'hui les seuls insectes qui ne peuvent pas replier leurs ailes sont les mouches dragons et les éphémères",
+  "timestamp_utc": "2026-07-05T05:01:32Z",
+  "text": "Aujourd'hui, les seuls insectes qui ne peuvent pas replier leurs ailes sont les mouches dragon et les éphémères.",
+  "latency_sec": 3.7675,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Aujourd'hui, les seuls insectes qui ne peuvent pas replier leurs ailes sont les mouches dragon et les éphémères.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227692,
+    "id": "KuVJapWmCpbPrfcP9aSH-Ac",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 233,
+      "total_tokens": 301
+    }
+  }
+}

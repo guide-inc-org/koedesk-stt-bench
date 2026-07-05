@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0045",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 16.32,
+  "ref_text_raw": "Г-жа Киршнер объявила о своём намерении баллотироваться на пост президента в Аргентинском театре, в том же месте, где она начала свою предвыборную кампанию в Сенат в 2005 году в качестве члена делегации провинции Буэнос-Айрес.",
+  "ref_text_normalized": "г-жа киршнер объявила о своём намерении баллотироваться на пост президента в аргентинском театре в том же месте где она начала свою предвыборную кампанию в сенат в 2005 году в качестве члена делегации провинции буэнос-айрес",
+  "timestamp_utc": "2026-07-05T07:20:28Z",
+  "text": "Госпожа Киршнер объявила о своем намерении баллотироваться на пост президента в аргентинском театре в том же месте, где она начала свою предвыборную кампанию в сенат в 2005 году в качестве члена делегации провинции Буэнос-Айрес.",
+  "latency_sec": 4.9649,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Госпожа Киршнер объявила о своем намерении баллотироваться на пост президента в аргентинском театре в том же месте, где она начала свою предвыборную кампанию в сенат в 2005 году в качестве члена делегации провинции Буэнос-Айрес.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236028,
+    "id": "uAVKaoiOLKqj9tMPiaisiAI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 67,
+      "prompt_tokens": 429,
+      "total_tokens": 899
+    }
+  }
+}

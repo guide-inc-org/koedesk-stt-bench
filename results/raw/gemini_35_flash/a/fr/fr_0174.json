@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0174",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.26,
+  "ref_text_raw": "Vous pouvez utiliser des boda-boda (moto taxi) pour vous déplacer dans Goma. Le prix normal (local) est d’environ 500 francs congolais pour une petite course.",
+  "ref_text_normalized": "vous pouvez utiliser des boda-boda moto taxi pour vous déplacer dans goma. le prix normal local est d’environ 500 francs congolais pour une petite course",
+  "timestamp_utc": "2026-07-05T05:16:55Z",
+  "text": "Vous pouvez utiliser des boda-boda moto-taxis pour vous déplacer dans Goma. Le prix normal local est d'environ 500 francs congolais pour une petite course.",
+  "latency_sec": 5.1292,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Vous pouvez utiliser des boda-boda moto-taxis pour vous déplacer dans Goma. Le prix normal local est d'environ 500 francs congolais pour une petite course.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "ErUOCrIOARFNMg9E4306SnzSdp1XrqBftlL8zyRRap2Nita45XuIzw4Cc9bVBnLdgC+eqUxQM66segWreB70iaIZtZJ9XfwEfreGyzD3reZqt2xEtt+Hrq6EO6LItYxKa0s6+lJGxCG9CSW/EOg5rjk0Hjs+sOOnvSRVFuoe5F7GXn1vI6pfLdyWbmXVUwo0teDNQyy25/1W82ojLUVKt9c04+aaKFmXUYO3ImBpaFABHKeHU6Rtd+XjGKyukX65+znAg8l0VjTLpQSJnyQ8duN9hQjtJLckNKjmw+1podc0nAygIb7ZMqAQjDNw0MRxb0+V4h+Tzjcz9X9S4d6X1+XH/g2h+ohi+Kexuh/cpsMSop5Msl4qPwpjHzZGrAz6dhsjNy2FobaCTS4N5/D1eBFO03biM1bIISd2dKSrA4bAHbQN0P06MkZiqy9IoSZZ+t5KnNGYQjELncVOu07V9z6aP0cIXgZqiQgAP+It9VzOSMb8zHaeD9EYfMa3FUcBvhiDb1hyuwtNXbBAeeNkHxJswA6tWFp3ftWKPREgcP4kVInCIBVtK3TQ133UoJIPekkqCTDJimDuEViV0Gf72bsxYgEwFmCD8hvdcFEQlrTlfEGT56tlXw0pNPRQ317Epi0SkNWhhDqEj6TPGSOmJcdYtOV7PmUrcRuBLxBtvprCuyRYZof3ncixPzlcWSKaokV8YfU8SACyJtcDpn0dgq4wGcH6RWQsHhrq1qOtz+ZsbGaa6lHUECUzhcPbuKsp44FYQ0ot2UZIvPasajQWf5LBZjd7fWM3oFziwcjxNfJa97eV5pTWyPwtAgMj6945gqMTP36wLDr5f/WRf4am2rchFxmI9ptzQo09XSCmHdLKPnayapx+YqXgPCeHZ6Q+mq6O4mcHHt/znwtHhBXx1fRa0XuYrvX+3giC3c4AjK6AQm8f/WYzbKyT6iZfCphEt4sp4yRnD9p5LHsgCAGuWla7t4lrE/Si64vljU2QZ2AA8ZUge2Cdm0HWteMjEQ+Jj9djGZY8iS5JOa4TcmdSdSSgFYMhkZOkBdovFppQDVbrSSfHyDk9udn+MBS2lAU/WpQmDU+MvmVYEE+/8sfjzSNByO1rldiWp/1hjGliLzyfqORUO0iNCaXbjQUjwPnT1TXIbfHJBSacj/02eU6/WzeK0c01F91o8+qcyQEdO0zBiP6SYfzLCbyXZTT2kPH5SuWEFA5XKu6yEFpRV6KSc5miMx86rQv1K2MqLLK9s0a55pQSlDs8ynY4Amv9+PGw7+8ku80BDFYPdNFyt5/y21P7pzgSwTgvDHHcYJziiLc8xCTDEUTcJHxUAGFQDhy8GuUy9NfCmG34fyxV+Bdgr+/iA9BiPO80bampqZaKtbJrYBGlrXeTt/xlQQk6o/0oXRXO0uNgTqmyz0+M9JKI45a6Pk60WKQJ+wJ8MYyXt4jVa6miRY5zGoNE0oKEItXJYLmDUmR6/M/HmjBuL6Q2F8dyCTITn30AIdgYUCIzZhr4VOFgkKbu4abOpdyHF6detjXbKk4hg6D4tvAXmfNPmX7UpImt7dbeWHeYfeTRuGi7yFeU2DxhKbI1RSnt/pmtPU/aV1FJ8qsgu2li46Xqk5LRVD4xY8AuJpOTkDNx3P+HhyFnatW3xXNZT8zVCdrBw0vptJoJDtZFikmeL66JKKD58YlqQ+O4V62r2y2HZLVdkTsVVMKx7Cf+CPTZXpjONvkcSuvyKU2AhqSfYKHcivQf5x2Sckkvo/6QUI/o22HLT3aOh6XeKykV/cPOYH4FqeDiieE602J0BYoZlHGdJM6STStbnz2njxle2WJ5+NyurKjQ8mRG8PRbhkceSHeIfefhkhGYasdU6bitFCLNR7IUeqDubYgTn1+0Cpsb2jKMcXEO1JIZEtzq4rkPUeDtcjLDMSVDYG0bzx8VYFQ+eKPEbPdWY1EwRGsMGcMVcm7u482lzSQ7Mj7lcbY2HcctbA24Sc0ZRRpLvAdfVt8mOvAX+6zBj9/SGTaV4CPbkfUmW7f2zxSWvNQQKG/lf3bYci/gY123orYfbjYyArjuVL6PdYMDqmhwYmT42hmrWuqyozq8VsZgGmZwLakU/xsxeIi2awSEPKeJ4OaKABUUSi5YYsESZ5QCY+HnMr5KFChxl5X7/jE5TtQZwO8r1B41mCntNZbwNLQf0pjvh06DdyoH4XUAd9qLVcfh6TahrsfEZqbif7ypf9CLp1+o7ITDKzbVDKMWnHNsVnC6rEIJMl8Ze0ExornG5z2VxDBclVRMGEGSdD+LMnqx2t+3O3RRd6vomHUpdBQ0bQ1mMp/dR0qOeY9VDEUaE4eoYABPFb+q7pt3och1zGoq/loH3ZsOUrp7Tclkn4iG+kIb1vOQtCI+86YQ9CYMP9B3SpA9yc6T+IDPCIkLR5BjsdhOK+jj5li1K0Oz9nba5ZDHrG9NGIdOB1LtmgT4"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228615,
+    "id": "w-hJarDRE8fG0-kPuZO6wQU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 278,
+      "total_tokens": 829
+    }
+  }
+}

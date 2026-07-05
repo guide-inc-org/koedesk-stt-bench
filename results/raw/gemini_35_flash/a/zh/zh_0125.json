@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0125",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.22,
+  "ref_text_raw": "他们因其严格防守、控球技术和出色的团队合作脱颖而出。很显然，这是一支无往不胜的球队。",
+  "ref_text_normalized": "他 们 因 其 严 格 防 守 控 球 技 术 和 出 色 的 团 队 合 作 脱 颖 而 出 很 显 然 这 是 一 支 无 往 不 胜 的 球 队",
+  "timestamp_utc": "2026-07-05T09:17:21Z",
+  "text": "他们以其严格防守，控球技术和出色的团队合作脱颖而出。很显然，这是一支无往不胜的球队。",
+  "latency_sec": 5.23,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "他们以其严格防守，控球技术和出色的团队合作脱颖而出。很显然，这是一支无往不胜的球队。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtEMCs4MARFNMg/5QpYc5YC65lcoNbu0VSpwHwm+gtI97emhVIm7u19RGBC8Br+GaIc3d6pi42kllLGlbDXb5eKklkWoihMfQ2cNu00HwFzJqB84YaCAURFyb6uAKbKUTyyb42Y5yE0Orat+EJC2qnDH7xABO0Iu3rIAelM9DZSztLkxNdGAkyIV5K45Q6bojayGhSuwrVanHxiIG5Tq8lcsm9QImBtB7lPzkYYs4vpUc+9pLkAjuC1j3gcnauxkG8/Rvqh3GpzUpGTDczwIsjvNsu+V0IU5l41TIJw2YR8cTjsk1pJv/T+IQUWeR89uT+EeKjyyJ74jiBHvI6FnKeFFoeSO6n68BKIFvo0c5ZNhIxRG9DNEQ1xwW6O57NrWIwp0nVgveQW4sLn4ndQAE4k10add2Kg6lqr8z7l3XevOA7OE15TbAprrg5WgxDyuU4P7Hym+ixdJyTQ/ZtjW5ChXorJGKr5r9Kv4RriKkAzLWFjhFpZRVWHwqWQPMZ+dg45EaCXB7UEHF9EnLrklwtv7ZLWna53bnN57avr/deXfRmaV2kEoYsrh+4NELPA4c3HFqVj6A8HrXxfLFEbaenlcaDpsmZSww29nc4y95m6PJojJi1EUPkjhNj1V14/a32jCw5Ibg9L68mcRpdrwPWPCgp49Iu0D7NeKAljtaMBihMC5fDtZhSUMj8CCE0LyEHPFpbx2y8ilmlEWFoc+/wQ8LRaNRsoHMXMvHKDbxwQGbuk1UEwM+HGhIa9hfXppAdxF+kbE8mVC9z5yWPxfZBMmWtknks/aMZE5ONpeq0gA1KJ8Edk/CR9ZQQgOLOrVQQp1nnhaQcpNGHVKF1h5ZUKlyvTK0dUuSr3VjOVdTp6vYiN5AwlMEDrZw+CBbF9rFhxsMRpwAY30QRNpo4yv95iAS6AAXJF51RQk/6PiEscQkJToq8PydQ5v/RH3mX4d28vJlrdNVcxILD2W0KjTUAOG6I9Bygv0NAiZh+nnYSwMyxLr1F/QxD9kHpfyuDeLOfMCkqBTnMTeiVLoyw7zMqfJEXRfD6CBrok/HSyu+AoqjI/x9Fu4J6tIM/I/T2HUOuA30bpWjSos+5USIzbxRhsEb6N4X+i5Wdj6DHmEz6SsDgd3Jb8YOP5TLdj3Oh4aJwG1M3ZPAinkMl2hIwKeCqcpGq+jlw7g97vs0ceHkYd5mkRMXT483SN/fbTu5be5QlSfZlE+d/lYYCRGpLD11x+7DgtSpZ3fnMiCE4ONpGJ5kSolaN+clJF3CQw0p25jTi8nA49AjghakrbO+4hCMlo+kMkN51sra3QYjb4eIWGk+Vyu/TMPcbhS3zOZRC3bVfhPONQEgBxxOtpBHW9rcfW+fdVz2CC2f+YlgEN5krLxS8G+OzjxWRY74rtrW/jzXCGQP+NHtkunhvj5ftfSNSaZXA3EPVOaycfHlxsO53Ccoy9u1d80frtqkHKneCO4r0ia+s9CmgvBweEnFsncHCUMdxHHC4Dv2LRJB7YlRNtgSboa74BqHKeIIfnKaiDVftGeWt6oU1SBvIm8gQGXpnYRAfjeOBpIPXHGZKQBf1M7HICxz3Y+OMzGN+ZASyurIN1lDBaE6lEnxua8MDfJ2YBULlDqJYANyicwRpOrfYZPRYmT8SNHvbR6kd2M03Sn9apVjD+1nOjYCqLid11XKJQduHEWzBQcBYT74Yd0aEiUYIla8PmLdmDEQj0jgzczMrGeWpxxiiCNDhUgtM+cgYXZD1Qbwli7W207DpnwS2CdKUMMDK3Vl/Y/Q+cBPJN8pQMB8BBPjh3EfTidAI8YaewzfDFSS1l1o05Kp6hqxmsi/vcZOAAcjciRmQZxdxydJmJZb5B4Q4lldUHaBhVPhTHRkTEquPwNJoEMmUOWlJT4sLe9IZLFV+XZzBexADKBpuS00O4e0/c1V5sfXsXkVzFaXsO9bz99vVdsB/DZGQdD7qy3mOiKg6+xPqZ/yAwMTEJLNdv2K6YC8V0+zRI4DOoLGk7ibDR9Hbi6SCd5aaGl0r7bcGoBMUXzZEsTcs9Yg2klf9RyrNWAUDR4+yGNBqBgD8MU0OpNAkvEZ8oeInm8I8alDIiRFn739L5XexThdzNNGqTRO5m2A+XfFATx66ZDzwoT/0HXDdqZvhk+S2FUVe4u"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243041,
+    "id": "HSFKar3TBNG3vr0PstvC2AM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 302,
+      "total_tokens": 822
+    }
+  }
+}

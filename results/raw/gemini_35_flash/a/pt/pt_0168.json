@@ -1,0 +1,45 @@
+{
+  "utt_id": "pt_0168",
+  "lang": "pt",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 14.64,
+  "ref_text_raw": "Considera-se que elementos como cálcio e potássio são metais. Claro, também há metais como prata e ouro.",
+  "ref_text_normalized": "considera-se que elementos como cálcio e potássio são metais claro também há metais como prata e ouro",
+  "timestamp_utc": "2026-07-05T06:57:22Z",
+  "text": "Considera-se que os elementos como cálcio e potássio são metais. Claro, também há metais como prata e ouro.",
+  "latency_sec": 4.3918,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Considera-se que os elementos como cálcio e potássio são metais. Claro, também há metais como prata e ouro.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EvwECvkEARFNMg9JpsvG0xyelHjrkk9tP18KWDPs/k6ZvTo/M9a5o3kVorENlD927Igv8ivYZp8pTyVaz9pih+UlZgYU4aBxzeLSRg30NMiiUFNKdhO5/pKqni6RmlNtKtzhgsRPhXl1nr5MyH9yInIe3hbW1MZLrP9OSsCgdhX13xNzvbqoejtnZ15hWzT/IH0RsUKolZyzJT/g0dTk2cXWi3iHoSBDD0q22htmGdAwjLhse5Z+/RAVzMQ4yCmcB9sKNk347E/0QiJCfzZFAOxbAKz0qCfAoi3sYl9geDh2lXciqV/Ceirt7ZN/ppRTEPHlBinaaJNgG0sHh4y1CdP0inmnu9XT3XcEllRXmidNR/jadM5ulyjsBUTU2X1wNqdq86CTAvXvBpZo7l7PrR4xJbACdQPPZGgtF8Uept4ir2TYsOb7GAGsqL+Mp32tg4Z2VFNud1qWgHV0jvafMIFJUt9ogk9J7PCSO2pQYxZJNWGiQ4QfNT2Z39cLnWguCjZA9hPuIwNrpQBN4TxyyDRkMx5PBi226OLjaz31DJsaZZas7p13N33OrQQonwVz2+00cyI6T6XNhugB7DR7IDsldKONk2e/tRlOgcaYgxMCt8H62U6LkiBPZUjf4Q6ttCq55lPc9bBp49qrODLoDXQUW4TGErhW7sUClLblw6/OITIzSaevfTK4pNfLpk9GYSUbGxJ2gPKr0knDPzmxpc00i5zvugkrDYNbgayBcCtxxyT7BGs/naWc2bSHH/SQ/WtaVgOFEalGJSn7ogqu8ZKC3FZeCCt5gwrJv16pSa8RUSEu/HBkDf5Lc+5DhzsvLpBaNwq7qsa2kuI7pSWF"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234642,
+    "id": "UABKapSgE67H0-kPp7WTuQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 387,
+      "total_tokens": 570
+    }
+  }
+}

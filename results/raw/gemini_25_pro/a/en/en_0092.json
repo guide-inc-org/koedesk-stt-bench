@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0092",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 12.8,
+  "ref_text_raw": "It states that the most effective place for the main subject is at the intersection of lines dividing the image into thirds vertically and horizontally (see example).",
+  "ref_text_normalized": "it states that the most effective place for the main subject is at the intersection of lines dividing the image into thirds vertically and horizontally see example",
+  "timestamp_utc": "2026-07-05T10:27:20Z",
+  "text": "It states that the most effective place for the main subject is at the intersection of lines dividing the image into thirds vertically and horizontally. See example.",
+  "latency_sec": 3.8945,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "It states that the most effective place for the main subject is at the intersection of lines dividing the image into thirds vertically and horizontally. See example.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247240,
+    "id": "hTFKarHEOuCzvr0P57qd6Ac",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 431,
+      "total_tokens": 460
+    }
+  }
+}

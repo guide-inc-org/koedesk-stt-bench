@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0101",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.0,
+  "ref_text_raw": "文明とは、共同で生活や仕事を営む人々の大集団が共有する1つの文化、つまり社会のことです。",
+  "ref_text_normalized": "文明とは 共同で生活や仕事を営む人々の大集団が共有する1つの文化 つまり社会のことです",
+  "timestamp_utc": "2026-07-05T03:17:11Z",
+  "text": "群 命 と は 共同 で 生活 や 仕事 を 営む 人々 の 大 集団 が 共有 する 1 つ の 文化 、 つまり 社会 の こと です 。",
+  "latency_sec": 2.9628,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "群 命 と は 共同 で 生活 や 仕事 を 営む 人々 の 大 集団 が 共有 する 1 つ の 文化 、 つまり 社会 の こと です 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPB0p539z5KNKrV96PfcGJGn69rNWtt9Upu+KjflPRw+LfxlDLqZjpByxljL+M"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221431,
+    "id": "tcxJaoinNaXJ2roPu_yk0QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 321,
+      "total_tokens": 359
+    }
+  }
+}

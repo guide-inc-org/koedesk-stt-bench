@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0172",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.76,
+  "ref_text_raw": "Jembatan tersebut rencananya beroperasi penuh pada September 2017, saat pos pemeriksaan bea cukai Brasil rencananya selesai dibangun.",
+  "ref_text_normalized": "jembatan tersebut rencananya beroperasi penuh pada september 2017 saat pos pemeriksaan bea cukai brasil rencananya selesai dibangun",
+  "timestamp_utc": "2026-07-05T05:55:39Z",
+  "text": "Jembatan tersebut rencananya beroperasi penuh pada September 2017 saat pos pemeriksaan bea cukai berhasil rencananya selesai dibangun.",
+  "latency_sec": 3.1542,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Jembatan tersebut rencananya beroperasi penuh pada September 2017 saat pos pemeriksaan bea cukai berhasil rencananya selesai dibangun.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPQNIstJV5mDzmtc+EjJETnPZYI0wBaLZ3d6H4/Q1P+3WImT1ETMz+zDu29ZTR"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230939,
+    "id": "2vFJaq6_D62A1e8P88TkuQE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 315,
+      "total_tokens": 345
+    }
+  }
+}

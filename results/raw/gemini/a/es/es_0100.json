@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0100",
+  "lang": "es",
+  "engine": "gemini_25_flash",
+  "duration_sec": 16.98,
+  "ref_text_raw": "Para ejemplificar, el formato de fotografía de imagen fija más habitual a nivel global es el de 35 mm, que fue el tamaño de película más utilizado hacia el final de la era de las películas analógicas.",
+  "ref_text_normalized": "para ejemplificar el formato de fotografía de imagen fija más habitual a nivel global es el de 35 mm que fue el tamaño de película más utilizado hacia el final de la era de las películas analógicas",
+  "timestamp_utc": "2026-07-05T04:20:48Z",
+  "text": "Para ejemplificar, el formato de fotografía de imagen fija más habitual a nivel global es el de 35 mm, que fue el tamaño de película más utilizado hacia el final de la era de las películas analógicas.",
+  "latency_sec": 4.4276,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Para ejemplificar, el formato de fotografía de imagen fija más habitual a nivel global es el de 35 mm, que fue el tamaño de película más utilizado hacia el final de la era de las películas analógicas.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225248,
+    "id": "ndtJat3dD_eZ0-kPrbzayQU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 565,
+      "total_tokens": 635
+    }
+  }
+}

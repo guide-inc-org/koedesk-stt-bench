@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0127",
+  "lang": "es",
+  "engine": "gemini_25_pro",
+  "duration_sec": 11.04,
+  "ref_text_raw": "Con aproximadamente 800 habitantes, la Ciudad del Vaticano es el país independiente más pequeño del mundo y el de menor población.",
+  "ref_text_normalized": "con aproximadamente 800 habitantes la ciudad del vaticano es el país independiente más pequeño del mundo y el de menor población",
+  "timestamp_utc": "2026-07-05T04:26:20Z",
+  "text": "Con aproximadamente 800 habitantes, la Ciudad del Vaticano es el país independiente más pequeño del mundo y el de menor población.",
+  "latency_sec": 4.5443,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Con aproximadamente 800 habitantes, la Ciudad del Vaticano es el país independiente más pequeño del mundo y el de menor población.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225580,
+    "id": "6dxJav24Kdbk1e8P_MzduQE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 375,
+      "total_tokens": 535
+    }
+  }
+}

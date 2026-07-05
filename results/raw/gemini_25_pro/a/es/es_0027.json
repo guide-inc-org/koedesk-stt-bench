@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0027",
+  "lang": "es",
+  "engine": "gemini_25_pro",
+  "duration_sec": 16.68,
+  "ref_text_raw": "Los autobuses parten de la estación entre distritos (al otro lado del río) durante todo el día, aunque la mayoría, en especial los que viajan al este y a Jakar (también llamada Bumthang), salen entre las 6:30 y las 7:30 h.",
+  "ref_text_normalized": "los autobuses parten de la estación entre distritos al otro lado del río durante todo el día aunque la mayoría en especial los que viajan al este y a jakar también llamada bumthang salen entre las 6:30 y las 7:30 h",
+  "timestamp_utc": "2026-07-05T04:15:01Z",
+  "text": "Los autobuses parten de la estación entre distritos, al otro lado del río, durante todo el día, aunque la mayoría, en especial los que viajan al este y a Yakar, también llamados vortan, salen entre las 6:30 y las 7 horas.",
+  "latency_sec": 8.5776,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Los autobuses parten de la estación entre distritos, al otro lado del río, durante todo el día, aunque la mayoría, en especial los que viajan al este y a Yakar, también llamados vortan, salen entre las 6:30 y las 7 horas.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224901,
+    "id": "PtpJap_5LPeZ0-kP0vvOuQE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 58,
+      "prompt_tokens": 555,
+      "total_tokens": 1064
+    }
+  }
+}

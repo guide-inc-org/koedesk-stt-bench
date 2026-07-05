@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0199",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.3,
+  "ref_text_raw": "シントラ行きのスコッターブバス403が定期的に運行しており、カボ・ダ・ロカに停車します。",
+  "ref_text_normalized": "シントラ行きのスコッターブバス403が定期的に運行しており カボ ダ ロカに停車します",
+  "timestamp_utc": "2026-07-05T03:23:34Z",
+  "text": "セントライキ の スコッタ ウバス 403 が 定期 的 に 運行 し て おり 、 カボダ ロカ に 停車 し ます 。",
+  "latency_sec": 3.139,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "セントライキ の スコッタ ウバス 403 が 定期 的 に 運行 し て おり 、 カボダ ロカ に 停車 し ます 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPt1jCyegu5RJdl9lK5MpwVkblKSYTOY0zxoBV325WkJ4HT3aAHvv3wb4AMsqn"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221814,
+    "id": "NM5JapK7KrXIrfcPsof-gAc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 254,
+      "total_tokens": 289
+    }
+  }
+}

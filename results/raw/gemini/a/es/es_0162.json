@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0162",
+  "lang": "es",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.3,
+  "ref_text_raw": "El informe es sumamente crítico con prácticamente cada aspecto de la política vigente del poder ejecutivo en Irak, y apela a un cambio inmediato de dirección.",
+  "ref_text_normalized": "el informe es sumamente crítico con prácticamente cada aspecto de la política vigente del poder ejecutivo en irak y apela a un cambio inmediato de dirección",
+  "timestamp_utc": "2026-07-05T04:25:45Z",
+  "text": "El informe es sumamente crítico con prácticamente cada aspecto de la política vigente del Poder Ejecutivo en Irak y apela a un cambio inmediato de dirección.",
+  "latency_sec": 9.1872,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "El informe es sumamente crítico con prácticamente cada aspecto de la política vigente del Poder Ejecutivo en Irak y apela a un cambio inmediato de dirección.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225545,
+    "id": "xtxJapbFMKG2vr0PqrfGqAE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 415,
+      "total_tokens": 501
+    }
+  }
+}

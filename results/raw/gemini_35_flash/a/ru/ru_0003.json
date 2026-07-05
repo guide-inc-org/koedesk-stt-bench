@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0003",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.92,
+  "ref_text_raw": "В различных местах Рима были установлены большие телевизионные экраны, с помощью которых люди могли наблюдать за церемонией.",
+  "ref_text_normalized": "в различных местах рима были установлены большие телевизионные экраны с помощью которых люди могли наблюдать за церемонией",
+  "timestamp_utc": "2026-07-05T07:16:35Z",
+  "text": "В различных местах Рима были установлены большие телевизионные экраны, с помощью которых люди могли наблюдать за церемонией.",
+  "latency_sec": 4.944,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "В различных местах Рима были установлены большие телевизионные экраны, с помощью которых люди могли наблюдать за церемонией.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpcOCpQOARFNMg8qWgsJ1lxYgF80rQbRDc5nyUre8iuayX31O8mScDhHKupVCZLd8FJZ8lCmKjn655GoRMkX+N2or+e6RzMaNYilm7vLL7G3urAd8/ghoc/2+OJac57mo/49weyZ/EToj8OHAaMJzzBh5nTgfQp/XlnoVxv/gR4q5lcBxWZIBAbLE9NEbqB4zz73EBVV0bjVjdRK2tJe9VmO1V05EgtqF7W4+9qOWR/vPbQzwT/mn7TSLIsBXW/4RqfaSwGVp8huTluVYLo5oXa9S3+yjxsYjAHiUp6Oc72D5zvlr7J0+Wx5tpVaGkh+W1jo3Q8iJaXRaW6DAP1MD+Z2rqkO4BdPdxWNGhR3tdUECNEWKxDEEpCh4iGjkIUH+95pIiGmjSRo0lX+JVB1PnZxLyoq2NqzV0Slu4DFU3ysw/bOpRV861/ANLdHrs3H/j10+7dtod2GDao+Dqt4z84ielhKDuvs/xyh/upzy/crvK9QTra+ZGTPRgU0Jc8g+BaKJoNerBMQyRLXR/HEpKfcgffjLqbSb0lO5AJLHM/KX6txVAHL4LjL581FoJ8mrOw68+dzOJE2HPpJeaN6ppqUeH63aBALnnOVXK/ZcXy+BkhxjCSZAdxHRn+AnQJjnzCvAKYWCa6b9+/LjoQlHRup6hEuhICakKNNbcJj7cWlHmL8o+PaKWqH5idAPeX/cUHc+3HRK7VP0rKpUihZWptAAaZNgianyvSHE9lMWWd/mBw4VVserRiuPjCternc3OqysF+qxpi0lsPITzwpkeYdEoWSPA/29mvz15vthh8SciJenEQPsn7suDxN8Ow0TAdqqCAKX5UF68AZTICwUykEERFgVIyonshzWkwoBR6zEwhn51/FaOw/2pB9/drb6AyohDsdZ9znvHnVDierB002zTed+0rKnvyU+L041hOMoy5ZR03E9lpUJ0pZ/KoBqGV3ka4WD5FWIM45+tWXd3B8M/pX+ZN+SK1K9+k4WEblbqi2l+So4qzAR41/z0+gzb1EsFdLNMnwFC+0O/gpVAGzgk3m/NUNmFMdQnJy7XoFjerS4DYhnrZjriEgohhhZrUp0gEebO0c6BHS/EGJmu3sXvj3VCIfYmaZtRLDDT7vck4r6mXB7LAeBanbXl3+cJ4y1q9EuGnKICveVq2KoGiIea6qdeloilCO+Bey2amwXRC5XnRd/tC7Gxb+cie1ldEUHGTH9WCy8hArcAl1ZSHfn96dl4X0332WQR6+xGMnXCz0Bel7QSHOA8eRhfqAhImWP6FZHsi/AUUIMMAVjbCY4/Kso02s4yfoQ5JPdu4Q4zGEmB3rgBhnFXMlQojS6clVRBM6p2zsQ32fUy5ouiemF6ZAIZM1ZSmMAZcRY2jxVzuWLhDSkZOzoC2pwh+2eCRlShJIZ3S2ha48Xpa99GMVuzqZLqhJdMqOczAYCb940/1Y7wjrjoXDYyAv3cEPDU+8JArJ4/LmquVSfI0nwwapyI4lt0yEbe6eHKXnG1x+8FqEqK+vvXEV+1AWDJxzz4gg9sbdXCHoRLfpDqpHp5vT7hGNM9CSLcigAgGIh6hpYtSZH+o36wxe4al5Cf2rXHc35+IlAzbpd/vNNqevsjJkDB1UfZBpsrUa/KrmUnrWCgUyO3n4xW17aDgCqMek3JvAIreOFRmd9QLJr1jKXVrm3sVdGMpBTP7iXN9W9QAiAtjsDXpWBXv+S3V5guIUFcGF6+wrtvL1M/Oh822B6HWGjGlwH5Z1Cp1vfC5iaXMYafS9wdNKRgUCOUHGjfQxhqVQVVq26iIzf3S4W5u0Axov+V9K7jcXHWLZ3T8rqguo3HeVuqxKA7qpD+KqAUyFk/H8wh9iKmGGtxD/eSWYszD7rfGGOAK/jj5QJFbjIzDoNFQxIVXogASU4J1p72KbKni5wrIwMgmAGSqCoDVMPw1xF2ODnRuk0s1499+dB4uLzZBwUnIQfSlFn+kM0HL318Wgv050vzmSUUFNXLiJsQ12QY2+swHyBpogEeJSJt4xrh8YdbzaCtgDY0rRFMZh4NEAxPPJd5nC9EBr0l11Rvldv827U1ave5XDKXrs+YipatEpV20fPWKBf41kfhg/0qIutdRzpnqc66KKvSPHoi0eBtT3kG97sJEg5ufTIAstGyANaBodO6i+Thf6B+c70SCUbSJj5fWDc5TYPavWVlbZKQhaU3za3dY5D74OryCKaiaCmBnWG2FNk4aWn2CretwpIybxOHR5KyiXNG/RMKqoXGk0CMwjzY3j9EZ7JEe5q/N7sMcpZmriAMBmWBpoYQ1egsY8tlsQiI46UQlyQbtiOlg4VxCpaE12B88lyveKZit/9UIAvUrj3X1/3+ZUVMd6G1ti8hnvSHVDmDZpo8DHfsfcJp2Z0zclygLRdIhZxRuhlVSQRH41"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235795,
+    "id": "0ARKaqP8BO3j1e8P2Y3r2QE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 219,
+      "total_tokens": 650
+    }
+  }
+}

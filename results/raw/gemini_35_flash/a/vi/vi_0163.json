@@ -1,0 +1,45 @@
+{
+  "utt_id": "vi_0163",
+  "lang": "vi",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 20.1,
+  "ref_text_raw": "Bác sĩ Malar Balasubramanian, 29 tuổi, được phát hiện nằm trên mặt đất ven đường trong trang phục áo thun và đồ lót nồng nặc thuốc ở Blue Ash, một vùng ngoại ô cách Cincinnati 15 dặm về phía bắc.",
+  "ref_text_normalized": "bác sĩ malar balasubramanian 29 tuổi được phát hiện nằm trên mặt đất ven đường trong trang phục áo thun và đồ lót nồng nặc thuốc ở blue ash một vùng ngoại ô cách cincinnati 15 dặm về phía bắc",
+  "timestamp_utc": "2026-07-05T08:43:53Z",
+  "text": "Bác sĩ Mala Balasubramanian, 29 tuổi được phát hiện nằm trên mặt đất ven đường trong trang phục áo thun và đồ lót nồng nặc thuốc ở Blue Ash, một vùng ngoại ô cách Cincinnati 15 dặm về phía Bắc.",
+  "latency_sec": 8.4126,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Bác sĩ Mala Balasubramanian, 29 tuổi được phát hiện nằm trên mặt đất ven đường trong trang phục áo thun và đồ lót nồng nặc thuốc ở Blue Ash, một vùng ngoại ô cách Cincinnati 15 dặm về phía Bắc.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241033,
+    "id": "QhlKavKRMv_IrfcPzNe_mAc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 58,
+      "prompt_tokens": 524,
+      "total_tokens": 1742
+    }
+  }
+}

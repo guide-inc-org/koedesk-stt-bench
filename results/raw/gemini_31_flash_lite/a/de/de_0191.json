@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0191",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.56,
+  "ref_text_raw": "Besuchen Sie ebenfalls im Norden das große Heiligtum Unserer Lieben Frau des Rosenkranzes von Fatima (Wallfahrtsort) – ein Ort, der weltberühmt für seine Marienerscheinungen ist.",
+  "ref_text_normalized": "besuchen sie ebenfalls im norden das große heiligtum unserer lieben frau des rosenkranzes von fatima wallfahrtsort – ein ort der weltberühmt für seine marienerscheinungen ist",
+  "timestamp_utc": "2026-07-05T04:11:32Z",
+  "text": "Besuchen Sie ebenfalls im Norden das große Heiligtum unserer lieben Frau des Rosenkranzes von Fatima, Wallfahrtsort, ein Ort der weltberühmt für seine Marienerscheinung ist.",
+  "latency_sec": 2.5398,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Besuchen Sie ebenfalls im Norden das große Heiligtum unserer lieben Frau des Rosenkranzes von Fatima, Wallfahrtsort, ein Ort der weltberühmt für seine Marienerscheinung ist.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPgKqrdtH4J26hlkNd0Dme02+rSkY+d6GvgvAE/uinU4GPLkZnjHe0EnrgMs/2"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224692,
+    "id": "c9lJaumzCZSi9tMP8vOl4AE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 285,
+      "total_tokens": 326
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0183",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 5.46,
+  "ref_text_raw": "Soon after the outbreak of hostilities, Britain initiated a naval blockade of Germany.",
+  "ref_text_normalized": "soon after the outbreak of hostilities britain initiated a naval blockade of germany",
+  "timestamp_utc": "2026-07-05T03:38:36Z",
+  "text": "Soon after the outbreak of hostilities, Britain initiated a naval blockade of Germany.",
+  "latency_sec": 3.4154,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Soon after the outbreak of hostilities, Britain initiated a naval blockade of Germany.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EswDCskDARFNMg8J+WgSDFZVL3LVep0XB9QzShZViLzE9ERBne6fq05dPTx603YyRzAk55DNNbnUCMY9NsaGa8qClmvASP8Nwk+mhBOYjS+FKF9g+NBu9SkSSI55SB9qiK0+YPGysPH9E6WTiRt7c+GTgBP8uvLZI47zGBbUjBjmobYFIOWFYP/smi1qjkAxaDRyW5Myl5jcenVIKbm2cf9NzOF7CBVhST3P5PLf8dGPhndJIK/i6oNJDnkMHxxGdraT3FIqrZUM4TpVgmkOzXkpvXIinkPrm/3UCg9w5F/8OZ7bkL7H/xjpOQOrfqN2gLf/C1pbg3dC/RD78BniVuw0PziUvfuvpz+WKZEpnCZ5rwRC6BObqHOnBduIMcKjz4nyv/khU5Elp1EGhhc1U4Rt6z96H1BGMPBbaY5IY0azfu8Sr+reLj2tFw4JXwJYS4cvjT/HvknV290qTbmtrph/y5TPnp4MnDozm5ndbon20RvvoOFtgRQrYQNggErLfLx0J5Mjbe75AslRtcdvj0eejfZ0HLZxR1rZsP7WexiKwEjJ8VJIMAzbds2QDwE+lBu9D1g1IJwqYT51dIVe2bDPpaP4bnHsq+BLfeTvjw=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222716,
+    "id": "utFJasDGC4-D1e8P9I7h6AE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 15,
+      "prompt_tokens": 158,
+      "total_tokens": 260
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0190",
+  "lang": "th",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.1,
+  "ref_text_raw": "เรือสำราญบางลำมีภาพเมืองเบอร์ลินในเยอรมนีอยู่ในโบรชัวร์ ดังที่คุณเห็นจากแผนที่ด้านบน เบอร์ลินไม่ได้อยู่ใกล้ทะเลแม้แต่น้อยและการไปเที่ยวชมเมืองดังกล่าวไม่รวมอยู่ในค่าล่องเรือ",
+  "ref_text_normalized": "เรือสำราญบางลำมีภาพเมืองเบอร์ลินในเยอรมนีอยู่ในโบรชัวร์ ดังที่คุณเห็นจากแผนที่ด้านบน เบอร์ลินไม่ได้อยู่ใกล้ทะเลแม้แต่น้อยและการไปเที่ยวชมเมืองดังกล่าวไม่รวมอยู่ในค่าล่องเรือ",
+  "timestamp_utc": "2026-07-05T07:49:59Z",
+  "text": "เรือ สำราญ บางลำ มี ภาพ เมือง เบอร์ลิน ใน เยอรมัน อยู่ ใน โบรชัวร์ ดัง ที่ คุณ เห็น จาก แผนที่ ด้าน บน เบอร์ลิน ไม่ ได้ อยู่ ใกล้ ทะเล แม้ แต่ น้อย และ การ ไป เที่ยว ชม เมือง ดัง กล่าว ไม่ รวม อยู่ ใน ค่า ล่อง เรือ",
+  "latency_sec": 4.0501,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "เรือ สำราญ บางลำ มี ภาพ เมือง เบอร์ลิน ใน เยอรมัน อยู่ ใน โบรชัวร์ ดัง ที่ คุณ เห็น จาก แผนที่ ด้าน บน เบอร์ลิน ไม่ ได้ อยู่ ใกล้ ทะเล แม้ แต่ น้อย และ การ ไป เที่ยว ชม เมือง ดัง กล่าว ไม่ รวม อยู่ ใน ค่า ล่อง เรือ",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237799,
+    "id": "pQxKatPdFpWJ1e8PhMDXiQU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 68,
+      "prompt_tokens": 377,
+      "total_tokens": 445
+    }
+  }
+}

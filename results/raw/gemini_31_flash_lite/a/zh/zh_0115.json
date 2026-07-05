@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0115",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 4.86,
+  "ref_text_raw": "电视报道显示，有白烟从工厂里冒出。",
+  "ref_text_normalized": "电 视 报 道 显 示 有 白 烟 从 工 厂 里 冒 出",
+  "timestamp_utc": "2026-07-05T09:17:33Z",
+  "text": "电视报道显示有白烟从工厂里冒出。",
+  "latency_sec": 3.1374,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "电视报道显示有白烟从工厂里冒出。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP5h5Ld/AT7/zfvOjY6M7BzSjbXRwqDJ/lsNLl9dwJw5RgN4Y/bZkXP+4qLJ71"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243053,
+    "id": "KyFKatG9KoGp2roP-M7c4AY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 12,
+      "prompt_tokens": 143,
+      "total_tokens": 155
+    }
+  }
+}

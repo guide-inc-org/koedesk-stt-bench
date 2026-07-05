@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0197",
+  "lang": "ko",
+  "engine": "gemini_25_flash",
+  "duration_sec": 14.4,
+  "ref_text_raw": "종전 2년이라는 세월이 흐르면서 이전의 동맹국들은 이제 적이 되었고 냉전이 시작되었다.",
+  "ref_text_normalized": "종전 2년이라는 세월이 흐르면서 이전의 동맹국들은 이제 적이 되었고 냉전이 시작되었다",
+  "timestamp_utc": "2026-07-05T06:08:36Z",
+  "text": "종전 2년이라는 세월이 흐르면서 이전에 동맹국들은 이제 적이 되었고 냉전이 시작되었다.",
+  "latency_sec": 4.1932,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "종전 2년이라는 세월이 흐르면서 이전에 동맹국들은 이제 적이 되었고 냉전이 시작되었다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231716,
+    "id": "4fRJarfyK-GHvr0PvZC5oQg",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 482,
+      "total_tokens": 649
+    }
+  }
+}

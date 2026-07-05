@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0167",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.9,
+  "ref_text_raw": "นับตั้งแต่ก่อตั้ง Asunción ขึ้นในปี 1537 ปารากวัยก็ได้รักษาคุณลักษณะและอัตลักษณ์ของชนพื้นเมืองเอาไว้มากมาย",
+  "ref_text_normalized": "นับตั้งแต่ก่อตั้ง asunción ขึ้นในปี 1537 ปารากวัยก็ได้รักษาคุณลักษณะและอัตลักษณ์ของชนพื้นเมืองเอาไว้มากมาย",
+  "timestamp_utc": "2026-07-05T08:11:12Z",
+  "text": "นับตั้งแต่การก่อตั้งอาซุนซิออนขึ้นในปี 1537 ปารากวัยได้รักษาคุณลักษณะและอัตลักษณ์ของชนพื้นเมืองเอาไว้มากมาย",
+  "latency_sec": 2.4969,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "นับตั้งแต่การก่อตั้งอาซุนซิออนขึ้นในปี 1537 ปารากวัยได้รักษาคุณลักษณะและอัตลักษณ์ของชนพื้นเมืองเอาไว้มากมาย",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPGLzUOz9TYcXlIPW2pNwlN4816ohhtUEYa2EiET4LP7VfdfpIPvEAH/xeNPSx"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239072,
+    "id": "nhFKapLFKv_R1e8PsqiM8QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 194,
+      "total_tokens": 232
+    }
+  }
+}

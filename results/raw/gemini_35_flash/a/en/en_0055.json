@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0055",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.18,
+  "ref_text_raw": "Scientists hope to understand how planets form, especially how the Earth formed, since comets collided with the Earth long ago.",
+  "ref_text_normalized": "scientists hope to understand how planets form especially how the earth formed since comets collided with the earth long ago",
+  "timestamp_utc": "2026-07-05T10:30:47Z",
+  "text": "Scientists hope to understand how planets form, especially how the Earth formed since comets collided with the Earth long ago.",
+  "latency_sec": 4.3414,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Scientists hope to understand how planets form, especially how the Earth formed since comets collided with the Earth long ago.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Et0FCtoFARFNMg9u8QCxqdsrWPE56xHGAANI0hrvrzaie6x/6bmxzV0KSr0LIbUc0Zw3H9dzHuyFq6XAo2gzhcLfRJpIwFNbbYuNnqzd/00q5WM/E+PqGlN73dSqEx689ZTAN3SI3/kuSSbPZGur+T7wBA1Ah12V3JQNV600CP0W2yOjQUn05lZKFgiaTaRz7J7gb9RDgy2AR+nbMehdm4TJj1ISjsir9u4qm7zlRlPyUBnowKRVDehEF1E3H7Fcv1X+AhA+h2gIQ9RGhPx16ikde7IQMhNgFAGJupJnOBjPygXxL+2UsZ1/lO46sS2v2oYx9TfaB00Ok7ThjeQPycRLLzzy3haJ3dHptNKTQGySdT40WlYEF2N9bwSkq41JaAgz+9BNvtC0S+19QbVDRI2xSqreJjj3HkzQCM9/IbxLDzmTUQ4nii7vVfZ2pc4c+xaopmBifCcSL3S9sUAiEbTkHzZUEWifd9YMSOEgFQIzl6PmPQevIunjOaLooeuxboj+9gpQhYGXfiZl3nPwD/LipJdIsLh+3WaFrub/nMyebLQ1KhYqy57ZecXg3lyPRqBAhQlMhUl3FLc6Iz29oNUALfB9jO2smrcIHImpbgOZ9ssZpxK22gN3tb0N/ed2qzGWJbXBwRQdkXF0yOVdUrRrLENRJEbgOavChc20hC7SClwBh9hFDrgv3Wem/4qFcDWOid21jInZKSDVBDtoh6BhshfPEO3Qbptq0AKrJMpjz+vJpmfu9jiBsnh2ATEKwGRgcSF03F8ESFBUGhD2u7Ht2TN2WJjfBjYPnbW0n8AqA6Zl3tVaePzYmGwkeH02AJtQiF2S3F3f4eDiPKoMuU1wia2/5/4duxNF0GPQrWT4GBtv8tDhEM3oE72sYefNo+MxF6oA6C/g5iYQh53k7pvw6gvXMQgLF0AfVxnQ2XxZz2+4Aa6FW1LP4Hnz5xR7KMlDTRPTq/vl+Tv9kjGF6w=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247447,
+    "id": "VDJKara0PK7H0-kPp7WTuQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 176,
+      "total_tokens": 355
+    }
+  }
+}

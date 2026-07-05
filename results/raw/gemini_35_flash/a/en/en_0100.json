@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0100",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.02,
+  "ref_text_raw": "Plants make oxygen which humans breathe, and they take in carbon-dioxide which humans exhale (that is, breathe out).",
+  "ref_text_normalized": "plants make oxygen which humans breathe and they take in carbon-dioxide which humans exhale that is breathe out",
+  "timestamp_utc": "2026-07-05T03:32:09Z",
+  "text": "Plants make oxygen, which humans breathe, and they take in carbon dioxide, which humans exhale, that is, breathe out.",
+  "latency_sec": 3.5329,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Plants make oxygen, which humans breathe, and they take in carbon dioxide, which humans exhale, that is, breathe out.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EsAFCr0FARFNMg8jvVnXBZAXxGqdWM8HmV4/MvNsniJpzF6wAWe3gHybyAiUsUxas7Ai4UHcEtwd1SmpvflZ+de2bxZecaDpiHlZtT0doxw/NpKcot6I5sIOZ784q8Alnt78zWakXahYfgctgbwmsgwwPZGNrVtXumtlCphAiPHdrJPCAYWt6nigv5te/Hj8KNvCWRNn0VskZXKaWO4qxV4ZKOqtHukaa0GgDLdgDePSrCHfdkRH7ovl2rD2Hpmkr6RY54HyDbn+eE5ZJjaLwN82avti/wotJuVq0N0KpPauGbCwKlxlAiffxmZ09+Jt829KaYJNs04+CuZJlJLKJTmVVE7Q+erVLEj1Umrpn41+uaAh4Kx5U+K3CFeN3cO+YT+ZXwQKtN8+QmYkfb1zUs0TfYpxQupNS946WboAwuVcuvUcf9Hz/fVkvjaUTClcFMOg/daoMa7MZN1CBMs6BZCerwC929WO04NcEtozeQ00n+HF6Du44zHzlgVBLrqLK6CF1Dv6QkuYVLahybx388cxrOk21BTkhReClqfs5wbT3F8SKfkiH3BD9vGGsQIFX63oo5vfSILYie+PQw6WS52VtoERppBv5ho4qRxy453maEOz0iTKTyTJsw99trKrpFUNjS1eIJBp0qQsA3MmibX/cpg3h7nr5M6pLBea5YrVJ2bTe5xSUtYLvDs5sBs7lpFe4NmvjRxY5azJa+eWYBqPI/j9awYkA9Q167xcpX5a+UhaERb1XCGHsNa3uAhU7neJgE5WwG+0367HhpGkXqUR7aHkj2MH/8Xp0ItyELX5/LWXGtlyKp19yehm5POtuMeRbv2Hxc2hglbvVFEi/l7UuV/M+pGIkH5shlSrfHJTRow8iN7jvXAgsgL05u3XLFxGwlrVPr/2CbB3a2dTMg5tW5xPmjt9J9XCa+uii5+4NPU="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222329,
+    "id": "N9BJao-0KNLu1e8P1-bXkAI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 197,
+      "total_tokens": 387
+    }
+  }
+}

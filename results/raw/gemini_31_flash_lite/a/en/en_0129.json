@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0129",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 4.56,
+  "ref_text_raw": "The governor's office said nineteen of the injured were police officers.",
+  "ref_text_normalized": "the governor's office said nineteen of the injured were police officers",
+  "timestamp_utc": "2026-07-05T03:34:54Z",
+  "text": "The governor's office in 19 of the injured were police officers.",
+  "latency_sec": 2.6746,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The governor's office in 19 of the injured were police officers.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP+lc7EQ44tiYaRq6Tzh4PP+p9F14SGiDSwh61KrDDzx7nFziLi6saVf1aT549"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222495,
+    "id": "3dBJapfZFcal1e8PnPeFgAI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 135,
+      "total_tokens": 151
+    }
+  }
+}

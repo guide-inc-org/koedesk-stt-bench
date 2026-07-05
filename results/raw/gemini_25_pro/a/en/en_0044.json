@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0044",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 11.4,
+  "ref_text_raw": "During this period of European history, the Catholic Church, which had become rich and powerful, came under scrutiny.",
+  "ref_text_normalized": "during this period of european history the catholic church which had become rich and powerful came under scrutiny",
+  "timestamp_utc": "2026-07-05T10:22:43Z",
+  "text": "During this period of European history, the Catholic Church, which had become rich and powerful, came under scrutiny.",
+  "latency_sec": 4.0991,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "During this period of European history, the Catholic Church, which had become rich and powerful, came under scrutiny.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246964,
+    "id": "cTBKavK6B_K8vr0P9K6siQU",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 386,
+      "total_tokens": 464
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0185",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.72,
+  "ref_text_raw": "Doch viele Dinge an Vögeln sehen immer noch wie bei einem Dinosaurier aus.",
+  "ref_text_normalized": "doch viele dinge an vögeln sehen immer noch wie bei einem dinosaurier aus",
+  "timestamp_utc": "2026-07-05T03:54:36Z",
+  "text": "Doch viele Dinge an Vögeln sehen immer noch wie bei einem Dinosaurier aus.",
+  "latency_sec": 3.48,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Doch viele Dinge an Vögeln sehen immer noch wie bei einem Dinosaurier aus.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223676,
+    "id": "edVJapvmOJ2_vr0Piquy2Q0",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 429,
+      "total_tokens": 469
+    }
+  }
+}

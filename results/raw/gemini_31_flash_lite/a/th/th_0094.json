@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0094",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.88,
+  "ref_text_raw": "สกุลเงินที่ใช้อย่างเป็นทางการในฟอล์กแลนด์คือปอนด์ฟอล์กแลนด์ (FKP) ซึ่งมีมูลค่าเท่ากับหนึ่งปอนด์อังกฤษ (GBP)",
+  "ref_text_normalized": "สกุลเงินที่ใช้อย่างเป็นทางการในฟอล์กแลนด์คือปอนด์ฟอล์กแลนด์ fkp ซึ่งมีมูลค่าเท่ากับหนึ่งปอนด์อังกฤษ gbp",
+  "timestamp_utc": "2026-07-05T08:06:31Z",
+  "text": "สกุลเงินที่ใช้ อย่างเป็นทางการในฟอล์กแลนด์คือ ปอนด์ฟอล์กแลนด์ FKP ซึ่งมีมูลค่าเท่ากับ 1 ปอนด์อังกฤษ GBP",
+  "latency_sec": 2.8894,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "สกุลเงินที่ใช้ อย่างเป็นทางการในฟอล์กแลนด์คือ ปอนด์ฟอล์กแลนด์ FKP ซึ่งมีมูลค่าเท่ากับ 1 ปอนด์อังกฤษ GBP",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPqe0tySNjrej0kBxvdPRNbSNIbzdP/aP+b0PkKSR+5bNrVHBB5ErazdxWVj9L"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238791,
+    "id": "hhBKavGGEaHc1e8P1OStiQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 318,
+      "total_tokens": 358
+    }
+  }
+}

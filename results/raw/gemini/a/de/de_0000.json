@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0000",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 17.94,
+  "ref_text_raw": "Für die besten Aussichten auf Hongkong sollten Sie die Insel verlassen und zum gegenüberliegenden Ufer von Kowloon fahren.",
+  "ref_text_normalized": "für die besten aussichten auf hongkong sollten sie die insel verlassen und zum gegenüberliegenden ufer von kowloon fahren",
+  "timestamp_utc": "2026-07-05T03:40:01Z",
+  "text": "Für die besten Aussichten auf Hong Kong sollten Sie die Insel verlassen und zum gegenüberliegenden Ufer von Kowloon fahren.",
+  "latency_sec": 4.2824,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Für die besten Aussichten auf Hong Kong sollten Sie die Insel verlassen und zum gegenüberliegenden Ufer von Kowloon fahren.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222801,
+    "id": "DtJJatW3Ho3IrfcPmu3D-AU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 596,
+      "total_tokens": 644
+    }
+  }
+}

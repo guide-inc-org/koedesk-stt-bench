@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0011",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 16.86,
+  "ref_text_raw": "NextGen ist ein System, von dem die FAA behauptet, dass es Flugzeugen erlauben würde, kürzere Strecken zu fliegen und jedes Jahr Millionen Gallonen an Treibstoff zu sparen und die Kohlenstoffemissionen zu reduzieren.",
+  "ref_text_normalized": "nextgen ist ein system von dem die faa behauptet dass es flugzeugen erlauben würde kürzere strecken zu fliegen und jedes jahr millionen gallonen an treibstoff zu sparen und die kohlenstoffemissionen zu reduzieren",
+  "timestamp_utc": "2026-07-05T04:00:24Z",
+  "text": "NextGen ist ein System, von dem die FAA behauptet, dass es Flugzeugen erlauben würde, kürzere Strecken zu fliegen und jedes Jahr Millionen Gallonen an Treibstoff zu sparen und die Kohlenstoffemissionen zu reduzieren.",
+  "latency_sec": 3.3524,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "NextGen ist ein System, von dem die FAA behauptet, dass es Flugzeugen erlauben würde, kürzere Strecken zu fliegen und jedes Jahr Millionen Gallonen an Treibstoff zu sparen und die Kohlenstoffemissionen zu reduzieren.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPQvK8ZBvKsgEbIB9uibOHmE3pgWA8CQXQ7lGpFLsWdeAb+geOZ8LQ2WA1gl8q"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224024,
+    "id": "1tZJau6rNb_L0-kPu6eA2AI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 51,
+      "prompt_tokens": 443,
+      "total_tokens": 494
+    }
+  }
+}

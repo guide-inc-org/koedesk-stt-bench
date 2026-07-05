@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0174",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.1,
+  "ref_text_raw": "Однако после потери калитки капитана Индия совершила лишь 36 пробегов, потеряв 7 калиток для завершения иннингсов.",
+  "ref_text_normalized": "однако после потери калитки капитана индия совершила лишь 36 пробегов потеряв 7 калиток для завершения иннингсов",
+  "timestamp_utc": "2026-07-05T07:37:46Z",
+  "text": "Однако после потери калитки, Капитан, Индия совершила лишь 36 пробегов, потеряв семь калиток для завершения иннингов.",
+  "latency_sec": 2.5968,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Однако после потери калитки, Капитан, Индия совершила лишь 36 пробегов, потеряв семь калиток для завершения иннингов.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP2HwBaoGCpo1COP7pcAWtEww3LsHw9OcsLeWlPe3Wyct/3ZLuCFRu9pbNAMFw"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237066,
+    "id": "yQlKarqvAq6l9tMP-_vv-QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 299,
+      "total_tokens": 333
+    }
+  }
+}

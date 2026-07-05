@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0129",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.82,
+  "ref_text_raw": "En raison de la topologie sous-marine, le flux de retour est concentré sur quelques sections plus profondes, et un courant rapide vers les eaux profondes peut s’y former.",
+  "ref_text_normalized": "en raison de la topologie sous-marine le flux de retour est concentré sur quelques sections plus profondes et un courant rapide vers les eaux profondes peut s'y former",
+  "timestamp_utc": "2026-07-05T04:55:16Z",
+  "text": "En raison de la topologie sous-marine, le flux de retour est concentré sur quelques sections plus profondes et un courant rapide vers les eaux profondes peut s'y former.",
+  "latency_sec": 3.5736,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "En raison de la topologie sous-marine, le flux de retour est concentré sur quelques sections plus profondes et un courant rapide vers les eaux profondes peut s'y former.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227316,
+    "id": "suNJavf7Aunn2roPlKW22Ao",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 304,
+      "total_tokens": 411
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0187",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 9.72,
+  "ref_text_raw": "Les plantes produisent leur nourriture à l'aide du soleil par photosynthèse. Elles fournissent également de l’ombre.",
+  "ref_text_normalized": "les plantes produisent leur nourriture à l'aide du soleil par photosynthèse elles fournissent également de l'ombre",
+  "timestamp_utc": "2026-07-05T05:07:49Z",
+  "text": "Les plantes produisent leur nourriture à l'aide du soleil par photosynthèse. Elles fournissent également de l'ombre.",
+  "latency_sec": 4.0695,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Les plantes produisent leur nourriture à l'aide du soleil par photosynthèse. Elles fournissent également de l'ombre.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228069,
+    "id": "ouZJapa7PL3KrfcPzfG_-QM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 333,
+      "total_tokens": 422
+    }
+  }
+}

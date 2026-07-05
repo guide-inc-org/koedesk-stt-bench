@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0101",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.0,
+  "ref_text_raw": "文明とは、共同で生活や仕事を営む人々の大集団が共有する1つの文化、つまり社会のことです。",
+  "ref_text_normalized": "文明とは 共同で生活や仕事を営む人々の大集団が共有する1つの文化 つまり社会のことです",
+  "timestamp_utc": "2026-07-05T03:15:13Z",
+  "text": "文明とは、共同で生活や仕事を営む人々の大集団が共有する一つの文化、つまり、社会のことです。",
+  "latency_sec": 5.7746,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "文明とは、共同で生活や仕事を営む人々の大集団が共有する一つの文化、つまり、社会のことです。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221313,
+    "id": "PcxJao2VLdLM1e8PlJ7zgQc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 321,
+      "total_tokens": 953
+    }
+  }
+}

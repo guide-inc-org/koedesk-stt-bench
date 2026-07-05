@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0181",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.2,
+  "ref_text_raw": "ระเบิดแบบฟิชชันทำงานบนหลักการที่ว่าการรวมนิวเคลียสที่มีโปรตอนและนิวตรอนจำนวนมากต้องใช้พลังงาน",
+  "ref_text_normalized": "ระเบิดแบบฟิชชันทำงานบนหลักการที่ว่าการรวมนิวเคลียสที่มีโปรตอนและนิวตรอนจำนวนมากต้องใช้พลังงาน",
+  "timestamp_utc": "2026-07-05T08:12:01Z",
+  "text": "ระเบิด แบบ ฟิชชัน ทำ งาน บน หลัก การ ที่ ว่า การ รวม นิวเคลียส ที่ มี โปรตอน และ นิวตรอน จำนวน มาก ต้อง ใช้ พลัง งาน",
+  "latency_sec": 2.5459,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ระเบิด แบบ ฟิชชัน ทำ งาน บน หลัก การ ที่ ว่า การ รวม นิวเคลียส ที่ มี โปรตอน และ นิวตรอน จำนวน มาก ต้อง ใช้ พลัง งาน",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPQgr27aHZZLworjfeZqt9/5EkfiESsYvxepcCj5bxr+xtzDyrsTme3LteXaR/"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239121,
+    "id": "0BFKaqSZDLq3vr0P4Zm80Qw",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 201,
+      "total_tokens": 239
+    }
+  }
+}

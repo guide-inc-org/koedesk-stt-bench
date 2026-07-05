@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0020",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 8.28,
+  "ref_text_raw": "Des éléments comme le calcium et le potassium sont considérés comme des métaux. Bien sûr, il y a aussi des métaux comme l’argent et l’or.",
+  "ref_text_normalized": "des éléments comme le calcium et le potassium sont considérés comme des métaux bien sûr il y a aussi des métaux comme l'argent et l'or",
+  "timestamp_utc": "2026-07-05T04:47:56Z",
+  "text": "Des éléments comme le calcium et le potassium sont considérés comme des métaux. Bien sûr, il y a aussi des métaux comme l'argent et l'or.",
+  "latency_sec": 5.2495,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Des éléments comme le calcium et le potassium sont considérés comme des métaux. Bien sûr, il y a aussi des métaux comme l'argent et l'or.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226876,
+    "id": "-OFJarywHeL81e8P5-3SkQM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 286,
+      "total_tokens": 523
+    }
+  }
+}

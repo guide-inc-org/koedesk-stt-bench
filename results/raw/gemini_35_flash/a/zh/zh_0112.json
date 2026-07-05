@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0112",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 15.74,
+  "ref_text_raw": "此外，在革命之后，官职面向全体男性开放申请，这使得最有抱负、最成功之人有机会飞黄腾达。",
+  "ref_text_normalized": "此 外 在 革 命 之 后 官 职 面 向 全 体 男 性 开 放 申 请 这 使 得 最 有 抱 负 最 成 功 之 人 有 机 会 飞 黄 腾 达",
+  "timestamp_utc": "2026-07-05T09:16:02Z",
+  "text": "此外在革命之后，官职面向全体男性开放申请。这使得最有抱负、最成功之人有机会飞黄腾达。",
+  "latency_sec": 4.8166,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "此外在革命之后，官职面向全体男性开放申请。这使得最有抱负、最成功之人有机会飞黄腾达。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EocLCoQLARFNMg+jj7pnWuWyhsB5R9D2YcNg4XZEz3vf2OVX+ORB1kycdyaUVlTD6q94IwS/bcV2WrpW7hm9Sj1yNGpI4N7JoedmudYGYtf4K0I4oDdo5ltJ+ATMd1sXpKLYfz60qQjxnkV0mxJnx6DRxfcFKrOHxOjGo1sWUc+DzU4uPA22iAtg4SIZ8WmzVV7O1nOjO3GA0OTBTPodxnwfetiDq9krdkx5SIn5v3zMEVDSLOL+2X1wyLaLCmzqK6bO+HDWqC65/gEJIgonyGXExnYJvUYpjr0kw/zRyfN5aB7Mdg3BAu5CMhOzJy7kdnwXQW11Ki8NoN4ZMS3fU0Qspa2D5vgGNj7TylgXOhVmp08eSolZd1OaY3X3x38PfL4h7jtk6mKqrhZbV89QWJTmn8EiMLtozLMmc1NZoHCtnr1w3mr1O3LDmXhIpSpc29F7raf9jAVg4Tji+pRSfuWRr2lyLZ+td9jeV3e/4O6w0FluGFrrkmRubZctrhOtZ8ytPHyli+0Phwmvpz9THjA9OxDCGAWKbhpu+ioARvQsPSTszuEqcfHr4hlCiEYWzS5xo5h2zlnUUmrZzlW2T4x/6xfZyqGBWUINGrYkEWyZiGF6F81CscVKHaTPXM1e8vD2N+rClA33JYCuefqNQY4W48oybbzLU7frBB4hmal3aRByPoIBJPYuiatROBtTpAnec6gto2rMIWc8PAyNNvOU0gAeuOADphVLtW9/BiSha0+c6QoM0mbSoFED7nfw/OkqmyPFWBn0xc4+/XevRMRDXKEcGI/HBh0Ja/atPigpZvs+sBykZiy7LdicsBVXZeLUG5kbA6oFbYXFMZuDMvxOCJ2wFmigCzHanXT4LsBravjjCAahscOQDxkP1lxsZ9Nhdq5BRJ89ms3qamJIPX+oYhGgcvzKpfBFCIFNOnZc9OUt+8vU0Zhpd+6nlTZVLSGFx7hfHSIfRE1Tx/GoKdzKChpDCnfywL8cZZZKvzkmZJvTLkJ7C2dmSQTLtsf+ANJt0G0zPPzmTVQY8MOBZUGvSUYnJksYmqYVfeUzGY3WjZcR9Mb+UHI+H5qzP0t29QMsfNfA9Pw9TWgrVlJMddlrza0TqY/z19Gr6WaI7o7J2SGwLRJ15eGwiB7oXWwLAGKyhBGyNoSR83Tmnk7p0fBdjxmAh7UPll9ip16XBcLG33Zbws64knYhzkPL8niH7w9AjUenf68AuEVczTpIcQto8ru2X8kyOpvnfPpdUvweI5NoCsIBqJwacUeYHiLgbU4oG5LJlxWVaBnk4ssE/j5sjQUt9wl/lbfAE17HNMsCCSEt3OVwF319QQ2s9pjdHcOYFGvIzU/GLUIbgCUojLfE6KiHRwbPOXD2N34Yj8vTF9U5Hc8a9HfRUm3keEPCAR/9gP6YtGTmRyro44HVm02+VFIXCWF0xVkP+rfa1aLPBpyLFFnL3rI2ccukDBVedfHJzRrsc7pAmlkNTRm44BLuXogpF3oNmlOjL8pq6isXU9XB8GIqjLlbxjbUjLDbaBWMAio6CvQj23LaXb1KUm7jmF81NBGmE11mcQZHQaA9Njn/SDgFhKrFqc/lDoWTLd4tKgsfzld0baak2odsALAN3m1PFfxtr9RA0X1JEmW3Q7vKYb0+r92mUy9r9lvnhsc5fHBq0x0kiJDLdvOrBxe5ZVbvE85W16lbQUca3v1o8BLAS0t9SRyTiYy6uCSpWPPAVpP7PYP9dquB4qWrI5+arq39AFm395f6x+0dG+Pcb2rBOFAKCr8eFoI3mEVV8m+aDwX0DBcM9lCgKSMuTORwaeyz1Vr+LAAMc5gXPGyMjBkPryb4DuptRkLHXDUjcTSHlhH/1Ath1jpIlVi6GYrIz3bXVFpaL+E="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242962,
+    "id": "zyBKavHME7vLrfcPnvyU2AE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 415,
+      "total_tokens": 789
+    }
+  }
+}

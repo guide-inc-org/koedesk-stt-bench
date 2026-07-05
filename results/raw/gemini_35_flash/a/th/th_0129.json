@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0129",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 16.08,
+  "ref_text_raw": "แม้โกมาจะมีความปลอดภัยพอสมควร แต่หากจะไปเที่ยวนอกเขตเมืองโกมา ก็ควรศึกษาข้อมูลก่อนเพื่อให้เข้าใจสถานการณ์การต่อสู้ที่ยืดเยื้อในจังหวัดนอร์ทคิวู",
+  "ref_text_normalized": "แม้โกมาจะมีความปลอดภัยพอสมควร แต่หากจะไปเที่ยวนอกเขตเมืองโกมา ก็ควรศึกษาข้อมูลก่อนเพื่อให้เข้าใจสถานการณ์การต่อสู้ที่ยืดเยื้อในจังหวัดนอร์ทคิวู",
+  "timestamp_utc": "2026-07-05T08:04:13Z",
+  "text": "แม้โกมาจะมีความปลอดภัยพอสมควร แต่หากจะไปเที่ยวนอกเขตเมืองโกมา ก็ควรศึกษาข้อมูลก่อน เพื่อให้เข้าใจสถานการณ์ การต่อสู้ที่ยืดเยื้อในจังหวัดนอร์ทครู นอร์ทคีวู",
+  "latency_sec": 6.6459,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "แม้โกมาจะมีความปลอดภัยพอสมควร แต่หากจะไปเที่ยวนอกเขตเมืองโกมา ก็ควรศึกษาข้อมูลก่อน เพื่อให้เข้าใจสถานการณ์ การต่อสู้ที่ยืดเยื้อในจังหวัดนอร์ทครู นอร์ทคีวู",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238653,
+    "id": "-A9Kau7OLrD32roPjrXkkQc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 54,
+      "prompt_tokens": 423,
+      "total_tokens": 1210
+    }
+  }
+}

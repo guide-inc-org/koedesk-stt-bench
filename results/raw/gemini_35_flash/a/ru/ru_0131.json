@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0131",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.44,
+  "ref_text_raw": "Стрекозы и поденки являются единственными насекомыми, которые не могут складывать крылья назад.",
+  "ref_text_normalized": "стрекозы и поденки являются единственными насекомыми которые не могут складывать крылья назад",
+  "timestamp_utc": "2026-07-05T07:28:06Z",
+  "text": "Стрекозы и подёнки являются единственными насекомыми, которые не могут складывать крылья назад.",
+  "latency_sec": 3.7966,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Стрекозы и подёнки являются единственными насекомыми, которые не могут складывать крылья назад.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EsMLCsALARFNMg+aaPFa+4DcmTfH6KDK4sjYArpeAMxqVWvp0u+kTC/J8PR7V5a8Y44a5kiGa1MohZzm7LIXrtS/6UpxJA8jzS8vAotHD5a6kfLp5L93v95BpwMdQC0FVn+RJQLoz3kGlEQ8vpX0kQ2mOIYoXUqmHATPIRJuuubIkvuqhEVEJNLZFUz0KjUMBoLtdQ23R5oRd4q/CzK2ZFUIVdQcFxTVlpM6+kQoCImM+pVGNqzmlxDZQTw9lQfbuqWHjWrV7n1mmZHVfc4kZsVAm2DmDxOxOER+xm3QJ3TdftgoRB+l6TyJY4qN2cWnno02kIckR7CaP3xDN206IdXpcvI0i+IGM8dnKdhyFyT84tNH/ox2maRFOv4i1Yc9wWzr4ewEyv1tiGrRy6xlKNHhtS3d+DXHAZCPe0KdTMB9Bh9NCJwlH/e8ulKlqC6WWg4OfgRrjuSidNN1/Xmalsv67EX+JKH+0fkwQnnsuB8CL783QDw9MSVanGcrBGWi/XwhkbdRsZDFxRsadiiKOAyFyMAM991OEyqyR7oQydxBmp/3bb4cGWFotrxgtjuwUtYHkFgDliqZ1v3YAqnaBmNxRZeWRoxmLEQ4HBaKTl2dWWXV9bDNe56BZtONXzjcbyvI80rZAl1IEeA7pl1ZE3TTB+tn0zMWmYj5CFqRl8uEz6rZZoUPq/ftpHqXXwkL8b0XxGmKRLaS8byvM6X90HbxLJWbJTPUXnT/8+VNda3qcJ3pc/F4o+Ernd9IXhvhczDZ74QXEW9IM5dYPTSXCinLbdxtKpJPvU19P1JFG1h8LEcr0TLGr9usKGk76wWcoDvirzXS21cWoOvadn9Q3wfbihti71JeKUJSQf439eu0KF0yx6dhiGcf/hCL5j+mLAnCOphllmhmYxg19OzzQZVJPOqZ6bg/jmlWDuhT3kwgjyHHDRGOQwkinhiTqBCJcl56fLxpqLEGMyZPXI5hM3COTQgHjnbNxMjP0uXaWylTAAl34jJB0H39OdkF6+Zjj74E4JPv5FM8UHNbvX5MUftDZq64F9X5mPg2O4hPvtolfLstAmEPibxV2esvEns/QrPczqL3zvuudslzPrMUDP20dp+ACJ3ODy0YcEK44mBl1RKXKSopuOMhaK/PYfPmRThWE4i1eFnzEsNXBitE4acqOnptmzXbEs93IOgf42W8BFtOeTvt3vNbH5AmHJTCD4APB3ipDak5bCEQ77BlrLtEY1LypiycjuqtjmkxmhHLyRtJnY9F6JP/gQXIFsr5n9D1L7ZVvka12GARZpsCM5eGxhAKQkUt2DuWHJAl33VR1UZZmr86H/8Tf5s74xV9y5kaf4fZI3bjhBI4sjHjqM4f2MGoCE+U9e/hJPQYwriD1qui37mlZu8VYsbUIoeURSHogIsdH/ZnpXF+HnAn51tSB8TuiPUGEXOhn7FlLRj6M/q7tYsiVpUQb25UbRBqeEYbu/aP2bCYobeMzq1gCEYTx+Bmrx+8xY5ZXw6LJV67nLhTUq908tgc7HKoLgvkWzgEMlj9CJKTbeg5r9qOqnAIaM5qfxIDMiPgvEPs/tqFh/pCVtCr6ruep6/Avd2oN7zV1q03L03Sit+htH0FYaYkyXdXPgWmJltKY8dmPzCAZ1Ts3nrXH8okVJEiG9cIMG/3v4jt7WWhatzk/nrd1WK07CF5ns+dokD1kqDwugkR0tP47zcWDYUQmDB7TWZ2vhnpwUP/STXJEykzl1qLGqkgArGa+ZVisR8O5hu6zPL0oyVwPiqZyB6cbCTA59h8YthxkNYQEBTgUjh1+7QuOKGRNKlgQm9eTcNaFbyXk/AtYauitmmKuByfhwcHkvH0Gzp5Leo1clmdzv8Rrs1e6OmACpQvkMGRiHq4BDvlyTFQo4hCuaRpXXHEnUkj89od6L1K8nNFVVK15OmS78cT9ajws10a/GZamv0MC4pl/0IBrQmnkwo="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236487,
+    "id": "hAdKauulF9mK0-kP0MrjsQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 207,
+      "total_tokens": 512
+    }
+  }
+}

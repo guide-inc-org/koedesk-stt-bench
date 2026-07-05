@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0098",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.46,
+  "ref_text_raw": "田舎道の運転に慣れていない方は、急勾配、狭い車線、急カーブに注意し、気を抜かないでください。",
+  "ref_text_normalized": "田舎道の運転に慣れていない方は 急勾配 狭い車線 急カーブに注意し 気を抜かないでください",
+  "timestamp_utc": "2026-07-05T10:18:42Z",
+  "text": "田舎道 の 運転 に 慣れ て い ない 方 は 急 勾配 、 狭い 車線 、 急 カーブ に 注意 し 、 気 を 抜か ない で ください 。",
+  "latency_sec": 2.9792,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "田舎道 の 運転 に 慣れ て い ない 方 は 急 勾配 、 狭い 車線 、 急 カーブ に 注意 し 、 気 を 抜か ない で ください 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPumY36Yp5lD/PsEmjG/9bPfam3Lno9pnqqn6vt67lulQ8BMHuKt+H8kRd1Kc6"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246722,
+    "id": "gS9KapacBZr22roP4enR6AU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 42,
+      "prompt_tokens": 383,
+      "total_tokens": 425
+    }
+  }
+}

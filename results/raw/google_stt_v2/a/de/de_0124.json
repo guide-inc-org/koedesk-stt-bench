@@ -1,0 +1,36 @@
+{
+  "utt_id": "de_0124",
+  "lang": "de",
+  "engine": "google_stt_v2",
+  "duration_sec": 8.58,
+  "ref_text_raw": "Der Archipel liegt 120 km nördlich der Halbinsel. Die größte ist King George Island mit der Siedlung Villa Las Estrellas.",
+  "ref_text_normalized": "der archipel liegt 120 km nördlich der halbinsel die größte ist king george island mit der siedlung villa las estrellas",
+  "timestamp_utc": "2026-07-05T03:52:13Z",
+  "text": "Der Archipel liegt 120 km nördlich der Halbinsel. Die größte ist King George Island mit der Siedlung Villa Las Estrellas.",
+  "latency_sec": 3.8758,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "de-DE",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "9s",
+      "requestId": "80d2074f-0000-2b9b-b360-14c14ef139b4",
+      "prompt": "Transcribe the following speech segment in German. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, German."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Der Archipel liegt 120 km nördlich der Halbinsel. Die größte ist King George Island mit der Siedlung Villa Las Estrellas."
+          }
+        ],
+        "languageCode": "de-DE"
+      }
+    ]
+  }
+}

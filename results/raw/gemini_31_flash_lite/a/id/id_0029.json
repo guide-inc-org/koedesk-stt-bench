@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0029",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.88,
+  "ref_text_raw": "Kota ini sangat kontras dengan kota-kota lain di negara tersebut, sebab kota tersebut lebih bergaya Arab ketimbang Afrika.",
+  "ref_text_normalized": "kota ini sangat kontras dengan kota-kota lain di negara tersebut sebab kota tersebut lebih bergaya arab ketimbang afrika",
+  "timestamp_utc": "2026-07-05T05:46:40Z",
+  "text": "Kota ini sangat kontras dengan kota-kota lain di negara tersebut, sebab kota tersebut lebih bergaya Arab ketimbang Afrika.",
+  "latency_sec": 3.7942,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Kota ini sangat kontras dengan kota-kota lain di negara tersebut, sebab kota tersebut lebih bergaya Arab ketimbang Afrika.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP2PBzsHqrlTxbZUFRzOY+9kKbla6z3vzxmixcalg6t/oI+yoNjNbWoS2JPyNv"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230400,
+    "id": "ve9JarCzG8fG0-kPuZO6wQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 318,
+      "total_tokens": 343
+    }
+  }
+}

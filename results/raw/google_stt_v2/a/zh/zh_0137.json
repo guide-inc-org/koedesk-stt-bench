@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0137",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 13.26,
+  "ref_text_raw": "Pa amb Oli 是一种在夏天尤为流行的简单晚餐：面包搭配橄榄油、番茄，手头上任何佐料都可加入，比如奶酪、金枪鱼等。",
+  "ref_text_normalized": "pa amb oli 是 一 种 在 夏 天 尤 为 流 行 的 简 单 晚 餐 面 包 搭 配 橄 榄 油 番 茄 手 头 上 任 何 佐 料 都 可 加 入 比 如 奶 酪 金 枪 鱼 等",
+  "timestamp_utc": "2026-07-05T06:30:25Z",
+  "text": "Pan con tomate 是一种在夏天尤为流行的简单晚餐，面包搭配橄榄油、番茄、手上任何佐料都可加入，比如奶酪、金枪鱼等。",
+  "latency_sec": 4.9286,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "14s",
+      "requestId": "6dd83265-0000-27db-8279-ac3eb143df6c",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Pan con tomate 是一种在夏天尤为流行的简单晚餐，面包搭配橄榄油、番茄、手上任何佐料都可加入，比如奶酪、金枪鱼等。"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

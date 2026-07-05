@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0087",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.64,
+  "ref_text_raw": "Сравнительно не далеко, к северу, расположен романтический и очаровательный городок Синтра, воспетый лордом Байроном и получивший после этого известность во всём мире.",
+  "ref_text_normalized": "сравнительно не далеко к северу расположен романтический и очаровательный городок синтра воспетый лордом байроном и получивший после этого известность во всём мире",
+  "timestamp_utc": "2026-07-05T07:07:02Z",
+  "text": "Сравнительно недалеко к северу расположен романтический и очаровательный городок Симтра, воспетый лордом Байроном и получивший после этого известность во всём мире.",
+  "latency_sec": 4.237,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Сравнительно недалеко к северу расположен романтический и очаровательный городок Симтра, воспетый лордом Байроном и получивший после этого известность во всём мире.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235222,
+    "id": "kwJKaq6LH-vYvr0P_YW_6QM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 394,
+      "total_tokens": 561
+    }
+  }
+}

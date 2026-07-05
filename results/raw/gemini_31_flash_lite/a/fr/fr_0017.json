@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0017",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.8,
+  "ref_text_raw": "La plupart des petites îles sont des nations indépendantes, ou associées à la France, et sont connues pour être des stations balnéaires de luxe.",
+  "ref_text_normalized": "la plupart des petites îles sont des nations indépendantes ou associées à la france et sont connues pour être des stations balnéaires de luxe",
+  "timestamp_utc": "2026-07-05T05:10:23Z",
+  "text": "La plupart des petites îles sont des nations indépendantes ou associées à la France et sont connues pour être des stations balnéaires de luxe.",
+  "latency_sec": 2.5963,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "La plupart des petites îles sont des nations indépendantes ou associées à la France et sont connues pour être des stations balnéaires de luxe.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP2ghxMEju42+gHl6xDh5LVH/fOo2YEaetvEQi0YmLFuFHz1nqY+1BapaoFQ4C"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228223,
+    "id": "PudJapPCAe6d1e8P5u7EuQQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 216,
+      "total_tokens": 245
+    }
+  }
+}

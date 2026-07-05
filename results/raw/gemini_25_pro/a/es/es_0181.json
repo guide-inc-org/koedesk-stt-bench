@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0181",
+  "lang": "es",
+  "engine": "gemini_25_pro",
+  "duration_sec": 14.34,
+  "ref_text_raw": "La cúpula central de la iglesia había permanecido en Roma por más de un milenio y esta concentración de poder y dinero hizo que muchos se preguntaran si este principio se estaba respetando.",
+  "ref_text_normalized": "la cúpula central de la iglesia había permanecido en roma por más de un milenio y esta concentración de poder y dinero hizo que muchos se preguntaran si este principio se estaba respetando",
+  "timestamp_utc": "2026-07-05T04:31:31Z",
+  "text": "La cúpula central de la Iglesia había permanecido en Roma por más de un milenio y esta concentración de poder y dinero hizo que muchos se preguntaran si este principio se estaba respetando.",
+  "latency_sec": 4.9936,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "La cúpula central de la Iglesia había permanecido en Roma por más de un milenio y esta concentración de poder y dinero hizo que muchos se preguntaran si este principio se estaba respetando.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225891,
+    "id": "IN5JasfUCLq3vr0P4Zm80Qw",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 480,
+      "total_tokens": 726
+    }
+  }
+}

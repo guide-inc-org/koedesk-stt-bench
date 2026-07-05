@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0125",
+  "lang": "zh",
+  "engine": "gemini_25_pro",
+  "duration_sec": 11.22,
+  "ref_text_raw": "他们因其严格防守、控球技术和出色的团队合作脱颖而出。很显然，这是一支无往不胜的球队。",
+  "ref_text_normalized": "他 们 因 其 严 格 防 守 控 球 技 术 和 出 色 的 团 队 合 作 脱 颖 而 出 很 显 然 这 是 一 支 无 往 不 胜 的 球 队",
+  "timestamp_utc": "2026-07-05T09:02:01Z",
+  "text": "他們因其嚴格防守、控球技術和出色的團隊合作脫穎而出。很顯然,這是一支無往不勝的球隊。",
+  "latency_sec": 6.119,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "他們因其嚴格防守、控球技術和出色的團隊合作脫穎而出。很顯然,這是一支無往不勝的球隊。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242121,
+    "id": "hB1KatHQL4-D1e8P9I7h6AE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 381,
+      "total_tokens": 710
+    }
+  }
+}

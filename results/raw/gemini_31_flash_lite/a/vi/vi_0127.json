@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0127",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.12,
+  "ref_text_raw": "Các đề cử khác bao gồm Phim, Đạo diễn, Quay phim, Thiết kế Trang phục, Biên tập Phim, Nhạc phim gốc, Thiết kế Sản xuất, Biên tập Âm thanh, Hòa âm và Kịch bản gốc hay nhất.",
+  "ref_text_normalized": "các đề cử khác bao gồm phim đạo diễn quay phim thiết kế trang phục biên tập phim nhạc phim gốc thiết kế sản xuất biên tập âm thanh hòa âm và kịch bản gốc hay nhất",
+  "timestamp_utc": "2026-07-05T08:45:18Z",
+  "text": "Các đề cử khác bao gồm phim, đạo diễn, quay phim, thiết kế trang phục, biên tập phim, nhạc phim gốc, thiết kế sản xuất, biên tập âm thanh, hòa âm và kịch bản gốc hay nhất.",
+  "latency_sec": 2.9338,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Các đề cử khác bao gồm phim, đạo diễn, quay phim, thiết kế trang phục, biên tập phim, nhạc phim gốc, thiết kế sản xuất, biên tập âm thanh, hòa âm và kịch bản gốc hay nhất.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPBFBpjaOlut1Oz+MUa5N0xtp+Ho6C3925KLIVMOnlEUxY/Hdsj9eRcOH7PvUR"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241118,
+    "id": "nRlKapbWAbmVvr0PopTJiQc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 399,
+      "total_tokens": 446
+    }
+  }
+}

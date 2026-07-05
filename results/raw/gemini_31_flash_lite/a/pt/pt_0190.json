@@ -1,0 +1,44 @@
+{
+  "utt_id": "pt_0190",
+  "lang": "pt",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.7,
+  "ref_text_raw": "Passar roupas úmidas pode ajudar a secar. Muitos hotéis dispõem de ferro e tábua de passar roupas para empréstimo, mesmo que não haja uma no quarto.",
+  "ref_text_normalized": "passar roupas úmidas pode ajudar a secar muitos hotéis dispõem de ferro e tábua de passar roupas para empréstimo mesmo que não haja uma no quarto",
+  "timestamp_utc": "2026-07-05T07:05:32Z",
+  "text": "Passar roupas úmidas pode ajudar a secar. Muitos hotéis dispõem de ferro e tábua de passar roupas para empréstimo, mas não que haja uma no quarto.",
+  "latency_sec": 2.6625,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Passar roupas úmidas pode ajudar a secar. Muitos hotéis dispõem de ferro e tábua de passar roupas para empréstimo, mas não que haja uma no quarto.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPWERezCLuWXPyj6KPVvbctf5tKOVJBB4jGhtTYUMtc2GjgRlqZmYF2xeqTqaI"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235133,
+    "id": "OwJKaoeWH8Sb1e8Pw-2buAM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 314,
+      "total_tokens": 354
+    }
+  }
+}

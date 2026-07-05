@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0193",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.74,
+  "ref_text_raw": "D’après la FAA, NextGen est un système qui permettrait aux appareils de voler sur des distances plus courtes et d’économiser des millions de gallons de carburant chaque année, limitant les émissions de carbone.",
+  "ref_text_normalized": "d'après la faa nextgen est un système qui permettrait aux appareils de voler sur des distances plus courtes et d'économiser des millions de gallons de carburant chaque année limitant les émissions de carbone",
+  "timestamp_utc": "2026-07-05T05:21:31Z",
+  "text": "D'après la FAA, NextGen est un système qui permettrait aux appareils de voler sur des distances plus courtes et d'économiser des millions de gallons de carburant chaque année, limitant les émissions de carbone.",
+  "latency_sec": 2.7416,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "D'après la FAA, NextGen est un système qui permettrait aux appareils de voler sur des distances plus courtes et d'économiser des millions de gallons de carburant chaque année, limitant les émissions de carbone.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPzjAhYtlbJDrlP/6NpF/pAtXQRbNN4msQpBhXIOLMeK5UG/1Ve2qXD/wIp9/z"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228891,
+    "id": "2elJaqOfOa2Qvr0PxLzU0Qc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 365,
+      "total_tokens": 410
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "vi_0021",
+  "lang": "vi",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.88,
+  "ref_text_raw": "Trong bài viết Diễn văn của Tổng thống của mình, Oliver Sacks chỉ ra làm thế nào những người không thể hiểu bài diễn văn vì bị tổn thương não lại có thể đánh giá chính xác sự trung thực.",
+  "ref_text_normalized": "trong bài viết diễn văn của tổng thống của mình oliver sacks chỉ ra làm thế nào những người không thể hiểu bài diễn văn vì bị tổn thương não lại có thể đánh giá chính xác sự trung thực",
+  "timestamp_utc": "2026-07-05T08:29:57Z",
+  "text": "Trong bài viết diễn văn của Tổng thống Mỹ, Oliver Sacks chỉ ra làm thế nào những người không thể hiểu bài diễn văn vì bị tổn thương não lại có thể đánh giá chính xác sự trung thực.",
+  "latency_sec": 6.3372,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Trong bài viết diễn văn của Tổng thống Mỹ, Oliver Sacks chỉ ra làm thế nào những người không thể hiểu bài diễn văn vì bị tổn thương não lại có thể đánh giá chính xác sự trung thực.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240197,
+    "id": "ABZKau-eHcTs1e8Px-GUwQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 42,
+      "prompt_tokens": 318,
+      "total_tokens": 1138
+    }
+  }
+}

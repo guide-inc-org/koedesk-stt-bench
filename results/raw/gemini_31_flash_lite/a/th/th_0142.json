@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0142",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.4,
+  "ref_text_raw": "ปรากฏการณ์สภาพอากาศรุนแรงที่เกิดในภูมิภาคและตามฤดูกาล ได้แก่ พายุบลิซซาร์ด พายุหิมะ พายุน้ำแข็ง และพายุฝุ่น",
+  "ref_text_normalized": "ปรากฏการณ์สภาพอากาศรุนแรงที่เกิดในภูมิภาคและตามฤดูกาล ได้แก่ พายุบลิซซาร์ด พายุหิมะ พายุน้ำแข็ง และพายุฝุ่น",
+  "timestamp_utc": "2026-07-05T08:09:40Z",
+  "text": "ปรากฏการณ์สภาพอากาศรุนแรงที่เกิดในภูมิภาคและตามฤดูกาล ได้แก่ พายุบลิซซาร์ด พายุหิมะ พายุน้ำแข็ง และพายุฝุ่น",
+  "latency_sec": 2.7443,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ปรากฏการณ์สภาพอากาศรุนแรงที่เกิดในภูมิภาคและตามฤดูกาล ได้แก่ พายุบลิซซาร์ด พายุหิมะ พายุน้ำแข็ง และพายุฝุ่น",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP0ojaRBfKkW3qcqFDjEvBHeebLHG+zj4wSHtbnFPSmOk/3i4893k+p3Nqj3SG"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238980,
+    "id": "QhFKap3fNZCe1e8PjsLZ0AQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 42,
+      "prompt_tokens": 231,
+      "total_tokens": 273
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0161",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.62,
+  "ref_text_raw": "Using ships to transport goods is by far the most efficient way to move large amounts of people and goods across oceans.",
+  "ref_text_normalized": "using ships to transport goods is by far the most efficient way to move large amounts of people and goods across oceans",
+  "timestamp_utc": "2026-07-05T03:36:53Z",
+  "text": "Using ships to transport goods is by far the most efficient way to move large amounts of people and goods across oceans.",
+  "latency_sec": 3.2155,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Using ships to transport goods is by far the most efficient way to move large amounts of people and goods across oceans.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Eq8FCqwFARFNMg/yJttSjMo7C++VXNgq6W23ZGDhNO3h/RfY/LVPL2/LVnzQnKqq3kZYYrfEOwst7MWRcRzXXWlviK7RJWCD75j7Lodk/GJkiUYNjio0hNVRE6OlNywq1UAMD60YvquAvHdDA0gU4wtcTZZ3UOzQa0EddZYsXlN85tcHKkQY11t4eYSDfSM7gsMq3rhqKP2Bfgr5TneIj2E3/MBy6/orvPqlCwLgrijoFbtOiSD+9STQh84rvNSCC8ea+ZwB4LBwgfkrwkb4sB0CsdxNGyCu5J0/ow71DaHyycVq4796p4xYBlQ4YhXIEX2vzO3sMmkLbDYFfRVARsaFzNm5jGagHx2U/4nT/Bp5ECF2xH14iT9gnkpwtT13H3jLnE0x66mXDTqJVeicTNNrxIcf/Jpqq8h92ZlCg0fD8YvTdCchwCr4J/Xa0oNQxDWdqOP+8sWCbRLZi0XCoyRDMcSiGr4sk44pIz3XNszYtsXagR0nKrrL6GugMu7TjzyosbbTIsmk3vGhD4F/cy+jq3t9Q++zn0JZGLR8zxlw+vVS0jkaxCgJz+HLC0bk+eHnuA3UQ9YjsDUFQ/Ys9V9cLctIzut7xMdfKxFCp/xHLM1KfHY7eb5U6hpjqFSCd+WKVQbeLRWBOv/SYzFyQIGf6OMz9ThVEBkLnwlLTFaFkdNLxceI3LwxBg3nNRNlIdHnzCx8zCGx/uVBzdCdwjd5G1+s70AY+AJM1HEoir4Tr3tITR+XifBCnFFTgpvAZU3D9Tzx/W1X5MlCWo4xszZE4i3oA9TtTLn6NUfPjR1URRN9VU6uHlF+foXnc0d45lf6juj+J0kLTdDjkM9qgsyWonihguH3RCmlDVMewm+NE4dfidDRzCMnAtYSLo9G/Y2U+/ROJlrRuQrEQUjAx/3G"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222613,
+    "id": "U9FJataSCuznosUP7JmIyQY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 212,
+      "total_tokens": 372
+    }
+  }
+}

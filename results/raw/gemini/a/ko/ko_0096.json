@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0096",
+  "lang": "ko",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.32,
+  "ref_text_raw": "지역별 및 계절별 악천후 현상에는 폭풍설, 눈보라, 진눈깨비 및 황사 등이 포함됩니다.",
+  "ref_text_normalized": "지역별 및 계절별 악천후 현상에는 폭풍설 눈보라 진눈깨비 및 황사 등이 포함됩니다",
+  "timestamp_utc": "2026-07-05T06:00:07Z",
+  "text": "지역별 및 계절별 악천후 현상에는 폭풍설, 눈보라, 짙은 안개비 및 황사 등이 포함됩니다.",
+  "latency_sec": 6.583,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "지역별 및 계절별 악천후 현상에는 폭풍설, 눈보라, 짙은 안개비 및 황사 등이 포함됩니다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231207,
+    "id": "4fJJaqyxNYrW1e8Py5HYyAE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 256,
+      "total_tokens": 997
+    }
+  }
+}

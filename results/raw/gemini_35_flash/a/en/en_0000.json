@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0000",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.56,
+  "ref_text_raw": "However, due to the slow communication channels, styles in the west could lag behind by 25 to 30 year.",
+  "ref_text_normalized": "however due to the slow communication channels styles in the west could lag behind by 25 to 30 year",
+  "timestamp_utc": "2026-07-05T10:26:28Z",
+  "text": "However, due to the slow communication channels, styles in the West could lag behind by 25 to 30 years.",
+  "latency_sec": 3.618,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "However, due to the slow communication channels, styles in the West could lag behind by 25 to 30 years.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EuoECucEARFNMg+AFFIrd+4NPSDNJHFPM9W0W+gumH2fmM9bTOO5ts3UoG0FJpGBPSEQm8ctUpe+h1B2FB0rACUS9q83TXdZkjXtIh8fuzeCHGulsGK3JOEUma2OyW8bBYvW0L1zAlscKHGK9dGzKxeB1OtA0vLJhZaZu9TkAngT2ec7l3hctpJ84mlJeKk/XQsFDJzz5LUwXJKlpVU0XezccyNT5yHY5DwWvqc5zHBhArD/WtWq6uFO9y/9YRQrRL45ZA0+3rEHsRmBrx5MBGiA5rJDyAlZmNnKRfsffJEGUz/tKeN0mD59ABWtj7Tn4G75p86lMXCubW+haTHWxnz5RQJdXZsFmFnw21VYj+8Gg5wbSEEjhjBybGozKHaP0LcaP0sXAaoDf34hMjs+igwXKt7PUx8KRydIkEr4jDnV52/q/8whxL4BR+DcY6HhBHpwKp4Iv3dDwZ5hfgbLo4h+3WAQ6n5NEWgkoFF1U3ncKlohYSy6btVibcBXqDIlnl/6btD41q5s2bRpfWAY1pVIPwzTHiEIbfFWZBiznQwrWitjlAtk99HUDM9oOYvewbRJNAsvFpEcWauY1Zy7QJN4Tav57HnrYs60khUJfXqcNldZv087VXD7UfbFzLnjkBUVMoIVAZL5phXx5lha+6UG7/SzfR+irEGz75BvG0nYkOvJSLoHZbR4ZZmNOUFAGi8IxVJErKkkExM1pH+YEsCFJnmDQvyxJ4PxQU5rGeGXtVkXqokXnc5xWN9Fuh3fnxi3n6ZYAlKt4z2KHZR2MQM/w1453ns2rsKRxsG9d/VXfLfKvpKKtTInbv8k"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247188,
+    "id": "UjFKavDaCIGp2roP-M7c4AY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 285,
+      "total_tokens": 467
+    }
+  }
+}

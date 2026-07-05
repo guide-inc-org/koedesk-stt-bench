@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0145",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 4.14,
+  "ref_text_raw": "การค้นพบเกี่ยวกับเรื่องดังกล่าวยังช่วยให้เห็นวิวัฒนาการของขนนกในเชิงลึกอีกด้วย",
+  "ref_text_normalized": "การค้นพบเกี่ยวกับเรื่องดังกล่าวยังช่วยให้เห็นวิวัฒนาการของขนนกในเชิงลึกอีกด้วย",
+  "timestamp_utc": "2026-07-05T08:09:51Z",
+  "text": "การค้นพบเกี่ยวกับเรื่องดังกล่าว ยังช่วยให้เห็นวิวัฒนาการของขนนกในเชิงลึกอีกด้วย",
+  "latency_sec": 2.4569,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "การค้นพบเกี่ยวกับเรื่องดังกล่าว ยังช่วยให้เห็นวิวัฒนาการของขนนกในเชิงลึกอีกด้วย",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPTmE2bMxik4aU68CEXADEGMiWVknUHq8KI/ygHRrS6xsxDzl9zHrpQYbFwt8h"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238992,
+    "id": "ThFKaoKaG_K8vr0P9K6siQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 125,
+      "total_tokens": 149
+    }
+  }
+}

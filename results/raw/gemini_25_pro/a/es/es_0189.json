@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0189",
+  "lang": "es",
+  "engine": "gemini_25_pro",
+  "duration_sec": 9.12,
+  "ref_text_raw": "Como en todas las reservas naturales de Sudáfrica, existen tarifas diarias para la conservación y de acceso al parque.",
+  "ref_text_normalized": "como en todas las reservas naturales de sudáfrica existen tarifas diarias para la conservación y de acceso al parque",
+  "timestamp_utc": "2026-07-05T04:32:37Z",
+  "text": "Como en todas las reservas naturales de Sudáfrica, existen tarifas diarias para la conservación y de acceso al parque.",
+  "latency_sec": 5.1479,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Como en todas las reservas naturales de Sudáfrica, existen tarifas diarias para la conservación y de acceso al parque.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225957,
+    "id": "Yd5Jar2OHpjCvr0PiamC4A8",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 313,
+      "total_tokens": 505
+    }
+  }
+}

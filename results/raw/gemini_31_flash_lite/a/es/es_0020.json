@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0020",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.72,
+  "ref_text_raw": "Desde siempre, la función de la marina ha sido garantizar que su país conserve la facultad de trasladar a su población y mercancías, a la vez que, interfiere con la capacidad del enemigo para hacer lo propio.",
+  "ref_text_normalized": "desde siempre la función de la marina ha sido garantizar que su país conserve la facultad de trasladar a su población y mercancías a la vez que interfiere con la capacidad del enemigo para hacer lo propio",
+  "timestamp_utc": "2026-07-05T04:34:52Z",
+  "text": "Desde siempre, la función de la marina ha sido garantizar que su país conserve la facultad de trasladar a su población y mercancías, a la vez que interfiere con la capacidad del enemigo para hacer lo propio.",
+  "latency_sec": 2.7139,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Desde siempre, la función de la marina ha sido garantizar que su país conserve la facultad de trasladar a su población y mercancías, a la vez que interfiere con la capacidad del enemigo para hacer lo propio.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPOY6kdTgmnj9KHdgPTkFUgweiUq4u9MEkKzMwFeCtPD8nu0lKhn5nvfYZsA7M"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226092,
+    "id": "695Javf6B-el0-kPltOWuAs",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 414,
+      "total_tokens": 457
+    }
+  }
+}

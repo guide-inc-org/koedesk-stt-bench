@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0175",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.82,
+  "ref_text_raw": "Он не назвал цифру для сокращений бюджетов, сказав, что они будут сделаны исходя из производительности экономики Китая.",
+  "ref_text_normalized": "он не назвал цифру для сокращений бюджетов сказав что они будут сделаны исходя из производительности экономики китая",
+  "timestamp_utc": "2026-07-05T07:14:13Z",
+  "text": "Он не назвал цифру для сокращения бюджетов, сказав, что они будут сделаны, исходя из производительности экономики Китая.",
+  "latency_sec": 3.3989,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Он не назвал цифру для сокращения бюджетов, сказав, что они будут сделаны, исходя из производительности экономики Китая.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235653,
+    "id": "QwRKatrEAafKrfcP5Pio2QM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 400,
+      "total_tokens": 456
+    }
+  }
+}

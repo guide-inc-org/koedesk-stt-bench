@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0041",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.78,
+  "ref_text_raw": "Oliver Sacks, in his paper The President's Speech, indicated how people who are unable to understand speech because of brain damage are nevertheless able to assess sincerity accurately.",
+  "ref_text_normalized": "oliver sacks in his paper the president's speech indicated how people who are unable to understand speech because of brain damage are nevertheless able to assess sincerity accurately",
+  "timestamp_utc": "2026-07-05T10:30:26Z",
+  "text": "Oliver Sacks in his paper The President's Speech indicated how people who are unable to understand speech because of brain damage are nevertheless able to assess sincerity accurately.",
+  "latency_sec": 2.6944,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Oliver Sacks in his paper The President's Speech indicated how people who are unable to understand speech because of brain damage are nevertheless able to assess sincerity accurately.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPhf3hjlNFQTmMpyIIwezWOLfiAe5yhXACIYFOJ6ydtB7ICB5+AOXFtfRMgvxq"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247426,
+    "id": "QDJKav_LN7Cr0-kPhJ6suQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 341,
+      "total_tokens": 373
+    }
+  }
+}

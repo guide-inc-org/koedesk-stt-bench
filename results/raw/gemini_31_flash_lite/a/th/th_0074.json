@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0074",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.52,
+  "ref_text_raw": "งานที่ทำเสร็จแล้วส่วนใหญ่เป็นไปตามทฤษฎี แต่โปรแกรมนี้เขียนขึ้นเพื่อจำลองการเฝ้าสังเกตกาแล็กซีซาจิททาเรียส",
+  "ref_text_normalized": "งานที่ทำเสร็จแล้วส่วนใหญ่เป็นไปตามทฤษฎี แต่โปรแกรมนี้เขียนขึ้นเพื่อจำลองการเฝ้าสังเกตกาแล็กซีซาจิททาเรียส",
+  "timestamp_utc": "2026-07-05T08:05:18Z",
+  "text": "งานที่ทำเสร็จแล้วส่วนใหญ่เป็นไปตามทฤษฎี แต่โปรแกรมนี้เขียนขึ้นเพื่อจำลองการเฝ้าสังเกตกาแล็กซี Sagittarius",
+  "latency_sec": 2.6406,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "งานที่ทำเสร็จแล้วส่วนใหญ่เป็นไปตามทฤษฎี แต่โปรแกรมนี้เขียนขึ้นเพื่อจำลองการเฝ้าสังเกตกาแล็กซี Sagittarius",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPk/kl+2Mppnb5EnxMFz8xOvPFAvqOkJWQq0/0hUFuqzgYvyg3tabugVTVZoB2"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238719,
+    "id": "PRBKas_2I-rS1e8Pod3IoAU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 309,
+      "total_tokens": 345
+    }
+  }
+}

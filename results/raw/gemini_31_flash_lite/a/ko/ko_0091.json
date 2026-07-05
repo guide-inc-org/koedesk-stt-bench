@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0091",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.08,
+  "ref_text_raw": "불행히도, 운전자의 행동이 100% 확실하다고 예측할 수 없기 때문에 교통 흐름을 연구하기란 어렵다.",
+  "ref_text_normalized": "불행히도 운전자의 행동이 100% 확실하다고 예측할 수 없기 때문에 교통 흐름을 연구하기란 어렵다",
+  "timestamp_utc": "2026-07-05T06:24:23Z",
+  "text": "불행히도 운전자의 행동이 100% 확실하다고 예측할 수 없기 때문에 교통 흐름을 연구하기란 어렵다.",
+  "latency_sec": 2.6498,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "불행히도 운전자의 행동이 100% 확실하다고 예측할 수 없기 때문에 교통 흐름을 연구하기란 어렵다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPUQsxxUIHDORxqnZZuaaG5tc3nDJ8YT+L2rIsUAsXtHm5s26zo4/kxTCEsYk2"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232663,
+    "id": "lfhJatmyN9qdrfcP9dyxkQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 273,
+      "total_tokens": 305
+    }
+  }
+}

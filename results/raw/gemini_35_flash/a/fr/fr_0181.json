@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0181",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.24,
+  "ref_text_raw": "C'est ce qu'on appelle le pH d'un produit chimique. Vous pouvez fabriquer un indicateur en utilisant du jus de chou rouge.",
+  "ref_text_normalized": "c'est ce qu'on appelle le ph d'un produit chimique vous pouvez fabriquer un indicateur en utilisant du jus de chou rouge",
+  "timestamp_utc": "2026-07-05T05:17:37Z",
+  "text": "C'est ce qu'on appelle le pH d'un produit chimique. Vous pouvez fabriquer un indicateur en utilisant du jus de chou rouge.",
+  "latency_sec": 3.5306,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "C'est ce qu'on appelle le pH d'un produit chimique. Vous pouvez fabriquer un indicateur en utilisant du jus de chou rouge.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EuMGCuAGARFNMg/cGPdm9aDstM2GP0q1laW+FaiVJ9D1EsG1Xu40YHyVCiUA+li87eZZwmj0Xro//YAzx1fR0oRrhV4AoiP6rQn62L116foc0Xz7O8P+04RCs8GFnLGq/NLfRk8ChAX09GxXz9vDq0yJCzPzs+nSu5ERp4f99JatFcseTMRS1wW8OLFUycDgE/bTwGJGcpgZGDErZA7xDVIezcpgu195/Y9/+Mu7eyfhoKMok/jfC0ARqX8AHcGf0+f9ErB13YPgm98eL7dspvK5Yd4HkTMSACej+N+ihRULs7L4XXsI1fQvNAhGKXW+hwZq73CczOSLw3m2jzogKYDAwEteFO6ml6NUViawjD116hd70BzfGrrB1TZjgCvwwzdyKO38iOOYy3Q+3Z1fjP55n/tJkWomL8/bUztdMH5HfRomt7WNNumXggrvkhcD57bUHUt6LwZBRuNuP/1c3EMpA+kS6NY5B3IH+RELLijKKpCCMhPDFn5HQ8SDCw5CxHxkhrdXN72cURerkNG1fQGiWxYQY23C1V0W6ouAbNhBmYW+u+sPIR/6r8y3uPaDoCqVzp11y7qBalpnnMSNnYUUSn4Pp7PRQt3/Z8kcdVa0WcjWEWkVUASYsxxkSOnf8vLbSiLBp8K+9r2IMLGfJPgdBFOUj94P7RznxdJCa2azEsKo7tvQoslluHy9l0wOiCvw/ltOxFLQSwR90mQR9AKbmM55v8s6RaRmTAzpM5EP3kIwj49ulL55B3P2BB8vX/bdyg4wQG/1OI2jqY7c7+HOK2+35fdazsE0ESBMPnHWCuaLAM6lAcvOYMeHzobKp7ZrXvyb8DkiUYZN74dncn/v9RdKM8EKxX76heOxJi7xUsoTgNdyuK8cx1Uv1j3lGyh4a1uIF6h+N4imiR8kTtUzlNXCua1ezSXr3BOrhE2yka7YttRPHEDJ/Nip1LZ2zgyAvr15cEhcUfMx0hdYMv1zkaZ/cauh99Kr0OGZszQzBWYBaOHY6Ia4FV/FhcYfTbcpuM23Rwg6ui2E+G6P/VgaE/TIoilOxnhvLJpNUmRAv6e8i1gYg3DVDwZWwtFQrTUkGPKdPxKt+hbyDfLUC3sZJZuNrow9s4eZxFVdnNXK3YGLw5oA1ONnURxg5yemgm0B9BcG"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228657,
+    "id": "7uhJapubKrvN2roPnu2ysAU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 252,
+      "total_tokens": 505
+    }
+  }
+}

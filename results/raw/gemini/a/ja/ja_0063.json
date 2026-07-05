@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0063",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 15.24,
+  "ref_text_raw": "香港の地平線を描いて立ち並ぶビル群は、ビクトリア・ハーバーの水の存在によって、きらびやかな棒グラフに例えられています。",
+  "ref_text_normalized": "香港の地平線を描いて立ち並ぶビル群は ビクトリア ハーバーの水の存在によって きらびやかな棒グラフに例えられています",
+  "timestamp_utc": "2026-07-05T10:06:43Z",
+  "text": "香港の地平線をに描いて立ち並ぶビル群はビクトリアハーバーの水の存在によってきらびやかな棒グラフに例えられています。",
+  "latency_sec": 3.928,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "香港の地平線をに描いて立ち並ぶビル群はビクトリアハーバーの水の存在によってきらびやかな棒グラフに例えられています。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246003,
+    "id": "sCxKaregOICUvr0P6IWioQU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 509,
+      "total_tokens": 576
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0012",
+  "lang": "de",
+  "engine": "gemini_25_pro",
+  "duration_sec": 14.88,
+  "ref_text_raw": "Ottawa ist Kanadas bezaubernde, zweisprachige Hauptstadt und zeichnet sich durch eine Reihe von Kunstgalerien und Museen aus, die Kanadas Vergangenheit und Gegenwart präsentieren.",
+  "ref_text_normalized": "ottawa ist kanadas bezaubernde zweisprachige hauptstadt und zeichnet sich durch eine reihe von kunstgalerien und museen aus die kanadas vergangenheit und gegenwart präsentieren",
+  "timestamp_utc": "2026-07-05T03:40:33Z",
+  "text": "Ottawa ist Kanadas bezaubernde, zweisprachige Hauptstadt und zeichnet sich durch eine Reihe von Kunstgalerien und Museen aus, die Kanadas Vergangenheit und Gegenwart präsentieren.",
+  "latency_sec": 5.6862,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Ottawa ist Kanadas bezaubernde, zweisprachige Hauptstadt und zeichnet sich durch eine Reihe von Kunstgalerien und Museen aus, die Kanadas Vergangenheit und Gegenwart präsentieren.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222833,
+    "id": "LdJJau7HFv6e0-kP-tbAuA4",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 498,
+      "total_tokens": 604
+    }
+  }
+}

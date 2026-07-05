@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0105",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.56,
+  "ref_text_raw": "Стрекозы и поденки являются единственными насекомыми, которые не могут складывать крылья назад.",
+  "ref_text_normalized": "стрекозы и поденки являются единственными насекомыми которые не могут складывать крылья назад",
+  "timestamp_utc": "2026-07-05T07:08:31Z",
+  "text": "Стрекозы и подёнки являются единственными насекомыми, которые не могут складывать крылья назад.",
+  "latency_sec": 4.6913,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Стрекозы и подёнки являются единственными насекомыми, которые не могут складывать крылья назад.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235311,
+    "id": "7AJKavL4A_u8vr0P1bam0AY",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 263,
+      "total_tokens": 420
+    }
+  }
+}

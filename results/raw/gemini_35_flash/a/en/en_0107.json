@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0107",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.68,
+  "ref_text_raw": "Romanticism had a large element of cultural determinism, drawn from writers such as Goethe, Fichte, and Schlegel.",
+  "ref_text_normalized": "romanticism had a large element of cultural determinism drawn from writers such as goethe fichte and schlegel",
+  "timestamp_utc": "2026-07-05T03:32:40Z",
+  "text": "Romanticism had a large element of cultural determinism drawn from writers such as Goethe, Fichte, and Schlegel.",
+  "latency_sec": 3.9205,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Romanticism had a large element of cultural determinism drawn from writers such as Goethe, Fichte, and Schlegel.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpIGCo8GARFNMg/J32TOiEfiRZP8fT6bmixiat8ZfYm9pkBICr4jot2BSLoInlMALshMw7LATB/j/2N2b/1N3uAaZT6xymmHJwX0AyjNmdlzLfqCXm1YEXG6Zs8cnsfDppxSt/pz6ahtjU9CKqIQdCjqrS75ImGbhvVXDYSqSsu3oKbm/yCXOGESMKmsRFTPUWMqvSK5jIppaV7NXt0+wU3ddmT3iyHgUgOmAs7qnCEyH0sZaNM/8oyXIFdvT/o05LdbTQeLXl1MbJhT36RbJsCN9CHafzxjsj0urwHFdT/2nqNTOC216vJpejXuq0WDnI68y/hpK5KjaYgl5Mlxd1oKF7ulEyZ7iftvxf/MuAsiZdOy6nLycTHIJcTiYcZ0VVyiRiJ8gMkYmtznhKCLW+l7G0qFB8cvA5A95i6nbzDSVdP2smCd2zIt5dFpBcUhPqnvZYQjikC8ToedNzpmVh+I1t+zbTujxQ6qd8gVpSNpPg+2y/oPYDKz/FX+oVPbNzXIQteaFTlSEFYRjHPYeJLDr4045kjmvM90KJnZ3O00qBqz+N/2Z+bg4u/CzzUrYHvH5qEGRP8Rkk/XdqwJNuFPdIw6lrh4EkuC6gwGVF2pr/ghlQ2kOcrEis1VgMfKlkYCcjR6/Dl13pLJbQ0Y4z5jPYZ3QB5yNDBUGYybGd62uJytddWmv6JucF6NV9Mgt3/A8h/XQW7IztMGKCMsJRvbFeDMhKhyzWGDPs8lw4VCybX13shN6w21AZ6/Wbwg6FzPaIlo47K6Hp9UHYcrcVXMdfhoJ3WMsW98fyuu9ILg/9quE9xXc7LPqG8zLcJG/iRzabn/y2hYhpqKBFwN9vx2yySkaCI64bprSnj5Tn59mgIxYyX7p8uq43Se36Rt37fiv0y2K9sEJJ1NkdZNoE/G97sGfaPby4JaldDXuZvz9ILzwDg0kc5kC+55ogbT8UdlK8OW6JSdFlRe5ZIsDKkB04ZX0tC5tiiXTW43/paVUGI/MAGIox53JqyqWdaqGHo02ggRayF04dvzaWzwZb2p0/DR"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222360,
+    "id": "VtBJaqv0CY-_vr0P4-jhmAM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 288,
+      "total_tokens": 504
+    }
+  }
+}

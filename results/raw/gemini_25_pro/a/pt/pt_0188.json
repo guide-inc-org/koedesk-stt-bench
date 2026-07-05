@@ -1,0 +1,39 @@
+{
+  "utt_id": "pt_0188",
+  "lang": "pt",
+  "engine": "gemini_25_pro",
+  "duration_sec": 8.46,
+  "ref_text_raw": "Normalmente você sempre ouve o som de turistas e vendedores. A história do som e da luz é como um livro de histórias.",
+  "ref_text_normalized": "normalmente você sempre ouve o som de turistas e vendedores a história do som e da luz é como um livro de histórias",
+  "timestamp_utc": "2026-07-05T06:52:41Z",
+  "text": "Normalmente você sempre ouve o som de turistas e vendedores. A história do som e da luz é como um livro de histórias.",
+  "latency_sec": 3.8299,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Normalmente você sempre ouve o som de turistas e vendedores. A história do som e da luz é como um livro de histórias.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234361,
+    "id": "N_9JaoHrBOex2roPq7DX0QU",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 292,
+      "total_tokens": 356
+    }
+  }
+}

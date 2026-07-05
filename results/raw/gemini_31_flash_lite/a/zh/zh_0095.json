@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0095",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.04,
+  "ref_text_raw": "昨天，马尔泰利在由 9 名成员组成的新临时选举委员会 (CEP)中宣誓就职。",
+  "ref_text_normalized": "昨 天 马 尔 泰 利 在 由 9 名 成 员 组 成 的 新 临 时 选 举 委 员 会 cep 中 宣 誓 就 职",
+  "timestamp_utc": "2026-07-05T09:16:22Z",
+  "text": "昨天，马尔泰利在由9名成员组成的心灵事全国委员会CEP中宣誓就职。",
+  "latency_sec": 2.6936,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "昨天，马尔泰利在由9名成员组成的心灵事全国委员会CEP中宣誓就职。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPuGww0/tEwTBsrQt5cwoUhfkz/roQ0f8kr4ZFLieeIaLOz0jBBw6gJ5WGoogr"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242982,
+    "id": "5CBKaqjLO9Lu1e8P1-bXkAI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 297,
+      "total_tokens": 321
+    }
+  }
+}

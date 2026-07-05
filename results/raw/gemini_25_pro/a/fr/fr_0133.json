@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0133",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 15.9,
+  "ref_text_raw": "Au cours de la fin du Moyen Âge, l'Europe occidentale a commencé à développer son propre style. Un des plus grands progrès de l'époque, suite aux croisades, fut l'utilisation de boutons pour la fermeture des vêtements.",
+  "ref_text_normalized": "au cours de la fin du moyen âge l'europe occidentale a commencé à développer son propre style un des plus grands progrès de l'époque suite aux croisades fut l'utilisation de boutons pour la fermeture des vêtements",
+  "timestamp_utc": "2026-07-05T05:02:03Z",
+  "text": "Au cours de la fin du Moyen-Âge, l'Europe occidentale a commencé à développer son propre style. Un des plus grands progrès de l'époque, suite aux croisades, fut l'utilisation de boutons pour la fermeture des vêtements.",
+  "latency_sec": 5.4141,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Au cours de la fin du Moyen-Âge, l'Europe occidentale a commencé à développer son propre style. Un des plus grands progrès de l'époque, suite aux croisades, fut l'utilisation de boutons pour la fermeture des vêtements.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227723,
+    "id": "R-VJasHKDpT02roPp7fs4A4",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 50,
+      "prompt_tokens": 530,
+      "total_tokens": 795
+    }
+  }
+}

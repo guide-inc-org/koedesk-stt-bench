@@ -1,0 +1,106 @@
+{
+  "utt_id": "en_0165",
+  "lang": "en",
+  "engine": "deepgram_nova3",
+  "duration_sec": 3.84,
+  "ref_text_raw": "Television reports show white smoke coming from the plant.",
+  "ref_text_normalized": "television reports show white smoke coming from the plant",
+  "timestamp_utc": "2026-07-05T03:28:19Z",
+  "text": "television reports show white smoke coming from the plant",
+  "latency_sec": 1.6359,
+  "params": {
+    "model": "nova-3",
+    "language": "en",
+    "note": "model+language only; smart_format etc. = API defaults (R-2.4)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "transaction_key": "deprecated",
+      "request_id": "019f3051-dcf6-7870-a2d7-9123913792c1",
+      "sha256": "20378c1a386061345ad614b41129f9af009e68334c5d0a82b8f99a0407ea32db",
+      "created": "2026-07-05T03:28:19.932Z",
+      "duration": 3.84,
+      "channels": 1,
+      "models": [
+        "2187e11a-3532-4498-b076-81fa530bdd49"
+      ],
+      "model_info": {
+        "2187e11a-3532-4498-b076-81fa530bdd49": {
+          "name": "general-nova-3",
+          "version": "2025-07-31.0",
+          "arch": "nova-3"
+        }
+      }
+    },
+    "results": {
+      "channels": [
+        {
+          "alternatives": [
+            {
+              "transcript": "television reports show white smoke coming from the plant",
+              "confidence": 0.9980469,
+              "words": [
+                {
+                  "word": "television",
+                  "start": 0.08,
+                  "end": 0.71999997,
+                  "confidence": 0.9995117
+                },
+                {
+                  "word": "reports",
+                  "start": 0.71999997,
+                  "end": 1.28,
+                  "confidence": 0.9980469
+                },
+                {
+                  "word": "show",
+                  "start": 1.28,
+                  "end": 1.76,
+                  "confidence": 0.99316406
+                },
+                {
+                  "word": "white",
+                  "start": 1.76,
+                  "end": 2.08,
+                  "confidence": 0.9980469
+                },
+                {
+                  "word": "smoke",
+                  "start": 2.08,
+                  "end": 2.48,
+                  "confidence": 0.9589844
+                },
+                {
+                  "word": "coming",
+                  "start": 2.48,
+                  "end": 2.72,
+                  "confidence": 0.99902344
+                },
+                {
+                  "word": "from",
+                  "start": 2.72,
+                  "end": 2.96,
+                  "confidence": 0.99902344
+                },
+                {
+                  "word": "the",
+                  "start": 2.96,
+                  "end": 3.04,
+                  "confidence": 0.99902344
+                },
+                {
+                  "word": "plant",
+                  "start": 3.04,
+                  "end": 3.36,
+                  "confidence": 0.9980469
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

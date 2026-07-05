@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0069",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.34,
+  "ref_text_raw": "Kinder werden aus einer Vielzahl von Gründen in Pflegefamilien untergebracht, und zwar aus verschiedenen Gründen, die von Vernachlässigung über Missbrauch bis hin zu Erpressung reichen.",
+  "ref_text_normalized": "kinder werden aus einer vielzahl von gründen in pflegefamilien untergebracht und zwar aus verschiedenen gründen die von vernachlässigung über missbrauch bis hin zu erpressung reichen",
+  "timestamp_utc": "2026-07-05T04:03:58Z",
+  "text": "Kinder werden aus einer Vielzahl von Gründen in Pflegefamilien untergebracht und zwar aus verschiedenen Gründen, die von Vernachlässigung über Missbrauch bis hin zur Erpressung reichen.",
+  "latency_sec": 2.6349,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Kinder werden aus einer Vielzahl von Gründen in Pflegefamilien untergebracht und zwar aus verschiedenen Gründen, die von Vernachlässigung über Missbrauch bis hin zur Erpressung reichen.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP5fvhf20l4SwkLKUlvoR/t+mRpUm77qAupXV4NZUWOr1dOSA1erwVBYhnN79P"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224238,
+    "id": "rddJaq_4D6bG0-kPpaDayQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 380,
+      "total_tokens": 416
+    }
+  }
+}

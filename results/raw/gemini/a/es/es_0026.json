@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0026",
+  "lang": "es",
+  "engine": "gemini_25_flash",
+  "duration_sec": 14.4,
+  "ref_text_raw": "Duvall, que está casado y tiene dos hijos adultos, no causó una buena impresión a Miller, que fue a quien le relató la historia.",
+  "ref_text_normalized": "duvall que está casado y tiene dos hijos adultos no causó una buena impresión a miller que fue a quien le relató la historia",
+  "timestamp_utc": "2026-07-05T04:14:39Z",
+  "text": "Duval, que está casado y tiene dos dos hijos adultos, no causa una buena impresión a Miller, que fue a quien le relató la historia.",
+  "latency_sec": 3.3889,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Duval, que está casado y tiene dos dos hijos adultos, no causa una buena impresión a Miller, que fue a quien le relató la historia.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224879,
+    "id": "LdpJavvzJpO00-kP9qbDqAY",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 482,
+      "total_tokens": 595
+    }
+  }
+}

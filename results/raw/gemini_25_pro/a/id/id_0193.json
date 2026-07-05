@@ -1,0 +1,39 @@
+{
+  "utt_id": "id_0193",
+  "lang": "id",
+  "engine": "gemini_25_pro",
+  "duration_sec": 6.48,
+  "ref_text_raw": "Laporan televisi menunjukkan bahwa asap putih berasal dari pembangkit listrik tersebut.",
+  "ref_text_normalized": "laporan televisi menunjukkan bahwa asap putih berasal dari pembangkit listrik tersebut",
+  "timestamp_utc": "2026-07-05T05:44:07Z",
+  "text": "Laporan televisi menunjukkan bahwa asap putih berasal dari pembangkit listrik tersebut.",
+  "latency_sec": 4.5117,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Laporan televisi menunjukkan bahwa asap putih berasal dari pembangkit listrik tersebut.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230247,
+    "id": "JO9JavyJFdq20-kPqrmQ0QM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 14,
+      "prompt_tokens": 229,
+      "total_tokens": 407
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0059",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 26.76,
+  "ref_text_raw": "Wenn Sie im Winter die nördliche Ostsee überqueren, überprüfen Sie die Lage der Kabine, da das Durchbrechen von Eis für die am stärksten Betroffenen ziemlich schrecklichen Lärm verursacht.",
+  "ref_text_normalized": "wenn sie im winter die nördliche ostsee überqueren überprüfen sie die lage der kabine da das durchbrechen von eis für die am stärksten betroffenen ziemlich schrecklichen lärm verursacht",
+  "timestamp_utc": "2026-07-05T03:44:28Z",
+  "text": "Wenn Sie im Winter die nördliche Ostsee überqueren, überprüfen Sie die Lage der Kabine, da das durchbrechen von Eis für die am stärksten Betroffenen ziemlich schrecklichen Lärm verursacht.",
+  "latency_sec": 4.0461,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Wenn Sie im Winter die nördliche Ostsee überqueren, überprüfen Sie die Lage der Kabine, da das durchbrechen von Eis für die am stärksten Betroffenen ziemlich schrecklichen Lärm verursacht.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223068,
+    "id": "GtNJarevB-KSvr0Pv53i8AM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 878,
+      "total_tokens": 921
+    }
+  }
+}

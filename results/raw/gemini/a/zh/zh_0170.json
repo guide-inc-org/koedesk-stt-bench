@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0170",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.2,
+  "ref_text_raw": "这似乎是合理的，因为地球感觉不到自己在移动，不是吗？",
+  "ref_text_normalized": "这 似 乎 是 合 理 的 因 为 地 球 感 觉 不 到 自 己 在 移 动 不 是 吗",
+  "timestamp_utc": "2026-07-05T09:01:55Z",
+  "text": "这似乎是合理的，因为地球感觉不到自己在移动，不是吗？",
+  "latency_sec": 4.2317,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "这似乎是合理的，因为地球感觉不到自己在移动，不是吗？",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242115,
+    "id": "gB1Kavr2A4yl1e8P2deLgAI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 15,
+      "prompt_tokens": 252,
+      "total_tokens": 316
+    }
+  }
+}

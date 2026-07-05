@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0168",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.12,
+  "ref_text_raw": "Бишкек был описан одним обозревателем как погружающийся в состояние анархии, поскольку группы людей бегали по улицам и грабили магазины с потребительскими товарами.",
+  "ref_text_normalized": "бишкек был описан одним обозревателем как погружающийся в состояние анархии поскольку группы людей бегали по улицам и грабили магазины с потребительскими товарами",
+  "timestamp_utc": "2026-07-05T07:37:25Z",
+  "text": "Бишкек был описан одним обозревателем, как погружающийся в состояние анархии, поскольку группы людей бегали по улицам и грабили магазины с потребительскими товарами.",
+  "latency_sec": 3.3484,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Бишкек был описан одним обозревателем, как погружающийся в состояние анархии, поскольку группы людей бегали по улицам и грабили магазины с потребительскими товарами.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP86ohWPsDzTVP3uyWbfFWUsUA9JlyO2jOGVoUos8glYhpbndQ7eyRq6bNBMso"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237045,
+    "id": "swlKaq_2OMDH2roPzfDW-AM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 42,
+      "prompt_tokens": 324,
+      "total_tokens": 366
+    }
+  }
+}

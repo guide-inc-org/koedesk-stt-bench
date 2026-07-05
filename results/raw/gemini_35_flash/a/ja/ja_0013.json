@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0013",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.08,
+  "ref_text_raw": "ロランド・メンドーサはM16ライフルで観光客に発砲しました。",
+  "ref_text_normalized": "ロランド メンドーサはm16ライフルで観光客に発砲しました",
+  "timestamp_utc": "2026-07-05T10:10:54Z",
+  "text": "ロランド・メンドーサはM16ライフルで観光客に発砲しました。",
+  "latency_sec": 3.6549,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ロランド・メンドーサはM16ライフルで観光客に発砲しました。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EvsECvgEARFNMg8D6dNDjadi0S5/UmxqA4n/YXJbVY36ieofh+A2PuETS1Cjgt27PD0Oufe20qQLQk3vAy8m8U5rOP0DYhofQGauWBWzwCV+Cm5HgxrCtcAo9JWc/WJgiLjEXcTi32jZx4ePZhuj25zdbywp3i0KwTKegAQKLJXvZk6gsXZge3UFBMI+lX5wAULHOYhF4BXjoLqpFcRx2q+OUbTn9qAR72U9gyb1ahTtdOWScBcozw3he1LjZZtLUP0xvczBo2HeVMnVaqY7pGyyrkVDBBogKpvi7EGPalsjnn/aQZUsUrQNqRr9C7rqaAV1ZZkwjUI9yQel99Ev1S5YN0wQSsrbi/7pBEjHSUdJP5Gt128YwNaNB/zwLE8vE/30moy4056e8gRK+/FbpI1rMU0EIxAy9ou7u0Lm5eEpXS4ofh35y4390+62S/NWwhBcPV8aw8gVJMzPfTmtUYqBoijIw6c/IQSoFYD3dc2cWql83f9QvbAtcdixAQ0epxkZ6L7tLoe7oBwdMoO4KUTicwQrxj4mzZZV2Z6DHwf5VNqvZVVQODfUiW0yUtR4dWr7cLaPhRfhVVTAMs1EglkExh+MU+BwPnRLTWpRFI6/LHxCH1NtxMAN5fzVITooaVUWL2N0pKnPHVCFO4zDzTV6q5wQC3svRWSfObHACuQ17bYBLDS7lyHCUx0CDXHaSMhFx4rkkgg0cOz6y7D7L01MPjh6FeNIec71Hj4svulLvuiFwlL81AVM4XOeV3fsIXdqih64TfEraCdQR6Hstr2he3TJoWncW55se2FFVFrzfb0qJwim66WJEErNCtLYSbo9mi6/2XEXgh0ZcWA="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246254,
+    "id": "rC1KaqngMuvYvr0P_YW_6QM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 273,
+      "total_tokens": 465
+    }
+  }
+}

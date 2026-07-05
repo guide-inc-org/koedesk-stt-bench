@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0088",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 20.4,
+  "ref_text_raw": "Wenn alle verfügbaren Ressourcen über alle Fachabteilungen einer Organisation effektiv genutzt werden, können Kreativität und Einfallsreichtum hervorgehen.",
+  "ref_text_normalized": "wenn alle verfügbaren ressourcen über alle fachabteilungen einer organisation effektiv genutzt werden können kreativität und einfallsreichtum hervorgehen",
+  "timestamp_utc": "2026-07-05T04:05:06Z",
+  "text": "Wenn alle verfügbaren Ressourcen über alle Fachabteilungen einer Organisation effektiv genutzt werden, können Kreativität und Einfallsreichtum hervorgehen.",
+  "latency_sec": 3.0833,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Wenn alle verfügbaren Ressourcen über alle Fachabteilungen einer Organisation effektiv genutzt werden, können Kreativität und Einfallsreichtum hervorgehen.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPpU27RVLvIBMGZ2QOVt2AWAmk2lI3Ls7nspo0JGIOOYzn+jH0PMzvSnYGBbD7"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224306,
+    "id": "8ddJap6OFZ2hvr0P78yT2Q8",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 531,
+      "total_tokens": 562
+    }
+  }
+}

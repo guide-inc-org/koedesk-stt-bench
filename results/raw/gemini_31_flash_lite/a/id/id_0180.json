@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0180",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 20.28,
+  "ref_text_raw": "Sebagai contoh, setiap tahun siswa dari Sekolah Bennet di Carolina Utara mendesain sebuah situs web tentang perjalanan mereka ke ibu kota negara bagian, setiap tahun situs web tersebut diubah bentuknya, tetapi versi lamanya tetap disimpan secara daring untuk dijadikan sebuah buku tempel.",
+  "ref_text_normalized": "sebagai contoh setiap tahun siswa dari sekolah bennet di carolina utara mendesain sebuah situs web tentang perjalanan mereka ke ibu kota negara bagian setiap tahun situs web tersebut diubah bentuknya tetapi versi lamanya tetap disimpan secara daring untuk dijadikan sebuah buku tempel",
+  "timestamp_utc": "2026-07-05T05:56:09Z",
+  "text": "Sebagai contoh, setiap tahun siswa dari Sekolah Bennett di California Utara mendesain sebuah situs web tentang perjalanan mereka ke ibu kota negara bagian. Setiap tahun, situs web tersebut diubah bentuknya, tetapi versi lamanya tetap disimpan secara daring untuk dijadikan sebuah buku tempel.",
+  "latency_sec": 3.1378,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Sebagai contoh, setiap tahun siswa dari Sekolah Bennett di California Utara mendesain sebuah situs web tentang perjalanan mereka ke ibu kota negara bagian. Setiap tahun, situs web tersebut diubah bentuknya, tetapi versi lamanya tetap disimpan secara daring untuk dijadikan sebuah buku tempel.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPAqelAx3EbxW6HJllSCc/QBuDbbCqPIeojyZ2nWJfErwYQo6lCnFHRLQVKZGH"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230969,
+    "id": "9_FJatDQNI-_vr0P4-jhmAM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 53,
+      "prompt_tokens": 528,
+      "total_tokens": 581
+    }
+  }
+}

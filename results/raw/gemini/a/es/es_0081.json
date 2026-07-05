@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0081",
+  "lang": "es",
+  "engine": "gemini_25_flash",
+  "duration_sec": 13.08,
+  "ref_text_raw": "El sistema nervioso central, unión del cerebro, la médula espinal y el nervio óptico, es el objeto de ataque de la esclerosis múltiple.",
+  "ref_text_normalized": "el sistema nervioso central unión del cerebro la médula espinal y el nervio óptico es el objeto de ataque de la esclerosis múltiple",
+  "timestamp_utc": "2026-07-05T04:19:16Z",
+  "text": "El sistema nervioso central, unión del cerebro, la médula espinal y el nervio óptico es el objeto de ataque de la esclerosis múltiple.",
+  "latency_sec": 5.7758,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "El sistema nervioso central, unión del cerebro, la médula espinal y el nervio óptico es el objeto de ataque de la esclerosis múltiple.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225156,
+    "id": "P9tJaurrMK2A1e8P88TkuQE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 440,
+      "total_tokens": 504
+    }
+  }
+}

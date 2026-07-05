@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0021",
+  "lang": "es",
+  "engine": "gemini_25_pro",
+  "duration_sec": 13.32,
+  "ref_text_raw": "Se ha comparado el despliegue de edificaciones que delimitan el horizonte de Hong Kong con un gráfico de barras luminoso que se evidencia por la presencia de las aguas del Puerto Victoria.",
+  "ref_text_normalized": "se ha comparado el despliegue de edificaciones que delimitan el horizonte de hong kong con un gráfico de barras luminoso que se evidencia por la presencia de las aguas del puerto victoria",
+  "timestamp_utc": "2026-07-05T04:14:24Z",
+  "text": "Se ha comparado el despliegue de edificaciones que delimitan el horizonte de Hong Kong con un gráfico de barras luminoso que se evidencia por la presencia de las aguas del puerto Victoria.",
+  "latency_sec": 6.8375,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Se ha comparado el despliegue de edificaciones que delimitan el horizonte de Hong Kong con un gráfico de barras luminoso que se evidencia por la presencia de las aguas del puerto Victoria.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224864,
+    "id": "GtpJaujAK9qdrfcP9dyxkQM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 448,
+      "total_tokens": 707
+    }
+  }
+}

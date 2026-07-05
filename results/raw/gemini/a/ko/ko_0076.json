@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0076",
+  "lang": "ko",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.12,
+  "ref_text_raw": "모로코 술탄은 다루 이 바드야(Daru l-Badya)라는 도시로 재건축하고, 여기에 무역 거점을 세운 스페인 상인들은 이곳을 카사블랑카라고 불렀다.",
+  "ref_text_normalized": "모로코 술탄은 다루 이 바드야daru l-badya라는 도시로 재건축하고 여기에 무역 거점을 세운 스페인 상인들은 이곳을 카사블랑카라고 불렀다",
+  "timestamp_utc": "2026-07-05T05:58:15Z",
+  "text": "모로코 술탄은 다루이 바데아라는 도시로 재건축하고 여기에 무역 거점을 세운 스페인 상인들은 이곳을 카사블랑카라고 불렀다.",
+  "latency_sec": 4.9098,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "모로코 술탄은 다루이 바데아라는 도시로 재건축하고 여기에 무역 거점을 세운 스페인 상인들은 이곳을 카사블랑카라고 불렀다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231095,
+    "id": "c_JJavn2O_HZ1e8Pi4G_8QM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 409,
+      "total_tokens": 720
+    }
+  }
+}

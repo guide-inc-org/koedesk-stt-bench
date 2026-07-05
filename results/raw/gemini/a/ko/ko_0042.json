@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0042",
+  "lang": "ko",
+  "engine": "gemini_25_flash",
+  "duration_sec": 15.66,
+  "ref_text_raw": "단순하면서도 특히 여름철에 인기 있는 저녁식사는 치즈나 참치 등과 같은 손쉽게 구할 수 있는 양념과 토마토, 올리브오일을 곁들인 빵인 파 엠브 올리입니다.",
+  "ref_text_normalized": "단순하면서도 특히 여름철에 인기 있는 저녁식사는 치즈나 참치 등과 같은 손쉽게 구할 수 있는 양념과 토마토 올리브오일을 곁들인 빵인 파 엠브 올리입니다",
+  "timestamp_utc": "2026-07-05T05:55:40Z",
+  "text": "단순하면서도 특히 여름철에 인기 있는 저녁 식사는 치즈나 참치 등과 같은 손쉽게 구할 수 있는 양념과 토마토, 올리브 오일을 곁들인 빵인 파 앰브 올리입니다.",
+  "latency_sec": 3.7854,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "단순하면서도 특히 여름철에 인기 있는 저녁 식사는 치즈나 참치 등과 같은 손쉽게 구할 수 있는 양념과 토마토, 올리브 오일을 곁들인 빵인 파 앰브 올리입니다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230940,
+    "id": "2vFJaqubK_HW2roPo96cwQE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 55,
+      "prompt_tokens": 523,
+      "total_tokens": 602
+    }
+  }
+}

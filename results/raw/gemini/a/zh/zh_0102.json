@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0102",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.0,
+  "ref_text_raw": "女性：建议无论实际婚姻状况如何，所有女性游客都应说自己已婚。",
+  "ref_text_normalized": "女 性 建 议 无 论 实 际 婚 姻 状 况 如 何 所 有 女 性 游 客 都 应 说 自 己 已 婚",
+  "timestamp_utc": "2026-07-05T08:56:07Z",
+  "text": "女性，建議無論實際婚姻狀況如何，所有女性遊客都應說自己已婚。",
+  "latency_sec": 5.5096,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "女性，建議無論實際婚姻狀況如何，所有女性遊客都應說自己已婚。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241767,
+    "id": "IhxKaqH0MeSf1e8PgNPzwAE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 405,
+      "total_tokens": 686
+    }
+  }
+}

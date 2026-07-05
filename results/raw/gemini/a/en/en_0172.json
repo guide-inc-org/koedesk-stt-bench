@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0172",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.1,
+  "ref_text_raw": "There are still many men and women alive who survived their time here, and many more who had loved ones who were murdered or worked to death there, Jews and non-Jews alike.",
+  "ref_text_normalized": "there are still many men and women alive who survived their time here and many more who had loved ones who were murdered or worked to death there jews and non-jews alike",
+  "timestamp_utc": "2026-07-05T03:30:05Z",
+  "text": "There are still many men and women alive who survived their time here and many more who had loved ones who were murdered or worked to death there, Jews and non-Jews alike.",
+  "latency_sec": 4.0831,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "There are still many men and women alive who survived their time here and many more who had loved ones who were murdered or worked to death there, Jews and non-Jews alike.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222205,
+    "id": "us9JarzWJZW4vr0PkIGBmQU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 377,
+      "total_tokens": 480
+    }
+  }
+}

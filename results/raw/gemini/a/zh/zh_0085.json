@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0085",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 4.74,
+  "ref_text_raw": "但鸟类还是有很多地方跟恐龙相似。",
+  "ref_text_normalized": "但 鸟 类 还 是 有 很 多 地 方 跟 恐 龙 相 似",
+  "timestamp_utc": "2026-07-05T08:54:43Z",
+  "text": "但鳥類還是有很多地方和恐龍相似。",
+  "latency_sec": 3.1545,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "但鳥類還是有很多地方和恐龍相似。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241684,
+    "id": "0RtKarfBOpSi9tMP8vOl4AE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 11,
+      "prompt_tokens": 173,
+      "total_tokens": 208
+    }
+  }
+}

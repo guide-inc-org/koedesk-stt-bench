@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0163",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.54,
+  "ref_text_raw": "Angel (2006), menjelaskan pendekatan Continuum sebagai metode yang digunakan untuk membantu organisasi mencapai tingkat kinerja yang lebih tinggi.",
+  "ref_text_normalized": "angel 2006 menjelaskan pendekatan continuum sebagai metode yang digunakan untuk membantu organisasi mencapai tingkat kinerja yang lebih tinggi",
+  "timestamp_utc": "2026-07-05T05:55:06Z",
+  "text": "Angel 2006 menjelaskan pendekatan kontinum sebagai metode yang digunakan untuk membantu organisasi mencapai kinerja yang lebih tinggi.",
+  "latency_sec": 3.1268,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Angel 2006 menjelaskan pendekatan kontinum sebagai metode yang digunakan untuk membantu organisasi mencapai kinerja yang lebih tinggi.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPoDe8KY2CEV0N8SXGeeB2zzgOf/SiCFuXbxGlFWJr1ZJPcybs3Bd5YLkstSU0"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230906,
+    "id": "ufFJarHeC4-D1e8P9I7h6AE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 410,
+      "total_tokens": 433
+    }
+  }
+}

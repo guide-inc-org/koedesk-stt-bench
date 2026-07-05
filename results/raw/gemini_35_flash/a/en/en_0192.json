@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0192",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 18.9,
+  "ref_text_raw": "Five minutes into the display a wind starts rolling in, about a minute later, the wind is reaching 70km/h... then the rain comes, but so hard and so large that it slaps your skin like a needle, then hail fell from the sky, people panicking and screaming and running over each other.",
+  "ref_text_normalized": "five minutes into the display a wind starts rolling in about a minute later the wind is reaching 70km/h... then the rain comes but so hard and so large that it slaps your skin like a needle then hail fell from the sky people panicking and screaming and running over each other",
+  "timestamp_utc": "2026-07-05T03:39:25Z",
+  "text": "Five minutes into the display, a wind starts rolling in. About a minute later, the wind is reaching 70 km per hour. Then the rain comes, but so hard and so large that it slaps your skin like a needle. Then hail fell from the sky, people panicking and screaming and running over each other.",
+  "latency_sec": 5.607,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Five minutes into the display, a wind starts rolling in. About a minute later, the wind is reaching 70 km per hour. Then the rain comes, but so hard and so large that it slaps your skin like a needle. Then hail fell from the sky, people panicking and screaming and running over each other.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222765,
+    "id": "6dFJaqW9LsDH2roPzfDW-AM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 67,
+      "prompt_tokens": 494,
+      "total_tokens": 1103
+    }
+  }
+}

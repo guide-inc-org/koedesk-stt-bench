@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0010",
+  "lang": "ko",
+  "engine": "gemini_25_flash",
+  "duration_sec": 17.7,
+  "ref_text_raw": "기지국에 이중 라디오가 있다면 이것이 802.11a, 802.11b와 802.11g가 이전 기종이라도 호환할 수 있게 해준다.",
+  "ref_text_normalized": "기지국에 이중 라디오가 있다면 이것이 802.11a 802.11b와 802.11g가 이전 기종이라도 호환할 수 있게 해준다",
+  "timestamp_utc": "2026-07-05T05:53:18Z",
+  "text": "기지국에 이중 라디오가 있다면 이것이 802.11a 802.11b와 802.11g가 이전 기종이라도 호환할 수 있게 해 준다.",
+  "latency_sec": 3.1448,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "기지국에 이중 라디오가 있다면 이것이 802.11a 802.11b와 802.11g가 이전 기종이라도 호환할 수 있게 해 준다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230798,
+    "id": "TPFJasGzBpbPrfcP9aSH-Ac",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 52,
+      "prompt_tokens": 588,
+      "total_tokens": 664
+    }
+  }
+}

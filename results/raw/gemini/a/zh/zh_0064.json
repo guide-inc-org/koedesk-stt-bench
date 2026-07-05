@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0064",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.6,
+  "ref_text_raw": "这里几乎都是沙滩，游泳很安全，大部分地方都有新西兰圣诞树的树荫。",
+  "ref_text_normalized": "这 里 几 乎 都 是 沙 滩 游 泳 很 安 全 大 部 分 地 方 都 有 新 西 兰 圣 诞 树 的 树 荫",
+  "timestamp_utc": "2026-07-05T08:53:01Z",
+  "text": "这里几乎都是沙滩,游泳很安全,大部分地方都有新西兰圣诞树的树荫。",
+  "latency_sec": 3.7164,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "这里几乎都是沙滩,游泳很安全,大部分地方都有新西兰圣诞树的树荫。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241581,
+    "id": "axtKaq7KFcqn2roP1aC6yAE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 425,
+      "total_tokens": 472
+    }
+  }
+}

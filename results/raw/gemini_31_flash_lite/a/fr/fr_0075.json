@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0075",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.88,
+  "ref_text_raw": "Il est fortement conseillé aux voyageurs de se renseigner sur les risques de mauvais temps pouvant affecter leur région de destination, sachant que cela peut avoir une incidence sur les itinéraires qu'ils envisagent.",
+  "ref_text_normalized": "il est fortement conseillé aux voyageurs de se renseigner sur les risques de mauvais temps pouvant affecter leur région de destination sachant que cela peut avoir une incidence sur les itinéraires qu'ils envisagent",
+  "timestamp_utc": "2026-07-05T05:14:08Z",
+  "text": "Il est fortement conseillé aux voyageurs de se renseigner sur les risques de mauvais temps pouvant affecter leur région de destination, sachant que cela peut avoir une incidence sur les itinéraires qu'ils envisagent.",
+  "latency_sec": 2.7228,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Il est fortement conseillé aux voyageurs de se renseigner sur les risques de mauvais temps pouvant affecter leur région de destination, sachant que cela peut avoir une incidence sur les itinéraires qu'ils envisagent.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP4sze7g06W1PejEPoBHiWJOiYQ5XxoUqBXGUIpe3zEBXuvYCLbOHXp74qks7V"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228448,
+    "id": "H-hJaqvgG_yk0-kP9PODwAc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 318,
+      "total_tokens": 361
+    }
+  }
+}

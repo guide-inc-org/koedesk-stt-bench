@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0006",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.4,
+  "ref_text_raw": "Malgré le net avantage de Del Potro pendant le deuxième set, il a fallu passer par un tie-break une fois que le score a atteint 6-6.",
+  "ref_text_normalized": "malgré le net avantage de del potro pendant le deuxième set il a fallu passer par un tie-break une fois que le score a atteint 6-6",
+  "timestamp_utc": "2026-07-05T04:45:53Z",
+  "text": "Malgré le net avantage de Del Potro pendant le deuxième set, il a fallu passer par un tie-break une fois que le score a atteint 6-6.```fr\nMalgré le net avantage de Del Potro pendant le deuxième set, il a fallu passer par un tie-break une fois que le score a atteint 6-6.\n```",
+  "latency_sec": 3.5103,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Malgré le net avantage de Del Potro pendant le deuxième set, il a fallu passer par un tie-break une fois que le score a atteint 6-6.```fr\nMalgré le net avantage de Del Potro pendant le deuxième set, il a fallu passer par un tie-break une fois que le score a atteint 6-6.\n```",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226753,
+    "id": "f-FJatrZD9Lu1e8P1-bXkAI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 77,
+      "prompt_tokens": 290,
+      "total_tokens": 393
+    }
+  }
+}

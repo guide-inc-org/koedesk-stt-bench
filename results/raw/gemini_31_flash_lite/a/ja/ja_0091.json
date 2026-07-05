@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0091",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 16.98,
+  "ref_text_raw": "本件は、トランプ大統領がトルコのレセップ・タイップ・エルドアン大統領と電話会談した後で発表されました。",
+  "ref_text_normalized": "本件は トランプ大統領がトルコのレセップ タイップ エルドアン大統領と電話会談した後で発表されました",
+  "timestamp_utc": "2026-07-05T10:18:17Z",
+  "text": "本件 は トランプ 大統領 が トルコ の レジェップ・タイイップ・エルドアン 大統領 と 電話 会談 し た 後 で 発表 さ れ まし た 。",
+  "latency_sec": 3.3779,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "本件 は トランプ 大統領 が トルコ の レジェップ・タイイップ・エルドアン 大統領 と 電話 会談 し た 後 で 発表 さ れ まし た 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP3bNygRpXBaxU5bF4p7fzxto8e+Tcnit91DHIUumwUCU+hBLw/ssMESKr4wYe"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246697,
+    "id": "Zy9KaqHjFLif0-kPzJPfgAc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 446,
+      "total_tokens": 485
+    }
+  }
+}

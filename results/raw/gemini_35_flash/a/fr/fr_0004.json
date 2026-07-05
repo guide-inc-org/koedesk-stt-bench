@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0004",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.34,
+  "ref_text_raw": "Le même mois, un autre avion de ligne a fait une sortie de piste à Mashhad et a heurté un mur, tuant ainsi dix-sept personnes.",
+  "ref_text_normalized": "le même mois un autre avion de ligne a fait une sortie de piste à mashhad et a heurté un mur tuant ainsi dix-sept personnes",
+  "timestamp_utc": "2026-07-05T05:01:21Z",
+  "text": "Le même mois, un autre avion de ligne a fait une sortie de piste à Machhad et heurté un mur, tuant ainsi 17 personnes.",
+  "latency_sec": 5.1936,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Le même mois, un autre avion de ligne a fait une sortie de piste à Machhad et heurté un mur, tuant ainsi 17 personnes.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqsLCqgLARFNMg81rm57D/gDL0sBNO2Kgpvmx/FtGxdtlVqsk418MQS3DidrG8LfC2zJLxkJWEKrcoNOuKyDg3QidIQpRFHx+3xqe7vYyILwFvBqf0cKs+UhJShhej3FkveLazlKJyLkXG7L1QoXNGIZZesjCBqkWM99cTVd2dlb2jkK2x3MmYyAceYN1tC4dRVhGaW7hYJ2XXfdfIH+kQB1lJtm2I/BVbE6HDClB8Cxf5wrGD7OUKUqBI5+e+GsvOdq3WF10lyEcytCZoaEb80dN1bE1MQ6RF2CZrakVnbbbVysw2a0t4L5LqZdv5jAH8xHT3vpsDGth/H87/aK1meoqsgQBnK4+Th66Oaba7IAxB9a6kJHFFNhlwRkCIM0jv1eAThHQRwi/4CfIualU+whRGHaDCZqtBlAEGumhRS+iVxbJJaCQ5iCRdqKvfQh1SL0/ytZhfvTaP4wQGl8NlgW/D4S8ucRa4SaVfVO6Wnb+TBVcNUh2gPbp1IXjpS1etHhJyHbEn5KIqc7ki01554CWCujasvDz57C7Ej5SB9INrGvmSWpyfUSRa2dXe/QMAnyg8puPDfWFj60kaUNBsWdZkOCpRMbIzPswssFtaDH2BsckqoWsc4v4sbIYoKkJGV07R4FAyxpE1owHcTqqvW68PThvInokolf++4sKWczmWyg5OGtLd/WLh2Jt0xuoqGBdaHg1+9dt31dPur8nJNnbgBMMeWtRTgR4CNzAikRrel/i5TboMPz6v+Yl2soO75C7ZmQobLngR/8v8iD1weS9jvMuV3U6g9qNulJz1JyvZ+0M3nWHUd+QyaNIWLRAreUWaV/3q49SlPPM8sC5N83D0Jj94+iexKfCotHj+65YbbHNJIpK2idYguxos4i170j7h0ACY0o8O3CqCY8zF9EFgW73AvcaDLot+TZ5v2wW5Jj94aGnkoCEiuaC1mQ0dkAslBu9MC1WMQd0QjMwofTHsfGS+dY/DJfvtEBdAAl7XvXjJWnbd9kD/FH0BzV6VnwYcCrqsa4VCOun6AtcR3UCN+DclgBdxZTnNet5aaOrPAZkc/80XCUaIvI5Cy6UqM2tSMgSSv/TbCxQyGzGsGLJ4jfUPIaXnAAsZdfnBJ7Os7bJr/0XDeS9dnUgk+ExfxYQRrcms0Rh3DloE1fIvhSAxGYhNRTkgtMZktFD9Z6Ppea9Hv0diyI2wlFh4NWm6AP0YlbMv0M5S2sY7qlYhUkVl4vz8HrQzG+lYSBoS/3IRPtD9v/u1BrD/aL1xcBIdEYXBGNQRm7jGmsIR0pirfiPaZPPZnjf1ur57lgBfCShsU4KolvCIYiayu2SMu9pvnWTXMa4GTvJ68/LdoWZKiq6REZkPGSXMQ2ENla/BrsQ7opg9ZppM8P3bmpC0DH/yYfPx+2kMB/ZLdAtCb9e1aTiTpiadngtKrsZDU3gYyXe+fejI+822PEe6HGzpUnJEcXnv2jUW6U8Shqj2yuDecFE5padd4UsrLbg4AxF2Me+xwBhfifWFvH8KCDuGiEm/rxFLO0K54xG8R/eRiekfUFHKPcVBCn5B0DHzDPSn4fyepKeBP7EoBUiEO3GIllIiWVWFlnNxUVOtozmcxkDdAINBlUPaaC1Ag1/JK/S3NbdOnR3bY/9qH42f7XlR3poGW8YPEx5gC+xoKaKyLb+NeEEnZ37f4mlSdJ2kCHNFD7jH87q2pqlDVp46XcOuFXoglQvZAsgS9ETd+hFVQhh5qveeAY/fk2dyphUrw9Qu7LpHG+EyLOJl3CPq2j9dMaZ3KpEMpX3kOT9bEIOYlkXpBlYMrxY/ZK6NzJwXLAHkyOeTWiV9a5qrG2q8rRGPmU8G3fz+NoVBaWAVoIa0bwJ2LsKO/9UgCIDXXAvfQf8LZH5Oht/tOduOKfri8U+pKszY2R/Nq5wWi0eHqj3oA="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227681,
+    "id": "HeVJauuMCZK02roP8vW-qQE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 230,
+      "total_tokens": 665
+    }
+  }
+}

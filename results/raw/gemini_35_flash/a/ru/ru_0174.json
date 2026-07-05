@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0174",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.1,
+  "ref_text_raw": "Однако после потери калитки капитана Индия совершила лишь 36 пробегов, потеряв 7 калиток для завершения иннингсов.",
+  "ref_text_normalized": "однако после потери калитки капитана индия совершила лишь 36 пробегов потеряв 7 калиток для завершения иннингсов",
+  "timestamp_utc": "2026-07-05T07:31:56Z",
+  "text": "Однако после потери калитки капитана Индия совершила лишь тридцать шесть пробегов, потеряв семь калиток для завершения иннингсов.",
+  "latency_sec": 4.59,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Однако после потери калитки капитана Индия совершила лишь тридцать шесть пробегов, потеряв семь калиток для завершения иннингсов.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236716,
+    "id": "aAhKaoKTOPK8vr0P85enuQQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 299,
+      "total_tokens": 722
+    }
+  }
+}

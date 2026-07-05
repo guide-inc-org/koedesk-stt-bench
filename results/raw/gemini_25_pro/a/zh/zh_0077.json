@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0077",
+  "lang": "zh",
+  "engine": "gemini_25_pro",
+  "duration_sec": 15.98,
+  "ref_text_raw": "詹卡洛·费斯切拉因失去了对赛车的把控，在比赛开始后不久就退出了。",
+  "ref_text_normalized": "詹 卡 洛 费 斯 切 拉 因 失 去 了 对 赛 车 的 把 控 在 比 赛 开 始 后 不 久 就 退 出 了",
+  "timestamp_utc": "2026-07-05T08:57:21Z",
+  "text": "詹卡洛·费斯切拉因失去了对赛车的把控, 在比赛开始后不久就退出了。",
+  "latency_sec": 6.3921,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "詹卡洛·费斯切拉因失去了对赛车的把控, 在比赛开始后不久就退出了。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241841,
+    "id": "bBxKavbZEdmK0-kP0MrjsQM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 533,
+      "total_tokens": 998
+    }
+  }
+}

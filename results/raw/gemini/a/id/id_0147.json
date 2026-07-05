@@ -1,0 +1,39 @@
+{
+  "utt_id": "id_0147",
+  "lang": "id",
+  "engine": "gemini_25_flash",
+  "duration_sec": 16.68,
+  "ref_text_raw": "Ottawa merupakan ibu kota Kanada yang menawan, menggunakan dua bahasa, dan menampilkan berbagai galeri seni dan museum yang memamerkan Kanada dahulu dan sekarang.",
+  "ref_text_normalized": "ottawa merupakan ibu kota kanada yang menawan menggunakan dua bahasa dan menampilkan berbagai galeri seni dan museum yang memamerkan kanada dahulu dan sekarang",
+  "timestamp_utc": "2026-07-05T05:30:38Z",
+  "text": "Ottawa merupakan ibu kota Kanada yang menawan, menggunakan dua bahasa, dan menampilkan berbagai galeri seni dan museum yang memamerkan Kanada dahulu dan sekarang.",
+  "latency_sec": 4.371,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Ottawa merupakan ibu kota Kanada yang menawan, menggunakan dua bahasa, dan menampilkan berbagai galeri seni dan museum yang memamerkan Kanada dahulu dan sekarang.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783229438,
+    "id": "--tJauecEJO00-kP9qbDqAY",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 555,
+      "total_tokens": 608
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0088",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.36,
+  "ref_text_raw": "On some routes, the larger companies have their own planes, but for other routes and smaller firms there was a problem.",
+  "ref_text_normalized": "on some routes the larger companies have their own planes but for other routes and smaller firms there was a problem",
+  "timestamp_utc": "2026-07-05T10:33:09Z",
+  "text": "On some routes, the larger companies have their own planes, but for other routes and smaller firms, there was a problem.",
+  "latency_sec": 2.7231,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "On some routes, the larger companies have their own planes, but for other routes and smaller firms, there was a problem.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPpeHW0uGa5gK8wQBHjq7c9shR++XTsTpmwDTpd+6PsaXG0lEcSo2nGkSGwgJH"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247589,
+    "id": "5DJKas-OFbbR0-kPp6yr6QI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 255,
+      "total_tokens": 280
+    }
+  }
+}

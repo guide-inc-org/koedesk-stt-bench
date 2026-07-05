@@ -1,0 +1,39 @@
+{
+  "utt_id": "vi_0100",
+  "lang": "vi",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.56,
+  "ref_text_raw": "Nhiều món bánh nướng của Đức còn có hạnh nhân, quả phỉ và các loại hạt khác. Bánh càng ngon hơn khi ăn kèm một tách cà phê đậm đà.",
+  "ref_text_normalized": "nhiều món bánh nướng của đức còn có hạnh nhân quả phỉ và các loại hạt khác bánh càng ngon hơn khi ăn kèm một tách cà phê đậm đà",
+  "timestamp_utc": "2026-07-05T08:19:46Z",
+  "text": "Nhiều món bánh nướng của Đức còn có hạnh nhân, quả phỉ và các loại hạt khác. Bánh càng ngon hơn khi ăn kèm một tách cà phê đậm đà.",
+  "latency_sec": 3.6913,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Nhiều món bánh nướng của Đức còn có hạnh nhân, quả phỉ và các loại hạt khác. Bánh càng ngon hơn khi ăn kèm một tách cà phê đậm đà.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239586,
+    "id": "oBNKavzvD7vN2roPnu2ysAU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 359,
+      "total_tokens": 467
+    }
+  }
+}

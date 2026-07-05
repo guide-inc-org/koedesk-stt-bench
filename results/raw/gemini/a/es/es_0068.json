@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0068",
+  "lang": "es",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.88,
+  "ref_text_raw": "El impacto de volver a casa se produce antes que el cultural (no existe un período de felicidad de «luna de miel»), tarda más en irse y puede ser más duro.",
+  "ref_text_normalized": "el impacto de volver a casa se produce antes que el cultural no existe un período de felicidad de «luna de miel» tarda más en irse y puede ser más duro",
+  "timestamp_utc": "2026-07-05T04:18:07Z",
+  "text": "El impacto de volver a casa se produce antes que el cultural. No existe un periodo de felicidad de luna de miel, tarda más en irse y puede ser más duro.",
+  "latency_sec": 3.944,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "El impacto de volver a casa se produce antes que el cultural. No existe un periodo de felicidad de luna de miel, tarda más en irse y puede ser más duro.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225087,
+    "id": "_NpJatCEKLyyvr0Pp7y7iQU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 402,
+      "total_tokens": 554
+    }
+  }
+}

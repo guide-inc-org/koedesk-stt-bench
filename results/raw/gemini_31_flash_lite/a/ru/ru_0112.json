@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0112",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.58,
+  "ref_text_raw": "Это иногда переполненные народом семейные пляжи с хорошим выбором магазинов, расположенных вдоль берега. Плавать безопасно.",
+  "ref_text_normalized": "это иногда переполненные народом семейные пляжи с хорошим выбором магазинов расположенных вдоль берега плавать безопасно",
+  "timestamp_utc": "2026-07-05T07:33:54Z",
+  "text": "Это иногда переполненные народом семейные пляжи с хорошим выбором магазинов, расположенных вдоль берега. Плавать безопасно.",
+  "latency_sec": 2.5327,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Это иногда переполненные народом семейные пляжи с хорошим выбором магазинов, расположенных вдоль берега. Плавать безопасно.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP/eez5Eby99erEqMxT0gqoV7FAzpzuvN7hFGDXdGLhOseOUvadl/CANcihirS"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236834,
+    "id": "4QhKaoWDF8-a1e8P7YSs0QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 236,
+      "total_tokens": 268
+    }
+  }
+}

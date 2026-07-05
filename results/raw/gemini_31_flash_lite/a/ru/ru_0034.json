@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0034",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.82,
+  "ref_text_raw": "Великая пирамида была возведена египтянами в третьем веке до нашей эры и является одним из множества больших пирамидальных сооружений, построенных, чтобы почтить память фараона.",
+  "ref_text_normalized": "великая пирамида была возведена египтянами в третьем веке до нашей эры и является одним из множества больших пирамидальных сооружений построенных чтобы почтить память фараона",
+  "timestamp_utc": "2026-07-05T07:29:05Z",
+  "text": "Великая пирамида была возведена египтянами в III веке до нашей эры и является одним из множества больших пирамидальных сооружений, построенных, чтобы почтить память фараона.",
+  "latency_sec": 2.8741,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Великая пирамида была возведена египтянами в III веке до нашей эры и является одним из множества больших пирамидальных сооружений, построенных, чтобы почтить память фараона.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPTzO/4VzhugqDj4i4DC+Q0GhjYPiHVxAfKfng8442x4DjSmy9Rl2GekIeKiv+"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236546,
+    "id": "wAdKaqThGpnd2roP0-bGsQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 42,
+      "prompt_tokens": 317,
+      "total_tokens": 359
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0197",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.5,
+  "ref_text_raw": "Geben Sie acht, dass der Stoff nicht zu heiß wird (das kann ihn schrumpfen lassen oder in extremen Fällen zu Verbrennungen führen).",
+  "ref_text_normalized": "geben sie acht dass der stoff nicht zu heiß wird das kann ihn schrumpfen lassen oder in extremen fällen zu verbrennungen führen",
+  "timestamp_utc": "2026-07-05T04:12:37Z",
+  "text": "Geben Sie acht, dass der Stoff nicht zu heiß wird. Das kann ihn schrumpfen lassen oder in extremen Fällen zu Verbrennungen führen.",
+  "latency_sec": 9.1167,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Geben Sie acht, dass der Stoff nicht zu heiß wird. Das kann ihn schrumpfen lassen oder in extremen Fällen zu Verbrennungen führen.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Et4FCtsFARFNMg+Vb/uI0pRSDZ+vg/oa3/uLNxR/OdVFL2pxmOygJ+7m8m1kIXl4yTv5atUOKclnShcDMvoQ69ynUTKGaU/G80HekS7HKF6Zu0PFAu6CZkz4cn7HTBw7WNE0P/E4F8BSS1h7z5+0Lbrh8kbi6dwqhJc4U/fGVvap+tvZDX5J0EVEb76Fpoam1fkMbzv5E2J0fQG9QicwvrZJEVJb0DfWAzeJim3KtlnhrpiJgbTwMipEfsMk0AJEYXfHi6jylXSbssAuLgw3ZWWyPWhY/pepb7ikXUvfQutAelpmxTjfkKxgUwwdeiz6gkTKwshK76426DZYpNDHelt013bZbnKHkWZK+zLESYvOBeLi3oKk3O4dj2XXmVGoto5K+VNsaBCEp/2oHc7EBeZMCczssKejDaKCW/Sjfvht483En/F+tL8aSZCDEiKM5JUv5nGlCSIWwCszsDSlKFW8WCK0DRqnwjxcXKRbV+/YbTV34KtC0qLlbcolMmwo9f+P3RUt3N7OjJ6RIjnDRC9d4GMj5jaDf3w80x1tytpV8CBEsnWY6Fls8kMQ3Kj0r/2OdbD1Fz42OQ+7mLpIyXr9ETegBZLXKtKz0soKPc/NG9uSccoyVJKJucWErtE95NLpPYsW90cxcncd64tbBbWyXWzp3PLEpW3WoLXYj6IoZHLTcLOGb8O76v6qYU2xvWiX+MhrqahI+TurEBh4uHt2/Ml2D/OI0eX1MEbEULiNkf3uWiciHqq/23YHU+4VvLRS2FeCwK+uxAwb69dFOZ/xUPiziWMZ/QQTgs+rgDyOh2npaAr2hB1wguAQuKX7GhKflFVVmCFO/td9RqW1u8KUnFPZav2qvYPBXlPwCX8NqOzzYuHnUfbJE5wxZa5u2CdELhDJ3aYAZpZ1w//0Lrzii81ZOMEioIfMl3dReUzx/R8lum/VQ6+gDaVTngWI3De3a2YLN8tQQb0p+DjcIGQ="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224757,
+    "id": "stlJatCeJ4CUvr0P6IWioQU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 284,
+      "total_tokens": 482
+    }
+  }
+}

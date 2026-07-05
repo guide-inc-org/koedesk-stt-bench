@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0116",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 23.58,
+  "ref_text_raw": "例えば、ノースカロライナ州のベネットスクールの生徒は毎年、州都への旅行に関するウェブサイトを制作しており、ウェブサイトは毎年改訂されますが、旧サイトはスクラップブックとして閲覧できるようにオンラインで保管されています。",
+  "ref_text_normalized": "例えば ノースカロライナ州のベネットスクールの生徒は毎年 州都への旅行に関するウェブサイトを制作しており ウェブサイトは毎年改訂されますが 旧サイトはスクラップブックとして閲覧できるようにオンラインで保管されています",
+  "timestamp_utc": "2026-07-05T03:08:11Z",
+  "text": "例えばノースカロライナ州のベネットスクールの生徒は毎年、州都への旅行に関するウェブサイトを制作しており、ウェブサイトは毎年改定されますが、旧サイトはスクラップブックとして閲覧できるようにオンラインで保管されています。",
+  "latency_sec": 6.6338,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "例えばノースカロライナ州のベネットスクールの生徒は毎年、州都への旅行に関するウェブサイトを制作しており、ウェブサイトは毎年改定されますが、旧サイトはスクラップブックとして閲覧できるようにオンラインで保管されています。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783220891,
+    "id": "lspJaseRGbup2roP26eg2QY",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 50,
+      "prompt_tokens": 776,
+      "total_tokens": 1229
+    }
+  }
+}

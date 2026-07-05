@@ -1,0 +1,39 @@
+{
+  "utt_id": "pt_0199",
+  "lang": "pt",
+  "engine": "gemini_25_pro",
+  "duration_sec": 14.7,
+  "ref_text_raw": "Os idiomas oficiais de Barcelona são catalão e espanhol. Quase metade das pessoas preferem falar catalão, grande parte o compreende, e quase todos sabem espanhol",
+  "ref_text_normalized": "os idiomas oficiais de barcelona são catalão e espanhol quase metade das pessoas preferem falar catalão grande parte o compreende e quase todos sabem espanhol",
+  "timestamp_utc": "2026-07-05T06:53:47Z",
+  "text": "Os idiomas oficiais de Barcelona são catalão e espanhol. Quase metade das pessoas preferem falar catalão. Grande parte o compreende e quase todos sabem espanhol.",
+  "latency_sec": 5.3615,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Os idiomas oficiais de Barcelona são catalão e espanhol. Quase metade das pessoas preferem falar catalão. Grande parte o compreende e quase todos sabem espanhol.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234427,
+    "id": "d_9JavznEPK8vr0P85enuQQ",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 492,
+      "total_tokens": 745
+    }
+  }
+}

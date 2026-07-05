@@ -1,0 +1,39 @@
+{
+  "utt_id": "id_0105",
+  "lang": "id",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.1,
+  "ref_text_raw": "Pertama, kebanyakan pengemudi memakai sepatu bot mengemudi dengan tumit dan sol yang halus dan sempit.",
+  "ref_text_normalized": "pertama kebanyakan pengemudi memakai sepatu bot mengemudi dengan tumit dan sol yang halus dan sempit",
+  "timestamp_utc": "2026-07-05T05:27:24Z",
+  "text": "Pertama, kebanyakan pengemudi memakai sepatu boot mengemudi dengan tumit dan sol yang halus dan sempit.",
+  "latency_sec": 4.0835,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Pertama, kebanyakan pengemudi memakai sepatu boot mengemudi dengan tumit dan sol yang halus dan sempit.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783229244,
+    "id": "OetJarrMI6G2vr0PqrfGqAE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 281,
+      "total_tokens": 470
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0122",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.34,
+  "ref_text_raw": "既婚者であり、成人した2人の子を持つデュバルは、この話に関係するミラーにあまり印象を残しませんでした。",
+  "ref_text_normalized": "既婚者であり 成人した2人の子を持つデュバルは この話に関係するミラーにあまり印象を残しませんでした",
+  "timestamp_utc": "2026-07-05T03:08:21Z",
+  "text": "結婚者であり成人した二人の子を持つリバルは、この話に関係するミラーにあまり印象を残しませんでした。",
+  "latency_sec": 4.5922,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "結婚者であり成人した二人の子を持つリバルは、この話に関係するミラーにあまり印象を残しませんでした。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783220901,
+    "id": "ospJauzhA8mzvr0PmpW5mQI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 384,
+      "total_tokens": 638
+    }
+  }
+}

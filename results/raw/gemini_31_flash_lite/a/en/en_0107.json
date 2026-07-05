@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0107",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.68,
+  "ref_text_raw": "Romanticism had a large element of cultural determinism, drawn from writers such as Goethe, Fichte, and Schlegel.",
+  "ref_text_normalized": "romanticism had a large element of cultural determinism drawn from writers such as goethe fichte and schlegel",
+  "timestamp_utc": "2026-07-05T03:33:40Z",
+  "text": "Romanticism had a large element of cultural determinism drawn from writers such as Goethe, Fichte, and Schlegel.",
+  "latency_sec": 2.946,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Romanticism had a large element of cultural determinism drawn from writers such as Goethe, Fichte, and Schlegel.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPs8Kn6Y6wHNqurJr4AWWcwqoJF+LHrz53aUjirvYCj0Icn4idnwOUi4IJX8du"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222420,
+    "id": "ktBJavueIqne1e8P6I_tqAg",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 288,
+      "total_tokens": 312
+    }
+  }
+}

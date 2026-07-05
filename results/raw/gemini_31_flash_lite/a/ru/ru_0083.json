@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0083",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.8,
+  "ref_text_raw": "Первоначально он был госпитализирован в госпитале Джеймса Педжета в Грейт-Ярмуте.",
+  "ref_text_normalized": "первоначально он был госпитализирован в госпитале джеймса педжета в грейт-ярмуте",
+  "timestamp_utc": "2026-07-05T07:32:07Z",
+  "text": "Первоначально он был госпитализирован в госпитале Джеймса Педжета в Грейт-Ярмуте.",
+  "latency_sec": 2.6581,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Первоначально он был госпитализирован в госпитале Джеймса Педжета в Грейт-Ярмуте.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPQtkZ7vb2lIH+j1UZahF9spSvbCHQwKcL1m8d1srLrJoMDV1fTlJ3pN/LGkZ3"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236727,
+    "id": "dQhKavX2Ka2Qvr0PxLzU0Qc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 216,
+      "total_tokens": 245
+    }
+  }
+}

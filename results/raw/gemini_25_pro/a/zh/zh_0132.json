@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0132",
+  "lang": "zh",
+  "engine": "gemini_25_pro",
+  "duration_sec": 9.48,
+  "ref_text_raw": "如果只是在乘船游览的情况下登岸，则不需要单独的签证（规定截至 2009 年）。",
+  "ref_text_normalized": "如 果 只 是 在 乘 船 游 览 的 情 况 下 登 岸 则 不 需 要 单 独 的 签 证 规 定 截 至 2009 年",
+  "timestamp_utc": "2026-07-05T09:02:43Z",
+  "text": "如果只是在乘船游览的情况下登岸,则不需要单独的签证,规定截至2009年。",
+  "latency_sec": 4.6576,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "如果只是在乘船游览的情况下登岸,则不需要单独的签证,规定截至2009年。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242163,
+    "id": "sB1KasfjGPGC0-kP1smn0AY",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 325,
+      "total_tokens": 350
+    }
+  }
+}

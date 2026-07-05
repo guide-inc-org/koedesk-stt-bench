@@ -1,0 +1,36 @@
+{
+  "utt_id": "fr_0017",
+  "lang": "fr",
+  "engine": "google_stt_v2",
+  "duration_sec": 7.8,
+  "ref_text_raw": "La plupart des petites îles sont des nations indépendantes, ou associées à la France, et sont connues pour être des stations balnéaires de luxe.",
+  "ref_text_normalized": "la plupart des petites îles sont des nations indépendantes ou associées à la france et sont connues pour être des stations balnéaires de luxe",
+  "timestamp_utc": "2026-07-05T04:18:13Z",
+  "text": "La plupart des petites îles sont des nations indépendantes ou associées à la France et sont connues pour être des stations balnéaires de luxe.",
+  "latency_sec": 3.61,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "fr-FR",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "8s",
+      "requestId": "6d32d680-0000-2ab1-9c37-ac3eb14739d8",
+      "prompt": "Transcribe the following speech segment in French. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, French."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "La plupart des petites îles sont des nations indépendantes ou associées à la France et sont connues pour être des stations balnéaires de luxe."
+          }
+        ],
+        "languageCode": "fr-FR"
+      }
+    ]
+  }
+}

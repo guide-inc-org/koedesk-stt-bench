@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0166",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 5.52,
+  "ref_text_raw": "Dans le climat chaud du Moyen-Orient, la maison n'était pas si importante.",
+  "ref_text_normalized": "dans le climat chaud du moyen-orient la maison n'était pas si importante",
+  "timestamp_utc": "2026-07-05T05:05:36Z",
+  "text": "Dans le climat chaud du Moyen-Orient, la maison n'était pas si importante.",
+  "latency_sec": 6.3144,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Dans le climat chaud du Moyen-Orient, la maison n'était pas si importante.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227936,
+    "id": "G-ZJavKSJpHNrfcPvY_ZsAY",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 198,
+      "total_tokens": 424
+    }
+  }
+}

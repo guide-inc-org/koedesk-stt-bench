@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0151",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.08,
+  "ref_text_raw": "NextGen is a system the FAA claims would allow aircraft to fly shorter routes and save millions of gallons of fuel each year and cut carbon emissions.",
+  "ref_text_normalized": "nextgen is a system the faa claims would allow aircraft to fly shorter routes and save millions of gallons of fuel each year and cut carbon emissions",
+  "timestamp_utc": "2026-07-05T03:36:19Z",
+  "text": "NextGen is a system the FAA claims would allow aircraft to fly shorter routes and save millions of gallons of fuel each year and cut carbon emissions.",
+  "latency_sec": 2.9868,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "NextGen is a system the FAA claims would allow aircraft to fly shorter routes and save millions of gallons of fuel each year and cut carbon emissions.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPlQBsy3tcgFtohtZH5wmgEl71sPYze7sSCdxPKfDuHFIZ6V5VlEPJ4MPeMhOR"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222579,
+    "id": "MtFJasqIC6Kw0-kP6bjO4AU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 273,
+      "total_tokens": 302
+    }
+  }
+}

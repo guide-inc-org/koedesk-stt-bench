@@ -1,0 +1,36 @@
+{
+  "utt_id": "en_0153",
+  "lang": "en",
+  "engine": "google_stt_v2",
+  "duration_sec": 12.24,
+  "ref_text_raw": "A simple popular dinner, especially during the summer, is the Pa amb Oli: Bread with olive oil, tomato, and any available condiments such as cheese, tunafish, etc.",
+  "ref_text_normalized": "a simple popular dinner especially during the summer is the pa amb oli bread with olive oil tomato and any available condiments such as cheese tunafish etc",
+  "timestamp_utc": "2026-07-05T03:36:03Z",
+  "text": "A simple, popular dinner, especially during the summer, is the \"pa amb oli\", bread with olive oil, tomato and any available condiments such as cheese, tuna fish, etc.",
+  "latency_sec": 4.9258,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "en-US",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "13s",
+      "requestId": "6a83b690-0000-23a9-a5d7-d43a2cc2b52f",
+      "prompt": "Transcribe the following speech segment in English. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, English."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "A simple, popular dinner, especially during the summer, is the \"pa amb oli\", bread with olive oil, tomato and any available condiments such as cheese, tuna fish, etc."
+          }
+        ],
+        "languageCode": "en-US"
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0090",
+  "lang": "th",
+  "engine": "gemini_25_flash",
+  "duration_sec": 15.48,
+  "ref_text_raw": "แต่การตั้งอยู่ใน \"เขตร้อนสูง\" ที่อยู่เหนือเส้นศูนย์สูตรเพียงไม่กี่องศา ทำให้คุณต้องรับมือกับทั้งความร้อน (ตลอดเวลา) และแดดจ้า (เมื่อฟ้าโปร่ง ซึ่งไม่บ่อยนัก)",
+  "ref_text_normalized": "แต่การตั้งอยู่ใน เขตร้อนสูง ที่อยู่เหนือเส้นศูนย์สูตรเพียงไม่กี่องศา ทำให้คุณต้องรับมือกับทั้งความร้อน ตลอดเวลา และแดดจ้า เมื่อฟ้าโปร่ง ซึ่งไม่บ่อยนัก",
+  "timestamp_utc": "2026-07-05T07:41:45Z",
+  "text": "แต่การตั้งอยู่ในเขตร้อนสูง ที่อยู่เหนือเส้นศูนย์สูตรเพียงไม่กี่องศา ทำให้คุณต้องรับมือกับความร้อน ตลอดเวลาและแดดจ้า เมื่อท้องฟ้าโปร่งซึ่งไม่บ่อยนัก",
+  "latency_sec": 3.7278,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "แต่การตั้งอยู่ในเขตร้อนสูง ที่อยู่เหนือเส้นศูนย์สูตรเพียงไม่กี่องศา ทำให้คุณต้องรับมือกับความร้อน ตลอดเวลาและแดดจ้า เมื่อท้องฟ้าโปร่งซึ่งไม่บ่อยนัก",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237305,
+    "id": "tgpKatnDNK_f1e8Pio2NuQI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 48,
+      "prompt_tokens": 517,
+      "total_tokens": 595
+    }
+  }
+}

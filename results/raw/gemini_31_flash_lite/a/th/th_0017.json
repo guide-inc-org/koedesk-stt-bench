@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0017",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.76,
+  "ref_text_raw": "ซึ่งระบุว่าตำแหน่งที่มีประสิทธิภาพสูงสุดสำหรับวัตถุหลัก คือที่จุดตัดของเส้นที่แบ่งรูปภาพนั้นออกเป็นสามส่วนทั้งแนวตั้งและแนวนอน (ดูตัวอย่าง)",
+  "ref_text_normalized": "ซึ่งระบุว่าตำแหน่งที่มีประสิทธิภาพสูงสุดสำหรับวัตถุหลัก คือที่จุดตัดของเส้นที่แบ่งรูปภาพนั้นออกเป็นสามส่วนทั้งแนวตั้งและแนวนอน ดูตัวอย่าง",
+  "timestamp_utc": "2026-07-05T08:01:43Z",
+  "text": "ซึ่ง ระบุ ว่า ตำแหน่ง ที่ มี ประสิทธิภาพ สูง สุด สำหรับ วัตถุ หลัก คือ ที่ จุด ตัด ของ เส้น ที่ แบ่ง รูป ภาพ นั้น ออก เป็น 3 ส่วน ทั้ง แนว ตั้ง และ แนว นอน ดู ตัว อย่าง",
+  "latency_sec": 2.9901,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ซึ่ง ระบุ ว่า ตำแหน่ง ที่ มี ประสิทธิภาพ สูง สุด สำหรับ วัตถุ หลัก คือ ที่ จุด ตัด ของ เส้น ที่ แบ่ง รูป ภาพ นั้น ออก เป็น 3 ส่วน ทั้ง แนว ตั้ง และ แนว นอน ดู ตัว อย่าง",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPwqokEsXf+8w1WAAZDrWc5UdLtG89VzX08vEcvX6c2uXxd9VQRd6Jwcc/Bt1Y"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238503,
+    "id": "ZQ9KaoL0JryB0-kP2bOhwAc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 390,
+      "total_tokens": 435
+    }
+  }
+}

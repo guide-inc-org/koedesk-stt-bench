@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0198",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 16.3,
+  "ref_text_raw": "胡纳已经辞职，他在内阁中的位置将由国会议员埃德·戴维 (Ed Davey) 接替。预计国会议员诺曼·兰姆 (Norman Lamb) 将接替戴维空出的商务部长一职。",
+  "ref_text_normalized": "胡 纳 已 经 辞 职 他 在 内 阁 中 的 位 置 将 由 国 会 议 员 埃 德 戴 维 ed davey 接 替 预 计 国 会 议 员 诺 曼 兰 姆 norman lamb 将 接 替 戴 维 空 出 的 商 务 部 长 一 职",
+  "timestamp_utc": "2026-07-05T06:35:47Z",
+  "text": "胡纳已经辞职，他在内阁中的位置将由国会议员艾德·戴维接替。预计国会议员诺曼·兰姆将接替戴维空出的商务部长一职。",
+  "latency_sec": 5.6111,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "17s",
+      "requestId": "6f81ce1d-0000-2506-a442-14223bcd9a4a",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "胡纳已经辞职，他在内阁中的位置将由国会议员艾德·戴维接替。预计国会议员诺曼·兰姆将接替戴维空出的商务部长一职。"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

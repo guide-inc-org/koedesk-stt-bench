@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0035",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.96,
+  "ref_text_raw": "자신의 의견이 아닌 정부의 의견을 듣고 싶을 수도 있지만, 각국 정부의 조언들은 자국민에 맞춰져 있다.",
+  "ref_text_normalized": "자신의 의견이 아닌 정부의 의견을 듣고 싶을 수도 있지만 각국 정부의 조언들은 자국민에 맞춰져 있다",
+  "timestamp_utc": "2026-07-05T06:20:56Z",
+  "text": "자신의 의견이 아닌 정부의 의견을 듣고 싶으실 수도 있지만 각국 정부의 조언들은 자국민에 맞춰져 있다.",
+  "latency_sec": 3.1244,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "자신의 의견이 아닌 정부의 의견을 듣고 싶으실 수도 있지만 각국 정부의 조언들은 자국민에 맞춰져 있다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPE9GLRNssGInAdJvaZ7dtdvnkI3JQyeKRO+zzatdOF8USi1nyy9z+Ir6R4tyI"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232456,
+    "id": "xvdJasqqCZKmvr0PocKK-QY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 271,
+      "total_tokens": 302
+    }
+  }
+}

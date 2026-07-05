@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0047",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.74,
+  "ref_text_raw": "Vatican City's population is around 800. It is the smallest independent country in the world and the country with the lowest population.",
+  "ref_text_normalized": "vatican city's population is around 800 it is the smallest independent country in the world and the country with the lowest population",
+  "timestamp_utc": "2026-07-05T10:30:46Z",
+  "text": "Vatican City population is around 800. It is the smallest independent country in the world and the population",
+  "latency_sec": 2.8028,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Vatican City population is around 800. It is the smallest independent country in the world and the population",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPbFgsZ1lDWCjvUtT4XWfRft62AHhnoZeP3aQvenOvYGw2HnnvggxvBamIk67W"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247446,
+    "id": "VDJKaoXQNfTLrfcP9LOIsAE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 290,
+      "total_tokens": 314
+    }
+  }
+}

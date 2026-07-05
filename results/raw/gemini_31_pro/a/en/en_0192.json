@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0192",
+  "lang": "en",
+  "engine": "gemini_31_pro_preview",
+  "duration_sec": 18.9,
+  "ref_text_raw": "Five minutes into the display a wind starts rolling in, about a minute later, the wind is reaching 70km/h... then the rain comes, but so hard and so large that it slaps your skin like a needle, then hail fell from the sky, people panicking and screaming and running over each other.",
+  "ref_text_normalized": "five minutes into the display a wind starts rolling in about a minute later the wind is reaching 70km/h... then the rain comes but so hard and so large that it slaps your skin like a needle then hail fell from the sky people panicking and screaming and running over each other",
+  "timestamp_utc": "2026-07-05T03:40:53Z",
+  "text": "Five minutes into the display, a wind starts rolling in. About a minute later, the wind is reaching 70 kilometers per hour. Then the rain comes, but so hard and so large that it slaps your skin like a needle, then hail fell from the sky, people panicking and screaming and running over each other.",
+  "latency_sec": 8.39,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-pro-preview",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Five minutes into the display, a wind starts rolling in. About a minute later, the wind is reaching 70 kilometers per hour. Then the rain comes, but so hard and so large that it slaps your skin like a needle, then hail fell from the sky, people panicking and screaming and running over each other.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222853,
+    "id": "PtJJaquiKYCUvr0P6IWioQU",
+    "model": "gemini-3.1-pro-preview",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 67,
+      "prompt_tokens": 494,
+      "total_tokens": 1201
+    }
+  }
+}

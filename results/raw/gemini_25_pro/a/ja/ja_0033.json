@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0033",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 20.76,
+  "ref_text_raw": "しかし、結核患者全体に占めるXDR-TBの割合はまだ低いようで、こうしている間にも南アフリカでは33万人のうち6,000人が感染している。",
+  "ref_text_normalized": "しかし 結核患者全体に占めるxdr-tbの割合はまだ低いようで こうしている間にも南アフリカでは33万人のうち6,000人が感染している",
+  "timestamp_utc": "2026-07-05T10:06:00Z",
+  "text": "しかし、結核患者全体に占めるXDR-TBの割合はまだ低いようで、こうしている間にも南アフリカでは33万人のうち6000人が感染している。",
+  "latency_sec": 6.796,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "しかし、結核患者全体に占めるXDR-TBの割合はまだ低いようで、こうしている間にも南アフリカでは33万人のうち6000人が感染している。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783245960,
+    "id": "gixKatS2NsfJ0-kPwvvLoAE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 686,
+      "total_tokens": 1048
+    }
+  }
+}

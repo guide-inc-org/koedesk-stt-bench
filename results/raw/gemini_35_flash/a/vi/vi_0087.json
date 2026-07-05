@@ -1,0 +1,45 @@
+{
+  "utt_id": "vi_0087",
+  "lang": "vi",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 16.32,
+  "ref_text_raw": "Xe buýt xuất phát từ trạm xe buýt liên huyện (dọc con sông) chạy cả ngày, dù chủ yếu, đặc biệt là các xe đến phía Đông và Jakar/Bumthang sẽ xuất phát từ lúc 06:30 đến 07:30.",
+  "ref_text_normalized": "xe buýt xuất phát từ trạm xe buýt liên huyện dọc con sông chạy cả ngày dù chủ yếu đặc biệt là các xe đến phía đông và jakar/bumthang sẽ xuất phát từ lúc 06:30 đến 07:30",
+  "timestamp_utc": "2026-07-05T08:36:23Z",
+  "text": "Xe buýt sẽ xuất phát từ trạm xe buýt liên huyện dọc con sông chạy cả ngày dù chủ yếu, đặc biệt là các xe đến phía đông và Gia-cát Pum-thang sẽ xuất phát từ lúc 6:30 đến 7:30.",
+  "latency_sec": 8.8859,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Xe buýt sẽ xuất phát từ trạm xe buýt liên huyện dọc con sông chạy cả ngày dù chủ yếu, đặc biệt là các xe đến phía đông và Gia-cát Pum-thang sẽ xuất phát từ lúc 6:30 đến 7:30.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240583,
+    "id": "gBdKao6IA8qfvr0Plb-amQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 58,
+      "prompt_tokens": 429,
+      "total_tokens": 1809
+    }
+  }
+}

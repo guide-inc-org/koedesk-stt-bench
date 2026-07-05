@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0126",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.04,
+  "ref_text_raw": "The moisture on your hands will react with the outer layers, which will feel funny and form a sort of shell.",
+  "ref_text_normalized": "the moisture on your hands will react with the outer layers which will feel funny and form a sort of shell",
+  "timestamp_utc": "2026-07-05T03:34:45Z",
+  "text": "The moisture on your hands will react with the outer layers, which will feel funny and form a sort of shell.",
+  "latency_sec": 2.7542,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The moisture on your hands will react with the outer layers, which will feel funny and form a sort of shell.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPJRpS4y9kLwzCrmaUWR4QYB/fW//8Py5ba1fR7RBSjINoQIbzhznabrBhFa6M"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222485,
+    "id": "09BJavHVKp2C0-kPjp3EsQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 222,
+      "total_tokens": 245
+    }
+  }
+}

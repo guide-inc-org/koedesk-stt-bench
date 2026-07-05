@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0094",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.48,
+  "ref_text_raw": "Но, оказавшись в \"глубоких тропиках\" лишь в нескольких градусах к северу от экватора, вам придется справляться как с жарой (постоянно), так и с сильным солнцем (при безоблачном небе, реже).",
+  "ref_text_normalized": "но оказавшись в глубоких тропиках лишь в нескольких градусах к северу от экватора вам придется справляться как с жарой постоянно так и с сильным солнцем при безоблачном небе реже",
+  "timestamp_utc": "2026-07-05T07:07:35Z",
+  "text": "Но, оказавшись в глубоких тропиках, лишь нескольких градусов к северу от экватора, вам придётся справляться как с жарой постоянно, так и с сильным солнцем, при безоблачном небе реже.",
+  "latency_sec": 4.0515,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Но, оказавшись в глубоких тропиках, лишь нескольких градусов к северу от экватора, вам придётся справляться как с жарой постоянно, так и с сильным солнцем, при безоблачном небе реже.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235256,
+    "id": "tQJKauXPFs-a1e8P7YSs0QE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 50,
+      "prompt_tokens": 421,
+      "total_tokens": 558
+    }
+  }
+}

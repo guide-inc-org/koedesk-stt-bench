@@ -1,0 +1,39 @@
+{
+  "utt_id": "id_0135",
+  "lang": "id",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.5,
+  "ref_text_raw": "Jika Anda tidak terbiasa mengemudi di jalan pedesaan, waspadalah: banyak terdapat tanjakan curam, jalan sempit, serta tikungan tajam.",
+  "ref_text_normalized": "jika anda tidak terbiasa mengemudi di jalan pedesaan waspadalah banyak terdapat tanjakan curam jalan sempit serta tikungan tajam",
+  "timestamp_utc": "2026-07-05T05:29:44Z",
+  "text": "Jika Anda tidak terbiasa mengemudi di jalan pedesaan, waspadalah. Banyak terdapat tanjakan curam, jalan sempit serta tikungan tajam.",
+  "latency_sec": 3.8449,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Jika Anda tidak terbiasa mengemudi di jalan pedesaan, waspadalah. Banyak terdapat tanjakan curam, jalan sempit serta tikungan tajam.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783229384,
+    "id": "xetJaoGsIMbJ2roPosfb0QY",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 357,
+      "total_tokens": 463
+    }
+  }
+}

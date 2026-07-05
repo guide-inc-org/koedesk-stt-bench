@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0030",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 20.64,
+  "ref_text_raw": "호주의 미첼 골리는 남자 스탠딩 슈퍼-G에서 11위를 차지했습니다. 체코 출신의 경쟁자, 올드리치 젤리넥은 남자 좌식 슈퍼-G에서 16위로 경기를 마쳤습니다.",
+  "ref_text_normalized": "호주의 미첼 골리는 남자 스탠딩 슈퍼-g에서 11위를 차지했습니다 체코 출신의 경쟁자 올드리치 젤리넥은 남자 좌식 슈퍼-g에서 16위로 경기를 마쳤습니다",
+  "timestamp_utc": "2026-07-05T06:11:53Z",
+  "text": "호주의 미첼 골리는 남자 스탠딩 슈퍼 G에서 11위를 차지했습니다. 체코 출신의 경쟁자 올드리치 젤리넥은 남자 좌식 슈퍼 G에서 16위로 경기를 마쳤습니다.",
+  "latency_sec": 5.9874,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "호주의 미첼 골리는 남자 스탠딩 슈퍼 G에서 11위를 차지했습니다. 체코 출신의 경쟁자 올드리치 젤리넥은 남자 좌식 슈퍼 G에서 16위로 경기를 마쳤습니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231913,
+    "id": "pPVJaqjlIpWJ1e8PhMDXiQU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 51,
+      "prompt_tokens": 537,
+      "total_tokens": 1240
+    }
+  }
+}

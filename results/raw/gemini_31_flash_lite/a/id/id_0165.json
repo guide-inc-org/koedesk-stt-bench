@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0165",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.64,
+  "ref_text_raw": "Dalam makalahnya yang berjudul The President's Speech, Oliver Sacks menunjukkan bagaimana seseorang yang tak memahami ucapan akibat menderita kerusakan otak tetap mampu secara akurat menilai keikhlasan.",
+  "ref_text_normalized": "dalam makalahnya yang berjudul the president's speech oliver sacks menunjukkan bagaimana seseorang yang tak memahami ucapan akibat menderita kerusakan otak tetap mampu secara akurat menilai keikhlasan",
+  "timestamp_utc": "2026-07-05T05:55:13Z",
+  "text": "Dalam makalahnya yang berjudul The President Speech, Oliver Sacks menunjukkan bagaimana seseorang yang tak memahami ucapan akibat menderita kerusakan otak tetap mampu secara akurat menilai keikhlasan.",
+  "latency_sec": 3.0265,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Dalam makalahnya yang berjudul The President Speech, Oliver Sacks menunjukkan bagaimana seseorang yang tak memahami ucapan akibat menderita kerusakan otak tetap mampu secara akurat menilai keikhlasan.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPGfq1TK6RiJyCG23yjjXj5X4AdxXozXlQCqbJNpp99YpCM6YHuNpyeGvvdd6L"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230913,
+    "id": "wPFJas6MB5Si9tMP8vOl4AE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 387,
+      "total_tokens": 422
+    }
+  }
+}

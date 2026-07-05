@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0172",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.56,
+  "ref_text_raw": "如果在冬天穿越北波罗的海，要检查客舱的位置，因为在冰面上航行会给那些受影响最严重的人带来非常可怕的噪音。",
+  "ref_text_normalized": "如 果 在 冬 天 穿 越 北 波 罗 的 海 要 检 查 客 舱 的 位 置 因 为 在 冰 面 上 航 行 会 给 那 些 受 影 响 最 严 重 的 人 带 来 非 常 可 怕 的 噪 音",
+  "timestamp_utc": "2026-07-05T09:21:01Z",
+  "text": "如果在冬天穿越北波罗的海要检查客舱的位置，因为在冰面上航行会给那些受影响最严重的人带来非常可怕的噪音。",
+  "latency_sec": 2.7867,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "如果在冬天穿越北波罗的海要检查客舱的位置，因为在冰面上航行会给那些受影响最严重的人带来非常可怕的噪音。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP8X4iHXd0nrqOh6htMEPx7f86Df+hFdy+in8d8sVrfQPbtj475kLh6p20/Y4M"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243261,
+    "id": "_CFKau_3CbmVvr0PopTJiQc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 285,
+      "total_tokens": 318
+    }
+  }
+}

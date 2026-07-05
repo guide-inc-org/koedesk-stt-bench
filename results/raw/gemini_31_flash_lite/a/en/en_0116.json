@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0116",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.6,
+  "ref_text_raw": "If you have watched the movie National Treasure, you may think a treasure map was written on the back of the Declaration of Independence.",
+  "ref_text_normalized": "if you have watched the movie national treasure you may think a treasure map was written on the back of the declaration of independence",
+  "timestamp_utc": "2026-07-05T03:34:10Z",
+  "text": "If you have watched the movie National Treasure, you might think a treasure map was written on the back of the Declaration of Independence.",
+  "latency_sec": 2.5661,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "If you have watched the movie National Treasure, you might think a treasure map was written on the back of the Declaration of Independence.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPe0Ee21rFXwcGE+ICMa+A/KU9i2svrlZC/ND9/IBSHzOdEcFrhs+XePvlh2e1"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222450,
+    "id": "sdBJaqfkIKLMrfcPzqLmsAE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 186,
+      "total_tokens": 212
+    }
+  }
+}

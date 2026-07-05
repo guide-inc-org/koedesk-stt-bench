@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0045",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 4.2,
+  "ref_text_raw": "Rolando Mendoza tira avec son fusil M16 sur les touristes.",
+  "ref_text_normalized": "rolando mendoza tira avec son fusil m16 sur les touristes",
+  "timestamp_utc": "2026-07-05T05:05:04Z",
+  "text": "Rolando Mendoza tire avec son fusil MCS sur les touristes.",
+  "latency_sec": 3.2354,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Rolando Mendoza tire avec son fusil MCS sur les touristes.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EsgECsUEARFNMg+etHdWVeFUP0LeuUInHAllOM+YQOAK0ztJeaPDErfQD2dxjNr7apdtOi/szsaH2hW+U5BzJ6N7ezO70EHzE6ziocY8FiJQ/DG31VliI/Dr2beJBwIV6+bY082nTx5jLaWj9pqdEMO5C5kLUHqCgtt+KP8HO0I9X+wOfj07JrOdWUwoFN0+cMIw4ISIo+kbafLHMamNgnY/LSpdPQyis/rteCh60UzCHdOrjSfUj1gyzhEnV+TK5OSqv4h7PLy2e5UDqlbO9HaY+u6ytltWXK+rEYp89AEjngCGJqxEs/h2PBuKkyzioQsIHeN3kUY138T85ReretDzCZK2ZJZq/GL6nVNrRHumfcM2jDEU0YthaSsDHMikN1QtEP/JVpyhY+Ky8HIcVfJ9n1UyXc/FAzw/g89zHspjUXx1uvH4dR+sS2kOtr6M6dEV+m+azqPQT3K4x6vBDWodHU+k0+UNXzRAPbTq9VVWq7jAtMZNqgR6Pf7CeYvEFEMezURNtFVH+rEELNKn9iuIAL8QqVPKwWnsZ9QvWI4Zf7WXwJSKhOdVswTUBeLHeoxj6Mjoe0YwamGwgsEjwH+vU00gTdDrWTrrZNbFQL4xjB86spWD/+n34sfoO89CN2URtG3tTla3FLKd+AKNrKZeT+5QrjcmA4OoGAdVQ9wHu2LHJgRUNMB9brhPSKBs+Isv8D7cddVbkErmpIdiaz3/ckAL72LBh611l8r/69c8cJ35hgL0S8W+xi8SQ2lo6VxWi9ubbFBhuWo="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227904,
+    "id": "_eVJavqYJsmzvr0PmpW5mQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 14,
+      "prompt_tokens": 126,
+      "total_tokens": 287
+    }
+  }
+}

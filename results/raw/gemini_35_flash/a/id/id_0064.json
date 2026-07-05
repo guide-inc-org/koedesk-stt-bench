@@ -1,0 +1,45 @@
+{
+  "utt_id": "id_0064",
+  "lang": "id",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.5,
+  "ref_text_raw": "Dia tidak dapat meminum obat yang dibutuhkan untuk mengatasi rasa sakitnya, karena obat tersebut dilarang dari pertandingan Olimpiade.",
+  "ref_text_normalized": "dia tidak dapat meminum obat yang dibutuhkan untuk mengatasi rasa sakitnya karena obat tersebut dilarang dari pertandingan olimpiade",
+  "timestamp_utc": "2026-07-05T05:40:22Z",
+  "text": "Dia tidak dapat meminum obat yang dibutuhkan untuk mengatasi rasa sakitnya, karena obat tersebut dilarang dari pertandingan Olimpiade.",
+  "latency_sec": 4.415,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Dia tidak dapat meminum obat yang dibutuhkan untuk mengatasi rasa sakitnya, karena obat tersebut dilarang dari pertandingan Olimpiade.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EugKCuUKARFNMg8nT3C0ayJDN1mdj2VGldUS4NVZdCjX0GQso+/YPJ5SnEMlwrNqsillX9DRPUL/cEwM3C3DI7DgyzfNdl28mEiUripy90ngEC9lbykcKzCTwlgVQTqyzYsfkT7GJl5AUGGpa4oeVjpAvRhVG18iGzlL6McpSV4e2znD+EPK6WBQVDX6XvfKb0HsXeIFFF2Y7MzcUJxwUGlsQeTpPk6/KaYlV+fIgnj0PGyn3fKqnuYvHuISKGunpl74ySOcSbdQfLi7l283IuSIJ7E4ZZwxXIaTeMjdTEorCkPwtHfDjF8W9qFsWPOdOls16HIXouq5n7HIlb5p4oGm9XJIUjisERGAiEzVMWvgsR1yYAEWL3xceh5SuHO05jxB5AryJ6u2PqLsCG+uk74UB4UJqE9+lc2Yy4+9XHdiB9FAgijGEcxrCz7///5nNZUUQjX76zdK3DOF0qDA+kMuyj+EyKjNDjyN2d4JmknfMFP9LW66ZFyN5EUFg8b72Bb89bUclyZGhCk5nSPLOBj5t/rqaKiQqHtMBuTvSa1CL8UlwpXxUTnAcvXaKo+PzaMNuNEGWm3pCBLRsZgnN2y8M/5FeEC1fBcEP6kaOojDMmly4cOHHPoCAjpl1AmYa8avqARLOnyN/p2v6RaPQIg5PwW1gSHl7UNdOlT8uMIbtTzayUrVTUSjtay2JpOC1LBgB/9yDqjqIhUT1TGylKKBgt57QXX3Kk7cDxRFmFbxLILal8G/6fg3LcGHfs3ac87TaRdiNLD5Px7yNnHfYgrnBXLbH8RGrwpuSgwlSivChRQ7AURbFS/Gi9j/QIiVc0rdPqeVo6Z3rPszIusH/cvKvnnw7uU9zKWUUyYAdrYnFelC+AIXU9a48jYeajilmZlfjQ/WtyxeAxtch5pudu1EQEtGjelCIe6HElD7jZkAgOp/k7jYnYOPePi+kpHkFYuhrfjlxh//w2s2P66cyo4M7dW1VdmXbB98hRpjfyHnAJjraYUdhnDo1cmOB2v25ZuBsZwOm1gVsWSifOLDYzFyRskXH1iFrokTKI6s0Fa6QsKIDVUS03359eyCffHZq+oRsq8DFkSZvaRvCOUvpUbakuclTXYr2pQKwmHjx/VWHqXqb6OAfE1qtOgRuyp0v+WnI/hO2/4rkmmH0JY5dTihEfYitPToeYainSKlbPK6rvauQjjV5DgVtXDVdlYK5/qvLhtNqwu+f6K47RM8cCb4v+JAZsuDAsZjbInyzfJOZzt7BcjnGMxUcNFnwC+Jkb5UzDILJ+C0mIFisLbWVlda7P5mFGsRZeYybyVVi9ZuIzmzsaIN2bIgpBYPgnoabCjVpeEmE75eAIEV2+SEN9xdoEsz/RkCTNI5CQjbmSoWgSrUCF508H6aP2f27H03S+sDibZ3D22QOT5N2JBGoQnQRe1qXTdZOXnuOsCU6ZVfIBc+SgcyAhCfmms/544Ji4iYQ+0UyLl0+2ZXXgXitRlLn23fmCngxkaC/oa+c/hk8fMkBX/Lvr++AmgbYyEuuq1sXCt6jhxQZjUM9z8fMrLh3hZpZmz4wzPCmfWup7VWC08mgR5OnxyMSTzLPeAJ/Nmk0x/kEeEIuNPDBAjA1PnCiKWXEF43Vxtccc3lM9PRN6tOyF8R0pwTO/8fB5Bysoa7DoNPOujuTsTBj9ZKcQWJGietfIsQP2Uf8uw61C6p3z2F7mXZX4sl3ldzorXLCbvGNidJPXbRk3Y40LDKDS83gQ3NLLiZw7ekx2YDbL43R739+DWGVmNoBXjH8DdV98SwUc+Fb7V69DjJvKrflwC0EegLcVG+fzPig+JyZcRJbu011JZ1c8+vGA=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230022,
+    "id": "Q-5JaoaZEcTs1e8Pu-GUwQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 284,
+      "total_tokens": 687
+    }
+  }
+}

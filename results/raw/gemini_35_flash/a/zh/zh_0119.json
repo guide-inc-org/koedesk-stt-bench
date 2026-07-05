@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0119",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 16.02,
+  "ref_text_raw": "然而，广泛耐药结核病在整个结核病患者群体中所占的比例似乎仍然很低；在南非，在任意特定时刻，总计 33 万人中只有 6000 人感染。",
+  "ref_text_normalized": "然 而 广 泛 耐 药 结 核 病 在 整 个 结 核 病 患 者 群 体 中 所 占 的 比 例 似 乎 仍 然 很 低 在 南 非 在 任 意 特 定 时 刻 总 计 33 万 人 中 只 有 6000 人 感 染",
+  "timestamp_utc": "2026-07-05T09:16:45Z",
+  "text": "然而，广泛耐药结核病在整个结核病患者群体中所占的比例仍然很低。在南非，在任意特定时刻，总计33万人中，只有6000人感染。",
+  "latency_sec": 6.0469,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "然而，广泛耐药结核病在整个结核病患者群体中所占的比例仍然很低。在南非，在任意特定时刻，总计33万人中，只有6000人感染。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243005,
+    "id": "-SBKavjeGcqfvr0Plb-amQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 422,
+      "total_tokens": 1042
+    }
+  }
+}

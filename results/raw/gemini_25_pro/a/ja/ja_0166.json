@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0166",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 14.58,
+  "ref_text_raw": "この港は、1889年にドイツ、アメリカ、イギリスから来た7隻の船が出港を拒否した際に海軍同士が睨み合った有名な場所です。",
+  "ref_text_normalized": "この港は 1889年にドイツ アメリカ イギリスから来た7隻の船が出港を拒否した際に海軍同士が睨み合った有名な場所です",
+  "timestamp_utc": "2026-07-05T03:13:36Z",
+  "text": "この港は1889年にドイツ、アメリカ、イギリスから来た7隻の船が出航を拒否した際に、海軍同士が睨み合った有名な場所です。",
+  "latency_sec": 5.1139,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "この港は1889年にドイツ、アメリカ、イギリスから来た7隻の船が出航を拒否した際に、海軍同士が睨み合った有名な場所です。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221217,
+    "id": "3ctJaoSqIfz-2roPj568yQI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 488,
+      "total_tokens": 575
+    }
+  }
+}

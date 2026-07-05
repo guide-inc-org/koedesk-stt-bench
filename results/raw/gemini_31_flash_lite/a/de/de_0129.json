@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0129",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.92,
+  "ref_text_raw": "Dies wird Spielern ermöglichen Aktionen und Bewegungen in Videospielen zu steuern, indem sie das Gerät in der Luft bewegen.",
+  "ref_text_normalized": "dies wird spielern ermöglichen aktionen und bewegungen in videospielen zu steuern indem sie das gerät in der luft bewegen",
+  "timestamp_utc": "2026-07-05T04:07:34Z",
+  "text": "Dies wird Spielern ermöglichen, Aktionen und Bewegungen in Videospielen zu steuern, indem sie das Gerät in der Luft bewegen.",
+  "latency_sec": 2.7643,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Dies wird Spielern ermöglichen, Aktionen und Bewegungen in Videospielen zu steuern, indem sie das Gerät in der Luft bewegen.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPSXS7wMtj5JoSFpSpPm9Pn2mO2F0pDAdngb52ZTXeVSotrU3vXFo1b5CpZzXE"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224454,
+    "id": "hdhJat_IAsD21e8P0dn2qQE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 294,
+      "total_tokens": 322
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0067",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.86,
+  "ref_text_raw": "First, most riders wear riding boots with a heel and a smooth, quite narrow, sole.",
+  "ref_text_normalized": "first most riders wear riding boots with a heel and a smooth quite narrow sole",
+  "timestamp_utc": "2026-07-05T10:31:46Z",
+  "text": "First, most riders wear riding boots with a heel and a smooth, quite narrow sole.",
+  "latency_sec": 3.4241,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "First, most riders wear riding boots with a heel and a smooth, quite narrow sole.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Et0ECtoEARFNMg8Ma2ESbV+uLtA8+lffA3dU4z7qrTE9KsObMeORlc8UBriRzv8c+jD70POBjHbCFbhyZaAWGDt1xM23aLCo9jk9v+gIRJeol4v7Vo08GO/+wcrPyryAvgQW4tN6L7WquGRI7tVQmsiNYAEhdShRWBrND1ixHJ8LOSbHmtRRpNf8IB6yScOTDNvAGIHv9X1YDJLwGcGg+VYBlIcc/eXW6q22If3rKDeVeceqDnpHxZnItCeI0yZY1a2XIphP8GHhVf6Rv08iUbe233YyVahJW0Qc3q3drzZQO7Aw83QQoJhuA7XiPpygISNYJi0m4vYi57cKbuSxfrpAOGVqKfbc2H2aW6BjyAzJvKfTzLGP8hPw5pVcjoKYDwGgUWxCyGjALPAsNtGeOiMNIQrJk0qWi39aTLS1o3EvUsjQOWab8dgQn6OHGZzxV2alXgk5RC3o5wc+oOHrotBWxNOUg/rikjZZNxLomdItA5c0oIoKr0xJMOSAvMy2qqYX6USqbGpbvkdkyDMspsBJnY9eAyvChDdXz2sYDVrRjR5iuCU0G83nloQ1/r3RWjVMZdvFE07SFOoZg73vPtbch4XSPivUHXZyN0JKWTZKtHHpOxD1VcwwY8BISioWx9tUvdDROXKec0caleS7OpLxAs3sXTfE0IOFxtM460yPeeeErOOcRS1XiQtGLv5f511R1UJUD/V2X1BGa9Kt3eZAtEskYGOKchsBW+uvkvcb1viLVMVIxBQRpRQr89defpP8kHAp2AjLa5aKiHwO2J39bGs4iHEBN/ZTNjXv/Mw="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247506,
+    "id": "kDJKatbbBPDW2roPh47FwQc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 218,
+      "total_tokens": 395
+    }
+  }
+}

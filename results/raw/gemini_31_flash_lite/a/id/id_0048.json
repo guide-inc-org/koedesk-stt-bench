@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0048",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.88,
+  "ref_text_raw": "MS adalah penyakit yang memengaruhi pusat sistem saraf, yang terbentuk dari otak, saraf tulang belakang dan saraf penglihatan.",
+  "ref_text_normalized": "ms adalah penyakit yang memengaruhi pusat sistem saraf yang terbentuk dari otak saraf tulang belakang dan saraf penglihatan",
+  "timestamp_utc": "2026-07-05T05:47:52Z",
+  "text": "MS adalah penyakit yang mempengaruhi pusat sistem saraf yang terbentuk dari otak, saraf tulang belakang dan saraf penglihatan.",
+  "latency_sec": 3.1092,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "MS adalah penyakit yang mempengaruhi pusat sistem saraf yang terbentuk dari otak, saraf tulang belakang dan saraf penglihatan.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPLr/8gFufTqFit2HSm6QLgIS3QFKtrix7AxY2NN+R1GMgwR9b93j3838PXAu3"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230472,
+    "id": "BvBJaqTZJbvN2roPnu2ysAU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 318,
+      "total_tokens": 340
+    }
+  }
+}

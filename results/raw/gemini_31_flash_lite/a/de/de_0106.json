@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0106",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.56,
+  "ref_text_raw": "Die Schlagmänner der mittleren Reihe, Sachin Tendulkar und Rahul Dravid, zeigten gute Leistungen und erzielten eine Partnerschaft mit 100 Runs.",
+  "ref_text_normalized": "die schlagmänner der mittleren reihe sachin tendulkar und rahul dravid zeigten gute leistungen und erzielten eine partnerschaft mit 100 runs",
+  "timestamp_utc": "2026-07-05T04:06:11Z",
+  "text": "Die Schlagmänner der mittleren Reihe Sachin Tendulkar und Rahul Dravid zeigten gute Leistungen und erzielten eine Partnerschaft mit 100 Runs.",
+  "latency_sec": 2.6758,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Die Schlagmänner der mittleren Reihe Sachin Tendulkar und Rahul Dravid zeigten gute Leistungen und erzielten eine Partnerschaft mit 100 Runs.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPXp4X1Xr2uDasNj31Oq8Pa88HANaV9ZKnyuOZFQmU4+kVQxuiCETDm/KDU2JO"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224371,
+    "id": "MthJauzaCeex2roPrLDX2QU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 285,
+      "total_tokens": 316
+    }
+  }
+}

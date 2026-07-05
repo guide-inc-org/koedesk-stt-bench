@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0046",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.92,
+  "ref_text_raw": "Die Durchfahrtshöhe unter der Brücke beträgt 15 Meter. Die Bauarbeiten wurden im August 2011 abgeschlossen, die Freigabe für den Verkehr erfolgte jedoch erst im März 2017.",
+  "ref_text_normalized": "die durchfahrtshöhe unter der brücke beträgt 15 meter die bauarbeiten wurden im august 2011 abgeschlossen die freigabe für den verkehr erfolgte jedoch erst im märz 2017",
+  "timestamp_utc": "2026-07-05T04:02:34Z",
+  "text": "Die Durchfahrtshöhe unter der Brücke beträgt 15 Meter. Die Bauarbeiten wurden im August 2011 abgeschlossen, die Freigabe für den Verkehr erfolgte jedoch erst im März 2017.",
+  "latency_sec": 3.2983,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Die Durchfahrtshöhe unter der Brücke beträgt 15 Meter. Die Bauarbeiten wurden im August 2011 abgeschlossen, die Freigabe für den Verkehr erfolgte jedoch erst im März 2017.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPacB29k08gjdn4gw7EOZtKmHP29T/w0NureeccstYd8Q/0/EaEY0Xuun7gP6F"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224154,
+    "id": "WddJaqvnFJi9vr0P4KaPwQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 294,
+      "total_tokens": 341
+    }
+  }
+}

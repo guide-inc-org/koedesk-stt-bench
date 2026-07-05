@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0102",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 21.84,
+  "ref_text_raw": "\"Lorsqu'on en fait bon usage, les blogs \"\"peuvent permettre aux étudiants de renforcer leurs capacités d'analyse et leur esprit critique : en réagissant activement aux contenus en ligne, ils peuvent confronter leur avis à celui des autres et exposer leurs propres points de vue sur des sujets bien précis\"\" (Oravec, 2002).\"",
+  "ref_text_normalized": "\"lorsqu'on en fait bon usage les blogs \"peuvent permettre aux étudiants de renforcer leurs capacités d'analyse et leur esprit critique : en réagissant activement aux contenus en ligne ils peuvent confronter leur avis à celui des autres et exposer leurs propres points de vue sur des sujets bien précis\" oravec 2002.",
+  "timestamp_utc": "2026-07-05T04:58:01Z",
+  "text": "Lorsqu'on en fait bon usage, les blogs peuvent permettre aux étudiants de renforcer leur capacité d'analyse et leur esprit critique. En réagissant activement au contenu en ligne, ils peuvent confronter leur avis à celui des autres et exposer leur propre point de vue sur des sujets bien précis. Oravec, 2002.",
+  "latency_sec": 9.8596,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Lorsqu'on en fait bon usage, les blogs peuvent permettre aux étudiants de renforcer leur capacité d'analyse et leur esprit critique. En réagissant activement au contenu en ligne, ils peuvent confronter leur avis à celui des autres et exposer leur propre point de vue sur des sujets bien précis. Oravec, 2002.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227481,
+    "id": "UeRJaum5Brui9tMP8NiBsAM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 71,
+      "prompt_tokens": 720,
+      "total_tokens": 1502
+    }
+  }
+}

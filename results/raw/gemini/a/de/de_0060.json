@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0060",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.78,
+  "ref_text_raw": "Große Gebiete weiter im Norden sind ziemlich dünn bevölkert und manche sind fast unbewohnte Wildnis.",
+  "ref_text_normalized": "große gebiete weiter im norden sind ziemlich dünn bevölkert und manche sind fast unbewohnte wildnis",
+  "timestamp_utc": "2026-07-05T03:44:32Z",
+  "text": "Große Gebiete weiter im Norden sind ziemlich dünn besiedelt und manche sind fast unbewohnte Wildnis.",
+  "latency_sec": 3.6524,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Große Gebiete weiter im Norden sind ziemlich dünn besiedelt und manche sind fast unbewohnte Wildnis.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223072,
+    "id": "HtNJaoa8IYCUvr0P6IWioQU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 430,
+      "total_tokens": 479
+    }
+  }
+}

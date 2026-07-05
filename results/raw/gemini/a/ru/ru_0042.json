@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0042",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 13.56,
+  "ref_text_raw": "25 листовок Данлэпа, известные на настоящее время, являются старейшими выжившими копиями документа. Оригинальная рукописная копия не дошла до нас.",
+  "ref_text_normalized": "25 листовок данлэпа известные на настоящее время являются старейшими выжившими копиями документа оригинальная рукописная копия не дошла до нас",
+  "timestamp_utc": "2026-07-05T07:03:27Z",
+  "text": "25 листовых Данлаба, известные на настоящее время, являются старейшими выжившими копиями документа. Оригинальная рукописная копия не дошла до нас.",
+  "latency_sec": 3.9825,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "25 листовых Данлаба, известные на настоящее время, являются старейшими выжившими копиями документа. Оригинальная рукописная копия не дошла до нас.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235007,
+    "id": "vAFKarqYL52_vr0Piquy2Q0",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 455,
+      "total_tokens": 711
+    }
+  }
+}

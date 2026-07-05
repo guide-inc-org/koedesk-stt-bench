@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0106",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.32,
+  "ref_text_raw": "Danielle Lantagne ผู้เชี่ยวชาญด้านโรคภัยประจำสหประชาชาติแถลงว่า เป็นไปได้ที่การระบาดของโรคในครั้งนี้เกิดจากเจ้าหน้าที่รักษาความสงบ",
+  "ref_text_normalized": "danielle lantagne ผู้เชี่ยวชาญด้านโรคภัยประจำสหประชาชาติแถลงว่า เป็นไปได้ที่การระบาดของโรคในครั้งนี้เกิดจากเจ้าหน้าที่รักษาความสงบ",
+  "timestamp_utc": "2026-07-05T08:07:21Z",
+  "text": "แดเนียล แลงเชน ผู้เชี่ยวชาญด้านโรคภัยประจำสหประชาชาติแถลงว่า เป็นไปได้ที่การระบาดของโรคนี้ในครั้งนี้เกิดจากเจ้าหน้าที่รักษาความสงบ",
+  "latency_sec": 3.1396,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "แดเนียล แลงเชน ผู้เชี่ยวชาญด้านโรคภัยประจำสหประชาชาติแถลงว่า เป็นไปได้ที่การระบาดของโรคนี้ในครั้งนี้เกิดจากเจ้าหน้าที่รักษาความสงบ",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP9PlPm6HReHrxoOOya6ramEXf69DTxxSDtrq58i1GYV+jbVV1A4JqZAFkB5xx"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238841,
+    "id": "uBBKava1Abj22roP58zioAI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 279,
+      "total_tokens": 323
+    }
+  }
+}

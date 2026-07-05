@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0165",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 8.7,
+  "ref_text_raw": "Il s'agit d'un excellent moyen de faire la distinction entre certains verbes et objets.",
+  "ref_text_normalized": "il s'agit d'un excellent moyen de faire la distinction entre certains verbes et objets",
+  "timestamp_utc": "2026-07-05T05:05:29Z",
+  "text": "Il s'agit d'un excellent moyen de faire la distinction entre certains verbes et objets.",
+  "latency_sec": 4.3553,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Il s'agit d'un excellent moyen de faire la distinction entre certains verbes et objets.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227929,
+    "id": "FuZJaqOaJaqj9tMPiaisiAI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 300,
+      "total_tokens": 371
+    }
+  }
+}

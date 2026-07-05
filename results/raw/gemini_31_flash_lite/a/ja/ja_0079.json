@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0079",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 16.5,
+  "ref_text_raw": "枕木は、線路を所定の位置に固定するためにかなり早い段階で導入されました。やがて、上部に鉄製の先端部を設けると効率がよいことが徐々にわかってきました。",
+  "ref_text_normalized": "枕木は 線路を所定の位置に固定するためにかなり早い段階で導入されました やがて 上部に鉄製の先端部を設けると効率がよいことが徐々にわかってきました",
+  "timestamp_utc": "2026-07-05T10:17:32Z",
+  "text": "まくらぎ は 鮮度 所定 の 位置 に 固定 する ため に かなり 早い 段階 で 導入 さ れ まし た 。 やがて 上部 に 鉄製 の 先端 部 を 設ける と 効率 が 良い こと が 徐々 に 分かっ て き まし た 。",
+  "latency_sec": 2.8162,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "まくらぎ は 鮮度 所定 の 位置 に 固定 する ため に かなり 早い 段階 で 導入 さ れ まし た 。 やがて 上部 に 鉄製 の 先端 部 を 設ける と 効率 が 良い こと が 徐々 に 分かっ て き まし た 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPU+xuKfcMz5Wo+1YZf4UNo+uXA2n+n3NA5fUYc5jMGejQoezwYasknGdDKm3Q"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246652,
+    "id": "Oy9KauLFBLui9tMP8NiBsAM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 65,
+      "prompt_tokens": 434,
+      "total_tokens": 499
+    }
+  }
+}

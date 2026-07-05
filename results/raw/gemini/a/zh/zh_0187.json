@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0187",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.1,
+  "ref_text_raw": "尽管戈马还算安全，但前往戈马以外的任何地方都应该事先调查，以便了解北基伍省持续的战斗有没有缓和。",
+  "ref_text_normalized": "尽 管 戈 马 还 算 安 全 但 前 往 戈 马 以 外 的 任 何 地 方 都 应 该 事 先 调 查 以 便 了 解 北 基 伍 省 持 续 的 战 斗 有 没 有 缓 和",
+  "timestamp_utc": "2026-07-05T09:03:42Z",
+  "text": "尽管哥马还是安全，但前往，前往哥马以外的任何地方都应该事先调查，以便了解北基伍省持续的战斗有没有缓和。",
+  "latency_sec": 5.4076,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "尽管哥马还是安全，但前往，前往哥马以外的任何地方都应该事先调查，以便了解北基伍省持续的战斗有没有缓和。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242222,
+    "id": "6h1KaqzlEr3MrfcPx6WgiQQ",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 377,
+      "total_tokens": 578
+    }
+  }
+}

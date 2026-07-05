@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0057",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.58,
+  "ref_text_raw": "Во-первых, большинство наездников носят сапоги для верховой езды с каблуком, имеющие гладкую и довольно тонкую подошву.",
+  "ref_text_normalized": "во-первых большинство наездников носят сапоги для верховой езды с каблуком имеющие гладкую и довольно тонкую подошву",
+  "timestamp_utc": "2026-07-05T07:04:37Z",
+  "text": "Во-первых, большинство наездников носят сапоги для верховой езды с каблуком, имеющие гладкую и довольно тонкую подошву.",
+  "latency_sec": 3.9588,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Во-первых, большинство наездников носят сапоги для верховой езды с каблуком, имеющие гладкую и довольно тонкую подошву.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235077,
+    "id": "AgJKaqDYKPTLrfcP9LOIsAE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 296,
+      "total_tokens": 368
+    }
+  }
+}

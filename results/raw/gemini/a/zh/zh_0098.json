@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0098",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.02,
+  "ref_text_raw": "州长办公室表示，伤者中有十九人是警察。",
+  "ref_text_normalized": "州 长 办 公 室 表 示 伤 者 中 有 十 九 人 是 警 察",
+  "timestamp_utc": "2026-07-05T08:55:45Z",
+  "text": "州长办公室表示，伤者中有19人是警察。",
+  "latency_sec": 3.2307,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "州长办公室表示，伤者中有19人是警察。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241745,
+    "id": "DxxKatb8FYrW1e8Py5HYyAE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 14,
+      "prompt_tokens": 246,
+      "total_tokens": 324
+    }
+  }
+}

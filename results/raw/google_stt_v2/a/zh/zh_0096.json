@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0096",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 13.2,
+  "ref_text_raw": "实地考察是任何教学活动的重要组成部分。通常，老师会很乐意带学生去那些公交车无法到达的地方。",
+  "ref_text_normalized": "实 地 考 察 是 任 何 教 学 活 动 的 重 要 组 成 部 分 通 常 老 师 会 很 乐 意 带 学 生 去 那 些 公 交 车 无 法 到 达 的 地 方",
+  "timestamp_utc": "2026-07-05T06:26:48Z",
+  "text": "实地考察是任何教学活动的重要组成部分。通常,老师会很乐意带学生去那些公交车无法到达的地方。",
+  "latency_sec": 5.0708,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "14s",
+      "requestId": "6b910d25-0000-272f-a05b-7474463c3b25",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "实地考察是任何教学活动的重要组成部分。通常,老师会很乐意带学生去那些公交车无法到达的地方。"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

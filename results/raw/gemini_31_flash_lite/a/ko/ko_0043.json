@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0043",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.0,
+  "ref_text_raw": "사자는 무리 지어 사는 가장 사회적인 고양이과 동물입니다.",
+  "ref_text_normalized": "사자는 무리 지어 사는 가장 사회적인 고양이과 동물입니다",
+  "timestamp_utc": "2026-07-05T06:21:25Z",
+  "text": "사자는 무리 지어 사는 가장 사회적인 고양잇과 동물입니다.",
+  "latency_sec": 2.8601,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "사자는 무리 지어 사는 가장 사회적인 고양잇과 동물입니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPhq06oloBHK0iepYjgByKYSunK1aE13u1mEw85dSioGgj8WuBMyWwogZwWvvb"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232485,
+    "id": "4_dJapPNGay1vr0P8c_P-Qc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 17,
+      "prompt_tokens": 246,
+      "total_tokens": 263
+    }
+  }
+}

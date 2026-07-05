@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0009",
+  "lang": "th",
+  "engine": "gemini_25_flash",
+  "duration_sec": 13.2,
+  "ref_text_raw": "Oliver Sacks ระบุในงานวิจัยของเขาที่ชื่อว่า ว่าด้วยสุนทรพจน์ของประธานาธิบดี ว่าผู้ที่ไม่สามารถเข้าใจคำพูดเนื่องจากสมองกระทบกระเทือนจะสามารถประเมินความจริงใจได้อย่างไร",
+  "ref_text_normalized": "oliver sacks ระบุในงานวิจัยของเขาที่ชื่อว่า ว่าด้วยสุนทรพจน์ของประธานาธิบดี ว่าผู้ที่ไม่สามารถเข้าใจคำพูดเนื่องจากสมองกระทบกระเทือนจะสามารถประเมินความจริงใจได้อย่างไร",
+  "timestamp_utc": "2026-07-05T07:34:51Z",
+  "text": "Oliver Sacks ระบุในงานวิจัยของเขาที่ชื่อว่า ว่าด้วยสุนทรพจน์ของประธานาธิบดีว่าผู้ที่ไม่สามารถเข้าใจคำพูดเนื่องจาก สมองกระทบกระเทือนจะสามารถประเมินความจริงใจได้อย่างไร",
+  "latency_sec": 3.851,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Oliver Sacks ระบุในงานวิจัยของเขาที่ชื่อว่า ว่าด้วยสุนทรพจน์ของประธานาธิบดีว่าผู้ที่ไม่สามารถเข้าใจคำพูดเนื่องจาก สมองกระทบกระเทือนจะสามารถประเมินความจริงใจได้อย่างไร",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236891,
+    "id": "GQlKat_SD5ja1e8P6IqesQI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 55,
+      "prompt_tokens": 444,
+      "total_tokens": 600
+    }
+  }
+}

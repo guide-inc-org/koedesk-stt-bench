@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0129",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 18.48,
+  "ref_text_raw": "Вчера утром возле главного полицейского управления Газиантепа (Турция) был подорван автомобиль, в результате чего погибли 2 полицейских и еще более 20 человек получили ранения.",
+  "ref_text_normalized": "вчера утром возле главного полицейского управления газиантепа турция был подорван автомобиль в результате чего погибли 2 полицейских и еще более 20 человек получили ранения",
+  "timestamp_utc": "2026-07-05T07:27:58Z",
+  "text": "Вчера утром возле главного полицейского управления Газиантепа, Турция, был подорван автомобиль, в результате чего погибли два полицейских, еще более двадцати человек получили ранения.",
+  "latency_sec": 6.4834,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Вчера утром возле главного полицейского управления Газиантепа, Турция, был подорван автомобиль, в результате чего погибли два полицейских, еще более двадцати человек получили ранения.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236478,
+    "id": "eQdKavPqE-ex2roPrLDX2QU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 42,
+      "prompt_tokens": 483,
+      "total_tokens": 1044
+    }
+  }
+}

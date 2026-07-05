@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0071",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 16.14,
+  "ref_text_raw": "彼の作品は、その質の高さと詳細さが評価され、切手収集家の中では数少ない「有名人」の1人です。彼の作品だけを専門とする収集家もいるほどです。",
+  "ref_text_normalized": "彼の作品は その質の高さと詳細さが評価され 切手収集家の中では数少ない 有名人 の1人です 彼の作品だけを専門とする収集家もいるほどです",
+  "timestamp_utc": "2026-07-05T10:17:04Z",
+  "text": "彼 の 作品 は その 質 の 高 さ と 繊細 さ が 評価 さ れ 、 切手 収集 家 の 中 で は 数 少ない 有名人 の 1人 です 。 彼 の 作品 だけ を 専門 と する 収集 家 も いる ほど です 。",
+  "latency_sec": 2.8247,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "彼 の 作品 は その 質 の 高 さ と 繊細 さ が 評価 さ れ 、 切手 収集 家 の 中 で は 数 少ない 有名人 の 1人 です 。 彼 の 作品 だけ を 専門 と する 収集 家 も いる ほど です 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPY4RXEkmUazCp31Zp9jkzA6xXVyccp7L2cBTzwGt8ioqEQtmzavaZMxQPvtI9"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246624,
+    "id": "Hi9KauP_M-znosUP7JmIyQY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 59,
+      "prompt_tokens": 425,
+      "total_tokens": 484
+    }
+  }
+}

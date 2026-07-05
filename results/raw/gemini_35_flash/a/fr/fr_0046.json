@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0046",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.06,
+  "ref_text_raw": "« Ce n'est pas un au revoir. C'est une page qui se tourne, et une autre qui s'ouvre. »",
+  "ref_text_normalized": "« ce n'est pas un au revoir. c'est une page qui se tourne et une autre qui s'ouvre. »",
+  "timestamp_utc": "2026-07-05T05:05:08Z",
+  "text": "Ce n'est pas un au revoir, c'est une page qui se tourne et une autre qui s'ouvre.",
+  "latency_sec": 3.4247,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Ce n'est pas un au revoir, c'est une page qui se tourne et une autre qui s'ouvre.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtwDCtkDARFNMg/X8/MGny2Tf8VmC/fJGXMKk38cPiK1I7nht44DGlT8ttz80pJ+c6Uu7DboOrCnfEwUkPC7bMsH2oJgv0qBQ4/5B7f3JPkhWTlw40oYDKYZazU2VrkgY5swvGi0m2HSmM+JO4K0uXfh5uAwvhsuzfp084B8Fc6tHK7T/le9cx9Y817Hhes0wv9PuRm07h8PpExcgwll5DbD1hutfvaNBrRoMx5mp1T087MZ/4ZPv1nFoZExkZHjJ4Ovn9rAJL70rrQK3N1zdTgvQAlG6g0ZKZvuWjMNhKNqz8lmr2MIY8s8T0OcII5rKk8uwe6IoLJZstu/lYow/NAVGOka10Nu2Yo4rOEDDrzfZzX3E9npLDgpjaZqyznCs01RSZIDoBoD8iViQzEG748fo4ecrzWK29/EipyQFZopdwZHBzYBRTWPWJx/VdbXHr+68XnmYIXH5RJUhQsdu0uYWzfnfwngCyt0/9AlyzwQMcwl4mPE7zd1PU0bbvMdBU76hOJ1W8nzAa5EyzfaPJQ1Zj0TQubNpbFShaLpM7CvlH/lTTxfRXX43+Yw2I73QbI6Dgwm7KFptb72e/uCt97qH/MEsDpfJL7NxTpH4zjD2wHGYz1oeHerHMhPG/Q="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227908,
+    "id": "AuZJauPGCoGM0-kP4LLDwQk",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 248,
+      "total_tokens": 389
+    }
+  }
+}

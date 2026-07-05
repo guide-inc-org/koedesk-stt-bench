@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0180",
+  "lang": "ko",
+  "engine": "gemini_25_flash",
+  "duration_sec": 14.52,
+  "ref_text_raw": "시골길 운전에 익숙하지 않은 경우 가파른 경사, 좁은 차선 및 급격한 커브길을 조심해야 합니다.",
+  "ref_text_normalized": "시골길 운전에 익숙하지 않은 경우 가파른 경사 좁은 차선 및 급격한 커브길을 조심해야 합니다",
+  "timestamp_utc": "2026-07-05T06:07:13Z",
+  "text": "시골길 운전에 익숙하지 않은 경우 가파른 경사, 좁은 차선 및 급격한 커브길을 조심해야 합니다.",
+  "latency_sec": 3.5036,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "시골길 운전에 익숙하지 않은 경우 가파른 경사, 좁은 차선 및 급격한 커브길을 조심해야 합니다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231633,
+    "id": "jvRJauHZNfeZ0-kPrbzayQU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 486,
+      "total_tokens": 623
+    }
+  }
+}

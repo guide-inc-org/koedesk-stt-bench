@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0112",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.96,
+  "ref_text_raw": "イタリア国内の他の多くの都市や世界の他の地域（特にポーランド）で同じように設置がされ、多くの人々が視聴しました。",
+  "ref_text_normalized": "イタリア国内の他の多くの都市や世界の他の地域特にポーランドで同じように設置がされ 多くの人々が視聴しました",
+  "timestamp_utc": "2026-07-05T03:17:53Z",
+  "text": "イタリア 国内 の 他 の 多く の 都市 や 世界 の 他 の 地域 、 特に ポーランド で 同じ よう に 設置 が さ れ 、 多く の 人々 が 主張 し まし た 。",
+  "latency_sec": 4.0046,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "イタリア 国内 の 他 の 多く の 都市 や 世界 の 他 の 地域 、 特に ポーランド で 同じ よう に 設置 が さ れ 、 多く の 人々 が 主張 し まし た 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP+TbNmUIRPfJ/570Lfl6q8tauKRNF6xVrC+YDIAXKE5qDgN5Y4URWk6NXbdX5"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221473,
+    "id": "38xJavHjFdG3vr0PstvC2AM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 420,
+      "total_tokens": 459
+    }
+  }
+}

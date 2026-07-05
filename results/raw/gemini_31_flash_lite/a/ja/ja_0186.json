@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0186",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.06,
+  "ref_text_raw": "病院では、感染管理手順書に従い、他人への感染の可能性を防ぐために患者を隔離するなどの措置をとっています。",
+  "ref_text_normalized": "病院では 感染管理手順書に従い 他人への感染の可能性を防ぐために患者を隔離するなどの措置をとっています",
+  "timestamp_utc": "2026-07-05T03:22:40Z",
+  "text": "病院 で は 感染 管理 手順 書 に 従い 、 他人 へ の 感染 の 可能 性 を 防ぐ ため に 患者 を 隔離 する など の 措置 を 取っ て い ます 。",
+  "latency_sec": 6.2767,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "病院 で は 感染 管理 手順 書 に 従い 、 他人 へ の 感染 の 可能 性 を 防ぐ ため に 患者 を 隔離 する など の 措置 を 取っ て い ます 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPCFN3ZqYgRTuXvNRTad2UH0kwAaVTJH6Wm7y0DdyOb6WZsFkfE5DGZAzvogbu"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221756,
+    "id": "-81JapXeEr3MrfcPx6WgiQQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 398,
+      "total_tokens": 441
+    }
+  }
+}

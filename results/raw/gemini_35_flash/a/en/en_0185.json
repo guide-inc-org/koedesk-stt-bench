@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0185",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 15.6,
+  "ref_text_raw": "USA Gymnastics supports the United States Olympic Committee's letter and accepts the absolute need of the Olympic family to promote a safe environment for all of our athletes.",
+  "ref_text_normalized": "usa gymnastics supports the united states olympic committee's letter and accepts the absolute need of the olympic family to promote a safe environment for all of our athletes",
+  "timestamp_utc": "2026-07-05T03:38:46Z",
+  "text": "USA Gymnastics supports the United States Olympic Committee's letter and accepts the absolute need of the Olympic family to promote a safe environment for all of our athletes.",
+  "latency_sec": 3.4099,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "USA Gymnastics supports the United States Olympic Committee's letter and accepts the absolute need of the Olympic family to promote a safe environment for all of our athletes.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "ErMFCrAFARFNMg9MqM76xoWxNAf6bSxVJlXeaa3uGPKAgZM2DD/hHUUIYbm6OI/kZVgJp+c78K3XnFC30T7h/Dlod17WGcSTYNmY9m0KzAy1QIotcZpIEKo3EhBpqR/gXMDXvckGWe+exCwyuaUVmwvRZ6tHM5A0YG+oF20s03XDdJj+0/FJEGWTXE1DLdhfupJiRl/wnpOBf3mmqDVE/O6GbUQT/pScH4z+w+gfUfhuRV6VpCPruTH1ay6wB8Ts+KatVOu5rVvHibeP/kQpFonmoECPeqBMJnmFkj1ryinVQXlMkpZiUgg4AGG+vvSwfg7hlOfVMpAPCgexN7Acsibj+sDhlwntKv77nIjfpnENoiRIkKO8TAqiL5aAOK+/cvoAQcGex2A/c8QJwutJ1Eazuka98T83fT+wwLgxCKh5n8lwyKsFL/9KzR+Bxr1yjaAx7cuF7p4hhgqs1UNx2cwD//cX1cVTnqzuYqa/uI++FKuzMl9iibyl5cAoIQVCUDujMeqTcg4NsSRWKEyUTR2/1hOHyAFZLvvi8N5Hd4Iunin6dBXWZttlq0Ut5CVLDdKCd+hcx5u92cpZ+Dee6lv5ovOBaqhPi3ppubAEsnDhMgXvtPj+VhIJ+sZVvSNkj7j25J+26jaFvJnVTwpNcpr231NscK9IEy220MjhYg0x5R/0E75opzZKneyB3Zg8HhDelIomuQIJV28NMdG+vCYrFit78KQpF5MkjAR7PcRwnSCG4UfBrgxi1jU1E1MYbbL/BvPlzF/Yafl1oZOCBSjj/sPa7OctCSOYVjMoQJDaXu3dVB27IfTRqZQbvgyij5Wl3RVe+nQ2DQ8XQdFmeIy+O3juvAhszFc4raehg/o0zeCwcpuc1rOQEd0LAGiavn0H3SocnezoJbDyE3tT+yExBtcK3g=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222726,
+    "id": "w9FJaqilOr3dvr0Pv4K6sQE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 411,
+      "total_tokens": 583
+    }
+  }
+}

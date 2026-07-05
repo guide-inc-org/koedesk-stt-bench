@@ -1,0 +1,45 @@
+{
+  "utt_id": "es_0121",
+  "lang": "es",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.98,
+  "ref_text_raw": "El Mosasaurus fue el depredador alfa de su época, por tanto, a nada le temía, excepto a otros de su misma especie.",
+  "ref_text_normalized": "el mosasaurus fue el depredador alfa de su época por tanto a nada le temía excepto a otros de su misma especie",
+  "timestamp_utc": "2026-07-05T04:38:47Z",
+  "text": "El mosasaurus fue el depredador alfa de su época, por tanto, a nada le temía, excepto a otros de su misma especie.",
+  "latency_sec": 3.5801,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "El mosasaurus fue el depredador alfa de su época, por tanto, a nada le temía, excepto a otros de su misma especie.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpAECo0EARFNMg+AgfjEAxPGmGPKPJkpMDLnHLGi+feUdf0pqrcftHC1EJf0YTTgcxBew6+F75vycFlCTjqp2UVj821Ggup0rs5HxlcvlO3zUykEodTVMF81JTltOdyWMzH6rmZrokE21DIHb+OGB1E5wbtSiUJzenUEy3c8elcyeygAKqlywUPQAUUMCkUGMZp0FzcArW1Zdxm5HfQoJPrq+l2VR1+NAnWkiiu359EwP3cagWXOBZjjMu1DPZ/s3l4aHrmLQrhhkmhC9HFw2EE7+sXj79zVEy1+Tikpf1ReHVjPPiddPRvCWINHGihoNpwLBd5OQi/uc1wV/pTOGolqP/CZcx62zQHQdoXiz4exDTjdFqIE/gPP2KRdctnwilw0qbJE0sm206Q2jjhblDzcC/z2SmC8xxDPNrvdzQ32BnOehvfjvyDxIlorOkMfcbFUKmzZMySSrq4TKh/gN9iOeFzQzRhbsC0nviTC4UWkF8qP4hPCA3Kx9zMqlqYIelqyiizTyPADhsew0xyEzAW2EYyozPyZldYt/Xyy9aO+VXjyPs+PrYyosypUdWJSFi4b/F8GWkul88FjmWyTpAZa5xfF1mMqvG42yuQmmcABz4aG7DTPEPLItE1A3TdyNKH1vrOzeZEnU3RaACgOzTTzgCrVb41Z7rI1IyPZKo2OM3lez5Lh5udCGt7RhudkS5JX"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226327,
+    "id": "1d9JavWBGr6a1e8PgPz1sQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 296,
+      "total_tokens": 443
+    }
+  }
+}

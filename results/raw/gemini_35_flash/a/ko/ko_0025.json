@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0025",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.6,
+  "ref_text_raw": "합금은 기본적으로 금속 두 개 이상의 혼합물이다. 주기율표 상에 원소가 많이 있다는 것을 잊지 마라.",
+  "ref_text_normalized": "합금은 기본적으로 금속 두 개 이상의 혼합물이다 주기율표 상에 원소가 많이 있다는 것을 잊지 마라",
+  "timestamp_utc": "2026-07-05T06:11:22Z",
+  "text": "합금은 기본적으로 금속 두 개 이상의 혼합물이다. 주기율표 상의 원소가 많이 있다는 것을 잊지 마라.",
+  "latency_sec": 5.7779,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "합금은 기본적으로 금속 두 개 이상의 혼합물이다. 주기율표 상의 원소가 많이 있다는 것을 잊지 마라.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231882,
+    "id": "hvVJapOxEsmrvr0Ps4zPyAI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 336,
+      "total_tokens": 829
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0184",
+  "lang": "ru",
+  "engine": "gemini_25_pro",
+  "duration_sec": 12.66,
+  "ref_text_raw": "Глажка влажной одежды помогает ей высохнуть. Многие отели предоставляют напрокат утюг и гладильную доску, даже если они отсутствуют в номере.",
+  "ref_text_normalized": "глажка влажной одежды помогает ей высохнуть многие отели предоставляют напрокат утюг и гладильную доску даже если они отсутствуют в номере",
+  "timestamp_utc": "2026-07-05T07:25:21Z",
+  "text": "Глажка влажной одежды помогает ей высохнуть. Многие отели предоставляют напрокат утюг и гладильную доску, даже если они отсутствуют в номере.",
+  "latency_sec": 4.885,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Глажка влажной одежды помогает ей высохнуть. Многие отели предоставляют напрокат утюг и гладильную доску, даже если они отсутствуют в номере.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236321,
+    "id": "3gZKap_2Af_R1e8PsqiM8QM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 427,
+      "total_tokens": 628
+    }
+  }
+}

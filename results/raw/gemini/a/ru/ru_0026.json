@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0026",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.04,
+  "ref_text_raw": "Между 10:00 и 11:00 вечера по горному времени заключенные устроили пожар во дворе.",
+  "ref_text_normalized": "между 10:00 и 11:00 вечера по горному времени заключенные устроили пожар во дворе",
+  "timestamp_utc": "2026-07-05T07:02:05Z",
+  "text": "Между десятью и одиннадцатью вечера по гринвичскому времени заключённые устроили пожар во дворе.",
+  "latency_sec": 3.2603,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Между десятью и одиннадцатью вечера по гринвичскому времени заключённые устроили пожар во дворе.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234926,
+    "id": "awFKapPPNuGHvr0PvZC5oQg",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 279,
+      "total_tokens": 416
+    }
+  }
+}

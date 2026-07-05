@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0015",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 18.3,
+  "ref_text_raw": "私たちは植物で家を造り、植物から衣類を作ります。日々食べる食材の多くが植物です。植物がなければ動物は生きていけません。",
+  "ref_text_normalized": "私たちは植物で家を造り 植物から衣類を作ります 日々食べる食材の多くが植物です 植物がなければ動物は生きていけません",
+  "timestamp_utc": "2026-07-05T10:11:06Z",
+  "text": "私たちは植物で家を作り、植物から衣類を作ります。日々食べる食材の多くは植物です。植物がなければ動物は生きていけません。",
+  "latency_sec": 5.0361,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "私たちは植物で家を作り、植物から衣類を作ります。日々食べる食材の多くは植物です。植物がなければ動物は生きていけません。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246266,
+    "id": "ti1KasioIr6a1e8PgPz1sQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 479,
+      "total_tokens": 1012
+    }
+  }
+}

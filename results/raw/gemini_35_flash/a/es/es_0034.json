@@ -1,0 +1,45 @@
+{
+  "utt_id": "es_0034",
+  "lang": "es",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 5.7,
+  "ref_text_raw": "Solo queda preguntarse qué será del teclado cuando surja algo más nuevo.",
+  "ref_text_normalized": "solo queda preguntarse qué será del teclado cuando surja algo más nuevo",
+  "timestamp_utc": "2026-07-05T04:31:38Z",
+  "text": "Solo queda preguntarse qué será del teclado cuando surja algo más nuevo.",
+  "latency_sec": 4.26,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Solo queda preguntarse qué será del teclado cuando surja algo más nuevo.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EowGCokGARFNMg8w8z3kWWn5uPJYXhaLe73XaTUBdm+Xi5keI2om9OvnQbdiLtl+n9wsr8P/CKAHhHObIc+O3gVRe19BHy3WReQeVYi1LNgpZGTUG74YzVvIeZJBHBYWmO4pgovHVP2U8A+QWDe3rXwX1Iatryra/AYXE4dNdCRurL3bXkg370+iS2zoeSeBe9QTi4GPQa6WNCgagd9Snv27I5YxJeAzABcygncZ68IB6ztHW41iWrmkNRnOVkdl50hEPqq3ohoSWu2oijU1ahU7J/tXysWnsjDbHY/O9OnJpIr9EMSnEjU17gRYIDrfquQbv0frw7hRW0irzN1Ab71NXBMC3ookMV+cItKkw7EWSkVILrMur83MtJxcZnp9JAciRMMlOYcMTnC+QRUyOGDfCzZfv1HBqDB72oynVy9+xxGw2uEan+42vROpDNmBE5bi68C94hWEaz/1S56rdCBbRCFKPeRJwXpvQ2PFweXP1dSmAr8E3j+YROBsWdLJj3a50fgZU+duRtG46Qp448xhnIAuI526paj60A4pMnzHupBFtayXqImn0DFowoHiussHjvlS5XZ6Wxxz0MkFVBpa5MYuHSwh3wL81GPkp39tOiKbGoGs8MDnpS6aVHFD/fBaUaSVaP1SMKVgTHId8ejjnOf+rh+F18vDflxxwdmD7qQZF6Z7yf6Tt6nMfqxJSNHFX53C/orwJdphxiBAI7TCMG1OrmBa9g2DQ/wp7BHXkMnlPcC5BCOtRg+VXUEbikIdFbH0WdXCAOZ4XDmHRMG9UURFFWH+wz/al2B4HteeYXDlkHDfdrYZzTgNTiT7SZck3sjHduhzyckdpDTVbGbBIgFLrser/LFVeeJZVnrFyA5OUi4WXZtI5SRMwdKnVt+s5Q01LJ95uSqeTzzZCmdv79XRyP+XVe+2T9Rd+UJP/GDhfettyTGYpVYLjnyXW06JUQjChFr0gbU0sEenxqVBOsxxBDlf6dxE5/1/kydX6HN65bXuF0U2gGJ7XUAcCedQGQbuBOB2Oy0voYi7"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225898,
+    "id": "J95Jaqi9EPyk0-kP9PODwAc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 15,
+      "prompt_tokens": 164,
+      "total_tokens": 361
+    }
+  }
+}

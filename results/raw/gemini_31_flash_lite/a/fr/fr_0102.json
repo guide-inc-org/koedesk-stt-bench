@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0102",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 21.84,
+  "ref_text_raw": "\"Lorsqu'on en fait bon usage, les blogs \"\"peuvent permettre aux étudiants de renforcer leurs capacités d'analyse et leur esprit critique : en réagissant activement aux contenus en ligne, ils peuvent confronter leur avis à celui des autres et exposer leurs propres points de vue sur des sujets bien précis\"\" (Oravec, 2002).\"",
+  "ref_text_normalized": "\"lorsqu'on en fait bon usage les blogs \"peuvent permettre aux étudiants de renforcer leurs capacités d'analyse et leur esprit critique : en réagissant activement aux contenus en ligne ils peuvent confronter leur avis à celui des autres et exposer leurs propres points de vue sur des sujets bien précis\" oravec 2002.",
+  "timestamp_utc": "2026-07-05T05:15:50Z",
+  "text": "Lorsqu'on en fait bon usage, les blogs peuvent permettre aux étudiants de renforcer leur capacité d'analyse et leur esprit critique. En réagissant activement au contenu en ligne, ils peuvent confronter leur avis à celui des autres et exposer leur propre point de vue sur des sujets bien précis, Oravic 2002.",
+  "latency_sec": 3.2613,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Lorsqu'on en fait bon usage, les blogs peuvent permettre aux étudiants de renforcer leur capacité d'analyse et leur esprit critique. En réagissant activement au contenu en ligne, ils peuvent confronter leur avis à celui des autres et exposer leur propre point de vue sur des sujets bien précis, Oravic 2002.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPxL2h1XcL9GVO5/k6RHTGWjk4y78p1X7GFSWq9k92z3IN4wXZNklpinNnffy5"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228550,
+    "id": "hOhJaqjWMpnd2roP0-bGsQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 71,
+      "prompt_tokens": 567,
+      "total_tokens": 638
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0131",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.48,
+  "ref_text_raw": "De grandes zones plus au nord sont assez peu peuplées et certaines sont presque inhabitées à l'état sauvage.",
+  "ref_text_normalized": "de grandes zones plus au nord sont assez peu peuplées et certaines sont presque inhabitées à l'état sauvage",
+  "timestamp_utc": "2026-07-05T05:17:36Z",
+  "text": "Des grandes zones plus au nord sont assez peu peuplées et certaines sont presque inhabitées à l'état sauvage.",
+  "latency_sec": 2.784,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Des grandes zones plus au nord sont assez peu peuplées et certaines sont presque inhabitées à l'état sauvage.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP09WZZMVHtkLXgOyCVCUBbunx/yAlXuaa69JVYscaabAq8I5wa4LK2sApLw4Y"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228656,
+    "id": "7-hJapiAAvyk0-kP9PODwAc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 258,
+      "total_tokens": 282
+    }
+  }
+}

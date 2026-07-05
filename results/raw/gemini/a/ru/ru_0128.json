@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0128",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.62,
+  "ref_text_raw": "Всё же следуйте рекомендациям органов власти, подчиняйтесь всем знакам и обратите пристальное внимание на предупреждения о безопасности.",
+  "ref_text_normalized": "всё же следуйте рекомендациям органов власти подчиняйтесь всем знакам и обратите пристальное внимание на предупреждения о безопасности",
+  "timestamp_utc": "2026-07-05T07:10:22Z",
+  "text": "Всё же следуйте рекомендациям органов власти, подчиняйтесь всем знакам и обратите пристальное внимание на предупреждения о безопасности.",
+  "latency_sec": 3.8943,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Всё же следуйте рекомендациям органов власти, подчиняйтесь всем знакам и обратите пристальное внимание на предупреждения о безопасности.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235422,
+    "id": "WwNKapW5Lsmzvr0PmpW5mQI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 361,
+      "total_tokens": 416
+    }
+  }
+}

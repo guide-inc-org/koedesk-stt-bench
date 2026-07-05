@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0159",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.54,
+  "ref_text_raw": "革命後は職業も公募制になって男性全員に応募資格があり、最も意欲があって勝ち抜いた者が職に就けるようになりました。",
+  "ref_text_normalized": "革命後は職業も公募制になって男性全員に応募資格があり 最も意欲があって勝ち抜いた者が職に就けるようになりました",
+  "timestamp_utc": "2026-07-05T03:20:55Z",
+  "text": "革命 後 は 職業 も 公募 制 に なっ て 男性 全員 に 応募 資格 が あり 、 最も 意欲 が あっ て 勝ち抜い た 者 が 職 に 就ける よう に なり まし た 。",
+  "latency_sec": 2.8858,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "革命 後 は 職業 も 公募 制 に なっ て 男性 全員 に 応募 資格 が あり 、 最も 意欲 が あっ て 勝ち抜い た 者 が 職 に 就ける よう に なり まし た 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP24QN9E0HGvrpoQle4dnz2/6eep9WAJu+F3Y/oyWLlMAoKNKuk9W9/vkEdzgF"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221655,
+    "id": "lc1JapeyIY-D1e8P9I7h6AE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 49,
+      "prompt_tokens": 335,
+      "total_tokens": 384
+    }
+  }
+}

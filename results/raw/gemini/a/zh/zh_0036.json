@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0036",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 16.86,
+  "ref_text_raw": "2002 年，戈马被尼拉贡戈火山的熔岩所摧毁。火山熔岩掩埋了该镇的大部分街道，尤其是镇中心。",
+  "ref_text_normalized": "2002 年 戈 马 被 尼 拉 贡 戈 火 山 的 熔 岩 所 摧 毁 火 山 熔 岩 掩 埋 了 该 镇 的 大 部 分 街 道 尤 其 是 镇 中 心",
+  "timestamp_utc": "2026-07-05T08:50:44Z",
+  "text": "2002年,哥馬貝尼拉共格火山的熔岩所摧毀。 火山熔岩淹沒了該鎮的大部分街道,尤其是鎮中心。",
+  "latency_sec": 4.0056,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "2002年,哥馬貝尼拉共格火山的熔岩所摧毀。 火山熔岩淹沒了該鎮的大部分街道,尤其是鎮中心。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241444,
+    "id": "4hpKasqwCtLM1e8PlJ7zgQc",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 561,
+      "total_tokens": 624
+    }
+  }
+}

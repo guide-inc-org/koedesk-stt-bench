@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0101",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.66,
+  "ref_text_raw": "Other subjects on the agenda in Bali include saving the world's remaining forests, and sharing technologies to help developing nations grow in less-polluting ways.",
+  "ref_text_normalized": "other subjects on the agenda in bali include saving the world's remaining forests and sharing technologies to help developing nations grow in less-polluting ways",
+  "timestamp_utc": "2026-07-05T03:33:17Z",
+  "text": "Other subjects on the agenda in Bali include saving the world's remaining forests and sharing technologies to help developing nations grow in less polluting ways.",
+  "latency_sec": 3.4663,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Other subjects on the agenda in Bali include saving the world's remaining forests and sharing technologies to help developing nations grow in less polluting ways.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPjXC44xsTHhyKxEx5QyB+bCOXIfshKGonn5U1hq/EAz4J1GYKIFBNgu/BlGlY"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222398,
+    "id": "e9BJauT9Ko-V9tMPqJa8yAI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 263,
+      "total_tokens": 291
+    }
+  }
+}

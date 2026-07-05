@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0134",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.76,
+  "ref_text_raw": "En réalité, ce n'est pas facile du tout à trouver, même si on sait que ça existe. Quand on est entré dans la grotte, on est complètement isolé.",
+  "ref_text_normalized": "en réalité ce n'est pas facile du tout à trouver même si on sait que ça existe quand on est entré dans la grotte on est complètement isolé",
+  "timestamp_utc": "2026-07-05T04:55:40Z",
+  "text": "En réalité, ce n'est pas facile du tout à trouver, même si on sait que ça existe. Quand on est entré dans la grotte, on est complètement isolé.",
+  "latency_sec": 3.9601,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "En réalité, ce n'est pas facile du tout à trouver, même si on sait que ça existe. Quand on est entré dans la grotte, on est complètement isolé.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227340,
+    "id": "yeNJapmYFtKivr0PmOv26QM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 398,
+      "total_tokens": 464
+    }
+  }
+}

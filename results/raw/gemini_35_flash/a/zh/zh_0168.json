@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0168",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 14.4,
+  "ref_text_raw": "澳大利亚选手米切尔·古尔力获得男子站姿超级大回转比赛第十一名。捷克选手奥德里奇·耶利内克获得男子坐姿超级大回转比赛第十六名。",
+  "ref_text_normalized": "澳 大 利 亚 选 手 米 切 尔 古 尔 力 获 得 男 子 站 姿 超 级 大 回 转 比 赛 第 十 一 名 捷 克 选 手 奥 德 里 奇 耶 利 内 克 获 得 男 子 坐 姿 超 级 大 回 转 比 赛 第 十 六 名",
+  "timestamp_utc": "2026-07-05T09:21:46Z",
+  "text": "澳大利亚选手米切尔·戈尔利获得男子站姿超级大回转比赛第11名，捷克选手奥德里奇·耶里克获得男子坐姿超级大回转比赛第16名。",
+  "latency_sec": 5.8237,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "澳大利亚选手米切尔·戈尔利获得男子站姿超级大回转比赛第11名，捷克选手奥德里奇·耶里克获得男子坐姿超级大回转比赛第16名。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "ErkOCrYOARFNMg8km4meEzj/2YZZ30jH3ImvFcx1C8Gi3a1/tdhgTyi5oUsHwdBAXkkVQRKspfEDcE3YqAt26NW8iu0Asu1wG22IY8QIi3uWQmDnEAc+gTrsoUfmzNmOj/qxMpw5I2jjHyTdXsgn0TlinETRndHLfVnI6ASi5J+oO3mUfJ54tDqFeO2MNZRCYGG/fD+7ue7sO6JJQ6ThA6uLzwLUDWxrnPfR7udtXKQiaNIBaqngNvCHBgU6dX5QuiefDUHwyJ/0u8oRXd42KW26saf8QykjjVz4nHaPGj/EM6MvQyIiRaK2l2um+6ZrqD/JE4uxkU3siGEAhrB0XO8mfVUZYadhgqSR3ATMPzX/VvebYYeNX/2Ldv76z57wy/wq16WVLLJoAEbVQQ4dYVByeU805S2tU19n7vPbJWhMI0KFqDgXv8q1mTtvcc5aNKQljxsN/BWEmpbyTh+rQ5Z9Nv4FKT7B65xHouQqW1KbHLvq5lANbJsjswc9m0RqdeZyKzGGx40qHlY6j+KTEUsBS08sFqzA7Hy8OTr6XjIfpIH3A7KxtEFj3dIA/SRBYcU93BD92K3QdjD4ej26dKN/G3NXjXy44SMDpzQbrV2ZWmt7GdHu5KCnEjW76z9u84yBZAvJfjdNtlo2fgPHEm9wE99fyZrqKFuMh/pl69MbALKLiU14TuPKiQDqU2MM7WUDpNn25MPYEsDC62Vgjhivt5U54NuS+QQv8BiaXLeyKDjkhWjwE327MWrLawbOuew7NvcIZF/+5ZqXERcvWp9qt2AkTTiZmJy0LWmLc8hmi1h9xLdqvvY0ztm3dLmSsU7gh8YS8Hr48rv8Aksc/1u9nGEf9zLAeBzql6v3PBgH88W3nzHICqzNvgdmGFcVaXmOR3lB6outxFhchG7kii7lFY3yj3DbhdgWJBZ94MhqWUIvh3KO1CHlxbrJ3kIrV1+Kk5fI9X7y5pJsYBe6qlUkfPevqc73ojOSTGHpSuwnlmYZ153R9KS+/wTwk7OcxQwged9NNDEKXMlnWu3txxB43PBGNobIBGzlJa5pcCsTYUwAWF3JdqEumOiiNfakjXwUTCLsTXlJe5Pzvi0ThSEJY4vKKn48HWm5i4lE1uv8dV768+53nZx31gMgQA//olbQ93kri+J7+93d6NkHNlES8adwOKJlikSj5rYUn4IKHbYAd6lUbnO+d8x97aBWcfRu4YnMRtd5TjKPL1+wVBbQBSb2yLRqU34vN/vorXJIIvPABItrleF2At+OEDZDFTOmhvOQyaij+PvzZ/hHTUdeXZgtyCESh+oKQaCIr6hwDEx4viFq7F5hR9FmdxqRhsO8RU5tUY4+nKcF+j+YefGYjCW6TgMXA4ecJm9AGmfEZd4jqf3ZwgUNuPRVhnfOiYmWOPx612kMYPTMT+4OO+fCec8r+yk977mmbflp9urJQw7j7Ntw38EDOYF+Z2qtRobOftya7/k4RMmxx1myYCPaBun7jhvaOKGYakolHaBLVYjbFYrNqJpOvsbtJz/XEndaYMTrOVAEym9tj9avRfzpUQbfOpFHdR6wz5lPFlMSV7D3rvPkhbPpACbqu4A9ywAIS70/OSWM2Ee3p+2XRxPNdMV+lcbW+KMgEN33/MKjNxgoQvze8aF0ca0rPVlEn7RxjWRCFByalICKWswm9xUzLrv8/WyWM3ag+Dez8Igl0RI066h7TCFobkD24v+NWKzlhx+n19nBF+qQs0o3AoB2BLUKw7l+CK0Qn1E9upSImPilNliAEUp1uStvGX1iStQSS4Nx+2uJgAHMGJ52EUqTkKkWqoT9IG835NxDgSNLoMP/x+Z7TCkvGXIXDNdpI8CWxGUz/hSsZ09SGs8IaVFz4eF/1cutTfPTUqOduOShp59Hf+bIYCum5nBdIVf5luE7Ai0aYHCk0SKIAIM6YCHk4F5S1rElSG6gE6AEQysv/H9WtfPUDWxgnyaNZZhM4N+CIVrnX39stOqtqS9BMZIdjg8Tba1Mzemj/xMpPVHqRbBzMn1HfS/rDh0REIm8xq/oP3Epi5lsgOdbkVE4vmIbaEV7uhgycbNZ2OfNdzoeZi5bQEOpxH80bSbJUWH0zyomBjbd9XwAYWLyou8yx0kjJOVVwoZoI+J2v6fX0OQVX47GkvVFcIYNxD7rsBaIara760wWY8w2ANA8GGnCDTUG1/pUa2Gyyw6jGyFdPGotO9+ACYhdAst566lo3W+//otHx97njiXg5yYcLEhCJsFtaJF+aqgK4KmkPS0beyBxUXKY19f+N0eF77JbTFugigJNDq3Le1Zs5aGErgHh4vw28c7sC9tmhvz7Hx9oMnR/glBBXdbd04y9fR06/5ijhnC062C6RIuVdgJkCiyCAwTCGlFO8d8//35inrK34xN3fFDuab18AXnSgxMUB9ljWTw81ZZJEw4nUbt+bZTH6B/g+SUQKiuEsaivnQ=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243306,
+    "id": "JSJKarnEOqew0-kPzeiWSA",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 381,
+      "total_tokens": 973
+    }
+  }
+}

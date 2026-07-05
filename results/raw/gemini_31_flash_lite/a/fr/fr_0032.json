@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0032",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.28,
+  "ref_text_raw": "« Il [Wales] nous a carrément menti dès le départ. Tout d'abord en prétextant des raison légales, puis en faisant semblant de nous écouter jusqu'à ce qu'il ait supprimé son œuvre. »",
+  "ref_text_normalized": "« il [wales] nous a carrément menti dès le départ. tout d'abord en prétextant des raison légales puis en faisant semblant de nous écouter jusqu'à ce qu'il ait supprimé son œuvre. »",
+  "timestamp_utc": "2026-07-05T05:11:25Z",
+  "text": "Il, Wales nous a carrément menti dès le départ. Tout d'abord en prétextant des raisons légales, puis en faisant semblant de nous écouter jusqu'à ce qu'il a supprimé son œuvre.",
+  "latency_sec": 3.9909,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Il, Wales nous a carrément menti dès le départ. Tout d'abord en prétextant des raisons légales, puis en faisant semblant de nous écouter jusqu'à ce qu'il a supprimé son œuvre.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPJGJfcBzApVlGYn2CHYnlanKywG/ZK/0n2ChOkWvxdd8DnpBpFCZNmB1koQR3"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228285,
+    "id": "eudJarvEGayv1e8P3_jVaA",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 378,
+      "total_tokens": 425
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0136",
+  "lang": "ru",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.68,
+  "ref_text_raw": "Многие считали, что он прав, но многие верили в противоположное: что Солнечная система вращается вокруг Земли, включая Солнце (и даже другие звезды).",
+  "ref_text_normalized": "многие считали что он прав но многие верили в противоположное: что солнечная система вращается вокруг земли включая солнце и даже другие звезды",
+  "timestamp_utc": "2026-07-05T07:20:18Z",
+  "text": "Многие считали, что он прав, но многие верили в противоположное, что Солнечная система вращается вокруг Земли, включая Солнце и даже другие звёзды.",
+  "latency_sec": 5.3423,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Многие считали, что он прав, но многие верили в противоположное, что Солнечная система вращается вокруг Земли, включая Солнце и даже другие звёзды.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236019,
+    "id": "rwVKavnMB9Civr0P-6eduQE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 363,
+      "total_tokens": 647
+    }
+  }
+}

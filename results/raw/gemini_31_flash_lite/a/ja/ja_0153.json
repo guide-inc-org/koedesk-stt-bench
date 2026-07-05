@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0153",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 18.48,
+  "ref_text_raw": "1966年からスンダルバンスは野生動物保護区となり、現在では推定で400頭のロイヤルベンガルトラと約30,000頭のアクシスジカが生息しています。",
+  "ref_text_normalized": "1966年からスンダルバンスは野生動物保護区となり 現在では推定で400頭のロイヤルベンガルトラと約30,000頭のアクシスジカが生息しています",
+  "timestamp_utc": "2026-07-05T03:20:24Z",
+  "text": "1966 年 から スンダル バンス は 野生 動物 保護 区 と なり 、 現在 で は 推定 で 400 頭 の ロイヤル ベンガル トラ と 約 3万 頭 の アクシス ジカ が 生息 し て い ます 。",
+  "latency_sec": 3.0342,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "1966 年 から スンダル バンス は 野生 動物 保護 区 と なり 、 現在 で は 推定 で 400 頭 の ロイヤル ベンガル トラ と 約 3万 頭 の アクシス ジカ が 生息 し て い ます 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPoR7Ot0t+wLILuJni8wdzq8CXAt4dbHWmR/KbI28ItOF5IXPhrssiD7+12Czq"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221625,
+    "id": "d81JavS0IvK8vr0P9K6siQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 59,
+      "prompt_tokens": 483,
+      "total_tokens": 542
+    }
+  }
+}

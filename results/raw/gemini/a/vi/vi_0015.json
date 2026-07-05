@@ -1,0 +1,39 @@
+{
+  "utt_id": "vi_0015",
+  "lang": "vi",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.3,
+  "ref_text_raw": "Tuy nhiên, sau khi thua gôn của đội trưởng, Ấn Độ chỉ thực hiện được 36 lần chạy và thua 7 gôn trước khi kết thúc hiệp thi đấu.",
+  "ref_text_normalized": "tuy nhiên sau khi thua gôn của đội trưởng ấn độ chỉ thực hiện được 36 lần chạy và thua 7 gôn trước khi kết thúc hiệp thi đấu",
+  "timestamp_utc": "2026-07-05T08:12:42Z",
+  "text": "Tuy nhiên, sau khi thua gôn của đội trưởng Ấn Độ chỉ thực hiện được 36 lần chạy và thua 7 gôn trước khi kết thúc hiệp thi đấu.",
+  "latency_sec": 3.9439,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Tuy nhiên, sau khi thua gôn của đội trưởng Ấn Độ chỉ thực hiện được 36 lần chạy và thua 7 gôn trước khi kết thúc hiệp thi đấu.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239162,
+    "id": "9xFKaqusFp2C0-kPjp3EsQM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 415,
+      "total_tokens": 516
+    }
+  }
+}

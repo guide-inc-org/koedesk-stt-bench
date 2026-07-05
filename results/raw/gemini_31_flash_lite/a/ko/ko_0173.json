@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0173",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 5.1,
+  "ref_text_raw": "북쪽은 사헬, 남쪽과 서쪽은 대서양이 접해 있습니다.",
+  "ref_text_normalized": "북쪽은 사헬 남쪽과 서쪽은 대서양이 접해 있습니다",
+  "timestamp_utc": "2026-07-05T06:29:28Z",
+  "text": "북쪽은 사할, 남쪽과 서쪽은 대서양에 접해 있습니다.",
+  "latency_sec": 3.2661,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "북쪽은 사할, 남쪽과 서쪽은 대서양에 접해 있습니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP5i2MusBt8/d1d/YUv+Q+7H/959G9nRpk/IQEfKpVuzwFJGgtgKWZGZWwVwYH"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232968,
+    "id": "xvlJavkHorDT6Q_puM7gBQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 149,
+      "total_tokens": 169
+    }
+  }
+}

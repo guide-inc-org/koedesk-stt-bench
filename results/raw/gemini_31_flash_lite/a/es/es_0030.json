@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0030",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.32,
+  "ref_text_raw": "Tienen extremidades escamadas y con garras, ponen huevos y se desplazan sobre sus patas traseras al igual que el T-Rex.",
+  "ref_text_normalized": "tienen extremidades escamadas y con garras ponen huevos y se desplazan sobre sus patas traseras al igual que el t-rex",
+  "timestamp_utc": "2026-07-05T04:35:30Z",
+  "text": "Tienen extremidades escamadas y con garras, ponen huevos y se desplazan sobre sus patas traseras al igual que el T-Rex.",
+  "latency_sec": 2.5331,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Tienen extremidades escamadas y con garras, ponen huevos y se desplazan sobre sus patas traseras al igual que el T-Rex.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPxBpew7ZEC3z+at+O2/HYPsqgBm9nqoJb/G84rwNX+dpSmfhXECfv1Kw/pKz8"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226130,
+    "id": "Ed9Jas-wDdTf1e8PvLbrwQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 279,
+      "total_tokens": 310
+    }
+  }
+}

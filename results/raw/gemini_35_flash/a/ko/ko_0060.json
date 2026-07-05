@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0060",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 15.12,
+  "ref_text_raw": "그러나 실험은 하나 혹은 그 이상의 가설을 제거하는 것이며, 질문을 하고 관찰을 하며 과학적 연구로 이끌어내는 것이다.",
+  "ref_text_normalized": "그러나 실험은 하나 혹은 그 이상의 가설을 제거하는 것이며 질문을 하고 관찰을 하며 과학적 연구로 이끌어내는 것이다",
+  "timestamp_utc": "2026-07-05T06:14:46Z",
+  "text": "그러나 실험은 하나 혹은 그 이상의 가설을 제거하는 것이며 질문을 하고 관찰을 하며 과학적 연구로 이끌어내는 것이다.",
+  "latency_sec": 4.7148,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "그러나 실험은 하나 혹은 그 이상의 가설을 제거하는 것이며 질문을 하고 관찰을 하며 과학적 연구로 이끌어내는 것이다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232086,
+    "id": "UvZJaobVKMGC0-kP_snrsQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 399,
+      "total_tokens": 949
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0111",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 16.08,
+  "ref_text_raw": "\"한 목격자는 사람들이 무리를 이루어 거리를 배회하고 물품을 약탈하는 것으로 보아 비슈케크(Bishkek)가 \"\"무정부\"\"상태로 빠지고 있다고 묘사하였습니다.\"",
+  "ref_text_normalized": "\"한 목격자는 사람들이 무리를 이루어 거리를 배회하고 물품을 약탈하는 것으로 보아 비슈케크bishkek가 \"무정부\"\"상태로 빠지고 있다고 묘사하였습니다.",
+  "timestamp_utc": "2026-07-05T06:19:23Z",
+  "text": "한 목격자는 사람들이 무리를 이루어 거리를 배회하고 물품을 약탈하는 것으로 보아 비슈케크가 무정부 상태로 빠지고 있다고 묘사하였습니다.",
+  "latency_sec": 3.7868,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "한 목격자는 사람들이 무리를 이루어 거리를 배회하고 물품을 약탈하는 것으로 보아 비슈케크가 무정부 상태로 빠지고 있다고 묘사하였습니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtAHCs0HARFNMg/d44fYM1SIHkHJO21T94FxNlGD+NGmXZ+hMSxxE88XNuvn14SMbpxfMYDYpxhz+8fvIdIk+rKvO1/nSRS+S7k6iRpEX98lsWJ9SdXSh4oRgseoRXNtV2kdGC8/7PDVjbjKSxskFeHswOIxVoHetyf0uZ6aFldvZb8LC5e1wpsjJYjf2ddoDk2hX9+/cyMj1Zbz1s+B41YNa4PpwCemOVD6ZHihhcbAIWeIM4y6bUVbTX4AbfkhxkG340Oq5ygw71cVCa+JdP3awQ/iXG5jqI7fgIpaXaRzjro6ZEAydE+ATCAocFUzVKb7g+/SvXvNXhlFR7fXjFL3AY7v/8GcSuMDC8fuMSkOWYVB2+XbNSNzV0MPMFUbfRMrYtmwDU6CxL1ScpOlPVwvdnArT9wTl2xwpt+z/V9Viu7AnMYtOayGGczVCX103hL0S+d07Sn6hmDu0fRfvWYrWTw7x01T2WR7Qf0yhpvaqKylVMvxv/Fr9ug4YT8RtTq+9+eUw/AAp3h+sQW2O6BRorqLwE+bQYhSyrf5Q7D8khaKPIVjOmkRMfQnSLfygFBD7VGSoLqH92w0ovVFmglONqQGS9cghBeNKKfwBYLTgt+s7ca7wFkoVoYR8NIwOHcOlRaAY8CngXvMZref4s2BBynU6LXwCYTf3NQEl0xknzWTMc7a0my2TeMsRFvmPErhSuoqdzIPkhno1Z+zI2GltvEKEabikslGG97xk4fyGNjKgcSjhmG87jqmsdO/sAT+btQXqhaSEZOjIBex3Dz35GCx+D+dOcMXe1CgQMtCgOAV3mjd70bk80UDeR2FliBISL3Qs+xGq/M5/o/RAdhkRBl0IqKi2csj6p4TG/mNOUWqp0QMb6HJ+Xm8MzJDiecx39mQNew7yg0ICrtC8kNFWU1utb4ITs51UachDtTpeKUH/5nh0GfuUijDMV1j4Jfxc6yyyLGj4E208s0sFLy9uLDrfgHA0+Y/GLGWc0iYxcddAFuF16Mr/d52a7ztc7GW1q0quR70wrqUDvedwMViXtAWkx/6Q1C06MqDYO0cSEl0Oy6/PLrxAOEKIm7tAFpXjFYbS0b6jiWBzxdBb+/qa6Zju/LR2LIdruxeE5f4EeiuZtVllspQYIKROBFoR8/9wzCU2kcNAnVmp/n1icRinPscv3r7pw7MNsH119QYaNK1tVXTBCLyVXjoaIYUm+UHl6uydUQR7vHuka4G7fjYT9Cva/cvMXUZ2XtRGkIxXev8jYCa3V9fncfh7tWcksWWxUrVfylDQeG6DzsdCnRcxQ=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232363,
+    "id": "aPdJaqKgHYCUvr0P6IWioQU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 423,
+      "total_tokens": 679
+    }
+  }
+}

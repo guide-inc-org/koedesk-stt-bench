@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0131",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.48,
+  "ref_text_raw": "言うまでもないことですが、ロマンス語のいずれかを知っていれば、ポルトガル語を学びやすいはずです。",
+  "ref_text_normalized": "言うまでもないことですが ロマンス語のいずれかを知っていれば ポルトガル語を学びやすいはずです",
+  "timestamp_utc": "2026-07-05T03:09:16Z",
+  "text": "言うまでもないことですがロマンス語のいずれかを知っていればポルトガル語を学びやすいはずです。",
+  "latency_sec": 5.6151,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "言うまでもないことですがロマンス語のいずれかを知っていればポルトガル語を学びやすいはずです。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783220957,
+    "id": "2MpJarHGL_yk0-kP9PODwAc",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 325,
+      "total_tokens": 371
+    }
+  }
+}

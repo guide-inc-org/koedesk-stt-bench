@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0085",
+  "lang": "es",
+  "engine": "gemini_25_pro",
+  "duration_sec": 12.3,
+  "ref_text_raw": "Según Danielle Lantagne, especialista en la enfermedad que trabaja para la ONU, es probable que el brote haya sido provocado por las fuerzas de paz.",
+  "ref_text_normalized": "según danielle lantagne especialista en la enfermedad que trabaja para la onu es probable que el brote haya sido provocado por las fuerzas de paz",
+  "timestamp_utc": "2026-07-05T04:21:02Z",
+  "text": "Según Daniel Lantagne, especialista en la enfermedad que trabaja para la ONU, es probable que el brote haya sido provocado por las fuerzas de paz.",
+  "latency_sec": 5.547,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Según Daniel Lantagne, especialista en la enfermedad que trabaja para la ONU, es probable que el brote haya sido provocado por las fuerzas de paz.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225262,
+    "id": "qdtJavWQOurS1e8Pod3IoAU",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 415,
+      "total_tokens": 605
+    }
+  }
+}

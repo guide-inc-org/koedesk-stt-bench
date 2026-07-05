@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0174",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.26,
+  "ref_text_raw": "Vous pouvez utiliser des boda-boda (moto taxi) pour vous déplacer dans Goma. Le prix normal (local) est d’environ 500 francs congolais pour une petite course.",
+  "ref_text_normalized": "vous pouvez utiliser des boda-boda moto taxi pour vous déplacer dans goma. le prix normal local est d’environ 500 francs congolais pour une petite course",
+  "timestamp_utc": "2026-07-05T05:20:20Z",
+  "text": "Vous pouvez utiliser des boda-boda, moto taxi pour vous déplacer dans Goma. Le prix normal local est d'environ 500 francs congolais pour une petite course.",
+  "latency_sec": 2.6259,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Vous pouvez utiliser des boda-boda, moto taxi pour vous déplacer dans Goma. Le prix normal local est d'environ 500 francs congolais pour une petite course.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPk99yiqkOjBmcKZO2OvBkmlMB1+7KHyzgZVhlO8CzP9ODs97DYjcphM2AcWYe"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228820,
+    "id": "kulJat-FNJWJ1e8PhMDXiQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 278,
+      "total_tokens": 317
+    }
+  }
+}

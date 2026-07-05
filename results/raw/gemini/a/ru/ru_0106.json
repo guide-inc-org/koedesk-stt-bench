@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0106",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.58,
+  "ref_text_raw": "Оттава — это прелестная двуязычная столица Канады с огромным количеством художественных галерей и музеев, открывающих прошлое и настоящее Канады.",
+  "ref_text_normalized": "оттава это прелестная двуязычная столица канады с огромным количеством художественных галерей и музеев открывающих прошлое и настоящее канады",
+  "timestamp_utc": "2026-07-05T07:08:35Z",
+  "text": "Аттава — это прелестная двуязычная столица Канады с огромным количеством художественных галерей и музеев, открывающих прошлое и настоящее Канады.",
+  "latency_sec": 3.9674,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Аттава — это прелестная двуязычная столица Канады с огромным количеством художественных галерей и музеев, открывающих прошлое и настоящее Канады.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235315,
+    "id": "8QJKaqi2DZ2_vr0Piquy2Q0",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 392,
+      "total_tokens": 455
+    }
+  }
+}

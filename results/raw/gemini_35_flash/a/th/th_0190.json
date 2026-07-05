@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0190",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.1,
+  "ref_text_raw": "เรือสำราญบางลำมีภาพเมืองเบอร์ลินในเยอรมนีอยู่ในโบรชัวร์ ดังที่คุณเห็นจากแผนที่ด้านบน เบอร์ลินไม่ได้อยู่ใกล้ทะเลแม้แต่น้อยและการไปเที่ยวชมเมืองดังกล่าวไม่รวมอยู่ในค่าล่องเรือ",
+  "ref_text_normalized": "เรือสำราญบางลำมีภาพเมืองเบอร์ลินในเยอรมนีอยู่ในโบรชัวร์ ดังที่คุณเห็นจากแผนที่ด้านบน เบอร์ลินไม่ได้อยู่ใกล้ทะเลแม้แต่น้อยและการไปเที่ยวชมเมืองดังกล่าวไม่รวมอยู่ในค่าล่องเรือ",
+  "timestamp_utc": "2026-07-05T08:10:23Z",
+  "text": "เรือสำราญบางลำมีภาพเมืองเบอร์ลินในเยอรมันอยู่ในโบรชัวร์ ดังที่คุณเห็นจากแผนที่ด้านบน เบอร์ลินไม่ได้อยู่ใกล้ทะเลแม้แต่น้อย และการไปเที่ยวชมเมืองดังกล่าวไม่รวมอยู่ในค่าล่องเรือ",
+  "latency_sec": 4.4128,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "เรือสำราญบางลำมีภาพเมืองเบอร์ลินในเยอรมันอยู่ในโบรชัวร์ ดังที่คุณเห็นจากแผนที่ด้านบน เบอร์ลินไม่ได้อยู่ใกล้ทะเลแม้แต่น้อย และการไปเที่ยวชมเมืองดังกล่าวไม่รวมอยู่ในค่าล่องเรือ",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239023,
+    "id": "bBFKarujFunF0-kPwPbOqAc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 57,
+      "prompt_tokens": 299,
+      "total_tokens": 760
+    }
+  }
+}

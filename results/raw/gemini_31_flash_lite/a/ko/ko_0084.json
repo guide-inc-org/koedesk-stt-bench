@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0084",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.88,
+  "ref_text_raw": "남자들을 단호히 거절하고, 자신의 입장을 고수하는 것을 두려워하지 말라(문화적 차이든 아니든, 희롱은 간과될 수 없다!).",
+  "ref_text_normalized": "남자들을 단호히 거절하고 자신의 입장을 고수하는 것을 두려워하지 말라문화적 차이든 아니든 희롱은 간과될 수 없다!",
+  "timestamp_utc": "2026-07-05T06:23:57Z",
+  "text": "남자들이 단호히 거절하고 자신의 입장을 고수하는 것을 두려워하지 말라. 문화적 차이든 아니든 희롱은 간과될 수 없다.",
+  "latency_sec": 3.5852,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "남자들이 단호히 거절하고 자신의 입장을 고수하는 것을 두려워하지 말라. 문화적 차이든 아니든 희롱은 간과될 수 없다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPWsriVP+F0jy7kdyhX/ruJh+rKnJyqJXWpci7rXdqglOSdhZQLDTiXc8eEk3b"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232637,
+    "id": "e_hJaveZFeel0-kPltOWuAs",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 318,
+      "total_tokens": 356
+    }
+  }
+}

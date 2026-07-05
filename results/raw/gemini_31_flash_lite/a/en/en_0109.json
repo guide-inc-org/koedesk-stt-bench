@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0109",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.24,
+  "ref_text_raw": "If you want to be close to the action you're going to have to get in early to get a camping site close to the music.",
+  "ref_text_normalized": "if you want to be close to the action you're going to have to get in early to get a camping site close to the music",
+  "timestamp_utc": "2026-07-05T03:33:47Z",
+  "text": "If you want to be close to the action, you're going to have to get in early to get a camping site close to the music.",
+  "latency_sec": 2.7444,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "If you want to be close to the action, you're going to have to get in early to get a camping site close to the music.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPC4pjxu8nCLKR23XuPqWJeQ/AfceJOHq1P0AchumPj8U3jvIkYVV8j2UH356u"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222427,
+    "id": "mdBJarKTMYrW1e8Py5HYyAE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 252,
+      "total_tokens": 282
+    }
+  }
+}

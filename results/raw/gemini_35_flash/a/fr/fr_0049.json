@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0049",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 4.44,
+  "ref_text_raw": "Les Parisiens ont la réputation d'être égocentriques, grossiers et arrogants.",
+  "ref_text_normalized": "les parisiens ont la réputation d'être égocentriques grossiers et arrogants",
+  "timestamp_utc": "2026-07-05T05:05:23Z",
+  "text": "Les Parisiens ont la réputation d'être égocentriques, grossiers et arrogants.",
+  "latency_sec": 3.9774,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Les Parisiens ont la réputation d'être égocentriques, grossiers et arrogants.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "ErAFCq0FARFNMg/ShlroHT5QRs57mP8iBpZzx8eLnGGtifl6+XNVExgZxHI1M+0U9U19SHG7lGhTuZxJy8BaptXmTXZGWpoREoEF66rbyyXm7glRNBvovRdbMXWuaEVaNKn226D55nshL23AQgy3zcjr90mESLnhHKmT9/TsQQKcU9P5S3BWvYKyBy3K5gzySQzgO3j0Dnb1J+z3d4k6zRa4S9FThB/hVR3de12AIq5pVkPF+wvVqO+sWMMOryoTrClWdgWHWiAnAmS5Hq6KAGRKyNPrP8plk8qf8KDSkHz8UZ+p7QJOYy7pvr5fRPYxjLeRUsHWUAqcYSuWGvgKHQ+GV6XBSal/40MLJCs1OrI+7Rw38ytpgyk0U56z7X6Q61W5m5uZjtG72l6ShNZU/GoPXMDFTv1BAk9YGo4zoo2JSWvaTw4J1LJGKsyzpB5Cckq0NouLgBo33uBeJy4YpB64QTmbqDblGDh+Pi1dGrSGsoPFfbweY1z9BEKH6u83GU795EgxGepDQPP9cXRZq9d8BW1oV47hJe8zF01dEPheAX0CNaH+ExGbzlNNzBsXaETq50oiRG/QHvTSoWIiwuW87lW/vSyS7hZcdkct6wQEugEWoI12C4BPekqUrsFKjwaK57mdjHCuIfhwFlqEdf6kIU7aJ05gnkChF3Y9JGAK1QgyMUL2zZALJVB36WHb88dg8aN9uC5ZfNG5ESNBjc4EVR3/iQjHS6AqEUHAejHKJaL80ZB12XlQn9jvkrOTooxbzciXKEN0evRXfvlp6uL+F/3rLFKJk0Z2uiMUIySPLZWoQNOa9KxBCvbU8FyWRwP/3Ocb0wsD7xjl4sM8eyJ4wRt1O87KDKRmiHFTMb1WdFqfY+bBjaYdiwnMRh+ZqNmyENrLkqD42QLAmry7nPR28Q=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227923,
+    "id": "EOZJauv9GPPG2roPs9KcqAM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 133,
+      "total_tokens": 335
+    }
+  }
+}

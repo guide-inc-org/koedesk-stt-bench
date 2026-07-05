@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0028",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.64,
+  "ref_text_raw": "結果として、舞台上で出演者が大麻を吸い、劇場側も観客に参加を呼びかけています。",
+  "ref_text_normalized": "結果として 舞台上で出演者が大麻を吸い 劇場側も観客に参加を呼びかけています",
+  "timestamp_utc": "2026-07-05T10:14:25Z",
+  "text": "結果 と し て 舞台 上 で 出演 者 が 大麻 を 吸い 劇場 側 も 観客 に 参加 を 呼びかけ て い ます 。",
+  "latency_sec": 2.7618,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "結果 と し て 舞台 上 で 出演 者 が 大麻 を 吸い 劇場 側 も 観客 に 参加 を 呼びかけ て い ます 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPPWl6nI7ykHCG7+U0OQDVcfvonXSd/uGdPGt0vJiopZDx2Z6pHusAFdBVEDjY"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246465,
+    "id": "fy5Kap_lNIGM0-kP4LLDwQk",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 312,
+      "total_tokens": 348
+    }
+  }
+}

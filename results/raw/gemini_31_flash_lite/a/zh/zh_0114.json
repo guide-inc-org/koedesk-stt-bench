@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0114",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.5,
+  "ref_text_raw": "在军队到来之前，海地自 19 世纪初以来从未遇到过与该疾病有关的问题。",
+  "ref_text_normalized": "在 军 队 到 来 之 前 海 地 自 19 世 纪 初 以 来 从 未 遇 到 过 与 该 疾 病 有 关 的 问 题",
+  "timestamp_utc": "2026-07-05T09:17:29Z",
+  "text": "在军队到来之前，海地自19世纪初以来，从未遇到过与该疾病有关的问题。",
+  "latency_sec": 2.7354,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "在军队到来之前，海地自19世纪初以来，从未遇到过与该疾病有关的问题。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPNmijz/2BXtELWFhahTYbQ4hgrD2FQxuZuQwgMEwqGvEhc5llGPN3h8lo5T1e"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243050,
+    "id": "KCFKaoXCH-Kf2roP6tmdgAM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 284,
+      "total_tokens": 307
+    }
+  }
+}

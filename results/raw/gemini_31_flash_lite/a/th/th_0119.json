@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0119",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.18,
+  "ref_text_raw": "อำนาจศูนย์กลางของคริสตจักรอยู่ในกรุงโรมมานานกว่าพันปี และการกระจุกตัวของอำนาจและเงินนี้ทำให้หลายคนสงสัยว่าได้มีการปฏิบัติตามความเชื่อทางศาสนานี้หรือไม่",
+  "ref_text_normalized": "อำนาจศูนย์กลางของคริสตจักรอยู่ในกรุงโรมมานานกว่าพันปี และการกระจุกตัวของอำนาจและเงินนี้ทำให้หลายคนสงสัยว่าได้มีการปฏิบัติตามความเชื่อทางศาสนานี้หรือไม่",
+  "timestamp_utc": "2026-07-05T08:08:14Z",
+  "text": "อำนาจศูนย์กลางของคริสตจักรอยู่ในกรุงโรมมานานกว่าพันปีและการกระจุกตัวของอำนาจและเงินนี้ทำให้หลายคนสงสัยว่าได้มีการปฏิบัติ ตามความเชื่อทางศาสนาหรือไม่",
+  "latency_sec": 3.8389,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "อำนาจศูนย์กลางของคริสตจักรอยู่ในกรุงโรมมานานกว่าพันปีและการกระจุกตัวของอำนาจและเงินนี้ทำให้หลายคนสงสัยว่าได้มีการปฏิบัติ ตามความเชื่อทางศาสนาหรือไม่",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPbxd7klu0dkPG372dHW0yTtt4x4JHglBSWt+41x3AgcCTdGzrhkY66VVtY/KG"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238894,
+    "id": "6xBKaufJIeKf2roP6tmdgAM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 251,
+      "total_tokens": 298
+    }
+  }
+}

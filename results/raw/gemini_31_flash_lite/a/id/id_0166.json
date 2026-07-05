@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0166",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.3,
+  "ref_text_raw": "Pada tahun 2002, Goma dihancurkan oleh lava dari gunung api Nyiragongo yang mengubur sebagian besar jalan kota, terutama pusat kota.",
+  "ref_text_normalized": "pada tahun 2002 goma dihancurkan oleh lava dari gunung api nyiragongo yang mengubur sebagian besar jalan kota terutama pusat kota",
+  "timestamp_utc": "2026-07-05T05:55:17Z",
+  "text": "Pada tahun 2002, Goma dihancurkan oleh lava dari gunung api Nyiragongo yang mengubur sebagian besar jalan kota, terutama pusat kota.",
+  "latency_sec": 3.0542,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Pada tahun 2002, Goma dihancurkan oleh lava dari gunung api Nyiragongo yang mengubur sebagian besar jalan kota, terutama pusat kota.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPeskGF8AHhywKQCy2WSSyUaxQMHzN0xw7UA7V9R4vJAbbfPJfftXpQ4Nmrg1h"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230917,
+    "id": "xPFJao3RBtqA1e8PtKvlgQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 329,
+      "total_tokens": 364
+    }
+  }
+}

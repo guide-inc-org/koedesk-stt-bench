@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0107",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.74,
+  "ref_text_raw": "Cũng như những nhiếp ảnh gia người Phi-líp-pin, sáu con tin gồm trẻ em và người già đã được thả sớm.",
+  "ref_text_normalized": "cũng như những nhiếp ảnh gia người phi-líp-pin sáu con tin gồm trẻ em và người già đã được thả sớm",
+  "timestamp_utc": "2026-07-05T08:44:03Z",
+  "text": "Cùng với những nhiếp ảnh gia người Philippines, sáu con tin gồm trẻ em và người già đã được thả sớm.",
+  "latency_sec": 2.3849,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Cùng với những nhiếp ảnh gia người Philippines, sáu con tin gồm trẻ em và người già đã được thả sớm.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP8aalEK6G5JhCKt8Tx9iOc6Q5uuONkjvJzhGUHami4Aqc6ImiDUeIqq9l+FG/"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241043,
+    "id": "UhlKaoDlJr6a1e8PgPz1sQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 215,
+      "total_tokens": 241
+    }
+  }
+}

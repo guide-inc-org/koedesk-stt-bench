@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0060",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.58,
+  "ref_text_raw": "\"Pencarian di internet untuk \"Kursus Lingkungan yang Tidak Ramah\" mungkin akan memberikan alamat sebuah perusahaan lokal.\"",
+  "ref_text_normalized": "pencarian di internet untuk kursus lingkungan yang tidak ramah mungkin akan memberikan alamat sebuah perusahaan lokal",
+  "timestamp_utc": "2026-07-05T05:48:36Z",
+  "text": "Pencarian di internet untuk kursus lingkungan yang tidak ramah mungkin akan memberikan alamat sebuah perusahaan lokal.",
+  "latency_sec": 2.6114,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Pencarian di internet untuk kursus lingkungan yang tidak ramah mungkin akan memberikan alamat sebuah perusahaan lokal.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPSebJ+U6TgxtglJpuAVU+yuKxaGdlljJjuve1DbgThaGHWbB7ya7vardnZ1XH"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230516,
+    "id": "M_BJav-uBNLM1e8PlJ7zgQc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 236,
+      "total_tokens": 257
+    }
+  }
+}

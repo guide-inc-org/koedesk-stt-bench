@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0102",
+  "lang": "es",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.72,
+  "ref_text_raw": "Los átomos de hidrógeno están formados por un protón y un electrón. Por ello, un ion de hidrógeno es el resultado de despojar a un protón de su electrón.",
+  "ref_text_normalized": "los átomos de hidrógeno están formados por un protón y un electrón por ello un ion de hidrógeno es el resultado de despojar a un protón de su electrón",
+  "timestamp_utc": "2026-07-05T04:20:59Z",
+  "text": "Los átomos de hidrógeno están formados por un protón y un electrón. Por ello, un ión de hidrógeno es el resultado de despojar a un protón de su electrón.",
+  "latency_sec": 4.8216,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Los átomos de hidrógeno están formados por un protón y un electrón. Por ello, un ión de hidrógeno es el resultado de despojar a un protón de su electrón.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225259,
+    "id": "qNtJauq2HbvN2roPnu2ysAU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 333,
+      "total_tokens": 437
+    }
+  }
+}

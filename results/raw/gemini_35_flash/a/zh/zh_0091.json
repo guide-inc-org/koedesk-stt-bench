@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0091",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.18,
+  "ref_text_raw": "与所有南非国家公园一样，该公园每天都收取养护费和门票费。",
+  "ref_text_normalized": "与 所 有 南 非 国 家 公 园 一 样 该 公 园 每 天 都 收 取 养 护 费 和 门 票 费",
+  "timestamp_utc": "2026-07-05T09:13:51Z",
+  "text": "与所有南非国家公园一样，该公园每天都收取养护费和门票费。",
+  "latency_sec": 3.6605,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "与所有南非国家公园一样，该公园每天都收取养护费和门票费。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EssFCsgFARFNMg9ZTQJ9wq3vKFgyonJjquek5VVuGh/dN2oHqZ7gfVO0uV5pXcOUZWA1RtUSDQGdO1W9mNqjUPgTjbel/cxdKJVCMEW2ajevQO7vqb6W0m7jIoEa0OqPHJIMa5dRdZPM2qYm/NqyQr+9d79kBCW1heM1wfWiaDKKhMrylpTjlloqH0Xne+4F3eB7mJtsKOkOx7IRF8yPQSelQ0zSgVW7ub2nGxzK61K7fUMPOWGyNn6ij8iwSEHykfZFXPRSel9HVwU4XYA2qMJy90BGDptCPEblli/ey70ZlJVCTvuW4QDIqO+x0UobATHpwgHqhGJG0RGbZ6Q5n69aMaIZNq1qscl5fNHqQHXM1+xTFFrK1PhPpkgJ1QEh/+gTd2n3jLNGGzG4O8PB0PSv69o2AVYKtKV4isHy6h4ZuH1SLE/3uGZZ4IikgdsNmOLkju3DUJjHELRZTIKm29oAdgItY1GlPOBJ2sL2D5VktqjTBbL8MshruIJu+lsUpInFuc0rFG/ekI3Ejc6Jnausudp6UU+X0nwYgxu2WlG/vn/R5PezW0EcVPhZ+xrhLmrvMGjMYd53YOue5o3LxQyV8+OXD6Tbofwsva1PeqEBIZWlRyacXuNMv8n7pSJ2yF38HJjXvKZeCJVsIw+WnGhuvFeLuVBq3jjJuWWoyB1h+bzX1/7aDGU8/DulaVvZJTFs8AyfwYqXhTBnof77dwYZljlYe2Ur3D7BCcgjMnAkDF9i/0k4DARUVfZp80/MrOzy9nmJRXByUTySnIUZ4LkCL7GnQtZNQWuU2RSAFY8+1bjS9pPdobx09WAxNxk5onhEYR8iAVBYuqGs7rgoYbyRTq4aRMsrcFKsTzvfZqwgNEdXmf/7rdw/ujvB5w8uOhwjn/NQlhnDzOb5aiIPXApAcph4Z9CMHad6FEmcTWOWqA0JLMdob7neD3zB7g=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242831,
+    "id": "TCBKauvEMLycrfcP6t_NqQY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 251,
+      "total_tokens": 460
+    }
+  }
+}

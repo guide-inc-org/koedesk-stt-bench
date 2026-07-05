@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0080",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.2,
+  "ref_text_raw": "1940 年 8 月 15 日，盟军攻入法国南部，这次进攻被称为“龙骑兵行动”。",
+  "ref_text_normalized": "1940 年 8 月 15 日 盟 军 攻 入 法 国 南 部 这 次 进 攻 被 称 为 龙 骑 兵 行 动",
+  "timestamp_utc": "2026-07-05T09:15:28Z",
+  "text": "1944年8月15日，盟军攻入法国南部，这次进攻被称为“龙骑兵行动”。",
+  "latency_sec": 3.0164,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "1944年8月15日，盟军攻入法国南部，这次进攻被称为“龙骑兵行动”。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPJI5dMoE5dj8sWjkQR/kSGSLv97MHyCP0mNzAUsPQBVIIK2b3U6wu1TgL1pMm"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242928,
+    "id": "riBKao6CLvDW2roPh47FwQc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 201,
+      "total_tokens": 228
+    }
+  }
+}

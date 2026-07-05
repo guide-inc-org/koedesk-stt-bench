@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0132",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.16,
+  "ref_text_raw": "หลังจากการสร้างเขื่อนในปี 1963 ช่วยยับยั้งไม่ให้เกิดน้ำท่วมตามฤดูกาลที่ทำให้ตะกอนกระจายไปทั่วแม่น้ำ",
+  "ref_text_normalized": "หลังจากการสร้างเขื่อนในปี 1963 ช่วยยับยั้งไม่ให้เกิดน้ำท่วมตามฤดูกาลที่ทำให้ตะกอนกระจายไปทั่วแม่น้ำ",
+  "timestamp_utc": "2026-07-05T08:09:04Z",
+  "text": "หลัง จาก การ สร้าง เขื่อน ใน ปี 1963 ช่วย ยับยั้ง ไม่ ให้ เกิด น้ำ ท่วม ตาม ฤดูกาล ที่ ทำ ให้ ตะกอน กระจาย ไป ทั่ว แม่น้ำ",
+  "latency_sec": 2.9888,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "หลัง จาก การ สร้าง เขื่อน ใน ปี 1963 ช่วย ยับยั้ง ไม่ ให้ เกิด น้ำ ท่วม ตาม ฤดูกาล ที่ ทำ ให้ ตะกอน กระจาย ไป ทั่ว แม่น้ำ",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPC2hjTZ8KhYQuzW1ztsz9v/dfM2Pm4o66jcDtDKgIxXoOAZ4eZtbGV3TP7MRy"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238944,
+    "id": "HhFKati3Nfu8vr0P1bam0AY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 300,
+      "total_tokens": 344
+    }
+  }
+}

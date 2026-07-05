@@ -1,0 +1,36 @@
+{
+  "utt_id": "de_0126",
+  "lang": "de",
+  "engine": "google_stt_v2",
+  "duration_sec": 12.84,
+  "ref_text_raw": "Es ist also möglich, dass der Vermerk einfach als Kennzeichnung hinzugefügt wurde.",
+  "ref_text_normalized": "es ist also möglich dass der vermerk einfach als kennzeichnung hinzugefügt wurde",
+  "timestamp_utc": "2026-07-05T03:52:22Z",
+  "text": "Es ist also möglich, dass der Vermerk einfach als Kennzeichnung hinzugefügt wurde.",
+  "latency_sec": 4.6076,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "de-DE",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "13s",
+      "requestId": "6a4ea4ef-0000-26e2-8c4b-34391615e163",
+      "prompt": "Transcribe the following speech segment in German. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, German."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Es ist also möglich, dass der Vermerk einfach als Kennzeichnung hinzugefügt wurde."
+          }
+        ],
+        "languageCode": "de-DE"
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0176",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.48,
+  "ref_text_raw": "К региональным и сезонным опасным явлениям погоды относятся метели, снежные бури, ледяные и пыльные бури.",
+  "ref_text_normalized": "к региональным и сезонным опасным явлениям погоды относятся метели снежные бури ледяные и пыльные бури",
+  "timestamp_utc": "2026-07-05T07:14:18Z",
+  "text": "К региональным и сезонным опасным явлениям погоды относится метели, снежные бури, ледяные и пыльные бури.",
+  "latency_sec": 4.7017,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "К региональным и сезонным опасным явлениям погоды относится метели, снежные бури, ледяные и пыльные бури.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235658,
+    "id": "RwRKao7XD6_f1e8Pio2NuQI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 325,
+      "total_tokens": 389
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0124",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.98,
+  "ref_text_raw": "プライドは、1～3頭の血縁関係にあるオスと30頭余りのメスと子供たちで構成されます。",
+  "ref_text_normalized": "プライドは 1～3頭の血縁関係にあるオスと30頭余りのメスと子供たちで構成されます",
+  "timestamp_utc": "2026-07-05T03:08:32Z",
+  "text": "プライドは1から3頭の血縁関係にあるオスと30頭余りのメスと子供たちで構成されています。",
+  "latency_sec": 6.2789,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "プライドは1から3頭の血縁関係にあるオスと30頭余りのメスと子供たちで構成されています。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783220912,
+    "id": "rMpJaoGxIcvb2roP0s2koQM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 373,
+      "total_tokens": 466
+    }
+  }
+}

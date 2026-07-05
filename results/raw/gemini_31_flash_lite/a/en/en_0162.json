@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0162",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.8,
+  "ref_text_raw": "Severe weather is the generic term for any dangerous weather phenomenon with the potential to cause damage, serious social disruption, or loss of human life.",
+  "ref_text_normalized": "severe weather is the generic term for any dangerous weather phenomenon with the potential to cause damage serious social disruption or loss of human life",
+  "timestamp_utc": "2026-07-05T03:36:59Z",
+  "text": "Severe weather is the generic term for any dangerous weather phenomenon with the potential to cause damage, serious social disruption or loss of human life.",
+  "latency_sec": 3.3279,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Severe weather is the generic term for any dangerous weather phenomenon with the potential to cause damage, serious social disruption or loss of human life.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP7ZWhuDyAldH4R2yUmRVyoEKhntUHraDFQKzqYNrxNCltuAARMbPJv4NcV1lG"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222619,
+    "id": "WtFJaoblCv_R1e8PsqiM8QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 291,
+      "total_tokens": 318
+    }
+  }
+}

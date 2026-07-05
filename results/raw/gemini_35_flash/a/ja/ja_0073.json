@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0073",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.9,
+  "ref_text_raw": "シンガポールを訪れた彼は、ウォン・カン・セン副首相から出迎えを受け、リー・シェン・ルーン首相と会談で貿易やテロ問題について話し合いました。",
+  "ref_text_normalized": "シンガポールを訪れた彼は ウォン カン セン副首相から出迎えを受け リー シェン ルーン首相と会談で貿易やテロ問題について話し合いました",
+  "timestamp_utc": "2026-07-05T10:16:46Z",
+  "text": "シンガポールを訪れた彼はウォン・カンセン副首相から出迎えを受け、リー・シェンロン首相と会談で貿易やテロ問題について話し合いました。",
+  "latency_sec": 4.7985,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "シンガポールを訪れた彼はウォン・カンセン副首相から出迎えを受け、リー・シェンロン首相と会談で貿易やテロ問題について話し合いました。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246606,
+    "id": "Cy9KatTWDfjG2roPjLn34AI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 344,
+      "total_tokens": 764
+    }
+  }
+}

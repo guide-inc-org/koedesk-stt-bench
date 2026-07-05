@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0040",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 5.78,
+  "ref_text_raw": "But there are a lot of things about birds that still look like a dinosaur.",
+  "ref_text_normalized": "but there are a lot of things about birds that still look like a dinosaur",
+  "timestamp_utc": "2026-07-05T10:30:22Z",
+  "text": "But there are a lot of things about birds that still look like a dinosaur.",
+  "latency_sec": 3.2292,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "But there are a lot of things about birds that still look like a dinosaur.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPNwmQ+ZKhZZT51YGWbZuISlVYaKfsch4ARzp0wCHr5mjMMXevhO+jnYCJ4pTk"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247422,
+    "id": "PTJKauGbAY3y2roP6emiwQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 166,
+      "total_tokens": 182
+    }
+  }
+}

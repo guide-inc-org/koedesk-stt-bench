@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0105",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.32,
+  "ref_text_raw": "Italian is also the everyday language used by most of those who work in the state while Latin is often used in religious ceremonies.",
+  "ref_text_normalized": "italian is also the everyday language used by most of those who work in the state while latin is often used in religious ceremonies",
+  "timestamp_utc": "2026-07-05T03:33:32Z",
+  "text": "Italian is also the everyday language used by most of those who work in the state, while Latin is often used in religious ceremonies.",
+  "latency_sec": 2.5334,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Italian is also the everyday language used by most of those who work in the state, while Latin is often used in religious ceremonies.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPVkZcIxb2JgON4yeGkEG6gIOixJ2kd+U32H6hkYHWHmWzfvF8xxd0OPgOdSkS"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222413,
+    "id": "i9BJasizJeL81e8P5-3SkQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 329,
+      "total_tokens": 355
+    }
+  }
+}

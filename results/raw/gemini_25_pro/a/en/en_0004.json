@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0004",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 4.32,
+  "ref_text_raw": "Many people don't think about them as dinosaurs because they have feathers and can fly.",
+  "ref_text_normalized": "many people don't think about them as dinosaurs because they have feathers and can fly",
+  "timestamp_utc": "2026-07-05T10:19:14Z",
+  "text": "Many people don't think about them as dinosaurs because they have feathers and can fly.",
+  "latency_sec": 3.9175,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Many people don't think about them as dinosaurs because they have feathers and can fly.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246754,
+    "id": "ny9Katz6M_eZ0-kPrbzayQU",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 160,
+      "total_tokens": 231
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0117",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.04,
+  "ref_text_raw": "宇宙に存在するあらゆるものは物質でできています。あらゆる物質は原子と呼ばれる微小な粒子でできています。",
+  "ref_text_normalized": "宇宙に存在するあらゆるものは物質でできています あらゆる物質は原子と呼ばれる微小な粒子でできています",
+  "timestamp_utc": "2026-07-05T03:18:12Z",
+  "text": "宇宙 に 存在 する あらゆる もの は 物質 で でき て い ます 。 あらゆる 物質 は 原子 と 呼ば れる 微小 な 粒子 で でき て い ます 。",
+  "latency_sec": 2.7838,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "宇宙 に 存在 する あらゆる もの は 物質 で でき て い ます 。 あらゆる 物質 は 原子 と 呼ば れる 微小 な 粒子 で でき て い ます 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPXoQMDaJjQQ2mrRCmKPt36vELgH58HmIBweJT2bxD/T9OP27R4ALBcN2zTGrp"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221492,
+    "id": "8sxJapvPNfyk0-kP9PODwAc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 297,
+      "total_tokens": 337
+    }
+  }
+}

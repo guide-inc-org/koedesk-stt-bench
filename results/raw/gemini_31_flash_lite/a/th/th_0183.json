@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0183",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.66,
+  "ref_text_raw": "มุมมองของอริสโตเติลได้รับการยอมรับในวิทยาศาสตร์ทุกแขนงรวมถึงจิตวิทยา",
+  "ref_text_normalized": "มุมมองของอริสโตเติลได้รับการยอมรับในวิทยาศาสตร์ทุกแขนงรวมถึงจิตวิทยา",
+  "timestamp_utc": "2026-07-05T08:12:08Z",
+  "text": "มุมมองของอริสโตเติลได้รับการยอมรับในวิทยาศาสตร์ทุกแขนงรวมถึงจิตวิทยา",
+  "latency_sec": 2.4864,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "มุมมองของอริสโตเติลได้รับการยอมรับในวิทยาศาสตร์ทุกแขนงรวมถึงจิตวิทยา",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP4JNCghIoHJGrk1qZqVIzwMHYPk/+Z5dDv8z6TJBrMVGjZyyykrVrWB6j8SUr"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239128,
+    "id": "1hFKao_KMZK02roP8vW-qQE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 188,
+      "total_tokens": 211
+    }
+  }
+}

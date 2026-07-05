@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0158",
+  "lang": "ko",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.32,
+  "ref_text_raw": "카사블랑카는 모로코에서 가장 흥미롭지 않은 쇼핑 장소 중 한 곳입니다.",
+  "ref_text_normalized": "카사블랑카는 모로코에서 가장 흥미롭지 않은 쇼핑 장소 중 한 곳입니다",
+  "timestamp_utc": "2026-07-05T06:14:06Z",
+  "text": "카사블랑카는 모로코에서 가장 흥미롭지 않은 쇼핑 장소 중 한 곳입니다.",
+  "latency_sec": 4.0386,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "카사블랑카는 모로코에서 가장 흥미롭지 않은 쇼핑 장소 중 한 곳입니다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232046,
+    "id": "K_ZJaoXsKMfE0-kP8qfE0QY",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 352,
+      "total_tokens": 411
+    }
+  }
+}

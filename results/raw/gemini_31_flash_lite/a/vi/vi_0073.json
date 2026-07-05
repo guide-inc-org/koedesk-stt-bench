@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0073",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.32,
+  "ref_text_raw": "Tất cả mọi người đều tham gia vào xã hội và sử dụng các hệ thống giao thông. Gần như ai cũng than phiền về các hệ thống giao thông này.",
+  "ref_text_normalized": "tất cả mọi người đều tham gia vào xã hội và sử dụng các hệ thống giao thông gần như ai cũng than phiền về các hệ thống giao thông này",
+  "timestamp_utc": "2026-07-05T08:42:03Z",
+  "text": "Tất cả mọi người đều tham gia vào xã hội và sử dụng các hệ thống giao thông, gần như ai cũng than phiền về các hệ thống giao thông này.",
+  "latency_sec": 2.9655,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Tất cả mọi người đều tham gia vào xã hội và sử dụng các hệ thống giao thông, gần như ai cũng than phiền về các hệ thống giao thông này.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP6sf46dRF2pAb/xEirfHeifb/EG9D8DcwEfCK9GPwrPHdp3a3/ofdRzyCGzsS"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240923,
+    "id": "2RhKar3aFbbR0-kPp6yr6QI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 279,
+      "total_tokens": 314
+    }
+  }
+}

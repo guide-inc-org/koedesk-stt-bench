@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0043",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 17.7,
+  "ref_text_raw": "Parmi les autres nominations figurent celles du meilleur film, du meilleur réalisateur, de la meilleure cinématographie, des meilleurs costumes, du meilleur montage, de la meilleure musique originale, des meilleurs décors, du meilleur montage sonore, du meilleur mixage et du meilleur scénario original.",
+  "ref_text_normalized": "parmi les autres nominations figurent celles du meilleur film du meilleur réalisateur de la meilleure cinématographie des meilleurs costumes du meilleur montage de la meilleure musique originale des meilleurs décors du meilleur montage sonore du meilleur mixage et du meilleur scénario original",
+  "timestamp_utc": "2026-07-05T05:04:56Z",
+  "text": "Parmi les autres nominations figurent celles du meilleur film, du meilleur réalisateur, de la meilleure cinématographie, des meilleurs costumes, du meilleur montage, de la meilleure musique originale, des meilleurs décors, du meilleur montage sonore, du meilleur mixage et du meilleur scénario original.",
+  "latency_sec": 4.9764,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Parmi les autres nominations figurent celles du meilleur film, du meilleur réalisateur, de la meilleure cinématographie, des meilleurs costumes, du meilleur montage, de la meilleure musique originale, des meilleurs décors, du meilleur montage sonore, du meilleur mixage et du meilleur scénario original.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227896,
+    "id": "9OVJasnsIZWJ1e8PhMDXiQU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 59,
+      "prompt_tokens": 464,
+      "total_tokens": 909
+    }
+  }
+}

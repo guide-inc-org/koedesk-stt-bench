@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0123",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.26,
+  "ref_text_raw": "Nói chung, có hai lối ứng xử có thể xuất hiện khi nhà quản lý bắt đầu lãnh đạo các đồng nghiệp cũ. Lối thứ nhất là cố gắng duy trì quan hệ thân thiết.",
+  "ref_text_normalized": "nói chung có hai lối ứng xử có thể xuất hiện khi nhà quản lý bắt đầu lãnh đạo các đồng nghiệp cũ lối thứ nhất là cố gắng duy trì quan hệ thân thiết",
+  "timestamp_utc": "2026-07-05T08:45:02Z",
+  "text": "Nói chung, có hai lối ứng xử có thể xuất hiện khi nhà quản lý bắt đầu lãnh đạo các đồng nghiệp cũ. Lối thứ nhất là cố gắng duy trì quan hệ thân thiết.",
+  "latency_sec": 3.7689,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Nói chung, có hai lối ứng xử có thể xuất hiện khi nhà quản lý bắt đầu lãnh đạo các đồng nghiệp cũ. Lối thứ nhất là cố gắng duy trì quan hệ thân thiết.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPXqb0dDsBWh3pwMaA4eMgkfgBguVXVJ/GLrX/ysO+9wtvqO7Fy9TV8KezoS6u"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241102,
+    "id": "jBlKau_FLLXIrfcPsof-gAc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 353,
+      "total_tokens": 393
+    }
+  }
+}

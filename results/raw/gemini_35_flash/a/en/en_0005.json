@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0005",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.42,
+  "ref_text_raw": "The hospital has followed protocol for infection control, including separating the patient from others to prevent possible infection of others.",
+  "ref_text_normalized": "the hospital has followed protocol for infection control including separating the patient from others to prevent possible infection of others",
+  "timestamp_utc": "2026-07-05T10:26:53Z",
+  "text": "The hospital has followed protocol for infection control, including separating the patient from others to prevent possible infection of others.",
+  "latency_sec": 3.7309,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The hospital has followed protocol for infection control, including separating the patient from others to prevent possible infection of others.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqEHCp4HARFNMg/xVmKoGgmT1JM481C07/ZS7rx0Vtdfuvn/jal/xsrwPASidyvBk4Jz1wH6Xq4hwCIWUqJSxHsNrHWT9mBbidpcSW6DCGU+eJDHs2MJOJ1xQiPBNztAFCF+RumVUZl41l6KFP+2RpCxxfrGyM9/Xt4+r12iwl7dJWE/YpOHqIsQ1Zczmur1Q3/Ogb6IgXJQpwpyJwc/tILSsoa1hKNfdIVjrv44F725DBFt36z+Ndqtg1BusLgTGz92hoZKCDNrqajkX2fLAGI4amyRa1m0f/m6mtKhU/MXhVXjSulcu4CdCPgHaVB1bsOBMu4mEVQrNfR+Ktq2KACtogwiVSvPJtQ0MOXMDNmrHYE5Y5mFjm8LmT8mEHs1GiarFpD4cbieMY7x7IQLZdNVRjiBYogg5PIXunXYrOH564VJnG638+zHWKrTU87eg4AMzWDxBpZn8YrmUI/FSP8j9xc+uppodIz04tX3SgLbgs5I7OTv0nW3Ugy3rhU+XhFQRMG1PdtrRBiKHWbHMg6GqlXhTqhCIK/928jIf3dwhGtXCtCHoH4VN0o2TY/VaTV01qVc0WdtODN9a32QL0K01AY0cb5nSP04SRuSHTVXfZIhAiSfHYrkyJw7GSn5DmmrAGCrNnUqGKMUKnMYnAaRdeVUlK9aNWgP3wMPh1Ixf2h5M684+JxUFYXbMABqVyra66wAzApQojEZVWYAwCMqTtc6KCM3V+qmeHlt9LaZrnCxZWBAZZoZrs9225VA2dvB3ESzdh2adQCvyrSfxXdy4lp6H6cbNxmKo0HJtdQj5rY52cp1HDpEYdz2t/A978wnB6n4gK4YnszoGyz3g5yovkhR6YNq0Jslx5sI0GPEygNCdsTapb36ALENxoT7rmHUMC9j+goXR2HC4vIqE3aDSmdjh8W75nnMpP6caV9KbrLd36xX++bTrVUuEIByYihRExVcLlTYi6AcnUtCR+I84D7OJjOvveYdLsnR3x7w0xomUgRHn4nj5sgsndWgJVfHywldAOUgWjMT4nmFmMKNhvYj3uClr5Yd5q5JSfzbMEbjPP4CEm2CgN79hmDUiEl0MHArjKmt4suYO02mN32714TU9facKbQkIqwRqDQBuB8xxofFtzXiqWxh/Ev1XUePLQZi6WXPGPEv8CHXKuOo8wk4nRd8/EcdwBiLqu7wdXnHd20IV+GhozFYRLDmcJ/kxNBAlKJvsgK9WyZa0LYHaN4="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247213,
+    "id": "ajFKasWRL4mV1e8Pn9-owAM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 307,
+      "total_tokens": 519
+    }
+  }
+}

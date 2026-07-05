@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0056",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 5.88,
+  "ref_text_raw": "La Grande Pyramide de Gizeh est la seule des sept merveilles qui existe encore aujourd’hui.",
+  "ref_text_normalized": "la grande pyramide de gizeh est la seule des sept merveilles qui existe encore aujourd'hui",
+  "timestamp_utc": "2026-07-05T04:51:35Z",
+  "text": "La grande pyramide de Gizeh est la seule des sept merveilles qui existe encore aujourd'hui.",
+  "latency_sec": 4.2992,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "La grande pyramide de Gizeh est la seule des sept merveilles qui existe encore aujourd'hui.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227095,
+    "id": "1OJJaoS7He2crfcPkMChIA",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 210,
+      "total_tokens": 267
+    }
+  }
+}

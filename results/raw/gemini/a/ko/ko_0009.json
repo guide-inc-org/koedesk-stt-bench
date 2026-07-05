@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0009",
+  "lang": "ko",
+  "engine": "gemini_25_flash",
+  "duration_sec": 4.8,
+  "ref_text_raw": "교전이 발발한 직후 영국은 독일에 대한 해상 봉쇄를 시작한다.",
+  "ref_text_normalized": "교전이 발발한 직후 영국은 독일에 대한 해상 봉쇄를 시작한다",
+  "timestamp_utc": "2026-07-05T05:53:14Z",
+  "text": "교전이 발발한 직후 영국은 독일에 대한 해상 봉쇄를 시작한다.",
+  "latency_sec": 3.5155,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "교전이 발발한 직후 영국은 독일에 대한 해상 봉쇄를 시작한다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230794,
+    "id": "R_FJavHLJZT02roPp7fs4A4",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 175,
+      "total_tokens": 272
+    }
+  }
+}

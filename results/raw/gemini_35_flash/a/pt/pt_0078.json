@@ -1,0 +1,45 @@
+{
+  "utt_id": "pt_0078",
+  "lang": "pt",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.18,
+  "ref_text_raw": "As plantas usam do sol como seu alimento por meio da fotossíntese. Eles também oferecem sombra.",
+  "ref_text_normalized": "as plantas usam do sol como seu alimento por meio da fotossíntese eles também oferecem sombra",
+  "timestamp_utc": "2026-07-05T06:49:34Z",
+  "text": "As plantas usam do sol como seu alimento por meio da fotossíntese. Elas também oferecem sombra.",
+  "latency_sec": 4.0192,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "As plantas usam do sol como seu alimento por meio da fotossíntese. Elas também oferecem sombra.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EoQGCoEGARFNMg/q7ts7I8EaRWPf+aEHAt0Y9a/srO16BUtqFNqLfhZCsBtUoUKyPgBAeBaNMvIZRkxgjeew2x9ca9TBM4izBhqqvEIubkm1l5FyiuGmFnfqmAal4tBuC7KdUHdeWp4X0Esxd3jXCWqWjPbPbNZqXQadLSYiiRaOiuTLCVQc99RA2CJdJ2y1NaX7Yt2dY7tra/3Pw/3OrgcwVd5s9k0RL7P7IJJ0pZfJ5m2WDwFxRpT0n87wWQEHku1ZL8DJx8UZXSfT2RWZUTTdUU6iJFgw+DHPupo+i5cAcKJ7UIp7OvfwVdnOoCBhcPTXI99ZeMbAjzDBGbvvXj/r1EEsCB90b31kP/U7a5WYGVQKBKZ9zoUGd0HSFcUqAv+ssaUyEjzmxr9qU0GQAj5cYEgdAHmK2LYU+Z92fU+MCyBiw0kqm1IZNrVkbje31jn/EnArzr4zIgis6KQkeBV51Hw6tb/UqXJ0haTotBpRV8e/m7W21ZtpOmc14DC4Yklr8qjU87gssrUk0Db9OnXtdk6XyXR1U8DrEBpA+63bSjAPZgbRlGpnIoxtbPscvvBdV5MF4l8hLrjpRw6HA+IcbHOskt+R23OLZGCT+OuEs3aWg7FtKBs8W8NXOeVusPg72THuGdTZNcl5eiv4YsTu9RpTr96rTKwJNDkWPj1Vsh2mBHu6H3DeHYxvvLBcme0wyH7XHtFE56ni/1WB8du/yHsjm/hXtZi7FNMaLD3sMqmzOl97zNLKFvegcOP7xhUw40HHgy8JhhIFLOzv0/0TgzATV897A650BjIAMDFDKD6HRTOLJOe71FM1cZUxcjgGUlWPIm3S6MRTJpRt2MjNeK0tvjO/CS/3XrSZS/20bYNwQT7JD/NXGJZXqYopwRef1UI2sBed7ep2slQt+PPVcEcIPd8kgDG4pNgbS9/nCTrUlmWnk7MjFvcoTpxfQxvimjgAXkFyDq/JZNGihp3oc8ymQK2gmPyQHMcFFwbWPoUeJwbJaV5hw4OAM+bz3apt2ThtEg=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234174,
+    "id": "e_5JauKVIrup2roP26eg2QY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 326,
+      "total_tokens": 536
+    }
+  }
+}

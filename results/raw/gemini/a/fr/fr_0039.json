@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0039",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.94,
+  "ref_text_raw": "L'île de Hong Kong donne son nom au territoire de Hong Kong et représente le principal centre d'intérêt pour de nombreux touristes.",
+  "ref_text_normalized": "l'île de hong kong donne son nom au territoire de hong kong et représente le principal centre d'intérêt pour de nombreux touristes",
+  "timestamp_utc": "2026-07-05T04:48:14Z",
+  "text": "Li d'un con donne son nom au territoire de Hong Kong qui représente le principal centre d'intérêt pour de nombreux touristes.",
+  "latency_sec": 3.6759,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Li d'un con donne son nom au territoire de Hong Kong qui représente le principal centre d'intérêt pour de nombreux touristes.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226894,
+    "id": "C-JJauK9KY3IrfcPmu3D-AU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 308,
+      "total_tokens": 359
+    }
+  }
+}

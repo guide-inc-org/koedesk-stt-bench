@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0058",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.2,
+  "ref_text_raw": "The Sundarbans are the largest littoral mangrove belt in the world, stretching 80 km (50 mi) into the Bangladeshi and Indian hinterland from the coast.",
+  "ref_text_normalized": "the sundarbans are the largest littoral mangrove belt in the world stretching 80 km 50 mi into the bangladeshi and indian hinterland from the coast",
+  "timestamp_utc": "2026-07-05T10:24:08Z",
+  "text": "The Sundarbans are the largest littoral mangrove belt in the world, stretching 80 km, 50 miles into the Bangladeshi and Indian hinterland from the coast.",
+  "latency_sec": 4.2454,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The Sundarbans are the largest littoral mangrove belt in the world, stretching 80 km, 50 miles into the Bangladeshi and Indian hinterland from the coast.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247048,
+    "id": "xTBKao3JMK6l9tMP-_vv-QM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 348,
+      "total_tokens": 429
+    }
+  }
+}

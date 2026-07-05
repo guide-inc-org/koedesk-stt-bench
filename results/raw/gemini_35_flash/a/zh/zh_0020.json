@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0020",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 15.16,
+  "ref_text_raw": "特朗普与土耳其总统雷杰普·塔伊普·埃尔多安（Recep Tayyip Erdoğan）通话后发表了声明。",
+  "ref_text_normalized": "特朗普与土耳其总统雷杰普·塔伊普·埃尔多安recep tayyip erdoğan通话后发表了声明",
+  "timestamp_utc": "2026-07-05T09:07:05Z",
+  "text": "川普与土耳其总统雷杰普·塔伊普·埃尔多安通话后发表了声明。",
+  "latency_sec": 4.6442,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "川普与土耳其总统雷杰普·塔伊普·埃尔多安通话后发表了声明。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EsUHCsIHARFNMg/qBmDnu79no/FHuTofkYDYF33Oc+LbBOS5wl2kAbNdCcaWIhC6p34pdftrNF5iy1uDwRLkKiM0II5gjMgLsCqvP0Ki8HN3Nmm58QJuC49WMO7EiS9+Gm50+YkYwgxsYpIvkjSOivYPwrsNigD4YygSPVdvIVme60gqj4uF3CxzukA3xxCOFiqf4YQSqEoGrquG4E9AOWj8v5KB8mtARYkKxo2ozEVObcHgCRK4/c6VVfd8ukCboR1UswnPG41GF4jdHNtRu9jsNaqchnroKFQiN2QE+pUp4Nx50rXMqyCCe7vTbpHouXxcMzvGl4rtas22LAM2T5GbSLtBCGgDvnhQ14fBkoNCzdfaq8iIecwQLmNxsXuJxukwIoinIMScjs5gg/377pWz9AfAMDRfaernhObUlIqkAReJ/3KNCf3eN+v8dJ9gZz0gt/vQz0A43jolwR9f8Q0g2nL/JWmeDe7VS6bfVSg/1VAUuKZjZMYvtYUu5EM8/q1DzxpXtj3/51mf993myVYbinftXFfBw0KpxXZzYn7bHjEYJDTlPEOIw1e7ajbYtfbKOLCIp7u+hw/ynT91LKu4+oFrwMWaGTZBVFRCu3vlt/7R8bUxznRQkeTaksoF7vR/424rQ7B5/s5eO6JLq0HowK7EHRtqaYGVoqIvEwFY80V38DvZ87aYCfG3AnB7HibKSpTewmIfNvqtaEaHpy6z1cmJZARozwLhwNPM+AijqN2akBYHgKbSS91PiwrfUYheWZV2nEVQJZp/pN/QP5YDQM2/6LPDI2DHd/AWA+0853Wy0qIlIWhxRCEMOvw5AEdOiJd6qXHFvWcSNUhwvFjKPHL9hlVab3/6y4GOjnuiAHbkSFOJpbLVHdKXMipqnpJp0Z0OJG53U0nAdvnztKcjmWfKTJmprR57OQyD83KpPR9vzuOOSLz1O78ZUrzJrpsjPTbkUFrNF2uU2HPtiU7SdKN3FtD5svgwbXQ5jcDMfxbcEySwKJrxHnBMM+0JxenBCLyZcZ3i9HgRd36RnOv7Ti+l2KRwIDbZXCXaVInr4s4HOs5/Sc+rpUMlQ3o01raHCEvxUL1auMMJDSoHzA+tsaRzbQwII/Bk3JKBQcMDyjucUUha7yE2ULgZozSsQ4MiphVaSk3CmBWtD6yXPlx+VE+m7GarEk3H8LHIblKa5gOJcQc7Xg3sCDi8DkwiGN4MwgE60tD5dQpdddLhIdlAShe4grxvuILbVR52ffxDeWhGw56uHPPokmxW+QxaJCxrKeCB9V4="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242425,
+    "id": "th5KaqzLI_GC0-kP1smn0AY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 400,
+      "total_tokens": 687
+    }
+  }
+}

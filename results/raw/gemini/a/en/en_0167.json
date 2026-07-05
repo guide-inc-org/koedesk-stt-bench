@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0167",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 5.64,
+  "ref_text_raw": "Scotturb Bus 403 travels regularly to Sintra, stopping at Cabo da Roca.",
+  "ref_text_normalized": "scotturb bus 403 travels regularly to sintra stopping at cabo da roca",
+  "timestamp_utc": "2026-07-05T03:29:42Z",
+  "text": "Scot Bus 403 travels regularly to Sintra, stopping at Cabo da Roca.",
+  "latency_sec": 3.1109,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Scot Bus 403 travels regularly to Sintra, stopping at Cabo da Roca.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222182,
+    "id": "pM9JaqnKHrui9tMPvLHh-QE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 202,
+      "total_tokens": 220
+    }
+  }
+}

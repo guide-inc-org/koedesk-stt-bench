@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0090",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.22,
+  "ref_text_raw": "多发性硬化是一种影响中枢神经系统（由脑、脊髓和视神经组成）的疾病。",
+  "ref_text_normalized": "多 发 性 硬 化 是 一 种 影 响 中 枢 神 经 系 统 由 脑 脊 髓 和 视 神 经 组 成 的 疾 病",
+  "timestamp_utc": "2026-07-05T09:16:04Z",
+  "text": "多发性硬化是一种影响中枢神经系统，由脑、脊髓和视神经组成的疾病。",
+  "latency_sec": 3.8869,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "多发性硬化是一种影响中枢神经系统，由脑、脊髓和视神经组成的疾病。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPCG4AMRCQ4x9OpZg4bLsW8mkh9RA+9S2VTRbp2pq/zf4z3N7g4MXzPElvirWy"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242964,
+    "id": "0SBKarqqOLD32roPjrXkkQc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 352,
+      "total_tokens": 375
+    }
+  }
+}

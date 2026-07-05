@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0020",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.16,
+  "ref_text_raw": "特朗普与土耳其总统雷杰普·塔伊普·埃尔多安（Recep Tayyip Erdoğan）通话后发表了声明。",
+  "ref_text_normalized": "特朗普与土耳其总统雷杰普·塔伊普·埃尔多安recep tayyip erdoğan通话后发表了声明",
+  "timestamp_utc": "2026-07-05T09:11:58Z",
+  "text": "埃尔多安与土耳其总统雷杰普·塔伊普·埃尔多安通话后发表了声明。",
+  "latency_sec": 2.6964,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "埃尔多安与土耳其总统雷杰普·塔伊普·埃尔多安通话后发表了声明。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPpT3eE8HK0CX+ASiKpdf3IRrSUY6/8hJA4H0Y03FNyVEsD+s5EPhvSUa3YpOv"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242718,
+    "id": "3R9Kau63GYOv2roPupKSoQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 400,
+      "total_tokens": 425
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0158",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 10.68,
+  "ref_text_raw": "卫星是由火箭发射到太空的。科学家在太空中使用望远镜是因为地球的大气层让某些光线和视野产生扭曲。",
+  "ref_text_normalized": "卫 星 是 由 火 箭 发 射 到 太 空 的 科 学 家 在 太 空 中 使 用 望 远 镜 是 因 为 地 球 的 大 气 层 让 某 些 光 线 和 视 野 产 生 扭 曲",
+  "timestamp_utc": "2026-07-05T06:32:18Z",
+  "text": "卫星是由火箭发射到太空的。科学家在太空中使用望远镜，是因为地球的大气层让某些光线和视野产生扭曲。",
+  "latency_sec": 4.4953,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "11s",
+      "requestId": "727036d8-0000-2f9e-b4a4-14c14ef337c4",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "卫星是由火箭发射到太空的。科学家在太空中使用望远镜，是因为地球的大气层让某些光线和视野产生扭曲。"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

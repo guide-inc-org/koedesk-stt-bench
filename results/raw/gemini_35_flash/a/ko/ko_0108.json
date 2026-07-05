@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0108",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 21.72,
+  "ref_text_raw": "\"기술 결정론에 대한 대부분의 해석은 두 가지 개념을 갖습니다. 기술 개발 자체가 문화나 정치 이상의 영향력을 보인다는 것과 기술은 사회적으로 통제되는 것이 아니라 오히려 사회에 본질적인 \"\"영향\"\"을 미칩니다.\"",
+  "ref_text_normalized": "\"기술 결정론에 대한 대부분의 해석은 두 가지 개념을 갖습니다. 기술 개발 자체가 문화나 정치 이상의 영향력을 보인다는 것과 기술은 사회적으로 통제되는 것이 아니라 오히려 사회에 본질적인 \"영향\"\"을 미칩니다.",
+  "timestamp_utc": "2026-07-05T06:19:10Z",
+  "text": "기술 결정론에 대한 대부분의 해석은 두 가지 개념을 갖습니다. 기술 개발 자체가 문화나 정치 이상의 영향력을 보인다는 것과 기술은 사회적으로 통제되는 것이 아니라 오히려 사회에 본질적인 영향을 미칩니다.",
+  "latency_sec": 5.072,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "기술 결정론에 대한 대부분의 해석은 두 가지 개념을 갖습니다. 기술 개발 자체가 문화나 정치 이상의 영향력을 보인다는 것과 기술은 사회적으로 통제되는 것이 아니라 오히려 사회에 본질적인 영향을 미칩니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232350,
+    "id": "WvdJarv4G_KE0-kPh9im2AE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 50,
+      "prompt_tokens": 564,
+      "total_tokens": 1086
+    }
+  }
+}

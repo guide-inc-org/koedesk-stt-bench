@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0181",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.16,
+  "ref_text_raw": "猪携带该疾病，然后通过蚊子传染给人类。",
+  "ref_text_normalized": "猪 携 带 该 疾 病 然 后 通 过 蚊 子 传 染 给 人 类",
+  "timestamp_utc": "2026-07-05T09:03:05Z",
+  "text": "猪携带该疾病, 然后通过蚊子传染给人类。",
+  "latency_sec": 5.7596,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "猪携带该疾病, 然后通过蚊子传染给人类。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242185,
+    "id": "xB1Kau6UObbR0-kPp6yr6QI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 13,
+      "prompt_tokens": 411,
+      "total_tokens": 613
+    }
+  }
+}

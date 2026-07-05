@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0196",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.84,
+  "ref_text_raw": "ทุกสิ่งในจักรวาลล้วนเกิดขี้นจากสสาร ทุกสสารล้วนเกิดขึ้นจากอนุภาคขนาดเล็กจิ๋วที่เรียกว่าอะตอม",
+  "ref_text_normalized": "ทุกสิ่งในจักรวาลล้วนเกิดขี้นจากสสาร ทุกสสารล้วนเกิดขึ้นจากอนุภาคขนาดเล็กจิ๋วที่เรียกว่าอะตอม",
+  "timestamp_utc": "2026-07-05T08:12:54Z",
+  "text": "ทุกสิ่งในจักรวาลล้วนเกิดขึ้นจากสสาร ทุกสสารล้วนเกิดขึ้นจากอนุภาคขนาดเล็กจิ๋วที่เรียกว่าอะตอม",
+  "latency_sec": 2.611,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ทุกสิ่งในจักรวาลล้วนเกิดขึ้นจากสสาร ทุกสสารล้วนเกิดขึ้นจากอนุภาคขนาดเล็กจิ๋วที่เรียกว่าอะตอม",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPhSJRc2/F3AHU/vASHxjy+m8Hx2nLTbvAp+OmPvuhNQ47cyJGr4Yfd66eJmJu"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239174,
+    "id": "BBJKasWqLdmK0-kP0MrjsQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 192,
+      "total_tokens": 224
+    }
+  }
+}

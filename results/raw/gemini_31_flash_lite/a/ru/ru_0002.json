@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0002",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.64,
+  "ref_text_raw": "Во всех научных вопросах, включая психологию, были приняты взгляды Аристотеля.",
+  "ref_text_normalized": "во всех научных вопросах включая психологию были приняты взгляды аристотеля",
+  "timestamp_utc": "2026-07-05T07:27:04Z",
+  "text": "Во всех научных вопросах, включая психологию, были приняты взгляды Аристотеля.",
+  "latency_sec": 2.6154,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Во всех научных вопросах, включая психологию, были приняты взгляды Аристотеля.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPnXZXF0PLwdLAMb+KioR32K2vzwVmVMSASxLKKT6b3PQj6KheeX3wF4eZPmsm"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236425,
+    "id": "RwdKapOnH8vb2roP0s2koQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 237,
+      "total_tokens": 256
+    }
+  }
+}

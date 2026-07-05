@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0083",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 16.26,
+  "ref_text_raw": "Mereka biasanya memiliki penawaran makanan, minuman, dan hiburan yang khusus, untuk menjaga suasana hati para tamu, dan mempertahankannya di lokasi.",
+  "ref_text_normalized": "mereka biasanya memiliki penawaran makanan minuman dan hiburan yang khusus untuk menjaga suasana hati para tamu dan mempertahankannya di lokasi",
+  "timestamp_utc": "2026-07-05T05:50:04Z",
+  "text": "Mereka biasanya memiliki penawaran makanan, minuman, dan hiburan yang khusus untuk menjaga suasana hati para tamu dan mempertahankannya di lokasi.",
+  "latency_sec": 3.0981,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Mereka biasanya memiliki penawaran makanan, minuman, dan hiburan yang khusus untuk menjaga suasana hati para tamu dan mempertahankannya di lokasi.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPZJOu2iCdUHyNHcJO+qKhT+tJTLsxHpL+fMWiasT4UjUkxixHVMWQAtl9K7kU"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230604,
+    "id": "i_BJapbqCKOm2roPua6M0QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 428,
+      "total_tokens": 458
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0126",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.8,
+  "ref_text_raw": "이 이야기에 관계된 두 명의 성인 자녀를 둔 기혼자인 듀발은 밀러에게 깊은 인상을 남기지 않았습니다.",
+  "ref_text_normalized": "이 이야기에 관계된 두 명의 성인 자녀를 둔 기혼자인 듀발은 밀러에게 깊은 인상을 남기지 않았습니다",
+  "timestamp_utc": "2026-07-05T06:26:29Z",
+  "text": "이 이야기에 관계된 두 명의 성인 자녀를 둔 기혼자인 듀발은 밀러에게 깊은 인상을 남기지 않았습니다.",
+  "latency_sec": 2.8072,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "이 이야기에 관계된 두 명의 성인 자녀를 둔 기혼자인 듀발은 밀러에게 깊은 인상을 남기지 않았습니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPWcKPfz0bNzdfO0yV0UTKNeo8vImKxz+7NL7JaJWZRJCJUZ1f/XnkcpI86nE5"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232789,
+    "id": "FPlJarfaFczLrfcPwe_16Qs",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 366,
+      "total_tokens": 401
+    }
+  }
+}

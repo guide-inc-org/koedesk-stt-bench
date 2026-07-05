@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0001",
+  "lang": "ko",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.8,
+  "ref_text_raw": "델 포트로가 2세트에서 먼저 어드밴티지를 얻었지만 6 대 6이 된 후 다시 타이 브레이크가 필요했다.",
+  "ref_text_normalized": "델 포트로가 2세트에서 먼저 어드밴티지를 얻었지만 6 대 6이 된 후 다시 타이 브레이크가 필요했다",
+  "timestamp_utc": "2026-07-05T05:52:38Z",
+  "text": "델 포트로가 2세트에서 먼저 어드밴티지를 얻었지만 6대6이 된 후 다시 타이 브레이크가 필요했다.",
+  "latency_sec": 4.555,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "델 포트로가 2세트에서 먼저 어드밴티지를 얻었지만 6대6이 된 후 다시 타이 브레이크가 필요했다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230758,
+    "id": "I_FJatjHJdbk1e8P_MzduQE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 367,
+      "total_tokens": 502
+    }
+  }
+}

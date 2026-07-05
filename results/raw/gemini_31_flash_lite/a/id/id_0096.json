@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0096",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.2,
+  "ref_text_raw": "Setelah bendungan dibangun pada 1963, banjir musiman yang dapat menyebarkan sedimen ke sepanjang sungai berhasil dihentikan.",
+  "ref_text_normalized": "setelah bendungan dibangun pada 1963 banjir musiman yang dapat menyebarkan sedimen ke sepanjang sungai berhasil dihentikan",
+  "timestamp_utc": "2026-07-05T05:50:55Z",
+  "text": "Setelah bendungan dibangun pada 1963, banjir musiman yang dapat menyebarkan sedimen ke sepanjang sungai berhasil dihentikan.",
+  "latency_sec": 3.3045,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Setelah bendungan dibangun pada 1963, banjir musiman yang dapat menyebarkan sedimen ke sepanjang sungai berhasil dihentikan.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPPcoNWxoBd1Jp9laQ9TsehYa6MknrMSZavnRTOfUtWKV+CLVRXZhmxNVUU0Su"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230655,
+    "id": "vfBJasCiDen62roPgJLP-QI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 276,
+      "total_tokens": 305
+    }
+  }
+}

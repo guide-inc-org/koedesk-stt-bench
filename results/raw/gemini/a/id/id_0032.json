@@ -1,0 +1,39 @@
+{
+  "utt_id": "id_0032",
+  "lang": "id",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.42,
+  "ref_text_raw": "Faktanya, tempat ini tidak mudah untuk ditemukan bahkan ketika seseorang tahu bahwa tempat ini ada. Setelah berada di dalam gua, kondisinya adalah isolasi total.",
+  "ref_text_normalized": "faktanya tempat ini tidak mudah untuk ditemukan bahkan ketika seseorang tahu bahwa tempat ini ada setelah berada di dalam gua kondisinya adalah isolasi total",
+  "timestamp_utc": "2026-07-05T05:21:38Z",
+  "text": "Faktanya tempat ini tidak mudah untuk ditemukan, bahkan ketika seseorang tahu bahwa tempat ini ada. Setelah berada di dalam gua, kondisinya adalah isolasi total.",
+  "latency_sec": 3.4182,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Faktanya tempat ini tidak mudah untuk ditemukan, bahkan ketika seseorang tahu bahwa tempat ini ada. Setelah berada di dalam gua, kondisinya adalah isolasi total.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228898,
+    "id": "4OlJatWmBafKrfcP5Pio2QM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 419,
+      "total_tokens": 452
+    }
+  }
+}

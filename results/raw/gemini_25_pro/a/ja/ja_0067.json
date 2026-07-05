@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0067",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 9.9,
+  "ref_text_raw": "わずか2週間でアメリカ軍と自由フランス軍は南フランスを解放し、ドイツに向かっていました。",
+  "ref_text_normalized": "わずか2週間でアメリカ軍と自由フランス軍は南フランスを解放し ドイツに向かっていました",
+  "timestamp_utc": "2026-07-05T10:09:37Z",
+  "text": "わずか2週間でアメリカ軍と自由フランス軍は南フランスを解放しドイツに向かっていました。",
+  "latency_sec": 4.0392,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "わずか2週間でアメリカ軍と自由フランス軍は南フランスを解放しドイツに向かっていました。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246178,
+    "id": "Xy1Kap2AC5K02roP8vW-qQE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 338,
+      "total_tokens": 360
+    }
+  }
+}

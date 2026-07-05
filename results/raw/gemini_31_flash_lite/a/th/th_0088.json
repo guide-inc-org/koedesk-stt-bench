@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0088",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.66,
+  "ref_text_raw": "MS เป็นโรคที่ส่งผลกระทบต่อระบบประสาทส่วนกลางซึ่งประกอบด้วยสมอง ไขสันหลัง และเส้นประสาทตา",
+  "ref_text_normalized": "ms เป็นโรคที่ส่งผลกระทบต่อระบบประสาทส่วนกลางซึ่งประกอบด้วยสมอง ไขสันหลัง และเส้นประสาทตา",
+  "timestamp_utc": "2026-07-05T08:06:09Z",
+  "text": "MS เป็นโรคที่ส่งผลกระทบต่อประสาทส่วนกลาง ซึ่งประกอบด้วยสมอง ไขสันหลัง และเส้นประสาทตา",
+  "latency_sec": 2.9471,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "MS เป็นโรคที่ส่งผลกระทบต่อประสาทส่วนกลาง ซึ่งประกอบด้วยสมอง ไขสันหลัง และเส้นประสาทตา",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPWaxve8wRQBFVkra92H1YGd7TW/Et2Uh24hg/xQRT5SkvMONBW6eHN5cAKVZI"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238769,
+    "id": "cBBKaoBU4Ye-vQ-9kLmhCA",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 188,
+      "total_tokens": 214
+    }
+  }
+}

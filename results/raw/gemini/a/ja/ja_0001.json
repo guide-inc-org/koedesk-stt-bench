@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0001",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 14.22,
+  "ref_text_raw": "また、北側に行くなら世界的に有名なマリア像の聖地であるファティマの聖母の聖域（神社）を訪れましょう。",
+  "ref_text_normalized": "また 北側に行くなら世界的に有名なマリア像の聖地であるファティマの聖母の聖域神社を訪れましょう",
+  "timestamp_utc": "2026-07-05T10:01:39Z",
+  "text": "また北側に行くなら世界的に有名なマリア像の聖地であるファティマの聖母の聖域、神社を訪れましょう。",
+  "latency_sec": 4.0944,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "また北側に行くなら世界的に有名なマリア像の聖地であるファティマの聖母の聖域、神社を訪れましょう。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783245699,
+    "id": "gStKavrDCY3IrfcPmu3D-AU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 477,
+      "total_tokens": 592
+    }
+  }
+}

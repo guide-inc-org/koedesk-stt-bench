@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0113",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.54,
+  "ref_text_raw": "它们脚上有鳞片和爪子，会产卵，还像霸王龙一样用两条后腿走路。",
+  "ref_text_normalized": "它 们 脚 上 有 鳞 片 和 爪 子 会 产 卵 还 像 霸 王 龙 一 样 用 两 条 后 腿 走 路",
+  "timestamp_utc": "2026-07-05T09:16:08Z",
+  "text": "他们肢上有鳞片和爪子，会产卵，还会像霸王龙一样用两条后腿走路。",
+  "latency_sec": 5.3332,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "他们肢上有鳞片和爪子，会产卵，还会像霸王龙一样用两条后腿走路。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242968,
+    "id": "1CBKavHSFOnn2roPlKW22Ao",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 185,
+      "total_tokens": 692
+    }
+  }
+}

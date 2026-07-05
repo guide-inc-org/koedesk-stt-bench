@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0001",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.8,
+  "ref_text_raw": "델 포트로가 2세트에서 먼저 어드밴티지를 얻었지만 6 대 6이 된 후 다시 타이 브레이크가 필요했다.",
+  "ref_text_normalized": "델 포트로가 2세트에서 먼저 어드밴티지를 얻었지만 6 대 6이 된 후 다시 타이 브레이크가 필요했다",
+  "timestamp_utc": "2026-07-05T06:08:56Z",
+  "text": "델포트로가 이 세트에서 먼저 어드밴티지를 얻었지만 6대 6이 된 후 다시 타이브레이크가 필요했다.",
+  "latency_sec": 4.8843,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "델포트로가 이 세트에서 먼저 어드밴티지를 얻었지만 6대 6이 된 후 다시 타이브레이크가 필요했다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtMLCtALARFNMg+Hi4st9RBlocq1Ya7UXScFdZrza/92F+z89zbJ3uver3PmWTyTH5HelREIhVlRFz6mBMVFC27t292gBaxRYxyOuA3CYYZDXFPqLo55q9a+9Fsazu2cz6FRRSZg9nXUtBRD/10QUGuwIua0Du8j9IP4UIzDU3rmzPH4bpabhoACJl4Q8Txby96WsMWFC8tRN4kxkLFoFwQsiVpcnN0tcIhdwtGEHzvFWvAEw7qYP9k/JwAc/Fsw2qusXF+N4fMjR5ZMrcIu2LaP+CAcppACGQoIcTuvj8itK/oLZIrKNnURJb3hp1637+du3gut0iXenicj0Yxu4FmavFLIyVpQkzKQhc7RHyR7xaMCbwtWS1OTGnP478kIH66ZqKydJszKvFtLQxQxPE6cLs/q/dTNg6gNjIIbEgsqP/82OaSoD6+MEkW8bOa1d+r7b2h7XJ/oO4OMux9sGhz0bD05s4+CFDu4gHcdQJv5bCVYHJOxGbXBeA/kf8ytSDg1yrpqhvsigOd0B+cm/mr8C0IoO1Yxt9US7PPTvnggnwxkpEnW7xVlNSB+WLs+pFYxskwEPLII0O6oqj+Gk2u6p7AE4nziwPxrJOMNbFQ+uqusbGXOl28zfuiyId5a+L14Jgx8YeehPsTywEEdDcRccspumAD4nN5VdPu4z3JYZSENsWPfar1nuL7u/lEtW6jBK76pDCGIQ0/Y/rvUXr2phg8rRCDvcMECCfLqDH1GJKvo4WjZhwJIpuAFInUBGR42SrFOFDxwE2iIsOivw7dp9eaPfM9vS8AwM+F7eRnccCkxBy37DhJlDIbObFtx7nrkObsn3ZXPfsSHJQeXfOlOGeUuEaicu0tjqGbe1a177ADgzZUarR/nIQ1sgOa1M6QN8+dQKk+qVktt+W4Bog1RuXfFqBIeT61NjTPKYxVgaGl+Nkg9vymn3Ls7I8v9+FH/6Iwc21LFolSPuC28QUEKWDDV+ZIcbG88Z4xHFXTcd9pEPEIjX8U/YTlVDe336MZ4Jn/Lie8sXdKSQT303yfH1wrqmCI1PHTCOgcJGcsF1m3fmt+YksgTR8zaG8dYTb7KKefsgjHwl18ZN2IDWkqMg4kzoUDfZ5vK0etilKnprHOw7xqeDihNJJFnFL0wiQYbNbEoAsCJtlTfeFwifg0cgP6zb6LW61pArNFRfFAaHCz/4wZy3r5jc/Z8CcyfVKUjqZ0rlsv003OwROzy/B328roLlCTmA+eMn5L3Mi6WX9fXAsBRIryzsOUNdobIafDNov/oCJJLdVSAaHGH7R7OhvLPYw1/jhUTO1Duw3jX2imyfEDpp4YGs8M7r3Mvb4mEhmc5EWTiILDB5CUs4njgDhrADJO3eXqSEazLRHhsyN1CW5i1kVMqEY71djqd1dYLQY3dShYPxnWPAk7VppuPqehd1Y4dEhdMofR+vnqMcGSh/ndTYUd8uDFw1nAbXBIz5+b8mU22YR19bsnjl7ZmCyAPxfKDOnGnYZyDPD7M6GaQ0uGFuy8SgdJRR41GQIU1KgncVRl5lfU/megW47UE/OS20v341gSJtbn9lOfrhn9Xwtn7/zAYC87wWlOvGvtwxlfcolidS46azWA0a31RAPE9sXbFMw/6mujwnK+FoGECIPK4RnfMF6tpW3g8hvp28Z3fq7bb6CG+EdQqXTKQfIob/uKLY7maDK5YWrltz2RZmSPUOpSi5CEoJ/KBtEEGsAk4cnPoSc2idoXi8YmPDqRKLQ6LoYyvq5j1uVVZSFoK1aokYsjFFTbNe3FkykULH619k2PPvk7HX4QNX0KhuPRcMepnIZcGpyFf8Ec3Fbo2fk6xvOz9TZCbNvmJQo59dSzUEXdfc+boqmjHai4o1Ct/jQcwm4HwX9Iqz5iKFwlsz1hJ/Ud2hqDNjrZP0TOD9B0Ie7tTZrxgL3+x1uKOrivPk8JKlU91y+BfWbq9gb4jQAqu+voYdl6b29Y1aann3KDz"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231736,
+    "id": "9fRJaqSSA4aA0-kPotqL6Q4",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 291,
+      "total_tokens": 769
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0066",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.48,
+  "ref_text_raw": "Nothing can be seen other than the clear, beautiful sky above and the many surrounding mountains. Very little of this world can be seen or heard from inside the cave.",
+  "ref_text_normalized": "nothing can be seen other than the clear beautiful sky above and the many surrounding mountains very little of this world can be seen or heard from inside the cave",
+  "timestamp_utc": "2026-07-05T10:24:00Z",
+  "text": "Nothing can be seen other than the clear beautiful sky above and the many surrounding mountains. Very little of this world can be seen or heard from inside the cave.",
+  "latency_sec": 3.6613,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Nothing can be seen other than the clear beautiful sky above and the many surrounding mountains. Very little of this world can be seen or heard from inside the cave.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247040,
+    "id": "vTBKap_rJ_nC0-kP-o-AoAM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 325,
+      "total_tokens": 381
+    }
+  }
+}

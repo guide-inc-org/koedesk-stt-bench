@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0068",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 17.46,
+  "ref_text_raw": "Since 1966 the Sundarbans have been a wildlife sanctuary, and it is estimated that there are now 400 Royal Bengal tigers and about 30,000 spotted deer in the area.",
+  "ref_text_normalized": "since 1966 the sundarbans have been a wildlife sanctuary and it is estimated that there are now 400 royal bengal tigers and about 30,000 spotted deer in the area",
+  "timestamp_utc": "2026-07-05T10:31:58Z",
+  "text": "Since 1966, the Sundarbans have been a wildlife sanctuary, and it is estimated there are now 400 Royal Bengal tigers and about 30,000 spotted deer in the area.",
+  "latency_sec": 2.7517,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Since 1966, the Sundarbans have been a wildlife sanctuary, and it is estimated there are now 400 Royal Bengal tigers and about 30,000 spotted deer in the area.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPnmV9vvgxXxz1FErp2Qe9AWb/g/HHjV47LN6lcQ/pxOtP3lUSEVvpoGpSJ1hE"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247518,
+    "id": "nTJKarShBYaA0-kPotqL6Q4",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 46,
+      "prompt_tokens": 458,
+      "total_tokens": 504
+    }
+  }
+}

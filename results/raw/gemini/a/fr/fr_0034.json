@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0034",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 15.36,
+  "ref_text_raw": "Il a également gravé des billets de banque pour de nombreux pays. Parmi les exemples récents de son travail, on peut citer les portraits du Premier ministre au recto des nouveaux billets canadiens de 5 et 100 dollars.",
+  "ref_text_normalized": "il a également gravé des billets de banque pour de nombreux pays parmi les exemples récents de son travail on peut citer les portraits du premier ministre au recto des nouveaux billets canadiens de 5 et 100 dollars",
+  "timestamp_utc": "2026-07-05T04:47:51Z",
+  "text": "Il a également gravé des billets de banque pour de nombreux pays. Parmi les exemples récents de son travail, on peut citer les portraits du Premier ministre Orecto, des nouveaux billets canadiens de 5 et 100 dollars.",
+  "latency_sec": 3.5131,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Il a également gravé des billets de banque pour de nombreux pays. Parmi les exemples récents de son travail, on peut citer les portraits du Premier ministre Orecto, des nouveaux billets canadiens de 5 et 100 dollars.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226871,
+    "id": "9eFJaqnrA-ON1e8PjO3d6AM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 51,
+      "prompt_tokens": 513,
+      "total_tokens": 586
+    }
+  }
+}

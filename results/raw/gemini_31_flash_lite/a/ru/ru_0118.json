@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0118",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.88,
+  "ref_text_raw": "Сплавы по существу представляют собой смесь двух или более металлов. Не забывайте, что в периодической таблице много элементов.",
+  "ref_text_normalized": "сплавы по существу представляют собой смесь двух или более металлов не забывайте что в периодической таблице много элементов",
+  "timestamp_utc": "2026-07-05T07:34:16Z",
+  "text": "Сплавы по существу представляют собой смесь двух или более металлов. Не забывайте, что в периодической таблице много элементов.",
+  "latency_sec": 3.2471,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Сплавы по существу представляют собой смесь двух или более металлов. Не забывайте, что в периодической таблице много элементов.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP9ptNgT8NBpkuD116ppBzIwRRgMJ4P0jsZoxfEJ+QVV5Q3+bGaiyESKVk57JW"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236856,
+    "id": "9ghKapOcKM-a1e8P7YSs0QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 318,
+      "total_tokens": 345
+    }
+  }
+}

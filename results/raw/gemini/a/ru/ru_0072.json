@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0072",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.48,
+  "ref_text_raw": "Итальянский язык также является повседневным языком для большинства людей, работающих в государстве, в то время как латынь зачастую используется в религиозных церемониях.",
+  "ref_text_normalized": "итальянский язык также является повседневным языком для большинства людей работающих в государстве в то время как латынь зачастую используется в религиозных церемониях",
+  "timestamp_utc": "2026-07-05T07:05:48Z",
+  "text": "Итальянский язык также является повседневным языком для большинства людей, работающих в государстве, в то время, как латынь зачастую используется в религиозных церемониях.",
+  "latency_sec": 3.511,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Итальянский язык также является повседневным языком для большинства людей, работающих в государстве, в то время, как латынь зачастую используется в религиозных церемониях.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235148,
+    "id": "SgJKatyOFMmD0-kPmZ7guAM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 421,
+      "total_tokens": 492
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0129",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.24,
+  "ref_text_raw": "Khu vực này tiếp giáp với Sahei về phía bắc, và giáp Đại Tây Dương về phía nam và phía tây.",
+  "ref_text_normalized": "khu vực này tiếp giáp với sahei về phía bắc và giáp đại tây dương về phía nam và phía tây",
+  "timestamp_utc": "2026-07-05T08:45:25Z",
+  "text": "khu vực này tiếp giáp với Sa hi về phía Bắc và giáp Đại Tây Dương về phía Nam và phía Tây.",
+  "latency_sec": 2.7474,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "khu vực này tiếp giáp với Sa hi về phía Bắc và giáp Đại Tây Dương về phía Nam và phía Tây.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP9efWqOgvYbGzMQgWXN03ULlrmAJeuIPddKyVkUZ/mghPJ/5MHgQ896BllTK0"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241125,
+    "id": "oxlKavSsM4Ov2roPupKSoQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 252,
+      "total_tokens": 278
+    }
+  }
+}

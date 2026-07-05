@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0065",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 18.72,
+  "ref_text_raw": "Makan malam sederhana yang populer, terutama selama musim panas adalah Pa amb Oli: Roti dengan minyak zaitun, tomat, dan bumbu apa pun yang tersedia seperti keju, tuna, dan lain-lain.",
+  "ref_text_normalized": "makan malam sederhana yang populer terutama selama musim panas adalah pa amb oli roti dengan minyak zaitun tomat dan bumbu apa pun yang tersedia seperti keju tuna dan lain-lain",
+  "timestamp_utc": "2026-07-05T05:48:54Z",
+  "text": "Makan malam sederhana yang populer, terutama selama musim panas adalah pa amb oli. Roti yang dengan minyak zaitun, tomat dan bumbu apapun yang tersedia seperti keju, tuna, dan lain-lain.",
+  "latency_sec": 2.8802,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Makan malam sederhana yang populer, terutama selama musim panas adalah pa amb oli. Roti yang dengan minyak zaitun, tomat dan bumbu apapun yang tersedia seperti keju, tuna, dan lain-lain.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPAjUgVp1SUcJPn56sK5HtRjt506zSovEo3a5op+FYrioVsX6bhFzYD8VpdA6o"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230534,
+    "id": "RfBJao_tFtKivr0PmOv26QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 489,
+      "total_tokens": 532
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0100",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.82,
+  "ref_text_raw": "実際には、洞窟の存在を知っていても見つけるのは容易ではありません。洞窟に入ると、そこは完全に隔離された空間です。",
+  "ref_text_normalized": "実際には 洞窟の存在を知っていても見つけるのは容易ではありません 洞窟に入ると そこは完全に隔離された空間です",
+  "timestamp_utc": "2026-07-05T03:15:07Z",
+  "text": "実際には洞窟の存在を知っていても見つけるのは容易ではありません。洞窟に入るとそこは完全に隔離された空間です。",
+  "latency_sec": 5.1024,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "実際には洞窟の存在を知っていても見つけるのは容易ではありません。洞窟に入るとそこは完全に隔離された空間です。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221307,
+    "id": "N8xJatWPNqG2vr0PqrfGqAE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 317,
+      "total_tokens": 746
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0082",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.06,
+  "ref_text_raw": "북쪽의 넓은 지역은 인적이 드물며, 몇몇 지역은 거의 사람이 살지 않는 황무지다.",
+  "ref_text_normalized": "북쪽의 넓은 지역은 인적이 드물며 몇몇 지역은 거의 사람이 살지 않는 황무지다",
+  "timestamp_utc": "2026-07-05T06:23:49Z",
+  "text": "북쪽의 넓은 지역은 인적이 드물며 몇몇 지역은 거의 사람이 살지 않는 황무지다.",
+  "latency_sec": 2.7618,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "북쪽의 넓은 지역은 인적이 드물며 몇몇 지역은 거의 사람이 살지 않는 황무지다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPU68vqz8Jg+Lv4ApL/cnAa45utTP9gYvc6/C83DQ0jIRnXCHrcTZXlaBb7H4x"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232629,
+    "id": "dPhJavGDF7q3vr0P4Zm80Qw",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 323,
+      "total_tokens": 349
+    }
+  }
+}

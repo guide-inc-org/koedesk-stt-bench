@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0126",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.84,
+  "ref_text_raw": "Es ist also möglich, dass der Vermerk einfach als Kennzeichnung hinzugefügt wurde.",
+  "ref_text_normalized": "es ist also möglich dass der vermerk einfach als kennzeichnung hinzugefügt wurde",
+  "timestamp_utc": "2026-07-05T04:06:31Z",
+  "text": "Es ist also möglich, dass der Vermerk einfach als Kennzeichnung hinzugefügt wurde.",
+  "latency_sec": 3.1633,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Es ist also möglich, dass der Vermerk einfach als Kennzeichnung hinzugefügt wurde.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Eu0DCuoDARFNMg+kUeK8nxxsLM4Bc8XGHVKPdIIVSR976ge66nnb1tYaETm+LJ8VIcfxgJybcPK2yb8KnKpESZem6ri69xNFbyl2pWUDOaBq0NxsE+oPbdsgbRJ+FWRTU1yUxWZbLuz4ZuRL9OPhoGVJy7JHZg0u1xuT5ZkHw/arHZjedUxMyD7ysLE/TjlV+dtpsydIccTAlPc88NNHfPAzwd0aYYzjfZGBOy6jzHOZ0zYQoaFPwG+Xen7+xD7QdA5Kbuyy8IExZvLSLW486U3cuI76Aui0Cwh1ID5LB9xIkeqj+R4mPxXvdtsVn+iTYaL+gJzO9MoGsUknoxHN3UXG3bGdXZiNXuA5tce3HBKekAnblkiHiQl8WDvKkEudSE5vBH7b/Q3T+7fWA5zKhOsNbT0C7H9/OVWoypcwoBU4XLUH6zJg0lxJtMXq/ZoKKpuB9MxuMkdlrBAKPuAruzEhcqLFqfOLr3FJtigP42n0XIP60yr/2pzB0L54qwAnF8NqpQidrqg+uCuxWEe2hXxQw8SyZBJjjVfvZmZMHNwzxP5M1ZiFRChdJzsc379/UcEkP01WUdYPyxcpE3/HVjPykJ5yYuwkcu6zhb8kaVGpTucjpGt+kx6LwZgVelBv48tC11f7ydHzASYbxSFkqw=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224391,
+    "id": "RthJap7gA9q20-kPqrmQ0QM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 342,
+      "total_tokens": 455
+    }
+  }
+}

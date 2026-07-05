@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0048",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.86,
+  "ref_text_raw": "それでも、当局からのアドバイスを受け、すべての標識を守り、安全上の警告に細心の注意を払いましょう。",
+  "ref_text_normalized": "それでも 当局からのアドバイスを受け すべての標識を守り 安全上の警告に細心の注意を払いましょう",
+  "timestamp_utc": "2026-07-05T10:15:39Z",
+  "text": "それでも 当局 から の アドバイス を 受け 全て の 標識 を 守り 安全 上 の 警告 に 最新 の 注意 を 払い ましょう 。",
+  "latency_sec": 2.9992,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "それでも 当局 から の アドバイス を 受け 全て の 標識 を 守り 安全 上 の 警告 に 最新 の 注意 を 払い ましょう 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP9FTOdKPnyyHvIxZLHHGM5+Z1mEUmBvZUwGa5RfXXjdyEIK1eDmVORrQv8Axj"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246539,
+    "id": "yS5KavivOv6e0-kP-tbAuA4",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 293,
+      "total_tokens": 326
+    }
+  }
+}

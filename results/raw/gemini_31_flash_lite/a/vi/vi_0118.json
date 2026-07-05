@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0118",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.04,
+  "ref_text_raw": "Đây là một trong những điểm du lịch thu hút chính của Nam Phi và nó được coi là nơi chủ đạo thuộc Cơ Quan Vườn Quốc gia Nam Phi (SANParks).",
+  "ref_text_normalized": "đây là một trong những điểm du lịch thu hút chính của nam phi và nó được coi là nơi chủ đạo thuộc cơ quan vườn quốc gia nam phi sanparks",
+  "timestamp_utc": "2026-07-05T08:44:43Z",
+  "text": "Đây là một trong những điểm du lịch thu hút chính của Nam Phi và nó được coi là nơi chủ đạo thuộc cơ quan về quốc gia Nam Phi, San Park.",
+  "latency_sec": 2.7063,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Đây là một trong những điểm du lịch thu hút chính của Nam Phi và nó được coi là nơi chủ đạo thuộc cơ quan về quốc gia Nam Phi, San Park.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP/fYbykF3h31Ot3X8eIrPpcIFidBV0BvNuslRF1yuAEqy8N01Z4y5RKxWzMht"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241083,
+    "id": "ehlKavjqFvPG2roPs9KcqAM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 297,
+      "total_tokens": 331
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0150",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 9.48,
+  "ref_text_raw": "夜空の下でピラミッドに映像が浮かび、ピラミッドが次々とライトアップされます。",
+  "ref_text_normalized": "夜空の下でピラミッドに映像が浮かび ピラミッドが次々とライトアップされます",
+  "timestamp_utc": "2026-07-05T03:11:50Z",
+  "text": "夜空の下でピラミッドに映像が浮かび、ピラミッドが次々とライトアップされます。",
+  "latency_sec": 5.9163,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "夜空の下でピラミッドに映像が浮かび、ピラミッドが次々とライトアップされます。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221110,
+    "id": "c8tJatXGAtWd1e8PgOulsQY",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 325,
+      "total_tokens": 548
+    }
+  }
+}

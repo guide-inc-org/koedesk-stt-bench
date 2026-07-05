@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0058",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.04,
+  "ref_text_raw": "เรานำพืชมาสร้างบ้านและทำเป็นเสื้อผ้าอาหารที่เรากินส่วนใหญ่มักเป็นพืช ซึ่งหากไม่มีพืช สัตว์ก็ไม่สามารถดำรงชีวิตได้",
+  "ref_text_normalized": "เรานำพืชมาสร้างบ้านและทำเป็นเสื้อผ้าอาหารที่เรากินส่วนใหญ่มักเป็นพืช ซึ่งหากไม่มีพืช สัตว์ก็ไม่สามารถดำรงชีวิตได้",
+  "timestamp_utc": "2026-07-05T08:04:13Z",
+  "text": "เรานำพืชมาสร้างบ้านและทำเป็นเสื้อผ้าอาหารที่เรากิน ส่วนใหญ่มักเป็นพืชซึ่งหากไม่มีพืชสัตว์ก็ไม่สามารถดำรงชีวิตได้",
+  "latency_sec": 2.9036,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "เรานำพืชมาสร้างบ้านและทำเป็นเสื้อผ้าอาหารที่เรากิน ส่วนใหญ่มักเป็นพืชซึ่งหากไม่มีพืชสัตว์ก็ไม่สามารถดำรงชีวิตได้",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPKrePEKw1QghCtvWiAZJdsP1u3/NIT3kNiYXt82PnadT3d1V+H76VT1Y2QOA3"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238653,
+    "id": "_A9KaorqEKne1e8P6I_tqAg",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 297,
+      "total_tokens": 332
+    }
+  }
+}

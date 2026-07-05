@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0174",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.84,
+  "ref_text_raw": "คุณสามารถเดินทางรอบโกมาด้วยโบดา-โบดา (มอเตอร์ไซค์รับจ้าง) โดยราคาปกติ (ในท้องถิ่น) จะอยู่ที่ประมาณ 500 ฟรังก์คองโกสำหรับการเดินทางระยะสั้น",
+  "ref_text_normalized": "คุณสามารถเดินทางรอบโกมาด้วยโบดา-โบดา มอเตอร์ไซค์รับจ้าง โดยราคาปกติ ในท้องถิ่น จะอยู่ที่ประมาณ 500 ฟรังก์คองโกสำหรับการเดินทางระยะสั้น",
+  "timestamp_utc": "2026-07-05T08:11:37Z",
+  "text": "คุณสามารถเดินทางรอบโกมาด้วยโบดาโบดามอเตอร์ไซค์รับจ้างโดยราคาปกติในท้องถิ่นจะอยู่ที่ประมาณ 500 ฟรังก์คองโกสำหรับการเดินทางระยะสั้น",
+  "latency_sec": 2.6714,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "คุณสามารถเดินทางรอบโกมาด้วยโบดาโบดามอเตอร์ไซค์รับจ้างโดยราคาปกติในท้องถิ่นจะอยู่ที่ประมาณ 500 ฟรังก์คองโกสำหรับการเดินทางระยะสั้น",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP+oxVp+W8IDWZaFbzTNnMaohKWKRZ8L03EBmttchY+r43xWdE+319vqNdF6PZ"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239097,
+    "id": "txFKarOfNNKivr0PmOv26QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 267,
+      "total_tokens": 310
+    }
+  }
+}

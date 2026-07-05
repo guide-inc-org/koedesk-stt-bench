@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0048",
+  "lang": "th",
+  "engine": "gemini_25_flash",
+  "duration_sec": 13.44,
+  "ref_text_raw": "ในปี 1976 สามสิบเปอร์เซ็นต์ของมาชูปิกชูได้รับการฟื้นฟูซ่อมแซม และการบูรณะยังคงดำเนินอยู่จนถึงวันนี้",
+  "ref_text_normalized": "ในปี 1976 สามสิบเปอร์เซ็นต์ของมาชูปิกชูได้รับการฟื้นฟูซ่อมแซม และการบูรณะยังคงดำเนินอยู่จนถึงวันนี้",
+  "timestamp_utc": "2026-07-05T07:38:07Z",
+  "text": "ใน ปี 1976 30% ของ มาชูพิชชู ได้ รับ การ ฟื้น ฟู ซ่อม แซม และ การ บูรณะ ยัง คง ดำเนิน อยู่ จน ถึง วัน นี้",
+  "latency_sec": 4.0637,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ใน ปี 1976 30% ของ มาชูพิชชู ได้ รับ การ ฟื้น ฟู ซ่อม แซม และ การ บูรณะ ยัง คง ดำเนิน อยู่ จน ถึง วัน นี้",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237087,
+    "id": "3AlKatGDGuSf1e8PgNPzwAE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 452,
+      "total_tokens": 577
+    }
+  }
+}

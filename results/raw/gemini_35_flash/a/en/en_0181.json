@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0181",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.18,
+  "ref_text_raw": "In just two weeks the Americans and Free French forces had liberated southern France and were turning towards Germany.",
+  "ref_text_normalized": "in just two weeks the americans and free french forces had liberated southern france and were turning towards germany",
+  "timestamp_utc": "2026-07-05T03:38:28Z",
+  "text": "In just two weeks, the Americans and Free French forces had liberated southern France and were turning towards Germany.",
+  "latency_sec": 3.2142,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "In just two weeks, the Americans and Free French forces had liberated southern France and were turning towards Germany.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EukFCuYFARFNMg9jwjyfCxAAJhhR1ip/eZ5LrLy2uHEKNvq5RyLZibzSNPeaP4XVB9XCeo2Gd1FRQIuVOEkVlcnnG/k0d+gwGuU5xsHGJFW3Ka7L2I3CNXpaqsqAOXpXA9kWAGJ73o4VXWDgZcu7qgDbomxL0/2Y1Ilg6lHX5E7rSJyljgXGG46AtJ7B78nfiflMRM8NbpOZAVk6QE9aDHCquOFGVg4mSImdzgWjPi0NSxWJw0YR2Pjg3FQoXbIjkTfDPrgDDJ9OwliUHZZTK+xGveDI9p8fpoLbgllxNAvafl7CZmjqKgmyGF+giwSKFfi8OhRJWvDM88aqxeREc2t40mcWe4QZMlYhGlQE6ZT8J58ellkKmHi8e3gJXv/kZdOAopZDOsbbRTe3OSIbksvZtmqOboW1AkTYk0/YxPaqNtSMCv2OHWyh3DzoCMIucqAk85/METbh4iOnP6ZHaP0AQuKKRPycayffbo4rz1XgjYdLMVtwm4mQ573nuWGw7bcfFjNa8xnqLfUdSTGugb7eh/xZ8VFbzNMHc6/XQMIW2PisrUHVL0nXuNGFPhgBdHdLHhRgxShKrV+RWyKRRxrBEihwPwQBfVwdxrb5VoNiTPrxFH9LJ6Mk/cANwShgk8OfYg0BUhg7Sf0LsdZfebbTdsJuhZfIJaOXmWmqLqvErrTMkyTd0fTmvsW8eJRPcBSyG0v2vTFRPievSiDSlj4E7vpESHPV4HQI9zalphf4hN6oM51OHDlPbJ6LjwMuk6rxU+MhFBRPjNNwhRbEvz+JHlOlPJQTJMXUiXx929Vkh2LUya1zOVM3SXEIe0b/K+tVpQn52T8MZMAqRllMB6c1HYiRkn+nES8ONt3sPg0Nq3EqsTSc1SOBwZJWslxXSV3GDKJ7PBWywSCDoIL8W+08Sheq3hTGq5p8eAFmyfdUt2v4sT5emQLuUDaFUGxkfwOfGqXBDf75HPr5q72RJpNdxYXkhe70Sj1+8Q=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222708,
+    "id": "stFJatqOFeL81e8P5-3SkQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 276,
+      "total_tokens": 456
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "vi_0023",
+  "lang": "vi",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.22,
+  "ref_text_raw": "Cơn bão được đặt tên thứ mười của mùa Bão Atlantic, Bão cận nhiệt đới Jerry, đã hình thành tại Biển Atlantic hôm nay.",
+  "ref_text_normalized": "cơn bão được đặt tên thứ mười của mùa bão atlantic bão cận nhiệt đới jerry đã hình thành tại biển atlantic hôm nay",
+  "timestamp_utc": "2026-07-05T08:30:10Z",
+  "text": "Cơn bão được đặt tên thứ mười của mùa bão Atlantic, bão cận nhiệt đới Jerry, đã hình thành tại biển Đại Tây Dương hôm nay.",
+  "latency_sec": 6.6928,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Cơn bão được đặt tên thứ mười của mùa bão Atlantic, bão cận nhiệt đới Jerry, đã hình thành tại biển Đại Tây Dương hôm nay.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "ErMXCrAXARFNMg9lLlwIRsEl33sA9p31jyA0RgjYoHpBmPfxxW5x6ig8zZtGAWnrpG251lmPjkEzD1SVP2vR4tw6uX8J2A52jtfSJcgtdHhHbbPfHasHGAiMpY9j4RcJMWAGqLja8MwFIlClu4Z0x1PKutbLEiJNswp78LaWKs5Ur+RcUdODau8xwWr1AQddS85zW0ndUZgYGw6ho9bwzFdjdVo7wrD7l9jLqnYTF+cHvG26ZBZBYqxfvjLW4crlXY99A2Xj3RMqaW5kgx+++euoWCc3dSyrhMtkdxiuw9qmF9MhR5rBbK8SGcERsiLY1DlX+vra/P3ab2x49D1nm/PbJHJFExGuQ4+iji4ClmwLQXlp6GBtElF6d6W20xBz6h2KMZxYVP0UjR2VSzHPiNDm9phwp64QZ/Cd2CestGpLXTC3RUv7pC9atXtShn91b5aYl0DpdgulMKfA0W4h/YE24FZtaWJX5OjxTk/kegr+KTVyU3IlDwRFiMY8kiHwGz1XI6HC9e4rfe/S/KU+ausLvq063wDBvo8A+DXqIcMqCjyUpj2Chk6UJzj/PdGnvP85BUzgNVsB944EGO/UJv+TE5yFpSRcKMllWXA+u1axVGMxKH3wNUMs2yXMluq0MhVa3ahXYrbJrI4JCS5fC5g4TEM2gAX2oCXZb0Mm/C5q+ReOEJtkVjGWUejHXIhRDpeo/f+FaMgjgK7I6MLM2if7CgTbxglt1eQzVMGu9bny0oWTeGuVY9pQpp5NGbddXYqz0b7pnyqBa2fEGpJlHMLAnrvEzim6TE5t3XE9tLsf5AoEOmZHF5S9TPvGTMRvTyBdrRQtzKovz0Tk8Dc/+7Jq++caLVTiwA8LmgLu9nxkdrG5tPZX+NqHX9xj58s57qsMAlOfeal0Af0cO7J8x3RjPTJsSyqTM8qcdAuTxFeYKNrHDphPlZ727X7qw22Kcgvw/wvDy9I1S3pnAijzdVbVK7lXGUXXtU+NZPkrEGoPwUufqQrYHj02gb+AsAb01IN6vXlV4n3nP8wPU0f6qj4PaVdFZwoN1y3IEnjg4u++/O8CsC8xMNHhXWCkDN/Bp2mXhL30O8UfEaWOIcFP7vDHLBkjyOMLoUYgaJYaWx+66ut3HRA4p+fN2qQnGu+g9/KJIyx1h/c2kFyKzkd3NsDbjiatWulYYUkDwyyuJcTuLPG1LdxGJ4X5kPElG0a9yDtYnkHvj97S6jA8QWUK0BwgaK3rboxH7JggWgBPPB3P3PClK9vwqS7kpyvsvtKK8han0bmUfyXqbx6VFv8F5Gx1cn2AeypEIUDBNq/0NYKIkB6WZkRjf4TyJD8vfIa3czwMUERE6hz5DcwmT+n96GfzNaEbHzxl6mfRr9Wh1YfnLvQM+WgRFei8Vs7qKUYxMhNxV/X2gUYBI1x655BiT/wWkcLc2bPSQ0SU50OQvPNf4iq6n5Hx1oSdG+HFebsrFcgornVaCmAWdYbQ52xtu0d/YyjHA31+bQzTJGEVGCUeUMhjdVROJKkCd3tvvYfMBw2OODNSf68cg9Kdcav5Rh5Vi4R3YTGaVjoEtZPSKNXMA7CKqx7aXyUeoOV34u5IJ3sc+54Q4ufjhSQzRgiwCU3aLq1K4QnH3CsUFndwa2YFLOGunIC0riuRxgl0bGvTSnoDvB5g7ZnrdYT+XRues06tdQnHcnJVdLbdtg5OWcYPo3aOWvv8RTXpdyruxy8emsrsoiwmC0EdYqcF6/dAWJqx42AL92NP3E+jJg6sjXdXNBNd52RMAWc25r8GeYu08mjFtPoGNvjfIq62+ggUNXwN+RSjvG+4gcMVGoMhznasdH4vZ/EeBPV5XTrfERBgy+521gigqrC950JztqHCB06bPml9WZSyqKRHj0PvfPDy/Fg+mtyJEpUL2JKQqhbAIBaIZpYeda7pekfRCkQm3aK1RSNSMEemMdMezanXI5iOWXA3D0825DnhQEEBq62Fs9AkAGH+Afxi5vrQjCSmmWCDcu1q6CMdBE08sH038S6/fEq4+KzgIBBDipd0LPWtONa9FusT7jIyhwgl4kl2XxuYggwEjMh8O54/yBwe6NwcFB4FcIP8OQr5K9h6x7J3X5/1aYXA3KOHAM4WWU40SRn6SeLLC6SpujE+gQWAWQb6iHdTuD7z+/j0H8y3QXO+TSWGt/9FC/5j8b7Yt5uwE7VSarIAulv3F+pie6Hewhucp34sBqTLY14lA0+StR4ztb2NK7UE0Bqqn0eByB3TL92jGhmwJSI7E7akgJ3P26lA+Nw8lhwJRlmFfbP3IMxfPE+KIX3gth+ZJSwBPCvQHqwmzcS20Gg+FLNVecJkFBL1gbMKJK4TsVGwDNO2C/YSrZTFSthp445brJhK69u8r+CSHGUI/+gVoGSH/KOLHvU3i8xWCFvKSA/nWnLcYBwT7ww5jd5d5ZKoOjP3/39f9k1YenAb6MMGjQYP0pkoU0jR0ABmrVFIAKyEZvaFyorbwhBmi7xrAygk0ufa+hF0PFUikK4pXFXmobzmVoUNYa3R/BzMflA0ErEbbwtSHxxT5PN6fCA/fvlxfFyip91694oyqxYgfAITvW/mMHWrnFQrbIsVps4rUB2oE8ulCfFUYEgA4bvnEb+xauZK/EbgoWogvQcuJpWiYzCVz30B4VoBziBeJXEuRCjFBODViRyq8xbc7NncHUktcT0JCnu5JXfPCto8Q32umF/fhtgU1Hertkp3gA/iDWHWtPV8OA6mB/LDFSxMXAGvgdfEehfqne89NGuYE0wla731RoFDDK1Gmv4ARF8eVtcmsOFjuTFHhcFx8Qo7s7woD25G/uG+OqvIdOfvBTm8GqOdwC6r7LqzT4qMgRNNt95AvQL0yvXn33e52uNFl35Tn7iXFQiaohkf6iFItrlTfqhd8jJwoP1VaHh720NhqNBTi1F1382McUGFEbjtbu6l+84bVqpIZGbNcy3MmIhuksvXx+BQucsXO7SfaNFZLXyGBo5cr9uAcuD/MHhahIyLaF7HDS+/8bz3+JEnJsF6mGXPwFbQIQWHpGfQIOifFVOzbdViAZ/xcmYWkMku1AcZtRGX81OhnQqK9B5YXwM1o45rX6xobhYKX/vEs9EeOu0xLUTU9cllHw7AD1/u1p7nSj+LaTO7qp3A69B70Lxf9vZCjmUkXTKs+HuNDYdsq1k0nPbu4/AhmmfOuom2j50pj5fH9lMZYclrJZkA1ilsobGmCIaEZe4xr9/tK0v74s7nFqC28Fj79dVxJVdKvt1S5delB/NYKStOqSbmZ8Dsa/ovHbluZ6uHD9gjjfkTseayoQe4f1jhrEMNTyF9r68yweqWwcKq7VaqLjM1OJVYNlu/jHyESsDTRCP5ANJiVd6NR0bRz0RbSdjRAd2erVT80lfOcvhiTVBXztZ/gI3qLuQ8ti3Mm1h+aysLjVF1ZArWuuPngz0LzQ65QPxEQSo5ddHr6D+IHSwnzoduvU0zte8fx/JFPGf6ABej+fSxPOtqKv7XDU3fOpIiFvmUUgPTQkahUP0OpH+sTjTgZMjvfO5HKyjMi5EVKL9LkNW26cSyCmJ+346+HvAT7lVf9a68lmD7qHYYQs5S2okutq2CmyKsOyT+fRXUxHc++p+UjSf4AtWAEUMVq82dfrXxTBiR7zS3DWCzEXnMrvRv40pcEsUQJuEfp/gxRJHc0fS2xWvCYFXzOV0wc5Nga4mtLCkyW/ZC6dbAjHjZj/E17WjXJZdie3ypWQggJSOzPu0bQH47O56RcIq007COACmkViqGVmltNPwahoEOeUAAl+auaXEDNyBHaFp9PM0/2X2214w4Wak4mx5ECjzfBPMwy3yRTDlIVQMYa9QJJso/u8MHcmydcCYZZWCFIvlNYj4v/buDQPskba6VIffPSbgad6VSIjQHDsrN4HguRnyjLW6zOfNvWRxqzvkkmmQUO0FhJmlSkZedwMiAqBu0atS1zTsoNQK4fPWm260NGNRWzA=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240210,
+    "id": "DRZKaoK-C8Kw0-kPjYbn-AU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 302,
+      "total_tokens": 1087
+    }
+  }
+}

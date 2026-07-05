@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0192",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.06,
+  "ref_text_raw": "ラッカ・シンがチャッパン・ボグ・バジャンを披露し、歌手のラジュ・カンデルワルが共演しました。",
+  "ref_text_normalized": "ラッカ シンがチャッパン ボグ バジャンを披露し 歌手のラジュ カンデルワルが共演しました",
+  "timestamp_utc": "2026-07-05T03:24:20Z",
+  "text": "ラッカ・シンがチャッパン・ボグ・バジャンを披露し、歌手のラジュ・カンデルワルが共演しました。",
+  "latency_sec": 6.3219,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ラッカ・シンがチャッパン・ボグ・バジャンを披露し、歌手のラジュ・カンデルワルが共演しました。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221860,
+    "id": "X85JatmUM4vb2roP5ayN6AY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 248,
+      "total_tokens": 1001
+    }
+  }
+}

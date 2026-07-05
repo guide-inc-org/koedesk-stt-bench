@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0058",
+  "lang": "es",
+  "engine": "gemini_25_pro",
+  "duration_sec": 8.64,
+  "ref_text_raw": "Los equipos de rescate antincendios lograron extinguir el fuego a las 11:35 p. m.",
+  "ref_text_normalized": "los equipos de rescate antincendios lograron extinguir el fuego a las 11:35 p m",
+  "timestamp_utc": "2026-07-05T04:18:19Z",
+  "text": "Los equipos de rescate antiincendios lograron extinguir el fuego a las 11:35 p. m.",
+  "latency_sec": 4.7556,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Los equipos de rescate antiincendios lograron extinguir el fuego a las 11:35 p. m.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225099,
+    "id": "B9tJarP6K8_g1e8PpM-tqAQ",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 298,
+      "total_tokens": 360
+    }
+  }
+}

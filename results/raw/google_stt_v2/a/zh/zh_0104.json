@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0104",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 13.98,
+  "ref_text_raw": "20 世纪 60 年代，布热津斯基先是为约翰·福特·肯尼迪效力，担任他的顾问，后来又为林登·贝恩斯·约翰逊政府工作。",
+  "ref_text_normalized": "20 世 纪 60 年 代 布 热 津 斯 基 先 是 为 约 翰 福 特 肯 尼 迪 效 力 担 任 他 的 顾 问 后 来 又 为 林 登 贝 恩 斯 约 翰 逊 政 府 工 作",
+  "timestamp_utc": "2026-07-05T06:27:31Z",
+  "text": "20世纪60年代，布热津斯基先是为约翰·福特·肯尼迪效力，担任他的顾问，后来又为林登·贝恩斯·约翰逊政府工作。",
+  "latency_sec": 4.1713,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "14s",
+      "requestId": "7404f945-0000-2428-8218-582429c84adc",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "20世纪60年代，布热津斯基先是为约翰·福特·肯尼迪效力，担任他的顾问，后来又为林登·贝恩斯·约翰逊政府工作。"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

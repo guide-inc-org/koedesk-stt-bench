@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0097",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.9,
+  "ref_text_raw": "Mosasaurus was the apex predator of its time, so it feared nothing, except other mosasaurs.",
+  "ref_text_normalized": "mosasaurus was the apex predator of its time so it feared nothing except other mosasaurs",
+  "timestamp_utc": "2026-07-05T10:33:41Z",
+  "text": "Mosasaurus was the apex predator of its time, so it feared nothing except other Mosasaurus.",
+  "latency_sec": 2.6118,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Mosasaurus was the apex predator of its time, so it feared nothing except other Mosasaurus.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPT29EdxGFCoqcu8+qg92+qLDmLnw0m22Ar296ei+bOeeCAMHgsr6/NW5jgd0l"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247621,
+    "id": "BDNKateHBPHZ1e8Pi4G_8QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 194,
+      "total_tokens": 215
+    }
+  }
+}

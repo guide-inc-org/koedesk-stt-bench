@@ -1,0 +1,45 @@
+{
+  "utt_id": "es_0163",
+  "lang": "es",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.44,
+  "ref_text_raw": "Muchas personas no se los representan como dinosaurios, ya que tienen plumas y pueden volar.",
+  "ref_text_normalized": "muchas personas no se los representan como dinosaurios ya que tienen plumas y pueden volar",
+  "timestamp_utc": "2026-07-05T04:42:16Z",
+  "text": "Muchas personas no se los representan como dinosaurios, ya que tienen plumas y pueden volar.",
+  "latency_sec": 3.6244,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Muchas personas no se los representan como dinosaurios, ya que tienen plumas y pueden volar.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqkGCqYGARFNMg/jvlYPNVGmfsYrsur1SwyUXSowYCilbNaUCkHkapTFida8aY0e15TYTHWZOT3A0JlPgbXdwYu8Ma0AiCVm3U19VZ39YGCLszfrhFrEHlRQJL/IP+EEqhMkFqHK17vSzP2bQhATza3/a/buooOXmParn6CrLk5gJVkodJJ4pJoXPAu4ZKAYFF1fkHr74I0HupMlFLKcMYnyn2EjVeZF9fQi0Ehe1rUu1M0iMMDp7AR2eSVCKJKTmgtVxMD6xY/WTdDDvUeThpYJRbbWhhy6vqjbO4kHVM6Oeq/YfdTF6df4pN7iNoqe9PeC9hiLPeCmjyDdR5tUSvlHpa+dfqM5a+/GjqjotzXraWY1dB73Dk5XFCVmrTP0nycseF85g+Exyy5MOXQEbvpg2+wDuW+vG1EvDet0WZgS17b3wGuCPx/7OcwQ3rdGSGLRafRw/X0/xAMIO7Gi0AJXP86Opa+DIpaUNTJK4Arl5Vwe6665sG/5g2F5+K3Go6R3RR7U0kbq67/udJlmztOX+yN/xfm1F54YAOoMMHpvkyzbFSIkEcweTl7xqp3jITuBxD9NOdFuCmhPITDOvWbeYY/puNx6ylPH2iL+I2AebfO+ZoY8vH3Uq0e5EsvSwu7NTUSag2iQrWWz/+v2ZGB6NKCVHqj+V2EH1rfPoK3EysAGpla+RSsImlbI0N8Xowyui8BECZvCMAW0QZRe441EG3u/7W6uDnY18mrGRAx6z3WNJp77HIZLh7iL34GXx7sN3juoo1IPXFjFyBVGumd07Y2b7h0fi939H/sQsWyioeV5PKJfwS9hW9dEQxMnSB1VXLM1i51zGt5geg6axgJvcio3nU/HJpK+Y3iPwBWwcRfp64yG+8ptPhIZjc/147IXVSZhnb/TvUjtE2UABzhIdUBCGexEe/DnIW2D3Mu4HI743m7MV6JrJDdlXpC9ACSZzcXY4l0vusj/yevfhdU7Pmq2T3nwk2L9xi2q4HtypEBe9LlukHdl30CRI5njAwVhPoddDnJMAcvzma56L+0AcYm58ux7jPcGsg66Otnqlwgh3PBOEhTWKpU="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226536,
+    "id": "puBJapqJBvyk0-kP9PODwAc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 282,
+      "total_tokens": 489
+    }
+  }
+}

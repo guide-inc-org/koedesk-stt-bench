@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0034",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.82,
+  "ref_text_raw": "Великая пирамида была возведена египтянами в третьем веке до нашей эры и является одним из множества больших пирамидальных сооружений, построенных, чтобы почтить память фараона.",
+  "ref_text_normalized": "великая пирамида была возведена египтянами в третьем веке до нашей эры и является одним из множества больших пирамидальных сооружений построенных чтобы почтить память фараона",
+  "timestamp_utc": "2026-07-05T07:19:26Z",
+  "text": "Великая пирамида была возведена египтянами в третьем веке до нашей эры и является одним из множества больших пирамидальных сооружений, построенных, чтобы почтить память фараона.",
+  "latency_sec": 5.8935,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Великая пирамида была возведена египтянами в третьем веке до нашей эры и является одним из множества больших пирамидальных сооружений, построенных, чтобы почтить память фараона.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235966,
+    "id": "egVKaqS_BYGM0-kP4LLDwQk",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 317,
+      "total_tokens": 967
+    }
+  }
+}

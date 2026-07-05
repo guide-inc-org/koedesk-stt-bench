@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0035",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.62,
+  "ref_text_raw": "阴暗面下面的地壳薄一些，高地下的地壳厚一些。",
+  "ref_text_normalized": "阴 暗 面 下 面 的 地 壳 薄 一 些 高 地 下 的 地 壳 厚 一 些",
+  "timestamp_utc": "2026-07-05T09:12:48Z",
+  "text": "洋面下面的地壳薄一些, 高地下的地壳厚一些。",
+  "latency_sec": 2.6344,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "洋面下面的地壳薄一些, 高地下的地壳厚一些。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP7tu3lCk9V0PH/CrKNtQ5ON6E/5WM6/lvuVkfYaqRDYm80gsFFXfPLYEgMTxD"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242769,
+    "id": "DyBKaqrII5i9vr0P4KaPwQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 337,
+      "total_tokens": 353
+    }
+  }
+}

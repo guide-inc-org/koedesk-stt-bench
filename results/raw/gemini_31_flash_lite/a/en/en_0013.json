@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0013",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.28,
+  "ref_text_raw": "The city is also the base to climb the Nyiragongo volcano along with some of the cheapest Mountain Gorilla tracking in Africa.",
+  "ref_text_normalized": "the city is also the base to climb the nyiragongo volcano along with some of the cheapest mountain gorilla tracking in africa",
+  "timestamp_utc": "2026-07-05T10:28:44Z",
+  "text": "The city is also the base to climb the Nyiragongo volcano along with some of the cheapest mountain gorilla trafficking in Africa.",
+  "latency_sec": 2.6749,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The city is also the base to climb the Nyiragongo volcano along with some of the cheapest mountain gorilla trafficking in Africa.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPxpHG3mJTLWRftXfucPuVW3TykS+J+xEBPL01D9Okv+c5NIbxQbL9nSx78gmf"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247324,
+    "id": "2zFKav_kBLif0-kPzJPfgAc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 303,
+      "total_tokens": 329
+    }
+  }
+}

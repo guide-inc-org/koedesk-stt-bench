@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0036",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.82,
+  "ref_text_raw": "The crash occurred high up in mountainous terrain, and is believed to have been the result of hostile fire.",
+  "ref_text_normalized": "the crash occurred high up in mountainous terrain and is believed to have been the result of hostile fire",
+  "timestamp_utc": "2026-07-05T10:29:18Z",
+  "text": "The crash occurred high up in mountainous terrain and is believed to have been the result of hostile fire.",
+  "latency_sec": 3.0699,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The crash occurred high up in mountainous terrain and is believed to have been the result of hostile fire.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EooCCocCARFNMg8zG6bFIiUsZ4cbX5hG9E/LPJng2FPsn0LzKhhJsfseHSsEfa2mUvvcsLlctaoyeW/1clL/eyGkaUsGQ4Flsfp5eCrGmnCgO4arQEd+jripQ1iKE1SsV8M9X+4QKaWQ9lpwuB1pw6eC6IlFx8vAU57WZbWKfNceIz5iQBMQjq7C4OahUM4zrH4i5ERiFq1EJtBUyaeqm5R3/8e3y3fBIAHVyrpD/3Po29qrLkcxHv/4w/wE5iVXX/U/d7t4LeLmAeiE9L2lZhbYu64n1icSga5MdveJNSeOdhV8XF/hl4LLhA8CGKve+Ju+BWAWZDgonnwhIbieVkA9J++RJxFMAEqMn1E="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247358,
+    "id": "_DFKau7KJ7zW2roP5ab44Ak",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 267,
+      "total_tokens": 330
+    }
+  }
+}

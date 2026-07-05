@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0067",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.9,
+  "ref_text_raw": "わずか2週間でアメリカ軍と自由フランス軍は南フランスを解放し、ドイツに向かっていました。",
+  "ref_text_normalized": "わずか2週間でアメリカ軍と自由フランス軍は南フランスを解放し ドイツに向かっていました",
+  "timestamp_utc": "2026-07-05T10:16:48Z",
+  "text": "わずか 2 週間 で アメリカ 軍 と 自由 フランス 軍 は 南 フランス を 解放 し 、 ドイツ に 向かっ て い まし た 。",
+  "latency_sec": 2.4237,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "わずか 2 週間 で アメリカ 軍 と 自由 フランス 軍 は 南 フランス を 解放 し 、 ドイツ に 向かっ て い まし た 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPeV0xP3mepJw/KxPMyi8njRN3RHQ5/Xh3Hp1pdc1zaT7nz8+9aR6zZUYm5z75"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246608,
+    "id": "Dy9KaqL6BcD21e8P0dn2qQE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 269,
+      "total_tokens": 301
+    }
+  }
+}

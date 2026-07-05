@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0016",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 27.6,
+  "ref_text_raw": "Mais ces plans sont devenus obsolètes presque du jour au lendemain, quand plus de 800 000 soldats de l’Armée rouge de l’Union soviétique sont arrivés et ont créé le front biélorusse et ukrainien après avoir envahi les régions est de la Pologne, violant ainsi le Traité de Paix de Riga, le pacte de non-agression soviéto-polonais, ainsi que d’autres traités internationaux, qu’ils soient bilatéraux ou multilatéraux.",
+  "ref_text_normalized": "mais ces plans sont devenus obsolètes presque du jour au lendemain quand plus de 800 000 soldats de l’armée rouge de l’union soviétique sont arrivés et ont créé le front biélorusse et ukrainien après avoir envahi les régions est de la pologne violant ainsi le traité de paix de riga le pacte de non-agression soviéto-polonais ainsi que d’autres traités internationaux qu’ils soient bilatéraux ou multilatéraux",
+  "timestamp_utc": "2026-07-05T05:02:32Z",
+  "text": "Mais ses plans sont devenus obsolètes presque du jour au lendemain, quand plus de 800 000 soldats de l'Armée rouge de l'Union soviétique sont arrivés et ont créé le front biélorusse et ukrainien après avoir envahi les régions est de la Pologne, violant ainsi le traité de la paix de Riga, le pacte de non-agression soviéto-polonais, ainsi que d'autres traités internationaux, qu'ils soient bilatéraux ou multilatéraux.",
+  "latency_sec": 8.6818,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Mais ses plans sont devenus obsolètes presque du jour au lendemain, quand plus de 800 000 soldats de l'Armée rouge de l'Union soviétique sont arrivés et ont créé le front biélorusse et ukrainien après avoir envahi les régions est de la Pologne, violant ainsi le traité de la paix de Riga, le pacte de non-agression soviéto-polonais, ainsi que d'autres traités internationaux, qu'ils soient bilatéraux ou multilatéraux.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227752,
+    "id": "YeVJaqLALMSb1e8Pw-2buAM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 111,
+      "prompt_tokens": 711,
+      "total_tokens": 1845
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0087",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 16.5,
+  "ref_text_raw": "摩洛哥苏丹将该市重建为 Daru l-Badya。西班牙商人在这里建立了贸易基地，并将其命名为卡萨布兰卡。",
+  "ref_text_normalized": "摩 洛 哥 苏 丹 将 该 市 重 建 为 daru l-badya 西 班 牙 商 人 在 这 里 建 立 了 贸 易 基 地 并 将 其 命 名 为 卡 萨 布 兰 卡",
+  "timestamp_utc": "2026-07-05T09:15:53Z",
+  "text": "摩洛哥苏丹将该市重建为达鲁巴达亚，西班牙商人在那里建立了贸易基地，并将其命名为卡萨布兰卡。",
+  "latency_sec": 3.5536,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "摩洛哥苏丹将该市重建为达鲁巴达亚，西班牙商人在那里建立了贸易基地，并将其命名为卡萨布兰卡。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPwzN4s5FiElR7F9w5ffVUtdbvvVE1TRqwYyjiCwRmn0vwhl/Ro/wTPSSwEudg"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242953,
+    "id": "xyBKarL8KpjF0-kPvZ-G6AE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 434,
+      "total_tokens": 468
+    }
+  }
+}

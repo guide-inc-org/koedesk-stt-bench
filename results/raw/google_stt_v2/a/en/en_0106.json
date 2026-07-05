@@ -1,0 +1,36 @@
+{
+  "utt_id": "en_0106",
+  "lang": "en",
+  "engine": "google_stt_v2",
+  "duration_sec": 12.64,
+  "ref_text_raw": "Unfortunately, studying traffic flow is difficult because driver behavior cannot be predicted with one-hundred percent certainty.",
+  "ref_text_normalized": "unfortunately studying traffic flow is difficult because driver behavior cannot be predicted with one-hundred percent certainty",
+  "timestamp_utc": "2026-07-05T03:32:30Z",
+  "text": "Unfortunately, studying traffic flow is difficult because driver behavior cannot be predicted with 100% certainty.",
+  "latency_sec": 4.6164,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "en-US",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "13s",
+      "requestId": "7ef33260-0000-2069-ac39-582429a74f84",
+      "prompt": "Transcribe the following speech segment in English. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, English."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Unfortunately, studying traffic flow is difficult because driver behavior cannot be predicted with 100% certainty."
+          }
+        ],
+        "languageCode": "en-US"
+      }
+    ]
+  }
+}

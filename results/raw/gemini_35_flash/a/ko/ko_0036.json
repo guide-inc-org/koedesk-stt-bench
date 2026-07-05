@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0036",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.36,
+  "ref_text_raw": "염소 사육은 대략 일만 년 전에 이란의 자그로스산맥에서 시작한 것으로 보입니다.",
+  "ref_text_normalized": "염소 사육은 대략 일만 년 전에 이란의 자그로스산맥에서 시작한 것으로 보입니다",
+  "timestamp_utc": "2026-07-05T06:12:24Z",
+  "text": "염소 사육은 대략 1만 년 전에 이란의 자그로스 산맥에서 시작한 것으로 보입니다.",
+  "latency_sec": 3.8427,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "염소 사육은 대략 1만 년 전에 이란의 자그로스 산맥에서 시작한 것으로 보입니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Eq8GCqwGARFNMg9Gk+57yTC8Mz0vt1DtnI3cU89SnvbnaQMt1oOhYP0XjWaRQh3DLUjiUuAMCafwj6Tt+GYGrUrnRd0PKLN4KlW3/Jjj2jlYKn0rVj0IcVJ9u9RsatetS1bn0+WAHvGPfLQqEGQCY0YMRnDmdSEEIcoVcFvPyI9AW97XG+bdzvDI8ZsCfFnFVlJT+QCfRA4V8f+DTvh+sTCB2cx+l0FViLaDeaQtPEaJVY7luLJ8ECMBX6tXWp07zTtDRgJ+qVF2912kL+HBMX6gTc38w3hM0YD5KutikOzBPwjWFnbGhasq8oEelQxNbFWosOctkHqlkTt90//ooln7L/f1J2xhw0F0zLCKV/loF7piQrXdeG5hLMskfahQVbQ1DuudSzaTFg382sxzFboF4ofOp7Zc1+FUuA0lM+6JGioYN4cfdqy5abtAObXZjLdwMeM2hldt1T1vaUYC7V9pRnIfnNmvUnE4rp15a4s9vqC8efKVV3QjEiuitmLi1/6wUDBkl/wjMtRyEcl2faVWhHvT7jMQZ6pFuJ9plR09+FMUVpdh3PYs3hI3WkBPu1vwaw/RqoF8qxwcdydQDgR0ePt2pP3LiIZVM1Tj8onQaNoyzery9/SfjSA7ZsPpjoFwXsjIpx0oeF33raOiC8ehZj1RAfgSjtJg3JXo/RRRyleu8SRSeZMrCHq8sd25fq8/QOk03qYqQ3pyfTla8Q6rMf13EoSEOeEl+kUpkbkgCo1QmAquUbS66u55bDlGiERXwcrwoHoz/2Mc6YxJ1QY9LNHyazBaaRjNfSSOsRdov10bc0J6PU5uv3iTHTPP0TqtuhPmd5lA/L8bNLxp0MIAlb5gmn0h749S3Hh8ZMCMmqqbOSZ/LpVTowvHQMmwzyF6R+QPIpnekj5FtMgjjginawV/iB+S2hyIKFZRUokfK0litFFbgkJ+8zaPQpkcvOugVulbPzdAJC6QwLegbXC6hXRkRGVIhdjrTfIJY+Fw3OshL9NmG+PXDnY9WeE6l3mZBDsm2grDkf9HD13zkFqJlvUh5rV3UnXN12y7vfLdqq+I0wHbu48FGNax/KKyaN8="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231944,
+    "id": "xfVJauOsLdCd1e8Pt4DcqQQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 255,
+      "total_tokens": 519
+    }
+  }
+}

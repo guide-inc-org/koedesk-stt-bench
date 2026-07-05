@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0005",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.4,
+  "ref_text_raw": "Dieses Sediment war nötig, um Sandbänke und Strände zu bilden, die als Lebensräume für Wildtiere dienten.",
+  "ref_text_normalized": "dieses sediment war nötig um sandbänke und strände zu bilden die als lebensräume für wildtiere dienten",
+  "timestamp_utc": "2026-07-05T03:40:21Z",
+  "text": "Dieses Sediment war nötig, um Sandbänke und Strände zu bilden, die als Lebensräume für Wildtiere dienten.",
+  "latency_sec": 2.9669,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Dieses Sediment war nötig, um Sandbänke und Strände zu bilden, die als Lebensräume für Wildtiere dienten.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222821,
+    "id": "JNJJavC0BrbR0-kPp6yr6QI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 290,
+      "total_tokens": 317
+    }
+  }
+}

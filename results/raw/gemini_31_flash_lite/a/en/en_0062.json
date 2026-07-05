@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0062",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.76,
+  "ref_text_raw": "Throughout 1960s, Brzezinski worked for John F. Kennedy as his advisor and then the Lyndon B. Johnson administration.",
+  "ref_text_normalized": "throughout 1960s brzezinski worked for john f kennedy as his advisor and then the lyndon b johnson administration",
+  "timestamp_utc": "2026-07-05T10:31:37Z",
+  "text": "Throughout 1960s, Brzezinski worked for John F. Kennedy as his advisor, and then the Lyndon B. Johnson administration.",
+  "latency_sec": 2.5947,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Throughout 1960s, Brzezinski worked for John F. Kennedy as his advisor, and then the Lyndon B. Johnson administration.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPb7U83x1YEXhuGSCw0dHmfVHum4MLQ6bCvkxc56NvNZrYn1AuJrXUznHl3OrI"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247497,
+    "id": "hzJKao6NOrGivr0P0MTRmQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 240,
+      "total_tokens": 270
+    }
+  }
+}

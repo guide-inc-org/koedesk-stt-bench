@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0067",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.86,
+  "ref_text_raw": "First, most riders wear riding boots with a heel and a smooth, quite narrow, sole.",
+  "ref_text_normalized": "first most riders wear riding boots with a heel and a smooth quite narrow sole",
+  "timestamp_utc": "2026-07-05T10:24:04Z",
+  "text": "First, most riders wearing riding boots with a heel and a smooth, quite narrow sole.",
+  "latency_sec": 4.1037,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "First, most riders wearing riding boots with a heel and a smooth, quite narrow sole.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247044,
+    "id": "wTBKavTPOOON1e8PjO3d6AM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 273,
+      "total_tokens": 321
+    }
+  }
+}

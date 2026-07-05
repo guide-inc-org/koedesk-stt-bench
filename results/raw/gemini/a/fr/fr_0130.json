@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0130",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 15.36,
+  "ref_text_raw": "Depuis l'Antiquité, les peuples sont familiers des éléments chimiques de base comme l'or, l'argent et le cuivre, car ils se trouvent dans la nature sous forme brute et sont assez simples à miner à l'aide d'outils primitifs.",
+  "ref_text_normalized": "depuis l'antiquité les peuples sont familiers des éléments chimiques de base comme l'or l'argent et le cuivre car ils se trouvent dans la nature sous forme brute et sont assez simples à miner à l'aide d'outils primitifs",
+  "timestamp_utc": "2026-07-05T04:55:21Z",
+  "text": "Depuis l'Antiquité, les peuples sont familiers des éléments chimiques de base comme l'or, l'argent et le cuivre car ils se trouvent dans la nature sous forme brute et sont assez simples à miner à l'aide d'outils primitifs.",
+  "latency_sec": 4.2704,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Depuis l'Antiquité, les peuples sont familiers des éléments chimiques de base comme l'or, l'argent et le cuivre car ils se trouvent dans la nature sous forme brute et sont assez simples à miner à l'aide d'outils primitifs.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227321,
+    "id": "tuNJasy6KpWJ1e8PxbzN-QE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 56,
+      "prompt_tokens": 513,
+      "total_tokens": 593
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0117",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.26,
+  "ref_text_raw": "这项活动与阿尔卑斯式滑雪旅行或登山运动相关，但通常不会进行这两项活动。这两项活动要在陡峭的地形上进行，而且需要更硬的滑雪板和靴子。",
+  "ref_text_normalized": "这 项 活 动 与 阿 尔 卑 斯 式 滑 雪 旅 行 或 登 山 运 动 相 关 但 通 常 不 会 进 行 这 两 项 活 动 这 两 项 活 动 要 在 陡 峭 的 地 形 上 进 行 而 且 需 要 更 硬 的 滑 雪 板 和 靴 子",
+  "timestamp_utc": "2026-07-05T09:17:41Z",
+  "text": "这项活动与阿尔卑斯式滑雪旅行或登山运动相关，但通常不会进行这两项活动，这两项活动主要在陡峭的地形上进行，而且需要更硬的滑雪板和靴子。",
+  "latency_sec": 2.8599,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "这项活动与阿尔卑斯式滑雪旅行或登山运动相关，但通常不会进行这两项活动，这两项活动主要在陡峭的地形上进行，而且需要更硬的滑雪板和靴子。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP44zseN2pj/rzQxtzj1BJ0t6FKdVgniMhQj2qra4+lg0nQSdO9cForZlZjE2r"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243061,
+    "id": "MyFKauqWIPGC0-kP1smn0AY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 353,
+      "total_tokens": 400
+    }
+  }
+}

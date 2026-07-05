@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0102",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.96,
+  "ref_text_raw": "องค์กรประชาชนแอฟริกาใต้ (SWAPO) ซึ่งเป็นพรรครัฐบาลยังคงครองเสียงข้างมากในการเลือกตั้งรัฐสภา",
+  "ref_text_normalized": "องค์กรประชาชนแอฟริกาใต้ swapo ซึ่งเป็นพรรครัฐบาลยังคงครองเสียงข้างมากในการเลือกตั้งรัฐสภา",
+  "timestamp_utc": "2026-07-05T08:01:27Z",
+  "text": "องค์การประชาชนแอฟริกาใต้ SWAPO ซึ่งเป็นพรรครัฐบาล ยังคงครองเสียงข้างมากในการเลือกตั้งรัฐสภา",
+  "latency_sec": 6.4192,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "องค์การประชาชนแอฟริกาใต้ SWAPO ซึ่งเป็นพรรครัฐบาล ยังคงครองเสียงข้างมากในการเลือกตั้งรัฐสภา",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Eo0dCoodARFNMg+2n/1a3uCyjHWeFYPjfSvVqxA9kdz615iZzzD/QLAN+YMqhR51nwqvUXWk16xXMePqAf8F2vX9J6NrAfjLhQqbvekvZCVSPu2MLM7kVn/1zBjcxf/7Yh/2njXwrFz4b0/2Tq7FSdR6jM8uyneGnpUkS2DJygNpLC9e6t425OklP+OWjOl95Hu6tY28JUWgWGZv4ntYbj1GGm8VynpiatFwyHa7Q49PYiYCL7nyKM2tkZMeozyj5VXYURqosDvhnpVha4UHSK0Xmz8quhVpTZL9g0IPDGZknH6nl4SH2ptYwwSs+1n8GF2yg9D4umvckFXgI41ninp6lozvDlk0tmla8TOHLhD/MbuHHtUwCUes3g7F0NH7xZzftwaSbJlzU/T66gOnQUk4fg3ESs+8Qn5qs76ZvZ3U1JAoma5OhOujKQNaAHGnOuygRONQmsjCvh0978iReWOfTVf9+bcRobfrs8U4RFE0JGdbhvcD7g7dhJKFTwYRNpwoyymi79gMiF3XLql49rSMLbjmAR3mo6IsjgMV0BcsinRrkX4u8zt+pvbkd3QZf5mkTVnNIIlM/hMB2RT8DKR/JVMGok+Up0SrwOOjDOIsC8MNw07pZxpX0CGMviNiVCZOxN2uKM3SrvAzoSwnyMnmfTSlcOF5VqZ2i8DrlOMOZGhM2N66QIewVBWCm1Q5UFDvJ7aJsEQbByYtEhKMbEdnDUDu0zhmjXN6JQOk0zhyPMjNTbAcmsnvBaC0x++4krRnrfEDk+dPgsgs8bOxOgMa5b+mCJt8CWnK2FpnCv7qA3NZa7Kf2q+eaaOwVUOXo82D7Mcx/DWPk3pZNE3DdEaeDaLooIrZNDkA6l23+i7Ser3EOq8SfsZDrr1xUU4bLtzjLj9J3XaFDIz5CDgOYwigDSVm0omLcUab4csg5p/J34MWbN7Nx/MzeBOPNNP+JhUukV0lg9PdiByUW3pVSe+4uV92XVosNyeTo2cKMh854jgiy7X3W973p1QCL6UwvxnGp5Nih2DmFw0lmdskq2UgIHQJmSn1qr4K6XRinPjoD3zmhDyDRctUMDgMOD9ZVU7OXV3lZ49Lrh6Ymc4x/rtNJwsQv45vK4REVJ4D14wJcDaF0WtZsETwvc4qBLPHjZyPdykyXrNdasnrQJomvUFmAXBkaOd1r0DFCLIJinW9InkyGT3gW9UchFN/tiGiVufxcMK4fdshC6WTVVb8HPkSuszXMR/xzbw8tgKjK3pogEsNx2Af0t5ZB179s1XlvS19Al/qNQolyLbJdh8MSdBHnPhrIHzVSXHt2/44A4hN3T4LKH9DyOtVvgBHUM9UKSGCAsGF0yB9TbO8ojE7x/kJ7JZdkU2cXUWNoAcyVs5b3q75H8r1H+wSp/IMVeqXzg62u7nnd8IQzorsvt9DGASYD1K9VGnsnHifKZ6CiCGMyb2rd+IKyq3BC+2KFzzvntPIlV6BbvVcLQYXVhyjyPExqlKr6ZKKUi4Czl6cMouCvQ8ACHd+EERFlbdiYGdzvaR3tndlZD5AInOJ51hqAOybubbXsI4SL1wJMGGBtru+By/JlmQvxgvCQYFnwMcSUwCOui8bT7amOSEIHR2Uylsb75q73qmr3d6TZFXXIMhLNx9Vcza4LIR3jPAp6YtOYr1XboHtPDZkufRhN8oGMNB5a8AL0f/vtgxDz5Mtsf1LCDt6I9AjAnAwXh0uN/2dV5FAWD68wkywkPk2/NhMdb/4gMwmCNelPpgmZ6HQAUZgHzaaYw3CADPCpLL3U0wZVLUr2OAozESvIctNqgvxH4XNEwUx4IgayfXQX/izwLf1V0jwex1SpnluCQRsYhSxSgP3KlYNTNHMxx/2XzVHK9ELyDPIOikDy2dtZht4Ubfsuh/SBwMUk1E/gS/QbZd1CrB+R73f61j3xXFRLykAjetjEvcnM2ghmnmjclac/uUYKW+wW5nKFHP0lUFx8bza+Es7Vu+T5Ic+/EJSsdsTKTbBmbHWL5X1NDbSiP/VoVP36cO4+SQrAKc+7tKzgPSK+IhLnc34hSowquDT1K0NRLc6udNkL93tzwWUU4dRoF0J1nev6H9gs20rs5Px8w5rmGBeulHe3NIiDcZkcSaOzZTbeueDbZrRBohjbCz0eWBPMOfSsvgDMpEaZqaSjsYN49j4/aeanaK4Z2hHnLeHyTVRgGu1JRp+NPZFfYztuhTQP2advglmN1k4CVipgVgAYnVsueUuTa3vbm2JLKfQ3G5j6vQyHkr4nE/JWh09l7ZgBpPQKxSqHuoER+KPO21zgno3P73pqJiQxinmfL1kM3E0dOLlfADb74TJ0a1bI2TN0s7QpKAqe1AdaG+WKi60gTsQd+bre8WzztEYGr5rF8s1l6tmZaVKLNpW2S0yhG4XFFuUUjfEq0j+EytR/GU/Ksy5PrDjtnwS8D2dw1QfCeXaBWWqPH014C8XSVIiodln2cPJ6b8iDS98dclBGJhI+y2mQiwNvNKfmf6v7TQ+loC74oSGnE91i2SvjZiuTAfI/0oUdEBSTOunQhN8CBp5lGHI6qUQEOpjeP/8yKo7HSVU1WCwMpKbI6vg/t5iV26GBB9yQHmAZ2yobXrNmOZqSWr12QS6OroyRN58lIfpLztYamQXGAFCIvw41qf9AtPaLidUQw/dZwOUDNrefn+itSk8tpJMmNI7ptGQwSAXZsBYZJa3q3yeQ1EBW5fRf/D5qeZH2tl4mayFFB7LScEJn8Jhk0pGsAaMKgmGG3leUXTvie8pwslVrWwY8U6q54pR7PqS3FVLNHxFOZEswytEINuZpt5fmcGBW9NUQm7k9PRekBVsyWZYhV8uzVJQAuL1wW7L5xOEHXr+fdAPgKFmOZpHtHPEz3jRGJKfdRDKS82Yt+/lJ9X3+RiHAycXDAsuEHMBP1SbkizZMaXa5AoEXDb2rjMhz/lF/q941xnhHSn9u4rT3V8n8KFYS+ZSOU4MvQWvgOkfpC8xeWqSeQXkwit/4tiECDtXTnSQL3pAJiJ3bSvz9g1xSKiJxtHv5EOhJEEUATOMDku+xH0b1qjXBoEmb9fFmhuq5cKJZeVWGJgkEKeWxzR8J3+hs6Kte4mNA6rr8NTyzEGlO/tOaROgSAN8rlqpXJKb1erWfjR+NLIvcvd0wx6B4H/A19Ilm1aggqZ5PWl9Yh7qLnhZZVuaopWHGZg7aYsKRtu8tCzAZ7bFeSzSURb+3L5K5sZHwhceSXNG50FxmPtjPU75XxQdOvyHs8atSgy9/llPBQ5VV3TBipQ9I2L0gp6A12hAUPYqD8SMKkKA+QTIsfo3bl6Y5kmURyLqHYzj/dCy7e4Pzf2PLH+biXhuSnU/1Kpppa2Yy+ck9D/qLH/qA1RXI+fsKY6I8YJ9nYIBDsfNukIExgpSgQw8k3vUe/RoJij35bZctTHWbdg4YayTTQiCV4psfxIRXsUXxh+caJjdXx0RYbcdHgpLsONM80geY0C2PyLcFf4AM0mOAJ7qkHK0LlOQITRxuD/X1Jt4MD0MrGc+HSjk9GlUvmBtnJl2vkRxXWLh5ZSMSUE+v2a3SsGK9rRtSUyf4LdssyTTI7bJ+dYUy65gejOwGbD3mPZgRYqLPJQVU3qfKqqOlz9KdP/N8Srl9hS3AL+cKrIL4x7lmKa6TwZoqNPRWDHNndGa/cAg8666Lc36kyY0eN2YzsCy5Tzip6gALg0w3z6wWY3rOXUZubUKU/JySmkH1F8RhTyRy+azeu+W37qiZG2zZ7ydfRgLnkAyK0B3KHLThiefvLDN7Lki7/6yaO3yUKASmWWxRibB9k1jOtF0W0niOB75xSA/7iUQkGSqwL1hGSvjyjo06ciB12jc1JeGSWtipaRNwVDwYUbuwOUPaAWYcQ7IRYDeXogZPc5eneFac4Ok0xD/IZ71KRqSwPxM0b2W1g7avCFSIS6/iykPkpgMETBP0ruOSnXxsIO9A3iF/jjCS3gMT+lMkHNvTrCjXrVVLVvsTYKGdL9cC3mgS1IEEunxoNFmeCStWtgW4cFw+/mjhs8EQLwcdUrenz476HXsKwSOMag/o2pKJfP+4EIP5ImJTBEmtLZFItmwYTem+f9e15BZfMEkFGrnLRSSe6UVtWpq4B7FZ1IdD70ot13R54bY9btC7b3pwMeD46VTJGREfWtnkj33vkHw0dnVjpTFMIHuN9aiClnC9enrDRvmmv9ZGF9vVx5RuvR7vLsp4ZQJaI7z5UFxL3hiGHUeexkFE4a39ugl7UBV22FA915tPcZFeJPl7RnPwq8dDpGxSrGPSQcx3tnqUXieJHDaWc1CSEwmyHS9fIyttHhBN/bvnCLj9xpFfNFnnSLueWn7j40M3LYW4Qr3kkeep6hqEQbF96ViqEPrsiTkJAfEHnXYRm+gTl0zaFnG/yUSIO5t2Py0nfanI25ZxnRY8MSJnv6m0cbHf2Z9IJ437rxT/37Q6GdzCzFObwJIgtNLEnkfZao0MZClBjtkCFiy4WK3wIEaJ6FKo235DXwYgvFUitnGyU9J38GJysQvCmYzb7FlQKTZzLtsqfaglKo781W1zfe4wno/3EO2bnXIOCAQrC7z5rC1fgJDyEf3DqqItDqmsHAsJDYhVa1zHklPDqdiFFlKB3kWdiVLtWPpW9L7tx/vrn7Fefl7QfW9sVI8aTKqOsNSJmceWWeLzyaIqlsDdqBTOLuzscVJuW79SpPXIXo0Eq4YLmKgY979XK4DFQY7wOvJKfvWGWkptc1j5U7QoGxy1DyUX6AS+u3t+uBGNaC/wv7/CrgihwntMtZidv1OHWlskopPLN78aup0IEm4GAoLHf4s2ouZnS/cLQr66K+MwHx1vb33spBHUJHTMWeoEXkKKk9a4GF5IdxUsFiHSwbRD6yrjhb4Fl9vfvFyIihSlpZ5xsx0+CuVSNhq1NNGEv1EC+VFQbP3nDTKLddZQr3r3b/Dg0I="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238487,
+    "id": "Ug9Kauv_F7v31e8Pvf2M0QE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 345,
+      "total_tokens": 1154
+    }
+  }
+}

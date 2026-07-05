@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0058",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.64,
+  "ref_text_raw": "Los equipos de rescate antincendios lograron extinguir el fuego a las 11:35 p. m.",
+  "ref_text_normalized": "los equipos de rescate antincendios lograron extinguir el fuego a las 11:35 p m",
+  "timestamp_utc": "2026-07-05T04:37:11Z",
+  "text": "Los equipos de rescate antiincendios lograron extinguir el fuego a las 11:35 p. m.",
+  "latency_sec": 2.4631,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Los equipos de rescate antiincendios lograron extinguir el fuego a las 11:35 p. m.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPqNJzE60e1H5h0aKoe1S0dobBviXoI5c4Qu3TJ59syDzwUgJ9px9D/fpCXDgB"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226231,
+    "id": "dt9JatCUEtTM1e8Pof6vuQc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 237,
+      "total_tokens": 263
+    }
+  }
+}

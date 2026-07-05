@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0070",
+  "lang": "ko",
+  "engine": "gemini_25_flash",
+  "duration_sec": 14.28,
+  "ref_text_raw": "이 도시는 아프리카보다 아랍 성향이 더 있기 때문에 말리의 다른 도시들과 극명한 대조를 이루고 있습니다.",
+  "ref_text_normalized": "이 도시는 아프리카보다 아랍 성향이 더 있기 때문에 말리의 다른 도시들과 극명한 대조를 이루고 있습니다",
+  "timestamp_utc": "2026-07-05T05:57:44Z",
+  "text": "이 도시는 아프리카보다 아랍 성향이 더 있기 때문에 말리의 다른 도시들과 극명한 대조를 이루고 있습니다.",
+  "latency_sec": 3.7178,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "이 도시는 아프리카보다 아랍 성향이 더 있기 때문에 말리의 다른 도시들과 극명한 대조를 이루고 있습니다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231064,
+    "id": "VfJJapTyJJj_1e8PrLe2mQQ",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 478,
+      "total_tokens": 573
+    }
+  }
+}

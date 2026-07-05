@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0087",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.44,
+  "ref_text_raw": "Wer in hohen Breiten oder über Gebirgspässe fahren will, sollte mit Schnee, Eis und Temperaturen unter dem Gefrierpunkt rechnen.",
+  "ref_text_normalized": "wer in hohen breiten oder über gebirgspässe fahren will sollte mit schnee eis und temperaturen unter dem gefrierpunkt rechnen",
+  "timestamp_utc": "2026-07-05T03:46:40Z",
+  "text": "Wer in hohen Breiten oder über Gebirgspässe fahren will, sollte mit Schnee, Eis und Temperaturen unter dem Gefrierpunkt rechnen.",
+  "latency_sec": 3.5605,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Wer in hohen Breiten oder über Gebirgspässe fahren will, sollte mit Schnee, Eis und Temperaturen unter dem Gefrierpunkt rechnen.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223200,
+    "id": "ntNJarLeA5O00-kP9qbDqAY",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 260,
+      "total_tokens": 289
+    }
+  }
+}

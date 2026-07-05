@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0108",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.38,
+  "ref_text_raw": "在外围岛屿，可能无法使用信用卡，但可以使用英美货币；请事先与房主联系，确认可接受的付款方式。",
+  "ref_text_normalized": "在 外 围 岛 屿 可 能 无 法 使 用 信 用 卡 但 可 以 使 用 英 美 货 币 请 事 先 与 房 主 联 系 确 认 可 接 受 的 付 款 方 式",
+  "timestamp_utc": "2026-07-05T09:15:38Z",
+  "text": "在外围岛屿可能无法使用信用卡，但可以使用英美货币。请事先与房主联系，确认可接受的付款方式。",
+  "latency_sec": 6.6243,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "在外围岛屿可能无法使用信用卡，但可以使用英美货币。请事先与房主联系，确认可接受的付款方式。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242938,
+    "id": "tSBKatjcAoaD1e8PyqKZ0Ac",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 281,
+      "total_tokens": 913
+    }
+  }
+}

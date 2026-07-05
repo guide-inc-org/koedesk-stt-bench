@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0001",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 23.4,
+  "ref_text_raw": "Nous sommes d'accord avec la déclaration de l'USOC (Comité olympique des États-Unis) selon laquelle les intérêts de nos athlètes et de nos clubs, ainsi que de leur sport, pourraient être mieux servis. Cela peut être fait en allant de l'avant et en procédant plutôt à des changements significatifs au sein de notre organisation, qu'à la révocation d'accréditation.",
+  "ref_text_normalized": "nous sommes d'accord avec la déclaration de l'usoc comité olympique des états-unis selon laquelle les intérêts de nos athlètes et de nos clubs ainsi que de leur sport pourraient être mieux servis. cela peut être fait en allant de l'avant et en procédant plutôt à des changements significatifs au sein de notre organisation qu'à la révocation d'accréditation",
+  "timestamp_utc": "2026-07-05T05:09:22Z",
+  "text": "Nous sommes d'accord avec la déclaration de l'USOC, comité olympique des États-Unis, selon laquelle les intérêts de nos athlètes et de nos clubs, ainsi que de leur sport pour être tête en mieux servis. Cela peut être fait en allant de l'avant et en procédant plutôt à des changements significatifs au sein de notre organisation qu'à la révocation d'accréditation.",
+  "latency_sec": 4.759,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Nous sommes d'accord avec la déclaration de l'USOC, comité olympique des États-Unis, selon laquelle les intérêts de nos athlètes et de nos clubs, ainsi que de leur sport pour être tête en mieux servis. Cela peut être fait en allant de l'avant et en procédant plutôt à des changements significatifs au sein de notre organisation qu'à la révocation d'accréditation.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP4oYOGSjkglyLoFastdr53kLYJUvZ5m5fminzVEs5lsm4n9nzPMr+sFTrCQDw"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228162,
+    "id": "AedJarfRBpr22roP4enR6AU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 85,
+      "prompt_tokens": 606,
+      "total_tokens": 691
+    }
+  }
+}

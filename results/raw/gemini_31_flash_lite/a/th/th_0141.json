@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0141",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.86,
+  "ref_text_raw": "อาการช็อกเมื่อกลับประเทศบ้านเกิดจะเกิดขึ้นเร็วกว่าอาการช็อกทางวัฒนธรรม (มีระยะแรกสั้นกว่า) คงอยู่นานกว่า และอาจรุนแรงกว่า",
+  "ref_text_normalized": "อาการช็อกเมื่อกลับประเทศบ้านเกิดจะเกิดขึ้นเร็วกว่าอาการช็อกทางวัฒนธรรม มีระยะแรกสั้นกว่า คงอยู่นานกว่า และอาจรุนแรงกว่า",
+  "timestamp_utc": "2026-07-05T08:09:36Z",
+  "text": "อาการ ช็อก เมื่อ กลับ ประเทศ บ้าน เกิด จะ เกิด ขึ้น เร็ว กว่า อาการ ช็อก ทาง วัฒนธรรม มี ระยะ แรก สั้น กว่า คง อยู่ นาน กว่า และ อาจ รุนแรง กว่า",
+  "latency_sec": 2.6614,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "อาการ ช็อก เมื่อ กลับ ประเทศ บ้าน เกิด จะ เกิด ขึ้น เร็ว กว่า อาการ ช็อก ทาง วัฒนธรรม มี ระยะ แรก สั้น กว่า คง อยู่ นาน กว่า และ อาจ รุนแรง กว่า",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPU8CnC5jUtjcQS8RfDin1dZ7qGwHvTQE6GSaOcieXrKHZMx4gBMKZJp1XAh83"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238976,
+    "id": "PxFKauabGoyl1e8P2deLgAI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 218,
+      "total_tokens": 258
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0024",
+  "lang": "es",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.24,
+  "ref_text_raw": "Sea rotunda al rechazar a los hombres y no tema defender su postura (existan diferencias culturales o no, ¡eso no es correcto!).",
+  "ref_text_normalized": "sea rotunda al rechazar a los hombres y no tema defender su postura existan diferencias culturales o no ¡eso no es correcto!",
+  "timestamp_utc": "2026-07-05T04:14:30Z",
+  "text": "Sea rotunda al rechazar a los hombres y no tema defender su postura. Existan diferencias culturales o no, eso no es correcto.",
+  "latency_sec": 3.7599,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Sea rotunda al rechazar a los hombres y no tema defender su postura. Existan diferencias culturales o no, eso no es correcto.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224871,
+    "id": "JNpJapX5GZj_1e8PrLe2mQQ",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 317,
+      "total_tokens": 458
+    }
+  }
+}

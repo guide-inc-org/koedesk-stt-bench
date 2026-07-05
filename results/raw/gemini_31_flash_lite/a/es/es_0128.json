@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0128",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 21.66,
+  "ref_text_raw": "Las iglesias más tradicionales suelen ofrecer una Vigilia Pascual el día sábado en la noche durante el fin de semana de la Pascua y, por lo general, las congregaciones dan inicio a las celebraciones por la resurrección de Cristo apenas llega la medianoche.",
+  "ref_text_normalized": "las iglesias más tradicionales suelen ofrecer una vigilia pascual el día sábado en la noche durante el fin de semana de la pascua y por lo general las congregaciones dan inicio a las celebraciones por la resurrección de cristo apenas llega la medianoche",
+  "timestamp_utc": "2026-07-05T04:41:26Z",
+  "text": "Las iglesias más tradicionales suelen ofrecer una vigilia Pascual el día sábado en la noche durante el fin de la Semana de la Pascua y por lo general las congregaciones dan inicio a las celebraciones por la resurrección de Cristo apenas llega la medianoche.",
+  "latency_sec": 3.0555,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Las iglesias más tradicionales suelen ofrecer una vigilia Pascual el día sábado en la noche durante el fin de la Semana de la Pascua y por lo general las congregaciones dan inicio a las celebraciones por la resurrección de Cristo apenas llega la medianoche.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPPrk2rj85k2szSJPmz8bpXW1UUwmoAlE2SZcgeEbP2YqE2UwX7rVkjpjSTf5d"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226486,
+    "id": "deBJauTXEryo1e8Prpqp8QY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 54,
+      "prompt_tokens": 563,
+      "total_tokens": 617
+    }
+  }
+}

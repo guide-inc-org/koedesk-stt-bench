@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0134",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.66,
+  "ref_text_raw": "Eine Autobombe detonierte am Morgen des gestrigen Tages im Polizeipräsidium des türkischen Gaziantep, tötete zwei Polizisten und verwundete über zwanzig weitere Menschen.",
+  "ref_text_normalized": "eine autobombe detonierte am morgen des gestrigen tages im polizeipräsidium des türkischen gaziantep tötete zwei polizisten und verwundete über zwanzig weitere menschen",
+  "timestamp_utc": "2026-07-05T04:07:53Z",
+  "text": "Eine Autobombe detonierte am Morgen des gestrigen Tages im Polizeipräsidium des türkischen Gaziantep, tötete zwei Polizisten und verwundete über 20 weitere Menschen.",
+  "latency_sec": 2.867,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Eine Autobombe detonierte am Morgen des gestrigen Tages im Polizeipräsidium des türkischen Gaziantep, tötete zwei Polizisten und verwundete über 20 weitere Menschen.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP0AWT7EAajj1VnGP39qrVSXGyqlxFnYC2fq/QFZj1c3ut9b41eKDSIMGMg9+c"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224473,
+    "id": "mNhJaueYA8qfvr0Plb-amQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 42,
+      "prompt_tokens": 263,
+      "total_tokens": 305
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0179",
+  "lang": "th",
+  "engine": "gemini_25_pro",
+  "duration_sec": 11.82,
+  "ref_text_raw": "ท่าเรือแห่งนี้เป็นสถานที่ซึ่งเกิดความขัดแย้งทางกองทัพเรือที่ฉาวโฉ่ในปี 1889 เมื่อเรือ 7 ลำจากเยอรมนี สหรัฐฯ และอังกฤษปฏิเสธที่จะออกจากท่าเรือ",
+  "ref_text_normalized": "ท่าเรือแห่งนี้เป็นสถานที่ซึ่งเกิดความขัดแย้งทางกองทัพเรือที่ฉาวโฉ่ในปี 1889 เมื่อเรือ 7 ลำจากเยอรมนี สหรัฐฯ และอังกฤษปฏิเสธที่จะออกจากท่าเรือ",
+  "timestamp_utc": "2026-07-05T07:58:34Z",
+  "text": "ท่าเรือแห่งนี้เป็นสถานที่ซึ่งเกิดความขัดแย้งทางกองทัพเรือที่ฉาวโฉ่ในปี 1889 เมื่อเรือ 7 ลำจากเยอรมนี สหรัฐและอังกฤษปฏิเสธที่จะออกจากท่าเรือ",
+  "latency_sec": 5.4878,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ท่าเรือแห่งนี้เป็นสถานที่ซึ่งเกิดความขัดแย้งทางกองทัพเรือที่ฉาวโฉ่ในปี 1889 เมื่อเรือ 7 ลำจากเยอรมนี สหรัฐและอังกฤษปฏิเสธที่จะออกจากท่าเรือ",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238314,
+    "id": "pg5KasD1Bs_g1e8PpM-tqAQ",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 53,
+      "prompt_tokens": 400,
+      "total_tokens": 714
+    }
+  }
+}

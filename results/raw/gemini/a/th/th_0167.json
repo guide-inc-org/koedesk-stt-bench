@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0167",
+  "lang": "th",
+  "engine": "gemini_25_flash",
+  "duration_sec": 6.9,
+  "ref_text_raw": "นับตั้งแต่ก่อตั้ง Asunción ขึ้นในปี 1537 ปารากวัยก็ได้รักษาคุณลักษณะและอัตลักษณ์ของชนพื้นเมืองเอาไว้มากมาย",
+  "ref_text_normalized": "นับตั้งแต่ก่อตั้ง asunción ขึ้นในปี 1537 ปารากวัยก็ได้รักษาคุณลักษณะและอัตลักษณ์ของชนพื้นเมืองเอาไว้มากมาย",
+  "timestamp_utc": "2026-07-05T07:48:03Z",
+  "text": "นับ ตั้ง แต่ การ ก่อ ตั้ง อาซุนเชียน ขึ้น ใน ปี 1537 ปารากวัย ได้ รักษา คุณลักษณะ และ อัตลักษณ์ ของ ส่วน พื้นเมือง เอา ไว้ มาก มาย",
+  "latency_sec": 4.5851,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "นับ ตั้ง แต่ การ ก่อ ตั้ง อาซุนเชียน ขึ้น ใน ปี 1537 ปารากวัย ได้ รักษา คุณลักษณะ และ อัตลักษณ์ ของ ส่วน พื้นเมือง เอา ไว้ มาก มาย",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237683,
+    "id": "MAxKapGDApSi9tMP8vOl4AE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 242,
+      "total_tokens": 685
+    }
+  }
+}

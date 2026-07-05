@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0107",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 13.5,
+  "ref_text_raw": "実に均整の取れた体で運動能力の高い虎は、（うまくはないものの）登ったり、泳いだり、長い距離を跳んだり、たくましい人間の5倍の力で引っ張ったりできます。",
+  "ref_text_normalized": "実に均整の取れた体で運動能力の高い虎は うまくはないものの登ったり 泳いだり 長い距離を跳んだり たくましい人間の5倍の力で引っ張ったりできます",
+  "timestamp_utc": "2026-07-05T03:07:17Z",
+  "text": "実に均整のとれた体で運動能力の高い虎は、うまくはないものの、登ったり泳いだり長い距離を飛んだり逞しい人間の5倍の力で引っ張ったりできます。",
+  "latency_sec": 9.9484,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "実に均整のとれた体で運動能力の高い虎は、うまくはないものの、登ったり泳いだり長い距離を飛んだり逞しい人間の5倍の力で引っ張ったりできます。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783220838,
+    "id": "XcpJaoWfLrDM0-kP1Zry4AU",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 453,
+      "total_tokens": 1237
+    }
+  }
+}

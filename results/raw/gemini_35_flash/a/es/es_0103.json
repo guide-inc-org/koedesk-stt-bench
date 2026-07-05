@@ -1,0 +1,45 @@
+{
+  "utt_id": "es_0103",
+  "lang": "es",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 14.1,
+  "ref_text_raw": "El Parque Nacional de los Lagos Plitvice es muy boscoso, tiene principalmente hayas, abetos y píceas, y presenta una vegetación entre alpina y mediterránea.",
+  "ref_text_normalized": "el parque nacional de los lagos plitvice es muy boscoso tiene principalmente hayas abetos y píceas y presenta una vegetación entre alpina y mediterránea",
+  "timestamp_utc": "2026-07-05T04:37:19Z",
+  "text": "El Parque Nacional de los Lagos Plitvice es muy boscoso, tiene principalmente hayas, abetos y píceas, y presenta una vegetación entre alpina y mediterránea.",
+  "latency_sec": 5.1962,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "El Parque Nacional de los Lagos Plitvice es muy boscoso, tiene principalmente hayas, abetos y píceas, y presenta una vegetación entre alpina y mediterránea.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226239,
+    "id": "e99JatvpO7ycrfcP6t_NqQY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 374,
+      "total_tokens": 817
+    }
+  }
+}

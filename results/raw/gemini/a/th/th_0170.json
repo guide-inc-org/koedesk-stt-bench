@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0170",
+  "lang": "th",
+  "engine": "gemini_25_flash",
+  "duration_sec": 6.36,
+  "ref_text_raw": "ต่อมามีช่างภาพหลายคนมาแทนที่หญิงชราเนื่องจากเธอต้องไปเข้าห้องน้ำ เมนโดซาถูกยิงจนพ่ายแพ้",
+  "ref_text_normalized": "ต่อมามีช่างภาพหลายคนมาแทนที่หญิงชราเนื่องจากเธอต้องไปเข้าห้องน้ำ เมนโดซาถูกยิงจนพ่ายแพ้",
+  "timestamp_utc": "2026-07-05T07:48:17Z",
+  "text": "ต่อ มา มี ช่าง ภาพ หลาย คน มา แทน ที่ หญิง ชรา เนื่อง จาก เธอ ต้อง ไป ห้อง น้ํา เบนโดซ่า ถูก ยิง อย่าง พ่าย แพ้",
+  "latency_sec": 3.3233,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ต่อ มา มี ช่าง ภาพ หลาย คน มา แทน ที่ หญิง ชรา เนื่อง จาก เธอ ต้อง ไป ห้อง น้ํา เบนโดซ่า ถูก ยิง อย่าง พ่าย แพ้",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237697,
+    "id": "PwxKar7FI4CUvr0P6IWioQU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 225,
+      "total_tokens": 366
+    }
+  }
+}

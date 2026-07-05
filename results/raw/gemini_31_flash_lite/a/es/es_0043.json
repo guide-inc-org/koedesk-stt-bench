@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0043",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.68,
+  "ref_text_raw": "De la misma manera, al contar con un visado Schengen, no precisa gestionar permisos para cada uno de los países miembros de este espacio por separado. Ello le ahorrará tiempo, dinero y papeleo.",
+  "ref_text_normalized": "de la misma manera al contar con un visado schengen no precisa gestionar permisos para cada uno de los países miembros de este espacio por separado ello le ahorrará tiempo dinero y papeleo",
+  "timestamp_utc": "2026-07-05T04:36:16Z",
+  "text": "De la misma manera, al contar con un visado Schengen, no precisas gestionar permisos para cada uno de los países miembros de este espacio por separado. Ello le ahorrará tiempo, dinero y papeleo.",
+  "latency_sec": 2.551,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "De la misma manera, al contar con un visado Schengen, no precisas gestionar permisos para cada uno de los países miembros de este espacio por separado. Ello le ahorrará tiempo, dinero y papeleo.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPdoBuPIJ+kRjZx9Ds6ngTS/b5g0Ac3+GN09nB8pF3LEnII55CY1GWENd2NCUN"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226176,
+    "id": "P99JaoSVEIPMrfcPiKHRgAE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 363,
+      "total_tokens": 406
+    }
+  }
+}

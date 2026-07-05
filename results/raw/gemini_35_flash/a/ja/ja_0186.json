@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0186",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 15.06,
+  "ref_text_raw": "病院では、感染管理手順書に従い、他人への感染の可能性を防ぐために患者を隔離するなどの措置をとっています。",
+  "ref_text_normalized": "病院では 感染管理手順書に従い 他人への感染の可能性を防ぐために患者を隔離するなどの措置をとっています",
+  "timestamp_utc": "2026-07-05T03:23:41Z",
+  "text": "病院では感染管理手順書に従い、他人への感染の可能性を防ぐために、患者を隔離するなどの措置をとっています。",
+  "latency_sec": 4.3909,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "病院では感染管理手順書に従い、他人への感染の可能性を防ぐために、患者を隔離するなどの措置をとっています。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221821,
+    "id": "Os5JapWKLI3y2roP6emiwQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 398,
+      "total_tokens": 799
+    }
+  }
+}

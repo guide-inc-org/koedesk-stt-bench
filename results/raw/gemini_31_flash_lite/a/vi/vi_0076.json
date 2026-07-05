@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0076",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.58,
+  "ref_text_raw": "Nếu muốn ở gần khu vực diễn ra hoạt động, bạn cần phải đến sớm để có được một địa điểm cắm trại gần với dàn âm thanh.",
+  "ref_text_normalized": "nếu muốn ở gần khu vực diễn ra hoạt động bạn cần phải đến sớm để có được một địa điểm cắm trại gần với dàn âm thanh",
+  "timestamp_utc": "2026-07-05T08:42:13Z",
+  "text": "Nếu muốn ở gần khu vực diễn ra hoạt động, bạn cần phải đến sớm để có được một địa điểm cắm trại gần với dàn âm thanh.",
+  "latency_sec": 2.759,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Nếu muốn ở gần khu vực diễn ra hoạt động, bạn cần phải đến sớm để có được một địa điểm cắm trại gần với dàn âm thanh.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPqMbRLaucJ6J+YcxHGdRp+GOu3cszBdi9YcyFu8YkIYXQRomsK2QVKQnP0uZh"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240933,
+    "id": "5BhKaujcC_K8vr0P9K6siQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 311,
+      "total_tokens": 342
+    }
+  }
+}

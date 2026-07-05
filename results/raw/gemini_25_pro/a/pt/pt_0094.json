@@ -1,0 +1,39 @@
+{
+  "utt_id": "pt_0094",
+  "lang": "pt",
+  "engine": "gemini_25_pro",
+  "duration_sec": 11.7,
+  "ref_text_raw": "A ponte está programada para entrar em operação em setembro de 2017, data prevista para finalização das inspeções aduaneiras no Brasil.",
+  "ref_text_normalized": "a ponte está programada para entrar em operação em setembro de 2017 data prevista para finalização das inspeções aduaneiras no brasil",
+  "timestamp_utc": "2026-07-05T06:42:18Z",
+  "text": "A ponte está programada para estar em operação em setembro de 2017, data prevista para a finalização das inspeções aduaneiras no Brasil.",
+  "latency_sec": 7.0744,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "A ponte está programada para estar em operação em setembro de 2017, data prevista para a finalização das inspeções aduaneiras no Brasil.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783233738,
+    "id": "xPxJasrTOfTLrfcPi72awAU",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 396,
+      "total_tokens": 877
+    }
+  }
+}

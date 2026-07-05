@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0063",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.9,
+  "ref_text_raw": "对儿童来说，金字塔的声光表演是该地区最有趣的活动之一。",
+  "ref_text_normalized": "对 儿 童 来 说 金 字 塔 的 声 光 表 演 是 该 地 区 最 有 趣 的 活 动 之 一",
+  "timestamp_utc": "2026-07-05T09:11:08Z",
+  "text": "对儿童来说，金字塔的声光表演是该地区最有趣的活动之一。",
+  "latency_sec": 3.7838,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "对儿童来说，金字塔的声光表演是该地区最有趣的活动之一。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "ErMFCrAFARFNMg8f3A4EjIhHrtpO5IIFW5e54b0PeQgw83+oI2XxLSf32cEHZBOb/vRm6dSSnWBiVCqQOZYlqnTAkjzZ4HiDZFms9A4cr7lHVI/ExGGo1nP58//26uKRGmuVUp4oUuPau4QEHv5WHT8kaZxnTmtrwJGHJRm0GpTU+y8RgYnLLh09NwEy9abQ4dLHHoz2MaEB2tKXW8ouskgaYite48ubHzosZUcQnlunQ8Wxitu7p8L5Wijj4tbpgLOoyWZoa2ye33z+M41UoVr04Oax7d73xc65k2FjYlhudHlYFaVOJ+ypaEdEo5s7N0wlZCCFvQMPcrgrnlOq0cJZt5IgbWB9mC/3zz1Fd0Onw8U54Y8y1Y/J3LERSYzXix59xtwMVxTgGlzdWQt7oaAhw3lDr6mz7U4lXyUp1DaqYD5a6I4K6CnqQcUD3DjXUOioqLrZqtJ/AiheotWxULt98COzj4D7aetMeaTQyhNfqqFOn/sLeda6Fs2Q7O007mCQwPfgNrs1wcYi61zwFEv5ZYWLocQaqOCJHYFxbcKSLPVsUfhGJypdy1C+ITMMQ9gXYp0CIulH4two1HPEJfcxXtdeom5OpzCKBSvSLkEHKAdU7ZZSlQagWFtSqtAv8l7RDdmSF4OIW4NQb8IwHF0th2g0gQSIf6vVmr5rM2BLoF1jPf5McIynI/9obuKTQSd6Kaoa6QmMLFId9Vp/HGSqSNtK6WzuGSDz16VgHpLRgLjxdAtNtgf7KQh3tqjsG3lWuNVVAIxfaE56reepKxgfAfhQ/CLiRyhltlzGL4nGRuiaR2H4WfDvCz03m2H420wODMeU3hIim6+gb1OVzm16SPvWxjdGaqTuLBka73mwSYTlAMQba8zTepJJ5pRM1EOi6i676K2mMFd2nGo+X+IBB617dA=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242668,
+    "id": "qh9KapmaBbzW2roP5ab44Ak",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 294,
+      "total_tokens": 482
+    }
+  }
+}

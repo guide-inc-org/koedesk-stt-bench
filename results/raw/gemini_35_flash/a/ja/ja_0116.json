@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0116",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 23.58,
+  "ref_text_raw": "例えば、ノースカロライナ州のベネットスクールの生徒は毎年、州都への旅行に関するウェブサイトを制作しており、ウェブサイトは毎年改訂されますが、旧サイトはスクラップブックとして閲覧できるようにオンラインで保管されています。",
+  "ref_text_normalized": "例えば ノースカロライナ州のベネットスクールの生徒は毎年 州都への旅行に関するウェブサイトを制作しており ウェブサイトは毎年改訂されますが 旧サイトはスクラップブックとして閲覧できるようにオンラインで保管されています",
+  "timestamp_utc": "2026-07-05T03:16:47Z",
+  "text": "例えば、ノースカロライナ州のベネットスクールの生徒は毎年、州への旅行に関するウェブサイトを制作しており、ウェブサイトは毎年改定されますが、旧サイトはスクラップブックとして閲覧できるようにオンラインで保管されています。",
+  "latency_sec": 6.0345,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "例えば、ノースカロライナ州のベネットスクールの生徒は毎年、州への旅行に関するウェブサイトを制作しており、ウェブサイトは毎年改定されますが、旧サイトはスクラップブックとして閲覧できるようにオンラインで保管されています。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221407,
+    "id": "nMxJauCYCICUvr0P6IWioQU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 50,
+      "prompt_tokens": 611,
+      "total_tokens": 1144
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "es_0161",
+  "lang": "es",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 16.98,
+  "ref_text_raw": "Los autobuses parten de la estación entre distritos (al otro lado del río) durante todo el día, aunque la mayoría, en especial los que viajan al este y a Jakar (también llamada Bumthang), salen entre las 6:30 y las 7:30 h.",
+  "ref_text_normalized": "los autobuses parten de la estación entre distritos al otro lado del río durante todo el día aunque la mayoría en especial los que viajan al este y a jakar también llamada bumthang salen entre las 6:30 y las 7:30 h",
+  "timestamp_utc": "2026-07-05T04:42:06Z",
+  "text": "Los autobuses parten de la estación en Tres Distritos, al otro lado del río, durante todo el día, aunque la mayoría, en especial los que viajan al este y a Yakar, también llamada Buntan, salen entre las 6:30 y las 7:30 horas.",
+  "latency_sec": 7.7232,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Los autobuses parten de la estación en Tres Distritos, al otro lado del río, durante todo el día, aunque la mayoría, en especial los que viajan al este y a Yakar, también llamada Buntan, salen entre las 6:30 y las 7:30 horas.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226526,
+    "id": "mOBJapGjLe6A0-kPgc2WkAY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 63,
+      "prompt_tokens": 446,
+      "total_tokens": 1508
+    }
+  }
+}

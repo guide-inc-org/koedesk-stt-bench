@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0029",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 23.04,
+  "ref_text_raw": "Während Goma einigermaßen sicher ist, sollte jeder Aufenthalt außerhalb Gomas sorgfältig geplant werden, um den Stand der in der Provinz Nord-Kivu andauernden Kämpfe zu erfahren.",
+  "ref_text_normalized": "während goma einigermaßen sicher ist sollte jeder aufenthalt außerhalb gomas sorgfältig geplant werden um den stand der in der provinz nord-kivu andauernden kämpfe zu erfahren",
+  "timestamp_utc": "2026-07-05T04:01:32Z",
+  "text": "Während Goma einigermaßen sicher ist, sollte jeder Aufenthalt außerhalb Gomas sorgfältig geplant werden, um den Stand der in der Provinz Nord-Kivu andauernden Kämpfe zu erfahren.",
+  "latency_sec": 3.1845,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Während Goma einigermaßen sicher ist, sollte jeder Aufenthalt außerhalb Gomas sorgfältig geplant werden, um den Stand der in der Provinz Nord-Kivu andauernden Kämpfe zu erfahren.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPdU412eYDaBG1ZnndV+V6gYwGDt/96MUAYUNM/UXyiG/BN25DyG5Gu4YyfR8j"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224092,
+    "id": "GtdJasjMN7ui9tMP8NiBsAM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 597,
+      "total_tokens": 637
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0057",
+  "lang": "es",
+  "engine": "gemini_25_pro",
+  "duration_sec": 8.76,
+  "ref_text_raw": "Los parisinos tienen reputación de egocéntricos, descorteses y engreídos.",
+  "ref_text_normalized": "los parisinos tienen reputación de egocéntricos descorteses y engreídos",
+  "timestamp_utc": "2026-07-05T04:18:13Z",
+  "text": "Los parisinos tienen reputación de egocéntricos, descorteses y engreídos.",
+  "latency_sec": 4.3064,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Los parisinos tienen reputación de egocéntricos, descorteses y engreídos.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225093,
+    "id": "AttJaorUJM_H2roPya_FyQE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 302,
+      "total_tokens": 386
+    }
+  }
+}

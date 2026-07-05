@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0186",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.72,
+  "ref_text_raw": "中局击球手萨钦·坦杜尔卡和拉胡尔·德拉维德表现出色，搭档取得了 100 跑的成绩。",
+  "ref_text_normalized": "中 局 击 球 手 萨 钦 坦 杜 尔 卡 和 拉 胡 尔 德 拉 维 德 表 现 出 色 搭 档 取 得 了 100 跑 的 成 绩",
+  "timestamp_utc": "2026-07-05T09:03:36Z",
+  "text": "终局击球手萨钦坦杜瓦卡和拉胡尔德拉维德表现出色，搭档取得了100跑的成绩。",
+  "latency_sec": 5.322,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "终局击球手萨钦坦杜瓦卡和拉胡尔德拉维德表现出色，搭档取得了100跑的成绩。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242216,
+    "id": "5B1Kat-KGbui9tMP8NiBsAM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 429,
+      "total_tokens": 695
+    }
+  }
+}

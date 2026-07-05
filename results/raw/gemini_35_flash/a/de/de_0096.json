@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0096",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.86,
+  "ref_text_raw": "Es gibt Familienstrände, die manchmal überlaufen sind, mit einer schönen Einkaufspromenade entlang der Küste. Das Schwimmen ist hier sicher.",
+  "ref_text_normalized": "es gibt familienstrände die manchmal überlaufen sind mit einer schönen einkaufspromenade entlang der küste das schwimmen ist hier sicher",
+  "timestamp_utc": "2026-07-05T04:04:00Z",
+  "text": "Es gibt Familienstrände, die manchmal überlaufen sind mit einer schönen Einkaufspromenade entlang der Küste. Das Schwimmen ist hier sicher.",
+  "latency_sec": 3.3954,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Es gibt Familienstrände, die manchmal überlaufen sind mit einer schönen Einkaufspromenade entlang der Küste. Das Schwimmen ist hier sicher.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqAGCp0GARFNMg/LK/s0OzDDx29aY6GrsSXriJLUXikSza+lCpPzaIMo/lf2K4UueUo9UWMBwKQtm82UVSvshDiRVcSu8MBgC3J/HbUCIUkr00JsmUvSZQ2TkOe56yvJOdGpiDFPY8T/GAs+1AgB5q6KWwMD9LOwxxM/U2S+2M4158Jy6yq/AwYSzneOhh8c0kGsJe6Nsos6PQXrftpZBJ8h1OMsvSVm5M1a6Dwm6xAqkOwVr8TehCINBtRVQsPxlmVNuSEUovhMlpUeiOwP2Nc5Q9+lXP66x3lSFSH8/9OGOF8XAWW+L6GPQ8k3+samxfVGwmYFXUrO4Onmcjevk3Mvx1wo0VjkTMfzBUKPLCeSQ5/dIEGK9xTcY/Ke/sAQiLBAWtpf28+eW57x92QtF01ShzFmerRCFpzTl0xpRNB1DbnF5LWXfjp0YR75fFouFe4KV9V6AuQDE9QdOaR4QXFupnQx/fzpxAGkeX8UrF1Q0wbbiC5lr1NrYkX9qwYLzMjDN0nD+jNmyp+YuZtXgVdwtrBx8xigkuJ2tFF4+hNN6dfoiZiwB2x/9y9DaNHY9ctEF3S/H8Tz859LHFDZK06IXZYNQdoTMVmfTkz+m6a1NeHty3MluVt7YAEHIie9ZZtzfn7DmewOdktYE44OSB2axqb1NwW9/pV/Q5ZEr8fywvd0NHHT91XQUy/utrZkKfHvoe6WXFv5KcbsZ13Mm/Azy2btbpPb+EFeyfd2IL1eZgmeQcYyrUOz0e1QOq+jCQrhonmiUG3en/tQ1CSPFVSVoSBDy1T26IyCxakZFe0IZ7Tfkfd5KdH0n/+q8iNWCiNNYyQ6Xdc7ILF+IdhTeLazezZzE7EAt1TqH13VRHvAnejfC0WXL812gOF4phVNSFix2nszK27QEjr8lge8GB0AadwnlYPqDXWnSss4omLXP2IZsIiSHZKfc1od8afnO7YjT6Q579TcotVKis9CFKSVZajZ2JCXXN7/LgujJiedzXVi8Y/i06tKXcXFmrHLMDrQVYRjA5nlUdSJ12bU0sFL4feNNew3mv2z4coB3IYO0og="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224240,
+    "id": "rtdJaqyhGe6j2roPp6OfsQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 218,
+      "total_tokens": 434
+    }
+  }
+}

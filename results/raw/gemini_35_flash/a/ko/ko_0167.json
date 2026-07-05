@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0167",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.6,
+  "ref_text_raw": "처음에 그는 그레이트 야머스(Great Yarmouth)에 있는 제임스 페이젯 병원(James Paget)에 입원했습니다.",
+  "ref_text_normalized": "처음에 그는 그레이트 야머스great yarmouth에 있는 제임스 페이젯 병원james paget에 입원했습니다",
+  "timestamp_utc": "2026-07-05T06:24:24Z",
+  "text": "처음에 그는 그레이트 야머스에 있는 제임스 페이젯 병원에 입원했습니다.",
+  "latency_sec": 6.3886,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "처음에 그는 그레이트 야머스에 있는 제임스 페이젯 병원에 입원했습니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232664,
+    "id": "k_hJavarMs-a1e8P7YSs0QE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 261,
+      "total_tokens": 994
+    }
+  }
+}

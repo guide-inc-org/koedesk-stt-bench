@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0019",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.42,
+  "ref_text_raw": "昨日の朝、トルコのガジアンテップの警察本部で自動車爆弾の爆発により、警官2人が死亡し、負傷者は20人を超えました。",
+  "ref_text_normalized": "昨日の朝 トルコのガジアンテップの警察本部で自動車爆弾の爆発により 警官2人が死亡し 負傷者は20人を超えました",
+  "timestamp_utc": "2026-07-05T10:11:28Z",
+  "text": "昨日の朝、トルコのガジアンテップの警察本部で自動車爆弾の爆発により、警官2名が死亡し、負傷者は20人を超えました。",
+  "latency_sec": 5.6843,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "昨日の朝、トルコのガジアンテップの警察本部で自動車爆弾の爆発により、警官2名が死亡し、負傷者は20人を超えました。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqAOCp0OARFNMg+xgm986Z2/Z9H2DPhzOO8W/x8vJ83J/YnbPzoXmTrJzpmnFeXVeR3dVuLm1oCZb76BOUK4R1DyJwwYD9Xo7x+LsoJnEx8XNTpat0nBWdpEVDq9QPx4GCYE0AV7CMsMrkDsaUpqr5Qnvk9NljmEZ/S60YaBJ238I06xdK8rZPl0spoiTaEEQITn7misxdlAcmAoiONEYk58pREaUxmAeAyLFChPxcyz6dgYD0RW4JKpnKy1h4D5jhrSVzULlQqVZpLYpT+VtKa7WPs/j+K0r6lUAzoLeC10SkT+rY006IJceHVWEyp6DwrF7jYQoUkd3sYmsKkaxNIm5G9MO+Kbw5s5O3xcIjmT7/11PVENCGJ1ijtwy9f44QCf0SiR/8lQwrLZzUDEr9Cu+h8SMElvHtJyi8bgjQNbyV9BscUVCgxuun7pVLBp5j7mO5e9gbTA4aSbgYIwA3mxKyp64ipwoqX0SztYMzLsUNhzfJGd9pRaaaoB3iRPHtgfzbfj1EJAewFQNiCTIChnLAvsuT/ezHcimvM8Wpw69cQMtqecqkP1IsKTTNpDaxoEdDsaBzX2eY+lGp49GRULk6BjZ4DyztCN8j+gmlUyXrp6yMlLjHtgjUlznKpBxpFEenu0z/+cIl1Y5nh17PRkpl5KEJWgTWWEQYQ8NwzeUq69VphNRU1wJBSneqy8C9+T89x6nQ2LTc+aKZmkj9DzKcsp0huZvmLmA9KJljbW34nnKwxTh3IFilVrLMcjXlFOGKPAxIHfjiCxfwfBCQ5M/IHwL0re5AFOkvLfY5NHNwBOpXzwT6uJ2Vix6dTTYqRdamtnMc0j2j/W6G0Hvi7/HAuD5+4Fcu6jOMUytuvUNAvWwg3vqlRz6KHdObFnnz5k9X3ThHdst3yzkvkBq/rNWviT5Okp3VctjacglnfV6f5n3PNTWeC8T9oBfXTuOVl3yCQImWy6XPKdwp0/eTIbStkaWvdbfOPwqzWtxcsQF0ElrEHbCF0eElZ0i3hrj9etJng7zE/iAp1YU1qeQGYVXI9ru5FxSN3AjoTsE+Ug7CkBBfA/e1rh60xQ76rdguSE/dIPWWJQ4umuMdIcGnr38q+MV5Ppx9NEMhpJNsIY/jwYJImMFMquX/R18+2HL8tLKaPKdZ379t8l8zCH3YolqfWhYGD6f+XIc8lXoNKilAzD8G24Ue5QV/fQLgOQi1MpzWMpapkiIG+RfyaJ24JA/MDHtxz/ZX7MkGSMV6C/RXzcZxeQvQldzfHbfsGDwp0XqvYmnBgQsfv1o0R/sz2F6GYe6dp8aA5VJ8HxqBsMhFoBJchyFubqor4V7pHHUVxKMmkoNsF0etXCLnLBVSwriN3cAyHXJ9VmK9riGWStgzfcbM9S4sgosyTMRt6ZSHG3zcOJZGE1XHNwdxkThmqdr4zE8UdQ5Ml1cF7oxZA23wgSG7D98AIWOvNozBe+iLRQtSHd3B3rthUAxWHTRylF1353r9m0YmrmSTXgZicu6scW97D00hYl+8BW4YTkfIAx92+IB4YI13Ew2tcctzYk4AzLVcfCxxYiZ89TgFnymhH7vZ9SbOGB3gje7Wp3xXdNAQlssAdj0jNUdL5D1PeoUf8jNJcNlEc+Luc/eKf0Kod+ZLEMbhfpixq/ndu895NQJAwJkuCx0MMo3/1DFSt074jK5MKRfPJVerkh+nEuIb7vDAVn0M68a44925fu1XP6KB6u97Am4GqqsSMVNmImuB+VapXQxi1rLy7i2C2gF/trg1ZwPeUg7CHzb/5h9EPLn88/FUmzBw2ykK5P4ElNBE9xE5tOwnwbjpPIodomZ/aI0jXGzVtWtdwI9dTVzeyy+d7Q6Hl75T5AUe9MiiAF1o4TQS8WlPPTIU8SPadVyr0GqsCfVsveq5kvtqxvVh0mSN/RvD/5Wa8jHVTq7F2CpznrOwbQP2wZM7BC6zH4sy/kUnQHyXFUBk1YHTbnOBe4vJ6hCS8Bn7uB1kaAgRyZCtbEKdGYI3k43GMtiR4D74OVgWvowMIeE8JHmLhjv2XVfU16jLaQjJxl1FiEbhi9g9BvOdmCq7yG6OeXBX1KFDcEUM1Qa/13VfN+LwlnUu/1peW88eWCzS07VBwKgmZ8TfXkiLdpTJa4PdnD6XZkV/4JqObuuHHAXY/0vE7mCbjftyiZMjGsdWzZMLfPU4K92v6NKXQWIfqxyJmQ3Q9TlKxjjk1h4J32d+H+Cg2Ocj1mMG4xcPOBkqSwUGtME0Rz+Kdij2pBLqRy4XMnqq1+tpRQ8XybtfnpBi92AmaY1lf8iZPgUM9hutXOgefLgd+qfvf84rK24a0rP/8OOsGTleeDB1fvIL0wVjKwKW93fRvNHoSObOLKDmg+xt5yBTf4Gc43XlvjlPYeigLOHEIth75q/w7UotouLLpiz2B4YB0G"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246288,
+    "id": "zC1Kase_HKzmosUPj8LSwAE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 332,
+      "total_tokens": 899
+    }
+  }
+}

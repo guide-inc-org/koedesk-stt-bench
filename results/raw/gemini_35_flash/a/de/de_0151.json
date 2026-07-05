@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0151",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 4.44,
+  "ref_text_raw": "Parisern sagt man nach, egozentrisch, unhöflich und arrogant zu sein.",
+  "ref_text_normalized": "parisern sagt man nach egozentrisch unhöflich und arrogant zu sein",
+  "timestamp_utc": "2026-07-05T04:08:43Z",
+  "text": "Parisern sagt man nach, egozentrisch, unhöflich und arrogant zu sein.",
+  "latency_sec": 5.3176,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Parisern sagt man nach, egozentrisch, unhöflich und arrogant zu sein.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpoFCpcFARFNMg/5JBK60HU5UTyQ5TK4sMTVZf4Lt91nu9wMrx4mxbo208jVaOfXGmT7QjPXs5k5QxmGLROvT0+P71Of+NCgnIK2TwgxfWCc88J0pvK7Kyi1WtWpCTr4XMUGQ4on0wIbd0xvBU0tFV5fR9jD5r0mPmuzSglWfLINTBEkrShXIeactpIluYtk5rjY+ciAwy/dKbvXWuFdEJ6QbAiDSXqBfS9DaDYR+EK2eApCFIGaVg2QZKEBNKcYKu+qZSS70eixLMxktMkkOisXgfr2VwCO4kEx6Q/tursPUzsiu8jl+RJbKdzWcOoEhWeevBan6lspq5TUxUyNDF6CeIGIFoqQE4VwlC1TWeQXZUvY2drbIeeTh400DNiZTlU/pVOb7LeOOG//uyFm8QlAlfkSeIMflzGaH0580ryMamdpA4lcVwem7o3iOUYQX/a6NO9O5hHjDfz1i7Tnwn9ZowsPlmwL1AzTJoo44dAPwYuWC3iv9uPV+UbxvRj7hDBLpZGlrubtOzl/Whit/D2Kw5a/zpej414U4QExcLsq3DBBhvWmPOjCIoQNQDQ2dxafa54qqPyPuq8LNdUmZi0cuA2hfr5RfMUM4FQ3JEbJBGhw/wmA3Loto4aahtbxys+yfdoWibOxjcufGAWbGY4stO7gV2LZyeDi0d4STsgYXfDuRZ/cACYVgqm4z6oLvVhdjQ3OAYCRPFTfrmr3RDPRScCCrdcpLsqZGYUXVclw5UWnERqH9RC2s8+HRbBtWEAWKRYGJPqtIJZDQ5NDb5vNpuZQpJiMVjuiJwpqCezqJ12PImHBZGa5N2I8wtxQi7SHVfGe8pU8Nfea2Zr28iK7Iz9mFX8z/SoWcP7X8BksDoYSHy+hKsg1j2f9"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224523,
+    "id": "xthJaqmDNbup2roP26eg2QY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 133,
+      "total_tokens": 337
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0008",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.48,
+  "ref_text_raw": "参列者の数が多すぎて、全員がサンピエトロ広場での葬儀に参加することは不可能でした。",
+  "ref_text_normalized": "参列者の数が多すぎて 全員がサンピエトロ広場での葬儀に参加することは不可能でした",
+  "timestamp_utc": "2026-07-05T10:10:28Z",
+  "text": "参列者の数が多すぎて、全員がサン・ピエトロ広場での葬儀に参加することは不可能でした。",
+  "latency_sec": 5.4546,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "参列者の数が多すぎて、全員がサン・ピエトロ広場での葬儀に参加することは不可能でした。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246228,
+    "id": "kC1Kape7A_TLrfcPi72awAU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 258,
+      "total_tokens": 829
+    }
+  }
+}

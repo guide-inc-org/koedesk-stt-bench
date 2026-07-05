@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0059",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 11.88,
+  "ref_text_raw": "Le Groenland a été peu peuplé. Dans les sagas scandinaves, on raconte qu’Erik le Rouge a été exilé d’Islande pour meurtre qu’il a trouvé le Groenland — et l’a nommé ainsi — en voyageant plus à l’ouest.",
+  "ref_text_normalized": "le groenland a été peu peuplé dans les sagas scandinaves on raconte qu'erik le rouge a été exilé d'islande pour meurtre qu'il a trouvé le groenland et l'a nommé ainsi en voyageant plus à l'ouest",
+  "timestamp_utc": "2026-07-05T04:51:56Z",
+  "text": "Le Groenland a été peu peuplé. Dans les sagas scandinaves, on raconte qu'Érik le Rouge a été exilé d'Islande pour meurtre, qu'il a trouvé le Groenland et l'a nommé ainsi en voyageant plus à l'ouest.",
+  "latency_sec": 7.6798,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Le Groenland a été peu peuplé. Dans les sagas scandinaves, on raconte qu'Érik le Rouge a été exilé d'Islande pour meurtre, qu'il a trouvé le Groenland et l'a nommé ainsi en voyageant plus à l'ouest.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227116,
+    "id": "5eJJarr-LY3IrfcPmu3D-AU",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 64,
+      "prompt_tokens": 402,
+      "total_tokens": 700
+    }
+  }
+}

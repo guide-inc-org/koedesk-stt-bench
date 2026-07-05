@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0125",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.8,
+  "ref_text_raw": "バリでの議題には、世界に残っている森林を保存し、開発途上国が低汚染で成長するために役立つ技術を共有することが含まれています。",
+  "ref_text_normalized": "バリでの議題には 世界に残っている森林を保存し 開発途上国が低汚染で成長するために役立つ技術を共有することが含まれています",
+  "timestamp_utc": "2026-07-05T03:18:41Z",
+  "text": "パリテの議題には世界に残っている森林を保存し、開発途上国が低汚染で成長するために役立つ技術を共有することが含まれています。",
+  "latency_sec": 2.7156,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "パリテの議題には世界に残っている森林を保存し、開発途上国が低汚染で成長するために役立つ技術を共有することが含まれています。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPworakywAAAu89mbBjVCZpGOE8DaRvToypcAG8ZdT6G2QMiNYYD4vEN8JsM0U"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221521,
+    "id": "EM1Jao2UBYPMrfcPiKHRgAE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 366,
+      "total_tokens": 399
+    }
+  }
+}

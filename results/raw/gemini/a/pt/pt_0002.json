@@ -1,0 +1,39 @@
+{
+  "utt_id": "pt_0002",
+  "lang": "pt",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.4,
+  "ref_text_raw": "Giancarlo Fisichella perdeu o controle do carro e acabou a corrida logo após a largada.",
+  "ref_text_normalized": "giancarlo fisichella perdeu o controle do carro e acabou a corrida logo após a largada",
+  "timestamp_utc": "2026-07-05T06:27:20Z",
+  "text": "Siem Carlos de Fizi, que ela perdeu o controle do carro e acabou a corrida logo após a largada.",
+  "latency_sec": 4.1797,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Siem Carlos de Fizi, que ela perdeu o controle do carro e acabou a corrida logo após a largada.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232840,
+    "id": "RflJaqHkK6bG0-kPpaDayQU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 290,
+      "total_tokens": 473
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0151",
+  "lang": "de",
+  "engine": "gemini_25_pro",
+  "duration_sec": 4.44,
+  "ref_text_raw": "Parisern sagt man nach, egozentrisch, unhöflich und arrogant zu sein.",
+  "ref_text_normalized": "parisern sagt man nach egozentrisch unhöflich und arrogant zu sein",
+  "timestamp_utc": "2026-07-05T03:54:59Z",
+  "text": "Parisern sagt man nach, egozentrisch, unhöflich und arrogant zu sein.",
+  "latency_sec": 4.9544,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Parisern sagt man nach, egozentrisch, unhöflich und arrogant zu sein.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223699,
+    "id": "j9VJatbfN_K8vr0P9K6siQU",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 164,
+      "total_tokens": 330
+    }
+  }
+}

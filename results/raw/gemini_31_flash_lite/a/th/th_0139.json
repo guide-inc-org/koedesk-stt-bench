@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0139",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.02,
+  "ref_text_raw": "อย่างไรก็ตาม ช่องทางการสื่อสารที่ช้าทำให้สไตล์ทางตะวันตกอาจล้าหลังกว่า 25 ถึง 30 ปี",
+  "ref_text_normalized": "อย่างไรก็ตาม ช่องทางการสื่อสารที่ช้าทำให้สไตล์ทางตะวันตกอาจล้าหลังกว่า 25 ถึง 30 ปี",
+  "timestamp_utc": "2026-07-05T08:09:30Z",
+  "text": "อย่างไรก็ตาม ช่องทางการสื่อสารที่ช้าทำให้สไตล์ทางตะวันตกอาจล้าหลังกว่า 25-30 ปี",
+  "latency_sec": 2.5918,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "อย่างไรก็ตาม ช่องทางการสื่อสารที่ช้าทำให้สไตล์ทางตะวันตกอาจล้าหลังกว่า 25-30 ปี",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPUSwQ65hY590FXpTVnwjSkQ0pGErlwJGh4AuzWE2XoVvQd7AUdGhLmp1Sdu+e"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238970,
+    "id": "OBFKapC1HcDH2roPzfDW-AM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 197,
+      "total_tokens": 225
+    }
+  }
+}

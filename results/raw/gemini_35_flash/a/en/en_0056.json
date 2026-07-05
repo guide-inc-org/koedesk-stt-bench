@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0056",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.84,
+  "ref_text_raw": "Most modern research telescopes are enormous facilities in remote areas with favorable atmospheric conditions.",
+  "ref_text_normalized": "most modern research telescopes are enormous facilities in remote areas with favorable atmospheric conditions",
+  "timestamp_utc": "2026-07-05T10:30:51Z",
+  "text": "Most modern research telescopes are enormous facilities in remote areas with favorable atmospheric conditions.",
+  "latency_sec": 3.3726,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Most modern research telescopes are enormous facilities in remote areas with favorable atmospheric conditions.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EoAFCv0EARFNMg/uAE3IgFwHfUta87V0AioA7W5Kw2XGH9ER+yyKTO+Y8uN04Z0kFWuXGZ3dToFRSwKSUEk8kCzVnVhc0QdzVPDcLP5hvMV3MEYnYiQOtoxX2LkPOXZauFGcvIHZFMj5qXKkNE2nbSfHumhHoM2CjRg5Ai0BdBuoTpFLQf8JXOpdPXb/tYk7y76kri4uIR4aLt79Niu2vs9aQDToKNRWrZi4JETrGg/DATYVqJOMSB3hESgyc8rOOUkxCZINeqmA5YsB64fbsyoqfNvtzTsqKuU4xQ44UXNPs5VvCzGUXhf6ARtYglKDniC35+1m72ffMC194R6fGMdtjVdfi2KbyOd6x2Yvt10MZVGmDdUAC3c422vf8Pi87o9I8tRrAwaOxOjoq14xoVVZ3spRIJ4hAzeZhjMnY0F6zbNn39uqkyhqlhYdI6MIxOyqmXfuBLZuzYkmc2dqNiVQEhs4ZIz3nRd0NZaSZiot0OGy8EEzFuRkUtxqvX5IIy9HE1hcjjzwlKJi0TPc0g5VKGJU9DmUzUEzqw9AJinrBSfWog/07+8otaQROVoDCYuoUY4nb8zWX/PD/2F0p2KaDArGZNpTkeIs6AqTR7jxBRTT/WJBF86/boIvyL4ZUdR+5AM/rrTkP5qwNjimABnAILbNf1od2IFdgDQK8hPWsKLpGyKiEjbdxWKP76JBqMI5Y8gocn3DUZk+dpU4CCLIuiDrYILQmnGyO43RyV3GUQGsFv+A1yUQt0u3fuM+/6UUrBPNvkth1evg3w70pKSxJlBl9OVAzc5B/oYQWs+zDOPf6pudsxNWbtopONQtXBEOmSyMSiMrTRcn1/+yA6BIcQ=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247451,
+    "id": "WTJKarKkI4GM0-kP4LLDwQk",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 15,
+      "prompt_tokens": 192,
+      "total_tokens": 337
+    }
+  }
+}

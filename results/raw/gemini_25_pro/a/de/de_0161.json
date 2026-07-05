@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0161",
+  "lang": "de",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.92,
+  "ref_text_raw": "Huhne ist zurückgetreten und wird im Kabinett vom Abgeordneten Ed Davey ersetzt. Es wird erwartet, dass der Abgeordnete Norman Lamb den Job des Wirtschaftsministers übernimmt, den Davey gerade verlässt.",
+  "ref_text_normalized": "huhne ist zurückgetreten und wird im kabinett vom abgeordneten ed davey ersetzt es wird erwartet dass der abgeordnete norman lamb den job des wirtschaftsministers übernimmt den davey gerade verlässt",
+  "timestamp_utc": "2026-07-05T03:55:59Z",
+  "text": "Huhne ist zurückgetreten und wird im Kabinett vom Abgeordneten Ed Davey ersetzt. Es wird erwartet, dass der Abgeordnete Norman Lamb den Job des Wirtschaftsminister übernimmt, den Davey gerade verlässt.",
+  "latency_sec": 4.9147,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Huhne ist zurückgetreten und wird im Kabinett vom Abgeordneten Ed Davey ersetzt. Es wird erwartet, dass der Abgeordnete Norman Lamb den Job des Wirtschaftsminister übernimmt, den Davey gerade verlässt.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223759,
+    "id": "zNVJao-sDryo1e8Prpqp8QY",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 46,
+      "prompt_tokens": 371,
+      "total_tokens": 459
+    }
+  }
+}

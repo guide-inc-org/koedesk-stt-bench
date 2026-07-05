@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0030",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.68,
+  "ref_text_raw": "Die meisten modernen Forschungsteleskope sind gewaltige Einrichtungen in entlegenen Gebieten mit günstigen atmosphärischen Bedingungen.",
+  "ref_text_normalized": "die meisten modernen forschungsteleskope sind gewaltige einrichtungen in entlegenen gebieten mit günstigen atmosphärischen bedingungen",
+  "timestamp_utc": "2026-07-05T04:01:35Z",
+  "text": "Die meisten modernen Forschungsteleskope sind gewaltige Einrichtungen in entlegenen Gebieten mit günstigen atmosphärischen Bedingungen.",
+  "latency_sec": 2.4871,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Die meisten modernen Forschungsteleskope sind gewaltige Einrichtungen in entlegenen Gebieten mit günstigen atmosphärischen Bedingungen.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPgqOe1IRB4SFPAOjpNJT16cQxevarS1lWpa5yAKPZeuIwGs7VJaEEsss9RFuv"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224095,
+    "id": "HtdJapGYB4aA0-kPotqL6Q4",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 213,
+      "total_tokens": 240
+    }
+  }
+}

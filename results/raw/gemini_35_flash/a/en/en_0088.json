@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0088",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.36,
+  "ref_text_raw": "On some routes, the larger companies have their own planes, but for other routes and smaller firms there was a problem.",
+  "ref_text_normalized": "on some routes the larger companies have their own planes but for other routes and smaller firms there was a problem",
+  "timestamp_utc": "2026-07-05T10:33:22Z",
+  "text": "On some routes, the larger companies have their own planes, but for other routes and smaller firms, there was a problem.",
+  "latency_sec": 3.4805,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "On some routes, the larger companies have their own planes, but for other routes and smaller firms, there was a problem.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Eo4GCosGARFNMg+ZiG4FogfcJmyHHbLcWjxMz9zshDrKBIJhJfoJmcehrHB92MxIqD2ZdNJBg/W+TmI0p2Nb/1j3odR9mBZMPUduilMfNrNtuZzqkX2HWWgZXtPqr3RpwpwdLwzlJZkIv89c7DkoaRHwpW/gWvlQRxCQ+LLIP0M5+I77QbwXFOZpatVEJ8QbX8bt3cE9XCVjk0u+sCRrfzWH5mG2PNCc0+/ERtdvAki46Mh5emgK5c3LCQbOBZopuunDcuxS9IUpGIgCj9DQAyRFlonVmpicfdXxXy5/ZKRgbSYpbWvB85ZXArkhxkGDIyTLdDprDvt/rdALok77Z0y9V361wcMWN4+cJ18c5cDAfGtSHpIMkpxk6MO2a5TtUAGGEYFp9xG59kZm+cCGk1Ma1r4F1kj2vTRnXhpDou707yqK2V2Bva9iviBRlQAfLRAzys2nMerkVyTkVIme6rq745MzCYSJJO79apFdiLtgnMU3dvmpwZJ4nn5draOQH4AyZtENY5bAkNXGSB9lzClMdv5tRftPbTkdBLCpzw6xA00eKJWyWtTQXiMv4QNWjuE6A8cVwS3ttJh3K6hJ1oSz6yOpeWG1ItIoi0wTFtK7Rnuh9wzoaiXGkXLN0biSs8Cqy/QEy5RjcjNg4oTiat3V005p4tO3zi7DoXIb16hTPghIronHbXAKnXZm7kJ2sq4Mhhg17DwUh9sOdy7Szy0W4ZEdDFlK3SEhKqtKqi/APn3N/LW5b+MvmhzKd0WPQFJXcIw7uyG4jfE2RPXXuFg3tZN/62CkNLQnfpmm6I+YPELA99oFXbllXURg6t7wmbB4t8pTFcpOshvd2cT06AjNcLFEg54MFtll1W7SVn3BaXT2zMH1tYYUSeMxBk/SICrD0PxsDEoWZgeHX9Tu7zlK/QGTPE9CIFIF52+RcZDAnxyd7OmspuuLWlTMX2yIjVcdT03tm1HlJ2KwbzHDYEk9vpTbFD6ILVZ6QYEDxUiNh9ig8Ig+80JLvpxij5/uLHWHAlcfyRaTR29R0i7Kic4="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247602,
+    "id": "8DJKapPyCY3O1e8PpY-EiAI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 255,
+      "total_tokens": 455
+    }
+  }
+}

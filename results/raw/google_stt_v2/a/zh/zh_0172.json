@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0172",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 10.56,
+  "ref_text_raw": "如果在冬天穿越北波罗的海，要检查客舱的位置，因为在冰面上航行会给那些受影响最严重的人带来非常可怕的噪音。",
+  "ref_text_normalized": "如 果 在 冬 天 穿 越 北 波 罗 的 海 要 检 查 客 舱 的 位 置 因 为 在 冰 面 上 航 行 会 给 那 些 受 影 响 最 严 重 的 人 带 来 非 常 可 怕 的 噪 音",
+  "timestamp_utc": "2026-07-05T06:33:32Z",
+  "text": "如果在冬天穿越北波罗的海，要检查客舱的位置，因为在冰面上航行会给那些受影响最严重的人带来非常可怕的噪音。",
+  "latency_sec": 4.1768,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "11s",
+      "requestId": "6d587c4e-0000-2832-9460-14223bc7d1aa",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "如果在冬天穿越北波罗的海，要检查客舱的位置，因为在冰面上航行会给那些受影响最严重的人带来非常可怕的噪音。"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

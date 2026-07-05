@@ -1,0 +1,44 @@
+{
+  "utt_id": "pt_0017",
+  "lang": "pt",
+  "engine": "gemini_31_pro_preview",
+  "duration_sec": 20.4,
+  "ref_text_raw": "Cinco minutos depois, um vento começa a soprar, cerca de um minuto depois, o vento está chegando a 70km/h... então vem a chuva, mas tão forte e tão grande que bate em sua pele como uma agulha e cai granizo do céu, pessoas em pânico e gritando e correndo umas sobre as outras.",
+  "ref_text_normalized": "cinco minutos depois um vento começa a soprar cerca de um minuto depois o vento está chegando a 70km/h... então vem a chuva mas tão forte e tão grande que bate em sua pele como uma agulha e cai granizo do céu pessoas em pânico e gritando e correndo umas sobre as outras",
+  "timestamp_utc": "2026-07-05T06:22:45Z",
+  "text": "5 minutos depois, um vento começa a soprar. Cerca de um minuto depois, o vento está chegando a 70 quilômetros por hora. Então vem a chuva, mas tão forte e tão grande que bate em sua pele como uma agulha e cai granizo do céu. Pessoas em pânico e gritando e correndo umas sobre as outras.",
+  "latency_sec": 11.5747,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-pro-preview",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "5 minutos depois, um vento começa a soprar. Cerca de um minuto depois, o vento está chegando a 70 quilômetros por hora. Então vem a chuva, mas tão forte e tão grande que bate em sua pele como uma agulha e cai granizo do céu. Pessoas em pânico e gritando e correndo umas sobre as outras.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232565,
+    "id": "K_hJauenBLup2roP26eg2QY",
+    "model": "gemini-3.1-pro-preview",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 77,
+      "prompt_tokens": 531,
+      "total_tokens": 1671
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0150",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.52,
+  "ref_text_raw": "ช็อกโกแลตร้อนถือว่าได้มาตรฐานเบลเยียม น้ำผลไม้มีราคาแพงแต่รสชาติดีมาก",
+  "ref_text_normalized": "ช็อกโกแลตร้อนถือว่าได้มาตรฐานเบลเยียม น้ำผลไม้มีราคาแพงแต่รสชาติดีมาก",
+  "timestamp_utc": "2026-07-05T08:10:10Z",
+  "text": "ช็อกโกแลตร้อน ถือว่าได้มาตรฐานเบลเยี่ยม น้ำผลไม้มีราคาแพงแต่รสชาติดีมาก",
+  "latency_sec": 2.9614,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ช็อกโกแลตร้อน ถือว่าได้มาตรฐานเบลเยี่ยม น้ำผลไม้มีราคาแพงแต่รสชาติดีมาก",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPswu5iQcDQi0meQPCDDOI7gji2dxnxWjwVcy3rBvf/VF5VZzz003afG1e9rwF"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239010,
+    "id": "YBFKatGEMOex2roPq7DX0QU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 234,
+      "total_tokens": 261
+    }
+  }
+}

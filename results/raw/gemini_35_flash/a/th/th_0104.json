@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0104",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.22,
+  "ref_text_raw": "ค่า pH จะถูกระบุด้วยปริมาณไอออนที่อยู่ในไฮโดรเจน (H ที่อยู่ใน pH) ในสารเคมีที่ได้รับการทดสอบ",
+  "ref_text_normalized": "ค่า ph จะถูกระบุด้วยปริมาณไอออนที่อยู่ในไฮโดรเจน h ที่อยู่ใน ph ในสารเคมีที่ได้รับการทดสอบ",
+  "timestamp_utc": "2026-07-05T08:01:36Z",
+  "text": "ค่า pH จะถูกระบุด้วยปริมาณไอออนที่อยู่ในไฮโดรเจน H ที่อยู่ใน pH ในสารเคมีที่ได้รับการทดสอบ",
+  "latency_sec": 4.1008,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ค่า pH จะถูกระบุด้วยปริมาณไอออนที่อยู่ในไฮโดรเจน H ที่อยู่ใน pH ในสารเคมีที่ได้รับการทดสอบ",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqsLCqgLARFNMg/aKKtEhmXCcgN+bxLLKqa0v+FqjNCI9rfTfINi/p2tTDoItTWhTDydJlzPskvV7y91TGcFg1VtP5V7kzWs8xtAOf5S9w6GHMjaDqi+pYgx+p1kycHGCbljUSjnb3Ktgq9SuTcRN/H7lhTi9z7H3bllvtj32zZLi+QgXiwbA5E7ikgYKR+qcKi0hRmSpa0Tv5VjcGrBwKKrT6Ini0XWk/+yB+CTHngZmA/B88R9u1i2RKFJ6sqRM1EJsQmOa3fdrdcKzWRqDvGAj9JR60ET9GcGmd2TlLRBbKq4zUbY5/EKA5GcMTatSOzBuf3vD1vgHpVv1968obz844At61dOsxyV9ZJ5NET05fAP8hRF9yRtmqQkOX+1V17V8hMyGH0u8flO3Q6CHtC4U+i7CaWxPmCs007FWX+TR1VZCWk8ZCUUglAdjkE/F3azxzTaQcEeY8QL3RVp1qM6yrGzJ24V1zvwx8WXeV3z4HD2Wx1v5HZNoSrdUSi7DmP20YahbJJx9Cu2E5Mukg4oGMytyYng6ufSy+Ac2eD3EF2vF1YpEHRYm/sYKDKBd6zZKVoKDDcCKEPB2ue8RGPXyAsLGgQu2BeR0aa0SB+Q4vTKLvUOf4NweS4qiVOMSYQJGbPf2Iv7SsdLWBfp6lx4L7ydPcM82/U46XMbUfCr0FSmuPPsZbEGxCjq0+6gil+tbSRydLC/YVva94A8dybaWEduyik0pin9df6PJx0rPDVmyOgeubUbdwUmU1lPcM9AWVZyA+aJHO73f23xIN/HxzwREU2CefiGvG/K9NnuzKwGTBvvxzp8rOey/8y26D1FusXzqRs9OjKAtQP4snunBlKqwqqEj6DAv7TN6vaBuIZKQEIuqiny1zxZLzU/2EJpMoKiNzTe0QIgFGTeQGuc3bL4QwPpTMO/IsH8KETP+0CAQcBKUMtZbfDGMm/4CzNDAffSbAsriV6ktxW3RYvZvxzQlD1bJymZETNxsW4k8Ep8hrGmy6nTN/5joeyzTarjWYy+lv1kyNYoQY5kiQADGqW8eVf6OIZaLUX9lg0+VTlaPjpONKPHHdKpMtnm2PB8M6m0FsMyyIh3duHoFZRiRDsydttL0UfvNCvrewKOxBMFFXPigD0g/wS2PVb/8hL8BhddzI64QjuWC/EOyUGCuZeUaDc0xrazOc9Z1hlATCKNjg8eMqvLquF2T7FLdbf0nNqTzU9g8IHiwEhPYOrxsYAdCgZxQ0zbsT5Wp/4EVxE6M9NpkNNBCFI243T33K269WPcWvV0v8uOwVm+B0d5LWigHevYGiYY3qj9//qeUDpZkz5Obt0Wf3pTFF8ab2aRcqrstoJmWEGrmSMdQpwGMuoAtH5DY9bmK9FFbCS+7tRsbsgdn0Whm8Gd4eoHwPBF9rIbbe7M36TvsuO9QuYiTj2yCsWK+3MUwZQ+ompPVu/YvciZ29rfKIGTMOT2Xk8yc0GjiJKUJOIrcG3c/HddSweHRUFyaCkZYWus6T6EMy9CnOSqhHsy93awJiago4VnWKD8DJs6vjAeO9/zJpIzDao2d442Fh1SN9nCiPYt/e5+d9UB/FwLUDUfU304ouUgQqEjQ6mQbaydeUjdnR9t6s5xZYmd9T3j1xbtWhhb6FEFxOIKIMWDL/cFk1rngss0UZtvb0wik4s46Cjl0N64lnxMZL9ZZWF3s/VKmCg+nRRcmUog/J+Rc2LWLE1T3oEudENldE2tzclQTy+suOY//IocgFNR3xv70KSVi5tH5t2G4f4QAqsiIagj6pdRAY5brT1VhJ+1OomJ7psWbwWy/mFxpmRL+qo7MJvl4hiRO/vARZQYrAq/NQ5xvLa+Bd8/JK1UkiQeubsohi3p20rsmoSa6anWBWhP9PsCFTyFCaPqxQwmnaRjV0at2IXPPqPgBgvSfrN/mgAdCpI="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238496,
+    "id": "XQ9KatmpHeex2roPrLDX2QU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 302,
+      "total_tokens": 621
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0128",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.0,
+  "ref_text_raw": "Rolando Mendoza fired his M16 rifle at the tourists.",
+  "ref_text_normalized": "rolando mendoza fired his m16 rifle at the tourists",
+  "timestamp_utc": "2026-07-05T03:34:51Z",
+  "text": "Rolando Mendoza fired his M16 rifle at the tourists.",
+  "latency_sec": 2.5797,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Rolando Mendoza fired his M16 rifle at the tourists.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP6u12gR/N7Q5NQDZRzKUSLMuCTHxSr9V3+py1qMOIpEOhvHuaM5aTrH1/N4LP"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222491,
+    "id": "2tBJatLVB_HZ1e8Pi4G_8QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 13,
+      "prompt_tokens": 171,
+      "total_tokens": 184
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0172",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.56,
+  "ref_text_raw": "Соотношение сторон этого формата (поделенное на двенадцать, чтобы получить соотношение с небольшими целыми числами) поэтому принято за 3:2.",
+  "ref_text_normalized": "соотношение сторон этого формата поделенное на двенадцать чтобы получить соотношение с небольшими целыми числами поэтому принято за 3:2",
+  "timestamp_utc": "2026-07-05T07:37:39Z",
+  "text": "Соотношение сторон этого формата, поделенные на 12, чтобы получить соотношение с небольшими целыми числами, поэтому принято за 3 к 2.",
+  "latency_sec": 3.0291,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Соотношение сторон этого формата, поделенные на 12, чтобы получить соотношение с небольшими целыми числами, поэтому принято за 3 к 2.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPsjeuq8a9FIoaq/zgoCaeKcapMiANYPOlINdg7ZAD7OsuL7xI5RSKX6Z+oyRs"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237059,
+    "id": "wQlKao6tOdCivr0P-6eduQE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 285,
+      "total_tokens": 321
+    }
+  }
+}

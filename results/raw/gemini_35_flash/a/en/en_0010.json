@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0010",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 4.8,
+  "ref_text_raw": "Through the night between 150 and 200 copies were made, now known as \"Dunlap broadsides\".",
+  "ref_text_normalized": "through the night between 150 and 200 copies were made now known as dunlap broadsides",
+  "timestamp_utc": "2026-07-05T10:27:17Z",
+  "text": "Through the night between 150 and 200 copies were made now known as Dunlap broadsides.",
+  "latency_sec": 5.7727,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Through the night between 150 and 200 copies were made now known as Dunlap broadsides.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtsPCtgPARFNMg80EG5PAANdT64jUgnM75q9fKfHZDEMCttqZnNLSijAOvhmwDHDuCjL5XWSJjOs9rCKwrBmWcbC+ZC9CyAuYdaLI1rE0N7nkPUavBleG2S4eOsCsOOpIvsXrcrciZFWzQamw73BLDlYXbW0kZ4MnHNbZngkPDvxhM8bbWUTMLefrFiPD4S1127qzh/pT5rsfwOFRGIISX2XjrlxMhAocX55xY29OuIOBoveEZTF4+sZKQFGDotjwGHj0SCxfDzfq6JkDunvHP5aOdT7xh8dPRvLZR+apsQZKnorrcnG7L3VLA5j41onFXzi62DsxYJh3XVX/H5J83HA6ksuy2JsE1Dgg0dVL2RuW2bfLhmt6u2BVbarSzRYLShWfiSPWyYVGuTiiV6H5E9tJ/zE0fJt2C1591QKaYBmTleUujUf9dJICyl4up/d17rqe7F6zqrSRTCRhgwY9VC4mdqBCIXULOXCAFA3hL/gVrPey+OCR1H09QvwBRVwWQrMbKr1Hrk/r1zsmoRYCYlA/DvclVDEsRhSUk/Bb5knhG6ZnaUZq5Hw4xPyWc0CekDTLALIjdvXgnhi8YZEvDMBdk9fBy0IwvhCHUDCe9G03MyEbfn7iCDF0OYTCuGVYN+5eWem3+EGt44Y4GV0+eF0qN4Au6XrqbNDCOVZFN6WTuQ71e6g8pP1LnPTcjleEgzmq5ce5fPKsaTQc4ivA9aj5kJB/RMETOFNND1KE90wWmtsRIW5yd9lvf2LaBiuHcMq5UUhEIKpFgjSqsO5qBp4CK4UYd+MAfrGDkJ7kkNgSovpxefFX5FtVO9ymynVdSHuDNu4GuWqlTIRgNGC1XrrVbeJ+Bnf5gU9f8XkA2lWJKH96rWxFekjHD7LDtzLxBNeCGk+nzadVizN+yte+HJpL3EScE4GVtbXquOx5JbkNkKOx05JA3jlw5L12REWIa2H/oLG5iZSpa/XpxzfH/OELxsWMG/VyJxojJEm7MZHxjI0UZwzjqjeV65lLEDt0r6qcSqYGr8dMy1lumc0yPa/lnYZzML5nEpBY/tJMe/wCa295QaWti9jI1dZqowCeZHwNHUFlcJ73pBUmIfrse77vITyEA4kLfc7e+DdvyJPjj6jUpuA1MR7i1qyb53MRzlJ6/6SRa+x2f1Twv3YxA3D8gm/EQ4AfDMy6f3js+WzUeNky04CdQWQfpjaVQDtCaECLUlk+1j9mQwGHseTa1PwB7NAOwXOXYTdJ55xU4FDbuY2lBuJnJwjFd+hjD4fNyvSu7F11mDjRDe6UBcvc+Fnpk46HoLn278QEd5sAlxJW0ofYWEbvT5QEeyFi0cxx+aIMfRxaMmZ1aeFgYxovYt/7tBLyxo8aTIe8qt4TO7Ql4XESaADx3BfvIn7OdYoCAHfSgUlk7r9ykMR57NjfWwKaVphnYGE7NhYtgc8h/xz9cl4kGpwAZHHO9RVC+WT4DH45xzofXvpWSKG4ZJs1nShtJvrP81jimgTMcS0xhoYpxAsRK0mABJQW+uCwFmaGfK6yDZxYeQ7OcBjrnOhhIToj0xkwdT6oLPfgdDAIn/OE24zZUFhb1u4YQrM+ljicXdEps5wUw5SpZ/mrtpqDUtR2cYPj2yhcXgp8AQ3YJNkurf17KHTB3vEFm0QlD3Un4DVJW0AUIGv+FPa0jaTbLBbSE1wDcvOqxBkyWp+xbF+1PKyJOyHI6bq4uQuKq+LOIE50mIxiq5vBz1ZLQl43w35mSX3KBdW5XyxezeQSbrZI/xsVyKdNNww26RVb/IQg6EEflHs7frVFjfbh/lHjRzRn6VWsWapdmjuM24nY6UYYofnJZrIR3NbIcDBfY5pGGgKoyQLOX7QTye4J6ZO/wKpbdJFpSdv71q2WtbGv4Jo+gE3RTgTXuy10jFinLLFNkt5CyUu2ZLdyMI5nCYZXyhLj5kP4uKZHYYVrdr3a2FJVD7RTleYWFvMttFTD0+Tv9W15CxmCwQHMsVJf19lquANU9odpkN4Hpem0xFbsdAZPVm9MwHdp7bJUyDVKdTOG4LtyL8qd7mphdCu1dV2eUfCqGhjX3dwA/KciMStySVCO0BseFHjtXa0uuuuXe0UGbfmROWpsv+CTRiANFccb78fWWYbDKTm9ZSGipSdUlltUoEYMUxLZL29AG3Z07pHH01AN3m+AwlYWH50yyE066T3ne4dVrPUbySIVRVigJOu5CexrNlwvR1SsQtXNa4PPa+qVmyX49GQ2At2C9cpbZPvsc6+IDktPYxvFIT1G3KYibOlnaHMvHfVktjYfZmEgjKe9zQKXSEA2uSuADCmY0oRVtqlp8mxyfyPX0SzgzfZcOugkEXuZHy2Fr0E7Km79PJTXgVEJuLz9Bz/iI4LKKwNTdpk1eM46Go6imBRJ/eqqlQ0dLrIjjawR5wmG1kefQENQK0IC9rs9nNR5KtSe2U4fw+i2Z7zSCX/uam149ijgU4plDib7Kt0857Km/maJml94QwDIPfKr4EBrcMv0osrKxKnLaqQ/uW+9lhWG5kg/dCJZVvDc00GSN7YJNWDPaQtClci54cAyKivgoShkZon9dG4i1c0QzIBX+jMAD8/KQzyhzvLVSMChBJZvs6eRM6XWHQcLKDL1WWz5g8Uz4G0htvI5xRrebXURgSwjTtJ8LThSAtIBI6p7/zaxA=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247237,
+    "id": "gDFKar_FPLzW2roP5ab44Ak",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 141,
+      "total_tokens": 731
+    }
+  }
+}

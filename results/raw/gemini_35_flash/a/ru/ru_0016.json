@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0016",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.76,
+  "ref_text_raw": "Султан Марокко перестроил город под названием Эд-Дар-эль-Бейда, а испанские торговцы, создавшие тут торговые базы, назвали его Касабланка.",
+  "ref_text_normalized": "султан марокко перестроил город под названием эд-дар-эль-бейда а испанские торговцы создавшие тут торговые базы назвали его касабланка",
+  "timestamp_utc": "2026-07-05T07:17:45Z",
+  "text": "Султан Марокко перестроил город под названием Эд-Дар-эль-Бейда, а испанские торговцы, создавшие тут торговые базы, назвали его Касабланка.",
+  "latency_sec": 4.2101,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Султан Марокко перестроил город под названием Эд-Дар-эль-Бейда, а испанские торговцы, создавшие тут торговые базы, назвали его Касабланка.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqMLCqALARFNMg9hUKqN+9yLHA4mM1EKd1Dm4mCa9OBaJFr0UgFkGiO6AxFQs7NLAVY5b23umvmVOrzncQ5r7RHaXct6cckIP3VyvLFQATllkd7zDGUFdCVeg0EYC/GiMiSNT3cN/OX1bnjOTtkfAUYnbhF5kdWT6TefXVgF7+etkAC0WdWczfSe9NUEYTEgc1SkPh/UwoZQw+I/pLYNgi/i73EE2AK4fIgPsNqQ26qtv5XL1G3uDf9RMwdEtSjZNiA+IzXM6NMLSv4BActLuAoZHVnkRuBnax1kGmbcxcGgfwvKlx3ERaOQ3k4ADdoD0ARlkNXoUum2rZlDnWI6nsQBk2pl0PfU32zzSpBZ0zSw1qeAbGpPsGE2Xh7dG1X4XsDtUhiQM1WHAqpz0L3AEEwdeSB1waqht4GN0iOOqLmY6Xl4jxOLrKtM1tYLQmeE4n3m0FToaryJq2JzBGY4bMdVyVAEMkavPyZpOTAq/4A87BjEjOknNbNsAAf1atsho2Hl6VT2mTIV5GTpM+RSxk/Zk1Domja3bsq6GqAc2J+VJc/866nH224I5OjQq6/u9aepFoL9J8vPh+wk6rqmOcn50kbqHHU3sLfk6Zc80GUb5gY7FhHQueLYZS4jC1LVbMQMdOnODuvmHlo5eJJr3aRYoRxeG+QxjT8BKLce6rZLYrOBhloBIl6WtFsPwbwBXhaBdAZW+8USwdCxgLfSuXAfFXwWSne7bkUjmOw6HmgOXd3cUjBaBhFobnnOlnVq28l9V0SV2Psfbmi2xgDyOH9mI2cZZ0AbOGQ/CPgZQQMPEf8Zy+Djn8smsvzCRSWifpt6BPR0CJoXehzHVzNKzLw2Sawd//pyUrj4N9TqNxXFApt1hJtKV8v2ZSZCMroKcGbxLtOAU6IhJbgE+1jpDLD/yAHFH2zMhUA8UAsAvgp7qLXU9qvOvNq/51IAECSDbkyXHdnIwgkgDMeuXH/R1VezuxkhudTOjnrRPFC4Q2PFQ5dd6gAkgrv9+ntLETRX/WeAWEOTxEmcvFAvxHIznzg/zldxxB1BpPIu3Qo4qKqEFhSk34f4sp4z1USUnLTbwvbySB+UyJdj3XrzOKuIrulFO/9l3YrgQgMUz8smAt9ADBcheQGAakRGC1mpC1VySDaex3bojUvka7jPXKed5Abp5S1GDw4k5I6j0S8EEslixhQGQYhahTvsAprR5MQZWv/uug6xVsXhwiMJanV8gloXJDy5guGPif/WlQh33I+vjEPxsUXTP8w6s9LtAlKg113tB9+iIhZ+m4k9UKBPV2d1jPyYMidRgWW19oz/mm7hcbF16YVeZfCnZFQ2jBbR/NamJInJAlUXzOfHSyOyXsXGmITpXg4EVVX+XlyVrjGlGz2pbwZiAV8beCh79XZVKngyyynohuHedetEV0pd2KEWfYcEl8CJz3gKRN15d9tbXPoc4m2wTM1EtH1o9lJgrassbNBdizK8OrjF9FOO9vjlPu5C/+JoWwk5ksOzsSqTixoZPk4T+pVXCtkcu4YuyVrej1DyWDT43icLBZmfXoEduW0CHNh1UqX+V45diXX6OJKTurfavbH0UGvJwnRGf46lQhIodCo/jl6hjZJ3EdMAyV4tNBatRA0+wPaklE4DZ4pYTBErIUDvdUxC/4RbOdJydTf2h7ompPhatTlZg1sf8WdPdd2v3Hv5bXYS5qD6rivQnHimLkaDOrnjmTVcPu67+jOXcOjS0ft2YvSA4/7Z3hw0UrPbU8FGdTbby/hkR6svEEJtVg7Gay0ERq19e+eccKt2nBO+OGRjZZnSJd1az3L9wdh9pVEc6DhszaVu0CikkoOfiPotoqH64Z9kicdUma59L+oPCStos5dJwFirBQTNrYOcOvuiKdrnJCbENXKmFELGH5lwMR59IU9/saQBsoz5"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235865,
+    "id": "FgVKas7QM8Gn2roP073K4AE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 315,
+      "total_tokens": 657
+    }
+  }
+}

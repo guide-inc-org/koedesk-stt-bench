@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0181",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.08,
+  "ref_text_raw": "Помимо соревнований в среду, Карпендо принимал участие в двух индивидуальных соревнованиях на чемпионатах.",
+  "ref_text_normalized": "помимо соревнований в среду карпендо принимал участие в двух индивидуальных соревнованиях на чемпионатах",
+  "timestamp_utc": "2026-07-05T07:38:11Z",
+  "text": "Помимо соревнований в среду, Карпендо принимал участие в двух индивидуальных соревнованиях на чемпионатах.",
+  "latency_sec": 2.6599,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Помимо соревнований в среду, Карпендо принимал участие в двух индивидуальных соревнованиях на чемпионатах.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPXEf9UOz2U1bsVj2V/aSZJuJtQwZ9afI7tiUZrDFZKGYj+ZNnlxRVgU8ePY8m"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237092,
+    "id": "4glKauihJMvb2roP0s2koQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 198,
+      "total_tokens": 222
+    }
+  }
+}

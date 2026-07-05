@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0054",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.18,
+  "ref_text_raw": "Mme Kirchner a annoncé son intention de se présenter à la présidence au Théâtre argentin, le même endroit où elle a commencé sa campagne 2005 pour le Sénat en tant que membre de la délégation de la province de Buenos Aires.",
+  "ref_text_normalized": "mme kirchner a annoncé son intention de se présenter à la présidence au théâtre argentin le même endroit où elle a commencé sa campagne 2005 pour le sénat en tant que membre de la délégation de la province de buenos aires",
+  "timestamp_utc": "2026-07-05T05:05:56Z",
+  "text": "Madame Kirchner a annoncé son intention de se présenter à la présidence au Théâtre Argentin, le même endroit où elle a commencé sa campagne de 2005 pour le Sénat en tant que membre de la délégation de la province de Buenos Aires.",
+  "latency_sec": 4.684,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Madame Kirchner a annoncé son intention de se présenter à la présidence au Théâtre Argentin, le même endroit où elle a commencé sa campagne de 2005 pour le Sénat en tant que membre de la délégation de la province de Buenos Aires.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227956,
+    "id": "MeZJatzRJ-3j1e8P2Y3r2QE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 52,
+      "prompt_tokens": 326,
+      "total_tokens": 764
+    }
+  }
+}

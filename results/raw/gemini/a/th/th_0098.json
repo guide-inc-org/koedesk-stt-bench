@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0098",
+  "lang": "th",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.98,
+  "ref_text_raw": "ตามข่าวที่รั่วไหลออกมา เอกสารฉบับนี้จะอ้างอิงถึงข้อพิพาทเรื่องพรมแดนซึ่งปาเลสไตน์ต้องการโดยอ้างอิงจากพรมแดนก่อนสงครามตะวันออกกลางในปี 1967",
+  "ref_text_normalized": "ตามข่าวที่รั่วไหลออกมา เอกสารฉบับนี้จะอ้างอิงถึงข้อพิพาทเรื่องพรมแดนซึ่งปาเลสไตน์ต้องการโดยอ้างอิงจากพรมแดนก่อนสงครามตะวันออกกลางในปี 1967",
+  "timestamp_utc": "2026-07-05T07:42:22Z",
+  "text": "ตามข่าวที่รั่วไหลออกมา เอกสารฉบับนี้จะอ้างอิงถึงข้อพิพาท เรื่องพรมแดนซึ่งปาเลสไตน์ต้องการ โดยอ้างอิงจากพรมแดนก่อนสงครามตะวันออกกลางใน ปี 1967",
+  "latency_sec": 4.6704,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ตามข่าวที่รั่วไหลออกมา เอกสารฉบับนี้จะอ้างอิงถึงข้อพิพาท เรื่องพรมแดนซึ่งปาเลสไตน์ต้องการ โดยอ้างอิงจากพรมแดนก่อนสงครามตะวันออกกลางใน ปี 1967",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237343,
+    "id": "2wpKaoemHqTMrfcPve3HuAM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 61,
+      "prompt_tokens": 373,
+      "total_tokens": 544
+    }
+  }
+}

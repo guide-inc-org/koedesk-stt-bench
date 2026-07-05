@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0007",
+  "lang": "ko",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.02,
+  "ref_text_raw": "그래도 관계자의 조언을 듣고 모든 표지판을 지키고, 안전 경고에 세심한 주의를 기울여야 합니다.",
+  "ref_text_normalized": "그래도 관계자의 조언을 듣고 모든 표지판을 지키고 안전 경고에 세심한 주의를 기울여야 합니다",
+  "timestamp_utc": "2026-07-05T05:53:05Z",
+  "text": "그래도 관계자의 조언을 듣고 모든 표지판을 지키고 안전 경고에 세심한 주의를 기울여야 합니다.",
+  "latency_sec": 3.8896,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "그래도 관계자의 조언을 듣고 모든 표지판을 지키고 안전 경고에 세심한 주의를 기울여야 합니다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230785,
+    "id": "P_FJatWxAdy4vr0Pgo3U0Q8",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 246,
+      "total_tokens": 484
+    }
+  }
+}

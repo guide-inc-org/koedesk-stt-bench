@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0005",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 6.96,
+  "ref_text_raw": "群島や湖では、必ずしもヨットは必要ありません。",
+  "ref_text_normalized": "群島や湖では 必ずしもヨットは必要ありません",
+  "timestamp_utc": "2026-07-05T10:01:57Z",
+  "text": "軍刀や湖では必ずしもヨットは必要ありません。",
+  "latency_sec": 3.2362,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "軍刀や湖では必ずしもヨットは必要ありません。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783245717,
+    "id": "kytKarzCMofEvr0P5fGP6AE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 13,
+      "prompt_tokens": 244,
+      "total_tokens": 284
+    }
+  }
+}

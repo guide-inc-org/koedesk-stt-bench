@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0077",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 18.42,
+  "ref_text_raw": "連邦議会は2005年度から猥褻物取締法への資金提供を開始し、FBIはアダルトポルノに10人の捜査員を投入しなければならないと規定しました。",
+  "ref_text_normalized": "連邦議会は2005年度から猥褻物取締法への資金提供を開始し fbiはアダルトポルノに10人の捜査員を投入しなければならないと規定しました",
+  "timestamp_utc": "2026-07-05T10:10:40Z",
+  "text": "連邦議会は2005年度から猥褻物取締り法への資金提供を開始し、FBIはアダルトポルノに10人の捜査員を投入しなければならないと規定しました。",
+  "latency_sec": 4.2265,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "連邦議会は2005年度から猥褻物取締り法への資金提供を開始し、FBIはアダルトポルノに10人の捜査員を投入しなければならないと規定しました。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246240,
+    "id": "nS1KaoSZMLyo1e8Prpqp8QY",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 611,
+      "total_tokens": 695
+    }
+  }
+}

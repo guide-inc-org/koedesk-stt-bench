@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0028",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.88,
+  "ref_text_raw": "Долина Кочамо – главное направление в Чили для альпинизма. Она известна как Йосмит Южной Америки и имеет большое количество больших гранитных стен и скал.",
+  "ref_text_normalized": "долина кочамо главное направление в чили для альпинизма она известна как йосмит южной америки и имеет большое количество больших гранитных стен и скал",
+  "timestamp_utc": "2026-07-05T07:02:14Z",
+  "text": "Долина Кочама - главное направление в Чили для альпинизма. Она известна как Йо Смит Южной Америке и имеет большое количество больших гранитных стен и скал.",
+  "latency_sec": 3.3128,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Долина Кочама - главное направление в Чили для альпинизма. Она известна как Йо Смит Южной Америке и имеет большое количество больших гранитных стен и скал.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234934,
+    "id": "dAFKaq64Govb2roP5ayN6AY",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 402,
+      "total_tokens": 472
+    }
+  }
+}

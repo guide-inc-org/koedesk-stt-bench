@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0020",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.76,
+  "ref_text_raw": "ビデオ録画の利用は、数ミリ秒程度続く微表情、つまり顔の動きを解釈するうえで重要な発見につながっています。",
+  "ref_text_normalized": "ビデオ録画の利用は 数ミリ秒程度続く微表情 つまり顔の動きを解釈するうえで重要な発見につながっています",
+  "timestamp_utc": "2026-07-05T10:03:16Z",
+  "text": "ビデオ録画の利用は数ミリ秒程度続く微表情、つまり顔の動きを解釈する上で重要な発見につながっています。",
+  "latency_sec": 4.7762,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ビデオ録画の利用は数ミリ秒程度続く微表情、つまり顔の動きを解釈する上で重要な発見につながっています。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783245797,
+    "id": "4StKaqCTL-zFvr0P-YXt8AM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 398,
+      "total_tokens": 455
+    }
+  }
+}

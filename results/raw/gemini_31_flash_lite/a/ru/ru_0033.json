@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0033",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.52,
+  "ref_text_raw": "Все во вселенной состоит из материи. Вся материя состоит из мельчайших частиц, называемых атомами.",
+  "ref_text_normalized": "все во вселенной состоит из материи вся материя состоит из мельчайших частиц называемых атомами",
+  "timestamp_utc": "2026-07-05T07:29:02Z",
+  "text": "Всё во Вселенной состоит из материи. Вся материя состоит из мельчайших частиц, называемых атомами.",
+  "latency_sec": 2.6608,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Всё во Вселенной состоит из материи. Вся материя состоит из мельчайших частиц, называемых атомами.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPvZDDXNJ71SRnvvcM3IkxmhhVKH14AyPe4SwwuvOJ4BVOVE0e28tMGYI+svgG"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236542,
+    "id": "vQdKat54ybO-vQ-k4KvZAg",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 234,
+      "total_tokens": 260
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0164",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.04,
+  "ref_text_raw": "Trẻ em được đưa vào diện Chăm sóc Thay thế vì nhiều lý do, từ không quan tâm đến lạm dụng hay thậm chí cưỡng đoạt",
+  "ref_text_normalized": "trẻ em được đưa vào diện chăm sóc thay thế vì nhiều lý do từ không quan tâm đến lạm dụng hay thậm chí cưỡng đoạt",
+  "timestamp_utc": "2026-07-05T08:47:33Z",
+  "text": "Trẻ em được đưa vào diện chăm sóc thay thế vì nhiều lý do, từ không quan tâm, đến lạm dụng hay thậm chí cưỡng đoạt.",
+  "latency_sec": 3.3545,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Trẻ em được đưa vào diện chăm sóc thay thế vì nhiều lý do, từ không quan tâm, đến lạm dụng hay thậm chí cưỡng đoạt.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPYb6A50fubOydRNky6pHphDn9sc3wPIcuu/nq1k8boZkUgUu1q5RhFVAHPW4N"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241254,
+    "id": "JBpKar6UEfPG2roPs9KcqAM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 297,
+      "total_tokens": 330
+    }
+  }
+}

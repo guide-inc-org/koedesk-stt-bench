@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0085",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 5.94,
+  "ref_text_raw": "Entre 22 h 00 et 23 h 00 MDT, les détenus ont allumé un feu dans la cour.",
+  "ref_text_normalized": "entre 22 h 00 et 23 h 00 mdt les détenus ont allumé un feu dans la cour",
+  "timestamp_utc": "2026-07-05T04:56:03Z",
+  "text": "Entre 22h et 23h MDT, les détenus ont allumé un feu dans la cour.",
+  "latency_sec": 6.1927,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Entre 22h et 23h MDT, les détenus ont allumé un feu dans la cour.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227363,
+    "id": "3uNJarzML4aA0-kPotqL6Q4",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 212,
+      "total_tokens": 422
+    }
+  }
+}

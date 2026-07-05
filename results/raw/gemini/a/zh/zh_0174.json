@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0174",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.36,
+  "ref_text_raw": "它的舌头有可能是分叉的，对此我们尚不确定。它的食物包括海龟、大型鱼类、其他沧龙，甚至会吃人。",
+  "ref_text_normalized": "它 的 舌 头 有 可 能 是 分 叉 的 对 此 我 们 尚 不 确 定 它 的 食 物 包 括 海 龟 大 型 鱼 类 其 他 沧 龙 甚 至 会 吃 人",
+  "timestamp_utc": "2026-07-05T09:02:19Z",
+  "text": "它的舌头有可能是分叉的，对此我们尚不确定。它的食物包括海龟、大型鱼类、其他鲳鲴、甚至会吃人。",
+  "latency_sec": 6.9386,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "它的舌头有可能是分叉的，对此我们尚不确定。它的食物包括海龟、大型鱼类、其他鲳鲴、甚至会吃人。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242140,
+    "id": "lh1KavLjEJr22roP4enR6AU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 321,
+      "total_tokens": 893
+    }
+  }
+}

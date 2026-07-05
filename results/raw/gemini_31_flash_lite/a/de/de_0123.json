@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0123",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.4,
+  "ref_text_raw": "Die meisten Gebäude an den Rändern des Komplexes wurden wieder aufgebaut, um den Touristen einen besseren Eindruck davon zu vermitteln, wie sie ursprünglich aussahen.",
+  "ref_text_normalized": "die meisten gebäude an den rändern des komplexes wurden wieder aufgebaut um den touristen einen besseren eindruck davon zu vermitteln wie sie ursprünglich aussahen",
+  "timestamp_utc": "2026-07-05T04:07:13Z",
+  "text": "Die meisten Gebäude an den Rändern des Komplexes wurden wieder aufgebaut, um den Touristen einen besseren Eindruck davon zu vermitteln, wie sie ursprünglich aussahen.",
+  "latency_sec": 2.5428,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Die meisten Gebäude an den Rändern des Komplexes wurden wieder aufgebaut, um den Touristen einen besseren Eindruck davon zu vermitteln, wie sie ursprünglich aussahen.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPSDKbDGiXl3x65oUUTlyejxQzCC3bj3SwA8wLjTORqdcK/Xvadd3bGv7FAJl8"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224432,
+    "id": "b9hJat6gJK6l9tMP-_vv-QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 231,
+      "total_tokens": 266
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0139",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.72,
+  "ref_text_raw": "Массовое владение автомобилями также приводит к увеличению числа ДТП на дорогах, что приводит к изобретению в здравоохранении новых методов лечения полученных травм.",
+  "ref_text_normalized": "массовое владение автомобилями также приводит к увеличению числа дтп на дорогах что приводит к изобретению в здравоохранении новых методов лечения полученных травм",
+  "timestamp_utc": "2026-07-05T07:35:32Z",
+  "text": "Массовое владение автомобилями также приводит к увеличению числа ДТП на дорогах, что приводит к изобретению в здравоохранении новых методов лечения полученных травм.",
+  "latency_sec": 3.045,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Массовое владение автомобилями также приводит к увеличению числа ДТП на дорогах, что приводит к изобретению в здравоохранении новых методов лечения полученных травм.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPPYbgGqzMkMs9QAHNDh3UxksUMGB5VL5EYmhAAzjklNn3F+SvciVPP5yLJ94s"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236932,
+    "id": "QwlKaoXRGafKrfcP5Pio2QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 339,
+      "total_tokens": 377
+    }
+  }
+}

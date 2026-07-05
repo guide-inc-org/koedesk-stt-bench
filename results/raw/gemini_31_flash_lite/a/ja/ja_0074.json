@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0074",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.68,
+  "ref_text_raw": "カリフォルニア州のアーノルド・シュワルツェネッガー知事は、暴力的なビデオゲームを未成年者に販売やレンタルすることを禁止する法案に署名しました。",
+  "ref_text_normalized": "カリフォルニア州のアーノルド シュワルツェネッガー知事は 暴力的なビデオゲームを未成年者に販売やレンタルすることを禁止する法案に署名しました",
+  "timestamp_utc": "2026-07-05T10:17:14Z",
+  "text": "カリフォルニア州のアーノルド・シュワルツェネッガー知事は、暴力的なビデオゲームを未成年者に販売やレンタルすることを禁止する法案に署名しました。",
+  "latency_sec": 2.7183,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "カリフォルニア州のアーノルド・シュワルツェネッガー知事は、暴力的なビデオゲームを未成年者に販売やレンタルすることを禁止する法案に署名しました。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPWvFRdf5vw1duQjzK89D64TM3S2AQUKO5Vhf/vkiCDWtZ1jLqSs7mDyr2xceg"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246634,
+    "id": "KS9KaqfMGqXJ2roPu_yk0QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 363,
+      "total_tokens": 404
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0145",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.1,
+  "ref_text_raw": "One of the most common methods used to illustrate the importance of socialization is to draw upon the few unfortunate cases of children who were, through neglect, misfortune, or wilful abuse, not socialized by adults while they were growing up.",
+  "ref_text_normalized": "one of the most common methods used to illustrate the importance of socialization is to draw upon the few unfortunate cases of children who were through neglect misfortune or wilful abuse not socialized by adults while they were growing up",
+  "timestamp_utc": "2026-07-05T03:35:49Z",
+  "text": "One of the most common methods used to illustrate the importance of socialization is to draw upon the unfortunate cases of children who were through neglect, misfortune, or willful abuse not socialized by adults while they were growing up.",
+  "latency_sec": 2.6065,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "One of the most common methods used to illustrate the importance of socialization is to draw upon the unfortunate cases of children who were through neglect, misfortune, or willful abuse not socialized by adults while they were growing up.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP4PI0O+z/VTDhafMLovBU6pt+WN9Ipzw4HL+c3p2zbY6lSCQGkNpeiRpfonfj"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222549,
+    "id": "E9FJarqUMo_V2roPj7-7kAY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 374,
+      "total_tokens": 417
+    }
+  }
+}

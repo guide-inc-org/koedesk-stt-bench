@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0108",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.38,
+  "ref_text_raw": "在外围岛屿，可能无法使用信用卡，但可以使用英美货币；请事先与房主联系，确认可接受的付款方式。",
+  "ref_text_normalized": "在 外 围 岛 屿 可 能 无 法 使 用 信 用 卡 但 可 以 使 用 英 美 货 币 请 事 先 与 房 主 联 系 确 认 可 接 受 的 付 款 方 式",
+  "timestamp_utc": "2026-07-05T08:56:37Z",
+  "text": "在外围岛屿可能无法使用信用卡，但可以使用英美货币。请事先与房主联系，确认可接受的付款方式。",
+  "latency_sec": 3.6463,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "在外围岛屿可能无法使用信用卡，但可以使用英美货币。请事先与房主联系，确认可接受的付款方式。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241797,
+    "id": "QxxKaqvOB8mzvr0PpOCr2QI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 354,
+      "total_tokens": 446
+    }
+  }
+}

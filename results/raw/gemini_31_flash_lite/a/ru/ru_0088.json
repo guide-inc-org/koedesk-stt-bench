@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0088",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.28,
+  "ref_text_raw": "Севернее посетите также великий Храм Фатимской Богоматери (усыпальница) — место всемирно известных явлений Девы Марии.",
+  "ref_text_normalized": "севернее посетите также великий храм фатимской богоматери усыпальница — место всемирно известных явлений девы марии",
+  "timestamp_utc": "2026-07-05T07:32:24Z",
+  "text": "Севернее посетите также великий храм Фатимской Богоматери, усыпальница, место всемирно известных явлений Девы Марии.",
+  "latency_sec": 2.8723,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Севернее посетите также великий храм Фатимской Богоматери, усыпальница, место всемирно известных явлений Девы Марии.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPzLot5tsLcAB6uRWvymD848QHYjStw4M0nwY8NTsDmHQZQw+9DjhSrBP/yDBn"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236744,
+    "id": "hwhKapmAGZjCvr0PiamC4A8",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 303,
+      "total_tokens": 337
+    }
+  }
+}

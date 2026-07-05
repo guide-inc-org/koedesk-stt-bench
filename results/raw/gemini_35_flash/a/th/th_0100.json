@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0100",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 13.08,
+  "ref_text_raw": "พืชผลิตก๊าซออกซิเจนที่มนุษย์ใช้หายใจและรับเอาคาร์บอนไดออกไซด์ที่มนุษย์ขับออกมา (ซึ่งก็คือการหายใจออก) เข้าไป",
+  "ref_text_normalized": "พืชผลิตก๊าซออกซิเจนที่มนุษย์ใช้หายใจและรับเอาคาร์บอนไดออกไซด์ที่มนุษย์ขับออกมา ซึ่งก็คือการหายใจออก เข้าไป",
+  "timestamp_utc": "2026-07-05T08:01:15Z",
+  "text": "พืชผลิตก๊าซออกซิเจนที่มนุษย์ใช้หายใจ และรับเอาคาร์บอนไดออกไซด์ที่มนุษย์ขับออกมา ซึ่งก็คือการหายใจออก เข้าไป",
+  "latency_sec": 4.3978,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "พืชผลิตก๊าซออกซิเจนที่มนุษย์ใช้หายใจ และรับเอาคาร์บอนไดออกไซด์ที่มนุษย์ขับออกมา ซึ่งก็คือการหายใจออก เข้าไป",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238475,
+    "id": "SA9KavqLCuKf2roP6tmdgAM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 348,
+      "total_tokens": 773
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0169",
+  "lang": "th",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.98,
+  "ref_text_raw": "ในที่สุด เจ้าหน้าที่ดับเพลิงก็สามารถดับไฟได้ในเวลา 23:35 น.",
+  "ref_text_normalized": "ในที่สุด เจ้าหน้าที่ดับเพลิงก็สามารถดับไฟได้ในเวลา 23:35 น",
+  "timestamp_utc": "2026-07-05T07:48:13Z",
+  "text": "ใน ที่ สุด เจ้า หน้า ที่ ดับ เพลิง ก็ สามารถ ดับ ไฟ ได้ ใน เวลา 23:35 น.",
+  "latency_sec": 3.5639,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ใน ที่ สุด เจ้า หน้า ที่ ดับ เพลิง ก็ สามารถ ดับ ไฟ ได้ ใน เวลา 23:35 น.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237693,
+    "id": "OwxKaoWSGo3O1e8PpY-EiAI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 277,
+      "total_tokens": 362
+    }
+  }
+}

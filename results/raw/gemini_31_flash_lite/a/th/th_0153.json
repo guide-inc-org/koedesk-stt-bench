@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0153",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 16.68,
+  "ref_text_raw": "นางเคิร์ชเนอร์ประกาศความตั้งใจเข้าสมัครเลือกตั้งเป็นประธานาธิบดีที่โรงละครอาร์เจนติน่า ซึ่งเป็นสถานที่เดียวกับที่ใช้หาเสียงเมื่อปี 2005 ของวุฒิสภาในฐานะสมาชิกคณะผู้แทนจังหวัดบัวโนสไอเรส",
+  "ref_text_normalized": "นางเคิร์ชเนอร์ประกาศความตั้งใจเข้าสมัครเลือกตั้งเป็นประธานาธิบดีที่โรงละครอาร์เจนติน่า ซึ่งเป็นสถานที่เดียวกับที่ใช้หาเสียงเมื่อปี 2005 ของวุฒิสภาในฐานะสมาชิกคณะผู้แทนจังหวัดบัวโนสไอเรส",
+  "timestamp_utc": "2026-07-05T08:10:21Z",
+  "text": "นางเคิร์ชเนอร์ประกาศความตั้งใจเข้าสมัครเลือกตั้งเป็นประธานาธิบดีที่โรงละครอาร์เจนตินา ซึ่งเป็นสถานที่เดียวกับที่ใช้หาเสียงเมื่อปี 2005 ของวุฒิสภา ในฐานะสมาชิกสภาผู้แทนจังหวัดบัวโนสไอเรส",
+  "latency_sec": 2.8062,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "นางเคิร์ชเนอร์ประกาศความตั้งใจเข้าสมัครเลือกตั้งเป็นประธานาธิบดีที่โรงละครอาร์เจนตินา ซึ่งเป็นสถานที่เดียวกับที่ใช้หาเสียงเมื่อปี 2005 ของวุฒิสภา ในฐานะสมาชิกสภาผู้แทนจังหวัดบัวโนสไอเรส",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPRBh7D6OBq0QzYJD0qidQwcdQyRabub+Net/6SPQWILcibQIScAoQstue1tsT"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239021,
+    "id": "axFKav38NZj_1e8PrLe2mQQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 69,
+      "prompt_tokens": 438,
+      "total_tokens": 507
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0190",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 6.12,
+  "ref_text_raw": "Но еще можно многое сказать о птицах, которые всё ещё выглядят как динозавры.",
+  "ref_text_normalized": "но еще можно многое сказать о птицах которые всё ещё выглядят как динозавры",
+  "timestamp_utc": "2026-07-05T07:15:29Z",
+  "text": "Но ещё можно многое сказать о птицах, которые всё ещё выглядят как динозавры.",
+  "latency_sec": 3.6075,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Но ещё можно многое сказать о птицах, которые всё ещё выглядят как динозавры.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235729,
+    "id": "jwRKatOAI6Kw0-kP6bjO4AU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 217,
+      "total_tokens": 260
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0199",
+  "lang": "de",
+  "engine": "gemini_25_pro",
+  "duration_sec": 4.8,
+  "ref_text_raw": "Wenn man eine romanische Sprache spricht, ist es  natürlich leichter, Portugiesisch zu erlernen.",
+  "ref_text_normalized": "wenn man eine romanische sprache spricht ist es natürlich leichter portugiesisch zu erlernen",
+  "timestamp_utc": "2026-07-05T03:59:42Z",
+  "text": "Wenn man eine romanische Sprache spricht, ist es natürlich leichter Portugiesisch zu erlernen.",
+  "latency_sec": 3.6205,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Wenn man eine romanische Sprache spricht, ist es natürlich leichter Portugiesisch zu erlernen.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223982,
+    "id": "q9ZJao-1JfPG2roPs9KcqAM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 175,
+      "total_tokens": 195
+    }
+  }
+}

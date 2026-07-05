@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0090",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.92,
+  "ref_text_raw": "同じように、男性は膝を覆うズボンを履くことが義務付けられています。",
+  "ref_text_normalized": "同じように 男性は膝を覆うズボンを履くことが義務付けられています",
+  "timestamp_utc": "2026-07-05T10:18:12Z",
+  "text": "同じ よう に 男性 は 膝 を 覆う ズボン を 履く こと が 義務 付け られ て い ます 。",
+  "latency_sec": 2.5351,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "同じ よう に 男性 は 膝 を 覆う ズボン を 履く こと が 義務 付け られ て い ます 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPleEwWylozI4tnihI7E1s0NDG5rKCjAj3syoDxoSkGe1FmaSKfqDFkIEJqrAO"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246692,
+    "id": "Yy9KaoWkHaXJ2roPu_yk0QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 219,
+      "total_tokens": 248
+    }
+  }
+}

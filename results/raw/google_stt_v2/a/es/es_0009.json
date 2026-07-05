@@ -1,0 +1,36 @@
+{
+  "utt_id": "es_0009",
+  "lang": "es",
+  "engine": "google_stt_v2",
+  "duration_sec": 12.12,
+  "ref_text_raw": "Se puede definir a una civilización como una cultura específica de la que forma parte un extenso grupo de personas que viven y trabajan en conjunto; es decir, una sociedad.",
+  "ref_text_normalized": "se puede definir a una civilización como una cultura específica de la que forma parte un extenso grupo de personas que viven y trabajan en conjunto es decir una sociedad",
+  "timestamp_utc": "2026-07-05T03:59:50Z",
+  "text": "Se puede definir a una civilización como una cultura específica de que forma parte un extenso grupo de personas que vive y trabaja en conjunto, es decir, una sociedad.",
+  "latency_sec": 4.5782,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "es-US",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "13s",
+      "requestId": "7dd1ef60-0000-256e-9221-582429cf7a5c",
+      "prompt": "Transcribe the following speech segment in Spanish. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Spanish."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Se puede definir a una civilización como una cultura específica de que forma parte un extenso grupo de personas que vive y trabaja en conjunto, es decir, una sociedad."
+          }
+        ],
+        "languageCode": "es-US"
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0144",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.0,
+  "ref_text_raw": "地球上の川から海に注ぐ水の20%は、アマゾン川から流れ出ています。",
+  "ref_text_normalized": "地球上の川から海に注ぐ水の20%は アマゾン川から流れ出ています",
+  "timestamp_utc": "2026-07-05T03:10:23Z",
+  "text": "地球上の川から海に注ぐ水の20%は、アマゾン川から流れ出ています。",
+  "latency_sec": 4.0578,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "地球上の川から海に注ぐ水の20%は、アマゾン川から流れ出ています。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221023,
+    "id": "HMtJarPPMLyo1e8Prpqp8QY",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 309,
+      "total_tokens": 358
+    }
+  }
+}

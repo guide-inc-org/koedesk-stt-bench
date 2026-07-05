@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0025",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.36,
+  "ref_text_raw": "La tempête subtropicale Jerry, 10ème tempête de la saison des ouragans à porter un nom, est apparue ce jour dans l'océan Atlantique.",
+  "ref_text_normalized": "la tempête subtropicale jerry 10e tempête de la saison des ouragans à porter un nom est apparue ce jour dans l'océan atlantique",
+  "timestamp_utc": "2026-07-05T04:47:15Z",
+  "text": "La tempête subtropicale Jerry 10e tempête de la saison des ouragans à porter un nom est apparue ce jour dans l'océan Atlantique.",
+  "latency_sec": 3.2267,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "La tempête subtropicale Jerry 10e tempête de la saison des ouragans à porter un nom est apparue ce jour dans l'océan Atlantique.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226835,
+    "id": "0eFJaq2xFayv1e8P3_jVaA",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 417,
+      "total_tokens": 479
+    }
+  }
+}

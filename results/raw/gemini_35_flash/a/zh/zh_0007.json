@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0007",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 15.46,
+  "ref_text_raw": "它的长下颚上布满了 70 多颗剃刀般锋利的牙齿，上颚上还有一排。这意味着任何与它相遇的东西都无路可逃。",
+  "ref_text_normalized": "它 的 长 下 颚 上 布 满 了 70 多 颗 剃 刀 般 锋 利 的 牙 齿 上 颚 上 还 有 一 排 这 意 味 着 任 何 与 它 相 遇 的 东 西 都 无 路 可 逃",
+  "timestamp_utc": "2026-07-05T09:05:48Z",
+  "text": "它的下颚上，布满了70多颗剃刀般锋利的牙齿。上颚上还有一排，这意味着任何与它相遇的东西，都无路可逃。",
+  "latency_sec": 4.0071,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "它的下颚上，布满了70多颗剃刀般锋利的牙齿。上颚上还有一排，这意味着任何与它相遇的东西，都无路可逃。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EusGCugGARFNMg9vQkhU6oh27Hf4j66JVduv2mSQum05aLFwkRvdtqJB2aJ8771QH8UruURkkJcb0db0trLqgJ5n65JmW8297Ot4TGRQr79/BMA3eddu/EhOnX7LIP9vjvnJ2b3ZmZnuTTMhEqfX6i6vosgSbBS4Ebk7tLomy/BP8VAHNRbiSBQ3Vse0i7FEShX7LuwqLEqt549udmKtBWrCgkxLvKsnr1EC2PVcMOUOT4m/hFqmCOJV/JudgDUczFV7ysfxEDwIo+vv9aA8WeW5MEWW/T46zo83gk6Lp5TVWe1IMXverFrmfY9bvIceqXy5h8oASgV/AAfCJN2qpNYrJBhg3Xp2xdcYWKmRyec6uZ/LGdX7VeDEthO/CUUJ7XV9aMQFWz88pUAnBG6eb3L5YMyuT/uVpT7uvkUDYV9m06hG3bUbC8kSonlbKDW08WRnZDhmUGrJknwDB2U/K3+tzh7+dRWnte11ALh2QHFu4Vl8Avo/MrrzMX2MctNLBgmfMwiLZPjTvrkEUVfaMiWtEFunbI1alFi05F+SDruU72NMNU69buGE20mHT9+MrBst9IRD+cZJRG66eHiQcCGe05xA+EuQW815CLPpYYn17hkrt4LOj3pRRfzboQRbeVRn6uVYx6isGHT0doiHZUNvxAniiY6moyNCJO3Uw/sp1ZIHtpkTgORnYOVNgxmT2u3e3iZZZ2ApfV0BzzkAKcuzipIPQvnfQxABY0rQgl2CAl9Tp+pZcAwvHOqsNhmbapbz+Mq7p6peCdjJR5F49m02hqQKYc+HwWCHr578Gi5aXXENqniKA0veK/4k+WtUQ+So+yA9GAShjJ8Mv2HqBRIo3wEZp5QfPt1pDL5ag2P0rjhALdLTEgMCjyb37iZCp1jVI6TFTIao91YBnLlBjMpWsLoGIF4RhGO6sCkFfPHCC+64L5cIHHN2FN4PUk6zieSAtjvfeA0EXI8sAoCmBC9UErzqAEo5FFwCIlzhkroE7eqrtIPev2fKh9fThbAdfBfjCdUjqtxxVWeYBF92IS/5BJCfGy8rKnsLX7LPy3T/K8KNVV6XVtrubSQ6yJYa9WGdolfEe8Rz09Jg9fEzkOO/7IGSj3c9lQZViUunDyPjSoUISrN6xtQydQjdT4dzgj9JM4zxkKZ0bOIaFSE="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242348,
+    "id": "ah5KavLaDq7H0-kPp7WTuQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 408,
+      "total_tokens": 694
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0114",
+  "lang": "es",
+  "engine": "gemini_25_pro",
+  "duration_sec": 13.08,
+  "ref_text_raw": "El Valle de Cochamó es el destino para escalar más popular de Chile y es conocido como el Yosemite de Sudamérica, con variedad de extensos muros y riscos de granito.",
+  "ref_text_normalized": "el valle de cochamó es el destino para escalar más popular de chile y es conocido como el yosemite de sudamérica con variedad de extensos muros y riscos de granito",
+  "timestamp_utc": "2026-07-05T04:25:03Z",
+  "text": "El valle de Cochamó es el destino para escalar más popular de Chile y es conocido como el Yosemite de Sudamérica, con variedad de extensos muros y riscos de granito.",
+  "latency_sec": 5.0092,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "El valle de Cochamó es el destino para escalar más popular de Chile y es conocido como el Yosemite de Sudamérica, con variedad de extensos muros y riscos de granito.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225503,
+    "id": "m9xJapaZN7ui9tMP8NiBsAM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 440,
+      "total_tokens": 673
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0158",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 27.24,
+  "ref_text_raw": "Schließlich gibt es noch viele kleine Katzen (einschließlich frei herumstreunende Hauskatzen), die weitaus kleinere Beutetiere wie Insekten, Nagetiere, Eidechsen und Vögel fressen.",
+  "ref_text_normalized": "schließlich gibt es noch viele kleine katzen einschließlich frei herumstreunende hauskatzen die weitaus kleinere beutetiere wie insekten nagetiere eidechsen und vögel fressen",
+  "timestamp_utc": "2026-07-05T04:09:19Z",
+  "text": "Schließlich gibt es noch viele kleine Katzen, einschließlich frei herumstreunenden der Hauskatzen, die weitaus kleinere Beutetiere wie Insekten, Nagetiere, Eidechsen und Vögel fressen.",
+  "latency_sec": 5.6473,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Schließlich gibt es noch viele kleine Katzen, einschließlich frei herumstreunenden der Hauskatzen, die weitaus kleinere Beutetiere wie Insekten, Nagetiere, Eidechsen und Vögel fressen.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224559,
+    "id": "69hJaozFHNqdrfcP9dyxkQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 48,
+      "prompt_tokens": 702,
+      "total_tokens": 1354
+    }
+  }
+}

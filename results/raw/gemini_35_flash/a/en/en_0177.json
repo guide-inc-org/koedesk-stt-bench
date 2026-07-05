@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0177",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 5.86,
+  "ref_text_raw": "So, it is likely that the notation was added simply as a label.",
+  "ref_text_normalized": "so it is likely that the notation was added simply as a label",
+  "timestamp_utc": "2026-07-05T03:38:10Z",
+  "text": "So, it's likely that the notation was added simply as a label.",
+  "latency_sec": 3.6407,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "So, it's likely that the notation was added simply as a label.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EvUDCvIDARFNMg+Xl40fPqj+0bQ1MF4k51jWT9/AHiFmIp/5SF1zdujskuGubC402ynX8GWKGFncqbC2ELUWPMn35LmWfXIhWvhq1EYaSBniDwtSBI83o0CD8G+YxHVoZabGCqVmuNf9Lh8yJXKPbJzeWQs8bOOe+5yRdnBShJ8E1sjXVNPc3SsvYsjzKbnj5u3tuHO0NvUc2lru3Q2XntDVUn9MZQ0hlfDNzDVXUDKHC9a4ZPK4GbIDmAEeSCmx+4NYQIMf99My2/7U4BZir2uthoaYQQV8Vjmk/uja3GZTSNdpAyKEBSM5R9ENRCAN+/ZQDo5UkXsRYlTgNeVP5tuyOH7LbY8voOM0iomSmC6EbnoXlzngsLeLt4IU3xEmi1Z2SnobOgteZaAARpnptCpSdlVhcTdcTT/328Kdu2kK2sFdDH0PlD6IhPVl5q1/niMsW1onEqUeGZuRMdw2JT5X85gqmfzXO/FkAMyvdN8hrzCnYbaWRexjLT4qIoz57zDK1jGY+7HclPnDbvwuMwwQ6Lx3fs3ygeSG2DJIhMHZwcEKHMQitW4WQSY/vV7gPE/aIgIAqIkaxMV5qw+bMfLNF6+BuVMA1uMOwWNInyeGjcbkFT2ekdK3qgg/OuHTPPVDQVSNARUXOq1RJHjXVNKHPcIVWQge"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222691,
+    "id": "oNFJaoGRIZWJ1e8PxbzN-QE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 168,
+      "total_tokens": 324
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0084",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.42,
+  "ref_text_raw": "研究该疾病的联合国专家丹妮尔·拉塔涅 (Danielle Lantagne) 表示，疫情爆发很可能是由维和人员引起的。",
+  "ref_text_normalized": "研 究 该 疾 病 的 联 合 国 专 家 丹 妮 尔 拉 塔 涅 danielle lantagne 表 示 疫 情 爆 发 很 可 能 是 由 维 和 人 员 引 起 的",
+  "timestamp_utc": "2026-07-05T08:54:40Z",
+  "text": "研究該疾病的聯合國專家丹尼爾拉塔涅表示，疫情爆發很可能是由維和人員引起的。",
+  "latency_sec": 3.8678,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "研究該疾病的聯合國專家丹尼爾拉塔涅表示，疫情爆發很可能是由維和人員引起的。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241680,
+    "id": "zRtKau_WHNWd1e8PgOulsQY",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 323,
+      "total_tokens": 470
+    }
+  }
+}

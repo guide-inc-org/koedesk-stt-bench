@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0123",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.94,
+  "ref_text_raw": "ผู้ต้องขังได้จุดไฟในสนามระหว่าง 22.00-23.00 น. เวลามาตรฐานเขตภูเขา",
+  "ref_text_normalized": "ผู้ต้องขังได้จุดไฟในสนามระหว่าง 22.00-23.00 น. เวลามาตรฐานเขตภูเขา",
+  "timestamp_utc": "2026-07-05T08:03:33Z",
+  "text": "ผู้ต้องสงสัยได้จุดไฟในสนามระหว่าง 22:00 น. ถึง 23:00 น. เวลามาตรฐานเขตภูเขา",
+  "latency_sec": 4.0792,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ผู้ต้องสงสัยได้จุดไฟในสนามระหว่าง 22:00 น. ถึง 23:00 น. เวลามาตรฐานเขตภูเขา",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238613,
+    "id": "0g9Kau7rLveZ0-kPrbzayQU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 245,
+      "total_tokens": 626
+    }
+  }
+}

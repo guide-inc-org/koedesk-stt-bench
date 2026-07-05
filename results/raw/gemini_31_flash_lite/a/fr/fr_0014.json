@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0014",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.74,
+  "ref_text_raw": "Sa réputation en tant qu'épicentre du luxe a débuté aux environs de l'an 400, et duré jusqu'à 1100 environ.",
+  "ref_text_normalized": "sa réputation en tant qu'épicentre du luxe a débuté aux environs de l'an 400 et duré jusqu'à 1100 environ",
+  "timestamp_utc": "2026-07-05T05:10:10Z",
+  "text": "Sa réputation en tant qu'épicentre du luxe a débuté aux environs de l'an 400 et a duré jusqu'à 1100 environ.",
+  "latency_sec": 2.639,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Sa réputation en tant qu'épicentre du luxe a débuté aux environs de l'an 400 et a duré jusqu'à 1100 environ.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPitPTNT5iPu8suPB+Q5NR2vGgG2MaMMW80SKgJJCM3PEdm9O739WbQWfrwCgn"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228210,
+    "id": "MedJasnnGMD21e8P0dn2qQE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 290,
+      "total_tokens": 329
+    }
+  }
+}

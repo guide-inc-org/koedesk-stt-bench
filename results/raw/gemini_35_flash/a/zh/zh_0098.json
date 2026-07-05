@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0098",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.02,
+  "ref_text_raw": "州长办公室表示，伤者中有十九人是警察。",
+  "ref_text_normalized": "州 长 办 公 室 表 示 伤 者 中 有 十 九 人 是 警 察",
+  "timestamp_utc": "2026-07-05T09:14:31Z",
+  "text": "州长办公室表示，伤者中有19人是警察。",
+  "latency_sec": 3.2484,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "州长办公室表示，伤者中有19人是警察。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EvsDCvgDARFNMg+cLoEZ5SkofP8LZHhTQMQO+BH5PF1BEyMU0MtoeErtOtqKR23f/yGfc0yTcsHs8XC7CyRTN9cq0VGyQgOoK6DV+sAPz1TRv6tJ1KzfM+HSljucW1qqtYsQxpU9tpzeWG+e4pLZw68tSgk5nTSpKmbPrSEFjOE6eqBtL2VDjlMyDf+2+Yecui5VpOAqYvzsLo/mmAjuDVjD5NUhwBhtUQUkr0hwQRwC3DNjhZn0JcPVgBFjfi44zhO0tx209YdRB2JddbIlEH7WUepVrXUEO9NsDJEBjIEj166xEmg83Pfb8Mbb0LOpcr8aV4vuuN7DesCsSPWNnWPts3uef9C+mCZ/6Yak8c5Yl9IEFcOJtjN4u9DK4ECpasQT8wLg2L3Uv9hJCpKpcjv3d9G0VRQHPeFqFWQaHbx3PGX9g1EUYbt3GdJBj/kyWBQH1M0z3MXPddEfPg3TUAn96tjROMCWYtnIM7Q495BDGf6FJuyRlQ4a2/5SLF75ke8H96bnteOdG7OjSZH6uMrlFBYG+1tTkHnYwpIsWsCkKyYTpspkRV3uNVN5R+f+H3hLRXykEP7N5Ni08k/epj9GzyPg3pKdc1sEeLYhchn6FEDrb+f/Qc4ErFab0RwyyzLHDInr8Kt5xmNzt2LPGQWUTfWZcBNpZoNdsQBy"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242871,
+    "id": "dSBKapXvFMKl9tMPpf6PiQE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 14,
+      "prompt_tokens": 197,
+      "total_tokens": 336
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0050",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.42,
+  "ref_text_raw": "スブリングボックにとっては、5連敗が止まりました。",
+  "ref_text_normalized": "スブリングボックにとっては 5連敗が止まりました",
+  "timestamp_utc": "2026-07-05T10:15:46Z",
+  "text": "スボリング ボック に とっ て は 5 連敗 が 止まり まし た 。",
+  "latency_sec": 2.7023,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "スボリング ボック に とっ て は 5 連敗 が 止まり まし た 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPRJqhcJlR2Pb30Qa8vo0kAxhMVEDIecfrbkjPmDyvmj/LeRkGsL9L7WqwNaUo"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246546,
+    "id": "0C5Kate2OI-_vr0P4-jhmAM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 182,
+      "total_tokens": 203
+    }
+  }
+}

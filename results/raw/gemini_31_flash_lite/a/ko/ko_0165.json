@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0165",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.34,
+  "ref_text_raw": "\"후 주석은 \"\"그렇다 해서 그들에게 그 발달단계와 책임 범위, 능력을 벗어나는 의무를 지라고 요구해서는 안 된다\"\"라고 덧붙였다.\"",
+  "ref_text_normalized": "\"후 주석은 \"그렇다 해서 그들에게 그 발달단계와 책임 범위 능력을 벗어나는 의무를 지라고 요구해서는 안 된다\"\"라고 덧붙였다.",
+  "timestamp_utc": "2026-07-05T06:28:58Z",
+  "text": "후 주석은 그렇다 해서 그들에게 그 발달 단계와 책임 범위 능력을 벗어나는 의무를 지라고 요구해서는 안 된다라고 덧붙였다.",
+  "latency_sec": 2.909,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "후 주석은 그렇다 해서 그들에게 그 발달 단계와 책임 범위 능력을 벗어나는 의무를 지라고 요구해서는 안 된다라고 덧붙였다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPljzfi79LM41m+8wU6hCbsOvW+y89xzHL4BaxXpM4j0ieTTQNZZGwE8rXcr/v"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232938,
+    "id": "qPlJarqDPfDW2roPh47FwQc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 380,
+      "total_tokens": 417
+    }
+  }
+}

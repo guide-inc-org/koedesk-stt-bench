@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0114",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.16,
+  "ref_text_raw": "Satelit itu dikirim ke luar angkasa oleh roket. Ilmuwan menggunakan teleskop di luar angkasa, karena atmosfer bumi mengubah sebagian cahaya dan pandangan kita.",
+  "ref_text_normalized": "satelit itu dikirim ke luar angkasa oleh roket ilmuwan menggunakan teleskop di luar angkasa karena atmosfer bumi mengubah sebagian cahaya dan pandangan kita",
+  "timestamp_utc": "2026-07-05T05:52:02Z",
+  "text": "Satelit itu dikirim ke luar angkasa oleh roket. Ilmuwan menggunakan teleskop di luar angkasa karena atmosfer bumi mengubah sebagian cahaya dan pandangan kita.",
+  "latency_sec": 2.8458,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Satelit itu dikirim ke luar angkasa oleh roket. Ilmuwan menggunakan teleskop di luar angkasa karena atmosfer bumi mengubah sebagian cahaya dan pandangan kita.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPI0Fy5T2GeqSgP4mmQPGWz1aV8KKn2fx2XRMDEMnzGnNP82KbYSnjx7LAYjK4"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230722,
+    "id": "AfFJap2iE_KE0-kPh9im2AE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 300,
+      "total_tokens": 336
+    }
+  }
+}

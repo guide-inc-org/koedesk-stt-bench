@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0034",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 17.94,
+  "ref_text_raw": "Pemberitahuan reguler di Metro hanya menggunakan bahasa Katalan, tetapi gangguan tak terencana diumumkan lewat sistem otomatis dalam berbagai bahasa, antara lain Spanyol, Inggris, Prancis, Arab, dan Jepang.",
+  "ref_text_normalized": "pemberitahuan reguler di metro hanya menggunakan bahasa katalan tetapi gangguan tak terencana diumumkan lewat sistem otomatis dalam berbagai bahasa antara lain spanyol inggris prancis arab dan jepang",
+  "timestamp_utc": "2026-07-05T05:46:59Z",
+  "text": "Pemberitahuan reguler di metro hanya menggunakan bahasa Katalan, tetapi gangguan tak terencana diumumkan lewat sistem otomatis dalam beberapa bahasa antara lain Spanyol, Inggris, Prancis, Arab, dan Jepang.",
+  "latency_sec": 3.76,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Pemberitahuan reguler di metro hanya menggunakan bahasa Katalan, tetapi gangguan tak terencana diumumkan lewat sistem otomatis dalam beberapa bahasa antara lain Spanyol, Inggris, Prancis, Arab, dan Jepang.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPmnOXgTU3vy+N5Xpgx0BzNW54ivKNey7atzNxGglIz793En2NPxjpRuAp/K7n"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230419,
+    "id": "0e9JaofDDMD21e8P0dn2qQE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 470,
+      "total_tokens": 511
+    }
+  }
+}

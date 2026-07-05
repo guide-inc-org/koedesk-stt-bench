@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0156",
+  "lang": "es",
+  "engine": "gemini_25_pro",
+  "duration_sec": 14.04,
+  "ref_text_raw": "Uno de los periodos más sanguinarios de la historia de Antigua China fue el de Los Tres Reinos, donde miles de personas murieron en una lucha por ocupar el trono del gran palacio en Xi'an.",
+  "ref_text_normalized": "uno de los periodos más sanguinarios de la historia de antigua china fue el de los tres reinos donde miles de personas murieron en una lucha por ocupar el trono del gran palacio en xi'an",
+  "timestamp_utc": "2026-07-05T04:29:03Z",
+  "text": "Uno de los períodos más sanguinarios de la historia de la antigua China fue el de los tres reinos, donde miles de personas murieron en la lucha por ocupar el trono del gran palacio en Xi'an.",
+  "latency_sec": 4.0753,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Uno de los períodos más sanguinarios de la historia de la antigua China fue el de los tres reinos, donde miles de personas murieron en la lucha por ocupar el trono del gran palacio en Xi'an.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225743,
+    "id": "jN1JasGNHeex2roPrLDX2QU",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 471,
+      "total_tokens": 562
+    }
+  }
+}

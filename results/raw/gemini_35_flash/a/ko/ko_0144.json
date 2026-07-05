@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0144",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 13.62,
+  "ref_text_raw": "일부 지역에서는 1분간 물을 끓이는 것으로 충분하다. 다른 지역에서는 수 분 동안 물을 끓일 필요가 있다.",
+  "ref_text_normalized": "일부 지역에서는 1분간 물을 끓이는 것으로 충분하다 다른 지역에서는 수 분 동안 물을 끓일 필요가 있다",
+  "timestamp_utc": "2026-07-05T06:22:18Z",
+  "text": "일부 지역에서는 1분간 물을 끓이는 것으로 충분하다 다른 지역에서는 수분 동안 물을 끓일 필요가 있다",
+  "latency_sec": 4.8941,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "일부 지역에서는 1분간 물을 끓이는 것으로 충분하다 다른 지역에서는 수분 동안 물을 끓일 필요가 있다",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232538,
+    "id": "FvhJatyTH43y2roP6emiwQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 362,
+      "total_tokens": 863
+    }
+  }
+}

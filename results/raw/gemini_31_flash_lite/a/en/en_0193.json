@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0193",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 17.98,
+  "ref_text_raw": "This will allow it to be backwards compatible with 802.11a, 802.11b and 802.11g, provided that the base station has dual radios.",
+  "ref_text_normalized": "this will allow it to be backwards compatible with 802.11a 802.11b and 802.11g provided that the base station has dual radios",
+  "timestamp_utc": "2026-07-05T03:38:51Z",
+  "text": "This will allow it to be backward compatible with 802.11a, 802.11b and 802.11g provided that the base station has dual radios.",
+  "latency_sec": 2.9311,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "This will allow it to be backward compatible with 802.11a, 802.11b and 802.11g provided that the base station has dual radios.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPovT9bAW9W/Ly8NtUO3w4brpIS148zFvVP5Yll8Rk03JTFKg5zUVT+Bq1g8Gm"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222731,
+    "id": "ytFJavBY6fraug-Aks_5Ag",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 471,
+      "total_tokens": 515
+    }
+  }
+}

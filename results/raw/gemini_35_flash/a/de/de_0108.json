@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0108",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.38,
+  "ref_text_raw": "Die Romantik hatte ein starkes, kulturell deterministisches Element, das sich aus Schriftstellern wie Goethe, Fichte und Schlegel schöpfte.",
+  "ref_text_normalized": "die romantik hatte ein starkes kulturell deterministisches element dass sich aus schriftstellern wie goethe fichte und schlegel schöpfte",
+  "timestamp_utc": "2026-07-05T04:05:01Z",
+  "text": "Die Romantik hatte ein starkes, kulturell deterministisches Element, das sich aus Schriftstellern wie Goethe, Fichte und Schlegel schöpfte.",
+  "latency_sec": 4.609,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Die Romantik hatte ein starkes, kulturell deterministisches Element, das sich aus Schriftstellern wie Goethe, Fichte und Schlegel schöpfte.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EvAOCu0OARFNMg/9LoJerZYNrzvPHbncBT65SZqNiBa4V/yd8U2v9dUC1I1VzQkHYF23N7+SRgpe2GSY/Pa9x1xrA/+yhB/YshN50c0zU4F07ncJ7yIwWOBh4LoH4uUkw/lkINfmvNYbPuQn5YfXvsLHno8ekv0o7UyyQM/ADzbrvdHnZ4d0veTmTyASFcG2L746WPkH+oL+80n9RtckiWP44i4EBo+a/+uE+OjeJxhbgWDg3OFEEwrL9BJZtakPQ9rHC0aCFwEo9x4Ux9Gw/Zayl49YWzWRnN4k2V5qR5IOk8DPqjYXlpX4w1vzMBisM7O+51HwytoufrZe9T4u4xRsLQ8ywDQtYVpMoNM0NnNevs0DoHIIytOXMtUGBn+X5uy2SpUaDWCc2884EIhi84dMJRh7f/ttoElq4cR1piXaTS+Y2F7gOlR76wsCQjgSurf81zVnVrE7tCeO2oUvXyptzSuCEQaVjxwqQThh2A4nsFHOg5SUNlpWWsq0kfAIN0RBZUgGaCOsMVT2e8CiA2hQrgfxyHKXGZwRP8Cvt4HE3m36OaUxYWcv2Sc0L1OYEzkzEIiSIiQjuE4RyhBgjGaMORnAO0Rcb0Uu91CKmema6G18styGIIoQdXbobeAlhhGNx/PImcR9ZQKr28pqCVsoQ6FeQQ/qsyPGAM5UthjZh390MoiievMT3flnCbqP5M37S0xEK4f200Sjg1LWhYAXj1l8gadkZCL3XQBZQZzk9DC+jXx/QqIveUmtR6K204nAIqVSRkLfyvwn0emk8egxdKZuIB6j4QmX35vqLGbpnvFFRywYKT/lObhQgfjK6mpoui9ntx+IDurdbGv57hKxGfhbCA/mBcl/MQmfv7Ft1hFisF25T35My7Filum0ytG3nklx9+xxeTa4fzWbvVyXCJVAcMLh+WS3xzIDaqtkWqFEf0PqWQgqu/KUcDgyppr8TkC4IysK8IiaOkUXB6MEiBeSvYYtXYr74FtBRrnwniw04O5RGJor6Eu35ZRJd6ztsGasjPWrEy46LzodvbQSiI/VpJXvfIJi1XkFgw4rBxFC1IP5azZmKF5Sc4/Gi3MWE7+Y68UZ/Zl73vUNDkh5dMnmr+72/YPIKhH70wRfpPr0di8pOx2Q/UtT8KjysYsi2cWZBzNZhYdFQbltzP3acFj+Eg4FbN0ShDUgmBwrTp094b1CEk1ki7vwneJtjFR8/EVHVfiTuTDXR5SuvVOrFy6rK259QxONq/w6oJUfUZCZRnYAo7SQp0plVSyMBnSPzDAaeM8k4QGD+d4dTN4T3/liyWHk7nKOkdLgVNq8D8XLTTsl2fgSNF586pnU9kd+6VYYmUengYeVLi2HD7Z+ZHgOjZw2VBgI++nfKB7ka6vFmtkyq63UXA2UoqewT01cWBEbXfnr16TWmjnEfDMz2yzlNF3ce0YX5fnngrPFjCgxbuRTEdts4DNqZd/tw+C0vfzM4okZgT95Wcv8Qz0qJjy07EDKzRpja4Yj9ut3zhQdIumUvS9SPCIz8LBA1qBrqKjKL5VpCcPGFTX/GjuVMsMpVf64kx8PbnG3CiDpd9t9tZtxje887UWu7vLJOOEoNlhxhEoNSP1PlommJFEX9nKGzv0k7nX6ovePQ7pz8zNfNZOPquL4xM1IjzGOu7Hy63o3JQl0ZrOBuIUtXeZWiU/nN8LJPk4CliBWXMek87sT1mMR5iwmyiI0a3Bab1NMK1ZXkUd3MdCAypv1OpAEW/MNvxAjSBsTwg6erx32MC8tiljngmzCEEjn4GEt1HiXnY4yswtRGxbvRRx9xH1fgOhJgaYnj1Dqd1TVP9PQ+u07CNRcn9spTmQHdDhuVXNhs742/NxNCO4V7XpuTvUdg6bkgIYwLpmV32lia5oFb1cYujDDEfU1kj2qdCKiv8IRnKcebH4du72+tJ4rU0jhEh33+YaIt+NGXeFbLpYvpoq01kL4bOQppSNI64uQcrzrAhf329HT5PMOyrZTBxMJUnjPaRyvEr3ovzAfIH9PFEwRzNwXU8i4NA6ctMV+hAU+eLwqG7MqF8WNl8pvgTE/47shL0Ifi0avRF1Y8hyHIzbLe+pe93DZY2REwY0Urx0nRHu2vb1kXNYfTARydSzVsEgJBbOwru8E4Paq5PLbMsjaHiChOgW9ooVKGECv8oe5C3Zt/ZkygxoiTw8aBpMzezzRgOaFBGf9t/TZDndwGx3ijqIgYeUcqCiHgEi5Aq+oMSx2bAhg6SHml80RFKc2dVuq2TwIO3yjXKX5t9FtLZZO/DNfrbtds3x/9npuTGkDu/nUwx5qI4Mi8S0pvF2IrRPmOO80u6TAccVkf5GaVg4yeGgLZ4o5grsiz71nhALPa8vIR9P80q8MRCZL2Q5Lfql25KFSwM4f6vMwZP1Yxt+XFVIJwTccyVFHbX2fY6vId1sE1WuFfVI3/AZP0nDjGIRrdyOuBcnHwLmYy+x73MEZViec2tya/ze8RSo4ZBgtV4IIbHrP0s0B2DggRPsUgJcNjkqnKXqX5gK3KDgNXtY="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224301,
+    "id": "6ddJaofxNI-V9tMPqJa8yAI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 281,
+      "total_tokens": 784
+    }
+  }
+}

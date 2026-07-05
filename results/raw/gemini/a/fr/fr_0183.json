@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0183",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 4.56,
+  "ref_text_raw": "Rolando Mendoza tira avec son fusil M16 sur les touristes.",
+  "ref_text_normalized": "rolando mendoza tira avec son fusil m16 sur les touristes",
+  "timestamp_utc": "2026-07-05T04:59:30Z",
+  "text": "Roland en 1970 tiraf avec son fusil MCL sur les touristes.",
+  "latency_sec": 4.5421,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Roland en 1970 tiraf avec son fusil MCL sur les touristes.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227570,
+    "id": "r-RJapqECPPG2roPs9KcqAM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 167,
+      "total_tokens": 476
+    }
+  }
+}

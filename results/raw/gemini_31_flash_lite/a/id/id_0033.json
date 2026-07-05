@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0033",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 18.72,
+  "ref_text_raw": "Pusat meditasi warga Tibet adalah Dewa Yoga. Melalui visualisasi berbagai dewa saluran energi dibersihkan, cakra-cakra diaktifkan, dan diciptakan kesadaran akan pencerahan.",
+  "ref_text_normalized": "pusat meditasi warga tibet adalah dewa yoga melalui visualisasi berbagai dewa saluran energi dibersihkan cakra-cakra diaktifkan dan diciptakan kesadaran akan pencerahan",
+  "timestamp_utc": "2026-07-05T05:46:55Z",
+  "text": "Pusat meditasi warga Tibet adalah dewayoga, melalui visualisasi berbagai dewa saluran energi dibersihkan, cakra-cakra diaktifkan, dan diciptakan kesadaran akan pencerahan.",
+  "latency_sec": 3.023,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Pusat meditasi warga Tibet adalah dewayoga, melalui visualisasi berbagai dewa saluran energi dibersihkan, cakra-cakra diaktifkan, dan diciptakan kesadaran akan pencerahan.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP9VuGeDFjQN8qN7gZiGd+upy81vFO+4Gjr1fVX8UV23FrdYWgGslKd9dYzVkC"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230415,
+    "id": "ze9JaoPvM4vb2roP5ayN6AY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 489,
+      "total_tokens": 534
+    }
+  }
+}

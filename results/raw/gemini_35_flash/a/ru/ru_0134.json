@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0134",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.12,
+  "ref_text_raw": "У них лапы с чешуёй и когтями, они откладывают яйца и ходят на двух задних лапах как Ти-Рекс.",
+  "ref_text_normalized": "у них лапы с чешуёй и когтями они откладывают яйца и ходят на двух задних лапах как ти-рекс",
+  "timestamp_utc": "2026-07-05T07:28:24Z",
+  "text": "У них лапы с чешуёй и когтями. Они откладывают яйца и ходят на двух задних лапах, как Ти-Рекс.",
+  "latency_sec": 5.2232,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "У них лапы с чешуёй и когтями. Они откладывают яйца и ходят на двух задних лапах, как Ти-Рекс.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236504,
+    "id": "lAdKavnQG9GX0-kP9sqqsAE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 324,
+      "total_tokens": 885
+    }
+  }
+}

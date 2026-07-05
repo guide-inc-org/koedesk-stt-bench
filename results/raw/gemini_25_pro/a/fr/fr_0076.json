@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0076",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 8.58,
+  "ref_text_raw": "En 1976, trente pour cent du Machu Picchu avait été restauré et cette restauration se poursuit jusqu'à aujourd'hui.",
+  "ref_text_normalized": "en 1976 trente pour cent du machu picchu avait été restauré et cette restauration se poursuit jusqu'à aujourd'hui",
+  "timestamp_utc": "2026-07-05T04:55:02Z",
+  "text": "En 1976, 30 % du Machu Picchu avait été restauré, cette restauration se poursuit jusqu'à aujourd'hui.",
+  "latency_sec": 6.502,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "En 1976, 30 % du Machu Picchu avait été restauré, cette restauration se poursuit jusqu'à aujourd'hui.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227302,
+    "id": "oeNJatXJLbyB0-kP2bOhwAc",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 296,
+      "total_tokens": 575
+    }
+  }
+}

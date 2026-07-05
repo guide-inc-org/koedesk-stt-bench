@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0192",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.9,
+  "ref_text_raw": "热巧克力达到了比利时的标准。果汁价格昂贵，但品质很好。",
+  "ref_text_normalized": "热 巧 克 力 达 到 了 比 利 时 的 标 准 果 汁 价 格 昂 贵 但 品 质 很 好",
+  "timestamp_utc": "2026-07-05T09:22:13Z",
+  "text": "这巧克力达到了比利时的标准,果汁价格昂贵,但品质很好。",
+  "latency_sec": 2.7079,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "这巧克力达到了比利时的标准,果汁价格昂贵,但品质很好。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP5xAcvIn6IZ1jdK5y4PpzzT0ymYRNuQnnhxM4SaEQvQsUGrNInFyw5kivm72W"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243334,
+    "id": "RCJKav3nG6yv1e8P3_jVaA",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 17,
+      "prompt_tokens": 194,
+      "total_tokens": 211
+    }
+  }
+}

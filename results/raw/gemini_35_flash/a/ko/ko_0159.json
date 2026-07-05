@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0159",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 19.8,
+  "ref_text_raw": "\"그의 작품은 높은 품질과 세밀하기로 정평이 나 있고 그는 도장 파는 사람 중 정말 몇 되지 않는 \"\"누구나 아는 이름\"\"의 소유자이다. 그의 작품만을 전문으로 수집하는 사람들도 있다.   \"",
+  "ref_text_normalized": "\"그의 작품은 높은 품질과 세밀하기로 정평이 나 있고 그는 도장 파는 사람 중 정말 몇 되지 않는 \"누구나 아는 이름\"\"의 소유자이다. 그의 작품만을 전문으로 수집하는 사람들도 있다.   ",
+  "timestamp_utc": "2026-07-05T06:23:41Z",
+  "text": "그의 작품은 높은 품질과 세밀하기로 정평이 나 있고 그는 도장 파는 사람 중 정말 몇 되지 않는 누구나 아는 이름의 소유자이다 그의 작품만을 전문으로 수집하는 사람들도 있다",
+  "latency_sec": 4.4886,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "그의 작품은 높은 품질과 세밀하기로 정평이 나 있고 그는 도장 파는 사람 중 정말 몇 되지 않는 누구나 아는 이름의 소유자이다 그의 작품만을 전문으로 수집하는 사람들도 있다",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232621,
+    "id": "avhJatOqBu6d1e8P5u7EuQQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 48,
+      "prompt_tokens": 516,
+      "total_tokens": 976
+    }
+  }
+}

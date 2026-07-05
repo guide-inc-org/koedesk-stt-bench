@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0021",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 15.0,
+  "ref_text_raw": "スンダルバンスは世界最大の沿岸マングローブ地帯であり、海岸からバングラデシュとインドの内陸地域まで80 km（50マイル）にわたって広がっています。",
+  "ref_text_normalized": "スンダルバンスは世界最大の沿岸マングローブ地帯であり 海岸からバングラデシュとインドの内陸地域まで80 km50マイルにわたって広がっています",
+  "timestamp_utc": "2026-07-05T10:11:40Z",
+  "text": "スンダルバンスは世界最大の沿岸マングローブ地帯であり、海岸からバングラデシュとインドの内陸地域まで80キロメートル50マイルにわたって広がっています。",
+  "latency_sec": 5.6625,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "スンダルバンスは世界最大の沿岸マングローブ地帯であり、海岸からバングラデシュとインドの内陸地域まで80キロメートル50マイルにわたって広がっています。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246300,
+    "id": "1y1KaqLPNZW4vr0PkIGBmQU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 396,
+      "total_tokens": 969
+    }
+  }
+}

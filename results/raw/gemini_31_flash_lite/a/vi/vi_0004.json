@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0004",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.88,
+  "ref_text_raw": "Châu Âu là lục địa tương đối nhỏ nhưng có nhiều quốc gia độc lập. Thông thường, việc đi qua nhiều quốc gia đồng nghĩa với việc phải xin thị thực và xét hộ chiếu nhiều lần.",
+  "ref_text_normalized": "châu âu là lục địa tương đối nhỏ nhưng có nhiều quốc gia độc lập thông thường việc đi qua nhiều quốc gia đồng nghĩa với việc phải xin thị thực và xét hộ chiếu nhiều lần",
+  "timestamp_utc": "2026-07-05T08:37:56Z",
+  "text": "Châu Âu là lục địa tương đối nhỏ nhưng có nhiều quốc gia độc lập. Thông thường, việc đi qua nhiều quốc gia đồng nghĩa với việc phải xin thị thực và xét hộ chiếu nhiều lần.",
+  "latency_sec": 3.821,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Châu Âu là lục địa tương đối nhỏ nhưng có nhiều quốc gia độc lập. Thông thường, việc đi qua nhiều quốc gia đồng nghĩa với việc phải xin thị thực và xét hộ chiếu nhiều lần.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP9Z4RSYfIy90T7t/3EAjeeQFCpuYDHBJDVqjZqASPjBRTXraKmwDPA/tn/FCU"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240676,
+    "id": "4hdKaoGyMKfKrfcP5Pio2QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 393,
+      "total_tokens": 434
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0079",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.8,
+  "ref_text_raw": "สำนักงานจัดการเหตุฉุกเฉินของนอร์เทิร์นมาเรียนาแถลงว่าไม่มีรายงานความเสียหายภายในประเทศ",
+  "ref_text_normalized": "สำนักงานจัดการเหตุฉุกเฉินของนอร์เทิร์นมาเรียนาแถลงว่าไม่มีรายงานความเสียหายภายในประเทศ",
+  "timestamp_utc": "2026-07-05T08:05:37Z",
+  "text": "สำนักงานจัด การเหตุฉุกเฉินของ Northern Mariana แถลงว่าไม่มีรายงานความเสียหายภายในประเทศ",
+  "latency_sec": 2.8545,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "สำนักงานจัด การเหตุฉุกเฉินของ Northern Mariana แถลงว่าไม่มีรายงานความเสียหายภายในประเทศ",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPwTgRdimRmAJGtBEKYrUAPVg2f4voAn0PKeg4CGMdtYC8ssB0v5RAvxku5yoZ"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238737,
+    "id": "TxBKapLDJq2Qvr0PxLzU0Qc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 291,
+      "total_tokens": 313
+    }
+  }
+}

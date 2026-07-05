@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0095",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.42,
+  "ref_text_raw": "Plus la tension est faible, plus la force vitale présente est positive. Chaque personne a la possibilité de trouver une paix et un contentement absolus.",
+  "ref_text_normalized": "plus la tension est faible plus la force vitale présente est positive chaque personne a la possibilité de trouver une paix et un contentement absolus",
+  "timestamp_utc": "2026-07-05T05:15:23Z",
+  "text": "Plus l'attention est faible, plus la force vitale présente est positive. Chaque personne a la possibilité de trouver une paix et un contentement absolu.",
+  "latency_sec": 3.6918,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Plus l'attention est faible, plus la force vitale présente est positive. Chaque personne a la possibilité de trouver une paix et un contentement absolu.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP/04ogJZ7k27Ns//qQQdP2sONqf5Qrq6s27G0cKWKL35bDZbAtvMgW4UYKeLP"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228523,
+    "id": "aehJapfJCY_V2roPj7-7kAY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 332,
+      "total_tokens": 364
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0015",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.9,
+  "ref_text_raw": "Diese Paare können sich für einen Adoptionsplan für ihr Baby entscheiden.",
+  "ref_text_normalized": "diese paare können sich für einen adoptionsplan für ihr baby entscheiden",
+  "timestamp_utc": "2026-07-05T04:00:39Z",
+  "text": "Diese Paare können sich für einen Adoptionsplan für ihr Baby entscheiden.",
+  "latency_sec": 3.0017,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Diese Paare können sich für einen Adoptionsplan für ihr Baby entscheiden.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPmOgdyGdpU6TJWlEaH4yfw6FSr2CEY/pFKwKvEar/W3mmkcUujDS7yNEE3B0P"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224039,
+    "id": "5dZJapeSKYPMrfcPiKHRgAE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 15,
+      "prompt_tokens": 194,
+      "total_tokens": 209
+    }
+  }
+}

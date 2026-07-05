@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0087",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.84,
+  "ref_text_raw": "Au-dessus, on ne peut rien contempler d'autre que le ciel clair et magnifique et les nombreuses montagnes environnantes. Depuis l'intérieur de la grotte, on ne peut voir ou entendre que très peu de choses de cet univers.",
+  "ref_text_normalized": "au-dessus on ne peut rien contempler d'autre que le ciel clair et magnifique et les nombreuses montagnes environnantes depuis l'intérieur de la grotte on ne peut voir ou entendre que très peu de choses de cet univers",
+  "timestamp_utc": "2026-07-05T05:14:54Z",
+  "text": "Au-dessus, on ne peut rien contempler d'autre que le ciel clair et magnifique et les nombreuses montagnes environnantes. Depuis l'intérieur de la grotte, on ne peut voir ou entendre que très peu de choses de cet univers.",
+  "latency_sec": 2.9634,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Au-dessus, on ne peut rien contempler d'autre que le ciel clair et magnifique et les nombreuses montagnes environnantes. Depuis l'intérieur de la grotte, on ne peut voir ou entendre que très peu de choses de cet univers.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP6/c1kszTyUS+c8HQ8WuGS5CtDAtbWGHcFnupP7SNh342P878OiGAk5UGXzu4"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228494,
+    "id": "TehJaqTaBZnV1e8Pw6zfgAQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 51,
+      "prompt_tokens": 342,
+      "total_tokens": 393
+    }
+  }
+}

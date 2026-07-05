@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0096",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.88,
+  "ref_text_raw": "Lorsque toutes les ressources disponibles sont utilisées efficacement dans les services fonctionnels d'une organisation, la créativité et l'ingéniosité peuvent s'exprimer pleinement.",
+  "ref_text_normalized": "lorsque toutes les ressources disponibles sont utilisées efficacement dans les services fonctionnels d'une organisation la créativité et l'ingéniosité peuvent s'exprimer pleinement",
+  "timestamp_utc": "2026-07-05T05:15:27Z",
+  "text": "Lorsque toutes les ressources disponibles sont utilisées efficacement dans les services fonctionnels d'une organisation, la créativité et l'ingéniosité peuvent s'exprimer pleinement.",
+  "latency_sec": 3.1853,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Lorsque toutes les ressources disponibles sont utilisées efficacement dans les services fonctionnels d'une organisation, la créativité et l'ingéniosité peuvent s'exprimer pleinement.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPU0xoE+dGEBNLCSglwOUaYrQhGSeiM3wpl5UqBv4Z1QX9Q+yedwAki2UtQyAg"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228527,
+    "id": "behJar77K7Givr0P0MTRmQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 244,
+      "total_tokens": 280
+    }
+  }
+}

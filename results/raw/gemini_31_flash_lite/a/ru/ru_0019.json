@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0019",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.64,
+  "ref_text_raw": "53-летний Куомо начал свою деятельность на посту губернатора в начале этого года и подписал законопроект о легализации однополых браков в прошлом месяце.",
+  "ref_text_normalized": "53-летний куомо начал свою деятельность на посту губернатора в начале этого года и подписал законопроект о легализации однополых браков в прошлом месяце",
+  "timestamp_utc": "2026-07-05T07:28:11Z",
+  "text": "Пятидесятитрёхлетний Куома начал свою деятельность на посту губернатора в начале этого года и подписал законопроект о легализации однополых браков в прошлом месяце.",
+  "latency_sec": 2.552,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Пятидесятитрёхлетний Куома начал свою деятельность на посту губернатора в начале этого года и подписал законопроект о легализации однополых браков в прошлом месяце.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPp4yAyT5lW+jt6cjqXx0Nv5g2ctVe8/YTraQSXC6GoOMxWlD089jwaKneGrix"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236491,
+    "id": "igdKaoGPCrCr0-kPhJ6suQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 312,
+      "total_tokens": 353
+    }
+  }
+}

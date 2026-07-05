@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0186",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 15.06,
+  "ref_text_raw": "病院では、感染管理手順書に従い、他人への感染の可能性を防ぐために患者を隔離するなどの措置をとっています。",
+  "ref_text_normalized": "病院では 感染管理手順書に従い 他人への感染の可能性を防ぐために患者を隔離するなどの措置をとっています",
+  "timestamp_utc": "2026-07-05T03:13:58Z",
+  "text": "病院では感染管理手順書に従い、他人への感染の可能性をすぐために患者を隔離するなどの措置をとっています。",
+  "latency_sec": 4.1641,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "病院では感染管理手順書に従い、他人への感染の可能性をすぐために患者を隔離するなどの措置をとっています。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221238,
+    "id": "9MtJaqO3Dp2_vr0Piquy2Q0",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 503,
+      "total_tokens": 552
+    }
+  }
+}

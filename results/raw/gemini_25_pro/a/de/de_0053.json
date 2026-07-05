@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0053",
+  "lang": "de",
+  "engine": "gemini_25_pro",
+  "duration_sec": 13.26,
+  "ref_text_raw": "Er wurde infolgedessen in das Addenbrooke’s Hospital in Cambridge verlegt.",
+  "ref_text_normalized": "er wurde infolgedessen in das addenbrooke's hospital in cambridge verlegt",
+  "timestamp_utc": "2026-07-05T03:45:01Z",
+  "text": "Er wurde infolgedessen in das Eddenbrooks Hospital in Cambridge verlegt.",
+  "latency_sec": 4.081,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Er wurde infolgedessen in das Eddenbrooks Hospital in Cambridge verlegt.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223101,
+    "id": "O9NJavvSHuKf2roP6tmdgAM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 446,
+      "total_tokens": 499
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0024",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 6.9,
+  "ref_text_raw": "具体说来，据说可以通过正确解读微表情来判断一个人是否在撒谎。",
+  "ref_text_normalized": "具 体 说 来 据 说 可 以 通 过 正 确 解 读 微 表 情 来 判 断 一 个 人 是 否 在 撒 谎",
+  "timestamp_utc": "2026-07-05T08:49:43Z",
+  "text": "具体说来，这说可以通过正确解读微表情来判断一个人是否在撒谎。",
+  "latency_sec": 4.4704,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "具体说来，这说可以通过正确解读微表情来判断一个人是否在撒谎。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241383,
+    "id": "pBpKaumCD76a1e8PgPz1sQM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 242,
+      "total_tokens": 501
+    }
+  }
+}

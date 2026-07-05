@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0059",
+  "lang": "es",
+  "engine": "gemini_25_flash",
+  "duration_sec": 14.76,
+  "ref_text_raw": "El satélite fue enviado al espacio a través de un cohete. Los científicos utilizan telescopios en el espacio, dado que la luz de la atmósfera de la Terra distorsiona parte de la luz y vista que tenemos.",
+  "ref_text_normalized": "el satélite fue enviado al espacio a través de un cohete los científicos utilizan telescopios en el espacio dado que la luz de la atmósfera de la terra distorsiona parte de la luz y vista que tenemos",
+  "timestamp_utc": "2026-07-05T04:17:17Z",
+  "text": "El satélite fue enviado al espacio a través de un cohete. Los científicos utilizan telescopios en el espacio, dado que la luz de la atmósfera de la Tierra distorsiona parte de la luz y vista que tenemos.",
+  "latency_sec": 4.6751,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "El satélite fue enviado al espacio a través de un cohete. Los científicos utilizan telescopios en el espacio, dado que la luz de la atmósfera de la Tierra distorsiona parte de la luz y vista que tenemos.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225037,
+    "id": "ytpJaoPpA4vb2roP5ayN6AY",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 494,
+      "total_tokens": 614
+    }
+  }
+}

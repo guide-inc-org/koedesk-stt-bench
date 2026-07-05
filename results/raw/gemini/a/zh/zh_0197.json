@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0197",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.64,
+  "ref_text_raw": "再往北的广袤地区人烟稀少，有些地方是杳无人烟的荒野。",
+  "ref_text_normalized": "再 往 北 的 广 袤 地 区 人 烟 稀 少 有 些 地 方 是 杳 无 人 烟 的 荒 野",
+  "timestamp_utc": "2026-07-05T09:04:44Z",
+  "text": "再往北的国贸地区人烟稀少，有些地方是野狐无人烟的旷野。",
+  "latency_sec": 6.9913,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "再往北的国贸地区人烟稀少，有些地方是野狐无人烟的旷野。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242284,
+    "id": "Jh5KaqqNOcqn2roP1aC6yAE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 298,
+      "total_tokens": 772
+    }
+  }
+}

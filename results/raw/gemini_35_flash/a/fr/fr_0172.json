@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0172",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.86,
+  "ref_text_raw": "Le satellite a été envoyé dans l'espace par une fusée. Les scientifiques utilisent des télescopes dans l'espace parce que l'atmosphère terrestre déforme une partie de notre lumière et de notre vision.",
+  "ref_text_normalized": "le satellite a été envoyé dans l'espace par une fusée les scientifiques utilisent des télescopes dans l'espace parce que l'atmosphère terrestre déforme une partie de notre lumière et de notre vision",
+  "timestamp_utc": "2026-07-05T05:16:45Z",
+  "text": "Le satellite a été envoyé dans l'espace par une fusée. Les scientifiques utilisent des télescopes dans l'espace parce que l'atmosphère terrestre déforme une partie de notre lumière et de notre vision.",
+  "latency_sec": 6.3976,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Le satellite a été envoyé dans l'espace par une fusée. Les scientifiques utilisent des télescopes dans l'espace parce que l'atmosphère terrestre déforme une partie de notre lumière et de notre vision.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228605,
+    "id": "uOhJaqP5F_TF1e8P96Xb2QI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 293,
+      "total_tokens": 963
+    }
+  }
+}

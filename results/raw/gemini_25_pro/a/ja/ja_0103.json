@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0103",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.62,
+  "ref_text_raw": "エアロスミスはツアーで予定していたコンサートを中止しました。",
+  "ref_text_normalized": "エアロスミスはツアーで予定していたコンサートを中止しました",
+  "timestamp_utc": "2026-07-05T03:06:50Z",
+  "text": "エアロスミスはツアーで予定していたコンサートを中止しました。",
+  "latency_sec": 3.2145,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "エアロスミスはツアーで予定していたコンサートを中止しました。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783220810,
+    "id": "SMpJarDGLPia1e8P4ZHFoQI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 13,
+      "prompt_tokens": 361,
+      "total_tokens": 374
+    }
+  }
+}

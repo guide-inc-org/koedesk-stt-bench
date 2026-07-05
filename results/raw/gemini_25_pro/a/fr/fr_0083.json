@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0083",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 13.02,
+  "ref_text_raw": "Par exemple, des étudiants de l'école Bennet en Caroline du Nord conçoivent chaque année un site web consacré à leur visite de la capitale de l'État. Chaque année, le site est remis à jour, mais les anciennes versions sont conservées en ligne pour servir d'album.",
+  "ref_text_normalized": "par exemple des étudiants de l'école bennet en caroline du nord conçoivent chaque année un site web consacré à leur visite de la capitale de l'état chaque année le site est remis à jour mais les anciennes versions sont conservées en ligne pour servir d'album",
+  "timestamp_utc": "2026-07-05T04:55:50Z",
+  "text": "Par exemple, des étudiants de l'école Bennett en Caroline du Nord conçoivent chaque année un site web consacré à leur visite de la capitale de l'État. Chaque année, le site est remis à jour, mais les anciennes versions sont conservées en ligne pour servir d'album.",
+  "latency_sec": 7.0146,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Par exemple, des étudiants de l'école Bennett en Caroline du Nord conçoivent chaque année un site web consacré à leur visite de la capitale de l'État. Chaque année, le site est remis à jour, mais les anciennes versions sont conservées en ligne pour servir d'album.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227350,
+    "id": "0eNJavfJCpDIrfcPxsKh8Q8",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 58,
+      "prompt_tokens": 438,
+      "total_tokens": 889
+    }
+  }
+}

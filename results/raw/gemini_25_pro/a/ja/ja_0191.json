@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0191",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 12.18,
+  "ref_text_raw": "ライオンは最も社交的なネコ科の動物であり、プライドと呼ばれる大集団で生活しています。",
+  "ref_text_normalized": "ライオンは最も社交的なネコ科の動物であり プライドと呼ばれる大集団で生活しています",
+  "timestamp_utc": "2026-07-05T03:16:14Z",
+  "text": "ライオンは最も社交的な猫科の動物であり、プライドと呼ばれる大集団で生活しています。",
+  "latency_sec": 5.6567,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ライオンは最も社交的な猫科の動物であり、プライドと呼ばれる大集団で生活しています。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221374,
+    "id": "esxJapjjE_6e0-kP-tbAuA4",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 411,
+      "total_tokens": 684
+    }
+  }
+}

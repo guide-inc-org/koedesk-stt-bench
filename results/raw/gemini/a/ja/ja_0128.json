@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0128",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.2,
+  "ref_text_raw": "消防隊は最終的に午後11時35分までに火を消しました。",
+  "ref_text_normalized": "消防隊は最終的に午後11時35分までに火を消しました",
+  "timestamp_utc": "2026-07-05T03:08:52Z",
+  "text": "消防隊は最終的に午後11時35分までに火を消しました。",
+  "latency_sec": 4.6235,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "消防隊は最終的に午後11時35分までに火を消しました。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783220933,
+    "id": "wcpJarb7MJbPrfcP5aSH-Ac",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 348,
+      "total_tokens": 578
+    }
+  }
+}

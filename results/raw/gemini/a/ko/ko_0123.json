@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0123",
+  "lang": "ko",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.28,
+  "ref_text_raw": "엔젤 (2006)은 조직이 더 높은 수준의 성과를 달성하도록 돕는 방법으로 컨티넘(Continuum)이라는 접근 방식을 설명합니다.",
+  "ref_text_normalized": "엔젤 2006은 조직이 더 높은 수준의 성과를 달성하도록 돕는 방법으로 컨티넘continuum이라는 접근 방식을 설명합니다",
+  "timestamp_utc": "2026-07-05T06:02:27Z",
+  "text": "엔젤 2006은 조직이 더 높은 수준의 성과를 달성하도록 돕는 방법으로 컨티넘이라는 접근 방식을 설명합니다.",
+  "latency_sec": 4.7558,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "엔젤 2006은 조직이 더 높은 수준의 성과를 달성하도록 돕는 방법으로 컨티넘이라는 접근 방식을 설명합니다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231347,
+    "id": "cPNJao6cHqHc1e8P1OStiQU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 382,
+      "total_tokens": 630
+    }
+  }
+}

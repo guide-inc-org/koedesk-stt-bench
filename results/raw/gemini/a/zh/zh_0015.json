@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0015",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 18.44,
+  "ref_text_raw": "有些人认为他是对的，但也有很多人持相反意见；他们认为太阳系是围绕着地球运转的，太阳也是（甚至其他恒星也是）。",
+  "ref_text_normalized": "有 些 人 认 为 他 是 对 的 但 也 有 很 多 人 持 相 反 意 见 他 们 认 为 太 阳 系 是 围 绕 着 地 球 运 转 的 太 阳 也 是 甚 至 其 他 恒 星 也 是",
+  "timestamp_utc": "2026-07-05T08:48:49Z",
+  "text": "有些人认为他是对的, 但也有很多人持反对意见。 他们认为太阳系是围绕着地球运转的, 太阳也是, 甚至其他恒星也是。",
+  "latency_sec": 3.8929,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "有些人认为他是对的, 但也有很多人持反对意见。 他们认为太阳系是围绕着地球运转的, 太阳也是, 甚至其他恒星也是。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241329,
+    "id": "bhpKaoGYHr6a1e8PgPz1sQM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 612,
+      "total_tokens": 722
+    }
+  }
+}

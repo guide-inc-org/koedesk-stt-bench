@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0067",
+  "lang": "ru",
+  "engine": "gemini_25_pro",
+  "duration_sec": 8.94,
+  "ref_text_raw": "Роландо Мендоса выстреливал из своей винтовки М16 в туристов.",
+  "ref_text_normalized": "роландо мендоса выстреливал из своей винтовки м16 в туристов",
+  "timestamp_utc": "2026-07-05T07:13:10Z",
+  "text": "Роландо Мендоса выстреливал из своей винтовки М16 в туристов.",
+  "latency_sec": 4.9025,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Роландо Мендоса выстреливал из своей винтовки М16 в туристов.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235591,
+    "id": "AwRKao_rG8fE0-kP8qfE0QY",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 308,
+      "total_tokens": 519
+    }
+  }
+}

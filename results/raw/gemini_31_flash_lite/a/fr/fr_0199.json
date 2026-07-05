@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0199",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.26,
+  "ref_text_raw": "Il s'agit du lieu que les colons Britannique ont investit. Ainsi, cela me semble être un bon point de départ, si vous recherchez des preuves du passé colonial de cette région.",
+  "ref_text_normalized": "il s'agit du lieu que les colons britannique ont investit ainsi cela me semble être un bon point de départ si vous recherchez des preuves du passé colonial de cette région",
+  "timestamp_utc": "2026-07-05T05:21:53Z",
+  "text": "Il s'agit du lieu que les colons britanniques ont investi. Ainsi, cela me semble être un bon point de départ si vous recherchez les preuves du passé colonial de cette région.",
+  "latency_sec": 3.2106,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Il s'agit du lieu que les colons britanniques ont investi. Ainsi, cela me semble être un bon point de départ si vous recherchez les preuves du passé colonial de cette région.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP4E1rE2Nk43hL550i9rwKYgQyXxCrHmH/KhUseD8Uy+mCNmZNpSQYaOB+Rzsh"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228913,
+    "id": "8OlJaujJAovb2roP5ayN6AY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 278,
+      "total_tokens": 317
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0168",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.3,
+  "ref_text_raw": "ในช่วงสายของวันอาทิตย์ ประธานาธิบดีโดนัลด์ ทรัมป์ของสหรัฐอเมริกาประกาศในแถลงการณ์ที่ส่งผ่านเลขาธิการสื่อมวลชนว่าสหรัฐฯ จะถอนกองทัพออกจากซีเรีย",
+  "ref_text_normalized": "ในช่วงสายของวันอาทิตย์ ประธานาธิบดีโดนัลด์ ทรัมป์ของสหรัฐอเมริกาประกาศในแถลงการณ์ที่ส่งผ่านเลขาธิการสื่อมวลชนว่าสหรัฐฯ จะถอนกองทัพออกจากซีเรีย",
+  "timestamp_utc": "2026-07-05T08:11:15Z",
+  "text": "ใน ช่วง สาย ของ วัน อาทิตย์ ประธานาธิบดี โดนัลด์ ทรัมป์ ของ สหรัฐ อเมริกา ประกาศ ใน แถลง การณ์ ที่ ส่ง ผ่าน เลขาธิการ สื่อ มวล ชน ว่า สหรัฐ จะ ถอน กอง ทัพ ออก จาก ซีเรีย",
+  "latency_sec": 2.6795,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ใน ช่วง สาย ของ วัน อาทิตย์ ประธานาธิบดี โดนัลด์ ทรัมป์ ของ สหรัฐ อเมริกา ประกาศ ใน แถลง การณ์ ที่ ส่ง ผ่าน เลขาธิการ สื่อ มวล ชน ว่า สหรัฐ จะ ถอน กอง ทัพ ออก จาก ซีเรีย",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPro25/mbHQSvMr5j7Od/cxE/53jbcIaQqs4m2pNZNPrIcSLuGZblUY/6aZJ93"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239075,
+    "id": "ohFKarbgBay1vr0P8c_P-Qc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 65,
+      "prompt_tokens": 404,
+      "total_tokens": 469
+    }
+  }
+}

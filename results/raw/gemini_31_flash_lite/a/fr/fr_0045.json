@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0045",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 4.2,
+  "ref_text_raw": "Rolando Mendoza tira avec son fusil M16 sur les touristes.",
+  "ref_text_normalized": "rolando mendoza tira avec son fusil m16 sur les touristes",
+  "timestamp_utc": "2026-07-05T05:12:13Z",
+  "text": "Rolando Mendoza tire avec son fusil MCS sur les touristes.",
+  "latency_sec": 2.4486,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Rolando Mendoza tire avec son fusil MCS sur les touristes.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPwfBdoQYQdZ5Me8smzJmOvdAx//SrVOcEasOGcGCso0vJvEDPu89ljuvydCfT"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228333,
+    "id": "q-dJatzyIeznosUP7JmIyQY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 14,
+      "prompt_tokens": 126,
+      "total_tokens": 140
+    }
+  }
+}

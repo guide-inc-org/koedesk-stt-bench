@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0080",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.32,
+  "ref_text_raw": "\"Der Beschreibung eines Beobachters zufolge verfiel Bischkek mehr und mehr in einen Zustand der „Anarchie\"\", als Banden von Menschen durch die Straßen zogen und Konsumgüterläden plünderten.\"",
+  "ref_text_normalized": "der beschreibung eines beobachters zufolge verfiel bischkek mehr und mehr in einen zustand der anarchie als banden von menschen durch die straßen zogen und konsumgüterläden plünderten",
+  "timestamp_utc": "2026-07-05T04:04:38Z",
+  "text": "Der Beschreibung eines Beobachters zufolge verfiel Bischkek mehr und mehr in einen Zustand der Anarchie, als Banden von Menschen durch die Straßen zogen und Konsumgüterläden plünderten.",
+  "latency_sec": 3.9691,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Der Beschreibung eines Beobachters zufolge verfiel Bischkek mehr und mehr in einen Zustand der Anarchie, als Banden von Menschen durch die Straßen zogen und Konsumgüterläden plünderten.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPM9BfvFSsteAx4S1ZwCvZCDo907Jp1TzuvB2UuiTUKggWv7ekQxKVY6pjQYUj"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224278,
+    "id": "09dJar65N9qA1e8PtKvlgQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 279,
+      "total_tokens": 323
+    }
+  }
+}

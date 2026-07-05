@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0068",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.16,
+  "ref_text_raw": "Sundarbans est une réserve naturelle depuis 1966, vous pourrez y trouver environ 400 tigres du Bengale royal et 30 000 cerfs tachetés.",
+  "ref_text_normalized": "sundarbans est une réserve naturelle depuis 1966 vous pourrez y trouver environ 400 tigres du bengale royal et 30 000 cerfs tachetés",
+  "timestamp_utc": "2026-07-05T05:07:22Z",
+  "text": "Sundarban est une réserve naturelle depuis 1966. Vous pourrez y trouver environ 400 tigres du Bengale royal et 3 000... 30 000 cerfs tachetés.",
+  "latency_sec": 7.8906,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Sundarban est une réserve naturelle depuis 1966. Vous pourrez y trouver environ 400 tigres du Bengale royal et 3 000... 30 000 cerfs tachetés.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228042,
+    "id": "hOZJatCFHZjCvr0PiamC4A8",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 50,
+      "prompt_tokens": 300,
+      "total_tokens": 1462
+    }
+  }
+}

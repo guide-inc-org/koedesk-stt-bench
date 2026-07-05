@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0197",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.5,
+  "ref_text_raw": "Geben Sie acht, dass der Stoff nicht zu heiß wird (das kann ihn schrumpfen lassen oder in extremen Fällen zu Verbrennungen führen).",
+  "ref_text_normalized": "geben sie acht dass der stoff nicht zu heiß wird das kann ihn schrumpfen lassen oder in extremen fällen zu verbrennungen führen",
+  "timestamp_utc": "2026-07-05T04:11:52Z",
+  "text": "Geben Sie Acht, dass der Stoff nicht zu heiß wird. Das kann ihn schrumpfen lassen oder in extremen Fällen zu Verbrennungen führen.",
+  "latency_sec": 2.7701,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Geben Sie Acht, dass der Stoff nicht zu heiß wird. Das kann ihn schrumpfen lassen oder in extremen Fällen zu Verbrennungen führen.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPIjd9b+92ykCnxIphOgVgfYXsmtM45kgbkbxrVmNjVC/fERsdhI7Ubq+GoxIY"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224712,
+    "id": "h9lJasuQGuex2roPq7DX0QU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 284,
+      "total_tokens": 315
+    }
+  }
+}

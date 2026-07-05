@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0003",
+  "lang": "es",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.58,
+  "ref_text_raw": "Esto parece tener sentido, ya que en la Tierra no se percibe su movimiento, ¿cierto?",
+  "ref_text_normalized": "esto parece tener sentido ya que en la tierra no se percibe su movimiento ¿cierto?",
+  "timestamp_utc": "2026-07-05T04:13:03Z",
+  "text": "Esto parece tener sentido, ya que en la tierra no se percibe su movimiento, ¿cierto?",
+  "latency_sec": 3.2429,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Esto parece tener sentido, ya que en la tierra no se percibe su movimiento, ¿cierto?",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224783,
+    "id": "zdlJaoDZCb3KrfcPzfG_-QM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 296,
+      "total_tokens": 390
+    }
+  }
+}

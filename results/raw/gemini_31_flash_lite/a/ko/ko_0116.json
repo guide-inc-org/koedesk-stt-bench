@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0116",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 20.82,
+  "ref_text_raw": "29세의 말라라 발라수브라마니아 박사는 신시내티에서 북쪽으로 약 15마일 떨어진 교외 지역인 오하이오주 블루 애쉬에서 도로 옆 바닥에 누워 티셔츠와 속옷만 입은 채 약물에 취한 상태로 발견되었습니다.",
+  "ref_text_normalized": "29세의 말라라 발라수브라마니아 박사는 신시내티에서 북쪽으로 약 15마일 떨어진 교외 지역인 오하이오주 블루 애쉬에서 도로 옆 바닥에 누워 티셔츠와 속옷만 입은 채 약물에 취한 상태로 발견되었습니다",
+  "timestamp_utc": "2026-07-05T06:25:54Z",
+  "text": "29세의 말레라 발라수브라마니아 박사는 신시내티에서 북쪽으로 약 15마일 떨어진 교외 지역인 오하이오주 블루 애시에서 도로 옆 바닥에 누워 티셔츠와 속옷만 입은 채 약물에 취한 상태로 발견되었습니다.",
+  "latency_sec": 3.5355,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "29세의 말레라 발라수브라마니아 박사는 신시내티에서 북쪽으로 약 15마일 떨어진 교외 지역인 오하이오주 블루 애시에서 도로 옆 바닥에 누워 티셔츠와 속옷만 입은 채 약물에 취한 상태로 발견되었습니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP/wcSw6no2MjCEJIebnIn9n/umnKxJ1AtJOFXlrvjI+EJsZbKwHYtnqUKy7Ra"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232754,
+    "id": "8PhJauW3I4Khvr0P0-6Y8AY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 70,
+      "prompt_tokens": 542,
+      "total_tokens": 612
+    }
+  }
+}

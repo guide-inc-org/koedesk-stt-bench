@@ -1,0 +1,39 @@
+{
+  "utt_id": "pt_0000",
+  "lang": "pt",
+  "engine": "gemini_25_flash",
+  "duration_sec": 17.76,
+  "ref_text_raw": "Segundo informações, ele estava na casa dos 20 anos. Em uma declaração, Bieber disse que, \"embora eu não estivesse presente nem diretamente envolvido neste trágico incidente, meus pensamentos e orações estão com a família da vítima\".",
+  "ref_text_normalized": "segundo informações ele estava na casa dos 20 anos em uma declaração bieber disse que embora eu não estivesse presente nem diretamente envolvido neste trágico incidente meus pensamentos e orações estão com a família da vítima",
+  "timestamp_utc": "2026-07-05T06:27:11Z",
+  "text": "Segundo informações, ele estava na casa dos 20 anos. Em uma declaração, Bieber disse que, embora eu não tivesse presente, nem diretamente envolvido neste trágico incidente, meus pensamentos e orações estão com a família da vítima.",
+  "latency_sec": 3.7192,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Segundo informações, ele estava na casa dos 20 anos. Em uma declaração, Bieber disse que, embora eu não tivesse presente, nem diretamente envolvido neste trágico incidente, meus pensamentos e orações estão com a família da vítima.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232831,
+    "id": "PflJasKYI7ui9tMPvLHh-QE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 50,
+      "prompt_tokens": 590,
+      "total_tokens": 671
+    }
+  }
+}

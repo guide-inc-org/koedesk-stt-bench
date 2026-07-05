@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0067",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.4,
+  "ref_text_raw": "Die Rudel bestehen aus ein bis drei verwandten erwachsenen Männchen sowie bis zu dreißig Weibchen und Jungen.",
+  "ref_text_normalized": "die rudel bestehen aus ein bis drei verwandten erwachsenen männchen sowie bis zu dreißig weibchen und jungen",
+  "timestamp_utc": "2026-07-05T04:01:28Z",
+  "text": "Die Rudel bestehen aus ein bis drei verwandten erwachsenen Männchen, sowie bis zu 30 Weibchen und Jungen.",
+  "latency_sec": 3.9157,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Die Rudel bestehen aus ein bis drei verwandten erwachsenen Männchen, sowie bis zu 30 Weibchen und Jungen.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Et4GCtsGARFNMg8KT1+JYXXgR/Qi7uDEDMzXGETgn8hYEYx4/QoOdpvRA1GyfAtpXxnJDmOBIWjLIk59YanhtsT8rJ9P384TxmY3ynrkmHhBFc3XwPik4ALE7+sq60BMNiG7f9aFIwvYpULvzT0KIHxvTg9ZofPnnIyEb0YkeLONNQLbkIx4DD5lzc1pvMSKpdWLEC9y7otDuMx+ZwXM2pZKO58h7mAyLXyUk4sIZuaT4pmuRe3HP1OXBIJwpaKV+uayaHj47z2PlMYxUb1AKr1sdQ4RJgK5i0+hEwPDZGe1GlD7pypZ7p+eRewDIZgfGiQeRiZJ7qyHh7JjVdold1xOOQLOReBPpaKLXZMXzHK7JWoH13FEGniRzm5z9kHEYW991CwUsKSQfBTrqy4Bowewfh7IaCvQ+PSgFLinFdiX5mzYquvTUuBiZ4RBBUnx192Z8rm1lcYucyRgU63C/S3T4YzwaYq273JnqaVbHDuLimfCl75zyCq26bS2S7qxM+QzY4Jxa4V2l3Qc31hC0KiY96lwgyYKS+UMlAjZ/j0l6EXYFlCWqpm9W3Fk3PzxJ8r3qveoQcJrANnKg4v3tAqzBWJhGWnU/vV6hVGnD0uqZKQYQONV/uRv5G7oJxz2NGjGf3qVkcKZ2y33K5i58lWrFrZZZ6UGqmiysuQBGLHvnThMyHHRmvsbzS8RN+Bdcs8cUzuPPlu5S+/B5fULugq3LdiyAsCfTuImQpEnBMziGOudP8b4qsvUMQCMIG7YlQqGGWXV1T28G5b6qycGakeJi4fpj3MeKNIkwAlD2yTQCKuh1BVYKgkmXqaVAnCfIjMs4SdadIWoo/yeemmTln73I8ezyHINAkJ3cZs3FVMp47Vma0/hBh74z4rb57cWyTt0buFj2SlScUOUFuXMEycaCNF34h8x/Ou0v8PrLid4SC/Iz8CUM4f4cZyaAI8HVblni/Sr/z5i48kEnOgDhIYHpG2U2KBYBycb07f1IFZPwAhugsOvKxOcZkm0b1vUc5eIW6lFwZ2QXWk40kWG1D8iEuufZmAoJIu/Nucd2JFxOBHr9KXK2ptklf9kqt/NO+8YLSov1rIGV5kkbyzVPqgRsbJhEoRyhRwm9/vO2uc4Dxtpq0tpVmhz24fujHqJaQ=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224088,
+    "id": "FddJarahL7bR0-kPp6yr6QI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 306,
+      "total_tokens": 587
+    }
+  }
+}

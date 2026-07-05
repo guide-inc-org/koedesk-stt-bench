@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0012",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 13.44,
+  "ref_text_raw": "กองกำลังอเมริกันและกองกำลังเสรีฝรั่งเศสได้ปลดปล่อยฝรั่งเศสตอนใต้ให้เป็นอิสระและหันสู่ประเทศเยอรมนีภายในเวลาเพียงสองสัปดาห์เท่านั้น",
+  "ref_text_normalized": "กองกำลังอเมริกันและกองกำลังเสรีฝรั่งเศสได้ปลดปล่อยฝรั่งเศสตอนใต้ให้เป็นอิสระและหันสู่ประเทศเยอรมนีภายในเวลาเพียงสองสัปดาห์เท่านั้น",
+  "timestamp_utc": "2026-07-05T07:52:01Z",
+  "text": "กองกำลังอเมริกันและกองกำลังเสรีฝรั่งเศส ได้ปลดปล่อยฝรั่งเศสตอนใต้ให้เป็นอิสระ และหันสู่ประเทศเยอรมัน ภายในเวลาสองสัปดาห์เท่านั้น",
+  "latency_sec": 4.6102,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "กองกำลังอเมริกันและกองกำลังเสรีฝรั่งเศส ได้ปลดปล่อยฝรั่งเศสตอนใต้ให้เป็นอิสระ และหันสู่ประเทศเยอรมัน ภายในเวลาสองสัปดาห์เท่านั้น",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EuYWCuMWARFNMg/V0/OLcB/g90QoVsnKMaMVSlY059694TIveAbJElgQ3DuTrN2S9ktvkUrdYxgnb/fCJ8VXUMTvNqNBTmNThuySYT+RdLOHf4OSCYJo4BIaCmVvGb6zQYaBFHiL1K9wVDKChhQikNZ0jO1AnstpqKUMLUe1yo8GNhRwiOHFHz36bZkzoE8WNg2Rq7Y6eohdgTHcy4ezjZA0CmEpg/5mWQU/sfC07BHYPCqSJJWzHGJulp1kC118wUENm4ujO6BabjQqftqODrpnUGFEB6hUPJ9GtWRdWpADg5OFEATl0zSQnBRqKZLuLzQT8fbOiT18M9Ps26AQ0nw/kNu6XLQPECE5Qs2YdKiw4LxAZKzdaapXykTdJuDdsZ/5ZqVyt/nTOY+S+hqlFlYJtjSiRfTVBaBPiWooC9awY+KgWMaLvxa2L4JgTX20YNIWwXYxPvdUkDwMt6SWwYmNAnHL5wUYDRxaFA661jzqZ2saCiZb7uANZg2XHz1gS0veE4LURkQbqdGQBi6TEiZ0hXMGIY3nTSxK28Do1a70SGvddh+6hwMZFhanLu2mX/iYXdVpVNE6xRbPaFEzhUPg3u54JYNUteh+9N4CIGY1VBK1cFHydXVouIsXypmqAQ9nuVUMuKxSbgVcqpPBacnid7uLW5m2AxDErytFF/sI4T2MhV5IYur+yoDl+lDwIAzLr4zefwb7IeRWvpztYC3AxGV9vGMoBjM2dh2Dt4PWURfPfiyfsFUjva+o8FAumj9YY/k9NEFhB8XSOINpYW1ZeMqjEQw1JszXv06vfDTRx/8LeqUPzUhQq7NxEBLTX4Zm2PeQrv1wM1N8XUI8PZ9tZBxZ7+p6M1H6iQrmTxthXj/iwZ1386JSBOWHMgOB4tLX1dz8pxUCI5TtFZu8Xm/mJVgFXe33+CHG/uxhhlILuJ/X06GeJ9VnRLqecoOFEPZokl29poWFeVHsJ4Zc9UxIsqmctrK1nNBsor0MmWUZNyy77Fiq+beKXZt/bFIwIudpPSjY5BqzAEXVTq3AlYbE6SCMoG+qOq3UDL2/qYIvtPXPlPjW2b0spElSiW6i0TM3scW/ov8855a6bjm+A33/79AsgF1AzZ2k9zu9DZFKi96ipnvpoUFMFA1WxMc2rg9UfJAwHK4OTZINiVuVAvw3ORIi42n48czwxtgIr0J0w2W17ktIk0AlksM8Z9BTzJdf4m01bUMTx7Fuqsgox0UPENOhiq8Iz69jmHBEtW8Ao8cWf1hjvkfRJFvthie+Ob4TOWXnQBUYzkmqxNBhzUOwarV2JWsZ8sPTpjxJd3XcB+pYQLHy6YURnZGVeXRE5txVKV77JA2J5dmlschBuj3oPaXnToJXDBrA3Q94u08H7pYfikDqwEVv5VDO9T2ZyJtAlyJ0UKRJWLSMXA4Y6J0dcxAVMu+RsMmQxtx04RJaU6WnVBnf/2pHFQ+MSKMbMXZfvNRB6pRDiO5zSmka9m0owKsq4TdUJB30xJCuioaFU/LSpPALVFM4tMRHBmBU1id0iMaMQZsELjMYHKC45dJKB1L9+HZ7Sh/Z4cSBBNJ3U82T7Q/hYy4UfzOJ0Cd94uCu/SuvStX/d4+6xd5sEtrIC5bugVDksC9cS4GEs8kXydEsHDuXnwa1g+9RErvU3IrOZPjipVaudTOfS0gy3/OHQK0yPJYXFwT6NNj+eoyT95Lj3UPoAPQNT5flSWHMTbzU0h3NMlV5ZuAHIEdrFOxDQGTL2XQg7weDLjJDlG0ETvHwo4uSs3waGhOt+CWPHa/NzY3007aOEFjEdjYCihl8YUmUDXH9lJeBo7lrHhMTyFihnm63MWgqPRb4w5AWaj956TnyrU5x9+MWkxJtaVvoQJvqpGbQ6AWwGIbV0hDfCoS/yhe2dapg46P0HQkBz6Ev+219U54lI3+Io1eQeu5jI6SkaiHAC2yykYcAQEac48d1KuSR+e1WcPIflnzxgfdgcsJIlby1UEEcG2Bzk6vXfVH8yFgycC7CO7wsYZCupJaneLei/JMsduV90/MnhAfailTAgxAtgwWzzIkzCs7LSBqv83fri9NSNhPDp1qnRaSpgTtkw80sTC7nIM5ofWFVGXPXHAO0+jWyL2MaRmmqAuHQeziU1Y04fbvEq15kQJL7RYWNqJYqns8uMNV9IjYhlKj571mCMbgn4/D2tZ8fN8KC80PEMxNIoqoV6vhdTkgZhszq6Te40jes73xD8BIEDp4jbydABafCZVHsGS8c/2ouglfK2WzYPd5J/+NjWNX7C1x1qQr56mHW7HAiZODG//w6btKXVEvW77Hu61bmIIdDrJbyxDQieXb9s+ygKXIy/Xd1DILMFVvCeW+iqGPTYZZXC9HT1KVjzkMy1sNYi2zD01+DrymiCypes/wyXy3jVSBWZbEr99vTocxzdC8nlXy61qcglJfpjkAMCY5AaoYESR/csWVdmHAjHNPIphly46q7PNeHKY1YoChDV5K9QgmTfRt6cws/MkxtyNL5B7ScJviSMXFoTTrM5S1+5YL4QyFCb4/zU+ZrcaCynStMsnsDDkBlYWwqdmZqy8ynAqmWnlo89KcdZ5avY3rAI4WWsydMK0lVy4IpXgo0BpW+cHguekHWz8J32zv7XZBHeXbbVj6vUVa7qzdsQ5pZszplF1wwzEwRBmDxudV1PsEPh+fFkRndd2VUCz141lNcQ9Wd0hm18shbv5TCOWs+8aKWZIq7qacxUpyu94zCCYvF220oxoWORg42xZW1rovJWFyWTpDHkhddSvPSL6OTsy3Dzn+aV9KGNq4DpeaAJgkhg3XFrtg0CjPuJpVMc6rBKTsGvDVveRicH21hlQvq8URwqX3FyaLfWX3V1XFxFGriKANJ9wTqC7apWhTHta0fSy2Hx6YjPkY0bVPVnP2jOmSvmmGgaH+JKvIyo8Q+uUiflY0ytdD0usfHLj3YW2QNFzfv3cFuOstAqKu63G4YmPgZCzx4avRbB6dgaWxoWnHCajiKpHN7aEIhZ9e6wXyGC+ZL7BkH0SH3Xn8MzC0Gr5wyC4L2XfvsMwyi6ZVhDH7e1NA+IzXGj1uCXZtkabpe0fmxld7dXSnofj5XaraisQmhjSehKCBQ1zqZVEzLcLav8kOhi10flD49GVq7LtdhkagjkVPHplyjee1mR8MVKN/klJQ5WZujbBu2Jyf5WTrRXrucKaAWzZd5RYQaaiQ87VW8YmOpD34AyxWloQnSzqOspfVE0KoJZwqIL5K0ogLVeM6BQtGk3PHNStT1gW2l8Zmyk20EauqaDPGJELOFvtVnCriTzKmyY9B/3uU11SrJ3o/31NnuRTbSvWjrHRxuTG8dfzzaIOQuQikYnOmeunNzn4JvxmCSE1zGyqZmE29QGQdzheOcHOvRwZGe/16DmHjyPTxobGFis6eaS4nYtDhwLRfr/FYdIEL4m2hJtKFttMJAVCYAMuc/hiuhttKSCmVRSEPBV9e1wvdpcZ1bOqO0DZSC3Bf6D0MiVHAbChmvKTJjQ4n1RQcE+Tpu+o0cNGdm1NU+7NX7yet3eCTbcvKhjICPz8eta+ua0zefnTKny1iv7q70eymjQaMSSm5vN45Nt8gYhOmr9AIFVVMsfm1A0hDGapbE3D6pdr/0Y4eYUhw2VGQciJ9URU1hbt0zsRKFJ5AVjc0BQBIss3uBoQ8abIgYWoZKO3oubdm6OtkwCAkWbiTbrKsFWuNeVj799hwXvEbKRmTmkbIOPU+tyCXhLzWNiY5MlYoAEbKqbw0+XPbTtcqOaQttIhkaZc2V1B7JhWJyConGGOAnXuBqUzuxq+AOFbreEqT8tUZZkkVEKHIf9bkKR/rmuJJTYsanUX5rUPN29yhvcctFcJBp/E8xNtjiMhU="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237921,
+    "id": "Hg1KarCXJeL81e8P5-3SkQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 357,
+      "total_tokens": 825
+    }
+  }
+}

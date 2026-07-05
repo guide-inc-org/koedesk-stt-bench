@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0043",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.6,
+  "ref_text_raw": "Ее очень нелегко обнаружить даже тому, кто знает о ее существовании. В пещере человек оказывается в полной изоляции.",
+  "ref_text_normalized": "ее очень нелегко обнаружить даже тому кто знает о ее существовании в пещере человек оказывается в полной изоляции",
+  "timestamp_utc": "2026-07-05T07:29:39Z",
+  "text": "Её очень нелегко обнаружить, даже тому, кто знает о её существовании. В пещере человек оказывается в полной изоляции.",
+  "latency_sec": 3.146,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Её очень нелегко обнаружить, даже тому, кто знает о её существовании. В пещере человек оказывается в полной изоляции.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP8M7we4392iPKAgJUhwqDinuSk15gLQf/Bgqi1BDv/QDPSVb6aNsA72ou0Mcm"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236579,
+    "id": "4gdKat-GAc7W2roP7vfvgQQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 336,
+      "total_tokens": 366
+    }
+  }
+}

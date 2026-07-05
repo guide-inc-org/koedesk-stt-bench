@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0186",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.96,
+  "ref_text_raw": "\"Tanaman terlihat paling baik saat berada di lingkungan alami, jadi tahan godaan untuk mengambil spesimen meskipun \"cuma satu\".\"",
+  "ref_text_normalized": "tanaman terlihat paling baik saat berada di lingkungan alami jadi tahan godaan untuk mengambil spesimen meskipun cuma satu",
+  "timestamp_utc": "2026-07-05T05:56:30Z",
+  "text": "Tanaman terlihat paling baik saat berada di lingkungan alami. Jadi, tahan godaan untuk mengambil spesimen meskipun cuma satu.",
+  "latency_sec": 2.9698,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Tanaman terlihat paling baik saat berada di lingkungan alami. Jadi, tahan godaan untuk mengambil spesimen meskipun cuma satu.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPtpP660DPbAi61FtIGvygGjAP1cy52TAel7lJEv4H+7N8t7qYPnjhzSHa9BY8"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230990,
+    "id": "DfJJarnlAYGM0-kP4LLDwQk",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 271,
+      "total_tokens": 295
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0147",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.34,
+  "ref_text_raw": "You may also wish to consult the advice of governments other than your own, but their advice is designed for their citizens.",
+  "ref_text_normalized": "you may also wish to consult the advice of governments other than your own but their advice is designed for their citizens",
+  "timestamp_utc": "2026-07-05T03:35:43Z",
+  "text": "You may also wish to consult the advice of governments other than your own, but their advice is designed for their citizens.",
+  "latency_sec": 3.1915,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "You may also wish to consult the advice of governments other than your own, but their advice is designed for their citizens.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtgFCtUFARFNMg8105aGXl8QhUKCpPCc+rw5t7/nbPoa9KLJGX2EwEyIbtLWE2dWTAoaLw1my8+yVCIqp+N2xv27/cUg7LFm7uvC0aUbPZt/aHJAV6kRZJdDaHpQxbjFdnN95DeZqe/8ElxptY40tWQ+TBWvrkj0Wwi6GNvy2yiyqURARfMLd95S3KnvodXoVn6QKkaXWc9dpCJlwqEUMjZeWIFLW8Jc5+IQ3v+NuqFRjH0LGDgGfRHf7w8KT/VpQAJAuCwFE4QsLISazoUp8th6WwsG5ppas6ye/Q31tM0Payi0LCFuzEYpsSpbg3wZTZqdOdM2xSLwllv1Vdv/R+UT0L0efyM9hMktkYwPeZptSiuwNe0aBYDgRcCA9p3bC1FBn4p4xI2Uc50DpC+YCPGiiarv9zRhjd2ELmDavC3UdJsDL2fN8Ajmhuqfl8vGYp99gfcXzm8DjRQUwewytlihVYp2hsXlg27JiaHncE9eBhT6kvS3TrgpWqXi9eVEsVPSmjfu6FSOn9/cWgh4IYL8sWRKSsrwb4i793X8flTRX9hrnBTQ4OTTSAW1kTByETV7vUL1N7HT9uV+bnqXN4f7iFmpwdMsxyY+TveGZq8LqQb1P5wnriiGE+06S6ZDZshfOEppR6Xav+QRloAacv5f9sk2gfEYnWVEGcqFgS6Pj+8mOBt8R7tTDNcKIISjt2pGI5Y0BE6QBAgKVPlSkbksuLKcg/V1aUfDToXMPHYvwi2Pvnr2vzslyv1hBL/lL33YkNzQgWxKtCCSSuJ+kDIMVoLjcSmcxwsVI8xo1Lcjm4y8VQ9SgpkgUi8OL4AyOIQ/YZ3qZcB71TVVpoYtXUaH7VCDTx69vj7RX05rt7qtqGb+S1ZC1Th5uGl6/gXNozguMqVQs1x/0yxHNND0KoW82zIqCkFhcJiN9WnxWRJR/JqA14lGcvlVfgP9mTgjohKAwTWXCKI/p7c="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222543,
+    "id": "DdFJat-zGvnC0-kP-o-AoAM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 230,
+      "total_tokens": 404
+    }
+  }
+}

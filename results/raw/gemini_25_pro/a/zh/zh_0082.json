@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0082",
+  "lang": "zh",
+  "engine": "gemini_25_pro",
+  "duration_sec": 7.5,
+  "ref_text_raw": "氢离子是失去了电子的质子（因为氢原子由一个质子和一个电子组成）。",
+  "ref_text_normalized": "氢 离 子 是 失 去 了 电 子 的 质 子 因 为 氢 原 子 由 一 个 质 子 和 一 个 电 子 组 成",
+  "timestamp_utc": "2026-07-05T08:57:45Z",
+  "text": "氢离子是失去了电子的质子,因为氢原子由一个质子和一个电子组成。",
+  "latency_sec": 5.6963,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "氢离子是失去了电子的质子,因为氢原子由一个质子和一个电子组成。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241865,
+    "id": "hRxKar3vEe6j2roPp6OfsQM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 261,
+      "total_tokens": 648
+    }
+  }
+}

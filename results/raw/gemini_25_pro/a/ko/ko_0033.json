@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0033",
+  "lang": "ko",
+  "engine": "gemini_25_pro",
+  "duration_sec": 12.6,
+  "ref_text_raw": "아이티 정의와 민주주의 연구소는 네팔의 UN 평화 유지 부대가 의도치 않게 아이티에 질병을 전파시켰다는 독립적인 연구를 언급했다.",
+  "ref_text_normalized": "아이티 정의와 민주주의 연구소는 네팔의 un 평화 유지 부대가 의도치 않게 아이티에 질병을 전파시켰다는 독립적인 연구를 언급했다",
+  "timestamp_utc": "2026-07-05T06:01:11Z",
+  "text": "아이티 정의와 민주주의 연구소는 네팔의 유엔 평화 유지 부대가 의도치 않게 아이티의 질병을 전파시켰다는 독립적인 연구를 언급했다.",
+  "latency_sec": 6.9115,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "아이티 정의와 민주주의 연구소는 네팔의 유엔 평화 유지 부대가 의도치 않게 아이티의 질병을 전파시켰다는 독립적인 연구를 언급했다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231271,
+    "id": "IvNJav_uJcvb2roP0s2koQM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 42,
+      "prompt_tokens": 425,
+      "total_tokens": 771
+    }
+  }
+}

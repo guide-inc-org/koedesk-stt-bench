@@ -1,0 +1,39 @@
+{
+  "utt_id": "id_0116",
+  "lang": "id",
+  "engine": "gemini_25_pro",
+  "duration_sec": 6.24,
+  "ref_text_raw": "Ia awalnya dirawat di Rumah Sakit James Paget di Great Yarmouth.",
+  "ref_text_normalized": "ia awalnya dirawat di rumah sakit james paget di great yarmouth",
+  "timestamp_utc": "2026-07-05T05:35:43Z",
+  "text": "Ia awalnya dirawat di Rumah Sakit James Paget di Great Yarmouth.",
+  "latency_sec": 6.0611,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Ia awalnya dirawat di Rumah Sakit James Paget di Great Yarmouth.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783229743,
+    "id": "K-1JapLmKcbJ2roPosfb0QY",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 221,
+      "total_tokens": 492
+    }
+  }
+}

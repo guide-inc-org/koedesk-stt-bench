@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0044",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.26,
+  "ref_text_raw": "互联网结合了大众传播和人际传播的要素。",
+  "ref_text_normalized": "互 联 网 结 合 了 大 众 传 播 和 人 际 传 播 的 要 素",
+  "timestamp_utc": "2026-07-05T09:09:22Z",
+  "text": "互联网结合了大众传播和人际传播的要素。",
+  "latency_sec": 3.6226,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "互联网结合了大众传播和人际传播的要素。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "ErYFCrMFARFNMg8HqIW9cVFmCgeu0LgolQBItO1DSlnBklvPqD151WIsaZtGI9isWvGsL4nab9y/P7dSdjFQ5abQCrX+f2RB010vYWowLleL8R3KvyOrTa6y/I6oixfdCT3CTCdxnmkngE6MweqnS58fAqgpaXJEaqiG6k3RAY7roInWKEX6SDcI5TUp8yq/3DpfpK+4E5almvG0KR+1A3rGqwwKu3mRfSCBpbjT0AiZ4DZJEzu9NMLrUuRTaasqDqJB0/JjLdzUysTH90xm27ePGrthrgIkpq/6ja/Xg1ac3PHbbENxS1mOBRiB3xeoNaDWbFFngSA++9VoZf1MCT+vBM7R06xNC5mN4ZO486UVgJKge/Qp4nuqwJJe+C6ear9bytfEgQQJ7VRC+lYhysHB2fpQHSe8GDWUOYQcLo3Q1H4+Nxh61tQ5y4o2QbmYmpjvZSxGFv+2lN7OVDaLCPgXHcXU4TjwqEdEv1Rgn+QhvGqu+9MdUYbCMNVNS8+xdo+F4dIDtVxm82hmy4kQ8cI1ptOvtVD688J3K92MKPJv3aytF+6Ja6jd6tiQs+DG+N2QoAMxXJjxA8i6t7P3bK2q7EG0jJIC5tmrXLrxdkkbPwLKSUdMVNljgdanLTMfIbIyUKQat7G7Pij5CZmU+KO/1egXyRwS7r0wqw15UCAAg4bZfYzMXEMWO+wqx3ZrTLgFM8VRpbS0XfM0I3bMoj42YTo9BopgfCzt+oWE/JzkfIZNQ69c+JS/GgvbxmG35vylJuXbTVvR/kZjaNY59P1Ls1LxOJgf/pKw1PPEXY08ZKfSn1fF1BAqLCrGpFxBghw9BLlTKSRV1lObrF5yACukstgNJVooiULwPfxKfPV2xrHFQ1rAtkypAZRO8x8DYqI6oKUnWPHH9Bd2rX2W8xqqhgCu/FYryQ=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242563,
+    "id": "QB9Kap63JNCd1e8Pt4DcqQQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 12,
+      "prompt_tokens": 278,
+      "total_tokens": 483
+    }
+  }
+}

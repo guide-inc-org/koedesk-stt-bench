@@ -1,0 +1,45 @@
+{
+  "utt_id": "vi_0050",
+  "lang": "vi",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 22.2,
+  "ref_text_raw": "\"Bởi vì lông vũ của khủng long không có thân lông phát triển tốt được gọi là thân ống lông nhưng lại có các đặc điểm khác của lông vũ - tơ và lông tơ - nên các nhà nghiên cứu cho rằng thân ống lông có thể là sự phát triển tiến hóa sau này với những đặc điểm khác này.\"",
+  "ref_text_normalized": "bởi vì lông vũ của khủng long không có thân lông phát triển tốt được gọi là thân ống lông nhưng lại có các đặc điểm khác của lông vũ tơ và lông tơ nên các nhà nghiên cứu cho rằng thân ống lông có thể là sự phát triển tiến hóa sau này với những đặc điểm khác này",
+  "timestamp_utc": "2026-07-05T08:32:49Z",
+  "text": "Bởi vì lông vũ của khủng long không có thân lông phát triển tốt, được gọi là thân ống lông, nhưng lại có các đặc điểm khác của lông vũ tơ và lông tơ, nên các nhà nghiên cứu cho rằng thân ống lông có thể là sự phát triển tiến hóa sau này với những đặc điểm khác này.",
+  "latency_sec": 4.7763,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Bởi vì lông vũ của khủng long không có thân lông phát triển tốt, được gọi là thân ống lông, nhưng lại có các đặc điểm khác của lông vũ tơ và lông tơ, nên các nhà nghiên cứu cho rằng thân ống lông có thể là sự phát triển tiến hóa sau này với những đặc điểm khác này.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240369,
+    "id": "rhZKasbbDNCivr0P-6eduQE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 67,
+      "prompt_tokens": 576,
+      "total_tokens": 1105
+    }
+  }
+}

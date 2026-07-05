@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0061",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.72,
+  "ref_text_raw": "В результате бригады пожарных потушили пожар к 23:35.",
+  "ref_text_normalized": "в результате бригады пожарных потушили пожар к 23:35",
+  "timestamp_utc": "2026-07-05T07:30:44Z",
+  "text": "В результате бригады пожарных потушили пожар к 23:35.",
+  "latency_sec": 3.3975,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "В результате бригады пожарных потушили пожар к 23:35.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPGNCRqu7h9/pcy35rxt91zKlSmpCYsU8/la0J0b6Jf+XlmpATYqqk8H++0gpW"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236644,
+    "id": "IQhKavWMO9DF1e8P2K7MiQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 189,
+      "total_tokens": 207
+    }
+  }
+}

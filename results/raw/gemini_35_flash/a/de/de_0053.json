@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0053",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 13.26,
+  "ref_text_raw": "Er wurde infolgedessen in das Addenbrooke’s Hospital in Cambridge verlegt.",
+  "ref_text_normalized": "er wurde infolgedessen in das addenbrooke's hospital in cambridge verlegt",
+  "timestamp_utc": "2026-07-05T04:00:18Z",
+  "text": "Er wurde infolgedessen in das Addenbrooke's Hospital in Cambridge verlegt.",
+  "latency_sec": 3.4713,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Er wurde infolgedessen in das Addenbrooke's Hospital in Cambridge verlegt.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "ErsFCrgFARFNMg/ig7wwyaGdfwuX1bshHDYe2o5jxgalWUoBkw3ysdQ7ZO7YxwshwmgMjXmBf7mMD5fhYHhvf/Q1+I/04bAvQg1TrY/yX8RWncpPZjU5S+38gIbvcatdh5ZOHwrD/wcYf6vnWjdNjcsAUh7QCEiQBA6WcH5XIqI7xxZtxCiNyeo5l8KE+6EdhVco9H/2CAnQzg+4fYyi5Pyj2HWbIfGbsWCMC+KkES2IglHZN3yJf7S/HwJXEeiLl78s//NSbeOC6D8d//h9ayjABXVmiXUjePWJXUrJajqyD62NYa8M6iz30OSqA33RARbTFALwV258GvcmqY91U3wxjN0/xM4f2VJBHdqCcsJoyw8HOOzUwIJxpYeB0dDszx++THBJvSrF1iHiFBhV8GPGEbv09IlyS64/ug3urXvcA0azxLOpB8Z/IMUvCXArjIWsg+B1HDhU50xqcQumjmsUdbSOu8/hljKYb/aux9loRFX1JY4zFWgQaec/x52XJtzU+uBRxqY1PwHHcBcf4iK/OapQwd3xmlhxIgmFRq0Y9G1+Yf5Swz0WJY+GRVLL5jop332G4dFEYa6Pszebsd5buAJN7IT5YjDA3HXP8OgtK0sSP6nxYmynlohITZgc/k1/SDnJuqTRLOpFK44vav90JabZWHeUGMlX84+jzdEMrpk5WK1DQ2eFNXEy3V9LuBoA8SlVNnUu/y4iYonkoLj7L2zIDLju3EVZ5XlLd1TEGhIAf0boeqOxMU9aSgDDX5ZxtidW7FgXxHtfZVwuuaWZebWbnPRZ529zUuCfZ4JvUOQbsyuME0fx0z7RSGNwQbZyxebhR07Z17TKY2HtZENPLKxFLJR6NnIG2R9/kNDrGwP0sV+QcaBBBc4boF5ZCQpBT6m9jkGRCSGXk9kYGHesY5BfYVIH6vFjtYcj"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224018,
+    "id": "z9ZJapWyO52C0-kPjp3EsQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 353,
+      "total_tokens": 570
+    }
+  }
+}

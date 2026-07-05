@@ -1,0 +1,44 @@
+{
+  "utt_id": "pt_0157",
+  "lang": "pt",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.68,
+  "ref_text_raw": "Além do evento de quarta-feira, Carpanedo competiu em duas corridas individuais nos Campeonatos.",
+  "ref_text_normalized": "além do evento de quarta-feira carpanedo competiu em duas corridas individuais nos campeonatos",
+  "timestamp_utc": "2026-07-05T07:03:34Z",
+  "text": "Além do evento de quarta-feira, Carpanedo competiu em duas corridas individuais nos campeonatos.",
+  "latency_sec": 2.4711,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Além do evento de quarta-feira, Carpanedo competiu em duas corridas individuais nos campeonatos.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPDvJDVQjj9ZUl8OQnKi39WXgTINKYAUv4/flGGSxccmKUh9pPx/GSyymRYCyI"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235014,
+    "id": "xAFKauWEOOKSvr0Pv53i8AM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 213,
+      "total_tokens": 236
+    }
+  }
+}

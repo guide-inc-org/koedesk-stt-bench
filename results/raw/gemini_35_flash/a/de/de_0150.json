@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0150",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.36,
+  "ref_text_raw": "Dies nennt man den PH-Wert einer Chemikalie. Man kann mit rotem Kohlsaft einen Indikator herstellen.",
+  "ref_text_normalized": "dies nennt man den ph-wert einer chemikalie man kann mit rotem kohlsaft einen indikator herstellen",
+  "timestamp_utc": "2026-07-05T04:08:37Z",
+  "text": "Dies nennt man den pH-Wert einer Chemikalie. Man kann mit Rotkohlsaft einen Indikator herstellen.",
+  "latency_sec": 3.7554,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Dies nennt man den pH-Wert einer Chemikalie. Man kann mit Rotkohlsaft einen Indikator herstellen.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EvoECvcEARFNMg+EwAWBLS/ivpLc1FK6tjVY62ArYnNPD//tW/1qnv0b6naRur2v2cf20aHEGGJE2RC5MGLdJCjFO8oCE8Uv08YR5YuDsFXkocYSril0S7UniYO3j1ZjAEGBhAY3d/HWY0AqiN/OvdsB4EVdeJ39hhen2ySqlns+VnT/Phm+Phwu4FcDrvcHwEsLpCjRo862yLASS48Ky1eMrOID3ovHmdrKEv52zbVi+v05HFMguAriVfKfFCsIiLI4UnBny3hpK2RP2fM/7ZDERd3Rhrg88bHUIvZxbUMkBXcpaa0085fpwOYkJN5ML36yueDS3jd1xU9khlIsKOaiOrnf6EO7oeM1Bff85cMVZl/m/NykjkZ3fz58A6uUiIk3NvCmlUPmQwMKLwJZvTKXNEhLRSs3T5Bk2tl54C0cmZdjb3/QXnM/q/VygjCXcGX6uQ/9yBeF+cIDrjjhCKTnPXpewaNGopsvl3YYKGfVB6t/vQcemIk01x7YRxrlSyUixMQdqFIvwM54uvmBOzkDGoEcUjKksf6aBWHXOSTE6VB3fZioJrWVw/EFVqXF4nqugcYW1dCqHPDF0Kcc4Qwei/x8p32YU96dVe8DmhPCrr6pB7cZK84nAiFGKSnp2suWvI4OlGqZhlwXNmjHSXhwq0crXEl9BYCBjx2ckAQH2ppnFib486osf67u2BeqZZSzTtpHa+v1mmFLSU82PFQY1OBNUHOPUa9CW3bQyEjP7qmSYBvI2UDqNQKjQcLWRjYAyA4Q4xuPgVFh1Jo63d7lnAG5aJsyQRlaYL1Do49D4wHP1nprvruOopBKXoGIktWmvFInU+/aK5a2gA=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224517,
+    "id": "wthJapfHH9bk1e8P_MzduQE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 180,
+      "total_tokens": 386
+    }
+  }
+}

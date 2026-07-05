@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0140",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 16.08,
+  "ref_text_raw": "カジノでは通常、特別な飲食やエンターテイメントを用意しています。ゲストが気分良く施設内に留まるようにするためです。",
+  "ref_text_normalized": "カジノでは通常 特別な飲食やエンターテイメントを用意しています ゲストが気分良く施設内に留まるようにするためです",
+  "timestamp_utc": "2026-07-05T03:19:38Z",
+  "text": "カジノ では 通常 特別 な 飲食 や エンターテインメント を 用意 し て い ます 。 ゲスト が 気分 よく 施設 内 に 留まる よう に する ため です 。",
+  "latency_sec": 2.9545,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "カジノ では 通常 特別 な 飲食 や エンターテインメント を 用意 し て い ます 。 ゲスト が 気分 よく 施設 内 に 留まる よう に する ため です 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPNPF9MpTMeQvDcaPmfpYAMDdqCTdrNa88gxMZZdVek/vB253ruTArQMYvgcEC"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221578,
+    "id": "SM1JatHmMKOm2roPua6M0QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 423,
+      "total_tokens": 464
+    }
+  }
+}

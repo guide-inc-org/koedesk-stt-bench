@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0176",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 15.78,
+  "ref_text_raw": "普利特维茨湖国家公园森林茂密，主要树种有山毛榉、云杉和冷杉，并以高山和地中海植被混合为特色。",
+  "ref_text_normalized": "普 利 特 维 茨 湖 国 家 公 园 森 林 茂 密 主 要 树 种 有 山 毛 榉 云 杉 和 冷 杉 并 以 高 山 和 地 中 海 植 被 混 合 为 特 色",
+  "timestamp_utc": "2026-07-05T06:33:53Z",
+  "text": "普利特维茨湖国家公园森林茂盛，主要树种有山毛榉、云杉和冷杉，以高山和地中海植被混合为特色。",
+  "latency_sec": 5.3313,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "16s",
+      "requestId": "6b6807f2-0000-2ebf-b95d-b8db38f44dc2",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "普利特维茨湖国家公园森林茂盛，主要树种有山毛榉、云杉和冷杉，以高山和地中海植被混合为特色。"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

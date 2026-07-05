@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0111",
+  "lang": "ko",
+  "engine": "gemini_25_flash",
+  "duration_sec": 16.08,
+  "ref_text_raw": "\"한 목격자는 사람들이 무리를 이루어 거리를 배회하고 물품을 약탈하는 것으로 보아 비슈케크(Bishkek)가 \"\"무정부\"\"상태로 빠지고 있다고 묘사하였습니다.\"",
+  "ref_text_normalized": "\"한 목격자는 사람들이 무리를 이루어 거리를 배회하고 물품을 약탈하는 것으로 보아 비슈케크bishkek가 \"무정부\"\"상태로 빠지고 있다고 묘사하였습니다.",
+  "timestamp_utc": "2026-07-05T06:01:30Z",
+  "text": "한 목격자는 사람들이 무리를 이루어 거리를 배회하고 물품을 약탈하는 것으로 보아 비슈케크가 무정부 상태로 빠지고 있다고 묘사하였습니다.",
+  "latency_sec": 4.1471,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "한 목격자는 사람들이 무리를 이루어 거리를 배회하고 물품을 약탈하는 것으로 보아 비슈케크가 무정부 상태로 빠지고 있다고 묘사하였습니다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231290,
+    "id": "N_NJaoj4D8mzvr0PpOCr2QI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 536,
+      "total_tokens": 604
+    }
+  }
+}

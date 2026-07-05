@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0128",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.2,
+  "ref_text_raw": "消防隊は最終的に午後11時35分までに火を消しました。",
+  "ref_text_normalized": "消防隊は最終的に午後11時35分までに火を消しました",
+  "timestamp_utc": "2026-07-05T03:18:52Z",
+  "text": "消防 隊 は 最終 的 に 午後 11 時 35 分 まで に 火 を 消し まし た 。",
+  "latency_sec": 2.8579,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "消防 隊 は 最終 的 に 午後 11 時 35 分 まで に 火 を 消し まし た 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP7cZG19b8WxUBj98FCpjZHpnzwiRp2gQdjdHUKBgR9taLi6AO3rg13UOjsn4n"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221532,
+    "id": "Gs1Jasu9N5Ce1e8PjsLZ0AQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 276,
+      "total_tokens": 303
+    }
+  }
+}

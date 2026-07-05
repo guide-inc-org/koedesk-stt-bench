@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0112",
+  "lang": "es",
+  "engine": "gemini_25_flash",
+  "duration_sec": 14.34,
+  "ref_text_raw": "Aún quedan muchos hombres y mujeres con vida que sobrevivieron a su estadía en este lugar y muchos más que tuvieron seres queridos a los que asesinaron o trabajaron allí hasta su muerte, tanto judíos como no judíos.",
+  "ref_text_normalized": "aún quedan muchos hombres y mujeres con vida que sobrevivieron a su estadía en este lugar y muchos más que tuvieron seres queridos a los que asesinaron o trabajaron allí hasta su muerte tanto judíos como no judíos",
+  "timestamp_utc": "2026-07-05T04:21:46Z",
+  "text": "Aún quedan muchos hombres y mujeres con vida que sobrevivieron a su estadía en este lugar, y muchos más que tuvieron seres queridos a los que asesinaron o trabajaron allí, hasta su muerte, tanto judíos como no judíos.",
+  "latency_sec": 3.2734,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Aún quedan muchos hombres y mujeres con vida que sobrevivieron a su estadía en este lugar, y muchos más que tuvieron seres queridos a los que asesinaron o trabajaron allí, hasta su muerte, tanto judíos como no judíos.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225306,
+    "id": "2NtJapPuKMmzvr0PpOCr2QI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 480,
+      "total_tokens": 551
+    }
+  }
+}

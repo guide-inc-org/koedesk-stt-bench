@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0092",
+  "lang": "th",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.14,
+  "ref_text_raw": "มันยังโจมตีอะไรก็ตามที่ลงไปในน้ำอีกด้วย แม้แต่ไดโนเสาร์ยักษ์ใหญ่อย่างทีเร็กซ์ก็ไม่ใช่คู่ต่อกรของมัน",
+  "ref_text_normalized": "มันยังโจมตีอะไรก็ตามที่ลงไปในน้ำอีกด้วย แม้แต่ไดโนเสาร์ยักษ์ใหญ่อย่างทีเร็กซ์ก็ไม่ใช่คู่ต่อกรของมัน",
+  "timestamp_utc": "2026-07-05T07:41:54Z",
+  "text": "มัน ยัง โจม ตี อะไร ก็ ตาม ที่ ลง ไป ใน ถ้ำ อีก ด้วย แม้ แต่ ไดโนเสาร์ ยักษ์ ใหญ่ อย่าง ทีเร็กซ์ ก็ ไม่ ใช่ คู่ ตอก ของ มัน",
+  "latency_sec": 3.9909,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "มัน ยัง โจม ตี อะไร ก็ ตาม ที่ ลง ไป ใน ถ้ำ อีก ด้วย แม้ แต่ ไดโนเสาร์ ยักษ์ ใหญ่ อย่าง ทีเร็กซ์ ก็ ไม่ ใช่ คู่ ตอก ของ มัน",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237314,
+    "id": "vwpKavKeHo3O1e8PpY-EiAI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 250,
+      "total_tokens": 371
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0174",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 4.5,
+  "ref_text_raw": "Do not deface the site by marking or scratching graffiti into structures.",
+  "ref_text_normalized": "do not deface the site by marking or scratching graffiti into structures",
+  "timestamp_utc": "2026-07-05T03:37:41Z",
+  "text": "defacement is typed by marking or scratching, graffiting into structures.",
+  "latency_sec": 3.957,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "defacement is typed by marking or scratching, graffiting into structures.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPvMxpQbNsqWSABk9LqwBZe1pzO3lORWT4g+YxWfVVQVBrKmwZD9GJsMB6ELub"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222661,
+    "id": "g9FJasG7Denn2roPlKW22Ao",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 15,
+      "prompt_tokens": 134,
+      "total_tokens": 149
+    }
+  }
+}

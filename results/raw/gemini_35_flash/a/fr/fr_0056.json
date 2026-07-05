@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0056",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 5.88,
+  "ref_text_raw": "La Grande Pyramide de Gizeh est la seule des sept merveilles qui existe encore aujourd’hui.",
+  "ref_text_normalized": "la grande pyramide de gizeh est la seule des sept merveilles qui existe encore aujourd'hui",
+  "timestamp_utc": "2026-07-05T05:06:07Z",
+  "text": "La grande pyramide de Gizeh est la seule des sept merveilles qui existe encore aujourd'hui.",
+  "latency_sec": 4.2706,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "La grande pyramide de Gizeh est la seule des sept merveilles qui existe encore aujourd'hui.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "ErUHCrIHARFNMg9wLsJVa8x+OZ+iAko53iUCGIfk+8dGzmRF59op39shwXGQJlpELvEKS9HBTzAccwSmCASQDFIOS/+Y/DB2d13YmiaWfKa5Re4iH/zMV8rnxlyX+5UD2+OY6WMad//fqOomErrCfqof5QgxwRo4WHGZvAbhIpoA14ZQOJx6ty89hVaWCBVEdXnkzvrLt3/wftOdNCJGwUTQAsAo8fCcufJNnqdNDk2EsF8wTjV/eAlI4uqhKrqZFrb8cXuUb76bmUZa9hJS1glxWMtNsdhfcFStn0gciL6ktG+bN1z57ZZVLfYGF9sPNNuGvZs1CS1YsaPuwePaX/zn0cmx7x5AdAbNR2ye/TsMlw4wCf/iRiqqBY8YKm7/JDzqHdp9qaw35F+WTNEpMUik7YSyw83bqM9GLzn0c/XX8cVbscUTfNaxDjevdi1uUsvb8s4OKi3uV2Jrl4C7oArcqVZcia1Ta3+/CauzIdFw+ygOzAOwuclJaaeMMa1qQRE8ok5WIVwn5Uq8W4BSB0sx2PT/KTUEggfikGf4/NbMGMNvZhBUho5r2rLKUPDntByp2Krl8uKw5iXBTwmWGA0tShORa80dm7mMKZ0jVAaxBD7k66qJaZFDJ3GS4NWwh9m2gZmduk2UBp+DEeAKbKaLJuS+mahC8NewfPiSgu/66Hw61w1ogm46sGVvr2zefSMZM4F1TKMW9PEFNKrBB6AI2RffceEsw4dOoKCZq+nwQDOOc9oF+bped87udF6rkdWoGm+vL0kXfD6aNb6NBhyf3Vklt1b6iChsBp3Y/sx8mgVH4gHbQQv+IjhEHeyb3dksVTSF5e2KqbL8FGcF7Zjx+trmzpfqsibQR8kn3+T5BWrxujHAnP2ensiqguD89lfemElOgiFBS8s8AwRYSWgdIhtbcfQH4I6CToTez/CXbAc+lkb01ZLml5VHWKzOOaQmYbmA6fh9SB0GEVewYI/xn2BYuVyoYwpeLtI1As52KAZ9ksA1mi29oUAOqDxgY4nIqYb5pLKhNe99uXFyF23U1GFQ8SY9gJ7Tb0F9dKLDVwP2Pmi3hlZltS9mpAyP+QpGIfiUcffM7x07aKLZllZ3tswEEGM3EmXHropRH4FUMfb3rb7e07JH/ILPF9IBa6Du6nDrSNHJ0GCtdQ4gl3Rv2euFJ0nbZJ+D+1ovoraBtpf+P0O5h2p9f4vQCp1GajgXNEUsbn3WmkFRGyNSPVrRzoyAdS/fh2JM0HYaVP2Kl3uZsV2qyw=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227967,
+    "id": "POZJaoPYF6XJ2roPu_yk0QE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 168,
+      "total_tokens": 444
+    }
+  }
+}

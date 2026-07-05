@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0139",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 17.82,
+  "ref_text_raw": "Er war auch am Stechen von Geldscheinen für viele Länder beteiligt. Aktuelle Beispiele seiner Arbeit schließen die Premierministerportraits auf der Vorderseite der kanadischen 5- und 100-Dollarnoten ein.",
+  "ref_text_normalized": "er war auch am stechen von geldscheinen für viele länder beteiligt. aktuelle beispiele seiner arbeit schließen die premierministerportraits auf der vorderseite der kanadischen 5- und 100-dollarnoten ein",
+  "timestamp_utc": "2026-07-05T03:51:01Z",
+  "text": "Er war auch am Stechen von Geldschein für viele Länder beteiligt. Aktuelle Beispiele seiner Arbeit schließen die Premierministerportraits auf der Vorderseite der kanadischen 5 und 100 $ Noten ein.",
+  "latency_sec": 3.3141,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Er war auch am Stechen von Geldschein für viele Länder beteiligt. Aktuelle Beispiele seiner Arbeit schließen die Premierministerportraits auf der Vorderseite der kanadischen 5 und 100 $ Noten ein.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223461,
+    "id": "o9RJapiUF87W2roP7vfvgQQ",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 592,
+      "total_tokens": 639
+    }
+  }
+}

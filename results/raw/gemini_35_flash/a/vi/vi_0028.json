@@ -1,0 +1,45 @@
+{
+  "utt_id": "vi_0028",
+  "lang": "vi",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 13.02,
+  "ref_text_raw": "Cuối Chủ Nhật, Tổng thống Hoa Kỳ Donald Trump, trong một tuyên bố đã gửi thông qua thư ký báo chí thông báo quân đội Mỹ sẽ rút quân khỏi Syria.",
+  "ref_text_normalized": "cuối chủ nhật tổng thống hoa kỳ donald trump trong một tuyên bố đã gửi thông qua thư ký báo chí thông báo quân đội mỹ sẽ rút quân khỏi syria",
+  "timestamp_utc": "2026-07-05T08:30:46Z",
+  "text": "Chủ nhật, Tổng thống Hoa Kỳ Donald Trump trong một tuyên bố đã gửi thông qua thư ký báo chí thông báo quân đội Mỹ sẽ rút quân khỏi Syria.",
+  "latency_sec": 9.5265,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Chủ nhật, Tổng thống Hoa Kỳ Donald Trump trong một tuyên bố đã gửi thông qua thư ký báo chí thông báo quân đội Mỹ sẽ rút quân khỏi Syria.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240247,
+    "id": "MxZKarzYOfnC0-kP-o-AoAM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 347,
+      "total_tokens": 777
+    }
+  }
+}

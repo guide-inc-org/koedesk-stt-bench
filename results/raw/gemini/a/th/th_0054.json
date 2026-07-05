@@ -1,0 +1,39 @@
+{
+  "utt_id": "th_0054",
+  "lang": "th",
+  "engine": "gemini_25_flash",
+  "duration_sec": 4.92,
+  "ref_text_raw": "ด้วยเหตุนั้น ดินสอจึงเป็นมิตรที่ดีกับหลาย ๆ คนเมื่อออกวางตลาด",
+  "ref_text_normalized": "ด้วยเหตุนั้น ดินสอจึงเป็นมิตรที่ดีกับหลาย ๆ คนเมื่อออกวางตลาด",
+  "timestamp_utc": "2026-07-05T07:38:41Z",
+  "text": "ด้วย เหตุ นั้น ดินสอ จึง เป็น มิตร ที่ ดี กับ หลาย ๆ คน เมื่อ ออก วาง ตลาด",
+  "latency_sec": 5.7399,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ด้วย เหตุ นั้น ดินสอ จึง เป็น มิตร ที่ ดี กับ หลาย ๆ คน เมื่อ ออก วาง ตลาด",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237122,
+    "id": "_QlKapGPH52C0-kPjp3EsQM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 179,
+      "total_tokens": 229
+    }
+  }
+}

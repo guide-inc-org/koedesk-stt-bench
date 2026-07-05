@@ -1,0 +1,39 @@
+{
+  "utt_id": "vi_0035",
+  "lang": "vi",
+  "engine": "gemini_25_flash",
+  "duration_sec": 13.5,
+  "ref_text_raw": "Chiều cao tĩnh không dưới cầu là 15 mét. Việc xây dựng được hoàn thành vào tháng 8 năm 2011 nhưng đến tháng 3 năm 2017 cầu mới được khai thông.",
+  "ref_text_normalized": "chiều cao tĩnh không dưới cầu là 15 mét việc xây dựng được hoàn thành vào tháng 8 năm 2011 nhưng đến tháng 3 năm 2017 cầu mới được khai thông",
+  "timestamp_utc": "2026-07-05T08:14:18Z",
+  "text": "Chiều cao tỉnh không dưới cầu là 15 m. Việc xây dựng được hoàn thành vào tháng 8 năm 2011, nhưng đến tháng 3 năm 2017 cầu mới được khai thông.",
+  "latency_sec": 4.2959,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Chiều cao tỉnh không dưới cầu là 15 m. Việc xây dựng được hoàn thành vào tháng 8 năm 2011, nhưng đến tháng 3 năm 2017 cầu mới được khai thông.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239258,
+    "id": "WBJKarjCA43y2roP6emiwQM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 46,
+      "prompt_tokens": 453,
+      "total_tokens": 575
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0076",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 8.46,
+  "ref_text_raw": "六名人质（包括儿童和老人在内）以及那些菲律宾摄影师被提前释放。",
+  "ref_text_normalized": "六 名 人 质 包 括 儿 童 和 老 人 在 内 以 及 那 些 菲 律 宾 摄 影 师 被 提 前 释 放",
+  "timestamp_utc": "2026-07-05T06:25:07Z",
+  "text": "六名人质（包括儿童和老人在内）以及那些菲律宾摄影师被提前释放。",
+  "latency_sec": 3.5209,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "9s",
+      "requestId": "73e3b90d-0000-28a4-9ffd-9898fbac7a3d",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "六名人质（包括儿童和老人在内）以及那些菲律宾摄影师被提前释放。"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0128",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 17.58,
+  "ref_text_raw": "เขา [เวลส์] โกหกเราตั้งแต่แรกเริ่มแล้ว อย่างแรก เขาทำราวกับว่านี่เป็นเหตุผลทางกฎหมาย อย่างที่สอง เขาแสร้งทำเป็นว่ากำลังฟังเราจนกระทั่งมีการลบรูปภาพ",
+  "ref_text_normalized": "เขา [เวลส์] โกหกเราตั้งแต่แรกเริ่มแล้ว อย่างแรก เขาทำราวกับว่านี่เป็นเหตุผลทางกฎหมาย อย่างที่สอง เขาแสร้งทำเป็นว่ากำลังฟังเราจนกระทั่งมีการลบรูปภาพ",
+  "timestamp_utc": "2026-07-05T08:08:48Z",
+  "text": "เขาแวร์โกหกเราตั้งแต่แรกเริ่มแล้ว อย่างแรกเขาทำราวกับว่านี่เป็นเหตุผลทางกฎหมายอย่างที่ 2 เขาแสร้งทำเป็นว่ากำลังฟังเราจนกระทั่งมีการลบรูปภาพ",
+  "latency_sec": 3.2779,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "เขาแวร์โกหกเราตั้งแต่แรกเริ่มแล้ว อย่างแรกเขาทำราวกับว่านี่เป็นเหตุผลทางกฎหมายอย่างที่ 2 เขาแสร้งทำเป็นว่ากำลังฟังเราจนกระทั่งมีการลบรูปภาพ",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPu6oyUUfYfMO+GPLZEr8NZsmnX8m+sxECOaglYNicfj+iY3FBKkajpTPfOz7e"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238928,
+    "id": "DhFKav3fFZO00-kP9qbDqAY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 48,
+      "prompt_tokens": 461,
+      "total_tokens": 509
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0103",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.54,
+  "ref_text_raw": "Il indique que l'endroit le plus efficace pour le sujet principal se trouve à l'intersection des lignes divisant l'image en tiers verticalement et horizontalement (voir exemple).",
+  "ref_text_normalized": "il indique que l'endroit le plus efficace pour le sujet principal se trouve à l'intersection des lignes divisant l'image en tiers verticalement et horizontalement voir exemple",
+  "timestamp_utc": "2026-07-05T05:10:39Z",
+  "text": "Il indique que l'endroit le plus efficace pour le sujet principal se trouve à l'intersection des lignes divisant l'image en tiers verticalement et horizontalement. Par exemple.",
+  "latency_sec": 10.3328,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Il indique que l'endroit le plus efficace pour le sujet principal se trouve à l'intersection des lignes divisant l'image en tiers verticalement et horizontalement. Par exemple.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EsYHCsMHARFNMg9LJytoja4IJHOz20xanhIU+cD6uTudR1OSHL19nztZ2FvD9IDrQu/4d1D6S8mzgMRt3klceL9wMFFv11ZqOeWcf5JlihrdUj8rgWfHEh+Ra0teagBUNN7GvdzUHhSo0ht/a/DKw3q1hMZ0YEXXE9owq8QofOKw4eTCiiFzJ9kkH6RXNwpINElEJ2IQDZHkHls02sfkeIQ1KX8yT9MqgQ9DrW+o/E2UjAAvsq5pJxIZnQumZdTTtwRkHR/nSPvMkGqrQHHuA5gLI+fPYFA57uVf8S8AFAAHGxSXS5CwlhHM42kGGI0qLzmCP0n+xuCrLHhQZgbSnqyXk0F2w1FLVmnKLoooxfVPuC7Hgjrf6PFy3pWuMGk12wmtjO5KgY0emmS9/RTf1hXQ5W2VJb+jZ2kO24IVExVPhfO6jcYMh7Hs+DNiwaV/6UE/iJ/AdoIE8uciE6Ox4NZlBEFHyFPkFj0g+d+PxXlzwJ0e8LSnMEU4qShK2fpQPK2Sef6TiZm67DzV4/MTkMPiNnVFvtqkkWJ9noMpXe2gy4Z8+wAJ16zgVYPpamqyCCNO5JCd7Vz70oBEM1MHPzi1fVehpvktdJo1zUXPntC6qrg4n0XmMZXwUG2OJww2jY7FVoh2St1CN3CcA96LdeYeIKbaPFfGTVCOnV1ypS6JyhB4W56EjiWx4E7LUtsy/h82pBGPWGlDHQniBZ8Wjt00SKI6L2SD9HxtS2QTRi2z784EBTdl3G1YbZYhx79uAM3Kwr6rkEpqLTy7XCH+bAMffE/Swq7XuMkkUhaUsyCaWUKCK/DhFKUP/JozFEM/x47wL1zBDpVAA2f8yJyc/Z2kp8vY9KaQ7DwaPJhCN8ep5cZA5+I6s+Lt10sIJVEEsoQhERWRNvvHYcAMM1E+oGECTqXmmLSX6at+tDZGJaH1vu+WZTOk2y7jsUtPw+9enfIIIbmUfmlcQbuti0tmxKT8ApXPV0G5mvju5jdD3y+3WdiKyOhFMVYp4KeFf4ItgZYDB3+S3DmOEsvi3ZVQp9hT9J33GcwuF6gdbNruoicRugwKFhokXSATgTNwkrwTMN7YtOImhLCjubVCn0KSvZ9AwQUw5wSiAuzrgOSgBAtpu2cv3HO7gU4jiAvChWyiMgwky1ZIStdCrWuIboudP4XnWynrZM7v5jsS9eD0Rqqi4OFgMOHCc90Qt7hNrJ0CyHSgK7PDltFqd0AsFq4Mm9ZZLPwjwYqunTlwaD7Yuhc1tNf960tCLFHQbN6vrkw2BHr4Hc7v77j1"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228239,
+    "id": "TOdJaouhM4aD1e8PyqKZ0Ac",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 260,
+      "total_tokens": 516
+    }
+  }
+}

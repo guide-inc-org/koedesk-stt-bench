@@ -1,0 +1,45 @@
+{
+  "utt_id": "pt_0090",
+  "lang": "pt",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 18.12,
+  "ref_text_raw": "A Groenlândia teve sua colonização de maneira esparsa. Nas sagas nórdicas, dizem que Erik, o Vermelho, foi exilado da Islândia por assassinato e, ao viajar para o oeste, achou a Groenlândia e lhe deu esse nome.",
+  "ref_text_normalized": "a groenlândia teve sua colonização de maneira esparsa nas sagas nórdicas dizem que erik o vermelho foi exilado da islândia por assassinato e ao viajar para o oeste achou a groenlândia e lhe deu esse nome",
+  "timestamp_utc": "2026-07-05T06:50:39Z",
+  "text": "A Groenlândia teve sua colonização de maneira esparsa. Nas sagas nórdicas dizem que o Erik, o Vermelho, foi exilado da Islândia por assassinato e, ao viajar para o oeste, achou a Groenlândia e lhe deu esse nome.",
+  "latency_sec": 4.2823,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "A Groenlândia teve sua colonização de maneira esparsa. Nas sagas nórdicas dizem que o Erik, o Vermelho, foi exilado da Islândia por assassinato e, ao viajar para o oeste, achou a Groenlândia e lhe deu esse nome.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtQJCtEJARFNMg/s/a1628OhmslIEJsMhom+gTzcb8NYZp1qzr5P0VXrmyEvNQMGAekN1Goj1wg28HT1XikgHT3hk8NveQZxAvqtUiC2G4q4c1AxSOGtdUjFfMST+8nxjn5pohStMYQe1ptDhk4nRKwZX37i2cfjzTkiTQJopM5ne3kvdL0eogIjNKEO8yAH7XTUvzj39S/M9CNW95spJLts2WU+o7UyvMRC5b8n62xxNZE+hv62hXXGPCidkcS9DP6w1rjk++63uAEUO+h3TIPqeE9zsFtc8ox59B3Tg7NI4Cm7T33wdDYl+/deY7B9AEQX/QxjqH9IQXR8guRa4kqnFvUoWb8Z4xnxFGhwx/iWBTCS8xGs++QywW61twxz0ohu/oD0t0aW+hymeB0ajuyvkwqX2Sn9CMnsEiiAoBlrXAAna2piIDEHr19dZtrVbwM4xfd9JlwJWF2+UoKjwSaHIQa1GSYNM26i4hg+3rMlSxwtBxiHlthJ7pAByebk0UyOe1wuZ/1SC4T2nSUGvM/CKLNTsVd1IVhsskdXc22jqlYPE2IKQ5IGA4i4EkpNk9DsuYTAtXVV+C9LbGYdRZoIqWPN3tcXZLXj3XLtQtsMEvir375UesefbdQrNRBzWNwggBZM4OVMTdvT6C8y5O2TT4N/5JiOlZnm8H2UbNdeqz4DAHwmh1fOVzMNkQiV8itGHXFv5xsyz+5qr3RNL8tueQhQ8nDrInLPwZO8LjrANkiHpsXH9AFVsPckAm/cycwCBnmxt7PfZAh29bMSfngdzEoYVuXdumwF4Bgf76vAR4mcWCEdStY2/QMYfcw4n8/A26bwT9f5QASjRI3tgAgnJxkEZyafVYZhRgZTdmYI74kMqlOjgNhSEk+Rw218R/0mTOttpLPiD6577GVWYMiHM5fV2rcKLx4n47QKCuzj3Q+ycSg1yXLNSD0FVWFht50UZLMgg54vnUDEu5KH/C7DlGDOFy8rLil4yDnm7t9jPrZFJmnOrRPSqng1LePKtJkWUzpn7fMbpOEjRerAUfK7xxPhXgp4ISyz7HhVG0cJsx4IUeXvZLaA5FYtr4N9g9RbwQzDvj6+2FPMXwPdrzcfeGDFDWqeXXyPJUeZj/wSFCJv/oWbLeiRe23Jcuqju5PHqEzi115geR79U95qttiexT86WbBpGgLRPXLtfvSKe0gafEJL6/eRXkWVBjJAFSLwWTRwoBtSAmryRnUODvFpa3V1811jfC/GMgKwQAx4qXuxsTo9t+S8HntDRz5k3J23Z3ATJRqy/LErN9Pv0N11Je4WLL5oT6Uxf17txjiC7kbAa/y8jfua1WyJWbUELktDowfRTEu2fSbsvzCagWSwEMXAxLaPbikB2YDS2OsoMvF5ToOzOh51akNz2G1R/a/fykZx9uxistWHPFIIzEZlTwwIxBOy57pZKNfZMvHnn3SvXF6OTEKYVsC0kfzZcdMIi0UhTULG6U/zPXXLBkIF+ReuyvwsoF4Y3XFHiFKWDLf5nhesrqH/RcTI1EsrpZ+Hl7KGcUKodH7XHUDc864a8ozriggL3cMrnr7zkg3J0girHl9l7SBfuJYy8eCOA33KWt3G82nM+/CnOPsTQ5+INhaOGFZhh5CzTiGDqdqpw6PYMwL6"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234239,
+    "id": "vP5JavbyDLq3vr0P4Zm80Qw",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 60,
+      "prompt_tokens": 474,
+      "total_tokens": 880
+    }
+  }
+}

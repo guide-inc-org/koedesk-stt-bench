@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0166",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 5.22,
+  "ref_text_raw": "Он назвал эти слухи \"политической болтовнёй и глупостью\".",
+  "ref_text_normalized": "он назвал эти слухи политической болтовнёй и глупостью",
+  "timestamp_utc": "2026-07-05T07:37:17Z",
+  "text": "Он назвал эти слухи политической болтовней и глупостью.",
+  "latency_sec": 4.2166,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Он назвал эти слухи политической болтовней и глупостью.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPu9hQ7I5JJRtAFkGJy/H9hlUnnSOQN0TJPOtR6fdw6foZ/wkF7mqPCYIRkXRO"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237037,
+    "id": "qwlKaoHlKNq20-kPqrmQ0QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 15,
+      "prompt_tokens": 152,
+      "total_tokens": 167
+    }
+  }
+}

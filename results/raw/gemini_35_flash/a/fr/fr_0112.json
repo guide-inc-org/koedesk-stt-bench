@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0112",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.24,
+  "ref_text_raw": "Le parc national des lacs de Plitvice est densément boisé, principalement de hêtres, d'épicéas et de sapins, et présente un mélange de végétation alpine et méditerranéenne.",
+  "ref_text_normalized": "le parc national des lacs de plitvice est densément boisé principalement de hêtres d'épicéas et de sapins et présente un mélange de végétation alpine et méditerranéenne",
+  "timestamp_utc": "2026-07-05T05:11:29Z",
+  "text": "Le parc national des lacs de Plitvice est densément boisé, principalement de hêtres, d'épicéas et de sapins, et présente un mélange de végétation alpine et méditerranéenne.",
+  "latency_sec": 6.9618,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Le parc national des lacs de Plitvice est densément boisé, principalement de hêtres, d'épicéas et de sapins, et présente un mélange de végétation alpine et méditerranéenne.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228289,
+    "id": "fOdJap2iFqfKrfcP5Pio2QM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 327,
+      "total_tokens": 1251
+    }
+  }
+}

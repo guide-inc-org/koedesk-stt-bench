@@ -1,0 +1,39 @@
+{
+  "utt_id": "id_0070",
+  "lang": "id",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.96,
+  "ref_text_raw": "Orang-orang sekarang menulis pesan di layar komputer, tidak pernah harus menggunakan rautan.",
+  "ref_text_normalized": "orang-orang sekarang menulis pesan di layar komputer tidak pernah harus menggunakan rautan",
+  "timestamp_utc": "2026-07-05T05:24:31Z",
+  "text": "Orang-orang sekarang menulis pesan di layar komputer, tidak pernah harus menggunakan rautan.",
+  "latency_sec": 3.7949,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Orang-orang sekarang menulis pesan di layar komputer, tidak pernah harus menggunakan rautan.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783229071,
+    "id": "jOpJasGGN-ex2roPrLDX2QU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 340,
+      "total_tokens": 404
+    }
+  }
+}

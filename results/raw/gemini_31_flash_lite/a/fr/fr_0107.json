@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0107",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.46,
+  "ref_text_raw": "Les enfants sont placés dans des familles d’accueil pour des raisons très diverses qui vont de la négligence à la maltraitance, en passant par l’extorsion.",
+  "ref_text_normalized": "les enfants sont placés dans des familles d'accueil pour des raisons très diverses qui vont de la négligence à la maltraitance en passant par l'extorsion",
+  "timestamp_utc": "2026-07-05T05:16:09Z",
+  "text": "Les enfants sont placés dans les familles d'accueil pour des raisons très diverses qui vont de la négligence à la maltraitance en passant par l'extorsion.",
+  "latency_sec": 2.8047,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Les enfants sont placés dans les familles d'accueil pour des raisons très diverses qui vont de la négligence à la maltraitance en passant par l'extorsion.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPaw+FIgDd2Ya3jomfh9F3oGIZ0Abi86WdaHV6WMHL5zk0ijv1+iXb4tf3N+uY"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228569,
+    "id": "mOhJauLGGLj22roP58zioAI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 233,
+      "total_tokens": 267
+    }
+  }
+}

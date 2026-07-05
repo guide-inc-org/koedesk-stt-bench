@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0124",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.18,
+  "ref_text_raw": "你手上的水分会与外层发生反应，这样会形成一层类似外壳的东西，感觉十分有趣。",
+  "ref_text_normalized": "你 手 上 的 水 分 会 与 外 层 发 生 反 应 这 样 会 形 成 一 层 类 似 外 壳 的 东 西 感 觉 十 分 有 趣",
+  "timestamp_utc": "2026-07-05T09:18:06Z",
+  "text": "你 手 上 的 水 分 会 与 外 层 发 生 反 应 , 这 会 形 成 一 层 类 似 外 壳 的 东 西 , 感 觉 十 分 有 趣 。",
+  "latency_sec": 2.6136,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "你 手 上 的 水 分 会 与 外 层 发 生 反 应 , 这 会 形 成 一 层 类 似 外 壳 的 东 西 , 感 觉 十 分 有 趣 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPn4AG2GMklYYFvY3dE4mkAnvDOW6/oLZl3l1txUuaq/oJU+Dk2ZK9kuSp+hUe"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243086,
+    "id": "TSFKatuuEsmzvr0PpOCr2QI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 251,
+      "total_tokens": 291
+    }
+  }
+}

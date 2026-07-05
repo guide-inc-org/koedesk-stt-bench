@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0152",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.14,
+  "ref_text_raw": "カレーは、ハーブやスパイスをベースに、肉や野菜を煮込む料理です。",
+  "ref_text_normalized": "カレーは ハーブやスパイスをベースに 肉や野菜を煮込む料理です",
+  "timestamp_utc": "2026-07-05T03:11:05Z",
+  "text": "カレーはハーブやスパイスをベースに肉や野菜を煮込む料理です。",
+  "latency_sec": 7.1484,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "カレーはハーブやスパイスをベースに肉や野菜を煮込む料理です。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221065,
+    "id": "RstJaqvPO6nDvr0PmKevgQ8",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 250,
+      "total_tokens": 297
+    }
+  }
+}

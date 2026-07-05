@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0008",
+  "lang": "ko",
+  "engine": "gemini_31_pro_preview",
+  "duration_sec": 18.9,
+  "ref_text_raw": "지하철의 정규 안내 방송은 카탈로니아어로만 제공되나, 계획에 없던 운행 중단 시에는 자동 시스템을 통해 스페인어, 영어, 프랑스어, 아라비아어, 일본어를 포함한 다양한 언어로 방송됩니다.",
+  "ref_text_normalized": "지하철의 정규 안내 방송은 카탈로니아어로만 제공되나 계획에 없던 운행 중단 시에는 자동 시스템을 통해 스페인어 영어 프랑스어 아라비아어 일본어를 포함한 다양한 언어로 방송됩니다",
+  "timestamp_utc": "2026-07-05T05:46:58Z",
+  "text": "지하철의 정규 안내방송은 카탈루냐어로만 제공되나, 계획에 없던 운행 중단 시에는 자동 시스템을 통해 스페인어, 영어, 프랑스어, 아라비아어, 일본어를 포함한 다양한 언어로 방송됩니다.",
+  "latency_sec": 9.9994,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-pro-preview",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "지하철의 정규 안내방송은 카탈루냐어로만 제공되나, 계획에 없던 운행 중단 시에는 자동 시스템을 통해 스페인어, 영어, 프랑스어, 아라비아어, 일본어를 포함한 다양한 언어로 방송됩니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230418,
+    "id": "yu9JasHyE-nn2roPlKW22Ao",
+    "model": "gemini-3.1-pro-preview",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 59,
+      "prompt_tokens": 494,
+      "total_tokens": 1386
+    }
+  }
+}

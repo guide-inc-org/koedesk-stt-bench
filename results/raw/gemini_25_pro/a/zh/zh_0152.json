@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0152",
+  "lang": "zh",
+  "engine": "gemini_25_pro",
+  "duration_sec": 20.94,
+  "ref_text_raw": "更传统的教堂常常在复活节周末的周六晚上举行复活节守夜活动，会众通常在午夜钟声敲响之时涌入庆典，庆祝基督的复活。",
+  "ref_text_normalized": "更 传 统 的 教 堂 常 常 在 复 活 节 周 末 的 周 六 晚 上 举 行 复 活 节 守 夜 活 动 会 众 通 常 在 午 夜 钟 声 敲 响 之 时 涌 入 庆 典 庆 祝 基 督 的 复 活",
+  "timestamp_utc": "2026-07-05T09:05:25Z",
+  "text": "更傳統的教堂常常在復活節週末的週六晚上舉行復活節首夜活動。 會眾通常在午夜鐘聲敲響之時湧入慶典。 慶祝基督的復活。",
+  "latency_sec": 4.9555,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "更傳統的教堂常常在復活節週末的週六晚上舉行復活節首夜活動。 會眾通常在午夜鐘聲敲響之時湧入慶典。 慶祝基督的復活。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242325,
+    "id": "Ux5KaoyuAdLu1e8P1-bXkAI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 692,
+      "total_tokens": 736
+    }
+  }
+}

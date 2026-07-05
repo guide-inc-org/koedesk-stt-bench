@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0028",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.16,
+  "ref_text_raw": "En 1976, trente pour cent du Machu Picchu avait été restauré et cette restauration se poursuit jusqu'à aujourd'hui.",
+  "ref_text_normalized": "en 1976 trente pour cent du machu picchu avait été restauré et cette restauration se poursuit jusqu'à aujourd'hui",
+  "timestamp_utc": "2026-07-05T05:03:35Z",
+  "text": "En 1976, 30 % du Machu Picchu avait été restauré et cette restauration se poursuit jusqu'à aujourd'hui.",
+  "latency_sec": 5.1666,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "En 1976, 30 % du Machu Picchu avait été restauré et cette restauration se poursuit jusqu'à aujourd'hui.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227815,
+    "id": "o-VJaqi8K4Gp2roP-M7c4AY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 225,
+      "total_tokens": 787
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0183",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 15.92,
+  "ref_text_raw": "哲学家亚里士多德提出一种理论，即任何事物都是由土、水、空气和火四种元素中的一种或多种组成的。",
+  "ref_text_normalized": "哲 学 家 亚 里 士 多 德 提 出 一 种 理 论 即 任 何 事 物 都 是 由 土 水 空 气 和 火 四 种 元 素 中 的 一 种 或 多 种 组 成 的",
+  "timestamp_utc": "2026-07-05T09:03:17Z",
+  "text": "哲學家亞里士多德提出一種理論，即任何事物都是由水、土、空氣和火，四種元素中的一種或多種組成的。",
+  "latency_sec": 5.8507,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "哲學家亞里士多德提出一種理論，即任何事物都是由水、土、空氣和火，四種元素中的一種或多種組成的。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242197,
+    "id": "0R1KaoWTFOKSvr0Pv53i8AM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 531,
+      "total_tokens": 637
+    }
+  }
+}

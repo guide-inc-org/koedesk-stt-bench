@@ -1,0 +1,45 @@
+{
+  "utt_id": "pt_0055",
+  "lang": "pt",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 21.24,
+  "ref_text_raw": "O Platô de Gizé, ou a \"Necrópole de Gizé\", no Vale dos Mortos egípcio, conta com diversas pirâmides (dentre as quais a Grande Pirâmide é a de maior tamanho), diversas tumbas pequenas, diversos templos e a grande Esfinge.",
+  "ref_text_normalized": "o platô de gizé ou a necrópole de gizé no vale dos mortos egípcio conta com diversas pirâmides dentre as quais a grande pirâmide é a de maior tamanho diversas tumbas pequenas diversos templos e a grande esfinge",
+  "timestamp_utc": "2026-07-05T06:47:26Z",
+  "text": "O planalto de Gizé ou a Necrópole de Gizé, no Vale dos Mortos Egípcio, conta com diversas pirâmides, dentre as quais a Grande Pirâmide é a de maior tamanho, diversas tumbas pequenas, diversos templos e a grande Esfinge.",
+  "latency_sec": 4.91,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "O planalto de Gizé ou a Necrópole de Gizé, no Vale dos Mortos Egípcio, conta com diversas pirâmides, dentre as quais a Grande Pirâmide é a de maior tamanho, diversas tumbas pequenas, diversos templos e a grande Esfinge.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Es8LCswLARFNMg/oreV9PgZerk7uwNl8iYJ3q1V0IlG0e9UCAdNmS+7sbKmK4w/bx0xD7L0S/G4ZO/iEikd5M61ggiEO4oKgC+OgoEhdLiUccLepWpLfhbk9EvAAz0fzHM22HVFDs7winBQV12PbACURqJdSqQRrrECj2C+HtVkOJhSBegMQse+b5Wc1+fCaJHzOyo13vWv524KAHoYhwTDke8M0g+1hGpdGBynSpZBDHbW+Pbu1JZARP/QZEScabWxJ2FyQoG4vLtQvqcgYyND3aUDWbrc+s/+uimlxXKPfqRRqg7zrMSx1ypCcn8T05oziKkx9KzPt51WpVLWoFe6JUHRf67NtLnXNRhuBe1oyUQNoXW93QuwhNIpxhvjPlH31elkc8k4Rf+9uQ7dhKAmKZ2s/hxYcCU2qTH9iDWIhmuiBptcjB4eJhUz2lXXse1lxfSlcTfiocwkf8l0MHHM4M6Gl68F/itws6M4B9uTj78/LqUgxtKh6Fs5JLv01KLa5HUZnFZxwaN6kgvvatFWp49N+VmWC2ZrXBrkiHdJ+ryn+8RZs0sMA68YhSYrjgLRiBLp6qHvdceAmf/feMtOT8sbRbR+FrVByke3G4nehK0BVOF3e0T5qNIN4wMd3d/Xbl5lJb4bSt3BKBzWAbgzFKp8wdibKe7/nA6LJ1OAfdTc+U/ftRM3oRorURpBNT0zYfGwpXijWJ2Q8tKh/+zy8sHqB/35mtWFoq8OFhqc5OukHtR9tgTPzE+UZxpfKi3QL9TRGipAD/Cp8SNWUu6qDoEY/xgrKU81Ndeepckv+wlExhF3qDk5X5ue7ij7ov/N0D11ANpLHdtq8FucX2fm2Ns74jjUB6nEaohUb1K8PuZDTaNPVqRaVkN+BiqWqcG67zFCr1O2afgAPa9HoAmPJ1IYxUqKQ3BuUNaMZijdw5h822is2+MNjisIBAi6fLnwmjkR5AlMTxFIAUXhuw1NVtILTUXBf2OTDO5WquOeFGX5a1u4+PemRDoEjfJ1CBk87BVwdL0nhEHP0fbDNe9YJI+hU9x3GTPzzSiuzS+9fjrDbAvfu1i3ZIEEDBMfto86rIoksd9plrqrpBaVHqdGnSNy+4bRf2ETKL9GTWXdjLW3XkvDxo0IQNmuO4aV3IdWFyypjN9Fh02KxiTQtHwgF2C2wgU/yNJScVr+3B3TR3bJ2LIrh8gqvqrSZCnz0s3drxfPv898ABTPnaIyI9d1v8NOYw/rA5BWp35+KPQ09eC9yrPb8LOlasE1wIMoZ87cHgiiqGHnG3I/m6PAj48p8VjRxbG3SiO/4XYw8Vgx3ErcgPRvMj+bo90X1dUP2p9LWulnI00mgqcwIzNK6HH9nlT27MyRwFNMi1f2H75WHohIOJVsQOrGYKVfPwB4kUqDIyu9LAMt1avqIJ1dQQUSxOfBw7G9gm9M7mR+53vRmniTXTdZxn7eg1UpGI41io6ukWOsE/trBeHhOX/e4DgW7JN+eN/kqLQnNGAl2FywVVxNeEGC8sl52YFnrBiF3USoUCmNX+8f4ynAs2u0UXgTcXPB2afo83QrX5mSUhnrYdeyBNmrsJ6c4mDsDnYologm1kHMgvyNNT5g4b9v4p5nahw+gs0JIuE+9fsFRXGyYqVrg4CWrtArSmbfw4Sibg0WeDDp9hp/iX9il3RPOSP6BGFY7HwS2PqdNfLhsJzSsG422wa60O5G3Pwy4eyuUhBote6RT88VEiEAvHzVRmw6TxDvpvMUf7V194YByKY1SETjRgcXERUPkVUKfZ3ogLOe9gWyIhyzfQTai/6+XallYME+GLhnYKJpgPCGDAVStUqm21LB3H62djnzg8MO5Fs/RTjn9gBKmpEsqZtv3e/GFUDbh1oq3NIN5T0cdavPwQgdcfuce9BYa4zzBhN+iIjczrRwMirW8LPpxpyFHLs7yWGDrUDaeHrJ5NUf3YQRaMBe66zC6Gwws7xlSWBIRcpw="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234046,
+    "id": "-_1JapSNCrvLrfcPnvyU2AE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 61,
+      "prompt_tokens": 552,
+      "total_tokens": 1023
+    }
+  }
+}

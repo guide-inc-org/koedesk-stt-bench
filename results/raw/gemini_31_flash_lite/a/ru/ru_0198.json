@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0198",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.02,
+  "ref_text_raw": "Канцелярия губернатора сообщила, что 19 из раненных были офицерами полиции.",
+  "ref_text_normalized": "канцелярия губернатора сообщила что 19 из раненных были офицерами полиции",
+  "timestamp_utc": "2026-07-05T07:39:13Z",
+  "text": "Канцелярия губернатора сообщила, что 19 из раненых были офицерами полиции.",
+  "latency_sec": 2.5606,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Канцелярия губернатора сообщила, что 19 из раненых были офицерами полиции.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP3+z9p7udGDfon6fQGwey8Dd7kbo7cj81eoNakVjO1/n6x/hwu15c2+JWtd6c"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237153,
+    "id": "HwpKarTPM_K8vr0P9K6siQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 197,
+      "total_tokens": 220
+    }
+  }
+}

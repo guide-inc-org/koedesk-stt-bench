@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0098",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.74,
+  "ref_text_raw": "Таким образом, вполне вероятно, что запись была добавлена просто как пометка.",
+  "ref_text_normalized": "таким образом вполне вероятно что запись была добавлена просто как пометка",
+  "timestamp_utc": "2026-07-05T07:25:17Z",
+  "text": "Таким образом, вполне вероятно, что запись была добавлена просто как пометка.",
+  "latency_sec": 3.6407,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Таким образом, вполне вероятно, что запись была добавлена просто как пометка.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EuEGCt4GARFNMg97U6JBmnRB+CTz5lWUA4XIuUXJ5YbbeMvzD+Qk7q4Amd+YcwPlw0S4cDOVlTQbRrfwG6htUVtXiT4cLgY7vPylJgptQJtIMmtccBW0WKp4KivyEW6WI+DvKqc3OrBvSUUkRUV4+/bSE/fV/jAMs8XtUsr/siWBe+ZO5kOFY8bdfFIqv0xsCbjaA1gdDsqPAvbIBDQpos5OFmYZ9xHyAoTioSMeca5B1tle/N5tCZgK83OXgTT9SfBuSbtDgUpajwGeJNl33wu2zcI87dcJFzKrN8Q6qIF3CwbiQRAlyyU9XLacVqkOqkodJ+OLWEbx0gJsQ1tYnftNM31Pa7oKhTbj6A9Gs7554gXq185IDzGAd6EoWBM2tTeoQXK6QVfxQ4YgraWZpHQJYKDhXgEhDiI5a1sWxquWGkgiU336GAb73ywJE1w+SCDco0Expue6oXG5t/B+gy/Fj7Gy5e9p6DMY+QOer6bSn8uNb4lYQz2+FHibhrRTTM0GCldiwfVeCelDmRev5GdRT2bqs9J4AwK0KD28gXwZTvUjji0LAyVzb7zRfZ5bNfr/QT37YE9Pc7xmF8Qx6uBRk1lKrpK1mTWf4RqHjU48s6MCyxO6ScFuA0NaPpPp2j6ApuOPRaqf99tEFd2cMeUP67boPD33hoXySSkMQ2/D3I2Vgs/n5kicYD5ePAblwp58XnYwttHQ42muuUiaem7lvCHUzy5ct0g/yDmRvC37uDiVSu/KJCfIyTJE0c14iqeQDcMHDby2Fse2Yfksf1W2WJXFEdXbRHCfxkBzDb6tMYn8s3cGluTa8qX9iXQQRU4D9Pq226bC+jzIDW2KCDial2kaef045NJoqA2q3zD5px+yFmXvRbmCqT6EKKFYhJyh5iT4ucjKlIy5y79ykSPuDY7DQ3D8p5jdHgZhnEvxq+e7qfahw078ObYqso6N5S/P6fXJVaYVvBcHCYUZgls+SWQ9m9NwX4wRZS1B4oyaS/KSe6Llua3agXYqA1g6K0IWU0vi90ks4oIGiV1XomGcOMpiDtULoySqVBSHmr4H6TcDJ0pVouyqrB/BWbCqr4UYdYHKJMT0ZITYpwGhwX8McqvyFbt+XyTxUEr4h1hPFzqTVv4tgQDr4MGcbiRuj+zKkA=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236317,
+    "id": "2wZKavX1B-ba1e8PnvbkmAI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 17,
+      "prompt_tokens": 215,
+      "total_tokens": 406
+    }
+  }
+}

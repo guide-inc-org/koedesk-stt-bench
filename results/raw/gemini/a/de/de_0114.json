@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0114",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 20.04,
+  "ref_text_raw": "\"Letzte Woche gab das METI bekannt, dass es von Apple über 34 weitere Vorfälle von Überhitzung informiert worden war, die das Unternehmen als „nicht schwerwiegend\"\" bezeichnete.\"",
+  "ref_text_normalized": "letzte woche gab das meti bekannt dass es von apple über 34 weitere vorfälle von überhitzung informiert worden war die das unternehmen als nicht schwerwiegend bezeichnete",
+  "timestamp_utc": "2026-07-05T03:48:47Z",
+  "text": "Letzte Woche gab das Meti bekannt, dass es von Apple über 34 weitere Vorfälle von Überhitzung informiert worden war. die das Unternehmen als nicht schwerwiegend bezeichnete.",
+  "latency_sec": 3.8206,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Letzte Woche gab das Meti bekannt, dass es von Apple über 34 weitere Vorfälle von Überhitzung informiert worden war. die das Unternehmen als nicht schwerwiegend bezeichnete.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223327,
+    "id": "HdRJavnQHZHNrfcPvY_ZsAY",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 663,
+      "total_tokens": 732
+    }
+  }
+}

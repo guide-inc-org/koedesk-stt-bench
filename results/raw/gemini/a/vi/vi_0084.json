@@ -1,0 +1,39 @@
+{
+  "utt_id": "vi_0084",
+  "lang": "vi",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.56,
+  "ref_text_raw": "Anh ta không thể dùng thuốc để giảm đau vì các loại thuốc đó đã bị cấm sử dụng trong Thế vận hội.",
+  "ref_text_normalized": "anh ta không thể dùng thuốc để giảm đau vì các loại thuốc đó đã bị cấm sử dụng trong thế vận hội",
+  "timestamp_utc": "2026-07-05T08:18:18Z",
+  "text": "Anh ta không thể dùng thuốc để giảm đau vì các loại thuốc đó đã bị cấm sử dụng trong Thế vận hội.",
+  "latency_sec": 4.0939,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Anh ta không thể dùng thuốc để giảm đau vì các loại thuốc đó đã bị cấm sử dụng trong Thế vận hội.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239498,
+    "id": "RxNKara-OJT02roPp7fs4A4",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 263,
+      "total_tokens": 313
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0149",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 18.42,
+  "ref_text_raw": "Demzufolge wurde der Bleistift nach seiner Erfindung vielen Menschen ein guter Freund.",
+  "ref_text_normalized": "demzufolge wurde der bleistift nach seiner erfindung vielen menschen ein guter freund",
+  "timestamp_utc": "2026-07-05T04:08:32Z",
+  "text": "Demzufolge wurde der Bleistift nach seiner Erfindung vielen Menschen ein guter Freund.",
+  "latency_sec": 3.8955,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Demzufolge wurde der Bleistift nach seiner Erfindung vielen Menschen ein guter Freund.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqkFCqYFARFNMg/9GSSUmriD/DqCWtVuR5kY90MJXTIl1UFYfe2RR9y3L9HVCvDm2zwxeeZ0IU8ZaSQQQYzaWldeoTr+5M9PKqI2CCGhOYbuBS8zyoHRjCzUUg97/XZIHVjoj0jJUkgD8taiXkXfy14pu7t+Y3ATrBVNWud1HzJzy9glH2Yz+ybtUIomNFLmfJiBs0EbCALs8Pm3nkj0HKJEh8rxiubmLiYJdRneaF/sAv9hRzW4f6A7+YhZzZwaqaypU1miUS/U3lN2RJF5OhHYYvbIZBLoUF16wdYq9yryjhC4meYkjMJW3i20gKP+1bl1G0KiaSTFlmAbJdJZYaAn8w4a9F96bIxh1NXtgBSnHanxd9uolgR1hY3rsxrmN7MPzvspGXVOUxHWD9J3lkNyVHec72rZUSmMSezffQ7Ft8Mp79rHXfb9nh9Ac0A4lyimDJI3Nww487VDazmgMHpo6LAKN8gr/IdWP2lBAIpXyBPmkVcie6BRUiC3vaQDW3g44oV17Fcd1gL/rDyct1033if3o/ZLi2vjZJQknS0LKaarbYnJtlieDLT43aB0DHexzEk1xlB83AZjCXR5WPirXk3GApBp0DvMokDpw+4ptgj81mUa25tWN8j9igTTautq9EOTXTF4zddKmadOGnTkXWM8BGaGtbF9lID7qRLGaFm1ch9p+xLUiyZHKAFAQJVR/5uBMUB7I8MO4oDANXWWWyYA5Boa++wBGNmOs7yRGWMIAnK0/OlJpQixfdQ5JoJN6Ph5rK874i2z/Xv9WN00rDvLtkCMIcdz/i0jrt8Hk5BmRIFnbtU9DXe6NsScdtUelBKyT5LO2YO6nKYT3LoL+stFpZCv5S6eG+s3OLemLFn76iVWswud9PvpgfsCT3nh/w2DtDDWgZ3y"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224512,
+    "id": "vthJaqDsHcTs1e8Px-GUwQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 482,
+      "total_tokens": 678
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0198",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.94,
+  "ref_text_raw": "Le soutien n'est pas une méthode d'apprentissage mais davantage un moyen d'aider les apprenants qui découvrent un nouvel enseignement tel que l'utilisation d'un nouveau programme ou le début d'un nouveau projet.",
+  "ref_text_normalized": "le soutien n'est pas une méthode d'apprentissage mais davantage un moyen d'aider les apprenants qui découvrent un nouvel enseignement tel que l'utilisation d'un nouveau programme ou le début d'un nouveau projet",
+  "timestamp_utc": "2026-07-05T05:21:49Z",
+  "text": "Le soutien n'est pas une méthode d'apprentissage mais davantage un moyen d'aider les apprenants qui découvrent un nouvel enseignement tel que l'utilisation d'un nouveau programme ou le début d'un nouveau projet.",
+  "latency_sec": 2.7113,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Le soutien n'est pas une méthode d'apprentissage mais davantage un moyen d'aider les apprenants qui découvrent un nouvel enseignement tel que l'utilisation d'un nouveau programme ou le début d'un nouveau projet.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPNSTb69RadOlbwrLmNRK1nk16a9ocIjdFhcaQEykhcsStr8TSPh8T+39xeq5q"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228909,
+    "id": "7OlJaqOUEKne1e8P6I_tqAg",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 48,
+      "prompt_tokens": 320,
+      "total_tokens": 368
+    }
+  }
+}

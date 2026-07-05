@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0047",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.22,
+  "ref_text_raw": "Si vous voulez participer de près à l'événement musical, vous allez devoir arriver tôt pour trouver un aire de camping bien placée.",
+  "ref_text_normalized": "si vous voulez participer de près à l'événement musical vous allez devoir arriver tôt pour trouver un aire de camping bien placée",
+  "timestamp_utc": "2026-07-05T05:12:19Z",
+  "text": "Si vous voulez participer de près à l'événement musical, vous allez devoir arriver tôt pour trouver une aire de camping bien placée.",
+  "latency_sec": 2.8565,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Si vous voulez participer de près à l'événement musical, vous allez devoir arriver tôt pour trouver une aire de camping bien placée.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPdlEHsv65waPvDgbqsTfEqYrWO5wL/q5vtacW8zaYolTzHepznk1m2rR/IJ8R"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228339,
+    "id": "sudJapeCGfia1e8P4ZHFoQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 227,
+      "total_tokens": 253
+    }
+  }
+}

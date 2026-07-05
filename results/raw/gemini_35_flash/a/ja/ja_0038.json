@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0038",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 17.46,
+  "ref_text_raw": "彼は多くの国で紙幣の製作にも携わっており、最近では、カナダの新5ドル紙幣と新100ドル紙幣の表に描かれた首相の肖像画などがその一例です。",
+  "ref_text_normalized": "彼は多くの国で紙幣の製作にも携わっており 最近では カナダの新5ドル紙幣と新100ドル紙幣の表に描かれた首相の肖像画などがその一例です",
+  "timestamp_utc": "2026-07-05T10:13:16Z",
+  "text": "彼は多くの国で紙幣の製作にも携わっており、最近ではカナダの新5ドル紙幣と新100ドル紙幣の表に描かれた女王の肖像画などがその一例です。",
+  "latency_sec": 5.0118,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "彼は多くの国で紙幣の製作にも携わっており、最近ではカナダの新5ドル紙幣と新100ドル紙幣の表に描かれた女王の肖像画などがその一例です。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246396,
+    "id": "OC5KavC5FKbG0-kPpaDayQU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 46,
+      "prompt_tokens": 458,
+      "total_tokens": 974
+    }
+  }
+}

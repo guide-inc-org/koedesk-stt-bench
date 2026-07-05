@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0163",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 6.66,
+  "ref_text_raw": "由于分离和重组，变异在每一代的两个库之间来回变动。",
+  "ref_text_normalized": "由 于 分 离 和 重 组 变 异 在 每 一 代 的 两 个 库 之 间 来 回 变 动",
+  "timestamp_utc": "2026-07-05T09:01:19Z",
+  "text": "由于分离和重组，变异在每一代的两个库之间来回变动。",
+  "latency_sec": 3.7797,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "由于分离和重组，变异在每一代的两个库之间来回变动。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242079,
+    "id": "XB1Kauv0NYGp2roP-M7c4AY",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 235,
+      "total_tokens": 328
+    }
+  }
+}

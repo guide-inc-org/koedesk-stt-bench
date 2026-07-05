@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0084",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.42,
+  "ref_text_raw": "研究该疾病的联合国专家丹妮尔·拉塔涅 (Danielle Lantagne) 表示，疫情爆发很可能是由维和人员引起的。",
+  "ref_text_normalized": "研 究 该 疾 病 的 联 合 国 专 家 丹 妮 尔 拉 塔 涅 danielle lantagne 表 示 疫 情 爆 发 很 可 能 是 由 维 和 人 员 引 起 的",
+  "timestamp_utc": "2026-07-05T09:15:41Z",
+  "text": "研究 该 疾病 的 联合国 专家 丹尼尔 · 拉坦内 表示 , 疫情 爆发 很 可能 是 由 违和 人员 引起 的 。",
+  "latency_sec": 2.9632,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "研究 该 疾病 的 联合国 专家 丹尼尔 · 拉坦内 表示 , 疫情 爆发 很 可能 是 由 违和 人员 引起 的 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP0yduCfNgyUIQ6P/tsoA2p9/La1Ugt2VLeLbRqpwqxjoRmmzrJuyTpx+qxYGA"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242941,
+    "id": "uyBKaq-sNNqA1e8PtKvlgQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 257,
+      "total_tokens": 293
+    }
+  }
+}

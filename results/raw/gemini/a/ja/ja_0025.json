@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0025",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.9,
+  "ref_text_raw": "乾いた粉を2つ合わせてくるくるとこね回し、清潔な濡れた手でぎゅっと握ります。",
+  "ref_text_normalized": "乾いた粉を2つ合わせてくるくるとこね回し 清潔な濡れた手でぎゅっと握ります",
+  "timestamp_utc": "2026-07-05T10:03:38Z",
+  "text": "乾い た 粉 を 2 つ 合わせ て くるくる と こね回し 清潔 な 縫い立て で ぎゅっ と 握り ます 。",
+  "latency_sec": 3.1849,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "乾い た 粉 を 2 つ 合わせ て くるくる と こね回し 清潔 な 縫い立て で ぎゅっ と 握り ます 。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783245818,
+    "id": "-CtKaurOLcz71e8PxKycwAI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 338,
+      "total_tokens": 375
+    }
+  }
+}

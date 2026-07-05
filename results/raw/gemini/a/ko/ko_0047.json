@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0047",
+  "lang": "ko",
+  "engine": "gemini_25_flash",
+  "duration_sec": 9.9,
+  "ref_text_raw": "사람들은 뭔가 새로운 것이 생긴다면, 키보드가 어떻게 될 것인지 궁금해하고 있을 뿐이다.",
+  "ref_text_normalized": "사람들은 뭔가 새로운 것이 생긴다면 키보드가 어떻게 될 것인지 궁금해하고 있을 뿐이다",
+  "timestamp_utc": "2026-07-05T05:56:01Z",
+  "text": "사람들은 뭔가 새로운 것이 생긴다면 키보드가 어떻게 될 것인지 궁금해하고 있을 뿐이다.",
+  "latency_sec": 3.3019,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "사람들은 뭔가 새로운 것이 생긴다면 키보드가 어떻게 될 것인지 궁금해하고 있을 뿐이다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230961,
+    "id": "7_FJap6vFtLM1e8PlJ7zgQc",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 338,
+      "total_tokens": 359
+    }
+  }
+}

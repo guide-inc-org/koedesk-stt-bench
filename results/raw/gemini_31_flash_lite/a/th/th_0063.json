@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0063",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.4,
+  "ref_text_raw": "การหยุดชะงักของการนอนหลับคือกระบวนการตื่นอย่างมีจุดประสงค์ในช่วงเวลาการนอนหลับตามปกติของคุณ และหลับไปในช่วงระยะเวลาสั้น ๆ ภายหลัง (10 - 60 นาที)",
+  "ref_text_normalized": "การหยุดชะงักของการนอนหลับคือกระบวนการตื่นอย่างมีจุดประสงค์ในช่วงเวลาการนอนหลับตามปกติของคุณ และหลับไปในช่วงระยะเวลาสั้น ๆ ภายหลัง 10 - 60 นาที",
+  "timestamp_utc": "2026-07-05T08:04:32Z",
+  "text": "การหยุดชะงักของการนอนหลับคือกระบวนการตื่นอย่างมีจุดประสงค์ในช่วงเวลาการนอนหลับตามปกติของคุณ และหลับไปในช่วงระยะเวลาสั้นๆ ภายหลัง 10-60 นาที",
+  "latency_sec": 2.8517,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "การหยุดชะงักของการนอนหลับคือกระบวนการตื่นอย่างมีจุดประสงค์ในช่วงเวลาการนอนหลับตามปกติของคุณ และหลับไปในช่วงระยะเวลาสั้นๆ ภายหลัง 10-60 นาที",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP0a3D/9mPzeh9fhbPSbtl7YJNMWLQYrDrJIkSC3AfIHxg6rFA+Tj++j6g+QHZ"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238672,
+    "id": "DhBKap7VKbup2roP26eg2QY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 50,
+      "prompt_tokens": 306,
+      "total_tokens": 356
+    }
+  }
+}

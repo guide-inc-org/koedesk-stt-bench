@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0188",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.24,
+  "ref_text_raw": "Les opinions d'Aristote sur toutes les questions scientifiques, y compris la psychologie, ont été acceptées.",
+  "ref_text_normalized": "les opinions d'aristote sur toutes les questions scientifiques y compris la psychologie ont été acceptées",
+  "timestamp_utc": "2026-07-05T05:21:13Z",
+  "text": "Les opinions d'Aristote sur toutes les questions scientifiques, y compris la psychologie, ont été acceptées.",
+  "latency_sec": 2.8196,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Les opinions d'Aristote sur toutes les questions scientifiques, y compris la psychologie, ont été acceptées.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPQ1btz4Uyd71i3hUt9TgIlB4X7RWi4yzw+LyPevMm0Ng1XHUtVy6aVriaiU4R"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228873,
+    "id": "yOlJasiBBM-a1e8P7YSs0QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 177,
+      "total_tokens": 200
+    }
+  }
+}

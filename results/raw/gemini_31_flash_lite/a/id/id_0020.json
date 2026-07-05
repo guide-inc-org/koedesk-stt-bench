@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0020",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.44,
+  "ref_text_raw": "Hal ini memberikan kesempatan yang baik untuk melihat Aurora borealis, karena langit akan lebih gelap pada sekitar waktu tersebut.",
+  "ref_text_normalized": "hal ini memberikan kesempatan yang baik untuk melihat aurora borealis karena langit akan lebih gelap pada sekitar waktu tersebut",
+  "timestamp_utc": "2026-07-05T05:46:06Z",
+  "text": "Hal ini memberikan kesempatan yang baik untuk melihat aurora borealis karena langit akan lebih gelap pada sekitar waktu tersebut.",
+  "latency_sec": 3.5838,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Hal ini memberikan kesempatan yang baik untuk melihat aurora borealis karena langit akan lebih gelap pada sekitar waktu tersebut.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPqJZkmjDaCr1DeU+gncnRITLoEXdJSHkgMtLsd+pWaB3WXe7FFClkPzpJHCQw"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230366,
+    "id": "nO9JaoiZGY-_vr0P4-jhmAM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 357,
+      "total_tokens": 378
+    }
+  }
+}

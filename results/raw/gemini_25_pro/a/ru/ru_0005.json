@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0005",
+  "lang": "ru",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.44,
+  "ref_text_raw": "В 1990 году он был добавлен в список всемирного наследия, находящегося под угрозой из-за опасности со стороны песков пустыни.",
+  "ref_text_normalized": "в 1990 году он был добавлен в список всемирного наследия находящегося под угрозой из-за опасности со стороны песков пустыни",
+  "timestamp_utc": "2026-07-05T07:06:45Z",
+  "text": "в 1990 году он был добавлен в список всемирного наследия, находящегося под угрозой из-за опасности со стороны песков пустыни.",
+  "latency_sec": 5.1164,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "в 1990 году он был добавлен в список всемирного наследия, находящегося под угрозой из-за опасности со стороны песков пустыни.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235205,
+    "id": "gQJKaoCbDMfE0-kP8qfE0QY",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 356,
+      "total_tokens": 621
+    }
+  }
+}

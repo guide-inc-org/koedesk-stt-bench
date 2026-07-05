@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0147",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 16.32,
+  "ref_text_raw": "แน่นอนว่ามีคำอธิบายทางศาสนศาสตร์ของศาสนาคริสต์สำหรับประเพณีนี้ แต่อาจเป็นพิธีกรรมสำหรับฤดูใบไม้ผลิและความอุดมสมบูรณ์ปฏิบัติกันในช่วงก่อนศาสนาคริสต์",
+  "ref_text_normalized": "แน่นอนว่ามีคำอธิบายทางศาสนศาสตร์ของศาสนาคริสต์สำหรับประเพณีนี้ แต่อาจเป็นพิธีกรรมสำหรับฤดูใบไม้ผลิและความอุดมสมบูรณ์ปฏิบัติกันในช่วงก่อนศาสนาคริสต์",
+  "timestamp_utc": "2026-07-05T08:09:58Z",
+  "text": "แน่นอนว่ามีคำอธิบายทางศาสนศาสตร์ของศาสนาคริสต์สำหรับประเพณีนี้ แต่เป็นพิธีกรรมสำหรับฤดูใบไม้ผลิ และความอุดมสมบูรณ์ ปฏิบัติกันในช่วงก่อนศาสนาคริสต์",
+  "latency_sec": 2.928,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "แน่นอนว่ามีคำอธิบายทางศาสนศาสตร์ของศาสนาคริสต์สำหรับประเพณีนี้ แต่เป็นพิธีกรรมสำหรับฤดูใบไม้ผลิ และความอุดมสมบูรณ์ ปฏิบัติกันในช่วงก่อนศาสนาคริสต์",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPAZtTfE7vncOjPNuekIQqfBl3eUEFcCjQNiU1MUlKoOOr44YWzxedfaNGoxnA"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238999,
+    "id": "VRFKatHJGty4vr0Pgo3U0Q8",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 53,
+      "prompt_tokens": 429,
+      "total_tokens": 482
+    }
+  }
+}

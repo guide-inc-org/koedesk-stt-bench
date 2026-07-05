@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0116",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.74,
+  "ref_text_raw": "Es posible que haya más mares en el lado cercano debido a que su corteza es más delgada, lo que facilitó a la lava ascender a la superficie.",
+  "ref_text_normalized": "es posible que haya más mares en el lado cercano debido a que su corteza es más delgada lo que facilitó a la lava ascender a la superficie",
+  "timestamp_utc": "2026-07-05T04:40:44Z",
+  "text": "Es posible que haya más mares en el lado cercano debido a que su corteza es más delgada, lo que facilitó a la lava ascender a la superficie.",
+  "latency_sec": 3.0307,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Es posible que haya más mares en el lado cercano debido a que su corteza es más delgada, lo que facilitó a la lava ascender a la superficie.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPLvparA/6IM0sHljgPyDf22/dGv4l5scHGE/1PHDwlBC9c0tbHi1Xpz5HlZVB"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226444,
+    "id": "SuBJasHeKOn62roPgJLP-QI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 290,
+      "total_tokens": 324
+    }
+  }
+}

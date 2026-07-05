@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0099",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.78,
+  "ref_text_raw": "สุดท้ายแล้ว มีแมวขนาดเล็กมากมาย (รวมทั้งแมวเลี้ยงระบบเปิด) ที่กินเหยื่อต่าง ๆ ที่มีขนาดเล็กกว่ามาก เช่น แมลง สัตว์กัดแทะ สัตว์เลื้อยคลานจำพวกจิ้งจก และนก",
+  "ref_text_normalized": "สุดท้ายแล้ว มีแมวขนาดเล็กมากมาย รวมทั้งแมวเลี้ยงระบบเปิด ที่กินเหยื่อต่าง ๆ ที่มีขนาดเล็กกว่ามาก เช่น แมลง สัตว์กัดแทะ สัตว์เลื้อยคลานจำพวกจิ้งจก และนก",
+  "timestamp_utc": "2026-07-05T08:01:10Z",
+  "text": "สุดท้ายแล้ว มีแมวขนาดเล็กมากมายรวมทั้งแมวที่เลี้ยงระบบเปิด ที่กินเหยื่อต่างๆ ที่มีขนาดเล็กกว่ามาก เช่น แมลง สัตว์กัดแทะ สัตว์เลื้อยคลานจำพวกจิ้งจก และนก",
+  "latency_sec": 5.6859,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "สุดท้ายแล้ว มีแมวขนาดเล็กมากมายรวมทั้งแมวที่เลี้ยงระบบเปิด ที่กินเหยื่อต่างๆ ที่มีขนาดเล็กกว่ามาก เช่น แมลง สัตว์กัดแทะ สัตว์เลื้อยคลานจำพวกจิ้งจก และนก",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238470,
+    "id": "QQ9KaqmZMvjG2roPjLn34AI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 52,
+      "prompt_tokens": 266,
+      "total_tokens": 880
+    }
+  }
+}

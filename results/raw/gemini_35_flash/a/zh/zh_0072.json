@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0072",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 19.3,
+  "ref_text_raw": "虽然没有人能确定作者是谁，但这个大型羊皮纸文档（尺寸为 29¾ 英寸乘以 24½ 英寸）据称在刚写成的时候是卷起来存放的。",
+  "ref_text_normalized": "虽然没有人能确定作者是谁但这个大型羊皮纸文档尺寸为 29¾ 英寸乘以 24½ 英寸据称在刚写成的时候是卷起来存放的",
+  "timestamp_utc": "2026-07-05T09:12:03Z",
+  "text": "虽然没有人能确定作者是谁，但这个大型羊皮纸文档尺寸为29又4分之3英寸乘以24又2分之1英寸，据称在刚写成的时候是卷起来存放的。",
+  "latency_sec": 5.7666,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "虽然没有人能确定作者是谁，但这个大型羊皮纸文档尺寸为29又4分之3英寸乘以24又2分之1英寸，据称在刚写成的时候是卷起来存放的。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242723,
+    "id": "3h9KauiQOtmK0-kP0MrjsQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 504,
+      "total_tokens": 1142
+    }
+  }
+}

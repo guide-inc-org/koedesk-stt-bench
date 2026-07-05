@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0050",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 12.78,
+  "ref_text_raw": "The harbor was the site of an infamous naval standoff in 1889 when seven ships from Germany, the US, and Britain refused to leave the harbor.",
+  "ref_text_normalized": "the harbor was the site of an infamous naval standoff in 1889 when seven ships from germany the us and britain refused to leave the harbor",
+  "timestamp_utc": "2026-07-05T10:23:29Z",
+  "text": "The harbor was the site of an infamous naval standoff in 1889 when seven ships from Germany, the US, and Britain refused to leave the harbor.",
+  "latency_sec": 4.9885,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The harbor was the site of an infamous naval standoff in 1889 when seven ships from Germany, the US, and Britain refused to leave the harbor.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247009,
+    "id": "nTBKaozjIrif0-kPzJPfgAc",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 430,
+      "total_tokens": 696
+    }
+  }
+}

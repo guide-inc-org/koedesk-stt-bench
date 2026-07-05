@@ -1,0 +1,39 @@
+{
+  "utt_id": "id_0110",
+  "lang": "id",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.84,
+  "ref_text_raw": "Layanan tersebut kerap kali dipakai oleh pelayaran, termasuk kapal pesiar, dan juga ekspedisi yang memerlukan komunikasi suara dan data jarak jauh.",
+  "ref_text_normalized": "layanan tersebut kerap kali dipakai oleh pelayaran termasuk kapal pesiar dan juga ekspedisi yang memerlukan komunikasi suara dan data jarak jauh",
+  "timestamp_utc": "2026-07-05T05:27:47Z",
+  "text": "Layanan tersebut kerap kali dipakai oleh pelayaran, termasuk kapal pesiar dan juga ekspedisi yang memerlukan komunikasi suara dan data jarak jauh.",
+  "latency_sec": 4.5349,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Layanan tersebut kerap kali dipakai oleh pelayaran, termasuk kapal pesiar dan juga ekspedisi yang memerlukan komunikasi suara dan data jarak jauh.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783229267,
+    "id": "UOtJavHIFvia1e8P4ZHFoQI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 432,
+      "total_tokens": 546
+    }
+  }
+}

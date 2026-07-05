@@ -1,0 +1,36 @@
+{
+  "utt_id": "ja_0104",
+  "lang": "ja",
+  "engine": "google_stt_v2",
+  "duration_sec": 15.96,
+  "ref_text_raw": "彼の作品は、その質の高さと詳細さが評価され、切手収集家の中では数少ない「有名人」の1人です。彼の作品だけを専門とする収集家もいるほどです。",
+  "ref_text_normalized": "彼の作品は その質の高さと詳細さが評価され 切手収集家の中では数少ない 有名人 の1人です 彼の作品だけを専門とする収集家もいるほどです",
+  "timestamp_utc": "2026-07-05T03:15:43Z",
+  "text": "彼の作品はその質の高さと詳細さが評価され、切手収集家の間から数少ない有名人の1人です。彼の作品だけを専門とする収集家もいるほどです。",
+  "latency_sec": 5.0031,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "ja-JP",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "16s",
+      "requestId": "7353bdf8-0000-229c-af7e-2405886cbd2c",
+      "prompt": "Transcribe the following speech segment in Japanese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Japanese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "彼の作品はその質の高さと詳細さが評価され、切手収集家の間から数少ない有名人の1人です。彼の作品だけを専門とする収集家もいるほどです。"
+          }
+        ],
+        "languageCode": "ja-JP"
+      }
+    ]
+  }
+}

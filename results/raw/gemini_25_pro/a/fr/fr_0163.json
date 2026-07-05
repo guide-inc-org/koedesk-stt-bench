@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0163",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 7.86,
+  "ref_text_raw": "L'humidité sur vos mains va réagir avec les couches extérieures, ce qui induira une sensation étrange et produira une sorte de coquille.",
+  "ref_text_normalized": "l'humidité sur vos mains va réagir avec les couches extérieures ce qui induira une sensation étrange et produira une sorte de coquille",
+  "timestamp_utc": "2026-07-05T05:05:17Z",
+  "text": "L'humidité sur vos mains va réagir avec les couches extérieures, ce qui induira une sensation d'étrange et produira une sorte de coquille.",
+  "latency_sec": 6.4022,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "L'humidité sur vos mains va réagir avec les couches extérieures, ce qui induira une sensation d'étrange et produira une sorte de coquille.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227917,
+    "id": "COZJariDDsTs1e8Pu-GUwQI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 273,
+      "total_tokens": 644
+    }
+  }
+}

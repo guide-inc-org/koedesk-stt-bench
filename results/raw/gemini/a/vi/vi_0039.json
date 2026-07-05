@@ -1,0 +1,39 @@
+{
+  "utt_id": "vi_0039",
+  "lang": "vi",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.02,
+  "ref_text_raw": "Cái này gọi là độ pH của hóa chất. Bạn có thể tạo ra chất chỉ thị bằng nước ép bắp cải đỏ.",
+  "ref_text_normalized": "cái này gọi là độ ph của hóa chất bạn có thể tạo ra chất chỉ thị bằng nước ép bắp cải đỏ",
+  "timestamp_utc": "2026-07-05T08:14:38Z",
+  "text": "Cái này gọi là độ pH của hóa chất. Bạn có thể tạo ra chất chỉ thị bằng nước ép bắp cải đỏ.",
+  "latency_sec": 4.8832,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Cái này gọi là độ pH của hóa chất. Bạn có thể tạo ra chất chỉ thị bằng nước ép bắp cải đỏ.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239278,
+    "id": "ahJKauCZLryB0-kP2bOhwAc",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 342,
+      "total_tokens": 469
+    }
+  }
+}

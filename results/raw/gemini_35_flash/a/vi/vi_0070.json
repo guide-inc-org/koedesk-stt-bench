@@ -1,0 +1,45 @@
+{
+  "utt_id": "vi_0070",
+  "lang": "vi",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.8,
+  "ref_text_raw": "Nó cũng tấn công mọi thứ trong nước; ngay cả khủng long khổng lồ như T. rex cũng không phải là đối thủ với nó.",
+  "ref_text_normalized": "nó cũng tấn công mọi thứ trong nước ngay cả khủng long khổng lồ như t rex cũng không phải là đối thủ với nó",
+  "timestamp_utc": "2026-07-05T08:34:41Z",
+  "text": "Nó cũng tấn công mọi thứ trong nước, ngay cả khủng long khổng lồ như T-Rex cũng không phải là đối thủ với nó.",
+  "latency_sec": 3.1924,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Nó cũng tấn công mọi thứ trong nước, ngay cả khủng long khổng lồ như T-Rex cũng không phải là đối thủ với nó.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpYGCpMGARFNMg+q1SCIO9AcNnX/j8tMWoAqffUwUPdEWJDDCpA1S3iAyTMfWVugtDbjgDTHpoQev4UGG3jtPX0BCrIKWhTJkquhLd9KLm7BothxzYnmVFETGZhghLkwn8qEKn+hhhiQb7OkFitkfNhIpJPRYO8srjmXYRli23ERsWc2Iz2+fG8Jq/GkzKF33I4A4ZXGKbkuH6p0anCLc0XJ8C4tBBhoIKjNuX7zDtparjNmEEHea4vxcoWtrWqEL6HasXDLmGsRxnj2uzLxk33WALbI+iPbJl6vI93zppsno8y3cehEBt4FsCm2Zwo8pPboPXUyehwFgCvfq3/vbRN0SOvWdt5B5O4WPCH/nptSyOKMFn5XQ+qzJJdFgHSWTlOepS1Nr1aqScHoVk8M1vBYk/L9vrwHm8vptSCFynxaJCUq1Qzfyi1xZVB+X4iEv7FtCRT82uZMYDkBjhkJGCrVb0DSrBtRBXR481b+I3BI2O38Gh7rHGLlD1RldRVAGu2A3Wo5dpLUZJtWlYrEUOlXS0ChrY9zzgAflUJ28vaOSS2poHvwoxV6oj0Iwxpj7yS0VU6QZi1g24OFDKe5zZBQZkMW8zCwX6NcRBiyOSwgBLwexJTAQOiGKIQVFgsMEVDGNiWBFogS2BN6ZZ4YwXHOxxd7rayO3vMpHsIymEecwUZziKwEjifqQNSZau1WKSnA1Yeoki/WS/4AiyKnbmBeasR3ZBAbTmbXDt6fk7ET/QhEDhcjf4qXLLU8YZzQ7UEPgdQ0d8q/RUEgtTCjkEX/MZK5od1REbW9bXvzez2bOKUQ1SNC00DOBOdZ5VNYGawSPRp89zjq8j7U2tzWICD33bLG1jGn/8Q9HOdT7wkznZPisLMrhA2VaEV0CWtP1s/+B6xj9CxEP+QNKOsTxUOKWJxrOz2BqrNQxvZyRERXZwwjt+KiqL5bz2x0/nxoMSTOSevhZNOY/qpJPtBsiCGgJG3SllJ+XNcT712O4NCSXYdW5FjB0f9iG1wphYJdtqBPJsmMEpuUxliQ2ooPBIWAbLg2BQk9vQ=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240481,
+    "id": "HxdKasOnLKyv1e8P3_jVaA",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 216,
+      "total_tokens": 437
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "pt_0097",
+  "lang": "pt",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 15.54,
+  "ref_text_raw": "A crosta possui 70 km de espessura no lado visível e 100 km de espessura no lado invisível.",
+  "ref_text_normalized": "a crosta possui 70 km de espessura no lado visível e 100 km de espessura no lado invisível",
+  "timestamp_utc": "2026-07-05T06:51:13Z",
+  "text": "A crosta possui 70 km de espessura no lado visível e 100 km de espessura no lado invisível.",
+  "latency_sec": 3.3765,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "A crosta possui 70 km de espessura no lado visível e 100 km de espessura no lado invisível.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Eq8DCqwDARFNMg+WULebm4ts575v8bqeYsry7T5oyP/Jd34nktLsKnY1kNzaHraDKvzHDhDXc8V4S03jWwNYoNljQn/l37oUd/8N1mwnm2TD3XAdMyVhGP+k53wtVgVzQ2vXN8HD0xRPbs6kHfv4Ljh24wM+0rXAHxCtGgGY+kPXf8SrVlhsfPBvVSqHerxZ9QbrawvTgXiTB3YKUCwGma5OwUj1yYcQ50IG/GVsCSliRJXXGbNKAeOXuv6ffkxmbmfZp+BkzI7kPtQKbK13h+xvIfVBPul8x+CLLXg/3yIylRZ5wfQgZPNyYwu24XZvIasLAhghB75693MqtNLa+TkrjkB0pq0HnPCKQZYFAncsSp4+gpogjeyRwKIPEjIlAZQh64F1TTgJ0BB6QwUasTjo3rwJ4ghcYoIvD6fSqvWDhfCu7T6ysTYi3B8ogLNhjGACzW98drKyppdTPcQd0rsnecEUcydqdahb7LiNvgY7SVsEBMRwHlQh43cgAUx1sy7yLIBb+L3NnsFsshlsDeqLqXNS3fCpkQWZAtRKe1SSSMWRU6ehbvEsbq9Iait/6PM="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234273,
+    "id": "3_5JavfULLXIrfcPsof-gAc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 410,
+      "total_tokens": 543
+    }
+  }
+}

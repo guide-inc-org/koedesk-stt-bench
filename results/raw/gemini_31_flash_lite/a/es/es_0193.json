@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0193",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.46,
+  "ref_text_raw": "Estas son playas familiares, en ocasiones muy concurridas, con numerosas y variadas tiendas disponibles sobre la cosa. También son seguras para nadar.",
+  "ref_text_normalized": "estas son playas familiares en ocasiones muy concurridas con numerosas y variadas tiendas disponibles sobre la cosa también son seguras para nadar",
+  "timestamp_utc": "2026-07-05T04:45:20Z",
+  "text": "Estas son playas familiares, en ocasiones muy concurridas, con numerosas y variadas tiendas disponibles sobre la cosa. También son seguras para nadar.",
+  "latency_sec": 2.6151,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Estas son playas familiares, en ocasiones muy concurridas, con numerosas y variadas tiendas disponibles sobre la cosa. También son seguras para nadar.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPv7tilPcoe06M8iC/3lqQCb13n2zAu3St8FDw+w/yUCCfe7ZD7G31JwO8dXhO"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226720,
+    "id": "X-FJatwevIHT6Q_Zs6HABw",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 308,
+      "total_tokens": 338
+    }
+  }
+}

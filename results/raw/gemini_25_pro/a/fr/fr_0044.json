@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0044",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 3.78,
+  "ref_text_raw": "Une bombe a explosé devant le bureau du gouverneur général.",
+  "ref_text_normalized": "une bombe a explosé devant le bureau du gouverneur général",
+  "timestamp_utc": "2026-07-05T04:50:25Z",
+  "text": "Une bombe a explosé devant le bureau du gouverneur général.",
+  "latency_sec": 7.4796,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Une bombe a explosé devant le bureau du gouverneur général.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227025,
+    "id": "iuJJaq34LevYvr0P_YW_6QM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 13,
+      "prompt_tokens": 142,
+      "total_tokens": 315
+    }
+  }
+}

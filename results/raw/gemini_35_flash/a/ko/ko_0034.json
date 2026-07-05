@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0034",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.66,
+  "ref_text_raw": "고통을 극복하는 데 필요한 약들이 경기에서는 금지된 약물이기에 복용을 할 수 없었다.",
+  "ref_text_normalized": "고통을 극복하는 데 필요한 약들이 경기에서는 금지된 약물이기에 복용을 할 수 없었다",
+  "timestamp_utc": "2026-07-05T06:12:13Z",
+  "text": "고통을 극복하는 데 필요한 약들이 경기에서는 금지된 약물이기에 복용을 할 수 없었다",
+  "latency_sec": 3.9202,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "고통을 극복하는 데 필요한 약들이 경기에서는 금지된 약물이기에 복용을 할 수 없었다",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Eo0GCooGARFNMg9/gWdtE+LNxROklcrstZwf4WKDKsGLB5dAtkqkNAr6RWg9f/8ROCmX1pYLN7WBafpFLyQDMC072WkIVCHXHpxTZWc4Te871BSMJkqVrtqgMTl/8NPQzzHcodIDEWWQztfwW54f0+PLcrJK/m/K4gT4yK6RQgU+UwJFP8Vx8e7ScigJeR+iZwljZCBQrL8imoLZTt2Q6DzplzNW/3QTFN0nlSpHmNDh2DXh0P0l2XX1RsiDTqwiLtPc+m0Bb8ziOOC3A3v+8ntVQrvDBJ+0D7J7ryHdnyWQGYYYE6V4PwKks+x4o54/GWD6AlTtlvXoEbjfsqVT1gSxcPDa8eOKMI5+Up+XA5XvVhxIAzkACarod46R16zTyu7dr84cnrGqWpA8p+ixTHq3avyNjoXdxTcizEe+Xd4sGMhe61vFKeemW4fbvDfdyXaTOxbsAn1KpPZXabPGCdnZmcFqpj1YsiWcpFJh12p4usJ1Qh41BYhbs8A3t06pkSGMGc6/nRs2UipIB+BGnRHvPWPtQOI30sSOPr8PDFx5GmVbFOOrYT75EI0LAumiwUG678e9gCYdIWbRbmVZSYjaEZjudaQUwFDZbSs8BxGf4dWP2G4xX4h4dcmVaea9lip7+R2g12Hr9Hhu/h8WmLgx1ZrsVeagPug2omUiKNlpPB4d+i8tprtfJUfgF7tyOd7aXVEE3iFz0wj5UdE62DA1bnNbolvVtEG0e64AHvfIczEXZz3b49lWdesw9tTOlj67sfSCpFNfGiW56eifqqDqezPuip294saIVuwUqvQDkkClJrOGv0lujFGza7lzbUgtjf1pg7SIqOVZli7QI/zFFXtrLmIjWkIyH85DclqTEWlavrwBt+y59cvZJWKQ++XScEs8lnMnIVGvXcHzioHrvYolORz5I39ben1pqSIqx4bJ5q6c53lFOBf4v87VhKToG0LityHKe8YZRAzdHYQfrKRFDY04geYgotsCLexiolmigoYvB955Y870icudBAaZU5BDQNvbjEFp/6M77g=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231934,
+    "id": "u_VJatLwDfTLrfcPi72awAU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 338,
+      "total_tokens": 593
+    }
+  }
+}

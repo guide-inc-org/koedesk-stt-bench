@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0130",
+  "lang": "zh",
+  "engine": "gemini_25_pro",
+  "duration_sec": 16.92,
+  "ref_text_raw": "对于哪些加工物品是古董，没有统一的定义。一些税务机构将 100 年以上的物品定义为古董。",
+  "ref_text_normalized": "对 于 哪 些 加 工 物 品 是 古 董 没 有 统 一 的 定 义 一 些 税 务 机 构 将 100 年 以 上 的 物 品 定 义 为 古 董",
+  "timestamp_utc": "2026-07-05T09:02:33Z",
+  "text": "對於哪些加工物品是古董,沒有統一的定義。 一些稅務機構 將100年以上的物品定義為古董。",
+  "latency_sec": 6.9325,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "對於哪些加工物品是古董,沒有統一的定義。 一些稅務機構 將100年以上的物品定義為古董。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242153,
+    "id": "ox1KauXqJcfE0-kP8qfE0QY",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 563,
+      "total_tokens": 894
+    }
+  }
+}

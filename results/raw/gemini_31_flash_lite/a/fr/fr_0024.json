@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0024",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.2,
+  "ref_text_raw": "Martelly a intronisé hier un nouveau Conseil électoral provisoire (CEP) composé de neuf membres.",
+  "ref_text_normalized": "martelly a intronisé hier un nouveau conseil électoral provisoire cep composé de neuf membres",
+  "timestamp_utc": "2026-07-05T05:10:54Z",
+  "text": "Marceli a intronisé hier un nouveau Conseil électoral provisoire (CEP) composé de 9 membres.",
+  "latency_sec": 2.7752,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Marceli a intronisé hier un nouveau Conseil électoral provisoire (CEP) composé de 9 membres.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP+1K6wfU2G0BNFZC8q2VvVZ5j5odLKb5UWxccGg9mzZdz+Wlw2vGFKL/tzI5Z"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228254,
+    "id": "XOdJauO9Jcvb2roP0s2koQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 201,
+      "total_tokens": 223
+    }
+  }
+}

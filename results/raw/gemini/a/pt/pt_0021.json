@@ -1,0 +1,39 @@
+{
+  "utt_id": "pt_0021",
+  "lang": "pt",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.44,
+  "ref_text_raw": "A umidade das mãos reage com as camadas externas, o que causa uma sensação estranha e forma um tipo de concha.",
+  "ref_text_normalized": "a umidade das mãos reage com as camadas externas o que causa uma sensação estranha e forma um tipo de concha",
+  "timestamp_utc": "2026-07-05T06:28:44Z",
+  "text": "A humidade das mãos reage com as camadas externas, o que causa uma sensação estranha e forma um tipo de concha.",
+  "latency_sec": 3.3481,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "A humidade das mãos reage com as camadas externas, o que causa uma sensação estranha e forma um tipo de concha.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232924,
+    "id": "mvlJatu7Iq2A1e8P88TkuQE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 356,
+      "total_tokens": 447
+    }
+  }
+}

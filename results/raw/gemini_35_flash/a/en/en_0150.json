@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0150",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 14.06,
+  "ref_text_raw": "We don't know for sure, but it may have had a forked tongue. Its diet included turtles, large fish, other mosasaurs, and it may even have been a cannibal.",
+  "ref_text_normalized": "we don't know for sure but it may have had a forked tongue its diet included turtles large fish other mosasaurs and it may even have been a cannibal",
+  "timestamp_utc": "2026-07-05T03:35:58Z",
+  "text": "We don't know for sure, but it may have had a forked tongue. Its diet included turtles, large fish, other mosasaurs, and it may even have been a cannibal.",
+  "latency_sec": 4.2974,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "We don't know for sure, but it may have had a forked tongue. Its diet included turtles, large fish, other mosasaurs, and it may even have been a cannibal.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EocGCoQGARFNMg8xvtU+vnffxXcXi2sdXW0eFOjAUNpbDzTftmdOvzs0Klfs9aAbRqfZ3OFf8D1pqqBEtw0bv4EcNbG74IbA1Jdw0cGCr1d4rTGcNKjX0AESy8Mfji55a5hS7vYVTmGHkoVSB3yh3pywf1lrvEPUYzMNb0523HYFYD+k0uZWO5FIIl+VWF0Tk1Jf/g1EbAugBR5+rndtXrbGymZx8jP9rNGXCWK7GlkqnJV7iIwB+hlgVA/ByYgRXaxerhBCkaBndXAYNIDAyTjHgFoxwEzhRY2YT1rc6cvO+6BGMP9K7fgO5fDMTZ4rXGlXs2+vI6NWGGPV+6KDdb/6s5eSjkjGgSIKONBUfuFup6GkGdyN2//Ip1j94Hu0t5J/2HdtunEC7D2eXAjN1R4VBqM6wgwTC6VhY46zMiLIiQeZXbf7EJqrrGPF7YQxKEj4fW7Y+vl2y9hKXN/JrjUDxwHb8n9FdvLwgFEDk8gF+G319AyGNODLYj6dzxbxTD4c1is/lgfMHnm3W41NR1IsJh3YoFiu2STI0OJ7flX/Q4pNkqDBupVijdzyuef+URwn+3UJIVUl/TnZSvzAxvXYKZwkUYVRr8R9Kou1lZnPJjKt4JQqkizpJnIrLhsPRRdPdklhVPmKg6OvFa62sN4OembNj6u4pbGeDb44rfGuWnpvC57FNdALgun+IdfHAKhnwXM8UCy9Q7Qd+wIvHujjHOv6+LIWbGP7Rcp1OBBCO1jEDiOWuVb/ccj5BgGVThq3rCC31NjSYo62ClNoPa5si3GdpW0fFy+J1OKURShNtkbZ6sHVL1n8gdrQZ8p9v/CGbIne1B27l4fmj1miI9XdaR2fPbPAuO9bne2JP7WuIkLn/0G6Dhc2lf+l8lUap6mk8RzXnsP0++gBPklTP5G2AydrQq02g0EDRLzkKqByXk+j2Csx7GT1uUpmzrdJS57fwDmI4Rj+vrVGDiDD4KJUQoa1XLw1Y+OLrcotKFc5I1iJAvynGIIOWnQ1dbk9yQWYKDE7N7hbUA=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222558,
+    "id": "G9FJarzELen62roPgJLP-QI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 373,
+      "total_tokens": 621
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "vi_0173",
+  "lang": "vi",
+  "engine": "gemini_25_flash",
+  "duration_sec": 19.08,
+  "ref_text_raw": "Hiện vẫn còn nhiều người nam và nữ còn sống đã sống sót qua thời gian bị giam cầm ở đây, và thêm nhiều người nữa có thân nhân đã bị sát hại hoặc đã bị khổ lao đến chết tại nơi này, cả người Do Thái lẫn những người không phải Do Thái.",
+  "ref_text_normalized": "hiện vẫn còn nhiều người nam và nữ còn sống đã sống sót qua thời gian bị giam cầm ở đây và thêm nhiều người nữa có thân nhân đã bị sát hại hoặc đã bị khổ lao đến chết tại nơi này cả người do thái lẫn những người không phải do thái",
+  "timestamp_utc": "2026-07-05T08:25:44Z",
+  "text": "Hiện vẫn còn nhiều người nam và nữ còn sống đã sống sót qua thời gian bị giam cầm ở đây. Và thêm nhiều người nữa có thân nhân đã bị sát hại hoặc đã bị khổ lao đến chết tại nơi này. Cả người Do Thái lẫn những người không phải Do Thái.",
+  "latency_sec": 4.3486,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Hiện vẫn còn nhiều người nam và nữ còn sống đã sống sót qua thời gian bị giam cầm ở đây. Và thêm nhiều người nữa có thân nhân đã bị sát hại hoặc đã bị khổ lao đến chết tại nơi này. Cả người Do Thái lẫn những người không phải Do Thái.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239945,
+    "id": "BhVKapSQAfGC0-kP1smn0AY",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 59,
+      "prompt_tokens": 632,
+      "total_tokens": 727
+    }
+  }
+}

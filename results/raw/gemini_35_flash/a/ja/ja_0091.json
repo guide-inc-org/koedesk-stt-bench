@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0091",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 16.98,
+  "ref_text_raw": "本件は、トランプ大統領がトルコのレセップ・タイップ・エルドアン大統領と電話会談した後で発表されました。",
+  "ref_text_normalized": "本件は トランプ大統領がトルコのレセップ タイップ エルドアン大統領と電話会談した後で発表されました",
+  "timestamp_utc": "2026-07-05T10:18:26Z",
+  "text": "本件はトランプ大統領がトルコのレセップ・タイップ・エルドアン大統領と電話会談したあとで発表されました。",
+  "latency_sec": 5.7453,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "本件はトランプ大統領がトルコのレセップ・タイップ・エルドアン大統領と電話会談したあとで発表されました。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246706,
+    "id": "bS9KavL_OLj22roP58zioAI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 446,
+      "total_tokens": 1059
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0011",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 16.86,
+  "ref_text_raw": "NextGen ist ein System, von dem die FAA behauptet, dass es Flugzeugen erlauben würde, kürzere Strecken zu fliegen und jedes Jahr Millionen Gallonen an Treibstoff zu sparen und die Kohlenstoffemissionen zu reduzieren.",
+  "ref_text_normalized": "nextgen ist ein system von dem die faa behauptet dass es flugzeugen erlauben würde kürzere strecken zu fliegen und jedes jahr millionen gallonen an treibstoff zu sparen und die kohlenstoffemissionen zu reduzieren",
+  "timestamp_utc": "2026-07-05T03:56:38Z",
+  "text": "Next Gen ist ein System, von dem die FAA behauptet, dass es Flugzeugen erlauben würde, kürzere Strecken zu fliegen und jedes Jahr Millionen Gallonen an Treibstoff zu sparen und die Kohlenstoffemissionen zu reduzieren.",
+  "latency_sec": 4.2054,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Next Gen ist ein System, von dem die FAA behauptet, dass es Flugzeugen erlauben würde, kürzere Strecken zu fliegen und jedes Jahr Millionen Gallonen an Treibstoff zu sparen und die Kohlenstoffemissionen zu reduzieren.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EogKCoUKARFNMg/jfeYXLvHSDDct6KKEHhuAC/RoYAEsbdnVPPy8//NHKlKoTJZpHeesXwfQ1hb5Hzaup2xaSKbRWy+Lflznyn3FCYBfvi3JaJRWodDZIAkwKtfrrc9rVj/QAvzSGCsoGNXNjbQ9wF6cU186djkXYcO3nDoy1XU5E1bBzfEcZCyUd+wqmdgdi9wutAjxNcC8adAh9tMnJLM/h6Ggsr0syuztM66js8S1eieZnN0KqAR6QoNPzbf/eNDvVPxtqYuS27QlF5reHB8PGs51pQ2U8bJqaBSeLx3mEYgkId0pf/b662SCD0OAEDvmbiRKW5P2RMQneBrtVZwzk/Z/w8+pFDIWiT8HPwgDxhEvc9/rviaxfZPsrw3oelLHGFfQj4kuHCCnc12VqPCBBwefGovB7p8WU6zKONGrlwGgOS7zfaLdd34kNEPvPqc6BcSbCYXcXzf/6oNKpF8ZIOXQFwSHnsQesE/8E//jzvUgqT2ZYu22mT7ThKWS2AbJgGlXzz1oyVE6BlhuEC+Rmk9/cqNd3eFuyjJDTEmuDYXTC0vDK9+J/D36H9v9uKpz2Gma//Cqio18JJ/NpoLOD3xxRGH/WbyhaU/gj1csESnGq71UXGMxnk+QoSnHokhupylPd6sU/49i8z6j+SdolX4E8bSphlKHUz5rTBMgkqpVgIoisBtr1FHTRALZ9RkO3WIphpAXdltzOxr8YxzmalYfoylS6yrs64JsPr1DmOwD9fO6L16zddJrGwo3pU0rGi+hJU1fi6hDkxURb38LJw03NaPfhhfVoQJL/pfbyMsxJJmvwIERsgsGdVmKQM6Gz3rlBlr9NS9yX+WQ2zYE0E1j86Av2pn+UxzIMqOrUldGwiLgvPLc2MrnIz68wwGCJdnWnFcu3Hr4h6tQ4LkUSCW6c1/znG4DrcHf66RmMTOp+9+gM9YwDYLcTAIgWfvjCQCe2gdTryYylbrBjLBwDKm4rvxmfjdCRnpZMEECBErcTsg22YM7TeflGLghqqE3FHX/PfzQEv5gBP8TSAR3iGHOBMgYTaQkZNBcGjZI47J7N1IWjQpWdGNyG2rugIxP/uhjwE8fkGTUgIkMdGkhheD3iEufxiry5FC9K9VNIagC6SkG6tnHD8eBFM97j/Lxcyc47QbavSkiJDtfwtvxFanmc1O4KI3DQ4zUhqZkk5vXsCmYWjSP5wHi2QEOSwkP6CnKiFtCHmEP733y2kIAPmiSuSTNMhbKzLEmTlogTi/10JGyJnIDdaDSIrLkJEjrJZbJ26X5iqbjYF5cnkKP2IFQbXP83GQxyrgD6PluAt8vboODTAEKfzL2wN1Ut2aXraNoLgxbW2DAyJITz0EBaNqBJXhYZywKF1Q3YCGouZ9Ad4Au2vGDnkni5DqKBXurevIIKb4/bHT13M9cnY86D1prOwZPjaE/F9xyAoZ8N06Q5cpzRyrQCt4tJxHOJhyxW8SKiKMH5j6EMEMa9JHmM8G6su75ESCI1jS5xGAZrtFrL2hoxYcOEALB27Zd93Rypde7j7EKdDYeL2zBdE/93uZRM/rThpcl6nlig7Kh76yZQygpD4S/4D5VwoSEwnfomfGLgeHCAHual0hHq7IXLpZfDK4d8xj1oSkPRAuKbJWeLANcL/DMhmb20QKNLI40fkUmhZPc4lsP1AutmZ3Tpspr+zNBqHETOPWNbx7vUcF5pNbGHlgMGQ=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223798,
+    "id": "89VJauyPKbui9tMPvLHh-QE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 51,
+      "prompt_tokens": 443,
+      "total_tokens": 826
+    }
+  }
+}

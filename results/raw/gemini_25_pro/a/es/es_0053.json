@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0053",
+  "lang": "es",
+  "engine": "gemini_25_pro",
+  "duration_sec": 11.16,
+  "ref_text_raw": "Se realizaron, durante la noche, entre 150 y 200 copias, a las que actualmente se conoce como las «Copias Dunlap».",
+  "ref_text_normalized": "se realizaron durante la noche entre 150 y 200 copias a las que actualmente se conoce como las «copias dunlap»",
+  "timestamp_utc": "2026-07-05T04:17:51Z",
+  "text": "Se realizaron durante la noche entre 150 y 200 copias a las que actualmente se conoce como copias Dunlap.",
+  "latency_sec": 6.8636,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Se realizaron durante la noche entre 150 y 200 copias a las que actualmente se conoce como copias Dunlap.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225071,
+    "id": "69pJasT5Cbyyvr0Pp7y7iQU",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 379,
+      "total_tokens": 598
+    }
+  }
+}

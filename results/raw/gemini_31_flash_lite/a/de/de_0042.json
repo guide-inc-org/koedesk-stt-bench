@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0042",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.66,
+  "ref_text_raw": "Mehrere große Fernsehschirme wurden an verschiedenen Orten in Rom aufgestellt, so dass die Leute die Zeremonie ansehen konnten.",
+  "ref_text_normalized": "mehrere große fernsehschirme wurden an verschiedenen orten in rom aufgestellt so dass die leute die zeremonie ansehen konnten",
+  "timestamp_utc": "2026-07-05T04:02:19Z",
+  "text": "Mehrere große Fernsehschirme wurden an verschiedenen Orten in Rom aufgestellt, sodass die Leute die Zeremonie ansehen konnten.",
+  "latency_sec": 2.6438,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Mehrere große Fernsehschirme wurden an verschiedenen Orten in Rom aufgestellt, sodass die Leute die Zeremonie ansehen konnten.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPHBTuiqPmHL93OKMutTJ70N8YJkHtywIlbvgxyK2cWktgG+zjFj8VqI8xZFW+"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224139,
+    "id": "SddJav20JY3IrfcPmu3D-AU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 413,
+      "total_tokens": 440
+    }
+  }
+}

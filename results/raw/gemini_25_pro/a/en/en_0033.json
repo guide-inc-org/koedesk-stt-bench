@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0033",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 6.84,
+  "ref_text_raw": "He was subsequently relocated to Addenbrooke's Hospital in Cambridge.",
+  "ref_text_normalized": "he was subsequently relocated to addenbrooke's hospital in cambridge",
+  "timestamp_utc": "2026-07-05T10:21:46Z",
+  "text": "He was subsequently relocated to Addenbrook's Hospital in Cambridge.",
+  "latency_sec": 3.6745,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "He was subsequently relocated to Addenbrook's Hospital in Cambridge.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246906,
+    "id": "NzBKavW8JMal1e8PnPeFgAI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 14,
+      "prompt_tokens": 240,
+      "total_tokens": 296
+    }
+  }
+}

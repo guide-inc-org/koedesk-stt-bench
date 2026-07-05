@@ -1,0 +1,45 @@
+{
+  "utt_id": "id_0106",
+  "lang": "id",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 5.16,
+  "ref_text_raw": "Sebuah bom meledak di luar kantor gubernur.",
+  "ref_text_normalized": "sebuah bom meledak di luar kantor gubernur",
+  "timestamp_utc": "2026-07-05T05:44:04Z",
+  "text": "Sebuah bom meledak di luar kantor gubernur.",
+  "latency_sec": 3.9795,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Sebuah bom meledak di luar kantor gubernur.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqkGCqYGARFNMg/IK0hRfCg2lsvZpIZBGiV42zNlDu9y0NS4js3jNa2uETVQ9kPxxGwzY7SSZhqyfsB3D6YzTD9fbTl4rjD30Yn0F1S8972m7g1M3GAgNHq6Y7amDDeXTc1L9tBzdOCfbFo7snBkmxBu1GuXy8pMjIrxDepwI+qG0WSuvDJPEhFkMMYRfkmFoza8HFuocaniYrel5FiSFG/NM7oBfhXJWr+k8y/N73CnGfNsYunD5NTEbOZHWVY1UQ3zLZIN6IKwwoUqHhEYA29cdlKgFX+wMx9npE6i3YE/s2fM8PyJj9788csfX0hhxGWGaV3vO1R1Z+SdD6P0bb5qe2stIXCCMip6wIZ5jU0WUhu+lnAGnDRS51QhB8Q82P/rNAFI+3QfnLVj3unxVt04fObcrvpBXr+NF2qzH03yrEsavHzBQDUtAgKAwD8Hlm0GMo9qdLODEuExyO8WyILCpKMk2XRR8Jv9ottrrEft04e0LM0kkYfsro+evgY0CAfJI9vF3QiZsM/gD99DfCCTF1/C3Yhzul4B5et1NYi0/pRKMbY3EwyQ1LIXgPjk9SkRs5S103wW4H0XY77Bg8Rn+YPk+urg+RhQwBguAWe3zam3do410LMe+9yLYnVt14p8vTQkVORwgkmMKVhy4hfhbATq9qwo+gYO07quC+1OJqckKyc2iAG2w7imDQdO6ecpHTdL6UI/65Pn9WpB38/WRdDt3ed9uN+aqFQQX7yF+spe9AIDJXbbgdvGgrJdbAzgn0JNUBxGlVJgI4Rxw2CeVW7Kight1PCGcX580le9cm6LV5Bkw1xFOrvQjDeA/oHHhJjWurfYEPPFqZBMzbdocKJTBSV5zrTWNXjtUvUu+X2KlO4pTSTjTiw4vsw4V+uVMK6poefDmvU0zy2hZ4dyodjvEQ0uRQLgHLjY3zEpzeEY+jZWoGE8qJgYzDFibwhUVDzKBHwgSYN2zcCWJgacKxYYRuti0M60ZAZrPAMs8Bsk1HCjud4hQXWbSX/HEnbUlwApvM3L8FErMiWgFJy2VM3dWSpJFfRRujnUpP13c6v8rj8ct9VmNCg="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230244,
+    "id": "Ie9JaqupO5j41e8PhNP08AM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 12,
+      "prompt_tokens": 150,
+      "total_tokens": 376
+    }
+  }
+}

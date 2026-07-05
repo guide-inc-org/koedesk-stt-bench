@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0017",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 14.76,
+  "ref_text_raw": "ซึ่งระบุว่าตำแหน่งที่มีประสิทธิภาพสูงสุดสำหรับวัตถุหลัก คือที่จุดตัดของเส้นที่แบ่งรูปภาพนั้นออกเป็นสามส่วนทั้งแนวตั้งและแนวนอน (ดูตัวอย่าง)",
+  "ref_text_normalized": "ซึ่งระบุว่าตำแหน่งที่มีประสิทธิภาพสูงสุดสำหรับวัตถุหลัก คือที่จุดตัดของเส้นที่แบ่งรูปภาพนั้นออกเป็นสามส่วนทั้งแนวตั้งและแนวนอน ดูตัวอย่าง",
+  "timestamp_utc": "2026-07-05T07:52:28Z",
+  "text": "ซึ่งระบุว่าตำแหน่งที่มีประสิทธิภาพสูงสุดสำหรับวัตถุหลักคือที่ จุดตัดของเส้นที่แบ่งรูปภาพนั้นออกเป็น สามส่วนทั้งแนวตั้งและแนวนอน ดูตัวอย่าง",
+  "latency_sec": 4.6885,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ซึ่งระบุว่าตำแหน่งที่มีประสิทธิภาพสูงสุดสำหรับวัตถุหลักคือที่ จุดตัดของเส้นที่แบ่งรูปภาพนั้นออกเป็น สามส่วนทั้งแนวตั้งและแนวนอน ดูตัวอย่าง",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237948,
+    "id": "OQ1Kaub4A4aD1e8PyqKZ0Ac",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 390,
+      "total_tokens": 807
+    }
+  }
+}

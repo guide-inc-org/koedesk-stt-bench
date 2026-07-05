@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0091",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.48,
+  "ref_text_raw": "Greenland berpenduduk jarang. Di saga Nordik dikatakan bahwa Erik si Merah diasingkan dari Islandia akibat pembunuhan, dan saat pergi ke barat menemukan Greenland dan menamakannya Greenland.",
+  "ref_text_normalized": "greenland berpenduduk jarang di saga nordik dikatakan bahwa erik si merah diasingkan dari islandia akibat pembunuhan dan saat pergi ke barat menemukan greenland dan menamakannya greenland",
+  "timestamp_utc": "2026-07-05T05:50:36Z",
+  "text": "Greenland berpenduduk jarang. Di Saga Nordik dikatakan bahwa Erik Si Merah diasingkan dari Islandia akibat pembunuhan, dan saat pergi ke Barat menemukan Greenland dan menamakannya Greenland.",
+  "latency_sec": 3.4305,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Greenland berpenduduk jarang. Di Saga Nordik dikatakan bahwa Erik Si Merah diasingkan dari Islandia akibat pembunuhan, dan saat pergi ke Barat menemukan Greenland dan menamakannya Greenland.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPDQasQfqBBSnQobmP8BuSj76Q4mtgKBJBx2QFIxM+nCXtCU2K6x2nS/earaXe"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230636,
+    "id": "qvBJaprYEryB0-kP2bOhwAc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 408,
+      "total_tokens": 449
+    }
+  }
+}

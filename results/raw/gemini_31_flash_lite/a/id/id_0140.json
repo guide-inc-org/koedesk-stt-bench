@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0140",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.78,
+  "ref_text_raw": "Penyakit dibawa oleh babi, kemudian berpindah ke manusia lewat nyamuk.",
+  "ref_text_normalized": "penyakit dibawa oleh babi kemudian berpindah ke manusia lewat nyamuk",
+  "timestamp_utc": "2026-07-05T05:53:39Z",
+  "text": "Penyakit dibawa oleh babi kemudian berpindah ke manusia lewat nyamuk.",
+  "latency_sec": 2.6816,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Penyakit dibawa oleh babi kemudian berpindah ke manusia lewat nyamuk.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP4Uoge6Gu7RhM961dIJhTGwNsgAzrUByOimV4XHNP5jhLgCLpkLz5zHCYIlyM"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230819,
+    "id": "YfFJarPfK9TM1e8Pof6vuQc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 17,
+      "prompt_tokens": 191,
+      "total_tokens": 208
+    }
+  }
+}

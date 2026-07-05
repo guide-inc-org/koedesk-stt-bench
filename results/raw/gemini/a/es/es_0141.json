@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0141",
+  "lang": "es",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.6,
+  "ref_text_raw": "La lengua que hablan a diario la mayoría de quienes trabajan dentro del estado es también el italiano y el uso del latín queda generalmente reservado para las ceremonias religiosas.",
+  "ref_text_normalized": "la lengua que hablan a diario la mayoría de quienes trabajan dentro del estado es también el italiano y el uso del latín queda generalmente reservado para las ceremonias religiosas",
+  "timestamp_utc": "2026-07-05T04:24:03Z",
+  "text": "La lengua que hablan a diario la mayoría de quienes trabajan dentro del Estado es también el italiano y el uso del latín queda generalmente reservado para las ceremonias religiosas.",
+  "latency_sec": 4.4457,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "La lengua que hablan a diario la mayoría de quienes trabajan dentro del Estado es también el italiano y el uso del latín queda generalmente reservado para las ceremonias religiosas.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225443,
+    "id": "YNxJasyWCcKl9tMPpf6PiQE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 425,
+      "total_tokens": 622
+    }
+  }
+}

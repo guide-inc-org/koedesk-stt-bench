@@ -1,0 +1,45 @@
+{
+  "utt_id": "es_0015",
+  "lang": "es",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.92,
+  "ref_text_raw": "La superficie de la luna se compone de rocas y polvo y su capa exterior se denomina corteza.",
+  "ref_text_normalized": "la superficie de la luna se compone de rocas y polvo y su capa exterior se denomina corteza",
+  "timestamp_utc": "2026-07-05T04:29:58Z",
+  "text": "La superficie de la luna se compone de rocas y polvo y su capa exterior se denomina corteza.",
+  "latency_sec": 3.6513,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "La superficie de la luna se compone de rocas y polvo y su capa exterior se denomina corteza.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EoYFCoMFARFNMg+My61CysQbcRbVx19x0Ss25SpTKn/oVvNqQEAGyUvDP0HohiAHxDgUbcQHlkjzfbziKePJy03LECkkvLw0kVAGdJSq1sEjUbPGgF0HzcsgHlObHhDHlpJbWIjriXFds+OhdfAyPT+9m7BP6l/UMb98N08/qZ38A/ZmuidJsilX0hCsNOKlW4w2DRdYqe3HyJggdAOXjpu1YInab5zdnSDPjDBRqvnR6nIa7qdNe9GoFTMsbU5bHZVHjMk8jkB1b4ooGBNFSyelLH+tQiBQ83xuMQU0GdFVjaW5/kPsbuoDAVYB0Yynt4iKU6HJQDCABbtx04IdxFdGbfMUakR3iRglrlBEp4D4b6bkQmacNHZFaDqHKYtA//KlxeZKjr2OAX3GakPXoZp4cedtNFLiDc9N3A9S4BGcYILFFUjxvqJ+kKRSaiqe+Bm8eSiz2/1ywocKFEKsqT0qO9uQt08HvEoR8RRUK7vgijOCl218xCYMKK13gs1KkJKPTWwflaLGBOZus7AuwQboLGPWoVrVBJM0nSfNN8kYHzRB8nKeONMZgHLGuvY+jPP8T/QKRZO0j5KBx7R0xKZg0puQ9J/Av1SSYVJR/T06PCMHKKGlOfNvYgjzHb1KbW/X/fGTczh9jjnWH1zRpfaz0pGDYB+vpUCRaWDiKkVxrC5MiJyr31o9PwpZnxKk39A4ZkBn+oqYg9UOVp31q4cnaGQWxvxbXqdIzAGaOSkViKcxuUSkOm++Rvbb3OPYzsjhO/j+cg7vpkLdFRHTvzAY4MinuQiQ9XXL+lKcZi7sIfX0fQRXBv5/vTJfVkqDeR235Dec8ECMaWF/GPkIn1gRiMi9Vi2/kQ=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225798,
+    "id": "xN1JaunUHunn2roPlKW22Ao",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 219,
+      "total_tokens": 384
+    }
+  }
+}

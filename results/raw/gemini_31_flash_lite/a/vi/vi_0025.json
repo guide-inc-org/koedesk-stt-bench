@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0025",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.96,
+  "ref_text_raw": "Năm 2002, thành phố Goma bị san bằng bởi núi lửa Nyiragongo. Thảm họa núi lửa phun trào này đã chôn vùi phần lớn thành phố này, đặc biệt là khu vực trung tâm thành phố.",
+  "ref_text_normalized": "năm 2002 thành phố goma bị san bằng bởi núi lửa nyiragongo thảm họa núi lửa phun trào này đã chôn vùi phần lớn thành phố này đặc biệt là khu vực trung tâm thành phố",
+  "timestamp_utc": "2026-07-05T08:39:11Z",
+  "text": "Năm 2002, thành phố Goma bị san bằng bởi núi lửa Nyiragongo. Thảm họa núi lửa phun trào này đã chôn vùi phần lớn thành phố này, đặc biệt là khu vực trung tâm thành phố.",
+  "latency_sec": 2.792,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Năm 2002, thành phố Goma bị san bằng bởi núi lửa Nyiragongo. Thảm họa núi lửa phun trào này đã chôn vùi phần lớn thành phố này, đặc biệt là khu vực trung tâm thành phố.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPyikLppfrE+IMRrFlhqQjPE+b9Jbc1eOk1gBi/xJ/sc9W0idAr/dJH+yxZ7lA"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240751,
+    "id": "LhhKavTXDZnV1e8Pw6zfgAQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 53,
+      "prompt_tokens": 420,
+      "total_tokens": 473
+    }
+  }
+}

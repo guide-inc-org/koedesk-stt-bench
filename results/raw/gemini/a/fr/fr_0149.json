@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0149",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.46,
+  "ref_text_raw": "Les croisillons ont été introduits assez tôt pour maintenir les pistes en place. Cependant, on s'est peu à peu rendu compte que les pistes seraient plus efficaces si elles étaient munies d'une bande de fer sur le dessus.",
+  "ref_text_normalized": "les croisillons ont été introduits assez tôt pour maintenir les pistes en place cependant on s'est peu à peu rendu compte que les pistes seraient plus efficaces si elles étaient munies d'une bande de fer sur le dessus",
+  "timestamp_utc": "2026-07-05T04:56:54Z",
+  "text": "Les croisillons ont été introduits assez tôt pour maintenir les pistes en place. Cependant, on s'est peu à peu rendu compte que les pistes seraient plus efficaces si elles étaient munies d'une bande de fer sur le dessus.",
+  "latency_sec": 4.2375,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Les croisillons ont été introduits assez tôt pour maintenir les pistes en place. Cependant, on s'est peu à peu rendu compte que les pistes seraient plus efficaces si elles étaient munies d'une bande de fer sur le dessus.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227414,
+    "id": "E-RJavi-GY-_vr0P4-jhmAM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 48,
+      "prompt_tokens": 388,
+      "total_tokens": 571
+    }
+  }
+}

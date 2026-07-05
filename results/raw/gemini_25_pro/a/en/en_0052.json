@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0052",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 8.88,
+  "ref_text_raw": "A civilization is a singular culture shared by a significant large group of people who live and work co-operatively, a society.",
+  "ref_text_normalized": "a civilization is a singular culture shared by a significant large group of people who live and work co-operatively a society",
+  "timestamp_utc": "2026-07-05T10:23:39Z",
+  "text": "A civilization is a singular culture shared by a significant large group of people who live and work cooperatively, a society.",
+  "latency_sec": 4.061,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "A civilization is a singular culture shared by a significant large group of people who live and work cooperatively, a society.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247019,
+    "id": "qDBKasacN4ul1e8Pq7ahqQI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 306,
+      "total_tokens": 366
+    }
+  }
+}

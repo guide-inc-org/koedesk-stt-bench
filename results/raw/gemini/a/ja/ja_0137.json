@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0137",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 15.9,
+  "ref_text_raw": "すべての名詞は、「あなた」を指す単語Sieと同様に、文の途中であっても常に大文字で始まります。",
+  "ref_text_normalized": "すべての名詞は あなた を指す単語sieと同様に 文の途中であっても常に大文字で始まります",
+  "timestamp_utc": "2026-07-05T03:09:46Z",
+  "text": "全ての名詞はあなたを指す単語Cと同様に文の途中であっても常に大文字で始まります。",
+  "latency_sec": 4.0931,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "全ての名詞はあなたを指す単語Cと同様に文の途中であっても常に大文字で始まります。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783220986,
+    "id": "98pJao6gIvK8vr0P85enuQQ",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 530,
+      "total_tokens": 578
+    }
+  }
+}

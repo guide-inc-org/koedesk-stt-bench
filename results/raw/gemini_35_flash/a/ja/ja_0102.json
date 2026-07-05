@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0102",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.42,
+  "ref_text_raw": "サファリとは、アフリカの野生動物、特にサバンナにいる野生動物の観察を目的とした陸路での旅行を指します。",
+  "ref_text_normalized": "サファリとは アフリカの野生動物 特にサバンナにいる野生動物の観察を目的とした陸路での旅行を指します",
+  "timestamp_utc": "2026-07-05T03:15:19Z",
+  "text": "サファリとはアフリカの野生動物、特にサバンナにいる野生動物の観察を目的とした陸路での旅行を指します。",
+  "latency_sec": 5.0122,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "サファリとはアフリカの野生動物、特にサバンナにいる野生動物の観察を目的とした陸路での旅行を指します。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221319,
+    "id": "RMxJauC8EvTIrfcPhcL-0AI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 332,
+      "total_tokens": 807
+    }
+  }
+}

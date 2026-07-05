@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0147",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 17.16,
+  "ref_text_raw": "美国体操协会对美国奥委会的信函表示支持，并接受奥运会大家庭的严格要求，即为所有运动员营造一个安全的训练环境。",
+  "ref_text_normalized": "美 国 体 操 协 会 对 美 国 奥 委 会 的 信 函 表 示 支 持 并 接 受 奥 运 会 大 家 庭 的 严 格 要 求 即 为 所 有 运 动 员 营 造 一 个 安 全 的 训 练 环 境",
+  "timestamp_utc": "2026-07-05T09:19:49Z",
+  "text": "美国体操协会对美国奥委会的信函表示支持，并接受奥运会大家庭的严格要求，即为所有运动员营造一个安全的训练环境。",
+  "latency_sec": 4.0793,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "美国体操协会对美国奥委会的信函表示支持，并接受奥运会大家庭的严格要求，即为所有运动员营造一个安全的训练环境。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243190,
+    "id": "syFKas2wDKew0-kPzeiWSA",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 450,
+      "total_tokens": 839
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0016",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 13.92,
+  "ref_text_raw": "For example, the most common still image photography format in the world is 35mm, which was the dominant film size at the close of the analog film era.",
+  "ref_text_normalized": "for example the most common still image photography format in the world is 35mm which was the dominant film size at the close of the analog film era",
+  "timestamp_utc": "2026-07-05T10:20:20Z",
+  "text": "For example, the most common still image photography format in the world is 35 mm, which was the dominant film size at the close of the analog film era.",
+  "latency_sec": 3.3789,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "For example, the most common still image photography format in the world is 35 mm, which was the dominant film size at the close of the analog film era.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246820,
+    "id": "4i9Kas67Leex2roPq7DX0QU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 467,
+      "total_tokens": 560
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0072",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 16.92,
+  "ref_text_raw": "馬車に乗った彼らは、国王と王妃に向かって叫び、脅しの言葉を浴びせる暴徒に囲まれてパリに戻りました。",
+  "ref_text_normalized": "馬車に乗った彼らは 国王と王妃に向かって叫び 脅しの言葉を浴びせる暴徒に囲まれてパリに戻りました",
+  "timestamp_utc": "2026-07-05T10:16:41Z",
+  "text": "馬車に乗った彼らは国王と王妃に向かって叫び、ののしりの言葉を浴びせる暴徒に囲まれてパリに戻りました。",
+  "latency_sec": 5.1636,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "馬車に乗った彼らは国王と王妃に向かって叫び、ののしりの言葉を浴びせる暴徒に囲まれてパリに戻りました。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246601,
+    "id": "BS9KaqjVG-ba1e8PnvbkmAI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 445,
+      "total_tokens": 950
+    }
+  }
+}

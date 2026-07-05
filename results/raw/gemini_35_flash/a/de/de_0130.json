@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0130",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 16.56,
+  "ref_text_raw": "Die Schlagmänner der mittleren Reihe, Sachin Tendulkar und Rahul Dravid, zeigten gute Leistungen und erzielten eine Partnerschaft mit 100 Runs.",
+  "ref_text_normalized": "die schlagmänner der mittleren reihe sachin tendulkar und rahul dravid zeigten gute leistungen und erzielten eine partnerschaft mit 100 runs",
+  "timestamp_utc": "2026-07-05T04:06:54Z",
+  "text": "Die Schlagmänner der mittleren Reihe Sachin Tendulkar und Rahul Dravid zeigten gute Leistungen und erhielten eine Partnerschaft mit 100 Runs.",
+  "latency_sec": 5.2968,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Die Schlagmänner der mittleren Reihe Sachin Tendulkar und Rahul Dravid zeigten gute Leistungen und erhielten eine Partnerschaft mit 100 Runs.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224414,
+    "id": "WthJasSCDZSi9tMP8vOl4AE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 435,
+      "total_tokens": 975
+    }
+  }
+}

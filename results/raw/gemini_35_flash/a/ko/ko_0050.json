@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0050",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.98,
+  "ref_text_raw": "무리는 1~3마리의 동족 성인 수컷과 무려 30마리에 이르는 암컷과 새끼로 구성됩니다.",
+  "ref_text_normalized": "무리는 1~3마리의 동족 성인 수컷과 무려 30마리에 이르는 암컷과 새끼로 구성됩니다",
+  "timestamp_utc": "2026-07-05T06:13:44Z",
+  "text": "무리는 한 마리에서 세 마리의 성인 수컷과 무려 30마리에 이르는 암컷과 새끼로 구성됩니다.",
+  "latency_sec": 5.723,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "무리는 한 마리에서 세 마리의 성인 수컷과 무려 30마리에 이르는 암컷과 새끼로 구성됩니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232024,
+    "id": "E_ZJatCtMKne1e8P6I_tqAg",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 296,
+      "total_tokens": 1010
+    }
+  }
+}

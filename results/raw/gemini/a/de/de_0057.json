@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0057",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 5.28,
+  "ref_text_raw": "Casablanca ist einer der uninteressantesten Orte zum Shoppen in ganz Marokko.",
+  "ref_text_normalized": "casablanca ist einer der uninteressantesten orte zum shoppen in ganz marokko",
+  "timestamp_utc": "2026-07-05T03:44:19Z",
+  "text": "Casablanca ist einer der uninteressantesten Orte zum Shoppen in ganz Marokko.",
+  "latency_sec": 3.2833,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Casablanca ist einer der uninteressantesten Orte zum Shoppen in ganz Marokko.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223059,
+    "id": "ENNJaryVNZK02roP8vW-qQE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 190,
+      "total_tokens": 209
+    }
+  }
+}

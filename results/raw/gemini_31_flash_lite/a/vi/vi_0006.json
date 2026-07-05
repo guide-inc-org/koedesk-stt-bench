@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0006",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 22.56,
+  "ref_text_raw": "Thông báo thông thường trong khu Metro chỉ được phát bằng tiếng Catalunya tuy nhiên với những sự cố bất ngờ thì thông báo sẽ được thực hiên qua hệ thống tự động bằng nhiều thứ tiếng gồm tiếng Tây Ban Nha, tiếng Anh, tiếng Pháp, tiếng Ả rập và tiếng Nhật.",
+  "ref_text_normalized": "thông báo thông thường trong khu metro chỉ được phát bằng tiếng catalunya tuy nhiên với những sự cố bất ngờ thì thông báo sẽ được thực hiên qua hệ thống tự động bằng nhiều thứ tiếng gồm tiếng tây ban nha tiếng anh tiếng pháp tiếng ả rập và tiếng nhật",
+  "timestamp_utc": "2026-07-05T08:38:04Z",
+  "text": "Thông báo thông thường trong khu Metro chỉ được phát bằng tiếng Catalonia. Tuy nhiên, với những sự cố bất ngờ thì thông báo sẽ được thực hiện qua hệ thống tự động bằng nhiều thứ tiếng, gồm tiếng Tây Ban Nha, tiếng Anh, tiếng Pháp, tiếng Ả Rập và tiếng Nhật.",
+  "latency_sec": 3.3612,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Thông báo thông thường trong khu Metro chỉ được phát bằng tiếng Catalonia. Tuy nhiên, với những sự cố bất ngờ thì thông báo sẽ được thực hiện qua hệ thống tự động bằng nhiều thứ tiếng, gồm tiếng Tây Ban Nha, tiếng Anh, tiếng Pháp, tiếng Ả Rập và tiếng Nhật.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPlyYp7sRVEPsd3Ro5zMzhPxWm/TyflPkWQFH6RBEIJRn6jxNLbYCBmjnYiwoa"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240684,
+    "id": "6hdKarvjJZj41e8PhNP08AM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 61,
+      "prompt_tokens": 585,
+      "total_tokens": 646
+    }
+  }
+}

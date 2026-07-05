@@ -1,0 +1,39 @@
+{
+  "utt_id": "pt_0123",
+  "lang": "pt",
+  "engine": "gemini_25_pro",
+  "duration_sec": 15.06,
+  "ref_text_raw": "Para os que gostam de passeios de barco, a Finlândia é um ótimo destino. Nos lagos e nos arquipélagos costeiros, a “Terra dos mil lagos” possui também milhares de ilhas.",
+  "ref_text_normalized": "para os que gostam de passeios de barco a finlândia é um ótimo destino nos lagos e nos arquipélagos costeiros a terra dos mil lagos possui também milhares de ilhas",
+  "timestamp_utc": "2026-07-05T06:45:37Z",
+  "text": "Para os que gostam de passeios de barco, a Finlândia é um ótimo destino. Nos lagos e nos arquipélagos costeiros, a terra dos mil lagos possui também milhares de ilhas.",
+  "latency_sec": 5.7332,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Para os que gostam de passeios de barco, a Finlândia é um ótimo destino. Nos lagos e nos arquipélagos costeiros, a terra dos mil lagos possui também milhares de ilhas.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783233937,
+    "id": "jf1Jauj4HsfE0-kP8qfE0QY",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 503,
+      "total_tokens": 764
+    }
+  }
+}

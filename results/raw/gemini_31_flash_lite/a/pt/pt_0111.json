@@ -1,0 +1,44 @@
+{
+  "utt_id": "pt_0111",
+  "lang": "pt",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.16,
+  "ref_text_raw": "Há taxas para entrada e conservação do parque, assim como acontece com todos os parques nacionais da África do Sul.",
+  "ref_text_normalized": "há taxas para entrada e conservação do parque assim como acontece com todos os parques nacionais da áfrica do sul",
+  "timestamp_utc": "2026-07-05T07:00:42Z",
+  "text": "Há taxas para entrada e conservação do parque, assim como acontece com todos os parques nacionais da África do Sul.",
+  "latency_sec": 2.8029,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Há taxas para entrada e conservação do parque, assim como acontece com todos os parques nacionais da África do Sul.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPid6j5z4+Tbvbhe1RgbiSyyEzaAeuEzFNEBXqH18e8Q/laWjjp0CPVKoKWFr+"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234842,
+    "id": "GAFKauaXJJja1e8P6IqesQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 225,
+      "total_tokens": 248
+    }
+  }
+}

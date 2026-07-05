@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0052",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.86,
+  "ref_text_raw": "Las manadas están formadas por uno a tres machos adultos del mismo grupo familiar, unidos con hasta treinta hembras y sus crías.",
+  "ref_text_normalized": "las manadas están formadas por uno a tres machos adultos del mismo grupo familiar unidos con hasta treinta hembras y sus crías",
+  "timestamp_utc": "2026-07-05T04:36:51Z",
+  "text": "Las manadas están formadas por uno a tres machos adultos del mismo grupo familiar unidos con hasta 30 hembras y sus crías.",
+  "latency_sec": 3.8963,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Las manadas están formadas por uno a tres machos adultos del mismo grupo familiar unidos con hasta 30 hembras y sus crías.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPo4yFXQKPbDvn/1dVA3/zXiM3ehIwtS4Za3yv7k6gr/jAzc5R+MkBiHXuy9OA"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226211,
+    "id": "Yd9JasGXAY-D1e8P9I7h6AE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 293,
+      "total_tokens": 323
+    }
+  }
+}

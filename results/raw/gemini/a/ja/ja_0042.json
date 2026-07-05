@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0042",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.1,
+  "ref_text_raw": "北マリアナ諸島の危機管理室（EMO）によると、全国的に被害は報告されていないとのことです。",
+  "ref_text_normalized": "北マリアナ諸島の危機管理室emoによると 全国的に被害は報告されていないとのことです",
+  "timestamp_utc": "2026-07-05T10:05:03Z",
+  "text": "北マリアナ諸島の危機管理室EMOによると全国的に被害は報告されていないとのことです。",
+  "latency_sec": 3.4167,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "北マリアナ諸島の危機管理室EMOによると全国的に被害は報告されていないとのことです。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783245903,
+    "id": "TSxKapTIKPC3vr0PtoK9qAQ",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 377,
+      "total_tokens": 423
+    }
+  }
+}

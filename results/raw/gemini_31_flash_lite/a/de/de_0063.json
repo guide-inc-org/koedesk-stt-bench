@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0063",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 28.98,
+  "ref_text_raw": "Auch wenn dies oft nur ein unzutreffendes Klischee ist, so findet man sich in Paris doch am besten zurecht, wenn man sich von seiner besten Seite zeigt und sich wie jemand benimmt, der „bien élevé“ (wohlerzogen) ist. Das wird das Zurechtkommen erheblich erleichtern.",
+  "ref_text_normalized": "auch wenn dies oft nur ein unzutreffendes klischee ist so findet man sich in paris doch am besten zurecht wenn man sich von seiner besten seite zeigt und sich wie jemand benimmt der bien élevé  wohlerzogen ist. das wird das zurechtkommen erheblich erleichtern",
+  "timestamp_utc": "2026-07-05T04:03:37Z",
+  "text": "Auch wenn dies oft nur ein unzutreffendes Klischee ist, so findet man sich in Paris doch am besten zurecht, wenn man sich von seiner besten Seite zeigt und sich wie jemand benimmt, der bien élevé, wohlerzogen ist. Das wird das Zurechtkommen erheblich erleichtern.",
+  "latency_sec": 3.2796,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Auch wenn dies oft nur ein unzutreffendes Klischee ist, so findet man sich in Paris doch am besten zurecht, wenn man sich von seiner besten Seite zeigt und sich wie jemand benimmt, der bien élevé, wohlerzogen ist. Das wird das Zurechtkommen erheblich erleichtern.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPZSbswaN2+wPwZ50kuQF7STyZUe2L83yt5bxGD+J7o4pMcEgbO6o7bRlPOlL0"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224217,
+    "id": "l9dJavLCIIGM0-kP4LLDwQk",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 64,
+      "prompt_tokens": 746,
+      "total_tokens": 810
+    }
+  }
+}

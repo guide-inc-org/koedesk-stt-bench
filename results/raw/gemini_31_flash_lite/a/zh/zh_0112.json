@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0112",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.74,
+  "ref_text_raw": "此外，在革命之后，官职面向全体男性开放申请，这使得最有抱负、最成功之人有机会飞黄腾达。",
+  "ref_text_normalized": "此 外 在 革 命 之 后 官 职 面 向 全 体 男 性 开 放 申 请 这 使 得 最 有 抱 负 最 成 功 之 人 有 机 会 飞 黄 腾 达",
+  "timestamp_utc": "2026-07-05T09:17:22Z",
+  "text": "此外，在革命之后，官职面向全体男性开放申请。这使得最由抱负，最成功之人有机会飞黄腾达。",
+  "latency_sec": 3.0407,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "此外，在革命之后，官职面向全体男性开放申请。这使得最由抱负，最成功之人有机会飞黄腾达。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPP1/b8+m7o4OrRVfpX643J436o8jyemO/TZ9xzzMHNtABd6uZ54hQ+LuM12Mr"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243042,
+    "id": "ISFKarywA4_V2roPj7-7kAY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 415,
+      "total_tokens": 445
+    }
+  }
+}

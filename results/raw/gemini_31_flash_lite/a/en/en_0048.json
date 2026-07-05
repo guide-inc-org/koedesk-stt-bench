@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0048",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 19.12,
+  "ref_text_raw": "Mrs. Kirchner announced her intention to run for president at the Argentine Theatre, the same location she used to start her 2005 campaign for the Senate as member of the Buenos Aires province delegation.",
+  "ref_text_normalized": "mrs kirchner announced her intention to run for president at the argentine theatre the same location she used to start her 2005 campaign for the senate as member of the buenos aires province delegation",
+  "timestamp_utc": "2026-07-05T10:30:50Z",
+  "text": "Mrs. Kirchner announced her intention to run for President at the Argentine Theatre, same location she used to start her 2005 campaign for the Senate as a member of the Buenos Aires Province delegation.",
+  "latency_sec": 3.2339,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Mrs. Kirchner announced her intention to run for President at the Argentine Theatre, same location she used to start her 2005 campaign for the Senate as a member of the Buenos Aires Province delegation.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPDJ8IOANFlWmplb2kJrltUm+/1hOkkN1lmu4/eui3ys54VQZS6xh+P41/1L7E"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247450,
+    "id": "WDJKauL4G5nd2roP0-bGsQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 499,
+      "total_tokens": 540
+    }
+  }
+}

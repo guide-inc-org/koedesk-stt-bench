@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0122",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 17.88,
+  "ref_text_raw": "Die Sundarbans wurden zum UNESCO-Weltkulturerbe erklärt. Der Teil des Waldes, der innerhalb des indischen Staatsgebietes liegt, wird als Sundarbans National Park bezeichnet.",
+  "ref_text_normalized": "die sundarbans wurden zum unesco-weltkulturerbe erklärt der teil des waldes der innerhalb des indischen staatsgebietes liegt wird als sundarbans national park bezeichnet",
+  "timestamp_utc": "2026-07-05T04:07:09Z",
+  "text": "Die Sundarbans wurden zum UNESCO-Weltkulturerbe erklärt. Der Teil des Waldes, der innerhalb des indischen Staatsgebietes liegt, wird als Sundarbans-Nationalpark bezeichnet.",
+  "latency_sec": 2.9614,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Die Sundarbans wurden zum UNESCO-Weltkulturerbe erklärt. Der Teil des Waldes, der innerhalb des indischen Staatsgebietes liegt, wird als Sundarbans-Nationalpark bezeichnet.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPXkS/r8K5HWYxzJPfhQODuOOm3I4aaFgGcCsbC1A5gtBKzCrxSUQaiHZX2qTI"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224429,
+    "id": "bNhJaq3eEb3dvr0Pv4K6sQE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 468,
+      "total_tokens": 508
+    }
+  }
+}

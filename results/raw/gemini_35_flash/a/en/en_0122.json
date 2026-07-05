@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0122",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.36,
+  "ref_text_raw": "Swirl the two dry powders together and then, with clean wet hands, squeeze them into a ball.",
+  "ref_text_normalized": "swirl the two dry powders together and then with clean wet hands squeeze them into a ball",
+  "timestamp_utc": "2026-07-05T03:33:49Z",
+  "text": "Swirl the two dry powders together and then with clean wet hands squeeze them into a ball.",
+  "latency_sec": 3.3753,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Swirl the two dry powders together and then with clean wet hands squeeze them into a ball.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqQFCqEFARFNMg9boPmIygZBXq5By5IdwUmFoNxvjqtz6mxr4N+udmfORX0VOcXBJU2v+yo2BhQZqvgKHPo1VSFr3XRTVit6OssUmodRP2xpWzSs+sXL2Xh6xIaWTA4qKjrYn67p7c+h8qqfBTpszDIVtRLkhp9w6Ow//RKojvmozZ0UJkjUWX/DPkokFXJEe1W8aw2LHI2vGzR8plBiGEgD+MxR2t31xfhx7LMaf7lZSzJ61IWmkiM5NcLodajBYR9pEJD78vHE0/C72rLh/Ntqa6cHv+mq8g4Rf3VlCaPjCowku0s4vPUoV7aVUEhcRx9wF2lfhuule0tRS7trbVrVHbHsdtM0PZBmlaK28ffpejheLnmY4cy/lkyeJsZ+TtfjaryFZgpELGOeNDxxLlOoO9dojncUBStkRkCmBt0qk7ZVMv50PAT9Bkl6HZq/qv66/oTTPx2ShFlu2QscjxqbYbTAPGTS6Ae/CWAMcq1Y964R3b2oHqkAE8s8s2uRbU3VDk12GYP6Xb/r0QVfO51e8OFTae7Rs5E9ymaCQAOys929WZ5KEHRyYUXmXEQZohj5N1B+qu+CNsJnM908WT4sVVMu7wb7C7+9irlA4h1osCDCN5l4SiUOINE7sorjJiFu8AH7UKNnGQ+l6a0U1WcX5iVoUPETdot5at4jWf6j3iwXaoAQUNLHUVrkvM0kKneiZtLioJXfFu+s58yxdHodrzsXOBO7eLaNMl0OHdDTvt0I+2iH2RijWoE/8KMVtNKA3Od9tYJJVb/JFfqd+dMz8sxlWljuQLw8ER2D53zzxeXJO3YxgrL0/arbRSKTR1hCMoADEyPe2Tjw4vlU5GbrcNkiMEzSV4oXmYr3d6LAzF15UC30GhvwsuYTGZEniGyjretFSg=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222429,
+    "id": "m9BJatzyJcP_2roPvqa06AU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 230,
+      "total_tokens": 399
+    }
+  }
+}

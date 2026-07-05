@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0082",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.56,
+  "ref_text_raw": "Кроме того между правлениями каждой династии царила раздробленность и нестабильность. Самой известной была эпоха Троецарствия, которая длилась 60 лет во время династий Хань и Цзинь.",
+  "ref_text_normalized": "кроме того между правлениями каждой династии царила раздробленность и нестабильность самой известной была эпоха троецарствия которая длилась 60 лет во время династий хань и цзинь",
+  "timestamp_utc": "2026-07-05T07:32:03Z",
+  "text": "Кроме того, между правлениями каждой династии царила раздробленность и нестабильность. Самой известной была эпоха Троецарствия, которая длилась 60 лет во время династий Хань и Цзинь.",
+  "latency_sec": 3.0078,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Кроме того, между правлениями каждой династии царила раздробленность и нестабильность. Самой известной была эпоха Троецарствия, которая длилась 60 лет во время династий Хань и Цзинь.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPU4t4vDpowU2C44+9tzgRRxzvvWKYvXsWXX76IuMDPCsTvyiGYbIN16EOT1/c"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236723,
+    "id": "cghKaq26Fcz71e8PxKycwAI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 54,
+      "prompt_tokens": 360,
+      "total_tokens": 414
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0062",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.96,
+  "ref_text_raw": "对于在圣彼得广场举行的葬礼，出席者太多了，因此不可能每个人都能进入。",
+  "ref_text_normalized": "对 于 在 圣 彼 得 广 场 举 行 的 葬 礼 出 席 者 太 多 了 因 此 不 可 能 每 个 人 都 能 进 入",
+  "timestamp_utc": "2026-07-05T09:14:22Z",
+  "text": "对于在圣彼得广场举行的葬礼，出席者太多了，因此不可能每个人都进入。",
+  "latency_sec": 3.2439,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "对于在圣彼得广场举行的葬礼，出席者太多了，因此不可能每个人都进入。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPKKMNqcwynYhVh4AdVzM4As5AYc6zdiZHb9mX1jSiEGfjao5DRo+Z9B5DBHTj"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242862,
+    "id": "ayBKaueZOsTs1e8Px-GUwQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 195,
+      "total_tokens": 217
+    }
+  }
+}

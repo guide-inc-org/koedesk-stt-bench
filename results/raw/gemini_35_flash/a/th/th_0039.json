@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0039",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.36,
+  "ref_text_raw": "ลมแรง ลูกเห็บ ปริมาณน้ำฟ้ามากเกินไป และไฟป่า เป็นรูปแบบและผลกระทบต่าง ๆ ของสภาพอากาศรุนแรง เช่นเดียวกับพายุฝนฟ้าคะนอง ทอร์นาโด พายุงวงช้าง และไซโคลน",
+  "ref_text_normalized": "ลมแรง ลูกเห็บ ปริมาณน้ำฟ้ามากเกินไป และไฟป่า เป็นรูปแบบและผลกระทบต่าง ๆ ของสภาพอากาศรุนแรง เช่นเดียวกับพายุฝนฟ้าคะนอง ทอร์นาโด พายุงวงช้าง และไซโคลน",
+  "timestamp_utc": "2026-07-05T07:54:47Z",
+  "text": "ลมแรง ลูกเห็บ ปริมาณน้ำฟ้าที่มากเกินไป และไฟป่า เป็นรูปแบบการ และผลกระทบต่างๆ ของสภาพอากาศรุนแรง เช่นเดียวกับพายุฟ้าฝนคะนอง ทอร์นาโด พายุงวงช้าง และไซโคลน",
+  "latency_sec": 6.2935,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ลมแรง ลูกเห็บ ปริมาณน้ำฟ้าที่มากเกินไป และไฟป่า เป็นรูปแบบการ และผลกระทบต่างๆ ของสภาพอากาศรุนแรง เช่นเดียวกับพายุฟ้าฝนคะนอง ทอร์นาโด พายุงวงช้าง และไซโคลน",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238087,
+    "id": "wg1KavyOEPKE0-kPh9im2AE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 58,
+      "prompt_tokens": 255,
+      "total_tokens": 1110
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0031",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.68,
+  "ref_text_raw": "この都市は、アフリカの都市というよりもアラビア色が強く、国内の他の都市とは対照的な雰囲気です。",
+  "ref_text_normalized": "この都市は アフリカの都市というよりもアラビア色が強く 国内の他の都市とは対照的な雰囲気です",
+  "timestamp_utc": "2026-07-05T10:14:36Z",
+  "text": "この 都市 は アフリカ の 都市 と いう より も アラビア 色 が 強く 、 国内 の 他 の 都市 と は 対照 的 な 雰囲気 です 。",
+  "latency_sec": 2.8907,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "この 都市 は アフリカ の 都市 と いう より も アラビア 色 が 強く 、 国内 の 他 の 都市 と は 対照 的 な 雰囲気 です 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPBc4ac4xFtd/VtB8OexMdp7pu+sRZO7xPwB6wT7p4RxHkXKcT+j9h+SuikgzC"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246476,
+    "id": "ii5Kav2kKqOm2roPua6M0QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 288,
+      "total_tokens": 323
+    }
+  }
+}

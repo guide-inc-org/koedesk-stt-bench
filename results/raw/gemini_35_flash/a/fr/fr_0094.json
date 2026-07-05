@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0094",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.48,
+  "ref_text_raw": "L'actuelle sénatrice et Première Dame d'Argentine Cristina Fernandez de Kirchner a annoncé sa candidature présidentielle, hier soir, à La Plata, une ville située à 50 kilomètres (31 miles) de Buenos Aires.",
+  "ref_text_normalized": "l'actuelle sénatrice et première dame d'argentine cristina fernandez de kirchner a annoncé sa candidature présidentielle hier soir à la plata une ville située à 50 kilomètres 31 miles de buenos aires",
+  "timestamp_utc": "2026-07-05T05:09:48Z",
+  "text": "L'actuelle sénatrice et première dame d'Argentine, Cristina Fernández de Kirchner, a annoncé sa candidature présidentielle hier soir à La Plata, une ville située à 50 kilomètres, 31 miles de Buenos Aires.",
+  "latency_sec": 5.6469,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "L'actuelle sénatrice et première dame d'Argentine, Cristina Fernández de Kirchner, a annoncé sa candidature présidentielle hier soir à La Plata, une ville située à 50 kilomètres, 31 miles de Buenos Aires.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228188,
+    "id": "GOdJapTCL7_L0-kPu6eA2AI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 48,
+      "prompt_tokens": 333,
+      "total_tokens": 962
+    }
+  }
+}

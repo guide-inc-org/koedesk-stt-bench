@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0129",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 14.46,
+  "ref_text_raw": "很早的时候就引进了轨枕，用于固定铁轨。但是，人们逐渐意识到，如果在铁轨上放上铁片，铁轨会更稳固有效。",
+  "ref_text_normalized": "很 早 的 时 候 就 引 进 了 轨 枕 用 于 固 定 铁 轨 但 是 人 们 逐 渐 意 识 到 如 果 在 铁 轨 上 放 上 铁 片 铁 轨 会 更 稳 固 有 效",
+  "timestamp_utc": "2026-07-05T09:17:49Z",
+  "text": "很早的时候就引入了轨枕，用于固定铁轨。但是，人们逐渐意识到，如果在铁轨上放上铁片，铁轨会更稳固有效。",
+  "latency_sec": 8.975,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "很早的时候就引入了轨枕，用于固定铁轨。但是，人们逐渐意识到，如果在铁轨上放上铁片，铁轨会更稳固有效。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243069,
+    "id": "OSFKassslPTaug-nt-zgDg",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 383,
+      "total_tokens": 1026
+    }
+  }
+}

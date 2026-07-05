@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0083",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.08,
+  "ref_text_raw": "Ông ta sau đó được chuyển đến Bệnh viện Addenbrooke ở Cambridge.",
+  "ref_text_normalized": "ông ta sau đó được chuyển đến bệnh viện addenbrooke ở cambridge",
+  "timestamp_utc": "2026-07-05T08:42:38Z",
+  "text": "Ông ta sau đó được chuyển đến bệnh viện Adenbrook ở Cambridge.",
+  "latency_sec": 2.7177,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Ông ta sau đó được chuyển đến bệnh viện Adenbrook ở Cambridge.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPHdqoHodWxrd2ANELtLmqcl884ZzCWM8Nxj+3xaZ0vp7kjFx9iOwKXbQRBSai"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240958,
+    "id": "_RhKapXsDsfJ0-kPwvvLoAE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 14,
+      "prompt_tokens": 198,
+      "total_tokens": 212
+    }
+  }
+}

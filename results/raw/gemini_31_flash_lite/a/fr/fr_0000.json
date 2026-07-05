@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0000",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.2,
+  "ref_text_raw": "L’accident a eu lieu en terrain montagneux, et il semblerait que cela ait été causé par un incendie malveillant.",
+  "ref_text_normalized": "l'accident a eu lieu en terrain montagneux et il semblerait que cela ait été causé par un incendie malveillant",
+  "timestamp_utc": "2026-07-05T05:09:17Z",
+  "text": "L'accident a eu lieu en terrain montagneux et il semblerait que cela ait été causé par l'incendie malveillant.",
+  "latency_sec": 3.2906,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "L'accident a eu lieu en terrain montagneux et il semblerait que cela ait été causé par l'incendie malveillant.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPZtt9gSmQ7l1t60P38zDFFN294f0ykEv9yNNJMYZIv+/yjQUhp/k0SgsL/UTy"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228157,
+    "id": "--ZJaq-sINWd1e8PgOulsQY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 276,
+      "total_tokens": 307
+    }
+  }
+}

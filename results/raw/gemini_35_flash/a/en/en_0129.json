@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0129",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 4.56,
+  "ref_text_raw": "The governor's office said nineteen of the injured were police officers.",
+  "ref_text_normalized": "the governor's office said nineteen of the injured were police officers",
+  "timestamp_utc": "2026-07-05T03:34:20Z",
+  "text": "The governor's office said 19 of the injured were police officers.",
+  "latency_sec": 3.8018,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The governor's office said 19 of the injured were police officers.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EpgECpUEARFNMg86fgPcFf2iyI/xoXis299SmqBnuPihyKBl3evs62WrNxnAKnOpW4nn76F4T+i7UB+3oiiRp99hjFmg/0ed5+0kaVhaFdXINj9aVseX4SS+qKDbdmZBMZP01AHURasOKFq2P5h8pOtZw0/anLGfNmCuFePoNMDKNbuTnVsfwHYvUqLwKff5UcHhqYmoIEKkUJF3ZMIfHDXDmgXdCLcxoBWiJMgmCIHaKKxvGMTOIx8eMGw28gAlBbI+eCCDMLJiE9WjUiLd+7nSgt0hof/sow+qETChSQ04R0YG9d6Vt16lxEwtQHCBQS8AkwYPA4cxEalJfzBPHtdM3koZ+atfR432CUzeDMEzuMu1VK67IKwkht+e+yvaCAVfr3sFd0u5a+yGJmycZPodjf3tEMm0c2J9zIfS7CT2n4tbYBImLZY5j1MHw74tOz9D2Ho7s1z30LbBWjwEdp9r0dhZvfNZItKEtd1Kyu+wxGQ/V+xHNRqN5TQ7lQHQQvwxH0tbGzjGCgSDtTIyYu75XCWJFTZVgM32f3HBFSVOuAm092ZnuaSjwhBAyDDrqVH08NpHQ0kd/TOUay+Zax5YUzClplnDnrc+1y3Bx0UfO3e4+khl1cF+odzv+dsp3fiEtwWbGCSAIqr376lQ5sjPUnoEcciTBZtVwKPbqQ1O1qy/Ic2cFRr2BH1oJbQ4MxhCJ2rmldCDne8="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222461,
+    "id": "utBJarXvEvDW2roPh47FwQc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 135,
+      "total_tokens": 283
+    }
+  }
+}

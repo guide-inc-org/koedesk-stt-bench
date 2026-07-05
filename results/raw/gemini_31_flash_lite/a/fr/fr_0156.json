@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0156",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 4.92,
+  "ref_text_raw": "Cela semble raisonnable, car la Terre n'a pas l'impression de bouger, n'est-ce pas ?",
+  "ref_text_normalized": "cela semble raisonnable car la terre n'a pas l'impression de bouger n'est-ce pas",
+  "timestamp_utc": "2026-07-05T05:19:10Z",
+  "text": "Cela semble raisonnable qu'un matin, on n'a pas l'impression de bouger, n'est-ce pas ?",
+  "latency_sec": 2.5825,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Cela semble raisonnable qu'un matin, on n'a pas l'impression de bouger, n'est-ce pas ?",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP4wdEy+Ne6BAH8zqb5IMfTomrxWgLP93P6GKpHrk38Q3zIZ7hVYvILYqploks"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228750,
+    "id": "TelJasOAEY3O1e8PpY-EiAI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 144,
+      "total_tokens": 172
+    }
+  }
+}

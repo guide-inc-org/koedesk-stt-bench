@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0032",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.2,
+  "ref_text_raw": "A well rounded athlete, the tiger can climb (though not well), swim, leap great distances and pull with five times the force of a strong human.",
+  "ref_text_normalized": "a well rounded athlete the tiger can climb though not well swim leap great distances and pull with five times the force of a strong human",
+  "timestamp_utc": "2026-07-05T10:29:50Z",
+  "text": "A well-rounded athlete, the tiger can climb, though not well, swim, leap great distances, and pull with five times the force of a strong human.",
+  "latency_sec": 2.7809,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "A well-rounded athlete, the tiger can climb, though not well, swim, leap great distances, and pull with five times the force of a strong human.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPH0VZquSPedhTbGpYNdYsq/pOB5eY0yywvhXRz+lmxXqHwqKm08l0DV+Mhi9c"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247390,
+    "id": "HTJKatyVG5r22roP4enR6AU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 276,
+      "total_tokens": 309
+    }
+  }
+}

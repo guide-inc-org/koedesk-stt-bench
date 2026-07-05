@@ -1,0 +1,36 @@
+{
+  "utt_id": "ru_0170",
+  "lang": "ru",
+  "engine": "google_stt_v2",
+  "duration_sec": 7.56,
+  "ref_text_raw": "Сам автомобиль убрали с места происшествия в тот же день примерно в 12:00 по Гринвичу.",
+  "ref_text_normalized": "сам автомобиль убрали с места происшествия в тот же день примерно в 12:00 по гринвичу",
+  "timestamp_utc": "2026-07-05T05:41:02Z",
+  "text": "Сама автомобиль убрали с места происшествия в тот же день примерно в 12:00 по Гринвичу.",
+  "latency_sec": 3.7702,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "ru-RU",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "8s",
+      "requestId": "7e254940-0000-275b-96d1-d4f547ed6c6c",
+      "prompt": "Transcribe the following speech segment in Russian. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Russian."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Сама автомобиль убрали с места происшествия в тот же день примерно в 12:00 по Гринвичу."
+          }
+        ],
+        "languageCode": "ru-RU"
+      }
+    ]
+  }
+}

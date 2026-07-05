@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0188",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.64,
+  "ref_text_raw": "Die regierende Partei, die South West Africa People's Organisation (SWAPO), behielt bei den Parlamentswahlen desgleichen eine Stimmenmehrheit.",
+  "ref_text_normalized": "die regierende partei die south west africa people's organisation swapo behielt bei den parlamentswahlen desgleichen eine stimmenmehrheit",
+  "timestamp_utc": "2026-07-05T04:11:21Z",
+  "text": "Die regierende Partei, die Southwest Africa Peoples Organization, kurz SWAPO, behielt bei den Parlamentswahlen des gleichen eine Stimmenmehrheit.",
+  "latency_sec": 2.7961,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Die regierende Partei, die Southwest Africa Peoples Organization, kurz SWAPO, behielt bei den Parlamentswahlen des gleichen eine Stimmenmehrheit.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPoi20Md1vqKmBJLOZi2L1/z21DJbS2pgVuvBQ1iTZlgn4cPDf1jNS4uRniFMk"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224681,
+    "id": "Z9lJaonkN6nDvr0PmKevgQ8",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 387,
+      "total_tokens": 419
+    }
+  }
+}

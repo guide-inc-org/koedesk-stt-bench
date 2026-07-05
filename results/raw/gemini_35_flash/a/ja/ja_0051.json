@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0051",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 15.06,
+  "ref_text_raw": "クルーズによっては案内書にドイツのベルリンが載っています。上の地図からおわかりのように、ベルリンは海から離れており、市街観光はクルーズ料金とは別になります。",
+  "ref_text_normalized": "クルーズによっては案内書にドイツのベルリンが載っています 上の地図からおわかりのように ベルリンは海から離れており 市街観光はクルーズ料金とは別になります",
+  "timestamp_utc": "2026-07-05T10:14:37Z",
+  "text": "クルーズによって案内書にドイツのベルリンが載っています。上の地図からお分かりのように、ベルリンは海から離れており、市街観光はクルーズ料金とは別になります。",
+  "latency_sec": 6.2661,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "クルーズによって案内書にドイツのベルリンが載っています。上の地図からお分かりのように、ベルリンは海から離れており、市街観光はクルーズ料金とは別になります。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246477,
+    "id": "iC5KauzSNPGC0-kP1smn0AY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 398,
+      "total_tokens": 1005
+    }
+  }
+}

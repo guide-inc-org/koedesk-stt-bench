@@ -1,0 +1,44 @@
+{
+  "utt_id": "pt_0118",
+  "lang": "pt",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.3,
+  "ref_text_raw": "Casablanca é um dos lugares menos interessantes para se fazer compras no Marrocos como um todo.",
+  "ref_text_normalized": "casablanca é um dos lugares menos interessantes para se fazer compras no marrocos como um todo",
+  "timestamp_utc": "2026-07-05T07:01:12Z",
+  "text": "Casablanca é um dos lugares menos interessantes para se fazer compras no Marrocos como um todo.",
+  "latency_sec": 2.8231,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Casablanca é um dos lugares menos interessantes para se fazer compras no Marrocos como um todo.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP0Fm2KeNRweh7YLCcqgaO2D9qJOzfCrYpRNh3834bYBma4wXf6diIlYRxy9Yv"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234872,
+    "id": "NgFKaq2zOKa3vr0PlMyl0QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 254,
+      "total_tokens": 275
+    }
+  }
+}

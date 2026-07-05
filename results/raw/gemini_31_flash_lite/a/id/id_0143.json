@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0143",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.98,
+  "ref_text_raw": "Banyak orang tidak berpikir bahwa mereka adalah dinosaurus karena mereka memiliki bulu dan bisa terbang.",
+  "ref_text_normalized": "banyak orang tidak berpikir bahwa mereka adalah dinosaurus karena mereka memiliki bulu dan bisa terbang",
+  "timestamp_utc": "2026-07-05T05:53:50Z",
+  "text": "Banyak orang tidak berpikir bahwa mereka adalah dinosaurus karena mereka memiliki bulu dan bisa terbang.",
+  "latency_sec": 2.8179,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Banyak orang tidak berpikir bahwa mereka adalah dinosaurus karena mereka memiliki bulu dan bisa terbang.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPsqqGsTtrjDa/RBu6eaYcmCZBrO9RdoOmDR/czIBETU951KIys8PEPi1gTIdm"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230830,
+    "id": "bPFJarKbHJnd2roP0-bGsQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 221,
+      "total_tokens": 240
+    }
+  }
+}

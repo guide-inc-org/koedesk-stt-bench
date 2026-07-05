@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0108",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.28,
+  "ref_text_raw": "Федерация гимнастики США поддерживает письмо Олимпийского комитета США и соглашается с абсолютной необходимостью создания безопасной среды для всех наших спортсменов.",
+  "ref_text_normalized": "федерация гимнастики сша поддерживает письмо олимпийского комитета сша и соглашается с абсолютной необходимостью создания безопасной среды для всех наших спортсменов",
+  "timestamp_utc": "2026-07-05T07:26:06Z",
+  "text": "Федерация гимнастики США поддерживает письмо Олимпийского комитета США и соглашается с абсолютной необходимостью создания безопасной среды для всех наших спортсменов.",
+  "latency_sec": 3.886,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Федерация гимнастики США поддерживает письмо Олимпийского комитета США и соглашается с абсолютной необходимостью создания безопасной среды для всех наших спортсменов.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236366,
+    "id": "CwdKar7OM4OL0-kPiYjyuQQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 303,
+      "total_tokens": 601
+    }
+  }
+}

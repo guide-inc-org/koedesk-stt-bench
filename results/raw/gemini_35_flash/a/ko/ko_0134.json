@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0134",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.36,
+  "ref_text_raw": "\"\"\"이건 작별 인사가 아닙니다. 이것은 한 장의 끝이며 새로운 장의 시작입니다.\"\"\"",
+  "ref_text_normalized": "\"\"\"이건 작별 인사가 아닙니다. 이것은 한 장의 끝이며 새로운 장의 시작입니다.\"\"",
+  "timestamp_utc": "2026-07-05T06:21:21Z",
+  "text": "이건 작별 인사는 아닙니다. 이것은 한 장의 끝이며 새로운 장의 시작입니다.",
+  "latency_sec": 4.8087,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "이건 작별 인사는 아닙니다. 이것은 한 장의 끝이며 새로운 장의 시작입니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "ErULCrILARFNMg8G+IW8ASXla7d8JNqDb9DGB2IcnA+NvCg5U9wp1vB/45G+Pg3mjtSg6ovWmBOA/Rg62hKKnVYJtLK4HuFNOOMncz7P+D9A1XI89JUn+MlbFFf1KNVqRamaFn8eip463+F23JAlcgHwWPN9F3jUTrF/y0JTcFwAfGzhZMKvUb4oxBxdDi8e+BFiDIHc0HYHx9LySBW+PO6jM5Ldd2Jf/dcpD4SZN+62r3KiDZL2baR9nZ1ZhKwQbvJVV4wqa2QuaBhoCbH3WqElIPYbJ42I/tvfmDrVjKtKgEY9dXzulwe+qtfcE529WtCMSRm9qOsn591X+xO1kP3c3XdN99WBVsPGxZyS68qgF5JLTLwM9usMxaMi9Ge2x+iu5GGSvxH2R9Eq3LNHh+MsNJLBZFC8XgUkUgkhngCBHCKBdGS8k98lGkYTF/umkVZ+fgblVxGFqOoXPzpxncDAhIrc7WuGBHqfDRkL9/oR5MRUki9BwfUUBWQwEJCx9gydcDwTeCe0n/gW095xA8MlvDY3kbUkpwappxWZNMWD7xrxhVmP5n0VOeoFiuyjiNLiQKfJELPVFGYUiDS19Ml+RMBEvxcuaF4NKRZufUh7tymAPoCDxFW2XK+EvaieZj1pZ+2ZVba5Peffy+QUMfKfTQFoBIlOMmgp7VYWFmroURRtozHzGRDalv1gomJo9Ldp8kfLCgp2EqhqGSBkRNDnr/ddbErO1o7Jnr6e3U3oQ1AIgEKqnkOMH8JMkp4AYV6yiSbdq5qnKnB/DqTX8LNxc1jq6zihVJKP9R/LoJAFTIzRl2Ynis5GikeBlZa2TN2QdEiM/QktjjJ5f0Sktu9/9wPumMYZ1WBpNSHqBxAAb9fgsurhxNR0CBALky/rfDtaSpoiJJESoIOCFSWmXxM5TsmDubZCyW2Tts+GBS5o1MLjaQOJb9kEsSTr+G0DOAB4twWxkkg2c1csfe0hX4M0p4mybPWKOsFFk1dDqREjWxWr7arZ7BD3VDqHOMaYD5I+JDGVDRq8C0rsTmnzwvPG3HyUtGviSeBvPzVpdZwdgc1KquutkrpCmNmpEp2ALeaRdFDHfbEm8hpFo0l4LFoLVGD8zlCm2FvRrpF/NYbNQFEemX0E7Kd/ESo5RE1KBshB1XK5Ph5In6GTblFdLBBx3q2qXgZD2azAZwdbxnn9nJq//pLRlQpy02zMbgBjdnw+3njOHDfqnUZRu6yfFIvjQOAHwI5QsJnA7HRrCQ0uPQmnFgQuqquF54n45lqma4wttdRlG3XZxVJ/CSx3/xu3BXjRCTFthBMMDTcO8DR0PTBACq4Ev4JCMLfHdOL3lw3YH+H7fuxdLGoL4wsBj2nrkDSnZaeErOapx9fOmkhGHcmiUBMA/o+1i1vxeAZZXADm2NSa0nOl+/F5bOCidDGrO5t/DC0zRZXlQlUkMlDS3aUdtyzZwcblL0rZrgUo5vCbAzNjkWLEqjipHa/bb/lAHI1GSm19T/d8X3yoerd6x/hsp6jibwE0cLnqV1/5PAG3H7RpVjBSvPEYaFfxpbDFSFb3S1zpbvlBTmw7CQYuV97eracPCpplSfS/M0O1hgThRe9jRUPN/0xxPHXuBG5FNdgm8ESFuSUhjh4M/LkYcMlVNZiiGFQaDxbntZpb8yJmcjNZCeF5WV8oDxpiq074E+2mnCXsILD3PBzJraHeHw17XLlIz4/PdnJLP4tm9H1zY24CUW0td7HwF0kClmonyVqJQ3Vlapw6m4vPhhQptHw/KHUz6fQ7EED6Z/rgeDo+qGFHcnjy0idU2XvSr4b2xW8uO7S+tibNxvUT2zKit0bz41pqkWhEMa+0K5IdHjqcT+NIlMNGICuzh3WgO7ZAxxB/JVB0s8ZoJQoFPZn/PwXfFU5UQDJkO6Fzng2e69IiNoxmZyG873F7JPWp4bQjVpEqKTMt"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232481,
+    "id": "3fdJaqTvLYKhvr0P0-6Y8AY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 180,
+      "total_tokens": 588
+    }
+  }
+}

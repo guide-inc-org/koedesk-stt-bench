@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0167",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.62,
+  "ref_text_raw": "Ce sédiment était nécessaire à la création de bancs de sable et de plages, qui servaient d’habitats à la faune.",
+  "ref_text_normalized": "ce sédiment était nécessaire à la création de bancs de sable et de plages qui servaient d'habitats à la faune",
+  "timestamp_utc": "2026-07-05T05:19:53Z",
+  "text": "Ce sédiment a été nécessaire à la création de bancs de sable et de plages qui servent d'habitat à la faune.",
+  "latency_sec": 2.6837,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Ce sédiment a été nécessaire à la création de bancs de sable et de plages qui servent d'habitat à la faune.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPMBd9Bfv0fqA1jTgrC0Z1Db0u/Sfyh8hkqUCQfLve889XmBpSXwjVDSp/LeGM"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228793,
+    "id": "eOlJatnhHZnV1e8Pw6zfgAQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 212,
+      "total_tokens": 240
+    }
+  }
+}

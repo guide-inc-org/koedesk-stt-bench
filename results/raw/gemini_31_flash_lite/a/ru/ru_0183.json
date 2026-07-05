@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0183",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.96,
+  "ref_text_raw": "Если вы хотите находиться рядом со сценой, вам нужно приехать заранее, чтобы найти место для кемпинга вблизи от музыки.",
+  "ref_text_normalized": "если вы хотите находиться рядом со сценой вам нужно приехать заранее чтобы найти место для кемпинга вблизи от музыки",
+  "timestamp_utc": "2026-07-05T07:38:18Z",
+  "text": "Если вы хотите находиться рядом со сценой, вам нужно приехать заранее, чтобы найти место для кемпинга вблизи от музыки.",
+  "latency_sec": 2.6769,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Если вы хотите находиться рядом со сценой, вам нужно приехать заранее, чтобы найти место для кемпинга вблизи от музыки.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPR7R2pAccyCz/rn/QKjWeYcdbZp+VUpRUiO8eMOxn0hwWqRPtVrbnxdpROxRr"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237098,
+    "id": "6QlKarGjDPK8vr0P85enuQQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 271,
+      "total_tokens": 299
+    }
+  }
+}

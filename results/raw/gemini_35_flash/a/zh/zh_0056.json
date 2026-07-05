@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0056",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.9,
+  "ref_text_raw": "在某些航线上，大型公司有自己的飞机，但对于其他航线和小公司来说，就有问题了。",
+  "ref_text_normalized": "在 某 些 航 线 上 大 型 公 司 有 自 己 的 飞 机 但 对 于 其 他 航 线 和 小 公 司 来 说 就 有 问 题 了",
+  "timestamp_utc": "2026-07-05T09:10:30Z",
+  "text": "在某些航线上，大航空公司有自己的飞机，但对于其他航线和小航空公司来说，就有问题了。",
+  "latency_sec": 4.9004,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "在某些航线上，大航空公司有自己的飞机，但对于其他航线和小航空公司来说，就有问题了。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EsMLCsALARFNMg8zUzcnKQ6d94LK6WqM5qK3FZQBb1Tel1FSvnbpXvROoMMPl1Xbn4t468JSlVdyFLx8m10UjYOz1zMnEIy1elCSY3npxi/ldnd5hlb59kDRUqY+XF/lvAE5Af6XX1kORUet3Jxe6e53xeLtdzxBZAsAMcnEdKVJrtdTc5y+F/6uepJKRHnie2iV5fiuN+/rOTEVOyFf387cHpdTTi9rQp9bg5CElsZTtC4WwkZsZ8xFW0n1du9wIV+Q3NbJ5+6CcdkQoAJizAiFFelJ3ze+E+E7YG1Q4XseuWPEK4xY/gtV0RuBcU2Pf7q5xH73Vqe2PKEdk/zTrNRgsdHJa5kbcLJ6+bFNNfVtIkIBAe8uUGuCfxPS+LGAGNt0FhzI1Pbr4WwLbesRsIuXwiHMGL0p0bkt+Ggoe88ghkaR4j96bhUO8p4im15ifnYX5m5wFbUsaLzGkd0cfDwpTtsTlknHkU4yN3PSqHScFJ7B9aL6pkNXsTBCdGZetKrbjb2+1Gxn0TErQ6K6nuwMbm8zLs/V6Vg1AU5Myox16CSYBpesh7fcegLUp2SgS7XleX+HAXqjhSmpma6qjuY9sV4zPg/ACzY50NDT8qZ0bth77C0kTSCe2aFfJy/6MESyOdjXXOFKDX29kIzAS6FEJtXJeFZh5lnVPOxFfzpfQV3Y5AokLixxjEv4i680Vu1JEwjcBZJongi6Iy7v3uVOPhHPWBFh/DJO51clv7Zsrul/XeVt3lMjoR1zwOYb2ZABmAnzIXKXT3e0tO74+EIyqV1doOILgTY2C//R3t4X49PMEUUc0vKeLu+Ec9ICGyW+h08X2sTZ8J7mAhN6PIc675RLbnUJe1wYE6Ool1tvoe2wmhJRYLH+BXaC/Ickwv7a+k9cDt5afCsdqdtr2ro6/20OxzOqwMbgUv0OQVpqMTHjA5iztBqr3KoQGK0jMn93pqMd0q9/PxMSt6qiWWgFMxZ/cHq+g9+vrBZyYIFPu0UaIHRatlI41jA1hRF2IHTOLUtQRTlIenL3nQ2GLJizdo3j3u14VsCO2uSBoYWcOh4vyyGJnSb52KsVfs/9jlTS1gxlMeSdDM5xfOCo3g7yx1MuSnAGG0RlgLV9oXZ7IQtn1VMy2igJ1yhRjcIYSlRr78pkPnmkbLngMZBBX8WmuMKyKE9jSHWx+CEZn6yghU1I1o+TgqQd9tsmtfd6+94q2LjUFUeFk1iL0uNAwIo3VRRzbtOUW7YpIo+dXF+S/zBiNx5cnIkOvJ9FXPb1OqEoU4hsSIThV5WoHKwlhrtjhpALm3k4g2IKYUz/6J8RtmAhS1PaL2/EyISR3tDEwtH2dTrOnfpSnc5aWMwUqCylKkbiZN3/a9YxtLOvF9OLw/x7yqH9JfitxufDztIfhOeyhEv62fmgkr25Ao/NQtfYJ6e3APvhdqeFHSKx4KDW/QfaOoabmgHylET07j50ULzfijeupF2JpKbvlOieQkN9TlJIvaYs6xyKO+P8SK1XT1HBc3OpHflhLbwJmWuDqzow5ehlQ0BWK6HP2HMg1dBIRZ3OLDPT/Cx564qFiqiK9Vn7iA2pzjdxCYyld+r2+F9V7g2KuF2DU/0cAaPZFaL0jnfxHR7+ZkX+jewMBYmBe+SWUjbNJpdRXh6suW9a4la3N0BDyfRZZk9II/T7E2kpYf1nT34SRc5y4N/fCYSHz4IyYXDd6uvDIzRDML0iYX9NhsD0ovX3/YdQ+cVty6JVG++qHdTNM5fUXL5y4TwYnYlPv+cSI/ObtHwwsXZC6tEdx6GGKqlLacs2eOuq17BF8X4f2FmBLcEFfSwALYsWJMpozG1/9Iyt9nZktwCNQ0WFu/2kon7a4PDwTQ6lCxs9+hNNz3rdrwauEUAJfi74UxHPYJIH3y4qZbaCUAr4//bOYlrZxsy05H0G96WZvFNQqyHEIt/vA5yUYjG0zQLFcGBtU5I="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242630,
+    "id": "gx9KaoO3D9mK0-kP0MrjsQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 194,
+      "total_tokens": 595
+    }
+  }
+}

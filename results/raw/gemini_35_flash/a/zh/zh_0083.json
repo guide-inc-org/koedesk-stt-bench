@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0083",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.76,
+  "ref_text_raw": "1990 年，由于沙漠的威胁，它被列入了濒危世界遗产名录。",
+  "ref_text_normalized": "1990 年 由 于 沙 漠 的 威 胁 它 被 列 入 了 濒 危 世 界 遗 产 名 录",
+  "timestamp_utc": "2026-07-05T09:13:08Z",
+  "text": "1990年，由于沙漠的威胁，它被列入了濒危世界遗产名录。",
+  "latency_sec": 3.8802,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "1990年，由于沙漠的威胁，它被列入了濒危世界遗产名录。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "ErwGCrkGARFNMg+c6Mf3LzZCC9D+ERAEXNdj2ikZ+uy1b01cqQiI/9p7j8RTdMR61/oJgx2obzwjR3Ihzy9rIoM2fkwx11fAtkp37WDSdyEAvktH3d+yUga6Fu4w5sIMmybmoJegiE8Yoh+Y5wysLJ5dZFslddjAP8uCfLyMIJJBZ+xmssfGbubRnckouj4d/RzflBvHcH8gjGDl4CIsh3IaRAMJxnE0yqb1oXBbRZaLEQylnhy0neQvQT35Ov8kKgSqjlHWMSY7kiGVAv54CZzs8qQ2wrbgLTK+0+c/Ep75NuT6TnYCaf/uIQDlCNJecDLWjCW9qYMvwk6//cAHi5SodvGB/lQpGK/KdCt/KJQzI4t39GQYfMIGzn9hPMZKfa/trcoKuLNhWbDzoE3VOpP+Lc8lcgvpfkJZ6HKKPsUx0AwXENqdGucW40mULtP6aHtM4ln7ci3z3R4fFPLyv70+o1eDbLlveV00ITXrhDwb0Gh8aC8AIEi91TP5grVsgO9mxsph+MfCllOCRhS/mMB7YwFCrADUCQZq3RRNY76edjcwWb1icaz3oUxaWufDp5ez8LOLe/NdswGt28TvoebeCSIRedJj9jX2BlxYVOXwDJ4dTi0NUJKi7OJtZ8p644tuVvDrPl3cqox0/nBYplGZPHGcEa3GhNlNYk7ylZyoRUul78iDHx68GsYUeIhgCuTgU4p+DNzDWcUODHWM5nomKETm6dBgsbbu/9MZWVlY+/5Hh7rLuHxC27n24MHQBcAAKOkgZKoXyT3KvbxcunIVensA+jQSju4EDeG+T8f+foV0HHY50ZV19tUn5j0Be4yQIklOosIpuWkxm4SrjhGWxQHgN6zPgBMTA/NOr8WLfhK2X+Xeuy+r+EBlx5AwtNKe0OypskgNVm9ap2V2a1ecORSAV9H8qgpgElrcWlmGsUi/b2NoU9dyUxqfkY9qNhJToB12CJ1qRzgUHs4WSFV+6g0fMXKCqjfZsDDSDOEYMRWDFlW1o6BxEB9CJfKq+wlfg9tHAr/d9fbNnhj3dUx5OvI9PrVusgfwbtTDhmiSbaUEzhkUJ3BFiayQxV3Z6WdxGC+f78ISG1RMA9H/"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242788,
+    "id": "ISBKaoezF4OL0-kPiYjyuQQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 240,
+      "total_tokens": 537
+    }
+  }
+}

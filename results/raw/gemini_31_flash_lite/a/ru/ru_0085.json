@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0085",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.34,
+  "ref_text_raw": "В докладе содержится резкая критика почти каждого аспекта нынешней политики исполнительной власти в отношении Ирака и настоятельный призыв к незамедлительной смене курса.",
+  "ref_text_normalized": "в докладе содержится резкая критика почти каждого аспекта нынешней политики исполнительной власти в отношении ирака и настоятельный призыв к незамедлительной смене курса",
+  "timestamp_utc": "2026-07-05T07:32:13Z",
+  "text": "В докладе содержится резкая критика почти каждого аспекта нынешней политики исполнительной власти в отношении Ирака и настоятельный призыв к незамедлительной смене курса.",
+  "latency_sec": 2.7648,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "В докладе содержится резкая критика почти каждого аспекта нынешней политики исполнительной власти в отношении Ирака и настоятельный призыв к незамедлительной смене курса.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPj/zuyKK63BDeKfcPsVv26dZV2W9o+NTgcOCA8aSdRWTJhID4Q+0QTcnZ9gpO"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236734,
+    "id": "fAhKaszkIezFvr0P-YXt8AM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 305,
+      "total_tokens": 346
+    }
+  }
+}

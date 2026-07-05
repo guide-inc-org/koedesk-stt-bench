@@ -1,0 +1,39 @@
+{
+  "utt_id": "id_0018",
+  "lang": "id",
+  "engine": "gemini_25_flash",
+  "duration_sec": 7.32,
+  "ref_text_raw": "Namun, ada banyak hal tentang burung yang masih terlihat seperti dinosaurus.",
+  "ref_text_normalized": "namun ada banyak hal tentang burung yang masih terlihat seperti dinosaurus",
+  "timestamp_utc": "2026-07-05T05:20:35Z",
+  "text": "Namun ada banyak hal tentang burung yang masih terlihat seperti dinosaurus.",
+  "latency_sec": 3.9739,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Namun ada banyak hal tentang burung yang masih terlihat seperti dinosaurus.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228835,
+    "id": "oOlJatqxJ62Qvr0PxLzU0Qc",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 13,
+      "prompt_tokens": 256,
+      "total_tokens": 295
+    }
+  }
+}

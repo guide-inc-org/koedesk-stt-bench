@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0124",
+  "lang": "de",
+  "engine": "gemini_25_pro",
+  "duration_sec": 8.58,
+  "ref_text_raw": "Der Archipel liegt 120 km nördlich der Halbinsel. Die größte ist King George Island mit der Siedlung Villa Las Estrellas.",
+  "ref_text_normalized": "der archipel liegt 120 km nördlich der halbinsel die größte ist king george island mit der siedlung villa las estrellas",
+  "timestamp_utc": "2026-07-05T03:52:19Z",
+  "text": "Der Archipel liegt 120 km nördlich der Halbinsel. Die größte ist King George Island mit der Siedlung Villa Las Estrellas.",
+  "latency_sec": 4.8026,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Der Archipel liegt 120 km nördlich der Halbinsel. Die größte ist King George Island mit der Siedlung Villa Las Estrellas.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223539,
+    "id": "8NRJaqbZG-Kf2roP6tmdgAM",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 296,
+      "total_tokens": 478
+    }
+  }
+}

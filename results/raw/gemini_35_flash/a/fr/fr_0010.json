@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0010",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.1,
+  "ref_text_raw": "Par exemple, le format de photographie le plus courant au monde est le 35 mm ; c'était le format de pellicule le plus répandu à la fin de l'ère des films analogiques.",
+  "ref_text_normalized": "par exemple le format de photographie le plus courant au monde est le 35 mm c'était le format de pellicule le plus répandu à la fin de l'ère des films analogiques",
+  "timestamp_utc": "2026-07-05T05:01:55Z",
+  "text": "Par exemple, le format de photographie le plus courant du monde est le 35 mm. C'était le format de pellicule le plus répandu à la fin de l'ère des films analogiques.",
+  "latency_sec": 5.6368,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Par exemple, le format de photographie le plus courant du monde est le 35 mm. C'était le format de pellicule le plus répandu à la fin de l'ère des films analogiques.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "ErQKCrEKARFNMg9dgJFTW4FyJXy6jppTIPEN6k8WodWBKnkkLljKjy5l0/MtquEUn2R9f1yH/4QgXpls7o6B4f7IIZkwmwP70xRIKszSlJ9xnAkeKp/RoUynKoUpnxPmpRH4gVm7EBqn/amtEH3hbXjgmJC+2aIDA342jOdYcm1eAK78b/JIYiN663H+bOhajpIZfgfoRLtBiGzjmq/zWF8SW6dNmJdA8p1E6zaDgJGyECfZXWQbyny3Us5EMWaWvw/BsZ6Cy/l2Rl4E+10RTFggiO2CPBGlYK/z6c+e5R8vLGvJhOTs6uP3w/ybNQqDygBZJiIzNdpv6iESpHRVRKYcbpyKk66mvqq9+lQOj88GyJS0+YglqT7/XNqcEiAXIab7GwLzlHQJ8Js0PdPPJSlfbBxTQuB/JfKfE33DkVSDOxPw4JyDIjRJbWp6x2+hCRY4ErvdxLrmjhrMrsuqRKdZx/bVUB5mFZmAJs0mf0zM2JIc1+bpIEFvbEdFAnESmZu1dUBW7q95BQ79kO/t4EfptNli4ceZOubmJg2XCztID7CXUTzGfYgq3IbKHP9Gmcd05EhyTglI1LjScKxxqS9UhJ54C/ZxPR8or9BK2zlz1RNgYHTDyQhymyO8YafLwXjfT74Y4haX9RETAp3aMynLaRZrlu5H13R92iumM5ASTQM4P5dPJH3C8ajcVeMl6hRaY9cb+woDcAdUDrqY2F4WoTVqihVD76cd++mgDLdrngZffuKxMJdZNxt7Gi3bEdQGHkpKG/7dxL9/DN5dxAqHE/Kyu8UjPwt9n0MxV/ZpHU4xJg6WbDxeQ1U2AVjPIxBiKpN/lHNfLYUGbnCFJMG0op/nSmpnotXh8P9p71jteiNI8AkG6jarieDrHTZqqSL2z1bC5Iws2HsUkqIyp55OC9ildNLtU7sluvGLRr9ttRUSAQZhm+iY+W4yT/qmFvP6WD3tUIvHFcjov+Px935aqNDd21QNVsD353mNe4zryIc9tgiOrw5KtNyfffPtIHgYrhXrPf8pN8nTl9ezczy0Oz/c1/xVsgJCT2evjkSqWBB+r5k3COUr/ZjsS+K1BgHFkF6NnrX5eoJhFdA9DPirkuUH+GnS14V3ZF9ffrhrkHDM6x57G0ZdY1NVkCs4pN7KVxjmvF4jFnZKG7CxIPh7m7H6hdRxloRy9dEJLBTilCHNSLhOQ2QLLJU+k/Ir6ZNTtZ7jdUF2fnHKD6GNHpV3DClr87pCNeiZvR5MGBumViodceEsbb3Gx5J2m8qKrjce8S1evFFlvwuITMkXbOC7SXFPE5gscqdUlBMaKIMWzQeNV7FgeldE25FwGEF/2G12d+4wYRK1QszWTj1vVG0MEqxc+vVlMSgqEqMe7Di8CfCctQXKUulvTQDDGBvLjsD6Og588b/QGoG6eAO0Ol65pvpM30D4NxNWBYeiT9lk2rwDVBdM7sijd3HnOdADJiqdj/sRqrSWm8+jI2EikiKGMCtpFJshKVn7ETGJr6F3I3gKoBKnwFnpIh3Sxevfsjr9auY2s/MdEzVFusabFn7TUBxvo5s6li3I2aYNi9Axw3Iujw7Ha+MLKut632gKyUvnzWD6GFhnlzYMNZQ8BPvCQnO78u9cnvLsrlt3AlcNet9vhK0Mqq72IoqWbOT0JkMICU/QdCW1G0jWjK490Qy9zga72HIFwj8pB3MCzk83Gu4MZFuzMFwWcK2LY3/ET8BH4rnUTP0RpZ0T6rg6wZerTCUAhgEImefw13pwmGCXkzbmm5r7"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227715,
+    "id": "P-VJasvCB5bPrfcP5aSH-Ac",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 224,
+      "total_tokens": 624
+    }
+  }
+}

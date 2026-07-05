@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0195",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 18.12,
+  "ref_text_raw": "美国联邦航空局 (FAA) 称，新一代航空运输系统 (NextGen) 可以使飞机缩短飞行航线，每年节省数百万加仑的燃料，并减少碳排放。",
+  "ref_text_normalized": "美 国 联 邦 航 空 局 faa 称 新 一 代 航 空 运 输 系 统 nextgen 可 以 使 飞 机 缩 短 飞 行 航 线 每 年 节 省 数 百 万 加 仑 的 燃 料 并 减 少 碳 排 放",
+  "timestamp_utc": "2026-07-05T09:24:49Z",
+  "text": "美国联邦航空局 FAA 称，新一代航空运输系统 NextGen 可以使飞机缩短飞行航线，每年节省数百万加仑的燃料，并减少碳排放。",
+  "latency_sec": 5.2784,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "美国联邦航空局 FAA 称，新一代航空运输系统 NextGen 可以使飞机缩短飞行航线，每年节省数百万加仑的燃料，并减少碳排放。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243489,
+    "id": "3SJKasfuHa2Qvr0PxLzU0Qc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 474,
+      "total_tokens": 1094
+    }
+  }
+}

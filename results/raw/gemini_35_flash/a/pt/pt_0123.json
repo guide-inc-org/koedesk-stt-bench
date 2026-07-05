@@ -1,0 +1,45 @@
+{
+  "utt_id": "pt_0123",
+  "lang": "pt",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 15.06,
+  "ref_text_raw": "Para os que gostam de passeios de barco, a Finlândia é um ótimo destino. Nos lagos e nos arquipélagos costeiros, a “Terra dos mil lagos” possui também milhares de ilhas.",
+  "ref_text_normalized": "para os que gostam de passeios de barco a finlândia é um ótimo destino nos lagos e nos arquipélagos costeiros a terra dos mil lagos possui também milhares de ilhas",
+  "timestamp_utc": "2026-07-05T06:53:25Z",
+  "text": "Para os que gostam de passeios de barco, a Finlândia é um ótimo destino. Nos lagos e nos arquipélagos costeiros, a terra dos mil lagos possui também milhares de ilhas.",
+  "latency_sec": 3.7381,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Para os que gostam de passeios de barco, a Finlândia é um ótimo destino. Nos lagos e nos arquipélagos costeiros, a terra dos mil lagos possui também milhares de ilhas.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EokFCoYFARFNMg8hiaD6HuFLSXgWWONhgdj+RjHG7xhBC0NWegDwSnT5SIQi/tI2gfrvOlCcAI8D4qArwYVcIEENvpIWOtf7k8poGAXJNJ18zDr9c9JR5v/5tCbyT06IPWElMth0VFKW+CCGeBfqxaSX7CB2chBIFRcH7+0i9e+szzSaUt/t6Up7XQ0oB18DP7d0AsLIWoSZmksTci74VnlgzSHO3h5xx1acOa4GdcpQdblG8uE+eY0PZgow/47I8t3f158TWlMoSKVln/Firl27f+H9Pat9ffvnPE0eJQADcx+oicQ1uKLDb/xqX0t51ulu22gGlYfqgDQJOIw4d6Yo7UTFq3n0gAVc8zDpqsZzVUfVARDMtCbW5u4jvJ7NPApPcnemvtTPUjWPApIQtl/5CPEX6I4ueu1V3/HJ5mQc1UQWDjVTr6i7rMR9fa1prdpS35aAIyGqYZKzWi0/bUbZmbZ4bjxdB675dsNv/hOYmc+Dk9QREiyiuZ5UDxpFJPWcc/q9dh3N5cqeodMncXQRuEXa11wQenaYfOzsW8M2/CkPnQCoh9ZU1MRNvAXIwuxNWJty+CCQ7i3qqnum0rlkmJSNRYBIKlwZFaBZhlHhoRJE+9k63BuyIS8vzvhWfEcuv+A8lFw24o04BieZ25rNECwQGooZwGVWFwauk9svgGf7TuZBkeIBPKVBE0Q7jMmO21SDYjxns2tS+ScAEevM9PE89L3wzgqO3VQMLlCZjZmo1kixxXvcPup17ebwY6q8ZepYR47an/mX9NJtmcUO6q4YPxKQpr5q3W5LO/4ZDvO7MD0iyu08j5ab69xAJ4qHtfjdaipPAKlRwxYbGvY49KqUZ1oIpbAqLw=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234405,
+    "id": "Y_9JasnqB5Tc2roP-cDPmAY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 398,
+      "total_tokens": 590
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0006",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.96,
+  "ref_text_raw": "Blogs können auch dazu beitragen, die Schreibfertigkeiten von Schülern zu verbessern. Zwar haben Schüler am Anfang ihrer Blogerfahrung oft eine schlampige Grammatik und Rechtschreibung, aber das ändert sich normalerweise, wenn es ein Publikum gibt.",
+  "ref_text_normalized": "blogs können auch dazu beitragen die schreibfertigkeiten von schülern zu verbessern zwar haben schüler am anfang ihrer blogerfahrung oft eine schlampige grammatik und rechtschreibung aber das ändert sich normalerweise wenn es ein publikum gibt",
+  "timestamp_utc": "2026-07-05T04:00:06Z",
+  "text": "Blogs können auch dazu beitragen, die Schreibfertigkeiten von Schülern zu verbessern. Zwar haben Schüler am Anfang ihrer Bloggerfahrung oft eine schlampige Grammatik und Rechtschreibung, aber das ändert sich normalerweise, wenn es ein Publikum gibt.",
+  "latency_sec": 2.9582,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Blogs können auch dazu beitragen, die Schreibfertigkeiten von Schülern zu verbessern. Zwar haben Schüler am Anfang ihrer Bloggerfahrung oft eine schlampige Grammatik und Rechtschreibung, aber das ändert sich normalerweise, wenn es ein Publikum gibt.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPhLbeT96CKH5/6SyzsF4Sq3UbRzTp0/3PYTXnunjDxaBPCFSedVsVtg5vooZf"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224006,
+    "id": "xNZJaoqLN-2crfcPkMChIA",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 53,
+      "prompt_tokens": 345,
+      "total_tokens": 398
+    }
+  }
+}

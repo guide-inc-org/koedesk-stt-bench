@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0097",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.32,
+  "ref_text_raw": "15 августа 1940 года союзники вторглись в южную часть Франции. Вторжение получило название \"Операция \"Драгун\"\".",
+  "ref_text_normalized": "15 августа 1940 года союзники вторглись в южную часть франции вторжение получило название операция драгун",
+  "timestamp_utc": "2026-07-05T07:07:52Z",
+  "text": "Пятнадцатого августа 1940 года союзники вторглись в южную часть Франции. Вторжение получило название операция Драгун.",
+  "latency_sec": 6.0693,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Пятнадцатого августа 1940 года союзники вторглись в южную часть Франции. Вторжение получило название операция Драгун.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235272,
+    "id": "wwJKapSGMun62roPgJLP-QI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 352,
+      "total_tokens": 882
+    }
+  }
+}

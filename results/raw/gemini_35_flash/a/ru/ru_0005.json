@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0005",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 10.44,
+  "ref_text_raw": "В 1990 году он был добавлен в список всемирного наследия, находящегося под угрозой из-за опасности со стороны песков пустыни.",
+  "ref_text_normalized": "в 1990 году он был добавлен в список всемирного наследия находящегося под угрозой из-за опасности со стороны песков пустыни",
+  "timestamp_utc": "2026-07-05T07:16:45Z",
+  "text": "В 1990 году он был добавлен в список Всемирного наследия, находящегося под угрозой из-за опасности со стороны песков пустыни.",
+  "latency_sec": 4.3806,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "В 1990 году он был добавлен в список Всемирного наследия, находящегося под угрозой из-за опасности со стороны песков пустыни.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235805,
+    "id": "2gRKasS8IY-V9tMPqJa8yAI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 282,
+      "total_tokens": 667
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0041",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.64,
+  "ref_text_raw": "Die Sundarbans sind der größte Mangrovengürtel der Welt und erstrecken sich über 80 km vom bangladeschischen und indischen Hinterland bis an die Küste.",
+  "ref_text_normalized": "die sundarbans sind der größte mangrovengürtel der welt und erstrecken sich über 80 km vom bangladeschischen und indischen hinterland bis an die küste",
+  "timestamp_utc": "2026-07-05T03:59:14Z",
+  "text": "Die Sundarbans sind der größte Mangrovengürtel der Welt und erstrecken sich über 80 Kilometer vom bangladeschischen und indischen Hinterland bis an die Küste.",
+  "latency_sec": 4.9674,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Die Sundarbans sind der größte Mangrovengürtel der Welt und erstrecken sich über 80 Kilometer vom bangladeschischen und indischen Hinterland bis an die Küste.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223954,
+    "id": "jtZJapKkHpTc2roP-cDPmAY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 312,
+      "total_tokens": 854
+    }
+  }
+}

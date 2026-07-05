@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0034",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.36,
+  "ref_text_raw": "Il a également gravé des billets de banque pour de nombreux pays. Parmi les exemples récents de son travail, on peut citer les portraits du Premier ministre au recto des nouveaux billets canadiens de 5 et 100 dollars.",
+  "ref_text_normalized": "il a également gravé des billets de banque pour de nombreux pays parmi les exemples récents de son travail on peut citer les portraits du premier ministre au recto des nouveaux billets canadiens de 5 et 100 dollars",
+  "timestamp_utc": "2026-07-05T05:11:32Z",
+  "text": "Il a également gravé des billets de banque pour de nombreux pays. Parmi les exemples récents de son travail, on peut citer les portraits du Premier ministre au recto des nouveaux billets canadiens de 5 et 100 dollars.",
+  "latency_sec": 2.664,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Il a également gravé des billets de banque pour de nombreux pays. Parmi les exemples récents de son travail, on peut citer les portraits du Premier ministre au recto des nouveaux billets canadiens de 5 et 100 dollars.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPlG20+AeYrdvKFMTJbRXhp06P6rmKjscMGwLn4r6d7tWwIuuJJISauH4nY4ln"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228292,
+    "id": "g-dJat2JE_HZ1e8Pi4G_8QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 49,
+      "prompt_tokens": 405,
+      "total_tokens": 454
+    }
+  }
+}

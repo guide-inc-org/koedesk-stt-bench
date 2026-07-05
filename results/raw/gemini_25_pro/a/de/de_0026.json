@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0026",
+  "lang": "de",
+  "engine": "gemini_25_pro",
+  "duration_sec": 10.8,
+  "ref_text_raw": "Man sieht nichts außer dem darüber liegenden, klaren, wunderschönen Himmel und den zahlreichen umliegenden Bergen. Vom Innern der Höhle aus ist sehr wenig von dieser Welt zu sehen oder zu hören.",
+  "ref_text_normalized": "man sieht nichts außer dem darüber liegenden klaren wunderschönen himmel und den zahlreichen umliegenden bergen vom innern der höhle aus ist sehr wenig von dieser welt zu sehen oder zu hören",
+  "timestamp_utc": "2026-07-05T03:42:06Z",
+  "text": "Man sieht nichts außer dem darüberliegenden, klaren, wunderschönen Himmel und den zahlreichen und umliegenden Bergen. Vom Inneren der Höhle aus ist es sehr wenig von dieser Welt zu sehen oder zu hören.",
+  "latency_sec": 7.6063,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Man sieht nichts außer dem darüberliegenden, klaren, wunderschönen Himmel und den zahlreichen und umliegenden Bergen. Vom Inneren der Höhle aus ist es sehr wenig von dieser Welt zu sehen oder zu hören.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222926,
+    "id": "h9JJapDMO_z-2roPj568yQI",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 367,
+      "total_tokens": 1030
+    }
+  }
+}

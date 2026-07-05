@@ -1,0 +1,39 @@
+{
+  "utt_id": "pt_0003",
+  "lang": "pt",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.68,
+  "ref_text_raw": "O romantismo tinha um grande elemento de determinismo cultural, extraído de escritores como Goethe, Fichte e Schlegel.",
+  "ref_text_normalized": "o romantismo tinha um grande elemento de determinismo cultural extraído de escritores como goethe fichte e schlegel",
+  "timestamp_utc": "2026-07-05T06:27:28Z",
+  "text": "O romantismo tinha um grande elemento de determinismo cultural, extraído de escritores como Gotch, Ficht e Skellegion.",
+  "latency_sec": 6.8893,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "O romantismo tinha um grande elemento de determinismo cultural, extraído de escritores como Gotch, Ficht e Skellegion.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232848,
+    "id": "SvlJatnKO-nn2roPlKW22Ao",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 363,
+      "total_tokens": 1052
+    }
+  }
+}

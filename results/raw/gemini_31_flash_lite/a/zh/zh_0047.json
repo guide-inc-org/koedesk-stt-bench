@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0047",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.3,
+  "ref_text_raw": "该海湾曾在 1889 年发生过一场臭名昭著的海军对峙，当时来自德国、美国和英国的七艘舰船拒绝驶离这个海湾。",
+  "ref_text_normalized": "该 海 湾 曾 在 1889 年 发 生 过 一 场 臭 名 昭 著 的 海 军 对 峙 当 时 来 自 德 国 美 国 和 英 国 的 七 艘 舰 船 拒 绝 驶 离 这 个 海 湾",
+  "timestamp_utc": "2026-07-05T09:13:30Z",
+  "text": "该海湾曾在1889年发生过一场臭名昭著的海军对峙，当时来自德国、美国和英国的七艘舰船拒绝驶离这个海湾。",
+  "latency_sec": 2.6993,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "该海湾曾在1889年发生过一场臭名昭著的海军对峙，当时来自德国、美国和英国的七艘舰船拒绝驶离这个海湾。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPPndLrOtxjDLqPAxfAr0VMxx1xAkrnuqn80E4ff+tdLhGeOeK0IQ/icWr73cg"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242810,
+    "id": "OSBKapCcF8fE0-kP8qfE0QY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 329,
+      "total_tokens": 369
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "pt_0001",
+  "lang": "pt",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.62,
+  "ref_text_raw": "Construída pelos egípcios no século 3 A.C., a Grande Pirâmide é uma das muitas grandes estruturas de pirâmide construídas para honrar faraós mortos.",
+  "ref_text_normalized": "construída pelos egípcios no século 3 a.c. a grande pirâmide é uma das muitas grandes estruturas de pirâmide construídas para honrar faraós mortos",
+  "timestamp_utc": "2026-07-05T06:53:54Z",
+  "text": "Construída pelos egípcios no século III a.C., a Grande Pirâmide é uma das muitas grandes estruturas da pirâmide construídas para honrar faraós mortos.",
+  "latency_sec": 2.7268,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Construída pelos egípcios no século III a.C., a Grande Pirâmide é uma das muitas grandes estruturas da pirâmide construídas para honrar faraós mortos.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP1T5+jXHZdnEnYESX6shcCp9mSmSpqNdm5FQ7ef+LSj+RdyMizz4wY1R1U/EM"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234434,
+    "id": "gf9JaoaMBfjG2roPjLn34AI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 362,
+      "total_tokens": 401
+    }
+  }
+}

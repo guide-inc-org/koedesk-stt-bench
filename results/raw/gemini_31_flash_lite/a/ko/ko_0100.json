@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0100",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.36,
+  "ref_text_raw": "과학자들은 암흑물질이 일반 물질과 같은 방식으로 다른 암흑물질에 영향을 준다고 결론지었습니다.",
+  "ref_text_normalized": "과학자들은 암흑물질이 일반 물질과 같은 방식으로 다른 암흑물질에 영향을 준다고 결론지었습니다",
+  "timestamp_utc": "2026-07-05T06:24:54Z",
+  "text": "과학자들은 암흑 물질이 일반 물질과 같은 방식으로 다른 암흑 물질에 영향을 준다고 결론지었습니다.",
+  "latency_sec": 2.7101,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "과학자들은 암흑 물질이 일반 물질과 같은 방식으로 다른 암흑 물질에 영향을 준다고 결론지었습니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPzZgCGxpDfoy277ZSaVfLYgaMv4uKRlGCGyMkXWgy7l1/oORAsBTnqDi8P2WZ"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232694,
+    "id": "tfhJaqLOCLycrfcP6t_NqQY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 330,
+      "total_tokens": 355
+    }
+  }
+}

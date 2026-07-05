@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0098",
+  "lang": "es",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.52,
+  "ref_text_raw": "A dos años del final de la guerra, los que eran aliados ahora eran enemigos y la Guerra Fría comenzó.",
+  "ref_text_normalized": "a dos años del final de la guerra los que eran aliados ahora eran enemigos y la guerra fría comenzó",
+  "timestamp_utc": "2026-07-05T04:20:39Z",
+  "text": "A dos años del final de la guerra, los que eran aliados, ahora eran enemigos y la Guerra Fría comenzó.",
+  "latency_sec": 4.3007,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "A dos años del final de la guerra, los que eran aliados, ahora eran enemigos y la Guerra Fría comenzó.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225239,
+    "id": "k9tJatHHN6fKrfcP5Pio2QM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 294,
+      "total_tokens": 402
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0070",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.72,
+  "ref_text_raw": "Las escenas se proyectan en las pirámides y todas ellas son iluminadas.",
+  "ref_text_normalized": "las escenas se proyectan en las pirámides y todas ellas son iluminadas",
+  "timestamp_utc": "2026-07-05T04:37:55Z",
+  "text": "Las escenas se proyectan en las pirámides y todas ellas son iluminadas.",
+  "latency_sec": 3.4872,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Las escenas se proyectan en las pirámides y todas ellas son iluminadas.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPD4WCfF2xN49eLEzt5aJc95BKPNsJVEYdszJQMZgHZFsoNBpHoq00nmdOyZUP"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226275,
+    "id": "od9JaueADq7H0-kPp7WTuQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 17,
+      "prompt_tokens": 189,
+      "total_tokens": 206
+    }
+  }
+}

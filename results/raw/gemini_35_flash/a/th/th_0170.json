@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0170",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.36,
+  "ref_text_raw": "ต่อมามีช่างภาพหลายคนมาแทนที่หญิงชราเนื่องจากเธอต้องไปเข้าห้องน้ำ เมนโดซาถูกยิงจนพ่ายแพ้",
+  "ref_text_normalized": "ต่อมามีช่างภาพหลายคนมาแทนที่หญิงชราเนื่องจากเธอต้องไปเข้าห้องน้ำ เมนโดซาถูกยิงจนพ่ายแพ้",
+  "timestamp_utc": "2026-07-05T08:08:13Z",
+  "text": "ต่อมามีช่างภาพหลายคนมาแทนที่หญิงชราเนื่องจากเธอต้องไปห้องน้ำ เมนโดซ่าถูกยิงอย่างพ่ายแพ้",
+  "latency_sec": 5.2365,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ต่อมามีช่างภาพหลายคนมาแทนที่หญิงชราเนื่องจากเธอต้องไปห้องน้ำ เมนโดซ่าถูกยิงอย่างพ่ายแพ้",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238893,
+    "id": "6BBKas7INe2crfcPkMChIA",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 180,
+      "total_tokens": 615
+    }
+  }
+}

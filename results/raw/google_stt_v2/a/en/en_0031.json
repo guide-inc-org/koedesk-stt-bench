@@ -1,0 +1,36 @@
+{
+  "utt_id": "en_0031",
+  "lang": "en",
+  "engine": "google_stt_v2",
+  "duration_sec": 9.58,
+  "ref_text_raw": "In the north the region is bounded by the Sahel, and in the south and west by the Atlantic Ocean.",
+  "ref_text_normalized": "in the north the region is bounded by the sahel and in the south and west by the atlantic ocean",
+  "timestamp_utc": "2026-07-05T03:26:43Z",
+  "text": "In the north, the region is bounded by the Sahel and in the south and west by the Atlantic Ocean.",
+  "latency_sec": 3.4971,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "en-US",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "10s",
+      "requestId": "743d3075-0000-263e-843b-f4f5e8031264",
+      "prompt": "Transcribe the following speech segment in English. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, English."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "In the north, the region is bounded by the Sahel and in the south and west by the Atlantic Ocean."
+          }
+        ],
+        "languageCode": "en-US"
+      }
+    ]
+  }
+}

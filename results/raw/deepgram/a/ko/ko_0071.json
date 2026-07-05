@@ -1,0 +1,100 @@
+{
+  "utt_id": "ko_0071",
+  "lang": "ko",
+  "engine": "deepgram_nova3",
+  "duration_sec": 10.02,
+  "ref_text_raw": "에어로스미스는 투어 콘서트의 남아있는 공연들을 취소했다.",
+  "ref_text_normalized": "에어로스미스는 투어 콘서트의 남아있는 공연들을 취소했다",
+  "timestamp_utc": "2026-07-05T04:21:58Z",
+  "text": "에어로 스미스는 투어 콘서트에 남아 있는 공연들을 취소했다",
+  "latency_sec": 2.6417,
+  "params": {
+    "model": "nova-3",
+    "language": "ko",
+    "note": "model+language only; smart_format etc. = API defaults (R-2.4)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "transaction_key": "deprecated",
+      "request_id": "019f3082-f433-71f3-b5f7-fa14d5d9cc69",
+      "sha256": "644d486600612a5a4df4ba1669cba17aebadb16a1ece5e6ba777950b91eced5b",
+      "created": "2026-07-05T04:21:58.330Z",
+      "duration": 10.02,
+      "channels": 1,
+      "models": [
+        "3c79c76c-d186-482b-89d8-8b005a5e5917"
+      ],
+      "model_info": {
+        "3c79c76c-d186-482b-89d8-8b005a5e5917": {
+          "name": "general-nova-3",
+          "version": "2025-09-24.25124",
+          "arch": "nova-3"
+        }
+      }
+    },
+    "results": {
+      "channels": [
+        {
+          "alternatives": [
+            {
+              "transcript": "에어로 스미스는 투어 콘서트에 남아 있는 공연들을 취소했다",
+              "confidence": 0.99609375,
+              "words": [
+                {
+                  "word": "에어로",
+                  "start": 2.6399999,
+                  "end": 3.04,
+                  "confidence": 0.99365234
+                },
+                {
+                  "word": "스미스는",
+                  "start": 3.04,
+                  "end": 3.6799998,
+                  "confidence": 0.9848633
+                },
+                {
+                  "word": "투어",
+                  "start": 3.6799998,
+                  "end": 4.08,
+                  "confidence": 1.0
+                },
+                {
+                  "word": "콘서트에",
+                  "start": 4.08,
+                  "end": 4.88,
+                  "confidence": 0.99658203
+                },
+                {
+                  "word": "남아",
+                  "start": 4.88,
+                  "end": 5.2,
+                  "confidence": 0.91259766
+                },
+                {
+                  "word": "있는",
+                  "start": 5.2,
+                  "end": 5.44,
+                  "confidence": 0.99609375
+                },
+                {
+                  "word": "공연들을",
+                  "start": 5.44,
+                  "end": 6.16,
+                  "confidence": 0.99609375
+                },
+                {
+                  "word": "취소했다",
+                  "start": 6.16,
+                  "end": 7.12,
+                  "confidence": 0.9946289
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

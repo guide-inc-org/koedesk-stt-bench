@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0107",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.46,
+  "ref_text_raw": "Les enfants sont placés dans des familles d’accueil pour des raisons très diverses qui vont de la négligence à la maltraitance, en passant par l’extorsion.",
+  "ref_text_normalized": "les enfants sont placés dans des familles d'accueil pour des raisons très diverses qui vont de la négligence à la maltraitance en passant par l'extorsion",
+  "timestamp_utc": "2026-07-05T05:11:00Z",
+  "text": "Les enfants sont placés dans des familles d'accueil pour des raisons très diverses qui vont de la négligence à la maltraitance en passant par l'exploitation.",
+  "latency_sec": 6.2388,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Les enfants sont placés dans des familles d'accueil pour des raisons très diverses qui vont de la négligence à la maltraitance en passant par l'exploitation.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228260,
+    "id": "YOdJarqgGJ2hvr0P78yT2Q8",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 233,
+      "total_tokens": 806
+    }
+  }
+}

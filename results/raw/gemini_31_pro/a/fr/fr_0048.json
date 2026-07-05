@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0048",
+  "lang": "fr",
+  "engine": "gemini_31_pro_preview",
+  "duration_sec": 7.98,
+  "ref_text_raw": "L’équipe des sapeurs pompiers a finalement éteint le feu à 23 h 35.",
+  "ref_text_normalized": "l'équipe des sapeurs pompiers a finalement éteint le feu à 23 h 35",
+  "timestamp_utc": "2026-07-05T04:50:00Z",
+  "text": "L'équipe des sapeurs-pompiers a finalement éteint le feu à vingt-trois heures trente-cinq.",
+  "latency_sec": 4.2453,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-pro-preview",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "L'équipe des sapeurs-pompiers a finalement éteint le feu à vingt-trois heures trente-cinq.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EvEDCu4DARFNMg8yh1o3TqfPlxpI1pfUlHjvUbvoULroeD4ym6zCGEuuOesR48UaYHAPb4VGGXlTOlG58lgMtCJ8JY8nIzp+25SUDJK2+NGEcc0oTwWkuwKT6+Z+Ik2WHX/+0myf3Om7D3KwcRYcS+UjYPFPjBm9XKtn8SNYzaqsM8aUErCXQ1teM9AN8VAHmqLvnpZ38CDD+A3SP+oJ9KjDEISYrPeBAmvs3cKxilLmCOXSczrnK/62pKc550GrXDhs1LIblFhsHE19wT+59ceoKrbNUjUCwchAGz4Mebj7NaCS9LfiP4hhNgJ8yS0gAQQHr42cIWFMPF+ED5py3KeMc3MS2R5TxfrM9jlIxLkI9d6zZF34wpARFXIOGfvtyBhyRHDf/R1zBjFBYadipLqKp/2QwCAgJHfGi1EJ2YMfIGp3yOE9UKUPt4Gm+Nw538m3zVb+3GdAgMLh27SYqepMmatO31BFut2wa1NFLkGqRK3ngw2p2datLY4wcisSjXoNFkOB4rcRtamgPHz/2/3io+nCRVuvpbWcMUosfwuDIEdhS4LKVvQll7paqavRgww7deSs0Yw9/10uAjLtQp8KQVc1IJH9XL9Y+4I6lEFau3x0UEBOw1CzlMnlf6i3bidTPR+GtV5+gjv420W0FHncsfc="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227000,
+    "id": "dOJJas_8MMqfvr0Plb-amQM",
+    "model": "gemini-3.1-pro-preview",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 221,
+      "total_tokens": 404
+    }
+  }
+}

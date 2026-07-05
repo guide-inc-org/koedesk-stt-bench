@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0118",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.66,
+  "ref_text_raw": "In ihren frühen Tagen wurde die Show nur auf der altgedienten Internetradioseite TogiNet Radio gezeigt, eine Site, die den Schwerpunkt auf Talkradio legt.",
+  "ref_text_normalized": "in ihren frühen tagen wurde die show nur auf der altgedienten internetradioseite toginet radio gezeigt eine site die den schwerpunkt auf talkradio legt",
+  "timestamp_utc": "2026-07-05T04:05:53Z",
+  "text": "In ihren frühen Tagen wurde die Show nur auf der altgedienten Internet-Radioseite Toginet Radio gezeigt, einer Site, die den Schwerpunkt auf Talkradio legt.",
+  "latency_sec": 4.2287,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "In ihren frühen Tagen wurde die Show nur auf der altgedienten Internet-Radioseite Toginet Radio gezeigt, einer Site, die den Schwerpunkt auf Talkradio legt.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EuMKCuAKARFNMg/2zwgvPD4ZQIdkpwzaw2as+A787+Jo0VPkTGHl4R/tIc2NV6qN/XHVaLuipDLKWV7+coURiS4sXt1bhmUIsW5gRALKJjCDsV0JNfd26W8Qw1EOC2ptn71oJOYCSt4tVxJyU17HDWGVcS82znz88jzK8NrT8/J7PnXNqmP0ztMr6bVejOovA3eBD5wRs5kGW8hIEtP6u33SjyctmNDQx+T3+X15mi1UMTGCPkhBq1UTdrdGgEQzwzTi5nOWeLqUC7mqHo3YPKmFFqM4pokzaPogTEOV/z82+hVnU1U0fKjhfIxuwnLxTNGApvIEFVaUgWDehez7MOJPfZRMrjs+SvcpIo0XAmKonFtdLD2zZwcLdaSWtc7XFVDCy6QPO/ddN3DPj282g2Fth7hz9c1VkE53cfePN4RbN5u2y4lplnY+Stqci2QCaDh3+AGYBq13nvxIGp3huBvMWwtmWQ0x378E+nBXNil9LUTATikKdyxWd8sGrfxQYC6FXkqYZKeEEv5fvWOMeFBx0yNFThDbwHSw5ETm6OrH7XZYGCR4XdKjw8F3M2wXrnM/yZpHu1vy7rgXRkDh2qJ8yDfI4OkGqBuEcWj2NokiyAIzq1B9BIhW29qB88zsLm2PpncyC9nwdJ1q6wSxGZPzd3cpVB//FDg/MLmkV/BolcGeuEFIG6AJ9iU/Ocs3giYOadx5Rvgis1Gb4U2q+pq0lyuIA6eqzmkBTkR9NRTeheGcC05SjEK9cWYkcXoTyv5Cnj03Lkx/MqpIjVYtGDgP8igPq4a8FQsThs7hVxxv8rFEg+VLtUPNmmB5L/jAMXX1oKQrNn84qwqoyzkGvFa+Rv5VyzZSGWX71wH5tjfQ4enA9Hv6OJOokitx4yNEtXDPnqvKel7g+nk1hfMVwVA2xM3jQNnVR8KzBLF32vf33NnoviXKaMLgYPTR1DQH6e85RAkbj2I2hD9rRo8zc4GmXdkCJW8oQg8afnm7FlG1b8zLM1NvtfidWFDhb51YzxqGsmBo6hEzIAykJ7aVM3PO42Au9bfM8+pO7PtYEdKLf+2eOBN3Wm33dHvf6ICNsfeqDkTcb2NcgZqLYCqcgVUCmnAVGSRZNiedCobrWihnToVfZiuP9EnHWxRleCqVU7DYW3y7AObFC+Xgl0npaAdyQoTlQK+wsIW+yUaYEy+nVOIMaO407j86WtZIQwkD0eHzourZe1isv4oe7kp/4H2A92rnCvfoMRcyxM7VT2osz37aYkNj09b3cUUEzaSk/GTvVxWVwpzv6wGcXGmclbPcsQUQv29Ef1RDiV0XkO49JIBpKQaVrVxu5Mvh/m/w8M6/YbGn2d+ONl2eTSsLqr7TDY2ZDQvsi22eeZ0/k6uwcp4q6EKG3eFBCRreKUld2rQTKJM34cXBMTfW1S6e9N6ZbjO4nX/8quh8Wdp+LtDNwdESzBWEHPj2zzlqSgLPgA2fwV5TEeTn7NYAktdJSfjLggFAnPzoIvyl3dAv2G+J0FP77TjYEriOvwFS6GVsxa48r7fftbOXJPZCe/QdFXsHM0YIcIxolAbfSHuhZN+iZgaNKLYNM/CFJAtJN85qAl7z0VrAoubrhRJeEhvOAy4kEs67Rqf0W3z8tuzyvDqE7cg3M0uEpVKwx1KuNpC6RXpdCzHdIUBndr9qY4Yy95Guk/KWrYQZGAaHaVPb6tLPuOkyzlQxzXcFU5aXcNvjELaqSSsqu/7ybRyaeJjlb+j4ZBX8LWFPA3uoTHm22938bwQECPMxVBg9LuYyVPtjBwfTwl8pfXBrGNpovYYCkWz9E3ISIodit7cc9biXcqH0ZRg6RLU="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224353,
+    "id": "HthJataRFsDH2roPzfDW-AM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 263,
+      "total_tokens": 640
+    }
+  }
+}

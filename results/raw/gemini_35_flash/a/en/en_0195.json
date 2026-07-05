@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0195",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.54,
+  "ref_text_raw": "Feral children may have experienced severe child abuse or trauma before being abandoned or running away.",
+  "ref_text_normalized": "feral children may have experienced severe child abuse or trauma before being abandoned or running away",
+  "timestamp_utc": "2026-07-05T03:39:38Z",
+  "text": "Feral children may have experienced severe child abuse or trauma before being abandoned or running away.",
+  "latency_sec": 3.4798,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Feral children may have experienced severe child abuse or trauma before being abandoned or running away.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EsoFCscFARFNMg8+s4CW1NM9FvzpH7ESo+8qMb7zB4854rbXiBZkZVxFbP/cS1F20IFMxynQRRLvxhq2Hy404u7yDQHo8NJG+Xd0lq3mMIE78L56g8YOyXoGGw4wIzWZNGZJuW2NHU2sH9ZXFmMx+bXYOlfSwpWveRcKd44F0pF0rKyeAVf+QTWgnGR7hob3Wv4IpTFRZ00lVNlqTA9l+ebGcGjhmF9I1bPCBDEWnopteaz/fl+nMUmGaAuOYxTmHIcZlR3zh5EYicZ/DSktVldObvdUCAxjfjX/NMotp1u1W0/ciEZk6VGx9xRBixAEMuue0SmzGz0XfnKEfMTxBFZr+pa7N6fYCJyJ20NHEtaOzWpAdFCRdQDZm8Hq9ky9YXGPNNi6BWOuUExbg2mIIXKa/jrKeTe5kUvkbHGgC/9nzawdDNPDvBeKmEkZJegtGgLAg9IfqZD/6G7wDmDx3ayGbnOHO8EdAsewQE0m7Zu6IOO3Y4gHJCgGg5JrecaI66eWozWMIZ20p3hrbFrUtuutIEq2bl9JN9kARwwtqiRhrmOxOphjUblLj8E9S+RkLI8KXotGyJgMjTRRv0pfW81Xi4lollsuEpatIyGH4P5FUuYswjsehuGstUw/CN7hMqdOHslqAyZqWNhdEaG/Uso/VH6WUGiCxqdv3iR+YXLJBnIyIpLtrmT0rRdc16sGQ2Nd4/b4yk9uUsLF2JZs28Bnjta+NQXhJLrwjmq8eIwCVOuvTQcJoIjV5EVTURrUalILAyMJFdEsvB0D9j/sA5oV4g+te6uD0sBDxKL45H8Vdcs9VKfa/jNkcVla0e5/rUa5hla6o7jOkrsYVa2i6g1/wl816JRZNe77aPhGjpqllf+AejH9Kx7I2i0ZywJ4LXZN//HDBqhrZzRaMDKD4pzLhl10aMP63oMaeHCcE4bYE+NTltDAERhpxVOY"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222778,
+    "id": "-NFJauPcB4CUvr0P6IWioQU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 185,
+      "total_tokens": 350
+    }
+  }
+}

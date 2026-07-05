@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0119",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.66,
+  "ref_text_raw": "Ses longues mâchoires étaient dotées de plus de 70 dents acérées comme des lames de rasoir, ainsi que d'une série supplémentaire de dents dans le palais, de sorte que tout ce qui croisait son chemin ne pouvait pas s'échapper.",
+  "ref_text_normalized": "ses longues mâchoires étaient dotées de plus de 70 dents acérées comme des lames de rasoir ainsi que d'une série supplémentaire de dents dans le palais de sorte que tout ce qui croisait son chemin ne pouvait pas s'échapper",
+  "timestamp_utc": "2026-07-05T05:16:53Z",
+  "text": "Sa longue mâchoire était dotée de plus de 70 dents, acérées comme des lames de rasoir, ainsi que d'une série supplémentaire de dents dans le palais de sorte que tout ce qui croisait son chemin ne pouvait pas s'échapper.",
+  "latency_sec": 2.9057,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Sa longue mâchoire était dotée de plus de 70 dents, acérées comme des lames de rasoir, ainsi que d'une série supplémentaire de dents dans le palais de sorte que tout ce qui croisait son chemin ne pouvait pas s'échapper.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP5WcPIJb+cEW0/D8bXRBg6aUeUNLAXWSXTu0+mBnOrPckLqGVtoS11dsamd5l"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228613,
+    "id": "xOhJap-jBIrW1e8Py5HYyAE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 55,
+      "prompt_tokens": 338,
+      "total_tokens": 393
+    }
+  }
+}

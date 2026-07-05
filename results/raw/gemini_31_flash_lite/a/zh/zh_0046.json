@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0046",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.56,
+  "ref_text_raw": "杜瓦尔已婚，有两个已经成年的孩子，他并没有给故事的讲述者米勒留下太大印象。",
+  "ref_text_normalized": "杜 瓦 尔 已 婚 有 两 个 已 经 成 年 的 孩 子 他 并 没 有 给 故 事 的 讲 述 者 米 勒 留 下 太 大 印 象",
+  "timestamp_utc": "2026-07-05T09:13:27Z",
+  "text": "杜瓦已婚，有两个已经成年的孩子，他并没有给故事的讲述者米勒留下太大印象。",
+  "latency_sec": 2.7241,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "杜瓦已婚，有两个已经成年的孩子，他并没有给故事的讲述者米勒留下太大印象。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPUsk70iUgfVQxQf1gQzal6zL1Dfm9HAjGkh+nQUGltHCaWpVoMmfZclfCUppc"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242807,
+    "id": "NSBKaumfLvyk0-kP9PODwAc",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 285,
+      "total_tokens": 309
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0103",
+  "lang": "zh",
+  "engine": "gemini_25_pro",
+  "duration_sec": 14.16,
+  "ref_text_raw": "我们同意美国奥委会的声明，与其吊销执照，不如在我们组织内部继续推进有意义的变革，可能更有利于维护运动员和俱乐部的利益及其运动。",
+  "ref_text_normalized": "我 们 同 意 美 国 奥 委 会 的 声 明 与 其 吊 销 执 照 不 如 在 我 们 组 织 内 部 继 续 推 进 有 意 义 的 变 革 可 能 更 有 利 于 维 护 运 动 员 和 俱 乐 部 的 利 益 及 其 运 动",
+  "timestamp_utc": "2026-07-05T08:59:40Z",
+  "text": "我們同意美國奧委會的聲明,與其吊銷執照,不如在我們組織內部繼續推進有意義的變革,這樣可能更有利於維護運動員和俱樂部的利益及其運動。",
+  "latency_sec": 3.5216,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "我們同意美國奧委會的聲明,與其吊銷執照,不如在我們組織內部繼續推進有意義的變革,這樣可能更有利於維護運動員和俱樂部的利益及其運動。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241980,
+    "id": "-hxKasuyBLmVvr0PopTJiQc",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 475,
+      "total_tokens": 522
+    }
+  }
+}

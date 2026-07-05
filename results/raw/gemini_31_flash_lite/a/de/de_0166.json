@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0166",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.92,
+  "ref_text_raw": "Die Hauptstadt von Moldawien ist Kischinau. Die einheimische Sprache ist Rumänisch, aber viele Menschen sprechen auch Russisch.",
+  "ref_text_normalized": "die hauptstadt von moldawien ist kischinau die einheimische sprache ist rumänisch aber viele menschen sprechen auch russisch",
+  "timestamp_utc": "2026-07-05T04:10:02Z",
+  "text": "Die Hauptstadt von Moldawien ist Chișinău. Die einheimische Sprache ist Rumänisch, aber viele Menschen sprechen auch Russisch.",
+  "latency_sec": 3.8217,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Die Hauptstadt von Moldawien ist Chișinău. Die einheimische Sprache ist Rumänisch, aber viele Menschen sprechen auch Russisch.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPVfeZDY0bsfy6KhsY7HNp4KZv5fpCICP9t/WCX9n9RMbhIWJB9K7HcBFhddSM"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224602,
+    "id": "GNlJaqKsEfHZ1e8Pi4G_8QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 294,
+      "total_tokens": 324
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0127",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.52,
+  "ref_text_raw": "\"Eine Internetsuche nach \"\"Kurs über feindselige Umgebungen\"\" wird vermutlich die Adresse eine örtlichen Firma anzeigen.\"",
+  "ref_text_normalized": "\"eine internetsuche nach \"kurs über feindselige umgebungen\" wird vermutlich die adresse eine örtlichen firma anzeigen.",
+  "timestamp_utc": "2026-07-05T04:07:27Z",
+  "text": "Eine Internetsuche nach Kurs über feindselige Umgebungen wird vermutlich die Adresse einer örtlichen Firma anzeigen.",
+  "latency_sec": 2.7585,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Eine Internetsuche nach Kurs über feindselige Umgebungen wird vermutlich die Adresse einer örtlichen Firma anzeigen.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPinNpFIvYt9QNI0+cxFO0LGgLRbCIbRXnVWKpys5QFDrMgBIfU0KtCTRynF44"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224447,
+    "id": "fthJauCRB6yv1e8P3_jVaA",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 384,
+      "total_tokens": 408
+    }
+  }
+}

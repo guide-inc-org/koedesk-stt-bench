@@ -1,0 +1,45 @@
+{
+  "utt_id": "es_0038",
+  "lang": "es",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 13.08,
+  "ref_text_raw": "El filósofo Aristóteles desarrolló la teoría de que todo está formado por una combinación de uno o varios de cuatro elementos: tierra, agua, aire y fuego.",
+  "ref_text_normalized": "el filósofo aristóteles desarrolló la teoría de que todo está formado por una combinación de uno o varios de cuatro elementos tierra agua aire y fuego",
+  "timestamp_utc": "2026-07-05T04:31:57Z",
+  "text": "El filósofo Aristóteles desarrolló la teoría de que todo está formado por una combinación de uno o varios de cuatro elementos: tierra, agua, aire y fuego.",
+  "latency_sec": 3.8539,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "El filósofo Aristóteles desarrolló la teoría de que todo está formado por una combinación de uno o varios de cuatro elementos: tierra, agua, aire y fuego.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EvQFCvEFARFNMg8VhoLNRkETd9940eRckoCDmB7guTD0OcjdqHuP6psB/q6TdSeukq+Mgv2+ekp6sZAWO8k+t14W0sTCJJCqqru013bnP5YgKcSq7wzRbFW6stRJcXoNUo2EBWl8JT0NdnZpGfKG21dw5y4SG6YzNFXZcBirkEruuDfKLf8F6XH3obeQKMc9eBFKj/gvhNMQ/MHObhYSv5T7ExEg6A3HlyIhiWZZnIhdMVNRhf6oeaMOwL2VIhOzDs262b4FZLkDuCr6uScupq48coynnqugKZKvJsRTsHspNAfSYe42+aHLkzQy11zQq/DLqZyPhgefbplqsv0NujHYyrgiK5VwM856cZDm6lYf5y+H8YnNHtoHX7zSzdQjz2JddLlVML3AZxSENQ3WNWDPhwKdis5ocuR2ZdiVAmXh9sbtDKuUgT7amqVRso0Cl29xC150eJBhlXwyG2VPNhodeQD//DqCn/d500dLJZCIJfnYTw+/cmgndQbCO74lnoYl73KPuxMMtjeHMKs+D++oNm7fq86OyWZU8Jt9LGXoWaBjEPmwkc/MZeNmnquGGaNBddAuMgsz5dzVPibk6e6/sA5BdWcjZ9sN0oFpNauUymea6nG2mH8VcTPkk7E1EO07DI7Cz6Qbi4xcDS+cgjh2SJ+BwwMPn6fl5j+r6ZBAg5It5Gos7R9tS+hpmpcRzPGNkdfGvDQEV4u3wcADmI8pB6XlW/tAE4tb/N7icWKAK4UjugoTtXSvYKwxmfu7hG/4ag2eJgMvTfXF4k/hg2E2iqYWudd8GcDIP4Sawi766R1fQL9trsWeWnIrJHj+CFuCIFIUNdwf0DhuoslTCkq8C2JRcC0m2GPhLr/Wah6T30Tddo2D7bRZy3h4Uv01kNcX5EjzaOn+7lVR6z60LduTkqOEvVsIsRo/qVYn2EISnHJVwaDwX1TZbzfINalIA2vYif1wjkXuXFS3yVf3q48F/p/VePxfr3W0RVRuQusQ/7gc/glM"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225917,
+    "id": "O95JaufKI8mD0-kPmZ7guAM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 348,
+      "total_tokens": 541
+    }
+  }
+}

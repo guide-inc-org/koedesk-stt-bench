@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0133",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 18.96,
+  "ref_text_raw": "Im Norden ist die Region von der Sahelzone begrenzt und im Süden und Westen vom Atlantischen Ozean.",
+  "ref_text_normalized": "im norden ist die region von der sahelzone begrenzt und im süden und westen vom atlantischen ozean",
+  "timestamp_utc": "2026-07-05T04:07:49Z",
+  "text": "Im Norden ist die Region von der Sahelzone begrenzt und im Süden und Westen vom Atlantischen Ozean.",
+  "latency_sec": 3.0981,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Im Norden ist die Region von der Sahelzone begrenzt und im Süden und Westen vom Atlantischen Ozean.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPk8gf327auAWjj20M3rXsonSyW7H/bGiC0b1H5TIyjDnpKwdnGmx254WN0+Yu"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224470,
+    "id": "lNhJauSZHsvb2roP0s2koQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 495,
+      "total_tokens": 518
+    }
+  }
+}

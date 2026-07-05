@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0030",
+  "lang": "en",
+  "engine": "gemini_25_flash",
+  "duration_sec": 5.64,
+  "ref_text_raw": "Virtual teams are held to the same standards of excellence as conventional teams, but there are subtle differences.",
+  "ref_text_normalized": "virtual teams are held to the same standards of excellence as conventional teams but there are subtle differences",
+  "timestamp_utc": "2026-07-05T10:21:21Z",
+  "text": "Virtual teams are held to the same standard of excellence as conventional teams, but there are subtle differences.",
+  "latency_sec": 3.2598,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Virtual teams are held to the same standard of excellence as conventional teams, but there are subtle differences.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246881,
+    "id": "HzBKavy8EMmrvr0Ps4zPyAI",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 202,
+      "total_tokens": 245
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0095",
+  "lang": "ko",
+  "engine": "gemini_25_pro",
+  "duration_sec": 7.26,
+  "ref_text_raw": "\"1940년 8월 15일, 연합군은 프랑스 남부를 침략했고, 이 침략은 \"\"드래군 작전\"\"이라 불렸다. \"",
+  "ref_text_normalized": "\"1940년 8월 15일 연합군은 프랑스 남부를 침략했고 이 침략은 \"드래군 작전\"\"이라 불렸다. ",
+  "timestamp_utc": "2026-07-05T06:07:22Z",
+  "text": "1944년 8월 15일, 연합군은 프랑스 남부를 침략했고 이 침략은 드래곤 작전이라 불렸다.",
+  "latency_sec": 3.7341,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "1944년 8월 15일, 연합군은 프랑스 남부를 침략했고 이 침략은 드래곤 작전이라 불렸다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231642,
+    "id": "l_RJatjKN4PMrfcPiKHRgAE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 254,
+      "total_tokens": 354
+    }
+  }
+}

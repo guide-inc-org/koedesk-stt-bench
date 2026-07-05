@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0186",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 15.54,
+  "ref_text_raw": "수면 방해는 정상적인 수면 기간 동안 의도적으로 잠을 깨운 다음 짧은 시간(10–60분)이 지난 후에 잠드는 과정입니다.",
+  "ref_text_normalized": "수면 방해는 정상적인 수면 기간 동안 의도적으로 잠을 깨운 다음 짧은 시간10–60분이 지난 후에 잠드는 과정입니다",
+  "timestamp_utc": "2026-07-05T06:26:02Z",
+  "text": "수면 방해는 정상적인 수면 기간 동안 의도적으로 잠을 깨운 다음 짧은 시간 10분에서 60분이 지난 후에 잠드는 과정입니다.",
+  "latency_sec": 4.3639,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "수면 방해는 정상적인 수면 기간 동안 의도적으로 잠을 깨운 다음 짧은 시간 10분에서 60분이 지난 후에 잠드는 과정입니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EsUJCsIJARFNMg/VudE63suiHapGTiyAJEfj49s3IRYTQwAq1A7FcDnnUCYMMYfgv5UKV5CoV6VShHbzzpummFGA1NCK1vGu5k7pud3v64mRd/PNjZ9pgoHkOEB0B6/0auPJ8EUx2b5LI1gLrVqCA7unr7aJeKkPd+tIV0gFDjhNAb3iHBnJGQWAOK95lHIPIF2/sZIhC7d88OAMTscSWwZtgIQOWZDCLf8StW3jRXXo5KifHStjAKtKzV06OGzKdey7Up2LElYIJjXz4AEh5s17rrm951tUodZ/AWY3PBu3WoOhLAM/ynDdiNd6AWwOhZ7qTIaOLs5QGwrhqcyAYs6vOq91lsIIZ79wpqvmKQp5Ep+BkSW5t1FRLKhJ2P5LRD13oxVnOBHUJD8I47Vpe8//W1ZgXTFMJcgTlvfMsF77vQqFmt9ZmfOBxbgcRd8f4UUAADQ/GFPK1f4uXyU3TiH5zl+mNcz6YykQsCPje/Bq1bBfWOhLXdAwZAmY1qX3zL/y2XxVrdHKcgtx7WakXtTMuTLtpg68G47hvNZv/edXOGNF3BFMewFwKg2LijhAqlDTD6YBVbAhdRrJcO2LHXOivVRKYtw0eXRpShof0UhIP2lYdrB+xwmlWGSTtcco0T/n0kRqVZTqoaloenZnvj61ZhyRLrlgIhK/xtFBli/g9nroZj+jDfPYGNSfgUXeDQ5QerXgQT31K3UpwWAR8vSxSXsNrTV2N1m22Se9NJx/zbn12lz4EiyEs6UdVweWhPMiZ46otaJhZcDpllIzI2Gzeo/dobKKJfeKqZckfadHAM6dChsjrm5QIjkfNxUWcli4h/fryUFmmhERhJPoZ5WQ48f6v6aAE9xuSAphWkVwRn/PsYgE9CIke1mikHemHHsZQOnH9+AzrK6OqN7gRXMdFATC4FScSCYuh9i0/c/22fFOW+Y/l7Eev1SFpuUY3JbTRny4/1YAw7qC7x8OXhcthhuCXFI4hvbDIvUu5A93uNBMd6sq3Uhpc33x0/RXXlA7n9g/fgwgZHrgpVq1YF2Jo2K2DslByKYPlpaxAifyuruWS8qFPXs/KdflRDzv8d+NtgKPG0xVW5sZxV370B6zMEVPlGPU9aJbYi3ki8pgkCm8GeY54Y3sbT3+DvE9/c08UZn8rB/XQURtaZT7HmiDRO/UPiA2JVtUVUnl6Pzu42uycWd0sHqtbZm30Zy+wFl5Ji2BIU4VM9X8UGLIfm9reREoFOudeJTlaqe7aqx53mbo0YBlwubel4W6HdR8l5JxFwUuUkvosIudmqT+CLxYavV8AdEuVa3ZJs2As+jVfXjHeQuTRrH/BxoietirnNs3G3x4Y1KE5GraeNkc5oV9a8QRgrNVj+Nj1XrSuEHcbGsxxtzBwsaz8l90JLdbRwlO5LibGmcl0sGjB2n+EkoHgdeRtFwHk9YkWAVv2JveDOEeXTmthC2oa3xLkp7dKef1QrnR8hJLD8N/rqwqsD4iw1mWWoMgbmLsTxjoA4NaE8VcTS97B4MiD5Dqlh+AyQGkiA7SjoJZ/C0eVsxfgxdvLWktL+HLxQZ3HPtzo2+Tbjl+KIHtJYyDz4ZMvg0a8nECkH7zQW3BzQPoXBWlrPo3ibma+L4V"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232762,
+    "id": "9vhJatbIOJCe1e8PjsLZ0AQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 410,
+      "total_tokens": 817
+    }
+  }
+}

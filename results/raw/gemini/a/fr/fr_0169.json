@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0169",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 4.86,
+  "ref_text_raw": "Le chocolat chaud est conforme aux normes belges. Les jus de fruits sont chers mais excellents.",
+  "ref_text_normalized": "le chocolat chaud est conforme aux normes belges les jus de fruits sont chers mais excellents",
+  "timestamp_utc": "2026-07-05T04:58:24Z",
+  "text": "Le chocolat chaud est conforme aux normes belges. Le jus de fruits sont chers mais excellents.",
+  "latency_sec": 3.2249,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Le chocolat chaud est conforme aux normes belges. Le jus de fruits sont chers mais excellents.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227504,
+    "id": "buRJap-2EuKSvr0Pv53i8AM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 177,
+      "total_tokens": 221
+    }
+  }
+}

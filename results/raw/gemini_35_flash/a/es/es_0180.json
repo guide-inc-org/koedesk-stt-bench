@@ -1,0 +1,45 @@
+{
+  "utt_id": "es_0180",
+  "lang": "es",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.84,
+  "ref_text_raw": "Una bomba fue detonada en la puerta de la oficina del gobernador general.",
+  "ref_text_normalized": "una bomba fue detonada en la puerta de la oficina del gobernador general",
+  "timestamp_utc": "2026-07-05T04:43:38Z",
+  "text": "Una bomba fue detonada en la puerta de la oficina del gobernador general.",
+  "latency_sec": 3.776,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Una bomba fue detonada en la puerta de la oficina del gobernador general.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtcGCtQGARFNMg9vCmqygBs/u07Ty6jx7J2bl/PgEahYv11NilwthI7pGQB5DQDS35V6iXCXsuqJQX4adc6fRAp+Ld7X10nRqnmLKN+9qh6ZTqMEyu9GlHhs+GaxU57YAFT+3s0w83RmCX00+g18L2LqCzssO5mgxhRiX2tadWzC7iYmaPkefQ9Z9xhnO19VsEKMFdQUZ3g/jVQH3MscNlLC9HTgThKWaj0+EQScS6i551iBUCeCnD3TEzYOwbuZUE0TiYUdYEbDsZTrK9EIvhME7b67EF3Z+Vk8jMnj5iWCGenX0MsTrDouVeH2XOTBAIIq6afkHeX8boXHQ2XJcbLxIgerpb+E8G/IqiEDz9pu9pGl2NIt9kfPcniJl+zHsFYCnGndsv1Nw6vDdXupNvHJww3o4664DQalME9olqw5vR4clMroZGaPmsSop8jcWJKXbSLitwPjZY332SJV40HMjO0uveHQSKbMN8hrGIHafcWVftXlOI0y1TTrzSDHcNleX45h7IHLFU5JlfDo/OlHd5Uo+2oYHOziiBy1whj7dyELGdo/hMYStiNp5zBmuwXWLFiOAU1FezpFuTlMM2B6+JrPWv/UmGxkEHeD8os2mWEzV9es+KQO2Y/n/eAYrp4TCBG/qnYXBodF9PodJ4oG3WvYfXZ30/+W05UW8ujLL+kZ/C/UfSPhWEw5ecCspMdo4pyoariKxoWbRYByo5QxdzNXDa27sIWZneyXrGfONSHTB65zy0yWAK2j4Q2BpQFeysw0MUiMhLB/eJw/RdRDeZNOeFnc9BJzS1CY7nlyTBWifn2yF/JzEUU/gypdY2ZpAxwrwMCBBpY8afipK04ql1djB6tCVGJatNsKWDZIa+c0C0ZuemBGOoRhrQKkLntkELkVkPVHGlEL9Y8IZwYQjsPGtsTXyFRCG//njwtgK+dpFazr6itGKmhImXSNakGUTD53aIE0hPKGXxjEduTcamlsSqfIYKOHWimtCwZT5iWmdKCt8HIBPPmwRLdfMGfgN3wkDl3jXIyOIoELGGFNgZ3r9SZEejSx0G1rPG7tquMnPeV0U907sKYSvzaJqViL9HBezVW5nfcHZePGGR+ePiFNHFYi0CAcNNJgDYSppURq36BZgpaN"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226618,
+    "id": "9-BJasSQM5Ce1e8PjsLZ0AQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 15,
+      "prompt_tokens": 192,
+      "total_tokens": 416
+    }
+  }
+}

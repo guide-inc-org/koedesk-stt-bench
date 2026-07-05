@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0174",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 9.36,
+  "ref_text_raw": "它的舌头有可能是分叉的，对此我们尚不确定。它的食物包括海龟、大型鱼类、其他沧龙，甚至会吃人。",
+  "ref_text_normalized": "它 的 舌 头 有 可 能 是 分 叉 的 对 此 我 们 尚 不 确 定 它 的 食 物 包 括 海 龟 大 型 鱼 类 其 他 沧 龙 甚 至 会 吃 人",
+  "timestamp_utc": "2026-07-05T06:33:43Z",
+  "text": "它的舌头有可能是分岔的,对此我们尚不确定。它的食物包括海龟、大型鱼类、其他沧龙,甚至会吃人。",
+  "latency_sec": 3.7843,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "10s",
+      "requestId": "7299f55e-0000-2720-bb70-30fd38105428",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "它的舌头有可能是分岔的,对此我们尚不确定。它的食物包括海龟、大型鱼类、其他沧龙,甚至会吃人。"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

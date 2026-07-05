@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0113",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.34,
+  "ref_text_raw": "この病気は豚によって運ばれ、その後、蚊を媒介にして人間に感染します。",
+  "ref_text_normalized": "この病気は豚によって運ばれ その後 蚊を媒介にして人間に感染します",
+  "timestamp_utc": "2026-07-05T03:17:57Z",
+  "text": "この 病気 は 豚 に よっ て 運ば れ 、 その 後 顔 を 媒介 に し て 人間 に 感染 し ます 。",
+  "latency_sec": 2.5997,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "この 病気 は 豚 に よっ て 運ば れ 、 その 後 顔 を 媒介 に し て 人間 に 感染 し ます 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP/5hd0N39gfKeROhC+UEDl9cJcLPkepnjmDaxZTF9jJLN8F1MJUPewNZgDfdR"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221477,
+    "id": "48xJasvEJqbX2roP9O2X-Qg",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 230,
+      "total_tokens": 262
+    }
+  }
+}

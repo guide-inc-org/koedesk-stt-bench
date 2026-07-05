@@ -1,0 +1,39 @@
+{
+  "utt_id": "vi_0147",
+  "lang": "vi",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.5,
+  "ref_text_raw": "Cây cối tạo ra khí oxy mà con người hít thở, và chúng tiếp nhận khí cacbonic con người thải ra (đó là việc thở ra).",
+  "ref_text_normalized": "cây cối tạo ra khí oxy mà con người hít thở và chúng tiếp nhận khí cacbonic con người thải ra đó là việc thở ra",
+  "timestamp_utc": "2026-07-05T08:23:34Z",
+  "text": "Cây cối tạo ra khí oxy mà con người thích thở, và chúng tiếp nhận khí cacbonic con người thải ra, đó là việc thở ra.",
+  "latency_sec": 3.5178,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Cây cối tạo ra khí oxy mà con người thích thở, và chúng tiếp nhận khí cacbonic con người thải ra, đó là việc thở ra.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239814,
+    "id": "hBRKauq_Ho3IrfcPmu3D-AU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 357,
+      "total_tokens": 390
+    }
+  }
+}

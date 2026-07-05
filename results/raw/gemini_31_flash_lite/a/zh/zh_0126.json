@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0126",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 22.86,
+  "ref_text_raw": "表演开始五分钟后，刮起了风，约一分钟后，风速达到了 70 公里/小时……紧接着又下起了雨，雨势如此之大，像针扎一样拍打在皮肤上，随后天上下起了冰雹，惊慌失措的人群尖叫着四散奔逃。",
+  "ref_text_normalized": "表 演 开 始 五 分 钟 后 刮 起 了 风 约 一 分 钟 后 风 速 达 到 了 70 公 里 小 时 紧 接 着 又 下 起 了 雨 雨 势 如 此 之 大 像 针 扎 一 样 拍 打 在 皮 肤 上 随 后 天 上 下 起 了 冰 雹 惊 慌 失 措 的 人 群 尖 叫 着 四 散 奔 逃",
+  "timestamp_utc": "2026-07-05T09:18:14Z",
+  "text": "表演 开始 五 分钟 后 刮 起 了 风 ， 约 一 分钟 后 风速 达到 了 七十 公里 每小时 。 紧接着 又 下 起 了 雨 ， 雨势 如此 之 大 ， 像 针扎 一样 拍打 在 皮肤 上 。 随后 天上 下 起 了 冰雹 ， 惊慌失措 的 人群 尖叫 着 四散 奔逃 。",
+  "latency_sec": 3.144,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "表演 开始 五 分钟 后 刮 起 了 风 ， 约 一 分钟 后 风速 达到 了 七十 公里 每小时 。 紧接着 又 下 起 了 雨 ， 雨势 如此 之 大 ， 像 针扎 一样 拍打 在 皮肤 上 。 随后 天上 下 起 了 冰雹 ， 惊慌失措 的 人群 尖叫 着 四散 奔逃 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPZ2x3peRK7UDVDwZLM5H0OD0m8ndtAFGqhv85c615dkppdjY16f6ijFhkz46S"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243094,
+    "id": "VCFKatbVFvTIrfcPhcL-0AI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 90,
+      "prompt_tokens": 593,
+      "total_tokens": 683
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0176",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 18.72,
+  "ref_text_raw": "疾病の専門家で国連に所属するダニエル・ランターニュ氏は、大流行は平和維持軍に起因する可能性が高い、と述べました。",
+  "ref_text_normalized": "疾病の専門家で国連に所属するダニエル ランターニュ氏は 大流行は平和維持軍に起因する可能性が高い と述べました",
+  "timestamp_utc": "2026-07-05T03:14:37Z",
+  "text": "疫病 の 専門 家 で 国連 に 所属 する ダニエル ランターニュ 氏 は 大 流行 は 平和 維持 軍 に 起因 する 可能 性 が 高い と 述べ まし た 。",
+  "latency_sec": 4.2277,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "疫病 の 専門 家 で 国連 に 所属 する ダニエル ランターニュ 氏 は 大 流行 は 平和 維持 軍 に 起因 する 可能 性 が 高い と 述べ まし た 。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221277,
+    "id": "GsxJaoe2JIrW1e8Py5HYyAE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 46,
+      "prompt_tokens": 621,
+      "total_tokens": 667
+    }
+  }
+}

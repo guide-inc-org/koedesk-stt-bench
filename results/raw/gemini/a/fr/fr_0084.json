@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0084",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 6.42,
+  "ref_text_raw": "À part l'événement de mercredi, Carpanedo a participé à deux courses individuelles lors des Championnats.",
+  "ref_text_normalized": "à part l'événement de mercredi carpanedo a participé à deux courses individuelles lors des championnats",
+  "timestamp_utc": "2026-07-05T04:51:42Z",
+  "text": "Pour l'événement de mercredi, Carpanedo a participé à deux courses individuelles lors des championnats.",
+  "latency_sec": 3.337,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Pour l'événement de mercredi, Carpanedo a participé à deux courses individuelles lors des championnats.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227102,
+    "id": "3OJJapjwDO3j1e8P2Y3r2QE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 227,
+      "total_tokens": 273
+    }
+  }
+}

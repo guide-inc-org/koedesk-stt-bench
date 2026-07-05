@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0135",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.4,
+  "ref_text_raw": "마르텔리는 어제 9명으로 이뤄진 임시 선거위원회(CEP) 취임을 위한 선서를 했습니다.",
+  "ref_text_normalized": "마르텔리는 어제 9명으로 이뤄진 임시 선거위원회cep 취임을 위한 선서를 했습니다",
+  "timestamp_utc": "2026-07-05T06:21:29Z",
+  "text": "마르텔리는 어제 아홉 명으로 이루어진 임시 선거 위원회 CEP 취임을 위한 선서를 받았습니다.",
+  "latency_sec": 7.774,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "마르텔리는 어제 아홉 명으로 이루어진 임시 선거 위원회 CEP 취임을 위한 선서를 받았습니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232489,
+    "id": "4_dJaozwGYfEvr0P5fGP6AE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 306,
+      "total_tokens": 1328
+    }
+  }
+}

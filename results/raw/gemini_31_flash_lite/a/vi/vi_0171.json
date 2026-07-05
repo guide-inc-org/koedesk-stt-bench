@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0171",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 20.52,
+  "ref_text_raw": "Công viên quốc gia Plitvice Lakes có khu rừng rậm rạp, chủ yếu là cây sồi, cây vân sam và cây linh sam và cùng với sự pha trộn thảm thực vật của vùng Alps và Địa Trung Hải.",
+  "ref_text_normalized": "công viên quốc gia plitvice lakes có khu rừng rậm rạp chủ yếu là cây sồi cây vân sam và cây linh sam và cùng với sự pha trộn thảm thực vật của vùng alps và địa trung hải",
+  "timestamp_utc": "2026-07-05T08:48:00Z",
+  "text": "Công viên quốc gia X-Bay Lắc có khu rừng rộng rạp, chủ yếu là cây sồi, cây vân sam và cây linh sam, và cùng với sự pha trộn thảm thực vật của vùng ôn và Địa Trung Hải.",
+  "latency_sec": 3.2614,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Công viên quốc gia X-Bay Lắc có khu rừng rộng rạp, chủ yếu là cây sồi, cây vân sam và cây linh sam, và cùng với sự pha trộn thảm thực vật của vùng ôn và Địa Trung Hải.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP29k+Aw3TUuPrFJzFHlsKRDOHi8uXoyibgzU8C5LVDKhkRuy+IC4klyuBaNGK"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241280,
+    "id": "PxpKas3LA4Ov2roPupKSoQU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 49,
+      "prompt_tokens": 534,
+      "total_tokens": 583
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0048",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.4,
+  "ref_text_raw": "A lo largo de la década de 1920, la actitud adoptada por la mayor parte de los ciudadanos y de las naciones fue la del pacifismo y el aislamiento.",
+  "ref_text_normalized": "a lo largo de la década de 1920 la actitud adoptada por la mayor parte de los ciudadanos y de las naciones fue la del pacifismo y el aislamiento",
+  "timestamp_utc": "2026-07-05T04:36:35Z",
+  "text": "A lo largo de la década 1920, la actitud adoptada por la mayor parte de los ciudadanos y de las naciones fue la del pacifismo y el aislamiento.",
+  "latency_sec": 2.9032,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "A lo largo de la década 1920, la actitud adoptada por la mayor parte de los ciudadanos y de las naciones fue la del pacifismo y el aislamiento.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPvnuvqzJrh6BB3I8T6gsZJZl45Qoe7ReRbGPe+tH0QkEqMV1h2xxiKPx87x0e"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226195,
+    "id": "Ut9Jatm_D5i9vr0P4KaPwQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 306,
+      "total_tokens": 342
+    }
+  }
+}

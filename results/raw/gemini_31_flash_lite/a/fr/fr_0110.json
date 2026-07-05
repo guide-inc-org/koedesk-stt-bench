@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0110",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 5.94,
+  "ref_text_raw": "La surface de la lune est constituée de pierres et de poussière. Sa couche extérieure est appelée la croûte.",
+  "ref_text_normalized": "la surface de la lune est constituée de pierres et de poussière sa couche extérieure est appelée la croûte",
+  "timestamp_utc": "2026-07-05T05:16:20Z",
+  "text": "La surface de la Lune est constituée de pierres et de poussières. Sa couche extérieure est appelée la croûte.",
+  "latency_sec": 3.4573,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "La surface de la Lune est constituée de pierres et de poussières. Sa couche extérieure est appelée la croûte.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP5cpbHy9eCxiFgfyMAcTSvxCvyRkOkVIAFK2UfD5jhSZ/QG7p9vb0nYUzA9YZ"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228580,
+    "id": "ouhJarCAKc_g1e8PpM-tqAQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 170,
+      "total_tokens": 196
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0180",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 15.66,
+  "ref_text_raw": "老虎是全能运动员，它会攀爬（虽然攀爬能力不是很强）、游泳、跳远，拉力能达到人类大力士的五倍。",
+  "ref_text_normalized": "老 虎 是 全 能 运 动 员 它 会 攀 爬 虽 然 攀 爬 能 力 不 是 很 强 游 泳 跳 远 拉 力 能 达 到 人 类 大 力 士 的 五 倍",
+  "timestamp_utc": "2026-07-05T09:23:09Z",
+  "text": "老虎是全能运动员，它会攀爬，虽然攀爬能力不是很强，游泳，跳跃，拉力能达到人类大力士的五倍。",
+  "latency_sec": 5.1943,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "老虎是全能运动员，它会攀爬，虽然攀爬能力不是很强，游泳，跳跃，拉力能达到人类大力士的五倍。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EvQLCvELARFNMg/ajAWUUHfp5FwFAAXxv50712l4/Ih1qTkd86gg/AcMoyVmWSbsdY44DI7mPwz3NB4pa+ENGG7ojXl3Iz+OKY4NnlAI5lKZzOGMWaD3un4zOCEXSXuBpLjTklux1wpS3e+U527rGLuYP10zgheXQDSbYe5DJ924zvJ2NEhbW0SpjXpoRQ89kzvHpVsLIe/Q9cQDr3QRn+j562WFYWj0/+aReL+YcThXnC+DLKzVgHfMW4sxfvNncg438obzj2Aem6R3ab1koEtJJyaqP6Cd5+D1yRZWZ4GZYwtFyhJZ3R1Wu1pfX7xvNiNmNvWO2Bge/2t+GsL3ZRyL5K3JoMIrpCdeQZhzIi6l7Y7rH58b4J/L5RL8okOprltyX7r7ebCNt3DIcxvBPgSHxihEXZVsuL0FwN5y6OB4jek6QBmVmra1ym5phAw92ej9Y4/+xmXa80qTa+7p9MgnSI4DNM9+gVoDcr+89ySHSsx7ywxGUM2MXjukAL1o6AXPGR5HZjm3/hFPHLUBAuWvW1cWf1dy7sRwpV6pSWfa5Ot5W6Jxphbz9C8aq7NNQ9H1c1Cty0yPr+3olnfB+nXjPhTEPNDGf8iknaDlEq6PG+H2fEV1G06rxSpliAaJfEg2Nrox+tSa1XEZJYxdC2BmIUlKo2HSkIGGX+u6+A5UWlsCAlJeqVvtSGjyMC/9s7SiAqh/9KEkuopOJPFfExotMISn3xIBmm76BzAoYDGAEUovfKrSYHxh59JsEMbqJELYJZyrktN94PDYhVzL9onxp47x+dLMB8HX35azCd81xAvlGJ/lGLShX4sFjErJbTWSJ2+CXTKIZNhhlMu2ELxFShppwXLdGre1RLh74nhMvJ2QDKKk0+lp83ZXUykiUUApSruKpVv7MpjLFxTmNK6aJBfKhxvWnkuYJSIxS8n1EkWGTDDEXEZphhVhlN9thuzTZ507PyRulwUJVEOVTiFtXGU8diwHvYWE805LXLidT+xiOnSNM96Y1ykWm9w7c4q1SXibwx4D2SYbqceBrlPSsja7n35JHdmqsjCUNNIxYd3beZl+dSbscskNW0+oKb8c/gKbulHq6aO/cuw5aqKrlmuQXYAwx0zZtDuYBJbt1E1FHDWzc/59+1orB2FDRERZQGJZltpU3oOdtDGRzL0ooZM+w01GkEvxAoXL16i1Xpw+pwA8HaEiURxx+5MltXMgEM5zbh/9LswbZ3ag5mZz29uGQzbc1Kdr47jN5M7tPnT7W6ykf7Amo+sIt2NWwmVdQ4jVYVZBjsO5YWPEmht7eokVV/ofI/+YUDf3r+HXxaXK9OfvLh54c5HpPnphwLnbxCku+M7tkAyzhd9XMXzPoQ1wUwTG1pS1GSY2yAVEE5ptr6obVGYOi4qPNpvGA2EE6ZwXtc/SYCDR8sV8Cyu6WP0KvAijaodGClf5wUg7BaOp+GaVhgJdkJQpTrdO9aXXPEOxHkc2nMc6wVp/D7UOvYM8AR53+RPH0x4U0RBAs2QY3+qFYoiclbn/mMezwIgmaI6mbBIvZeEiq7z9zioVeJH/9Uqw0c6DE36h4K2zBOhQ/MU+/G+12mmPVvJu9CxZPdzLkTGqFgGs0QGdOfSXxu/xAmzsARp7b2ZXM8TcHcQ07OMwkuoYs+j0ntA3910obUmKzTJMRxmHRS0P9u60LIhqRphwbsPAO6NPuV8UliE2zkO4O4+jtLqHaOotuaqvjYFBQ0Nh7WKyQeTpyyKOXm8KNYA/kgzGszmnjOUV00aRf/yfdu9OoCwbRlw8aRybNdjnqCnsaAuvcx3LgK3F1LLfpQitIeSKMz5UzX23O74m9c6kmaO80KsUDCLiyj0/jjaMjHEzmxscED0mCeBjzzDhwjrG8MdzSZdylVi54kPPhrEhVbgkxBJjngntzmZgWhlONsdxdYU4T5BapnUsHhhwOqwIAO9Inenq+SyGGAMiWRdfrXokvkjf7phr1Gdc+nZZhjgD7rqSO0wJsksR1qB4O0tzh07kIeDwDSfpoxz9Q7Cd"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243389,
+    "id": "eSJKaoHCN8al1e8PnPeFgAI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 413,
+      "total_tokens": 881
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0067",
+  "lang": "es",
+  "engine": "gemini_25_flash",
+  "duration_sec": 15.48,
+  "ref_text_raw": "Para trasladarte dentro de Goma, puede optar por tomar una boda-boda (mototaxi). La tarifa regular (local) es de CDF500 (francos congoleños) por un viaje corto.",
+  "ref_text_normalized": "para trasladarte dentro de goma puede optar por tomar una boda-boda mototaxi. la tarifa regular local es de cdf500 francos congoleños por un viaje corto",
+  "timestamp_utc": "2026-07-05T04:18:02Z",
+  "text": "Para trasladarte dentro de Goma, puede optar por tomar una boda-boda, mototaxi, la tarifa regular local es de CDF 500, francos congoleños por un viaje corto.",
+  "latency_sec": 4.2849,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Para trasladarte dentro de Goma, puede optar por tomar una boda-boda, mototaxi, la tarifa regular local es de CDF 500, francos congoleños por un viaje corto.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783225082,
+    "id": "99pJatD_MM_H2roPya_FyQE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 517,
+      "total_tokens": 585
+    }
+  }
+}

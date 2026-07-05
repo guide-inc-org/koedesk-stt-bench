@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0149",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 10.26,
+  "ref_text_raw": "亚里士多德就所有科学领域的问题（包括心理学在内）所发表的观点都被一一接纳。",
+  "ref_text_normalized": "亚 里 士 多 德 就 所 有 科 学 领 域 的 问 题 包 括 心 理 学 在 内 所 发 表 的 观 点 都 被 一 一 接 纳",
+  "timestamp_utc": "2026-07-05T06:31:29Z",
+  "text": "亚里士多德就所有科学领域的问题,包括心理学在内的所发表的观点都被一一接纳。",
+  "latency_sec": 4.212,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "11s",
+      "requestId": "6d3d35b8-0000-2ab1-9c37-ac3eb14739d8",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "亚里士多德就所有科学领域的问题,包括心理学在内的所发表的观点都被一一接纳。"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

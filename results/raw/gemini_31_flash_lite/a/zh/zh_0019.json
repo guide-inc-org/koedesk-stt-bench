@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0019",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.18,
+  "ref_text_raw": "因此，很可能这个符号只是作为一个标签添加的。",
+  "ref_text_normalized": "因 此 很 可 能 这 个 符 号 只 是 作 为 一 个 标 签 添 加 的",
+  "timestamp_utc": "2026-07-05T09:11:55Z",
+  "text": "因此很可能这个符号只是作为一个标签添加的。",
+  "latency_sec": 2.4814,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "因此很可能这个符号只是作为一个标签添加的。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPkd2vdfC14pMAlftpBVfZonxkRMn/RW/tfu7EvZRdVpTWJcsA/qRAi3hBzzom"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242715,
+    "id": "2h9KasL9BYvb2roP5ayN6AY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 11,
+      "prompt_tokens": 251,
+      "total_tokens": 262
+    }
+  }
+}

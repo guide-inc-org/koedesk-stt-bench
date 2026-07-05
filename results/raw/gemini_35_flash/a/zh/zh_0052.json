@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0052",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.94,
+  "ref_text_raw": "每个人都是社会的一份子，都会使用交通系统。而几乎每个人都对交通系统有怨言。",
+  "ref_text_normalized": "每 个 人 都 是 社 会 的 一 份 子 都 会 使 用 交 通 系 统 而 几 乎 每 个 人 都 对 交 通 系 统 有 怨 言",
+  "timestamp_utc": "2026-07-05T09:10:05Z",
+  "text": "每个人都是社会的一分子，都会使用交通系统，而几乎每个人都对交通系统有怨言。",
+  "latency_sec": 4.1278,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "每个人都是社会的一分子，都会使用交通系统，而几乎每个人都对交通系统有怨言。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EocHCoQHARFNMg9oKZdXh60vM/mfIRMW8e6KS7em0jgsswShuyZRSq0i/hnZbgZ0nr0bAR+FqTEKmQicGN/wohhigxKNfchDYECa2kCaVwmNzSzjSjhtb2iwBK7tcgmi4/STDwqMiF/BnxnN7Pigt1nsWpEaBHTqB7SD730b85VnjNIVOJW8cy9VqrSTdrEg0zXl2isqQtd/cW+6WkdwTJhmGYKvHIKIlm5XDl8iFLTzDqH8dZnA0DeD2kDojI539Sz6E8USPpQ3sfJRtEjWwXa9sBPe75u2lZ92I+pW8WXHVrebNZuFCLf883K4FSAAarUkraO4rC220HMvhyVCaE4WYEWyfZgTrIBdVHAm6gwYtBsvQR6ExGNzd6vtlN9FWj0Mo/Ijk9DJxA1dmnDp65sE2ix/ZfvVNntJ7PqYRSPvuWCBKKlQ9qCLiwTbW0G6dWzS4vqGu+Ak392DV/1HghaR4BtnakSAuv16jxw+nKDl40Gd3iSCYCa/mLh0AEgB9os2lbxclFlDdd8+y/n/Qco93Ob5cvNq5v1AOzhjMnfKfBMYxzLmj6Rfro2eagbo1329N4/A8mSDsur/ZLG0UepxBlgs0e+RnNsdGhmSHZ4GOC+OITacfIJzZFNJnqm8iBH9ZUa06o/JW97XbXsBAcde8I5EnB+bcbS+PVIwNhXn5KRWKGZD0GaaZnBWbFxZwqjmwubQdHRlgftGFjWAyZaVjL3ZS86kuYlkQyuLkKCxaFNN9yQDDgxQFIwWI4uDup1Twd1CVFXlkGLSxfol+lIit5jA97wUnad1cDSKOXCac9k8otP8IiVTyNDcGWhJGnIvd8wqj4B9Zo6JpR40MJcoOTytb+5aYK0hJsO1KHMvJNMvjK1LSc8yeVOnJ+vUAbYO2ndIPTead/zVAVbLTyTUv5Tgx4CHmpgMmM6nr8SfPOrJGMZlhJ1gq2JGk70g6H27ubUvMSTPQrw2LykDnLoII3uwCvjLDpyrj58/J1/HAXSKQuMnvf+Jg+hdfRSAII2DaZPb4WJbiSOCIqtwqa0FRrYS4He39FFMycnJk083pQBaubcAMyWe0Hs2PN4DqbboHoqQ7zb9ip1NI1UZwsw2OBQYVOPtOMMkEqNR5hiLTXltdxcg/9Twh4JmdvLkp19E5hXh819HrE6Nk0eUtX72AR9KWGder4few/cFunyeAE1R54yl00k4"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242605,
+    "id": "ah9KaruHLa_f1e8Pio2NuQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 245,
+      "total_tokens": 464
+    }
+  }
+}

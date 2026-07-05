@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0099",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.94,
+  "ref_text_raw": "그는 싱가포르 부총리 웡칸셍의 환영을 받았고 싱가포르 총리 리셴룽과 무역 및 테러 문제를 논의하였습니다.",
+  "ref_text_normalized": "그는 싱가포르 부총리 웡칸셍의 환영을 받았고 싱가포르 총리 리셴룽과 무역 및 테러 문제를 논의하였습니다",
+  "timestamp_utc": "2026-07-05T06:18:22Z",
+  "text": "그는 싱가포르 부총리 웡칸셍의 환영을 받았고 싱가포르 총리 리셴룽과 무역 및 테러 문제를 논의하였습니다.",
+  "latency_sec": 3.8104,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "그는 싱가포르 부총리 웡칸셍의 환영을 받았고 싱가포르 총리 리셴룽과 무역 및 테러 문제를 논의하였습니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EsAFCr0FARFNMg/VZI1wH2sdZ53vqtlUZ8Ffvzms8L/v+dT8ybci4n71za9bVJm2lJXt6LIZSncbdtGSK6QgBWQ10pnYxxGzDsfZd0boIE7hddy4NtgxI0BG9YJTx58WP8+j/NQWRbrYrKYDEujY/M0s7Qfh/xJJoIqL7D80gLBg4BZPflflChYC2iYkbQ7nt9CcxcYnsrMBNuWmwpkM0e4V3iElFJ5pqJ/bpikcSjWqD2v8TtbZHjU8ClcBA8O/xNJI/hwLsl2VCV6ZObS8E9KJvdZDnTHJP37ZwUKwtYSsJmT2M9VuoFbFR2LPi4rOYXJF4JDBzJ1QZ8/7ridTU8n6L94PVgcfuLjG6Zj+db2iplM7FPVKLxxcBLbyy1I1zQ58x0YphZAeKOl8bIj7IEsY3EvSMrUPdNKDpvycQ9jpCyzvEJ4BZ3yKCI0/jaP/ntukxnkXKmWoqTBMJCen8VWGtzU8j/Wb7CFFrFfJDUBnpRrqx22KF2Q5XB9oHf7YPQBgTsAbonyUvlAg3OJ6+GKN7ezuzmbtTQxeKXtr9aFtaGKNAsqPMPgV2O06XVK4nIuJb48KXjvwkGHYLTx5X6BIidjriNBCPXJSSuVqoaBXP0Y47WzfPXvhyTrgg6nMnp2KQZLynFRz75JrbL+5oBnPGB0fpU7Rl6HxA7gAWgXI4Q/hgDwjwGzLprD/t+VnuykPhDq5zFQ6yxKdd7uDY1ygPNen22KNJdByMrTP1LBbxW3NXQkVdwRXF98xw0o4gSIxAAoqlRdLl8sMJ4AxKr49ordDaAq06ZietUXT26m0zXb/FhLmi58qKljndsOMI4f+GxQI/cIhclwrBvBiyL66gTS69b2I4SLTyYG/Pz+yQvSWFSpwCsoklE7s+kpM4MxH5naM/9PSND8dwezBFmW0X7+InH2EZEqqhTM+fAsDy8E="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232302,
+    "id": "K_dJarrNGOnF0-kPwPbOqAc",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 320,
+      "total_tokens": 535
+    }
+  }
+}

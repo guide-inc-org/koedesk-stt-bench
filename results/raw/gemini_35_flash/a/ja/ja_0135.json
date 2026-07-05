@@ -1,0 +1,45 @@
+{
+  "utt_id": "ja_0135",
+  "lang": "ja",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.98,
+  "ref_text_raw": "テレビの報道によると、原発から白煙が上がっています。",
+  "ref_text_normalized": "テレビの報道によると 原発から白煙が上がっています",
+  "timestamp_utc": "2026-07-05T03:18:36Z",
+  "text": "テレビの報道によると、原発から白煙が上がっています。",
+  "latency_sec": 4.4436,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "テレビの報道によると、原発から白煙が上がっています。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EvsMCvgMARFNMg+Vc2htXRZLPgWjZi0BjTOp9c5HVsYzl3GVJucs0MUAtXO/tlIlT18DJSnEbhGs7iuGRTgKTmicUo/3ZOyD8yF7y93A/FZX7ZL5iCoOFVTJ/XbL3v5x1EfUHP1KgXojrUkHM/Cdiuizn6HssCpVQ0wtNyYGa+Ug5nbYbwhELs3t6go1VG+q+XrjqwV8WAZhsfHZVBwil9icTHl/z1vi2K6/KuPst9KZTyz7c1Bz9+TsOy00DGGBv1DRPoykQkzqdaBBJzMiP0HnGoclAEdbID7et/zKLWT9VVI8y+92rFdcBvhwa3ZHryh3EfCi4YDiMFZ9OjKimn47dW87mlVRLpOYc2SloA3Us8OkK74DuBbYfYIfvKGu2BV96dVXvZtVepLAqsBKDp7Osz6wdojkgXHygF/cPK6lMod8c2ueC18jcEhyHTMHv7axHQbnz4qI8M6QIegtTNbe6Le5r3znNEZaMPJMZDncXlUqfPfwdUaDWtQkNcyNZ4yA3iwLhaWw0tbJA2tD3gCgQG2dJCwfPp0S7jOgF0d1tMHpQI39W9795wS+oLcDG3vh8B0OpPX1/pGc6Ysz3lBcd2HqnQwk6A2pa4tDpverZNLqg5rbnMJ6vmj7T5qU4433LgCQqkpAurOxk3ZxPHh+0J5qmiQxN3OFoPX5dAR6r0Tz0FUzEAyvaV7HpXt2FdO2PU2SY7w5X980029HnSWw9ZOaKE/l131uSR1Rqz1Qq0uYoCjDbvcEP7oE/dIrAzhyH8kn1MNFF22d3CiTBYuhqL7jjxscitobyLuceW+08n8kMTCkCcPXXdhIKtFpk1FTsgJJnFDxxEh/gKFQB2GA3/UebWKKMU08IwtJrqzZqsfrIDHo93QF86+DEqYZ7IJWeTeLKwqrsdFfa0Pqmkc+SIeXoLpE5kjgJbE42If1ZH7+DRoOJxHEbzBou0f992KMJqVDf3kYx4aX95wLVSmFelopX8Heck+wZk3P8Zsnu4HJfAqXRNfVqJYk3XsfwejlMqQyaxuM5j3I+/uc8IBFwNGW5yDx5qKoqPPEWhmO4R/VMZlSHKFE2scvU4B2Ja/lpPEQCiqUNmC01ashlMMgYHk0thbsT0m7e85bauBXGurW63oqFbTbejX4W9Bs5bmJyOC2wA61o4UR1dPA1EFnGKJKjmc4YfAV2/WEesNJAVVBufaYFjfBQ57uTf0wxmDHwLy55knFtWZD8gaes+rQSJ+i0KgDlVKZzxNGAHaBd8Kai+VMlgRx55wXg1+pEC8S3OYXIbn6h2tzf3svk0S3QGswq+xzTmn4tJ/smCZrhHSY2UQPrZwpPWBMzmbIR1apFTsLswOej77I5DkWxhp8r/cpAp3d+mAtfu32n9zZrCo0qCNi8oJKvQZNqNeCGcEfTnNWQbR22kDkWuLVyydSJgFRR7AWOE+lU64lXN+YiHIh155LccKEmlSsotIPXAzbZdGQ09CHCciGBalZXWcPl3xNmpQcZvhiQc4wh/KgsPtvb6kvmxEaRwqlOjxVvieUhFOtWOc36nZdLsngy0XxFC1olRj+4EF9+JZyx24QOIR4rISJ3x2dTUCx3UfZYtX5I54aUa3zO+JGS38d66eAbqTWmWxLuegR+VJ83M2bpN/qmMDh23NUjV3ygXMpd6JbmMnHPifpsm/VFWqCOTDibs8qS6zLvyU/no7Aq3K/qcCu6SWUP7Pv/lHdJ022+kUp2adXRuFsSjW8QJPUTlBubECpS5EiMw8bl7Llg+KfmeXlLto1JQwYfHEr6dr9dNDdqSxJJsxMyCJwGwDy0t2YEKAk/UEbhhj/ntYTNbQcysc9Y298zf/zDUYYP7lcgbDBRpGUEJhDOSNViul7clCMs8248oTve5MzysrV8CwnXecZXIl/HTkD1G6xyZdZ3wBAWR31+2BczvboRmj4eYt9NKDjY3JyeHV1rPewaGuaGWLTBrOhO7O/L0v8gifC5PEjYbRaUfQIs9JCvN9rSCF4GlF/rFLvZSrPvlSwiUbDtfcJjzvO43EzeyZYWpQ5ahCcXQP9zVp/H0uvKkY6k6633Uoms+N+mKo6B0+FWaxMXPi9qjrzxHaTTSkNGEcdqjOXpdf4nSQtVDb7LI/0AtV/wXEDWSdcSPPpGxQzkYqt8sD2+l3vmyn+9jNamZZ0vd3R4NNW4nariaut8cQs6PzSSM+Ie16BC0tcrUVN"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221516,
+    "id": "Cc1JavauA8D21e8P0dn2qQE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 14,
+      "prompt_tokens": 221,
+      "total_tokens": 670
+    }
+  }
+}

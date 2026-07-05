@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0092",
+  "lang": "ko",
+  "engine": "gemini_25_flash",
+  "duration_sec": 13.92,
+  "ref_text_raw": "일본의 핵 관련 정부 기관에 따르면, 방사성 세슘과 요오드가 발전소에서 검출되었다고 한다.",
+  "ref_text_normalized": "일본의 핵 관련 정부 기관에 따르면 방사성 세슘과 요오드가 발전소에서 검출되었다고 한다",
+  "timestamp_utc": "2026-07-05T05:59:43Z",
+  "text": "일본의 핵 관련 정부 기관에 따르면 방사성 세슘과 요오드가 발전소에서 검출되었다고 한다.",
+  "latency_sec": 4.0653,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "일본의 핵 관련 정부 기관에 따르면 방사성 세슘과 요오드가 발전소에서 검출되었다고 한다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231183,
+    "id": "zPJJasmjJKbG0-kPpaDayQU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 467,
+      "total_tokens": 523
+    }
+  }
+}

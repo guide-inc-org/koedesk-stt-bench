@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0114",
+  "lang": "ko",
+  "engine": "gemini_25_pro",
+  "duration_sec": 9.3,
+  "ref_text_raw": "구조물을 긁거나 낙서해서 현장을 더럽히지 마시오.",
+  "ref_text_normalized": "구조물을 긁거나 낙서해서 현장을 더럽히지 마시오",
+  "timestamp_utc": "2026-07-05T06:09:26Z",
+  "text": "구조물을 긁거나 낙서해서 현장을 더럽히지 마시오.",
+  "latency_sec": 4.6664,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "구조물을 긁거나 낙서해서 현장을 더럽히지 마시오.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231766,
+    "id": "EvVJaoqXLKG2vr0PqrfGqAE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 319,
+      "total_tokens": 569
+    }
+  }
+}

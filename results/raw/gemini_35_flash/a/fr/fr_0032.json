@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0032",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 14.28,
+  "ref_text_raw": "« Il [Wales] nous a carrément menti dès le départ. Tout d'abord en prétextant des raison légales, puis en faisant semblant de nous écouter jusqu'à ce qu'il ait supprimé son œuvre. »",
+  "ref_text_normalized": "« il [wales] nous a carrément menti dès le départ. tout d'abord en prétextant des raison légales puis en faisant semblant de nous écouter jusqu'à ce qu'il ait supprimé son œuvre. »",
+  "timestamp_utc": "2026-07-05T05:03:59Z",
+  "text": "Il ou elle nous a carrément menti dès le départ. Tout d'abord en prétextant des raisons légales, puis en faisant semblant de nous écouter jusqu'à ce qu'il ait supprimé son œuvre.",
+  "latency_sec": 6.9516,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Il ou elle nous a carrément menti dès le départ. Tout d'abord en prétextant des raisons légales, puis en faisant semblant de nous écouter jusqu'à ce qu'il ait supprimé son œuvre.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227839,
+    "id": "ueVJau-dK5T02roPp7fs4A4",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 378,
+      "total_tokens": 1242
+    }
+  }
+}

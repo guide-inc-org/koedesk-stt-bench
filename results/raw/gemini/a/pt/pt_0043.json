@@ -1,0 +1,39 @@
+{
+  "utt_id": "pt_0043",
+  "lang": "pt",
+  "engine": "gemini_25_flash",
+  "duration_sec": 10.92,
+  "ref_text_raw": "Estas são, algumas vezes, praias familiares lotadas com uma grande variedade de lojas ao redor da costa. Nadar é bem seguro.",
+  "ref_text_normalized": "estas são algumas vezes praias familiares lotadas com uma grande variedade de lojas ao redor da costa nadar é bem seguro",
+  "timestamp_utc": "2026-07-05T06:30:17Z",
+  "text": "Esta são, algumas vezes, praias familiares lotadas com uma grande variedade de lojas ao redor da costa. Nadar é bem seguro.",
+  "latency_sec": 2.9944,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Esta são, algumas vezes, praias familiares lotadas com uma grande variedade de lojas ao redor da costa. Nadar é bem seguro.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783233017,
+    "id": "9_lJaqfCOdGX0-kP9sqqsAE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 371,
+      "total_tokens": 477
+    }
+  }
+}

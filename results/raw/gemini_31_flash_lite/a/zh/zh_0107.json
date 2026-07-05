@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0107",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.38,
+  "ref_text_raw": "目前还没有发布海啸预警。根据雅加达地质局的说法，由于此次地震没有达到 6.5 级，因此不会发布海啸预警。",
+  "ref_text_normalized": "目 前 还 没 有 发 布 海 啸 预 警 根 据 雅 加 达 地 质 局 的 说 法 由 于 此 次 地 震 没 有 达 到 6.5 级 因 此 不 会 发 布 海 啸 预 警",
+  "timestamp_utc": "2026-07-05T09:17:04Z",
+  "text": "目前还没有发布海啸预警。根据雅加达地质局的说法，由于此次地震没有达到6.5级，因此不会发布海啸预警。",
+  "latency_sec": 2.6938,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "目前还没有发布海啸预警。根据雅加达地质局的说法，由于此次地震没有达到6.5级，因此不会发布海啸预警。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP9MfdXD2MS1z0e3L/AKodjtQiyiamaG3/Macw0+tEtsIzJua0biysgK7qyE9k"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243024,
+    "id": "DyFKarzuBJWJ1e8PxbzN-QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 281,
+      "total_tokens": 317
+    }
+  }
+}

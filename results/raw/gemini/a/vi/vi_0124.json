@@ -1,0 +1,39 @@
+{
+  "utt_id": "vi_0124",
+  "lang": "vi",
+  "engine": "gemini_25_flash",
+  "duration_sec": 20.76,
+  "ref_text_raw": "Năm phút sau khi bắt đầu cuộc trình diễn, một cơn gió bắt đầu xuất hiện, khoảng một phút sau, gió đạt vận tốc 70km/h... sau đó mưa tới với cường độ mạnh và lớn đến nỗi da có cảm giác như bị kim châm, sau đó mưa đá xuất hiện, mọi người hoảng loạn và la hét và dẫm đạp lên nhau.",
+  "ref_text_normalized": "năm phút sau khi bắt đầu cuộc trình diễn một cơn gió bắt đầu xuất hiện khoảng một phút sau gió đạt vận tốc 70km/h... sau đó mưa tới với cường độ mạnh và lớn đến nỗi da có cảm giác như bị kim châm sau đó mưa đá xuất hiện mọi người hoảng loạn và la hét và dẫm đạp lên nhau",
+  "timestamp_utc": "2026-07-05T08:21:38Z",
+  "text": "Năm phút sau khi bắt đầu cuộc trình diễn, một trận gió bắt đầu xuất hiện. Khoảng 1 phút sau, gió đạt vận tốc 70 km/h. Sau đó, mưa tới với cường độ mạnh và lớn đến nỗi da có cảm giác như bị kim châm. Sau đó, mưa đá xuất hiện, mọi người hoảng loạn và la hét và dẫm đạp lên nhau.",
+  "latency_sec": 4.3497,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Năm phút sau khi bắt đầu cuộc trình diễn, một trận gió bắt đầu xuất hiện. Khoảng 1 phút sau, gió đạt vận tốc 70 km/h. Sau đó, mưa tới với cường độ mạnh và lớn đến nỗi da có cảm giác như bị kim châm. Sau đó, mưa đá xuất hiện, mọi người hoảng loạn và la hét và dẫm đạp lên nhau.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239698,
+    "id": "DxRKaraaCZnd2roP0-bGsQM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 84,
+      "prompt_tokens": 686,
+      "total_tokens": 802
+    }
+  }
+}

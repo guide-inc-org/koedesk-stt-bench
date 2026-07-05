@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0145",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.94,
+  "ref_text_raw": "이러한 결정의 구성은 적외선 분광법(FTIR)과 비교했을 때 영향을 받은 애완동물의 소변에서 발견되는 결정과 일치합니다.",
+  "ref_text_normalized": "이러한 결정의 구성은 적외선 분광법ftir과 비교했을 때 영향을 받은 애완동물의 소변에서 발견되는 결정과 일치합니다",
+  "timestamp_utc": "2026-07-05T06:27:42Z",
+  "text": "이러한 결정의 구성은 적외선 분광법과 비교했을 때, 영향을 받은 애완동물의 소변에서 발견되는 결정과 일치합니다.",
+  "latency_sec": 2.936,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "이러한 결정의 구성은 적외선 분광법과 비교했을 때, 영향을 받은 애완동물의 소변에서 발견되는 결정과 일치합니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPunViiJVMxl96/AzAnqmUHlnZawzOU54ZjYOeFW5ESVvkvmc5nN9kQLnhZczW"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232862,
+    "id": "XPlJas-rOo3IrfcPmu3D-AU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 395,
+      "total_tokens": 430
+    }
+  }
+}

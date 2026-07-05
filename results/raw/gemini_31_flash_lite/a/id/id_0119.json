@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0119",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.46,
+  "ref_text_raw": "Mosasaurus merupakan predator puncak di masanya sehingga ia tidak takut apa pun kecuali sesama mosasaurus.",
+  "ref_text_normalized": "mosasaurus merupakan predator puncak di masanya sehingga ia tidak takut apa pun kecuali sesama mosasaurus",
+  "timestamp_utc": "2026-07-05T05:52:22Z",
+  "text": "Mosasaurus merupakan predator puncak di masanya, sehingga ia tidak takut apapun kecuali sesama Mosasaurus.",
+  "latency_sec": 3.1546,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Mosasaurus merupakan predator puncak di masanya, sehingga ia tidak takut apapun kecuali sesama Mosasaurus.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPUB/zjqvAVTeRGT27Vd01pE4eZyoE4byXiwz02QbbdOGDlxeD/msH/TuADATr"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230742,
+    "id": "FPFJavf7HeGHvr0PvZC5oQg",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 308,
+      "total_tokens": 330
+    }
+  }
+}

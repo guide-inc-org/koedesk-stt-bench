@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0193",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.1,
+  "ref_text_raw": "Nach nur zwei Wochen hatten die Amerikaner und die französischen Befreiungstruppen den Süden Frankreichs befreit und wandten sich Richtung Deutschland.",
+  "ref_text_normalized": "nach nur zwei wochen hatten die amerikaner und die französischen befreiungstruppen den süden frankreichs befreit und wandten sich richtung deutschland",
+  "timestamp_utc": "2026-07-05T04:12:12Z",
+  "text": "Nach nur zwei Wochen hatten die Amerikaner und die französischen Befreiungstruppen den Süden Frankreichs befreit und wandten sich in Richtung Deutschland.",
+  "latency_sec": 3.6968,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Nach nur zwei Wochen hatten die Amerikaner und die französischen Befreiungstruppen den Süden Frankreichs befreit und wandten sich in Richtung Deutschland.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqAGCp0GARFNMg+X4W3TcsdXmqGuxUWOI1T2c6E5YQyETCb401bFzYb78lcyg92792ezFmq/CmidoCP8up5s7RMbxOf0WFlg65lvOYpEVn9GWLOFbtzSfvpq/rS78NGoR7sZnfrm6G7ZXx98ADhR2P4imyQIJldwJBX15vhwRKgy77h0U1c8+sYO8eLPGXsOGCBabC+RPskx+F1fX1+AOGyNa51iaadydynKGuaAKIcN8yI9E48DeH/4pgr9GYiBy1UAJYyYINf3KBJiXlmA1rw24tJtlUpyliI/JkMCjJionF29z6SYrg2uYMUZQXgYQf6xbgtYID0/caMIMYJnSZp2oVGW3Uhu1VBs1cMCvhWR1f6GmZ+SWFIPoYApbsKp1H5fEii10ypc2PAwLwFsRun1Aw9Ephm8QqXlfttws1GqvISjOLQnd9VqDsl/TlL9PGMpbLvKXsEFor9GMyx15KhV47kVuEKkrU1F0bTHUyhOXQ3vPFK+NHlqzKfzmnhHHcLm0GXKOrnT9AIXrQdIHuvkGW/Ab4IZ4Q5wetnviV+6RjXG7j6uKovCX3OXFYg07s98klASBr/CRQN+HLXL8baSwyxlbvPXVv1kl3LDosqSOk/Hs1K6K15sn1Cqgge2Bx/g4ljI+qiUfHDoAwoMuGT4wC4wgxhWNjYsvOvbUdQQvXkCBwcPiSXBTkwyRuUKlhyJ/7kSMibIn4rHtSC0XPzPfa74dwkfSIxYlPAO/KA1faDq22JVgtLsinZuB+Njg2JVsYvF4RaCatjUaOX0IjjKi2soDLmzGz6Wv7hDnp+qiKaLI+yTmtUsH1LF7uoymmoiQ6YhSJsDG6KYgjPB24sBe09JVpwQ2ESJEIYUa3Ny+og+HgP5xNYxSjj0sP39GZveAU/nxGJ0hsO3vpZn8pIw/2fY7LPe8pRS7l4bYud7DLqBlQ5t8YcUSdwVNCjuMTKM4CP1EN3vgts8OJT0AGIglNZo2ZAH4FD/T8qcNzttbNJsw3Ii/BF+4RgwftYEcgAk5HY40VVyk/O6nImzhiIlBAaU7YrSI0onU2HJvGqPvK0="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224732,
+    "id": "mtlJasG6G8fE0-kP8qfE0QY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 224,
+      "total_tokens": 426
+    }
+  }
+}

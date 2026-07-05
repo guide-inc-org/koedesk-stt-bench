@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0170",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 7.56,
+  "ref_text_raw": "Сам автомобиль убрали с места происшествия в тот же день примерно в 12:00 по Гринвичу.",
+  "ref_text_normalized": "сам автомобиль убрали с места происшествия в тот же день примерно в 12:00 по гринвичу",
+  "timestamp_utc": "2026-07-05T07:37:32Z",
+  "text": "Сам автомобиль убрали с места происшествия в тот же день примерно в 12:00 по Гринвичу.",
+  "latency_sec": 2.8835,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Сам автомобиль убрали с места происшествия в тот же день примерно в 12:00 по Гринвичу.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPpny4YwhxaXuR91nwiJXJ1Qa0YA1fRWjtb06pGq39YU8sg/vEhA0N4dGP7sag"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237052,
+    "id": "uglKas2wJ8Ts1e8Px-GUwQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 210,
+      "total_tokens": 239
+    }
+  }
+}

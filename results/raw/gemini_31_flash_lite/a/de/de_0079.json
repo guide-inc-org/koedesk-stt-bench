@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0079",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 18.54,
+  "ref_text_raw": "Die Fotografen nahmen den Platz einer älteren Dame ein, als sie zur Toilette musste. Mendoza wurde erschossen.",
+  "ref_text_normalized": "die fotografen nahmen den platz einer älteren dame ein als sie zur toilette musste mendoza wurde erschossen",
+  "timestamp_utc": "2026-07-05T04:04:33Z",
+  "text": "Die Fotografin nahmen den Platz einer älteren Dame ein, als sie zu Toiletten musste. Mendoza wurde erschossen.",
+  "latency_sec": 2.5276,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Die Fotografin nahmen den Platz einer älteren Dame ein, als sie zu Toiletten musste. Mendoza wurde erschossen.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPugitOTC+Mog6l2Jx1DJcekOB23ol8Z8E423rpuPj2IiRJ8NP98EuWP6OhuzN"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224273,
+    "id": "0NdJavKrH8al1e8PnPeFgAI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 485,
+      "total_tokens": 511
+    }
+  }
+}

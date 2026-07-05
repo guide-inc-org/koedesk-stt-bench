@@ -1,0 +1,44 @@
+{
+  "utt_id": "pt_0065",
+  "lang": "pt",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.56,
+  "ref_text_raw": "A presença de uma verdadeira “equipe invisível” (Larson e LaFasto, 1989, p.109) também é um componente único de uma equipe virtual.",
+  "ref_text_normalized": "a presença de uma verdadeira  equipe invisível” larson e lafasto 1989 p.109 também é um componente único de uma equipe virtual",
+  "timestamp_utc": "2026-07-05T06:57:47Z",
+  "text": "A presença de uma verdadeira equipe invisível, Larson La Fausto, 1989, página 109, também um componente único de uma equipe virtual.",
+  "latency_sec": 2.6432,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "A presença de uma verdadeira equipe invisível, Larson La Fausto, 1989, página 109, também um componente único de uma equipe virtual.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPTzVRlnk3h1uyj+gQcz/eZqqcW4qAgQ8xAdpl23Opd/NVN17G2eu5J+kJcQ1w"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234667,
+    "id": "agBKaoz_DtG3vr0PstvC2AM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 360,
+      "total_tokens": 395
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "utt_id": "zh_0023",
+  "lang": "zh",
+  "engine": "google_stt_v2",
+  "duration_sec": 8.46,
+  "ref_text_raw": "pH 值以被测化学品中的氢（pH 中的 H）离子数量表示。",
+  "ref_text_normalized": "ph 值 以 被 测 化 学 品 中 的 氢 ph 中 的 h 离 子 数 量 表 示",
+  "timestamp_utc": "2026-07-05T06:20:47Z",
+  "text": "pH 值被测化学品中的氢, pH 中的 H 离子数量表示。",
+  "latency_sec": 3.6283,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "cmn-Hans-CN",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "9s",
+      "requestId": "73e399b8-0000-28a4-9ffd-9898fbac7a3d",
+      "prompt": "Transcribe the following speech segment in Mandarin Chinese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Mandarin Chinese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "pH 值被测化学品中的氢, pH 中的 H 离子数量表示。"
+          }
+        ],
+        "languageCode": "cmn-Hans-CN"
+      }
+    ]
+  }
+}

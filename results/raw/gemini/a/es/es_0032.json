@@ -1,0 +1,39 @@
+{
+  "utt_id": "es_0032",
+  "lang": "es",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.06,
+  "ref_text_raw": "Si desea ver de cerca la acción, entonces deberá llegar temprano al campamento para hacerse con un lugar cerca de los eventos musicales.",
+  "ref_text_normalized": "si desea ver de cerca la acción entonces deberá llegar temprano al campamento para hacerse con un lugar cerca de los eventos musicales",
+  "timestamp_utc": "2026-07-05T04:15:09Z",
+  "text": "Si desea ver de cerca la acción, entonces deberá llegar temprano al campamento para hacerse con un lugar cerca de los eventos musicales.",
+  "latency_sec": 3.9391,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Si desea ver de cerca la acción, entonces deberá llegar temprano al campamento para hacerse con un lugar cerca de los eventos musicales.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224909,
+    "id": "StpJaoTaKNmK0-kP0MrjsQM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 407,
+      "total_tokens": 490
+    }
+  }
+}

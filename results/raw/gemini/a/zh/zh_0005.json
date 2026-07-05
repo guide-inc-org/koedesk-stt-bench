@@ -1,0 +1,39 @@
+{
+  "utt_id": "zh_0005",
+  "lang": "zh",
+  "engine": "gemini_25_flash",
+  "duration_sec": 13.74,
+  "ref_text_raw": "大多数现代科研望远镜都是巨型设施，位于大气条件优良的偏远地区。",
+  "ref_text_normalized": "大 多 数 现 代 科 研 望 远 镜 都 是 巨 型 设 施 位 于 大 气 条 件 优 良 的 偏 远 地 区",
+  "timestamp_utc": "2026-07-05T08:47:54Z",
+  "text": "大多数现代科研望远镜都是巨型设施，位于大气，大气条件优良的偏远地区。",
+  "latency_sec": 3.9157,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "大多数现代科研望远镜都是巨型设施，位于大气，大气条件优良的偏远地区。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783241274,
+    "id": "OBpKas-vDrui9tMPvLHh-QE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 461,
+      "total_tokens": 511
+    }
+  }
+}

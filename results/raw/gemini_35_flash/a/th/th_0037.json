@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0037",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.02,
+  "ref_text_raw": "เมืองหลวงของประเทศมอลโดวาคือ Chişinău ภาษาท้องถิ่นของที่นี่คือภาษาโรมาเนีย แต่มีการใช้ภาษารัสเซียทั่วไป",
+  "ref_text_normalized": "เมืองหลวงของประเทศมอลโดวาคือ chişinău ภาษาท้องถิ่นของที่นี่คือภาษาโรมาเนีย แต่มีการใช้ภาษารัสเซียทั่วไป",
+  "timestamp_utc": "2026-07-05T07:54:35Z",
+  "text": "เมืองหลวงของประเทศมอลโดวาคือคีชีเนา ภาษาท้องถิ่นของที่นี่คือภาษารูมาเนียแต่มีการใช้ภาษารัสเซียทั่วไป",
+  "latency_sec": 6.1858,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "เมืองหลวงของประเทศมอลโดวาคือคีชีเนา ภาษาท้องถิ่นของที่นี่คือภาษารูมาเนียแต่มีการใช้ภาษารัสเซียทั่วไป",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238075,
+    "id": "tQ1KaqPQO7Cr0-kPhJ6suQM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 197,
+      "total_tokens": 1035
+    }
+  }
+}

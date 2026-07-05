@@ -1,0 +1,39 @@
+{
+  "utt_id": "de_0155",
+  "lang": "de",
+  "engine": "gemini_25_flash",
+  "duration_sec": 22.02,
+  "ref_text_raw": "Der marokkanische Sultan baute die Stadt als Dar el Beida wieder auf und sie wurde von spanischen Händlern, die dort Handelsstützpunkte einrichteten, Casablanca genannt.",
+  "ref_text_normalized": "der marokkanische sultan baute die stadt als dar el beida wieder auf und sie wurde von spanischen händlern die dort handelsstützpunkte einrichteten casablanca genannt",
+  "timestamp_utc": "2026-07-05T03:52:16Z",
+  "text": "Der marokkanische Sultan baute die Stadt als Da el Beidan wieder auf und sie wurde vom spanischen Händlern, die dort Handelsstützpunkte einrichteten, Casablanca genannt.",
+  "latency_sec": 4.9312,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Der marokkanische Sultan baute die Stadt als Da el Beidan wieder auf und sie wurde vom spanischen Händlern, die dort Handelsstützpunkte einrichteten, Casablanca genannt.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783223536,
+    "id": "7NRJarLgI6ne1e8P6I_tqAg",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 726,
+      "total_tokens": 825
+    }
+  }
+}

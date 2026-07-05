@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0140",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.2,
+  "ref_text_raw": "ดูวาลล์ซึ่งแต่งงานและมีลูกซึ่งโตเป็นผู้ใหญ่แล้วสองคนไม่ได้ทำให้มิลเลอร์ซึ่งเกี่ยวข้องในเรื่องนี้ประทับใจมากนัก",
+  "ref_text_normalized": "ดูวาลล์ซึ่งแต่งงานและมีลูกซึ่งโตเป็นผู้ใหญ่แล้วสองคนไม่ได้ทำให้มิลเลอร์ซึ่งเกี่ยวข้องในเรื่องนี้ประทับใจมากนัก",
+  "timestamp_utc": "2026-07-05T08:05:15Z",
+  "text": "ดูเหมือนว่าการแต่งงานและมีลูก ซึ่งโตเป็นผู้ใหญ่แล้วสองคนไม่ได้ทำให้มิลเลอร์ ซึ่งเกี่ยวข้องในเรื่องนี้ประทับใจมากนัก",
+  "latency_sec": 5.4613,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ดูเหมือนว่าการแต่งงานและมีลูก ซึ่งโตเป็นผู้ใหญ่แล้วสองคนไม่ได้ทำให้มิลเลอร์ ซึ่งเกี่ยวข้องในเรื่องนี้ประทับใจมากนัก",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238715,
+    "id": "NxBKarbCF_nC0-kP-o-AoAM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 201,
+      "total_tokens": 849
+    }
+  }
+}

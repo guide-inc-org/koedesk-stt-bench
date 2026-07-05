@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0137",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.26,
+  "ref_text_raw": "Pa amb Oli 是一种在夏天尤为流行的简单晚餐：面包搭配橄榄油、番茄，手头上任何佐料都可加入，比如奶酪、金枪鱼等。",
+  "ref_text_normalized": "pa amb oli 是 一 种 在 夏 天 尤 为 流 行 的 简 单 晚 餐 面 包 搭 配 橄 榄 油 番 茄 手 头 上 任 何 佐 料 都 可 加 入 比 如 奶 酪 金 枪 鱼 等",
+  "timestamp_utc": "2026-07-05T09:18:52Z",
+  "text": "Pan con tomate 是一种在夏天尤为流行的简单晚餐, 面包搭配橄榄油、番茄, 手上任何佐料都可加入, 比如奶酪、金枪鱼等。",
+  "latency_sec": 2.7902,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Pan con tomate 是一种在夏天尤为流行的简单晚餐, 面包搭配橄榄油、番茄, 手上任何佐料都可加入, 比如奶酪、金枪鱼等。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPVr9pUEjEmtWqccU1JCrql68fKhQhPPVm3uArpdwSo3c++BIWumRV2ujreb4Y"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783243132,
+    "id": "eiFKasSQIrui9tMP8NiBsAM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 42,
+      "prompt_tokens": 353,
+      "total_tokens": 395
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utt_id": "pt_0195",
+  "lang": "pt",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 19.2,
+  "ref_text_raw": "A equipe de ginástica norte-americana e o USOC têm o mesmo objetivo — tornar a ginástica e qualquer outro esporte o mais seguro possível para que os atletas possam ir atrás dos seus sonhos em um ambiente de respeito, saudável e positivo.",
+  "ref_text_normalized": "a equipe de ginástica norte-americana e o usoc têm o mesmo objetivo tornar a ginástica e qualquer outro esporte o mais seguro possível para que os atletas possam ir atrás dos seus sonhos em um ambiente de respeito saudável e positivo",
+  "timestamp_utc": "2026-07-05T07:05:50Z",
+  "text": "A equipe de ginástica norte-americana IAZOC tem o mesmo objetivo, tornar a ginástica e qualquer outro esporte o mais seguro possível para que os atletas possam ir atrás dos seus sonhos em um ambiente de respeito, saudável e positivo.",
+  "latency_sec": 3.0204,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (pt). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "A equipe de ginástica norte-americana IAZOC tem o mesmo objetivo, tornar a ginástica e qualquer outro esporte o mais seguro possível para que os atletas possam ir atrás dos seus sonhos em um ambiente de respeito, saudável e positivo.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPBLiiBy80yC4cwALYaqz0YNlhk1qQQ/eP1Z0t4NznXWozPV1LS2wlYZpGjVVX"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235151,
+    "id": "TQJKav38ItKivr0PmOv26QM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 49,
+      "prompt_tokens": 501,
+      "total_tokens": 550
+    }
+  }
+}

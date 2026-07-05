@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0182",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.64,
+  "ref_text_raw": "แกงคืออาหารชนิดหนึ่งที่ทำจากสมุนไพรและเครื่องเทศเป็นหลักโดยปรุงร่วมกับเนื้อหรือผักชนิดต่าง ๆ",
+  "ref_text_normalized": "แกงคืออาหารชนิดหนึ่งที่ทำจากสมุนไพรและเครื่องเทศเป็นหลักโดยปรุงร่วมกับเนื้อหรือผักชนิดต่าง ๆ",
+  "timestamp_utc": "2026-07-05T08:12:05Z",
+  "text": "แกง คือ อาหาร แกง คือ อาหาร ชนิด หนึ่ง ที่ ทำ จาก สมุนไพร และ เครื่อง เทศ เป็น หลัก โดย ปรุง ร่วม กับ เนื้อ หรือ ผัก ชนิด ต่าง ๆ",
+  "latency_sec": 2.67,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "แกง คือ อาหาร แกง คือ อาหาร ชนิด หนึ่ง ที่ ทำ จาก สมุนไพร และ เครื่อง เทศ เป็น หลัก โดย ปรุง ร่วม กับ เนื้อ หรือ ผัก ชนิด ต่าง ๆ",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPSlMQCZRKHWElKBKR+cQrXMRaFiuvMirmGWdChloluG9oPf4jN15hSZAAyRIY"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239125,
+    "id": "0xFKarvgJqLMrfcPzqLmsAE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 312,
+      "total_tokens": 352
+    }
+  }
+}

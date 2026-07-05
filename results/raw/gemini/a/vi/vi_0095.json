@@ -1,0 +1,39 @@
+{
+  "utt_id": "vi_0095",
+  "lang": "vi",
+  "engine": "gemini_25_flash",
+  "duration_sec": 15.24,
+  "ref_text_raw": "Không có cảnh báo sóng thần nào được đưa ra, và theo cơ quan địa vật lý Jakarta, sẽ không có cảnh báo sóng thần vì cơn địa chấn chưa đạt tới tiêu chuẩn 6.5 độ richter.",
+  "ref_text_normalized": "không có cảnh báo sóng thần nào được đưa ra và theo cơ quan địa vật lý jakarta sẽ không có cảnh báo sóng thần vì cơn địa chấn chưa đạt tới tiêu chuẩn 6.5 độ richter",
+  "timestamp_utc": "2026-07-05T08:19:24Z",
+  "text": "Không có cảnh báo sóng thần nào được đưa ra và theo cơ quan địa vật lý Sakata sẽ không có cảnh báo sóng thần vì cơn địa chấn chưa đạt tới tiêu chuẩn 6.5 độ Richter.",
+  "latency_sec": 17.6729,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Không có cảnh báo sóng thần nào được đưa ra và theo cơ quan địa vật lý Sakata sẽ không có cảnh báo sóng thần vì cơn địa chấn chưa đạt tới tiêu chuẩn 6.5 độ Richter.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783239564,
+    "id": "iRNKaquNN8_g1e8PpM-tqAQ",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 509,
+      "total_tokens": 636
+    }
+  }
+}

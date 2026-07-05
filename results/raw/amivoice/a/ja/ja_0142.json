@@ -1,0 +1,135 @@
+{
+  "utt_id": "ja_0142",
+  "lang": "ja",
+  "engine": "amivoice_general",
+  "duration_sec": 7.5,
+  "ref_text_raw": "海の下は薄く、高地の下は厚くなっています。",
+  "ref_text_normalized": "海の下は薄く 高地の下は厚くなっています",
+  "timestamp_utc": "2026-07-05T03:09:03Z",
+  "text": "海の下は薄く、高知の下は厚くなっています。",
+  "latency_sec": 1.6635,
+  "params": {
+    "endpoint": "https://acp-api.amivoice.com/v1/recognize",
+    "grammarFileNames": "-a-general",
+    "logging": true,
+    "audio_conversion": "float32 wav -> pcm_16 wav (same samples)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "results": [
+      {
+        "tokens": [
+          {
+            "written": "海",
+            "confidence": 1.0,
+            "starttime": 1476,
+            "endtime": 1892,
+            "spoken": "うみ"
+          },
+          {
+            "written": "の",
+            "confidence": 1.0,
+            "starttime": 1892,
+            "endtime": 2020,
+            "spoken": "の"
+          },
+          {
+            "written": "下",
+            "confidence": 1.0,
+            "starttime": 2020,
+            "endtime": 2276,
+            "spoken": "した"
+          },
+          {
+            "written": "は",
+            "confidence": 1.0,
+            "starttime": 2276,
+            "endtime": 2372,
+            "spoken": "は"
+          },
+          {
+            "written": "薄く",
+            "confidence": 1.0,
+            "starttime": 2372,
+            "endtime": 2916,
+            "spoken": "うすく"
+          },
+          {
+            "written": "、",
+            "confidence": 0.61,
+            "starttime": 2916,
+            "endtime": 3252,
+            "spoken": "_"
+          },
+          {
+            "written": "高知",
+            "confidence": 0.56,
+            "starttime": 3252,
+            "endtime": 3684,
+            "spoken": "こうち"
+          },
+          {
+            "written": "の",
+            "confidence": 1.0,
+            "starttime": 3684,
+            "endtime": 3796,
+            "spoken": "の"
+          },
+          {
+            "written": "下",
+            "confidence": 0.95,
+            "starttime": 3796,
+            "endtime": 4052,
+            "spoken": "した"
+          },
+          {
+            "written": "は",
+            "confidence": 1.0,
+            "starttime": 4052,
+            "endtime": 4228,
+            "spoken": "は"
+          },
+          {
+            "written": "厚く",
+            "confidence": 0.48,
+            "starttime": 4260,
+            "endtime": 4580,
+            "spoken": "あつく"
+          },
+          {
+            "written": "なって",
+            "confidence": 1.0,
+            "starttime": 4580,
+            "endtime": 4932,
+            "spoken": "なって"
+          },
+          {
+            "written": "います",
+            "confidence": 1.0,
+            "starttime": 4932,
+            "endtime": 5428,
+            "spoken": "います"
+          },
+          {
+            "written": "。",
+            "confidence": 0.84,
+            "starttime": 5428,
+            "endtime": 5732,
+            "spoken": "_"
+          }
+        ],
+        "confidence": 0.993,
+        "starttime": 1300,
+        "endtime": 5732,
+        "tags": [],
+        "rulename": "",
+        "text": "海の下は薄く、高知の下は厚くなっています。"
+      }
+    ],
+    "utteranceid": "20260705/12/019f3040385e0a30111a94c2_20260705_120902",
+    "text": "海の下は薄く、高知の下は厚くなっています。",
+    "code": "",
+    "message": ""
+  }
+}

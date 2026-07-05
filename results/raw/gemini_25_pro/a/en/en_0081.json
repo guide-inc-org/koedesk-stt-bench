@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0081",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 15.06,
+  "ref_text_raw": "The Giza Plateau, or \"Giza Necropolis\" in the Egyptian Valley of the Dead contains several pyramids (of which the great pyramid is the largest), several small tombs, several temples, and the great Sphinx.",
+  "ref_text_normalized": "the giza plateau or giza necropolis in the egyptian valley of the dead contains several pyramids of which the great pyramid is the largest several small tombs several temples and the great sphinx",
+  "timestamp_utc": "2026-07-05T10:26:24Z",
+  "text": "The Giza plateau or Giza Necropolis in the Egyptian Valley of the Dead contains several pyramids of which the Great pyramid is the largest, several tombs, several temples, and the Great Sphinx.",
+  "latency_sec": 4.2433,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The Giza plateau or Giza Necropolis in the Egyptian Valley of the Dead contains several pyramids of which the Great pyramid is the largest, several tombs, several temples, and the Great Sphinx.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247184,
+    "id": "TTFKaoD5BsKw0-kPjYbn-AU",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 503,
+      "total_tokens": 623
+    }
+  }
+}

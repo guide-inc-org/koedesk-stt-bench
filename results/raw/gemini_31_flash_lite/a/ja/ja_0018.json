@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0018",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.88,
+  "ref_text_raw": "ヤギの家畜化は、約1万年前に始まり、その中心はイランのザグロス山脈西部であったとされています。",
+  "ref_text_normalized": "ヤギの家畜化は 約1万年前に始まり その中心はイランのザグロス山脈西部であったとされています",
+  "timestamp_utc": "2026-07-05T10:13:50Z",
+  "text": "ヤギ の 家畜 化 は 約 1万 年 前 に 始まり 、 その 中心 は イラン の ザグロス 山脈 西部 で あっ た と さ れ て い ます 。",
+  "latency_sec": 2.8092,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ヤギ の 家畜 化 は 約 1万 年 前 に 始まり 、 その 中心 は イラン の ザグロス 山脈 西部 で あっ た と さ れ て い ます 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPLu9WW4X/78Ncs6dpOq8xmS/+gX/poIIVmWxkWkVQWJWvNHGfeC1YlBUo9cfQ"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783246430,
+    "id": "XC5KasnPJcvb2roP0s2koQM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 318,
+      "total_tokens": 358
+    }
+  }
+}

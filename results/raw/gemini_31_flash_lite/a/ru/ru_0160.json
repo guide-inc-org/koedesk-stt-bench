@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0160",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.28,
+  "ref_text_raw": "Джанкарло Физикелла потерял контроль над управлением своим автомобилем и завершил гонку вскоре после старта.",
+  "ref_text_normalized": "джанкарло физикелла потерял контроль над управлением своим автомобилем и завершил гонку вскоре после старта",
+  "timestamp_utc": "2026-07-05T07:36:51Z",
+  "text": "Джанкарло Физикелла потерял контроль над управлением своим автомобилем и завершил гонку вскоре после старта.",
+  "latency_sec": 2.8219,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Джанкарло Физикелла потерял контроль над управлением своим автомобилем и завершил гонку вскоре после старта.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPFgdaHHzyUFkOjy8WJ1yzqEwvFMzAKqYo70/V5HscsKtlp0ac+FcFosR+Smso"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237011,
+    "id": "kglKau7iB9qA1e8PtKvlgQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 228,
+      "total_tokens": 256
+    }
+  }
+}

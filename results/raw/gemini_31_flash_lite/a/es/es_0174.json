@@ -1,0 +1,44 @@
+{
+  "utt_id": "es_0174",
+  "lang": "es",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.16,
+  "ref_text_raw": "El rendimiento tanto de Sachin Tendulkar como de Rahul Dravid, bateadores de orden medio, fue bueno y lograron una asociación de cien anotaciones.",
+  "ref_text_normalized": "el rendimiento tanto de sachin tendulkar como de rahul dravid bateadores de orden medio fue bueno y lograron una asociación de cien anotaciones",
+  "timestamp_utc": "2026-07-05T04:44:13Z",
+  "text": "El rendimiento, tanto de Sachin Tendulkar como el de Rahul Dravid, bateadores de orden medio, fue bueno y lograron una asociación de 100 anotaciones.",
+  "latency_sec": 3.9765,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (es). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "El rendimiento, tanto de Sachin Tendulkar como el de Rahul Dravid, bateadores de orden medio, fue bueno y lograron una asociación de 100 anotaciones.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP6/61j1L5VcW9De7yyHI2vqjQUnKdPNWHfIul28Q45KRy1nnRxErilvrpznqf"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783226653,
+    "id": "G-FJasvzAcD21e8P0dn2qQE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 375,
+      "total_tokens": 409
+    }
+  }
+}

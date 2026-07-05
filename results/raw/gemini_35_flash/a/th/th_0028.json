@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0028",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 5.1,
+  "ref_text_raw": "เปลือกด้านใกล้หนาประมาณ 70 กม. ส่วนด้านไกลหนาประมาณ 100 กม.",
+  "ref_text_normalized": "เปลือกด้านใกล้หนาประมาณ 70 กม. ส่วนด้านไกลหนาประมาณ 100 กม",
+  "timestamp_utc": "2026-07-05T07:53:37Z",
+  "text": "เปลือกด้านใกล้หนาประมาณ 70 กิโลเมตร ส่วนด้านไกลหนาประมาณ 100 กิโลเมตร",
+  "latency_sec": 5.0097,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "เปลือกด้านใกล้หนาประมาณ 70 กิโลเมตร ส่วนด้านไกลหนาประมาณ 100 กิโลเมตร",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238017,
+    "id": "fg1Kaor_B7Givr0P0MTRmQU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 149,
+      "total_tokens": 531
+    }
+  }
+}

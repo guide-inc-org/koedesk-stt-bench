@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0061",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.9,
+  "ref_text_raw": "Buổi trình diễn âm thanh và ánh sáng trên kim tự tháp là một trong những điều thú vị nhất đối với trẻ nhỏ trong khu vực.",
+  "ref_text_normalized": "buổi trình diễn âm thanh và ánh sáng trên kim tự tháp là một trong những điều thú vị nhất đối với trẻ nhỏ trong khu vực",
+  "timestamp_utc": "2026-07-05T08:41:20Z",
+  "text": "Quá trình trình diễn âm thanh và ánh sáng trên Kim tự tháp là một trong những điều thú vị nhất đối với trẻ nhỏ trong khu vực.",
+  "latency_sec": 2.9815,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Quá trình trình diễn âm thanh và ánh sáng trên Kim tự tháp là một trong những điều thú vị nhất đối với trẻ nhỏ trong khu vực.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPjCRjmtFYNRuqj60sgWPigTHLT9cozxp6+M5BEQoV/NQuq4ynDPtaZttibZyB"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240880,
+    "id": "rxhKasCgDI-30-kPqfOw8Q0",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 269,
+      "total_tokens": 300
+    }
+  }
+}

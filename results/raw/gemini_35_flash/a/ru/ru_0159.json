@@ -1,0 +1,45 @@
+{
+  "utt_id": "ru_0159",
+  "lang": "ru",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 16.68,
+  "ref_text_raw": "Вчера утром возле главного полицейского управления Газиантепа (Турция) был подорван автомобиль, в результате чего погибли 2 полицейских и еще более 20 человек получили ранения.",
+  "ref_text_normalized": "вчера утром возле главного полицейского управления газиантепа турция был подорван автомобиль в результате чего погибли 2 полицейских и еще более 20 человек получили ранения",
+  "timestamp_utc": "2026-07-05T07:30:41Z",
+  "text": "Вчера утром возле главного полицейского управления Газиантепа, Турция, был подорван автомобиль, в результате чего погибли два полицейских и еще более двадцати человек получили ранения.",
+  "latency_sec": 4.5184,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Вчера утром возле главного полицейского управления Газиантепа, Турция, был подорван автомобиль, в результате чего погибли два полицейских и еще более двадцати человек получили ранения.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236641,
+    "id": "HghKapr-EuKSvr0Pv53i8AM",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 42,
+      "prompt_tokens": 438,
+      "total_tokens": 824
+    }
+  }
+}

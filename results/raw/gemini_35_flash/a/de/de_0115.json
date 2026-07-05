@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0115",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.48,
+  "ref_text_raw": "Die Kreuzfahrten nach Sankt Petersburg bieten auch Zeit für einen Aufenthalt in der Stadt. Kreuzfahrtpassagiere sind von der Visumpflicht befreit (siehe Bedingungen).",
+  "ref_text_normalized": "die kreuzfahrten nach sankt petersburg bieten auch zeit für einen aufenthalt in der stadt. kreuzfahrtpassagiere sind von der visumpflicht befreit siehe bedingungen",
+  "timestamp_utc": "2026-07-05T04:05:39Z",
+  "text": "Die Kreuzfahrten nach St. Petersburg bieten auch Zeit für einen Aufenthalt in der Stadt. Kreuzfahrtpassagiere sind von der Visumspflicht befreit. Siehe Bedingungen.",
+  "latency_sec": 3.6368,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Die Kreuzfahrten nach St. Petersburg bieten auch Zeit für einen Aufenthalt in der Stadt. Kreuzfahrtpassagiere sind von der Visumspflicht befreit. Siehe Bedingungen.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EsoGCscGARFNMg93sPhYrfOz8xZB2MUPfSdUE9zAC+MnIjqey48WAcHYSWQ2Wcz6QojDVDUhwqCJUrhHJhOei8Y43ZakvH7Oeoi9qM9CvuNXyMQ518KlKZEtQtePLsDZJH1wiTScvPXz8Ahcwf6294rsNhT0Zcgdk59+hmko8i4fiB91cCD3B6yT7OUqGtYPQqkAzFCFt1y/XtmmawbMlDM5JfnmQnRuPth3qUcU0KKzLWsmSxs7ZazSn4AWUZgY3V50vhmSn/8Hus7b9tmSmMb/ElDgi5E24yDyigMZABdRSwQA5MQYBaD9Zu64KYO9LpvTR1jE0pNigGtbiL2gqNbpAenPqzJU3fZ5OtNHn2ttvouRR6CrAk3jZIpTFZ8zgoAgEfoVoJYYq2WBL9Cov7T926b3zFfV1/XQd4V8b1twhFI3kYwwSF6Br5TcHLcKUVdXjw7835TomelX1QQGpLKHgIi2LTimkW9ORzVFThTgMYUVPgjrtLs2VRgxfq7VUO9qYR6qTi9qh+qaQyewwaZICUjcXnNCwMVw9vr1qdQ3aT9tU1I5df2AdQUfLN4K2pWSkEb+iclxJ4V1F8SbU/sgsGUWnwxt+H/3OQ9qD5Z9a58KPzibzKkI/FTrD3+jwTzkG1LJtiLVOwUKgB2iY19K0fID42jBT6Ine9A20ZHibJZ0ce9nG6VabTHEgwqe2TAiiGDi/9mLwjdCMOVYUEnBvC/HzLFyvILAp7SYc9FCU33IQb09A1HN7LNWj2uVxGzQ6MJp6CmocV/i6J1JZFTiyZVTLkevUvBrIK+oJsMiyybRtC+Y07KMfILPgO1X59aVTiZv1C8SuDGgt491pmeK7jg3pMJIQX8r4jBCa1znLtHfa/A6r+qyA3TcRDMJPcAZXQmn0mEJsNx1/JLel+JXZH2O/Q9VoAp4dLwaJI8/J5dID4tn0R4xVpRZLXowkKjGQvNg4Qv1Dlrf5oNiaVQD3qqbKr2/rAmlD5zIBfjLB+KfLqBqShYCAyW7ReXs+YOEyuX6bRSEu9qOgGKjER9WpaGV96aihmd0rjOQEe8XEBqihxhXj9zhcORbBLuj4/vCy6JjlnMOyiF0pE/Zx4S1YUHmzAeVlX6/0JM="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224339,
+    "id": "EdhJarqeHYfNrfcP8aSW8AI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 333,
+      "total_tokens": 573
+    }
+  }
+}

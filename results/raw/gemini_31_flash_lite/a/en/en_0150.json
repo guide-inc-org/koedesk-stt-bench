@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0150",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 14.06,
+  "ref_text_raw": "We don't know for sure, but it may have had a forked tongue. Its diet included turtles, large fish, other mosasaurs, and it may even have been a cannibal.",
+  "ref_text_normalized": "we don't know for sure but it may have had a forked tongue its diet included turtles large fish other mosasaurs and it may even have been a cannibal",
+  "timestamp_utc": "2026-07-05T03:36:15Z",
+  "text": "We don't know for sure but it may have had a forked tongue. His diet included turtles, large fish, other mosasaurs, and it may even have been a cannibal.",
+  "latency_sec": 12.8275,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "We don't know for sure but it may have had a forked tongue. His diet included turtles, large fish, other mosasaurs, and it may even have been a cannibal.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP8Wk+PtEgm2zA1biADIuI8amnEpZSUZX1aDMZ5EsHgJGk3OduzqRudehWH6wI"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222575,
+    "id": "LtFJaor6G9Wd1e8PgOulsQY",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 373,
+      "total_tokens": 412
+    }
+  }
+}

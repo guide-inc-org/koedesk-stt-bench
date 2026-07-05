@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0177",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.54,
+  "ref_text_raw": "敵対行為が始まってまもなく、イギリスはドイツに対する海上封鎖を開始しました。",
+  "ref_text_normalized": "敵対行為が始まってまもなく イギリスはドイツに対する海上封鎖を開始しました",
+  "timestamp_utc": "2026-07-05T03:22:03Z",
+  "text": "敵対 行為 が 始まっ て ま も なく イギリス は ドイツ に 対する 海上 封鎖 を 開始 し まし た 。",
+  "latency_sec": 2.6722,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "敵対 行為 が 始まっ て ま も なく イギリス は ドイツ に 対する 海上 封鎖 を 開始 し まし た 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPnmnQdcxYxsmDtiJ4nlzzT0QiRA4VkPXEYySz/3HHJlQBxPtjv7F5Ma+tx+Ux"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221724,
+    "id": "2s1JapasHvPG2roPs9KcqAM",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 335,
+      "total_tokens": 366
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "fr_0108",
+  "lang": "fr",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.0,
+  "ref_text_raw": "De nombreux produits de boulangerie allemands contiennent également des amandes, des noisettes et d’autres noix. Les gâteaux populaires se marient souvent particulièrement bien avec une tasse de café serré.",
+  "ref_text_normalized": "de nombreux produits de boulangerie allemands contiennent également des amandes des noisettes et d'autres noix les gâteaux populaires se marient souvent particulièrement bien avec une tasse de café serré",
+  "timestamp_utc": "2026-07-05T05:11:06Z",
+  "text": "De nombreux produits de boulangerie allemands contiennent également des amandes, des noisettes et d'autres noix. Les gâteaux populaires se marient souvent particulièrement bien avec une tasse de café serré.",
+  "latency_sec": 4.6041,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "De nombreux produits de boulangerie allemands contiennent également des amandes, des noisettes et d'autres noix. Les gâteaux populaires se marient souvent particulièrement bien avec une tasse de café serré.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EowLCokLARFNMg+iNKJyzXnKYwAtNfzn6yti09xa1nRj7jLlBGxuLsHWY5YillfzXOPvhoebxajcSOmmg0woiLbzZelaRu++nB7sfdk8v4ZsTQUiby7y2lTBSlKbSWKgx3rgqnK5tqs3aO7CFUNGx2rEFej+Qk57jHHVDIYnVVOYFsNcS8KiSpHXQEA//Rj8cJfp4P6re5pd+AG0tXxzeDi/nhXKqyxiGVUeR65WGHLPT/IJdSNzy3mPlsRnD6p7hthbYXEgcoHpaLG1J0KJ5+pa7OdhtGDYWhddyr26EEEF96oEI0gLW1+kcW98AJVrpfVI/JPsV9NiXCUVSPTGqV/6LmnlJtx/or2M8ZB2/NS0+5F4NGt+ZzR6TffjJdbm8gBljvNpZPF/87vcCK1oAnXch8IL3WLMNCsI4NiS2YrfNihy/SeKk1iA4/QZfwg+mWn411z+wlLqY5c5vl325a5C5TZNNNHsyojUYDsroLUhFkHE0rGCKr4sQxH6VsUK5AQXDVZG685c3A3ZQ/CUhVIFIeC54Rk79GSodUkW9ENJAN09zcRkEK6CEg4PvIherPc9EEbdkXUdj5efSP9MAOxMpRSztkHbaYJmmVNajHE/skAo1zZ3eQE/plki6qnLk1XaCSm9k9P540KghcmDF8uINoD/tI/XxE09KE/L8TgGSVjC76xo4RVceJrhLp7Or5aJQEiXtzSeSI1FMZwpLusEh1tcfcaD6a4h+c12RwS/Gf9Si78EjrQOPPTY9vOXukDUY8YKqvc4PfeOd9qJUSdIAHNTyFfmFZ52VdW65vwgnNVHoU2+5nYS8Gceymapca8TjPFFRk5nOJlU6Sb12K+5AXOQLX0DeQlUltciGDPbZ7A5OaU8/GIS3jUX2STdBLA/M7G0wZe16vXzvP5lrAA7QNGXhd/tY2DwGo5FNSayWXgH3Ha02HUS3TXrwSLIRLevqBjX2NNDxCEInWWhe1LtqsjfqambYYo7Ye6IgwFHKaIxq8GMr8EUfRc56Rt8zf7d7zEKNVb6rIDGrxUeBtfPnc3Q/33E2wTl219Cr1AQyTIrBLRF9Jc8GQl6UgjPI5TpHqsIttQiVmrvIkeKuNMRqJwX8MDzPV52G16eahHaFIfW6ynzBR1VA6pQ6E1PXjKy1qZm+TQSN1dpUNQkN1/AT5J5ef0qAzHkadVCm0zR4gmsiPR2o3GZLqrp8Xk/ehgbWvIceYa+tE+Rp4p0bB59K3LZLRtSPhXPgaG7p78jNVg1xrP/diS9a54IdnGCwGUOH8IyoTYQpXcoMFf+y2McND41E1m8mLVHqhTd8VQaDZDqnm1Qh6P/uJPDSteIkHcMyZXRxIuSuRCjZ0wXC5ESp9yAC9hnJwBgD8Yq4qvR2k4Yld2TwFPUdQ26t8NMomJskhGN0lJYLRWeUaby3krhZZ2XKXC2hMeVE4Pmai5XLqcC66PMuGSIFFkykZ11VKbGv4sYjEZ4tE8ZHeZR4aCfAC5L/EhEb4DDLKMtoZR5fwHu6yXxVOxyyTp0uNrZT3REerbbc8uPDVnSrpXBwBui1mocg2suqdVgTGiqUr+uXhI9kl/rei1LGMGHq1a21XeDj4sVMyoiMyygeQFqBERPpR9HmVgkRO1kIHNgvazkim++VofkvL8Z/kiPfnNHIXKWDfOudHRsN5Yb+9iw1t800Mz9LVr94fXKssoPStu09n2qDDPauiPRxaFBAOVpe+59XBvl0af6/CbWDuSHwITaEN2skyfLqRHjvWvtMnDh6NlklWbEYZ68P0ez9cDfXfHDj1e/W7z/dkvi+iUrB9Qwqngdh8bXSM5BDynOAUDKPP0wpvTHpHGfQr6+Z6hyrgWmItm6gTDbT674CbqF7hpQ7ZesTJX2bsZjJ0PsKA=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228266,
+    "id": "ZudJatupI-ex2roPq7DX0QU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 246,
+      "total_tokens": 599
+    }
+  }
+}

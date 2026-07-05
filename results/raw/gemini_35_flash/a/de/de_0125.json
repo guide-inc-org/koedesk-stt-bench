@@ -1,0 +1,45 @@
+{
+  "utt_id": "de_0125",
+  "lang": "de",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.36,
+  "ref_text_raw": "Dies nennt man den PH-Wert einer Chemikalie. Man kann mit rotem Kohlsaft einen Indikator herstellen.",
+  "ref_text_normalized": "dies nennt man den ph-wert einer chemikalie man kann mit rotem kohlsaft einen indikator herstellen",
+  "timestamp_utc": "2026-07-05T04:06:27Z",
+  "text": "Dies nennt man den pH-Wert einer Chemikalie. Man kann mit Rotkohlsaft einen Indikator herstellen.",
+  "latency_sec": 3.9196,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Dies nennt man den pH-Wert einer Chemikalie. Man kann mit Rotkohlsaft einen Indikator herstellen.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Eq0GCqoGARFNMg9/EYk0m6WwtydA5GlZn/QFn4JsO7USx0TTdvHDkWy09v29eNdaqlUgWoI5zyheNQK7Qnilo0zGiFQenfaZRyH1823gHkJxlbpgiB3tkbTpDC+SMXjmRhVEUvXwx1RWGyloNztLZ2KvSSkkiknIwwN+tpd3+anxJylP4deaRXX+8QiOjYNUGzRgqFsCumcrBl2/JOJfKjScxA28lTK0nT0gUpJWYfxBQUMZ7tGu+zN04yuWwuy1FdDzKdKY6AkpuJtmg4Wr/D57adGmdxYWAm40DtnAW+a6PPGBIokHNCZKwpc3U5VL+GDsZPDoqo3OAKE06UxLxtHk+lBizhH5qni1eP/u+MQyjjpwqFiOBTlVD2EiFnJYjNeefWXiaXkFn6n5frCjP8rd/pdEj24tkgQGitxGoln7Tg3sRiRWJXisGHrdKJB7k6zzD4WrcM++M6Ldl1sI7lObN8JVQ0woTjiyAEP7wVBowvlfKwNeb4N8GYjoybt5pYpAtr/0SZfQWhaCtStbo8iZOQLDsfJWG1GnA5ING8arYP+gYG4O5NC01YCTyQEqcH5P/76TZRPn2jSZ0I0ssBrOtjGezzDb6H116J7WEoB421yzkAWLBpqV5xyEbiCE8qJUl55p0ibV9IHbPCzpAZPinmbnQaDvUZISCdLt/an9VRfAhrx1H4NgyFi+kuPOxSJyOu+6gekdpOqMw6kO5EMUbOSRclpf8q/Hy44pIfVP253lyewk6xShMJGmG0AiS5VoAnpNX0qkkcbKW9ydw8oo2+JCZIFWMfPLlThuTOnZeWd/y3DVJCRX4L/6Z9m94TJYc4LkijTtvytiVDzJcuvzHGK4/IaaU2hSMXYjs32VoB3PHurAY/vlo6Ju1KUl+QTaxAFh8cnhhvmcV6Ow0WRL3KsCLjivWdGIgS7hzAyjf+g9FmW54unEo72UlwK2kX3tjK/XKTAC8JCaEMFJFmreTT4QdZ6G178ajHZmv8+6KiLWA9OnUX1FYjJDpJ8zxdpAngdy9s+6aN1fVoCXamVyZFS95mGqnzXuOLJK5AUI1h6YOnV5J9r6oz299Lna"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224388,
+    "id": "QdhJatDzBL3MrfcPx6WgiQQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 180,
+      "total_tokens": 417
+    }
+  }
+}

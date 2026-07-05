@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0082",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.88,
+  "ref_text_raw": "Le travail effectué était principalement théorique, mais le programme a été écrit pour simuler les observations faites de la galaxie du Sagittaire.",
+  "ref_text_normalized": "le travail effectué était principalement théorique mais le programme a été écrit pour simuler les observations faites de la galaxie du sagittaire",
+  "timestamp_utc": "2026-07-05T05:14:34Z",
+  "text": "Le travail effectué était principalement théorique, le programme a été écrit pour simuler les observations faites de la galaxie du Sagittaire.",
+  "latency_sec": 4.2977,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Le travail effectué était principalement théorique, le programme a été écrit pour simuler les observations faites de la galaxie du Sagittaire.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPVR5wBqSSMSw6uqq0nTpE4sEdD8V7kjCxBTFVh+xEyKUmAw02+CrLw7KVsbVu"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228474,
+    "id": "N-hJaurBLqOm2roPua6M0QE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 244,
+      "total_tokens": 272
+    }
+  }
+}

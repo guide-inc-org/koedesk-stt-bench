@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0078",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 21.3,
+  "ref_text_raw": "Bốn vận động viên trượt tuyết trong đội nữ đã không hoàn tất được cuộc đua, và 45 trong tổng số 117 vận động viên trượt tuyết ở môn Giant Slalom không giành được vị trí trong bảng xếp hạng.",
+  "ref_text_normalized": "bốn vận động viên trượt tuyết trong đội nữ đã không hoàn tất được cuộc đua và 45 trong tổng số 117 vận động viên trượt tuyết ở môn giant slalom không giành được vị trí trong bảng xếp hạng",
+  "timestamp_utc": "2026-07-05T08:42:20Z",
+  "text": "bốn vận động viên trượt tuyết trong đội nữ đã không hoàn thành tất cuộc đua và 45 trong tổng số 117 vận động viên trượt tuyết ở môn giant slalom không giành được vị trí trên bảng xếp hạng.",
+  "latency_sec": 2.9429,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "bốn vận động viên trượt tuyết trong đội nữ đã không hoàn thành tất cuộc đua và 45 trong tổng số 117 vận động viên trượt tuyết ở môn giant slalom không giành được vị trí trên bảng xếp hạng.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPcAYk4SoI5oacQhWrBC0OuhZc/47fKG6OEmij8uX55jZ1/p7NbPL/cNDAcRMK"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240941,
+    "id": "6xhKatP7G9y-vr0P4tf2gQI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 51,
+      "prompt_tokens": 554,
+      "total_tokens": 605
+    }
+  }
+}

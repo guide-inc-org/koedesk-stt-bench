@@ -1,0 +1,45 @@
+{
+  "utt_id": "en_0106",
+  "lang": "en",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 12.64,
+  "ref_text_raw": "Unfortunately, studying traffic flow is difficult because driver behavior cannot be predicted with one-hundred percent certainty.",
+  "ref_text_normalized": "unfortunately studying traffic flow is difficult because driver behavior cannot be predicted with one-hundred percent certainty",
+  "timestamp_utc": "2026-07-05T03:32:35Z",
+  "text": "Unfortunately, studying traffic flow is difficult because driver behavior cannot be predicted with 100% certainty.",
+  "latency_sec": 3.6018,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Unfortunately, studying traffic flow is difficult because driver behavior cannot be predicted with 100% certainty.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqsGCqgGARFNMg+4gLRwuPYAVQevapIdyYJM93h+TdY2hBBhfLAzovkyqs5iVZEml8fRe0htzXDSi7F3lHLP/YuU/HErllp1s/rCDYbY28bv+UTShLsbNdIWY3dgoXvaF7u7fFFbtykGYBPbblUs2WUuJ+vYlDoJZ0hCjbX0ikurJTF+s7TmQy5K1nm3UpCNlhLm1WCzvqygqbzHcRBZ3++K/i3uDYN8boqsvPd6SjhH6QmUfRYjeYE4IKBmq9s6PcvF+n+fVpILzI3rs+CuLKFbBFQ11XpxdVkbHVcfgs+9nQUzGwR7ubFNyUu6SEHbhXL6lwYhorJ5PFF/D3mxXb+v6koeZYnM0ZlTKAXODKPFk9HiA2Kbqp2ym1tmcvv+vS+n/X/m/lz4jSRvk8gPhj7Mn9jfHZH3WwfZfX8g4emkdc8K/MG35SWrWBJ2pk7iqLTAYJFjQQb5ggJyhKh3xBwMAdBIhtyarCXSnOb78EwPDGy1ch5uyU9b49RWsEBm8AD1PuxOwaDikZ1MICVnCJYIbBX+LnoUHYbfcc+WwJWbqZiKo+aYZx0LDTZfkTNx7+vWC/UjtWePsf3e96XlgEbNLMKyaVLe+/eYBMoT6XQDOGbMBqrZtk9PVPRNVnFxXf8WULPBjZ0q9JqCWdWXG7wgeYECEZeXoZjXNCJzzGUuCDYFDNIYabtBJfWiNE5CLBgtZJyHMNJHw64HVqxL9TZfV6kxAumA+7GVg1xs77hg3CeHTpZRgidygcQ6mMMH7PL7G00Jm/aidLjHznhroUlnm7zZCb5Dk/P0DWqfIu0X/w940Yq9V/CwQZaFU34bHbvHk37VpPhk8FwEbJBeRJgNJS+zxKBK687D+ulBNEyZxZUvwuWA3GGYmNmn18deW2xt79HpW4HCCFjoBjzJSaJxKB5mAIw9Tb7pQ3ms0aR/iSqcU1pkRR5DqD7CoA55AqGOxeoLkS7CtFSry+mzpzvvDMGhJ4B6arWAwVNRI2E0UpZ0Oum1aTeiWfcOBLrnMLCHE0l9byW24iei2LWiMLbjdBoTPLoSaQ2cVZ1g9CfttQNvxBZ2ZHLku+JW4Q=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222355,
+    "id": "UdBJapWyJ8D21e8P0dn2qQE",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 337,
+      "total_tokens": 528
+    }
+  }
+}

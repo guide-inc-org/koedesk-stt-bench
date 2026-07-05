@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0120",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 11.4,
+  "ref_text_raw": "크러스트는 마리아 아래에서 더 얇고 고원 아래에서 더 두껍습니다.",
+  "ref_text_normalized": "크러스트는 마리아 아래에서 더 얇고 고원 아래에서 더 두껍습니다",
+  "timestamp_utc": "2026-07-05T06:20:06Z",
+  "text": "크러스트는 마리아 아래에서 더 얇고 고원 아래에서 더 두껍습니다.",
+  "latency_sec": 4.0866,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "크러스트는 마리아 아래에서 더 얇고 고원 아래에서 더 두껍습니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Ev4GCvsGARFNMg9pedNO2LILd9yCDlgAMV8/J0jt+jF2gJGe01rUb8lvMVnHYAkgeHdvMbs0ZioqzuvNmX0KnDPMhcVnUWBXDr8ZSwP7cT5gW/7d9ZtgGVIOcaoJC82zchXW49Wd3f1MewoIsf4c8NFSFcfk71vZ5OhFj3btTrZ5Jnm+QcJxzpx/Zx5DXQQJIxJhNFNki/zmBeoZ/n3nmSgmoFyMEnQNZVLasmAGsGpFyHOiYBoyuPUK1MRg8Vw2XeDI2vTYu4V3jv1fFpWq2ZettkX3pavcKoX9jyVNQwWHw7QbzekhznG9ABi1jBFq33hmC4YWaiHfT9YWGQc4B++oHBvcn6VGnZPixjCl5ScXYf2pfA9/Vsxx3VVZ66TkPDWqqZWSoQw7BONijua6DOZyVJkA8jKKhR7vewnuoGEJxYnPXODs1YWFJJrWjUBCX4I+6b1kZ+V4CoSfn+oSDcsGw5kA6HoIvhJq5/7u0kXRnM03yMpUREmDSNdyNBRT1MCzgJ5j6FCtrVXb1tTkq1tiArgNvAhvpAVXzXd1flfI5+8WcfSp2cUq4ufDcBGdi/PUv/6ZQ6w5K58fGLao/vbvULxIVGHos7WOe95RmE5uZldW7svj1sbt3c1TPoWCgY6KM3ppumgdSKZD3thN3Oqxka1/w4b35o1L+MGelcf4OGMrEP3L3SJFowet/cHIl8ijCIH87+efIgLGZs/ZPMD51QDkJZfT6XQIe2Bx/Bdp4acr4HGI3UUmOI1qfPSqbkTvAuzBEZzsCEApkOmeCT8PlfphVCQU2f/arZI2dC1UaJ3ZjsrllrhW4MFajIjcjZfpKaXqcSY4z6hzK2BTby2mub2oSAxojAaRnpxtrc15VECmD/43fyrOeju6hwTNCv48B1X9uK4cjAhR0INsroKX376EDQ4RL5JKaRLA1h3FlSVfnXczUFgwIfogO/IxabY32FQzHuaNYv0XZ6b5Vxk1buSlhxhYiuf1TiKUy7uA4q3a0Jh2UqtW1eCZXigJbc4ODB0ermrCR6gVyseUQRuRCqgrrSfnueQHwjdXRh82q/c0KdZubdPRk30qWt2YvZQI/Ah+q0Bnnpl1KxHUKQTLSL+ddJvLxOMwoxCJScoX3kvXOfrPQ+o8KUKdddLovL2UrPnVVnZv90reQtOhZYBVPX14KBReRmDeDiaOoLL0"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232406,
+    "id": "k_dJau77Jty4vr0Pgo3U0Q8",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 306,
+      "total_tokens": 562
+    }
+  }
+}

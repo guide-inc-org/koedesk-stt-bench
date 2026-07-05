@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0100",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 13.08,
+  "ref_text_raw": "พืชผลิตก๊าซออกซิเจนที่มนุษย์ใช้หายใจและรับเอาคาร์บอนไดออกไซด์ที่มนุษย์ขับออกมา (ซึ่งก็คือการหายใจออก) เข้าไป",
+  "ref_text_normalized": "พืชผลิตก๊าซออกซิเจนที่มนุษย์ใช้หายใจและรับเอาคาร์บอนไดออกไซด์ที่มนุษย์ขับออกมา ซึ่งก็คือการหายใจออก เข้าไป",
+  "timestamp_utc": "2026-07-05T08:06:54Z",
+  "text": "พืช ผลิต ก๊าซ ออกซิเจน ที่ มนุษย์ ใช้ หายใจ และ รับ เอา คาร์บอน ไดออกไซด์ ที่ มนุษย์ ขับ ออก มา ซึ่ง ก็ คือ การ หายใจ ออก เข้า ไป",
+  "latency_sec": 2.8431,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "พืช ผลิต ก๊าซ ออกซิเจน ที่ มนุษย์ ใช้ หายใจ และ รับ เอา คาร์บอน ไดออกไซด์ ที่ มนุษย์ ขับ ออก มา ซึ่ง ก็ คือ การ หายใจ ออก เข้า ไป",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP6Q3+cw5FH0Q+Ks2DVp+BiDwsrqvpqxig6LW6BBRWOTFKaxgsjBx3dIjoV3H0"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238814,
+    "id": "nBBKarfbKJ2hvr0P78yT2Q8",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 49,
+      "prompt_tokens": 348,
+      "total_tokens": 397
+    }
+  }
+}

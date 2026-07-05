@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0105",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 19.08,
+  "ref_text_raw": "올리버 색스는 그가 집필한 '대통령의 연설'에서 뇌 손상으로 인해 연설을 알아듣지 못함에도 불구하고 사람들이 그에 담긴 성실성을 정확하게 받아들였음에 대하여 나타냈습니다.",
+  "ref_text_normalized": "올리버 색스는 그가 집필한 대통령의 연설'에서 뇌 손상으로 인해 연설을 알아듣지 못함에도 불구하고 사람들이 그에 담긴 성실성을 정확하게 받아들였음에 대하여 나타냈습니다",
+  "timestamp_utc": "2026-07-05T06:25:14Z",
+  "text": "올리버 섹스는 그가 집필한 대통령의 연설에서 뇌 손상으로 인해 연설을 알아듣지 못함에도 불구하고 사람들이 그에 담긴 성실성을 정확하게 받아들였음에 대하여 나타냈습니다.",
+  "latency_sec": 2.9331,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "올리버 섹스는 그가 집필한 대통령의 연설에서 뇌 손상으로 인해 연설을 알아듣지 못함에도 불구하고 사람들이 그에 담긴 성실성을 정확하게 받아들였음에 대하여 나타냈습니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPD3E2ODaqzAOz4i1SOmwQyAk08TcjVsKrLKDjdBuFhSNW53Y8yIHEVbjO+utk"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232714,
+    "id": "yPhJapjAHsD21e8P0dn2qQE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 50,
+      "prompt_tokens": 498,
+      "total_tokens": 548
+    }
+  }
+}

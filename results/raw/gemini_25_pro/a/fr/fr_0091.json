@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0091",
+  "lang": "fr",
+  "engine": "gemini_25_pro",
+  "duration_sec": 14.88,
+  "ref_text_raw": "De manière générale, deux comportements peuvent émerger lorsqu'un manager devient le chef d'anciens collègues. D'une des extrémités du spectre étant d'essayer de rester « le bon copain » (ou la bonne copine).",
+  "ref_text_normalized": "de manière générale deux comportements peuvent émerger lorsqu'un manager devient le chef d'anciens collègues. d'une des extrémités du spectre étant d'essayer de rester « le bon copain » ou la bonne copine",
+  "timestamp_utc": "2026-07-05T04:56:48Z",
+  "text": "De manière générale, deux comportements peuvent émerger lorsqu'un manager devient le chef d'anciens collègues. D'une des extrémités du spectre est d'essayer de rester le bon copain ou la bonne copine.",
+  "latency_sec": 7.2594,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "De manière générale, deux comportements peuvent émerger lorsqu'un manager devient le chef d'anciens collègues. D'une des extrémités du spectre est d'essayer de rester le bon copain ou la bonne copine.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227408,
+    "id": "CuRJaoWoFrup2roP26eg2QY",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 498,
+      "total_tokens": 913
+    }
+  }
+}

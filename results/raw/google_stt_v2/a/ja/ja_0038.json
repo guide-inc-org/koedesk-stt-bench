@@ -1,0 +1,36 @@
+{
+  "utt_id": "ja_0038",
+  "lang": "ja",
+  "engine": "google_stt_v2",
+  "duration_sec": 17.46,
+  "ref_text_raw": "彼は多くの国で紙幣の製作にも携わっており、最近では、カナダの新5ドル紙幣と新100ドル紙幣の表に描かれた首相の肖像画などがその一例です。",
+  "ref_text_normalized": "彼は多くの国で紙幣の製作にも携わっており 最近では カナダの新5ドル紙幣と新100ドル紙幣の表に描かれた首相の肖像画などがその一例です",
+  "timestamp_utc": "2026-07-05T03:09:39Z",
+  "text": "彼は多くの国で紙幣の制作にも携わっており、最近ではカナダの新5ドル紙幣と新100ドル紙幣の表に書かれた肖像の肖像画などがその一例です。",
+  "latency_sec": 6.0613,
+  "params": {
+    "model": "chirp_3",
+    "location": "us",
+    "language_code": "ja-JP",
+    "note": "autoDecodingConfig; punctuation etc. = API defaults (R-2.4); no diarization"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "metadata": {
+      "totalBilledDuration": "18s",
+      "requestId": "7ed75802-0000-2db1-b187-14c14ef12c48",
+      "prompt": "Transcribe the following speech segment in Japanese. Follow these specific instructions for formatting the answer:\n* Only output the transcript, with no newlines.\n* When transcribing numbers, write the digits, i.e. write 1.7 and not one point seven, and write 100 instead of one hundred etc.\n* Only output the transcript, exactly as said in the speech segment.\n* Do not continue the speech segment.\n* Include everything said in the speech segment.\n* Use mathematical notation where needed, eg. x ^ 6Y.\n* If there is background speech that is not part of the main conversation, discard the background speech and only output the main conversation.\n* If there is no clear speech, just output [BACKGROUND].\n* Respond in the original language of the speech, Japanese."
+    },
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "彼は多くの国で紙幣の制作にも携わっており、最近ではカナダの新5ドル紙幣と新100ドル紙幣の表に書かれた肖像の肖像画などがその一例です。"
+          }
+        ],
+        "languageCode": "ja-JP"
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0158",
+  "lang": "ja",
+  "engine": "gemini_25_flash",
+  "duration_sec": 14.46,
+  "ref_text_raw": "強風、ひょう、過度の降水量、および山火事は、雷雨、竜巻、水噴き、およびサイクロンなどの厳しい気象形態やその影響によるものです。",
+  "ref_text_normalized": "強風 ひょう 過度の降水量 および山火事は 雷雨 竜巻 水噴き およびサイクロンなどの厳しい気象形態やその影響によるものです",
+  "timestamp_utc": "2026-07-05T03:11:36Z",
+  "text": "強風、雹、過度な降水量および山火事は、雷雨、竜巻、水吹きおよびサイクロンなどの厳しい気象形態やその影響によるものです。",
+  "latency_sec": 5.6277,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "強風、雹、過度な降水量および山火事は、雷雨、竜巻、水吹きおよびサイクロンなどの厳しい気象形態やその影響によるものです。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221097,
+    "id": "ZctJav2JNf_IrfcPzNe_mAc",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 484,
+      "total_tokens": 743
+    }
+  }
+}

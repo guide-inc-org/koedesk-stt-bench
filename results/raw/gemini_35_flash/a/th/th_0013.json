@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0013",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 17.46,
+  "ref_text_raw": "มีการนำหมอนรองรางรถไฟมาเริ่มใช้เพื่อยึดรางให้เข้าที่ค่อนข้างเร็ว อย่างไรก็ตาม ค่อย ๆ มีการตระหนักได้ในภายหลังว่าตัวรางจะมีประสิทธิภาพมากขึ้นหากมีเหล็กด้านบน",
+  "ref_text_normalized": "มีการนำหมอนรองรางรถไฟมาเริ่มใช้เพื่อยึดรางให้เข้าที่ค่อนข้างเร็ว อย่างไรก็ตาม ค่อย ๆ มีการตระหนักได้ในภายหลังว่าตัวรางจะมีประสิทธิภาพมากขึ้นหากมีเหล็กด้านบน",
+  "timestamp_utc": "2026-07-05T07:52:06Z",
+  "text": "มีการนำหมอนรองรองรางรถไฟมาเริ่มใช้เพื่อยึดรางให้เข้าที่ค่อนข้างเร็ว อย่างไรก็ตามค่อยๆ มีการตระหนักได้ภายหลังว่าตัวรางจะมีประสิทธิภาพมากขึ้นหากมีเหล็กด้านบน",
+  "latency_sec": 4.4556,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "มีการนำหมอนรองรองรางรถไฟมาเริ่มใช้เพื่อยึดรางให้เข้าที่ค่อนข้างเร็ว อย่างไรก็ตามค่อยๆ มีการตระหนักได้ภายหลังว่าตัวรางจะมีประสิทธิภาพมากขึ้นหากมีเหล็กด้านบน",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqUUCqIUARFNMg8eM+Mh5nvdaB8qjIysBOmxvNgoghXjXVGfvZm2PBivpjTftvbdqGJHqdUHroJRhAzy4LIkoCz2NFT/TAms38PoLx3OoPgD7ERNAiz/BHu7CXKknPZynl8FDXoo+AdDTFkW5hnNKs91H8Vl1+9+/SXruiXQjN+Hsn7IoAefnsGxThSoudkPplD4lfNwBDhjLsDEHBMNaVYwRkbY9Gga14nY2PWAwOI6ql+7Qec+aR0cxq+MIemjRpBJRaafM456lxHxE5ftbZV6NJlI2zHF+NWdSWRBQgo9GgmKyHAQ76cnpwBC7/2U9Wl7e0tsksu+evaIuM29x3SU2ASyIQAfRdYtgX7Pig9E3nVeE6RNScihBOL70ai4sxjdHvlDNui2KkWNDBSrYCmsiuVFw3amRTzHZVy03gTPvRuSn5SqXc/c8mGRGlOPU5nscIo1qPrLFYWuolsES1EHRg2yysHEQy7G/FOkoJKbDFX6px2DotgVe+U5UjWwxcy7mDTjqTgI0XEnKHQ5aT+xs5U4ge90Ob4k/I9kxB5MX0YZKZL0OHa5gvF9C13hOO/wXmzywfq9SsPuKyAJqdyoqnwENh+A5omNeBa8q5p0Id6p0BsSrHPFOGUGBITqQauRJK00OmhGP3UJl63vINueVNBCjw3kXwhY34VP5qLg64CJfJdRIKC/JFeg/0FWs0rtAm9n6CU49kJ0g1oeAKO8F+ZYuvMywj5ehPU5pgeREyrVXNljm27oE/cAWG+8Z4sdUq9n1XLI677E8hlsAa1SZDRO3AK7jyYluy4TemF5QeZZx5sph6umlMSTB2bKbZe5DyPNqDgAhHoN3VwGdej6k2A3zpXSgPE48mf0mIHnXibAP0uKlPgaNmbb4D1fgTzqvGEUim+cmTlrJaIKXMrjftiaQfq1m6W5mA/iIO1upE1PGGYZYWnk/vxa2XmJZFZ5h8Q0QNFgLOIKQbiekODEOC/mJ8fHD8NAA4VbFYLWDa4bWWTEOyZeaillpVqVE5s7m+q9g7yRKap6jyGEXevos/0cqhEJznHAifEpyWjk9Z29wlJvzCmur9q770B18t0KyZeesCSUXwdyRyYyl8DanE3EVPsZzkVc2A3bfFhjJdTmhero6ahfQ9ejpWjfx8B0ZkfyI86wj5QwrFfP/M73Um5nrVfAS0JmGe23qt/BUruDI3z6jsLKzousQhm7nCCgJYe0jRwQA38CpgU59s3WltzrhSQwCfIyqXuDZv0M368akn1Kqbvd0XMDTZOznL7GNcx6ZicQyW911Q7JlSgkc7Gqh5hFYsUJ+IU8/e0adZAqp90DvsqCgol/gTHCTvfWUcZIdc7x5qxcvz3XhKr2WuBCSWK5ocZys8nPPLhGgp9hZvbhmwOBOg4miK7eVP4DRX1qGhTWjibjxahiKOyYKU0scvlmE82fHtjABVid8+KFd+w2BlLenMkyr9yUqDZI5zT3wuLCP8oKAv1xXFlHz7uIwKL7QN/qRhjaaLEhFhspAzwIcSAmHoBuFugNXsUFuQKcldz/V+pDm20kGpuhji51YzbxW4/lGUMCCZWKJZlasfebDyMC/Lqp0kkuhIMBZhy7x3zGadLOszNbFuVyKv91itgNXfg8xD5tkrUhpw6CjPi0rMcxh9/9PASyvJs4nn5Q1BuS5rYHmmJx1m7DP1B2yHHZkJRiElfm40dVQzCg+WMlLaoYbpgrujIIh8Goi7i5K5gJZcAbtlQXlPQAIKPCR/+Ukr0+w4+Nd+l9OpVRohRNWx4hkQ9+hP4R6cJ59lbT0GzfMFC2dlTMYfOz/M/w/CaEgfDmxoNAV8waccc5yzxZsOiGflHNVXogW/Ucg8NqMl2JvNbtALPxbRy7ineNKoZgtsDvuB2SaL1L1Ld9iw44BC38eHYcisPFssjwaETWNn5r9tUCSKeVyEBUo8bIJK0+q9F85cZnjgRTH/JgSM6HKjneHJOWJrIWcG96UTW4aex4vdfeGuqUPclPMaO+e6vZYDs52eqMlEa9dzJWR2/vuq6LsJASOXVb0h7tFY+/PoZi9Xts8jofbjpJKk7if9ZnTEqtU68XaxRAGS3k3I4TuU5fNPJ8sIcWaPFPKGryLcbJ133eP8HSfMFx4raBktqkhhc9UMUQLj85PmaQ4ERzm9mW7swqjqcfyd0E/9Co0Im8cmU4h0Tn6OyfNHYbFc/vTyEqbirJ9NrAbg8oP9vbstoTjyH4ga+UOyTurevMdmszLjv6k/KvimgR5vnY8HXaBMnvMBBRCgVbUAaEowKo/f5TyVt+ulJMT6rf9rzcgGmF9z8TgfOUqrJisFb8Xi7+Z7UKA7yZY9DHieoACeGSiEf6YXfM6HnYGFJ2qz28ZENoeQsPC/I7aj7NNgn1Xah5RJtpa43p3X30oUABT0r6WsvP6aBU2LnJFEdlSlAQzsF4AILhIRnzz2ubUEusR/YLT6+iq9wFZiGGSI+04JMJIunAWHOamBqaRW/UTFjNYv1AU176/MW8nZFVWEYi0UyUukamf0VgzpA6MT1XOghGt69WWx57OrnmbbpTlkgRwZTnoJT+KOb/MOn/VvkYFNnIMfUk7i2ENs4pLxKWgOh8muu8OBbEC6Cz7/N/BaiJ6N8lkXEay13I+7+u9hAiw+Y8QHDy1/L9elLdfgRL2p8sHwjsH0et3tZMckxe+fatOiI9z/mUjjtjmOmVQiMoDglEBF8OKVpIyz3UOdu4vkql83sCinh6j1jqJ8fPG8si/Lg2pzJATqHzJ71zU/WGJLCM6LDWbVjTSJUKsbCrRVS8tbT9TriEYzd5w+Ua8N02RVbYY9d3qFJT5QaSNO7hVgE3JL+3veHJzlLr33XLDaU4iu3GAfYMm+nGhP+aXPFyTr8jWbWAqGm/OV2OGOwhEbUmeucWImdqE/Gc0wJOjYhdbNYDmA9Z83q0WZkpSZwsl9jZ03pKs/rPs4wBnD2/b+n2O63utAnugKxEl6haEBbWVcfX2Q0av5HrfTiK9k6VERRYacfSMbAyqkReJwbL5GMglMwByX6P92VyN5pXtVXB89Nd8MsOA8BqCvH14YlFw3Brgp1+ozKcgCWbohTHxdQGSAzR5SiiSmivDCe9ZctZA0lv0Bpx1yDZEhD1U+VnNSg1lEoSHrgk9812Yj44jiFSKgTARCu+eJyheOTGsDTjaFoAVITowZQu3cAOKU90+dPEmdehZdRPzTlBdv7hBnS/ISvav95mzbPqbbxorr5ikSB2ArayAajxkkLhbk/cNmaLhTH8r7yEhRDPbkKOH55Kb1Wl+K1Q50EhFlCen7YO4rNIvuojmic5XGjwEFq77HB5LZsla6FCAQ+AQVUfrQPha6aMtjBuYvAXJZP/LSp4i4ty2x33G983mV6ratLX66+G4iAsH1Zz2g5tjEHLq958ufyvRocmT/Xd+Zu5NrqKqiNjMlOs5NCVOoy4r1lZ0Q4="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237926,
+    "id": "Iw1KaufxN_u8vr0P1bam0AY",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 49,
+      "prompt_tokens": 458,
+      "total_tokens": 855
+    }
+  }
+}

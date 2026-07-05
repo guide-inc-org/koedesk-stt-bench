@@ -1,0 +1,44 @@
+{
+  "utt_id": "ko_0156",
+  "lang": "ko",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 16.68,
+  "ref_text_raw": "마찬가지로, 솅겐 비자를 소지하면 각 솅겐 회원국에 개별적으로 비자를 신청할 필요가 없으므로 시간, 비용 및 서류 작업이 줄어듭니다.",
+  "ref_text_normalized": "마찬가지로 솅겐 비자를 소지하면 각 솅겐 회원국에 개별적으로 비자를 신청할 필요가 없으므로 시간 비용 및 서류 작업이 줄어듭니다",
+  "timestamp_utc": "2026-07-05T06:28:24Z",
+  "text": "마찬가지로 쉥겐 비자를 소지하면 각 쉥겐 회원국에 개별적으로 비자를 신청할 필요가 없으므로 시간, 비용 및 서류 작업이 줄어듭니다.",
+  "latency_sec": 2.9827,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "마찬가지로 쉥겐 비자를 소지하면 각 쉥겐 회원국에 개별적으로 비자를 신청할 필요가 없으므로 시간, 비용 및 서류 작업이 줄어듭니다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPoScxts2xBeMupqzrZOGg8QoDrDZfpJctLADWzidLgKkjs7DIUQWD4WVarjNN"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232904,
+    "id": "h_lJasebDKnDvr0PmKevgQ8",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 438,
+      "total_tokens": 485
+    }
+  }
+}

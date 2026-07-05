@@ -1,0 +1,44 @@
+{
+  "utt_id": "vi_0019",
+  "lang": "vi",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.18,
+  "ref_text_raw": "Cuối cùng, có nhiều loài mèo nhỏ (gồm cả mèo nuôi trong nhà) ăn những con mồi nhỏ có số lượng lớn như côn trùng, các loài gặm nhấm, thằn lằn và chim.",
+  "ref_text_normalized": "cuối cùng có nhiều loài mèo nhỏ gồm cả mèo nuôi trong nhà ăn những con mồi nhỏ có số lượng lớn như côn trùng các loài gặm nhấm thằn lằn và chim",
+  "timestamp_utc": "2026-07-05T08:38:50Z",
+  "text": "Cuối cùng, có nhiều loại mèo nhỏ, gồm cả mèo nuôi trong nhà, ăn những con mồi nhỏ có số lượng lớn như côn trùng, các loại gặm nhấm, thằn lằn và chim.",
+  "latency_sec": 3.0843,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Cuối cùng, có nhiều loại mèo nhỏ, gồm cả mèo nuôi trong nhà, ăn những con mồi nhỏ có số lượng lớn như côn trùng, các loại gặm nhấm, thằn lằn và chim.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP2B+Ll7+bYZrIaSX5IBgd+MB/UK0ia9TaQZoCjzJYCoZy3FnYoEYNGP00O6wk"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240730,
+    "id": "GBhKapf3GvHW2roPo96cwQE",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 48,
+      "prompt_tokens": 326,
+      "total_tokens": 374
+    }
+  }
+}

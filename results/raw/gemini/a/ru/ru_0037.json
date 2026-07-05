@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0037",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 8.1,
+  "ref_text_raw": "Мадагаскар намного больше других и  является самобытным континентом в том, что касается дикой природы.",
+  "ref_text_normalized": "мадагаскар намного больше других и является самобытным континентом в том что касается дикой природы",
+  "timestamp_utc": "2026-07-05T07:03:04Z",
+  "text": "Мадагаскар намного больше других, является самобытным континентом в том, что касается дикой природы.",
+  "latency_sec": 3.0228,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Мадагаскар намного больше других, является самобытным континентом в том, что касается дикой природы.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783234984,
+    "id": "pgFKaqbQNrvLrfcPnvyU2AE",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 24,
+      "prompt_tokens": 281,
+      "total_tokens": 358
+    }
+  }
+}

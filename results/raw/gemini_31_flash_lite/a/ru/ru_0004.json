@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0004",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 19.44,
+  "ref_text_raw": "Причиной дебатов стали разногласия относительно затрат на оказание материальной поддержки и восстановление зданий после урагана Катрина, который некоторые фискальные консерваторы в шутку назвали \"новоорлеанской сделкой Буша\".",
+  "ref_text_normalized": "причиной дебатов стали разногласия относительно затрат на оказание материальной поддержки и восстановление зданий после урагана катрина который некоторые фискальные консерваторы в шутку назвали новоорлеанской сделкой буша",
+  "timestamp_utc": "2026-07-05T07:27:12Z",
+  "text": "Причиной дебатов стали разногласия относительно затрат на оказание материальной поддержки и восстановление зданий после урагана Катрина, которые некоторые фискальные консерваторы в шутку назвали наварлианской сделкой Буша.",
+  "latency_sec": 3.1272,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Причиной дебатов стали разногласия относительно затрат на оказание материальной поддержки и восстановление зданий после урагана Катрина, которые некоторые фискальные консерваторы в шутку назвали наварлианской сделкой Буша.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPbZ1WFaf+HenLHApHMsllhjICB8ILCCsqL4+oKG96PLQVqCkloMEg2d6DCLQ3"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783236432,
+    "id": "TgdKauLIG5r22roP4enR6AU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 56,
+      "prompt_tokens": 508,
+      "total_tokens": 564
+    }
+  }
+}

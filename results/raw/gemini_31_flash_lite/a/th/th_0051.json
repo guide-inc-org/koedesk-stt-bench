@@ -1,0 +1,44 @@
+{
+  "utt_id": "th_0051",
+  "lang": "th",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 11.4,
+  "ref_text_raw": "มีการใช้บริการนี้ในการขนส่งอยู่บ่อย ๆ ซึ่งรวมถึงเรือสำราญและการสำรวจที่ต้องการทั้งข้อมูลและเสียงจากระยะไกล",
+  "ref_text_normalized": "มีการใช้บริการนี้ในการขนส่งอยู่บ่อย ๆ ซึ่งรวมถึงเรือสำราญและการสำรวจที่ต้องการทั้งข้อมูลและเสียงจากระยะไกล",
+  "timestamp_utc": "2026-07-05T08:03:49Z",
+  "text": "มีการใช้บริการนี้ในการขนส่งอยู่บ่อยๆ ซึ่งรวมถึงเรือสำราญและการสำรวจที่ต้องการทั้งข้อมูลและเสียงจากระยะไกล",
+  "latency_sec": 3.354,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "มีการใช้บริการนี้ในการขนส่งอยู่บ่อยๆ ซึ่งรวมถึงเรือสำราญและการสำรวจที่ต้องการทั้งข้อมูลและเสียงจากระยะไกล",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP5rBiWEe+2BvXEXUigIkfcE0gqKrs1bfiJijlu0VxVHYfMS5YigrnPcoL2Xr6"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238629,
+    "id": "4w9KavjXIvK8vr0P85enuQQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 306,
+      "total_tokens": 337
+    }
+  }
+}

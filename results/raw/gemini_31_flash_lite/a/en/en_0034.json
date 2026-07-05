@@ -1,0 +1,44 @@
+{
+  "utt_id": "en_0034",
+  "lang": "en",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 8.34,
+  "ref_text_raw": "The pyramid sound and light show is one of the most interesting things in the area for kids.",
+  "ref_text_normalized": "the pyramid sound and light show is one of the most interesting things in the area for kids",
+  "timestamp_utc": "2026-07-05T10:29:57Z",
+  "text": "The pyramid sound and light show is one of the most interesting things in the area for kids.",
+  "latency_sec": 2.4583,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The pyramid sound and light show is one of the most interesting things in the area for kids.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPelzc7hVkfCxcKuPE8YwU7ugXi7+LK/6xxExPUrGPotevfZgpOEoAq64yxikj"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783247397,
+    "id": "JDJKas3sFcmzvr0PpOCr2QI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 230,
+      "total_tokens": 249
+    }
+  }
+}

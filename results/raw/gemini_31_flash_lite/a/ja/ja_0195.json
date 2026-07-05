@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0195",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 9.48,
+  "ref_text_raw": "洞窟はメッカの北にあたる山頂にあり、外界から完全に隔離されています。",
+  "ref_text_normalized": "洞窟はメッカの北にあたる山頂にあり 外界から完全に隔離されています",
+  "timestamp_utc": "2026-07-05T03:23:17Z",
+  "text": "洞窟 は メッカ の 北 に あたる 山頂 に あり 、 下界 から 完全 に 隔離 さ れ て い ます 。",
+  "latency_sec": 3.2091,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "洞窟 は メッカ の 北 に あたる 山頂 に あり 、 下界 から 完全 に 隔離 さ れ て い ます 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPNYGZwJIqFUnsmlJneNIVAsxWtje28zL4qjSYOD2PRNjuGcr0M4U/A/svKY+f"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221797,
+    "id": "I85JaqeFEcal1e8PnPeFgAI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 258,
+      "total_tokens": 286
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0162",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 7.14,
+  "ref_text_raw": "이것은 몇몇 동사와 사물을 구별하는 중요한 방법이다.",
+  "ref_text_normalized": "이것은 몇몇 동사와 사물을 구별하는 중요한 방법이다",
+  "timestamp_utc": "2026-07-05T06:23:58Z",
+  "text": "이것은 몇몇 동사와 사물을 구별하는 중요한 방법이다.",
+  "latency_sec": 3.5989,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "이것은 몇몇 동사와 사물을 구별하는 중요한 방법이다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EskGCsYGARFNMg9R8tN1GfxPWbyyhzPhY09so10HI8rpi63XjDv2dUFS/PGruuQvc9yKX1Y67CJ/PZHzGgeRO5Mx6sso2ouAbCfuFn9oCDQoWwGDphcbmSfcr4fgvZ+t2fx6L6nf2+Okyn2lgRjX2IPvqjJGcpG/TSvOlqh4gkqkYihVga73e48mlAWocHGaCwKXlFw3zLOj8FIhBUUYCelFsuAGjFuSyj6QYQ3iJg4rd4/C6+cpZuIOnfoswREdNDKZP57QcDJu79Sfy5VigVY3yp8HzMSEIlY1qMszPqoyqapaqseH55/JHl86rXqInyNS175g1d5Ab2Ye+FawKVZHcqzuh+fUwmIHQhtzyptqWC8HsswgrwdRu9dUYFG5nfiiyF6upmfQQrS+b1zpZJwTq2TlW4gyqrnitksOCYZYfGgapHIEzCe3RowcYTD5ldZM2IbCWaRsdXA2ZYAO/0PvLKfIysaCgnWOCvBAsbVFe2HSVSKN82ibmP0tETeebrdugF8U67oP+bAbQBOTzVPO73z6WU6z9QIlxgq+gU1bWYDEPJfbqOSc81VTXNQn1f8JtHdxX3qKgQr8BcvpSuQaPVipDJE5BAVxuhvH6zMIEUQsEghn34NybTcXtdVo4/JC3GtGWJm+hEJMarghihg3TKouGr9Jfk3MakeBULDDB47L4gGP7QeGL189G+qapxaY6oWdVtAdL1rPgbwju5nJrwJk2uWVKGJ9zdLMCs6cfGMud3cwjaUFlawBEmYbNeoK9a6U1GBy5oa2YU4Tds8Kju4/dEy2X1qf/evSq8PJ+QjqHFh4O9mUNW3amokKWfBw7h+Yr88MKOGdCykjRhS8cSpeRkAYXxkDMl8esnaeCW+vvLn5jTABs4lmFonTUfXz36WbRJ8tSyTsywrZFoIme25Q2cytUxAdcb8+lwqhC0VlhbSt8jWiUsu9QhZsnzB4StJ0SEVG7NOLvesdZdezJTscNve/ccsJuZyKRTCjORBJvag+aqVgtTS0WYScpE6D+MVhy87ZweXamOJRtAX9VplI8D/eLisslZ5UIczmJcXnDkYN2abg538+ooozNBi4LtmqbFc9KikgvvjLwbcEMYqjcAftjrvQwg=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232638,
+    "id": "fPhJaridBfijvr0Pmty12QU",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 200,
+      "total_tokens": 446
+    }
+  }
+}

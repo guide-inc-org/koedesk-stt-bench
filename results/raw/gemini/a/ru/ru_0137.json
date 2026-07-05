@@ -1,0 +1,39 @@
+{
+  "utt_id": "ru_0137",
+  "lang": "ru",
+  "engine": "gemini_25_flash",
+  "duration_sec": 12.96,
+  "ref_text_raw": "Его длинные челюсти были усеяны более чем 70 острейшими зубами, вдобавок имелся дополнительный ряд на нёбе, так что тем, кто встречался на его пути, не было спасения.",
+  "ref_text_normalized": "его длинные челюсти были усеяны более чем 70 острейшими зубами вдобавок имелся дополнительный ряд на нёбе так что тем кто встречался на его пути не было спасения",
+  "timestamp_utc": "2026-07-05T07:11:08Z",
+  "text": "Его длинные челюсти были усеяны более чем семидесятью острейшими зубами. Вдобавок имелся дополнительный ряд на нёбе, так что тем, кто встречался на его пути, не было спасения.",
+  "latency_sec": 7.9499,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Его длинные челюсти были усеяны более чем семидесятью острейшими зубами. Вдобавок имелся дополнительный ряд на нёбе, так что тем, кто встречался на его пути, не было спасения.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783235469,
+    "id": "igNKav3kJpWJ1e8PhMDXiQU",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 55,
+      "prompt_tokens": 436,
+      "total_tokens": 525
+    }
+  }
+}

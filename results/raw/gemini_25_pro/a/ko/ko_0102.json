@@ -1,0 +1,39 @@
+{
+  "utt_id": "ko_0102",
+  "lang": "ko",
+  "engine": "gemini_25_pro",
+  "duration_sec": 11.04,
+  "ref_text_raw": "이제 사람들은 컴퓨터 화면에 메시지를 쓰고 연필깎기를 가까이할 필요가 전혀 없습니다.",
+  "ref_text_normalized": "이제 사람들은 컴퓨터 화면에 메시지를 쓰고 연필깎기를 가까이할 필요가 전혀 없습니다",
+  "timestamp_utc": "2026-07-05T06:08:12Z",
+  "text": "이제 사람들은 컴퓨터 화면에 메시지를 쓰고 연필깎이를 가까이 할 필요가 전혀 없습니다.",
+  "latency_sec": 4.6645,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "이제 사람들은 컴퓨터 화면에 메시지를 쓰고 연필깎이를 가까이 할 필요가 전혀 없습니다.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783231692,
+    "id": "yfRJaoeQE7if0-kPzJPfgAc",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 375,
+      "total_tokens": 513
+    }
+  }
+}

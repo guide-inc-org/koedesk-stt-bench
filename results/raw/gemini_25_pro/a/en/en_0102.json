@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0102",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 6.36,
+  "ref_text_raw": "The correlation between brain pathology and behaviour supports scientists in their research.",
+  "ref_text_normalized": "the correlation between brain pathology and behaviour supports scientists in their research",
+  "timestamp_utc": "2026-07-05T03:23:51Z",
+  "text": "The correlation between brain pathology and behavior supports scientists in their research.",
+  "latency_sec": 4.5112,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The correlation between brain pathology and behavior supports scientists in their research.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221831,
+    "id": "RM5JauLNBfyk0-kP9PODwAc",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 13,
+      "prompt_tokens": 225,
+      "total_tokens": 275
+    }
+  }
+}

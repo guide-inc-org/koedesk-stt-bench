@@ -1,0 +1,45 @@
+{
+  "utt_id": "ko_0170",
+  "lang": "ko",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 6.9,
+  "ref_text_raw": "아피아는 사모아의 수도다. 이 마을은 우폴루 섬에 있으며 인구는 4만 명이 조금 안 된다.",
+  "ref_text_normalized": "아피아는 사모아의 수도다 이 마을은 우폴루 섬에 있으며 인구는 4만 명이 조금 안 된다",
+  "timestamp_utc": "2026-07-05T06:24:42Z",
+  "text": "아피아는 사모아의 수도다. 이 마을은 우풀루 섬에 있으며 인구는 4만 명이 조금 넘는다.",
+  "latency_sec": 4.8098,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (ko). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "아피아는 사모아의 수도다. 이 마을은 우풀루 섬에 있으며 인구는 4만 명이 조금 넘는다.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783232682,
+    "id": "pvhJasWSKMTs1e8Px-GUwQI",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 194,
+      "total_tokens": 651
+    }
+  }
+}

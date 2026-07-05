@@ -1,0 +1,44 @@
+{
+  "utt_id": "id_0013",
+  "lang": "id",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 12.78,
+  "ref_text_raw": "Sultan Maroko membangun kembali kota tersebut menjadi Daru I-Badya. Kota tersebut kemudian dinamai Casablanca oleh para pedagang Spanyol yang mendirikan basis perdagangan di sana.",
+  "ref_text_normalized": "sultan maroko membangun kembali kota tersebut menjadi daru i-badya kota tersebut kemudian dinamai casablanca oleh para pedagang spanyol yang mendirikan basis perdagangan di sana",
+  "timestamp_utc": "2026-07-05T05:45:36Z",
+  "text": "Sultan Maroko membangun kembali kota tersebut menjadi Darul Ibadiyah. Kota tersebut kemudian dinamai Casablanca oleh para pedagang Spanyol yang mendirikan basis perdagangan di sana.",
+  "latency_sec": 4.4349,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Sultan Maroko membangun kembali kota tersebut menjadi Darul Ibadiyah. Kota tersebut kemudian dinamai Casablanca oleh para pedagang Spanyol yang mendirikan basis perdagangan di sana.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPoUnbUOnHU4QWEEh+LJSKbk1m7mwTjOkn+VWbk13IjQMxS15k3I+G5Gi926w2"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230336,
+    "id": "fu9JarLOIeex2roPq7DX0QU",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 341,
+      "total_tokens": 375
+    }
+  }
+}

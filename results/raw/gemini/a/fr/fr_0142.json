@@ -1,0 +1,39 @@
+{
+  "utt_id": "fr_0142",
+  "lang": "fr",
+  "engine": "gemini_25_flash",
+  "duration_sec": 11.4,
+  "ref_text_raw": "Ceci autorisera la rétro-compatibilité avec les itérations 802.11a, b et g, sous réserve que la station possède deux radios.",
+  "ref_text_normalized": "ceci autorisera la rétro-compatibilité avec les itérations 802.11a b et g sous réserve que la station possède deux radios",
+  "timestamp_utc": "2026-07-05T04:56:20Z",
+  "text": "Ceci autorisera la rétrocomptabilité avec les itérations 802.11a, b et g, sous réserve que la station possède deux radios.",
+  "latency_sec": 4.1182,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-flash",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Ceci autorisera la rétrocomptabilité avec les itérations 802.11a, b et g, sous réserve que la station possède deux radios.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783227380,
+    "id": "8eNJarLLFrui9tMP8NiBsAM",
+    "model": "gemini-2.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 386,
+      "total_tokens": 448
+    }
+  }
+}

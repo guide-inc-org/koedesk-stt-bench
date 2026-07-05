@@ -1,0 +1,44 @@
+{
+  "utt_id": "fr_0104",
+  "lang": "fr",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 6.6,
+  "ref_text_raw": "Les gens n'anticipent peut-être pas que la patience et la compréhension sont aussi nécessaires pour les voyageurs et voyageuses retournant à la maison.",
+  "ref_text_normalized": "les gens n'anticipent peut-être pas que la patience et la compréhension sont aussi nécessaires pour les voyageurs et voyageuses retournant à la maison",
+  "timestamp_utc": "2026-07-05T05:15:59Z",
+  "text": "Les gens n'anticipent peut-être pas que la patience et la compréhension sont aussi nécessaires pour les voyageurs et voyageuses retournant à la maison.",
+  "latency_sec": 2.9821,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (fr). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Les gens n'anticipent peut-être pas que la patience et la compréhension sont aussi nécessaires pour les voyageurs et voyageuses retournant à la maison.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPKJVf9BVafDpu/GJIeD6+SG02QZMjzmt6siI/BKYaFeuBcMOT/d1Z6yyABf67"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783228559,
+    "id": "jehJaoqPEvjG2roPjLn34AI",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 186,
+      "total_tokens": 218
+    }
+  }
+}

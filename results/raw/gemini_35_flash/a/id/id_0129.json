@@ -1,0 +1,45 @@
+{
+  "utt_id": "id_0129",
+  "lang": "id",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 8.88,
+  "ref_text_raw": "Permukaan Bulan tersusun dari bebatuan dan debu. Lapisan terluar Bulan dinamakan kerak.",
+  "ref_text_normalized": "permukaan bulan tersusun dari bebatuan dan debu lapisan terluar bulan dinamakan kerak",
+  "timestamp_utc": "2026-07-05T05:46:06Z",
+  "text": "Permukaan bulan tersusun dari bebatuan dan debu. Lapisan terluar bulan dinamakan kerak.",
+  "latency_sec": 3.486,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (id). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Permukaan bulan tersusun dari bebatuan dan debu. Lapisan terluar bulan dinamakan kerak.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqoFCqcFARFNMg9qH7RxCMInC/kulqJVh0H7001qfQFCnZMrQaoUnmogchnU0agP5DUvX1A1VJwHWDsaJkwD0EGe0evK6LfaJHdivPesuzD/0EZ+o9SpAyB0tsCRBdRxqDHoJPmqkrYCCTuw37TY3bLt3Ka0Fk1lLrcKS+Qznm3vyEIwgTjw/q+esVyG1x814ltgUimVQH6fPvxAo0Q5ZtP/aXSxLKdm37XXMQqyFdkMfzc7YRLROUT1ODoZZS3xHr9hvkdawFEAoBpW0rzNeDCp+sQUPFWn5Uor0M1uS2Z2Z5vDkIbCviHV1gJ+5RKve3WEiDm4pbU7xP7vplePemlibcglMaYpS4vkw//R9D1y7C0rSx9hjSOcKkMRcl8VFoqRXmC8L50Fq1XnUb6WTdIp77WPWZOdac3Llb0Ghi8uIT5fJwwzB6m1g2FxWa7ZvVdqFuzZcvQkN1KkwDVUvKq7bMt64nV76Ecsw5Z4EtcnBIU3vXdP6HxwN0jQ9jkCODPNGWwJWuaH7ENvbJ90KiAhAL9XjqA0mVtd70dqYErlxt4TEAcl3hSAo8r7nGMfOWmO8xJlDxT/AOBg5LhnVoNUWeEvFPYeJyWgrGbtD8FKn187uxoV6KtfC/SsoTKpYsBxVHOAiy+c4xpwVAWaEzYO+U+uICgIlbiAPdPfYGYzRLuu8PVc17Ef8EusiMpa/dw9LN8LznAi88l6ea6jHj+xyBiqDCmnBjmiXmfHQAUBwpWm5LD+vPSPY2JO5JK+tT1FjHm0oIgFVEkLAKsL1MdW0YFiDtJA3tC8N2x6g6LbGz4YvzOE510jZrVdZ+4WqkK/b6cjCYtWcqdFe9fKRc0HbcIN4UiJtnGfbQQHl0jElJCiJ9SnOw92DSHzbH6LMR7Ne0j4AIlRcgNyrw=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783230366,
+    "id": "m-9JaprENY-30-kPqfOw8Q0",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 244,
+      "total_tokens": 431
+    }
+  }
+}

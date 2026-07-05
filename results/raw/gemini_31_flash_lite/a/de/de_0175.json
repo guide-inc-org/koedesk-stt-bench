@@ -1,0 +1,44 @@
+{
+  "utt_id": "de_0175",
+  "lang": "de",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 15.78,
+  "ref_text_raw": "Wir wissen es nicht sicher, aber er könnte eine gegabelte Zunge gehabt haben. Er ernährte sich von Schildkröten, großen Fischen, anderen Mosasauriern und war vielleicht sogar ein Kannibale.",
+  "ref_text_normalized": "wir wissen es nicht sicher aber er könnte eine gegabelte zunge gehabt haben er ernährte sich von schildkröten großen fischen anderen mosasauriern und war vielleicht sogar ein kannibale",
+  "timestamp_utc": "2026-07-05T04:10:34Z",
+  "text": "Wir wissen es nicht sicher, aber er könnte eine gegabelte Zunge gehabt haben. Er ernährte sich von Schildkröten, großen Fischen, anderen Mosasaurien und war vielleicht sogar ein Kannibale.",
+  "latency_sec": 2.863,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (de). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Wir wissen es nicht sicher, aber er könnte eine gegabelte Zunge gehabt haben. Er ernährte sich von Schildkröten, großen Fischen, anderen Mosasaurien und war vielleicht sogar ein Kannibale.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIP9VLUpgQPI/+cQ//UecqAJad4H1VuKAxJKGVoL3xb7s6uEQ3DcUNhI6C5XeTA"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783224634,
+    "id": "OdlJas2mGNy4vr0Pgo3U0Q8",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 416,
+      "total_tokens": 463
+    }
+  }
+}

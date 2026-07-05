@@ -1,0 +1,44 @@
+{
+  "utt_id": "zh_0045",
+  "lang": "zh",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 5.58,
+  "ref_text_raw": "沧龙是那个时代的顶级掠食者，除了同类它什么都不怕。",
+  "ref_text_normalized": "沧 龙 是 那 个 时 代 的 顶 级 掠 食 者 除 了 同 类 它 什 么 都 不 怕",
+  "timestamp_utc": "2026-07-05T09:13:23Z",
+  "text": "沧龙是那个时代的顶级掠食者，除了同类，他什么都不怕。",
+  "latency_sec": 3.2802,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "沧龙是那个时代的顶级掠食者，除了同类，他什么都不怕。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPxy48NvEmjUc9KYJtgnklSz7CVPgzAGHiK79upcXOgWFrKO9D3TDcniuoGQr2"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242803,
+    "id": "MSBKau7EJqyv1e8P3_jVaA",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 161,
+      "total_tokens": 180
+    }
+  }
+}

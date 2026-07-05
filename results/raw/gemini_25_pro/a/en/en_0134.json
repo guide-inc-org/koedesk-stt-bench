@@ -1,0 +1,39 @@
+{
+  "utt_id": "en_0134",
+  "lang": "en",
+  "engine": "gemini_25_pro",
+  "duration_sec": 6.64,
+  "ref_text_raw": "One bomb exploded outside the governor general's office.",
+  "ref_text_normalized": "one bomb exploded outside the governor general's office",
+  "timestamp_utc": "2026-07-05T03:26:50Z",
+  "text": "One bomb exploded outside the Governor General's office.",
+  "latency_sec": 4.4708,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (en). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "One bomb exploded outside the Governor General's office.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783222010,
+    "id": "985JaqfvDJ2hvr0P78yT2Q8",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 11,
+      "prompt_tokens": 234,
+      "total_tokens": 293
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "utt_id": "vi_0119",
+  "lang": "vi",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 20.88,
+  "ref_text_raw": "Vào mùa hè, mọi người thường hay thưởng thức một món đơn giản và phổ biến có tên là Pa amb Pli: gồm bánh mì dùng kèm dầu ô-liu, cà chua và bất cứ gia vị nào sẵn có như phô mai, cá ngừ, vv... vào bữa tối",
+  "ref_text_normalized": "vào mùa hè mọi người thường hay thưởng thức một món đơn giản và phổ biến có tên là pa amb pli gồm bánh mì dùng kèm dầu ô-liu cà chua và bất cứ gia vị nào sẵn có như phô mai cá ngừ vv vào bữa tối",
+  "timestamp_utc": "2026-07-05T08:39:42Z",
+  "text": "Vào mùa hè, mọi người thường hay thưởng thức một món đơn giản và phổ biến có tên là bruschetta gồm bánh mì dùng kèm dầu ô liu, cà chua và bất cứ gia vị nào sẵn có như phô mai, cá ngừ, vân vân vào buổi tối.",
+  "latency_sec": 7.2469,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (vi). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Vào mùa hè, mọi người thường hay thưởng thức một món đơn giản và phổ biến có tên là bruschetta gồm bánh mì dùng kèm dầu ô liu, cà chua và bất cứ gia vị nào sẵn có như phô mai, cá ngừ, vân vân vào buổi tối.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783240782,
+    "id": "SBhKaoO9N5j_1e8PrLe2mQQ",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 57,
+      "prompt_tokens": 543,
+      "total_tokens": 1514
+    }
+  }
+}

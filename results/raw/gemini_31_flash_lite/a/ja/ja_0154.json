@@ -1,0 +1,44 @@
+{
+  "utt_id": "ja_0154",
+  "lang": "ja",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 16.8,
+  "ref_text_raw": "哲学者のアリストテレスは、万物は4つの要素のうち1つ以上を混合した物で構成されているという理論を唱えました。4つの要素とは、土、水、空気、火です。",
+  "ref_text_normalized": "哲学者のアリストテレスは 万物は4つの要素のうち1つ以上を混合した物で構成されているという理論を唱えました 4つの要素とは 土 水 空気 火です",
+  "timestamp_utc": "2026-07-05T03:20:28Z",
+  "text": "哲学 者 の アリストテレス は 、 万物 は 4 つ の 要素 の うち 1 つ 以上 混合 し た もの で 構成 さ れ て いる と いう 理論 を 唱え まし た 。 4 つ の 要素 と は 、 土 、 水 、 空気 、 火 です 。",
+  "latency_sec": 2.7671,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "哲学 者 の アリストテレス は 、 万物 は 4 つ の 要素 の うち 1 つ 以上 混合 し た もの で 構成 さ れ て いる と いう 理論 を 唱え まし た 。 4 つ の 要素 と は 、 土 、 水 、 空気 、 火 です 。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPFsqCIC4ZhPDOv5y+MozBum+Xj1srRgqoB1jpg/aZkZojChIRPJo29cYemIzV"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783221628,
+    "id": "e81JasgYg4vT6Q-JiPK5BA",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 63,
+      "prompt_tokens": 441,
+      "total_tokens": 504
+    }
+  }
+}

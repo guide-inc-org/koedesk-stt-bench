@@ -1,0 +1,39 @@
+{
+  "utt_id": "ja_0017",
+  "lang": "ja",
+  "engine": "gemini_25_pro",
+  "duration_sec": 18.3,
+  "ref_text_raw": "ドイツの焼き菓子の多くは、アーモンドやヘーゼルナッツなどの木の実を使っています。人気のあるケーキは、特に強いコーヒーとよく合います。",
+  "ref_text_normalized": "ドイツの焼き菓子の多くは アーモンドやヘーゼルナッツなどの木の実を使っています 人気のあるケーキは 特に強いコーヒーとよく合います",
+  "timestamp_utc": "2026-07-05T10:03:23Z",
+  "text": "ドイツの焼き菓子の多くはアーモンドや ヘーゼルナッツなどの木の実を使っています。 人気のあるケーキは特に 強いコーヒーとよく合います。",
+  "latency_sec": 6.861,
+  "params": {
+    "model": "google-ai-studio/gemini-2.5-pro",
+    "prompt": "Transcribe this audio verbatim in its original language (ja). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "ドイツの焼き菓子の多くはアーモンドや ヘーゼルナッツなどの木の実を使っています。 人気のあるケーキは特に 強いコーヒーとよく合います。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783245803,
+    "id": "5itKavzgAdGX0-kP9sqqsAE",
+    "model": "gemini-2.5-pro",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 607,
+      "total_tokens": 967
+    }
+  }
+}

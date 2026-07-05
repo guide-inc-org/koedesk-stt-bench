@@ -1,0 +1,45 @@
+{
+  "utt_id": "th_0122",
+  "lang": "th",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 3.84,
+  "ref_text_raw": "นี่จะไม่ใช่การอำลา นี่เป็นการปิดบทตอนหนึ่งและเปิดบทตอนใหม่",
+  "ref_text_normalized": "นี่จะไม่ใช่การอำลา นี่เป็นการปิดบทตอนหนึ่งและเปิดบทตอนใหม่",
+  "timestamp_utc": "2026-07-05T08:03:28Z",
+  "text": "นี่จะไม่ใช่การอัป นี่จะเป็นการปิดบทตอนหนึ่ง และเปิดบทตอนใหม่",
+  "latency_sec": 4.9708,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (th). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "นี่จะไม่ใช่การอัป นี่จะเป็นการปิดบทตอนหนึ่ง และเปิดบทตอนใหม่",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783238608,
+    "id": "zA9KasPZMOCzvr0P57qd6Ac",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 117,
+      "total_tokens": 577
+    }
+  }
+}

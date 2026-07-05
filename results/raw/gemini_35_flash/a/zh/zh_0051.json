@@ -1,0 +1,45 @@
+{
+  "utt_id": "zh_0051",
+  "lang": "zh",
+  "engine": "gemini_35_flash_via_latest",
+  "duration_sec": 9.9,
+  "ref_text_raw": "因此，铅笔一问世，就成了许多人的心头好。",
+  "ref_text_normalized": "因 此 铅 笔 一 问 世 就 成 了 许 多 人 的 心 头 好",
+  "timestamp_utc": "2026-07-05T09:10:00Z",
+  "text": "因此，铅笔一问世就成了许多人的心头好。",
+  "latency_sec": 4.078,
+  "params": {
+    "model": "google-ai-studio/gemini-flash-latest",
+    "prompt": "Transcribe this audio verbatim in its original language (zh). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway",
+    "resolved_as_of": "2026-07-04: gemini-flash-latest = Gemini 3.5 Flash GA (official changelog)"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "因此，铅笔一问世就成了许多人的心头好。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Et0FCtoFARFNMg9sqiLh/1U1/lzdW9jY+XUrcaggns07buTT8clS7hxLDeiJPo7xslTJOX21rpTNrxzj9qwUpJD+3VwBg29UztiUUHS2KcgVAIsKAd1Vzcg0yBjbXRhC2zjiBz3m1HXUCfXzfjji/moEIDzlmee/MiYMXsrE5vMDQ8PSb9UO7K49ynL5U20+XW9lIv4pmdh3JdYYcvG73o4T3jWQz9ncYr2dCl03vUHBAC2K/uV5VZ9Vjl6BSyY9T9k3dK/BHNlzj+AyzV5fi/8Lrnys+E65iuIqSyfn2gSeEsDkwoefrCPgtle6jgBRekAcWv28i8OS8HNJgRbygPGxjsPxVT8knD3GghriLRnjnI3Ie1lhv9tGkmSfxlELPD7hcvLRz7nA/hRpMpfE+I8ziMpAaE7f2NZa52vmR+BwEprTzlv/FHkYwpi1Ci7cAlLQ/xuxnJtXVoPmpwK+B4FLho60hGSdRAu7IxMIM4vT9tmkJe78Utw5l+JToUIftI2cRwAbBPNppPFosO34+xnDfDP7VFD7fR8aLkPtdOGrxj0j0vk+nLYVRxKQm2Ev8lfIP1b65IdMHnHpiPkXMP70Z9Hv/xKOsDUGuuRa0RFwfJ4Koe63zxh6+HoLzpLw3KqeID3iHYlcK/31QoCmezP02bBg/svtj8lEGdZyQpnZ3H5BculrcGfZiUf6r9uFkG6X3uPHEvMzF5fIfJ3vAwBIIGblw2o0CZC5W11TxN6z5DonXdba9QZjkL8XzR8QSip91jPheqTUi/oVzAvZr39MTypulTCno1nlS2EofdByyVUgBqFjHBMPV/ovwwa0g1COFuEmUl2F7TyR38qPM4fzKb28W1Z87sAxKMH9TCtiffhw/M5iGYqkj+YVWLz3lhAyCWAP4xVACdK5VTKVaIuGVCVUWGVOE+BQQlpojdcP6PoL4S2F4BRxEySpUlNaNIylxcrppu3EC0D6girQfw=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783242600,
+    "id": "Zh9KaqNrnaG-vQ_vzJPZDw",
+    "model": "gemini-flash-latest",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 15,
+      "prompt_tokens": 269,
+      "total_tokens": 501
+    }
+  }
+}

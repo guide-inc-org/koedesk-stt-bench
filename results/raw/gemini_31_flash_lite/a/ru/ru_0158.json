@@ -1,0 +1,44 @@
+{
+  "utt_id": "ru_0158",
+  "lang": "ru",
+  "engine": "gemini_31_flash_lite",
+  "duration_sec": 10.8,
+  "ref_text_raw": "Большинство современных исследовательских телескопов — это огромные сооружения в удаленных местах с благоприятными атмосферными условиями.",
+  "ref_text_normalized": "большинство современных исследовательских телескопов это огромные сооружения в удаленных местах с благоприятными атмосферными условиями",
+  "timestamp_utc": "2026-07-05T07:36:44Z",
+  "text": "Большинство современных исследовательских телескопов - это огромные сооружения в удаленных местах с благоприятными атмосферными условиями.",
+  "latency_sec": 4.1821,
+  "params": {
+    "model": "google-ai-studio/gemini-3.1-flash-lite",
+    "prompt": "Transcribe this audio verbatim in its original language (ru). Output only the transcription, nothing else.",
+    "via": "cf-ai-gateway"
+  },
+  "error": null,
+  "retries": 0,
+  "raw_response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Большинство современных исследовательских телескопов - это огромные сооружения в удаленных местах с благоприятными атмосферными условиями.",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EjQKMgERTTIPGzyuTnTzMZJ450ANTMFR9GYMABZI14mU3jC64RJoN+jrZAWJ/ngdVeUBFnoC"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1783237004,
+    "id": "iwlKat6gDM_g1e8PpM-tqAQ",
+    "model": "gemini-3.1-flash-lite",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 291,
+      "total_tokens": 317
+    }
+  }
+}
