@@ -43,3 +43,13 @@ Before any headline measurement, the normalizers for all 12 languages were subje
 **Fix 3 — declared converter range enforced (ja).** §5.5 declares the ja converter covers integers 0–99,999; the implementation had no upper-bound check (`一千万` → `10000000`). Runs whose parsed value exceeds 99,999 are now left untouched in full, matching the declared range and the shipped `zh`/`ko` behavior.
 
 All fixes carry regression tests that fail on the pre-fix implementation; the full suite (12 languages + scoring) passes.
+
+---
+
+## Amendment 4 — th normalizer defect fix from the Track A reference-text audit (2026-07-05)
+
+Before any headline measurement, the full Track A reference corpus (FLEURS, first 200 test-split utterances per language, all 12 languages) was swept through the published normalizers with the numeral-conversion stage diffed on/off, and every firing was reviewed by eye. One defect was found; it is fixed here under §7's defects-only rule. No headline cell has been measured under either behavior, so the dual-table obligation is vacuous (declared for completeness).
+
+**Fix — th lexicalized blocklist entry `โกหก`.** The common verb **โกหก** ("to lie") ends in the numeral spelling **หก** (six) and was not in `_LEXICALIZED_BLOCKLIST`, so it was corrupted to `โก6` — the same word-final-numeral-spelling class the blocklist already covers (`เรียบร้อย`, `กองพัน`, …), observed in 2 of the 200 FLEURS th references (th_0018, th_0128). The word is added to the blocklist with regression tests that fail on the pre-fix implementation; the full suite passes. Because both reference and hypothesis pass through the same deterministic normalizer, the pre-fix behavior was symmetric and did not bias any comparison; this is a conformance fix against the §5.5 conservative-conversion rule, not an outcome adjustment.
+
+**Observed and intentionally retained — Unicode vulgar fractions under NFKC (pt).** The same audit surfaced one cosmetic corner of the declared pipeline: NFKC (step 1 of the Latin-script normalizers) decomposes `29¾` to `29` + `3⁄4`, and fraction-slash removal then yields `293 4` (pt_0028; 1 of 200 pt references). This is a direct consequence of the declared NFKC step, is deterministic and symmetric across reference and hypothesis, and no engine output format is advantaged; it is recorded here for transparency and left unchanged. If a future amendment changes fraction handling, this entry marks that the behavior was known before any measurement.
