@@ -1,0 +1,4380 @@
+{
+  "tracks": {
+    "a": {
+      "de": {
+        "engines": {
+          "deepgram": {
+            "cer": {
+              "ci95": [
+                0.017961,
+                0.035064
+              ],
+              "corpus_rate": 0.025675,
+              "utterance_mean": 0.024385
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "nova-3"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.258,
+            "rtf_p50": 0.1679,
+            "rtf_p90": 0.2599,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.047537,
+                0.070675
+              ],
+              "corpus_rate": 0.0586,
+              "utterance_mean": 0.058815
+            }
+          },
+          "elevenlabs": {
+            "cer": {
+              "ci95": [
+                0.006713,
+                0.013513
+              ],
+              "corpus_rate": 0.009779,
+              "utterance_mean": 0.009716
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "scribe_v2"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.22,
+            "rtf_p50": 0.1676,
+            "rtf_p90": 0.2681,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.022007,
+                0.034112
+              ],
+              "corpus_rate": 0.027958,
+              "utterance_mean": 0.027416
+            }
+          },
+          "gemini": {
+            "cer": {
+              "ci95": [
+                0.008062,
+                0.013408
+              ],
+              "corpus_rate": 0.010564,
+              "utterance_mean": 0.011899
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-2.5-flash"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.3185,
+            "rtf_p90": 0.5282,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.032918,
+                0.051601
+              ],
+              "corpus_rate": 0.041825,
+              "utterance_mean": 0.044696
+            }
+          },
+          "gemini_25_pro": {
+            "cer": {
+              "ci95": [
+                0.007074,
+                0.032669
+              ],
+              "corpus_rate": 0.017105,
+              "utterance_mean": 0.019116
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-2.5-pro"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.4092,
+            "rtf_p90": 0.7219,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.027508,
+                0.055797
+              ],
+              "corpus_rate": 0.039812,
+              "utterance_mean": 0.044315
+            }
+          },
+          "gemini_31_flash_lite": {
+            "cer": {
+              "ci95": [
+                0.007177,
+                0.012129
+              ],
+              "corpus_rate": 0.009518,
+              "utterance_mean": 0.011437
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-3.1-flash-lite"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.2419,
+            "rtf_p90": 0.4324,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.027977,
+                0.04428
+              ],
+              "corpus_rate": 0.035786,
+              "utterance_mean": 0.03999
+            }
+          },
+          "gemini_31_pro": {
+            "cer": {
+              "ci95": [
+                0.005216,
+                0.010182
+              ],
+              "corpus_rate": 0.007522,
+              "utterance_mean": 0.008188
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-3.1-pro-preview"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.5943,
+            "rtf_p90": 1.131,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.017165,
+                0.028537
+              ],
+              "corpus_rate": 0.02259,
+              "utterance_mean": 0.025579
+            }
+          },
+          "gemini_35_flash": {
+            "cer": {
+              "ci95": [
+                0.007032,
+                0.013398
+              ],
+              "corpus_rate": 0.00991,
+              "utterance_mean": 0.010429
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-flash-latest"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.3411,
+            "rtf_p90": 0.6326,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.022965,
+                0.03597
+              ],
+              "corpus_rate": 0.0293,
+              "utterance_mean": 0.031121
+            }
+          },
+          "google_stt_v2": {
+            "cer": {
+              "ci95": [
+                0.005342,
+                0.009266
+              ],
+              "corpus_rate": 0.007228,
+              "utterance_mean": 0.007905
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "chirp_3"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.96,
+            "rtf_p50": 0.3719,
+            "rtf_p90": 0.4833,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.020732,
+                0.03245
+              ],
+              "corpus_rate": 0.026392,
+              "utterance_mean": 0.028799
+            }
+          },
+          "mai_transcribe": {
+            "cer": {
+              "ci95": [
+                0.004749,
+                0.009645
+              ],
+              "corpus_rate": 0.006999,
+              "utterance_mean": 0.008374
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "mai-transcribe-1.5"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.2119,
+            "rtf_p90": 0.3443,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.01674,
+                0.028745
+              ],
+              "corpus_rate": 0.02259,
+              "utterance_mean": 0.024566
+            }
+          },
+          "mistral_voxtral": {
+            "cer": {
+              "ci95": [
+                0.006132,
+                0.010392
+              ],
+              "corpus_rate": 0.008144,
+              "utterance_mean": 0.008957
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "voxtral-mini-2602"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.18,
+            "rtf_p50": 0.1543,
+            "rtf_p90": 0.2483,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.024768,
+                0.039845
+              ],
+              "corpus_rate": 0.031984,
+              "utterance_mean": 0.034855
+            }
+          },
+          "openai": {
+            "cer": {
+              "ci95": [
+                0.004507,
+                0.009144
+              ],
+              "corpus_rate": 0.006672,
+              "utterance_mean": 0.006837
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "gpt-4o-transcribe"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.0884,
+            "rtf_p90": 0.1558,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.01629,
+                0.0285
+              ],
+              "corpus_rate": 0.022143,
+              "utterance_mean": 0.023288
+            }
+          },
+          "whisper1": {
+            "cer": {
+              "ci95": [
+                0.008765,
+                0.015655
+              ],
+              "corpus_rate": 0.011971,
+              "utterance_mean": 0.012805
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "whisper-1"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.154,
+            "rtf_p90": 0.2648,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.030474,
+                0.047324
+              ],
+              "corpus_rate": 0.038694,
+              "utterance_mean": 0.040539
+            }
+          }
+        },
+        "headline_metric": "wer",
+        "tie_groups": [
+          [
+            "openai",
+            "gemini_31_pro",
+            "mai_transcribe",
+            "google_stt_v2"
+          ],
+          [
+            "elevenlabs",
+            "gemini_35_flash",
+            "mistral_voxtral"
+          ],
+          [
+            "gemini_31_flash_lite",
+            "whisper1",
+            "gemini_25_pro",
+            "gemini"
+          ],
+          [
+            "deepgram"
+          ]
+        ]
+      },
+      "en": {
+        "engines": {
+          "deepgram": {
+            "cer": {
+              "ci95": [
+                0.018628,
+                0.027492
+              ],
+              "corpus_rate": 0.022854,
+              "utterance_mean": 0.022592
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "nova-3"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.258,
+            "rtf_p50": 0.2047,
+            "rtf_p90": 0.3337,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.039866,
+                0.055517
+              ],
+              "corpus_rate": 0.047429,
+              "utterance_mean": 0.048059
+            }
+          },
+          "elevenlabs": {
+            "cer": {
+              "ci95": [
+                0.011668,
+                0.019948
+              ],
+              "corpus_rate": 0.015523,
+              "utterance_mean": 0.015232
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "scribe_v2"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.22,
+            "rtf_p50": 0.1932,
+            "rtf_p90": 0.2743,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.022966,
+                0.035976
+              ],
+              "corpus_rate": 0.029115,
+              "utterance_mean": 0.029478
+            }
+          },
+          "gemini": {
+            "cer": {
+              "ci95": [
+                0.017244,
+                0.048127
+              ],
+              "corpus_rate": 0.030062,
+              "utterance_mean": 0.029141
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-2.5-flash"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.3756,
+            "rtf_p90": 0.6157,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.034641,
+                0.066713
+              ],
+              "corpus_rate": 0.048368,
+              "utterance_mean": 0.048851
+            }
+          },
+          "gemini_25_pro": {
+            "cer": {
+              "ci95": [
+                0.012394,
+                0.037636
+              ],
+              "corpus_rate": 0.021789,
+              "utterance_mean": 0.020986
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-2.5-pro"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.512,
+            "rtf_p90": 0.8884,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.025434,
+                0.053107
+              ],
+              "corpus_rate": 0.036628,
+              "utterance_mean": 0.03685
+            }
+          },
+          "gemini_31_flash_lite": {
+            "cer": {
+              "ci95": [
+                0.013344,
+                0.022158
+              ],
+              "corpus_rate": 0.017489,
+              "utterance_mean": 0.0186
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-3.1-flash-lite"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.2967,
+            "rtf_p90": 0.5354,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.02937,
+                0.045005
+              ],
+              "corpus_rate": 0.036863,
+              "utterance_mean": 0.039899
+            }
+          },
+          "gemini_31_pro": {
+            "cer": {
+              "ci95": [
+                0.01031,
+                0.018229
+              ],
+              "corpus_rate": 0.013966,
+              "utterance_mean": 0.013306
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-3.1-pro-preview"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.8185,
+            "rtf_p90": 1.844,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.019131,
+                0.030902
+              ],
+              "corpus_rate": 0.024654,
+              "utterance_mean": 0.024298
+            }
+          },
+          "gemini_35_flash": {
+            "cer": {
+              "ci95": [
+                0.01069,
+                0.018747
+              ],
+              "corpus_rate": 0.014458,
+              "utterance_mean": 0.014148
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-flash-latest"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.4265,
+            "rtf_p90": 0.7243,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.022947,
+                0.036048
+              ],
+              "corpus_rate": 0.029115,
+              "utterance_mean": 0.029584
+            }
+          },
+          "google_stt_v2": {
+            "cer": {
+              "ci95": [
+                0.009581,
+                0.016769
+              ],
+              "corpus_rate": 0.012983,
+              "utterance_mean": 0.013113
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "chirp_3"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.96,
+            "rtf_p50": 0.4147,
+            "rtf_p90": 0.5458,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.020907,
+                0.033111
+              ],
+              "corpus_rate": 0.026767,
+              "utterance_mean": 0.027626
+            }
+          },
+          "mai_transcribe": {
+            "cer": {
+              "ci95": [
+                0.009359,
+                0.017239
+              ],
+              "corpus_rate": 0.013065,
+              "utterance_mean": 0.013629
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "mai-transcribe-1.5"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.2811,
+            "rtf_p90": 0.4344,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.020942,
+                0.034657
+              ],
+              "corpus_rate": 0.027471,
+              "utterance_mean": 0.029158
+            }
+          },
+          "mistral_voxtral": {
+            "cer": {
+              "ci95": [
+                0.010936,
+                0.018436
+              ],
+              "corpus_rate": 0.014458,
+              "utterance_mean": 0.014736
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "voxtral-mini-2602"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.18,
+            "rtf_p50": 0.1967,
+            "rtf_p90": 0.308,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.026784,
+                0.040483
+              ],
+              "corpus_rate": 0.033341,
+              "utterance_mean": 0.034363
+            }
+          },
+          "openai": {
+            "cer": {
+              "ci95": [
+                0.00744,
+                0.016317
+              ],
+              "corpus_rate": 0.011304,
+              "utterance_mean": 0.011387
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "gpt-4o-transcribe"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.099,
+            "rtf_p90": 0.1454,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.016258,
+                0.028329
+              ],
+              "corpus_rate": 0.021836,
+              "utterance_mean": 0.021939
+            }
+          },
+          "whisper1": {
+            "cer": {
+              "ci95": [
+                0.012732,
+                0.02055
+              ],
+              "corpus_rate": 0.016383,
+              "utterance_mean": 0.016387
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "whisper-1"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.1805,
+            "rtf_p90": 0.3326,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.029762,
+                0.043643
+              ],
+              "corpus_rate": 0.036394,
+              "utterance_mean": 0.036706
+            }
+          }
+        },
+        "headline_metric": "wer",
+        "tie_groups": [
+          [
+            "openai",
+            "gemini_31_pro"
+          ],
+          [
+            "google_stt_v2",
+            "mai_transcribe",
+            "elevenlabs",
+            "gemini_35_flash"
+          ],
+          [
+            "mistral_voxtral",
+            "whisper1",
+            "gemini_25_pro",
+            "gemini_31_flash_lite"
+          ],
+          [
+            "deepgram",
+            "gemini"
+          ]
+        ]
+      },
+      "es": {
+        "engines": {
+          "deepgram": {
+            "cer": {
+              "ci95": [
+                0.010364,
+                0.017846
+              ],
+              "corpus_rate": 0.013901,
+              "utterance_mean": 0.014695
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "nova-3"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.258,
+            "rtf_p50": 0.1697,
+            "rtf_p90": 0.2471,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.030878,
+                0.05048
+              ],
+              "corpus_rate": 0.039877,
+              "utterance_mean": 0.045746
+            }
+          },
+          "elevenlabs": {
+            "cer": {
+              "ci95": [
+                0.004026,
+                0.008513
+              ],
+              "corpus_rate": 0.006094,
+              "utterance_mean": 0.007166
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "scribe_v2"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.22,
+            "rtf_p50": 0.167,
+            "rtf_p90": 0.2177,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.011183,
+                0.022398
+              ],
+              "corpus_rate": 0.016296,
+              "utterance_mean": 0.018661
+            }
+          },
+          "gemini": {
+            "cer": {
+              "ci95": [
+                0.005541,
+                0.008949
+              ],
+              "corpus_rate": 0.007181,
+              "utterance_mean": 0.007575
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-2.5-flash"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.3327,
+            "rtf_p90": 0.5081,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.018426,
+                0.02866
+              ],
+              "corpus_rate": 0.02339,
+              "utterance_mean": 0.025217
+            }
+          },
+          "gemini_25_pro": {
+            "cer": {
+              "ci95": [
+                0.004882,
+                0.018269
+              ],
+              "corpus_rate": 0.009685,
+              "utterance_mean": 0.011581
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-2.5-pro"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.4531,
+            "rtf_p90": 0.6627,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.0142,
+                0.030227
+              ],
+              "corpus_rate": 0.021089,
+              "utterance_mean": 0.024014
+            }
+          },
+          "gemini_31_flash_lite": {
+            "cer": {
+              "ci95": [
+                0.005506,
+                0.009465
+              ],
+              "corpus_rate": 0.007379,
+              "utterance_mean": 0.007871
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-3.1-flash-lite"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.2441,
+            "rtf_p90": 0.341,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.017572,
+                0.028854
+              ],
+              "corpus_rate": 0.023006,
+              "utterance_mean": 0.024047
+            }
+          },
+          "gemini_31_pro": {
+            "cer": {
+              "ci95": [
+                0.004134,
+                0.008067
+              ],
+              "corpus_rate": 0.005995,
+              "utterance_mean": 0.006538
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-3.1-pro-preview"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.6364,
+            "rtf_p90": 1.0244,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.011278,
+                0.021577
+              ],
+              "corpus_rate": 0.016104,
+              "utterance_mean": 0.018291
+            }
+          },
+          "gemini_35_flash": {
+            "cer": {
+              "ci95": [
+                0.004384,
+                0.008313
+              ],
+              "corpus_rate": 0.006226,
+              "utterance_mean": 0.006542
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-flash-latest"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.3586,
+            "rtf_p90": 0.4951,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.012911,
+                0.022826
+              ],
+              "corpus_rate": 0.017638,
+              "utterance_mean": 0.018741
+            }
+          },
+          "google_stt_v2": {
+            "cer": {
+              "ci95": [
+                0.003785,
+                0.006868
+              ],
+              "corpus_rate": 0.005238,
+              "utterance_mean": 0.005676
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "chirp_3"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.96,
+            "rtf_p50": 0.3769,
+            "rtf_p90": 0.4402,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.012129,
+                0.020829
+              ],
+              "corpus_rate": 0.016296,
+              "utterance_mean": 0.017871
+            }
+          },
+          "mai_transcribe": {
+            "cer": {
+              "ci95": [
+                0.004252,
+                0.007764
+              ],
+              "corpus_rate": 0.005929,
+              "utterance_mean": 0.006152
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "mai-transcribe-1.5"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.2184,
+            "rtf_p90": 0.3135,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.012406,
+                0.021219
+              ],
+              "corpus_rate": 0.016679,
+              "utterance_mean": 0.016967
+            }
+          },
+          "mistral_voxtral": {
+            "cer": {
+              "ci95": [
+                0.005018,
+                0.009614
+              ],
+              "corpus_rate": 0.007181,
+              "utterance_mean": 0.007186
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "voxtral-mini-2602"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.18,
+            "rtf_p50": 0.1647,
+            "rtf_p90": 0.2249,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.015822,
+                0.027975
+              ],
+              "corpus_rate": 0.021664,
+              "utterance_mean": 0.022391
+            }
+          },
+          "openai": {
+            "cer": {
+              "ci95": [
+                0.003774,
+                0.00776
+              ],
+              "corpus_rate": 0.005633,
+              "utterance_mean": 0.005887
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "gpt-4o-transcribe"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.087,
+            "rtf_p90": 0.1245,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.01072,
+                0.020493
+              ],
+              "corpus_rate": 0.015337,
+              "utterance_mean": 0.016552
+            }
+          },
+          "whisper1": {
+            "cer": {
+              "ci95": [
+                0.005865,
+                0.009997
+              ],
+              "corpus_rate": 0.00784,
+              "utterance_mean": 0.008396
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "whisper-1"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.1523,
+            "rtf_p90": 0.2637,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.020776,
+                0.033988
+              ],
+              "corpus_rate": 0.027032,
+              "utterance_mean": 0.02883
+            }
+          }
+        },
+        "headline_metric": "wer",
+        "tie_groups": [
+          [
+            "openai",
+            "gemini_31_pro",
+            "elevenlabs",
+            "google_stt_v2",
+            "mai_transcribe",
+            "gemini_35_flash"
+          ],
+          [
+            "gemini_25_pro",
+            "mistral_voxtral",
+            "gemini_31_flash_lite",
+            "gemini",
+            "whisper1"
+          ],
+          [
+            "deepgram"
+          ]
+        ]
+      },
+      "fr": {
+        "engines": {
+          "deepgram": {
+            "cer": {
+              "ci95": [
+                0.022568,
+                0.03263
+              ],
+              "corpus_rate": 0.027458,
+              "utterance_mean": 0.030488
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "nova-3"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.258,
+            "rtf_p50": 0.1924,
+            "rtf_p90": 0.2975,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.063893,
+                0.08809
+              ],
+              "corpus_rate": 0.075655,
+              "utterance_mean": 0.08119
+            }
+          },
+          "elevenlabs": {
+            "cer": {
+              "ci95": [
+                0.010871,
+                0.017238
+              ],
+              "corpus_rate": 0.013972,
+              "utterance_mean": 0.014109
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "scribe_v2"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.22,
+            "rtf_p50": 0.1845,
+            "rtf_p90": 0.2677,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.032041,
+                0.045968
+              ],
+              "corpus_rate": 0.038991,
+              "utterance_mean": 0.03973
+            }
+          },
+          "gemini": {
+            "cer": {
+              "ci95": [
+                0.018116,
+                0.035277
+              ],
+              "corpus_rate": 0.024962,
+              "utterance_mean": 0.027543
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-2.5-flash"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.3928,
+            "rtf_p90": 0.6464,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.054789,
+                0.083604
+              ],
+              "corpus_rate": 0.067701,
+              "utterance_mean": 0.072348
+            }
+          },
+          "gemini_25_pro": {
+            "cer": {
+              "ci95": [
+                0.011109,
+                0.017508
+              ],
+              "corpus_rate": 0.014199,
+              "utterance_mean": 0.016138
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-2.5-pro"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.5469,
+            "rtf_p90": 1.0339,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.035553,
+                0.052681
+              ],
+              "corpus_rate": 0.044035,
+              "utterance_mean": 0.04747
+            }
+          },
+          "gemini_31_flash_lite": {
+            "cer": {
+              "ci95": [
+                0.014277,
+                0.021723
+              ],
+              "corpus_rate": 0.017862,
+              "utterance_mean": 0.020521
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-3.1-flash-lite"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.2831,
+            "rtf_p90": 0.5045,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.042998,
+                0.062312
+              ],
+              "corpus_rate": 0.052376,
+              "utterance_mean": 0.058426
+            }
+          },
+          "gemini_31_pro": {
+            "cer": {
+              "ci95": [
+                0.009181,
+                0.014746
+              ],
+              "corpus_rate": 0.01193,
+              "utterance_mean": 0.012672
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-3.1-pro-preview"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.8097,
+            "rtf_p90": 1.539,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.02745,
+                0.042045
+              ],
+              "corpus_rate": 0.03453,
+              "utterance_mean": 0.036107
+            }
+          },
+          "gemini_35_flash": {
+            "cer": {
+              "ci95": [
+                0.013179,
+                0.019779
+              ],
+              "corpus_rate": 0.016371,
+              "utterance_mean": 0.017813
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-flash-latest"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.4467,
+            "rtf_p90": 0.7983,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.03477,
+                0.04988
+              ],
+              "corpus_rate": 0.042095,
+              "utterance_mean": 0.043411
+            }
+          },
+          "google_stt_v2": {
+            "cer": {
+              "ci95": [
+                0.011372,
+                0.017701
+              ],
+              "corpus_rate": 0.014458,
+              "utterance_mean": 0.015764
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "chirp_3"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.96,
+            "rtf_p50": 0.4027,
+            "rtf_p90": 0.5246,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.037201,
+                0.055228
+              ],
+              "corpus_rate": 0.045975,
+              "utterance_mean": 0.050119
+            }
+          },
+          "mai_transcribe": {
+            "cer": {
+              "ci95": [
+                0.0083,
+                0.012753
+              ],
+              "corpus_rate": 0.010439,
+              "utterance_mean": 0.010792
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "mai-transcribe-1.5"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.2464,
+            "rtf_p90": 0.3659,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.028077,
+                0.040901
+              ],
+              "corpus_rate": 0.034336,
+              "utterance_mean": 0.033951
+            }
+          },
+          "mistral_voxtral": {
+            "cer": {
+              "ci95": [
+                0.012635,
+                0.018533
+              ],
+              "corpus_rate": 0.015528,
+              "utterance_mean": 0.016209
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "voxtral-mini-2602"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.18,
+            "rtf_p50": 0.1744,
+            "rtf_p90": 0.273,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.040777,
+                0.057879
+              ],
+              "corpus_rate": 0.049079,
+              "utterance_mean": 0.050144
+            }
+          },
+          "openai": {
+            "cer": {
+              "ci95": [
+                0.008794,
+                0.014062
+              ],
+              "corpus_rate": 0.011314,
+              "utterance_mean": 0.013174
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "gpt-4o-transcribe"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.0983,
+            "rtf_p90": 0.1504,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.02835,
+                0.042814
+              ],
+              "corpus_rate": 0.0355,
+              "utterance_mean": 0.038846
+            }
+          },
+          "whisper1": {
+            "cer": {
+              "ci95": [
+                0.01626,
+                0.023328
+              ],
+              "corpus_rate": 0.01971,
+              "utterance_mean": 0.020681
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "whisper-1"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.1868,
+            "rtf_p90": 0.3311,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.051306,
+                0.069749
+              ],
+              "corpus_rate": 0.06033,
+              "utterance_mean": 0.062116
+            }
+          }
+        },
+        "headline_metric": "wer",
+        "tie_groups": [
+          [
+            "mai_transcribe",
+            "gemini_31_pro",
+            "openai",
+            "elevenlabs"
+          ],
+          [
+            "gemini_35_flash",
+            "gemini_25_pro",
+            "google_stt_v2",
+            "mistral_voxtral"
+          ],
+          [
+            "gemini_31_flash_lite",
+            "whisper1"
+          ],
+          [
+            "gemini",
+            "deepgram"
+          ]
+        ]
+      },
+      "id": {
+        "engines": {
+          "deepgram": {
+            "cer": {
+              "ci95": [
+                0.018571,
+                0.033044
+              ],
+              "corpus_rate": 0.025171,
+              "utterance_mean": 0.025827
+            },
+            "empty_transcripts": 1,
+            "model_ids": [
+              "nova-3"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.258,
+            "rtf_p50": 0.1724,
+            "rtf_p90": 0.258,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.070123,
+                0.096791
+              ],
+              "corpus_rate": 0.083077,
+              "utterance_mean": 0.084596
+            }
+          },
+          "elevenlabs": {
+            "cer": {
+              "ci95": [
+                0.004816,
+                0.010873
+              ],
+              "corpus_rate": 0.007577,
+              "utterance_mean": 0.007838
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "scribe_v2"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.22,
+            "rtf_p50": 0.1609,
+            "rtf_p90": 0.2242,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.014547,
+                0.026625
+              ],
+              "corpus_rate": 0.020256,
+              "utterance_mean": 0.022291
+            }
+          },
+          "gemini": {
+            "cer": {
+              "ci95": [
+                0.007228,
+                0.013825
+              ],
+              "corpus_rate": 0.010275,
+              "utterance_mean": 0.010584
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-2.5-flash"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.3411,
+            "rtf_p90": 0.5221,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.026647,
+                0.042754
+              ],
+              "corpus_rate": 0.034359,
+              "utterance_mean": 0.035349
+            }
+          },
+          "gemini_25_pro": {
+            "cer": {
+              "ci95": [
+                0.004473,
+                0.00934
+              ],
+              "corpus_rate": 0.006764,
+              "utterance_mean": 0.006611
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-2.5-pro"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.4983,
+            "rtf_p90": 0.8348,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.014858,
+                0.027062
+              ],
+              "corpus_rate": 0.020769,
+              "utterance_mean": 0.022346
+            }
+          },
+          "gemini_31_flash_lite": {
+            "cer": {
+              "ci95": [
+                0.00561,
+                0.011277
+              ],
+              "corpus_rate": 0.008279,
+              "utterance_mean": 0.008146
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-3.1-flash-lite"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.2629,
+            "rtf_p90": 0.4172,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.018015,
+                0.030954
+              ],
+              "corpus_rate": 0.024359,
+              "utterance_mean": 0.023821
+            }
+          },
+          "gemini_31_pro": {
+            "cer": {
+              "ci95": [
+                0.005025,
+                0.01119
+              ],
+              "corpus_rate": 0.007836,
+              "utterance_mean": 0.008077
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-3.1-pro-preview"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.643,
+            "rtf_p90": 1.092,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.014618,
+                0.026768
+              ],
+              "corpus_rate": 0.020513,
+              "utterance_mean": 0.022551
+            }
+          },
+          "gemini_35_flash": {
+            "cer": {
+              "ci95": [
+                0.00572,
+                0.013051
+              ],
+              "corpus_rate": 0.009056,
+              "utterance_mean": 0.009082
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-flash-latest"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.4016,
+            "rtf_p90": 0.5932,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.016909,
+                0.02977
+              ],
+              "corpus_rate": 0.023077,
+              "utterance_mean": 0.024947
+            }
+          },
+          "google_stt_v2": {
+            "cer": {
+              "ci95": [
+                0.003799,
+                0.008261
+              ],
+              "corpus_rate": 0.00584,
+              "utterance_mean": 0.005995
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "chirp_3"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.96,
+            "rtf_p50": 0.3833,
+            "rtf_p90": 0.4611,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.012924,
+                0.023677
+              ],
+              "corpus_rate": 0.017949,
+              "utterance_mean": 0.019494
+            }
+          },
+          "mai_transcribe": {
+            "cer": {
+              "ci95": [
+                0.00513,
+                0.028097
+              ],
+              "corpus_rate": 0.013343,
+              "utterance_mean": 0.01331
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "mai-transcribe-1.5"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.2254,
+            "rtf_p90": 0.3357,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.017513,
+                0.045327
+              ],
+              "corpus_rate": 0.028718,
+              "utterance_mean": 0.028837
+            }
+          },
+          "openai": {
+            "cer": {
+              "ci95": [
+                0.007747,
+                0.01527
+              ],
+              "corpus_rate": 0.011162,
+              "utterance_mean": 0.013256
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "gpt-4o-transcribe"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.0887,
+            "rtf_p90": 0.1355,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.022366,
+                0.036548
+              ],
+              "corpus_rate": 0.029231,
+              "utterance_mean": 0.032273
+            }
+          },
+          "whisper1": {
+            "cer": {
+              "ci95": [
+                0.016038,
+                0.025038
+              ],
+              "corpus_rate": 0.020366,
+              "utterance_mean": 0.020692
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "whisper-1"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.1508,
+            "rtf_p90": 0.2629,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.05626,
+                0.078485
+              ],
+              "corpus_rate": 0.067179,
+              "utterance_mean": 0.070834
+            }
+          }
+        },
+        "headline_metric": "wer",
+        "tie_groups": [
+          [
+            "google_stt_v2",
+            "elevenlabs",
+            "gemini_31_pro",
+            "gemini_25_pro",
+            "gemini_35_flash"
+          ],
+          [
+            "gemini_31_flash_lite",
+            "mai_transcribe",
+            "openai"
+          ],
+          [
+            "gemini"
+          ],
+          [
+            "whisper1"
+          ],
+          [
+            "deepgram"
+          ]
+        ]
+      },
+      "ja": {
+        "engines": {
+          "amivoice": {
+            "cer": {
+              "ci95": [
+                0.064584,
+                0.088369
+              ],
+              "corpus_rate": 0.075982,
+              "utterance_mean": 0.07146
+            },
+            "empty_transcripts": 0,
+            "model_ids": [],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.1782,
+            "rtf_p90": 0.2311,
+            "run_dates": [
+              "2026-07-04",
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.068479,
+                0.091499
+              ],
+              "corpus_rate": 0.079627,
+              "utterance_mean": 0.0776
+            }
+          },
+          "deepgram": {
+            "cer": {
+              "ci95": [
+                0.049114,
+                0.069261
+              ],
+              "corpus_rate": 0.058746,
+              "utterance_mean": 0.058408
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "nova-3"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.258,
+            "rtf_p50": 0.1763,
+            "rtf_p90": 0.2473,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.058112,
+                0.076314
+              ],
+              "corpus_rate": 0.066971,
+              "utterance_mean": 0.068473
+            }
+          },
+          "elevenlabs": {
+            "cer": {
+              "ci95": [
+                0.017474,
+                0.028549
+              ],
+              "corpus_rate": 0.022642,
+              "utterance_mean": 0.021423
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "scribe_v2"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.22,
+            "rtf_p50": 0.1553,
+            "rtf_p90": 0.2021,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.022026,
+                0.032032
+              ],
+              "corpus_rate": 0.026894,
+              "utterance_mean": 0.026471
+            }
+          },
+          "gemini": {
+            "cer": {
+              "ci95": [
+                0.040636,
+                0.065674
+              ],
+              "corpus_rate": 0.051912,
+              "utterance_mean": 0.051251
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-2.5-flash"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.3304,
+            "rtf_p90": 0.4855,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.053068,
+                0.07815
+              ],
+              "corpus_rate": 0.064335,
+              "utterance_mean": 0.065835
+            }
+          },
+          "gemini_25_pro": {
+            "cer": {
+              "ci95": [
+                0.02773,
+                0.050374
+              ],
+              "corpus_rate": 0.037532,
+              "utterance_mean": 0.037433
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-2.5-pro"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.4371,
+            "rtf_p90": 0.6726,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.034105,
+                0.055355
+              ],
+              "corpus_rate": 0.043241,
+              "utterance_mean": 0.045553
+            }
+          },
+          "gemini_31_flash_lite": {
+            "cer": {
+              "ci95": [
+                0.037243,
+                0.05391
+              ],
+              "corpus_rate": 0.045283,
+              "utterance_mean": 0.045193
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-3.1-flash-lite"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.2444,
+            "rtf_p90": 0.3452,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.045943,
+                0.062881
+              ],
+              "corpus_rate": 0.05414,
+              "utterance_mean": 0.056595
+            }
+          },
+          "gemini_31_pro": {
+            "cer": {
+              "ci95": [
+                0.019557,
+                0.030638
+              ],
+              "corpus_rate": 0.024885,
+              "utterance_mean": 0.026023
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-3.1-pro-preview"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.7528,
+            "rtf_p90": 1.4249,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.023552,
+                0.034382
+              ],
+              "corpus_rate": 0.028828,
+              "utterance_mean": 0.029858
+            }
+          },
+          "gemini_35_flash": {
+            "cer": {
+              "ci95": [
+                0.027159,
+                0.041899
+              ],
+              "corpus_rate": 0.034268,
+              "utterance_mean": 0.034008
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-flash-latest"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.3973,
+            "rtf_p90": 0.5939,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.031322,
+                0.045041
+              ],
+              "corpus_rate": 0.037968,
+              "utterance_mean": 0.038217
+            }
+          },
+          "google_stt_v2": {
+            "cer": {
+              "ci95": [
+                0.023486,
+                0.035203
+              ],
+              "corpus_rate": 0.029169,
+              "utterance_mean": 0.029224
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "chirp_3"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.96,
+            "rtf_p50": 0.3692,
+            "rtf_p90": 0.4347,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.02921,
+                0.042056
+              ],
+              "corpus_rate": 0.035507,
+              "utterance_mean": 0.036835
+            }
+          },
+          "mai_transcribe": {
+            "cer": {
+              "ci95": [
+                0.013278,
+                0.026036
+              ],
+              "corpus_rate": 0.019072,
+              "utterance_mean": 0.017393
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "mai-transcribe-1.5"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.2161,
+            "rtf_p90": 0.303,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.018345,
+                0.028375
+              ],
+              "corpus_rate": 0.023203,
+              "utterance_mean": 0.023544
+            }
+          },
+          "mistral_voxtral": {
+            "cer": {
+              "ci95": [
+                0.034139,
+                0.050194
+              ],
+              "corpus_rate": 0.041815,
+              "utterance_mean": 0.040041
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "voxtral-mini-2602"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.18,
+            "rtf_p50": 0.1652,
+            "rtf_p90": 0.2185,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.042028,
+                0.056292
+              ],
+              "corpus_rate": 0.049042,
+              "utterance_mean": 0.048099
+            }
+          },
+          "openai": {
+            "cer": {
+              "ci95": [
+                0.023377,
+                0.036362
+              ],
+              "corpus_rate": 0.029577,
+              "utterance_mean": 0.02847
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "gpt-4o-transcribe"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.0919,
+            "rtf_p90": 0.1508,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.028834,
+                0.041788
+              ],
+              "corpus_rate": 0.03498,
+              "utterance_mean": 0.035132
+            }
+          },
+          "whisper1": {
+            "cer": {
+              "ci95": [
+                0.046719,
+                0.063583
+              ],
+              "corpus_rate": 0.05487,
+              "utterance_mean": 0.053544
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "whisper-1"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.149,
+            "rtf_p90": 0.2468,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.058436,
+                0.076269
+              ],
+              "corpus_rate": 0.067147,
+              "utterance_mean": 0.06796
+            }
+          }
+        },
+        "headline_metric": "cer",
+        "tie_groups": [
+          [
+            "mai_transcribe",
+            "elevenlabs",
+            "gemini_31_pro"
+          ],
+          [
+            "google_stt_v2",
+            "openai",
+            "gemini_35_flash",
+            "gemini_25_pro"
+          ],
+          [
+            "mistral_voxtral",
+            "gemini_31_flash_lite"
+          ],
+          [
+            "gemini",
+            "whisper1",
+            "deepgram"
+          ],
+          [
+            "amivoice"
+          ]
+        ]
+      },
+      "ko": {
+        "engines": {
+          "deepgram": {
+            "cer": {
+              "ci95": [
+                0.074526,
+                0.112734
+              ],
+              "corpus_rate": 0.092746,
+              "utterance_mean": 0.086356
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "nova-3"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.258,
+            "rtf_p50": 0.1695,
+            "rtf_p90": 0.2537,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.187982,
+                0.254878
+              ],
+              "corpus_rate": 0.220942,
+              "utterance_mean": 0.21928
+            }
+          },
+          "elevenlabs": {
+            "cer": {
+              "ci95": [
+                0.034508,
+                0.066483
+              ],
+              "corpus_rate": 0.049289,
+              "utterance_mean": 0.042725
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "scribe_v2"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.22,
+            "rtf_p50": 0.1561,
+            "rtf_p90": 0.2111,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.0809,
+                0.122855
+              ],
+              "corpus_rate": 0.100757,
+              "utterance_mean": 0.095161
+            }
+          },
+          "gemini": {
+            "cer": {
+              "ci95": [
+                0.043423,
+                0.075036
+              ],
+              "corpus_rate": 0.058162,
+              "utterance_mean": 0.051378
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-2.5-flash"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.3353,
+            "rtf_p90": 0.555,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.109579,
+                0.152988
+              ],
+              "corpus_rate": 0.130721,
+              "utterance_mean": 0.12485
+            }
+          },
+          "gemini_25_pro": {
+            "cer": {
+              "ci95": [
+                0.037976,
+                0.069627
+              ],
+              "corpus_rate": 0.05274,
+              "utterance_mean": 0.046471
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-2.5-pro"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.4253,
+            "rtf_p90": 0.7924,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.094488,
+                0.138694
+              ],
+              "corpus_rate": 0.115904,
+              "utterance_mean": 0.111748
+            }
+          },
+          "gemini_31_flash_lite": {
+            "cer": {
+              "ci95": [
+                0.03984,
+                0.07136
+              ],
+              "corpus_rate": 0.054547,
+              "utterance_mean": 0.04783
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-3.1-flash-lite"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.2453,
+            "rtf_p90": 0.3507,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.096867,
+                0.139364
+              ],
+              "corpus_rate": 0.11755,
+              "utterance_mean": 0.111302
+            }
+          },
+          "gemini_31_pro": {
+            "cer": {
+              "ci95": [
+                0.038215,
+                0.070023
+              ],
+              "corpus_rate": 0.052986,
+              "utterance_mean": 0.046164
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-3.1-pro-preview"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.6713,
+            "rtf_p90": 1.3223,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.093607,
+                0.137412
+              ],
+              "corpus_rate": 0.114587,
+              "utterance_mean": 0.10764
+            }
+          },
+          "gemini_35_flash": {
+            "cer": {
+              "ci95": [
+                0.042,
+                0.074647
+              ],
+              "corpus_rate": 0.057176,
+              "utterance_mean": 0.051144
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-flash-latest"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.3703,
+            "rtf_p90": 0.636,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.10244,
+                0.148335
+              ],
+              "corpus_rate": 0.124794,
+              "utterance_mean": 0.119467
+            }
+          },
+          "google_stt_v2": {
+            "cer": {
+              "ci95": [
+                0.038373,
+                0.069675
+              ],
+              "corpus_rate": 0.052986,
+              "utterance_mean": 0.047111
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "chirp_3"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.96,
+            "rtf_p50": 0.3727,
+            "rtf_p90": 0.4337,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.094729,
+                0.136395
+              ],
+              "corpus_rate": 0.114916,
+              "utterance_mean": 0.113906
+            }
+          },
+          "mai_transcribe": {
+            "cer": {
+              "ci95": [
+                0.036709,
+                0.068277
+              ],
+              "corpus_rate": 0.051507,
+              "utterance_mean": 0.044734
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "mai-transcribe-1.5"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.2106,
+            "rtf_p90": 0.3088,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.085281,
+                0.12814
+              ],
+              "corpus_rate": 0.106026,
+              "utterance_mean": 0.10292
+            }
+          },
+          "mistral_voxtral": {
+            "cer": {
+              "ci95": [
+                0.046042,
+                0.077997
+              ],
+              "corpus_rate": 0.060872,
+              "utterance_mean": 0.054535
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "voxtral-mini-2602"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.18,
+            "rtf_p50": 0.1542,
+            "rtf_p90": 0.2125,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.128968,
+                0.174204
+              ],
+              "corpus_rate": 0.151136,
+              "utterance_mean": 0.146939
+            }
+          },
+          "openai": {
+            "cer": {
+              "ci95": [
+                0.038873,
+                0.071572
+              ],
+              "corpus_rate": 0.054054,
+              "utterance_mean": 0.047672
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "gpt-4o-transcribe"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.0869,
+            "rtf_p90": 0.1369,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.100669,
+                0.147519
+              ],
+              "corpus_rate": 0.123148,
+              "utterance_mean": 0.117558
+            }
+          },
+          "whisper1": {
+            "cer": {
+              "ci95": [
+                0.051218,
+                0.08343
+              ],
+              "corpus_rate": 0.066212,
+              "utterance_mean": 0.059742
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "whisper-1"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.1476,
+            "rtf_p90": 0.2426,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.14559,
+                0.193631
+              ],
+              "corpus_rate": 0.169246,
+              "utterance_mean": 0.165492
+            }
+          }
+        },
+        "headline_metric": "wer",
+        "tie_groups": [
+          [
+            "elevenlabs",
+            "mai_transcribe"
+          ],
+          [
+            "gemini_31_pro",
+            "google_stt_v2",
+            "gemini_25_pro",
+            "gemini_31_flash_lite",
+            "openai",
+            "gemini_35_flash"
+          ],
+          [
+            "gemini"
+          ],
+          [
+            "mistral_voxtral"
+          ],
+          [
+            "whisper1"
+          ],
+          [
+            "deepgram"
+          ]
+        ]
+      },
+      "pt": {
+        "engines": {
+          "deepgram": {
+            "cer": {
+              "ci95": [
+                0.016612,
+                0.026059
+              ],
+              "corpus_rate": 0.021211,
+              "utterance_mean": 0.020583
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "nova-3"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.258,
+            "rtf_p50": 0.16,
+            "rtf_p90": 0.2246,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.045183,
+                0.064932
+              ],
+              "corpus_rate": 0.054654,
+              "utterance_mean": 0.055748
+            }
+          },
+          "elevenlabs": {
+            "cer": {
+              "ci95": [
+                0.007834,
+                0.014336
+              ],
+              "corpus_rate": 0.010954,
+              "utterance_mean": 0.010594
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "scribe_v2"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.22,
+            "rtf_p50": 0.1549,
+            "rtf_p90": 0.2014,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.017864,
+                0.02928
+              ],
+              "corpus_rate": 0.023423,
+              "utterance_mean": 0.022277
+            }
+          },
+          "gemini": {
+            "cer": {
+              "ci95": [
+                0.010566,
+                0.016813
+              ],
+              "corpus_rate": 0.013536,
+              "utterance_mean": 0.014624
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-2.5-flash"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.3179,
+            "rtf_p90": 0.4686,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.031972,
+                0.047036
+              ],
+              "corpus_rate": 0.039244,
+              "utterance_mean": 0.040559
+            }
+          },
+          "gemini_25_pro": {
+            "cer": {
+              "ci95": [
+                0.007488,
+                0.012613
+              ],
+              "corpus_rate": 0.009942,
+              "utterance_mean": 0.010181
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-2.5-pro"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.4364,
+            "rtf_p90": 0.6721,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.023416,
+                0.037337
+              ],
+              "corpus_rate": 0.030203,
+              "utterance_mean": 0.029454
+            }
+          },
+          "gemini_31_flash_lite": {
+            "cer": {
+              "ci95": [
+                0.008694,
+                0.0144
+              ],
+              "corpus_rate": 0.011443,
+              "utterance_mean": 0.012015
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-3.1-flash-lite"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.2312,
+            "rtf_p90": 0.3439,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.026608,
+                0.042014
+              ],
+              "corpus_rate": 0.034107,
+              "utterance_mean": 0.034306
+            }
+          },
+          "gemini_31_pro": {
+            "cer": {
+              "ci95": [
+                0.007592,
+                0.013935
+              ],
+              "corpus_rate": 0.010605,
+              "utterance_mean": 0.010893
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-3.1-pro-preview"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.6845,
+            "rtf_p90": 1.1298,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.020123,
+                0.032407
+              ],
+              "corpus_rate": 0.026094,
+              "utterance_mean": 0.026085
+            }
+          },
+          "gemini_35_flash": {
+            "cer": {
+              "ci95": [
+                0.010774,
+                0.031178
+              ],
+              "corpus_rate": 0.018629,
+              "utterance_mean": 0.01743
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-flash-latest"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.3436,
+            "rtf_p90": 0.5299,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.02797,
+                0.050848
+              ],
+              "corpus_rate": 0.038011,
+              "utterance_mean": 0.037483
+            }
+          },
+          "google_stt_v2": {
+            "cer": {
+              "ci95": [
+                0.00678,
+                0.011463
+              ],
+              "corpus_rate": 0.009001,
+              "utterance_mean": 0.009379
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "chirp_3"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.96,
+            "rtf_p50": 0.3651,
+            "rtf_p90": 0.4417,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.0205,
+                0.032213
+              ],
+              "corpus_rate": 0.0263,
+              "utterance_mean": 0.026808
+            }
+          },
+          "mai_transcribe": {
+            "cer": {
+              "ci95": [
+                0.00682,
+                0.011649
+              ],
+              "corpus_rate": 0.00907,
+              "utterance_mean": 0.009738
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "mai-transcribe-1.5"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.2038,
+            "rtf_p90": 0.2888,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.019512,
+                0.031376
+              ],
+              "corpus_rate": 0.025272,
+              "utterance_mean": 0.025104
+            }
+          },
+          "mistral_voxtral": {
+            "cer": {
+              "ci95": [
+                0.008515,
+                0.013264
+              ],
+              "corpus_rate": 0.01078,
+              "utterance_mean": 0.011579
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "voxtral-mini-2602"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.18,
+            "rtf_p50": 0.1532,
+            "rtf_p90": 0.2217,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.026917,
+                0.039938
+              ],
+              "corpus_rate": 0.03308,
+              "utterance_mean": 0.035321
+            }
+          },
+          "openai": {
+            "cer": {
+              "ci95": [
+                0.005928,
+                0.010987
+              ],
+              "corpus_rate": 0.008268,
+              "utterance_mean": 0.00952
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "gpt-4o-transcribe"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.0864,
+            "rtf_p90": 0.1331,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.018141,
+                0.03057
+              ],
+              "corpus_rate": 0.024039,
+              "utterance_mean": 0.026059
+            }
+          },
+          "whisper1": {
+            "cer": {
+              "ci95": [
+                0.010002,
+                0.015395
+              ],
+              "corpus_rate": 0.012594,
+              "utterance_mean": 0.013216
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "whisper-1"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.1458,
+            "rtf_p90": 0.2485,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.031933,
+                0.047518
+              ],
+              "corpus_rate": 0.039449,
+              "utterance_mean": 0.041616
+            }
+          }
+        },
+        "headline_metric": "wer",
+        "tie_groups": [
+          [
+            "elevenlabs",
+            "openai",
+            "mai_transcribe",
+            "gemini_31_pro",
+            "google_stt_v2"
+          ],
+          [
+            "gemini_25_pro",
+            "mistral_voxtral",
+            "gemini_31_flash_lite",
+            "gemini_35_flash"
+          ],
+          [
+            "gemini",
+            "whisper1"
+          ],
+          [
+            "deepgram"
+          ]
+        ]
+      },
+      "ru": {
+        "engines": {
+          "deepgram": {
+            "cer": {
+              "ci95": [
+                0.011721,
+                0.022398
+              ],
+              "corpus_rate": 0.01667,
+              "utterance_mean": 0.017489
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "nova-3"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.258,
+            "rtf_p50": 0.1882,
+            "rtf_p90": 0.2905,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.035676,
+                0.05575
+              ],
+              "corpus_rate": 0.045107,
+              "utterance_mean": 0.048522
+            }
+          },
+          "elevenlabs": {
+            "cer": {
+              "ci95": [
+                0.007459,
+                0.017882
+              ],
+              "corpus_rate": 0.012209,
+              "utterance_mean": 0.013737
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "scribe_v2"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.22,
+            "rtf_p50": 0.1784,
+            "rtf_p90": 0.2394,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.020248,
+                0.036306
+              ],
+              "corpus_rate": 0.027697,
+              "utterance_mean": 0.028377
+            }
+          },
+          "gemini": {
+            "cer": {
+              "ci95": [
+                0.005992,
+                0.012831
+              ],
+              "corpus_rate": 0.009072,
+              "utterance_mean": 0.010112
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-2.5-flash"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.3696,
+            "rtf_p90": 0.5873,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.021386,
+                0.03589
+              ],
+              "corpus_rate": 0.028225,
+              "utterance_mean": 0.029065
+            }
+          },
+          "gemini_25_pro": {
+            "cer": {
+              "ci95": [
+                0.005894,
+                0.018301
+              ],
+              "corpus_rate": 0.011151,
+              "utterance_mean": 0.012308
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-2.5-pro"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.4903,
+            "rtf_p90": 0.759,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.019529,
+                0.036635
+              ],
+              "corpus_rate": 0.027433,
+              "utterance_mean": 0.027011
+            }
+          },
+          "gemini_31_flash_lite": {
+            "cer": {
+              "ci95": [
+                0.005838,
+                0.012866
+              ],
+              "corpus_rate": 0.009034,
+              "utterance_mean": 0.009993
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-3.1-flash-lite"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.2672,
+            "rtf_p90": 0.3875,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.022193,
+                0.038655
+              ],
+              "corpus_rate": 0.030071,
+              "utterance_mean": 0.030371
+            }
+          },
+          "gemini_31_pro": {
+            "cer": {
+              "ci95": [
+                0.006081,
+                0.018045
+              ],
+              "corpus_rate": 0.011189,
+              "utterance_mean": 0.01205
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-3.1-pro-preview"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.8275,
+            "rtf_p90": 1.4415,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.017488,
+                0.032933
+              ],
+              "corpus_rate": 0.024532,
+              "utterance_mean": 0.024839
+            }
+          },
+          "gemini_35_flash": {
+            "cer": {
+              "ci95": [
+                0.008004,
+                0.016027
+              ],
+              "corpus_rate": 0.01168,
+              "utterance_mean": 0.013995
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-flash-latest"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.4113,
+            "rtf_p90": 0.6651,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.022364,
+                0.036866
+              ],
+              "corpus_rate": 0.02928,
+              "utterance_mean": 0.031158
+            }
+          },
+          "google_stt_v2": {
+            "cer": {
+              "ci95": [
+                0.004073,
+                0.016709
+              ],
+              "corpus_rate": 0.009034,
+              "utterance_mean": 0.011672
+            },
+            "empty_transcripts": 1,
+            "model_ids": [
+              "chirp_3"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.96,
+            "rtf_p50": 0.3955,
+            "rtf_p90": 0.4781,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.015562,
+                0.033523
+              ],
+              "corpus_rate": 0.02374,
+              "utterance_mean": 0.026571
+            }
+          },
+          "mai_transcribe": {
+            "cer": {
+              "ci95": [
+                0.004446,
+                0.009101
+              ],
+              "corpus_rate": 0.006615,
+              "utterance_mean": 0.007899
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "mai-transcribe-1.5"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.23,
+            "rtf_p90": 0.3453,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.016576,
+                0.028417
+              ],
+              "corpus_rate": 0.022158,
+              "utterance_mean": 0.024543
+            }
+          },
+          "mistral_voxtral": {
+            "cer": {
+              "ci95": [
+                0.008221,
+                0.01603
+              ],
+              "corpus_rate": 0.011756,
+              "utterance_mean": 0.013577
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "voxtral-mini-2602"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.18,
+            "rtf_p50": 0.1732,
+            "rtf_p90": 0.2408,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.029442,
+                0.045512
+              ],
+              "corpus_rate": 0.037193,
+              "utterance_mean": 0.040445
+            }
+          },
+          "openai": {
+            "cer": {
+              "ci95": [
+                0.005062,
+                0.014683
+              ],
+              "corpus_rate": 0.009337,
+              "utterance_mean": 0.010875
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "gpt-4o-transcribe"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.0981,
+            "rtf_p90": 0.1414,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.018794,
+                0.040444
+              ],
+              "corpus_rate": 0.028489,
+              "utterance_mean": 0.031629
+            }
+          },
+          "whisper1": {
+            "cer": {
+              "ci95": [
+                0.007754,
+                0.014308
+              ],
+              "corpus_rate": 0.010811,
+              "utterance_mean": 0.012347
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "whisper-1"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.1741,
+            "rtf_p90": 0.2755,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.030008,
+                0.046567
+              ],
+              "corpus_rate": 0.037985,
+              "utterance_mean": 0.040716
+            }
+          }
+        },
+        "headline_metric": "wer",
+        "tie_groups": [
+          [
+            "mai_transcribe",
+            "google_stt_v2",
+            "gemini_31_pro",
+            "gemini_25_pro",
+            "elevenlabs",
+            "gemini",
+            "openai"
+          ],
+          [
+            "gemini_35_flash",
+            "gemini_31_flash_lite"
+          ],
+          [
+            "mistral_voxtral",
+            "whisper1"
+          ],
+          [
+            "deepgram"
+          ]
+        ]
+      },
+      "th": {
+        "engines": {
+          "deepgram": {
+            "cer": {
+              "ci95": [
+                0.0682,
+                0.103376
+              ],
+              "corpus_rate": 0.083861,
+              "utterance_mean": 0.09292
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "nova-3"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.258,
+            "rtf_p50": 0.1832,
+            "rtf_p90": 0.3116,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": null
+          },
+          "elevenlabs": {
+            "cer": {
+              "ci95": [
+                0.040423,
+                0.0733
+              ],
+              "corpus_rate": 0.054796,
+              "utterance_mean": 0.061065
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "scribe_v2"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.22,
+            "rtf_p50": 0.1795,
+            "rtf_p90": 0.2699,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": null
+          },
+          "gemini": {
+            "cer": {
+              "ci95": [
+                0.041978,
+                0.075348
+              ],
+              "corpus_rate": 0.056652,
+              "utterance_mean": 0.062681
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-2.5-flash"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.3719,
+            "rtf_p90": 0.6723,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": null
+          },
+          "gemini_25_pro": {
+            "cer": {
+              "ci95": [
+                0.04221,
+                0.081067
+              ],
+              "corpus_rate": 0.059394,
+              "utterance_mean": 0.064998
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-2.5-pro"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.4896,
+            "rtf_p90": 0.9131,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": null
+          },
+          "gemini_31_flash_lite": {
+            "cer": {
+              "ci95": [
+                0.041897,
+                0.076
+              ],
+              "corpus_rate": 0.057032,
+              "utterance_mean": 0.062521
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-3.1-flash-lite"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.2644,
+            "rtf_p90": 0.4445,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": null
+          },
+          "gemini_31_pro": {
+            "cer": {
+              "ci95": [
+                0.03728,
+                0.069693
+              ],
+              "corpus_rate": 0.051422,
+              "utterance_mean": 0.057675
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-3.1-pro-preview"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 1.0451,
+            "rtf_p90": 1.9941,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": null
+          },
+          "gemini_35_flash": {
+            "cer": {
+              "ci95": [
+                0.037371,
+                0.072221
+              ],
+              "corpus_rate": 0.052561,
+              "utterance_mean": 0.058838
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-flash-latest"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.4759,
+            "rtf_p90": 0.8767,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": null
+          },
+          "google_stt_v2": {
+            "cer": {
+              "ci95": [
+                0.037274,
+                0.070034
+              ],
+              "corpus_rate": 0.051675,
+              "utterance_mean": 0.055409
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "chirp_3"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.96,
+            "rtf_p50": 0.3975,
+            "rtf_p90": 0.5159,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": null
+          },
+          "mai_transcribe": {
+            "cer": {
+              "ci95": [
+                0.031,
+                0.048031
+              ],
+              "corpus_rate": 0.039062,
+              "utterance_mean": 0.040269
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "mai-transcribe-1.5"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.2277,
+            "rtf_p90": 0.3698,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": null
+          },
+          "openai": {
+            "cer": {
+              "ci95": [
+                0.042932,
+                0.070741
+              ],
+              "corpus_rate": 0.055471,
+              "utterance_mean": 0.057794
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "gpt-4o-transcribe"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.1069,
+            "rtf_p90": 0.1703,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": null
+          },
+          "whisper1": {
+            "cer": {
+              "ci95": [
+                0.106415,
+                0.136908
+              ],
+              "corpus_rate": 0.120771,
+              "utterance_mean": 0.120078
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "whisper-1"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.2085,
+            "rtf_p90": 0.3626,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": null
+          }
+        },
+        "headline_metric": "cer",
+        "tie_groups": [
+          [
+            "mai_transcribe",
+            "gemini_31_pro",
+            "google_stt_v2",
+            "gemini_35_flash"
+          ],
+          [
+            "elevenlabs",
+            "openai",
+            "gemini",
+            "gemini_31_flash_lite",
+            "gemini_25_pro"
+          ],
+          [
+            "deepgram"
+          ],
+          [
+            "whisper1"
+          ]
+        ]
+      },
+      "vi": {
+        "engines": {
+          "deepgram": {
+            "cer": {
+              "ci95": [
+                0.040397,
+                0.063927
+              ],
+              "corpus_rate": 0.05097,
+              "utterance_mean": 0.050077
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "nova-3"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.258,
+            "rtf_p50": 0.1736,
+            "rtf_p90": 0.2603,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.076442,
+                0.107061
+              ],
+              "corpus_rate": 0.090968,
+              "utterance_mean": 0.092244
+            }
+          },
+          "elevenlabs": {
+            "cer": {
+              "ci95": [
+                0.013555,
+                0.021531
+              ],
+              "corpus_rate": 0.017444,
+              "utterance_mean": 0.01726
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "scribe_v2"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.22,
+            "rtf_p50": 0.1652,
+            "rtf_p90": 0.214,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.024809,
+                0.037851
+              ],
+              "corpus_rate": 0.031133,
+              "utterance_mean": 0.031085
+            }
+          },
+          "gemini": {
+            "cer": {
+              "ci95": [
+                0.020528,
+                0.039622
+              ],
+              "corpus_rate": 0.028558,
+              "utterance_mean": 0.029502
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-2.5-flash"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.332,
+            "rtf_p90": 0.515,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.039314,
+                0.059997
+              ],
+              "corpus_rate": 0.04897,
+              "utterance_mean": 0.052216
+            }
+          },
+          "gemini_25_pro": {
+            "cer": {
+              "ci95": [
+                0.010291,
+                0.038081
+              ],
+              "corpus_rate": 0.021786,
+              "utterance_mean": 0.021469
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-2.5-pro"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.4635,
+            "rtf_p90": 0.8205,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.022101,
+                0.051854
+              ],
+              "corpus_rate": 0.034863,
+              "utterance_mean": 0.035348
+            }
+          },
+          "gemini_31_flash_lite": {
+            "cer": {
+              "ci95": [
+                0.018209,
+                0.028918
+              ],
+              "corpus_rate": 0.023222,
+              "utterance_mean": 0.023498
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-3.1-flash-lite"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.2411,
+            "rtf_p90": 0.3379,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.034415,
+                0.051854
+              ],
+              "corpus_rate": 0.042808,
+              "utterance_mean": 0.044908
+            }
+          },
+          "gemini_31_pro": {
+            "cer": {
+              "ci95": [
+                0.0081,
+                0.014727
+              ],
+              "corpus_rate": 0.011261,
+              "utterance_mean": 0.010658
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-3.1-pro-preview"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.8555,
+            "rtf_p90": 1.7468,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.01576,
+                0.027014
+              ],
+              "corpus_rate": 0.02108,
+              "utterance_mean": 0.020656
+            }
+          },
+          "gemini_35_flash": {
+            "cer": {
+              "ci95": [
+                0.012806,
+                0.021788
+              ],
+              "corpus_rate": 0.017076,
+              "utterance_mean": 0.016858
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-flash-latest"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.4,
+            "rtf_p90": 0.6045,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.023794,
+                0.0388
+              ],
+              "corpus_rate": 0.030809,
+              "utterance_mean": 0.030429
+            }
+          },
+          "google_stt_v2": {
+            "cer": {
+              "ci95": [
+                0.011665,
+                0.018939
+              ],
+              "corpus_rate": 0.015089,
+              "utterance_mean": 0.015145
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "chirp_3"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.96,
+            "rtf_p50": 0.3767,
+            "rtf_p90": 0.4422,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.0214,
+                0.03367
+              ],
+              "corpus_rate": 0.027242,
+              "utterance_mean": 0.027923
+            }
+          },
+          "mai_transcribe": {
+            "cer": {
+              "ci95": [
+                0.011732,
+                0.020505
+              ],
+              "corpus_rate": 0.015825,
+              "utterance_mean": 0.015512
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "mai-transcribe-1.5"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.2114,
+            "rtf_p90": 0.3083,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.0234,
+                0.036055
+              ],
+              "corpus_rate": 0.029512,
+              "utterance_mean": 0.030365
+            }
+          },
+          "openai": {
+            "cer": {
+              "ci95": [
+                0.015646,
+                0.024498
+              ],
+              "corpus_rate": 0.019873,
+              "utterance_mean": 0.019414
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "gpt-4o-transcribe"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.0857,
+            "rtf_p90": 0.1248,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.028571,
+                0.043018
+              ],
+              "corpus_rate": 0.035512,
+              "utterance_mean": 0.036086
+            }
+          },
+          "whisper1": {
+            "cer": {
+              "ci95": [
+                0.039087,
+                0.052074
+              ],
+              "corpus_rate": 0.04545,
+              "utterance_mean": 0.044926
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "whisper-1"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.1737,
+            "rtf_p90": 0.2653,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.084037,
+                0.108518
+              ],
+              "corpus_rate": 0.095995,
+              "utterance_mean": 0.097265
+            }
+          }
+        },
+        "headline_metric": "wer",
+        "tie_groups": [
+          [
+            "gemini_31_pro"
+          ],
+          [
+            "google_stt_v2",
+            "mai_transcribe",
+            "gemini_35_flash",
+            "elevenlabs",
+            "gemini_25_pro"
+          ],
+          [
+            "openai"
+          ],
+          [
+            "gemini_31_flash_lite",
+            "gemini"
+          ],
+          [
+            "deepgram",
+            "whisper1"
+          ]
+        ]
+      },
+      "zh": {
+        "engines": {
+          "deepgram": {
+            "cer": {
+              "ci95": [
+                0.056596,
+                0.094884
+              ],
+              "corpus_rate": 0.074689,
+              "utterance_mean": 0.062865
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "nova-3"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.258,
+            "rtf_p50": 0.185,
+            "rtf_p90": 0.2837,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.074738,
+                0.104882
+              ],
+              "corpus_rate": 0.089541,
+              "utterance_mean": 0.088475
+            }
+          },
+          "elevenlabs": {
+            "cer": {
+              "ci95": [
+                0.04376,
+                0.080626
+              ],
+              "corpus_rate": 0.061183,
+              "utterance_mean": 0.048257
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "scribe_v2"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.22,
+            "rtf_p50": 0.168,
+            "rtf_p90": 0.2274,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.045928,
+                0.070087
+              ],
+              "corpus_rate": 0.057474,
+              "utterance_mean": 0.053544
+            }
+          },
+          "gemini": {
+            "cer": {
+              "ci95": [
+                0.067084,
+                0.109442
+              ],
+              "corpus_rate": 0.086845,
+              "utterance_mean": 0.072815
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-2.5-flash"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.4137,
+            "rtf_p90": 0.6569,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.086131,
+                0.124104
+              ],
+              "corpus_rate": 0.103601,
+              "utterance_mean": 0.098705
+            }
+          },
+          "gemini_25_pro": {
+            "cer": {
+              "ci95": [
+                0.051757,
+                1.373075
+              ],
+              "corpus_rate": 0.483387,
+              "utterance_mean": 0.697855
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-2.5-pro"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.4599,
+            "rtf_p90": 0.7734,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.057439,
+                0.755058
+              ],
+              "corpus_rate": 0.286384,
+              "utterance_mean": 0.404982
+            }
+          },
+          "gemini_31_flash_lite": {
+            "cer": {
+              "ci95": [
+                0.058743,
+                0.09662
+              ],
+              "corpus_rate": 0.076715,
+              "utterance_mean": 0.066616
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-3.1-flash-lite"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.2641,
+            "rtf_p90": 0.3893,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.098863,
+                0.163306
+              ],
+              "corpus_rate": 0.129008,
+              "utterance_mean": 0.140415
+            }
+          },
+          "gemini_31_pro": {
+            "cer": {
+              "ci95": [
+                0.040559,
+                0.07636
+              ],
+              "corpus_rate": 0.057401,
+              "utterance_mean": 0.045544
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-3.1-pro-preview"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.9481,
+            "rtf_p90": 1.9618,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.041443,
+                0.063824
+              ],
+              "corpus_rate": 0.052047,
+              "utterance_mean": 0.048545
+            }
+          },
+          "gemini_35_flash": {
+            "cer": {
+              "ci95": [
+                0.04687,
+                0.082722
+              ],
+              "corpus_rate": 0.063749,
+              "utterance_mean": 0.053012
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "google-ai-studio/gemini-flash-latest"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": null,
+            "rtf_p50": 0.4633,
+            "rtf_p90": 0.7341,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.051989,
+                0.074608
+              ],
+              "corpus_rate": 0.062901,
+              "utterance_mean": 0.06167
+            }
+          },
+          "google_stt_v2": {
+            "cer": {
+              "ci95": [
+                0.048849,
+                0.085916
+              ],
+              "corpus_rate": 0.066451,
+              "utterance_mean": 0.052895
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "chirp_3"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.96,
+            "rtf_p50": 0.3955,
+            "rtf_p90": 0.489,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.054992,
+                0.08004
+              ],
+              "corpus_rate": 0.067094,
+              "utterance_mean": 0.06382
+            }
+          },
+          "mai_transcribe": {
+            "cer": {
+              "ci95": [
+                0.035858,
+                0.071621
+              ],
+              "corpus_rate": 0.052539,
+              "utterance_mean": 0.039509
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "mai-transcribe-1.5"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.2348,
+            "rtf_p90": 0.3586,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.03665,
+                0.057688
+              ],
+              "corpus_rate": 0.046867,
+              "utterance_mean": 0.041646
+            }
+          },
+          "mistral_voxtral": {
+            "cer": {
+              "ci95": [
+                0.050148,
+                0.087196
+              ],
+              "corpus_rate": 0.067666,
+              "utterance_mean": 0.055543
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "voxtral-mini-2602"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.18,
+            "rtf_p50": 0.173,
+            "rtf_p90": 0.2629,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.061301,
+                0.089172
+              ],
+              "corpus_rate": 0.074741,
+              "utterance_mean": 0.072146
+            }
+          },
+          "openai": {
+            "cer": {
+              "ci95": [
+                0.041678,
+                0.077611
+              ],
+              "corpus_rate": 0.058617,
+              "utterance_mean": 0.04637
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "gpt-4o-transcribe"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.0949,
+            "rtf_p90": 0.159,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.042548,
+                0.06545
+              ],
+              "corpus_rate": 0.053527,
+              "utterance_mean": 0.051776
+            }
+          },
+          "whisper1": {
+            "cer": {
+              "ci95": [
+                0.054493,
+                0.091739
+              ],
+              "corpus_rate": 0.072123,
+              "utterance_mean": 0.062233
+            },
+            "empty_transcripts": 0,
+            "model_ids": [
+              "whisper-1"
+            ],
+            "n_utterances": 200,
+            "price_per_audio_hour_usd": 0.36,
+            "rtf_p50": 0.1692,
+            "rtf_p90": 0.2859,
+            "run_dates": [
+              "2026-07-05"
+            ],
+            "wer": {
+              "ci95": [
+                0.065475,
+                0.091952
+              ],
+              "corpus_rate": 0.078441,
+              "utterance_mean": 0.081293
+            }
+          }
+        },
+        "headline_metric": "cer",
+        "tie_groups": [
+          [
+            "mai_transcribe"
+          ],
+          [
+            "gemini_31_pro",
+            "openai"
+          ],
+          [
+            "elevenlabs",
+            "gemini_35_flash",
+            "google_stt_v2"
+          ],
+          [
+            "mistral_voxtral"
+          ],
+          [
+            "whisper1",
+            "deepgram",
+            "gemini_31_flash_lite"
+          ],
+          [
+            "gemini",
+            "gemini_25_pro"
+          ]
+        ]
+      }
+    }
+  }
+}
