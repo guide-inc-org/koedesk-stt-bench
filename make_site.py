@@ -27,6 +27,7 @@ I18N_DIR = os.path.join(ROOT, "i18n")
 OUT_DIR = os.path.join(ROOT, "site")
 
 REPO_URL = "https://github.com/guide-inc-org/koedesk-stt-bench"
+HF_URL = "https://huggingface.co/datasets/koedesk/stt-bench"
 BASE_URL = "https://koedesk.app"
 
 DEFAULT_LOCALE = "en"
@@ -398,6 +399,7 @@ def render(scores: dict, locale: str, t: T, all_strings: dict[str, dict]) -> str
 <p>{t('repro_html')}</p>
 
 <footer>
+<div><a href="{REPO_URL}">GitHub</a> · <a href="{HF_URL}">🤗 Hugging Face (raw data)</a></div>
 {t('footer_html')}
 <div class="locale-links">{locale_links}</div>
 </footer>
