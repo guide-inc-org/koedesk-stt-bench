@@ -27,7 +27,7 @@ I18N_DIR = os.path.join(ROOT, "i18n")
 OUT_DIR = os.path.join(ROOT, "site")
 
 REPO_URL = "https://github.com/guide-inc-org/koedesk-stt-bench"
-BASE_URL = "https://koedesk.app/benchmark"
+BASE_URL = "https://koedesk.app"
 
 DEFAULT_LOCALE = "en"
 # Mirrors koedesk.app www/src/i18n/locales-list.mjs (36 locales).
@@ -182,7 +182,10 @@ class T:
 
 
 def url_for(locale: str) -> str:
-    return f"{BASE_URL}/" if locale == DEFAULT_LOCALE else f"{BASE_URL}/{locale}/"
+    # locale-first, mirroring koedesk.app page URLs (/ja/manifesto/ 等)
+    if locale == DEFAULT_LOCALE:
+        return f"{BASE_URL}/benchmark/"
+    return f"{BASE_URL}/{locale}/benchmark/"
 
 
 def ci_cell(block: dict | None) -> str:
@@ -413,9 +416,9 @@ def main() -> None:
         t = T(all_strings[locale], base)
         html_text = render(scores, locale, t, all_strings)
         out = (
-            os.path.join(OUT_DIR, "index.html")
+            os.path.join(OUT_DIR, "benchmark", "index.html")
             if locale == DEFAULT_LOCALE
-            else os.path.join(OUT_DIR, locale, "index.html")
+            else os.path.join(OUT_DIR, locale, "benchmark", "index.html")
         )
         os.makedirs(os.path.dirname(out), exist_ok=True)
         with open(out, "w", encoding="utf-8") as f:
