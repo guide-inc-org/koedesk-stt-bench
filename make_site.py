@@ -120,6 +120,9 @@ a { color: var(--accent); }
 .suggest { background: var(--card); border: 1px solid var(--accent); padding: 10px 16px;
   border-radius: 8px; margin: 12px 0; display: flex; gap: 12px; align-items: center;
   justify-content: space-between; flex-wrap: wrap; }
+/* Author display:flex would otherwise beat the UA's [hidden]{display:none},
+   leaving an empty box when the JS decides not to show the suggestion. */
+.suggest[hidden] { display: none; }
 .suggest a { font-weight: 600; }
 .suggest button { background: none; border: none; color: var(--muted); font-size: 1.1em; cursor: pointer; }
 .tablewrap { overflow-x: auto; }
