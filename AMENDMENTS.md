@@ -79,3 +79,17 @@ Before any headline measurement, the full Track A reference corpus (FLEURS, firs
 **Impact on published numbers: none are changed.** Latency (RTF p50/p90) is an informational metric, not a ranking axis (§6). Because the VPN hop is common to all engines, relative RTF comparison is unaffected; absolute RTF values include a fixed per-request overhead from the Vietnam→Tokyo hop and TLS setup over it. `results/scores.json` is untouched by this amendment. Accuracy metrics never depended on the network description.
 
 **Change.** The §6 environment sentence is corrected in place with a reference to this amendment, and the leaderboard page's footer and latency note are corrected to match. This is a defects-only documentation fix under §7; no scoring, normalization, or data change accompanies it.
+
+---
+
+## Amendment 7 — v1 scope: Track A only; Track B cancelled (2026-07-06)
+
+**Change.** The v1 scope of this benchmark is **Track A only**. Track B (fresh 2026 recorded audio, §4) is **cancelled** — not "pending", not deferred. The §9 commitment *"Track A vs Track B divergence is reported prominently"* is withdrawn. The §4 Track B design section remains in the document unedited as the record of what was planned; it is no longer a commitment of this benchmark.
+
+**Reason.** Track B's pipeline is human at every load-bearing step: scripts are authored per language by humans, native speakers naturalize phrasing before recording, and the reference is produced by a human re-transcription of the recording. Each of those steps injects judgment that cannot be frozen in code, cannot be diffed, and cannot be reproduced deterministically by a third party. This benchmark's declared value (§1, §5, §8) is mechanical reproducibility — every published number can be recomputed from published audio, published code, and published raw API responses with zero human decisions in the loop. Track B as designed cannot meet that bar, so it is dropped rather than shipped at a lower evidentiary standard than Track A.
+
+**Not outcome-driven — and why that is verifiable.** No Track B audio was ever recorded and no Track B measurement of any engine was ever run; the repository's full public history contains no Track B artifact of any kind. A scope decision cannot be conditioned on results that do not exist. The §4 v1 scope decision (2026-07-04, pre-freeze) had already shipped v1 with zero Track B recordings; this amendment converts that "fresh audio pending" state into a definitive cancellation.
+
+**What remains.** Track A's known limitation stands and is stated prominently wherever results are shown: public test sets (FLEURS) may appear in engine training data, so Track A connects to vendor-claimed numbers and public leaderboards rather than proving real-world accuracy (§4). The contamination question is real; this benchmark now answers it by disclosure, not by measurement. Anyone may record their own contamination-proof audio and run the full published pipeline on it via §8 — the §4 Track B design is CC-BY 4.0 like the rest of the documents and may serve as a recipe.
+
+**Mechanical edits carried by this amendment.** §4 and §9 receive a dated pointer to this amendment (no frozen text is deleted); §8's `TRACK=<a|b>` switch and Track B audio references become vacuous for v1; the leaderboard banner changes from "Track B is pending" to the v1-is-Track-A-only wording; README status updated. No scoring, normalization, or data change accompanies this amendment; `results/scores.json` is untouched; the dual-table obligation is not triggered.

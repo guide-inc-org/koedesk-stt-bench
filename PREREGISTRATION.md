@@ -60,6 +60,8 @@ Declared before measurement: per ElevenLabs' own published language tiers (docs,
 
 ### Track B — fresh 2026 audio (contamination-proof; the point of this benchmark)
 
+> **Amendment 7 (2026-07-06): Track B is cancelled — v1 is Track A only.** Decided before any Track B audio was recorded or any Track B measurement was run; see `AMENDMENTS.md`. This section remains unedited below as the design record.
+
 Per language, target ≈30 minutes, three categories:
 
 | Cat | Material | Purpose |
@@ -133,6 +135,6 @@ Before this preregistration is finalized, a pilot is run to debug the pipeline a
 ## 9. Publication commitments
 
 - All 12 languages' results are published, including every language where Scribe v2 loses.
-- Track A vs Track B divergence is reported prominently (it is the headline question of the accompanying article).
+- Track A vs Track B divergence is reported prominently (it is the headline question of the accompanying article). — *Withdrawn by Amendment 7 (2026-07-06): Track B is cancelled; Track A's contamination caveat is disclosed prominently instead.*
 - The leaderboard states per-engine run dates and the next scheduled refresh (quarterly).
 - Errata and amendments are append-only and dated.
