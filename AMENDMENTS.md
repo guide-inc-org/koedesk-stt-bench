@@ -93,3 +93,25 @@ Before any headline measurement, the full Track A reference corpus (FLEURS, firs
 **What remains.** Track A's known limitation stands and is stated prominently wherever results are shown: public test sets (FLEURS) may appear in engine training data, so Track A connects to vendor-claimed numbers and public leaderboards rather than proving real-world accuracy (§4). The contamination question is real; this benchmark now answers it by disclosure, not by measurement. Anyone may record their own contamination-proof audio and run the full published pipeline on it via §8 — the §4 Track B design is CC-BY 4.0 like the rest of the documents and may serve as a recipe.
 
 **Mechanical edits carried by this amendment.** §4 and §9 receive a dated pointer to this amendment (no frozen text is deleted); §8's `TRACK=<a|b>` switch and Track B audio references become vacuous for v1; the leaderboard banner changes from "Track B is pending" to the v1-is-Track-A-only wording; README status updated. No scoring, normalization, or data change accompanies this amendment; `results/scores.json` is untouched; the dual-table obligation is not triggered.
+
+---
+
+## Amendment 8 — no scheduled refresh; correction of what this repository contains (2026-10-13)
+
+**Change 1 — §9.** The §9 commitment *"The leaderboard states per-engine run dates and the next scheduled refresh (quarterly)"* is narrowed to *"The leaderboard states per-engine run dates."* **No refresh is scheduled.** The quarterly refresh that the leaderboard footer announced for 2026-10 will not take place. v1 stays published as a dated snapshot (run window 2026-07-05, UTC). If the benchmark is run again, that run will be announced by a further amendment before any measurement.
+
+**Reason.** The operator decided on 2026-07-24 not to maintain a periodic refresh. The leaderboard footer kept announcing "Next scheduled refresh: quarterly (2026-10)" after that decision. That was an omission on our side, and this amendment corrects it.
+
+**Change 2 — §8 and R-2.3.** §8 says that `make bench LANG=<lang> ENGINE=<engine|all> TRACK=<a|b>` re-runs any cell with your own API keys, that this repository contains dataset fetch scripts, and that the leaderboard is generated from `results/scores.json` by CI. R-2.3 says that the fixed Gemini instruction is published verbatim in the engine adapter. **This repository has never contained a Makefile, engine adapters or dataset fetch scripts, and the leaderboard is not built by CI.** The description is corrected to what is actually published:
+
+- the frozen methodology (`PREREGISTRATION.md`), the amendments and the terms-of-service audit;
+- all normalizer and scoring code with tests (`normalizers/`, `scoring/`, `make_scores.py`);
+- the audio delivery normalization (`normalize_audio.py`);
+- every raw API response together with the request parameters that were sent (the `params` field of each file under `results/raw/`; for Gemini variants it holds the fixed instruction verbatim);
+- `results/scores.json` and the leaderboard generator (`make_site.py`), which is run by hand and writes no hand-edited numbers.
+
+What this means for reproduction: every published score can be recomputed from the published raw responses with the code in this repository (`python3 make_scores.py`). That requires Python with numpy and the third-party packages named in the code, at the versions they were verified with (regex 2026.6.28, more-itertools 11.1.0, fugashi 1.5.2, unidic-lite 1.0.8, OpenCC 1.4.0, jieba 0.42.1). Checked on 2026-10-13 in a fresh environment with those versions (Python 3.13, numpy 2.5.4): the regenerated `results/scores.json` is byte-identical to the published file. Re-running an engine requires writing the API call yourself from the published request parameters. The test audio is reconstructed from FLEURS as described in the Hugging Face dataset card (test split, first 200 utterances per language, then `normalize_audio.py`).
+
+**Impact on published numbers: none.** No scoring, normalization or data change accompanies this amendment; `results/scores.json` is untouched; the dual-table obligation is not triggered.
+
+**Mechanical edits carried by this amendment.** §8, §9 and R-2.3 receive a dated pointer to this amendment (no frozen text is deleted); the leaderboard footer changes from "Next scheduled refresh: quarterly (2026-10)" to "No refresh is scheduled (Amendment 8)" in all 36 locales; README status updated.
